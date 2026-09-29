@@ -121,24 +121,28 @@ Do not create a more complex fingerprint system unless repeated real collisions 
 
 ## Hourly maintenance behavior
 
-The scheduled task runs at most once per hour.
+The scheduled task runs once per hour.
 
 Every run prioritizes maintenance over discovery:
 
-1. read current open GitHub Issues;
+1. read current open GitHub Issues and new user comments;
 2. check both Gmail accounts for new job-search evidence;
 3. update existing Issues before creating anything new;
 4. convert application receipts to `WAIT`;
 5. convert OA/interview/recruiter/deadline items to `ACTION`;
 6. close confirmed rejections/expired/duplicate items;
 7. avoid creating duplicate Issues;
-8. perform market discovery only when the discovery cooldown has elapsed.
+8. perform market discovery only during designated discovery hours.
 
-### Discovery cooldown
+### Discovery cadence
 
-Full market discovery should run approximately every four hours, not every hourly maintenance cycle.
+Do not create another state file just to track a cooldown.
 
-The same hourly task may decide whether discovery is due. No second scheduler is necessary.
+Run market discovery only on hourly runs whose local Malaysia hour is approximately:
+
+`00:00, 04:00, 08:00, 12:00, 16:00, 20:00 MYT`
+
+Other hourly runs perform maintenance only.
 
 Discovery is incremental rather than a full restart.
 
@@ -174,17 +178,29 @@ Notify the user only for items such as:
 
 Normal new `APPLY` Issues do not require an interruption; they can wait in GitHub for the user to review after waking.
 
-## User interaction
+## User interaction and authorization
 
 The user should be able to work primarily from GitHub Issues.
 
-Desired simple commands/comments:
+Simple commands/comments:
 
-- `go` — user wants to proceed with this exact role/application action;
+- `go` — explicit authorization to proceed with this exact role/application action;
 - `applied` — user confirms manual submission when no receipt has arrived yet;
 - `skip` — close as intentionally skipped.
 
-Email evidence can supersede manual comments when an official receipt/outcome is available.
+`APPLY` status by itself is **not** authorization to submit. A scheduled run must never auto-apply solely because an Issue is marked `APPLY`.
+
+Before any submission, perform one final exact-role dedupe check. Email evidence can supersede manual comments when an official receipt/outcome is available.
+
+## Execution-model constraint
+
+The intended quality level is careful, high-effort verification. However, the scheduler interface does not expose a reliable setting to pin every future run to a specific model/effort combination such as `GPT-5.6 Sol High`.
+
+Therefore:
+
+- the task prompt should explicitly require thorough verification and evidence-first reasoning;
+- do not claim that hourly executions are guaranteed to run on Sol High;
+- if the product later exposes a model/effort selector for scheduled tasks, it can be enabled without changing this architecture.
 
 ## Privacy
 
@@ -232,7 +248,8 @@ The design succeeds if:
 3. serious new roles contain company background, JD interpretation, fit/gaps, work-authorization context, supported compensation/WLB evidence, direct apply route, and dedupe result;
 4. routine hourly runs are quiet unless there is a meaningful change;
 5. repeated searches do not create duplicate Issues;
-6. the repo remains small enough that maintenance is simpler than the prior job-agent system.
+6. no application is submitted without exact-role authorization;
+7. the repo remains small enough that maintenance is simpler than the prior job-agent system.
 
 ## Explicit non-goals
 
