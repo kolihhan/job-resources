@@ -88,6 +88,24 @@ Only four open states:
 
 `CHECK` means one material blocker, and the Issue must name the blocker and exactly one next action.
 
+## Issue labels
+
+Labels are the filter/index layer; the title remains the human-readable state.
+
+Every **open** Issue must have exactly:
+
+- one status label matching the title: `status:action`, `status:apply`, `status:check`, or `status:wait`;
+- one market label: `market:sg` or `market:cn`.
+
+When an Issue changes state, update the title status and `status:*` label together in the same maintenance cycle. Do not leave stale status labels behind.
+
+Closed Issues may retain a reason label when useful, for example:
+
+- `status:skipped` — intentionally dropped by the user;
+- `blocked:mcf` — Singapore role whose only verified application route is MyCareersFuture.
+
+Useful filters include `is:open label:"status:apply"`, `is:open label:"status:action"`, `is:open label:"market:sg"`, and combinations such as `is:open label:"status:apply" label:"market:cn"`.
+
 ## APPLY / CHECK research
 
 Store enough to decide without repeating the research:
