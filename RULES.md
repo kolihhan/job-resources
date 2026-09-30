@@ -9,7 +9,8 @@
 5. OA / interview / recruiter reply / time-sensitive deadline → `ACTION`.
 6. Confirmed rejection / expired / duplicate / user `skip` → close the Issue.
 7. Avoid duplicate Issues.
-8. Outside MYT `00/04/08/12/16/20`, stop after maintenance unless a time-sensitive action must be surfaced.
+8. Keep Issue labels synchronized with the title/state.
+9. Outside MYT `00/04/08/12/16/20`, stop after maintenance unless a time-sensitive action must be surfaced.
 
 ## Chat decision sync
 
@@ -89,6 +90,37 @@ Only four open states:
 - `WAIT`
 
 `CHECK` means one material blocker, and the Issue must name the blocker and exactly one next action.
+
+## Labels
+
+Labels are mandatory because the Issue title is for reading and labels are for filtering.
+
+Every tracked Issue must have:
+
+1. exactly one market label:
+   - `market:sg`
+   - `market:cn`
+2. exactly one operational status label matching the Issue state:
+   - `[ACTION]` → `status:action`
+   - `[APPLY]` → `status:apply`
+   - `[CHECK]` → `status:check`
+   - `[WAIT]` → `status:wait`
+
+For intentionally closed outcomes, preserve a useful outcome label when applicable:
+
+- user intentionally skips/drops → `status:skip`
+- application route is unusable/blocked, including MCF-only → `status:blocked`
+
+Whenever an Issue changes state, update the status label in the same operation. Do not leave stale labels such as `status:apply` on a `[WAIT]` Issue.
+
+Useful GitHub filters include:
+
+- `is:issue is:open label:"status:apply"`
+- `is:issue is:open label:"status:wait"`
+- `is:issue is:open label:"status:check"`
+- `is:issue is:open label:"market:sg"`
+- `is:issue is:open label:"market:cn"`
+- combine labels, for example `is:issue is:open label:"market:sg" label:"status:apply"`
 
 ## APPLY / CHECK research
 
