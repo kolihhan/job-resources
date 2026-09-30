@@ -39,7 +39,7 @@ Useful GitHub Issue filters:
 - Singapore ready-to-apply: `is:issue is:open label:"market:sg" label:"status:apply"`
 - China ready-to-apply: `is:issue is:open label:"market:cn" label:"status:apply"`
 
-Closed intentional outcomes may use `status:skip` or `status:blocked` so they remain easy to audit without cluttering the active queue.
+Closed intentional outcomes may use `status:skipped` or `status:blocked`; MCF-only Singapore roles also use `blocked:mcf` so they remain easy to audit without cluttering the active queue.
 
 ## Issue title
 
