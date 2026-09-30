@@ -72,6 +72,28 @@ A clear skip/drop decision made in ChatGPT should be mirrored to the matching Gi
 - MyCareersFuture-only roles are blocked for this candidate unless a separate verified non-MCF route exists.
 - If one route blocker remains, use `[CHECK]` instead of `[APPLY]`.
 
+## Discovery model
+
+Discovery is **market-specific**; the same platform mix is not used blindly for Singapore and China.
+
+### Singapore
+
+Primary: official company careers/ATS, LinkedIn, JobStreet, Indeed.
+
+Support: MyCareersFuture for verification/evidence only, Glassdoor-style sources for company/WLB research, Wellfound selectively for startups.
+
+### Mainland China
+
+Primary: BOSS直聘, official company careers/campus portals, 牛客, 51job/前程无忧, 智联/智联校园.
+
+Secondary: LinkedIn and 猎聘.
+
+Research when useful: 牛客面经/题库, 脉脉, 小红书, 知乎 and employee-review sources.
+
+China discovery must actively filter for **2026 graduate eligibility** (`2026届`, 往届可投, 毕业两年内, 0–3年, 海外留学生, recent graduate). Do not waste the queue on clearly 2027-only roles unless the exact official graduation window includes a 2026 graduate.
+
+Searches run across normal SWE/backend/platform roles and applied-AI roles in parallel; `AI Engineer` is not the dominant keyword.
+
 ## What I should do each morning
 
 1. Handle `[ACTION]` first.
