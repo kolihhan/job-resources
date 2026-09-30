@@ -95,23 +95,24 @@ Only four open states:
 
 Labels are mandatory because the Issue title is for reading and labels are for filtering.
 
-Every tracked Issue must have:
+Every **open** tracked Issue must have exactly:
 
-1. exactly one market label:
+1. one market label:
    - `market:sg`
    - `market:cn`
-2. exactly one operational status label matching the Issue state:
+2. one operational status label matching the Issue title:
    - `[ACTION]` → `status:action`
    - `[APPLY]` → `status:apply`
    - `[CHECK]` → `status:check`
    - `[WAIT]` → `status:wait`
 
-For intentionally closed outcomes, preserve a useful outcome label when applicable:
+For intentionally closed outcomes, preserve useful reason labels:
 
-- user intentionally skips/drops → `status:skip`
-- application route is unusable/blocked, including MCF-only → `status:blocked`
+- user intentionally skips/drops → `status:skipped`
+- application route is unusable/blocked → `status:blocked`
+- SG role whose only verified route is MyCareersFuture → add `blocked:mcf`
 
-Whenever an Issue changes state, update the status label in the same operation. Do not leave stale labels such as `status:apply` on a `[WAIT]` Issue.
+Whenever an Issue changes state, update the title and status label in the same maintenance cycle. Do not leave stale labels such as `status:apply` on a `[WAIT]` Issue.
 
 Useful GitHub filters include:
 
@@ -120,7 +121,7 @@ Useful GitHub filters include:
 - `is:issue is:open label:"status:check"`
 - `is:issue is:open label:"market:sg"`
 - `is:issue is:open label:"market:cn"`
-- combine labels, for example `is:issue is:open label:"market:sg" label:"status:apply"`
+- `is:issue is:open label:"market:sg" label:"status:apply"`
 
 ## APPLY / CHECK research
 
