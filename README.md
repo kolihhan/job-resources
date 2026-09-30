@@ -33,6 +33,17 @@ Comments on an exact role:
 
 `[APPLY]` by itself is never permission to submit.
 
+A clear skip/drop decision made in ChatGPT should be mirrored to the matching GitHub Issue immediately so the inbox does not drift from the real decision.
+
+## Application-link rule
+
+`[APPLY]` means the exact role-level application route has been verified, not merely that a listing exists.
+
+- Generic careers/location/search pages are not enough.
+- For Singapore, the final Apply destination must be checked.
+- MyCareersFuture-only roles are blocked for this candidate unless a separate verified non-MCF route exists.
+- If one route blocker remains, use `[CHECK]` instead of `[APPLY]`.
+
 ## What I should do each morning
 
 1. Handle `[ACTION]` first.
