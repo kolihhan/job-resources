@@ -17,6 +17,8 @@ GitHub Issues are the live operational state. Do not leave a clear user decision
 
 When the user explicitly says to skip, drop, ignore, withdraw, or otherwise stop pursuing an exact tracked role in an interactive session with GitHub write access, mirror that decision to the matching Issue immediately. Close intentionally skipped roles instead of leaving stale `ACTION`/`APPLY` state behind.
 
+A user skip/drop decision is authoritative until the user explicitly reverses it. Older Gmail invitations, reminders, deadlines, or application evidence must **not** reopen or recreate an intentionally skipped role. A later employer message may be noted only if it materially changes the opportunity; do not restore it to the active queue without a new user decision.
+
 Scheduled runs cannot infer private chat-only decisions unless those decisions have been reflected in GitHub or Gmail evidence.
 
 ## Discovery hours
