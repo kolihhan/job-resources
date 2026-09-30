@@ -26,15 +26,91 @@ Scheduled runs cannot infer private chat-only decisions unless those decisions h
 
 On MYT `00/04/08/12/16/20`, run incremental Singapore + Mainland China discovery after maintenance.
 
-Do not restart the market from scratch each time. Prefer established engineering/product employers and search across:
+Do not restart the market from scratch each time and do not scan every platform with equal weight. Platforms have different jobs: some are for discovery, some for verification, and some for company/interview research.
+
+Always keep these search buckets running in parallel rather than making `AI Engineer` the dominant axis:
 
 - Software Engineer / SDE
-- Backend
+- Backend / Full-stack
 - Platform / Infrastructure / Systems
-- ML Systems / AI Platform
-- Applied AI / LLM / RAG / Agent engineering
+- ML Systems / AI Platform / Inference / Evaluation
+- Search / Retrieval
+- Applied AI / AI Software Engineer / LLM / RAG / Agent engineering
 
-Do not let `AI Engineer` become the dominant search axis.
+Prefer established engineering/product employers and credible early-stage product companies with clear engineering work. Skip staffing/bodyshop/outsourcing unless there is unusually strong evidence that the role is direct, high-quality product engineering.
+
+### Singapore discovery sources
+
+**Primary discovery**
+
+1. **Official company careers / ATS** — proactively sweep target employers; do not wait for a job board to surface every role.
+2. **LinkedIn** — broad role discovery and recruiter/company signals.
+3. **JobStreet** — strong Singapore job-board coverage.
+4. **Indeed** — broad discovery and useful full-JD copies.
+
+**Support / research**
+
+- **MyCareersFuture** — verification/evidence only for this candidate, never the preferred application channel. It may help confirm employer/role/salary context, but if the only verified final Apply route is MCF, close/block the role.
+- **Glassdoor / employee-review sources** — company/WLB research, not proof that a role is live.
+- **Wellfound** — optional startup-specific discovery, not required every run.
+
+For Singapore, the best pattern is usually:
+
+`job board or official-careers discovery → exact official/direct JD → eligibility/YOE check → Gmail/GitHub dedupe → resolve final Apply destination → APPLY/CHECK/BLOCK`.
+
+### Mainland China discovery sources
+
+**Primary discovery**
+
+1. **BOSS直聘** — primary source for current early-career roles and direct recruiter/employer conversation signals.
+2. **Official company careers / campus portals / recruiting WeChat pages when useful** — primary source of truth for live status, batch and exact application route.
+3. **牛客** — campus-role discovery plus graduation-window, OA, interview, referral and candidate-experience intelligence.
+4. **51job / 前程无忧** — structured campus/large-employer/semiconductor/manufacturing/bank discovery and graduation-window evidence.
+5. **智联招聘 / 智联校园** — structured campus and large-employer discovery, especially useful for explicit graduate eligibility windows.
+
+**Secondary**
+
+- **LinkedIn** — useful for China-visible multinational and product-company roles, but not sufficient coverage by itself.
+- **猎聘** — secondary source for recruiter/headhunter routes and selective 1–3 YOE roles; do not let mid/senior inventory dominate fresh-grad discovery.
+
+**Research only when decision-relevant**
+
+- 牛客面经/题库
+- 脉脉
+- 小红书
+- 知乎
+- employee-review sites
+
+For Mainland China, the best pattern is usually:
+
+`BOSS / campus ecosystem / official portal discovery → exact role + cohort verification → Gmail/GitHub dedupe → exact usable apply/contact route → APPLY/CHECK`.
+
+### Mainland China graduation/cohort hard gate
+
+The candidate graduated in **2026**. In late 2026, many campus postings have already moved to `2027届`, so blind campus search creates large amounts of false-positive work.
+
+Prioritize wording such as:
+
+- `2026届`
+- `往届可投`
+- `毕业两年内`
+- `应届/往届`
+- `0-1年` / `0-3年`
+- `初级` / early-career social hiring
+- `海外留学生`
+- `recent graduate` / `recently completed`
+
+A role that is explicitly **2027-only** should normally be filtered out unless the exact official wording gives an overseas/recent-graduate window that clearly includes a 2026 graduate. Receiving an automated OA or application receipt does not by itself prove cohort eligibility.
+
+### Discovery rotation
+
+Do not brute-force every source every four hours. Each discovery window should:
+
+- do at least one proactive official-company/ATS sweep per market;
+- rotate high-value primary discovery sources;
+- use secondary/research sources only when they add unique evidence;
+- avoid rechecking the same stale result repeatedly;
+- prefer a few verified new survivors over a large list of superficially matching roles.
 
 ## When to create an Issue
 
@@ -58,7 +134,8 @@ A listing being live is not enough. `APPLY` requires a usable **exact-role** rou
 - A generic company careers page, city/location page, search-results page, or aggregator listing is not an exact application route.
 - If only a generic page is available and the exact requisition cannot be recovered, use `CHECK` at most, with the blocker `exact application route not verified`.
 - For Singapore, MyCareersFuture is not a usable application channel for this candidate. If the final route is MCF-only, do not create/keep an `APPLY` Issue; close/block it unless a separate verified non-MCF exact route exists.
-- Indeed, JobStreet, LinkedIn, Glints, or another platform can be used when the exact role has a real application path there, but an unresolved `Apply on company site` redirect is not proof of a usable route.
+- Indeed, JobStreet, LinkedIn, Glints, BOSS, 51job, 智联, 牛客 or another platform can be used for discovery/contact when useful, but platform presence alone is not proof of a usable application route.
+- An unresolved `Apply on company site` redirect is not proof of a usable route.
 - Prefer employer-controlled ATS/direct application pages when available.
 
 ## Dedupe
