@@ -23,6 +23,24 @@ Examples:
 - `[APPLY][SG] Company — Software Engineer — 12345`
 - `[WAIT][CN] Company — Backend Engineer — 67890`
 
+## Labels / quick filters
+
+Titles stay readable; labels make the inbox easy to filter.
+
+Every open Issue carries:
+
+- one status label: `status:action`, `status:apply`, `status:check`, or `status:wait`;
+- one market label: `market:sg` or `market:cn`.
+
+Useful GitHub filters:
+
+- `is:open label:"status:action"`
+- `is:open label:"status:apply"`
+- `is:open label:"market:sg"`
+- `is:open label:"status:apply" label:"market:cn"`
+
+Closed roles may use reason labels such as `status:skipped` or `blocked:mcf`.
+
 ## Simple commands
 
 Comments on an exact role:
