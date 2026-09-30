@@ -6,6 +6,7 @@
 - Malaysian citizen.
 - Singapore employment requires employer-supported EP or S Pass.
 - Mainland China employment requires employer-supported foreign work permit.
+- MyCareersFuture (MCF) is not a usable application channel for this candidate. An SG role that is MCF-only is blocked unless a separate verified non-MCF application route exists.
 
 ## Positioning
 
@@ -55,6 +56,6 @@ Never convert master's study, projects, internships, or part-time employment int
 - Singapore
 - Mainland China
 
-For Singapore, sponsorship/pass feasibility is a material constraint but unknown sponsorship is not an automatic rejection.
+For Singapore, sponsorship/pass feasibility is a material constraint but unknown sponsorship is not an automatic rejection. MCF-only application routes are blocked.
 
 For Mainland China, distinguish legal work-permit plausibility from whether the employer is actually willing to sponsor a foreign fresh graduate.
