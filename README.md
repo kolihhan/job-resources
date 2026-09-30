@@ -13,6 +13,34 @@ Only four open states are used:
 
 Rejected, expired, duplicate, withdrawn, or intentionally skipped roles are closed.
 
+## Labels / quick filters
+
+Every tracked Issue carries one market label and one status label.
+
+Market:
+
+- `market:sg`
+- `market:cn`
+
+Open status:
+
+- `status:action`
+- `status:apply`
+- `status:check`
+- `status:wait`
+
+Useful GitHub Issue filters:
+
+- Ready to review/apply: `is:issue is:open label:"status:apply"`
+- Waiting applications: `is:issue is:open label:"status:wait"`
+- Needs one blocker resolved: `is:issue is:open label:"status:check"`
+- Singapore only: `is:issue is:open label:"market:sg"`
+- China only: `is:issue is:open label:"market:cn"`
+- Singapore ready-to-apply: `is:issue is:open label:"market:sg" label:"status:apply"`
+- China ready-to-apply: `is:issue is:open label:"market:cn" label:"status:apply"`
+
+Closed intentional outcomes may use `status:skip` or `status:blocked` so they remain easy to audit without cluttering the active queue.
+
 ## Issue title
 
 `[STATUS][MARKET] Company — Role — Req ID`
