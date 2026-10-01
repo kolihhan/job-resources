@@ -1,16 +1,28 @@
 # Operating Rules
 
+## Goal and execution priority
+
+Get interviews and offers for a suitable full-time, on-site or hybrid engineering job. First advance existing employer responses, assessments and interviews; then find a few genuinely new, well-matched roles. Keep using the current resume and project evidence. Make targeted changes only for a concrete application need or repeated relevant employer feedback; do not restart portfolio work, strategy research, or an application-count experiment.
+
+Singapore and Mainland China remain primary. When these searches are unproductive, check a few strong Malaysian roles; expand Malaysia if actual outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. Keep active SG/CN opportunities moving. No fixed quota, ratio, or deadline is needed to use Malaysia as a backup.
+
+For an unusually strong role, research a relevant alumnus, former colleague or team contact only when the connection could improve the application. Do not invent a relationship or require a referral for every role. Research and draft only; obtain explicit user authorization before contacting anyone.
+
 ## Every hourly run
 
 1. Read `PROFILE.md`, this file, and current open Issues.
-2. Check both Gmail accounts for new job-search evidence.
+2. Check both Gmail accounts for new job-search evidence since the last successful check, with a small overlap. If that point is unavailable, use a bounded recent window and expand only for an exact unresolved role.
 3. Update existing Issues before creating anything new.
 4. Official application receipt → `WAIT`.
 5. OA / interview / recruiter reply / time-sensitive deadline → `ACTION`.
 6. Confirmed rejection / expired / duplicate / user `skip` → close the Issue.
 7. Avoid duplicate Issues.
-8. Keep Issue labels synchronized with the title/state.
-9. Outside MYT `00/04/08/12/16/20`, stop after maintenance unless a time-sensitive action must be surfaced.
+8. Keep the title, status label, body and next action synchronized; read new user comments such as `applied` and `skip`.
+9. Outside MYT hours `00/04/08/12/16/20`, stop after maintenance unless a time-sensitive action must be surfaced. Explicit interactive user requests for discovery are not restricted by these scheduled windows.
+
+Reconcile evidence in time order. An older application receipt must not downgrade a newer OA/interview/reply action to `WAIT`; silence alone is not a rejection. A user `applied` confirmation is sufficient for `WAIT`, labeled as user-confirmed when no employer receipt is available.
+
+Verify material GitHub writes by reading them back. If either Gmail account or GitHub cannot be read, or a required write fails, report the run as incomplete with the concrete blocker; do not claim successful maintenance or no changes. Keep routine successful runs quiet and surface failures that need user intervention. Do not create heartbeat commits or another run-log tracker.
 
 ## Chat decision sync
 
@@ -24,7 +36,7 @@ Scheduled runs cannot infer private chat-only decisions unless those decisions h
 
 ## Discovery hours
 
-On MYT `00/04/08/12/16/20`, run incremental Singapore + Mainland China discovery after maintenance.
+During MYT hours `00/04/08/12/16/20`, run incremental discovery after maintenance, following the SG/CN primary + Malaysia backup policy above. Evaluate the local hour, not an exact minute-00 match.
 
 Do not restart the market from scratch each time and do not scan every platform with equal weight. Platforms have different jobs: some are for discovery, some for verification, and some for company/interview research.
 
@@ -102,11 +114,15 @@ Prioritize wording such as:
 
 A role that is explicitly **2027-only** should normally be filtered out unless the exact official wording gives an overseas/recent-graduate window that clearly includes a 2026 graduate. Receiving an automated OA or application receipt does not by itself prove cohort eligibility.
 
+### Malaysia backup sources
+
+Use official employer careers/ATS, JobStreet and LinkedIn. Keep the same early-career fit, credible engineering work, live exact-route and both-Gmail/GitHub dedupe checks. Do not copy SG/CN foreign-sponsorship blockers onto a Malaysian citizen's Malaysia search.
+
 ### Discovery rotation
 
 Do not brute-force every source every four hours. Each discovery window should:
 
-- do at least one proactive official-company/ATS sweep per market;
+- include targeted official-company/ATS searches for the markets being searched; do not force a full sweep of every source or add a Malaysia sweep to every run;
 - rotate high-value primary discovery sources;
 - use secondary/research sources only when they add unique evidence;
 - avoid rechecking the same stale result repeatedly;
@@ -177,6 +193,7 @@ Every **open** tracked Issue must have exactly:
 1. one market label:
    - `market:sg`
    - `market:cn`
+   - `market:my` (Malaysia backup)
 2. one operational status label matching the Issue title:
    - `[ACTION]` → `status:action`
    - `[APPLY]` → `status:apply`
@@ -189,7 +206,7 @@ For intentionally closed outcomes, preserve useful reason labels:
 - application route is unusable/blocked → `status:blocked`
 - SG role whose only verified route is MyCareersFuture → add `blocked:mcf`
 
-Whenever an Issue changes state, update the title and status label in the same maintenance cycle. Do not leave stale labels such as `status:apply` on a `[WAIT]` Issue.
+Whenever an Issue changes state, update its title, status label, body and next action in the same maintenance cycle. Do not leave stale labels or a request to apply on a `[WAIT]` Issue.
 
 Useful GitHub filters include:
 
@@ -223,7 +240,7 @@ Do not add generic company-history filler or unsupported claims.
 
 `APPLY` means "recommended for review", not "submit now".
 
-Only an explicit `go` from the user on that exact role authorizes an application action. Never mass apply.
+Only an explicit `go` from the user on that exact role authorizes an application action. Contacting an employee, alumnus or recruiter also requires explicit authorization for that action. Never mass apply or send unsolicited outreach automatically.
 
 ## Privacy
 

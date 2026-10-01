@@ -1,6 +1,10 @@
 # Job Search Inbox
 
-Private operating inbox for my Singapore + Mainland China job search.
+Private operating inbox for my job search: Singapore + Mainland China first, Malaysia as a practical backup.
+
+The goal is interviews and offers for a suitable full-time, on-site or hybrid engineering job. Prioritize active employer responses, then a few new roles that are genuinely worth applying to. Use the current resume and project evidence; change them only for a concrete application need or repeated relevant employer feedback.
+
+Keep the workflow small: find → verify → user `go` → apply → follow up. Do not create an application quota, experiment framework, or another tracker.
 
 ## Open Issues are the UI
 
@@ -21,6 +25,7 @@ Market:
 
 - `market:sg`
 - `market:cn`
+- `market:my` — Malaysia backup; use when a Malaysian role is tracked.
 
 Open status:
 
@@ -94,6 +99,12 @@ China discovery must actively filter for **2026 graduate eligibility** (`2026届
 
 Searches run across normal SWE/backend/platform roles and applied-AI roles in parallel; `AI Engineer` is not the dominant keyword.
 
+### Malaysia backup
+
+Check a few strong Malaysian roles when SG/CN discovery is unproductive. Expand Malaysia when actual SG/CN outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. Do not wait for an arbitrary application count or deadline, and do not abandon active SG/CN opportunities.
+
+Use official employer careers/ATS, JobStreet and LinkedIn; apply the same fit, exact-route and dedupe checks. For unusually strong roles in any market, look for a relevant team contact, alumnus or former colleague when it could help. Sending an application or contacting someone requires explicit user authorization.
+
 ## What I should do each morning
 
 1. Handle `[ACTION]` first.
@@ -113,8 +124,10 @@ Do not create a second live tracker, dashboard, database, or spreadsheet mirror.
 
 Maintenance runs hourly. It checks both Gmail accounts and updates existing Issues before doing anything else.
 
-Full SG + CN discovery happens only around MYT `00/04/08/12/16/20`. Other hourly runs are maintenance-only.
+Incremental discovery happens only during MYT hours `00/04/08/12/16/20`, with SG + CN primary and Malaysia as the backup described above. Other hourly runs are maintenance-only. These are discovery windows, not a requirement to run at exactly minute 00. Direct user requests for a search can run at any time.
 
-Normal new `[APPLY]` roles can wait here quietly. Notify me only for genuinely time-sensitive actions such as OA/interview deadlines or recruiter messages requiring a reply.
+The weekly review runs Sunday evening in MYT and focuses on real employer signals and the single most useful next action. Scheduled prompts read the current GitHub rules rather than maintaining a separate copy of the full strategy.
 
-See `PROFILE.md` for stable candidate facts and `RULES.md` for the operating contract.
+Normal new `[APPLY]` roles can wait here quietly. Notify me for time-sensitive actions such as OA/interview deadlines or recruiter messages requiring a reply, or an access/write failure that needs my intervention.
+
+See `PROFILE.md` for stable candidate facts and `RULES.md` for the operating contract. These root documents are current; older design/implementation documents under `docs/superpowers/` are historical context.

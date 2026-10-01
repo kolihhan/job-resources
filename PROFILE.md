@@ -24,6 +24,8 @@ Do not require an `AI Engineer` title. Prefer strong software-engineering career
 
 ## First-job preference
 
+The immediate goal is interviews and offers for a suitable full-time, on-site or hybrid engineering job. Keep using the current resume and project evidence; avoid more portfolio polishing without a concrete application need or repeated relevant employer feedback.
+
 Prioritize:
 
 - production engineering ownership;
@@ -53,8 +55,8 @@ Never convert master's study, projects, internships, or part-time employment int
 
 ## Search markets
 
-- Singapore
-- Mainland China
+- Primary: Singapore and Mainland China.
+- Backup: Malaysia. Check a few strong local roles if SG/CN discovery is unproductive; expand when actual outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. No fixed application quota or deadline is required to use this backup.
 
 For Singapore, sponsorship/pass feasibility is a material constraint but unknown sponsorship is not an automatic rejection. MCF-only application routes are blocked.
 
