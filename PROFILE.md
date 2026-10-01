@@ -55,10 +55,20 @@ Never convert master's study, projects, internships, or part-time employment int
 
 ## Search markets
 
-- Primary: Singapore and Mainland China.
-- Backup: Malaysia. Search strong local roles in parallel if SG/CN discovery is unproductive, without a small output cap; expand when actual outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. No fixed application quota or deadline is required to use this backup.
+### Primary: Singapore + Mainland China
 
-For Singapore, sponsorship/pass feasibility is a material constraint but unknown sponsorship is not an automatic rejection. MCF-only application routes are blocked.
+These are the markets I most want to enter directly. Search effort should remain centered on SG/CN even while Malaysia is available as a fallback.
 
-For Mainland China, distinguish legal work-permit plausibility from whether the employer is actually willing to sponsor a foreign fresh graduate.
-Dated policy and market evidence is in [docs/market-facts-2026-10-01.md](docs/market-facts-2026-10-01.md). Shanghai's foreign STEM graduate route deserves targeted employer discovery; it is not proof of employer sponsorship. Do not assume the candidate must first accumulate two full-time years in Malaysia or will receive an internal transfer.
+For Singapore, sponsorship/pass feasibility is a material constraint, but unknown sponsorship is not an automatic rejection. MCF-only application routes are blocked.
+
+For Mainland China, distinguish legal work-permit plausibility from whether the employer is actually willing to sponsor a foreign fresh graduate. Shanghai's foreign STEM graduate route deserves targeted employer discovery; it is not proof of employer sponsorship.
+
+### Backup: Malaysia
+
+Malaysia is not an equal third search lane. Use it when SG/CN discovery is weak after reasonable broadening, or when an unusually strong Malaysian opportunity appears.
+
+For Malaysia, lean more toward AI Engineer / Applied AI / AI Software Engineer / LLM / RAG / Agent / AI backend-platform roles because local work authorization is not a blocker. Strong normal SWE/backend roles remain worthwhile when the engineering environment and career capital are better than a weak AI-titled job.
+
+Employers with meaningful SG/CN/regional engineering exposure may provide future optionality, but do not assume internal transfer or future sponsorship without evidence.
+
+Dated policy and market evidence is in [docs/market-facts-2026-10-01.md](docs/market-facts-2026-10-01.md). Do not assume the candidate must first accumulate two full-time years in Malaysia before trying SG/CN.
