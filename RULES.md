@@ -1,46 +1,65 @@
 # Operating Rules
 
-## Goal and execution priority
+## Goal
 
-Get interviews and offers for a suitable full-time, on-site or hybrid engineering job. First advance existing employer responses, assessments and interviews; then broaden discovery and keep all genuinely new, well-matched roles. Keep using the current resume and project evidence. Make targeted changes only for a concrete application need or repeated relevant employer feedback; do not restart portfolio work, strategy research, or an application-count experiment.
+Get interviews and offers for a suitable full-time, on-site or hybrid engineering job.
 
-Singapore and Mainland China remain primary. When these searches are unproductive, search strong Malaysian roles in parallel without a small output cap; expand Malaysia if actual outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. Keep active SG/CN opportunities moving. No fixed quota, ratio, or deadline is needed to use Malaysia as a backup.
+Priority order:
 
-For an unusually strong role, research a relevant alumnus, former colleague or team contact only when the connection could improve the application. Do not invent a relationship or require a referral for every role. Research and draft only; obtain explicit user authorization before contacting anyone.
+1. advance active employer responses, OA, interviews and recruiter conversations;
+2. create more strong **Singapore + Mainland China** opportunities;
+3. use Malaysia as a practical backup without displacing SG/CN search.
 
-## Every hourly run
+Use the current resume and project evidence. Change them only for a concrete application need or repeated relevant employer feedback. Do not restart portfolio work, strategy research, application-count experiments, or another tracking system.
+
+For unusually strong verified roles, selective recruiter/alumni/team contact research is allowed when it could help. Do not require networking for every role. Any external contact or application still requires explicit user authorization.
+
+## Source of truth
+
+- GitHub Issues = current operational state.
+- Gmail = evidence for receipts, recruiter messages, OA/interviews, deadlines, rejections, and targeted dedupe.
+- The old Library spreadsheet = legacy/read-only reference.
+
+Do not create a second live tracker, dashboard, database, spreadsheet mirror, or agent framework.
+
+## Every maintenance run
 
 1. Read `PROFILE.md`, this file, and current open Issues.
-2. Check both Gmail accounts for new job-search evidence since the last successful check, with a small overlap. If that point is unavailable, use a bounded recent window and expand only for an exact unresolved role.
-3. Update existing Issues before creating anything new.
+2. Check both Gmail accounts for **recent recruiting evidence** since the last successful check, with a small overlap.
+3. Update existing Issues before creating new ones.
 4. Official application receipt → `WAIT`.
 5. OA / interview / recruiter reply / time-sensitive deadline → `ACTION`.
 6. Confirmed rejection / expired / duplicate / user `skip` → close the Issue.
-7. Avoid duplicate Issues.
-8. Keep the title, status label, body and next action synchronized; read new user comments such as `applied` and `skip`.
-9. Outside MYT hours `00/04/08/12/16/20`, stop after maintenance unless a time-sensitive action must be surfaced. Explicit interactive user requests for discovery are not restricted by these scheduled windows.
+7. Keep title, status label, body and next action synchronized.
+8. Respect newer evidence over older evidence. An old receipt must not downgrade a newer interview/OA/action to `WAIT`.
+9. Silence is not a rejection.
+10. A user `applied` comment is sufficient to mark `WAIT`, noting that it is user-confirmed if no employer receipt exists.
 
-Reconcile evidence in time order. An older application receipt must not downgrade a newer OA/interview/reply action to `WAIT`; silence alone is not a rejection. A user `applied` confirmation is sufficient for `WAIT`, labeled as user-confirmed when no employer receipt is available.
+Gmail should be searched narrowly. Use bounded recent windows for maintenance and exact company/role/req lookups for dedupe or unresolved evidence. Do not broad-audit the entire mailbox every run.
 
-Verify material GitHub writes by reading them back. If either Gmail account or GitHub cannot be read, or a required write fails, report the run as incomplete with the concrete blocker; do not claim successful maintenance or no changes. Keep routine successful runs quiet and surface failures that need user intervention. Do not create heartbeat commits or another run-log tracker.
+Verify material GitHub writes by reading them back. If Gmail/GitHub access or a required write fails, report the concrete incomplete step rather than claiming successful maintenance.
 
 ## Chat decision sync
 
-GitHub Issues are the live operational state. Do not leave a clear user decision only in chat.
+A clear user decision to skip, drop, ignore or withdraw an exact tracked role must be mirrored to GitHub when write access exists.
 
-When the user explicitly says to skip, drop, ignore, withdraw, or otherwise stop pursuing an exact tracked role in an interactive session with GitHub write access, mirror that decision to the matching Issue immediately. Close intentionally skipped roles instead of leaving stale `ACTION`/`APPLY` state behind.
+A skip/drop decision is authoritative until the user explicitly reverses it. Older Gmail invitations, reminders or application receipts must not reopen a skipped role.
 
-A user skip/drop decision is authoritative until the user explicitly reverses it. Older Gmail invitations, reminders, deadlines, or application evidence must **not** reopen or recreate an intentionally skipped role. A later employer message may be noted only if it materially changes the opportunity; do not restore it to the active queue without a new user decision.
+## Discovery schedule
 
-Scheduled runs cannot infer private chat-only decisions unless those decisions have been reflected in GitHub or Gmail evidence.
+During MYT hours `00/04/08/12/16/20`, run incremental discovery after maintenance. Explicit interactive searches can run at any time.
 
-## Discovery hours
+**SG + CN are the main discovery markets.** Malaysia is backup, not a mandatory equal third-market sweep.
 
-During MYT hours `00/04/08/12/16/20`, run incremental discovery after maintenance, following the SG/CN primary + Malaysia backup policy above. Evaluate the local hour, not an exact minute-00 match.
+Do not restart the whole market every run. Rotate high-value sources, employers and keywords, and avoid rechecking stale results repeatedly.
 
-Do not restart the market from scratch each time and do not scan every platform with equal weight. Platforms have different jobs: some are for discovery, some for verification, and some for company/interview research.
+## Two-stage discovery
 
-Always keep these search buckets running in parallel rather than making `AI Engineer` the dominant axis:
+### Stage 1 — broad, cheap discovery
+
+The purpose is to create a wide candidate pool before spending expensive verification effort.
+
+Search SG and CN first across many employers and role families:
 
 - Software Engineer / SDE
 - Backend / Full-stack
@@ -49,121 +68,163 @@ Always keep these search buckets running in parallel rather than making `AI Engi
 - Search / Retrieval
 - Applied AI / AI Software Engineer / LLM / RAG / Agent engineering
 
-Prefer established engineering/product employers and credible early-stage product companies with clear engineering work. Skip staffing/bodyshop/outsourcing unless there is unusually strong evidence that the role is direct, high-quality product engineering.
+Cheap-screen only obvious hard mismatches:
 
-### Singapore discovery sources
+- wrong country or not full-time;
+- Senior / Staff / Lead / Manager or hard 5+ YOE without a graduate exception;
+- explicit incompatible graduation/cohort window;
+- explicit citizenship / no-sponsorship blocker where relevant;
+- substantial hard stack/domain mismatch;
+- clearly stale/closed listing.
 
-**Primary discovery**
+At this stage **do not** stop to research:
 
-1. **Official company careers / ATS** — proactively sweep target employers; do not wait for a job board to surface every role.
-2. **LinkedIn** — broad role discovery and recruiter/company signals.
-3. **JobStreet** — strong Singapore job-board coverage.
-4. **Indeed** — broad discovery and useful full-JD copies.
+- salary or WLB unless immediately visible and decision-critical;
+- unknown SG sponsorship or CN work-permit willingness;
+- exact final ATS routing;
+- both Gmail accounts for every raw candidate;
+- detailed company history;
+- networking contacts.
 
-**Support / research**
+Do not create GitHub Issues for raw discovery candidates.
 
-- **MyCareersFuture** — verification/evidence only for this candidate, never the preferred application channel. It may help confirm employer/role/salary context, but if the only verified final Apply route is MCF, close/block the role.
-- **Glassdoor / employee-review sources** — company/WLB research, not proof that a role is live.
-- **Wellfound** — optional startup-specific discovery, not required every run.
+If few candidates survive, change employers, role keywords or source mix in the same run before concluding the market is sparse.
 
-For Singapore, the best pattern is usually:
+### Stage 2 — verify serious survivors
 
-`job board or official-careers discovery → exact official/direct JD → eligibility/YOE check → Gmail/GitHub dedupe → resolve final Apply destination → APPLY/CHECK/BLOCK`.
+For roles that survive the cheap screen and are genuinely worth considering, verify:
 
-### Mainland China discovery sources
+1. exact/full JD and current live status;
+2. graduation/cohort, seniority and hard requirements;
+3. GitHub dedupe;
+4. targeted Gmail dedupe by company/role/req ID;
+5. exact usable application route;
+6. any material work-authorization or fit blocker that changes the decision to apply.
 
-**Primary discovery**
+Only serious survivors reach GitHub Issues.
 
-1. **BOSS直聘** — primary source for current early-career roles and direct recruiter/employer conversation signals.
-2. **Official company careers / campus portals / recruiting WeChat pages when useful** — primary source of truth for live status, batch and exact application route.
-3. **牛客** — campus-role discovery plus graduation-window, OA, interview, referral and candidate-experience intelligence.
-4. **51job / 前程无忧** — structured campus/large-employer/semiconductor/manufacturing/bank discovery and graduation-window evidence.
-5. **智联招聘 / 智联校园** — structured campus and large-employer discovery, especially useful for explicit graduate eligibility windows.
+## Singapore — primary
 
-**Secondary**
+Primary discovery:
 
-- **LinkedIn** — useful for China-visible multinational and product-company roles, but not sufficient coverage by itself.
-- **猎聘** — secondary source for recruiter/headhunter routes and selective 1–3 YOE roles; do not let mid/senior inventory dominate fresh-grad discovery.
+1. official company careers / ATS;
+2. LinkedIn;
+3. JobStreet;
+4. Indeed.
 
-**Research only when decision-relevant**
+Support/research when useful:
 
-- 牛客面经/题库
-- 脉脉
-- 小红书
-- 知乎
-- employee-review sites
+- MyCareersFuture for evidence only;
+- employee-review sources for decision-relevant company/WLB questions;
+- Wellfound selectively for startups.
 
-For Mainland China, the best pattern is usually:
+MCF is not a usable application channel for this candidate. If the only verified route is MCF, block/close the role unless a separate non-MCF exact route exists.
 
-`BOSS / campus ecosystem / official portal discovery → exact role + cohort verification → Gmail/GitHub dedupe → exact usable apply/contact route → APPLY/CHECK`.
+Unknown sponsorship is **not** a discovery-stage rejection. Explicit no-sponsorship is.
 
-### Mainland China graduation/cohort hard gate
+Preferred flow:
 
-The candidate graduated in **2026**. In late 2026, many campus postings have already moved to `2027届`, so blind campus search creates large amounts of false-positive work.
+`broad SG discovery → cheap hard filter → serious survivor → exact JD / eligibility / targeted dedupe / final apply route → APPLY or CHECK`
 
-Prioritize wording such as:
+## Mainland China — primary
+
+Primary discovery:
+
+1. BOSS直聘;
+2. official company careers / campus portals / useful recruiting WeChat pages;
+3. 牛客;
+4. 51job / 前程无忧;
+5. 智联招聘 / 智联校园.
+
+Secondary:
+
+- LinkedIn;
+- 猎聘.
+
+Research only when decision-relevant:
+
+- 牛客面经/题库;
+- 脉脉;
+- 小红书;
+- 知乎;
+- employee-review sources.
+
+The candidate graduated in **2026**. Prioritize:
 
 - `2026届`
 - `往届可投`
 - `毕业两年内`
 - `应届/往届`
 - `0-1年` / `0-3年`
-- `初级` / early-career social hiring
+- `初级`
 - `海外留学生`
-- `recent graduate` / `recently completed`
+- recent graduate / recently completed
 
-A role that is explicitly **2027-only** should normally be filtered out unless the exact official wording gives an overseas/recent-graduate window that clearly includes a 2026 graduate. Receiving an automated OA or application receipt does not by itself prove cohort eligibility.
+Clearly 2027-only roles are normally filtered unless official wording explicitly includes a 2026 graduate.
 
-### Malaysia backup sources
+Do not equate legal foreign-work-permit possibility with employer willingness to hire a foreign fresh graduate. Employer willingness may remain unknown until engagement.
 
-Use official employer careers/ATS, JobStreet and LinkedIn. Keep the same early-career fit, credible engineering work, live exact-route and both-Gmail/GitHub dedupe checks. Do not copy SG/CN foreign-sponsorship blockers onto a Malaysian citizen's Malaysia search.
+Preferred flow:
 
-### Discovery rotation
+`broad CN discovery → cheap cohort/seniority filter → serious survivor → exact JD / targeted dedupe / usable apply/contact route → APPLY or CHECK`
 
-Do not brute-force every source every four hours. Each discovery window should:
+## Malaysia — backup
 
-- include targeted official-company/ATS searches for the markets being searched; do not force a full sweep of every source or add a Malaysia sweep to every run;
-- rotate high-value primary discovery sources;
-- use secondary/research sources only when they add unique evidence;
-- avoid rechecking the same stale result repeatedly;
-- collect a broad batch across new employers and relevant role families, cheap-screen hard mismatches, then verify every serious survivor; do not stop because two or three roles have been found;
-- if few new roles survive, change employers, keywords or source mix during the same run instead of recycling the same listings; apply the same quality gates to every result.
+Do not let Malaysia consume the main SG/CN search budget.
 
-### Broader discovery, without weaker evidence
+Search Malaysia when:
 
-- Expand employer coverage, not just titles at the same company. A new requisition can be useful, but report roles and unique employers separately.
-- Search ordinary SWE/backend/full-stack/platform roles as seriously as AI roles. Include recent-graduate social hiring and flexible junior/associate roles, not only campus programmes.
-- Apply hard filters to explicit requirements: location, full-time employment, cohort, citizenship/no-sponsorship rules, hard seniority and substantial stack mismatch. Unknown SG sponsorship, absent salary/WLB data and missing nice-to-haves are not automatic rejection reasons. Record unknowns and specific skill gaps truthfully.
-- Distinguish a hard experience cap from a preferred experience range. Never relabel part-time work as full-time or assume a graduate programme excludes part-time professional experience from its cap.
-- If one source returns irrelevant countries, repeats or almost no eligible results, use a different search engine, local board or employer-specific search. Broaden before concluding that the market has no jobs.
-- If an exact employer page fails technically, try an alternative employer-controlled exact ATS route or another retrieval method. A cache miss, JavaScript page or access error does not prove that the job expired. Keep at most CHECK with its one unresolved blocker if verification remains impossible.
-- For interactive searches, report a compact funnel from the work actually performed: distinct role candidates inspected, newly verified APPLY roles, existing CHECK roles resolved, new CHECK roles, duplicates, hard mismatches, confirmed stale roles and unresolved access failures. Use mutually exclusive dispositions and separate new roles from updates. State incomplete coverage honestly. Do not persist a second run-log or manufacture application success probabilities.
+- SG/CN discovery remains sparse after changing employers, keywords or sources; or
+- an unusually strong Malaysian role surfaces naturally.
+
+For Malaysia, lean more toward:
+
+- AI Engineer;
+- Applied AI / AI Software Engineer;
+- LLM / RAG / Agent engineering;
+- AI backend / AI platform / ML systems.
+
+Strong normal SWE/backend roles remain valid when they offer better production ownership, engineering peers, deployment/reliability depth and transferable career capital than a weak AI-titled role.
+
+Do not apply SG/CN foreign-work-authorization blockers to Malaysia. Regional/China/SG-connected employers are interesting, but do not assume future internal transfer without evidence.
+
+## Company / role quality
+
+Prefer established engineering/product employers and credible product startups with clear engineering work.
+
+De-prioritize staffing/bodyshop/outsourcing unless there is unusually strong evidence that the role itself offers direct, high-quality engineering work.
+
+Do not reject a strong role because of missing nice-to-haves. Distinguish hard requirements from preferences.
+
+Never convert part-time work, internships, projects or master's study into fictitious full-time professional YOE.
 
 ## When to create an Issue
 
-Create one only when a role is serious enough to deserve attention:
+Create an Issue only for a serious survivor that deserves user attention.
 
-- appears live;
-- 2026 graduate timing is not obviously disqualifying;
-- seniority is plausible for early career;
-- no obvious hard stack mismatch;
-- company/role quality is credible;
-- an exact role-level application route is verified, or exactly one important route/eligibility/fit blocker remains;
-- no exact application is already established.
+A new Issue should have:
 
-Bad/stale/obvious-mismatch search results create nothing.
+- plausible early-career fit;
+- no obvious cohort/seniority hard block;
+- credible role/company quality;
+- current exact/full role evidence;
+- no established duplicate application;
+- either a verified exact application route or exactly one material blocker remaining.
+
+Bad/stale/obvious-mismatch raw search results create nothing.
 
 ## Application-route hard gate
 
-A listing being live is not enough. `APPLY` requires a usable **exact-role** route.
+`APPLY` requires a usable exact-role application route.
 
-- Open or resolve the actual Apply action far enough to identify the final application destination.
-- A generic company careers page, city/location page, search-results page, or aggregator listing is not an exact application route.
-- If only a generic page is available and the exact requisition cannot be recovered, use `CHECK` at most, with the blocker `exact application route not verified`.
-- For Singapore, MyCareersFuture is not a usable application channel for this candidate. If the final route is MCF-only, do not create/keep an `APPLY` Issue; close/block it unless a separate verified non-MCF exact route exists.
-- Indeed, JobStreet, LinkedIn, Glints, BOSS, 51job, 智联, 牛客 or another platform can be used for discovery/contact when useful, but platform presence alone is not proof of a usable application route.
+- Generic careers/search/location pages are not enough.
 - An unresolved `Apply on company site` redirect is not proof of a usable route.
-- Prefer employer-controlled ATS/direct application pages when available.
+- Platform routes such as LinkedIn, JobStreet, Glints, BOSS, 51job, 智联 or 牛客 may be used when the actual application/contact action is usable.
+- Prefer employer-controlled ATS/direct routes when available.
+- If the exact route cannot be verified, use `CHECK` at most with one named blocker.
+- SG MCF-only roles are blocked unless a separate verified non-MCF route exists.
+
+This hard gate applies at the **verification / ready-to-apply stage**, not to every raw discovery candidate.
 
 ## Dedupe
 
@@ -171,18 +232,18 @@ Primary key:
 
 `market + company + requisition/job ID`
 
-Fallback when no ID exists:
+Fallback:
 
 `company + role + location`
 
-Before a new Issue, check:
+For a serious survivor, check:
 
-1. existing GitHub Issues;
-2. Gmail A: `lihhanko526@gmail.com`;
-3. Gmail B: `lihhanko3@gmail.com`;
-4. ATS/candidate history when materially available.
+1. existing open/closed GitHub Issues;
+2. targeted search in `lihhanko526@gmail.com`;
+3. targeted search in `lihhanko3@gmail.com`;
+4. ATS/candidate history only when materially available.
 
-If a receipt/application already exists, do not create a new `APPLY` Issue.
+Do not run expensive mailbox-wide dedupe for raw discovery candidates.
 
 ## Issue states
 
@@ -193,78 +254,47 @@ Only four open states:
 - `CHECK`
 - `WAIT`
 
-`CHECK` means one material blocker, and the Issue must name the blocker and exactly one next action.
+`CHECK` means exactly one material blocker and one next action.
 
-## Labels
+No active Issue should use old experiment concepts such as `clean cohort`, `main sample`, or diagnostic application batches. Track the real opportunity and its next action instead.
 
-Labels are mandatory because the Issue title is for reading and labels are for filtering.
+## Labels and consistency
 
-Every **open** tracked Issue must have exactly:
+Every open Issue must have exactly:
 
-1. one market label:
-   - `market:sg`
-   - `market:cn`
-   - `market:my` (Malaysia backup)
-2. one operational status label matching the Issue title:
-   - `[ACTION]` → `status:action`
-   - `[APPLY]` → `status:apply`
-   - `[CHECK]` → `status:check`
-   - `[WAIT]` → `status:wait`
+1. one market label: `market:sg`, `market:cn`, or `market:my`;
+2. one matching operational status label: `status:action`, `status:apply`, `status:check`, or `status:wait`.
 
-For intentionally closed outcomes, preserve useful reason labels:
+Closed intentional outcomes may keep `status:skipped` or `status:blocked`; MCF-only SG roles may also use `blocked:mcf`.
 
-- user intentionally skips/drops → `status:skipped`
-- application route is unusable/blocked → `status:blocked`
-- SG role whose only verified route is MyCareersFuture → add `blocked:mcf`
+Whenever state changes, update title, label, body and next action together. A closed/rejected Issue must not keep a misleading `[WAIT]` title, and a role with a usable non-MCF route must not remain labeled MCF-only.
 
-Whenever an Issue changes state, update its title, status label, body and next action in the same maintenance cycle. Do not leave stale labels or a request to apply on a `[WAIT]` Issue.
+## APPLY / CHECK content
 
-Useful GitHub filters include:
+Store enough to make the decision without repeating research:
 
-- `is:issue is:open label:"status:apply"`
-- `is:issue is:open label:"status:wait"`
-- `is:issue is:open label:"status:check"`
-- `is:issue is:open label:"market:sg"`
-- `is:issue is:open label:"market:cn"`
-- `is:issue is:open label:"market:sg" label:"status:apply"`
-
-## APPLY / CHECK research
-
-Store enough to decide without repeating the research:
-
-- exact official/direct apply link, or the one unresolved route blocker for `CHECK`;
-- final application destination/domain when routing is indirect;
-- req/job ID and checked date;
-- useful company background and current material developments;
-- plain-language actual work;
-- hard requirements and graduate/YOE fit;
-- specific candidate strengths and gaps;
-- SG sponsorship or CN foreign-work-permit evidence;
-- supported salary/WLB evidence when available;
-- both-Gmail + GitHub dedupe result;
+- exact role link / apply route or the one CHECK blocker;
+- req/job ID and verification date when available;
+- plain-language work;
+- hard requirements and early-career fit;
+- specific strengths/gaps;
+- material work-authorization evidence when known;
+- targeted GitHub/Gmail dedupe result;
 - exactly one next action;
 - source links.
 
-Do not add generic company-history filler or unsupported claims.
+Salary, WLB, company background and networking research are optional and should be added only when they can change the decision. Do not make them mandatory verification work.
 
 ## Authorization
 
-`APPLY` means "recommended for review", not "submit now".
+`APPLY` means recommended for user review, not permission to submit.
 
-Only an explicit `go` from the user on that exact role authorizes an application action. Contacting an employee, alumnus or recruiter also requires explicit authorization for that action. Never mass apply or send unsolicited outreach automatically.
+Only an explicit `go` for that exact role/action authorizes an application or external contact. Never mass apply or automatically send outreach.
 
 ## Privacy
 
-The repository is private, but still store only operational facts.
-
-Never copy full email bodies, auth/activation links, tokens, passwords, secrets, or unnecessary personal identifiers into Issues.
-
-## Source of truth
-
-GitHub Issues are the only live operational tracker. Gmail is evidence. `/Job Applications/JOB_TRACKER.xlsx` is legacy/read-only reference and must not be kept in sync as a second live tracker.
+Store only operational facts. Never copy full email bodies, auth links, tokens, passwords, secrets or unnecessary personal identifiers into Issues.
 
 ## Keep it small
 
-Do not add GitHub Projects, a database, dashboard, web frontend, spreadsheet mirror, agent framework, or application code unless a real repeated failure proves GitHub Issues are insufficient.
-
-Scheduled-task model routing may not guarantee GPT-5.6 Sol High. Do not claim otherwise; optimize the workflow for reliable evidence-first execution instead.
+Do not add Projects, another database/dashboard/frontend/spreadsheet, or a new application framework unless repeated real failures prove GitHub Issues are insufficient.
