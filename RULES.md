@@ -254,7 +254,12 @@ Only four open states:
 - `CHECK`
 - `WAIT`
 
-`CHECK` means exactly one material blocker and one next action.
+State meanings:
+
+- `ACTION` = a concrete employer/recruiting action that should be handled now or soon, such as an OA, interview, recruiter reply, requested form/document, or real deadline. Do not use `ACTION` merely because a low-priority out-of-lane application could optionally be continued.
+- `APPLY` = verified serious survivor ready for user review, with a usable exact application route. It is not authorization to submit.
+- `CHECK` = exactly one material blocker or user decision remains, with exactly one next action.
+- `WAIT` = already submitted/contacted and waiting for employer activity; do not duplicate.
 
 No active Issue should use old experiment concepts such as `clean cohort`, `main sample`, or diagnostic application batches. Track the real opportunity and its next action instead.
 
