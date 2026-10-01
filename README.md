@@ -2,7 +2,7 @@
 
 Private operating inbox for my job search: Singapore + Mainland China first, Malaysia as a practical backup.
 
-The goal is interviews and offers for a suitable full-time, on-site or hybrid engineering job. Prioritize active employer responses, then a few new roles that are genuinely worth applying to. Use the current resume and project evidence; change them only for a concrete application need or repeated relevant employer feedback.
+The goal is interviews and offers for a suitable full-time, on-site or hybrid engineering job. Prioritize active employer responses, then broaden discovery and keep every genuinely new role that is worth applying to. Use the current resume and project evidence; change them only for a concrete application need or repeated relevant employer feedback.
 
 Keep the workflow small: find → verify → user `go` → apply → follow up. Do not create an application quota, experiment framework, or another tracker.
 
@@ -97,11 +97,11 @@ Research when useful: 牛客面经/题库, 脉脉, 小红书, 知乎 and employe
 
 China discovery must actively filter for **2026 graduate eligibility** (`2026届`, 往届可投, 毕业两年内, 0–3年, 海外留学生, recent graduate). Do not waste the queue on clearly 2027-only roles unless the exact official graduation window includes a 2026 graduate.
 
-Searches run across normal SWE/backend/platform roles and applied-AI roles in parallel; `AI Engineer` is not the dominant keyword.
+Searches run across normal SWE/backend/full-stack/platform roles and applied-AI roles in parallel; `AI Engineer` is not the dominant keyword. Collect a broad candidate batch across new employers before deep verification. Do not stop after two or three survivors; keep all serious verified matches and broaden coverage when output is sparse.
 
 ### Malaysia backup
 
-Check a few strong Malaysian roles when SG/CN discovery is unproductive. Expand Malaysia when actual SG/CN outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. Do not wait for an arbitrary application count or deadline, and do not abandon active SG/CN opportunities.
+Search strong Malaysian roles alongside an unproductive SG/CN search, without capping useful results. Expand Malaysia when actual SG/CN outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. Do not wait for an arbitrary application count or deadline, and do not abandon active SG/CN opportunities.
 
 Use official employer careers/ATS, JobStreet and LinkedIn; apply the same fit, exact-route and dedupe checks. For unusually strong roles in any market, look for a relevant team contact, alumnus or former colleague when it could help. Sending an application or contacting someone requires explicit user authorization.
 
@@ -129,5 +129,7 @@ Incremental discovery happens only during MYT hours `00/04/08/12/16/20`, with SG
 The weekly review runs Sunday evening in MYT and focuses on real employer signals and the single most useful next action. Scheduled prompts read the current GitHub rules rather than maintaining a separate copy of the full strategy.
 
 Normal new `[APPLY]` roles can wait here quietly. Notify me for time-sensitive actions such as OA/interview deadlines or recruiter messages requiring a reply, or an access/write failure that needs my intervention.
+
+See [the dated market evidence](docs/market-facts-2026-10-01.md) for verified SG/CN/MY constraints and [the next-chat prompt](NEXT_CHAT_PROMPT.md) to continue execution.
 
 See `PROFILE.md` for stable candidate facts and `RULES.md` for the operating contract. These root documents are current; older design/implementation documents under `docs/superpowers/` are historical context.

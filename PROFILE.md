@@ -56,8 +56,9 @@ Never convert master's study, projects, internships, or part-time employment int
 ## Search markets
 
 - Primary: Singapore and Mainland China.
-- Backup: Malaysia. Check a few strong local roles if SG/CN discovery is unproductive; expand when actual outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. No fixed application quota or deadline is required to use this backup.
+- Backup: Malaysia. Search strong local roles in parallel if SG/CN discovery is unproductive, without a small output cap; expand when actual outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. No fixed application quota or deadline is required to use this backup.
 
 For Singapore, sponsorship/pass feasibility is a material constraint but unknown sponsorship is not an automatic rejection. MCF-only application routes are blocked.
 
 For Mainland China, distinguish legal work-permit plausibility from whether the employer is actually willing to sponsor a foreign fresh graduate.
+Dated policy and market evidence is in [docs/market-facts-2026-10-01.md](docs/market-facts-2026-10-01.md). Shanghai's foreign STEM graduate route deserves targeted employer discovery; it is not proof of employer sponsorship. Do not assume the candidate must first accumulate two full-time years in Malaysia or will receive an internal transfer.

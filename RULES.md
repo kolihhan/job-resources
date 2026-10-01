@@ -2,9 +2,9 @@
 
 ## Goal and execution priority
 
-Get interviews and offers for a suitable full-time, on-site or hybrid engineering job. First advance existing employer responses, assessments and interviews; then find a few genuinely new, well-matched roles. Keep using the current resume and project evidence. Make targeted changes only for a concrete application need or repeated relevant employer feedback; do not restart portfolio work, strategy research, or an application-count experiment.
+Get interviews and offers for a suitable full-time, on-site or hybrid engineering job. First advance existing employer responses, assessments and interviews; then broaden discovery and keep all genuinely new, well-matched roles. Keep using the current resume and project evidence. Make targeted changes only for a concrete application need or repeated relevant employer feedback; do not restart portfolio work, strategy research, or an application-count experiment.
 
-Singapore and Mainland China remain primary. When these searches are unproductive, check a few strong Malaysian roles; expand Malaysia if actual outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. Keep active SG/CN opportunities moving. No fixed quota, ratio, or deadline is needed to use Malaysia as a backup.
+Singapore and Mainland China remain primary. When these searches are unproductive, search strong Malaysian roles in parallel without a small output cap; expand Malaysia if actual outcomes repeatedly show sponsorship, cohort or seniority barriers without meaningful progress. Keep active SG/CN opportunities moving. No fixed quota, ratio, or deadline is needed to use Malaysia as a backup.
 
 For an unusually strong role, research a relevant alumnus, former colleague or team contact only when the connection could improve the application. Do not invent a relationship or require a referral for every role. Research and draft only; obtain explicit user authorization before contacting anyone.
 
@@ -126,7 +126,18 @@ Do not brute-force every source every four hours. Each discovery window should:
 - rotate high-value primary discovery sources;
 - use secondary/research sources only when they add unique evidence;
 - avoid rechecking the same stale result repeatedly;
-- prefer a few verified new survivors over a large list of superficially matching roles.
+- collect a broad batch across new employers and relevant role families, cheap-screen hard mismatches, then verify every serious survivor; do not stop because two or three roles have been found;
+- if few new roles survive, change employers, keywords or source mix during the same run instead of recycling the same listings; apply the same quality gates to every result.
+
+### Broader discovery, without weaker evidence
+
+- Expand employer coverage, not just titles at the same company. A new requisition can be useful, but report roles and unique employers separately.
+- Search ordinary SWE/backend/full-stack/platform roles as seriously as AI roles. Include recent-graduate social hiring and flexible junior/associate roles, not only campus programmes.
+- Apply hard filters to explicit requirements: location, full-time employment, cohort, citizenship/no-sponsorship rules, hard seniority and substantial stack mismatch. Unknown SG sponsorship, absent salary/WLB data and missing nice-to-haves are not automatic rejection reasons. Record unknowns and specific skill gaps truthfully.
+- Distinguish a hard experience cap from a preferred experience range. Never relabel part-time work as full-time or assume a graduate programme excludes part-time professional experience from its cap.
+- If one source returns irrelevant countries, repeats or almost no eligible results, use a different search engine, local board or employer-specific search. Broaden before concluding that the market has no jobs.
+- If an exact employer page fails technically, try an alternative employer-controlled exact ATS route or another retrieval method. A cache miss, JavaScript page or access error does not prove that the job expired. Keep at most CHECK with its one unresolved blocker if verification remains impossible.
+- For interactive searches, report a compact funnel from the work actually performed: distinct role candidates inspected, newly verified APPLY roles, existing CHECK roles resolved, new CHECK roles, duplicates, hard mismatches, confirmed stale roles and unresolved access failures. Use mutually exclusive dispositions and separate new roles from updates. State incomplete coverage honestly. Do not persist a second run-log or manufacture application success probabilities.
 
 ## When to create an Issue
 
