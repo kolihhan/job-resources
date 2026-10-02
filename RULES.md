@@ -215,14 +215,25 @@ Bad/stale/obvious-mismatch raw search results create nothing.
 
 ## Application-route hard gate
 
-`APPLY` requires a usable exact-role application route.
+`APPLY` requires a **fresh, usable, end-to-end exact-role application route**.
 
-- Generic careers/search/location pages are not enough.
-- An unresolved `Apply on company site` redirect is not proof of a usable route.
-- Platform routes such as LinkedIn, JobStreet, Glints, BOSS, 51job, 智联 or 牛客 may be used when the actual application/contact action is usable.
+- Search results, cached/indexed copies, mirrors and generic careers/search/location pages are discovery evidence only. They do **not** prove that a role is currently actionable.
+- The exact role page must currently match the intended employer/title/requisition and expose a real application/contact action.
+- For any intermediary platform or button that redirects (including LinkedIn, JobStreet, Glints, Indeed and similar surfaces), follow the application flow far enough to identify the **final destination**. The intermediary page or visible Apply button alone is not proof of a usable route.
+- A route is usable only when the final destination is accessible for this candidate and still belongs to the intended exact role. If the final destination is removed, expired, ambiguous, login-blocked beyond verification, or otherwise cannot be confirmed, use `CHECK` at most.
+- SG routes whose final destination is MyCareersFuture are blocked unless a separate current non-MCF exact route is directly verified.
+- Platform-native application/contact actions such as LinkedIn Easy Apply, BOSS, 51job, 智联, 牛客 or 猎聘 may count when the actual role-level action itself is directly usable and does not redirect into a blocked channel.
 - Prefer employer-controlled ATS/direct routes when available.
-- If the exact route cannot be verified, use `CHECK` at most with one named blocker.
-- SG MCF-only roles are blocked unless a separate verified non-MCF route exists.
+- If the exact final route cannot be verified, use `CHECK` with one named route blocker rather than `APPLY`.
+
+### Freshness / recheck-at-action
+
+A previous verification is not permanent proof of liveness.
+
+- Before presenting an `APPLY` role to the user as ready, and again immediately before acting on a user `go`, fresh-check the exact application route.
+- If the fresh check fails, downgrade to `CHECK` when the route is merely unverified, or close/block when current evidence confirms the route is stale, removed, expired, MCF-only, or otherwise unusable.
+- Do not preserve `APPLY` merely because the role was live on an earlier run.
+- Clearly old listings or listings with uncertain age must not survive on search-index presence alone; they need a current working exact application action.
 
 This hard gate applies at the **verification / ready-to-apply stage**, not to every raw discovery candidate.
 
