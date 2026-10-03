@@ -22,10 +22,10 @@ jobs:
           cat .tmp/resume-pdf-sync/en/part-* | base64 -d > resumes/resume-en-current.pdf
           cat .tmp/resume-pdf-sync/cn/part-* | base64 -d > resumes/resume-cn-current.pdf
 
-          test "$(stat -c%s resumes/resume-en-current.pdf)" -eq 93725
-          test "$(stat -c%s resumes/resume-cn-current.pdf)" -eq 466146
-          echo "a7393ff0d6a85b4156ac63885c8ddb164ebe9eb70accb3a0891f00c9dcdaf234  resumes/resume-en-current.pdf" | sha256sum -c -
-          echo "1c4bbba502bb0f446ee4cfae686d46c6dd15b7e8a8e38c18a08739edb6ec24e4  resumes/resume-cn-current.pdf" | sha256sum -c -
+          test "$(stat -c%s resumes/resume-en-current.pdf)" -eq 61042
+          test "$(stat -c%s resumes/resume-cn-current.pdf)" -eq 93545
+          echo "66e3c41bf64e5e5ea39e0e4b7f49edaf6826fd1adaaabe05ad45ec7798b2dc62  resumes/resume-en-current.pdf" | sha256sum -c -
+          echo "3cc36cbb4229098e22d326a69304c037c7ee33206cefdff3e74ada02cdc7c955  resumes/resume-cn-current.pdf" | sha256sum -c -
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
