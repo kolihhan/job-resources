@@ -1,0 +1,32 @@
+name: Assemble current resume PDF
+
+on:
+  push:
+    paths:
+      - ".tmp/resume-upload/READY"
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Assemble verified PDF
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .tmp/resume-upload/part-* | base64 -d > resumes/resume-en-current.pdf
+          test "$(head -c 5 resumes/resume-en-current.pdf)" = "%PDF-"
+          test "$(stat -c%s resumes/resume-en-current.pdf)" -eq 45402
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resumes/resume-en-current.pdf
+          git rm -r .tmp/resume-upload
+          git rm .github/workflows/assemble-resume.yml
+          git commit -m "Add current English resume PDF"
+          git push
