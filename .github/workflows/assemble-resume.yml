@@ -19,6 +19,23 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          echo "=== staged chunk hashes ==="
+          sha256sum \
+            .tmp/resume-upload/part-00 \
+            .tmp/resume-upload/part-01 \
+            .tmp/resume-upload/part-02 \
+            .tmp/resume-upload/part-03 \
+            .tmp/resume-upload/part-04 \
+            .tmp/resume-upload/part-05 \
+            .tmp/resume-upload/part-06 \
+            .tmp/resume-upload/part-07 \
+            .tmp/resume-upload/part-08 \
+            .tmp/resume-upload/part-09a \
+            .tmp/resume-upload/part-09b0 \
+            .tmp/resume-upload/part-09b1 \
+            .tmp/resume-upload/part-09b2 \
+            .tmp/resume-upload/part-09b3
+
           cat \
             .tmp/resume-upload/part-00 \
             .tmp/resume-upload/part-01 \
@@ -35,8 +52,14 @@ jobs:
             .tmp/resume-upload/part-09b2 \
             .tmp/resume-upload/part-09b3 \
             > /tmp/resume.b64
-          test "$(stat -c%s /tmp/resume.b64)" -eq 69320
+
+          echo "b64_bytes=$(stat -c%s /tmp/resume.b64)"
           base64 -d /tmp/resume.b64 > resumes/resume-en-current.pdf
+          echo "pdf_bytes=$(stat -c%s resumes/resume-en-current.pdf)"
+          echo "pdf_sha=$(sha256sum resumes/resume-en-current.pdf | awk '{print $1}')"
+          echo "pdf_magic=$(head -c 5 resumes/resume-en-current.pdf)"
+
+          test "$(stat -c%s /tmp/resume.b64)" -eq 69320
           test "$(head -c 5 resumes/resume-en-current.pdf)" = "%PDF-"
           test "$(stat -c%s resumes/resume-en-current.pdf)" -eq 51990
           test "$(sha256sum resumes/resume-en-current.pdf | awk '{print $1}')" = "b05e4f8f3a040429eaeacb149fd1a60f716b687eb67a54067369b737c11d55e3"
