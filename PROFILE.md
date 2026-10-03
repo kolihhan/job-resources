@@ -53,6 +53,13 @@ Applied AI is a differentiator, not a substitute for engineering quality.
 
 Never convert master's study, projects, internships, or part-time employment into fictitious full-time professional YOE.
 
+## Current resume assets
+
+- English / Singapore / international: [`resumes/resume-en-current.md`](resumes/resume-en-current.md)
+- Chinese / Mainland China: [`resumes/resume-cn-current.md`](resumes/resume-cn-current.md)
+- Synced from the approved current resume PDFs on 2026-10-03.
+- Treat these stable paths as the repo-readable resume mirrors; replace them when a newer resume is explicitly approved rather than accumulating versioned copies.
+
 ## Search markets
 
 ### Primary: Singapore + Mainland China
