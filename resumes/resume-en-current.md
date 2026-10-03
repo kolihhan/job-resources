@@ -6,7 +6,7 @@
 
 > Text mirror of the current approved English resume, synced 2026-10-03 from `resume-en-current.pdf`.
 
-Software engineer with production backend/full-stack experience and hands-on work building and evaluating LLM systems across Text-to-SQL, hybrid retrieval, and multimodal tool use.
+Software engineer with production backend/full-stack experience and hands-on work building and evaluating LLM systems across Text-to-SQL, hybrid retrieval, and tool-using multimodal agents.
 
 ## Experience
 
@@ -27,18 +27,20 @@ Software engineer with production backend/full-stack experience and hands-on wor
 ### [Semantic Text-to-SQL Agent](https://github.com/kolihhan/semantic-text2sql-agent)
 **Python · LangGraph · Qwen3.5 4B · FastAPI · SQLite**
 
-- Built a local Text-to-SQL service with deterministic SQL verification, read-only execution, bounded repair, and one-pass clause-guided semantic revision.
-- On a frozen 100-query BIRD DEV run, guarded execution raised execution success from 63% to 82%; official BIRD EX moved from 31% to 34%, separating execution reliability from semantic correctness.
+- Built a local Text-to-SQL service with deterministic SQL verification, read-only execution, bounded repair, and one-pass clause-guided semantic review.
+- On a frozen 100-query BIRD DEV run, guarded repair recovered 19 failed executions (63% → 82% execution success); official BIRD EX rose from 31% to 34%.
 
 ### [Local RAG Search](https://github.com/kolihhan/local-rag-search)
 **Python · BM25 · Qwen Embeddings · RRF · FastAPI**
 
-- Benchmarked BM25, Qwen dense retrieval, and RRF on 64 official Confluence-compatible queries over 5,189 documents; hybrid reached 0.7630 Recall@10, 0.7418 MRR@20, and 0.8438 Hit@10 with per-result rank provenance.
+- Built a local hybrid retriever with BM25, Qwen dense retrieval, RRF fusion, and per-result rank provenance.
+- On 64 Confluence-compatible queries over 5,189 documents, hybrid RRF reached 0.7630 Recall@10, 0.7418 MRR@20, and 0.8438 Hit@10.
 
 ### [Hermes Video Tutor](https://github.com/kolihhan/hermes-video-tutor)
 **Python · Hermes · Qwen3.5 4B · Tool Calling · Multimodal**
 
-- Built a local multimodal video-QA agent that starts with transcript evidence and escalates to frame/clip inspection only when needed; on a frozen 12-question self-authored paired fixture, visual-required full pass reached 66.7% with no unnecessary visual-tool calls on transcript-answerable cases.
+- Built a local video-QA agent that uses transcript evidence first and inspects frames/clips only when needed, with visible tool traces and abstention.
+- On a frozen 12-question self-authored paired fixture, multimodal tools raised visual-required full pass from 0% to 66.7%, with no unnecessary visual calls on transcript-answerable cases.
 
 ## Skills
 
