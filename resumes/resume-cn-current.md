@@ -11,9 +11,9 @@
 ### Kahap Inc | 软件开发工程师（兼职）
 **2022.08 - 2026.08**
 
-- 作为主要开发者负责生产环境反馈平台，完成反馈提交流程、自动通知和后台管理等功能。
-- 维护另一套 Laravel / Vue.js 职业平台，持续交付业务功能，并处理生产环境中的应用与数据库问题。
-- 参与生产部署与服务器维护，包括服务器迁移/升级、Linux / SSL、Laravel Queue / Worker 与数据库故障排查。
+- 作为主要开发者负责生产环境反馈平台，开发反馈提交流程、自动通知和后台管理等核心功能。
+- 维护另一套 Laravel / Vue.js career platform，持续交付业务功能并处理线上应用与数据库问题。
+- 负责部署与服务器维护，包括服务器迁移/升级、Laravel Queue / Worker、SSL 续期和数据库故障排查。
 
 ### Pac Com Solution | 全栈开发实习生
 **2021.06 - 2022.01**
@@ -25,20 +25,20 @@
 ### [Semantic Text-to-SQL](https://github.com/kolihhan/semantic-text2sql-agent)
 **Python · XiYanSQL 7B · LangGraph · FastAPI · SQLite**
 
-- 以 XiYanSQL 7B 搭建本地 Text-to-SQL 流程，加入 schema / value grounding、SQL 校验、只读执行和有限次数修复。
-- 在 100 条 BIRD 测试题上达到 58% execution-match；Schema Linking 调整修正了 7 条失败样本，同时造成 7 条回退，用于定位下一步优化方向。
+- 使用 XiYanSQL 7B 搭建本地 Text-to-SQL 流程，加入 schema / value grounding、SQL 校验、只读执行和有限次数修复。
+- 在 100 条 BIRD 测试题上达到 58% execution-match；错误分析显示 Schema Linking 调整修正了 7 条，同时也使 7 条结果变差。
 
 ### [Local RAG Search](https://github.com/kolihhan/local-rag-search)
 **Python · BM25 · Qwen3-Embedding-0.6B · RRF · FastAPI**
 
-- 搭建 BM25 + Qwen3 Embedding + RRF 的混合检索流程，通过 FastAPI 提供查询接口，并保留检索与排序来源用于调试。
+- 搭建 BM25 + Qwen3 Embedding + RRF 的混合检索 API，并保留每条结果的检索信息用于调试。
 - 在 64 条 EnterpriseRAG-Bench 查询、5,189 份文档上，RRF 相比 BM25 将 Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742。
 
 ### [Hermes Video Tutor](https://github.com/kolihhan/hermes-video-tutor)
 **Python · Hermes · Qwen3.5 4B · Tool Calling · Multimodal**
 
-- 搭建工具调用式视频问答 Agent，根据问题在字幕、画面和视频片段之间选择证据，而不是所有问题都调用视觉工具。
-- 在 12 题配对测试中，多模态路由将整体通过率从 16.7% 提升至 50.0%；视觉题通过率为 66.7%，文本可回答问题未产生额外视觉调用。
+- 搭建视频问答 Agent，优先使用字幕信息，只在需要视觉内容时检查画面或视频片段。
+- 在 12 题配对测试中，加入视觉工具后整体通过率从 16.7% 提升至 50.0%；视觉题通过率为 66.7%，文本可回答问题无需视觉调用。
 
 ## 专业技能
 
