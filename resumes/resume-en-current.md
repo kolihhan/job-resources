@@ -11,9 +11,9 @@
 ### Kahap Inc | Software Developer (Part-time)
 **Aug 2022 - Aug 2026**
 
-- Primary developer for a production feedback platform, implementing submission workflows, automated notifications, and administrative features.
-- Maintained and extended a separate Laravel/Vue.js career platform, shipping business features and resolving production application and database issues.
-- Supported production operations across deployments, server migrations/upgrades, Linux/SSL maintenance, Laravel queues/workers, and database troubleshooting.
+- Primary developer for a production feedback platform, building submission workflows, automated notifications, and admin features.
+- Maintained a separate Laravel/Vue.js career platform, shipping features and resolving production application and database issues.
+- Managed deployments and server maintenance, including migrations/upgrades, Laravel queues/workers, SSL renewal, and database troubleshooting.
 
 ### Pac Com Solution | Full-Stack Developer Intern
 **Jun 2021 - Jan 2022**
@@ -25,20 +25,20 @@
 ### [Semantic Text-to-SQL](https://github.com/kolihhan/semantic-text2sql-agent)
 **Python · XiYanSQL 7B · LangGraph · FastAPI · SQLite**
 
-- Built a local Text-to-SQL pipeline around XiYanSQL 7B with schema/value grounding, SQL validation, read-only execution, and bounded repair.
-- Reached a 58% execution-match rate on 100 BIRD questions; schema-linking changes fixed 7 failed cases but regressed 7 others, exposing the trade-offs for the next iteration.
+- Built a local Text-to-SQL pipeline using XiYanSQL 7B with schema/value grounding, SQL validation, read-only execution, and bounded repair.
+- Reached a 58% execution-match rate on 100 BIRD questions; error analysis showed schema-linking changes fixed 7 cases but broke 7 others.
 
 ### [Local RAG Search](https://github.com/kolihhan/local-rag-search)
 **Python · BM25 · Qwen3-Embedding-0.6B · RRF · FastAPI**
 
-- Built a hybrid retrieval pipeline combining BM25, Qwen3 embeddings, and RRF, served through FastAPI with retrieval/ranking provenance for debugging.
+- Built a hybrid retrieval API combining BM25, Qwen3 embeddings, and RRF, with per-result retrieval details for debugging.
 - On 64 EnterpriseRAG-Bench queries over 5,189 documents, RRF improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742 versus BM25.
 
 ### [Hermes Video Tutor](https://github.com/kolihhan/hermes-video-tutor)
 **Python · Hermes · Qwen3.5 4B · Tool Calling · Multimodal**
 
-- Built a tool-using video-QA agent that routes between transcript, frame, and clip evidence instead of invoking vision for every question.
-- On 12 paired questions, multimodal routing raised overall full-pass from 16.7% to 50.0%; visual-required questions reached 66.7% with no unnecessary visual calls on transcript-answerable cases.
+- Built a video-QA agent that uses transcript evidence first and only inspects frames or clips when visual information is needed.
+- On 12 paired questions, visual tools raised overall pass rate from 16.7% to 50.0%; visual questions reached 66.7%, while transcript-answerable questions avoided visual calls.
 
 ## Skills
 
