@@ -36,14 +36,20 @@ jobs:
 
           grep -F "Software Engineer | Applied AI & LLM Systems" /tmp/en.txt
           grep -F "58/100" /tmp/en.txt
-          grep -F "0.7341" /tmp/en.txt\n          grep -F "0.7630" /tmp/en.txt
-          grep -F "16.7%" /tmp/en.txt\n          grep -F "50.0%" /tmp/en.txt\n          grep -F "66.7%" /tmp/en.txt
+          grep -F "0.7341" /tmp/en.txt
+          grep -F "0.7630" /tmp/en.txt
+          grep -F "16.7%" /tmp/en.txt
+          grep -F "50.0%" /tmp/en.txt
+          grep -F "66.7%" /tmp/en.txt
           ! grep -qi "QLoRA" /tmp/en.txt
 
           grep -F "软件工程师" /tmp/cn.txt
           grep -F "58/100" /tmp/cn.txt
-          grep -F "0.7341" /tmp/cn.txt\n          grep -F "0.7630" /tmp/cn.txt
-          grep -F "16.7%" /tmp/cn.txt\n          grep -F "50.0%" /tmp/cn.txt\n          grep -F "66.7%" /tmp/cn.txt
+          grep -F "0.7341" /tmp/cn.txt
+          grep -F "0.7630" /tmp/cn.txt
+          grep -F "16.7%" /tmp/cn.txt
+          grep -F "50.0%" /tmp/cn.txt
+          grep -F "66.7%" /tmp/cn.txt
           ! grep -qi "QLoRA" /tmp/cn.txt
 
       - name: Upload verification artifact
