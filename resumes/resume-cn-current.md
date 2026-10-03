@@ -28,7 +28,7 @@
 **Python · XiYanSQL 7B · LangGraph · FastAPI · SQLite**
 
 - 构建本地 Text-to-SQL 服务，使用 XiYanSQL 7B，并加入 schema grounding、SQL 校验、只读执行和有限次数修复。
-- 在冻结的 100 条 BIRD 测试题中，XiYanSQL 7B 有 58 条执行结果与参考结果一致，并通过错误分析比较不同的 schema-linking 方法。
+- 在 100 条 BIRD 测试题中，XiYanSQL 7B 有 58 条执行结果与参考结果一致，并结合错误分析比较不同的 Schema Linking 方案。
 
 ### [Local RAG Search](https://github.com/kolihhan/local-rag-search)
 **Python · BM25 · Qwen3-Embedding-0.6B · RRF · FastAPI**
@@ -40,7 +40,7 @@
 **Python · Hermes · Qwen3.5 4B · Tool Calling · Multimodal**
 
 - 构建视频问答 Agent：能用字幕回答时直接回答，只有在需要视觉信息时才检查画面或视频片段。
-- 在 12 题评测中，加入视觉工具后整体通过率从 16.7% 提升到 50.0%，视觉题通过率为 66.7%。
+- 在 12 题测试中，加入视觉工具后整体通过率从 16.7% 提升到 50.0%，视觉题通过率为 66.7%。
 
 ## 专业技能
 
