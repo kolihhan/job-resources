@@ -21,7 +21,8 @@ jobs:
           set -euo pipefail
           cat .tmp/resume-upload/part-* | base64 -d > resumes/resume-en-current.pdf
           test "$(head -c 5 resumes/resume-en-current.pdf)" = "%PDF-"
-          test "$(stat -c%s resumes/resume-en-current.pdf)" -eq 45402
+          test "$(stat -c%s resumes/resume-en-current.pdf)" -eq 51990
+          test "$(sha256sum resumes/resume-en-current.pdf | awk '{print $1}')" = "b05e4f8f3a040429eaeacb149fd1a60f716b687eb67a54067369b737c11d55e3"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
