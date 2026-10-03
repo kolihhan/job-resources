@@ -94,7 +94,7 @@ For serious survivors, verify:
 
 Only then create or update an Issue.
 
-`[APPLY]` still requires a verified exact role-level application route. Generic careers/search pages are not enough. For Singapore, an MCF-only role is blocked unless a separate verified non-MCF route exists.
+`[APPLY]` still requires a verified exact role-level application route. Generic careers/search pages are not enough. On intermediary sites such as JobStreet/LinkedIn/Indeed/Glints, an Apply button or role-specific `/apply` URL is not final proof: the real application form or employer ATS must be reached. For Singapore, any flow that ultimately resolves to MCF is blocked unless a separate verified non-MCF route exists.
 
 ## Market focus
 
