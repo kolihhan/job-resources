@@ -220,8 +220,14 @@ Bad/stale/obvious-mismatch raw search results create nothing.
 - Search results, cached/indexed copies, mirrors and generic careers/search/location pages are discovery evidence only. They do **not** prove that a role is currently actionable.
 - The exact role page must currently match the intended employer/title/requisition and expose a real application/contact action.
 - For any intermediary platform or button that redirects (including LinkedIn, JobStreet, Glints, Indeed and similar surfaces), follow the application flow far enough to identify the **final destination**. The intermediary page or visible Apply button alone is not proof of a usable route.
+- A role-specific-looking URL such as `/apply` is **still intermediary evidence** unless the actual candidate application form renders there. Do not infer finality from the URL path, button label, or page title.
+- Final-route proof requires at least one of:
+  1. the actual candidate application form for the exact role renders and is usable;
+  2. an employer-controlled ATS page for the exact requisition exposes a real start/submit application action with no unresolved external redirect; or
+  3. a platform-native exact-role application/contact flow is directly usable and no external redirect remains.
+- If JavaScript, login, cookies, bot protection, or tool limitations prevent following the route far enough to establish one of those proofs, the route is **unverified**: use `CHECK`, never `APPLY`.
 - A route is usable only when the final destination is accessible for this candidate and still belongs to the intended exact role. If the final destination is removed, expired, ambiguous, login-blocked beyond verification, or otherwise cannot be confirmed, use `CHECK` at most.
-- SG routes whose final destination is MyCareersFuture are blocked unless a separate current non-MCF exact route is directly verified.
+- If any step in an SG application flow ultimately resolves to MyCareersFuture, immediately close/block the role with `status:blocked` + `blocked:mcf` unless a separate current non-MCF exact route is directly verified. Do not leave it as `APPLY` or `CHECK`.
 - Platform-native application/contact actions such as LinkedIn Easy Apply, BOSS, 51job, 智联, 牛客 or 猎聘 may count when the actual role-level action itself is directly usable and does not redirect into a blocked channel.
 - Prefer employer-controlled ATS/direct routes when available.
 - If the exact final route cannot be verified, use `CHECK` with one named route blocker rather than `APPLY`.
@@ -283,7 +289,15 @@ Every open Issue must have exactly:
 
 Closed intentional outcomes may keep `status:skipped` or `status:blocked`; MCF-only SG roles may also use `blocked:mcf`.
 
-Whenever state changes, update title, label, body and next action together. A closed/rejected Issue must not keep a misleading `[WAIT]` title, and a role with a usable non-MCF route must not remain labeled MCF-only.
+Whenever state changes, update title, label, body and next action together. A closed/rejected Issue must not keep a misleading open-state title or label, and a role with a usable non-MCF route must not remain labeled MCF-only.
+
+Treat these as maintenance invariants:
+- no closed Issue may retain `status:action`, `status:apply`, `status:check`, or `status:wait`;
+- no closed Issue title may remain `[ACTION]`, `[APPLY]`, `[CHECK]`, or `[WAIT]`;
+- user feedback equivalent to `MCF` / `onclick is MCF` on an SG route → `[BLOCKED][SG][MCF]`, `status:blocked`, `blocked:mcf`;
+- user feedback equivalent to `skip` / `no` / `no tq` / `I don't want` → terminal skipped state;
+- user feedback equivalent to `not reachable` / `no find` / confirmed unusable route → terminal blocked state;
+- after closing or relabeling an Issue, read it back and verify the terminal title, labels, body/outcome, and state agree.
 
 ## APPLY / CHECK content
 
