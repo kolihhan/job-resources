@@ -6,41 +6,41 @@
 
 > Text mirror of the current fact-audited English resume, synced 2026-10-03 from `resume-en-current.pdf`.
 
-Software engineer with production backend/full-stack experience and hands-on work building and evaluating AI systems across Text-to-SQL, hybrid retrieval, and multimodal tool use.
+Software engineer with production Laravel/Vue.js experience and hands-on work building local AI systems in Python, including Text-to-SQL, retrieval, and tool-using agents.
 
 ## Experience
 
 ### Kahap Inc | Software Developer (Part-time)
 **Aug 2022 - Aug 2026**
 
-- Primary developer for a production feedback platform, owning submission workflows, automated notifications, and administrative features from implementation through production support.
-- Maintained and extended Laravel/Vue.js production applications, shipping business features and resolving application and database issues.
-- Handled deployments and server operations, including server upgrades, Laravel queues/workers, SSL maintenance, and database troubleshooting.
+- Built and maintained core workflows for a production feedback platform, including submissions, automated notifications, and admin tools.
+- Shipped Laravel/Vue.js features and resolved application and database issues across production systems.
+- Supported deployments and server operations, including upgrades, Laravel queues/workers, SSL renewal, and database troubleshooting.
 
 ### Pac Com Solution | Full-Stack Developer Intern
 **Jun 2021 - Jan 2022**
 
-- Developed and maintained full-stack features for production POS applications using Laravel and Vue.js.
+- Built and maintained Laravel/Vue.js features for production POS applications.
 
 ## Projects
 
 ### [Semantic Text-to-SQL](https://github.com/kolihhan/semantic-text2sql-agent)
 **Python · XiYanSQL 7B · LangGraph · FastAPI · SQLite**
 
-- Built a local Text-to-SQL system with grounded schema context, deterministic SQL verification, read-only execution, and bounded repair.
-- Evaluated lexical vs DGSL grounding with XiYanSQL 7B on a frozen 100-case BIRD slice; both reached 58/100 execution-set matches under the project-local scorer (7 gains / 7 regressions).
+- Built a local NL-to-SQL service with XiYanSQL 7B, schema grounding, SQL validation, read-only execution, and bounded repair.
+- Benchmarked XiYanSQL 7B on a frozen 100-case BIRD slice, reaching 58/100 execution-set matches under the repo's frozen evaluator; used error analysis to test schema-linking variants.
 
 ### [Local RAG Search](https://github.com/kolihhan/local-rag-search)
 **Python · BM25 · Qwen3-Embedding-0.6B · RRF · FastAPI**
 
-- Built a local hybrid retriever combining BM25 and Qwen dense retrieval with RRF fusion and per-result rank provenance.
-- On 64 official Confluence-compatible EnterpriseRAG-Bench v1.0.0 queries over 5,189 documents, RRF improved Recall@10 from 0.7341 to 0.7630 and MRR@20 from 0.6792 to 0.7418 over BM25.
+- Built a local hybrid retrieval service with BM25, Qwen3 embeddings, RRF fusion, and rank provenance exposed through FastAPI.
+- On 64 EnterpriseRAG-Bench queries over 5,189 documents, RRF improved Recall@10 from 0.7341 to 0.7630 and MRR@20 from 0.6792 to 0.7418 versus BM25.
 
 ### [Hermes Video Tutor](https://github.com/kolihhan/hermes-video-tutor)
 **Python · Hermes · Qwen3.5 4B · Tool Calling · Multimodal**
 
-- Built a local video-QA agent that starts with transcript evidence and escalates to frame/clip inspection only when needed, with visible evidence and abstention.
-- On a frozen 12-question self-authored paired fixture, multimodal mode improved overall full-pass from 16.7% to 50.0% and reached 66.7% on visual-required questions, with no unnecessary visual calls on transcript-answerable cases.
+- Built a local video-QA agent that searches transcripts first and inspects frames or clips only when visual evidence is needed.
+- On a frozen 12-question paired test, multimodal mode improved overall full-pass from 16.7% to 50.0%; visual-required cases reached 66.7%.
 
 ## Skills
 
