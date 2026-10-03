@@ -1,0 +1,36 @@
+name: Sync current resume PDFs
+
+on:
+  push:
+    paths:
+      - ".tmp/resume-pdf-sync/READY"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Assemble and verify PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .tmp/resume-pdf-sync/en/part-* | base64 -d > resumes/resume-en-current.pdf
+          cat .tmp/resume-pdf-sync/cn/part-* | base64 -d > resumes/resume-cn-current.pdf
+
+          test "$(stat -c%s resumes/resume-en-current.pdf)" -eq 93725
+          test "$(stat -c%s resumes/resume-cn-current.pdf)" -eq 466146
+          echo "a7393ff0d6a85b4156ac63885c8ddb164ebe9eb70accb3a0891f00c9dcdaf234  resumes/resume-en-current.pdf" | sha256sum -c -
+          echo "1c4bbba502bb0f446ee4cfae686d46c6dd15b7e8a8e38c18a08739edb6ec24e4  resumes/resume-cn-current.pdf" | sha256sum -c -
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resumes/resume-en-current.pdf resumes/resume-cn-current.pdf
+          git rm -r .tmp/resume-pdf-sync
+          git rm .github/workflows/sync-resume-pdfs.yml
+          git commit -m "Update verified current resume PDFs"
+          git push
