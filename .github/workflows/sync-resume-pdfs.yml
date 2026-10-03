@@ -34,7 +34,8 @@ jobs:
           grep -F "51,414 posts" /tmp/en.txt
           grep -F "0.6250 to 0.6890" /tmp/en.txt
           ! grep -qi "Hermes Video Tutor" /tmp/en.txt
-          grep -F "教育背景" /tmp/cn.txt\n          grep -F "2021.06 - 2022.01" /tmp/cn.txt
+          grep -F "教育背景" /tmp/cn.txt
+          grep -F "2021.06 - 2022.01" /tmp/cn.txt
           grep -F "58 条查询的执行结果与参考结果一致" /tmp/cn.txt
           grep -F "51,414 篇帖子" /tmp/cn.txt
           ! grep -qi "Hermes Video Tutor" /tmp/cn.txt
