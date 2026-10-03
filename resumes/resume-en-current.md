@@ -28,7 +28,7 @@ Software engineer with production experience in Laravel/Vue.js and hands-on expe
 **Python · XiYanSQL 7B · LangGraph · FastAPI · SQLite**
 
 - Built a local Text-to-SQL service with XiYanSQL 7B, schema grounding, SQL validation, read-only execution, and bounded repair.
-- On a frozen 100-question BIRD slice, XiYanSQL 7B matched the expected execution result on 58 questions; analyzed failures to compare alternative schema-linking approaches.
+- Evaluated XiYanSQL 7B on 100 BIRD questions, matching the expected execution result on 58, then used failure analysis to compare schema-linking approaches.
 
 ### [Local RAG Search](https://github.com/kolihhan/local-rag-search)
 **Python · BM25 · Qwen3-Embedding-0.6B · RRF · FastAPI**
@@ -40,7 +40,7 @@ Software engineer with production experience in Laravel/Vue.js and hands-on expe
 **Python · Hermes · Qwen3.5 4B · Tool Calling · Multimodal**
 
 - Built a video-QA agent that answers from transcripts when possible and inspects frames or clips only when visual evidence is needed.
-- On a 12-question evaluation set, adding visual tools improved overall pass rate from 16.7% to 50.0%, reaching 66.7% on visual questions.
+- Tested on 12 questions, adding visual tools improved overall pass rate from 16.7% to 50.0%, with 66.7% on visual questions.
 
 ## Skills
 
