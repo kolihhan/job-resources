@@ -1,73 +1,71 @@
-name: Assemble current resume PDF
+name: Build verified current resume PDFs
 
 on:
   push:
     paths:
-      - ".tmp/resume-upload/READY"
+      - ".tmp/resume-build/READY"
 
 permissions:
   contents: write
 
 jobs:
-  assemble:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Assemble verified PDF
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDF toolchain
         shell: bash
         run: |
           set -euo pipefail
-          echo "=== staged chunk hashes ==="
-          sha256sum \
-            .tmp/resume-upload/part-00 \
-            .tmp/resume-upload/part-01 \
-            .tmp/resume-upload/part-02 \
-            .tmp/resume-upload/part-03 \
-            .tmp/resume-upload/part-04 \
-            .tmp/resume-upload/part-05 \
-            .tmp/resume-upload/part-06 \
-            .tmp/resume-upload/part-07 \
-            .tmp/resume-upload/part-08 \
-            .tmp/resume-upload/part-09a \
-            .tmp/resume-upload/part-09b0 \
-            .tmp/resume-upload/part-09b1 \
-            .tmp/resume-upload/part-09b2 \
-            .tmp/resume-upload/part-09b3
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk ghostscript poppler-utils
+          python -m pip install --quiet "weasyprint==68.0"
 
-          cat \
-            .tmp/resume-upload/part-00 \
-            .tmp/resume-upload/part-01 \
-            .tmp/resume-upload/part-02 \
-            .tmp/resume-upload/part-03 \
-            .tmp/resume-upload/part-04 \
-            .tmp/resume-upload/part-05 \
-            .tmp/resume-upload/part-06 \
-            .tmp/resume-upload/part-07 \
-            .tmp/resume-upload/part-08 \
-            .tmp/resume-upload/part-09a \
-            .tmp/resume-upload/part-09b0 \
-            .tmp/resume-upload/part-09b1 \
-            .tmp/resume-upload/part-09b2 \
-            .tmp/resume-upload/part-09b3 \
-            > /tmp/resume.b64
+      - name: Build and verify resumes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .tmp/resume-build/build.py
 
-          echo "b64_bytes=$(stat -c%s /tmp/resume.b64)"
-          base64 -d /tmp/resume.b64 > resumes/resume-en-current.pdf
-          echo "pdf_bytes=$(stat -c%s resumes/resume-en-current.pdf)"
-          echo "pdf_sha=$(sha256sum resumes/resume-en-current.pdf | awk '{print $1}')"
-          echo "pdf_magic=$(head -c 5 resumes/resume-en-current.pdf)"
+          weasyprint .tmp/resume-build/resume-en-current.html /tmp/resume-en.raw.pdf
+          weasyprint .tmp/resume-build/resume-cn-current.html /tmp/resume-cn.raw.pdf
 
-          test "$(stat -c%s /tmp/resume.b64)" -eq 69320
+          gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.6 -dPDFSETTINGS=/ebook              -dNOPAUSE -dQUIET -dBATCH              -sOutputFile=resumes/resume-en-current.pdf /tmp/resume-en.raw.pdf
+          gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.6 -dPDFSETTINGS=/ebook              -dNOPAUSE -dQUIET -dBATCH              -sOutputFile=resumes/resume-cn-current.pdf /tmp/resume-cn.raw.pdf
+
           test "$(head -c 5 resumes/resume-en-current.pdf)" = "%PDF-"
-          test "$(stat -c%s resumes/resume-en-current.pdf)" -eq 51990
-          test "$(sha256sum resumes/resume-en-current.pdf | awk '{print $1}')" = "b05e4f8f3a040429eaeacb149fd1a60f716b687eb67a54067369b737c11d55e3"
+          test "$(head -c 5 resumes/resume-cn-current.pdf)" = "%PDF-"
+          test "$(pdfinfo resumes/resume-en-current.pdf | awk '/^Pages:/ {print $2}')" = "1"
+          test "$(pdfinfo resumes/resume-cn-current.pdf | awk '/^Pages:/ {print $2}')" = "1"
 
+          pdftotext resumes/resume-en-current.pdf /tmp/en.txt
+          pdftotext resumes/resume-cn-current.pdf /tmp/cn.txt
+          grep -Fq "KO LIH HAN" /tmp/en.txt
+          grep -Fq "Information Systems & Applications" /tmp/en.txt
+          grep -Fq "高立恒" /tmp/cn.txt
+          grep -Fq "资讯系统与应用研究所" /tmp/cn.txt
+
+          sha256sum resumes/resume-en-current.pdf resumes/resume-cn-current.pdf
+          ls -lh resumes/resume-en-current.pdf resumes/resume-cn-current.pdf
+
+      - name: Commit PDFs and remove one-shot staging
+        shell: bash
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add resumes/resume-en-current.pdf
-          git rm -r .tmp/resume-upload
+
+          git add resumes/resume-en-current.pdf resumes/resume-cn-current.pdf
+          git rm -r .tmp/resume-build
+          if [ -d .tmp/resume-upload ]; then git rm -r .tmp/resume-upload; fi
           git rm .github/workflows/assemble-resume.yml
-          git commit -m "Add current English resume PDF"
+
+          git commit -m "Add verified current resume PDFs"
           git push
