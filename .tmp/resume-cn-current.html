@@ -1,0 +1,32 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><style>
+@page { size: A4; margin: 11.5mm 13mm 11.5mm 13mm; }
+* { box-sizing: border-box; }
+body { font-family:"Noto Sans CJK SC","Noto Sans CJK TC","Noto Sans CJK",sans-serif; color:#171717; font-size:10.8pt; line-height:1.42; margin:0; }
+a { color:inherit; text-decoration:none; }
+.header { text-align:center; margin-bottom:3.4mm; }
+.name { font-family:"Noto Sans CJK SC","Noto Sans CJK",sans-serif; font-size:21.2pt; font-weight:800; letter-spacing:.2pt; margin:0 0 2.65mm; }
+.tagline { font-size:11.3pt; font-weight:700; color:#17365d; margin-bottom:1mm; }
+.contact { font-size:9.0pt; color:#5a6470; }
+.rule { border-top:1.15pt solid #17365d; margin-top:1.7mm; }
+.summary { margin:2.6mm 0 2.5mm; font-size:10.3pt; line-height:1.42; }
+.section { margin-top:3.1mm; }
+.section-title { color:#17365d; font-size:11.6pt; font-weight:800; letter-spacing:.16pt; padding-bottom:.5mm; border-bottom:.65pt solid #9ca9b7; margin-bottom:2.25mm; }
+.item { margin:0 0 2.65mm; break-inside:avoid; }
+.row { display:flex; justify-content:space-between; align-items:baseline; gap:8mm; }
+.left { min-width:0; }
+.item-title { font-weight:800; font-size:10.8pt; }
+.role { color:#66717f; font-weight:500; }
+.date { white-space:nowrap; color:#66717f; font-size:10.1pt; }
+.tech { font-family:"Liberation Sans","Noto Sans CJK SC",sans-serif; font-style:italic; color:#66717f; font-size:9.35pt; font-weight:500; }
+ul { margin:.6mm 0 0 4.5mm; padding:0; }
+li { margin:0 0 1.15mm 0; padding-left:.25mm; }
+.skills { margin-top:.05mm; }
+.skill-line { margin:0 0 .72mm; }
+.skill-label { font-weight:800; }
+.edu-meta { color:#66717f; margin-top:.3mm; font-size:10.1pt; }
+</style></head><body><div class="header"><div class="name">高立恒</div><div class="tagline">软件工程师｜AI 应用 / 后端开发</div><div class="contact">+60 17-424 6282 &nbsp; | &nbsp; <a href="mailto:lihhanko526@gmail.com">lihhanko526@gmail.com</a> &nbsp; | &nbsp; <a href="https://github.com/kolihhan">github.com/kolihhan</a></div><div class="rule"></div></div><div class="summary">具备 Laravel / Vue.js 生产系统开发经验，并使用 Python 构建 Text-to-SQL、混合检索与工具调用等 AI 应用。</div><div class="section"><div class="section-title">工作经历</div><div class="item"><div class="row"><div class="left"><span class="item-title">Kahap Inc</span> &nbsp;|&nbsp; <span class="role">软件开发工程师（兼职）</span></div><div class="date">2022.08 - 2026.08</div></div><ul><li>开发并维护生产环境反馈平台的核心流程，包括反馈提交、自动通知与后台管理功能。</li><li>持续交付 Laravel / Vue.js 业务功能，并处理生产环境中的应用层与数据库问题。</li><li>支持部署与服务器运维，包括服务器升级、Laravel Queue / Worker、SSL 续期及数据库故障排查。</li></ul></div><div class="item"><div class="row"><div class="left"><span class="item-title">Pac Com Solution</span> &nbsp;|&nbsp; <span class="role">全栈开发实习生</span></div><div class="date">2021.06 - 2022.01</div></div><ul><li>使用 Laravel / Vue.js 开发并维护生产环境 POS 应用功能。</li></ul></div></div><div class="section"><div class="section-title">项目经历</div><div class="item"><div><a class="item-title" href="https://github.com/kolihhan/semantic-text2sql-agent">Semantic Text-to-SQL</a> &nbsp;|&nbsp; <span class="tech">Python · XiYanSQL 7B · LangGraph · FastAPI · SQLite</span></div><ul><li>构建本地 NL-to-SQL 服务，使用 XiYanSQL 7B，并加入 schema grounding、SQL 校验、只读执行与有上限修复。</li><li>在冻结的 100 条 BIRD 样本上，XiYanSQL 7B 按仓库固定的 execution-set scorer 达到 58/100，并通过错误分析继续测试 schema-linking 方案。</li></ul></div><div class="item"><div><a class="item-title" href="https://github.com/kolihhan/local-rag-search">Local RAG Search</a> &nbsp;|&nbsp; <span class="tech">Python · BM25 · Qwen3-Embedding-0.6B · RRF · FastAPI</span></div><ul><li>构建本地混合检索服务，组合 BM25、Qwen3 Embedding 与 RRF，并通过 FastAPI 返回结果及排名来源。</li><li>在 64 条 EnterpriseRAG-Bench 查询、5,189 份文档上，RRF 相比 BM25 将 Recall@10 从 0.7341 提升至 0.7630，MRR@20 从 0.6792 提升至 0.7418。</li></ul></div><div class="item"><div><a class="item-title" href="https://github.com/kolihhan/hermes-video-tutor">Hermes Video Tutor</a> &nbsp;|&nbsp; <span class="tech">Python · Hermes · Qwen3.5 4B · Tool Calling · Multimodal</span></div><ul><li>构建本地视频 QA Agent：先检索字幕，仅在问题需要视觉信息时检查画面或视频片段。</li><li>在冻结的 12 题配对测试中，多模态模式将整体完整通过率从 16.7% 提升至 50.0%，视觉问题达到 66.7%。</li></ul></div></div><div class="section"><div class="section-title">专业技能</div><div class="skills">
+<div class="skill-line"><span class="skill-label">AI / LLM：</span> LLM Agents、RAG、Tool Calling、Retrieval / Evaluation、LangGraph</div>
+<div class="skill-line"><span class="skill-label">编程 / 后端：</span> Python、SQL、JavaScript、PHP、FastAPI、REST APIs、Laravel、Vue.js、React</div>
+<div class="skill-line"><span class="skill-label">数据 / 基础设施：</span> AWS、MySQL、Redis、SQLite、Linux、Git、pytest</div>
+<div class="skill-line"><span class="skill-label">其他：</span> Java、C/C++｜中文（母语）、英语（流利）、马来语（中等）</div>
+</div></div><div class="section"><div class="section-title">教育背景</div><div class="item"><div class="row"><div class="left"><span class="item-title">国立清华大学（台湾）</span> &nbsp;|&nbsp; <span class="role">资讯系统与应用研究所 理学硕士</span></div><div class="date">2024.09 - 2026.06</div></div><div class="edu-meta">GPA：4.09/4.3 &nbsp; | &nbsp; 硕士论文：<i>Interpreting Implicit Intent through Workplace Hierarchies and Context</i></div></div><div class="item"><div class="row"><div class="left"><span class="item-title">中华大学（台湾）</span> &nbsp;|&nbsp; <span class="role">资讯工程学系 学士</span></div><div class="date">2022.09 - 2024.06</div></div><div class="edu-meta">GPA：3.9/4.0</div></div></div></body></html>
