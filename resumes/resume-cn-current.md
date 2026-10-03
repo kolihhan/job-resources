@@ -1,12 +1,12 @@
 # 高立恒
 
-**大模型应用开发工程师 / AI 应用工程师 / 后端开发工程师**
+**软件工程师｜AI 应用 / 后端开发**
 
 +60 17-424 6282 | lihhanko526@gmail.com | github.com/kolihhan
 
 > 当前已批准中文简历的文本镜像；2026-10-03 与 `resume-cn-current.pdf` 同步。
 
-国立清华大学资讯系统与应用研究所理学硕士，具备生产系统后端/全栈开发经验，并完成 Text-to-SQL、混合检索和多模态工具调用等可评测 AI 应用系统。
+国立清华大学资讯系统与应用研究所理学硕士，具备生产环境后端/全栈开发经验，并完成 Text-to-SQL、混合检索与多模态工具调用等可评测 AI 系统。
 
 ## 工作经历
 
@@ -27,18 +27,20 @@
 ### [Semantic Text-to-SQL Agent](https://github.com/kolihhan/semantic-text2sql-agent)
 **Python · LangGraph · Qwen3.5 4B · FastAPI · SQLite**
 
-- 构建本地 Text-to-SQL 服务，包含确定性 SQL 校验、SQLite 只读执行、有上限修复，以及一次性 Clause-Guided Semantic Revision。
-- 在冻结的 100 条 BIRD DEV 查询上，受控路径将执行成功率从 63% 提升至 82%，官方 BIRD EX 从 31% 提升至 34%；明确区分执行可靠性与语义正确性。
+- 构建本地 Text-to-SQL 服务，包含确定性 SQL 校验、只读执行、有上限修复，以及一次性 Clause-Guided 语义复核。
+- 在冻结的 100 条 BIRD DEV 查询上，受控修复恢复 19 条原本执行失败的查询（执行成功率 63% → 82%）；官方 BIRD EX 从 31% 提升至 34%。
 
 ### [Local RAG Search](https://github.com/kolihhan/local-rag-search)
 **Python · BM25 · Qwen Embeddings · RRF · FastAPI**
 
-- 在 64 条官方 Confluence-compatible 查询、5,189 份文档上评测 BM25、Qwen 稠密检索与 RRF；混合检索达到 0.7630 Recall@10、0.7418 MRR@20、0.8438 Hit@10，并保留逐结果排名来源。
+- 构建本地混合检索系统，组合 BM25、Qwen 稠密检索与 RRF，并保留逐结果排名来源。
+- 在 64 条 Confluence-compatible 查询、5,189 份文档上，混合 RRF 达到 0.7630 Recall@10、0.7418 MRR@20、0.8438 Hit@10。
 
 ### [Hermes Video Tutor](https://github.com/kolihhan/hermes-video-tutor)
 **Python · Hermes · Qwen3.5 4B · Tool Calling · Multimodal**
 
-- 构建本地多模态视频 QA Agent：优先使用字幕证据，仅在需要时检查帧/视频片段；在冻结的 12 题自建配对测试中，视觉问题完整通过率为 66.7%，且文本可回答问题未产生不必要的视觉工具调用。
+- 构建本地视频 QA Agent：优先使用字幕证据，仅在需要时检查帧/视频片段，并保留工具轨迹与证据不足时的拒答。
+- 在冻结的 12 题自建配对测试中，多模态工具将视觉问题完整通过率从 0% 提升至 66.7%，文本可回答问题未产生不必要的视觉调用。
 
 ## 专业技能
 
