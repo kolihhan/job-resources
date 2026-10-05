@@ -164,6 +164,10 @@ Clearly 2027-only roles are normally filtered unless official wording explicitly
 
 Do not equate legal foreign-work-permit possibility with employer willingness to hire a foreign fresh graduate. Employer willingness may remain unknown until engagement.
 
+A platform sign-in/profile gate is a **route-verification blocker**, not evidence that the role itself is low quality or not worth tracking. If the exact JD is live, the role/cohort/seniority fit is strong, dedupe is clean, and no known hard work-authorization blocker exists, it may still become a serious-survivor `CHECK` with exactly one blocker: the signed-in exact application flow.
+
+Do not let CN discovery silently collapse into SG simply because CN sources are harder to inspect end-to-end. In every scheduled or interactive SG+CN discovery run, actively rotate CN employers, role keywords and source mix. If no serious CN survivor appears, change the CN source/keyword mix in the same run before concluding that the CN market is sparse.
+
 Preferred flow:
 
 `broad CN discovery → cheap cohort/seniority filter → serious survivor → exact JD / targeted dedupe / usable apply/contact route → APPLY or CHECK`
