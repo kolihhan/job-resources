@@ -1,183 +1,76 @@
 # Job Search Inbox
 
-Private operating inbox for my job search: **Singapore + Mainland China first**, Malaysia as a practical backup.
+Private operating inbox for my job search: **Singapore + Mainland China first**, Malaysia as backup.
 
-The goal is interviews and offers for a suitable full-time, on-site or hybrid engineering job. Prioritize active employer responses, then create more strong SG/CN opportunities. Use the current resume and project evidence; change them only for a concrete application need or repeated relevant employer feedback.
+Goal: get interviews and offers for a suitable full-time engineering role without turning the search into another project.
 
-Keep the workflow small:
+`discover → cheap screen → verify serious survivors → user go → apply → follow up`
 
-`discover broadly → cheap screen → verify serious survivors → user go → apply → follow up`
+## Use these views
 
-Do not create an application quota, experiment framework, or another tracker.
+Do **not** work from the unfiltered Issues list.
 
-## Open Issues are the UI
-
-Do **not** use the unfiltered Issues list as the working view. Use these focused views instead:
-
-- [NOW — ACTION + APPLY + CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%22status%3Await%22) — things that may need attention.
-- [CN NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Acn%22%20-label%3A%22status%3Await%22) — current Mainland China opportunities only.
-- [SG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Asg%22%20-label%3A%22status%3Await%22) — current Singapore opportunities only.
-- [TG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20TG%20-label%3A%22status%3Await%22) — current opportunities discovered from Telegram/DeJob.
+- [NOW — ACTION + APPLY + CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%22status%3Await%22) — everything that may need attention.
+- [CN NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Acn%22%20-label%3A%22status%3Await%22) — Mainland China only.
+- [SG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Asg%22%20-label%3A%22status%3Await%22) — Singapore only.
+- [TG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20TG%20-label%3A%22status%3Await%22) — leads first found through Telegram / DeJob.
 - [ACTION](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aaction%22) — OA, interview, recruiter reply, deadline.
-- [APPLY](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aapply%22) — verified roles ready for user review.
-- [CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Acheck%22) — one blocker remains.
-- [WAIT / history](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Await%22) — already applied/contacted; normally ignore unless new evidence arrives.
+- [APPLY](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aapply%22) — verified roles ready for review.
+- [CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Acheck%22) — exactly one blocker remains.
+- [WAIT / history](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Await%22) — already applied/contacted; normally ignore.
 
-Only four open states are used:
+`[TG]` only marks the discovery source, for example `[CHECK][CN][TG] Company — Role`. It does not mean the role is verified or safe.
 
-- `[ACTION]` — I need to do something now or soon: OA, interview, recruiter reply, deadline.
-- `[APPLY]` — verification is complete and the exact role is worth applying to.
-- `[CHECK]` — one material blocker remains unresolved.
-- `[WAIT]` — already applied; waiting for employer activity.
+## Four open states
 
-Rejected, expired, duplicate, withdrawn, or intentionally skipped roles are closed.
+- `[ACTION]` — I need to do something now or soon.
+- `[APPLY]` — verified and worth applying; still needs my `go`.
+- `[CHECK]` — one material blocker or decision remains.
+- `[WAIT]` — already submitted/contacted and waiting.
 
-`[TG]` means the lead was first discovered from a Telegram/DeJob source. Example: `[CHECK][CN][TG] Company — Role`. TG is only the discovery source; the role still needs the same company/JD/liveness/dedupe/application-route verification as any other job.
-
-## Labels / quick filters
-
-Every tracked Issue carries one market label and one status label.
-
-Market:
-
-- `market:sg`
-- `market:cn`
-- `market:my` — Malaysia backup
-
-Open status:
-
-- `status:action`
-- `status:apply`
-- `status:check`
-- `status:wait`
-
-Useful filters:
-
-- Ready to review/apply: `is:issue is:open label:"status:apply"`
-- Waiting applications: `is:issue is:open label:"status:wait"`
-- Needs one blocker resolved: `is:issue is:open label:"status:check"`
-- Singapore: `is:issue is:open label:"market:sg"`
-- China: `is:issue is:open label:"market:cn"`
-- Telegram/DeJob: `is:issue is:open TG`
-
-Closed intentional outcomes may use `status:skipped` or `status:blocked`; MCF-only Singapore roles also use `blocked:mcf`.
-
-## Issue title
-
-Normal source:
-
-`[STATUS][MARKET] Company — Role — Req ID`
-
-Telegram/DeJob source:
-
-`[STATUS][MARKET][TG] Company — Role — Req ID`
+Rejected, expired, duplicate, blocked, withdrawn or intentionally skipped roles are closed.
 
 ## Simple commands
 
-Comments on an exact role:
+On an exact role:
 
-- `go` — authorize proceeding with that exact application/action.
-- `applied` — I manually submitted it and no official receipt has arrived yet.
+- `go` — authorize that exact application/action.
+- `applied` — I manually submitted it.
 - `skip` — close it as intentionally skipped.
 
-`[APPLY]` by itself is never permission to submit.
+`[APPLY]` by itself is never submission permission.
 
-A clear skip/drop decision made in ChatGPT should be mirrored to the matching GitHub Issue immediately.
+## How the system runs
 
-## Discovery vs verification
+**Source of truth**
 
-Discovery and verification are deliberately separate.
+- GitHub Issues = live operational state.
+- Gmail = recruiting evidence and targeted dedupe.
+- Old spreadsheet = legacy/read-only.
 
-### Stage 1 — broad discovery
+**Discovery**
 
-Search **SG + CN first** across many employers and relevant role families. Discovery should be cheap and wide.
+Search SG + CN broadly and cheaply first. Verify only serious survivors. Raw search results do not become Issues.
 
-At this stage check only enough to reject obvious bad candidates:
+- SG: official careers/ATS, LinkedIn, JobStreet, Indeed; selective secondary sources such as DeJob/TG.
+- CN: BOSS, official/campus portals, 牛客, 51job, 智联; secondary LinkedIn, 猎聘, DeJob/TG.
+- MY: backup; lean toward Applied AI / AI Engineer / LLM / RAG / Agent / AI backend roles.
 
-- wrong country / not full-time;
-- clearly senior or hard 5+ YOE;
-- clearly incompatible graduation window;
-- substantial hard stack/domain mismatch;
-- clearly stale listing.
+All sources use the same survivor checks: live exact JD, cohort/seniority fit, dedupe, work-authorization blockers when material, and a usable exact application route. Telegram/DeJob does **not** bypass verification.
 
-Do **not** stop discovery to deeply research salary, WLB, unknown sponsorship, exact final ATS routing, or both Gmail accounts for every raw candidate. Do not create Issues for raw candidates.
+Detailed execution rules live only in [`RULES.md`](RULES.md). Do not duplicate them into scheduler prompts, another tracker, or another framework.
 
-### Stage 2 — survivor verification
+## What I should do
 
-For serious survivors, verify:
+1. Handle `ACTION` first.
+2. Review `APPLY` and give `go` only for roles I want.
+3. Resolve useful `CHECK` blockers.
+4. Leave `WAIT` alone unless new evidence arrives.
 
-- full/exact JD and current live status;
-- cohort / seniority / hard requirements;
-- GitHub + targeted Gmail dedupe;
-- exact usable application route;
-- any material work-authorization or fit blocker that affects whether to apply.
+## Automation
 
-Only then create or update an Issue.
+Maintenance checks recent recruiting evidence and keeps existing Issues synchronized. Incremental discovery rotates SG/CN sources; Malaysia remains backup.
 
-`[APPLY]` still requires a verified exact role-level application route. Generic careers/search pages are not enough. On intermediary sites such as JobStreet/LinkedIn/Indeed/Glints, an Apply button or role-specific `/apply` URL is not final proof: the real application form or employer ATS must be reached. For Singapore, any flow that ultimately resolves to MCF is blocked unless a separate verified non-MCF route exists.
+The automation reads the current repo rules. If strategy changes, update `RULES.md` once rather than maintaining multiple copies.
 
-## Market focus
-
-### Singapore — primary
-
-Primary discovery: official company careers/ATS, LinkedIn, JobStreet, Indeed.
-
-Support: MCF for evidence only, employee-review sources when decision-relevant, Wellfound selectively, DeJob/Telegram selectively for relevant AI/backend leads.
-
-Unknown sponsorship is not a discovery-stage rejection. Explicit no-sponsorship is.
-
-### Mainland China — primary
-
-Primary discovery: BOSS直聘, official company careers/campus portals, 牛客, 51job/前程无忧, 智联/智联校园.
-
-Secondary: LinkedIn, 猎聘, DeJob/Telegram.
-
-Prioritize 2026-compatible wording such as `2026届`, `往届可投`, `毕业两年内`, `0–3年`, `海外留学生`, recent graduate. Clearly 2027-only roles are normally filtered unless the official window includes a 2026 graduate.
-
-Search normal SWE/backend/full-stack/platform roles and Applied-AI roles in parallel. `AI Engineer` is not the only useful title.
-
-### Malaysia — backup, not an equal lane
-
-Do not let Malaysia consume the main SG/CN search budget.
-
-Search Malaysia when:
-
-- SG/CN discovery in the current run is genuinely sparse after changing employers/keywords/sources; or
-- an unusually strong Malaysian opportunity surfaces naturally.
-
-For Malaysia, lean more toward **AI Engineer / Applied AI / AI Software Engineer / LLM / RAG / Agent / AI backend/platform** because local work authorization is not a blocker. Strong normal SWE/backend roles are still valid when they offer better engineering career capital.
-
-Regional or China/SG-connected employers are interesting, but do not assume a future internal transfer without evidence.
-
-## Human route
-
-For an unusually strong verified role, optionally look for one relevant recruiter, alumnus, former colleague, or team contact when it could materially improve the application. Do not turn networking into a requirement for every role. Contacting anyone still requires explicit user authorization.
-
-## What I should do each morning
-
-1. Handle `[ACTION]` first.
-2. Review `[APPLY]` and give `go` on roles I want to pursue.
-3. Resolve `[CHECK]` only when the blocker matters.
-4. Leave `[WAIT]` alone unless new evidence arrives.
-
-## Source of truth
-
-- GitHub Issues = current operational state.
-- Gmail = targeted evidence for receipts, OA/interviews, recruiter messages, deadlines, rejections, and dedupe.
-- The old Library spreadsheet = legacy/read-only reference.
-
-Do not create a second live tracker, dashboard, database, or spreadsheet mirror.
-
-## Automation behavior
-
-Maintenance runs hourly and updates existing Issues first.
-
-Incremental discovery runs during MYT hours `00/04/08/12/16/20`. **SG + CN are always the primary discovery markets.** Malaysia is backup as defined above, not a mandatory third-market sweep.
-
-Gmail maintenance should use bounded recent recruiting evidence and exact-role/company lookups when needed; do not broad-audit the entire mailbox every run.
-
-The weekly review focuses on real employer signals and the single most useful next action. Scheduled prompts read current GitHub rules rather than carrying a second copy of the strategy.
-
-Normal `[APPLY]` roles can wait quietly. Notify me for time-sensitive actions or access/write failures that need intervention.
-
-See [dated market evidence](docs/market-facts-2026-10-01.md), [the next-chat prompt](NEXT_CHAT_PROMPT.md), `PROFILE.md`, and `RULES.md`. Older documents under `docs/superpowers/` are historical context.
+See `PROFILE.md`, [`RULES.md`](RULES.md), and [dated market evidence](docs/market-facts-2026-10-01.md). Older `docs/superpowers/` material is historical context.
