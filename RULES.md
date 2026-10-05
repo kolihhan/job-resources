@@ -116,7 +116,8 @@ Support/research when useful:
 
 - MyCareersFuture for evidence only;
 - employee-review sources for decision-relevant company/WLB questions;
-- Wellfound selectively for startups.
+- Wellfound selectively for startups;
+- DeJob public listings / Telegram feed selectively for AI/backend roles.
 
 MCF is not a usable application channel for this candidate. If the only verified route is MCF, block/close the role unless a separate non-MCF exact route exists.
 
@@ -139,7 +140,8 @@ Primary discovery:
 Secondary:
 
 - LinkedIn;
-- 猎聘.
+- 猎聘;
+- DeJob public listings / Telegram feed for AI/backend opportunities.
 
 Research only when decision-relevant:
 
@@ -171,6 +173,19 @@ Do not let CN discovery silently collapse into SG simply because CN sources are 
 Preferred flow:
 
 `broad CN discovery → cheap cohort/seniority filter → serious survivor → exact JD / targeted dedupe / usable apply/contact route → APPLY or CHECK`
+
+## Telegram / DeJob source marking
+
+Telegram/DeJob is a **secondary discovery source**, not the authoritative proof by itself.
+
+For any Issue whose lead was first discovered from Telegram or DeJob:
+
+- prefix the Issue title with `[TG]` after the market tag, e.g. `[CHECK][CN][TG] Company — Role`;
+- include `Source: TG / DeJob` and the original public post/listing link in the Issue body;
+- still verify the company, exact role/JD, liveness, requirements, dedupe and final application route independently before using `APPLY`;
+- if the post is anonymous, recruiter-only, crypto-payment-only, unclear-company, or otherwise hard to verify, keep it out of GitHub unless it survives verification as a serious opportunity.
+
+The `[TG]` marker records **where the lead came from**, not role quality and not application authorization.
 
 ## Malaysia — backup
 
