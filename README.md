@@ -17,6 +17,7 @@ Do **not** use the unfiltered Issues list as the working view. Use these focused
 - [NOW — ACTION + APPLY + CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%22status%3Await%22) — things that may need attention.
 - [CN NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Acn%22%20-label%3A%22status%3Await%22) — current Mainland China opportunities only.
 - [SG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Asg%22%20-label%3A%22status%3Await%22) — current Singapore opportunities only.
+- [TG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20TG%20-label%3A%22status%3Await%22) — current opportunities discovered from Telegram/DeJob.
 - [ACTION](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aaction%22) — OA, interview, recruiter reply, deadline.
 - [APPLY](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aapply%22) — verified roles ready for user review.
 - [CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Acheck%22) — one blocker remains.
@@ -57,6 +58,7 @@ Useful filters:
 - Needs one blocker resolved: `is:issue is:open label:"status:check"`
 - Singapore: `is:issue is:open label:"market:sg"`
 - China: `is:issue is:open label:"market:cn"`
+- Telegram/DeJob: `is:issue is:open TG`
 
 Closed intentional outcomes may use `status:skipped` or `status:blocked`; MCF-only Singapore roles also use `blocked:mcf`.
 
