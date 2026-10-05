@@ -12,6 +12,16 @@ Do not create an application quota, experiment framework, or another tracker.
 
 ## Open Issues are the UI
 
+Do **not** use the unfiltered Issues list as the working view. Use these focused views instead:
+
+- [NOW — ACTION + APPLY + CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%22status%3Await%22) — things that may need attention.
+- [CN NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Acn%22%20-label%3A%22status%3Await%22) — current Mainland China opportunities only.
+- [SG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Asg%22%20-label%3A%22status%3Await%22) — current Singapore opportunities only.
+- [ACTION](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aaction%22) — OA, interview, recruiter reply, deadline.
+- [APPLY](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aapply%22) — verified roles ready for user review.
+- [CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Acheck%22) — one blocker remains.
+- [WAIT / history](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Await%22) — already applied/contacted; normally ignore unless new evidence arrives.
+
 Only four open states are used:
 
 - `[ACTION]` — I need to do something now or soon: OA, interview, recruiter reply, deadline.
@@ -37,14 +47,6 @@ Open status:
 - `status:apply`
 - `status:check`
 - `status:wait`
-
-Useful filters:
-
-- Ready to review/apply: `is:issue is:open label:"status:apply"`
-- Waiting applications: `is:issue is:open label:"status:wait"`
-- Needs one blocker resolved: `is:issue is:open label:"status:check"`
-- Singapore: `is:issue is:open label:"market:sg"`
-- China: `is:issue is:open label:"market:cn"`
 
 Closed intentional outcomes may use `status:skipped` or `status:blocked`; MCF-only Singapore roles also use `blocked:mcf`.
 
