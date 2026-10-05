@@ -31,6 +31,8 @@ Only four open states are used:
 
 Rejected, expired, duplicate, withdrawn, or intentionally skipped roles are closed.
 
+`[TG]` means the lead was first discovered from a Telegram/DeJob source. Example: `[CHECK][CN][TG] Company — Role`. TG is only the discovery source; the role still needs the same company/JD/liveness/dedupe/application-route verification as any other job.
+
 ## Labels / quick filters
 
 Every tracked Issue carries one market label and one status label.
@@ -48,11 +50,25 @@ Open status:
 - `status:check`
 - `status:wait`
 
+Useful filters:
+
+- Ready to review/apply: `is:issue is:open label:"status:apply"`
+- Waiting applications: `is:issue is:open label:"status:wait"`
+- Needs one blocker resolved: `is:issue is:open label:"status:check"`
+- Singapore: `is:issue is:open label:"market:sg"`
+- China: `is:issue is:open label:"market:cn"`
+
 Closed intentional outcomes may use `status:skipped` or `status:blocked`; MCF-only Singapore roles also use `blocked:mcf`.
 
 ## Issue title
 
+Normal source:
+
 `[STATUS][MARKET] Company — Role — Req ID`
+
+Telegram/DeJob source:
+
+`[STATUS][MARKET][TG] Company — Role — Req ID`
 
 ## Simple commands
 
@@ -104,7 +120,7 @@ Only then create or update an Issue.
 
 Primary discovery: official company careers/ATS, LinkedIn, JobStreet, Indeed.
 
-Support: MCF for evidence only, employee-review sources when decision-relevant, Wellfound selectively.
+Support: MCF for evidence only, employee-review sources when decision-relevant, Wellfound selectively, DeJob/Telegram selectively for relevant AI/backend leads.
 
 Unknown sponsorship is not a discovery-stage rejection. Explicit no-sponsorship is.
 
@@ -112,7 +128,7 @@ Unknown sponsorship is not a discovery-stage rejection. Explicit no-sponsorship 
 
 Primary discovery: BOSS直聘, official company careers/campus portals, 牛客, 51job/前程无忧, 智联/智联校园.
 
-Secondary: LinkedIn and 猎聘.
+Secondary: LinkedIn, 猎聘, DeJob/Telegram.
 
 Prioritize 2026-compatible wording such as `2026届`, `往届可投`, `毕业两年内`, `0–3年`, `海外留学生`, recent graduate. Clearly 2027-only roles are normally filtered unless the official window includes a 2026 graduate.
 
