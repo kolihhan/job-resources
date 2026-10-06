@@ -1,6 +1,6 @@
 # Ko Lih Han
 
-**Software Engineer | Applied AI & LLM Systems**
+**Software Engineer | Applied AI & Backend**
 
 +60 17-424 6282 | lihhanko526@gmail.com | github.com/kolihhan
 
@@ -11,37 +11,41 @@
 
 - Built and maintained a production feedback platform from initial implementation through deployment, centralizing submissions, automated notifications, and admin workflows.
 - Integrated a GPT-SoVITS speech-generation API into an existing application and added checks for dropped text and pronunciation output.
-- Maintained and shipped features for a separate Laravel/Vue.js career platform, debugging production application and database issues.
-- Handled production operations for the career platform, including server migrations/upgrades, Laravel queues/workers/schedulers, SSL renewal, and database troubleshooting.
+- Maintained a Laravel/Vue.js career platform and handled production operations including server migrations/upgrades, queues/workers/schedulers, SSL renewal, and database troubleshooting.
 
 ### Pac Com Solution | Full-Stack Developer Intern
 **Jun 2021 - Jan 2022**
 
-- Developed and maintained Laravel/Vue.js features for a production POS application.
+- Developed and maintained Laravel/Vue.js features for a production POS system.
 
 ## Projects
 
-### [Semantic Text-to-SQL](https://github.com/kolihhan/semantic-text2sql-agent)
+### [Text-to-SQL with Verification & Repair](https://github.com/kolihhan/semantic-text2sql-agent)
 **Python · Qwen3.5 9B · LangGraph · FastAPI · SQLite**
 
 - Built a local Text-to-SQL pipeline with schema/value grounding, deterministic SQL verification, read-only execution, and bounded repair.
-- On a frozen 100-query BIRD DEV slice, guarded verification + repair improved official EX from 33% to 39% and conservative execution success from 75% to 90%, with no correct-to-wrong EX regressions.
+- On a frozen 100-query BIRD DEV slice, guarded verification + repair improved official EX from 33% to 39% and conservative execution success from 75% to 90%, with 6 wrong-to-correct and 0 correct-to-wrong EX transitions.
 
-### [Local RAG Search](https://github.com/kolihhan/local-rag-search)
+### [Hybrid Retrieval for RAG](https://github.com/kolihhan/local-rag-search)
 **Python · BM25 · Qwen3-Embedding-0.6B · RRF · FastAPI**
 
-- Built a FastAPI hybrid retriever combining BM25, Qwen3 embeddings, and RRF, exposing lexical, dense, and fused ranks per result.
-- On a frozen 64-query EnterpriseRAG-Bench slice over 5,189 documents, RRF improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742 versus BM25.
+- Built a hybrid retriever with per-result lexical, dense, and fused rank provenance; on a frozen 64-query / 5,189-document slice, RRF improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742 versus BM25.
 
-### M.S. Thesis - Workplace Implicit Intent
+### [Multimodal Video QA Agent](https://github.com/kolihhan/hermes-video-tutor)
+**Python · Hermes Agent · Multimodal Tools · Streamlit**
+
+- Built a local video QA agent that routes between transcript search and frame/clip inspection, exposing tool activity and evidence while allowing abstention when evidence is insufficient.
+- On a small frozen 12-question fixture, multimodal mode reached 66.7% full pass on visual-required questions versus 0% transcript-only, with no unnecessary visual-tool calls on transcript-answerable cases.
+
+### M.S. Thesis: Context-Aware Workplace Intent
 **Llama 3.1 8B · Retrieval · Knowledge Graphs · Semantic Evaluation**
 
-- Built a role- and context-grounded retrieval framework for listener-side workplace intent from 51,414 posts and 20,455 extracted utterances.
-- On 401 held-out utterances, Dual-KG Top1 scored 0.6890 automated semantic F1 versus 0.6250 without retrieved evidence.
+- Built role- and context-grounded retrieval over 51,414 posts and 20,455 utterances, separating workplace-role evidence from local context evidence.
+- On 401 held-out utterances, Dual-KG Top1 reached 0.6890 semantic F1 versus 0.6250 without retrieved evidence.
 
 ## Skills
 
-- **AI:** RAG, Information Retrieval, LLM Evaluation, LangGraph
+- **AI / Retrieval:** RAG, Information Retrieval, LLM Evaluation, Agents, Tool Calling, LangGraph
 - **Programming / Backend:** Python, SQL, JavaScript, PHP, FastAPI, REST APIs, Laravel, Vue.js
 - **Data / Infra:** MySQL, SQLite, Linux, Git, GitHub Actions, pytest
 - **Languages:** Chinese (Native), English (Fluent), Malay (Intermediate)
