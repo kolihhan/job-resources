@@ -38,11 +38,10 @@
 - Built a local video QA agent that chooses between transcript search and frame/clip inspection, shows the evidence used, and declines to answer when evidence is insufficient.
 - On a 12-question paired evaluation, multimodal mode passed 4/6 visual-required cases while making no visual-tool calls on transcript-answerable cases.
 
-### M.S. Thesis: Context-Aware Workplace Implicit Intent
-**Llama 3.1 8B · Retrieval · Knowledge Graphs · NLP**
+### M.S. Thesis: Interpreting Implicit Intent through Workplace Hierarchies and Context
 
-- Built role- and context-grounded retrieval over 51,414 posts and 20,455 utterances, separating workplace-role evidence from local context evidence.
-- On 401 held-out utterances, combining role and context retrieval improved semantic F1 from 0.6250 to 0.6890.
+- Built a graph-aware retrieval framework over 10,645 workplace dialogue turns, using MiniLM and graph attention to learn speaker/listener state representations for role- and context-structured evidence retrieval.
+- With Llama 3.1 8B on 400 held-out targets without post context, role-based retrieval improved semantic F1 from 0.6440 to 0.6793; adding context evidence reached 0.6819.
 
 ## Skills
 
