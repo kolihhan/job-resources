@@ -1,0 +1,34 @@
+name: Temporary Resume PDF Upload
+
+on:
+  push:
+    paths:
+      - '.resume-upload/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  decode-and-commit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild resume PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .resume-upload/en.part* | base64 -d | gzip -d > resumes/resume-en-current.pdf
+          cat .resume-upload/cn.part* | base64 -d | gzip -d > resumes/resume-cn-current.pdf
+          echo '5fb689fb047a85b77f9253a1931c541661c92652e111fbb055eacc40cbcddaf4  resumes/resume-en-current.pdf' | sha256sum -c -
+          echo '64db9170032796302f2bdad9d3356bd7ff0a38a8702abebcc60e5aba7962f800  resumes/resume-cn-current.pdf' | sha256sum -c -
+      - name: Commit rebuilt PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .resume-upload
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add resumes/resume-en-current.pdf resumes/resume-cn-current.pdf .resume-upload
+          git commit -m 'Update resume PDFs'
+          git push
