@@ -9,9 +9,9 @@
 ### Kahap Inc | Software Developer (Part-time)
 **Aug 2022 - Aug 2026**
 
-- Built and maintained a production feedback platform from initial implementation through deployment, centralizing submissions, automated notifications, and admin workflows.
-- Shipped and debugged features for a Laravel/Vue.js career platform, resolving production application and database issues.
-- Maintained production operations for the career platform, including server migrations/upgrades, Laravel queues/workers/schedulers, SSL renewal, and database troubleshooting.
+- Led end-to-end development of a production feedback platform, from system design and implementation through deployment, including submission workflows, automated notifications, and admin operations.
+- Shipped new features and resolved application and database issues on an existing Laravel/Vue.js production platform.
+- Handled server migrations, upgrades, Laravel queues/workers/schedulers, SSL renewal, and production database troubleshooting for the same platform.
 
 ### Pac Com Solution | Full-Stack Developer Intern
 **Jun 2021 - Jan 2022**
@@ -24,7 +24,7 @@
 **Python · FastAPI · LangGraph · SQLite · Qwen3.5 9B**
 
 - Built a local Text-to-SQL pipeline with schema/value grounding, deterministic SQL verification, read-only execution, and bounded repair.
-- On a fixed 100-query BIRD DEV subset with Qwen3.5 9B, verification + bounded repair improved execution accuracy (EX) from 33% to 39% and SQL execution success from 75% to 90%, correcting 6 cases with no accuracy regressions.
+- On 100 BIRD DEV queries with Qwen3.5 9B, verification + bounded repair improved execution accuracy (EX) from 33% to 39%; successfully executable queries increased from 75/100 to 90/100, with 6 corrected cases and no EX regressions.
 
 ### [Hybrid Retrieval for RAG](https://github.com/kolihhan/local-rag-search)
 **Python · FastAPI · BM25 · Qwen3-Embedding-0.6B · RRF**
@@ -36,7 +36,7 @@
 **Python · Streamlit · Qwen3.5 4B · FFmpeg**
 
 - Built a local video QA agent that chooses between transcript search and frame/clip inspection, shows the evidence used, and declines to answer when evidence is insufficient.
-- On a small 12-question test, multimodal tools passed 4/6 visual-required cases versus 0/6 with transcript-only, with no visual calls on transcript-answerable cases in that run.
+- On a 12-question paired evaluation, multimodal mode passed 4/6 visual-required cases while making no visual-tool calls on transcript-answerable cases.
 
 ### M.S. Thesis: Context-Aware Workplace Implicit Intent
 **Llama 3.1 8B · Retrieval · Knowledge Graphs · NLP**
