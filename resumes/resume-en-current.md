@@ -24,24 +24,24 @@
 **Python · FastAPI · LangGraph · SQLite · Qwen3.5 9B**
 
 - Built a local Text-to-SQL pipeline with schema/value grounding, deterministic SQL verification, read-only execution, and bounded repair.
-- On 100 BIRD DEV queries with Qwen3.5 9B, verification + bounded repair improved execution accuracy (EX) from 33% to 39%; successfully executable queries increased from 75/100 to 90/100, with 6 corrected cases and no EX regressions.
+- On 100 BIRD DEV queries, verification + bounded repair raised execution accuracy from 33% to 39% and executable queries from 75 to 90, correcting 6 cases with no accuracy regressions.
 
 ### [Hybrid Retrieval for RAG](https://github.com/kolihhan/local-rag-search)
 **Python · FastAPI · BM25 · Qwen3-Embedding-0.6B · RRF**
 
 - Built a FastAPI hybrid retriever combining BM25, Qwen embeddings, and RRF, exposing lexical, dense, and fused ranks for each result.
-- On a fixed 64-query EnterpriseRAG-Bench slice over 5,189 documents, RRF improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742 versus BM25.
+- On 64 EnterpriseRAG-Bench queries over 5,189 documents, RRF improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742 versus BM25.
 
 ### [Multimodal Video QA Agent](https://github.com/kolihhan/hermes-video-tutor)
 **Python · Streamlit · Qwen3.5 4B · FFmpeg**
 
 - Built a local video QA agent that chooses between transcript search and frame/clip inspection, shows the evidence used, and declines to answer when evidence is insufficient.
-- On a 12-question paired evaluation, multimodal mode passed 4/6 visual-required cases while making no visual-tool calls on transcript-answerable cases.
+- In a 12-question evaluation, multimodal mode answered 4/6 visual-required cases correctly while avoiding unnecessary visual-tool calls on transcript-answerable cases.
 
 ### M.S. Thesis: Interpreting Implicit Intent through Workplace Hierarchies and Context
 
-- Built a graph-aware retrieval framework over 10,645 workplace dialogue turns, using MiniLM and graph attention to learn speaker/listener state representations for role- and context-structured evidence retrieval.
-- With Llama 3.1 8B on 400 held-out targets without post context, role-based retrieval improved semantic F1 from 0.6440 to 0.6793; adding context evidence reached 0.6819.
+- Built a graph-aware retrieval framework over 10,645 workplace dialogue turns, using MiniLM and graph attention to learn speaker/listener state representations and retrieve evidence by workplace role and interaction context.
+- On 400 held-out targets, role-based retrieval raised semantic F1 from 0.6440 to 0.6793; combining role and context evidence reached 0.6819.
 
 ## Skills
 
