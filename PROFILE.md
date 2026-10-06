@@ -55,12 +55,12 @@ Never convert master's study, projects, internships, or part-time employment int
 
 ## Current resume assets
 
-- English / Singapore / international PDF: [`resumes/resume-en-current.pdf`](resumes/resume-en-current.pdf)
-- English text mirror: [`resumes/resume-en-current.md`](resumes/resume-en-current.md)
-- Chinese / Mainland China PDF: [`resumes/resume-cn-current.pdf`](resumes/resume-cn-current.pdf)
-- Chinese text mirror: [`resumes/resume-cn-current.md`](resumes/resume-cn-current.md)
-- Verified and synced on 2026-10-03.
-- Treat these stable paths as the current resume assets; replace them in place when a newer resume is explicitly approved rather than accumulating versioned copies.
+- English text source of truth: [`resumes/resume-en-current.md`](resumes/resume-en-current.md) — updated 2026-10-06.
+- Chinese text source of truth: [`resumes/resume-cn-current.md`](resumes/resume-cn-current.md) — updated 2026-10-06.
+- English PDF: [`resumes/resume-en-current.pdf`](resumes/resume-en-current.pdf) — last synced 2026-10-03; pending refresh from the current text source.
+- Chinese PDF: [`resumes/resume-cn-current.pdf`](resumes/resume-cn-current.pdf) — last synced 2026-10-03; pending refresh from the current text source.
+- Until the PDFs are replaced, do not assume the PDF content is identical to the current text source.
+- Treat these stable paths as the resume assets; replace them in place rather than accumulating versioned copies.
 
 ## Search markets
 
