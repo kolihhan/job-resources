@@ -24,7 +24,7 @@
 **Python · FastAPI · LangGraph · SQLite · Qwen3.5 9B**
 
 - Built a local Text-to-SQL pipeline with schema/value grounding, deterministic SQL verification, read-only execution, and bounded repair.
-- On 100 BIRD DEV queries, verification + bounded repair raised execution accuracy from 33% to 39% and executable queries from 75 to 90, correcting 6 cases with no accuracy regressions.
+- On 100 BIRD DEV queries, verification + bounded repair raised execution accuracy from 33% to 39% and executable queries from 75/100 to 90/100, correcting 6 cases with no accuracy regressions.
 
 ### [Hybrid Retrieval for RAG](https://github.com/kolihhan/local-rag-search)
 **Python · FastAPI · BM25 · Qwen3-Embedding-0.6B · RRF**
@@ -36,11 +36,11 @@
 **Python · Streamlit · Qwen3.5 4B · FFmpeg**
 
 - Built a local video QA agent that chooses between transcript search and frame/clip inspection, shows the evidence used, and declines to answer when evidence is insufficient.
-- In a 12-question evaluation, multimodal mode answered 4/6 visual-required cases correctly while avoiding unnecessary visual-tool calls on transcript-answerable cases.
+- In a 12-question evaluation, multimodal mode answered 4 of 6 visual-required questions correctly and avoided visual-tool calls on all transcript-answerable questions.
 
 ### M.S. Thesis: Interpreting Implicit Intent through Workplace Hierarchies and Context
 
-- Built a graph-aware retrieval framework over 10,645 workplace dialogue turns, using MiniLM and graph attention to learn speaker/listener state representations and retrieve evidence by workplace role and interaction context.
+- Built a graph-aware retrieval system that uses workplace relationships and interaction context to retrieve relevant evidence for LLM-based implicit-intent interpretation across 10,645 dialogue turns.
 - On 400 held-out targets, role-based retrieval raised semantic F1 from 0.6440 to 0.6793; combining role and context evidence reached 0.6819.
 
 ## Skills
