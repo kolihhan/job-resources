@@ -1,32 +1,12 @@
 # Discovery State
 
-This is a tiny rolling audit receipt for the **latest scheduled discovery run**. It is not a job tracker and must not contain raw candidate dumps.
-
-The maintainer overwrites this file after each scheduled discovery window so the next run can rotate sources/keywords and the health check can tell the difference between a real zero-result run and a skipped/lazy run.
-
 ## Current receipt
 
-- status: `bootstrap`
-- schema_started_at: `2026-10-07 09:37 MYT`
-- last_discovery_run: `not yet recorded under this schema`
-- expected_next_window: `2026-10-07 12:xx MYT`
-- SG sources tried: `pending`
-- SG focus: `pending`
-- CN sources tried: `pending`
-- CN focus: `pending`
-- serious survivors created/updated: `pending`
-- blockers/errors: `none recorded`
-- next rotation: `establish on first post-schema discovery run`
-
-## Receipt contract
-
-After each scheduled discovery run, replace **Current receipt** with only:
-
-- completed run time in MYT;
-- SG source families actually tried + short focus (employers/role keywords);
-- CN source families actually tried + short focus;
-- serious-survivor Issue numbers created/updated, or `none`;
-- concrete search/access failures, if any;
-- next source/keyword rotation to avoid repeating the same search.
-
-A zero-survivor run is valid if both primary markets were actually searched/rotated. Do not store raw rejected candidates, long search logs, dashboards, scores, or duplicate policy here. Detailed rules remain in `RULES.md`.
+- completed run time: `2026-10-07 12:36 MYT`
+- SG sources tried: `official company careers/ATS, LinkedIn, JobStreet, Indeed, DeJob/Telegram`
+- SG focus: `graduate/junior software, backend/platform, applied-AI and full-stack roles; rotated product, infrastructure and semiconductor employers`
+- CN sources tried: `official/campus portals, 牛客, 智联招聘, BOSS直聘, 51job, LinkedIn, DeJob/Telegram`
+- CN focus: `2026届/往届/0-3年 AI应用、Agent、Python后端、平台工程；rotated established technology and financial-services employers`
+- serious survivors created/updated: `#140`
+- blockers/errors: `智联 exact-role page timed out in the verifier; LinkedIn/智联 signed-in final application form for #140 could not be proven`
+- next rotation: `SG: rotate to official Workday/Greenhouse/Lever roles at fintech, infrastructure and semiconductor employers, then Indeed; CN: rotate to official employer portals and 51job for normal backend/platform plus 往届/毕业两年内/海外留学生, reducing closed 2026 牛客 pages`
