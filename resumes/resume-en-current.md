@@ -11,7 +11,7 @@
 
 - Led end-to-end development of a production feedback platform, from system design and implementation through deployment, including submission workflows, automated notifications, and admin operations.
 - Shipped new features and resolved application and database issues on an existing Laravel/Vue.js production platform.
-- Handled server migrations, upgrades, Laravel queues/workers/schedulers, SSL renewal, and production database troubleshooting for the same platform.
+- Managed server migrations and upgrades, Laravel queues/workers/schedulers, SSL renewal, and production database troubleshooting.
 
 ### Pac Com Solution | Full-Stack Developer Intern
 **Jun 2021 - Jan 2022**
@@ -23,25 +23,25 @@
 ### [Text-to-SQL with Verification & Repair](https://github.com/kolihhan/semantic-text2sql-agent)
 **Python · FastAPI · LangGraph · SQLite · Qwen3.5 9B**
 
-- Built a local Text-to-SQL pipeline with schema/value grounding, deterministic SQL verification, read-only execution, and bounded repair.
-- On 100 BIRD DEV queries, verification + bounded repair raised execution accuracy from 33% to 39% and executable queries from 75/100 to 90/100, correcting 6 cases with no accuracy regressions.
+- Built a local Text-to-SQL system that uses database schema and values to generate SQL, validates queries before execution, and repairs them when needed.
+- On 100 BIRD DEV queries, verification and repair increased executable queries from 75 to 90 and recovered 6 additional correct queries.
 
 ### [Hybrid Retrieval for RAG](https://github.com/kolihhan/local-rag-search)
 **Python · FastAPI · BM25 · Qwen3-Embedding-0.6B · RRF**
 
-- Built a FastAPI hybrid retriever combining BM25, Qwen embeddings, and RRF, exposing lexical, dense, and fused ranks for each result.
-- On 64 EnterpriseRAG-Bench queries over 5,189 documents, RRF improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742 versus BM25.
+- Built a hybrid retrieval service for RAG that combines keyword and semantic search, using RRF to merge the results.
+- On 64 EnterpriseRAG-Bench queries over 5,189 documents, hybrid retrieval improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742 versus BM25 alone.
 
 ### [Multimodal Video QA Agent](https://github.com/kolihhan/hermes-video-tutor)
 **Python · Streamlit · Qwen3.5 4B · FFmpeg**
 
-- Built a local video QA agent that chooses between transcript search and frame/clip inspection, shows the evidence used, and declines to answer when evidence is insufficient.
-- In a 12-question evaluation, multimodal mode answered 4 of 6 visual-required questions correctly and avoided visual-tool calls on all transcript-answerable questions.
+- Built a local video QA agent that routes each question to transcript retrieval or frame/clip inspection and shows the supporting evidence.
+- In a 12-question evaluation, the agent correctly answered 4 of 6 questions requiring visual evidence and avoided unnecessary visual-tool calls on transcript-answerable questions.
 
 ### M.S. Thesis: Interpreting Implicit Intent through Workplace Hierarchies and Context
 
-- Built a graph-aware retrieval system that uses workplace relationships and interaction context to retrieve relevant evidence for LLM-based implicit-intent interpretation across 10,645 dialogue turns.
-- On 400 held-out targets, role-based retrieval raised semantic F1 from 0.6440 to 0.6793; combining role and context evidence reached 0.6819.
+- Built a graph-aware retrieval system over 10,645 workplace dialogue turns, using workplace roles and conversation context to find evidence for interpreting implied intent.
+- On 400 held-out examples, role-based retrieval improved semantic F1 from 0.6440 to 0.6793; combining role and context evidence reached 0.6819.
 
 ## Skills
 
