@@ -21,7 +21,7 @@ This change must not introduce:
 
 - a second tracker, database, dashboard, scoring system, scraper framework, knowledge graph, or agent framework;
 - a new scheduler cadence;
-- a quota requiring a fixed number of survivors or applications per run;
+- a quota requiring a fixed number of survivors, applications, candidates, employers, source families, or deep-verifications per run;
 - weaker freshness, sponsorship, cohort, seniority, route, or dedupe gates;
 - bulk cleanup of historical `WAIT` Issues unless separate evidence requires it;
 - automatic applications or external outreach.
@@ -70,7 +70,14 @@ CN coverage: 18 candidates / 12 employers / 4 source families / 3 deep-verified
 Web3 coverage: 6 candidates / 5 employers / 2 source families / 1 deep-verified
 ```
 
-These counters are evidence of search effort only. They do not become quotas, scores, history tables, or success targets.
+Definitions for consistent counting:
+
+- **candidate** = one distinct employer + role + location/market opportunity considered far enough to make a cheap-screen decision; repeated search-result copies of the same opportunity count once;
+- **distinct employer** = canonical employer/client when known, not every job-board/recruiter mirror;
+- **source family** = a materially different discovery channel such as official employer/ATS, LinkedIn, JobStreet, Indeed, 牛客, 智联, BOSS, 51job, 猎聘, or a selective Web3/TG feed; multiple queries inside one channel still count as one family;
+- **deep-verified** = a candidate that passed cheap hard filtering and cheap GitHub dedupe and therefore entered Stage 2 verification.
+
+These counters are evidence of search effort only. They do not become quotas, scores, history tables, or success targets. No minimum count is introduced by this patch.
 
 A run with `18 screened -> 0 survivors` can be healthy. A run with very low screening coverage is not automatically wrong, but it becomes visible and auditable.
 
@@ -95,6 +102,8 @@ Such items should be recorded later as fit gaps, not used for cheap rejection.
 
 Professional-experience language remains a hard blocker when the JD clearly requires it, for example `5+ years required`, `must have production experience in X`, or an equivalent unambiguous mandatory condition.
 
+Ambiguous wording should not be upgraded into a hard blocker by inference. If a candidate otherwise looks serious, preserve the uncertainty for Stage 2 verification.
+
 This rule does not mean every fresh-graduate-compatible Web3 role is good. It only prevents a soft domain gap from being converted into fake professional-experience requirements.
 
 ### C. Make scheduled discovery idempotent by four-hour window
@@ -103,10 +112,10 @@ Define scheduled discovery windows in MYT:
 
 - `00:00-03:59` -> `00` window
 - `04:00-07:59` -> `04`
-- `08:00-11:59` -> `08`
-- `12:00-15:59` -> `12`
-- `16:00-19:59` -> `16`
-- `20:00-23:59` -> `20`
+- `08:00-11:59` -> `08` window
+- `12:00-15:59` -> `12` window
+- `16:00-19:59` -> `16` window
+- `20:00-23:59` -> `20` window
 
 Before scheduled discovery, inspect the latest `DISCOVERY_STATE.md` receipt.
 
@@ -115,6 +124,8 @@ If the current window already contains a completed SG + CN discovery that satisf
 An explicit interactive search requested by the user can still run at any time. If that interactive run intentionally satisfies the full scheduled SG + CN contract and records a valid receipt, it counts as the discovery for that current window.
 
 If the prior run was incomplete, one market was skipped, a required write failed, or the receipt was not verified, the window is not considered complete.
+
+A narrow interactive probe or role-specific lookup does not consume the scheduled window unless it explicitly completed the full SG + CN discovery contract and wrote the compliant receipt.
 
 No external lock, database, or workflow state is introduced.
 
@@ -145,7 +156,7 @@ This is optional polish and is not required for the core reliability patch.
 Expected minimal implementation surface:
 
 1. `RULES.md`
-   - add compact coverage receipt requirements;
+   - add compact coverage receipt requirements and definitions;
    - add hard-vs-soft cheap-screen wording;
    - add same-window scheduled-discovery idempotency;
    - add ambiguous-write retry behavior.
@@ -166,6 +177,8 @@ Implementation is not complete until the following cases are checked:
 
 - A discovery run records compact SG + CN coverage counts.
 - Counts are plausible against the actual candidates inspected in that run.
+- Duplicate mirrors of one role do not inflate candidate counts.
+- No numeric minimum or survivor quota is enforced.
 - No raw-candidate dump or second tracker is created.
 
 ### Hard-vs-soft parsing
@@ -173,11 +186,13 @@ Implementation is not complete until the following cases are checked:
 - A JD saying `5+ years required` can still be cheap-rejected.
 - A JD saying `blockchain familiarity from coursework/self-study/personal projects` is not rejected as if it required professional blockchain experience.
 - A preference such as `Kubernetes preferred` remains a gap, not a hard blocker.
+- Ambiguous experience wording is preserved for verification rather than rewritten as a stronger requirement.
 
 ### Same-window idempotency
 
 - Full compliant discovery at `00:18 MYT` followed by the hourly maintainer at roughly `00:30` results in maintenance only, not another broad discovery.
 - An incomplete `00`-window run still allows a later maintainer in that window to finish discovery.
+- A narrow interactive probe does not suppress the scheduled full discovery.
 - A user explicitly requesting a fresh interactive search can still override the ordinary skip behavior.
 
 ### Ambiguous GitHub create
