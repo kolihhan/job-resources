@@ -57,9 +57,8 @@ Never convert master's study, projects, internships, or part-time employment int
 
 - English text source of truth: [`resumes/resume-en-current.md`](resumes/resume-en-current.md) — updated 2026-10-06.
 - Chinese text source of truth: [`resumes/resume-cn-current.md`](resumes/resume-cn-current.md) — updated 2026-10-06.
-- English PDF: [`resumes/resume-en-current.pdf`](resumes/resume-en-current.pdf) — last synced 2026-10-03; pending refresh from the current text source.
-- Chinese PDF: [`resumes/resume-cn-current.pdf`](resumes/resume-cn-current.pdf) — last synced 2026-10-03; pending refresh from the current text source.
-- Until the PDFs are replaced, do not assume the PDF content is identical to the current text source.
+- English PDF: [`resumes/resume-en-current.pdf`](resumes/resume-en-current.pdf) — synced from the current text source on 2026-10-07 by GitHub Actions commit `000e6e331fb402178635fe19475b82dcbb5e29f8`.
+- Chinese PDF: [`resumes/resume-cn-current.pdf`](resumes/resume-cn-current.pdf) — synced from the current text source on 2026-10-07 by the same GitHub Actions commit.
 - Treat these stable paths as the resume assets; replace them in place rather than accumulating versioned copies.
 
 ## Search markets
