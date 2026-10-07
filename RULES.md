@@ -135,7 +135,7 @@ If few candidates survive, change employers, role keywords or source mix in the 
 
 For roles that survive the cheap screen and are genuinely worth considering, verify:
 
-1. exact/full JD and current live status;
+1. exact/full JD and **current liveness under the Freshness hard gate below**;
 2. graduation/cohort, seniority and hard requirements;
 3. GitHub dedupe;
 4. targeted Gmail dedupe by company/role/req ID;
@@ -207,7 +207,7 @@ Clearly 2027-only roles are normally filtered unless official wording explicitly
 
 Do not equate legal foreign-work-permit possibility with employer willingness to hire a foreign fresh graduate. Employer willingness may remain unknown until engagement.
 
-A platform sign-in/profile gate is a **route-verification blocker**, not evidence that the role itself is low quality or not worth tracking. If the exact JD is live, the role/cohort/seniority fit is strong, dedupe is clean, and no known hard work-authorization blocker exists, it may still become a serious-survivor `CHECK` with exactly one blocker: the signed-in exact application flow.
+A platform sign-in/profile gate is a **route-verification blocker**, not evidence that the role itself is low quality or not worth tracking. If the exact JD is live **under the freshness gate**, the role/cohort/seniority fit is strong, dedupe is clean, and no known hard work-authorization blocker exists, it may still become a serious-survivor `CHECK` with exactly one blocker: the signed-in exact application flow.
 
 Do not let CN discovery silently collapse into SG simply because CN sources are harder to inspect end-to-end. In every scheduled or interactive SG+CN discovery run, actively rotate CN employers, role keywords and source mix. If no serious CN survivor appears, change the CN source/keyword mix in the same run before concluding that the CN market is sparse.
 
@@ -267,11 +267,38 @@ A new Issue should have:
 - plausible early-career fit;
 - no obvious cohort/seniority hard block;
 - credible role/company quality;
-- current exact/full role evidence;
+- current exact/full role evidence with liveness already proven under the freshness gate;
 - no established duplicate application;
-- either a verified exact application route or exactly one material blocker remaining.
+- either a verified exact application route or exactly one material blocker remaining **other than whether the role is still live**.
 
 Bad/stale/obvious-mismatch raw search results create nothing.
+
+### Freshness hard gate before Issue creation
+
+A role must pass this gate **before a new `CHECK` or `APPLY` Issue is created**. `CHECK` is not a quarantine state for possibly stale jobs.
+
+The fact that an exact URL can be retrieved today does **not** prove that the employer is still accepting applications today. If the retrieval/search tool exposes crawl or cache age, use it.
+
+Current liveness requires at least one strong role-level signal in the current run:
+
+1. the exact listing shows an explicit application / validity / closing window that includes the current date; or
+2. the actual exact-role candidate form or employer-controlled ATS start/submit flow renders and is usable now; or
+3. an official employer/platform role page carries a genuinely current role-level status or posting/update timestamp from the last 7 days **and** still exposes an active role-level application action.
+
+Freshness non-proof — these may discover a candidate but cannot promote it to an Issue by themselves:
+
+- a search result or indexed snippet;
+- a mirror / aggregator copy;
+- an exact page returned only from an old cached/crawled snapshot;
+- an `Apply` button visible only inside such a stale snapshot;
+- a generic company careers page or evidence that the company is hiring other roles;
+- a page with no date/status signal when the tool cannot establish a current application flow.
+
+If source metadata says the exact page was crawled more than 7 days ago and there is no explicit still-valid date window or live exact application flow, treat liveness as **unproven**. Keep it as a raw candidate and do not create an Issue. Do not label it `CHECK` merely to ask the user whether the position is closed.
+
+If tools cannot distinguish live content from cached content, require a second independent current role-level signal. When that cannot be obtained, prefer a false negative over repeatedly surfacing stale jobs.
+
+A user report such as `closed position`, `expired`, `not accepting`, or an equivalent current employer/platform signal immediately overrides older crawl/index evidence. Close the Issue and synchronize title, labels, body and state.
 
 ## Application-route hard gate
 
@@ -285,23 +312,23 @@ Bad/stale/obvious-mismatch raw search results create nothing.
   1. the actual candidate application form for the exact role renders and is usable;
   2. an employer-controlled ATS page for the exact requisition exposes a real start/submit application action with no unresolved external redirect; or
   3. a platform-native exact-role application/contact flow is directly usable and no external redirect remains.
-- If JavaScript, login, cookies, bot protection, or tool limitations prevent following the route far enough to establish one of those proofs, the route is **unverified**: use `CHECK`, never `APPLY`.
-- A route is usable only when the final destination is accessible for this candidate and still belongs to the intended exact role. If the final destination is removed, expired, ambiguous, login-blocked beyond verification, or otherwise cannot be confirmed, use `CHECK` at most.
+- If JavaScript, login, cookies, bot protection, or tool limitations prevent following the route far enough to establish one of those proofs, the route is **unverified**: use `CHECK`, never `APPLY` — but only after liveness has independently passed the freshness hard gate.
+- A route is usable only when the final destination is accessible for this candidate and still belongs to the intended exact role. If the final destination is removed, expired, ambiguous, login-blocked beyond verification, or otherwise cannot be confirmed, use `CHECK` at most when liveness is independently proven; otherwise keep the raw candidate out of Issues.
 - If any step in an SG application flow ultimately resolves to MyCareersFuture, immediately close/block the role with `status:blocked` + `blocked:mcf` unless a separate current non-MCF exact route is directly verified. Do not leave it as `APPLY` or `CHECK`.
 - Platform-native application/contact actions such as LinkedIn Easy Apply, BOSS, 51job, 智联, 牛客 or 猎聘 may count when the actual role-level action itself is directly usable and does not redirect into a blocked channel.
 - Prefer employer-controlled ATS/direct routes when available.
-- If the exact final route cannot be verified, use `CHECK` with one named route blocker rather than `APPLY`.
+- If the exact final route cannot be verified but liveness is independently proven, use `CHECK` with one named route blocker rather than `APPLY`.
 
 ### Freshness / recheck-at-action
 
 A previous verification is not permanent proof of liveness.
 
 - Before presenting an `APPLY` role to the user as ready, and again immediately before acting on a user `go`, fresh-check the exact application route.
-- If the fresh check fails, downgrade to `CHECK` when the route is merely unverified, or close/block when current evidence confirms the route is stale, removed, expired, MCF-only, or otherwise unusable.
+- If the fresh check fails, downgrade to `CHECK` only when liveness is still independently proven and the route is merely unverified; close/block when current evidence confirms the route is stale, removed, expired, MCF-only, or otherwise unusable.
 - Do not preserve `APPLY` merely because the role was live on an earlier run.
-- Clearly old listings or listings with uncertain age must not survive on search-index presence alone; they need a current working exact application action.
+- Clearly old listings or listings with uncertain age must not survive on search-index presence alone; they need current liveness proof under the gate above.
 
-This hard gate applies at the **verification / ready-to-apply stage**, not to every raw discovery candidate.
+The freshness gate applies before Issue creation and again at the ready-to-apply/action stage.
 
 ## Dedupe
 
@@ -335,7 +362,7 @@ State meanings:
 
 - `ACTION` = a concrete employer/recruiting action that should be handled now or soon, such as an OA, interview, recruiter reply, requested form/document, or real deadline. Do not use `ACTION` merely because a low-priority out-of-lane application could optionally be continued.
 - `APPLY` = verified serious survivor ready for user review, with a usable exact application route. It is not authorization to submit.
-- `CHECK` = exactly one material blocker or user decision remains, with exactly one next action.
+- `CHECK` = liveness is already proven; exactly one other material blocker or user decision remains, with exactly one next action.
 - `WAIT` = already submitted/contacted and waiting for employer activity; do not duplicate.
 
 No active Issue should use old experiment concepts such as `clean cohort`, `main sample`, or diagnostic application batches. Track the real opportunity and its next action instead.
@@ -365,6 +392,7 @@ Store enough to make the decision without repeating research:
 
 - exact role link / apply route or the one CHECK blocker;
 - req/job ID and verification date when available;
+- **freshness proof used to establish current liveness**;
 - plain-language work;
 - hard requirements and early-career fit;
 - specific strengths/gaps;
