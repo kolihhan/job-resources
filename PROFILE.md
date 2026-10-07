@@ -37,6 +37,12 @@ Prioritize:
 
 Applied AI is a differentiator, not a substitute for engineering quality.
 
+## Opportunistic Web3 work
+
+Credible Web3 / crypto engineering work may be considered as a secondary lane when it provides useful engineering experience, income or network value. This can include full-time, part-time, contract, remote or project-based work, especially backend/API, infrastructure, wallet/custody, exchange/trading infrastructure, developer tooling/SDK, data/indexing, or AI × Web3 engineering.
+
+This does **not** replace the main SG/CN full-time search. Detailed Web3 quality, safety, freshness and dedupe rules belong in `RULES.md`, not here.
+
 ## Seniority
 
 - Prefer new graduate / 0–3 years roles.
@@ -65,7 +71,7 @@ Never convert master's study, projects, internships, or part-time employment int
 
 ### Primary: Singapore + Mainland China
 
-These are the markets I most want to enter directly. Search effort should remain centered on SG/CN even while Malaysia is available as a fallback.
+These are the markets I most want to enter directly. Search effort should remain centered on SG/CN even while Malaysia and opportunistic Web3 work are available as secondary paths.
 
 For Singapore, sponsorship/pass feasibility is a material constraint, but unknown sponsorship is not an automatic rejection. MCF-only application routes are blocked.
 
