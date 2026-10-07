@@ -45,14 +45,7 @@ Do not create a second live tracker, dashboard, database, spreadsheet mirror, sc
 
 State-changing recruiting mail must be processed separately from job alerts/newsletters so discovery noise cannot crowd out lifecycle evidence.
 
-Prioritize direct employer / ATS / recruiter messages representing:
-
-- application receipts;
-- rejections / closed outcomes;
-- OA / assessment;
-- interview / recruiter contact;
-- action required / deadline;
-- application status updates.
+Prioritize direct employer / ATS / recruiter messages representing application receipts, rejections/closed outcomes, OA/assessment, interview/recruiter contact, action-required deadlines, or application-status updates.
 
 Read the actual message when metadata does not make the state change explicit. Reconcile concrete state changes to the matching GitHub Issue **before discovery**.
 
@@ -61,6 +54,8 @@ If exact company+role/req mapping is genuinely unresolved, record/report the amb
 Job-alert/newsletter mail is discovery input only. Gmail should be searched narrowly: recent windows for maintenance and exact company/role/req lookups for dedupe. Do not broad-audit the entire mailbox every run.
 
 Verify material GitHub writes by reading them back. If Gmail/GitHub access or a required write fails, report the exact incomplete step rather than claiming success.
+
+For create operations where a timeout, connection error or transient 5xx could hide a successful side effect, do **not** immediately retry. Search/read back recent Issues using the intended exact requisition and employer + role fingerprint first. If the intended Issue already exists, adopt it. If it still does not exist, retry once only, then read back again. Persistent ambiguity must stop and be reported rather than looping or risking another duplicate.
 
 ## Chat decision sync
 
@@ -71,6 +66,19 @@ A direct user statement that they already applied is valid application-history e
 ## Discovery schedule
 
 During MYT hours `00/04/08/12/16/20`, run incremental discovery after maintenance. Explicit interactive searches can run at any time.
+
+Scheduled discovery uses six MYT windows:
+
+- `00:00-03:59` → `00`;
+- `04:00-07:59` → `04`;
+- `08:00-11:59` → `08`;
+- `12:00-15:59` → `12`;
+- `16:00-19:59` → `16`;
+- `20:00-23:59` → `20`.
+
+Before scheduled discovery, inspect the latest `DISCOVERY_STATE.md` receipt. If the current window already contains a completed **full SG + CN** discovery that satisfies the current contract and whose receipt was written and read back successfully, do maintenance only and skip duplicate scheduled discovery for that window.
+
+A narrow interactive role lookup or probe does **not** consume the scheduled window. An explicit interactive run may count for the current window only when it intentionally completed the full SG + CN discovery contract and wrote a valid receipt. If a prior run was incomplete, skipped a main market, had a required write failure, or lacked a verified receipt, the window remains incomplete.
 
 **SG + CN are the main discovery markets.** Malaysia is backup. Web3 is an opportunistic secondary lane, not a replacement for SG/CN full-time search.
 
@@ -86,9 +94,27 @@ After every scheduled discovery run, overwrite `DISCOVERY_STATE.md` with only:
 - SG source families / employer or role lanes actually tried;
 - CN source families / employer or role lanes actually tried;
 - optional Web3 lane tried, if any;
+- compact SG/CN coverage counters, plus optional Web3 counters when that lane was searched;
 - serious-survivor Issue numbers created/updated, or `none`;
 - concrete access/search failures, if any;
 - next source / keyword / employer rotation.
+
+Coverage counters use exactly these meanings:
+
+- **candidate** = one distinct employer + role + location/market opportunity considered far enough to make a cheap-screen decision; repeated mirrors/copies of the same opportunity count once;
+- **distinct employer** = the canonical employer/client when known, not every board or recruiter mirror;
+- **source family** = a materially different discovery channel such as official employer/ATS, LinkedIn, JobStreet, Indeed, 牛客, 智联, BOSS, 51job, 猎聘, or a selective Web3/TG feed; multiple queries inside one channel still count as one family;
+- **deep-verified** = a candidate that passed the cheap hard filter and cheap GitHub dedupe and therefore entered Stage 2 verification.
+
+Compact format:
+
+`SG coverage: N candidates / N employers / N source families / N deep-verified`
+
+`CN coverage: N candidates / N employers / N source families / N deep-verified`
+
+`Web3 coverage: N candidates / N employers / N source families / N deep-verified` when used.
+
+These counts are **observability only**. They are not quotas, scores, history tables, success targets or minimums. A run with many screened candidates and zero survivors may be healthy; a low-coverage run is not automatically wrong, but its limited search effort must be visible.
 
 A zero-survivor run is healthy only after meaningful variation in source, employer and role-keyword lanes in **both** SG and CN. If a source is blocked or weak, try another useful lane in that market before concluding the market is sparse when practical.
 
@@ -132,6 +158,10 @@ Cheap-screen only obvious hard mismatches:
 - explicit citizenship / no-sponsorship blocker where relevant;
 - substantial hard stack/domain mismatch;
 - clearly stale/closed listing.
+
+Only genuine hard requirements may trigger cheap rejection. Wording such as `preferred`, `plus`, `bonus`, `nice to have`, `familiarity with`, `exposure to`, `coursework`, `self-study`, `personal projects`, or `willingness to learn` is non-hard by default unless the surrounding JD clearly makes it mandatory. Preserve ambiguous wording for Stage 2 verification instead of strengthening it by inference.
+
+Unambiguous mandatory professional-experience language such as `5+ years required` or `must have production experience in X` can remain a hard blocker. A soft gap is a later fit consideration, not fabricated professional YOE.
 
 Do **not** reject Web3 secondary-lane work merely because it is part-time, contract, remote or project-based.
 
@@ -215,31 +245,11 @@ Do not apply SG/CN foreign-work-authorization blockers to Malaysia. Do not assum
 
 ## Web3 / crypto — opportunistic secondary lane
 
-Credible Web3 work may be kept when it offers useful engineering work, income, network or experience. Allowed employment types include:
+Credible Web3 work may be kept when it offers useful engineering work, income, network or experience. Allowed employment types include full-time, part-time, contract, and remote/project-based engineering work.
 
-- full-time;
-- part-time;
-- contract;
-- remote / project-based engineering work.
+Prefer engineering-heavy work such as backend/APIs, blockchain infrastructure, wallets/custody, exchanges/trading infrastructure, developer tooling/SDKs, data/indexing, smart-contract-adjacent backend work, and AI × Web3 with credible engineering scope.
 
-Prefer engineering-heavy work such as:
-
-- backend / APIs;
-- blockchain infrastructure;
-- wallets / custody;
-- exchanges / trading infrastructure;
-- developer tooling / SDKs;
-- data / indexing;
-- smart-contract-adjacent backend work;
-- AI × Web3 with credible engineering scope.
-
-De-prioritize or reject:
-
-- anonymous or unverifiable teams;
-- token-only or highly speculative compensation with no credible base arrangement;
-- any role requiring deposits, token purchases, fees, seed phrases, wallet credentials or similar secrets;
-- pure community / shilling / influencer / BD work when the goal is engineering;
-- unclear fake-company signals or no verifiable product/team/activity.
+De-prioritize or reject unverifiable teams, compensation arrangements with no credible base, roles that require payments/purchases or access secrets, pure community/shilling/influencer/BD work when the goal is engineering, and unclear fake-company signals.
 
 For PT/contract roles, record the real employment/contract arrangement when known. Do not invent tax, legal, payment or work-authorization conclusions.
 
@@ -254,7 +264,7 @@ For any Issue first discovered there:
 - prefix the title with `[TG]` after the market tag;
 - record `Source: TG / DeJob` and the public source link;
 - independently verify company, exact role/JD, liveness, requirements, dedupe and route;
-- keep anonymous, recruiter-only, crypto-payment-only, unclear-company or otherwise unverifiable leads out of GitHub unless they survive verification.
+- keep anonymous, recruiter-only, unclear-company or otherwise unverifiable leads out of GitHub unless they survive verification.
 
 ## Company / role quality
 
@@ -416,7 +426,7 @@ Only explicit authorization for that exact role/action permits an application or
 
 ## Privacy
 
-Store only operational facts. Never copy full email bodies, auth links, tokens, passwords, seed phrases, wallet credentials, secrets or unnecessary personal identifiers into Issues.
+Store only operational facts. Do not copy authentication material, private access credentials, or unnecessary personal identifiers into Issues.
 
 ## Keep it small
 
