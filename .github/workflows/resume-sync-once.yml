@@ -1,0 +1,35 @@
+name: One-shot resume PDF sync
+
+on:
+  push:
+    paths:
+      - '.github/resume-sync/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild final PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          base64 -d < .github/resume-sync/en.b64 | gzip -d > resumes/resume-en-current.pdf
+          base64 -d < .github/resume-sync/cn.b64 | gzip -d > resumes/resume-cn-current.pdf
+          echo '504484954fcea76d38ef875be8bbad99a1990b52e3598ee8e3382b344447ca25  resumes/resume-en-current.pdf' | sha256sum -c -
+          echo 'd103dc2fbd7de5d367267826223c6d687bfc6786e9d4320cf4349ae8284fddee  resumes/resume-cn-current.pdf' | sha256sum -c -
+      - name: Commit PDFs and remove temporary sync files
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .github/resume-sync
+          rm -f .github/workflows/resume-sync-once.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Update final resume PDFs'
+          git push
