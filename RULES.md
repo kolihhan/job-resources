@@ -2,45 +2,50 @@
 
 ## Goal
 
-Get interviews and offers for a suitable full-time, on-site or hybrid engineering job.
+Get interviews and offers for a suitable engineering role without turning the search into another software project.
 
 Priority order:
 
 1. advance active employer responses, OA, interviews and recruiter conversations;
 2. create more strong **Singapore + Mainland China** opportunities;
-3. use Malaysia as a practical backup without displacing SG/CN search.
+3. use Malaysia as a practical backup without displacing SG/CN search;
+4. opportunistically keep credible Web3 / crypto engineering work, including useful part-time, contract or remote work.
 
 Use the current resume and project evidence. Change them only for a concrete application need or repeated relevant employer feedback. Do not restart portfolio work, strategy research, application-count experiments, or another tracking system.
 
-For unusually strong verified roles, selective recruiter/alumni/team contact research is allowed when it could help. Do not require networking for every role. Any external contact or application still requires explicit user authorization.
+For unusually strong verified roles, selective recruiter/alumni/team contact research is allowed when it could help. Do not require networking for every role. Any external contact or application still requires explicit user authorization for that exact action.
 
 ## Source of truth
 
-- GitHub Issues = current operational state.
+- GitHub Issues = current operational opportunity state.
 - Gmail = evidence for receipts, recruiter messages, OA/interviews, deadlines, rejections, and targeted dedupe.
-- `DISCOVERY_STATE.md` = one rolling discovery audit receipt/cursor only; it is **not** job state and must never become a second tracker.
+- `PROFILE.md` = stable candidate facts and search scope.
+- `RULES.md` = the **only detailed execution-policy source**.
+- `DISCOVERY_STATE.md` = one rolling discovery receipt/cursor only; it is **not** job state and must never become a second tracker or rulebook.
 - The old Library spreadsheet = legacy/read-only reference.
 
-Do not create a second live tracker, dashboard, database, spreadsheet mirror, or agent framework.
+Scheduler prompts and `NEXT_CHAT_PROMPT.md` must point back to this contract rather than keeping private copies of discovery, freshness or dedupe policy.
+
+Do not create a second live tracker, dashboard, database, spreadsheet mirror, scoring engine, scraper framework, knowledge graph, or agent framework.
 
 ## Every maintenance run
 
-1. Read `PROFILE.md`, this file, and current open Issues.
-2. Check both Gmail accounts for **recent recruiting evidence** since the last successful check, with a small overlap.
-3. Update existing Issues before creating new ones.
-4. Official application receipt → `WAIT`.
-5. OA / interview / recruiter reply / time-sensitive deadline → `ACTION`.
-6. Confirmed rejection / expired / duplicate / user `skip` → close the Issue.
-7. Keep title, status label, body and next action synchronized.
-8. Respect newer evidence over older evidence. An old receipt must not downgrade a newer interview/OA/action to `WAIT`.
-9. Silence is not a rejection.
-10. A user `applied` comment is sufficient to mark `WAIT`, noting that it is user-confirmed if no employer receipt exists.
+1. Read `README.md`, `PROFILE.md`, this file and `DISCOVERY_STATE.md`.
+2. Fully inspect current `ACTION`, `APPLY` and `CHECK` Issues.
+3. Inspect `WAIT` only when it changed recently, is triggered by Gmail, or is needed for exact company / role-family dedupe or reconciliation. Do **not** load all historical WAIT Issues in full every run.
+4. Check both Gmail accounts for recent state-changing recruiting evidence, using a small overlap window.
+5. Update existing Issues before discovery.
+6. Official application receipt or user-confirmed `applied` → `WAIT`.
+7. OA / interview / recruiter reply / genuinely useful requested action / time-sensitive deadline → `ACTION`.
+8. Confirmed rejection / expired / duplicate / user `skip` → close the Issue.
+9. Keep title, status label, body and next action synchronized.
+10. Respect newer evidence over older evidence. Silence is not a rejection.
 
 ### Gmail reconciliation order
 
 State-changing recruiting mail must be processed separately from job alerts/newsletters so discovery noise cannot crowd out lifecycle evidence.
 
-First pass, prioritize direct employer / ATS / recruiter messages and messages that may represent:
+Prioritize direct employer / ATS / recruiter messages representing:
 
 - application receipts;
 - rejections / closed outcomes;
@@ -49,305 +54,308 @@ First pass, prioritize direct employer / ATS / recruiter messages and messages t
 - action required / deadline;
 - application status updates.
 
-Read the actual message when subject/snippet metadata does not make the state change explicit. Reconcile concrete state changes to the matching GitHub Issue **before discovery**.
+Read the actual message when metadata does not make the state change explicit. Reconcile concrete state changes to the matching GitHub Issue **before discovery**.
 
-If an employer message is real but exact company+role/req mapping is genuinely unresolved, report or record the unresolved mapping rather than guessing or silently skipping it.
+If exact company+role/req mapping is genuinely unresolved, record/report the ambiguity rather than guessing.
 
-Job-alert/newsletter mail is discovery input only and belongs in a separate pass after lifecycle reconciliation.
+Job-alert/newsletter mail is discovery input only. Gmail should be searched narrowly: recent windows for maintenance and exact company/role/req lookups for dedupe. Do not broad-audit the entire mailbox every run.
 
-Gmail should be searched narrowly. Use bounded recent windows for maintenance and exact company/role/req lookups for dedupe or unresolved evidence. Do not broad-audit the entire mailbox every run.
-
-Verify material GitHub writes by reading them back. If Gmail/GitHub access or a required write fails, report the concrete incomplete step rather than claiming successful maintenance.
+Verify material GitHub writes by reading them back. If Gmail/GitHub access or a required write fails, report the exact incomplete step rather than claiming success.
 
 ## Chat decision sync
 
-A clear user decision to skip, drop, ignore or withdraw an exact tracked role must be mirrored to GitHub when write access exists.
+A clear user decision to skip, drop, ignore or withdraw an exact tracked role is authoritative and must be mirrored to GitHub when write access exists. Older Gmail evidence must not reopen it unless the user explicitly reverses the decision.
 
-A skip/drop decision is authoritative until the user explicitly reverses it. Older Gmail invitations, reminders or application receipts must not reopen a skipped role.
+A direct user statement that they already applied is valid application-history evidence even when Gmail has no receipt. Missing email evidence is not proof that no application happened.
 
 ## Discovery schedule
 
 During MYT hours `00/04/08/12/16/20`, run incremental discovery after maintenance. Explicit interactive searches can run at any time.
 
-**SG + CN are the main discovery markets.** Malaysia is backup, not a mandatory equal third-market sweep.
+**SG + CN are the main discovery markets.** Malaysia is backup. Web3 is an opportunistic secondary lane, not a replacement for SG/CN full-time search.
 
-Do not restart the whole market every run. Rotate high-value sources, employers and keywords, and avoid rechecking stale results repeatedly.
+Do not restart the whole market every run. Rotate source families, employer clusters and role keywords. Do not repeatedly search the same familiar companies when recent runs already covered them.
 
-### Discovery receipt / rotation memory
+## Discovery receipt / rotation memory
 
-Before every **scheduled** discovery run, read `DISCOVERY_STATE.md`. Use the previous receipt's `next rotation` plus current Issues/evidence to avoid simply repeating the same source/keyword/employer mix.
+Before every scheduled discovery run, read `DISCOVERY_STATE.md` and use its `next rotation` to avoid repeating the same lane.
 
-A scheduled discovery run should change at least one meaningful search dimension in **each** primary market when the previous run produced no new survivor, unless fresh evidence gives a concrete reason to repeat the same lane.
-
-After every scheduled discovery run, overwrite `DISCOVERY_STATE.md` with a short receipt containing only:
+After every scheduled discovery run, overwrite `DISCOVERY_STATE.md` with only:
 
 - completed run time in MYT;
-- SG source families actually tried + short search focus;
-- CN source families actually tried + short search focus;
+- SG source families / employer or role lanes actually tried;
+- CN source families / employer or role lanes actually tried;
+- optional Web3 lane tried, if any;
 - serious-survivor Issue numbers created/updated, or `none`;
-- concrete search/access failures, if any;
-- next source/keyword/employer rotation.
+- concrete access/search failures, if any;
+- next source / keyword / employer rotation.
 
-A zero-survivor run is valid when both SG and CN were actually searched/rotated. If a source is blocked or inaccessible, record the concrete blocker and try another useful source/mix in the same market before finishing when practical.
+A zero-survivor run is healthy only after meaningful variation in source, employer and role-keyword lanes in **both** SG and CN. If a source is blocked or weak, try another useful lane in that market before concluding the market is sparse when practical.
 
-Do **not** put raw rejected candidates, long search logs, dashboards, scoring systems or duplicated policy in `DISCOVERY_STATE.md`. It is only a rolling audit receipt/cursor.
+Do not put raw rejected candidates, long search logs, dashboards, scores or duplicated policy in `DISCOVERY_STATE.md`.
 
-For a scheduled discovery window, the run is not considered fully complete until the receipt is updated and read back successfully. During the initial bootstrap of this receipt schema, do not infer anything about discovery runs that occurred before the schema existed.
+If a newly-created survivor is later invalidated in the same interactive or scheduled run—for example stale or duplicate—reconcile `DISCOVERY_STATE.md` before finishing so it no longer presents that role as live.
 
-## Two-stage discovery
+For a scheduled discovery window, the run is not fully complete until the receipt is updated and read back successfully.
 
-### Stage 1 — broad, cheap discovery
+## Discovery pipeline
 
-The purpose is to create a wide candidate pool before spending expensive verification effort.
+Use a wide top-of-funnel and strict promotion gate:
 
-Search SG and CN first across many employers and role families:
+`broad discovery → cheap hard filter → cheap dedupe → freshness proof → fit/cohort/work-auth → targeted Gmail dedupe → exact application route → Issue`
 
-- Software Engineer / SDE
-- Backend / Full-stack
-- Platform / Infrastructure / Systems
-- ML Systems / AI Platform / Inference / Evaluation
-- Search / Retrieval
-- Applied AI / AI Software Engineer / LLM / RAG / Agent engineering
+### Stage 1 — broad discovery
+
+Search broadly across employers and role families before spending expensive verification effort.
+
+Role families include:
+
+- Software Engineer / SDE;
+- Backend Engineer;
+- Full-stack Engineer;
+- Platform / Infrastructure / Systems;
+- Data Platform;
+- Search / Retrieval;
+- ML Systems / AI Platform / Inference / Evaluation;
+- Applied AI / AI Software Engineer;
+- LLM Application / RAG / Agent / NLP engineering.
+
+Do not over-index on `AI Engineer`, `LLM` or `Agent` titles.
+
+Rotate employer clusters such as fintech, enterprise software, cloud/data infrastructure, B2B SaaS, consumer products, industrial software, healthtech, credible AI startups and other product-engineering employers.
 
 Cheap-screen only obvious hard mismatches:
 
-- wrong country or not full-time;
+- wrong country for the SG/CN full-time lane;
 - Senior / Staff / Lead / Manager or hard 5+ YOE without a graduate exception;
 - explicit incompatible graduation/cohort window;
 - explicit citizenship / no-sponsorship blocker where relevant;
 - substantial hard stack/domain mismatch;
 - clearly stale/closed listing.
 
-At this stage **do not** stop to research:
+Do **not** reject Web3 secondary-lane work merely because it is part-time, contract, remote or project-based.
 
-- salary or WLB unless immediately visible and decision-critical;
-- unknown SG sponsorship or CN work-permit willingness;
-- exact final ATS routing;
-- both Gmail accounts for every raw candidate;
-- detailed company history;
-- networking contacts.
+At broad-discovery stage do not stop to research salary/WLB, unknown SG sponsorship, unknown CN permit willingness, exact ATS routing, both Gmail accounts, detailed company history or networking contacts for every raw candidate.
 
-Do not create GitHub Issues for raw discovery candidates.
+Raw discovery candidates do not become GitHub Issues.
 
-If few candidates survive, change employers, role keywords or source mix in the same run before concluding the market is sparse.
+### Cheap dedupe before expensive research
+
+Before deep JD/policy/route research, run cheap GitHub-history dedupe:
+
+1. exact requisition/job ID;
+2. same employer + same or near-identical role family;
+3. explicit user-confirmed prior application history.
+
+If recent history already shows the same employer + same/near-identical role family, suppress the new requisition by default before expensive research.
+
+A changed job ID alone is **not** enough to make the opportunity new.
+
+This is not a company blacklist. A same-company role may continue when it is materially different or unusually stronger—for example a different engineering family, team/scope, location/level or substantially better fit. If it survives, the eventual Issue must explicitly state **why another application at this employer is worth pursuing despite prior company history**.
 
 ### Stage 2 — verify serious survivors
 
-For roles that survive the cheap screen and are genuinely worth considering, verify:
+For candidates that survive the cheap screen and early dedupe, verify:
 
-1. exact/full JD and **current liveness under the Freshness hard gate below**;
+1. exact/full JD and current liveness under the freshness gate;
 2. graduation/cohort, seniority and hard requirements;
-3. GitHub dedupe;
-4. targeted Gmail dedupe by company/role/req ID;
-5. exact usable application route;
-6. any material work-authorization or fit blocker that changes the decision to apply.
+3. candidate fit and any material work-authorization blocker;
+4. targeted Gmail dedupe in both accounts by company/role/req;
+5. ATS/candidate history only when materially available;
+6. exact usable application route.
 
 Only serious survivors reach GitHub Issues.
 
+Do not run expensive mailbox-wide dedupe for raw candidates.
+
 ## Singapore — primary
 
-Primary discovery:
+Rotate across:
 
 1. official company careers / ATS;
 2. LinkedIn;
 3. JobStreet;
-4. Indeed.
+4. Indeed;
+5. selected credible startup / product-company sources;
+6. selective secondary feeds such as DeJob / Telegram as discovery inputs only.
 
-Support/research when useful:
-
-- MyCareersFuture for evidence only;
-- employee-review sources for decision-relevant company/WLB questions;
-- Wellfound selectively for startups;
-- DeJob public listings / Telegram feed selectively for AI/backend roles.
-
-MCF is not a usable application channel for this candidate. If the only verified route is MCF, block/close the role unless a separate non-MCF exact route exists.
+MyCareersFuture is evidence-only for this candidate. If the only verified route is MCF, block/close the role unless a separate current non-MCF exact route exists.
 
 Unknown sponsorship is **not** a discovery-stage rejection. Explicit no-sponsorship is.
 
-Preferred flow:
-
-`broad SG discovery → cheap hard filter → serious survivor → exact JD / eligibility / targeted dedupe / final apply route → APPLY or CHECK`
-
 ## Mainland China — primary
 
-Primary discovery:
+Rotate across:
 
 1. BOSS直聘;
 2. official company careers / campus portals / useful recruiting WeChat pages;
 3. 牛客;
 4. 51job / 前程无忧;
-5. 智联招聘 / 智联校园.
+5. 智联招聘 / 智联校园;
+6. 猎聘;
+7. LinkedIn and selective DeJob / Telegram secondary feeds as discovery inputs.
 
-Secondary:
+The candidate graduated in **2026**. Favor evidence such as `2026届`, `往届可投`, `毕业两年内`, `应届/往届`, `0-1年`, `0-3年`, `初级`, `海外留学生`, `recent graduate` or `recently completed`.
 
-- LinkedIn;
-- 猎聘;
-- DeJob public listings / Telegram feed for AI/backend opportunities.
-
-Research only when decision-relevant:
-
-- 牛客面经/题库;
-- 脉脉;
-- 小红书;
-- 知乎;
-- employee-review sources.
-
-The candidate graduated in **2026**. Prioritize:
-
-- `2026届`
-- `往届可投`
-- `毕业两年内`
-- `应届/往届`
-- `0-1年` / `0-3年`
-- `初级`
-- `海外留学生`
-- recent graduate / recently completed
-
-Clearly 2027-only roles are normally filtered unless official wording explicitly includes a 2026 graduate.
+Clearly 2027-only roles are normally filtered unless official wording explicitly includes a 2026 graduate or applicable overseas-graduate window.
 
 Do not equate legal foreign-work-permit possibility with employer willingness to hire a foreign fresh graduate. Employer willingness may remain unknown until engagement.
 
-A platform sign-in/profile gate is a **route-verification blocker**, not evidence that the role itself is low quality or not worth tracking. If the exact JD is live **under the freshness gate**, the role/cohort/seniority fit is strong, dedupe is clean, and no known hard work-authorization blocker exists, it may still become a serious-survivor `CHECK` with exactly one blocker: the signed-in exact application flow.
-
-Do not let CN discovery silently collapse into SG simply because CN sources are harder to inspect end-to-end. In every scheduled or interactive SG+CN discovery run, actively rotate CN employers, role keywords and source mix. If no serious CN survivor appears, change the CN source/keyword mix in the same run before concluding that the CN market is sparse.
-
-Preferred flow:
-
-`broad CN discovery → cheap cohort/seniority filter → serious survivor → exact JD / targeted dedupe / usable apply/contact route → APPLY or CHECK`
-
-## Telegram / DeJob source marking
-
-Telegram/DeJob is a **secondary discovery source**, not the authoritative proof by itself.
-
-For any Issue whose lead was first discovered from Telegram or DeJob:
-
-- prefix the Issue title with `[TG]` after the market tag, e.g. `[CHECK][CN][TG] Company — Role`;
-- include `Source: TG / DeJob` and the original public post/listing link in the Issue body;
-- still verify the company, exact role/JD, liveness, requirements, dedupe and final application route independently before using `APPLY`;
-- if the post is anonymous, recruiter-only, crypto-payment-only, unclear-company, or otherwise hard to verify, keep it out of GitHub unless it survives verification as a serious opportunity.
-
-The `[TG]` marker records **where the lead came from**, not role quality and not application authorization.
+Do not let CN discovery collapse into SG simply because CN sources are harder to inspect. Change CN employer/source/keyword lanes in the same run before concluding the market is sparse.
 
 ## Malaysia — backup
 
 Do not let Malaysia consume the main SG/CN search budget.
 
-Search Malaysia when:
+Search Malaysia when SG/CN remains sparse after reasonable broadening, or when an unusually strong Malaysian opportunity appears naturally.
 
-- SG/CN discovery remains sparse after changing employers, keywords or sources; or
-- an unusually strong Malaysian role surfaces naturally.
+Lean more toward AI Engineer / Applied AI / AI Software Engineer / LLM / RAG / Agent / AI backend-platform roles, while keeping strong normal SWE/backend roles when their engineering environment is better than a weak AI-titled job.
 
-For Malaysia, lean more toward:
+Do not apply SG/CN foreign-work-authorization blockers to Malaysia. Do not assume future internal transfer without evidence.
 
-- AI Engineer;
-- Applied AI / AI Software Engineer;
-- LLM / RAG / Agent engineering;
-- AI backend / AI platform / ML systems.
+## Web3 / crypto — opportunistic secondary lane
 
-Strong normal SWE/backend roles remain valid when they offer better production ownership, engineering peers, deployment/reliability depth and transferable career capital than a weak AI-titled role.
+Credible Web3 work may be kept when it offers useful engineering work, income, network or experience. Allowed employment types include:
 
-Do not apply SG/CN foreign-work-authorization blockers to Malaysia. Regional/China/SG-connected employers are interesting, but do not assume future internal transfer without evidence.
+- full-time;
+- part-time;
+- contract;
+- remote / project-based engineering work.
+
+Prefer engineering-heavy work such as:
+
+- backend / APIs;
+- blockchain infrastructure;
+- wallets / custody;
+- exchanges / trading infrastructure;
+- developer tooling / SDKs;
+- data / indexing;
+- smart-contract-adjacent backend work;
+- AI × Web3 with credible engineering scope.
+
+De-prioritize or reject:
+
+- anonymous or unverifiable teams;
+- token-only or highly speculative compensation with no credible base arrangement;
+- any role requiring deposits, token purchases, fees, seed phrases, wallet credentials or similar secrets;
+- pure community / shilling / influencer / BD work when the goal is engineering;
+- unclear fake-company signals or no verifiable product/team/activity.
+
+For PT/contract roles, record the real employment/contract arrangement when known. Do not invent tax, legal, payment or work-authorization conclusions.
+
+Web3 candidates use the same freshness, dedupe and evidence standards as other roles.
+
+## Telegram / DeJob source marking
+
+Telegram/DeJob is a discovery source, not authoritative proof.
+
+For any Issue first discovered there:
+
+- prefix the title with `[TG]` after the market tag;
+- record `Source: TG / DeJob` and the public source link;
+- independently verify company, exact role/JD, liveness, requirements, dedupe and route;
+- keep anonymous, recruiter-only, crypto-payment-only, unclear-company or otherwise unverifiable leads out of GitHub unless they survive verification.
 
 ## Company / role quality
 
 Prefer established engineering/product employers and credible product startups with clear engineering work.
 
-De-prioritize staffing/bodyshop/outsourcing unless there is unusually strong evidence that the role itself offers direct, high-quality engineering work.
+De-prioritize staffing/bodyshop/outsourcing unless there is unusually strong evidence of direct, high-quality engineering work.
 
 Do not reject a strong role because of missing nice-to-haves. Distinguish hard requirements from preferences.
 
 Never convert part-time work, internships, projects or master's study into fictitious full-time professional YOE.
 
+## Freshness hard gate before Issue creation
+
+A role must pass this gate **before** a new `CHECK` or `APPLY` Issue is created. `CHECK` is not a quarantine state for possibly stale jobs.
+
+An exact URL being retrievable today does **not** prove the employer is still accepting applications today.
+
+Current liveness requires at least one strong current-run role-level signal:
+
+1. explicit application / validity / closing window including the current date; or
+2. the actual exact-role candidate form or employer-controlled ATS start/submit flow renders and is usable now; or
+3. an official role page has a genuinely current role-level status/post/update timestamp from the last 7 days **and** an active role-level application action.
+
+These are discovery evidence only, not liveness proof by themselves:
+
+- search result / indexed snippet;
+- mirror / aggregator copy;
+- old cached/crawled exact page;
+- stale Apply button;
+- generic careers page;
+- undated role page when current application flow cannot be established.
+
+If the exact page is older than 7 days and there is no explicit still-valid window or usable live exact flow, liveness is unproven. Keep it raw; do not create `CHECK` merely to ask whether it is closed.
+
+If tools cannot distinguish live from cache, require a second independent current role-level signal. Prefer a false negative over repeatedly surfacing stale jobs.
+
+A user report such as `closed position`, `expired` or equivalent current employer/platform evidence overrides older evidence immediately.
+
+## Application-route hard gate
+
+`APPLY` requires a fresh, usable, end-to-end exact-role application route.
+
+Search results, cached/indexed copies, mirrors and generic career/search/location pages are discovery evidence only. Follow intermediary Apply buttons far enough to identify the final destination.
+
+Final-route proof requires at least one of:
+
+1. the actual candidate application form for the exact role renders and is usable;
+2. an employer-controlled ATS page for the exact requisition exposes a real start/submit action with no unresolved redirect;
+3. a platform-native exact-role application/contact flow is directly usable with no unresolved external redirect.
+
+If login/JavaScript/cookies/bot protection/tool limits prevent verifying the route, use `CHECK` only when liveness is independently proven. If the final destination is removed, expired, ambiguous or MCF-only, close/block as appropriate.
+
+Platform-native actions such as LinkedIn Easy Apply, BOSS, 51job, 智联, 牛客 or 猎聘 may count when the actual exact-role action is directly usable and does not redirect to a blocked channel.
+
+Before presenting an `APPLY` as ready, and again immediately before acting on a user `go`, fresh-check the exact application route.
+
+## Dedupe
+
+Use three levels:
+
+### Level 1 — exact requisition
+
+Primary fingerprint:
+
+`market + company + requisition/job ID`
+
+An established prior application to the exact requisition is a hard duplicate.
+
+### Level 2 — employer + role family
+
+A recent application to the same employer in the same or near-identical role family suppresses a new requisition by default even when the job ID differs.
+
+Examples such as `AI应用工程师`, `AI应用开发工程师` and `AI应用平台开发工程师` normally belong to the same broad AI-application family unless current scope proves a material difference.
+
+### Level 3 — materially different exception
+
+A same-company role may survive when the engineering family/scope/team/level/location is materially different or the opportunity is unusually stronger. Record the concrete reason before promoting it.
+
+For serious survivors that pass cheap dedupe, check:
+
+1. existing open/closed GitHub Issues;
+2. targeted `lihhanko526@gmail.com`;
+3. targeted `lihhanko3@gmail.com`;
+4. ATS/candidate history when materially available.
+
+User-confirmed prior application history is valid even without a receipt.
+
 ## When to create an Issue
 
 Create an Issue only for a serious survivor that deserves user attention.
 
-A new Issue should have:
+It must have:
 
 - plausible early-career fit;
 - no obvious cohort/seniority hard block;
 - credible role/company quality;
-- current exact/full role evidence with liveness already proven under the freshness gate;
-- no established duplicate application;
-- either a verified exact application route or exactly one material blocker remaining **other than whether the role is still live**.
+- current role-level liveness proof;
+- no established duplicate application under the three-level dedupe model;
+- either a verified exact application route or exactly one material blocker remaining **other than liveness**.
 
-Bad/stale/obvious-mismatch raw search results create nothing.
-
-### Freshness hard gate before Issue creation
-
-A role must pass this gate **before a new `CHECK` or `APPLY` Issue is created**. `CHECK` is not a quarantine state for possibly stale jobs.
-
-The fact that an exact URL can be retrieved today does **not** prove that the employer is still accepting applications today. If the retrieval/search tool exposes crawl or cache age, use it.
-
-Current liveness requires at least one strong role-level signal in the current run:
-
-1. the exact listing shows an explicit application / validity / closing window that includes the current date; or
-2. the actual exact-role candidate form or employer-controlled ATS start/submit flow renders and is usable now; or
-3. an official employer/platform role page carries a genuinely current role-level status or posting/update timestamp from the last 7 days **and** still exposes an active role-level application action.
-
-Freshness non-proof — these may discover a candidate but cannot promote it to an Issue by themselves:
-
-- a search result or indexed snippet;
-- a mirror / aggregator copy;
-- an exact page returned only from an old cached/crawled snapshot;
-- an `Apply` button visible only inside such a stale snapshot;
-- a generic company careers page or evidence that the company is hiring other roles;
-- a page with no date/status signal when the tool cannot establish a current application flow.
-
-If source metadata says the exact page was crawled more than 7 days ago and there is no explicit still-valid date window or live exact application flow, treat liveness as **unproven**. Keep it as a raw candidate and do not create an Issue. Do not label it `CHECK` merely to ask the user whether the position is closed.
-
-If tools cannot distinguish live content from cached content, require a second independent current role-level signal. When that cannot be obtained, prefer a false negative over repeatedly surfacing stale jobs.
-
-A user report such as `closed position`, `expired`, `not accepting`, or an equivalent current employer/platform signal immediately overrides older crawl/index evidence. Close the Issue and synchronize title, labels, body and state.
-
-## Application-route hard gate
-
-`APPLY` requires a **fresh, usable, end-to-end exact-role application route**.
-
-- Search results, cached/indexed copies, mirrors and generic careers/search/location pages are discovery evidence only. They do **not** prove that a role is currently actionable.
-- The exact role page must currently match the intended employer/title/requisition and expose a real application/contact action.
-- For any intermediary platform or button that redirects (including LinkedIn, JobStreet, Glints, Indeed and similar surfaces), follow the application flow far enough to identify the **final destination**. The intermediary page or visible Apply button alone is not proof of a usable route.
-- A role-specific-looking URL such as `/apply` is **still intermediary evidence** unless the actual candidate application form renders there. Do not infer finality from the URL path, button label, or page title.
-- Final-route proof requires at least one of:
-  1. the actual candidate application form for the exact role renders and is usable;
-  2. an employer-controlled ATS page for the exact requisition exposes a real start/submit application action with no unresolved external redirect; or
-  3. a platform-native exact-role application/contact flow is directly usable and no external redirect remains.
-- If JavaScript, login, cookies, bot protection, or tool limitations prevent following the route far enough to establish one of those proofs, the route is **unverified**: use `CHECK`, never `APPLY` — but only after liveness has independently passed the freshness hard gate.
-- A route is usable only when the final destination is accessible for this candidate and still belongs to the intended exact role. If the final destination is removed, expired, ambiguous, login-blocked beyond verification, or otherwise cannot be confirmed, use `CHECK` at most when liveness is independently proven; otherwise keep the raw candidate out of Issues.
-- If any step in an SG application flow ultimately resolves to MyCareersFuture, immediately close/block the role with `status:blocked` + `blocked:mcf` unless a separate current non-MCF exact route is directly verified. Do not leave it as `APPLY` or `CHECK`.
-- Platform-native application/contact actions such as LinkedIn Easy Apply, BOSS, 51job, 智联, 牛客 or 猎聘 may count when the actual role-level action itself is directly usable and does not redirect into a blocked channel.
-- Prefer employer-controlled ATS/direct routes when available.
-- If the exact final route cannot be verified but liveness is independently proven, use `CHECK` with one named route blocker rather than `APPLY`.
-
-### Freshness / recheck-at-action
-
-A previous verification is not permanent proof of liveness.
-
-- Before presenting an `APPLY` role to the user as ready, and again immediately before acting on a user `go`, fresh-check the exact application route.
-- If the fresh check fails, downgrade to `CHECK` only when liveness is still independently proven and the route is merely unverified; close/block when current evidence confirms the route is stale, removed, expired, MCF-only, or otherwise unusable.
-- Do not preserve `APPLY` merely because the role was live on an earlier run.
-- Clearly old listings or listings with uncertain age must not survive on search-index presence alone; they need current liveness proof under the gate above.
-
-The freshness gate applies before Issue creation and again at the ready-to-apply/action stage.
-
-## Dedupe
-
-Primary key:
-
-`market + company + requisition/job ID`
-
-Fallback:
-
-`company + role + location`
-
-For a serious survivor, check:
-
-1. existing open/closed GitHub Issues;
-2. targeted search in `lihhanko526@gmail.com`;
-3. targeted search in `lihhanko3@gmail.com`;
-4. ATS/candidate history only when materially available.
-
-Do not run expensive mailbox-wide dedupe for raw discovery candidates.
+Bad/stale/obvious-mismatch raw candidates create nothing.
 
 ## Issue states
 
@@ -358,61 +366,58 @@ Only four open states:
 - `CHECK`
 - `WAIT`
 
-State meanings:
+Meanings:
 
-- `ACTION` = a concrete employer/recruiting action that should be handled now or soon, such as an OA, interview, recruiter reply, requested form/document, or real deadline. Do not use `ACTION` merely because a low-priority out-of-lane application could optionally be continued.
-- `APPLY` = verified serious survivor ready for user review, with a usable exact application route. It is not authorization to submit.
-- `CHECK` = liveness is already proven; exactly one other material blocker or user decision remains, with exactly one next action.
+- `ACTION` = a concrete employer/recruiting action worth the user's attention now or soon: OA, interview, recruiter reply, useful requested form/document, or real deadline. Do not use `ACTION` merely because an out-of-lane application could optionally be continued.
+- `APPLY` = verified serious survivor ready for user review, with a usable exact application route. It is not submission permission.
+- `CHECK` = liveness is proven; exactly one other material blocker or user decision remains, with exactly one next action.
 - `WAIT` = already submitted/contacted and waiting for employer activity; do not duplicate.
-
-No active Issue should use old experiment concepts such as `clean cohort`, `main sample`, or diagnostic application batches. Track the real opportunity and its next action instead.
 
 ## Labels and consistency
 
-Every open Issue must have exactly:
-
-1. one market label: `market:sg`, `market:cn`, or `market:my`;
-2. one matching operational status label: `status:action`, `status:apply`, `status:check`, or `status:wait`.
+Every open opportunity Issue must have exactly one market label (`market:sg`, `market:cn`, or `market:my`) and one matching operational status label.
 
 Closed intentional outcomes may keep `status:skipped` or `status:blocked`; MCF-only SG roles may also use `blocked:mcf`.
 
-Whenever state changes, update title, label, body and next action together. A closed/rejected Issue must not keep a misleading open-state title or label, and a role with a usable non-MCF route must not remain labeled MCF-only.
+Whenever state changes, update title, labels, body and next action together.
 
-Treat these as maintenance invariants:
-- no closed Issue may retain `status:action`, `status:apply`, `status:check`, or `status:wait`;
-- no closed Issue title may remain `[ACTION]`, `[APPLY]`, `[CHECK]`, or `[WAIT]`;
-- user feedback equivalent to `MCF` / `onclick is MCF` on an SG route → `[BLOCKED][SG][MCF]`, `status:blocked`, `blocked:mcf`;
-- user feedback equivalent to `skip` / `no` / `no tq` / `I don't want` → terminal skipped state;
-- user feedback equivalent to `not reachable` / `no find` / confirmed unusable route → terminal blocked state;
-- after closing or relabeling an Issue, read it back and verify the terminal title, labels, body/outcome, and state agree.
+Maintenance invariants:
+
+- no closed Issue retains `status:action`, `status:apply`, `status:check` or `status:wait`;
+- no closed Issue title remains `[ACTION]`, `[APPLY]`, `[CHECK]` or `[WAIT]`;
+- SG route resolving only to MCF → blocked/closed unless a separate current non-MCF route exists;
+- user `skip` / `no` / `don't want` → terminal skipped state;
+- confirmed unusable route → terminal blocked state;
+- after any close/relabel, read back title, labels, body/outcome and state.
 
 ## APPLY / CHECK content
 
-Store enough to make the decision without repeating research:
+Store enough to make a decision without repeating research:
 
-- exact role link / apply route or the one CHECK blocker;
+- exact role link / route or the one CHECK blocker;
 - req/job ID and verification date when available;
-- **freshness proof used to establish current liveness**;
+- freshness proof;
 - plain-language work;
-- hard requirements and early-career fit;
+- hard requirements / early-career fit;
 - specific strengths/gaps;
 - material work-authorization evidence when known;
 - targeted GitHub/Gmail dedupe result;
+- same-company materially-different reason when applicable;
 - exactly one next action;
 - source links.
 
-Salary, WLB, company background and networking research are optional and should be added only when they can change the decision. Do not make them mandatory verification work.
+Salary, WLB, company background and networking research are optional and should be added only when decision-relevant.
 
 ## Authorization
 
 `APPLY` means recommended for user review, not permission to submit.
 
-Only an explicit `go` for that exact role/action authorizes an application or external contact. Never mass apply or automatically send outreach.
+Only explicit authorization for that exact role/action permits an application or external contact. Never mass apply or automatically send outreach.
 
 ## Privacy
 
-Store only operational facts. Never copy full email bodies, auth links, tokens, passwords, secrets or unnecessary personal identifiers into Issues.
+Store only operational facts. Never copy full email bodies, auth links, tokens, passwords, seed phrases, wallet credentials, secrets or unnecessary personal identifiers into Issues.
 
 ## Keep it small
 
-Do not add Projects, another database/dashboard/frontend/spreadsheet, or a new application framework unless repeated real failures prove GitHub Issues are insufficient.
+Do not add Projects, another database/dashboard/frontend/spreadsheet, a score file, custom scraper, knowledge graph, or new application framework unless repeated real failures prove the current GitHub-Issues model inadequate.
