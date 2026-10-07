@@ -46,6 +46,7 @@ On an exact role:
 
 - GitHub Issues = live operational state.
 - Gmail = recruiting evidence and targeted dedupe.
+- [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md) = latest scheduled-discovery receipt + next rotation only; not a job tracker.
 - Old spreadsheet = legacy/read-only.
 
 **Discovery**
@@ -70,6 +71,8 @@ Detailed execution rules live only in [`RULES.md`](RULES.md). Do not duplicate t
 ## Automation
 
 Maintenance checks recent recruiting evidence and keeps existing Issues synchronized. Incremental discovery rotates SG/CN sources; Malaysia remains backup.
+
+The latest scheduled discovery should leave one small receipt in [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md), including the SG/CN source mix tried, serious survivors (if any), concrete blockers, and the next rotation.
 
 The automation reads the current repo rules. If strategy changes, update `RULES.md` once rather than maintaining multiple copies.
 
