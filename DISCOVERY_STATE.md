@@ -2,11 +2,11 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-07 12:36 MYT`
-- SG sources tried: `official company careers/ATS, LinkedIn, JobStreet, Indeed, DeJob/Telegram`
-- SG focus: `graduate/junior software, backend/platform, applied-AI and full-stack roles; rotated product, infrastructure and semiconductor employers`
-- CN sources tried: `official/campus portals, 牛客, 智联招聘, BOSS直聘, 51job, LinkedIn, DeJob/Telegram`
-- CN focus: `2026届/往届/0-3年 AI应用、Agent、Python后端、平台工程；rotated established technology and financial-services employers`
-- serious survivors created/updated: `#140`
-- blockers/errors: `智联 exact-role page timed out in the verifier; LinkedIn/智联 signed-in final application form for #140 could not be proven`
-- next rotation: `SG: rotate to official Workday/Greenhouse/Lever roles at fintech, infrastructure and semiconductor employers, then Indeed; CN: rotate to official employer portals and 51job for normal backend/platform plus 往届/毕业两年内/海外留学生, reducing closed 2026 牛客 pages`
+- completed run time: `2026-10-07 16:29 MYT`
+- SG sources tried: `official company careers/ATS (including Workday), LinkedIn, JobStreet, Indeed`
+- SG focus: `junior/new-graduate backend, platform, full-stack and applied-AI roles; rotated fintech, infrastructure, cybersecurity and semiconductor employers`
+- CN sources tried: `official/campus portals, 牛客, 智联招聘, BOSS直聘, 51job, LinkedIn`
+- CN focus: `2026届/往届/毕业两年内/0-3年 Python后端、平台、AI应用与Agent；rotated official employers and Shanghai/Shenzhen local-source results`
+- serious survivors created/updated: `none`
+- blockers/errors: `51job exact-role access remained limited to search/index results and verification controls; several otherwise relevant LinkedIn/牛客 intermediary listings were already closed, and no separate current exact route was verified`
+- next rotation: `SG: official Greenhouse/Lever and employer-native product/backend roles at fintech and infrastructure firms, then current JobStreet/Indeed; CN: official employer portals plus BOSS/智联 for Shanghai normal backend/platform and AI application roles explicitly open to 往届、毕业两年内 or overseas graduates, with exact foreign-work-permit feasibility checked only for serious survivors`
