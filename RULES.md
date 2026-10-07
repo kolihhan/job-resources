@@ -18,6 +18,7 @@ For unusually strong verified roles, selective recruiter/alumni/team contact res
 
 - GitHub Issues = current operational state.
 - Gmail = evidence for receipts, recruiter messages, OA/interviews, deadlines, rejections, and targeted dedupe.
+- `DISCOVERY_STATE.md` = one rolling discovery audit receipt/cursor only; it is **not** job state and must never become a second tracker.
 - The old Library spreadsheet = legacy/read-only reference.
 
 Do not create a second live tracker, dashboard, database, spreadsheet mirror, or agent framework.
@@ -34,6 +35,25 @@ Do not create a second live tracker, dashboard, database, spreadsheet mirror, or
 8. Respect newer evidence over older evidence. An old receipt must not downgrade a newer interview/OA/action to `WAIT`.
 9. Silence is not a rejection.
 10. A user `applied` comment is sufficient to mark `WAIT`, noting that it is user-confirmed if no employer receipt exists.
+
+### Gmail reconciliation order
+
+State-changing recruiting mail must be processed separately from job alerts/newsletters so discovery noise cannot crowd out lifecycle evidence.
+
+First pass, prioritize direct employer / ATS / recruiter messages and messages that may represent:
+
+- application receipts;
+- rejections / closed outcomes;
+- OA / assessment;
+- interview / recruiter contact;
+- action required / deadline;
+- application status updates.
+
+Read the actual message when subject/snippet metadata does not make the state change explicit. Reconcile concrete state changes to the matching GitHub Issue **before discovery**.
+
+If an employer message is real but exact company+role/req mapping is genuinely unresolved, report or record the unresolved mapping rather than guessing or silently skipping it.
+
+Job-alert/newsletter mail is discovery input only and belongs in a separate pass after lifecycle reconciliation.
 
 Gmail should be searched narrowly. Use bounded recent windows for maintenance and exact company/role/req lookups for dedupe or unresolved evidence. Do not broad-audit the entire mailbox every run.
 
@@ -52,6 +72,27 @@ During MYT hours `00/04/08/12/16/20`, run incremental discovery after maintenanc
 **SG + CN are the main discovery markets.** Malaysia is backup, not a mandatory equal third-market sweep.
 
 Do not restart the whole market every run. Rotate high-value sources, employers and keywords, and avoid rechecking stale results repeatedly.
+
+### Discovery receipt / rotation memory
+
+Before every **scheduled** discovery run, read `DISCOVERY_STATE.md`. Use the previous receipt's `next rotation` plus current Issues/evidence to avoid simply repeating the same source/keyword/employer mix.
+
+A scheduled discovery run should change at least one meaningful search dimension in **each** primary market when the previous run produced no new survivor, unless fresh evidence gives a concrete reason to repeat the same lane.
+
+After every scheduled discovery run, overwrite `DISCOVERY_STATE.md` with a short receipt containing only:
+
+- completed run time in MYT;
+- SG source families actually tried + short search focus;
+- CN source families actually tried + short search focus;
+- serious-survivor Issue numbers created/updated, or `none`;
+- concrete search/access failures, if any;
+- next source/keyword/employer rotation.
+
+A zero-survivor run is valid when both SG and CN were actually searched/rotated. If a source is blocked or inaccessible, record the concrete blocker and try another useful source/mix in the same market before finishing when practical.
+
+Do **not** put raw rejected candidates, long search logs, dashboards, scoring systems or duplicated policy in `DISCOVERY_STATE.md`. It is only a rolling audit receipt/cursor.
+
+For a scheduled discovery window, the run is not considered fully complete until the receipt is updated and read back successfully. During the initial bootstrap of this receipt schema, do not infer anything about discovery runs that occurred before the schema existed.
 
 ## Two-stage discovery
 
