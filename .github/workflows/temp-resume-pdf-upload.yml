@@ -1,34 +1,38 @@
-name: Temporary Resume PDF Upload
+name: One-shot resume cleanup
 
 on:
   push:
     paths:
-      - '.resume-upload/READY'
+      - '.github/workflows/temp-resume-pdf-upload.yml'
 
 permissions:
   contents: write
 
 jobs:
-  decode-and-commit:
+  cleanup:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Rebuild resume PDFs
+      - name: Consolidate final resume PDFs and remove temporary upload files
         shell: bash
         run: |
           set -euo pipefail
-          cat .resume-upload/en.part* | base64 -d | gzip -d > resumes/resume-en-current.pdf
-          cat .resume-upload/cn.part* | base64 -d | gzip -d > resumes/resume-cn-current.pdf
-          echo '5fb689fb047a85b77f9253a1931c541661c92652e111fbb055eacc40cbcddaf4  resumes/resume-en-current.pdf' | sha256sum -c -
-          echo '64db9170032796302f2bdad9d3356bd7ff0a38a8702abebcc60e5aba7962f800  resumes/resume-cn-current.pdf' | sha256sum -c -
-      - name: Commit rebuilt PDFs
-        shell: bash
-        run: |
-          set -euo pipefail
+          test -f resumes/Ko_Lih_Han_Resume_EN.pdf
+          test -f resumes/Ko_Lih_Han_Resume_CN.pdf
+          cp resumes/Ko_Lih_Han_Resume_EN.pdf resumes/resume-en-current.pdf
+          cp resumes/Ko_Lih_Han_Resume_CN.pdf resumes/resume-cn-current.pdf
+          test "$(sha256sum resumes/Ko_Lih_Han_Resume_EN.pdf | cut -d' ' -f1)" = "$(sha256sum resumes/resume-en-current.pdf | cut -d' ' -f1)"
+          test "$(sha256sum resumes/Ko_Lih_Han_Resume_CN.pdf | cut -d' ' -f1)" = "$(sha256sum resumes/resume-cn-current.pdf | cut -d' ' -f1)"
+          rm -f resumes/Ko_Lih_Han_Resume_EN.pdf resumes/Ko_Lih_Han_Resume_CN.pdf
           rm -rf .resume-upload
+          rm -f .github/workflows/temp-resume-pdf-upload.yml
+      - name: Commit clean resume state
+        shell: bash
+        run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add resumes/resume-en-current.pdf resumes/resume-cn-current.pdf .resume-upload
-          git commit -m 'Update resume PDFs'
+          git add -A
+          git commit -m 'Consolidate final resume PDFs and clean upload artifacts'
           git push
