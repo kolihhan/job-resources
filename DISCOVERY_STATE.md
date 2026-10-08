@@ -2,10 +2,10 @@
 
 ## FreeHire intake cursor
 
-- cursor: `83`
+- cursor: `85`
 - public feed: `kolihhan/freehirefetch/feed/events.jsonl`
-- public health verified: `2026-10-09 00:58 MYT` — `first_seq=1`, `last_seq=877`; live delta fetched `SG 391 / CN 8`, with `new=0 / changed=0`
-- last intake: `seq 6-83 reviewed after the initial seq 1-5 acceptance pass. Most were suppressed cheaply as explicit consulting/recruitment/intermediary roles, hard senior/5+ requirements after verification, 2027-only cohort, stale/irrelevant role families, or unresolved low-quality routes. Stage 2 produced #163 One Good Card — Full-Stack Software Engineer as APPLY (official employer page live, no hard YOE, GitHub + Gmail x2 dedupe clean, sponsorship unknown), #164 Neutral Street — Data Engineer as CHECK (official employer page lists the Singapore role, exact detail/apply route unresolved, dedupe clean), and #165 Red Dot AI — Full Stack Engineer / Software Engineer as CHECK (very strong Python/FastAPI + React/TS + API/data-integration fit and 2+ SWE bar, but the accessible exact LinkedIn requisition is closed while fresh indexes suggest a repost/current copy; dedupe found only old job alerts, not an application). AVALLIS was rejected after Stage 2 because the exact JD requires 5+ relevant software-engineering experience plus 3-5 years financial-advisory/CRM domain experience. No application or outreach was performed.`
+- public health verified: `2026-10-09 01:23 MYT` — healthy delta, `first_seq=1`, `last_seq=877`, `SG 391 / CN 8`, `new=0 / changed=0`; no cursor gap
+- last intake: `seq 84-85 reached stable terminal results. #84 re-zoo-me — .NET Full Stack Developer (Managed Services) was not promoted because the feed/aggregator identity did not resolve to an employer-controlled exact/current JD and usable employer/ATS route. #85 Singapore Academy of Law — AI/ML Engineer (Backend) Engineer passed cheap GitHub-history dedupe, but Stage 2 found the exact LinkedIn requisition no longer accepting applications and no employer-controlled exact/current role route, so it was not promoted. No application or outreach was performed.`
 
 ## Current receipt
 
