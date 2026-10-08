@@ -2,10 +2,10 @@
 
 ## FreeHire intake cursor
 
-- cursor: `5`
+- cursor: `83`
 - public feed: `kolihhan/freehirefetch/feed/events.jsonl`
 - public health verified: `2026-10-09 00:58 MYT` — `first_seq=1`, `last_seq=877`; live delta fetched `SG 391 / CN 8`, with `new=0 / changed=0`
-- last intake: `seq 1-5 reviewed; 0 promoted. Informatica was senior/expert/customer-facing; CMC Global is an official IT-outsourcing/staff-augmentation employer despite a 2+ year exact JD; Sonar exact FullStack route could not be verified and Gmail showed a prior different-role Sonar application/closure; CES required 3 years and only an MCF route was verified; VAST required 5+ years plus storage specialization and heavy travel. Targeted Gmail x2 dedupe found no matching prior application except the separate Sonar AI Research role.`
+- last intake: `seq 6-83 reviewed after the initial seq 1-5 acceptance pass. Most were suppressed cheaply as explicit consulting/recruitment/intermediary roles, hard senior/5+ requirements after verification, 2027-only cohort, stale/irrelevant role families, or unresolved low-quality routes. Stage 2 produced #163 One Good Card — Full-Stack Software Engineer as APPLY (official employer page live, no hard YOE, GitHub + Gmail x2 dedupe clean, sponsorship unknown), #164 Neutral Street — Data Engineer as CHECK (official employer page lists the Singapore role, exact detail/apply route unresolved, dedupe clean), and #165 Red Dot AI — Full Stack Engineer / Software Engineer as CHECK (very strong Python/FastAPI + React/TS + API/data-integration fit and 2+ SWE bar, but the accessible exact LinkedIn requisition is closed while fresh indexes suggest a repost/current copy; dedupe found only old job alerts, not an application). AVALLIS was rejected after Stage 2 because the exact JD requires 5+ relevant software-engineering experience plus 3-5 years financial-advisory/CRM domain experience. No application or outreach was performed.`
 
 ## Current receipt
 
