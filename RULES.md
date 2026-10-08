@@ -28,6 +28,17 @@ Scheduler prompts and `NEXT_CHAT_PROMPT.md` must point back to this contract rat
 
 Do not create a second live tracker, dashboard, database, spreadsheet mirror, scoring engine, scraper framework, knowledge graph, or agent framework.
 
+### Dedicated FreeHire lane
+
+Routine FreeHire ingestion is owned by the public `kolihhan/freehirefetch` worker plus the private `FreeHire Intake` scheduler.
+
+- `freehirefetch` may publish only public job data, exact machine-dedupe state and compact health metadata. It must not contain Gmail, application history, candidate profile data or other private recruiting state.
+- The public FreeHire feed is **Stage 1 discovery evidence only**. FreeHire enrichment, timestamps and classifications are hints and never satisfy freshness, employer requirements or application-route gates by themselves.
+- `FreeHire Intake` consumes unseen/changed feed events in ascending sequence, applies the normal cheap GitHub-history dedupe, and performs normal Stage 2 verification before an Issue can be created.
+- The `Job Inbox Maintainer` must not routinely rescan FreeHire. It continues lifecycle maintenance and scheduled discovery from the other source families. Explicit interactive FreeHire probes requested by the user remain allowed.
+- Preserve the compact `FreeHire intake cursor` section in `DISCOVERY_STATE.md` when the normal scheduled-discovery receipt is updated. The cursor is receipt state only, not a job tracker.
+- A real FreeHire cursor gap exists only when `cursor + 1 < health.first_seq`. If the worker is stale/failed or a real gap exists, stop normal FreeHire intake and report/resync deliberately rather than silently jumping ahead or inventing another scraper.
+
 ## Every maintenance run
 
 1. Read `README.md`, `PROFILE.md`, this file and `DISCOVERY_STATE.md`.
@@ -88,7 +99,7 @@ Do not restart the whole market every run. Rotate source families, employer clus
 
 Before every scheduled discovery run, read `DISCOVERY_STATE.md` and use its `next rotation` to avoid repeating the same lane.
 
-After every scheduled discovery run, overwrite `DISCOVERY_STATE.md` with only:
+After every scheduled discovery run, preserve any `FreeHire intake cursor` section and overwrite only the normal `Current receipt` with:
 
 - completed run time in MYT;
 - SG source families / employer or role lanes actually tried;
@@ -167,7 +178,7 @@ Do **not** reject Web3 secondary-lane work merely because it is part-time, contr
 
 At broad-discovery stage do not stop to research salary/WLB, unknown SG sponsorship, unknown CN permit willingness, exact ATS routing, both Gmail accounts, detailed company history or networking contacts for every raw candidate.
 
-Public unauthenticated job feeds such as FreeHire may be used as supplementary broad-discovery inputs for SG and CN. Prefer country + fresh relevant engineering-category filters when available, but treat feed-enriched seniority, freshness and classification as hints rather than employer truth. Do not strengthen ambiguous feed metadata into a hard rejection unless the employer-controlled JD supports it.
+Public unauthenticated job feeds may be used as supplementary broad-discovery inputs for SG and CN. Prefer country + fresh relevant engineering-category filters when available, but treat feed-enriched seniority, freshness and classification as hints rather than employer truth. Do not strengthen ambiguous feed metadata into a hard rejection unless the employer-controlled JD supports it. Routine FreeHire ingestion is the dedicated lane above and must not also be repeated by normal scheduled discovery.
 
 Raw discovery candidates do not become GitHub Issues.
 
@@ -210,7 +221,7 @@ Rotate across:
 2. LinkedIn;
 3. JobStreet;
 4. Indeed;
-5. FreeHire or similar public unauthenticated job feeds as supplementary broad-discovery inputs;
+5. other public unauthenticated job feeds when useful, excluding routine FreeHire ingestion owned by `FreeHire Intake`;
 6. selected credible startup / product-company sources;
 7. selective secondary feeds such as DeJob / Telegram as discovery inputs only.
 
@@ -228,7 +239,7 @@ Rotate across:
 4. 51job / 前程无忧;
 5. 智联招聘 / 智联校园;
 6. 猎聘;
-7. FreeHire or similar public unauthenticated job feeds as supplementary broad-discovery inputs;
+7. other public unauthenticated job feeds when useful, excluding routine FreeHire ingestion owned by `FreeHire Intake`;
 8. LinkedIn and selective DeJob / Telegram secondary feeds as discovery inputs.
 
 The candidate graduated in **2026**. Favor evidence such as `2026届`, `往届可投`, `毕业两年内`, `应届/往届`, `0-1年`, `0-3年`, `初级`, `海外留学生`, `recent graduate` or `recently completed`.
