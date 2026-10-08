@@ -2,9 +2,10 @@
 
 ## FreeHire intake cursor
 
-- cursor: `0`
+- cursor: `5`
 - public feed: `kolihhan/freehirefetch/feed/events.jsonl`
 - public health verified: `2026-10-09 00:58 MYT` — `first_seq=1`, `last_seq=877`; live delta fetched `SG 391 / CN 8`, with `new=0 / changed=0`
+- last intake: `seq 1-5 reviewed; 0 promoted. Informatica was senior/expert/customer-facing; CMC Global is an official IT-outsourcing/staff-augmentation employer despite a 2+ year exact JD; Sonar exact FullStack route could not be verified and Gmail showed a prior different-role Sonar application/closure; CES required 3 years and only an MCF route was verified; VAST required 5+ years plus storage specialization and heavy travel. Targeted Gmail x2 dedupe found no matching prior application except the separate Sonar AI Research role.`
 
 ## Current receipt
 
