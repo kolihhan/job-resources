@@ -49,7 +49,7 @@ Do not add a fourth orchestration layer.
 
 ### Responsibility
 
-The public repository is a stateless/public-data worker plus minimal public ingestion state. It knows nothing about the candidate.
+The public repository is a public-data worker plus minimal public ingestion state. It knows nothing about the candidate.
 
 It may contain only:
 
@@ -71,11 +71,11 @@ It must never contain:
 
 ### Fetch modes
 
-**Bootstrap:** one maximum-page scan for SG and CN, bounded by the FreeHire API deep-page limit. The bootstrap seeds machine state but does not emit the entire historical inventory to ChatGPT.
+**Bootstrap:** one maximum-page scan for SG and CN, bounded by the FreeHire API deep-page limit. The bootstrap seeds exact machine state for all fetched rows. To avoid flooding ChatGPT with historical inventory, only jobs FreeHire first saw within the previous 7 days are eligible to emit initial `NEW` events; older rows seed state only.
 
-**Hourly delta:** the normal path. Prefer FreeHire's first-seen freshness filter (`open_within_days`) and newest-first ordering. Pagination may continue to the API maximum if the filtered result set requires it; do not impose an arbitrary small page cap.
+**Hourly delta:** the normal path. Use FreeHire's first-seen freshness filter (`open_within_days=2`) with newest-first ordering. The two-day overlap intentionally re-reads recent rows so exact machine dedupe can protect against missed or delayed hourly runs. Pagination may continue to the API maximum if the filtered result set requires it; do not impose an arbitrary small page cap.
 
-**Daily full backstop:** one maximum-page SG+CN scan per day to detect ingestion drift, missed jobs, classification changes, or API behavior changes. It is a recovery/validation path, not an instruction to send every old job downstream again.
+**Daily full backstop:** one maximum-page SG+CN scan per day to refresh state and detect ingestion drift, missed jobs, meaningful listing changes, classification changes, or API behavior changes. It is a recovery/validation path, not an instruction to emit every old job downstream again.
 
 Suggested schedule:
 
@@ -141,7 +141,7 @@ Do not implement semantic same-company/near-role-family dedupe in the public wor
 
 ### Public data surfaces
 
-Keep the contract small. Prefer three machine-readable surfaces:
+Keep the contract small. Use three machine-readable surfaces:
 
 - `feed/events.jsonl` — ordered `NEW` / `CHANGED` events;
 - `state/seen.json` — minimal exact machine-dedupe state;
@@ -166,7 +166,17 @@ Each event must include a monotonically increasing `seq` plus enough public data
 }
 ```
 
-`health.json` should expose only compact observability such as last successful run, mode, SG/CN rows fetched, new/changed counts, filtered counts, ignored-parameter detection, and duration.
+`health.json` must expose compact observability including last successful run, mode, SG/CN rows fetched, new/changed counts, filtered counts, ignored-parameter detection, duration, `first_seq`, and `last_seq`.
+
+### Bounded retention
+
+Do not let public state become a historical job archive.
+
+- `events.jsonl`: retain events for 30 days. Never renumber retained events; sequence numbers remain globally monotonic.
+- `seen.json`: retain identities currently present in the latest daily full scan plus identities seen within the prior 30 days. Entries absent from full scans for more than 30 days may be garbage-collected.
+- If a previously garbage-collected role reappears later, treating it as `NEW` is acceptable; private history dedupe remains the final guard.
+
+If the private cursor is older than `health.first_seq`, that is a **cursor gap**. The private scheduler must stop normal consumption and report/resync deliberately; it must never silently jump to the newest sequence.
 
 Avoid storing hourly full raw snapshots in Git history. Public Git state is a transport/receipt surface, not a job archive.
 
@@ -186,21 +196,22 @@ For each run:
 
 1. Read the current `job-resources` `README.md`, `PROFILE.md`, `RULES.md`, and `DISCOVERY_STATE.md`.
 2. Read `freehirefetch/health.json` and verify the worker is not stale or failed.
-3. Read public feed events with `seq` greater than the private FreeHire cursor.
-4. Process events in sequence and in bounded batches if the backlog is large.
-5. Apply cheap GitHub-history dedupe using the existing `RULES.md` contract:
+3. Verify the private cursor is not behind `health.first_seq`; if it is, stop normal intake and report a cursor gap.
+4. Read public feed events with `seq` greater than the private FreeHire cursor.
+5. Process events strictly in ascending `seq` order.
+6. Apply cheap GitHub-history dedupe using the existing `RULES.md` contract:
    - exact requisition/job ID;
    - same employer + same or near-identical role family;
    - explicit prior application/user history.
-6. For survivors, perform Stage 2 only:
+7. For survivors, perform Stage 2 only:
    - employer-controlled exact JD/current liveness;
    - cohort/seniority/hard requirements;
    - fit and material work-authorization blockers;
    - targeted dedupe in both Gmail accounts;
    - exact usable application route.
-7. Create/update `APPLY` or `CHECK` Issues only when the existing promotion rules are satisfied.
-8. Advance the FreeHire cursor only through events whose processing reached a stable terminal result for this intake run.
-9. Read back any GitHub write before claiming success.
+8. Create/update `APPLY` or `CHECK` Issues only when the existing promotion rules are satisfied.
+9. Advance the FreeHire cursor only through the largest contiguous sequence prefix whose events reached a stable terminal result for this intake run.
+10. Read back any GitHub write before claiming success.
 
 The scheduler must not perform broad LinkedIn, JobStreet, Indeed, BOSS, 牛客, 51job, 智联, 猎聘, Telegram, or general-web discovery. Those remain outside this scheduler.
 
@@ -222,15 +233,15 @@ Do not create `freehire.db`, a second CSV tracker, a FreeHire dashboard, or Free
 
 A large bootstrap or outage backlog must not cause the scheduler to deep-verify thousands of jobs in one run.
 
-Order work by:
+The scheduler preserves sequence order so the cursor remains honest:
 
-1. newest `NEW` events;
-2. meaningful `CHANGED` events;
-3. market/role relevance under the current SG/CN rules.
+1. walk the next contiguous events in ascending `seq`;
+2. consume machine-level obvious rejects and GitHub-history duplicates cheaply;
+3. deep-verify at most 20 serious survivors per run;
+4. when the next unprocessed event would require Stage 2 after that budget is exhausted, stop there;
+5. advance the cursor only through the contiguous processed prefix and continue from that point on the next run.
 
-Machine-level obvious rejects and GitHub-history duplicates can be consumed cheaply. Expensive official/Gmail verification should be bounded to a practical survivor batch per run.
-
-If backlog remains, keep the cursor before the first unprocessed event and continue next run. Do not skip silently.
+This intentionally favors correctness and resumability over jumping ahead to newer events. Hourly ingestion keeps normal backlog small; the cap mainly protects bootstrap/outage recovery.
 
 ## 3. Existing `Job Inbox Maintainer`
 
@@ -261,9 +272,20 @@ FreeHire Intake creates opportunities; the maintainer continues to own their lat
 - For ambiguous GitHub create failures, follow existing search/read-back-before-retry rules.
 - Reprocessing must be idempotent: GitHub history, Gmail dedupe, exact role identity, and the cursor prevent duplicate Issues.
 
+### Cursor gap
+
+If retention has removed events before the private scheduler consumed them:
+
+- stop normal cursor advancement;
+- run a controlled current-state resync from the public worker's latest full state/feed contract;
+- use normal GitHub/Gmail dedupe before promoting anything;
+- establish a new explicit cursor only after the resync is complete and recorded.
+
+Do not guess which missing historical events mattered.
+
 ### Stale worker
 
-If `health.json`/latest workflow evidence shows the public worker has not completed successfully for a material period, the intake scheduler should report one concrete system failure rather than pretending there are no new jobs. It should not automatically fall back to a new scraping framework.
+If `health.json` or latest workflow evidence shows the public worker has not completed successfully for a material period, the intake scheduler should report one concrete system failure rather than pretending there are no new jobs. It should not automatically fall back to a new scraping framework.
 
 ## Security and privacy
 
@@ -285,7 +307,8 @@ Public worker:
 - NEW/CHANGED counts;
 - title-hard-drop count;
 - contract/filter error status;
-- duration.
+- duration;
+- first/last retained sequence.
 
 Private intake:
 
@@ -294,7 +317,8 @@ Private intake:
 - cheap duplicates suppressed;
 - Stage-2 candidates entered;
 - Issues promoted/updated;
-- concrete verification failures.
+- concrete verification failures;
+- cursor-gap/stale-worker status when applicable.
 
 Do not turn these counters into quotas, scores, or a dashboard.
 
@@ -309,8 +333,11 @@ Public worker tests must cover at minimum:
 - conservative title hard-drop vs enrichment hint behavior;
 - exact NEW / unchanged / CHANGED fingerprint classification;
 - durable-state update only after successful complete processing;
-- delta and full modes;
-- output schema/sequence monotonicity.
+- bootstrap emission limited to recent jobs while older rows seed state;
+- delta overlap and daily full modes;
+- 30-day retention and monotonic sequence behavior;
+- output schema;
+- cursor-gap metadata (`first_seq` / `last_seq`).
 
 Workflow validation must prove:
 
@@ -323,10 +350,12 @@ Workflow validation must prove:
 Private scheduler acceptance must prove on a small real sample:
 
 - it reads only events after the cursor;
+- it preserves ascending sequence and contiguous cursor advancement;
 - known application/rejection duplicates are suppressed before deep verification;
 - aggregator metadata alone does not satisfy liveness/route gates;
 - a genuine survivor can reach the existing `APPLY`/`CHECK` Issue contract;
-- cursor does not advance across an unresolved failure;
+- cursor does not advance across an unresolved failure or Stage-2 budget boundary;
+- a cursor gap is detected rather than skipped;
 - rerunning the same events does not create duplicate Issues.
 
 ## Rollout
@@ -353,14 +382,16 @@ The design is successful when:
 
 1. `freehirefetch` runs on a public standard GitHub runner with no paid service or private candidate data.
 2. Bootstrap can reach FreeHire's documented maximum pagination window for SG and CN when the API has that many filtered rows.
-3. Normal hourly runs are incremental; daily full scan provides a recovery/backstop path.
-4. Public machine filtering does not hard-reject roles solely from uncertain FreeHire enrichment.
-5. Exact machine duplicates do not repeatedly reach ChatGPT.
-6. The dedicated private scheduler consumes only unseen/changed public events and performs existing Stage-2 verification.
-7. `DISCOVERY_STATE.md` remains only receipt/cursor state, not a job tracker.
-8. Existing GitHub Issues remain the only operational opportunity state.
-9. Existing maintainer no longer repeats normal FreeHire discovery.
-10. No application or external contact occurs without explicit user authorization.
+3. Bootstrap seeds historical state without flooding the private scheduler; initial emitted `NEW` events are limited to FreeHire first-seen <= 7 days.
+4. Normal hourly runs use a two-day incremental overlap; daily full scan provides recovery/state refresh.
+5. Public machine filtering does not hard-reject roles solely from uncertain FreeHire enrichment.
+6. Exact machine duplicates do not repeatedly reach ChatGPT.
+7. Public event/state retention is bounded and cursor gaps are detectable.
+8. The dedicated private scheduler consumes events in sequence, performs existing Stage-2 verification, and advances only a contiguous processed cursor.
+9. `DISCOVERY_STATE.md` remains only receipt/cursor state, not a job tracker.
+10. Existing GitHub Issues remain the only operational opportunity state.
+11. Existing maintainer no longer repeats normal FreeHire discovery.
+12. No application or external contact occurs without explicit user authorization.
 
 ## Non-goals
 
