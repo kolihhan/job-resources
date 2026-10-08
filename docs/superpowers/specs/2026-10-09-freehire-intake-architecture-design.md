@@ -1,7 +1,7 @@
 # FreeHire Intake Architecture Design
 
 Date: 2026-10-09
-Status: design approved in chat; implementation not started
+Status: design approved; implementation in progress
 
 ## Goal
 
@@ -176,7 +176,7 @@ Do not let public state become a historical job archive.
 - `seen.json`: retain identities currently present in the latest daily full scan plus identities seen within the prior 30 days. Entries absent from full scans for more than 30 days may be garbage-collected.
 - If a previously garbage-collected role reappears later, treating it as `NEW` is acceptable; private history dedupe remains the final guard.
 
-If the private cursor is older than `health.first_seq`, that is a **cursor gap**. The private scheduler must stop normal consumption and report/resync deliberately; it must never silently jump to the newest sequence.
+A real **cursor gap** exists only when `cursor + 1 < health.first_seq`. For example, `cursor=0` with `first_seq=1` is a valid initial state. When a real gap exists, the private scheduler must stop normal consumption and report/resync deliberately; it must never silently jump to the newest sequence.
 
 Avoid storing hourly full raw snapshots in Git history. Public Git state is a transport/receipt surface, not a job archive.
 
@@ -196,7 +196,7 @@ For each run:
 
 1. Read the current `job-resources` `README.md`, `PROFILE.md`, `RULES.md`, and `DISCOVERY_STATE.md`.
 2. Read `freehirefetch/health.json` and verify the worker is not stale or failed.
-3. Verify the private cursor is not behind `health.first_seq`; if it is, stop normal intake and report a cursor gap.
+3. Verify `cursor + 1 >= health.first_seq`; otherwise stop normal intake and report a cursor gap.
 4. Read public feed events with `seq` greater than the private FreeHire cursor.
 5. Process events strictly in ascending `seq` order.
 6. Apply cheap GitHub-history dedupe using the existing `RULES.md` contract:
