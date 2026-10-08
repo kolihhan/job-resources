@@ -1,5 +1,11 @@
 # Discovery State
 
+## FreeHire intake cursor
+
+- cursor: `0`
+- public feed: `kolihhan/freehirefetch/feed/events.jsonl`
+- public health verified: `2026-10-09 00:58 MYT` — `first_seq=1`, `last_seq=877`; live delta fetched `SG 391 / CN 8`, with `new=0 / changed=0`
+
 ## Current receipt
 
 - completed run time: `2026-10-08 20:36 MYT`
