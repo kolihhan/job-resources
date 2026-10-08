@@ -2,10 +2,10 @@
 
 ## FreeHire intake cursor
 
-- cursor: `85`
+- cursor: `86`
 - public feed: `kolihhan/freehirefetch/feed/events.jsonl`
-- public health verified: `2026-10-09 01:23 MYT` — healthy delta, `first_seq=1`, `last_seq=877`, `SG 391 / CN 8`, `new=0 / changed=0`; no cursor gap
-- last intake: `seq 84-85 reached stable terminal results. #84 re-zoo-me — .NET Full Stack Developer (Managed Services) was not promoted because the feed/aggregator identity did not resolve to an employer-controlled exact/current JD and usable employer/ATS route. #85 Singapore Academy of Law — AI/ML Engineer (Backend) Engineer passed cheap GitHub-history dedupe, but Stage 2 found the exact LinkedIn requisition no longer accepting applications and no employer-controlled exact/current role route, so it was not promoted. No application or outreach was performed.`
+- public health verified: `2026-10-09 02:30 MYT` — healthy delta, `first_seq=1`, `last_seq=877`, `SG 391 / CN 8`, `new=0 / changed=0`; no cursor gap
+- last intake: `seq 86 reached a stable terminal result. GTS Consulting — AI DevOps Engineer passed cheap GitHub-history dedupe, but Stage 2 could not establish an employer-controlled exact/current JD or exact employer/ATS application route; current search evidence was aggregator/LinkedIn only, so it was not promoted. No application or outreach was performed.`
 
 ## Current receipt
 
