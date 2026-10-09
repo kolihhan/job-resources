@@ -1,4 +1,4 @@
-name: CN Liepin Discovery
+name: CN Discovery
 
 on:
   workflow_dispatch:
@@ -15,13 +15,13 @@ permissions:
   contents: read
 
 concurrency:
-  group: cn-liepin-discovery
+  group: cn-discovery
   cancel-in-progress: false
 
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -48,24 +48,65 @@ jobs:
             --days 0 \
             --output artifacts/liepin-raw.json
 
+      - name: Collect official-company jobs
+        run: |
+          for spec in "ai:AI" "backend:后端" "swe:软件工程师"; do
+            name="${spec%%:*}"
+            query="${spec#*:}"
+            if ! npx -y @ha7ch/job-pro@1.2.1 find "$query" \
+              --scope all \
+              --limit 5 \
+              --timeout 12000 \
+              --compact > "artifacts/jobpro-${name}.json"; then
+              printf '{"ok":false,"keyword":"%s","results":[],"failed":[{"company":"job-pro","message":"command failed"}]}' "$query" > "artifacts/jobpro-${name}.json"
+            fi
+          done
+
       - name: Write run summary
         run: |
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
-          const data = JSON.parse(fs.readFileSync('artifacts/liepin-raw.json', 'utf8'));
+          const liepin = JSON.parse(fs.readFileSync('artifacts/liepin-raw.json', 'utf8'));
+          const files = ['ai', 'backend', 'swe'].map((name) => `artifacts/jobpro-${name}.json`);
+          const jobproRuns = files.map((file) => JSON.parse(fs.readFileSync(file, 'utf8')));
+          const jobs = new Map();
+          let failed = 0;
+          let reportedHits = 0;
+          for (const run of jobproRuns) {
+            failed += Array.isArray(run.failed) ? run.failed.length : 0;
+            reportedHits += Number(run.total ?? 0);
+            for (const result of run.results ?? []) {
+              for (const job of result.positions ?? []) {
+                const key = `${result.company}|${job.post_id ?? job.apply_url ?? `${job.title ?? ''}|${job.work_cities ?? ''}`}`;
+                if (!jobs.has(key)) jobs.set(key, { source: 'job-pro', company_key: result.company, ...job });
+              }
+            }
+          }
+          const official = {
+            meta: {
+              package: '@ha7ch/job-pro@1.2.1',
+              queries: jobproRuns.map((run) => run.keyword),
+              reported_hits: reportedHits,
+              unique_jobs: jobs.size,
+              failed_adapter_calls: failed,
+            },
+            jobs: [...jobs.values()],
+          };
+          fs.writeFileSync('artifacts/jobpro-raw.json', JSON.stringify(official, null, 2));
           const lines = [
-            '# CN Liepin Discovery',
+            '# CN Discovery',
             '',
-            `- searches: ${data.meta.searchCount}`,
-            `- unique jobs: ${data.meta.uniqueJobs}`,
-            `- duplicates removed: ${data.meta.duplicatesRemoved}`,
-            `- malformed cards skipped: ${data.meta.skippedMalformed}`,
+            '## Liepin',
+            `- searches: ${liepin.meta.searchCount}`,
+            `- unique jobs: ${liepin.meta.uniqueJobs}`,
+            `- duplicates removed: ${liepin.meta.duplicatesRemoved}`,
+            `- malformed cards skipped: ${liepin.meta.skippedMalformed}`,
             '',
-            '## Sample (first 20)',
-            '',
-            '| Title | Company | Location | Salary |',
-            '|---|---|---|---|',
-            ...data.jobs.slice(0, 20).map((j) => `| ${String(j.title ?? '').replaceAll('|','/')} | ${String(j.company ?? '').replaceAll('|','/')} | ${String(j.location ?? '').replaceAll('|','/')} | ${String(j.salary ?? '').replaceAll('|','/')} |`),
+            '## Official-company APIs (job-pro 1.2.1)',
+            `- queries: ${official.meta.queries.join(', ')}`,
+            `- reported hits before cross-query dedupe: ${official.meta.reported_hits}`,
+            `- unique jobs after cross-query dedupe: ${official.meta.unique_jobs}`,
+            `- failed adapter calls: ${official.meta.failed_adapter_calls}`,
           ];
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
           NODE
@@ -73,6 +114,6 @@ jobs:
       - name: Upload raw discovery artifact
         uses: actions/upload-artifact@v4
         with:
-          name: liepin-raw-${{ github.run_id }}
-          path: artifacts/liepin-raw.json
+          name: cn-raw-${{ github.run_id }}
+          path: artifacts/
           retention-days: 7
