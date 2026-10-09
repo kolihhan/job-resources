@@ -2,10 +2,10 @@
 
 ## FreeHire intake cursor
 
-- cursor: `100`
+- cursor: `150`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
 - public health verified: `2026-10-09 13:28 MYT` — healthy delta, `first_seq=1`, `last_seq=1338`, `SG 387 / CN 12`, `new=17 / changed=0`; page index matches `first_seq=1 / last_seq=1338`; no cursor gap
-- last intake: `seq 87–100 reached stable terminal results. Omnilojo — Web Backend Engineer survived Stage 1 and was promoted to CHECK Issue #168 because the employer careers page lists the role but points to an older closed LinkedIn requisition while a newer exact-title LinkedIn requisition is active; exact current employer-backed route remains unresolved. Cloudsway Java Backend Engineer had no sufficiently verifiable exact employer-controlled role/application route in this pass and was not promoted. Unison Group Quantexa Data Engineer was current but required specialized Quantexa/Hadoop/Scala/Spark/OCP production experience and was a material fit mismatch. Remaining events were terminal cheap rejects/duplicates including staffing/consulting or DevOps-focused roles, explicit 2027 cohort mismatch, senior/VP scope, or same-employer duplicate. No application or outreach was performed.`
+- last intake: `seq 101–150 reached stable terminal results. Visa Data Engineer REF088915W was a plausible survivor from the public feed, but current verification could not establish that exact employer-controlled requisition; other current Visa Data Engineer requisitions exist, but they were not substituted for the exact FreeHire event, so no Issue was promoted. CSIT Data Engineer was suppressed after the existing current-run CSIT eligibility/mission constraint check. PSA Infrastructure / Platform Engineer was current but classified around infrastructure/network-systems administration rather than the target software/backend/platform-engineering scope. AMBRELLA Java Backend and anonymous re-zoo search/AI-backend mirrors did not establish a sufficiently strong exact employer-controlled current route and/or were material stack/employment-model mismatches. Remaining events were terminal rejects/duplicates dominated by senior/VP/manager scope, 5+ years, 2027-only cohort, staffing/consulting/outsource, DevOps/SRE-first scope, explicit Singaporean-only eligibility, or hard Java/C++/specialized data-stack mismatch. No application or outreach was performed.`
 
 ## Current receipt
 
