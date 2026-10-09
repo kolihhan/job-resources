@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `212`
+- cursor: `213`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-09 18:32 MYT` — healthy, `first_seq=1`, `last_seq=1349`, `SG 370 / CN 11`; page index matches `first_seq=1 / last_seq=1349`; no cursor gap. No newer feed head exists beyond the already-inspected seq 1339–1349.
+- public health verified: `2026-10-10 00:33 MYT` — healthy, `first_seq=1`, `last_seq=1497`, `SG 484 / CN 12`; page index matches `first_seq=1 / last_seq=1497`; no cursor gap. Bounded fresh-head inspection covered newly unseen seq 1451–1462 before sequential catch-up.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `No new fresh-head events appeared beyond the already-inspected seq 1339–1349. Sequential seq 201–212 reached stable terminal results. ZERO BYTE LABS seq 201 is already represented by CHECK Issue #176 for the same AI-engineering opportunity family; seq 202–210 were technical-sales, agency/outstaff/consulting, DevOps/infra, contract-agency, ERP, or other clear scope/seniority mismatches. Activate Interactive Backend Engineer A26379 (seq 211) was deep-verified current, but is a 24-month consultancy contract requiring 2–5 years plus hands-on Java/Spring Boot, a material stack/role-quality mismatch for this search. Julius Baer seq 212 is a 12-month external-agency Technical Scrum Master/DevOps role with a 5+ experience hint. No new APPLY/CHECK Issue was promoted and no application or outreach was performed.`
+- last intake: `Fresh-head seq 1451–1462 was inspected first. Obvious AVP/5+ YOE, recruiter/agency, infra/DBA, customer-service and MCF-only candidates were terminally screened; FPT M01 AI Engineer, NCS Full Stack Software Engineers and YWVISION Python Backend Developer were retained for normal evidence checks but no employer-controlled exact current liveness + usable route was established in this run, so none was promoted. Sequential seq 213 (Wonderful — Deployment Strategist) is outside the primary engineering role families and reached a stable terminal reject. Cursor advanced 212→213 only; no unresolved history was crossed. No application or outreach was performed.`
 
 ## Current receipt
 
