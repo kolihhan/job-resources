@@ -131,7 +131,9 @@ Compact format:
 
 These counts are **observability only**. They are not quotas, scores, history tables, success targets or minimums. A run with many screened candidates and zero survivors may be healthy; a low-coverage run is not automatically wrong, but its limited search effort must be visible.
 
-For Singapore, zero survivors from the maintainer's gap search can be healthy when the FreeHire worker/intake is current and the gap lanes were meaningfully varied; the maintainer does not need to reproduce the entire SG market every window. For Mainland China, a zero-survivor run is healthy only after meaningful variation in source, employer and role-keyword lanes. If a source is blocked or weak, try another useful lane in that market before concluding the market is sparse when practical.
+For Singapore, zero survivors from the maintainer's gap search can be healthy when the FreeHire worker/intake is current and the gap lanes were meaningfully varied; a populated feed or old success timestamp alone does not prove current intake. Report producer lag, unseen backlog and the actual fresh-head screening performed. The maintainer does not need to reproduce the entire SG market every window. For Mainland China, a zero-survivor run is healthy only after meaningful variation in source, employer and role-keyword lanes. If a source is blocked or weak, try another useful lane in that market before concluding the market is sparse when practical.
+
+When an initial discovery lane yields only familiar-company duplicates or hard rejects, expand to another useful employer cluster/source in that market before declaring discovery complete. Small coverage must be described as limited; it cannot justify a conclusion that the market has no jobs.
 
 Do not put raw rejected candidates, long search logs, dashboards, scores or duplicated policy in `DISCOVERY_STATE.md`.
 
@@ -194,7 +196,7 @@ Before deep JD/policy/route research, run cheap GitHub-history dedupe:
 2. same employer + same or near-identical role family;
 3. explicit user-confirmed prior application history.
 
-If recent history already shows the same employer + same/near-identical role family, suppress the new requisition by default before expensive research.
+A same-employer role-family match is a comparison flag, not a terminal duplicate by title alone. Suppress an exact prior application or a demonstrably near-identical team/scope/repost; otherwise compare the current JD's team, work, level and location before deciding. A distinct meaningful opportunity may enter Stage 2 without requiring a new company.
 
 A changed job ID alone is **not** enough to make the opportunity new.
 
@@ -305,7 +307,8 @@ Current liveness requires at least one strong current-run role-level signal:
 
 1. explicit application / validity / closing window including the current date; or
 2. the actual exact-role candidate form or employer-controlled ATS start/submit flow renders and is usable now; or
-3. an official role page has a genuinely current role-level status/post/update timestamp from the last 7 days **and** an active role-level application action.
+3. an official role page has a genuinely current role-level status/post/update timestamp from the last 7 days **and** an active role-level application action; or
+4. an employer-controlled ATS response fetched in the current run explicitly marks the exact requisition published/open and accepting applications (for example `posted=true` plus `canApply=true`, or exact-role `postingAvailable=true` with a mapped application start). Record the exact req and response evidence; an aggregator's `active` label is insufficient.
 
 These are discovery evidence only, not liveness proof by themselves:
 
@@ -316,9 +319,9 @@ These are discovery evidence only, not liveness proof by themselves:
 - generic careers page;
 - undated role page when current application flow cannot be established.
 
-If the exact page is older than 7 days and there is no explicit still-valid window or usable live exact flow, liveness is unproven. Keep it raw; do not create `CHECK` merely to ask whether it is closed.
+Posting age alone is not a closure signal. An older page must have a still-valid window, usable exact flow, or explicit current employer-ATS accepting status above. If none is established, keep it raw; do not create `CHECK` merely to ask whether it is closed. When ATS status independently proves liveness but JavaScript/login prevents final route verification, the one route blocker may be a `CHECK`.
 
-If tools cannot distinguish live from cache, require a second independent current role-level signal. Prefer a false negative over repeatedly surfacing stale jobs.
+If tools cannot distinguish live from cache, require a second independent current role-level signal. Keep unproven liveness out of Issues, but do not discard explicit current employer-ATS accepting evidence merely because the full browser form needs JavaScript.
 
 A user report such as `closed position`, `expired` or equivalent current employer/platform evidence overrides older evidence immediately.
 
@@ -354,7 +357,7 @@ An established prior application to the exact requisition is a hard duplicate.
 
 ### Level 2 — employer + role family
 
-A recent application to the same employer in the same or near-identical role family suppresses a new requisition by default even when the job ID differs.
+A recent same-employer / same-family application triggers comparison. Suppress when the current role is a demonstrably near-identical team/scope/repost, an exact prior application, or an employer's documented application limit applies. Broad labels such as software engineering or AI applications alone do not establish duplication.
 
 Examples such as `AI应用工程师`, `AI应用开发工程师` and `AI应用平台开发工程师` normally belong to the same broad AI-application family unless current scope proves a material difference.
 
