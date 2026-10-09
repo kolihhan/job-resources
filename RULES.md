@@ -208,10 +208,12 @@ For candidates that survive the cheap screen and early dedupe, verify:
 
 1. exact/full JD and current liveness under the freshness gate;
 2. graduation/cohort, seniority and hard requirements;
-3. candidate fit and any material work-authorization blocker;
+3. candidate fit, any material work-authorization blocker, and employer realism for an early-career foreign hire;
 4. targeted Gmail dedupe in both accounts by company/role/req;
 5. ATS/candidate history only when materially available;
 6. exact usable application route.
+
+For **Singapore and Mainland China**, employer realism is a prioritization signal, not a new hard filter or score. When otherwise suitable roles compete for deeper verification or Issue promotion, prefer evidence that the employer can and may hire an early-career foreign candidate: explicit sponsorship/work-permit support, prior foreign hiring, international/regional operations, graduate or `0-3 YOE` hiring, mature HR, or pass-compatible compensation where known. Company size is only a weak proxy: medium/large international employers are a useful default preference when evidence is otherwise equal, but do not reject strong startups or mega-company graduate roles solely because of size. Unknown willingness is not a rejection; explicit no-sponsorship remains a blocker.
 
 For aggregator-discovered survivors, prefer the employer-controlled official role page or public ATS posting/API for the exact requisition when available. Aggregator/feed data by itself never satisfies the freshness or application-route hard gates; an ATS source counts only when it maps to the exact role and meets the same current-run liveness/route requirements below.
 
