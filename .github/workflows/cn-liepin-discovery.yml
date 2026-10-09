@@ -1,0 +1,78 @@
+name: CN Liepin Discovery
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:20 China/Malaysia time. Keep frequency low to reduce portal load.
+    - cron: "20 1 * * *"
+  push:
+    paths:
+      - "scripts/liepin_discovery.mjs"
+      - "tests/liepin_discovery.test.mjs"
+      - ".github/workflows/cn-liepin-discovery.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cn-liepin-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Unit tests
+        run: node --test tests/liepin_discovery.test.mjs
+
+      - name: Collect Liepin jobs
+        run: |
+          node scripts/liepin_discovery.mjs \
+            --city 上海 \
+            --city 深圳 \
+            --city 北京 \
+            --query AI工程师 \
+            --query 大模型 \
+            --query Agent \
+            --query Python后端 \
+            --query 后端开发 \
+            --query 软件工程师 \
+            --pages 1 \
+            --days 0 \
+            --output artifacts/liepin-raw.json
+
+      - name: Write run summary
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const data = JSON.parse(fs.readFileSync('artifacts/liepin-raw.json', 'utf8'));
+          const lines = [
+            '# CN Liepin Discovery',
+            '',
+            `- searches: ${data.meta.searchCount}`,
+            `- unique jobs: ${data.meta.uniqueJobs}`,
+            `- duplicates removed: ${data.meta.duplicatesRemoved}`,
+            `- malformed cards skipped: ${data.meta.skippedMalformed}`,
+            '',
+            '## Sample (first 20)',
+            '',
+            '| Title | Company | Location | Salary |',
+            '|---|---|---|---|',
+            ...data.jobs.slice(0, 20).map((j) => `| ${String(j.title ?? '').replaceAll('|','/')} | ${String(j.company ?? '').replaceAll('|','/')} | ${String(j.location ?? '').replaceAll('|','/')} | ${String(j.salary ?? '').replaceAll('|','/')} |`),
+          ];
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
+          NODE
+
+      - name: Upload raw discovery artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: liepin-raw-${{ github.run_id }}
+          path: artifacts/liepin-raw.json
+          retention-days: 7
