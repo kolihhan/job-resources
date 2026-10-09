@@ -2,10 +2,10 @@
 
 ## FreeHire intake cursor
 
-- cursor: `86`
-- public feed: `kolihhan/freehirefetch/feed/events.jsonl`
-- public health verified: `2026-10-09 02:30 MYT` — healthy delta, `first_seq=1`, `last_seq=877`, `SG 391 / CN 8`, `new=0 / changed=0`; no cursor gap
-- last intake: `seq 86 reached a stable terminal result. GTS Consulting — AI DevOps Engineer passed cheap GitHub-history dedupe, but Stage 2 could not establish an employer-controlled exact/current JD or exact employer/ATS application route; current search evidence was aggregator/LinkedIn only, so it was not promoted. No application or outreach was performed.`
+- cursor: `100`
+- public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
+- public health verified: `2026-10-09 13:28 MYT` — healthy delta, `first_seq=1`, `last_seq=1338`, `SG 387 / CN 12`, `new=17 / changed=0`; page index matches `first_seq=1 / last_seq=1338`; no cursor gap
+- last intake: `seq 87–100 reached stable terminal results. Omnilojo — Web Backend Engineer survived Stage 1 and was promoted to CHECK Issue #168 because the employer careers page lists the role but points to an older closed LinkedIn requisition while a newer exact-title LinkedIn requisition is active; exact current employer-backed route remains unresolved. Cloudsway Java Backend Engineer had no sufficiently verifiable exact employer-controlled role/application route in this pass and was not promoted. Unison Group Quantexa Data Engineer was current but required specialized Quantexa/Hadoop/Scala/Spark/OCP production experience and was a material fit mismatch. Remaining events were terminal cheap rejects/duplicates including staffing/consulting or DevOps-focused roles, explicit 2027 cohort mismatch, senior/VP scope, or same-employer duplicate. No application or outreach was performed.`
 
 ## Current receipt
 
