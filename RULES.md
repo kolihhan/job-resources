@@ -34,8 +34,12 @@ Routine FreeHire ingestion is owned by the public `kolihhan/freehirefetch` worke
 
 - `freehirefetch` may publish only public job data, exact machine-dedupe state and compact health metadata. It must not contain Gmail, application history, candidate profile data or other private recruiting state.
 - The public FreeHire feed is **Stage 1 discovery evidence only**. FreeHire enrichment, timestamps and classifications are hints and never satisfy freshness, employer requirements or application-route gates by themselves.
-- `FreeHire Intake` consumes unseen/changed feed events in ascending sequence, applies the normal cheap GitHub-history dedupe, and performs normal Stage 2 verification before an Issue can be created.
-- The `Job Inbox Maintainer` must not routinely rescan FreeHire. It continues lifecycle maintenance and scheduled discovery from the other source families. Explicit interactive FreeHire probes requested by the user remain allowed.
+- For **Singapore**, a healthy current FreeHire feed is the primary broad-discovery radar. The normal maintainer should not repeat a full LinkedIn / JobStreet / Indeed / generic-web sweep merely to recreate coverage that the FreeHire worker already supplied. Singapore non-FreeHire discovery should be targeted gap search: employer/source families FreeHire is not covering well, direct employer/ATS opportunities, fresh-graduate pages, smaller product/startup employers, or a concrete missing role lane.
+- For **Mainland China**, FreeHire is supplementary only. BOSS, official/campus channels, 牛客, 51job, 智联, 猎聘 and direct employer discovery remain the primary discovery surface because FreeHire coverage is materially thinner there.
+- `FreeHire Intake` uses two complementary passes when unseen backlog exists. First, inspect a bounded **fresh-head** set of recent unseen/changed events so a large historical backlog cannot delay newly opened jobs; this pass may inspect events beyond the sequential cursor but does **not** advance the cursor over unprocessed history. Then use remaining capacity to continue strict ascending cursor catch-up. GitHub/Gmail dedupe keeps the two passes idempotent.
+- The fresh-head pass must still use the normal cheap hard filter, GitHub-history dedupe and Stage 2 verification. It is not permission to weaken freshness, fit, work-authorization, Gmail-dedupe or exact-route gates.
+- Cursor advancement remains conservative: advance only through the largest contiguous prefix whose events reached a stable terminal result. Seeing or promoting a newer event in the fresh-head pass does not by itself move the sequential cursor.
+- The `Job Inbox Maintainer` must not routinely rescan FreeHire. It owns lifecycle maintenance, **Singapore gap discovery**, and **Mainland-China native discovery**. Explicit interactive FreeHire probes requested by the user remain allowed.
 - Preserve the compact `FreeHire intake cursor` section in `DISCOVERY_STATE.md` when the normal scheduled-discovery receipt is updated. The cursor is receipt state only, not a job tracker.
 - A real FreeHire cursor gap exists only when `cursor + 1 < health.first_seq`. If the worker is stale/failed or a real gap exists, stop normal FreeHire intake and report/resync deliberately rather than silently jumping ahead or inventing another scraper.
 
@@ -87,13 +91,13 @@ Scheduled discovery uses six MYT windows:
 - `16:00-19:59` → `16`;
 - `20:00-23:59` → `20`.
 
-Before scheduled discovery, inspect the latest `DISCOVERY_STATE.md` receipt. If the current window already contains a completed **full SG + CN** discovery that satisfies the current contract and whose receipt was written and read back successfully, do maintenance only and skip duplicate scheduled discovery for that window.
+Before scheduled discovery, inspect the latest `DISCOVERY_STATE.md` receipt. If the current window already contains a completed **SG gap + CN native** discovery that satisfies the current contract and whose receipt was written and read back successfully, do maintenance only and skip duplicate scheduled discovery for that window.
 
-A narrow interactive role lookup or probe does **not** consume the scheduled window. An explicit interactive run may count for the current window only when it intentionally completed the full SG + CN discovery contract and wrote a valid receipt. If a prior run was incomplete, skipped a main market, had a required write failure, or lacked a verified receipt, the window remains incomplete.
+A narrow interactive role lookup or probe does **not** consume the scheduled window. An explicit interactive run may count for the current window only when it intentionally completed the current Singapore gap-discovery and Mainland-China native-discovery contract and wrote a valid receipt. If a prior run was incomplete, skipped a main market, had a required write failure, or lacked a verified receipt, the window remains incomplete.
 
 **SG + CN are the main discovery markets.** Malaysia is backup. Web3 is an opportunistic secondary lane, not a replacement for SG/CN full-time search.
 
-Do not restart the whole market every run. Rotate source families, employer clusters and role keywords. Do not repeatedly search the same familiar companies when recent runs already covered them.
+Do not restart the whole market every run. Rotate source families, employer clusters and role keywords. Do not repeatedly search the same familiar companies when recent runs already covered them. In Singapore, use FreeHire coverage as the default broad radar and spend normal-discovery effort on gaps rather than recreating the same board coverage. In Mainland China, continue rotating native sources broadly.
 
 ## Discovery receipt / rotation memory
 
@@ -102,8 +106,8 @@ Before every scheduled discovery run, read `DISCOVERY_STATE.md` and use its `nex
 After every scheduled discovery run, preserve any `FreeHire intake cursor` section and overwrite only the normal `Current receipt` with:
 
 - completed run time in MYT;
-- SG source families / employer or role lanes actually tried;
-- CN source families / employer or role lanes actually tried;
+- SG **gap** source families / employer or role lanes actually tried;
+- CN native source families / employer or role lanes actually tried;
 - optional Web3 lane tried, if any;
 - compact SG/CN coverage counters, plus optional Web3 counters when that lane was searched;
 - serious-survivor Issue numbers created/updated, or `none`;
@@ -127,7 +131,7 @@ Compact format:
 
 These counts are **observability only**. They are not quotas, scores, history tables, success targets or minimums. A run with many screened candidates and zero survivors may be healthy; a low-coverage run is not automatically wrong, but its limited search effort must be visible.
 
-A zero-survivor run is healthy only after meaningful variation in source, employer and role-keyword lanes in **both** SG and CN. If a source is blocked or weak, try another useful lane in that market before concluding the market is sparse when practical.
+For Singapore, zero survivors from the maintainer's gap search can be healthy when the FreeHire worker/intake is current and the gap lanes were meaningfully varied; the maintainer does not need to reproduce the entire SG market every window. For Mainland China, a zero-survivor run is healthy only after meaningful variation in source, employer and role-keyword lanes. If a source is blocked or weak, try another useful lane in that market before concluding the market is sparse when practical.
 
 Do not put raw rejected candidates, long search logs, dashboards, scores or duplicated policy in `DISCOVERY_STATE.md`.
 
@@ -143,7 +147,7 @@ Use a wide top-of-funnel and strict promotion gate:
 
 ### Stage 1 — broad discovery
 
-Search broadly across employers and role families before spending expensive verification effort.
+Search broadly across employers and role families before spending expensive verification effort. In Singapore, broadness is primarily supplied by the dedicated FreeHire worker; the maintainer fills coverage gaps. In Mainland China, broadness still comes primarily from native job platforms and direct employer/campus channels.
 
 Role families include:
 
@@ -178,7 +182,7 @@ Do **not** reject Web3 secondary-lane work merely because it is part-time, contr
 
 At broad-discovery stage do not stop to research salary/WLB, unknown SG sponsorship, unknown CN permit willingness, exact ATS routing, both Gmail accounts, detailed company history or networking contacts for every raw candidate.
 
-Public unauthenticated job feeds may be used as supplementary broad-discovery inputs for SG and CN. Prefer country + fresh relevant engineering-category filters when available, but treat feed-enriched seniority, freshness and classification as hints rather than employer truth. Do not strengthen ambiguous feed metadata into a hard rejection unless the employer-controlled JD supports it. Routine FreeHire ingestion is the dedicated lane above and must not also be repeated by normal scheduled discovery.
+Public unauthenticated job feeds may be used as broad-discovery inputs. FreeHire is the primary aggregated broad-discovery input for Singapore and a supplementary input for Mainland China. Treat feed-enriched seniority, freshness and classification as hints rather than employer truth. Do not strengthen ambiguous feed metadata into a hard rejection unless the employer-controlled JD supports it. Routine FreeHire ingestion is the dedicated lane above and must not also be repeated by normal scheduled discovery.
 
 Raw discovery candidates do not become GitHub Issues.
 
@@ -215,15 +219,13 @@ Do not run expensive mailbox-wide dedupe for raw candidates.
 
 ## Singapore — primary
 
-Rotate across:
+Use a **FreeHire-first, gap-search-second** strategy:
 
-1. official company careers / ATS;
-2. LinkedIn;
-3. JobStreet;
-4. Indeed;
-5. other public unauthenticated job feeds when useful, excluding routine FreeHire ingestion owned by `FreeHire Intake`;
-6. selected credible startup / product-company sources;
-7. selective secondary feeds such as DeJob / Telegram as discovery inputs only.
+1. dedicated FreeHire worker/intake for broad current-market radar;
+2. official company careers / ATS for direct-employer gaps, fresh-graduate pages and exact verification;
+3. LinkedIn, JobStreet and Indeed only for targeted gaps, unusual strong leads, or when FreeHire coverage is stale/weak—not as a routine full duplicate sweep;
+4. selected credible startup / product-company sources that are poorly represented in aggregated feeds;
+5. selective secondary feeds such as DeJob / Telegram as discovery inputs only.
 
 MyCareersFuture is evidence-only for this candidate. If the only verified route is MCF, block/close the role unless a separate current non-MCF exact route exists.
 
@@ -231,7 +233,7 @@ Unknown sponsorship is **not** a discovery-stage rejection. Explicit no-sponsors
 
 ## Mainland China — primary
 
-Rotate across:
+Use a **native-source-first** strategy. Rotate across:
 
 1. BOSS直聘;
 2. official company careers / campus portals / useful recruiting WeChat pages;
@@ -239,7 +241,7 @@ Rotate across:
 4. 51job / 前程无忧;
 5. 智联招聘 / 智联校园;
 6. 猎聘;
-7. other public unauthenticated job feeds when useful, excluding routine FreeHire ingestion owned by `FreeHire Intake`;
+7. FreeHire and other public unauthenticated feeds as supplementary discovery only;
 8. LinkedIn and selective DeJob / Telegram secondary feeds as discovery inputs.
 
 The candidate graduated in **2026**. Favor evidence such as `2026届`, `往届可投`, `毕业两年内`, `应届/往届`, `0-1年`, `0-3年`, `初级`, `海外留学生`, `recent graduate` or `recently completed`.
@@ -406,7 +408,7 @@ Every open opportunity Issue must have exactly one market label (`market:sg`, `m
 
 Closed intentional outcomes may keep `status:skipped` or `status:blocked`; MCF-only SG roles may also use `blocked:mcf`.
 
-Whenever state changes, update title, labels, body and next action together.
+Whenever state changes, update title, status label, body and next action together.
 
 Maintenance invariants:
 
