@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `216`
+- cursor: `218`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-10 22:34 MYT` — healthy, `first_seq=1`, `last_seq=1716`; page index matches `first_seq=1 / last_seq=1716`; no cursor gap. Backlog is 1500 events.
+- public health verified: `2026-10-11 03:31 MYT` — healthy, `first_seq=1`, `last_seq=1716`; page index matches `first_seq=1 / last_seq=1716`; no cursor gap. Backlog is 1498 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy at seq 1716. Latest page 1701–1716 was fetched, but the GitHub connector truncated the JSONL response before the full bounded fresh-head set could be safely inspected; no cursor advancement or promotion was made. Cursor remains 216 so unresolved history is preserved.`
+- last intake: `Worker/index healthy at seq 1716. Fresh head 1701–1716 inspected; ChronoAI AI Full Stack Engineer passed Stage 2 and was promoted as #202 CHECK with sponsorship as the single blocker. Sequential catch-up advanced 216→218; seq 219 remains unresolved, so no cursor jump across it.`
 
 ## Current receipt
 
