@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `213`
+- cursor: `216`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-10 09:31 MYT` — healthy, `first_seq=1`, `last_seq=1632`; page index matches `first_seq=1 / last_seq=1632`; no cursor gap. Backlog is 1419 events. The producer added seq 1630–1632 since the prior receipt, but the available GitHub connector truncated the tail of the current JSONL page before those rows, so those fresh events were not treated as inspected or terminally resolved.
+- public health verified: `2026-10-10 15:31 MYT` — healthy, `first_seq=1`, `last_seq=1635`; page index matches `first_seq=1 / last_seq=1635`; no cursor gap. Backlog is 1419 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker and index are healthy and aligned at seq 1632. Fresh seq 1630–1632 could not be safely inspected because the available GitHub connector truncated the current page before those rows; no inference was made from FreeHire metadata not actually retrieved. Sequential cursor remains 213 and no Issue/application/outreach action was performed.`
+- last intake: `Worker/index healthy at seq 1635. Fresh seq 1630–1635 inspected: 1633–1635 were obvious lane/route mismatches; 1630 was confirmed hard 5+ YOE; 1631 lacked verified exact current employer evidence; 1632 Skinlab Full-Stack is a strong fit but did not satisfy the employer-controlled freshness/route hard gate, so no Issue was created. Sequential catch-up resolved seq 214–216: 214 hard 3–5 YOE DevOps/infrastructure mismatch; 215 Kaplan Artificial Intelligence Engineer passed fit/freshness/dedupe but has one unresolved non-MCF route blocker and was promoted to CHECK #197; 216 staffing/Oracle-integration mismatch. Cursor advanced conservatively only through seq 216.`
 
 ## Current receipt
 
