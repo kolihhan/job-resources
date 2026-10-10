@@ -4,10 +4,10 @@
 
 - cursor: `216`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-10 15:31 MYT` — healthy, `first_seq=1`, `last_seq=1635`; page index matches `first_seq=1 / last_seq=1635`; no cursor gap. Backlog is 1419 events.
+- public health verified: `2026-10-10 22:34 MYT` — healthy, `first_seq=1`, `last_seq=1716`; page index matches `first_seq=1 / last_seq=1716`; no cursor gap. Backlog is 1500 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy at seq 1635. Fresh seq 1630–1635 inspected: 1633–1635 were obvious lane/route mismatches; 1630 was confirmed hard 5+ YOE; 1631 lacked verified exact current employer evidence; 1632 Skinlab Full-Stack is a strong fit but did not satisfy the employer-controlled freshness/route hard gate, so no Issue was created. Sequential catch-up resolved seq 214–216: 214 hard 3–5 YOE DevOps/infrastructure mismatch; 215 Kaplan Artificial Intelligence Engineer passed fit/freshness/dedupe but has one unresolved non-MCF route blocker and was promoted to CHECK #197; 216 staffing/Oracle-integration mismatch. Cursor advanced conservatively only through seq 216.`
+- last intake: `Worker/index healthy at seq 1716. Latest page 1701–1716 was fetched, but the GitHub connector truncated the JSONL response before the full bounded fresh-head set could be safely inspected; no cursor advancement or promotion was made. Cursor remains 216 so unresolved history is preserved.`
 
 ## Current receipt
 
