@@ -4,10 +4,10 @@
 
 - cursor: `218`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-11 17:30 MYT` — healthy, `first_seq=1`, `last_seq=1827`; page index matches `first_seq=1 / last_seq=1827`; no cursor gap. Backlog is 1609 events.
+- public health verified: `2026-10-12 00:32 MYT` — healthy, `first_seq=1`, `last_seq=1899`; page index matches `first_seq=1 / last_seq=1899`; no cursor gap. Backlog is 1681 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy at seq 1827. Feed advanced by 19 events since the prior receipt. Fresh page inspection was attempted, but the current GitHub connector truncated the JSONL response before all new seq 1809–1827 events could be safely evaluated; no promotion was made from incomplete evidence. Cursor remains 218 because seq 219 remains unresolved; no cursor jump across unresolved history.`
+- last intake: `Worker/index healthy at seq 1899. Feed advanced by 72 events since the prior receipt. Fresh-head page 1851–1899 was requested, but the current GitHub connector again truncated the JSONL response before the full page could be safely evaluated; no promotion was made from incomplete evidence. Cursor remains 218 because seq 219 remains unresolved; no cursor jump across unresolved history.`
 
 ## Current receipt
 
