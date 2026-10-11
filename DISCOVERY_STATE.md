@@ -4,10 +4,10 @@
 
 - cursor: `218`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-11 06:31 MYT` — healthy, `first_seq=1`, `last_seq=1805`; page index matches `first_seq=1 / last_seq=1805`; no cursor gap. Backlog is 1587 events.
+- public health verified: `2026-10-11 10:36 MYT` — healthy, `first_seq=1`, `last_seq=1808`; page index matches `first_seq=1 / last_seq=1808`; no cursor gap. Backlog is 1590 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy at seq 1805. Fresh head 1801–1805 inspected; 1801–1802 are stale August agency listings and 1803–1805 are MCF-only discovery routes (two also agency/recruiter listings), so none passed the promotion gate. Cursor remains 218 because seq 219 is still unresolved; no cursor jump across unresolved history.`
+- last intake: `Worker/index healthy at seq 1808. Fresh head 1806–1808 inspected: 1806 is a stale August FPT listing with a 5+ YOE hint; 1807 is a 5+ YOE Java/mobile role; 1808 is an IO Tech Solutions Java investment-bank remote-China listing and does not clear the direct-employer/fit promotion gate. No survivor promoted. Cursor remains 218 because seq 219 is still unresolved; no cursor jump across unresolved history.`
 
 ## Current receipt
 
