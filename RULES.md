@@ -303,6 +303,18 @@ Never convert part-time work, internships, projects or master's study into ficti
 
 A role must pass this gate **before** a new `CHECK` or `APPLY` Issue is created. `CHECK` is not a quarantine state for possibly stale jobs.
 
+### 30-day posting-age hard gate
+
+For Singapore and Mainland China discovery/promotion, the **exact role/requisition** must have a trustworthy role-level `published`, `posted`, `reposted`, or employer/platform `updated` date within the previous **30 calendar days** of the current run. On 2026-10-12, the cutoff is 2026-09-12. This rolling cutoff must be recalculated each run.
+
+The age date must map to the exact current role/requisition. `Crawled today`, `last seen`, recruiter activity, `Apply Now` / `立即投递`, a live candidate form, generic employer-page freshness, search-result recency, a job-alert date, or a `saved on` timestamp do **not** prove posting age.
+
+A role that is still open but older than 30 days is **not eligible for new `CHECK`/`APPLY` promotion** under the current search policy. Likewise, if exact posting/repost/update age cannot be proven within 30 days, keep the candidate raw or close/skip an existing live opportunity; do not use `CHECK` merely to resolve freshness.
+
+A fresh repost counts only when it clearly maps to the same current exact requisition or a demonstrably new requisition. An old cached page, mirror refresh, crawler timestamp or aggregator copy reappearing does not reset the age.
+
+The posting-age gate and current-liveness gate are separate and **both must pass**.
+
 An exact URL being retrievable today does **not** prove the employer is still accepting applications today.
 
 Current liveness requires at least one strong current-run role-level signal:
