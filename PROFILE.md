@@ -6,6 +6,7 @@
 - Malaysian citizen.
 - Singapore employment requires employer-supported EP or S Pass.
 - Mainland China employment requires employer-supported foreign work permit.
+- Malaysia employment does not require foreign-work-permit sponsorship for this candidate.
 - MyCareersFuture (MCF) is not a usable application channel for this candidate. An SG role that is MCF-only is blocked unless a separate verified non-MCF application route exists.
 
 ## Positioning
@@ -41,7 +42,7 @@ Applied AI is a differentiator, not a substitute for engineering quality.
 
 Credible Web3 / crypto engineering work may be considered as a secondary lane when it provides useful engineering experience, income or network value. This can include full-time, part-time, contract, remote or project-based work, especially backend/API, infrastructure, wallet/custody, exchange/trading infrastructure, developer tooling/SDK, data/indexing, or AI × Web3 engineering.
 
-This does **not** replace the main SG/CN full-time search. Detailed Web3 quality, safety, freshness and dedupe rules belong in `RULES.md`, not here.
+This does **not** replace the main MY/SG/CN engineering search. Detailed Web3 quality, safety, freshness and dedupe rules belong in `RULES.md`, not here.
 
 ## Seniority
 
@@ -69,20 +70,22 @@ Never convert master's study, projects, internships, or part-time employment int
 
 ## Search markets
 
-### Primary: Singapore + Mainland China
+### Primary practical lane: Malaysia
 
-These are the markets I most want to enter directly. Search effort should remain centered on SG/CN even while Malaysia and opportunistic Web3 work are available as secondary paths.
+Malaysia is an active first-job search market, not a fallback-only lane. Use the lack of visa friction to maximize interview throughput while still filtering for career capital.
+
+Prefer AI Engineer / Applied AI / AI Software Engineer / LLM / RAG / Agent / AI backend-platform roles. Strong normal SWE/backend/platform roles remain worthwhile when their engineering environment, mentorship and production depth are better than a weak AI-titled job.
+
+Do not spend search time verifying Malaysian sponsorship or foreign-work-permit support for this candidate. Normal role fit, liveness, company quality, dedupe and application-route checks still apply.
+
+Employers with meaningful Singapore / Mainland China / regional engineering exposure are a plus, but do not assume future internal transfer or sponsorship without evidence.
+
+### Active selective lanes: Singapore + Mainland China
+
+Keep searching Singapore and Mainland China for unusually strong, realistic opportunities rather than stopping those markets.
 
 For Singapore, sponsorship/pass feasibility is a material constraint, but unknown sponsorship is not an automatic rejection. MCF-only application routes are blocked.
 
 For Mainland China, distinguish legal work-permit plausibility from whether the employer is actually willing to sponsor a foreign fresh graduate. Shanghai's foreign STEM graduate route deserves targeted employer discovery; it is not proof of employer sponsorship.
-
-### Backup: Malaysia
-
-Malaysia is not an equal third search lane. Use it when SG/CN discovery is weak after reasonable broadening, or when an unusually strong Malaysian opportunity appears.
-
-For Malaysia, lean more toward AI Engineer / Applied AI / AI Software Engineer / LLM / RAG / Agent / AI backend-platform roles because local work authorization is not a blocker. Strong normal SWE/backend roles remain worthwhile when the engineering environment and career capital are better than a weak AI-titled job.
-
-Employers with meaningful SG/CN/regional engineering exposure may provide future optionality, but do not assume internal transfer or future sponsorship without evidence.
 
 Dated policy and market evidence is in [docs/market-facts-2026-10-01.md](docs/market-facts-2026-10-01.md). Do not assume the candidate must first accumulate two full-time years in Malaysia before trying SG/CN.
