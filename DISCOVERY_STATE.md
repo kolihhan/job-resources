@@ -11,12 +11,12 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-12 16:48 MYT`
-- SG lanes tried: `direct/aggregated sponsorship-keyword gap search across AI/SWE/backend plus current employer/ATS mirrors; routine FreeHire broad coverage was not recreated`
-- SG coverage: `5 candidates / 5 employers / 3 source families / 2 deep-verified`
-- CN lanes tried: `native/direct search across Shenzhen research/AI application, Shanghai Agent/platform, Hangzhou AI application and current 2026/2027 campus surfaces`
-- CN coverage: `7 candidates / 6 employers / 4 source families / 3 deep-verified`
-- serious-survivor Issues created/updated: `#270 深圳市大数据研究院 — 大模型研发工程师`
-- concrete filters / regressions exercised: `SG HUD Full-Stack RL remains a duplicate of existing #219 with explicit visa support; EGIS AI Engineer is already applied/#75; TALENTSIS requires hard 5+ YOE; other SG hits lacked enough new value or exact sponsor evidence. CN 米哈游 Agent role has a hard Go/C++/Rust requirement not evidenced by the current profile; 物产中大 26 AI application role requires a 2026 PhD; multiple ByteDance/杭州 hits are 2027-only. 深圳市大数据研究院 role is current, explicitly allows excellent fresh graduates despite 1–3 YOE, and the institute publicly recruits global/overseas talent; exact-role work-permit willingness remains unconfirmed, so #270 is CHECK with WORK-AUTH PROBABLE rather than CONFIRMED.`
-- concrete access/write issues: `No blocking access failure. Finalist Gmail dedupe for #270 was clean in both connected accounts. No application or outreach was performed.`
-- next rotation: `SG gap search toward direct ATS B2B SaaS/data infrastructure/industrial software and non-AI-title SOL-compatible backend/platform roles with pass-feasible compensation. CN rotate toward Shanghai non-campus AI application/backend employers with foreign/overseas hiring evidence, then Shenzhen/Hangzhou direct-employer backend/platform roles; avoid repeating 2027-only campus surfaces.`
+- completed run time: `2026-10-12 20:53 MYT`
+- SG lanes tried: `direct employer/ATS and sponsorship-keyword gap search across B2B SaaS/data infrastructure/backend/platform/SWE; routine FreeHire broad coverage was not recreated`
+- SG coverage: `5 candidates / 5 employers / 3 source families / 1 deep-verified`
+- CN lanes tried: `Shanghai AI/backend/Agent with foreign-hire evidence; direct employer/Moka surfaces; Beijing/Hangzhou Agent engineering; Shenzhen platform/AI application`
+- CN coverage: `9 candidates / 8 employers / 4 source families / 3 deep-verified`
+- serious-survivor Issues created/updated: `#279 DeepSeek — Agent Harness 研发工程师`
+- concrete filters / regressions exercised: `SG Agoda GenAI is Staff and explicitly no-sponsorship; no new SG gap candidate combined early-career fit with a realistic pass path strongly enough to promote. CN Randstad Python AI Agent is duplicate existing #144; Randstad Shenzhen AI role asks 3+ YOE plus project leadership; Huawei 2026 role is already closed; multiple current campus surfaces are 2027-only. DeepSeek official careers still lists Agent Harness; exact Moka role route is available, role is highly aligned, and Harness lead publicly stated there is no rule against hiring foreigners. Exact work-permit sponsorship remains unconfirmed, so #279 is WORK-AUTH PROBABLE, not CONFIRMED.`
+- concrete access/write issues: `No blocking access failure. Targeted DeepSeek finalist dedupe was clean in GitHub and both connected Gmail accounts. No application or outreach was performed.`
+- next rotation: `SG gap search toward industrial software/fintech/search-retrieval and graduate-friendly non-AI SWE/backend roles with explicit future-sponsorship acceptance. CN rotate toward Shanghai international product employers and direct ATS roles with explicit 外籍/外国人 evidence, then Shenzhen/Hangzhou backend/platform employers; avoid repeating DeepSeek/Randstad and 2027-only campus surfaces.`
