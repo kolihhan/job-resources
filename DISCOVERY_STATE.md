@@ -11,12 +11,12 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-12 08:46 MYT`
-- SG lanes tried: `targeted graduate/backend/direct-employer gap search plus current JobStreet gap evidence; routine FreeHire broad coverage was not recreated`
-- SG coverage: `3 candidates / 3 employers / 2 source families / 1 deep-verified`
-- CN lanes tried: `latest CN Discovery artifact endpoint attempted first but connector rejected the artifact-list endpoint; native fallback rotated across Shenzhen/Hangzhou/Shanghai Python/backend/AI-application surfaces and direct/campus evidence`
-- CN coverage: `8 candidates / 7 employers / 4 source families / 3 deep-verified`
-- serious-survivor Issues created/updated: `none`
-- concrete filters / regressions exercised: `SG Shopee 2026 graduate backend evidence explicitly prioritizes candidates with existing Singapore work rights/no visa sponsorship; other SG gap hits were senior/consulting-style or lacked a sufficiently strong exact current employer route. CN Randstad Shenzhen Agent roles require 3+ years and technical leadership; several 2026 graduate roles are already closed. Shanghai东方芯港 application/AI roles are strong technical fits, but the current 2027 campus campaign explicitly limits graduation to 2026-10 through 2027-12, which does not safely establish cohort eligibility for this candidate, so no promotion.`
-- concrete access/write issues: `CN Discovery artifact listing remains unavailable through the current GitHub connector, so native-source fallback was used. Both Gmail accounts were checked with a three-hour overlap: one JobStreet AI Engineer alert was DISCOVERY_NOISE and the other account had no new mail; no new HUMAN_REPLY, ACTION_REQUIRED, REJECTION_OR_CLOSURE, APPLICATION_RECEIPT requiring reconciliation, OA or interview evidence was found. FreeHire Intake task 6ac7cca721b881919e1ebf120cc777d7 was verified enabled at run start. No application or outreach was performed.`
-- next rotation: `FreeHire Intake continues its dedicated lane. SG gap search should rotate toward direct ATS B2B SaaS/data infrastructure/industrial software employers not well represented by the feed. CN should rotate toward BOSS/direct-employer Shenzhen/Hangzhou backend/platform plus Shanghai non-2027-only direct-employer AI application roles; inspect cn-raw artifact first if connector support becomes available.`
+- completed run time: `2026-10-12 16:48 MYT`
+- SG lanes tried: `direct/aggregated sponsorship-keyword gap search across AI/SWE/backend plus current employer/ATS mirrors; routine FreeHire broad coverage was not recreated`
+- SG coverage: `5 candidates / 5 employers / 3 source families / 2 deep-verified`
+- CN lanes tried: `native/direct search across Shenzhen research/AI application, Shanghai Agent/platform, Hangzhou AI application and current 2026/2027 campus surfaces`
+- CN coverage: `7 candidates / 6 employers / 4 source families / 3 deep-verified`
+- serious-survivor Issues created/updated: `#270 深圳市大数据研究院 — 大模型研发工程师`
+- concrete filters / regressions exercised: `SG HUD Full-Stack RL remains a duplicate of existing #219 with explicit visa support; EGIS AI Engineer is already applied/#75; TALENTSIS requires hard 5+ YOE; other SG hits lacked enough new value or exact sponsor evidence. CN 米哈游 Agent role has a hard Go/C++/Rust requirement not evidenced by the current profile; 物产中大 26 AI application role requires a 2026 PhD; multiple ByteDance/杭州 hits are 2027-only. 深圳市大数据研究院 role is current, explicitly allows excellent fresh graduates despite 1–3 YOE, and the institute publicly recruits global/overseas talent; exact-role work-permit willingness remains unconfirmed, so #270 is CHECK with WORK-AUTH PROBABLE rather than CONFIRMED.`
+- concrete access/write issues: `No blocking access failure. Finalist Gmail dedupe for #270 was clean in both connected accounts. No application or outreach was performed.`
+- next rotation: `SG gap search toward direct ATS B2B SaaS/data infrastructure/industrial software and non-AI-title SOL-compatible backend/platform roles with pass-feasible compensation. CN rotate toward Shanghai non-campus AI application/backend employers with foreign/overseas hiring evidence, then Shenzhen/Hangzhou direct-employer backend/platform roles; avoid repeating 2027-only campus surfaces.`
