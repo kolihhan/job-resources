@@ -11,13 +11,13 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-13 ~14:47 MYT`
-- run type: `bounded SG gap + CN native/direct discovery; ML systems/inference/evaluation rotation; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
-- material change: `Created and read-back verified CHECK #291 Apple — Machine Learning Engineer, Strategic Data Solutions (Singapore). No APPLY promotion and no external application/contact.`
-- SG lanes: `ML systems/evaluation/data-science engineering gap search plus Apple/direct-employer surfaces. Apple role 200659354-3278 survived: exact employer listing dated 2026-10-07 and live, with 3 years practical experience explicitly allowing work, independent projects or academic research. Other Apple AI results were manager/senior or non-engineering. No final signed-in candidate form was verified, so CHECK only.`
-- CN lanes: `ML systems/inference/evaluation native/direct search across Tencent, Huawei, MiniMax, Meituan and Shenzhen AI-infra surfaces. Huawei 2026 AI Infra and MiniMax 2026 ML-systems campus listings are marked ended; Tencent current infra roles were mostly hard 3+ YOE or already overlap an unresolved active Tencent application; Meituan inference role was internship/stale. No CN survivor promoted.`
-- SG coverage: `6 candidates / 4 employers / 3 source families / 1 deep-verified`
-- CN coverage: `9 candidates / 6 employers / 5 source families / 2 deep-verified`
-- survivor: `#291 Apple Machine Learning Engineer, Strategic Data Solutions — Singapore. TECHNICAL FUNNEL = DISCOVERY/CHECK. WORK-AUTH FUNNEL = PROBABLE at employer level only: Apple has Singapore immigration/global-mobility infrastructure, but no exact-role EP/S Pass commitment was verified and nationality/work-auth need has not been disclosed. GitHub exact role and Apple+role-family dedupe were clean; both Gmail accounts had no exact role-number receipt.`
-- external side effects: `No application, recruiter message, employer contact or sponsorship inquiry sent. GitHub write: CHECK #291 plus this receipt.`
-- next rotation: `Move away from ML-systems-first toward search/retrieval or backend/SWE. Prefer new employers, explicit SG sponsorship / CN foreign-work-permit evidence, and avoid repeating Apple/Tencent/Microsoft unless materially stronger new evidence appears.`
+- completed run time: `2026-10-13 ~15:45 MYT`
+- run type: `bounded SG gap + CN native/direct discovery; search/retrieval + backend/SWE rotation; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
+- material change: `none — no genuinely useful survivor met the full promotion gates; no Issue created or updated.`
+- SG lanes: `Search/retrieval and backend/SWE gap search across direct/ATS-targeted web, LinkedIn and graduate-role surfaces. Shopee Backend Engineer, Search (2026 Graduate) was technically excellent (distributed indexing/query processing, RAG, Agentic Search; Python/Go/C++) but the surfaced exact-role evidence did not prove a <=30-day employer-controlled posting/update date or a verified final non-MCF candidate route, so it was not promoted. ByteDance search graduate results were either closed or PhD-specific; NUS AI Agent role was closed; Singtel result was senior.`
+- CN lanes: `Native/direct search across 牛客, 智联, 51job and employer/campus surfaces for search/retrieval/backend/SWE. Huawei and ByteDance 2026 backend/AI/search listings surfaced by native boards were explicitly marked ended despite crawler recency. Ctrip search/NLP internship listings were ended; current-looking Ctrip 2026 full-time LLM result was algorithm/model-heavy and its native page was marked ended, so no promotion. Generic 51job/Zhaopin category pages lacked exact-role freshness/route proof.`
+- SG coverage: `5 candidates / 4 employers / 3 source families / 1 deep-verified`
+- CN coverage: `8 candidates / 5 employers / 4 source families / 1 deep-verified`
+- survivor: `none`
+- external side effects: `No application, recruiter message, employer contact or sponsorship inquiry sent. GitHub write: this receipt only.`
+- next rotation: `Move away from search/retrieval-first toward backend/SWE or data-platform/platform systems, prioritizing new employers and explicit SG sponsorship / CN foreign-work-permit evidence; do not repeat Shopee unless an employer-controlled fresh exact route/date becomes verifiable.`
