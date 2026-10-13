@@ -11,14 +11,14 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-14 ~04:40 MYT`
-- run type: `bounded SG/CN discovery — rotated to platform/infra/systems + ML systems/AI infra/inference/evaluation; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
-- SG gap lanes tried: `direct employer/ATS platform/ML-platform search, inference/AI-infra gap search, sponsorship-oriented systems search`
-- CN native/direct lanes tried: `Shanghai AI-infra/platform native search, Tencent direct careers, foreign-work-permit-oriented platform discovery`
-- SG coverage: `8 candidates / 7 employers / 3 source families / 0 deep-verified`
-- CN coverage: `7 candidates / 6 employers / 3 source families / 0 deep-verified`
+- completed run time: `2026-10-14 ~06:40 MYT`
+- run type: `bounded SG/CN discovery — rotated to data platform + search/retrieval; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
+- SG gap lanes tried: `direct/employer-oriented search/retrieval and data-platform gap search; sponsorship-oriented retrieval/platform search; current aggregator evidence used only for cheap screening`
+- CN native/direct lanes tried: `牛客 Shanghai search/retrieval/data-platform; direct/international-employer search; Shanghai foreign-work-permit-oriented discovery`
+- SG coverage: `6 candidates / 5 employers / 3 source families / 0 deep-verified`
+- CN coverage: `8 candidates / 6 employers / 3 source families / 0 deep-verified`
 - serious survivors: `none`
-- notable rejects/dedupes: `SG: Together AI FDE is explicit Singapore citizen/PR plus 5+ YOE; Clera Platform Engineer had strong visa/relocation evidence but exact listing closed Sep 19 and was not reopened from mirrors; CoreWeave inference result is Staff/8–12+ YOE; Airwallex current ML platform/infra roles are Senior/Lead or hard 5–6+ YOE. ByteDance Production Engineer / Applied ML Engine surfaced with a fresh 2026-10-02 mirror and junior-associate metadata, but no exact employer-controlled current role/application route was verified in this run and work-auth remained UNKNOWN, so freshness/route hard gates were not met. CN: Huawei AI Infra native listings are explicitly 2027 cohort and incompatible with a 2026 graduate; Tencent current platform/AI roles surfaced hard 3+ or 5+ YOE requirements; other Shanghai systems/inference results were stale or lacked employer-controlled <=30d freshness plus employer-level foreign-work-permit evidence and an exact usable route.`
+- notable rejects/dedupes: `SG: Momcozy current data-platform roles are Staff/Senior with hard 5–8+ YOE and explicit no-sponsorship; HUD platform result is Senior and its Sep 17 exact-role date is outside the <=30d gate by this run; other search/retrieval results lacked an employer-controlled <=30d exact role plus usable route/work-auth evidence. CN: Ctrip 2026 search/recommendation roles are explicitly ended; current Eagle Big Data is a 2027-graduate cohort (Sep 2026–Aug 2027 graduation) and not safely compatible with this 2026 graduate profile; Shopee current search role is 2027 cohort while 2026 data/ML roles are ended; Tuhu 2026 search/platform roles are ended; current PDD search roles surfaced as 3–5 YOE; Randstad Shanghai data/LLM roles had exact dates older than 30 days. Shanghai foreign-work-permit policy establishes legal pathways only and was not treated as employer willingness.`
 - Gmail finalist dedupe: `not run; no new candidate survived cheap freshness/cohort/fit/work-auth/route screening far enough to justify mailbox lookup.`
 - external side effects: `No application, recruiter message, employer contact or sponsorship inquiry sent. No opportunity Issue created or mutated. Discovery receipt updated only.`
-- next rotation: `data platform + search/retrieval. SG: fresh <=30d direct ATS search/data-platform/retrieval roles with 0–3 YOE/equivalent-experience and credible pass/relocation evidence. CN: fresh <=30d native/direct search/retrieval/data-platform roles at international or foreign-hiring-capable employers, avoiding 2027-only cohorts and requiring employer-level work-permit evidence before strong promotion.`
+- next rotation: `SWE/SDE + backend. SG: fresh <=30d direct ATS junior/equivalent-experience backend/SDE roles with credible pass/relocation evidence, focusing product/B2B/fintech employers not recently covered. CN: fresh <=30d native/direct backend/SDE roles at international or demonstrably foreign-hiring-capable employers; avoid 2027-only cohorts and require employer-level permit evidence for strong promotion.`
