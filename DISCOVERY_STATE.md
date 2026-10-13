@@ -11,14 +11,14 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-13 ~21:45 MYT`
-- run type: `bounded SG/CN discovery — rotated from backend-first toward ML systems/evaluation + early-career product SWE; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
-- SG gap lanes tried: `direct/current employer-role search plus LinkedIn/Indeed gap evidence for ML systems/evaluation, software/backend and graduate roles; sponsor-specific discovery used only as a lead, not as automatic proof`
-- CN native/direct lanes tried: `Shanghai/Hangzhou/Shenzhen early-career SWE/ML systems with foreign-hire/work-visa terms; international-employer/direct-role searches plus current CN job surfaces`
-- SG coverage: `9 candidates / 8 employers / 4 source families / 2 deep-verified`
-- CN coverage: `8 candidates / 7 employers / 4 source families / 2 deep-verified`
-- serious survivors: `#296 MSD Specialist, Machine Learning Engineer (Singapore) — 2+ relevant years, Python/GenAI/agentic evaluation overlap; role-level mirrored data explicitly says VISA Sponsorship: Yes, so WORK-AUTH PROBABLE, but final employer-controlled candidate route was not independently opened and responsible-AI/governance is a real fit gap; kept CHECK.`
-- notable rejects/dedupes: `SAP Associate AI Developer 447781 is an exact prior rejection (#115), so not reopened despite current live listing. SG senior/5+ roles and explicit no-sponsorship roles rejected. CN Cadence Shanghai 0–3 YOE systems role had attractive employer-level visa evidence but exact role date 2026-09-06 violates <=30d freshness. WeRide 2026 new-grad roles remain live but original posting dates are June and therefore fail the current freshness gate. Microsoft senior/principal results rejected on seniority; Booking.com 30347 is already tracked (#289).`
-- Gmail finalist dedupe: `Both connected accounts searched for MSD/Merck + Specialist/Machine Learning Engineer; no exact application history found.`
-- external side effects: `No application, recruiter message, employer contact or sponsorship inquiry sent. GitHub writes only: created/read-back #296 CHECK and updated/read-back this discovery receipt.`
-- next rotation: `search/retrieval + data-platform lane. SG: direct employer ATS and smaller product/data/search employers with 0–3 YOE/equivalent wording and explicit work-pass support where possible. CN: fresh <=30d Shanghai/Hangzhou/Shenzhen search/retrieval/data-platform roles at international/direct employers with explicit foreign-candidate/work-permit evidence; avoid repeating Microsoft/Booking/WeRide unless a materially new requisition appears.`
+- completed run time: `2026-10-13 ~23:55 MYT`
+- run type: `bounded SG/CN discovery — rotated to search/retrieval + data-platform; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
+- SG gap lanes tried: `direct employer/ATS and current web gap search for search/retrieval, data-platform and backend/platform roles; explicit sponsorship terms checked before deep verification`
+- CN native/direct lanes tried: `current Shanghai/Hangzhou/Beijing search/recommendation, data-platform and platform-development roles via native/campus/direct discovery; foreign-candidate/work-permit terms included in discovery`
+- SG coverage: `8 candidates / 7 employers / 4 source families / 1 deep-verified`
+- CN coverage: `9 candidates / 7 employers / 4 source families / 1 deep-verified`
+- serious survivors: `none`
+- notable rejects/dedupes: `Exa Research Engineer, Generalist has excellent explicit Singapore visa sponsorship and strong retrieval fit, but the exact role is about 8 months old, so it fails the <=30d freshness hard gate despite remaining open. Salesforce Forward Deployed Engineer JR349138 is current but senior/lead-shaped with 5+ years in current mirrored evidence and substantial Salesforce-specific depth. OKX data-platform roles explicitly prioritize current Singapore work rights/no sponsorship. Singtel AI Solutions Engineer is closed. CN Huawei/Tuhu/Xiaomi 2026 cohort search/platform roles are closed/stale; Huawei/JD current campus roles target 2027 cohorts and are incompatible; Alibaba search/recommendation listings surfaced without sufficiently fresh exact-role evidence and no employer willingness for a foreign fresh graduate was established.`
+- Gmail finalist dedupe: `not run; no candidate survived freshness/cohort/fit/work-auth screening far enough to justify mailbox lookup`
+- external side effects: `No application, recruiter message, employer contact or sponsorship inquiry sent. No opportunity Issue created or mutated. Discovery receipt updated only.`
+- next rotation: `SWE/SDE + backend lane. SG: direct employer ATS and smaller/mid-size product employers with 0–3 YOE/equivalent wording and explicit work-pass support where possible. CN: fresh <=30d direct/native SWE/backend roles, especially international employers or Shanghai employers with concrete foreign-hire/work-permit evidence; avoid 2027-only campus cohorts.`
