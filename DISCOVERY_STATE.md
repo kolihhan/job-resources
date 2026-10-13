@@ -11,13 +11,13 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-13 ~15:45 MYT`
-- run type: `bounded SG gap + CN native/direct discovery; search/retrieval + backend/SWE rotation; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
-- material change: `none — no genuinely useful survivor met the full promotion gates; no Issue created or updated.`
-- SG lanes: `Search/retrieval and backend/SWE gap search across direct/ATS-targeted web, LinkedIn and graduate-role surfaces. Shopee Backend Engineer, Search (2026 Graduate) was technically excellent (distributed indexing/query processing, RAG, Agentic Search; Python/Go/C++) but the surfaced exact-role evidence did not prove a <=30-day employer-controlled posting/update date or a verified final non-MCF candidate route, so it was not promoted. ByteDance search graduate results were either closed or PhD-specific; NUS AI Agent role was closed; Singtel result was senior.`
-- CN lanes: `Native/direct search across 牛客, 智联, 51job and employer/campus surfaces for search/retrieval/backend/SWE. Huawei and ByteDance 2026 backend/AI/search listings surfaced by native boards were explicitly marked ended despite crawler recency. Ctrip search/NLP internship listings were ended; current-looking Ctrip 2026 full-time LLM result was algorithm/model-heavy and its native page was marked ended, so no promotion. Generic 51job/Zhaopin category pages lacked exact-role freshness/route proof.`
-- SG coverage: `5 candidates / 4 employers / 3 source families / 1 deep-verified`
-- CN coverage: `8 candidates / 5 employers / 4 source families / 1 deep-verified`
+- completed run time: `2026-10-13 ~16:47 MYT`
+- run type: `bounded SG gap + CN native/direct discovery; backend/SWE + platform/data-infra rotation; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
+- material change: `none — no genuinely useful survivor met the full promotion gates; no opportunity Issue created or updated.`
+- SG lanes: `Backend/SWE and platform/data-infra gap search across direct employer/ATS, LinkedIn/Indeed gap surfaces and sponsorship-keyword probes. Garena Engineer, Backend Engineering is a strong 2-year stretch on the current official careers site (Go/Python/SQL, APIs, reliability, AI integration), but the official exact-role page exposes no role-specific <=30-day posted/updated date; LinkedIn copies are old/closed, so freshness is UNPROVEN and it was not promoted. Shopee data-infra result was closed and explicitly prioritized candidates not requiring visa sponsorship. First Circle surfaced as 4-5 YOE/mid-senior and was rejected.`
+- CN lanes: `Native/direct backend/SWE and platform search across 牛客, 51job, 智联 plus foreign-candidate/work-permit keyword probes. Huawei/ByteDance/众安 2026 backend results were explicitly marked ended despite current crawling. 中城交 Shanghai backend/AI role looked technically strong (FastAPI, asyncio, RAG/Agent/vector DB), but the native listing was marked ended and the employer's own current careers page requires 3+ backend YOE, so it was rejected rather than promoted from stale board evidence. 上海森瑶 had a technically close 2026-grad Agent/FastAPI role but only a generic native-board route and no credible foreign-work-permit evidence; insufficient value for speculative promotion.`
+- SG coverage: `6 candidates / 5 employers / 3 source families / 1 deep-verified`
+- CN coverage: `9 candidates / 7 employers / 4 source families / 2 deep-verified`
 - survivor: `none`
 - external side effects: `No application, recruiter message, employer contact or sponsorship inquiry sent. GitHub write: this receipt only.`
-- next rotation: `Move away from search/retrieval-first toward backend/SWE or data-platform/platform systems, prioritizing new employers and explicit SG sponsorship / CN foreign-work-permit evidence; do not repeat Shopee unless an employer-controlled fresh exact route/date becomes verifiable.`
+- next rotation: `Move away from backend/SWE-first toward platform/infra/systems or ML-systems/AI-infra/evaluation; prioritize SG exact-role pages with role-specific <=30d dates plus sponsorship-compatible evidence, and CN direct employers with explicit foreign-candidate/work-permit infrastructure. Do not repeat Garena unless exact-role freshness becomes provable.`
