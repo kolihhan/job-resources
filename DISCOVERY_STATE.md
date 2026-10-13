@@ -11,14 +11,14 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-14 ~06:40 MYT`
-- run type: `bounded SG/CN discovery — rotated to data platform + search/retrieval; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
-- SG gap lanes tried: `direct/employer-oriented search/retrieval and data-platform gap search; sponsorship-oriented retrieval/platform search; current aggregator evidence used only for cheap screening`
-- CN native/direct lanes tried: `牛客 Shanghai search/retrieval/data-platform; direct/international-employer search; Shanghai foreign-work-permit-oriented discovery`
-- SG coverage: `6 candidates / 5 employers / 3 source families / 0 deep-verified`
-- CN coverage: `8 candidates / 6 employers / 3 source families / 0 deep-verified`
-- serious survivors: `none`
-- notable rejects/dedupes: `SG: Momcozy current data-platform roles are Staff/Senior with hard 5–8+ YOE and explicit no-sponsorship; HUD platform result is Senior and its Sep 17 exact-role date is outside the <=30d gate by this run; other search/retrieval results lacked an employer-controlled <=30d exact role plus usable route/work-auth evidence. CN: Ctrip 2026 search/recommendation roles are explicitly ended; current Eagle Big Data is a 2027-graduate cohort (Sep 2026–Aug 2027 graduation) and not safely compatible with this 2026 graduate profile; Shopee current search role is 2027 cohort while 2026 data/ML roles are ended; Tuhu 2026 search/platform roles are ended; current PDD search roles surfaced as 3–5 YOE; Randstad Shanghai data/LLM roles had exact dates older than 30 days. Shanghai foreign-work-permit policy establishes legal pathways only and was not treated as employer willingness.`
-- Gmail finalist dedupe: `not run; no new candidate survived cheap freshness/cohort/fit/work-auth/route screening far enough to justify mailbox lookup.`
-- external side effects: `No application, recruiter message, employer contact or sponsorship inquiry sent. No opportunity Issue created or mutated. Discovery receipt updated only.`
-- next rotation: `SWE/SDE + backend. SG: fresh <=30d direct ATS junior/equivalent-experience backend/SDE roles with credible pass/relocation evidence, focusing product/B2B/fintech employers not recently covered. CN: fresh <=30d native/direct backend/SDE roles at international or demonstrably foreign-hiring-capable employers; avoid 2027-only cohorts and require employer-level permit evidence for strong promotion.`
+- completed run time: `2026-10-14 ~07:50 MYT`
+- run type: `bounded SG/CN discovery — rotated to SWE/SDE + backend; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
+- SG gap lanes tried: `direct/employer SWE/backend gap search; sponsorship-oriented Indeed/JobStreet gap search; Google current early-career SWE family checked directly`
+- CN native/direct lanes tried: `direct international-employer backend/SDE search; 2026 campus/new-grad discovery; Shanghai foreign-hire plausibility follow-up`
+- SG coverage: `9 candidates / 8 employers / 3 source families / 0 deep-verified`
+- CN coverage: `5 candidates / 4 employers / 3 source families / 1 deep-verified`
+- serious survivors: `#302 WeRide — New Grads 2026 Algorithm Software Engineer (CHECK)`
+- notable rejects/dedupes: `SG: current Google early-career SWE roles (Wallet Multimodal Intelligence, Ads, Content Safety and Payments/Growth) explicitly prioritize candidates with current Singapore work rights who do not require visa sponsorship, so they are BLOCKED despite strong technical fit; Klook/Shopee graduate results likewise state no-sponsorship preference or incompatible 2027 cohort; recruiter/bodyshop and hard-senior backend results were rejected cheaply. CN: Xsolla Shanghai backend openings are Senior/Middle-Senior; Randstad LLM backend role is dated 2026-09-03 and fails <=30d. WeRide exact 2026 new-grad Lever role is live and directly usable, but the exact page exposes no role-specific posted/updated date, so freshness remains UNPROVEN and it stays CHECK; employer-specific foreign-work-permit willingness is also UNKNOWN.`
+- Gmail finalist dedupe: `not run; #302 remains CHECK because freshness/work-auth are unresolved and GitHub exact-role dedupe found no prior Issue.`
+- external side effects: `Created #302 CHECK and read it back. No application, recruiter message, employer contact or sponsorship inquiry sent.`
+- next rotation: `platform/infra/systems + ML systems/AI infra. SG: direct ATS roles outside Google/Shopee/Klook with explicit pass/relocation evidence or credible sponsorship-compatible forms. CN: native/direct platform/infra/ML-systems roles at international or demonstrably foreign-hiring-capable employers; prioritize exact employer dates <=30d and foreign-graduate/work-permit evidence.`
