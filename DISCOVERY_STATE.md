@@ -11,16 +11,15 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-14 ~10:41 MYT`; policy/state reconciliation completed `~12:02 MYT`
-- run type: `bounded SG/CN discovery — rotated to data platform + search/retrieval`
-- policy note: `The original run used the then-carried <=30d/sponsorship-heavy interpretation. Current RULES supersede that interpretation: freshness is a ranking signal, UNKNOWN SG/CN work-auth may reach APPLY, and exact-ID GitHub + both-Gmail dedupe is required before CHECK/APPLY promotion.`
-- SG gap lanes tried: `direct/employer and Greenhouse data-platform/search-retrieval gap search; current Singapore data-engineering listings; sponsorship-oriented gap search outside recently saturated employers`
-- CN native/direct lanes tried: `牛客 search/recommendation/data-platform; Shanghai 2026/2027 campus and direct-employer data-platform/search lanes; international-employer Shanghai data-engineering search`
-- SG coverage: `9 candidates / 8 employers / 4 source families / 2 deep-verified`
-- CN coverage: `8 candidates / 6 employers / 4 source families / 0 deep-verified`
-- serious survivors: `none`
-- notable rejects/dedupes: `SG: Workato Analytics Engineer required 2+ years specifically in analytics engineering/data warehousing plus expert dbt and modern cloud-warehouse experience, a material fit gap. Nscale Forward Deployed Data Engineer required deep hands-on Palantir Foundry/ontology/pipeline experience and asked about existing work rights; it was too specialized/speculative for promotion. Thales data platform was hard 5+ YOE; OCBC data/AI platform was closed; KPMG KDB+ was experienced-hire/manager-track. CN: current search/data-platform results were dominated by incompatible 2027 cohorts or ended roles. No compatible 2026 early-career survivor was promoted in that run.`
-- Gmail finalist dedupe: `not run in the 10:41 discovery because no candidate survived that run's final gate. Subsequent audit found prior exact-ID dedupe false-negatives on Intel #298 and WeRide #302; both were corrected to WAIT, and current RULES now require exact-ID GitHub + both-Gmail dedupe before CHECK/APPLY promotion.`
-- reconciliation: `hard-3+ routine stretches #300, #294, #289, #286 and #265 were closed/deprioritized after preference recalibration; #291 and #295 were rewritten so UNKNOWN sponsorship is not a CHECK blocker.`
-- external side effects: `No application, recruiter message, employer contact or sponsorship inquiry sent during discovery or reconciliation.`
-- next rotation: `SWE/SDE + backend. SG: direct ATS/employer graduate/0–3 YOE backend/SWE and strong product engineering gaps; treat work-auth CONFIRMED/PROBABLE as prioritization bonuses and UNKNOWN as allowed. CN: native/direct 2026-compatible graduate/0–3 YOE backend/SWE, including international employers; reject incompatible cohorts and hard seniority rather than waiting for public permit wording.`
+- completed run time: `2026-10-14 ~12:46 MYT`
+- run type: `scheduled maintenance + bounded SG-gap/CN-native discovery — SWE/SDE + backend rotation`
+- maintenance: `Both Gmail accounts checked with overlap. Closed #226 GRC Construction AI Engineer and #239 K Digitech AI FDE after new JobStreet unlikely-to-progress updates. Created #304 for Amway China 2027-campus OA due 2026-10-20 15:01 MYT; exact applied role and cohort eligibility remain unresolved. New Micron JR107801 closure had no matching live GitHub Issue. Existing user-skipped 阳光保险 assessment remained closed despite newer reminder.`
+- SG gap lanes tried: `direct employer/ATS backend/SWE; graduate/early-career gap search; targeted product/platform employers. Singtel Software Developer was technically plausible and current, but the employer Apply action redirected to the generic careers home in this verification environment, so no Issue was promoted. ByteDance 2026 graduate backend results surfaced as no longer accepting; Shopee graduate infra carried an explicit no-sponsorship/right-to-work preference.`
+- CN native/direct lanes tried: `牛客 2026 backend/SWE; direct Tencent experienced-hire search; international/large-employer backend search. Current native results were dominated by ended 2026 listings, incompatible 2027-only cohorts, or harder experienced roles; no new serious survivor.`
+- SG coverage: `6 candidates / 5 employers / 3 source families / 1 deep-verified`
+- CN coverage: `9 candidates / 7 employers / 3 source families / 0 deep-verified`
+- serious survivors: `none from discovery; lifecycle ACTION #304 created during maintenance`
+- Gmail finalist dedupe: `Singtel Software Developer exact role/job identifier checked in both Gmail accounts; no exact prior application receipt found. No other discovery candidate reached finalist promotion.`
+- access/search failures: `Singtel exact Apply action redirected to generic careers home, so final candidate route could not be verified. Several CN 牛客 listings were explicitly ended despite recent crawling and were rejected on exact listing state.`
+- external side effects: `No application, recruiter message, employer contact or assessment submission sent.`
+- next rotation: `platform/infra/systems + ML systems/AI infra/inference/evaluation. SG: direct ATS/employer gaps not well covered by FreeHire, especially early-career cloud/platform/reliability/ML-platform roles. CN: native/direct 2026-compatible platform/infrastructure/ML-systems roles; rotate away from ended 牛客 campus mirrors toward official/campus and other native sources.`
