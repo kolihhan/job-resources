@@ -11,14 +11,14 @@
 
 ## Current receipt
 
-- completed run time: `2026-10-14 ~07:50 MYT`
-- run type: `bounded SG/CN discovery — rotated to SWE/SDE + backend; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
-- SG gap lanes tried: `direct/employer SWE/backend gap search; sponsorship-oriented Indeed/JobStreet gap search; Google current early-career SWE family checked directly`
-- CN native/direct lanes tried: `direct international-employer backend/SDE search; 2026 campus/new-grad discovery; Shanghai foreign-hire plausibility follow-up`
-- SG coverage: `9 candidates / 8 employers / 3 source families / 0 deep-verified`
-- CN coverage: `5 candidates / 4 employers / 3 source families / 1 deep-verified`
-- serious survivors: `#302 WeRide — New Grads 2026 Algorithm Software Engineer (CHECK)`
-- notable rejects/dedupes: `SG: current Google early-career SWE roles (Wallet Multimodal Intelligence, Ads, Content Safety and Payments/Growth) explicitly prioritize candidates with current Singapore work rights who do not require visa sponsorship, so they are BLOCKED despite strong technical fit; Klook/Shopee graduate results likewise state no-sponsorship preference or incompatible 2027 cohort; recruiter/bodyshop and hard-senior backend results were rejected cheaply. CN: Xsolla Shanghai backend openings are Senior/Middle-Senior; Randstad LLM backend role is dated 2026-09-03 and fails <=30d. WeRide exact 2026 new-grad Lever role is live and directly usable, but the exact page exposes no role-specific posted/updated date, so freshness remains UNPROVEN and it stays CHECK; employer-specific foreign-work-permit willingness is also UNKNOWN.`
-- Gmail finalist dedupe: `not run; #302 remains CHECK because freshness/work-auth are unresolved and GitHub exact-role dedupe found no prior Issue.`
-- external side effects: `Created #302 CHECK and read it back. No application, recruiter message, employer contact or sponsorship inquiry sent.`
-- next rotation: `platform/infra/systems + ML systems/AI infra. SG: direct ATS roles outside Google/Shopee/Klook with explicit pass/relocation evidence or credible sponsorship-compatible forms. CN: native/direct platform/infra/ML-systems roles at international or demonstrably foreign-hiring-capable employers; prioritize exact employer dates <=30d and foreign-graduate/work-permit evidence.`
+- completed run time: `2026-10-14 ~08:55 MYT`
+- run type: `bounded SG/CN discovery — rotated to platform/infra/systems + ML systems/AI infra; <=30d freshness, exact-route, dedupe and sponsor/work-permit precision preserved`
+- SG gap lanes tried: `direct/employer platform/data-platform/AI-infra search; sponsorship-oriented JobStreet/Indeed gap search; current Workday/ATS role follow-up`
+- CN native/direct lanes tried: `牛客/current campus AI-infra search; direct/campus Shanghai ML-systems and platform search; international-employer Shanghai infra search`
+- SG coverage: `8 candidates / 7 employers / 4 source families / 1 deep-verified`
+- CN coverage: `7 candidates / 5 employers / 4 source families / 1 deep-verified`
+- serious survivors: `none`
+- notable rejects/dedupes: `SG: Visa REF088915W Data Engineer is fresh (exact employer Workday says Posted 3 Days Ago) and technically strong across Python/SQL, data platform, RAG/vector retrieval, agents, evaluation and observability, but Visa already has active CHECK #283 for the materially stronger Applied AI role; same-employer active-CHECK rule therefore suppresses a second weaker speculative Visa pursuit. Clera platform role is closed; Google GenAI FDE explicitly prioritizes existing SG work rights/no sponsorship; ByteDance cloud-platform result likewise states no visa sponsorship; recruiter/bodyshop and senior platform results were rejected cheaply. CN: PDD AI Infra is strong technically but its published cohort requires degree obtained 2026.9–2027.8, incompatible with the candidate's 2026 graduation timing; Huawei 2026 AI software/compute roles surfaced as ended, while the live AI Infra result is 2027 cohort; Intel/SAP/AMD results were internships or expired. No CN candidate combined current <=30d role evidence, compatible cohort/full-time status, and enough foreign-work-permit/employer-willingness evidence to justify promotion.`
+- Gmail finalist dedupe: `not run; no candidate survived final promotion gate. GitHub exact req/title dedupe was run for Visa REF088915W and found no exact prior Issue, but employer saturation against active Visa #283 prevented promotion.`
+- external side effects: `No Issue created/updated; no application, recruiter message, employer contact or sponsorship inquiry sent. Receipt updated only.`
+- next rotation: `data platform + search/retrieval. SG: direct ATS/employer search outside currently saturated Visa/HUD/Clera/Plaud/UOBKH; prioritize early-career search/data/platform roles with explicit sponsorship-compatible forms or relocation/pass evidence. CN: native/direct search-retrieval/data-platform roles with compatible 2026 graduate windows; prioritize Shanghai/international employers and exact foreign-candidate/work-permit evidence.`
