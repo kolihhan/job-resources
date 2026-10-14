@@ -25,7 +25,7 @@ Do not require an `AI Engineer` title. Prefer strong software-engineering career
 
 ## First-job preference
 
-The immediate goal is interviews and offers for a suitable full-time, on-site or hybrid engineering job. Keep using the current resume and project evidence; avoid more portfolio polishing without a concrete application need or repeated relevant employer feedback.
+The immediate goal is interviews and offers for a suitable **permanent full-time** engineering job, normally on-site or hybrid. Keep using the current resume and project evidence; avoid more portfolio polishing without a concrete application need or repeated relevant employer feedback.
 
 Prioritize:
 
@@ -38,6 +38,8 @@ Prioritize:
 
 Applied AI is a differentiator, not a substitute for engineering quality.
 
+For the main SG/CN/MY first-job lane, permanent employment is preferred. Fixed-term contract, staffing/bodyshop or project-only employment should not be promoted unless the user explicitly wants that exact exception. Web3 remains a separate opportunistic lane where contract/part-time/project work can still be useful.
+
 ## Opportunistic Web3 work
 
 Credible Web3 / crypto engineering work may be considered as a secondary lane when it provides useful engineering experience, income or network value. This can include full-time, part-time, contract, remote or project-based work, especially backend/API, infrastructure, wallet/custody, exchange/trading infrastructure, developer tooling/SDK, data/indexing, or AI × Web3 engineering.
@@ -47,7 +49,8 @@ This does **not** replace the main MY/SG/CN engineering search. Detailed Web3 qu
 ## Seniority
 
 - Prefer new graduate / 0–3 years roles.
-- Selective 2–4 year stretch is acceptable when the JD is plausibly flexible.
+- A 2–4 year role may survive only as a selective stretch when the company, work and fit are unusually strong.
+- Mandatory `3+ years` is a meaningful negative signal and should not consume much deep-verification budget by default.
 - Skip Senior / Staff / Lead / Manager and hard 5+ YOE requirements unless there is an explicit graduate exception.
 
 ## Evidence I can truthfully claim
@@ -70,9 +73,17 @@ Never convert master's study, projects, internships, or part-time employment int
 
 ## Search markets
 
-### Primary practical lane: Malaysia
+### Main lanes through 2026-10-31: Singapore + Mainland China
 
-Malaysia is an active first-job search market, not a fallback-only lane. Use the lack of visa friction to maximize interview throughput while still filtering for career capital.
+Singapore and Mainland China remain the main direct-target markets through **2026-10-31**. Search both actively rather than requiring sponsorship/work-permit certainty before a role may reach APPLY.
+
+For Singapore, sponsorship/pass feasibility is material, but **unknown sponsorship is allowed**. Explicit no-sponsorship/right-to-work-only wording is a blocker. MCF-only application routes are blocked.
+
+For Mainland China, distinguish legal work-permit plausibility from employer willingness. Employer willingness may remain unknown until engagement; unknown willingness alone must not prevent an otherwise strong, live, eligible role from reaching APPLY.
+
+### Parallel safety net: Malaysia
+
+Malaysia runs in parallel as the lower-friction safety net, not as the primary lane before 2026-10-31.
 
 Prefer AI Engineer / Applied AI / AI Software Engineer / LLM / RAG / Agent / AI backend-platform roles. Strong normal SWE/backend/platform roles remain worthwhile when their engineering environment, mentorship and production depth are better than a weak AI-titled job.
 
@@ -80,12 +91,8 @@ Do not spend search time verifying Malaysian sponsorship or foreign-work-permit 
 
 Employers with meaningful Singapore / Mainland China / regional engineering exposure are a plus, but do not assume future internal transfer or sponsorship without evidence.
 
-### Active selective lanes: Singapore + Mainland China
+### Review trigger after 2026-10-31
 
-Keep searching Singapore and Mainland China for unusually strong, realistic opportunities rather than stopping those markets.
-
-For Singapore, sponsorship/pass feasibility is a material constraint, but unknown sponsorship is not an automatic rejection. MCF-only application routes are blocked.
-
-For Mainland China, distinguish legal work-permit plausibility from whether the employer is actually willing to sponsor a foreign fresh graduate. Shanghai's foreign STEM graduate route deserves targeted employer discovery; it is not proof of employer sponsorship.
+If SG/CN still show no meaningful substantive progression by the end of October — for example human recruiter screen/interview, OA followed by real next-round movement, or comparable employer engagement — reassess whether Malaysia should become the primary practical lane. Do not switch markets merely because of silence from one employer or one rejection.
 
 Dated policy and market evidence is in [docs/market-facts-2026-10-01.md](docs/market-facts-2026-10-01.md). Do not assume the candidate must first accumulate two full-time years in Malaysia before trying SG/CN.
