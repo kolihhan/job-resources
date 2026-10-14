@@ -8,8 +8,10 @@ Priority order:
 
 1. advance active employer responses, OA, interviews and recruiter conversations;
 2. create more strong **Singapore + Mainland China** opportunities;
-3. use Malaysia as a practical backup without displacing SG/CN search;
+3. run Malaysia in parallel as a practical safety net without displacing SG/CN before the current review trigger in `PROFILE.md`;
 4. opportunistically keep credible Web3 / crypto engineering work, including useful part-time, contract or remote work.
+
+For the main SG/CN/MY first-job lane, optimize for **realistic interview probability × engineering environment × work interest × company/team quality**. Prefer permanent full-time employment. Do not promote a fixed-term contract, staffing/bodyshop arrangement or project-only role in the main lane unless the user explicitly wants that exact exception. Web3 remains a separate lane where part-time/contract/project work may still be useful.
 
 Use the current resume and project evidence. Change them only for a concrete application need or repeated relevant employer feedback. Do not restart portfolio work, strategy research, application-count experiments, or another tracking system.
 
@@ -19,12 +21,12 @@ For unusually strong verified roles, selective recruiter/alumni/team contact res
 
 - GitHub Issues = current operational opportunity state.
 - Gmail = evidence for receipts, recruiter messages, OA/interviews, deadlines, rejections, and targeted dedupe.
-- `PROFILE.md` = stable candidate facts and search scope.
+- `PROFILE.md` = stable candidate facts and current market/search scope.
 - `RULES.md` = the **only detailed execution-policy source**.
 - `DISCOVERY_STATE.md` = one rolling discovery receipt/cursor only; it is **not** job state and must never become a second tracker or rulebook.
 - The old Library spreadsheet = legacy/read-only reference.
 
-Scheduler prompts and `NEXT_CHAT_PROMPT.md` must point back to this contract rather than keeping private copies of discovery, freshness or dedupe policy.
+Scheduler prompts and `NEXT_CHAT_PROMPT.md` must point back to this contract rather than keeping private copies of discovery, freshness, sponsorship or dedupe policy.
 
 Do not create a second live tracker, dashboard, database, spreadsheet mirror, scoring engine, scraper framework, knowledge graph, or agent framework.
 
@@ -33,13 +35,13 @@ Do not create a second live tracker, dashboard, database, spreadsheet mirror, sc
 Routine FreeHire ingestion is owned by the public `kolihhan/freehirefetch` worker plus the private `FreeHire Intake` scheduler.
 
 - `freehirefetch` may publish only public job data, exact machine-dedupe state and compact health metadata. It must not contain Gmail, application history, candidate profile data or other private recruiting state.
-- The public FreeHire feed is **Stage 1 discovery evidence only**. FreeHire enrichment, timestamps and classifications are hints and never satisfy freshness, employer requirements or application-route gates by themselves.
+- The public FreeHire feed is **Stage 1 discovery evidence only**. FreeHire enrichment, timestamps and classifications are hints and never satisfy employer requirements, liveness or application-route gates by themselves.
 - For **Singapore**, a healthy current FreeHire feed is the primary broad-discovery radar. The normal maintainer should not repeat a full LinkedIn / JobStreet / Indeed / generic-web sweep merely to recreate coverage that the FreeHire worker already supplied. Singapore non-FreeHire discovery should be targeted gap search: employer/source families FreeHire is not covering well, direct employer/ATS opportunities, fresh-graduate pages, smaller product/startup employers, or a concrete missing role lane.
 - For **Mainland China**, FreeHire is supplementary only. BOSS, official/campus channels, 牛客, 51job, 智联, 猎聘 and direct employer discovery remain the primary discovery surface because FreeHire coverage is materially thinner there.
 - `FreeHire Intake` uses two complementary passes when unseen backlog exists. First, inspect a bounded **fresh-head** set of recent unseen/changed events so a large historical backlog cannot delay newly opened jobs; this pass may inspect events beyond the sequential cursor but does **not** advance the cursor over unprocessed history. Then use remaining capacity to continue strict ascending cursor catch-up. GitHub/Gmail dedupe keeps the two passes idempotent.
-- The fresh-head pass must still use the normal cheap hard filter, GitHub-history dedupe and Stage 2 verification. It is not permission to weaken freshness, fit, work-authorization, Gmail-dedupe or exact-route gates.
+- The fresh-head pass must still use the normal cheap hard filter, GitHub-history dedupe and Stage 2 verification. It is not permission to weaken fit, work-authorization, dedupe, liveness or exact-route gates.
 - Cursor advancement remains conservative: advance only through the largest contiguous prefix whose events reached a stable terminal result. Seeing or promoting a newer event in the fresh-head pass does not by itself move the sequential cursor.
-- The `Job Inbox Maintainer` must not routinely rescan FreeHire. It owns lifecycle maintenance, **Singapore gap discovery**, and **Mainland-China native discovery**. Explicit interactive FreeHire probes requested by the user remain allowed.
+- The normal scheduled discovery lane must not routinely rescan FreeHire. It owns lifecycle maintenance, **Singapore gap discovery**, and **Mainland-China native discovery**. Explicit interactive FreeHire probes requested by the user remain allowed.
 - Preserve the compact `FreeHire intake cursor` section in `DISCOVERY_STATE.md` when the normal scheduled-discovery receipt is updated. The cursor is receipt state only, not a job tracker.
 - A real FreeHire cursor gap exists only when `cursor + 1 < health.first_seq`. If the worker is stale/failed or a real gap exists, stop normal FreeHire intake and report/resync deliberately rather than silently jumping ahead or inventing another scraper.
 
@@ -95,7 +97,7 @@ Before scheduled discovery, inspect the latest `DISCOVERY_STATE.md` receipt. If 
 
 A narrow interactive role lookup or probe does **not** consume the scheduled window. An explicit interactive run may count for the current window only when it intentionally completed the current Singapore gap-discovery and Mainland-China native-discovery contract and wrote a valid receipt. If a prior run was incomplete, skipped a main market, had a required write failure, or lacked a verified receipt, the window remains incomplete.
 
-**SG + CN are the main discovery markets.** Malaysia is backup. Web3 is an opportunistic secondary lane, not a replacement for SG/CN full-time search.
+**SG + CN are the main discovery markets through the current review trigger in `PROFILE.md`.** Malaysia runs as a parallel safety net. Web3 is an opportunistic secondary lane, not a replacement for SG/CN full-time search.
 
 Do not restart the whole market every run. Rotate source families, employer clusters and role keywords. Do not repeatedly search the same familiar companies when recent runs already covered them. In Singapore, use FreeHire coverage as the default broad radar and spend normal-discovery effort on gaps rather than recreating the same board coverage. In Mainland China, continue rotating native sources broadly.
 
@@ -108,8 +110,8 @@ After every scheduled discovery run, preserve any `FreeHire intake cursor` secti
 - completed run time in MYT;
 - SG **gap** source families / employer or role lanes actually tried;
 - CN native source families / employer or role lanes actually tried;
-- optional Web3 lane tried, if any;
-- compact SG/CN coverage counters, plus optional Web3 counters when that lane was searched;
+- optional MY or Web3 lane tried, if any;
+- compact SG/CN coverage counters, plus optional MY/Web3 counters when those lanes were searched;
 - serious-survivor Issue numbers created/updated, or `none`;
 - concrete access/search failures, if any;
 - next source / keyword / employer rotation.
@@ -127,7 +129,7 @@ Compact format:
 
 `CN coverage: N candidates / N employers / N source families / N deep-verified`
 
-`Web3 coverage: N candidates / N employers / N source families / N deep-verified` when used.
+Optional equivalent MY / Web3 lines when used.
 
 These counts are **observability only**. They are not quotas, scores, history tables, success targets or minimums. A run with many screened candidates and zero survivors may be healthy; a low-coverage run is not automatically wrong, but its limited search effort must be visible.
 
@@ -137,7 +139,7 @@ When an initial discovery lane yields only familiar-company duplicates or hard r
 
 Do not put raw rejected candidates, long search logs, dashboards, scores or duplicated policy in `DISCOVERY_STATE.md`.
 
-If a newly-created survivor is later invalidated in the same interactive or scheduled run—for example stale or duplicate—reconcile `DISCOVERY_STATE.md` before finishing so it no longer presents that role as live.
+If a newly-created survivor is later invalidated in the same interactive or scheduled run—for example duplicate or closed—reconcile `DISCOVERY_STATE.md` before finishing so it no longer presents that role as live.
 
 For a scheduled discovery window, the run is not fully complete until the receipt is updated and read back successfully.
 
@@ -145,7 +147,7 @@ For a scheduled discovery window, the run is not fully complete until the receip
 
 Use a wide top-of-funnel and strict promotion gate:
 
-`broad discovery → cheap hard filter → cheap dedupe → freshness proof → fit/cohort/work-auth → targeted Gmail dedupe → exact application route → Issue`
+`broad discovery → cheap hard filter → cheap GitHub dedupe → current liveness/eligibility → fit/work-auth classification → exact-ID Gmail dedupe → exact application route → Issue`
 
 ### Stage 1 — broad discovery
 
@@ -169,16 +171,19 @@ Rotate employer clusters such as fintech, enterprise software, cloud/data infras
 
 Cheap-screen only obvious hard mismatches:
 
-- wrong country for the SG/CN full-time lane;
+- wrong country for the intended lane;
 - Senior / Staff / Lead / Manager or hard 5+ YOE without a graduate exception;
 - explicit incompatible graduation/cohort window;
-- explicit citizenship / no-sponsorship blocker where relevant;
+- explicit citizenship / no-sponsorship / right-to-work-only blocker where relevant;
 - substantial hard stack/domain mismatch;
-- clearly stale/closed listing.
+- clearly closed/expired/unusable listing;
+- main-lane employment that is explicitly fixed-term contract, staffing/bodyshop or project-only when no user-approved exception applies.
 
 Only genuine hard requirements may trigger cheap rejection. Wording such as `preferred`, `plus`, `bonus`, `nice to have`, `familiarity with`, `exposure to`, `coursework`, `self-study`, `personal projects`, or `willingness to learn` is non-hard by default unless the surrounding JD clearly makes it mandatory. Preserve ambiguous wording for Stage 2 verification instead of strengthening it by inference.
 
-Unambiguous mandatory professional-experience language such as `5+ years required` or `must have production experience in X` can remain a hard blocker. A soft gap is a later fit consideration, not fabricated professional YOE.
+Mandatory `3+ years` is **not an automatic hard reject**, but it is a meaningful negative signal. Spend deep-verification budget on it only when the company, engineering environment and role fit are unusually strong. Never convert part-time/intern/project evidence into fictitious full-time YOE to satisfy the bar.
+
+Unambiguous `5+ years required`, senior-level scope, or `must have` experience far beyond the candidate remains a hard blocker unless a graduate/early-career exception is explicit.
 
 Do **not** reject Web3 secondary-lane work merely because it is part-time, contract, remote or project-based.
 
@@ -206,20 +211,29 @@ This is not a company blacklist. A same-company role may continue when it is mat
 
 For candidates that survive the cheap screen and early dedupe, verify:
 
-1. exact/full JD and current liveness under the freshness gate;
-2. graduation/cohort, seniority and hard requirements;
-3. candidate fit, any material work-authorization blocker, and employer realism for an early-career foreign hire;
-4. targeted Gmail dedupe in both accounts by company/role/req;
+1. exact/full JD and current role-level liveness;
+2. graduation/cohort, seniority, employment type and hard requirements;
+3. candidate fit and work-authorization classification;
+4. targeted Gmail dedupe in **both accounts** by exact requisition/job ID when one exists, then company/title terms as needed;
 5. ATS/candidate history only when materially available;
 6. exact usable application route.
 
-For **Singapore and Mainland China**, employer realism is a prioritization signal, not a new hard filter or score. When otherwise suitable roles compete for deeper verification or Issue promotion, prefer evidence that the employer can and may hire an early-career foreign candidate: explicit sponsorship/work-permit support, prior foreign hiring, international/regional operations, graduate or `0-3 YOE` hiring, mature HR, or pass-compatible compensation where known. Company size is only a weak proxy: medium/large international employers are a useful default preference when evidence is otherwise equal, but do not reject strong startups or mega-company graduate roles solely because of size. Unknown willingness is not a rejection; explicit no-sponsorship remains a blocker.
+**Exact-ID dedupe invariant:** before creating or promoting any `CHECK` or `APPLY` when a requisition/job ID exists, search that exact ID in GitHub and both Gmail accounts. An exact employer receipt or user-confirmed prior application makes the role `WAIT`, not a new opportunity. Do not skip Gmail exact-ID dedupe merely because the candidate is still under verification.
 
-For aggregator-discovered survivors, prefer the employer-controlled official role page or public ATS posting/API for the exact requisition when available. Aggregator/feed data by itself never satisfies the freshness or application-route hard gates; an ATS source counts only when it maps to the exact role and meets the same current-run liveness/route requirements below.
+For **Singapore and Mainland China**, employer realism is a prioritization signal, not a hard filter or score. When otherwise suitable roles compete for deeper verification, prefer evidence that the employer can and may hire an early-career foreign candidate: explicit sponsorship/work-permit support, prior foreign hiring, international/regional operations, graduate or `0-3 YOE` hiring, mature HR, or pass-compatible compensation where known. Company size is only a weak proxy.
+
+Work-auth values:
+
+- `CONFIRMED` = current employer/role evidence supports the needed pass/work-permit path;
+- `PROBABLE` = meaningful employer evidence makes support credible but not confirmed for this exact candidate;
+- `UNKNOWN` = no reliable yes/no evidence yet;
+- `BLOCKED` = explicit no-sponsorship/right-to-work/citizenship constraint or another confirmed legal/employer blocker.
+
+**UNKNOWN is allowed to reach APPLY.** Explicit `BLOCKED` is not. Legal eligibility alone does not imply employer willingness, but lack of public sponsorship wording is not a reason by itself to keep a strong role in CHECK.
+
+For aggregator-discovered survivors, prefer the employer-controlled official role page or public ATS posting/API for the exact requisition when available. Aggregator/feed data by itself never satisfies current liveness or the exact application-route gate.
 
 Only serious survivors reach GitHub Issues.
-
-Do not run expensive mailbox-wide dedupe for raw candidates.
 
 ## Singapore — primary
 
@@ -227,13 +241,13 @@ Use a **FreeHire-first, gap-search-second** strategy:
 
 1. dedicated FreeHire worker/intake for broad current-market radar;
 2. official company careers / ATS for direct-employer gaps, fresh-graduate pages and exact verification;
-3. LinkedIn, JobStreet and Indeed only for targeted gaps, unusual strong leads, or when FreeHire coverage is stale/weak—not as a routine full duplicate sweep;
+3. LinkedIn, JobStreet and Indeed only for targeted gaps, unusually strong leads, or when FreeHire coverage is stale/weak—not as a routine duplicate sweep;
 4. selected credible startup / product-company sources that are poorly represented in aggregated feeds;
 5. selective secondary feeds such as DeJob / Telegram as discovery inputs only.
 
 MyCareersFuture is evidence-only for this candidate. If the only verified route is MCF, block/close the role unless a separate current non-MCF exact route exists.
 
-Unknown sponsorship is **not** a discovery-stage rejection. Explicit no-sponsorship is.
+Unknown sponsorship is **not** a rejection and may remain `UNKNOWN` at APPLY. Explicit no-sponsorship/right-to-work-only is a blocker.
 
 ## Mainland China — primary
 
@@ -252,19 +266,17 @@ The candidate graduated in **2026**. Favor evidence such as `2026届`, `往届�
 
 Clearly 2027-only roles are normally filtered unless official wording explicitly includes a 2026 graduate or applicable overseas-graduate window.
 
-Do not equate legal foreign-work-permit possibility with employer willingness to hire a foreign fresh graduate. Employer willingness may remain unknown until engagement.
+Do not equate legal foreign-work-permit possibility with employer willingness to hire a foreign fresh graduate. Employer willingness may remain `UNKNOWN` until engagement, and UNKNOWN alone does not prevent APPLY.
 
 Do not let CN discovery collapse into SG simply because CN sources are harder to inspect. Change CN employer/source/keyword lanes in the same run before concluding the market is sparse.
 
-## Malaysia — backup
+## Malaysia — parallel safety net
 
-Do not let Malaysia consume the main SG/CN search budget.
-
-Search Malaysia when SG/CN remains sparse after reasonable broadening, or when an unusually strong Malaysian opportunity appears naturally.
+Run Malaysia in parallel according to `PROFILE.md`; do not apply SG/CN foreign-work-authorization blockers to Malaysia.
 
 Lean more toward AI Engineer / Applied AI / AI Software Engineer / LLM / RAG / Agent / AI backend-platform roles, while keeping strong normal SWE/backend roles when their engineering environment is better than a weak AI-titled job.
 
-Do not apply SG/CN foreign-work-authorization blockers to Malaysia. Do not assume future internal transfer without evidence.
+Do not assume future internal transfer without evidence.
 
 ## Web3 / crypto — opportunistic secondary lane
 
@@ -276,7 +288,7 @@ De-prioritize or reject unverifiable teams, compensation arrangements with no cr
 
 For PT/contract roles, record the real employment/contract arrangement when known. Do not invent tax, legal, payment or work-authorization conclusions.
 
-Web3 candidates use the same freshness, dedupe and evidence standards as other roles.
+Web3 candidates use the same dedupe and evidence standards as other roles.
 
 ## Telegram / DeJob source marking
 
@@ -293,55 +305,37 @@ For any Issue first discovered there:
 
 Prefer established engineering/product employers and credible product startups with clear engineering work.
 
-De-prioritize staffing/bodyshop/outsourcing unless there is unusually strong evidence of direct, high-quality engineering work.
+Agency/recruiter sourcing is allowed when the underlying opportunity is credible. De-prioritize staffing/bodyshop/outsourcing; for the main lane, do not promote a role unless the actual employment arrangement is permanent full-time or the user explicitly approves the exception.
 
 Do not reject a strong role because of missing nice-to-haves. Distinguish hard requirements from preferences.
 
 Never convert part-time work, internships, projects or master's study into fictitious full-time professional YOE.
 
-## Freshness hard gate before Issue creation
+## Freshness and current-liveness gate
 
-A role must pass this gate **before** a new `CHECK` or `APPLY` Issue is created. `CHECK` is not a quarantine state for possibly stale jobs.
+Freshness is a **ranking/prioritization signal**, not a 30-day death sentence.
 
-### 30-day posting-age hard gate
+- Prefer newly posted or recently updated exact roles, especially <=30 days, because response odds are usually better and they deserve verification first.
+- A role older than 30 days, or an exact role with no trustworthy published date, may still reach `CHECK`/`APPLY` when the exact requisition is currently accepting applications, the candidate is currently eligible, and the opportunity is strong enough to justify attention.
+- Do not use crawler/search/mirror recency to pretend an old role is new.
+- Do not infer current eligibility from historical cohort wording; verify the current exact role/JD.
 
-For Singapore and Mainland China discovery/promotion, the **exact role/requisition** must have a trustworthy role-level `published`, `posted`, `reposted`, or employer/platform `updated` date within the previous **30 calendar days** of the current run. On 2026-10-12, the cutoff is 2026-09-12. This rolling cutoff must be recalculated each run.
+Current liveness is still a hard requirement before a new Issue is created.
 
-The age date must map to the exact current role/requisition. `Crawled today`, `last seen`, recruiter activity, `Apply Now` / `立即投递`, a live candidate form, generic employer-page freshness, search-result recency, a job-alert date, or a `saved on` timestamp do **not** prove posting age.
-
-A role that is still open but older than 30 days is **not eligible for new `CHECK`/`APPLY` promotion** under the current search policy. Likewise, if exact posting/repost/update age cannot be proven within 30 days, keep the candidate raw or close/skip an existing live opportunity; do not use `CHECK` merely to resolve freshness.
-
-A fresh repost counts only when it clearly maps to the same current exact requisition or a demonstrably new requisition. An old cached page, mirror refresh, crawler timestamp or aggregator copy reappearing does not reset the age.
-
-The posting-age gate and current-liveness gate are separate and **both must pass**.
-
-An exact URL being retrievable today does **not** prove the employer is still accepting applications today.
-
-Current liveness requires at least one strong current-run role-level signal:
+An exact URL being retrievable today does **not** by itself prove the employer is accepting applications. Current liveness requires at least one strong current-run exact-role signal:
 
 1. explicit application / validity / closing window including the current date; or
 2. the actual exact-role candidate form or employer-controlled ATS start/submit flow renders and is usable now; or
-3. an official role page has a genuinely current role-level status/post/update timestamp from the last 7 days **and** an active role-level application action; or
-4. an employer-controlled ATS response fetched in the current run explicitly marks the exact requisition published/open and accepting applications (for example `posted=true` plus `canApply=true`, or exact-role `postingAvailable=true` with a mapped application start). Record the exact req and response evidence; an aggregator's `active` label is insufficient.
+3. an official exact role page exposes an active current application action and there is no contradictory closed/expired signal; or
+4. an employer-controlled ATS response fetched in the current run explicitly marks the exact requisition open/published and accepting applications.
 
-These are discovery evidence only, not liveness proof by themselves:
-
-- search result / indexed snippet;
-- mirror / aggregator copy;
-- old cached/crawled exact page;
-- stale Apply button;
-- generic careers page;
-- undated role page when current application flow cannot be established.
-
-Posting age alone is not a closure signal. An older page must have a still-valid window, usable exact flow, or explicit current employer-ATS accepting status above. If none is established, keep it raw; do not create `CHECK` merely to ask whether it is closed. When ATS status independently proves liveness but JavaScript/login prevents final route verification, the one route blocker may be a `CHECK`.
-
-If tools cannot distinguish live from cache, require a second independent current role-level signal. Keep unproven liveness out of Issues, but do not discard explicit current employer-ATS accepting evidence merely because the full browser form needs JavaScript.
+Search results, indexed snippets, mirror copies, crawler timestamps, generic career pages and stale Apply buttons are discovery evidence only. When tools cannot distinguish live from cache, require a second independent current role-level signal.
 
 A user report such as `closed position`, `expired` or equivalent current employer/platform evidence overrides older evidence immediately.
 
 ## Application-route hard gate
 
-`APPLY` requires a fresh, usable, end-to-end exact-role application route.
+`APPLY` requires a current, usable, end-to-end exact-role application route.
 
 Search results, cached/indexed copies, mirrors and generic career/search/location pages are discovery evidence only. Follow intermediary Apply buttons far enough to identify the final destination.
 
@@ -351,7 +345,7 @@ Final-route proof requires at least one of:
 2. an employer-controlled ATS page for the exact requisition exposes a real start/submit action with no unresolved redirect;
 3. a platform-native exact-role application/contact flow is directly usable with no unresolved external redirect.
 
-If login/JavaScript/cookies/bot protection/tool limits prevent verifying the route, use `CHECK` only when liveness is independently proven. If the final destination is removed, expired, ambiguous or MCF-only, close/block as appropriate.
+If login/JavaScript/cookies/bot protection/tool limits prevent verifying the route, use `CHECK` only when liveness is independently proven and route verification is the one material blocker. If the final destination is removed, expired, ambiguous or MCF-only, close/block as appropriate.
 
 Platform-native actions such as LinkedIn Easy Apply, BOSS, 51job, 智联, 牛客 or 猎聘 may count when the actual exact-role action is directly usable and does not redirect to a blocked channel.
 
@@ -368,6 +362,8 @@ Primary fingerprint:
 `market + company + requisition/job ID`
 
 An established prior application to the exact requisition is a hard duplicate.
+
+For any finalist with an exact requisition/job ID, search that ID in **GitHub + both Gmail accounts before CHECK/APPLY promotion**. If an exact receipt/application is found, reconcile to `WAIT`. This invariant exists specifically to prevent false-new roles such as Intel `JR0286123`.
 
 ### Level 2 — employer + role family
 
@@ -398,10 +394,11 @@ It must have:
 - no obvious cohort/seniority hard block;
 - credible role/company quality;
 - current role-level liveness proof;
+- acceptable main-lane employment type or an explicit user-approved exception;
 - no established duplicate application under the three-level dedupe model;
-- either a verified exact application route or exactly one material blocker remaining **other than liveness**.
+- either a verified exact application route or exactly one material blocker remaining **other than sponsorship/work-permit UNKNOWN**.
 
-Bad/stale/obvious-mismatch raw candidates create nothing.
+Bad/closed/obvious-mismatch raw candidates create nothing.
 
 ## Issue states
 
@@ -415,8 +412,8 @@ Only four open states:
 Meanings:
 
 - `ACTION` = a concrete employer/recruiting action worth the user's attention now or soon: OA, interview, recruiter reply, useful requested form/document, or real deadline. Do not use `ACTION` merely because an out-of-lane application could optionally be continued.
-- `APPLY` = verified serious survivor ready for user review, with a usable exact application route. It is not submission permission.
-- `CHECK` = liveness is proven; exactly one other material blocker or user decision remains, with exactly one next action.
+- `APPLY` = verified serious survivor ready for user review, with a usable exact application route. **WORK-AUTH may be CONFIRMED, PROBABLE or UNKNOWN.** APPLY is not submission permission.
+- `CHECK` = liveness is proven; exactly one material blocker or user decision remains, with exactly one next action. **Unknown sponsorship/work-permit willingness by itself is not a CHECK blocker.**
 - `WAIT` = already submitted/contacted and waiting for employer activity; do not duplicate.
 
 ## Labels and consistency
@@ -434,6 +431,7 @@ Maintenance invariants:
 - SG route resolving only to MCF → blocked/closed unless a separate current non-MCF route exists;
 - user `skip` / `no` / `don't want` → terminal skipped state;
 - confirmed unusable route → terminal blocked state;
+- exact prior application discovered during dedupe → WAIT, not CHECK/APPLY;
 - after any close/relabel, read back title, labels, body/outcome and state.
 
 ## APPLY / CHECK content
@@ -442,11 +440,12 @@ Store enough to make a decision without repeating research:
 
 - exact role link / route or the one CHECK blocker;
 - req/job ID and verification date when available;
-- freshness proof;
+- liveness / age evidence where useful;
+- employment type;
 - plain-language work;
 - hard requirements / early-career fit;
 - specific strengths/gaps;
-- material work-authorization evidence when known;
+- work-authorization classification and evidence when known;
 - targeted GitHub/Gmail dedupe result;
 - same-company materially-different reason when applicable;
 - exactly one next action;
