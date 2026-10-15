@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `234`
+- cursor: `235`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-15 21:24 MYT` — healthy, `first_seq=1`, `last_seq=3121`; page index matches `first_seq=1 / last_seq=3121`; no cursor gap. Backlog is 2887 events.
+- public health verified: `2026-10-15 21:24 MYT` — healthy, `first_seq=1`, `last_seq=3121`; page index matches `first_seq=1 / last_seq=3121`; no cursor gap. Backlog is 2886 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index remain healthy and consistent at seq 3121 with no newer feed delta since the prior intake. Retried the previously blocked finalist Manulife — Associate Full-stack Software Engineer (MY, JR26100119): exact-ID Gmail dedupe completed cleanly in both accounts, GitHub dedupe remained clean, and the current employer Workday page still exposes an active Apply route with end date 2026-12-31 and explicit fresh-graduate eligibility. Promoted as APPLY Issue #310 and read back successfully. Historical seq 235 still could not be safely exposed from the sequence page through the connector, so the contiguous cursor remains 234.`
+- last intake: `Worker/index remain healthy and consistent at seq 3121 with no newer feed delta since the prior intake. Historical seq 235 is now safely readable and terminal at cheap screen (Leoch Battery — Technical Presales Engineer – Data Center, UPS & Telecom: role-family mismatch), so the contiguous cursor advanced 234 → 235. Stopped before seq 236 because the next records include plausible engineering roles that require normal dedupe/verification rather than inferred terminal treatment. No Gmail finalist lookup or Issue write was needed.`
 
 ## Current receipt
 
