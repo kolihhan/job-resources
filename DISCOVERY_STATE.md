@@ -4,10 +4,10 @@
 
 - cursor: `234`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-15 15:24 MYT` — healthy, `first_seq=1`, `last_seq=2895`; page index matches `first_seq=1 / last_seq=2895`; no cursor gap. Backlog is 2661 events.
+- public health verified: `2026-10-15 21:24 MYT` — healthy, `first_seq=1`, `last_seq=3121`; page index matches `first_seq=1 / last_seq=3121`; no cursor gap. Backlog is 2887 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy at seq 2895; latest delta added 17 NEW and 0 changed events across MY/SG/CN. Bounded fresh-head screened the newly-added tail; no serious survivor reached Stage 2, so no Gmail finalist dedupe or Issue write was warranted. Historical catch-up is no longer connector-blocked at seq 219: seq 219–234 were safely exposed and reached stable terminal results under RULES, advancing the contiguous cursor from 218 to 234. Catch-up stopped conservatively before seq 235 rather than inferring later records. Cursor is 234.`
+- last intake: `Worker/index healthy at seq 3121; latest delta added 220 NEW and 6 changed events across MY/SG/CN. Bounded fresh-head inspected the readable newest tail. Manulife — Associate Full-stack Software Engineer (MY, JR26100119) survived cheap filtering and GitHub dedupe and was independently verified live on the employer Workday route with fresh-graduate eligibility, but required finalist dedupe could not complete because the second Gmail account returned RATE_LIMIT_EXCEEDED on the exact-ID search; therefore no Issue was created. Remaining newest-page records beyond the connector-visible portion were not inferred. Historical catch-up could not safely expose seq 235 from the sequence page in this run, so the contiguous cursor remains 234.`
 
 ## Current receipt
 
