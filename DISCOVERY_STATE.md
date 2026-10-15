@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `235`
+- cursor: `236`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-16 02:16 MYT` — healthy, `first_seq=1`, `last_seq=3213`; page index matches `first_seq=1 / last_seq=3213`; no cursor gap. Backlog is 2978 events.
+- public health verified: `2026-10-16 02:16 MYT` — healthy, `first_seq=1`, `last_seq=3213`; page index matches `first_seq=1 / last_seq=3213`; no cursor gap. Backlog is 2977 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index advanced 3121 → 3213 with 92 NEW and 0 changed; health/index agree and no cursor gap exists. Bounded fresh-head screened the newest exposed records. UST USource — AI Engineer (MY, source ID 95032111) survived cheap screen and GitHub dedupe; current public evidence supports strong 1–5 YOE full-stack AI/API/agent fit, and exact-ID Gmail dedupe was clean in both accounts. Created and read back #311 as CHECK because an exact employer-controlled application route and conflicting third-party employment-type metadata remain unresolved. Other newest exposed candidates were terminal cheap rejects or did not justify Stage 2 budget; Lenovo Full Stack AI Solution Engineer is experienced/enterprise-architecture scoped, FINSMART requires 3+ years Go, and explicit contract records were not promoted. Historical seq 236 could not be safely isolated from the connector-truncated 201–250 page, so cursor remains 235 rather than inferring a terminal result.`
+- last intake: `Worker/index unchanged at last_seq=3213; health/index agree and no cursor gap exists. No new fresh-head delta required rescreening. Historical seq 236 (Wonderful — Forward Deployed Engineer, SG) was deep-checked after cheap GitHub dedupe and is terminal: current listings consistently state 5+ years software/technical experience, so it fails the hard seniority gate. Seq 237/238 are duplicate Centific AI Engineer feed variants for JR108472; GitHub exact-ID dedupe is clean, but the employer Workday route could not be accessed and no current employer-controlled JD evidence was available in this run, so they are not yet terminal. Cursor therefore advances conservatively only 235 → 236. No Gmail finalist lookup or Issue write was warranted.`
 
 ## Current receipt
 
