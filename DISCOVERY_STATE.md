@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `218`
+- cursor: `234`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-15 10:18 MYT` — healthy, `first_seq=1`, `last_seq=2878`; page index matches `first_seq=1 / last_seq=2878`; no cursor gap. Backlog is 2660 events.
+- public health verified: `2026-10-15 15:24 MYT` — healthy, `first_seq=1`, `last_seq=2895`; page index matches `first_seq=1 / last_seq=2895`; no cursor gap. Backlog is 2661 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy at seq 2878; latest delta added 10 NEW and 0 changed events across MY/SG/CN. The newest indexed page is 2851–2878, but the GitHub connector truncates its JSONL payload before seq 2869–2878, so the 10 newly-added records cannot be safely screened from current accessible evidence. Historical page 201–250 likewise remains unresolved because seq 219 cannot be safely exposed through the connector. No records were guessed and no cursor jump was made. Cursor stays 218. No finalist could reach Stage 2 from the inaccessible new tail, so no Gmail lookup or Issue write was performed.`
+- last intake: `Worker/index healthy at seq 2895; latest delta added 17 NEW and 0 changed events across MY/SG/CN. Bounded fresh-head screened the newly-added tail; no serious survivor reached Stage 2, so no Gmail finalist dedupe or Issue write was warranted. Historical catch-up is no longer connector-blocked at seq 219: seq 219–234 were safely exposed and reached stable terminal results under RULES, advancing the contiguous cursor from 218 to 234. Catch-up stopped conservatively before seq 235 rather than inferring later records. Cursor is 234.`
 
 ## Current receipt
 
