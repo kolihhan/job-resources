@@ -4,10 +4,10 @@
 
 - cursor: `239`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-16 06:10 MYT` — healthy, `first_seq=1`, `last_seq=3283`; page index matches `first_seq=1 / last_seq=3283`; no cursor gap. Backlog is 3044 events.
+- public health verified: `2026-10-16 08:22 MYT` — healthy, `first_seq=1`, `last_seq=3308`; page index matches `first_seq=1 / last_seq=3308`; no cursor gap. Backlog is 3069 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index advanced 3213 → 3283 and agree; no cursor gap. Bounded fresh-head inspection could read only the beginning of newest page 3251–3283 through the GitHub connector (visible through seq 3263); the connector truncates the remainder, so seq 3264–3283 could not be safely screened. Visible records did not justify a deep-verification promotion from discovery metadata alone. Historical seq 240 also could not be isolated from page 201–250 because the connector exposes the JSONL page as one oversized line and code search did not return seq 240. Cursor therefore remains 239. No Gmail finalist lookup, Issue write, application, or external contact was performed.`
+- last intake: `Worker/index advanced 3283 → 3308 and agree; no cursor gap. Newest sequence-addressable page 3301–3308 was fully screened: all eight records are sales/presales/solutions roles or otherwise outside the target engineering lane, so none justified Stage 2. The preceding page 3251–3300 remains connector-truncated, so seq 3284–3300 could not be safely isolated/screened. Historical seq 240 likewise remains non-isolatable from page 201–250. Cursor therefore remains 239. No Gmail finalist lookup, Issue write, application, or external contact was performed.`
 
 ## Current receipt
 
