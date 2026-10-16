@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `251`
+- cursor: `255`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-16 13:15 MYT` — healthy, `first_seq=1`, `last_seq=3308`; page index matches `first_seq=1 / last_seq=3308`; no cursor gap. Backlog is 3057 events.
+- public health verified: `2026-10-16 14:12 MYT` — healthy, `first_seq=1`, `last_seq=3318`; page index matches `first_seq=1 / last_seq=3318`; no cursor gap. Backlog is 3063 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index remain healthy and unchanged at last_seq=3308; no new fresh-head delta. Historical catch-up resolved seq 247–251. Seq 247 Synapxe DevOps Platform Engineer still lacked employer-controlled exact-role proof and was terminal for cursor purposes rather than promoted. Seq 248 Factorial Solutions was not promoted; seq 249 was agency/outstaff-hinted; seq 250 Kyndryl R-67267 remained prior-application deduped from the preceding run. Seq 251 Kyndryl Full Stack Developer (AI) R-69443 was deep-verified on the employer Workday page and is live/full-time, but explicitly requires 3–6 years professional full-stack experience and states no work visa sponsorship, so it is a hard SG blocker. No Issue was created and no Gmail lookup was required for seq 251. No application or external contact was made.`
+- last intake: `Worker/index healthy and advanced 3308→3318 with 10 NEW events. Bounded fresh-head screening covered the readable head through seq 3313: seq 3309 User Experience Researchers Full Stack Engineer was verified as 7+ YOE and terminal; seq 3310 AIGP Health Full-stack Software Engineer was verified as mid/senior with 4+ professional YOE and not promoted; seq 3311–3312 Manulife full-stack records carried 5+ YOE hints and were not promoted; seq 3313 Crédit Agricole CIB Java Backend Software Engineer was verified from current corroborating listings as requiring at least 4 years Java/J2EE and was not promoted. Connector truncation prevented safe isolation of seq 3314–3318, so they were not guessed. Historical catch-up advanced seq 252–255 as stable terminal records (solutions-consulting / research-fellow / MCF-only design / MCF-only 5+ data-engineering). Seq 256 Techcom Solutions Fullstack Java Developer is next and was not skipped. No Issue was created; no finalist reached the Gmail-dedupe gate; no application or external contact was made.`
 
 ## Current receipt
 
