@@ -4,10 +4,10 @@
 
 - cursor: `284`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-16 18:12 MYT` — healthy, `first_seq=1`, `last_seq=3318`; page index matches `first_seq=1 / last_seq=3318`; no cursor gap. Backlog is 3034 events.
+- public health verified: `2026-10-16 19:16 MYT` — healthy, `first_seq=1`, `last_seq=3318`; page index matches `first_seq=1 / last_seq=3318`; no cursor gap. Backlog is 3034 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy and unchanged at seq 3318, so there was no newer fresh-head delta. Historical catch-up could not safely advance beyond cursor 284 because the GitHub connector truncates the single-line 251–300 JSONL page before seq 285 and code search did not expose seq 285. Cursor therefore remains 284 rather than guessing over unseen history. No serious survivor reached Issue or Gmail-finalist dedupe. No application or external contact was made.`
+- last intake: `Worker/index healthy and unchanged at seq 3318, so there was no newer fresh-head delta. Historical catch-up could not safely advance beyond cursor 284 because the GitHub connector still truncates the single-line 251–300 JSONL page before seq 285 and code search returned no isolatable seq 285 result. Cursor therefore remains 284 rather than guessing over unseen history. No serious survivor reached Issue or Gmail-finalist dedupe. No application or external contact was made.`
 
 ## Current receipt
 
