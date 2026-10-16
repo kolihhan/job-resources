@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `272`
+- cursor: `284`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-16 16:17 MYT` — healthy, `first_seq=1`, `last_seq=3318`; page index matches `first_seq=1 / last_seq=3318`; no cursor gap. Backlog is 3046 events.
+- public health verified: `2026-10-16 17:14 MYT` — healthy, `first_seq=1`, `last_seq=3318`; page index matches `first_seq=1 / last_seq=3318`; no cursor gap. Backlog is 3034 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy and unchanged at seq 3318, so there was no newer fresh-head delta. Historical catch-up advanced seq 271–272 as a contiguous terminal prefix: both U3 Projects AI Engineer (seq 271) and U3 Infotech AI Engineer (seq 272) are MCF-only feed records with no separate verified route in the intake evidence, so they were not promoted under current RULES. Seq 273 CodeForAI Software Engineer / AI Code Trainer is next and was not skipped. No Issue was created; no finalist reached the Gmail-dedupe gate; no application or external contact was made.`
+- last intake: `Worker/index healthy and unchanged at seq 3318, so there was no newer fresh-head delta. Historical catch-up advanced seq 273–284 as a contiguous terminal prefix. CodeForAI Software Engineer / AI Code Trainer (273) was verified as contract work and its current Remotive requirements exclude Malaysia residency; Visa Hunt data-engineering mirrors (274–275) did not provide a trustworthy employer-controlled permanent-role route; GMP Group (276), ScienTec (277), Techcom (283) and Jobline (284) are recruiter/staffing lanes rather than qualifying direct main-lane employment; Basil AI Engineer (278), NTU Research Fellow (279), Keyence Sales Engineer (280), Envirodynamics infrastructure role (281) and Astek full-stack role (282) were terminal under current RULES from route/role/seniority/employment evidence. No serious survivor reached Issue or Gmail-finalist dedupe. No application or external contact was made.`
 
 ## Current receipt
 
