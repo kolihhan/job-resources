@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `270`
+- cursor: `272`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-16 15:13 MYT` — healthy, `first_seq=1`, `last_seq=3318`; page index matches `first_seq=1 / last_seq=3318`; no cursor gap. Backlog is 3048 events.
+- public health verified: `2026-10-16 16:17 MYT` — healthy, `first_seq=1`, `last_seq=3318`; page index matches `first_seq=1 / last_seq=3318`; no cursor gap. Backlog is 3046 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy and unchanged at seq 3318, so there was no newer fresh-head delta. Historical catch-up advanced seq 256–270 as a contiguous terminal prefix. Seq 256 Techcom Solutions Fullstack Java Developer was not promoted because employer-controlled evidence identifies TechCom as a staffing/placement/outsourcing provider; seq 257 duplicates the already-cleared MUFG Job ID 10079293; seq 258 DNV AP Cloud & Data Center Infrastructure Engineer is infrastructure-operations rather than the target software/platform engineering lane; seq 259 OCBC Enterprise Data & AI Platform Engineer was deep-verified against the live official Workday role JR00009490 and requires 5–8 years supporting enterprise Data/Analytics/AI platforms, so it is terminal; seq 260–270 are MCF-only records and/or clear sales/presales/recruitment/staffing mismatches under current RULES. No Issue was created; no finalist reached the Gmail-dedupe gate; no application or external contact was made. Seq 271 is next and was not skipped.`
+- last intake: `Worker/index healthy and unchanged at seq 3318, so there was no newer fresh-head delta. Historical catch-up advanced seq 271–272 as a contiguous terminal prefix: both U3 Projects AI Engineer (seq 271) and U3 Infotech AI Engineer (seq 272) are MCF-only feed records with no separate verified route in the intake evidence, so they were not promoted under current RULES. Seq 273 CodeForAI Software Engineer / AI Code Trainer is next and was not skipped. No Issue was created; no finalist reached the Gmail-dedupe gate; no application or external contact was made.`
 
 ## Current receipt
 
