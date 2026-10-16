@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `239`
+- cursor: `246`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-16 08:22 MYT` — healthy, `first_seq=1`, `last_seq=3308`; page index matches `first_seq=1 / last_seq=3308`; no cursor gap. Backlog is 3069 events.
+- public health verified: `2026-10-16 11:10 MYT` — healthy, `first_seq=1`, `last_seq=3308`; page index matches `first_seq=1 / last_seq=3308`; no cursor gap. Backlog is 3062 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index advanced 3283 → 3308 and agree; no cursor gap. Newest sequence-addressable page 3301–3308 was fully screened: all eight records are sales/presales/solutions roles or otherwise outside the target engineering lane, so none justified Stage 2. The preceding page 3251–3300 remains connector-truncated, so seq 3284–3300 could not be safely isolated/screened. Historical seq 240 likewise remains non-isolatable from page 201–250. Cursor therefore remains 239. No Gmail finalist lookup, Issue write, application, or external contact was performed.`
+- last intake: `Worker/index remain healthy and unchanged at last_seq=3308; no new fresh-head delta since the prior intake. Historical page 201–250 became line-addressable, allowing conservative catch-up through seq 246. Seq 240/246 Ascendion and seq 243/245 staffing/outsource-style records were terminal at cheap screen; seq 241 is MCF-only. Seq 242/244 resolve to SAP requisition 447781; the official SAP listing is live/graduate/regular full-time, but exact-ID Gmail dedupe found prior application evidence in the secondary Gmail account, so it is not a new opportunity. Cursor advanced 239 → 246. Seq 247 Synapxe DevOps Platform Engineer remains the next unresolved candidate and was not skipped. No Issue, application, or external contact was created.`
 
 ## Current receipt
 
