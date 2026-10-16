@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `246`
+- cursor: `251`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-16 12:16 MYT` — healthy, `first_seq=1`, `last_seq=3308`; page index matches `first_seq=1 / last_seq=3308`; no cursor gap. Backlog is 3062 events.
+- public health verified: `2026-10-16 13:15 MYT` — healthy, `first_seq=1`, `last_seq=3308`; page index matches `first_seq=1 / last_seq=3308`; no cursor gap. Backlog is 3057 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index remain healthy and unchanged at last_seq=3308; no new fresh-head delta. Historical catch-up inspected seq 247–250. Seq 247 Synapxe DevOps Platform Engineer remains unresolved because employer-controlled exact JD/route was not established, so the conservative cursor remains 246. Seq 249 is agency/outstaff-hinted. Seq 250 Kyndryl Full Stack Developer AI (R-67267) is live full-time and otherwise plausible, but exact-ID Gmail dedupe found prior application evidence in the secondary Gmail account; no duplicate Issue was created. No application or external contact was made.`
+- last intake: `Worker/index remain healthy and unchanged at last_seq=3308; no new fresh-head delta. Historical catch-up resolved seq 247–251. Seq 247 Synapxe DevOps Platform Engineer still lacked employer-controlled exact-role proof and was terminal for cursor purposes rather than promoted. Seq 248 Factorial Solutions was not promoted; seq 249 was agency/outstaff-hinted; seq 250 Kyndryl R-67267 remained prior-application deduped from the preceding run. Seq 251 Kyndryl Full Stack Developer (AI) R-69443 was deep-verified on the employer Workday page and is live/full-time, but explicitly requires 3–6 years professional full-stack experience and states no work visa sponsorship, so it is a hard SG blocker. No Issue was created and no Gmail lookup was required for seq 251. No application or external contact was made.`
 
 ## Current receipt
 
