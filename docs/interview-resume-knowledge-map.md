@@ -1,14 +1,14 @@
 # Resume Interview Knowledge Map — Applied AI / Backend
 
-Last audited: 2026-10-17
+Last audited: 2026-10-18
 
 Primary immediate use: Ant International Malaysia — Applied AI Engineer (Fresh Graduate) technical interview preparation.
 
-This file is the interview source-of-truth for **what is on the current resume, what the repositories actually prove, what must be understood, what may be asked, and what must not be overstated**.
+This is the interview source of truth for what the current resume claims, what the repositories actually support, what must be understood, and what must not be overstated.
 
 ---
 
-## 1. Audit scope and evidence standard
+## 1. Audit scope
 
 Current resume source:
 
@@ -19,800 +19,619 @@ Repository snapshots audited:
 - `kolihhan/semantic-text2sql-agent` — main `2be1b2a09454788eca8b6b1a6233ee69a16a465d`
 - `kolihhan/local-rag-search` — main `02fedfff44249e21fe3089a6aad35ff8267b3c39`
 - `kolihhan/hermes-video-tutor` — main `22a9b3044695cef421feec2dd36938149d2038cc`
+- `kolihhan/master-thesis` — main `f134750441dee036269ffe9e378fb9116ac7bdf9`
 
-Coverage:
+Coverage standard:
 
-- **Full repository trees inventoried** for all three public project repos.
-- **All interview-relevant runtime source modules deep-read**.
-- Architecture/design docs, canonical evaluation artifacts, and representative/high-risk tests deep-read.
-- Tests, workflows, historical experiments, fixtures, and assets were inventoried; only interview-relevant ones were deep-read.
-- Binary/static artifacts such as `.mp4`, `.db`, and images are recorded as repo contents but are not treated as semantically reviewed source code.
-- `Understand Anything` was used as a methodology for component/data-flow/dependency explanation. Its own knowledge-graph workflow could not literally run because these repos do not contain `.ua/knowledge-graph.json` / `.understand-anything/knowledge-graph.json`.
-- `get-job.skill` evidence discipline is applied here: **resume bullet → likely drill → required knowledge → evidence → safe claim / red line**.
+- Full repository trees inventoried for all four repositories.
+- Interview-relevant runtime/source modules, canonical evaluation artifacts, architecture/pipeline docs and representative high-risk tests deep-read.
+- Historical experiments, notebooks, fixtures, workflows and binary/model/data artifacts are inventoried where visible, but not every historical notebook cell or binary artifact is treated as semantically reviewed source code.
+- `Understand Anything` methodology is used for component → dependency → data-flow explanation. Its generated knowledge-graph workflow was not literally available because these repositories do not contain a current `.ua/knowledge-graph.json` / `.understand-anything/knowledge-graph.json`.
+- `get-job.skill` evidence discipline is used: **resume claim → likely drill → required knowledge → evidence → safe claim / red line**.
 
-Evidence levels used below:
+Evidence labels:
 
-- **CODE** — directly supported by current repository implementation.
-- **EVAL** — supported by checked-in canonical evaluation/report artifact.
-- **RESUME** — present in current resume but not independently proven by these public repos.
-- **USER** — requires personal recollection/explanation from actual work or thesis.
+- **CODE** — directly supported by current implementation.
+- **EVAL** — supported by checked-in evaluation/report artifacts.
+- **RESUME** — present on the submitted resume.
+- **USER** — depends on personal recollection, mainly company-internal work.
 
 ---
 
-## 2. Interview priority map
+## 2. Interview priority
 
 ### P0 — must be solid
 
-1. **Text-to-SQL project** — architecture, verification, repair, safety, evaluation, failure modes.
-2. **Kahap production experience** — what you personally built, production debugging, DB issues, queue/worker/scheduler, deployment/migration.
-3. **AI-native engineering** — how you use AI tools while retaining engineering judgment: context, constraints, review, tests, edge cases, verification.
-4. **Backend fundamentals** — API, DB, SQL, retries/timeouts, idempotency, debugging.
+1. Text-to-SQL: architecture, validation, repair, safety, metrics, failure modes.
+2. Kahap production work: personal ownership, debugging, DB issues, queues/workers/schedulers, migration/deployment.
+3. AI-native engineering: context/constraints → AI assistance → inspect → test → edge cases → verify.
+4. Backend/DB fundamentals: APIs, SQL, timeouts, retry, idempotency, transactions, indexes.
 
 ### P1 — strong working knowledge
 
-5. **Hybrid Retrieval for RAG** — BM25, dense embeddings, cosine/dot product, RRF, Recall/MRR/Hit@K, trade-offs.
-6. **Multimodal Video QA Agent** — tool calling, ownership boundary, evidence/citations, routing, abstention, evaluation.
-7. **Python engineering** — core collections, complexity, exceptions, typing/dataclasses/protocols, clean service boundaries.
+5. Hybrid retrieval: BM25, dense embeddings, RRF, Recall/MRR/Hit@K, trade-offs.
+6. Video QA agent: tool calling, ownership boundary, evidence/citations, routing, abstention.
+7. M.S. thesis: full pipeline, Role KG, Context KG, DualKG Top1, semantic F1 and limitations.
+8. Python engineering fundamentals.
 
-### P2 — know enough to defend resume
+### P2
 
-8. **M.S. thesis** — problem, graph/retrieval idea, metrics, why hierarchy/context helps, limitations.
-9. **General CS/reliability** — concurrency basics, locks, queue semantics, transactions, indexing.
-10. **Java-specific internals** — lower priority unless interviewer explicitly moves there.
+9. General concurrency/locking/distributed-systems fundamentals.
+10. Java-specific internals only if interviewer explicitly moves there.
 
 ---
 
-## 3. Current resume coverage matrix
+## 3. Resume claim coverage
 
-| Resume area | Evidence | Likely interviewer drill | Required mastery |
-|---|---|---|---|
-| Kahap feedback platform end-to-end | RESUME + USER | What did you personally own? Architecture? Hardest production issue? | Laravel/Vue request flow, DB, deployment, production debugging |
-| Kahap app/DB issues | RESUME + USER | Example incident, diagnosis sequence, root cause, prevention | logs, SQL, migrations, transactions/index basics |
-| Queue/worker/scheduler/server migration/SSL | RESUME + USER | Why queue? worker failure? scheduler vs queue? migration risk? | async jobs, retries, idempotency, process supervision, deployment basics |
-| Pac Com POS | RESUME + USER | What feature? data flow? production constraint? | Laravel/Vue/DB fundamentals |
-| Text-to-SQL generation + verification + repair | CODE | Walk through exact flow; why each stage? | schema grounding, LangGraph routing, verifier, repair budget, read-only execution |
-| Text-to-SQL 75→90 executable; +6 correct | EVAL | What exactly do these metrics mean? | execution success vs semantic correctness; paired evaluation |
-| Hybrid BM25 + Dense + RRF | CODE | Why hybrid? Why RRF? Why not average scores? | BM25, embeddings, L2 normalization, dot/cosine, rank fusion |
-| RAG Recall@10 / MRR@20 gains | EVAL | Define metrics; dataset scope; trade-off | retrieval metrics and limitations |
-| Video QA transcript/frame/clip routing | CODE | Who decides which tool? Did you build the agent loop? | Hermes ownership boundary, tool surface, evidence pipeline |
-| Video QA 4/6 visual-required | EVAL | How measured? Why only 12? | strict evaluation contract, limitations, modality/evidence timing |
-| Thesis graph-aware retrieval | RESUME + USER | Why graphs? How constructed? What changed over baseline? | retrieval design, role/context evidence, F1, limitations |
+| Resume area | Evidence | Main drill |
+|---|---|---|
+| Kahap feedback platform end-to-end | RESUME + USER | What exactly did you own? Architecture? Production failure? |
+| Kahap app/DB troubleshooting | RESUME + USER | Show one real incident and diagnosis sequence |
+| Queue/worker/scheduler/migration/SSL | RESUME + USER | Why async? retries? duplicate jobs? cutover/rollback? |
+| Pac Com POS | RESUME + USER | One real feature and full request/data flow |
+| Text-to-SQL validation + repair | CODE | Exact flow, verifier, safety, repair budget |
+| Text-to-SQL 75→90 executable; +6 correct | EVAL | Execution success vs semantic correctness |
+| Hybrid BM25 + Dense + RRF | CODE | Why hybrid? Why RRF instead of averaging scores? |
+| RAG Recall@10/MRR@20 result | EVAL | Metric definitions, benchmark scope, trade-offs |
+| Video transcript/frame/clip tools | CODE | Who owns agent loop? Evidence flow? |
+| Video 4/6 visual-required result | EVAL | Evaluation contract and limitations |
+| Thesis Role KG / Context KG / DualKG | CODE + EVAL | Exact retrieval/fusion logic and result interpretation |
 
 ---
 
 # 4. Project 1 — Text-to-SQL with Verification & Repair
 
-## 4.1 One-line mental model
+## Mental model
 
-> Generate SQL from the real schema, **deterministically reject unsafe/invalid SQL**, give bounded repair feedback when needed, then execute through a read-only SQLite boundary.
+> Generate SQL from database schema context, deterministically reject unsafe/invalid SQL, provide bounded repair feedback, then execute through a read-only SQLite boundary.
 
-## 4.2 Actual current flow — CODE
+## Supported main path — CODE
 
 ```text
-Question
-  ↓
-DatabaseCatalog introspects SQLite
-  ↓
-Schema context: tables + columns + foreign keys
-  ↓
-LLM generates one SQL candidate
-  ↓
-Deterministic preflight verification
-  ├─ pass → execute read-only
-  └─ fail → repair with verifier errors → verify again
-                  ↓
-           repair budget exhausted
-                  ↓
-                refuse
+question
+→ DatabaseCatalog reads tables / columns / foreign keys
+→ LLM generates SQL
+→ deterministic verifier
+   → pass: read-only execute
+   → fail: bounded repair → verify again
+→ refuse if verification still fails
 ```
 
-Important implementation ownership:
+Important boundaries:
 
-- `agent.py` — `SemanticSQLService`, application boundary.
-- `catalog.py` — reads `sqlite_master`, `PRAGMA table_info`, `PRAGMA foreign_key_list`.
-- `direct.py` — initial model generation prompt.
-- `inference.py` — LangGraph state/routing and bounded repair loop.
-- `verifier.py` — deterministic preflight.
-- `execution.py` — read-only enforcement and bounded result fetch.
-- `providers.py` — model-provider abstraction; Ollama vs deterministic offline demo provider.
+- `SemanticSQLService` is the application boundary.
+- `catalog.py` reads SQLite schema metadata.
+- LangGraph owns routing and bounded repair.
+- deterministic verifier checks validity/safety.
+- execution layer enforces read-only access.
 
 Default repair budget: **2**.
 
-## 4.3 What verifier actually checks — CODE
+## Safety / verifier
 
-Know this without hand-waving:
+Know:
 
-- empty SQL
-- multiple statements
-- prose/comments mixed with SQL
-- only one `SELECT` or `WITH` query allowed
-- explicit write/non-read-only operations rejected
-- SQLite compilation/schema-reference problems caught using `EXPLAIN QUERY PLAN`
+- one statement only
+- `SELECT` / CTE boundary
+- reject write/non-read-only SQL
+- catch compilation/reference errors using SQLite preflight / `EXPLAIN QUERY PLAN`
+- read-only defense includes `mode=ro`, `PRAGMA query_only`, and SQLite authorizer controls
 
-The verifier **does not prove semantic correctness**.
+Key concept:
 
-Example:
+> A prompt is not a security boundary.
 
-```text
-Question: list members who attended October Meeting
-Generated SQL: valid, safe, executes, returns rows
-But: it can still answer the wrong relation/filter
-```
+The verifier does **not** prove that a valid query answers the user's intended question.
 
-That distinction is central to the project.
+## Canonical result — EVAL
 
-## 4.4 Read-only defense in depth — CODE
+100 frozen BIRD DEV queries, Qwen3.5 9B:
 
-Execution does not merely trust the prompt.
-
-Three important layers:
-
-1. SQLite URI `mode=ro`
-2. `PRAGMA query_only = ON`
-3. SQLite authorizer denies write actions
-
-Plus the application only permits a single `SELECT` / CTE.
-
-Interview concept: **defense in depth** — a model instruction is not a security boundary.
-
-## 4.5 Canonical result — EVAL
-
-Frozen 100 BIRD DEV queries using Qwen3.5 9B:
-
-- Direct BIRD EX-compatible correctness: **33%**
+- Direct EX-compatible correctness: **33%**
 - Guarded + repair: **39%**
 - Direct execution success: **75%**
 - Guarded conservative execution success: **90%**
-- Wrong → correct: **6**
-- Correct → wrong: **0**
+- wrong → correct: **6**
+- correct → wrong: **0**
 
-Resume wording emphasizes 75→90 executable and +6 correct recoveries.
+**90% is execution success, not Text-to-SQL accuracy.**
 
-### Must distinguish
+## Negative ablation
 
-**90% is NOT Text-to-SQL accuracy.**
+Optional semantic revision:
 
-- execution success = SQL can run successfully
-- EX-compatible match = result matches expected execution result under evaluator contract
+- 39% → 38% EX
+- 0 wrong→correct
+- 1 correct→wrong
 
-A syntactically valid query can still be semantically wrong.
+Correct story: it did not earn its complexity, so it was not promoted.
 
-## 4.6 Why deterministic verification instead of another LLM?
+## Resume/code mismatch — RED FLAG
 
-Good answer structure:
+Current resume says:
 
-- Syntax/read-only/compiler failures are objectively checkable.
-- Deterministic checks are cheaper and inspectable.
-- They give concrete failure feedback to repair.
-- An LLM judge adds another uncertain model decision.
-- Semantic correctness remains harder and requires proper evaluation.
+> “uses database schema and values to generate SQL”
 
-## 4.7 Why bounded repair?
+The current supported `SemanticSQLService` passes `catalog.schema_text()` into the guarded path. The repo also contains a separate value/schema grounding experiment, but that is not the default supported main path.
 
-Know the engineering reason:
+For an already-submitted resume, safest interview explanation:
 
-- Prevent unbounded agent loops.
-- Cap latency/cost.
-- Make failure behavior predictable.
-- If deterministic failures remain after the budget, refuse rather than execute unsafe/broken SQL.
+> “The main guarded path uses live schema introspection. I also implemented/experimented with value-aware grounding separately, but I keep that distinct from the headline guarded benchmark.”
 
-## 4.8 Experimental semantic revision — RED LINE
-
-An optional semantic reviewer was tested for projection, aggregation/grain, join, filter/value, and order/top-k mistakes.
-
-Result:
-
-- guarded baseline EX: **39%**
-- + semantic revision: **38%**
-- wrong → correct: **0**
-- correct → wrong: **1**
-
-Therefore it was **not promoted**.
-
-Good engineering lesson:
-
-> More model calls do not automatically improve a system. Run an ablation; keep the simpler path when evidence says the extra layer does not earn its complexity.
-
-## 4.9 Experimental DGSL grounding — RED LINE
-
-The repo contains a separate schema/value-grounding experiment with decomposition, value matching, column/table scoring and FK bridges.
-
-It is **not the default `SemanticSQLService` path**.
-
-Do not say the default production/demo flow uses DGSL or value grounding unless explicitly discussing that experiment.
-
-## 4.10 Likely drill tree
-
-Be able to answer progressively:
-
-1. What problem does the system solve?
-2. Walk me through the architecture.
-3. How do you give schema context to the model?
-4. Why can SQL execute but still be wrong?
-5. What exactly does verification check?
-6. Why `EXPLAIN QUERY PLAN`?
-7. How do you prevent generated SQL from modifying the database?
-8. Why max two repairs?
-9. What is BIRD EX?
-10. Why did execution improve more than correctness?
-11. What failed in semantic revision?
-12. What would you improve next?
-
-### Red-line claims
-
-Do **not** say:
-
-- “90% Text-to-SQL accuracy.”
-- “Semantic revision improved the model.”
-- “DGSL improved final correctness.”
-- “The offline demo provider produced benchmark results.”
-- “The current 9B result has a verified clean end-to-end successful canonical GitHub Actions run.”
+Do not claim the 33→39 benchmark depends on DGSL/value grounding unless you can point to the exact experimental arm.
 
 ---
 
 # 5. Project 2 — Hybrid Retrieval for RAG
 
-## 5.1 One-line mental model
+## Mental model
 
-> BM25 catches exact lexical signals, dense embeddings catch semantic paraphrases, and RRF combines their **ranks** without pretending their raw score scales are comparable.
+> BM25 catches exact lexical signals, dense retrieval catches semantic paraphrases, and RRF fuses ranks without comparing incompatible raw score scales.
 
-## 5.2 Actual flow — CODE
+## CODE
 
 ```text
-Query
-  ├─ BM25 lexical retrieval
-  └─ Qwen dense retrieval
-          ↓
-       RRF fusion
-          ↓
-     ranked results
-          ↓
-rank provenance: BM25 rank / dense rank / RRF rank
+query
+├─ BM25
+└─ Qwen3-Embedding-0.6B dense retrieval
+        ↓
+     RRF (k=60)
+        ↓
+ ranked documents + rank provenance
 ```
 
-The service also supports typed lexical/vector/HyDE signals and an optional bounded reranker, but those are **not part of the canonical benchmark claim**.
+BM25 implementation uses `k1=1.5`, `b=0.75`.
 
-## 5.3 BM25 — must understand
+Dense path:
 
-ELI5:
-
-- words appearing in the query and document add score
-- rare words matter more than common words
-- repeated terms help but with diminishing returns
-- document length is normalized
-
-Current implementation uses typical parameters:
-
-- `k1 = 1.5`
-- `b = 0.75`
-
-Useful example:
-
-- `ORA-12516` → lexical retrieval is often excellent because exact identifiers matter.
-
-## 5.4 Dense retrieval — must understand
-
-Canonical serious path uses:
-
-- `Qwen/Qwen3-Embedding-0.6B`
-- 1024-dimensional vectors
-- query instruction for retrieval
+- Qwen3-Embedding-0.6B
+- 1024 dimensions
 - local L2 normalization
-- dot product for similarity
+- dot product; for normalized vectors this equals cosine similarity
 
-If two vectors are L2-normalized, their dot product is equivalent to cosine similarity.
-
-Useful example:
+RRF:
 
 ```text
-Query: buyers could not finish purchase
-Document: payment authorization requests were rejected
+score(doc) = Σ 1/(k + rank_i(doc))
 ```
 
-Few exact words may overlap, but semantic embeddings may place them near each other.
+Why RRF rather than raw-score average: BM25 scores and embedding similarities have different scales and meanings.
 
-## 5.5 Why RRF instead of averaging scores?
+## Canonical EVAL
 
-This is a likely interview question.
-
-BM25 score and embedding similarity are on different scales. Raw `12.7` from BM25 and `0.82` from dense retrieval do not mean comparable quantities.
-
-RRF ignores raw magnitude and combines rank positions:
-
-```text
-RRF(doc) = Σ 1 / (k + rank_i(doc))
-```
-
-Canonical experiment uses `k = 60`.
-
-A document ranking highly in both lists accumulates more RRF score.
-
-## 5.6 Canonical result — EVAL
-
-EnterpriseRAG-Bench v1.0.0, **64 official compatible Confluence-only queries**, 5,189 documents:
+EnterpriseRAG-Bench v1.0.0, 64 compatible Confluence-only queries, 5,189 docs:
 
 | Arm | Recall@10 | MRR@20 | Hit@10 |
 |---|---:|---:|---:|
 | BM25 | 0.7341 | 0.6792 | 0.7969 |
-| Qwen Dense | 0.6797 | 0.6919 | 0.7656 |
+| Dense | 0.6797 | 0.6919 | 0.7656 |
 | Hybrid RRF | **0.7630** | **0.7418** | **0.8438** |
 
-Hybrid recovered 5 BM25 top-10 misses but also lost 2 BM25 top-10 hits.
+Hybrid helped on this frozen slice; it is not universally superior.
 
-Correct conclusion:
+RED LINE:
 
-> Hybrid helped on this frozen evaluation; it is not universally superior.
-
-## 5.7 Metrics — must explain simply
-
-### Recall@10
-
-Of all relevant documents, how many appear in the top 10?
-
-### Hit@10
-
-Did at least one relevant document appear in the top 10?
-
-### MRR@20
-
-How early does the **first relevant document** appear, capped at top 20?
-
-Rank 1 is much better than rank 10.
-
-## 5.8 Embedding cache — useful engineering depth
-
-The dense index cache records:
-
-- cache schema version
-- provider/model identity
-- corpus identity
-- document IDs
-- vector count/dimension
-
-The implementation validates compatibility and writes cache files atomically.
-
-Why it matters:
-
-- embeddings are expensive to recompute
-- stale vectors are dangerous
-- model/corpus identity must match the cache
-
-## 5.9 Reranker — RED LINE
-
-Current default reranker is a deterministic **token-overlap** implementation for the offline/demo surface.
-
-It is not a neural cross-encoder.
-
-The canonical 64-query benchmark does **not** use reranking, HyDE, generation, or an agent.
-
-### Red-line claims
-
-Do **not** say:
-
-- “This is the full EnterpriseRAG-Bench leaderboard result.”
-- “Hybrid is always better.”
-- “The benchmark used a reranker.”
-- “The benchmark used HyDE / generation / agents.”
-- “Better retrieval proves the generated RAG answer is better.”
-- “The current reranker is a neural reranker.”
+- canonical benchmark does not use HyDE, generation, agent or neural reranker
+- demo reranker is lightweight token overlap, not a cross-encoder
+- retrieval improvement does not automatically prove better final generated answers
 
 ---
 
 # 6. Project 3 — Multimodal Video QA Agent
 
-## 6.1 One-line mental model
+## Mental model
 
-> Let the agent use transcript evidence when that is enough, and only inspect frames/clips when the question actually needs visual evidence.
+> Search transcript when text evidence is enough; inspect actual frames/clips only when visual evidence is required.
 
-## 6.2 Ownership boundary — critical
+## Ownership boundary — critical
 
-**Hermes owns:**
+Hermes owns:
 
 - observe/act loop
 - model/tool dispatch
 - deciding which exposed tool to call
 
-**This project owns:**
+This repo owns:
 
-- domain tool definitions
-- transcript retrieval
-- frame/clip extraction
-- evidence storage and IDs
-- activity tracing
+- `search_transcript`
+- `expand_context`
+- `inspect_frame`
+- `inspect_clip`
+- transcript BM25 retrieval
+- FFmpeg frame sampling
+- evidence IDs/store
+- activity trace
 - strict answer/citation contract
-- fail-closed validation/abstention
-- evaluation harness
-- CLI/UI integration
+- fail-closed abstention
+- evaluation harness and integration
 
-Do not claim you implemented the Hermes core agent loop from scratch.
+Do not say you implemented Hermes core from scratch.
 
-## 6.3 Four domain tools — CODE
+## Canonical EVAL
 
-1. `search_transcript(query, top_k)`
-2. `expand_context(segment_id)`
-3. `inspect_frame(timestamp_s)`
-4. `inspect_clip(start_s, end_s, frame_count)`
-
-`transcript_only` mode exposes only the first two. `multimodal` mode also exposes visual tools.
-
-There is no hard-coded `search → frame → clip` workflow.
-
-## 6.4 Transcript retrieval
-
-Transcript segments are searched with BM25.
-
-`expand_context` retrieves neighboring transcript segments by time window.
-
-## 6.5 Visual inspection
-
-FFmpeg extracts:
-
-- one requested frame, or
-- a bounded set of sampled frames from a short clip
-
-Important: this is **sampled-frame inspection**, not native long-video ingestion.
-
-Budgets include max clip duration and max frame count.
-
-## 6.6 Evidence contract and abstention
-
-Every tool result becomes evidence such as `E1`, `E2` with:
-
-- modality (`transcript`, `frame`, `clip`)
-- start/end timestamp
-- text/metadata
-- media paths where relevant
-
-The final runtime format is constrained to roughly:
-
-```text
-FINAL: <short answer> [E#]
-```
-
-If the answer format is invalid, citations refer to unknown evidence, or the model explicitly reports insufficient evidence, `TutorService` fails closed to an abstention response.
-
-## 6.7 Canonical evaluation — EVAL
-
-Frozen 12-question self-authored product-oriented fixture:
+Frozen self-authored 12-case product evaluation:
 
 - 6 transcript-answerable
 - 6 visual-required
+- multimodal strict full pass: **50%**
+- visual-required strict pass: **4/6 = 66.7%**
+- visual-tool use on visual-required: **100%**
+- unnecessary visual tool calls on transcript-answerable: **0% in that frozen run**
 
-Canonical v2 multimodal result:
+This is a narrow product/system experiment, not a broad video-QA benchmark.
 
-- strict full pass overall: **50%**
-- visual-required strict full pass: **66.7% = 4/6**
-- visual tool use on visual-required: **100%**
-- unnecessary visual-tool calls on transcript-answerable: **0% in this frozen run**
+---
 
-The evaluator separates:
+# 7. Work Experience — Kahap / Pac Com
 
-- answer correctness
-- citation validity
-- required modality
-- evidence-time-window correctness
+These remain **RESUME + USER** because public GitHub does not prove internal company implementation.
 
-## 6.8 Post-hoc evaluator fix — RED LINE
+## Kahap feedback platform
 
-A later corrected evaluator re-scored preserved outputs and produced a stronger diagnostic result.
+Be able to explain:
 
-That is **not a fresh end-to-end run** and is not promoted over the original canonical v2 headline.
+- business problem and users
+- architecture/request flow
+- submission workflow
+- notifications
+- admin operations
+- what you personally designed vs inherited
+- deployment environment
+- one production issue
+- one DB issue
+- one thing you would redesign now
 
-Keep resume claim at **4/6 visual-required**.
+Five-whys pattern:
 
-### Red-line claims
+```text
+“Led end-to-end development”
+→ what did end-to-end mean?
+→ architecture?
+→ why Laravel/Vue?
+→ what failed?
+→ how did you diagnose it?
+→ how did you verify the fix?
+```
+
+## Queue / worker / scheduler
+
+- Queue = stores asynchronous work.
+- Worker = consumes queued jobs.
+- Scheduler = triggers jobs/tasks by time/interval.
+- Failure modes: worker crash, duplicate/retried jobs, stuck queue, poison job.
+- Retry can duplicate side effects; idempotency matters.
+
+## Migration / DB troubleshooting
+
+Have one real story for each:
+
+```text
+migration: before → plan → risk → backup → cutover → verify → rollback
+DB issue: symptom → logs/reproduce → app vs DB → query/data/schema → root cause → fix → verify → prevention
+```
+
+---
+
+# 8. M.S. Thesis — CODE + EVAL audited
+
+Repo: `kolihhan/master-thesis`.
+
+Resume title:
+
+> Interpreting Implicit Intent through Workplace Hierarchies and Context
+
+Resume result:
+
+> role-based retrieval `0.6440 → 0.6793`; role+context evidence `0.6819` on 400 held-out examples.
+
+These numbers are directly supported by the checked-in final report after rounding:
+
+- baseline target-only: **0.643971**
+- Role KG target-only: **0.679274**
+- DualKG Top1 target-only: **0.681947**
+
+## 8.1 Clean pipeline — CODE
+
+The current clean pipeline spec is:
+
+```text
+1. State Extraction
+2. GCN Embedding
+3. HeCo / ARD preparation
+4. Cluster
+5. Knowledge Graph
+6. Role KG
+7. Context KG
+8. DualKG Top1 fusion
+9. Evaluation with utterance-aligned preceding context
+10. Evaluation target-only
+11. Final comparison
+```
+
+Main generation model in the clean spec:
+
+- `llama3.1:8b-instruct-q8_0`
+- seed 42
+- temperature 0
+- three responses
+
+## 8.2 State extraction / representation
+
+High-level flow:
+
+- clean raw posts/dialogues
+- extract interpersonal relations
+- aggregate relation labels and topic tags
+- generate speaker/listener state descriptions with LLaMA
+- transform states to graph-training format
+- train/export graph-based state representations
+
+Current Role/Context pipelines expect frozen add-listener GCN embeddings with dimension **600**.
+
+Interview explanation:
+
+> “Instead of treating an utterance as isolated text, I built representations of speaker/listener states and retrieved evidence from structurally similar workplace interactions.”
+
+## 8.3 Role KG — current clean implementation
+
+The clean Role pipeline uses:
+
+- evidence rows grouped/clustering by normalized workplace relation
+- frozen GCN state embeddings
+- MiniLM dialogue embeddings using `paraphrase-multilingual-MiniLM-L12-v2`
+- same-source-post exclusion to reduce leakage
+
+Dialogue candidate score:
+
+```text
+0.6 * dialogue cosine similarity + 0.4 * role-pair match
+```
+
+Role match is strongest for same speaker/listener role pairing, lower for reversed/partial overlap.
+
+Then:
+
+1. take top dialogue candidates
+2. collect their selected relation clusters
+3. rank candidate states using GCN embedding similarity
+4. prefer the target speaker/listener role
+5. produce bounded speaker/listener clue lists
+
+Important: be able to explain **text similarity + structural role signal + graph/state similarity** as separate signals.
+
+## 8.4 Context KG — current clean pipeline
+
+Context groups are built from:
+
+```text
+normalized_relation | communicative_purpose
+```
+
+Communicative purposes include categories such as pressure, refusal, deflection, compliance, risk mitigation and neutral coordination.
+
+The current clean script:
+
+- builds context-key clusters using GCN state embeddings
+- represents evidence/relation/purpose/context-key/cluster as typed nodes/edges
+- excludes evidence from the same source post during retrieval
+- ranks by a mixture of GCN-state semantic similarity and context/relation match
+- prefers the relevant interlocutor role
+
+### Historical-doc warning
+
+`Context_Cond/README.md` and `context_cond_status.json` describe an older Task108/109 branch using `0.80 * dialogue cosine + 0.20 * role-pair match`. The later clean pipeline spec and clean script define the cleaned final pipeline used for the final report.
+
+Do not mix the historical Task108/109 retrieval description with the cleaned final implementation when explaining the final thesis.
+
+## 8.5 DualKG Top1 — very important
+
+Current final fusion is **not RRF/P2Q** and not a simple Role Top1 + Context Top1 merge.
+
+The checked-in builder states the identity explicitly:
+
+```text
+Task35 graph-policy Role backbone
++ Context KG rank-1 evidence per side
++ append only if unique
++ maximum 10 states per side
+```
+
+Therefore if asked “How did you combine role and context?” say:
+
+> “The final DualKG kept the regenerated Task35 role graph-policy evidence as the backbone, then conditionally appended the top Context-KG clue for each side without exceeding the fixed evidence budget.”
+
+## 8.6 Evaluation design — EVAL
+
+Final primary evaluation has two arms using the same selected targets/model/scorer:
+
+1. **Utterance-aligned preceding context** — target + only source-post text before the aligned target unit.
+2. **Target-only** — target utterance with no post context.
+
+Upstream graph construction uses 401 targets; primary evaluation is capped at **400**.
+
+Preceding-context alignment audit:
+
+- exact: 218
+- fuzzy: 132
+- ambiguous: 6
+- unmatched: 44
+- usable: 350/400
+
+The automatic pseudo-reference comes from the complete post; this is an explicit limitation.
+
+## 8.7 Final results — EVAL
+
+### Target-only — this is the resume headline
+
+| Method | F1 |
+|---|---:|
+| Baseline | **0.643971** |
+| Context KG | 0.664568 |
+| Old PRKG best | 0.677335 |
+| Role KG | **0.679274** |
+| DualKG Top1 | **0.681947** |
+
+Thus resume rounding `0.6440 → 0.6793 → 0.6819` is supported.
+
+### Utterance-aligned preceding context
+
+| Method | F1 |
+|---|---:|
+| Baseline | 0.680288 |
+| Context KG | 0.680139 |
+| Old PRKG best | 0.684936 |
+| Role KG | 0.687634 |
+| DualKG Top1 | 0.691147 |
+| Empty-clue protocol control | **0.704428** |
+
+Important nuance:
+
+> DualKG is best in the target-only method table, but the empty-clue protocol control scored higher in the preceding-context arm. Do not claim DualKG is globally the best condition across every evaluation arm.
+
+## 8.8 Semantic F1 scorer
+
+The thesis evaluator follows the existing semantic precision/recall/F1 protocol:
+
+- parse generated answer items
+- normalize/strip role labels
+- compare generated items and pseudo-reference items using MiniLM sentence embeddings
+- compute semantic precision, recall and F1
+
+So when explaining `F1`, do not present it as exact-label classification macro-F1 unless discussing a different experiment. The checked-in final report is a semantic response-matching F1 evaluation.
+
+## 8.9 Thesis likely drill tree
+
+Be ready for:
+
+1. What is “implicit intent” in one concrete workplace example?
+2. Why does workplace role/hierarchy matter?
+3. What are speaker/listener states?
+4. Why use graph/state embeddings instead of only sentence similarity?
+5. Explain Role KG retrieval step-by-step.
+6. What changes in Context KG?
+7. What exactly is a communicative purpose?
+8. Why exclude the same source post from retrieval?
+9. How exactly is DualKG Top1 fused?
+10. Why target-only baseline 0.644 but preceding-context baseline 0.680?
+11. Why is the empty-clue control strong in the preceding-context arm?
+12. What does semantic F1 measure?
+13. What are the limitations of using a pseudo-reference generated from the complete post?
+14. What would you change if rebuilding the thesis today?
+
+## 8.10 Thesis red lines
 
 Do **not** say:
 
-- “I implemented Hermes’ whole agent loop.”
-- “The model consumes arbitrary long video natively.”
-- “The 12-question fixture is a broad video-QA benchmark.”
-- “The canonical result is 6/6 visual questions.”
-- “The agent never makes unnecessary visual calls in general.”
-
----
-
-# 7. Work experience — Kahap / Pac Com
-
-Public GitHub cannot independently prove company-internal work, so these are **RESUME + USER evidence**. The goal is to make every bullet defensible from real memory, not invent details.
-
-## 7.1 Kahap feedback platform
-
-Must be able to explain:
-
-- What problem the platform solved.
-- Main user roles.
-- Basic architecture and request/data flow.
-- What you personally designed vs inherited.
-- Submission workflow.
-- Notification flow.
-- Admin operations.
-- Deployment environment.
-- One difficult production bug or DB issue.
-- One design choice you would change today.
-
-### Likely five-whys
-
-```text
-You led end-to-end development.
-→ What did “end-to-end” mean exactly?
-→ What was the architecture?
-→ Why Laravel/Vue?
-→ What failed in production?
-→ How did you debug it?
-→ How did you know the fix worked?
-```
-
-## 7.2 Queues / workers / schedulers
-
-Need to know:
-
-- **Queue:** stores work to be processed asynchronously.
-- **Worker:** process that consumes queued jobs.
-- **Scheduler:** triggers jobs/tasks at specific times/intervals.
-- Why use async work: slow email/API/task should not block user request.
-- What can go wrong: worker crash, duplicate jobs, retries, stuck queues, poison jobs.
-- Reliability concept: retries can produce duplicates, so important side effects may need idempotency.
-
-## 7.3 Server migration / upgrades / SSL
-
-Be ready with one concrete real migration story:
-
-```text
-before → migration plan → risk → backup → cutover → verification → rollback plan
-```
-
-Do not invent tooling that was not actually used.
-
-## 7.4 Production DB troubleshooting
-
-Know the generic debugging flow and attach it to a real incident:
-
-```text
-symptom
-→ reproduce / inspect logs
-→ narrow app vs DB
-→ inspect query/data/schema
-→ identify root cause
-→ fix
-→ verify
-→ prevent recurrence
-```
-
-## 7.5 Pac Com POS
-
-Prepare one real feature/change you worked on:
-
-- user/business need
-- frontend change
-- backend/API change
-- DB interaction
-- testing/debugging
-- outcome
-
----
-
-# 8. Thesis — minimum defendable knowledge
-
-Current resume claims are **RESUME + USER** until the thesis source is separately audited.
-
-Must be able to explain:
-
-1. What “implicit intent” means with a simple workplace example.
-2. Why role/hierarchy could change interpretation.
-3. Why conversation context could help.
-4. What retrieval contributes before generation/classification.
-5. What graph nodes/relations represent at a high level.
-6. What the baseline is.
-7. What semantic F1 means in this thesis evaluation.
-8. Why `0.6440 → 0.6793 → 0.6819` matters.
-9. What failure cases remain.
-10. Why the result does not prove universal workplace-intent understanding.
-
-Do not memorize the thesis abstract; be able to explain the causal idea in plain language.
+- “DualKG uses RRF.”
+- “DualKG is simply Role Top1 + Context Top1.”
+- “0.6819 is accuracy.”
+- “0.6819 proves universal understanding of workplace intent.”
+- “Context always helps.”
+- “DualKG was the best result in every arm.”
+- “The final clean Context KG is exactly the old Task108/109 README path.”
+- “The evaluation has a human gold label for every generated semantic state.”
 
 ---
 
 # 9. Foundation knowledge checklist
 
-These are the concepts underneath the resume. Learn them through the projects, not as disconnected trivia.
-
 ## Python
 
-- [ ] list vs tuple vs set vs dict
-- [ ] average lookup complexity for dict/set
-- [ ] mutability and hashability
-- [ ] exceptions and error boundaries
-- [ ] dataclass
-- [ ] type hints / `Protocol`
-- [ ] iteration / comprehensions
-- [ ] file/JSON handling
-- [ ] basic subprocess behavior and timeout handling
+- [ ] list / tuple / set / dict
+- [ ] average dict/set lookup complexity
+- [ ] mutability / hashability
+- [ ] exceptions and failure boundaries
+- [ ] dataclass / type hints / Protocol
+- [ ] file/JSON processing
+- [ ] subprocess timeout/error handling
 
-## Backend / APIs
+## Backend/API
 
-- [ ] request → validation → service → DB/external dependency → response
+- [ ] request → validation → service → DB/dependency → response
 - [ ] GET vs POST
-- [ ] common HTTP status classes: 2xx / 4xx / 5xx
-- [ ] REST resource thinking
-- [ ] input validation
-- [ ] timeout vs failure
-- [ ] retry strategy
+- [ ] 2xx / 4xx / 5xx
+- [ ] retries and timeouts
 - [ ] idempotency
-- [ ] sync vs async/background jobs
-- [ ] health endpoint purpose
-- [ ] service-layer boundary
+- [ ] sync vs queued/background work
+- [ ] health checks
 
-## Database / SQL
+## Database
 
-- [ ] primary key vs unique key
+- [ ] primary vs unique key
 - [ ] foreign key
-- [ ] index: why it helps and write/storage trade-off
-- [ ] INNER JOIN / LEFT JOIN
-- [ ] GROUP BY / aggregate functions
-- [ ] transaction and ACID at a practical level
-- [ ] locking/concurrency basics
-- [ ] SQL injection concept
-- [ ] read-only access / least privilege
-- [ ] why syntactically valid SQL can be semantically wrong
+- [ ] index trade-offs
+- [ ] JOIN / GROUP BY / aggregates
+- [ ] transactions / ACID intuition
+- [ ] locks/concurrency basics
+- [ ] SQL injection
+- [ ] least privilege/read-only DB access
 
-## Reliability / distributed-system basics
+## Reliability
 
-- [ ] timeout does not necessarily mean operation failed
-- [ ] retry can create duplicate side effects
-- [ ] idempotency key / deduplication intuition
-- [ ] queue and worker
-- [ ] retry budget / backoff intuition
-- [ ] at-least-once processing intuition
-- [ ] graceful failure vs silent wrong result
+- [ ] timeout ≠ confirmed failure
+- [ ] retries can duplicate side effects
+- [ ] idempotency/deduplication
+- [ ] queues/workers
+- [ ] bounded retry/backoff
+- [ ] fail closed vs silently wrong
 
-Classic example to master:
+## Retrieval/AI
 
-> Email API times out. If you blindly retry, the first request may actually have succeeded, causing two emails. Use an idempotent request key / deduplication strategy, persist operation state where appropriate, and distinguish timeout from confirmed failure.
-
-## Retrieval / RAG
-
-- [ ] lexical vs semantic retrieval
-- [ ] BM25 intuition
-- [ ] embedding intuition
-- [ ] cosine similarity
-- [ ] why normalized dot product = cosine
-- [ ] RRF formula and motivation
-- [ ] Recall@K
-- [ ] Hit@K
-- [ ] MRR
-- [ ] reranking
-- [ ] retrieval failure vs generation failure
-- [ ] retrieval metric ≠ answer quality
-
-## Agents / tool calling
-
-- [ ] model vs agent vs workflow
-- [ ] tool schema
-- [ ] observe / choose action / tool result / continue or stop
-- [ ] bounded action/tool budgets
+- [ ] BM25
+- [ ] embeddings / cosine similarity
+- [ ] RRF
+- [ ] Recall@K / Hit@K / MRR
+- [ ] retrieval vs generation failure
+- [ ] tool calling vs fixed workflow
 - [ ] evidence grounding
 - [ ] abstention
-- [ ] why deterministic validation still matters around agents
-
-## AI-native engineering
-
-Be able to describe your actual working discipline:
-
-```text
-Understand requirement
-→ give AI relevant context
-→ specify constraints and interfaces
-→ let AI propose/implement
-→ inspect the diff/output
-→ run tests / targeted checks
-→ test edge cases
-→ debug failures using evidence
-→ keep/revert based on measured result
-```
-
-Important principle:
-
-> AI can accelerate implementation; responsibility for requirements, architecture, validation and correctness remains with the engineer.
+- [ ] evaluation design / ablations
 
 ---
 
 # 10. Recommended drill order
 
-Do not study everything at once.
-
-### Session 1 — Text-to-SQL
-
-Goal: survive 5 layers of follow-up without bluffing.
-
-- 60-second explanation
-- architecture from memory
-- verifier/safety
-- metrics
-- failure cases
-- why semantic revision was rejected
-
-### Session 2 — Kahap production engineering
-
-- feedback platform architecture
-- one production incident
-- queues/workers/schedulers
-- DB troubleshooting
-- migration/deployment
-
-### Session 3 — Hybrid RAG
-
-- BM25
-- dense embeddings
-- RRF
-- metrics
-- benchmark scope
-- latency/quality trade-off
-
-### Session 4 — Video QA / Agents
-
-- ownership boundary
-- tool calling
-- evidence flow
-- transcript vs visual decision
-- abstention
-- evaluation contract
-
-### Session 5 — Backend + DB fundamentals
-
-Focus on scenario questions, not rote definitions.
-
-### Session 6 — Thesis
-
-Explain like to a software engineer who has not read the paper.
-
-### Session 7 — Full Ant-style mock
-
-Mix:
-
-- resume deep dive
-- project five-whys
-- backend/DB fundamentals
-- business-logic problem
-- AI-assisted coding/validation reasoning
+1. **Text-to-SQL** — 60-second explanation → five-whys → safety → metrics → failure cases.
+2. **Kahap production engineering** — architecture → incident → queues → DB → migration.
+3. **Thesis** — explain full idea in plain English → Role KG → Context KG → DualKG → metrics/limitations.
+4. **Hybrid RAG** — BM25 → dense → RRF → metrics/trade-offs.
+5. **Video QA / agent** — ownership → tools → evidence → abstention → evaluation.
+6. **Backend + DB scenario questions**.
+7. **Full Ant-style mixed mock**.
 
 ---
 
-# 11. Mastery gate for each resume item
+# 11. Mastery gate
 
-A bullet is interview-ready only when all are true:
+A resume bullet is interview-ready only if:
 
-- [ ] I can explain it in **30–60 seconds** without jargon dumping.
-- [ ] I can draw/describe its **data flow / architecture**.
-- [ ] I can explain **why** I chose the approach.
-- [ ] I can name at least one **failure mode**.
-- [ ] I can explain one **trade-off**.
-- [ ] I can explain the **metric/result without exaggerating it**.
-- [ ] I can answer “what did YOU personally do?” precisely.
-- [ ] I can answer “what would you improve next?” realistically.
-- [ ] I know which details are **code/eval evidence** vs personal recollection.
+- [ ] I can explain it in 30–60 seconds.
+- [ ] I can describe the architecture/data flow.
+- [ ] I can explain why the design was chosen.
+- [ ] I can name a failure mode.
+- [ ] I can explain a trade-off.
+- [ ] I can explain the metric without exaggeration.
+- [ ] I can say exactly what I personally did.
+- [ ] I can say what I would improve next.
+- [ ] I can separate CODE/EVAL evidence from personal recollection.
 
 ---
 
-# 12. Open evidence gaps
+# 12. Remaining evidence gaps / cleanup items
 
-These are intentionally not filled with guesses:
+1. **Kahap / Pac Com internal work** still depends on real personal examples; do not invent details.
+2. **Text-to-SQL resume wording “schema and values”** is broader than the current supported main-path implementation; prepare the distinction between main schema-grounded path and separate value-grounding experiment.
+3. Thesis repo contains substantial historical Task/investigation material alongside the cleaned final pipeline. For interview answers, prioritize `Evaluate/CLEAN_THESIS_PIPELINE.md`, the current clean Role/Context/DualKG code, and `Evaluate/results/THESIS_PIPELINE_FINAL_REPORT.md`.
+4. Not every historical notebook cell or LFS/binary/model artifact is semantically deep-read; those are not needed to defend the submitted resume claims.
 
-1. **Kahap / Pac Com internal implementation** — requires real personal examples; public repos cannot verify them.
-2. **Thesis implementation details** — current resume claims recorded, but thesis/code source has not been audited in this file.
-3. **Understand Anything graph** — no generated `.ua/knowledge-graph.json` was present, so repo understanding was built by full tree inventory + direct source/dependency/data-flow reading instead.
-4. Historical experiment/workflow/static files were inventoried but are not all interview-relevant; the deep-read prioritizes current runtime, canonical evaluation, architecture and tests.
-
-Never fill these gaps by inventing details. During practice, mark uncertain personal details and recover them from actual memory/source material.
+Never fill a gap by guessing.
 
 ---
 
 ## Current study starting point
 
-Start with **Text-to-SQL**.
+Start with **Text-to-SQL**, then thesis is now fully in scope for drilling.
 
-First drill question:
+First question:
 
-> “Can you walk me through your Text-to-SQL project and explain why you added verification and repair instead of just prompting the model to generate better SQL?”
-
-Answer naturally first. Then drill the exact weak points instead of memorizing a polished script.
+> “Can you walk me through your Text-to-SQL project and explain why you added deterministic verification and bounded repair instead of just prompting the model to generate better SQL?”
