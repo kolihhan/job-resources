@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `381`
+- cursor: `382`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-17 17:19 MYT` — worker healthy, `first_seq=1`, `last_seq=5897`; page index agrees on the current feed range; no cursor gap. Worker reports the latest delta run (`new=2356`, `changed=0`) completed at `2026-10-17T06:55:17Z`.
+- public health verified: `2026-10-17 18:11 MYT` — worker healthy, `first_seq=1`, `last_seq=5897`; page index agrees on the current feed range; no cursor gap. Worker reports the latest delta run (`new=2356`, `changed=0`) completed at `2026-10-17T06:55:17Z`.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index remain healthy at seq 5897. Direct ranged fetch exposed the actual fresh head through seq 5897. Bounded head screening found Moonshot AI Agent Engineer (seq 5890) as the only serious-looking survivor in the inspected head; GitHub had no Moonshot/role duplicate and both Gmail accounts had no exact-ID/company-title history, but the employer Mokahr route could not be independently fetched because it redirect-looped, so no Issue was created from FreeHire metadata alone. Other inspected head records were cheap-screen terminals. Historical catch-up safely processed seq 376-381 as terminal and advanced the contiguous cursor 375→381; seq 382 (JPM Software Engineer III) was left unseen-by-decision rather than skipped.`
+- last intake: `Worker/index remain healthy at seq 5897 with no producer delta. Fresh-head page remains the same bounded head previously inspected; no new head event required promotion. Historical catch-up processed seq 382 (JPMorganChase Software Engineer III) as terminal after current verification showed the Software Engineer III family requires 3+ years applied experience and seasoned/mid-level scope, with role-specific Java/full-stack or payments/trading requirements; GitHub had no exact prior Software Engineer III Issue. Contiguous cursor advanced 381→382 and was written for read-back.`
 
 ## Current receipt
 
