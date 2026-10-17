@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `324`
+- cursor: `330`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-17 08:16 MYT` — healthy, `first_seq=1`, `last_seq=3539`; page index matches `first_seq=1 / last_seq=3539`; no cursor gap. Backlog is 3215 events.
+- public health verified: `2026-10-17 09:15 MYT` — healthy, `first_seq=1`, `last_seq=3539`; page index matches `first_seq=1 / last_seq=3539`; no cursor gap. Backlog is 3209 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy and unchanged at seq 3539, so there was no new fresh-head delta to screen. Historical catch-up advanced the contiguous cursor 312→324. Seq 313–318 and 320–324 reached terminal cheap-screen outcomes under RULES (contract/staffing/outsourcing, non-target role, manager/senior mismatch, or equivalent hard/low-value lane mismatch). Seq 319 SUNOLLO Backend Engineer (Platform) received current deep verification because it initially looked relevant: current JobStreet/WhatJobs surfaces show full-time and live, but the JD explicitly frames the role as senior, with 5+ years preferred and only strong mid-level candidates considered; this is not a realistic early-career stretch, so it was not promoted. No finalist reached Gmail dedupe or Issue creation. No application or external contact was made.`
+- last intake: `Worker/index healthy and unchanged at seq 3539, so there was no new fresh-head delta to screen. Historical catch-up advanced the contiguous cursor 324→330. Seq 325 Addcel Engineering AI Engineer is already represented by current #343 / prior #190 history and was terminal as a duplicate; seq 326 Manpower JAVA Backend Developer and seq 327 FPT Backend Engineer were terminal staffing/outsource lanes; seq 328 ICT Infrastructure Engineer was a low-value non-target infrastructure lane; seq 329 GRC Construction AI Engineer exactly matches already-applied-and-closed #226; seq 330 Associate AI Developer is explicitly part-time/short-term contract. No finalist reached Gmail dedupe or Issue creation. No application or external contact was made.`
 
 ## Current receipt
 
