@@ -1,0 +1,77 @@
+name: UA Official Scan Public Repos
+
+on:
+  push:
+    paths:
+      - '.github/workflows/ua-scan-public.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repos and pinned UA
+        env:
+          GIT_LFS_SKIP_SMUDGE: '1'
+        run: |
+          mkdir -p work/repos
+          git clone --depth 1 https://github.com/kolihhan/semantic-text2sql-agent.git work/repos/semantic-text2sql-agent
+          git clone --depth 1 https://github.com/kolihhan/local-rag-search.git work/repos/local-rag-search
+          git clone --depth 1 https://github.com/kolihhan/hermes-video-tutor.git work/repos/hermes-video-tutor
+          git clone https://github.com/Egonex-AI/Understand-Anything.git work/Understand-Anything
+          git -C work/Understand-Anything checkout 790b157028637b626c8666fa7fa28248944b900c
+
+      - name: Build UA core
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.6.2 --activate
+          cd work/Understand-Anything/understand-anything-plugin
+          pnpm install --frozen-lockfile
+          pnpm --filter @understand-anything/core build
+
+      - name: Run official scan, import extraction, and batching
+        run: |
+          set -euo pipefail
+          UA_PLUGIN="$GITHUB_WORKSPACE/work/Understand-Anything/understand-anything-plugin"
+          SKILL="$UA_PLUGIN/skills/understand"
+          export NODE_PATH="$UA_PLUGIN/node_modules"
+          for name in semantic-text2sql-agent local-rag-search hermes-video-tutor; do
+            root="$GITHUB_WORKSPACE/work/repos/$name"
+            mkdir -p "$root/.ua/tmp" "$root/.ua/intermediate"
+            node "$SKILL/scan-project.mjs" "$root" "$root/.ua/tmp/ua-scan-files.json" --exclude-analysis-data
+            python - "$root" <<'PY'
+import json,sys
+from pathlib import Path
+root=Path(sys.argv[1])
+scan=json.loads((root/'.ua/tmp/ua-scan-files.json').read_text())
+payload={'projectRoot':str(root),'files':scan['files']}
+(root/'.ua/tmp/ua-import-input.json').write_text(json.dumps(payload),encoding='utf-8')
+PY
+            node "$SKILL/extract-import-map.mjs" "$root/.ua/tmp/ua-import-input.json" "$root/.ua/tmp/ua-import-map.json"
+            python - "$root" <<'PY'
+import json,sys
+from pathlib import Path
+root=Path(sys.argv[1])
+scan=json.loads((root/'.ua/tmp/ua-scan-files.json').read_text())
+imports=json.loads((root/'.ua/tmp/ua-import-map.json').read_text())
+scan['importMap']=imports.get('importMap',{})
+scan['name']=root.name
+scan.setdefault('description','')
+scan.setdefault('frameworks',[])
+scan.setdefault('languages',sorted(scan.get('stats',{}).get('byLanguage',{})))
+(root/'.ua/intermediate/scan-result.json').write_text(json.dumps(scan,indent=2),encoding='utf-8')
+PY
+            node "$SKILL/compute-batches.mjs" "$root"
+            mkdir -p "$GITHUB_WORKSPACE/out/$name"
+            cp "$root/.ua/intermediate/scan-result.json" "$GITHUB_WORKSPACE/out/$name/"
+            cp "$root/.ua/intermediate/batches.json" "$GITHUB_WORKSPACE/out/$name/"
+          done
+
+      - name: Upload official scan outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: ua-official-public-scan
+          path: out
+          retention-days: 1
