@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `362`
+- cursor: `375`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-17 12:11 MYT` — healthy, `first_seq=1`, `last_seq=3541`; page index matches `first_seq=1 / last_seq=3541`; no cursor gap. Backlog is 3179 events.
+- public health verified: `2026-10-17 13:16 MYT` — healthy, `first_seq=1`, `last_seq=3541`; page index matches `first_seq=1 / last_seq=3541`; no cursor gap. Backlog is 3166 events.
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index healthy and unchanged at seq 3541; no fresh-head delta beyond the prior inspected head. Historical cursor remains 362 because the sequence page feed/pages/0000000351-0000000400.jsonl is connector-truncated immediately after seq 362 in this run, so seq 363 could not be safely isolated or terminally screened. No unseen event was skipped, no finalist reached Gmail dedupe, and no Issue was created. No application or external contact was made.`
+- last intake: `Worker/index healthy and unchanged at seq 3541; no fresh-head delta beyond the prior inspected head. Historical catch-up advanced 362→375. Seq 363-375 reached stable terminal outcomes under RULES: obvious agency/route/seniority/role mismatches were cheap-screened; TikTok Multi-Modal Content & Vector Systems lacked a verified exact employer route in bounded verification; Singapore Airlines Application Developer (AOS) was verified live on the official careers site but its hard Java/React full-stack requirements materially exceed current evidence, and targeted both-Gmail title dedupe found no exact prior application; Micron seq 372 could not be safely mapped from the old JobStreet mirror to one exact current requisition and was not guessed into a new opportunity. No finalist warranted Issue creation. Cursor write/read-back required.`
 
 ## Current receipt
 
