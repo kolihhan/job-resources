@@ -25,8 +25,8 @@
 | SuggestionBox通知 | 同步 HTTP 呼叫 Career `/third-place-sendEmail`；未見自寫 Jobs／worker | 同上；`suggestionbox/app/Http/Controllers/Admin/VoteManageController.php::process` |
 | Career佇列 | 封存 production 設定是 **database queue、Redis cache** | `career/config/queue.php`、`career/config/cache.php`；Career考古文件安全env摘錄 |
 | Queue工作 | 無自寫 `app/Jobs`，但 ShouldQueue notification 會由框架變成 queued job | `career/app/Notifications/StudentCareerLectureNotification.php` |
-| SSL | Career README 有 Certbot check/renew＋Nginx restart；SuggestionBox forceScheme 不等於TLS部署 | `career/README.md:97–103`、`suggestionbox/app/Providers/AppServiceProvider.php` |
-| 個人歸屬 | USER的0→1設計參與可保留；SuggestionBox Git 明確多人，不能全數獨攬 | SuggestionBox考古文件歷史Git摘錄；原`.git`不發布 |
+| SSL / production OS | **USER-CONFIRMED:** SuggestionBox production 由本人用 **Certbot + Let’s Encrypt** 配 HTTPS；production 曾用 **Ubuntu 22.04 / 24.04**。`forceScheme` 仍只算 application-side CONFIG。Career README 另有 Certbot check/renew＋Nginx restart。 | Career README、SuggestionBox provider；本人確認的 production 操作 |
+| Career 個人歸屬 | `career-git.zip` 補回完整 Git history；本人確認 `kolihhan`、`kolih`、`LIH HAN KO`、`高立恒`、`DESKTOP-96L42D8\lihha` 全是本人。五個 identity 合計 **516 / 1,176 commits**，範圍 **2022-08-04 → 2026-08-31**。 | `job-project/docs/career-code-archaeology.md` 的 Git-confirmed ownership section |
 
 以上是 lock 的解析版本，不是即時正式機盤點。**CONFIG** 原始被排除 `.env` 的安全白名單：SuggestionBox=`local`、MySQL、sync queue、file cache/session；Career=`production`、MySQL、database queue、Redis cache、file session、`APP_POTOCOL=https`。不發布原env或其他秘密值；此摘錄也不證明現在有worker正常執行。
 
@@ -50,6 +50,45 @@
 
 **CODE／界線** 正取／候補存在pivot；取消可遞補。報名通知dispatch在attach／commit前，個人資料更新也在transaction前。不能說全副作用after-commit，不能由transaction推論一定不超賣或所有檔案／郵件都能rollback。
 
+## Career：Git-confirmed 本人實際做過的東西
+
+`CONFIG + USER-CONFIRMED IDENTITY`：額外提供的 `career-git.zip` 是完整 Career Git history。以下五個 author identity 全部由本人確認是自己：
+
+- `kolihhan <ko.lih@kahap.com>` — 306 commits
+- `kolih <ko.lih@kahap.com>` — 108 commits
+- `DESKTOP-96L42D8\lihha <lihhanko3@gmail.com>` — 93 commits
+- `高立恒 <ko.lih@kahap.com>` — 7 commits
+- `LIH HAN KO <ko.lih@kahap.com>` — 2 commits
+- **Total: 516 unique commits / repo 1,176 commits**
+- **Date range: 2022-08-04 → 2026-08-31**
+
+這代表 Career 不應再描述成「只改一點 CSS」。Git 直接支持本人長期做大量 production maintenance、bug fixing 與 feature work。最適合面試記憶的 commits：
+
+| Commit | 直接可說的工作 |
+|---|---|
+| `57352fe0` | 第三方後台登入功能；auth/controller/route 類修改 |
+| `9b45ef74` | 實習老師 API：學生資料、實習紀錄、實習機構列表 |
+| `c398c2c3` | 使用者修改密碼流程修正；簡單 maintenance/debug 例子 |
+| `ff6eb4a8` | 學生集點紀錄活動類型錯誤顯示修正 |
+| `25477bc3` | 企業申請實習時自動帶入既有資料；跨 Laravel API + Vue/store/API service |
+| `6cc473ea` | API 報錯、表單欄位與 model/resource/schema 類調整 |
+| `18abd37d` | 真實 CSS/UI design 維護；CSS 只是整體工作的一小部分 |
+| `0c830242` | 企業更新資料判斷 + 前後台校園徵才活動一致性修正 |
+
+**安全說法：**「我接手一個既有 Laravel/Vue production system，長期做 bug fixing、API/表單/實習/點數/admin/front-end 功能維護與新增。」不要把其他作者 commits 或整個平台全部功能都說成自己從零寫。
+
+## Pac Com：簡短準備，不與 Career 混用
+
+`USER`：Pac Com 是更早期的實習，主要在既有 **Laravel + Vue POS** 系統做簡單 maintenance：小型 bug fix、UI/CSS/layout 調整、既有功能維護。這段經歷的主要學習價值是第一次在真實專案裡理解並使用 Laravel framework。
+
+目前沒有找到可對應 Pac Com 的 source repo 或 Git history；`career-git.zip` 明確是 2022-08 之後的 NTUST Career history，**不能拿 Career commits 冒充 Pac Com**。
+
+面試安全版：
+
+> At Pac Com I worked on an existing Laravel/Vue POS system. The tasks were relatively straightforward: maintaining existing features, fixing smaller application or UI issues, and making CSS/layout adjustments. It was where I first learned how a real Laravel application is structured and maintained.
+
+如果被追 Laravel，講你當時建立的基礎 mental model：route → controller → model/database → Blade/Vue response；不要虛構複雜 production incident。
+
 ## Queue vs job vs worker vs scheduler／cron
 
 | 名詞 | ELI5 | 本專案具體證據 |
@@ -72,7 +111,7 @@
 
 **CONFIG** Career有Docker／Envoy／CI／Nginx-FPM-Swoole／Supervisor等多年代配置。Dockerfile PHP7.4 Apache和README PHP7.2／Nginx-Swoole並存；不能拼成已驗證的一套正式拓樸。外部CI template／deploy.sh缺失。`career/README.md:97–103`記錄mail卡住時查Supervisor、SSL過期時`certbot certificates`／`certbot renew`／Nginx restart。
 
-**USER** 你說做過SuggestionBox部署、Career搬server與HTTPS；具體操作仍由你回憶。**UNKNOWN** 舊新機／OS、備份還原工具、media搬法、DNS cutover／TTL、停機、rollback、驗收、Certbot plugin／challenge／renew timer。資料migration檔不是server migration紀錄。
+**USER-CONFIRMED** SuggestionBox production deployment 由本人負責；production 曾跑在 **Ubuntu 22.04 / 24.04**，HTTPS 使用 **Certbot + Let’s Encrypt**。Career 亦有本人搬 server／HTTPS 的記憶，且 README 有 Certbot/Nginx 維運背景。**UNKNOWN** 仍包括每次搬遷的舊新機對應版本、完整 backup/restore、media 搬法、DNS cutover／TTL、停機、rollback、驗收，以及當時 Certbot plugin/challenge 的精確選項。資料 migration 檔不是 server migration 紀錄。
 
 **SSL概念** DNS→驗證網域控制權→CA簽憑證→web server載入憑證與私鑰→HTTPS→定期續期與重新載入。`URL::forceScheme()`只改生成網址，不會簽憑證、設定TLS或保證續期。兩案讀的是拼字原樣`APP_POTOCOL`。SuggestionBox HSTS類別的header語句是註解，不能說已生效。
 
@@ -82,7 +121,7 @@
 
 ## Production／DB debugging：要準備一件真的事件
 
-**CONFIG/Git** SuggestionBox kolihhan的`a997328`／`e331dff`涉及email_status和重複通知；`a9a4be5`涉及成案／留言。這些是回憶入口，commit subject不能自動變成完整事故故事。
+**CONFIG/Git + USER-CONFIRMED IDENTITY** SuggestionBox 的 `kolihhan`／相關已確認本人 alias commits 可作個人貢獻證據；`a997328`／`e331dff`涉及 email_status 和重複通知，`a9a4be5`涉及成案／留言。Career 另有 516 個本人確認 commits，包含密碼、API、點數、實習、表單、UI 等大量真實 maintenance。commit subject 是回憶入口，仍不要把 subject 擴寫成沒發生過的事故故事。
 
 **CODE／本次靜態發現** Proposal validation用strip_tags副本，persist卻讀原request；Career通知早於commit；legacy MD5登入沒有自動升級hash；QR payload是base64 JSON，不代表加密防竄改。它們不是本次修復，也未證明是你當年的修復。
 
