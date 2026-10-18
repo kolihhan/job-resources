@@ -2,12 +2,12 @@
 
 ## FreeHire intake cursor
 
-- cursor: `424`
+- cursor: `436`
 - public feed: `kolihhan/freehirefetch/feed/index.json` + sequence-addressable `feed/pages/*.jsonl`; legacy `feed/events.jsonl` remains worker state but is not used for routine private intake
-- public health verified: `2026-10-18 09:12 MYT` — worker healthy, `first_seq=1`, `last_seq=5964`; page index agrees on the current feed range; no cursor gap. Latest delta run reports `new=0`, `changed=0`, completed at `2026-10-18 08:01 MYT` (`2026-10-18T00:01:21.935720Z`).
+- public health verified: `2026-10-18 10:17 MYT` — worker healthy, `first_seq=1`, `last_seq=5964`; page index agrees on the current feed range; no cursor gap. Latest delta run reports `new=0`, `changed=0`, completed at `2026-10-18 08:01 MYT` (`2026-10-18T00:01:21.935720Z`).
 - worker correction: `2026-10-09` — stale-NEW regression reproduced by a failing test and fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`; focused CI passed. Daily full backstop now seeds stale unseen jobs without emitting them as NEW. Existing pre-fix backlog remains historical feed state and must not block current-job inspection.
 - intake mode: `FreeHire Intake` is enabled hourly. Current `RULES.md` requires a bounded fresh-head pass before sequential cursor catch-up when backlog exists; fresh inspection beyond the cursor does not move the cursor over unprocessed history.
-- last intake: `Worker/index remain healthy at seq 5964 with no new/changed producer events, so there was no new fresh-head delta to screen. Historical catch-up processed seq 413-424 to stable terminal results and advanced the contiguous cursor 412 -> 424. The batch was dominated by sales/presales, staffing/recruiting, infrastructure/operations, MCF-only routes, and explicit 5+ YOE hints. Seq 417 Full Stack Developer was a staffing/recruiter listing with MCF as the surfaced route; seq 422 Cloud & Platform Engineer was likewise a staffing listing with MCF routing; seq 424 Data Engineer carried a 5+ YOE hint and MCF routing. No candidate survived the cheap hard filter to serious Stage 2 verification, finalist Gmail dedupe, or Issue creation.`
+- last intake: `Worker/index remain healthy at seq 5964 with no new/changed producer events, so there was no new fresh-head delta to screen. Historical catch-up processed seq 425-436 to stable terminal results and advanced the contiguous cursor 424 -> 436. Most records were MCF-only, staffing/recruiting, contract, infrastructure/operations, or hard seniority/experience mismatches. Seq 434 SEA Singapore AI-Driven Backend Engineer was suppressed by existing Sea Backend Engineer application history (#82). Seq 436 Google Software Engineer III, Full Stack had no GitHub exact-ID/title duplicate, but the exact FreeHire-linked Google requisition 101158458002154182 is no longer found on Google Careers, so it was terminal rather than promoted. No candidate reached finalist Gmail dedupe or Issue creation.`
 
 ## Current receipt
 
