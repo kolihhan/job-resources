@@ -1,937 +1,177 @@
 # Resume Interview Drill — Kahap Job Experience
 
-Last updated: 2026-10-18
+更新：2026-10-18。這是歷史原始碼靜態考古；未啟動舊系統、寄信、執行 migration／worker／排程、連接舊正式機或部署。詳讀 [SuggestionBox source archaeology](https://github.com/kolihhan/job-project/blob/main/docs/suggestionbox-code-archaeology.md) 和 [Career source archaeology](https://github.com/kolihhan/job-project/blob/main/docs/career-code-archaeology.md)。
 
-Primary use: technical interview preparation for the **Kahap Inc — Software Developer (Part-time)** section of the resume.
+所有 suggestionbox/、career/ 路徑相對於私有原始碼 repo [kolihhan/job-project](https://github.com/kolihhan/job-project)。本文件以真實程式證據取代原先待考古的假設；未證明的個人操作仍保留 USER／UNKNOWN。
 
-This file is a memory-recovery and interview-drill source of truth for the two main NTUST projects. The goal is to make the real work easy to explain without inventing implementation details that are no longer remembered.
+## 證據規則
 
----
+- **CODE**：source 直接實作，不等於已證明正式環境成功運作。
+- **CONFIG**：manifest／lock／設定／部署文件／Git metadata；區分設定意圖和實際運行。
+- **USER**：本人回憶的設計、實作、上線、維護、搬遷。source 不能單獨證明操作者。
+- **INFERENCE**：有依據的解釋、風險或建議，不能改說成親歷事實。
+- **UNKNOWN**：沒有充分證據，留待回憶或補紀錄。
 
-## 0. Evidence rules
+## 先記住的事實與修正
 
-Use these labels strictly:
-
-- **USER** — explicitly recalled by Lih Han.
-- **RESUME** — currently stated in `resumes/resume-en-current.md`.
-- **CODE** — directly verified from the original project source code.
-- **CODE-PENDING** — source archive exists, but the claim has not yet been verified from code.
-- **GENERAL** — technical knowledge that should be understood for interview follow-up; **not automatically a claim about the project**.
-
-### Original code archives supplied
-
-- `ntust-forum-20260608.tar(1).gz`
-- `laravel-project(2).zip`
-
-These archives still need a successful source-code audit before facts are promoted to **CODE**.
-
-### Critical rule
-
-> If a detail is only GENERAL knowledge, never turn it into “I did this in production” unless USER memory or CODE proves it.
-
-Examples of things that must **not** be guessed:
-
-- Redis vs database queue driver
-- Supervisor vs systemd vs another worker manager
-- Nginx vs Apache
-- exact MySQL version
-- exact Laravel version
-- exact notification channel
-- whether a specific feature used a queue
-- whether `scheduler`, `worker`, or `queue` belonged to SuggestionBox, Career, or both
-- exact migration commands / deployment sequence
-
----
-
-# 1. Big picture — what the Kahap experience actually is
-
-Current resume wording (**RESUME**):
-
-- Led end-to-end development of a production feedback platform, from system design and implementation through deployment, including submission workflows, automated notifications, and admin operations.
-- Shipped new features and resolved application and database issues on an existing Laravel/Vue.js production platform.
-- Managed server migrations and upgrades, Laravel queues/workers/schedulers, SSL renewal, and production database troubleshooting.
-
-The real experience should be mentally split into **two projects**, not blended into one vague “Laravel project”.
-
-## Project A — NTUST SuggestionBox
-
-**USER-confirmed:**
-
-- Participated in / owned the project from **0 → 1**.
-- System/design work was done by Lih Han.
-- Main implementation stack: **Laravel + Livewire**.
-- Deployment/server work was also handled by Lih Han.
-- HTTPS was configured using **Certbot**.
-
-This is the strongest project for questions about:
-
-- ownership
-- system design
-- full-stack implementation
-- taking a system from idea to production
-- deployment
-- HTTPS / production operations
-
-## Project B — NTUST Career
-
-**USER-confirmed:**
-
-- Took over an **existing** system rather than building it from zero.
-- Maintained it and added several functions/features.
-- Migrated / changed the production server.
-- Handled SSL / HTTPS work on the new server.
-
-**RESUME context:** the existing production platform is described as **Laravel + Vue.js**.
-
-This is the strongest project for questions about:
-
-- understanding an unfamiliar existing codebase
-- maintenance and incremental feature development
-- production debugging
-- server migration
-- minimizing risk while changing a live system
-
-## Queue / worker / scheduler ownership
-
-**RESUME:** these are real items on the current resume.
-
-**UNRESOLVED:** which exact NTUST project(s) used them, what driver/process manager was used, and what jobs were asynchronous.
-
-Until the code audit or memory confirms this, do **not** attach them to a specific project in an interview answer.
-
----
-
-# 2. Safe 60-second Kahap overview
-
-Use this as the current baseline, then personalize it as memory returns:
-
-> At Kahap I worked part-time on two main NTUST web systems. One was SuggestionBox, where I was involved from the beginning and handled the system design, Laravel/Livewire implementation, and production deployment, including HTTPS setup with Certbot. The other was an existing Career platform that I took over later. I added and maintained features there and also handled production work such as moving the application to a new server and restoring the SSL setup. So the experience was not only writing application code — I also had to understand existing systems, debug production issues, and keep the applications running after deployment changes.
-
-### Do not over-expand this answer immediately
-
-Stop after the high-level map and let the interviewer choose the drill direction.
-
-Likely branches:
-
-1. “Tell me more about SuggestionBox.”
-2. “What did you design yourself?”
-3. “How does Livewire work?”
-4. “Walk me through deployment.”
-5. “What did server migration involve?”
-6. “Tell me about a production bug.”
-7. “What did you use queue / worker / scheduler for?”
-
----
-
-# 3. Project A — NTUST SuggestionBox
-
-## 3.1 Facts currently safe to claim
-
-| Claim | Evidence | Status |
+| 面試主題 | 確認結果 | 可重查的 repository 路徑 |
 |---|---|---|
-| Built the system from the beginning / 0→1 | USER | Safe |
-| Personally handled system/design work | USER | Safe |
-| Laravel was used | USER | Safe |
-| Livewire was used | USER | Safe |
-| Personally handled production deployment | USER | Safe |
-| HTTPS was configured with Certbot | USER | Safe |
-| Submission workflow existed | RESUME | Safe at high level; recover exact flow |
-| Automated notifications existed | RESUME | Safe at high level; recover exact implementation |
-| Admin operations existed | RESUME | Safe at high level; recover exact functions |
-| Exact DB schema/entities | CODE-PENDING | Do not invent |
-| Exact Laravel/Livewire version | CODE-PENDING | Do not invent |
-| Exact web server/runtime setup | CODE-PENDING | Do not invent |
-| Exact queue use | CODE-PENDING | Do not invent |
+| Archive identity | Forum tar = SuggestionBox；Laravel zip = Career | 兩案 composer/package、README、views、routes |
+| SuggestionBox stack | Laravel **9.36.4**、Livewire **2.10.7**；沒有 Vue dependency | `suggestionbox/composer.lock`、`suggestionbox/package.json` |
+| Career stack | Laravel **5.8.38**、Vue **2.7.16**、Vuex **3.6.2**、Router **3.6.5**、Axios **0.18.1** | `career/composer.lock`、`career/package-lock.json` |
+| SuggestionBox互動 | Blade/controller 表單 + 四個 Livewire 元件；不是全部操作都走 Livewire | `suggestionbox/app/Http/Livewire/`、`suggestionbox/routes/web.php` |
+| Career互動 | Vue/Vuex/Axios/JWT API；管理端另有 Blade/jQuery | `career/resources/assets/vue/`、`career/resources/views/admin/`、`career/public/js/admin/` |
+| 成案門檻 | **100 筆總 Message，含贊成和反對**，不是100贊成 | `suggestionbox/app/Http/Livewire/Front/Vote/Detail.php::submit` |
+| SuggestionBox通知 | 同步 HTTP 呼叫 Career `/third-place-sendEmail`；未見自寫 Jobs／worker | 同上；`suggestionbox/app/Http/Controllers/Admin/VoteManageController.php::process` |
+| Career佇列 | 封存 production 設定是 **database queue、Redis cache** | `career/config/queue.php`、`career/config/cache.php`；Career考古文件安全env摘錄 |
+| Queue工作 | 無自寫 `app/Jobs`，但 ShouldQueue notification 會由框架變成 queued job | `career/app/Notifications/StudentCareerLectureNotification.php` |
+| SSL | Career README 有 Certbot check/renew＋Nginx restart；SuggestionBox forceScheme 不等於TLS部署 | `career/README.md:97–103`、`suggestionbox/app/Providers/AppServiceProvider.php` |
+| 個人歸屬 | USER的0→1設計參與可保留；SuggestionBox Git 明確多人，不能全數獨攬 | SuggestionBox考古文件歷史Git摘錄；原`.git`不發布 |
 
----
+以上是 lock 的解析版本，不是即時正式機盤點。**CONFIG** 原始被排除 `.env` 的安全白名單：SuggestionBox=`local`、MySQL、sync queue、file cache/session；Career=`production`、MySQL、database queue、Redis cache、file session、`APP_POTOCOL=https`。不發布原env或其他秘密值；此摘錄也不證明現在有worker正常執行。
 
-## 3.2 The first question to master
+## SuggestionBox：必須能講清楚的資料流
 
-**Interviewer:**
+**CODE** 身份：`suggestionbox/routes/web.php` → `StudentController::loginTo` → Career `/third-place-login` → 本地 `Student` 身份對應 → student session。Admin 是另一個 guard。不是所有密碼驗證都由Forum自行實作。
 
-> You said you built the feedback platform from scratch. Walk me through what you did from the beginning until it went into production.
+**CODE** 提案：proposal route → `ProposalController::{tempPreview,preview,storeTemp,store}` → handler內Validator → `TempProposal`/`Proposal`及附件表 → public disk → redirect到投票清單。主旨／說明／建議必填；單檔10,240KB，jpeg/png/gif/pdf。預覽先存暫存，確認再建立正式案號。位置：`suggestionbox/app/Http/Controllers/ProposalController.php`、`suggestionbox/resources/views/front/proposal/`。
 
-Your answer must eventually contain five layers:
+**CODE** 投票：`VoteController::show` → Blade 掛 `Front\Vote\Detail` → Livewire `submit()` → Message → 總聲量 → `status/process/email_status` → 同步Career通知 → browser event／Livewire refresh。管理員用 `VoteManageController::process` 受理／結案／改說明與通知。
 
-```text
-Problem / requirement
-    ↓
-System + data design
-    ↓
-Main user/admin workflow
-    ↓
-Laravel + Livewire implementation
-    ↓
-Production deployment + HTTPS
-```
+**CODE** DB：Student有Proposal／Message；Proposal有Messages、附件、UnitItem；UnitItem屬Unit。草稿／草稿附件另表。細節在 `suggestionbox/app/Models/` 和 `suggestionbox/database/migrations/`；業務關聯不代表每條FK、唯一限制、授權檢查都完善。
 
-### Memory blanks to recover
+**解釋Livewire：** Blade先顯示頁面，互動請求回PHP元件，元件改狀態或DB，回傳UI更新。本案表單仍走controller，清單／投票／留言／部分管理互動才是Livewire。歷史選型理由若忘了，不能用今天的技術比較冒充當年決策。
 
-Do not answer these from imagination. Recover them from memory/code:
+## Career：必須能追通的一條完整流程
 
-- Who gave the original requirements?
-- Who were the user roles?
-- What could a normal user submit?
-- Was submission anonymous or authenticated?
-- What fields were stored?
-- What statuses did one suggestion/submission move through?
-- What could administrators do?
-- What event triggered a notification?
-- Who received notifications?
-- Email, in-app, or another channel?
-- What was the hardest business rule?
-- Did the system handle attachments?
-- Did it have search/filter/export?
-- What authentication/authorization rules existed?
-- What did “production ready” require before launch?
+**CODE** 講座報名：`career/resources/assets/vue/components/pages/lectures/LectureContent.vue` → `common/modal/StudentEnrollEvent.vue`驗證與emit → `store/pages/students.js` action → `services/api/students.js` → Axios Bearer token → `career/routes/api.php` 的 `POST /api/student/career-lecture` → `StudentCareerLectureController::store` → 時段／欄位／重複檢查 → `CareerLecture::students()` 寫 `career_lecture_student` pivot → `StudentCareerLectureNotification` → JSON message → Vue更新歷史／導頁。
 
----
+**CODE** API主設定：`career/resources/assets/vue/services/api/index.js`；JWT刷新：`career/app/Http/Middleware/RefreshToken.php`。這條controller直接用Eloquent，沒有憑空加一層PHP service；實習表單才有 `career/app/Service/InternFormService.php` 等服務。DB其他域包含Enterprise→JobList、徵才表單／攤位／商品、學生／教師／企業的實習表單。
 
-## 3.3 Laravel + Livewire — concepts you must be able to explain
+**CODE／界線** 正取／候補存在pivot；取消可遞補。報名通知dispatch在attach／commit前，個人資料更新也在transaction前。不能說全副作用after-commit，不能由transaction推論一定不超賣或所有檔案／郵件都能rollback。
 
-These are **GENERAL** until the code audit maps them to the actual implementation.
+## Queue vs job vs worker vs scheduler／cron
 
-### Laravel mental model
-
-A normal Laravel request can involve:
-
-```text
-HTTP request
-   ↓
-Route
-   ↓
-Middleware / auth
-   ↓
-Controller or Livewire component
-   ↓
-Validation + business logic
-   ↓
-Eloquent model / database
-   ↓
-Blade / JSON / Livewire update
-```
-
-Know what each layer is responsible for.
-
-### What Livewire is — ELI5
-
-Livewire lets the UI behave interactively while much of the application logic remains in PHP.
-
-Instead of writing a separate Vue/React frontend for every interaction:
-
-1. the browser displays a Blade/Livewire component;
-2. a user clicks/types/submits;
-3. Livewire sends a request to the Laravel backend;
-4. the PHP component updates state / queries the DB;
-5. Livewire sends back the UI changes.
-
-### Interview follow-up
-
-> Why Livewire instead of Vue?
-
-Do not invent the historical decision if you do not remember it.
-
-Safe technical comparison:
-
-- Livewire keeps frontend interaction close to Laravel/PHP.
-- It can reduce the amount of separate frontend/API state management for server-driven forms/admin workflows.
-- Vue gives more explicit client-side control and is better suited when the frontend behaves like a richer SPA.
-
-Then say why **this project actually chose it** only after memory/code confirms the reason.
-
----
-
-## 3.4 System design grill
-
-You should eventually answer each of these without hand-waving:
-
-1. What was the main business problem?
-2. Who were the users?
-3. What were the core entities/tables?
-4. What was the lifecycle of one submission?
-5. How did you separate user actions from admin actions?
-6. How did authorization work?
-7. Where did validation happen?
-8. How were notifications triggered?
-9. What happened when notification delivery failed?
-10. What was synchronous vs asynchronous?
-11. What was the most difficult edge case?
-12. What did you do to prevent bad/duplicate/invalid submissions?
-13. How did you test the workflow before production?
-14. What did you log?
-15. What would you redesign today?
-
-### Strong interview standard
-
-Do not just name Laravel classes.
-
-The interviewer should be able to see the **data flow**:
-
-```text
-user action → validation → permission check → DB change → side effect → UI/admin visibility
-```
-
----
-
-# 4. SuggestionBox deployment + HTTPS
-
-## 4.1 What is confirmed
-
-**USER:** you handled deployment and used **Certbot** for HTTPS.
-
-## 4.2 Deployment concepts to know
-
-The exact historical sequence is **CODE-PENDING / MEMORY-PENDING**, but a Laravel production deployment normally forces you to think about:
-
-- server OS/runtime
-- PHP + required extensions
-- Composer dependencies
-- database connection
-- `.env` / production secrets
-- application key
-- file/storage permissions
-- web server / PHP-FPM configuration
-- domain / DNS
-- migrations
-- cache/config optimization
-- queue workers, if used
-- scheduler/cron, if used
-- persistent uploads/storage
-- logs
-- HTTPS certificate
-
-These are a **checklist for recovering what you actually did**, not permission to claim every item.
-
----
-
-## 4.3 Certbot / HTTPS — know the mechanism
-
-**GENERAL:**
-
-Certbot is commonly used to obtain and renew TLS certificates from **Let's Encrypt**.
-
-Mental model:
-
-```text
-Domain DNS points to server
-        ↓
-Server proves control of domain
-        ↓
-Let's Encrypt issues certificate
-        ↓
-Web server serves HTTPS on 443
-        ↓
-Certificate renews before expiry
-```
-
-Be ready for:
-
-- Why HTTPS is needed.
-- Difference between HTTP and HTTPS.
-- What a TLS certificate proves.
-- Why DNS/domain configuration matters.
-- What happens when a certificate expires.
-- How automatic renewal is checked.
-- Why you should verify the site after renewal/server migration.
-
-### Safe answer today
-
-> I handled the production deployment, including HTTPS. For the certificate I used Certbot with Let's Encrypt. I had to make sure the domain was pointing to the correct server, configure the web server for the application, obtain the certificate, and then verify that HTTPS and renewal were working.
-
-Do not add the exact Certbot plugin/command (`--nginx`, `--apache`, standalone, webroot, etc.) until verified.
-
----
-
-# 5. Project B — NTUST Career
-
-## 5.1 Facts currently safe to claim
-
-| Claim | Evidence | Status |
+| 名詞 | ELI5 | 本專案具體證據 |
 |---|---|---|
-| Took over an existing system | USER | Safe |
-| Maintained it | USER | Safe |
-| Added several functions/features | USER | Safe; recover exact examples |
-| Existing platform was Laravel/Vue.js | RESUME | Safe at resume level; code audit still useful |
-| Migrated the application to another server | USER | Safe |
-| Re-established / handled SSL on the server | USER | Safe |
-| Exact features added | MEMORY-PENDING | Must recover |
-| Exact server stack | CODE-PENDING | Do not invent |
-| Exact migration process | MEMORY/CODE-PENDING | Recover before claiming details |
+| Job | 一項要做的工作 | Career框架queued notification；沒有自寫Jobs目錄 |
+| Queue | 保存等待工作的backend | Career原production env選database；jobs/failed_jobs migrations；SuggestionBox原env選sync |
+| Worker | 持續拿工作來執行的process | `career/environment/supervisord.d/laravel-worker.conf`：queue:work、3processes、sleep3、tries3、autorestart |
+| Scheduler | 決定定期工作何時到期 | 兩案 `app/Console/Kernel.php` |
+| Cron | OS可用來定時啟動命令的機制 | Career實際checked-in配置是Supervisor每60秒呼叫schedule:run，不是已確認的crontab |
 
----
+**CODE** SuggestionBox：daily `proposal:check`；`suggestionbox/app/Console/Commands/CheckProposalExpiry.php` 處理過期未成案與草稿附件。正式機如何觸發／有沒有成功執行仍UNKNOWN。
 
-## 5.2 Core interview story
+**CODE/CONFIG** Career：daily17:00徵才報名／選位通知；daily01:00 sitemap和`lectures:clear`。後者清除已結束且開啟隱私模式活動pivot的生日／身份欄位；不等於抹掉所有個資。`line:check`有command，卻未在Kernel安排。`StudentCareerLectureNotification` implements ShouldQueue；`StudentMailRegisterToken`只有Queueable trait，不能說所有mail都queued。
 
-This project is useful because the engineering problem is different from SuggestionBox.
+**INFERENCE／面試診斷** Worker死掉可能jobs堆積、HTTP成功但mail沒寄。檢查Supervisor、jobs/failed_jobs、Laravel log、SMTP。retry可能重複副作用；3workers或email_status都不是exactly-once保證。這是理解方法，只有USER記憶／事故紀錄能證明你實際處理過。
 
-SuggestionBox demonstrates:
+## MySQL、搬機與SSL
 
-> “I can build and ship something from zero.”
+**CODE/CONFIG** SuggestionBox主要讀 `DB_CONNECTION/HOST/PORT/DATABASE/USERNAME/PASSWORD`；Career主要讀 `DATABASE_CONNECTION/HOST/PORT/NAME/USER/PASSWORD`，見各自`config/database.php`。Career舊`.env.local.docker`卻是DB_*與QUEUE_DRIVER；現有config讀DATABASE_*與QUEUE_CONNECTION。直接搬舊env可能完全沒設定到使用中的連線，這是具體可見風險，不是已證明的親歷故障。
 
-Career demonstrates:
+**CONFIG** Career有Docker／Envoy／CI／Nginx-FPM-Swoole／Supervisor等多年代配置。Dockerfile PHP7.4 Apache和README PHP7.2／Nginx-Swoole並存；不能拼成已驗證的一套正式拓樸。外部CI template／deploy.sh缺失。`career/README.md:97–103`記錄mail卡住時查Supervisor、SSL過期時`certbot certificates`／`certbot renew`／Nginx restart。
 
-> “I can enter an existing production codebase, understand it, change it safely, and operate it.”
+**USER** 你說做過SuggestionBox部署、Career搬server與HTTPS；具體操作仍由你回憶。**UNKNOWN** 舊新機／OS、備份還原工具、media搬法、DNS cutover／TTL、停機、rollback、驗收、Certbot plugin／challenge／renew timer。資料migration檔不是server migration紀錄。
 
-That distinction is valuable. Keep it.
+**SSL概念** DNS→驗證網域控制權→CA簽憑證→web server載入憑證與私鑰→HTTPS→定期續期與重新載入。`URL::forceScheme()`只改生成網址，不會簽憑證、設定TLS或保證續期。兩案讀的是拼字原樣`APP_POTOCOL`。SuggestionBox HSTS類別的header語句是註解，不能說已生效。
 
----
+**INFERENCE／用來喚回記憶的搬遷順序：** 盤點runtime／DB／uploads／secrets／web／workers／scheduler → 備份並確認可還原 → 準備相容環境和權限 → 配置正確env與APP_KEY、還原資料／storage link、清cache → 測登入／讀寫／附件／活動／mail／背景工作 → 切DNS並配置HTTPS → 看logs、保留rollback、驗收後收舊機。只有當年真做過的步驟才用第一人稱。
 
-## 5.3 Taking over an unfamiliar production system
+可能壞在哪：PHP/extensions、DB帳密或grants、host/port、舊env鍵、schema mismatch、缺uploads／storage權限、APP_KEY更動、stale config cache、舊worker未reload、兩機重複scheduler、SMTP阻擋、DNS未切、憑證網域不符／過期／沒載入。不要把這份風險清單說成全部親歷。
 
-Likely interviewer question:
+## Production／DB debugging：要準備一件真的事件
 
-> If you did not build the Career platform, how did you understand it well enough to change it?
+**CONFIG/Git** SuggestionBox kolihhan的`a997328`／`e331dff`涉及email_status和重複通知；`a9a4be5`涉及成案／留言。這些是回憶入口，commit subject不能自動變成完整事故故事。
 
-Good reasoning sequence to recover from your real experience:
+**CODE／本次靜態發現** Proposal validation用strip_tags副本，persist卻讀原request；Career通知早於commit；legacy MD5登入沒有自動升級hash；QR payload是base64 JSON，不代表加密防竄改。它們不是本次修復，也未證明是你當年的修復。
 
-```text
-Run / access existing system
-      ↓
-Understand user-facing workflow
-      ↓
-Trace route / backend entry point
-      ↓
-Trace database + frontend flow
-      ↓
-Make a small bounded change
-      ↓
-Test existing behavior + new behavior
-      ↓
-Deploy carefully
-```
+**INFERENCE／debug方法** 明確症狀與範圍→時間/log/stack→最近變動→沿route/auth/validation/query/env定位→最小根因修正→驗證原案例和旁邊流程。DB先分連線、schema、資料、query、constraint、效能、transaction，不要一問DB就說加index。
 
-### Things you should remember
+**USER待補** 症狀？你第一個看什麼證據？根因？改哪檔／設定／資料？怎麼驗證？如何防再發？實際成果？沒有真記憶就不能用靜態風險補故事。
 
-- How did you set it up locally?
-- Was documentation available?
-- Did another developer hand it over to you?
-- Which part did you read first?
-- How did Vue communicate with Laravel?
-- Was it Blade + Vue components, or more SPA-like?
-- What was one concrete feature you added?
-- What was one old bug you fixed?
-- What DB issue did you encounter?
-- How did you know a change did not break old behavior?
+## 個人可以安全說什麼
 
----
+| 敘述 | 證據與界線 |
+|---|---|
+| 參與SuggestionBox 0→1設計／實作／上線 | USER；歷史Git多人，個人責任要具體，不說全程式獨寫 |
+| 解釋附件、投票、通知狀態、每日清理、Excel、雙語 | CODE；kolihhan commit提供多項歸屬線索，確認本人alias後挑本人部分講深 |
+| 接手Career、加功能、搬server、處理HTTPS | USER；沒有Git，快照差異不能指定作者 |
+| 解釋queue／Supervisor／schedule／Certbot文件 | CODE/CONFIG；個人操作和成功結果仍要記憶或紀錄 |
+| 指出現有缺陷及更好的做法 | 可以，但說是現在重讀的判斷，不假稱當年已完成 |
 
-# 6. Server migration — this WILL be drilled
+## 口述稿：30秒與2分鐘
 
-## 6.1 What is confirmed
+以下個人責任部分來自USER，必須按真實分工調整。
 
-**USER:** you migrated / changed the server for the Career platform and handled SSL afterward.
+### SuggestionBox：30秒
 
-## 6.2 Interviewer question
+「我參與台科大學生建言平台從設計到實作和上線，用Laravel與Livewire。學生能提案、預覽、附檔、投票留言，管理員能受理、分派單位、結案與匯出。帳號和狀態通知整合既有Career API。這是團隊開發，我會區分自己負責的功能。」
 
-> Walk me through the server migration. What did you actually move and how did you reduce risk?
+### SuggestionBox：2分鐘
 
-Do not answer only:
+「這個平台讓學生建言有完整的追蹤流程。我參與設計和實作，學生先填主旨、說明及建議，可附圖片或PDF；預覽寫暫存提案與附件紀錄，確認再轉正式提案、產生案號。主要表單走Laravel controller，投票列表、留言和部分管理操作用Livewire，互動回到PHP元件，改DB和狀態後更新UI。
 
-> “I copied the project to another server.”
+投票和留言是一筆Message，贊成與反對都算聲量，達100筆後成案。管理員再受理、指定權責單位、更新說明或結案，也能匯出Excel。身份驗證共用Career API，本地保留身份對應和session；狀態通知也是同步呼叫Career，不是這個專案自己的背景job。email_status記錄通知進度，另有每日命令處理未成案到期、草稿與附件清理。
 
-A web application has more state than source code.
+現在我能解釋資料流和錯誤邊界，例如DB transaction不能把檔案或外部API副作用一起回滾。歷史Git也能對回附件、投票、通知狀態和雙語等功能。我不會把同事的初始程式都認領；部署和HTTPS的細節則按當年的實際操作補充。」
 
-### Migration inventory — GENERAL recovery checklist
+### Career：30秒
 
-Ask yourself which of these you actually moved/recreated:
+「Career是接手維護的既有台科大職涯平台，Laravel後端、Vue前台，管理端另有Blade。我做功能維護，也處理server搬遷和HTTPS。它有學生、企業、教師帳號及活動、徵才、實習、通知。我會用具體功能和真實維運案例說明工作，不把整個既有平台當成自己的作品。」
 
-```text
-Application code
-Production .env / secrets
-Database
-User-uploaded files / storage
-PHP/runtime dependencies
-Web server config
-Domain / DNS
-SSL certificate setup
-Cron / Laravel scheduler
-Queue workers
-Process manager
-Permissions
-Logs / monitoring
-```
+### Career：2分鐘
 
-### Safe conceptual sequence
+「這個專案是接手既有系統，跟SuggestionBox不同。Vue前台用Vuex管狀態，API service經Axios呼叫Laravel並帶JWT，管理端有Blade和jQuery。範圍很大，所以接手要先沿一條產品流程理解它。
 
-A controlled server migration usually looks like:
+以講座報名為例，Vue表單驗證後呼叫store action與API；後端檢查時間、必填和重複報名，按名額決定正取或候補，再寫學生和講座的pivot並發通知。取消時會從候補遞補。這條流程能一起說明前端狀態、後端身份驗證、DB關係與副作用邊界。
 
-```text
-1. Inventory old environment
-2. Back up DB / persistent files
-3. Prepare compatible new server
-4. Deploy application + dependencies
-5. Restore/configure DB and storage
-6. Restore production environment configuration
-7. Test app on new server
-8. Switch traffic / DNS
-9. Configure and verify HTTPS
-10. Verify background processes
-11. Watch logs / errors
-12. Keep rollback path until stable
-```
+維運方面，封存production設定是database queue，Redis作cache；Supervisor配置三個queue workers。Scheduler另由每分鐘的runner觸發，再決定徵才通知、sitemap和隱私資料清理何時執行。搬server不能只搬code，還有DB、uploads、env鍵名、PHP相容性、權限、背景程序、DNS和HTTPS。這套程式有DATABASE_*與舊DB_*不一致的具體風險，README也有Supervisor與Certbot排障。哪個功能是我加的、哪次故障是我處理的，以及當年的切換和驗收，我會按真實記憶補充，不把所有既有功能都說成自己做的。」
 
-Again: this is the **knowledge model**. During an interview, replace it with the steps you genuinely remember performing.
+## 面試官可能追問
 
----
+1. 0→1原始需求？你決定哪些資料模型／技術選擇？哪個Git alias是你？
+2. 畫一次proposal→draft→附件→投票→管理員結案；哪些controller，哪些Livewire？
+3. 為何反對也算100門檻？後端如何防重複？UI和DB constraint有何界線？
+4. Career API超時或DB rollback時，通知與本地狀態可能不同步嗎？
+5. Vue component、Vuex、Axios、JWT middleware各做什麼？
+6. 正取／候補怎麼存？同時搶最後名額怎麼辦？怎麼遞補？
+7. Queueable和ShouldQueue差別？沒有Jobs目錄為何仍有queued jobs？
+8. 哪個driver、幾個worker？worker掛掉、部署後reload、retry和重複副作用？
+9. 哪些daily任務？誰呼叫schedule:run？line:check真的有排嗎？
+10. DB錯誤如何區分host/port、帳密/grants、env/cache、schema、資料/query？
+11. 搬機哪些state要留？APP_KEY可以換嗎？怎麼避免兩機重複工作？
+12. Certbot怎麼證明domain控制權？哪個plugin/challenge？生成https URL和TLS握手差異？
+13. 一件真production bug：症狀、第一證據、根因、修正、驗證和結果？
+14. 哪兩個Career功能確定是你加的？快照差異為何不能證明作者？
 
-## 6.3 Migration failure modes to know
+## 紅線：不能這樣說
 
-An interviewer may ask “what can go wrong?”
+- 「兩個系統全部我一個人從零寫的」「merge commit／快照新增檔＝我寫的」。
+- 「SuggestionBox用Vue、Redis queue、Supervisor寄通知」「Career全部mail都queued」。
+- 「Career queue用Redis」；封存env選database，Redis在cache。
+- 「100個贊成才成案」「retry／email_status保證exactly-once」「transaction保證不超額報名／撤銷已寄mail」。
+- 「forceScheme就是SSL部署」「HSTS class存在就生效」「已證明自動續期正常」。
+- 「Career QR已加密防竄改」「legacy MD5登入會自動升級hash」。
+- 「migration檔就是搬機紀錄」「所有配置屬同一已驗證正式拓樸」。
+- 「零停機、效能提升X%、服務1,000+人、完整測試或安全保證」：本次沒有對應量測。
+- 把本次靜態風險說成當年的親歷修復，把README建議說成已執行操作。
 
-Be able to reason about:
+## 復原、保密及驗證記錄
 
-- incompatible PHP/Laravel/Composer versions
-- missing PHP extensions
-- wrong environment variables
-- wrong database credentials
-- migration/schema mismatch
-- missing user-uploaded files
-- `storage` / cache permission issues
-- forgotten queue worker
-- forgotten scheduler/cron
-- DNS still pointing at old IP
-- SSL issued/configured for the wrong server/domain
-- application caches containing stale config
-- old server still processing background jobs
+| 輸入 | 完整解出entries | member bytes | SHA-256 |
+|---|---:|---:|---|
+| `ntust-forum-20260608.tar(1).gz` | 10,640 | 126,736,272 | `2bcd4ff4223cb4a2dd6eaa1f7694467ba2fa1abea086b843539606f479990637` |
+| `laravel-project(2).zip` | 68,998 | 936,575,376 | `6d0bf1a8f922f67d1cfc4bdf12be7b5d2a6cd4f14cc80dd735a07f53504d8859` |
 
-Do **not** say you personally hit these unless true.
+Tar最後復原symlinks，未沿正式機絕對連結寫檔；ZIP全member CRC通過。完整抽取與安全發布分開：repo只保留清理後source。排除.env*、原.git、dependency、storage/records、SQL私有dump、key/certificate、nested backup及generated bundles/maps，保留72份獨特public JS/CSS。nested Career archive是舊snapshot，無nested-only own source；差異不代表作者。
 
----
+清理掃描覆蓋1,605份source／8,707,665 bytes。只有7份檔案16行credential redaction，原line count、LF/CRLF保持：Career AESCrypt歷史key/IV；兩案UserFactory固定hash；Career StudentFactory、EnterpriseFactory、UserSeeder、StudentTest固定密碼。可重建_ide_helper不保留。其餘source保持原bytes與可取得mode，未refactor或升級。
 
-# 7. Queue / worker / scheduler — resume defense
+掃描包含敏感路徑、provider token、private-key/certificate、credential URI、entropy候選、所有保留檔中原env秘密／AES值／fixture hash重用，搭配上下文審查。公開site key／Analytics／site-verification ID和Faker定義不當秘密；不保留真實用戶dump。結果為無已確認未清理秘密；不等於完整app security或可部署認證。
 
-Current resume explicitly contains:
+## Understand Anything 執行狀態
 
-> Laravel queues/workers/schedulers
+使用實際 `Egonex-AI/Understand-Anything` 的 `understand` skill，pinned commit `790b157028637b626c8666fa7fa28248944b900c`；skill blob `778b800c1d770ae6401ae86245def77dd220900c`。環境重置後取回原skill/scripts/core，沒有自製替代scanner/extractor或虛構graph。
 
-So this is interviewable even before we know which project used what.
-
-## 7.1 Queue — ELI5
-
-A queue stores work that should be processed separately instead of blocking the current user request.
-
-Example concept:
-
-```text
-User submits request
-      ↓
-App saves DB state
-      ↓
-Job is placed on queue
-      ↓
-HTTP response can finish
-      ↓
-Worker processes job later
-```
-
-Typical reasons:
-
-- email / notifications
-- slow external API calls
-- file processing
-- batch jobs
-
-Do **not** claim those were your exact queued tasks until confirmed.
-
-## 7.2 Worker
-
-A worker is the long-running process that pulls queued jobs and executes them.
-
-Laravel concept to recognize:
-
-`php artisan queue:work`
-
-Interview follow-ups:
-
-- What happens when a worker crashes?
-- How are failed jobs handled?
-- Why might workers need restarting after deployment?
-- How do retries create duplicate side effects?
-- What is idempotency?
-
-## 7.3 Scheduler
-
-Laravel Scheduler defines recurring application tasks in code.
-
-Typical production mechanism:
-
-```text
-OS cron triggers Laravel schedule runner
-                  ↓
-Laravel decides which scheduled tasks are due
-```
-
-Concept to recognize:
-
-`php artisan schedule:run`
-
-Do not confuse:
-
-- **scheduler** = decides *when* a recurring task should run
-- **queue** = stores work waiting to be processed
-- **worker** = executes queued work
-
-## 7.4 Red lines
-
-Until verified, do not say:
-
-- “We used Redis.”
-- “Supervisor managed the workers.”
-- “SuggestionBox notifications were queued.”
-- “Career used the database queue.”
-- “The scheduler ran X every night.”
-
-All of those may be true, but they require evidence.
-
----
-
-# 8. Production bug debugging
-
-This is more important than memorizing Laravel trivia.
-
-## 8.1 Generic debugging sequence
-
-When something breaks in production:
-
-```text
-1. Define the symptom precisely
-2. Check scope: one user / one feature / whole system?
-3. Check logs and error message
-4. Reproduce if possible
-5. Check recent changes
-6. Trace request/data flow
-7. Isolate app vs DB vs environment/server
-8. Fix the smallest root cause
-9. Verify affected + nearby flows
-10. Monitor after deployment
-```
-
-### Laravel things you should know where to inspect
-
-**GENERAL:**
-
-- application logs
-- validation exceptions
-- stack traces
-- route/middleware/auth behavior
-- config/environment differences
-- cache/config issues
-- database errors
-- queue failures
-- server/web-server logs when the request never reaches Laravel correctly
-
----
-
-## 8.2 Database problem drill
-
-**Interviewer:**
-
-> You wrote that you troubleshot production database issues. Give me an example.
-
-We still need a **real incident** from your memory/code.
-
-For every incident, recover this exact structure:
-
-```text
-Symptom:
-What evidence did I check first?
-What did I initially suspect?
-What was the actual root cause?
-What did I change?
-How did I verify it?
-What would prevent it next time?
-```
-
-### DB failure categories to distinguish
-
-**GENERAL:**
-
-- connection/configuration failure
-- missing/wrong schema migration
-- incorrect data
-- application query bug
-- constraint violation
-- slow query/index problem
-- transaction/concurrency issue
-
-Do not jump to “indexing” just because an interviewer says DB problem. Diagnose from evidence.
-
----
-
-# 9. High-value interview questions — grill list
-
-## SuggestionBox — ownership
-
-1. What was the original requirement?
-2. Who were the users?
-3. What did you personally design?
-4. Draw the main workflow.
-5. What were the core database entities?
-6. Why Laravel?
-7. Why Livewire?
-8. How did one Livewire action reach the database?
-9. What validation and authorization existed?
-10. How did notifications work?
-11. What was the hardest feature?
-12. What production bug do you remember?
-13. How did you deploy it?
-14. How exactly did HTTPS/Certbot fit into the deployment?
-15. What would you redesign now?
-
-## Career — takeover + maintenance
-
-1. What did the Career system do?
-2. What stack/version did it use?
-3. How did you understand a codebase you did not build?
-4. Name two or three functions you added.
-5. Name one application bug you fixed.
-6. Name one DB issue you fixed.
-7. What was risky about modifying a live existing system?
-8. Why did the server need to move?
-9. What did you copy vs reinstall vs reconfigure?
-10. How did you move the DB/persistent files?
-11. How did you switch the domain to the new server?
-12. What did you do for SSL afterward?
-13. How did you verify the migration succeeded?
-14. Was there a rollback plan?
-15. What background jobs/schedulers had to survive the move?
-
-## Queue / worker / scheduler
-
-1. What actual job did you queue?
-2. Why not execute it synchronously?
-3. Which queue driver did you use?
-4. What starts the worker?
-5. What happens after a worker crashes?
-6. How did you inspect failed jobs?
-7. How did you avoid duplicated side effects on retry?
-8. What scheduled task did the system have?
-9. How was the scheduler triggered in production?
-10. What deployment step could accidentally leave old workers running old code?
-
-If any answer is currently “I forgot”, that becomes a **memory/code-recovery target**, not something to improvise.
-
----
-
-# 10. Strong answer format for any work-experience story
-
-Use **Context → Ownership → Technical path → Problem → Evidence/Result**.
-
-Example skeleton:
-
-```text
-Context
-- What system / user problem?
-
-Ownership
-- What was specifically mine?
-
-Technical path
-- How did the request/data move through the system?
-
-Problem
-- What went wrong / what constraint mattered?
-
-Evidence / Result
-- How did I verify the feature/fix/deployment worked?
-```
-
-This is stronger than listing tools:
-
-> Laravel, Vue, Livewire, MySQL, Linux, Certbot...
-
-The interviewer wants to know whether you understand the system you operated.
-
----
-
-# 11. Resume risk check
-
-## Bullet 1
-
-> Led end-to-end development of a production feedback platform, from system design and implementation through deployment, including submission workflows, automated notifications, and admin operations.
-
-Main drills:
-
-- “Led” / personal ownership
-- exact workflow
-- architecture
-- notification implementation
-- admin permissions
-- deployment
-
-Current evidence status:
-
-- 0→1, design, Laravel/Livewire, deployment: **USER**
-- submission/notification/admin detail: **RESUME**, needs exact recovery
-
-## Bullet 2
-
-> Shipped new features and resolved application and database issues on an existing Laravel/Vue.js production platform.
-
-Main drills:
-
-- which exact features?
-- one application bug
-- one DB bug
-- how Vue and Laravel interacted
-
-Current evidence status:
-
-- existing-system takeover + feature work: **USER**
-- Laravel/Vue.js: **RESUME**
-- exact incidents: **MEMORY-PENDING**
-
-## Bullet 3
-
-> Managed server migrations and upgrades, Laravel queues/workers/schedulers, SSL renewal, and production database troubleshooting.
-
-This is the **highest-risk bullet** if memory is weak because every noun can create a technical drill tree.
-
-Must recover:
-
-- migration: old → new environment and concrete steps
-- queue: actual job + driver
-- worker: how process stayed running / restarted
-- scheduler: actual scheduled task + production trigger
-- SSL: Certbot flow + renewal
-- DB troubleshooting: at least one real incident
-
----
-
-# 12. Code-audit checklist for the supplied archives
-
-When the archive execution environment is available, inspect **all interview-relevant source**, not only README files.
-
-## Phase A — identify which archive is which project
-
-Check:
-
-- `composer.json`
-- `package.json`
-- app name / README
-- routes
-- namespaces / views / UI text
-
-## Phase B — architecture inventory
-
-Inspect:
-
-- `routes/web.php`
-- `routes/api.php`
-- `app/Http/Controllers/**`
-- `app/Livewire/**` or `app/Http/Livewire/**`
-- `app/Models/**`
-- `database/migrations/**`
-- `resources/views/**`
-- `resources/js/**`
-- auth/middleware/policies
-
-Output:
-
-```text
-user flow → route/component → service/business logic → model/table → side effect
-```
-
-## Phase C — background work
-
-Search:
-
-- `ShouldQueue`
-- `dispatch(`
-- `Job`
-- `Notification`
-- `Mail`
-- queue config
-- scheduler definitions
-- console kernel / scheduled commands
-- process-manager config if included
-
-Goal: resolve **queue / worker / scheduler** claims exactly.
-
-## Phase D — production/deployment evidence
-
-Search for:
-
-- nginx / apache config
-- Docker files
-- deployment scripts
-- `.env.example`
-- storage links
-- cron
-- Supervisor/systemd configs
-- SSL/certbot references
-- server migration notes
-
-Do not expose real secrets from `.env` files.
-
-## Phase E — git/history evidence if included
-
-If `.git` exists:
-
-- identify Lih Han's commits
-- map concrete features/fixes
-- find server/deployment changes
-- extract real bug stories from commits
-
-## Phase F — update this document
-
-Promote only proven facts:
-
-```text
-USER / RESUME / CODE-PENDING → CODE
-```
-
-Add exact file paths beside important claims so interview revision remains evidence-first.
-
----
-
-# 13. Next grill order
-
-Do this **one question at a time**, not as a giant quiz.
-
-### Round 1 — SuggestionBox business flow
-
-> What exactly happened from the moment a user opened SuggestionBox until an admin finished handling one submission?
-
-### Round 2 — SuggestionBox architecture
-
-> Which Laravel/Livewire pieces handled that flow, and what did the main database tables represent?
-
-### Round 3 — deployment
-
-> Start with a blank/new server. What do you remember doing until the production domain showed the application over HTTPS?
-
-### Round 4 — Career takeover
-
-> Name the first real feature you remember adding after taking over the Career system. Trace it from UI → backend → DB.
-
-### Round 5 — server migration
-
-> What triggered the server move, what state had to be preserved, and how did you know the new server was safe to cut over to?
-
-### Round 6 — production incident
-
-> Give one real application or database problem you saw in production. We will reconstruct the debugging path from evidence, not from the final answer.
-
-### Round 7 — queue / worker / scheduler
-
-> Which exact background task do you remember? If none yet, stop and recover it from code before practicing an interview answer.
-
----
-
-## Final rule
-
-The target is **not** to memorize a polished story.
-
-The target is to recover enough real system understanding that follow-up questions remain consistent:
-
-```text
-what I built
-→ how data flowed
-→ why it was designed that way
-→ how it failed
-→ how I debugged it
-→ how I deployed/operated it
-```
-
-If those six layers are solid, the Kahap experience becomes one of the strongest parts of the resume rather than a risky bullet to defend.
+兩案分開full rebuild；官方`--exclude-analysis-data`僅排除.ua等分析產物，無刪減自有source。目標流程是官方scan/import-map/Louvain batches，每批extract-structure＋file-analyzer，merge／assemble-review／architecture／tour／validation／fingerprints。Vue SFC等沒有parser的部分依skill由讀source補語義，不能冒稱AST已支援。**狀態：執行中；完成數據與限制待pipeline驗證後填入。**
