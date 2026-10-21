@@ -56,6 +56,10 @@ Strong enough to prepare, not strong enough to claim an exact script. Current ev
 - correctness, reliability, ownership and communication
 - possible live coding / implementation and DB/fundamentals follow-ups
 
+Recent China Ant “large-model application” first-round evidence is useful as **corroboration only**. It independently showed a mixed interview covering internship/business depth, architecture/selection/performance/high availability, AI project depth around memory/context/evaluation, backend fundamentals such as MySQL/MQ, Agent concepts such as MCP/Skill, and coding. This strengthens the working model that Ant application-AI interviews can mix **business/project depth + backend engineering + AI/Agent judgment + coding**.
+
+Do **not** promote China-specific details into Malaysia predictions. In particular, this does not establish that MySQL redo/undo/binlog, MQ internals, MCP/Skill, Java Collections, or Hot100 will appear in the Oct 23 KL interview.
+
 Unknown: exact first-round sequence, exact language, whether the coding assessment is reviewed, and whether live coding occurs in this specific round.
 
 ---
@@ -72,6 +76,7 @@ Do not create a new top-level category unless strong evidence proves an independ
 - metric + denominator + meaning
 - failure mode / debugging
 - realistic improvement
+- business purpose / production value when relevant
 
 ### 2. Engineering Fundamentals
 
@@ -82,6 +87,7 @@ Do not create a new top-level category unless strong evidence proves an independ
 - testing/debugging
 - timeout/retry/idempotency
 - transaction/index/locking/concurrency
+- queue / asynchronous-work reliability at a practical level
 - basic security/input validation
 - light system reasoning
 
@@ -93,6 +99,8 @@ Do not create a new top-level category unless strong evidence proves an independ
 - identify incorrect assumptions / unsafe output
 - test happy path + edge cases + failure path
 - evaluate AI systems with task-specific evidence
+- memory/context-management trade-offs when relevant
+- understand Agent/tool concepts such as tool selection, MCP and reusable skills at an application-engineering level
 - retain human accountability for correctness/security/reliability
 
 ### 4. Communication / Behavioural
@@ -193,7 +201,7 @@ Coverage is resume-wide; learning depth is weighted by interview value.
 5. **Hybrid RAG** — lexical/dense/RRF, evaluation, retrieval-vs-generation boundary, trade-offs.
 6. **Video QA Agent** — dynamic tool/evidence choice, ownership boundary, evidence/abstention/evaluation.
 7. **Thesis** — plain-language problem, Role/Context/DualKG, semantic F1, research/evaluation limitations.
-8. **Backend/DB/Python/reliability fundamentals** — mixed through the anchors above rather than as a separate textbook course.
+8. **Backend/DB/Python/reliability + practical Agent fundamentals** — mixed through real project anchors: transaction/index/locking/concurrency, queues/retries/idempotency, context/evaluation/tool selection/MCP/Skill concepts. Do not turn this into a detached China-style 八股 syllabus.
 9. **Pac Com** — conservative early-internship explanation only.
 10. **Behavioural / why Ant** — small set of real stories; no fabricated production incident or team conflict.
 11. **Full mixed mock**.
@@ -237,6 +245,8 @@ Do not mark ready because a document exists or because ChatGPT can answer it.
 
 The AI Coding Assessment is high preparation value but **unknown interviewer probability**. Know it cold without claiming the first round will definitely review it.
 
+The new CN large-model-application report increases confidence in the **mixed engineering + AI judgment** interview model, but it should not trigger a last-minute pivot into memorizing deep MySQL/MQ trivia or a large Hot100 set. The remaining highest-value work is still spoken project depth, backend/reliability reasoning, AI validation/evaluation, and changed-condition follow-ups.
+
 ---
 
 ## 8. Current speaking progress
@@ -267,7 +277,7 @@ From now on, when Ko says `go`, `mock`, `interview me`, or continues an active i
 
 - Act like the interviewer, not the tutor, until an answer exposes a real gap.
 - Ask exactly **one question at a time**.
-- Choose the next question from what Ko just said: ownership claim, architecture detail, metric, failure, trade-off, changed condition, production implication, or a natural pivot to backend/DB/AI fundamentals.
+- Choose the next question from what Ko just said: ownership claim, architecture detail, metric, failure, trade-off, changed condition, production implication, business value, or a natural pivot to backend/DB/AI fundamentals.
 - Do not reveal the planned follow-up tree in advance.
 - Do not exhaust one project mechanically. Stay on it while the answer creates useful depth, then pivot naturally across the resume.
 - Use `docs/ant-project-deep-dive-coverage.md` and the evidence docs as the hidden coverage map, not as a script.
@@ -307,8 +317,10 @@ The interviewer may:
 - challenge a metric: `Does 90% mean accuracy?`
 - change one condition: `What if there are 1,000 tables?`
 - move from project to fundamentals: `Why would a transaction help here?`
+- pivot from AI design to engineering: `How would you make this reliable in production?`
 - challenge ownership: `What part did you personally implement?`
 - challenge evidence: `How do you know that actually improved the system?`
+- ask for business/production impact rather than accepting a purely technical explanation
 - ask for one concrete failure instead of accepting abstractions.
 
 Do not manufacture obscure trivia just to make the interview harder. Difficulty should come from depth, changed conditions, evidence, and reasoning.
@@ -327,5 +339,6 @@ Self-introduction is already acceptable. Start the next mock from a natural foll
 - Do not claim exact Ant interview format from anonymous reports.
 - Do not replace project evidence with textbook answers.
 - Do not overstate Pac Com, feedback platform/Career ownership, Hermes ownership, thesis metrics, or Text-to-SQL accuracy.
+- Do not pivot into memorizing China-specific MySQL/MQ/Hot100 trivia solely because one Ant large-model-application report included it.
 - When a gap is found, update the existing source of truth and learn the smallest missing concept/story.
 - After coverage is stable, spend time on recall and mixed interview practice rather than more meta-analysis.
