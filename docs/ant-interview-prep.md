@@ -1,173 +1,202 @@
 # Ant International — Applied AI Engineer Interview Prep
 
-Updated: 2026-10-19 (MYT)
+Updated: 2026-10-21 (MYT)
 
-This file is the compact execution page for the Ant International Malaysia Applied AI Engineer (Fresh Graduate) interview. It does **not** replace the detailed evidence docs. It freezes the preparation scope so we stop redesigning the map and spend the remaining time drilling.
+This is the compact execution page for the Ant International Malaysia Applied AI Engineer (Fresh Graduate) interview. It does **not** replace the detailed evidence docs. It freezes the preparation scope so the remaining work is learning and practice, not inventing more frameworks.
 
 ## 1. Source of truth
 
 Use these in this order:
 
-1. `resumes/resume-en-current.md` — what the interviewer can attack.
-2. `docs/interview-resume-knowledge-map.md` — project architecture, metrics, red lines, safe claims.
-3. `docs/interview-resume-job-experience.md` — Kahap / Career / SuggestionBox / Pac Com evidence.
-4. `docs/ua-get-job-full-audit.md` — what Understand Anything / repo audit was actually completed.
-5. `kolihhan/job-project/docs/*` — recovered Career / SuggestionBox source archaeology and UA graph artifacts.
-6. Current Ant International JD + recent Malaysia interview evidence — role-specific weighting only.
+1. `resumes/resume-en-current.md` — what the interviewer can directly attack.
+2. `docs/ant-project-deep-dive-coverage.md` — adversarial resume-wide coverage map, including work experience, all four projects, skills/fundamentals, and the Ant coding assessment.
+3. `docs/interview-resume-knowledge-map.md` — project architecture, metrics, red lines, safe claims.
+4. `docs/interview-resume-job-experience.md` — Kahap / production feedback platform / Career / Pac Com evidence.
+5. `docs/ant-interview-answer-framework.md` — reusable answer shapes and Field Guide-derived reasoning patterns.
+6. `docs/ua-get-job-full-audit.md` — what Understand Anything / repo audit was actually completed.
+7. `kolihhan/job-project/docs/*` — recovered Career / feedback-platform source archaeology and UA graph artifacts.
+8. Current Ant International JD + recent Malaysia interview evidence — role-specific weighting only.
 
 Repository evidence wins over ChatGPT memory. Official Ant JD wins over anonymous interview reports for role expectations. Anonymous reports are pattern evidence, not guarantees of the exact Oct 23 interview format.
 
 ---
 
-## 2. Fact-check of current assumptions
+## 2. Evidence status
 
-### A. “All resume projects have a graph we can track.”
+### Resume projects
 
-**Mostly true, but not literally all four.**
-
-| Resume project | Status |
+| Resume project | Evidence status |
 |---|---|
 | Text-to-SQL | FULL local Understand Anything pipeline completed; final knowledge graph available |
 | Hybrid RAG | FULL local Understand Anything pipeline completed; final knowledge graph available |
 | Video QA | FULL local Understand Anything pipeline completed; final knowledge graph available |
-| M.S. thesis | Connector-based source/eval audit completed for resume claims; **not** a literal local `/understand --full` graph run |
+| M.S. thesis | Source/evaluation audit completed for resume claims; **not** a literal local `/understand --full` graph run |
 
-Therefore the practical claim is:
+All four are traceable enough for interview preparation, but the thesis evidence path is different from the other three.
 
-> All current resume projects are traceable enough for interview preparation; three public project repos have full UA graphs, while the private thesis has a source/evaluation audit rather than a literal local UA graph.
+### Work experience
 
-### B. “Work experience also has graphs/evidence now.”
-
-**Partly true.**
-
-| Experience | Status |
+| Experience | Evidence status |
 |---|---|
-| Kahap — NTUST SuggestionBox | FULL recovered-source UA graph + code archaeology |
-| Kahap — NTUST Career | FULL recovered-source UA graph + full Git history / confirmed author identities |
-| Pac Com POS | No recovered source repo / Git evidence; remains USER-memory evidence only |
+| Kahap — production feedback platform | FULL recovered-source UA graph + code archaeology; production ownership partly USER-confirmed |
+| Kahap — production career platform | FULL recovered-source UA graph + full Git history / confirmed author identities |
+| Pac Com POS | No recovered source repo / Git evidence; USER-memory evidence only |
 
 Do not use Career evidence to strengthen Pac Com claims.
 
-### C. “We know the Ant interview pattern.”
+### Ant format
 
-**Strong enough to prepare, not strong enough to claim an exact script.**
+Strong enough to prepare, not strong enough to claim an exact script. Current evidence supports emphasis on:
 
-Current official role evidence strongly emphasizes:
+- project/resume deep dive
+- backend services / APIs / databases
+- practical coding / problem solving
+- testing and debugging
+- AI-native workflows and critical validation of AI output
+- correctness, reliability, ownership and communication
+- possible live coding / implementation and DB/fundamentals follow-ups
 
-- requirement clarification through deployment
-- backend services and APIs
-- databases and core software engineering
-- validation, debugging and production feedback
-- AI-native workflows across implementation/testing/debugging/documentation
-- giving AI agents context and constraints
-- critically validating AI outputs
-- code review, ownership, communication, correctness/security/reliability
-
-Recent Kuala Lumpur Ant interview reports for adjacent engineering roles add evidence for:
-
-- project/resume discussion
-- backend implementation or live coding
-- Java/CS fundamentals depending on interviewer/role
-- database/indexing
-- easy–medium DSA in some backend loops
-- concurrency/locking in older backend loops
-- practical reliability scenarios such as timeout/retry/duplicate side effects
-
-This supports the preparation taxonomy below. It does **not** prove the exact first-round sequence for this Applied AI Fresh Grad interview.
+Unknown: exact first-round sequence, exact language, whether the coding assessment is reviewed, and whether live coding occurs in this specific round.
 
 ---
 
-## 3. Frozen Ant preparation map
+## 3. Frozen preparation categories
 
-Do not add a new top-level category unless new strong evidence proves a missing independent capability.
+Do not create a new top-level category unless strong evidence proves an independent missing capability.
 
-### 1. Resume / Project Deep Dive
+### 1. Resume / Project / Experience Deep Dive
 
 - exact ownership
-- architecture / data flow
+- architecture / request/data flow
 - design decision and trade-off
 - metric + denominator + meaning
-- failure mode
-- debugging story
+- failure mode / debugging
 - realistic improvement
 
 ### 2. Engineering Fundamentals
 
 - practical coding / problem solving
-- API / backend request flow
-- SQL / database fundamentals
-- testing and debugging
-- timeout / retry / idempotency
-- transaction / index / basic locking and concurrency
-- basic security and input validation
-- light system reasoning only
+- Python/data structures
+- API/backend request flow
+- SQL/database fundamentals
+- testing/debugging
+- timeout/retry/idempotency
+- transaction/index/locking/concurrency
+- basic security/input validation
+- light system reasoning
 
 ### 3. AI-native Engineering
 
-- clarify requirement
-- give the AI sufficient context and constraints
+- clarify requirements
+- give AI agents sufficient context and constraints
 - inspect generated implementation
 - identify incorrect assumptions / unsafe output
 - test happy path + edge cases + failure path
-- fix and verify
+- evaluate AI systems with task-specific evidence
 - retain human accountability for correctness/security/reliability
 
-### 4. Communication
+### 4. Communication / Behavioural
 
-- explain reasoning clearly
-- concise English and Mandarin technical explanation
-- ownership / collaboration / failure-learning stories
+- concise English/Mandarin technical explanation
+- ownership / failure / learning / collaboration stories
 - why Ant / why this role
+- communicate uncertainty without bluffing
 
-Everything else maps back into these four areas. Fintech correctness belongs under Engineering Fundamentals. AI code review belongs under AI-native Engineering. Ownership belongs under Resume / Projects.
+Everything maps back into these four areas.
 
 ---
 
-## 4. Drill method — the only execution loop
+## 4. Execution method — grill first, then mastery, then mock
 
-Do **not** study each concept as a separate course.
+The old approach of walking one project through a long sequential question tree was too narrow. Do **not** resume that pattern.
 
-For each anchor project:
+### Phase A — GRILL COVERAGE
+
+Before drilling answers, use `docs/ant-project-deep-dive-coverage.md` to attack the whole visible resume.
+
+For every visible claim ask:
 
 ```text
-Interviewer asks project overview
-→ ownership
-→ architecture / flow
-→ why this design
-→ failure / edge case
-→ testing / debugging
-→ metric interpretation
-→ AI usage / validation if relevant
-→ backend/DB scenario if relevant
-→ improvement / trade-off
+What can the interviewer challenge?
+→ what evidence supports it?
+→ what is CODE/EVAL/USER/INFERENCE/UNKNOWN?
+→ what wording would overclaim?
+→ what underlying concept can the claim pivot into?
 ```
 
-Per question:
+The goal is to expose blind spots, not to memorize every question.
 
-1. Ask exactly one interview question.
+### Phase B — ELI5 MASTERY
+
+For each anchor, reduce the verified evidence into a simple mental model. A resume item is mastered when Ko can explain without notes:
+
+```text
+Problem
+→ Flow
+→ My part
+→ Why
+→ Evidence
+→ Failure / limitation
+→ Redo / changed condition
+```
+
+Do not mechanically recite all seven. They are anchors used according to the interviewer question.
+
+For theory/fundamentals use:
+
+```text
+plain definition
+→ why/when useful
+→ trade-off
+→ example from real work/project
+```
+
+### Phase C — MIXED INTERVIEW PRACTICE
+
+Only after coverage and ELI5 mastery, use realistic mixed questions. Do not keep drilling one project until every possible question is exhausted.
+
+A realistic sequence may jump:
+
+```text
+self-intro
+→ work/project ownership
+→ architecture
+→ DB/backend concept
+→ changed condition/failure
+→ another project
+→ AI validation/eval
+→ coding/reliability
+→ motivation/behavioural
+```
+
+Per actual spoken answer:
+
+1. Ask one realistic question.
 2. Candidate answers naturally without reading a script.
 3. Grade `✅ / ⚠️ / ❌`.
-4. Separate factual error from communication weakness.
-5. Teach only the smallest missing concept.
-6. Ask candidate to repair the answer or answer one follow-up.
-7. Record progress below.
+4. Separate factual/evidence error from communication weakness.
+5. Fix only the biggest gap.
+6. Retry or move to one natural follow-up.
 
-Do not dump the entire syllabus after every answer.
+Do not dump a new syllabus after every answer.
 
 ---
 
-## 5. Drill order
+## 5. Resume mastery order
 
-1. **Text-to-SQL** — Applied AI + validation + safety + metrics + failure analysis.
-2. **Career** — production backend + API/DB + debugging + queue/worker/scheduler + migration.
-3. **Hybrid RAG** — retrieval signals + RRF + evaluation + trade-offs.
-4. **Video QA** — agent/tool ownership + evidence + abstention + evaluation.
-5. **Thesis** — plain-language problem + Role/Context/DualKG + semantic F1 + limitations.
-6. **SuggestionBox** — ownership + Laravel/Livewire + request/data flow + deployment.
-7. **Pac Com** — conservative early-internship explanation only.
-8. Mixed coding/backend/reliability scenarios.
-9. Behavioural + why Ant.
-10. Full mixed mock.
+Coverage is resume-wide; learning depth is weighted by interview value.
+
+1. **Self-intro / profile story** — NTHU NLP/LLM + production backend + applied-AI projects.
+2. **Text-to-SQL** — deepest: validation, safety, repair, metrics, failure analysis.
+3. **Kahap production engineering** — feedback platform + Career, request flows, DB, queues/workers/schedulers, deployment/migration/SSL.
+4. **Ant AI Coding Assessment** — asyncio, shared state, lock/concurrency, debugging, AI-assisted implementation and verification.
+5. **Hybrid RAG** — lexical/dense/RRF, evaluation, retrieval-vs-generation boundary, trade-offs.
+6. **Video QA Agent** — dynamic tool/evidence choice, ownership boundary, evidence/abstention/evaluation.
+7. **Thesis** — plain-language problem, Role/Context/DualKG, semantic F1, research/evaluation limitations.
+8. **Backend/DB/Python/reliability fundamentals** — mixed through the anchors above rather than as a separate textbook course.
+9. **Pac Com** — conservative early-internship explanation only.
+10. **Behavioural / why Ant** — small set of real stories; no fabricated production incident or team conflict.
+11. **Full mixed mock**.
 
 ---
 
@@ -181,62 +210,62 @@ A resume item is ready only when the candidate can, without notes:
 - defend one design decision
 - explain the headline metric without exaggeration
 - name one real limitation/failure mode
-- answer one deeper engineering follow-up
+- answer a deeper engineering follow-up
+- handle one changed-condition question
 - propose one reasonable improvement
+- distinguish verified evidence from inference or memory
 
 Do not mark ready because a document exists or because ChatGPT can answer it.
 
 ---
 
-## 7. Progress log
+## 7. Current Grill findings / high-risk gaps
 
-### 2026-10-19 — Loop 1: Text-to-SQL
+### Verified important risks
 
-**Q1:** Walk through the Text-to-SQL project: problem, end-to-end flow, personal implementation.
+1. **Production incident story remains weak.** Source/config proves architecture and potential failure modes, but not a specific real outage. Do not fabricate symptom/root cause/fix history.
+2. **Text-to-SQL resume wording:** “schema and values” is broader than the default headline guarded Qwen path. Main path is schema-grounded; value grounding is a separate experiment.
+3. **Text-to-SQL metric trap:** 75→90 is execution success; 33→39 is correctness-oriented EX-compatible result.
+4. **RAG metric trap:** retrieval improvement does not prove generated-answer improvement.
+5. **Video QA integrity:** Hermes owns the core agent loop; the post-hoc 12/12 re-score is not a fresh run and is not the headline benchmark.
+6. **Thesis metric trap:** 0.6819 is semantic response-matching F1, not accuracy or classification macro-F1; Role→Dual improvement is small.
+7. **Thesis dataset-count provenance:** resume says 10,645 workplace dialogue turns; the current clean audit has not pinned the exact derivation. Do not improvise if challenged.
+8. **Pac Com evidence is memory-only.** Keep it small and honest.
+9. **Human disagreement/collaboration story is less well established than technical stories.** Do not convert annotation/evaluator disagreement into a teammate-conflict story.
 
-**Candidate answer status:** `⚠️ PARTIAL`
+### Direct Ant-specific prep risk
 
-What was already correct:
-
-- goal: allow a non-SQL user to query a database in natural language
-- natural-language input → LLM SQL generation
-- validate before use
-- failed query enters LLM repair with error context
-- bounded repair budget of 2
-
-Missing / needs repair:
-
-- personal ownership was not stated
-- validation was described mainly as executability; must also explain deterministic safety/read-only boundary
-- benchmark description was too vague (“open-source DB”); current evaluated headline is 100 frozen BIRD DEV queries on SQLite databases
-- must keep execution success separate from semantic correctness
-
-**Next question:**
-
-> Why did you add deterministic validation and bounded repair instead of simply prompting the LLM to generate better SQL directly?
-
-### Current status
-
-- Text-to-SQL overview: `⚠️`
-- Text-to-SQL verifier/safety: `NOT YET DRILLED`
-- Text-to-SQL metrics: `NOT YET DRILLED`
-- Text-to-SQL failure modes: `NOT YET DRILLED`
-- Career: `NOT STARTED`
-- RAG: `NOT STARTED`
-- Video QA: `NOT STARTED`
-- Thesis: `NOT STARTED`
-- SuggestionBox: `NOT STARTED`
-- Pac Com: `NOT STARTED`
-- mixed coding/backend: `NOT STARTED`
-- behavioural/why Ant: `NOT STARTED`
+The AI Coding Assessment is high preparation value but **unknown interviewer probability**. Know it cold without claiming the first round will definitely review it.
 
 ---
 
-## 8. Stop rules
+## 8. Current speaking progress
 
-- Do not create another interview framework or tracker.
-- Do not turn every newly discovered concept into a new study category.
+### Self-introduction — `GOOD / keep natural`
+
+Current content is sufficient:
+
+> Hi, I’m Ko Lih Han. I recently completed my master’s degree at NTHU, where my work focused mainly on NLP and LLM-related topics. While studying, I also worked part-time as a software engineer, mostly on backend and production web systems. I also worked on several applied AI projects, including Text-to-SQL, retrieval, and agent-based systems.
+
+Do not force “therefore I am interviewing for Applied AI Engineer” into the intro unless asked.
+
+### Text-to-SQL problem framing — `PARTIAL / concept correct`
+
+Candidate correctly understands:
+
+> non-SQL user → natural-language question → generated SQL → database result
+
+Still needs project-level mastery of verifier/safety, repair, metrics, failure distinction and ownership; do not continue as a narrow Q1→Q2→Q3 ladder. Use the resume-wide coverage map first.
+
+---
+
+## 9. Stop rules
+
+- Do not create another interview framework/tracker/question-bank file.
+- Do not turn the coverage map into a list to memorize word-for-word.
+- Do not grind one project through every P0/P1/P2 question sequentially.
 - Do not claim exact Ant interview format from anonymous reports.
-- Do not replace project evidence with memorized textbook answers.
-- Do not overstate Pac Com, SuggestionBox, Career, Hermes ownership, thesis metrics, or Text-to-SQL accuracy.
-- When a gap is found, attach it to one of the four frozen Ant categories and continue drilling.
+- Do not replace project evidence with textbook answers.
+- Do not overstate Pac Com, feedback platform/Career ownership, Hermes ownership, thesis metrics, or Text-to-SQL accuracy.
+- When a gap is found, update the existing source of truth and learn the smallest missing concept/story.
+- After coverage is stable, spend time on recall and mixed interview practice rather than more meta-analysis.
