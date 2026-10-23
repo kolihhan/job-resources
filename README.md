@@ -1,8 +1,12 @@
 # Job Search Inbox
 
-Private operating inbox for my job search: **Singapore + Mainland China first**, Malaysia as backup.
+Private operating inbox for the current search:
 
-Goal: get interviews and offers for a suitable full-time engineering role without turning the search into another project.
+- **Singapore + Mainland China + Hong Kong** = active target markets;
+- **Malaysia** = parallel **TOP-only** lane;
+- Web3 / crypto = opportunistic secondary lane.
+
+Goal: get interviews and offers for a strong engineering role without turning the search itself into another software project.
 
 `discover → cheap screen → verify serious survivors → user go → apply → follow up`
 
@@ -11,21 +15,22 @@ Goal: get interviews and offers for a suitable full-time engineering role withou
 Do **not** work from the unfiltered Issues list.
 
 - [NOW — ACTION + APPLY + CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%22status%3Await%22) — everything that may need attention.
-- [CN NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Acn%22%20-label%3A%22status%3Await%22) — Mainland China only.
-- [SG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Asg%22%20-label%3A%22status%3Await%22) — Singapore only.
-- [TG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20TG%20-label%3A%22status%3Await%22) — leads first found through Telegram / DeJob.
-- [ACTION](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aaction%22) — OA, interview, recruiter reply, deadline.
+- [SG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Asg%22%20-label%3A%22status%3Await%22) — Singapore.
+- [CN NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Acn%22%20-label%3A%22status%3Await%22) — Mainland China.
+- [HK NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Ahk%22%20-label%3A%22status%3Await%22) — Hong Kong.
+- [MY NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Amy%22%20-label%3A%22status%3Await%22) — Malaysia TOP-only lane.
+- [ACTION](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aaction%22) — OA, interview, recruiter reply, useful deadline/action.
 - [APPLY](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aapply%22) — verified roles ready for review.
-- [CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Acheck%22) — exactly one blocker remains.
-- [WAIT / history](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Await%22) — already applied/contacted; normally ignore.
+- [CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Acheck%22) — exactly one material blocker or user decision remains.
+- [WAIT / history](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Await%22) — already applied/contacted; normally ignore until new evidence arrives.
 
-`[TG]` only marks the discovery source, for example `[CHECK][CN][TG] Company — Role`. It does not mean the role is verified or safe.
+`[TG]` only marks a Telegram / DeJob discovery source. It never means the role is verified.
 
 ## Four open states
 
-- `[ACTION]` — I need to do something now or soon.
-- `[APPLY]` — verified and worth applying; still needs my `go`.
-- `[CHECK]` — one material blocker or decision remains.
+- `[ACTION]` — something useful needs attention now or soon.
+- `[APPLY]` — verified and worth applying; still needs my exact `go`.
+- `[CHECK]` — liveness is proven and exactly one blocker/decision remains.
 - `[WAIT]` — already submitted/contacted and waiting.
 
 Rejected, expired, duplicate, blocked, withdrawn or intentionally skipped roles are closed.
@@ -40,40 +45,39 @@ On an exact role:
 
 `[APPLY]` by itself is never submission permission.
 
-## How the system runs
+## Source of truth
 
-**Source of truth**
-
-- GitHub Issues = live operational state.
-- Gmail = recruiting evidence and targeted dedupe.
-- [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md) = latest scheduled-discovery receipt + next rotation only; not a job tracker.
+- GitHub Issues = live operational opportunity state.
+- Gmail = receipts, recruiter/OA/interview/rejection evidence and targeted dedupe.
+- [`PROFILE.md`](PROFILE.md) = stable candidate facts and current market scope.
+- [`RULES.md`](RULES.md) = the only detailed execution policy.
+- [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md) = latest discovery receipt/cursor + next rotation only; never a second tracker.
 - Old spreadsheet = legacy/read-only.
 
-**Discovery**
+## Search model
 
-Search SG + CN broadly and cheaply first. Verify only serious survivors. Raw search results do not become Issues.
+Maintenance comes before discovery. Search broadly and cheaply, but only serious survivors become Issues.
 
-- SG: official careers/ATS, LinkedIn, JobStreet, Indeed; selective secondary sources such as DeJob/TG.
-- CN: BOSS, official/campus portals, 牛客, 51job, 智联; secondary LinkedIn, 猎聘, DeJob/TG.
-- MY: backup; lean toward Applied AI / AI Engineer / LLM / RAG / Agent / AI backend roles.
+- **SG:** FreeHire broad radar; normal runs focus on direct-employer/ATS and other coverage gaps.
+- **CN:** native-source-first — BOSS, official/campus, 牛客, 51job, 智联, 猎聘.
+- **HK:** official/ATS, LinkedIn/JobsDB and strong fintech/product/AI/research employers; GEP sponsorship willingness may remain unknown until engagement.
+- **MY:** only strong role-level opportunities. A famous logo alone is not enough; optimize for engineering quality, compensation/WLB/growth, fit and career portability.
 
-All sources use the same survivor checks: live exact JD, cohort/seniority fit, dedupe, work-authorization blockers when material, and a usable exact application route. Telegram/DeJob does **not** bypass verification.
+All markets use the same survivor gates: exact current liveness, early-career/cohort fit, dedupe, acceptable employment type, work-authorization classification, and a usable exact application route.
 
-Detailed execution rules live only in [`RULES.md`](RULES.md). Do not duplicate them into scheduler prompts, another tracker, or another framework.
+Unknown SG/CN/HK sponsorship willingness is allowed at APPLY. Explicit no-sponsorship/right-to-work/citizenship blockers are not. Singapore MCF-only routes are blocked.
 
 ## What I should do
 
 1. Handle `ACTION` first.
-2. Review `APPLY` and give `go` only for roles I want.
+2. Review `APPLY` and give `go` only for exact roles I want.
 3. Resolve useful `CHECK` blockers.
 4. Leave `WAIT` alone unless new evidence arrives.
 
 ## Automation
 
-Maintenance checks recent recruiting evidence and keeps existing Issues synchronized. Incremental discovery rotates SG/CN sources; Malaysia remains backup.
+Scheduled maintenance keeps Issues synchronized with recruiting evidence. Discovery rotates markets, source families and role lanes rather than restarting the whole market every run. SG/CN remain high-frequency lanes; HK and MY TOP are active rotating lanes and must not be treated as out-of-scope.
 
-The latest scheduled discovery should leave one small receipt in [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md), including the SG/CN source mix tried, serious survivors (if any), concrete blockers, and the next rotation.
+The latest scheduled run leaves one compact receipt in [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md). If strategy changes, update `PROFILE.md` / `RULES.md` once rather than copying policy into prompts or another tracker.
 
-The automation reads the current repo rules. If strategy changes, update `RULES.md` once rather than maintaining multiple copies.
-
-See `PROFILE.md`, [`RULES.md`](RULES.md), and [dated market evidence](docs/market-facts-2026-10-01.md). Older `docs/superpowers/` material is historical context.
+See [`PROFILE.md`](PROFILE.md), [`RULES.md`](RULES.md), and [dated market evidence](docs/market-facts-2026-10-01.md). Older `docs/superpowers/` material is historical context.
