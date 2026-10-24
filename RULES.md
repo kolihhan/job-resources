@@ -78,7 +78,7 @@ Work authorization:
 - MyCareersFuture is evidence-only for this candidate;
 - **MCF-only route = blocked/closed** unless a separate verified non-MCF route exists.
 
-Use FreeHire as broad radar, but normal discovery should focus on direct employer/ATS and targeted coverage gaps rather than recreating a broad scrape.
+Use FreeHire as broad radar when its intake is healthy. Normal discovery should focus on direct employer/ATS and targeted coverage gaps rather than recreating a broad scrape, except during the degraded-mode condition in Sections 7 and 17.
 
 ### Mainland China — active target
 
@@ -112,8 +112,8 @@ Hong Kong is **paused as of 2026-10-23**.
 - Do not discover new HK roles.
 - Do not create or promote new HK APPLY/ACTION items.
 - Existing submitted `WAIT` items remain open so employer replies are not lost.
-- If an existing HK employer replies, process the lifecycle event normally.
-- Roles closed only because HK was paused may be reconsidered only after the user explicitly reactivates HK, followed by fresh liveness/route verification.
+- If an existing HK employer replies, process that lifecycle event normally.
+- Roles closed only because HK was paused may be reconsidered only after explicit reactivation and fresh validation.
 
 ### Malaysia — TOP-only parallel lane
 
@@ -134,9 +134,9 @@ Do not create a separate contract/part-time/project lane.
 
 ## 4. Employment-type hard rule
 
-For this search, **permanent full-time is a hard filter**.
+For this search, **permanent full-time remains a hard outcome filter**, but evidence is evaluated with a **negative-evidence gate**. Do not turn the absence of the literal word `Permanent` into research debt.
 
-Close/skip:
+Close/skip when current evidence positively indicates:
 
 - fixed-term;
 - temporary;
@@ -144,9 +144,22 @@ Close/skip:
 - staffing/bodyshop;
 - project-only;
 - internship;
-- trainee/graduate programme when permanent employment is not established.
+- trainee/graduate programme without a credible regular permanent-employment path.
 
-Do not infer permanence from `full-time` alone. If the employment type is materially ambiguous and permanence cannot be established, use `CHECK` only when this is the one remaining blocker and the opportunity is otherwise unusually strong; otherwise skip.
+Classify employment evidence as:
+
+- `CONFIRMED` — the exact role/employer explicitly says permanent/regular indefinite employment;
+- `PROBABLE` — a normal employer-controlled or credible platform listing is full-time/social/campus regular hiring and **no** fixed-term, temporary, contract, dispatch/staffing or project-only signal is present;
+- `CONFLICT` — credible current sources disagree, e.g. one says full-time while another labels the same exact role contract/fixed-term;
+- `BLOCKED` — current evidence establishes a non-permanent type prohibited above.
+
+Operational rule:
+
+- `CONFIRMED` or `PROBABLE` employment may reach `APPLY` if every other gate passes;
+- `CONFLICT` may use `CHECK` only when employment type is the one remaining material blocker and the opportunity is otherwise strong;
+- `BLOCKED` closes/skips;
+- do **not** contact a recruiter merely to obtain the word `Permanent` for an otherwise normal full-time role with no contradictory evidence;
+- if contradictory or explicit non-permanent evidence appears later, newer evidence overrides the earlier `PROBABLE` classification immediately.
 
 No fixed-term exception should be created unless the user explicitly changes this policy.
 
@@ -167,6 +180,15 @@ Skip by default:
 - Senior / Staff / Lead / Manager;
 - hard 4+/5+ professional-YOE roles without an explicit alternative qualification route;
 - roles whose actual responsibilities clearly assume mature enterprise/platform/customer ownership even when numeric YOE is weak or absent.
+
+A **Senior title alone is a strong negative signal, not an automatic terminal rule**, when all of the following are true:
+
+- the published JD has no hard mature-YOE floor;
+- actual responsibilities are still plausible for an early-career individual contributor;
+- the employer explicitly accepts project/build/hackathon/research or equivalent practical evidence, or otherwise gives a credible alternative qualification route;
+- the role is unusually strong for the target direction.
+
+Such a role must be marked as a selective senior-title stretch. `Staff`, `Lead`, `Manager`, or clearly mature ownership remains a default skip regardless of a weak numeric YOE surface.
 
 Experience wording must be interpreted literally and honestly:
 
@@ -192,11 +214,14 @@ State transitions:
 
 - official application receipt or user-confirmed `applied` → `WAIT`;
 - OA / interview / recruiter reply / useful requested action / real deadline → `ACTION`;
+- explicitly authorized application that still awaits execution may remain `ACTION` until actual submission evidence exists;
 - confirmed rejection / expired / duplicate / user `skip` / market paused / direction mismatch → close;
 - silence is not rejection;
 - newer evidence overrides older evidence.
 
 Keep title, status label, body and next action synchronized.
+
+For an authorized application-type `ACTION`, the Issue body itself must say **`AUTHORIZED APPLICATION; submission pending`**, record the authorization scope/date when known, and state that the agent must not ask for `go` again for that exact role unless the role materially changes. Do not leave authorization state only in comments.
 
 ### Gmail reconciliation
 
@@ -237,7 +262,8 @@ Do not restart the whole market every run. Rotate employer clusters, source fami
 Operational cadence:
 
 - **SG + CN remain high-frequency baseline lanes.**
-- SG normal discovery = targeted gap search, because FreeHire owns broad SG radar.
+- SG normal discovery = targeted gap search while FreeHire broad intake is healthy/readable.
+- If FreeHire fresh-head intake is materially unreadable/stale/blocked and current unseen jobs cannot be screened, enter **SG degraded mode**: temporarily allow a broader targeted LinkedIn/JobStreet/Indeed/direct-employer sweep rather than pretending FreeHire covers the gap. Record the degraded condition in `DISCOVERY_STATE.md` and stop the extra broad sweep once intake is healthy again.
 - CN normal discovery = native-source-first rotation.
 - **MY TOP** is a smaller active parallel rotation.
 - **HK is out of discovery rotation while paused.**
@@ -253,7 +279,7 @@ After a scheduled run, preserve any FreeHire cursor section and update only the 
 - markets/source families/employer or role lanes actually tried;
 - compact coverage counters for markets searched;
 - serious-survivor Issue numbers created/updated, or `none`;
-- concrete access/search failures;
+- concrete access/search failures, including FreeHire degraded mode when active;
 - next rotation.
 
 Counts are observability only, never quotas or scores.
@@ -266,7 +292,7 @@ Do not put raw rejected candidates, long search logs or duplicated policy into `
 
 Use:
 
-`broad discovery → cheap hard filter → cheap GitHub dedupe → current liveness/eligibility → direction/seniority/work-auth classification → exact-ID Gmail dedupe → exact application route → Issue`
+`broad discovery → cheap hard filter → cheap GitHub dedupe → current liveness/eligibility → direction/seniority/employment/work-auth classification → exact-ID Gmail dedupe → exact application route → Issue`
 
 Raw discovery candidates do **not** become Issues.
 
@@ -297,7 +323,7 @@ Reject cheaply for:
 
 - wrong market/location for the lane;
 - paused HK market;
-- non-permanent employment type;
+- explicit non-permanent employment evidence under Section 4;
 - seniority/experience mismatch under Section 5;
 - explicit incompatible graduation/cohort window;
 - explicit citizenship / no-sponsorship / right-to-work-only blocker where relevant;
@@ -339,13 +365,15 @@ A same-company role may survive when the team/scope/location/level is materially
 For serious survivors verify:
 
 1. exact/full JD and current role-level liveness;
-2. permanent employment type;
+2. employment classification under Section 4 (`CONFIRMED` / `PROBABLE` / `CONFLICT` / `BLOCKED`);
 3. graduation/cohort, seniority and hard requirements;
 4. technical-direction fit;
 5. candidate fit and work-authorization classification;
 6. targeted Gmail dedupe in both accounts, using exact requisition/job ID first when available;
 7. ATS/candidate history only when materially available;
 8. exact usable application route.
+
+A role does not need the literal word `Permanent` to reach APPLY. `PROBABLE` regular full-time employment is sufficient when no contradictory non-permanent evidence exists.
 
 ### Exact-ID invariant
 
@@ -432,10 +460,10 @@ It must have:
 - plausible early-career fit;
 - current target-market fit;
 - current technical-direction fit;
-- no obvious cohort/seniority hard block;
+- no obvious cohort/seniority hard block under Section 5;
 - credible role/company/team quality;
 - current role-level liveness proof;
-- permanent full-time employment established or exactly one material permanence blocker on an otherwise exceptional role;
+- employment classification `CONFIRMED` or `PROBABLE`, or exactly one `CONFLICT` blocker on an otherwise exceptional role;
 - no established duplicate under the dedupe model;
 - either a verified exact application route or exactly one material blocker remaining other than sponsorship/work-permit UNKNOWN.
 
@@ -454,9 +482,9 @@ Only four open states:
 
 Meanings:
 
-- `ACTION` = concrete recruiting action worth attention now/soon: OA, interview, recruiter reply, useful requested form/document or real deadline. It may also temporarily hold an explicitly authorized application pending execution.
-- `APPLY` = verified serious survivor ready for user review with usable exact route. Work auth may be CONFIRMED/PROBABLE/UNKNOWN. **APPLY is not submission permission.**
-- `CHECK` = liveness proven; exactly one material blocker or user decision remains, with exactly one next action. Unknown sponsorship alone is not a CHECK blocker.
+- `ACTION` = concrete recruiting action worth attention now/soon: OA, interview, recruiter reply, useful requested form/document, real deadline, or an explicitly authorized application pending execution.
+- `APPLY` = verified serious survivor ready for user review with usable exact route. Work auth may be CONFIRMED/PROBABLE/UNKNOWN. Employment may be `CONFIRMED` or `PROBABLE` under Section 4. **APPLY is not submission permission.**
+- `CHECK` = liveness proven; exactly one material blocker or user decision remains, with exactly one next action. Unknown sponsorship alone and absence of the literal word `Permanent` alone are not CHECK blockers.
 - `WAIT` = already submitted/contacted and waiting for employer activity; do not duplicate.
 
 Rejected, expired, duplicate, blocked, market-paused, direction-mismatch, withdrawn or user-skipped roles are closed.
@@ -493,7 +521,7 @@ Store enough to decide without repeating research:
 - exact role link/route or the one CHECK blocker;
 - req/job ID and verification date when available;
 - liveness/age evidence where useful;
-- permanent employment evidence;
+- employment classification/evidence;
 - plain-language work;
 - hard requirements / early-career fit;
 - specific strengths/gaps;
@@ -517,6 +545,8 @@ A clearly scoped batch authorization such as `go all ACTION applications` permit
 
 `go` on one exact role does not authorize other roles at the same employer.
 
+When authorization is granted but execution is not yet possible, keep the application in ACTION and synchronize the body to `AUTHORIZED APPLICATION; submission pending`; do not ask for authorization again for that exact unchanged role.
+
 If the current chat lacks the ability to complete a website form, do not claim submission. Record authorization and the exact execution blocker; move to WAIT only after real submission/contact evidence exists.
 
 ---
@@ -527,11 +557,12 @@ Routine FreeHire ingestion is owned by public `kolihhan/freehirefetch` plus the 
 
 - FreeHire contains public job data and machine-dedupe/health metadata only; never Gmail/application/private candidate state.
 - FreeHire is **Stage 1 discovery evidence only**. Its enrichment/timestamps/classifications do not satisfy employer requirements, liveness or route gates.
-- SG: FreeHire is the primary broad radar; normal maintainer discovery should not recreate the same full LinkedIn/JobStreet/Indeed sweep.
+- SG: FreeHire is the primary broad radar **while fresh intake is healthy and readable**; normal maintainer discovery should not recreate the same full LinkedIn/JobStreet/Indeed sweep.
+- **Degraded mode:** if current fresh-head intake cannot be read/screened because of connector/truncation/worker failure, the maintainer may temporarily run a broader SG sweep across LinkedIn/JobStreet/Indeed/direct employers to cover the blind spot. Record the failure and the substitute coverage in `DISCOVERY_STATE.md`; return to FreeHire-first once fresh intake is usable.
 - CN: FreeHire is supplementary only; native sources remain primary.
 - Fresh-head inspection may look beyond the sequential cursor but must not move the cursor over unprocessed history.
 - Cursor advances only through the largest contiguous processed prefix.
-- A real cursor gap exists only when `cursor + 1 < health.first_seq`. If worker health is stale/failed or a real gap exists, stop normal intake and report/resync rather than guessing.
+- A real cursor gap exists only when `cursor + 1 < health.first_seq`. If worker health is stale/failed or a real gap exists, stop normal sequential intake and report/resync rather than guessing.
 - Preserve the FreeHire cursor section when updating `DISCOVERY_STATE.md`.
 
 ---
@@ -540,7 +571,7 @@ Routine FreeHire ingestion is owned by public `kolihhan/freehirefetch` plus the 
 
 ### Singapore
 
-Use FreeHire-first + direct-employer/ATS gap search. LinkedIn/JobStreet/Indeed are targeted gap tools rather than a routine duplicate broad sweep.
+Use FreeHire-first + direct-employer/ATS gap search when FreeHire fresh intake is healthy. In degraded mode, temporarily broaden LinkedIn/JobStreet/Indeed/direct-employer coverage until the blind spot is removed.
 
 Primary keywords/lanes: Applied AI, AI Engineer, AI Software Engineer, Agent, RAG, LLM application, evaluation, retrieval/search, AI backend, AI-native product engineering.
 
