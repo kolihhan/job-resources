@@ -101,10 +101,10 @@ Never convert master's study, projects, internships, or part-time employment int
 
 ## Current resume assets
 
-- English text source of truth: [`resumes/resume-en-current.md`](resumes/resume-en-current.md) — updated 2026-10-06.
+- English text source of truth: [`resumes/resume-en-current.md`](resumes/resume-en-current.md) — updated 2026-10-24.
 - Chinese text source of truth: [`resumes/resume-cn-current.md`](resumes/resume-cn-current.md) — updated 2026-10-06.
-- English PDF: [`resumes/resume-en-current.pdf`](resumes/resume-en-current.pdf) — synced from the current text source on 2026-10-07 by GitHub Actions commit `000e6e331fb402178635fe19475b82dcbb5e29f8`.
-- Chinese PDF: [`resumes/resume-cn-current.pdf`](resumes/resume-cn-current.pdf) — synced from the current text source on 2026-10-07 by the same GitHub Actions commit.
+- English PDF: [`resumes/resume-en-current.pdf`](resumes/resume-en-current.pdf) — generated from the current English text source by `.github/workflows/build-resume-en.yml`; refreshed 2026-10-24.
+- Chinese PDF: [`resumes/resume-cn-current.pdf`](resumes/resume-cn-current.pdf) — synced from the current text source on 2026-10-07 by GitHub Actions commit `000e6e331fb402178635fe19475b82dcbb5e29f8`.
 - Treat these stable paths as the resume assets; replace them in place rather than accumulating versioned copies.
 
 ## Search markets
