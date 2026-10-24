@@ -1,4 +1,4 @@
-name: Build English resume PDF
+name: Build current resume PDFs
 
 on:
   push:
@@ -6,6 +6,8 @@ on:
     paths:
       - 'resumes/resume-en-current.tex'
       - 'resumes/resume-en-current.md'
+      - 'resumes/resume-zh-current.tex'
+      - 'resumes/resume-zh-current.md'
       - '.github/workflows/build-resume-en.yml'
   workflow_dispatch:
 
@@ -18,36 +20,54 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build LaTeX resume
-        uses: xu-cheng/latex-action@v3
-        with:
-          root_file: resume-en-current.tex
-          working_directory: resumes
-
-      - name: Install PDF verification tools
+      - name: Install XeLaTeX, Chinese support, fonts, and PDF tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y poppler-utils
+          sudo apt-get install -y \
+            texlive-xetex \
+            texlive-lang-chinese \
+            texlive-latex-extra \
+            fonts-noto-core \
+            fonts-noto-cjk \
+            poppler-utils
+          fc-cache -f
 
-      - name: Verify PDF
+      - name: Build English resume
+        working-directory: resumes
+        run: xelatex -interaction=nonstopmode -halt-on-error resume-en-current.tex
+
+      - name: Build Chinese resume
+        working-directory: resumes
+        run: xelatex -interaction=nonstopmode -halt-on-error resume-zh-current.tex
+
+      - name: Verify PDFs
         run: |
           test "$(pdfinfo resumes/resume-en-current.pdf | awk '/^Pages:/ {print $2}')" = "1"
-          pdftotext -layout resumes/resume-en-current.pdf /tmp/resume.txt
-          grep -q 'Small-Agent QLoRA' /tmp/resume.txt
-          grep -q 'Semantic Text-to-SQL' /tmp/resume.txt
-          grep -q '34.5% to 62.0%' /tmp/resume.txt
-          grep -q '75% to 90%' /tmp/resume.txt
-          grep -q 'Kahap Inc' /tmp/resume.txt
-          grep -q '4.09/4.3' /tmp/resume.txt
+          test "$(pdfinfo resumes/resume-zh-current.pdf | awk '/^Pages:/ {print $2}')" = "1"
 
-      - name: Commit generated PDF
+          pdftotext -layout resumes/resume-en-current.pdf /tmp/resume-en.txt
+          grep -q 'Small-Agent QLoRA' /tmp/resume-en.txt
+          grep -q 'Semantic Text-to-SQL' /tmp/resume-en.txt
+          grep -q '34.5% to 62.0%' /tmp/resume-en.txt
+          grep -q '33% to 39%' /tmp/resume-en.txt
+          grep -q 'Interpreting Implicit Intent through Workplace' /tmp/resume-en.txt
+          grep -q '4.09/4.3' /tmp/resume-en.txt
+
+          pdftotext -layout resumes/resume-zh-current.pdf /tmp/resume-zh.txt
+          grep -q 'Small-Agent QLoRA' /tmp/resume-zh.txt
+          grep -q 'Semantic Text-to-SQL' /tmp/resume-zh.txt
+          grep -q '34.5%' /tmp/resume-zh.txt
+          grep -q '62.0%' /tmp/resume-zh.txt
+          grep -q '4.09/4.3' /tmp/resume-zh.txt
+
+      - name: Commit generated PDFs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add resumes/resume-en-current.pdf
+          git add resumes/resume-en-current.pdf resumes/resume-zh-current.pdf
           if git diff --cached --quiet; then
-            echo 'PDF unchanged'
+            echo 'PDFs unchanged'
           else
-            git commit -m 'Update generated English resume PDF'
+            git commit -m 'Update generated resume PDFs'
             git push
           fi
