@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[a4paper,top=0.46in,bottom=0.45in,left=0.58in,right=0.58in]{geometry}
+\usepackage[a4paper,top=0.52in,bottom=0.62in,left=0.58in,right=0.58in]{geometry}
 \usepackage{fontspec}
 \usepackage{xeCJK}
 \setmainfont{Noto Sans}
@@ -23,10 +23,10 @@
 \definecolor{linktone}{HTML}{315A78}
 
 \titleformat{\section}{\fontsize{12.7}{13.8}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.30em}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{1.36em}{0.56em}
+\titlespacing*{\section}{0pt}{1.22em}{0.52em}
 
 \newenvironment{resumeitems}{%
-  \begin{itemize}[leftmargin=1.05em,itemsep=0.15em,topsep=0.16em,parsep=0pt,partopsep=0pt]
+  \begin{itemize}[leftmargin=1.05em,itemsep=0.11em,topsep=0.13em,parsep=0pt,partopsep=0pt]
   \fontsize{10.08}{12.62}\selectfont\raggedright
 }{\end{itemize}}
 
@@ -98,7 +98,7 @@
   \item 维护 Laravel/Vue.js 生产平台，负责队列任务、定时任务、数据库/服务器迁移及 Linux 故障排查。
   \item 将 GPT-SoVITS、发音检查与文本检查集成到后端语音生成流程。
 \end{resumeitems}
-\vspace{0.26em}
+\vspace{0.20em}
 
 \role{全栈开发实习生}{Pac Com Solution}{2021.06 -- 2022.01}
 \begin{resumeitems}
@@ -112,7 +112,7 @@
   \item 基于运行失败样本构造纠错数据并使用 QLoRA 微调，在固定的 200 个评测任务上将成功率从 34.5\% 提升至 62.0\%。
   \item 在 GAIA100 的 100 个任务上将准确率从 9\% 提升至 18\%；主要失败模式仍为过度搜索。
 \end{resumeitems}
-\vspace{0.26em}
+\vspace{0.20em}
 
 \projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B, pytest}
 \begin{resumeitems}
@@ -120,7 +120,7 @@
   \item 统一 FastAPI、CLI、Streamlit 与评测流程的服务层，确保交互与评测走同一执行路径。
   \item 在 100 条 BIRD DEV 查询上将正确查询率从 33\% 提升至 39\%，修复 6 个错误，0 个回退。
 \end{resumeitems}
-\vspace{0.26em}
+\vspace{0.20em}
 
 \projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python, BM25, Qwen Embeddings, RRF, FastAPI}
 \begin{resumeitems}
