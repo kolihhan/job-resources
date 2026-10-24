@@ -1,9 +1,10 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[a4paper,top=0.52in,bottom=0.62in,left=0.58in,right=0.58in]{geometry}
+\usepackage[a4paper,top=0.50in,bottom=0.62in,left=0.60in,right=0.60in]{geometry}
 \usepackage{fontspec}
 \usepackage{xeCJK}
 \setmainfont{Noto Sans}
 \setCJKmainfont{Noto Sans CJK SC}
+\newCJKfontfamily\thesiscjk{Noto Sans CJK TC}
 \setsansfont{Noto Sans}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -22,29 +23,31 @@
 \definecolor{muted}{HTML}{4F5860}
 \definecolor{linktone}{HTML}{315A78}
 
-\titleformat{\section}{\fontsize{12.7}{13.8}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.30em}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{1.22em}{0.52em}
+\titleformat{\section}{\fontsize{12.7}{13.9}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.05em}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{1.12em}{0.62em}
 
 \newenvironment{resumeitems}{%
-  \begin{itemize}[leftmargin=1.05em,itemsep=0.11em,topsep=0.13em,parsep=0pt,partopsep=0pt]
-  \fontsize{10.08}{12.62}\selectfont\raggedright
+  \begin{itemize}[leftmargin=1.05em,itemsep=0.10em,topsep=0.12em,parsep=0pt,partopsep=0pt]
+  \fontsize{9.92}{12.45}\selectfont\raggedright
 }{\end{itemize}}
 
-% 和英文版完全相同的固定左右栏：左标题 79%，右元信息 19%。
-% 所有日期、GitHub、论文类型与毕业时间共用同一右边界。
 \newcommand{\entryheader}[2]{%
   \noindent
   \begin{minipage}[t]{0.79\linewidth}\vspace{0pt}\raggedright
-    {\fontsize{11.05}{12.05}\selectfont\textbf{#1}}%
+    {\fontsize{10.75}{11.85}\selectfont\textbf{#1}}%
   \end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.19\linewidth}\vspace{0pt}\raggedleft
-    {\fontsize{9.45}{10.25}\selectfont\textcolor{muted}{#2}}%
+  \begin{minipage}[t]{0.19\linewidth}\vspace{1.2pt}\raggedleft
+    {\fontsize{9.35}{10.25}\selectfont\textcolor{muted}{#2}}%
   \end{minipage}\par
 }
 
 \newcommand{\entrysub}[1]{%
-  \vspace{-0.02em}{\fontsize{9.75}{10.95}\selectfont\textcolor{muted}{#1}}\par
+  \vspace{0.01em}{\fontsize{9.75}{10.95}\selectfont #1}\par
+}
+
+\newcommand{\entrymeta}[1]{%
+  \vspace{0.01em}{\fontsize{9.45}{10.65}\selectfont\textcolor{muted}{#1}}\par
 }
 
 \newcommand{\role}[3]{%
@@ -53,19 +56,12 @@
 }
 
 \newcommand{\projectlink}[3]{%
-  \noindent
-  \begin{minipage}[t]{0.79\linewidth}\vspace{0pt}\raggedright
-    {\fontsize{11.05}{12.05}\selectfont\href{#2}{\textcolor{linktone}{\textbf{#1}}}}%
-  \end{minipage}%
-  \hfill
-  \begin{minipage}[t]{0.19\linewidth}\vspace{0pt}\raggedleft
-    {\fontsize{9.45}{10.25}\selectfont\href{#2}{\textcolor{linktone}{\textbf{GitHub}}}}%
-  \end{minipage}\par
-  \entrysub{#3}
+  \noindent{\fontsize{10.75}{11.85}\selectfont\href{#2}{\textbf{#1}}}\par
+  \entrymeta{#3}
 }
 
 \newcommand{\research}[3]{%
-  \entryheader{#1}{#2}
+  \entryheader{{\thesiscjk #1}}{#2}
   \entrysub{#3}
 }
 
@@ -75,32 +71,35 @@
 }
 
 \newcommand{\skill}[2]{%
-  {\fontsize{9.98}{11.75}\selectfont\textbf{#1：} #2}\par\vspace{0.02em}
+  \noindent
+  \begin{minipage}[t]{0.145\linewidth}\vspace{0pt}{\fontsize{9.75}{11.55}\selectfont\textbf{#1：}}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.84\linewidth}\vspace{0pt}{\fontsize{9.75}{11.55}\selectfont #2}\end{minipage}\par\vspace{0.05em}
 }
 
 \begin{document}
 
 \begin{center}
-  {\fontsize{23.5}{24.2}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.04em]
-  {\fontsize{10.9}{11.8}\selectfont\bfseries 软件工程师 \textbar\ 应用 AI 与 LLM 系统}\\[0.11em]
-  {\fontsize{9.15}{9.95}\selectfont 马来西亚 \;\textbar\;
+  {\fontsize{23.5}{24.2}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.06em]
+  {\fontsize{10.9}{11.8}\selectfont\bfseries 软件工程师 \textbar\ 应用 AI 与 LLM 系统}\\[0.14em]
+  {\fontsize{9.15}{10.0}\selectfont 马来西亚 \;\textbar\;
   \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;\textbar\;
   \href{mailto:lihhanko526@gmail.com}{\textcolor{linktone}{lihhanko526@gmail.com}} \;\textbar\;
-  \href{https://github.com/kolihhan}{\textcolor{linktone}{\textbf{GitHub}}} \;\textbar\;
-  \href{https://www.linkedin.com/in/ko-lih-han-748993241}{\textcolor{linktone}{\textbf{LinkedIn}}}}
+  \href{https://github.com/kolihhan}{\textcolor{linktone}{GitHub}} \;\textbar\;
+  \href{https://www.linkedin.com/in/ko-lih-han-748993241}{\textcolor{linktone}{LinkedIn}}}
 \end{center}
-\vspace{-0.08em}
+\vspace{-0.02em}
 
 \section{工作经历}
-\role{软件开发工程师}{Kahap Inc \;\textbar\; 兼职}{2022.08 -- 2026.08}
+\role{软件开发工程师}{\textbf{Kahap Inc} \;\textbar\; 兼职}{2022.08 -- 2026.08}
 \begin{resumeitems}
-  \item 从 0 到 1 构建并上线反馈平台，统一处理意见提交、讨论、管理员审核与通知。
-  \item 维护 Laravel/Vue.js 生产平台，负责队列任务、定时任务、数据库/服务器迁移及 Linux 故障排查。
-  \item 将 GPT-SoVITS、发音检查与文本检查集成到后端语音生成流程。
+  \item 从 0 到 1 构建并上线反馈平台，覆盖意见提交、讨论、管理员审核与通知。
+  \item 维护 Laravel/Vue.js 生产平台，负责队列、定时任务、数据库/服务器迁移与 Linux 运维。
+  \item 将 GPT-SoVITS、发音检查与文本检查集成到后端语音流程。
 \end{resumeitems}
-\vspace{0.20em}
+\vspace{0.18em}
 
-\role{全栈开发实习生}{Pac Com Solution}{2021.06 -- 2022.01}
+\role{全栈开发实习生}{\textbf{Pac Com Solution}}{2021.06 -- 2022.01}
 \begin{resumeitems}
   \item 在生产环境 Laravel/Vue.js POS 系统中开发功能并修复缺陷。
 \end{resumeitems}
@@ -108,42 +107,42 @@
 \section{项目经历}
 \projectlink{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
 \begin{resumeitems}
-  \item 构建可调用搜索、文件检查与 Python 执行工具的 Agent，并加入超时、重复调用拦截与执行追踪。
-  \item 基于运行失败样本构造纠错数据并使用 QLoRA 微调，在固定的 200 个评测任务上将成功率从 34.5\% 提升至 62.0\%。
-  \item 在 GAIA100 的 100 个任务上将准确率从 9\% 提升至 18\%；主要失败模式仍为过度搜索。
+  \item 构建可调用搜索、文件检查与 Python 工具的 Agent，并加入超时、重复调用拦截与执行追踪。
+  \item 基于失败样本构造纠错数据并使用 QLoRA 微调，200 个固定任务成功率从 34.5\% 提升至 62.0\%。
+  \item GAIA100 准确率从 9\% 提升至 18\%；主要失败模式仍为过度搜索。
 \end{resumeitems}
-\vspace{0.20em}
+\vspace{0.18em}
 
 \projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B, pytest}
 \begin{resumeitems}
-  \item 搭建 NL-to-SQL 服务，通过 Schema Grounding、确定性校验、有限次修复与只读执行提升查询可靠性。
-  \item 统一 FastAPI、CLI、Streamlit 与评测流程的服务层，确保交互与评测走同一执行路径。
-  \item 在 100 条 BIRD DEV 查询上将正确查询率从 33\% 提升至 39\%，修复 6 个错误，0 个回退。
+  \item 搭建 NL-to-SQL 服务，包含 Schema Grounding、确定性校验、有限次修复与只读执行。
+  \item FastAPI、CLI、Streamlit 与评测共用同一服务层，避免交互路径与评测路径漂移。
+  \item 在 100 条 BIRD DEV 查询上将正确查询率从 33\% 提升至 39\%，修复 6 个错误且无回退。
 \end{resumeitems}
-\vspace{0.20em}
+\vspace{0.18em}
 
 \projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python, BM25, Qwen Embeddings, RRF, FastAPI}
 \begin{resumeitems}
-  \item 构建本地混合检索系统，结合 BM25 与 Qwen 向量检索并使用 RRF 融合，同时保留可检查的排序来源。
-  \item 在 5,189 篇文档、64 条 EnterpriseRAG-Bench 查询上，Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742。
+  \item 构建 BM25 + Qwen 向量检索 + RRF 的混合检索器，并保留可检查的排序来源。
+  \item 在 5,189 篇文档、64 条查询上，Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742。
 \end{resumeitems}
 
 \section{研究经历}
-\research{基於職場階層與情境脈絡之聽者隱含意圖解析}{硕士论文}{国立清华大学（NTHU） \;\textbar\; NLP, Retrieval, Role/Context KGs, Llama 3.1-8B}
+\research{基於職場階層與情境脈絡之聽者隱含意圖解析}{硕士论文}{\textbf{国立清华大学（NTHU）} \;\textbar\; NLP, Retrieval, Role/Context KGs, Llama 3.1-8B}
 \begin{resumeitems}
-  \item 整理并标注来自 7 个论坛的 20,455 条职场话语，标签覆盖说话者/听者状态、情绪与沟通目的。
-  \item 基于 Llama 3.1-8B 构建 Role KG 与 Context KG 检索，在 400 条目标话语上将语义 F1 从 0.644 提升至 0.682。
+  \item 整理 7 个论坛的 20,455 条职场话语，并标注说话者/听者状态、情绪与沟通目的。
+  \item 基于 Llama 3.1-8B 构建 Role KG + Context KG 检索，400 条目标话语语义 F1 从 0.644 提升至 0.682。
 \end{resumeitems}
 
 \section{技能}
-\skill{AI / LLM}{Agent 与工具调用, RAG / 混合检索, 模型评测, PEFT / QLoRA, Hugging Face Transformers, LangGraph, llama.cpp}
-\skill{后端}{Python, FastAPI, PHP, Laravel, REST APIs, SQL, MySQL, SQLite}
-\skill{Web 与工具}{JavaScript, Vue.js, Linux, Git, pytest}
-\skill{语言}{中文（母语水平）, 英语（流利）, 马来语（中级）}
+\skill{AI / LLM}{Agent 与工具调用，RAG / 混合检索，模型评测，PEFT / QLoRA，Transformers，LangGraph，llama.cpp}
+\skill{后端}{Python，FastAPI，PHP，Laravel，REST APIs，SQL，MySQL，SQLite}
+\skill{Web 与工具}{JavaScript，Vue.js，Linux，Git，pytest}
+\skill{语言}{中文（母语水平），英语（流利），马来语（中级）}
 
 \section{教育背景}
 \education{国立清华大学（NTHU）}{信息系统与应用 硕士}{4.09/4.3}{2026.06}
-\vspace{0.22em}
+\vspace{0.14em}
 \education{中华大学}{计算机科学与信息工程 学士}{3.9/4.0}{2024.06}
 
 \end{document}
