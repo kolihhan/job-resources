@@ -1,0 +1,59 @@
+name: Build English resume PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'resumes/resume-en-current.md'
+      - 'scripts/build_resume_en.py'
+      - '.github/workflows/build-resume-en.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-docx
+          sudo apt-get update
+          sudo apt-get install -y libreoffice poppler-utils
+
+      - name: Build resume DOCX
+        run: python scripts/build_resume_en.py
+
+      - name: Convert to PDF
+        run: |
+          mkdir -p resumes
+          libreoffice --headless --convert-to pdf --outdir resumes .build/resume-en-current.docx
+
+      - name: Verify PDF
+        run: |
+          test "$(pdfinfo resumes/resume-en-current.pdf | awk '/^Pages:/ {print $2}')" = "1"
+          pdftotext -layout resumes/resume-en-current.pdf /tmp/resume.txt
+          grep -q 'Small-Agent QLoRA' /tmp/resume.txt
+          grep -q 'Semantic Text-to-SQL' /tmp/resume.txt
+          grep -q 'Kahap Inc' /tmp/resume.txt
+          grep -q '33% to 39%' /tmp/resume.txt
+
+      - name: Commit generated PDF
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add resumes/resume-en-current.pdf
+          if git diff --cached --quiet; then
+            echo 'PDF unchanged'
+          else
+            git commit -m 'Update generated English resume PDF'
+            git push
+          fi
