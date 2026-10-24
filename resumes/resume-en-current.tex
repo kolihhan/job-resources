@@ -1,0 +1,109 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=0.42in,bottom=0.44in,left=0.56in,right=0.56in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[default]{sourcesanspro}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{2em}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdfauthor={Ko Lih Han},pdftitle={Ko Lih Han Resume}}
+
+\definecolor{accent}{HTML}{1F3344}
+\definecolor{rulegray}{HTML}{A7AFB5}
+\definecolor{muted}{HTML}{596168}
+\titleformat{\section}{\fontsize{12.8}{13.4}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.40em}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{0.78em}{0.30em}
+
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}X >{\raggedleft\arraybackslash}p{1.40in}@{}}
+    \textbf{#1} & {\small\textcolor{muted}{#2}} \\
+    \textit{#3} & {\small\textit{\textcolor{muted}{#4}}} \\
+  \end{tabularx}
+}
+
+\newcommand{\project}[3]{%
+  \begin{tabularx}{\textwidth}{@{}X >{\raggedleft\arraybackslash}p{1.40in}@{}}
+    \textbf{#1} & {\small\textcolor{muted}{#2}} \\[-0.02em]
+    \multicolumn{2}{@{}l@{}}{{\fontsize{9.75}{10.9}\selectfont\textit{\textcolor{muted}{#3}}}} \\
+  \end{tabularx}
+}
+
+\newenvironment{resumeitems}{%
+  \begin{itemize}[leftmargin=1.05em,itemsep=0.08em,topsep=0.10em,parsep=0pt,partopsep=0pt]
+  \fontsize{10.5}{12.45}\selectfont\raggedright
+}{\end{itemize}}
+
+\newcommand{\skill}[2]{%
+  \begin{tabularx}{\textwidth}{@{}>{\bfseries}p{1.72in}@{}X@{}}
+    \fontsize{10.15}{11.7}\selectfont #1: & \fontsize{10.15}{11.7}\selectfont #2 \\
+  \end{tabularx}
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{23.5}{24.5}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.06em]
+  {\fontsize{10.8}{11.4}\selectfont\bfseries Software Engineer \textbar\ Applied AI \& LLM Systems}\\[0.11em]
+  {\fontsize{9.2}{10.2}\selectfont Malaysia \;\textbar\; +60 17-424 6282 \;\textbar\; \href{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com} \;\textbar\; \href{https://github.com/kolihhan}{github.com/kolihhan} \;\textbar\; \href{https://www.linkedin.com/in/ko-lih-han-748993241}{LinkedIn}}
+\end{center}
+\vspace{-0.28em}
+
+\section{PROJECTS}
+\project{\href{https://github.com/kolihhan/small-agent-qlora}{Small-Agent QLoRA}}{2026}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
+\begin{resumeitems}
+  \item Fine-tuned a Qwen3.5-9B tool agent with QLoRA, improving task success from \textbf{34.5\% to 62.0\%} on a frozen 200-task evaluation.
+  \item Turned failure traces into corrective training data and used ablation tests to reject a training variant that hurt held-out performance.
+  \item Built the agent runtime with search/read/Python tools, duplicate-call blocking, timeouts, and trace logging; GAIA100 accuracy improved from \textbf{9\% to 18\%} over the base model.
+\end{resumeitems}
+\vspace{0.00em}
+
+\project{\href{https://github.com/kolihhan/semantic-text2sql-agent}{Semantic Text-to-SQL}}{2026}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B}
+\begin{resumeitems}
+  \item Built a local Text-to-SQL service that grounds on the database schema, validates generated SQL, repairs failures, and executes queries read-only.
+  \item On 100 frozen BIRD DEV queries, the guarded path improved execution success from \textbf{75\% to 90\%} and execution-match accuracy from \textbf{33\% to 39\%}.
+  \item Added before/after regression checks that recovered \textbf{6 wrong answers with 0 correct-to-wrong regressions}; dropped a semantic-review pass after it reduced accuracy.
+\end{resumeitems}
+
+\section{EXPERIENCE}
+\entry{Kahap Inc}{Aug 2022 -- Aug 2026}{Software Developer (Part-time)}{}
+\begin{resumeitems}
+  \item Led development and production support for a feedback platform from initial build through deployment and ongoing maintenance.
+  \item Built submission, discussion, admin, and notification workflows that moved the process into one centralized system.
+  \item Maintained a Laravel/Vue.js career platform and handled queues, scheduled jobs, SSL, database issues, and Linux server migrations.
+\end{resumeitems}
+\vspace{0.00em}
+
+\entry{Pac Com Solution}{Jun 2021 -- Jan 2022}{Full-Stack Developer Intern}{Malaysia}
+\begin{resumeitems}
+  \item Built and maintained Laravel/Vue.js features for a production POS system, including third-party API integrations and frontend/backend fixes.
+\end{resumeitems}
+
+\section{RESEARCH}
+\project{M.S. Thesis: Implicit Intent in Workplace Dialogue}{2025 -- 2026}{NLP, retrieval, workplace-role and context graphs}
+\begin{resumeitems}
+  \item Built a labeled workplace-dialogue dataset with \textbf{20,455 utterances} across \textbf{7 boards} for implicit intent and listener-side interpretation.
+  \item Combined role and context graphs with retrieval, improving target-only macro-F1 from \textbf{0.625 to 0.689} on \textbf{401 test utterances}.
+\end{resumeitems}
+
+\section{TECHNICAL SKILLS}
+\skill{AI / LLM}{LLM agents \& tool calling, QLoRA / PEFT, Hugging Face Transformers, RAG, retrieval \& LLM evaluation, LangGraph}
+\skill{Programming / Backend}{Python, SQL, PHP, JavaScript, FastAPI, Laravel, REST APIs}
+\skill{Data / Systems}{MySQL, SQLite, Linux, Git, GitHub Actions, pytest, llama.cpp}
+\skill{Frontend}{Vue.js, React}
+\skill{Languages}{Chinese (Native/Bilingual), English (Fluent), Malay (Intermediate)}
+
+\section{EDUCATION}
+\entry{National Tsing Hua University}{Sep 2024 -- Jun 2026}{M.S., Information Systems \& Applications \;\textbar\; GPA: 4.09/4.3}{Taiwan}
+\entry{Chung Hua University}{Sep 2022 -- Jun 2024}{B.S., Computer Science \& Information Engineering \;\textbar\; GPA: 3.9/4.0}{Taiwan}
+
+\end{document}
