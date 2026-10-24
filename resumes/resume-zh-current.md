@@ -40,8 +40,8 @@
 
 ## 研究经历
 
-**职场对话隐含语义理解** | 硕士论文  
-*国立清华大学（NTHU） · NLP · Retrieval · Role/Context Knowledge Graphs · Llama 3.1-8B*
+**基於職場階層與情境脈絡之聽者隱含意圖解析** | 硕士论文  
+*国立清华大学（NTHU） · NLP · Retrieval · Role/Context KGs · Llama 3.1-8B*
 
 - 整理并标注来自 7 个论坛的 20,455 条职场话语，标签覆盖说话者/听者状态、情绪与沟通目的。
 - 基于 Llama 3.1-8B 构建 Role KG 与 Context KG 检索，在 400 条目标话语上将语义 F1 从 0.644 提升至 0.682。
