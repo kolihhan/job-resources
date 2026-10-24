@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[a4paper,top=0.46in,bottom=0.48in,left=0.60in,right=0.60in]{geometry}
+\usepackage[a4paper,top=0.43in,bottom=0.45in,left=0.58in,right=0.58in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[default]{sourcesanspro}
 \usepackage{enumitem}
@@ -13,96 +13,92 @@
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\emergencystretch}{2em}
-\definecolor{rulegray}{HTML}{8A8F94}
-\definecolor{muted}{HTML}{3F4448}
+\definecolor{accent}{HTML}{1F3344}
+\definecolor{rulegray}{HTML}{A7AFB5}
+\definecolor{muted}{HTML}{4F5860}
 
-% Simple hierarchy. No tables, columns, or positioned boxes.
-\titleformat{\section}{\fontsize{12.2}{12.8}\selectfont\bfseries}{}{0pt}{}[\vspace{-0.40em}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{0.78em}{0.32em}
+% Old-template visual language, but pure vertical flow: no tables/boxes that can collide.
+\titleformat{\section}{\fontsize{12.4}{13.0}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.38em}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{0.72em}{0.27em}
 
 \newenvironment{resumeitems}{%
-  \begin{itemize}[leftmargin=1.03em,itemsep=0.06em,topsep=0.08em,parsep=0pt,partopsep=0pt]
-  \fontsize{10.25}{12.0}\selectfont\raggedright
+  \begin{itemize}[leftmargin=1.02em,itemsep=0.045em,topsep=0.065em,parsep=0pt,partopsep=0pt]
+  \fontsize{9.95}{11.62}\selectfont\raggedright
 }{\end{itemize}}
 
 \newcommand{\role}[3]{%
-  {\fontsize{10.75}{11.6}\selectfont\textbf{#1}}\\[-0.10em]
-  {\fontsize{10.05}{10.9}\selectfont #2}\\[-0.16em]
-  {\fontsize{9.45}{10.2}\selectfont\textcolor{muted}{#3}}\par
+  {\fontsize{10.55}{11.3}\selectfont\textbf{#1}}\\[-0.12em]
+  {\fontsize{9.95}{10.75}\selectfont #2 \;\textbar\; \textcolor{muted}{#3}}\par
 }
 
 \newcommand{\project}[3]{%
-  {\fontsize{10.75}{11.6}\selectfont\textbf{#1}}\\[-0.10em]
-  {\fontsize{9.45}{10.35}\selectfont\textcolor{muted}{#2}}\\[-0.14em]
-  {\fontsize{9.35}{10.25}\selectfont #3}\par
+  {\fontsize{10.55}{11.3}\selectfont\textbf{#1}}\\[-0.12em]
+  {\fontsize{9.0}{9.9}\selectfont\textcolor{muted}{#2}}\\[-0.13em]
+  {\fontsize{9.15}{10.0}\selectfont #3}\par
 }
 
 \newcommand{\skill}[2]{%
-  {\fontsize{9.95}{11.2}\selectfont\textbf{#1:} #2}\par
+  {\fontsize{9.72}{10.9}\selectfont\textbf{#1:} #2}\par
 }
 
 \begin{document}
 
 \begin{center}
-  {\fontsize{23.5}{24.0}\selectfont\bfseries KO LIH HAN}\\[0.03em]
-  {\fontsize{10.9}{11.5}\selectfont\bfseries Software Engineer \textbar\ Applied AI \& LLM Systems}\\[0.09em]
-  {\fontsize{9.0}{9.8}\selectfont Malaysia \;\textbar\; +60 17-424 6282 \;\textbar\; \href{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com} \;\textbar\; \href{https://github.com/kolihhan}{github.com/kolihhan} \;\textbar\; \href{https://www.linkedin.com/in/ko-lih-han-748993241}{LinkedIn}}
+  {\fontsize{23.5}{24.0}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.03em]
+  {\fontsize{10.8}{11.4}\selectfont\bfseries Software Engineer \textbar\ Applied AI \& LLM Systems}\\[0.08em]
+  {\fontsize{8.95}{9.7}\selectfont Malaysia \;\textbar\; +60 17-424 6282 \;\textbar\; \href{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com} \;\textbar\; \href{https://github.com/kolihhan}{github.com/kolihhan} \;\textbar\; \href{https://www.linkedin.com/in/ko-lih-han-748993241}{linkedin.com/in/ko-lih-han-748993241}}
 \end{center}
-\vspace{0.02em}
-
-{\fontsize{10.15}{11.8}\selectfont\raggedright
-Software engineer with \textbf{4 years of part-time production experience} owning backend systems from build to deployment. Combines production engineering with hands-on LLM post-training, agent runtimes, retrieval, and evaluation.\par}
-\vspace{-0.04em}
+\vspace{-0.20em}
 
 \section{EXPERIENCE}
 \role{Software Developer (Part-time)}{Kahap Inc}{Aug 2022 -- Aug 2026}
 \begin{resumeitems}
-  \item Owned the \textbf{0-to-1 build and production rollout} of a feedback platform, centralizing submissions, discussion, notifications, and admin workflows into one operational system.
-  \item Kept a Laravel/Vue.js career platform running across queue workers, scheduled jobs, SSL renewals, database/server migrations, and Linux hosting.
-  \item Integrated GPT-SoVITS and automated pronunciation/text checks into production features, connecting external AI services to existing backend workflows.
+  \item Owned the 0-to-1 build and production rollout of a feedback platform, centralizing submissions, discussions, admin review, and notifications into one operational system.
+  \item Operated a Laravel/Vue.js career platform across queue workers, scheduled jobs, SSL renewals, database/server migrations, and Linux hosting.
+  \item Integrated GPT-SoVITS plus automated pronunciation and text checks into existing backend workflows for AI-assisted content features.
 \end{resumeitems}
-\vspace{0.02em}
+\vspace{0.01em}
 
 \role{Full-Stack Developer Intern}{Pac Com Solution}{Jun 2021 -- Jan 2022}
 \begin{resumeitems}
-  \item Shipped and debugged Laravel/Vue.js features in a production POS codebase across backend and frontend paths.
+  \item Shipped and debugged Laravel/Vue.js features across backend and frontend paths in a production POS codebase.
 \end{resumeitems}
 
 \section{PROJECTS}
-\project{\href{https://github.com/kolihhan/small-agent-qlora}{Small-Agent QLoRA}}{github.com/kolihhan/small-agent-qlora}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
+\project{\href{https://github.com/kolihhan/small-agent-qlora}{Small-Agent QLoRA}}{2026 \;\textbar\; github.com/kolihhan/small-agent-qlora}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
 \begin{resumeitems}
-  \item Post-trained a Qwen3.5-9B tool agent with QLoRA, lifting exact task success from \textbf{34.5\% to 62.0\%} on a frozen 200-task closed-loop evaluation.
-  \item Built the agent runtime around bounded tool execution, duplicate-call blocking, timeouts, and persisted traces so failures could be reproduced and analyzed.
-  \item Validated beyond the controlled benchmark on GAIA100, \textbf{doubling accuracy from 9\% to 18\%} and tracing the main remaining failure to over-search rather than tool errors.
+  \item Built a single-model tool agent for search, file inspection, and Python execution, with bounded tool errors, duplicate-call blocking, timeouts, source-size limits, and persisted traces.
+  \item Diagnosed policy failures from traces and turned them into state-aware corrective QLoRA supervision, raising exact closed-loop success from 34.5\% to 62.0\% on 200 frozen tasks.
+  \item Rejected full-trajectory SFT after held-out regression; on GAIA100, an intermediate tuned checkpoint doubled base accuracy from 9\% to 18\%, while the final continuation held 18\% but exposed over-search / failure-to-finalize.
 \end{resumeitems}
-\vspace{0.02em}
+\vspace{0.01em}
 
-\project{\href{https://github.com/kolihhan/semantic-text2sql-agent}{Semantic Text-to-SQL}}{github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B}
+\project{\href{https://github.com/kolihhan/semantic-text2sql-agent}{Semantic Text-to-SQL}}{2026 \;\textbar\; github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B}
 \begin{resumeitems}
-  \item Designed and built a local NL-to-SQL service with schema grounding, deterministic validation, bounded repair, and read-only execution to reject invalid or destructive queries before they reach the database.
-  \item Improved execution success from \textbf{75\% to 90\%} and execution-match accuracy from \textbf{33\% to 39\%} on 100 frozen BIRD DEV queries, recovering 6 wrong answers with 0 regressions.
-  \item Unified FastAPI, CLI, and Streamlit behind one service layer so generation, verification, execution, and evaluation reused the same backend logic.
+  \item Designed a local NL-to-SQL service around a key reliability gap: executable SQL can still be wrong; combined schema grounding, deterministic preflight, bounded repair, read-only execution, and explicit traces.
+  \item On 100 frozen BIRD DEV queries, guarded verification/repair raised conservative execution success from 75\% to 90\% and EX-compatible match from 33\% to 39\%, recovering 6 wrong answers with 0 regressions.
+  \item Kept the simpler guarded path after semantic-review and grounding ablations failed to improve net correctness; reused one backend layer across FastAPI, CLI, and Streamlit.
 \end{resumeitems}
 
 \section{RESEARCH}
-\project{Context-Aware Workplace Language Understanding}{M.S. Thesis, National Tsing Hua University}{NLP, retrieval, role/context graphs}
+\project{Context-Aware Implicit Workplace Meaning}{M.S. Thesis \;\textbar\; National Tsing Hua University}{NLP, retrieval, role/context knowledge graphs, Llama 3.1-8B}
 \begin{resumeitems}
-  \item Curated and labeled \textbf{20,455 workplace utterances across 7 boards}, capturing speaker/listener state, emotion, and communicative purpose for implicit-meaning analysis.
-  \item Designed role- and context-aware graph retrieval/fusion, improving target-only macro-F1 from \textbf{0.625 to 0.689} on 401 test utterances.
+  \item Built a listener-side NLP pipeline for implicit workplace meaning, curating 20,455 utterances across 7 boards and labeling speaker/listener state, emotion, and communicative purpose.
+  \item Built separate Role KG and Context KG retrieval paths and fused top-1 evidence into local Llama 3.1-8B generation to model who said what, to whom, and under what dialogue context.
+  \item Designed a controlled evaluation on the same 400 aligned targets with fixed prompts across target-only and preceding-context arms, isolating context/evidence changes from prompt drift.
+  \item Dual-KG improved target-only semantic F1 from 0.644 to 0.682 and preceding-context F1 from 0.680 to 0.691; the baseline context gain (+0.036) showed dialogue history remained a major signal alongside graph evidence.
 \end{resumeitems}
 
 \section{SKILLS}
-\skill{AI / LLM}{Hugging Face Transformers, PEFT / QLoRA, LangGraph, llama.cpp, RAG, tool calling, LLM evaluation}
-\skill{Backend}{Python, FastAPI, PHP, Laravel, SQL, REST APIs}
+\skill{AI / LLM}{Agents \& tool use, RAG / retrieval, model evaluation, PEFT / QLoRA, Hugging Face Transformers, LangGraph, llama.cpp}
+\skill{Backend}{Python, FastAPI, PHP, Laravel, SQL, REST APIs, JavaScript}
 \skill{Data / Infrastructure}{MySQL, SQLite, Linux, Git, GitHub Actions, pytest}
-\skill{Frontend}{JavaScript, Vue.js, React}
+\skill{Frontend}{Vue.js, React}
 \skill{Languages}{Chinese (Native/Bilingual), English (Fluent), Malay (Intermediate)}
 
 \section{EDUCATION}
-{\fontsize{10.35}{11.4}\selectfont\textbf{National Tsing Hua University}}\par
-{\fontsize{9.95}{11.1}\selectfont Master of Science, Information Systems \& Applications \;\textbar\; GPA: 4.09/4.3 \;\textbar\; Jun 2026}\par
-\vspace{0.08em}
-{\fontsize{10.35}{11.4}\selectfont\textbf{Chung Hua University}}\par
-{\fontsize{9.95}{11.1}\selectfont Bachelor of Science, Computer Science \& Information Engineering \;\textbar\; GPA: 3.9/4.0 \;\textbar\; Jun 2024}\par
+{\fontsize{10.2}{11.1}\selectfont\textbf{National Tsing Hua University} \;\textbar\; Master of Science, Information Systems \& Applications \;\textbar\; GPA: 4.09/4.3 \;\textbar\; Jun 2026}\par
+\vspace{0.04em}
+{\fontsize{10.2}{11.1}\selectfont\textbf{Chung Hua University} \;\textbar\; Bachelor of Science, Computer Science \& Information Engineering \;\textbar\; GPA: 3.9/4.0 \;\textbar\; Jun 2024}\par
 
 \end{document}
