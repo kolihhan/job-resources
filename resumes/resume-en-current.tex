@@ -27,8 +27,8 @@
 }{\end{itemize}}
 
 \newcommand{\role}[3]{%
-  {\fontsize{11.28}{12.20}\selectfont\textbf{#1}}\\[-0.07em]
-  {\fontsize{10.45}{11.58}\selectfont #2 \;\textbar\; \textcolor{muted}{#3}}\par
+  {\fontsize{11.28}{12.20}\selectfont\textbf{#1}\hfill\textcolor{muted}{\fontsize{9.85}{10.6}\selectfont #3}}\\[-0.07em]
+  {\fontsize{10.45}{11.58}\selectfont #2}\par
 }
 
 \newcommand{\projectlink}[3]{%
@@ -40,9 +40,13 @@
   {\fontsize{9.95}{11.10}\selectfont\textcolor{muted}{#3}}\par
 }
 
-\newcommand{\project}[2]{%
-  {\fontsize{11.20}{12.10}\selectfont\textbf{#1}}\\[-0.05em]
-  {\fontsize{9.95}{11.10}\selectfont\textcolor{muted}{#2}}\par
+\newcommand{\research}[3]{%
+  {\fontsize{11.20}{12.10}\selectfont\textbf{#1}\hfill\textcolor{muted}{\fontsize{9.55}{10.2}\selectfont #2}}\\[-0.05em]
+  {\fontsize{9.95}{11.10}\selectfont\textcolor{muted}{#3}}\par
+}
+
+\newcommand{\education}[4]{%
+  {\fontsize{10.72}{11.85}\selectfont\textbf{#1} \;\textbar\; #2 \;\textbar\; GPA #3\hfill\textcolor{muted}{\fontsize{9.85}{10.6}\selectfont #4}}\par
 }
 
 \newcommand{\skill}[2]{%
@@ -100,7 +104,7 @@
 \end{resumeitems}
 
 \section{RESEARCH}
-\project{Context-Aware Implicit Workplace Meaning}{M.S. Thesis \;\textbar\; National Tsing Hua University \;\textbar\; NLP, retrieval, role/context knowledge graphs, Llama 3.1-8B}
+\research{Context-Aware Implicit Workplace Meaning}{M.S. Thesis}{National Tsing Hua University \;\textbar\; NLP, retrieval, role/context knowledge graphs, Llama 3.1-8B}
 \begin{resumeitems}
   \item Curated and labeled 20,455 workplace utterances from 7 forums for speaker/listener state, emotion, and communicative purpose.
   \item Built Role KG and Context KG retrieval with Llama 3.1-8B; semantic F1 improved from 0.644 to 0.682 on 400 target utterances.
@@ -113,8 +117,8 @@
 \skill{Spoken Languages}{Chinese (Native), English (Fluent), Malay (Intermediate)}
 
 \section{EDUCATION}
-{\fontsize{10.82}{12.10}\selectfont\textbf{National Tsing Hua University} \;\textbar\; M.S., Information Systems \& Applications \;\textbar\; GPA 4.09/4.3 \;\textbar\; Jun 2026}\par
-\vspace{0.32em}
-{\fontsize{10.82}{12.10}\selectfont\textbf{Chung Hua University} \;\textbar\; B.S., Computer Science \& Information Engineering \;\textbar\; GPA 3.9/4.0 \;\textbar\; Jun 2024}\par
+\education{National Tsing Hua University}{M.S., Information Systems \& Applications}{4.09/4.3}{Jun 2026}
+\vspace{0.28em}
+\education{Chung Hua University}{B.S., Computer Science \& Information Engineering}{3.9/4.0}{Jun 2024}
 
 \end{document}
