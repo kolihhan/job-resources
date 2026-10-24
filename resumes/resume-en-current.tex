@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[a4paper,top=0.50in,bottom=0.56in,left=0.58in,right=0.58in]{geometry}
+\usepackage[a4paper,top=0.50in,bottom=0.62in,left=0.60in,right=0.60in]{geometry}
 \usepackage{fontspec}
 \setmainfont{Noto Sans}
 \setsansfont{Noto Sans}
@@ -20,29 +20,31 @@
 \definecolor{muted}{HTML}{4F5860}
 \definecolor{linktone}{HTML}{315A78}
 
-\titleformat{\section}{\fontsize{12.7}{13.5}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.30em}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{0.82em}{0.36em}
+\titleformat{\section}{\fontsize{12.7}{13.8}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.05em}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{1.10em}{0.62em}
 
 \newenvironment{resumeitems}{%
-  \begin{itemize}[leftmargin=1.04em,itemsep=0.05em,topsep=0.08em,parsep=0pt,partopsep=0pt]
-  \fontsize{10.00}{11.85}\selectfont\raggedright
+  \begin{itemize}[leftmargin=1.04em,itemsep=0.10em,topsep=0.12em,parsep=0pt,partopsep=0pt]
+  \fontsize{9.92}{12.35}\selectfont\raggedright
 }{\end{itemize}}
 
-% Fixed two-column header grid used by Experience, Projects, Research, Education.
-% Both columns have fixed widths so every date/link/type shares the same right edge.
 \newcommand{\entryheader}[2]{%
   \noindent
   \begin{minipage}[t]{0.79\linewidth}\vspace{0pt}\raggedright
-    {\fontsize{11.05}{11.95}\selectfont\textbf{#1}}%
+    {\fontsize{10.75}{11.8}\selectfont\textbf{#1}}%
   \end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.19\linewidth}\vspace{0pt}\raggedleft
-    {\fontsize{9.45}{10.2}\selectfont\textcolor{muted}{#2}}%
+  \begin{minipage}[t]{0.19\linewidth}\vspace{1.2pt}\raggedleft
+    {\fontsize{9.35}{10.2}\selectfont\textcolor{muted}{#2}}%
   \end{minipage}\par
 }
 
 \newcommand{\entrysub}[1]{%
-  \vspace{-0.02em}{\fontsize{9.85}{10.85}\selectfont\textcolor{muted}{#1}}\par
+  \vspace{0.01em}{\fontsize{9.75}{10.9}\selectfont #1}\par
+}
+
+\newcommand{\entrymeta}[1]{%
+  \vspace{0.01em}{\fontsize{9.45}{10.6}\selectfont\textcolor{muted}{#1}}\par
 }
 
 \newcommand{\role}[3]{%
@@ -51,15 +53,8 @@
 }
 
 \newcommand{\projectlink}[3]{%
-  \noindent
-  \begin{minipage}[t]{0.79\linewidth}\vspace{0pt}\raggedright
-    {\fontsize{11.05}{11.95}\selectfont\href{#2}{\textcolor{linktone}{\textbf{#1}}}}%
-  \end{minipage}%
-  \hfill
-  \begin{minipage}[t]{0.19\linewidth}\vspace{0pt}\raggedleft
-    {\fontsize{9.45}{10.2}\selectfont\href{#2}{\textcolor{linktone}{\textbf{GitHub}}}}%
-  \end{minipage}\par
-  \entrysub{#3}
+  \noindent{\fontsize{10.75}{11.8}\selectfont\href{#2}{\textbf{#1}}}\par
+  \entrymeta{#3}
 }
 
 \newcommand{\research}[3]{%
@@ -73,32 +68,35 @@
 }
 
 \newcommand{\skill}[2]{%
-  {\fontsize{10.00}{11.50}\selectfont\textbf{#1:} #2}\par\vspace{0.02em}
+  \noindent
+  \begin{minipage}[t]{0.145\linewidth}\vspace{0pt}{\fontsize{9.8}{11.5}\selectfont\textbf{#1:}}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.84\linewidth}\vspace{0pt}{\fontsize{9.8}{11.5}\selectfont #2}\end{minipage}\par\vspace{0.05em}
 }
 
 \begin{document}
 
 \begin{center}
-  {\fontsize{23.5}{24.2}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.04em]
-  {\fontsize{10.9}{11.7}\selectfont\bfseries Software Engineer \textbar\ Applied AI \& LLM Systems}\\[0.11em]
-  {\fontsize{9.15}{9.95}\selectfont Malaysia \;\textbar\;
+  {\fontsize{23.5}{24.2}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.06em]
+  {\fontsize{10.9}{11.8}\selectfont\bfseries Software Engineer \textbar\ Applied AI \& LLM Systems}\\[0.14em]
+  {\fontsize{9.15}{10.0}\selectfont Malaysia \;\textbar\;
   \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;\textbar\;
   \href{mailto:lihhanko526@gmail.com}{\textcolor{linktone}{lihhanko526@gmail.com}} \;\textbar\;
-  \href{https://github.com/kolihhan}{\textcolor{linktone}{\textbf{GitHub}}} \;\textbar\;
-  \href{https://www.linkedin.com/in/ko-lih-han-748993241}{\textcolor{linktone}{\textbf{LinkedIn}}}}
+  \href{https://github.com/kolihhan}{\textcolor{linktone}{GitHub}} \;\textbar\;
+  \href{https://www.linkedin.com/in/ko-lih-han-748993241}{\textcolor{linktone}{LinkedIn}}}
 \end{center}
-\vspace{-0.08em}
+\vspace{-0.02em}
 
 \section{EXPERIENCE}
-\role{Software Developer}{Kahap Inc \;\textbar\; Part-time}{Aug 2022 -- Aug 2026}
+\role{Software Developer}{\textbf{Kahap Inc} \;\textbar\; Part-time}{Aug 2022 -- Aug 2026}
 \begin{resumeitems}
-  \item Built and launched a feedback platform that centralized submissions, discussions, admin review, and notifications.
-  \item Maintained a production Laravel/Vue.js platform, including queue workers, scheduled jobs, database/server migrations, and Linux troubleshooting.
-  \item Integrated GPT-SoVITS with pronunciation and text checks into backend speech-generation workflows.
+  \item Built and launched a feedback platform for submissions, discussions, admin review, and notifications.
+  \item Maintained a Laravel/Vue.js production platform across queues, scheduled jobs, migrations, and Linux operations.
+  \item Integrated GPT-SoVITS, pronunciation checks, and text checks into backend speech workflows.
 \end{resumeitems}
-\vspace{0.08em}
+\vspace{0.18em}
 
-\role{Full-Stack Developer Intern}{Pac Com Solution}{Jun 2021 -- Jan 2022}
+\role{Full-Stack Developer Intern}{\textbf{Pac Com Solution}}{Jun 2021 -- Jan 2022}
 \begin{resumeitems}
   \item Built features and fixed bugs in a production Laravel/Vue.js POS system.
 \end{resumeitems}
@@ -106,42 +104,42 @@
 \section{PROJECTS}
 \projectlink{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
 \begin{resumeitems}
-  \item Built a tool-using agent with search, file inspection, Python execution, timeouts, duplicate-call blocking, and trace logging.
-  \item Fine-tuned it with QLoRA on corrective examples from observed failures, improving success from 34.5\% to 62.0\% on 200 frozen tasks.
-  \item Improved GAIA100 accuracy from 9\% to 18\% on 100 tasks; over-search remained the main failure mode.
+  \item Built a tool-using agent with search, file inspection, Python execution, timeouts, duplicate blocking, and trace logs.
+  \item Used QLoRA on corrective failure examples, raising 200-task success from 34.5\% to 62.0\%.
+  \item Raised GAIA100 accuracy from 9\% to 18\%; over-search remained the main failure mode.
 \end{resumeitems}
-\vspace{0.08em}
+\vspace{0.18em}
 
 \projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B, pytest}
 \begin{resumeitems}
-  \item Built an NL-to-SQL service with schema grounding, deterministic validation, bounded repair, and read-only execution.
-  \item Shared one service layer across FastAPI, CLI, Streamlit, and evaluation to keep behavior consistent.
-  \item Improved correct-query accuracy from 33\% to 39\% on 100 BIRD DEV queries, fixing 6 failures with no regressions.
+  \item Built an NL-to-SQL service with schema grounding, validation, bounded repair, and read-only execution.
+  \item Shared one service layer across FastAPI, CLI, Streamlit, and evaluation to prevent path drift.
+  \item Raised correct-query accuracy from 33\% to 39\% on 100 BIRD DEV queries, fixing 6 with no regressions.
 \end{resumeitems}
-\vspace{0.08em}
+\vspace{0.18em}
 
 \projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python, BM25, Qwen embeddings, RRF, FastAPI}
 \begin{resumeitems}
-  \item Built a local hybrid retriever combining BM25 and Qwen dense retrieval with RRF and inspectable rank provenance.
-  \item On 64 EnterpriseRAG-Bench queries over 5,189 documents, improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742.
+  \item Built a hybrid retriever with BM25, Qwen dense retrieval, RRF, and inspectable rank provenance.
+  \item On 64 queries over 5,189 documents, Recall@10 rose from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742.
 \end{resumeitems}
 
 \section{RESEARCH}
-\research{Interpreting Implicit Intent through Workplace Hierarchies and Context}{M.S. Thesis}{National Tsing Hua University \;\textbar\; NLP, retrieval, Role/Context KGs, Llama 3.1-8B}
+\research{Interpreting Implicit Intent through Workplace Hierarchies and Context}{M.S. Thesis}{\textbf{National Tsing Hua University} \;\textbar\; NLP, retrieval, Role/Context KGs, Llama 3.1-8B}
 \begin{resumeitems}
-  \item Curated and labeled 20,455 workplace utterances from 7 forums for speaker/listener state, emotion, and communicative purpose.
-  \item Built Role KG and Context KG retrieval with Llama 3.1-8B; semantic F1 improved from 0.644 to 0.682 on 400 target utterances.
+  \item Curated 20,455 workplace utterances from 7 forums with speaker/listener state, emotion, and purpose labels.
+  \item Built Role KG + Context KG retrieval with Llama 3.1-8B, raising semantic F1 from 0.644 to 0.682 on 400 targets.
 \end{resumeitems}
 
 \section{SKILLS}
-\skill{AI / LLM}{Agents \& tool use, RAG / hybrid retrieval, model evaluation, PEFT / QLoRA, Hugging Face Transformers, LangGraph, llama.cpp}
+\skill{AI / LLM}{Agents \& tool use, RAG / hybrid retrieval, evaluation, PEFT / QLoRA, Transformers, LangGraph, llama.cpp}
 \skill{Backend}{Python, FastAPI, PHP, Laravel, REST APIs, SQL, MySQL, SQLite}
 \skill{Web \& Tools}{JavaScript, Vue.js, Linux, Git, pytest}
-\skill{Spoken Languages}{Chinese (Native), English (Fluent), Malay (Intermediate)}
+\skill{Languages}{Chinese (Native), English (Fluent), Malay (Intermediate)}
 
 \section{EDUCATION}
 \education{National Tsing Hua University}{M.S., Information Systems \& Applications}{4.09/4.3}{Jun 2026}
-\vspace{0.04em}
+\vspace{0.14em}
 \education{Chung Hua University}{B.S., Computer Science \& Information Engineering}{3.9/4.0}{Jun 2024}
 
 \end{document}
