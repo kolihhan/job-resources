@@ -1,0 +1,125 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=0.46in,bottom=0.43in,left=0.58in,right=0.58in]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Noto Sans}
+\setCJKmainfont{Noto Sans CJK SC}
+\setsansfont{Noto Sans}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2em}
+\definecolor{accent}{HTML}{1F3344}
+\definecolor{rulegray}{HTML}{A7AFB5}
+\definecolor{muted}{HTML}{4F5860}
+\definecolor{linktone}{HTML}{315A78}
+
+\titleformat{\section}{\fontsize{12.8}{14.0}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.31em}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{1.48em}{0.56em}
+
+\newenvironment{resumeitems}{%
+  \begin{itemize}[leftmargin=1.05em,itemsep=0.18em,topsep=0.17em,parsep=0pt,partopsep=0pt]
+  \fontsize{10.2}{13.0}\selectfont\raggedright
+}{\end{itemize}}
+
+\newcommand{\role}[3]{%
+  {\fontsize{11.25}{12.45}\selectfont\textbf{#1}\hfill\textcolor{muted}{\fontsize{9.7}{10.5}\selectfont #3}}\\[-0.05em]
+  {\fontsize{10.25}{11.6}\selectfont #2}\par
+}
+
+\newcommand{\projectlink}[3]{%
+  {\fontsize{11.25}{12.45}\selectfont
+    \href{#2}{\textcolor{linktone}{\textbf{#1}}}%
+    \hfill
+    \href{#2}{\textcolor{linktone}{\fontsize{9.2}{9.8}\selectfont\textbf{GitHub}}}%
+  }\\[-0.02em]
+  {\fontsize{9.75}{11.0}\selectfont\textcolor{muted}{#3}}\par
+}
+
+\newcommand{\research}[3]{%
+  {\fontsize{11.18}{12.35}\selectfont\textbf{#1}\hfill\textcolor{muted}{\fontsize{9.45}{10.2}\selectfont #2}}\\[-0.04em]
+  {\fontsize{9.75}{11.0}\selectfont\textcolor{muted}{#3}}\par
+}
+
+\newcommand{\education}[4]{%
+  {\fontsize{10.58}{11.8}\selectfont\textbf{#1} \;\textbar\; #2 \;\textbar\; GPA #3\hfill\textcolor{muted}{\fontsize{9.7}{10.5}\selectfont #4}}\par
+}
+
+\newcommand{\skill}[2]{%
+  {\fontsize{10.18}{12.3}\selectfont\textbf{#1：} #2}\par\vspace{0.035em}
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{24.2}{24.8}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.05em]
+  {\fontsize{11.15}{12.2}\selectfont\bfseries 软件工程师 \textbar\ 应用 AI 与 LLM 系统}\\[0.13em]
+  {\fontsize{9.45}{10.45}\selectfont 马来西亚 \;\textbar\;
+  \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;\textbar\;
+  \href{mailto:lihhanko526@gmail.com}{\textcolor{linktone}{lihhanko526@gmail.com}} \;\textbar\;
+  \href{https://github.com/kolihhan}{\textcolor{linktone}{\textbf{GitHub}}} \;\textbar\;
+  \href{https://www.linkedin.com/in/ko-lih-han-748993241}{\textcolor{linktone}{\textbf{LinkedIn}}}}
+\end{center}
+\vspace{-0.04em}
+
+\section{工作经历}
+\role{软件开发工程师}{Kahap Inc \;\textbar\; 兼职}{2022.08 -- 2026.08}
+\begin{resumeitems}
+  \item 从 0 到 1 构建并上线反馈平台，统一处理意见提交、讨论、管理员审核与通知。
+  \item 维护 Laravel/Vue.js 生产平台，负责队列任务、定时任务、数据库/服务器迁移及 Linux 故障排查。
+  \item 将 GPT-SoVITS、发音检查与文本检查集成到后端语音生成流程。
+\end{resumeitems}
+\vspace{0.28em}
+
+\role{全栈开发实习生}{Pac Com Solution}{2021.06 -- 2022.01}
+\begin{resumeitems}
+  \item 在生产环境 Laravel/Vue.js POS 系统中开发功能并修复缺陷。
+\end{resumeitems}
+
+\section{项目经历}
+\projectlink{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
+\begin{resumeitems}
+  \item 构建可调用搜索、文件检查与 Python 执行工具的 Agent，并加入超时、重复调用拦截与执行追踪。
+  \item 基于运行失败样本构造纠错数据并使用 QLoRA 微调，在固定的 200 个评测任务上将成功率从 34.5\% 提升至 62.0\%。
+  \item 在 GAIA100 的 100 个任务上将准确率从 9\% 提升至 18\%；主要失败模式仍为过度搜索。
+\end{resumeitems}
+\vspace{0.28em}
+
+\projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B, pytest}
+\begin{resumeitems}
+  \item 搭建 NL-to-SQL 服务，通过 Schema Grounding、确定性校验、有限次修复与只读执行提升查询可靠性。
+  \item 统一 FastAPI、CLI、Streamlit 与评测流程的服务层，确保交互与评测走同一执行路径。
+  \item 在 100 条 BIRD DEV 查询上将正确查询率从 33\% 提升至 39\%，修复 6 个错误，0 个回退。
+\end{resumeitems}
+\vspace{0.28em}
+
+\projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python, BM25, Qwen Embeddings, RRF, FastAPI}
+\begin{resumeitems}
+  \item 构建本地混合检索系统，结合 BM25 与 Qwen 向量检索并使用 RRF 融合，同时保留可检查的排序来源。
+  \item 在 5,189 篇文档、64 条 EnterpriseRAG-Bench 查询上，Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742。
+\end{resumeitems}
+
+\section{研究经历}
+\research{职场对话隐含语义理解}{硕士论文}{国立清华大学（NTHU） \;\textbar\; NLP, Retrieval, Role/Context Knowledge Graphs, Llama 3.1-8B}
+\begin{resumeitems}
+  \item 整理并标注来自 7 个论坛的 20,455 条职场话语，标签覆盖说话者/听者状态、情绪与沟通目的。
+  \item 基于 Llama 3.1-8B 构建 Role KG 与 Context KG 检索，在 400 条目标话语上将语义 F1 从 0.644 提升至 0.682。
+\end{resumeitems}
+
+\section{技能}
+\skill{AI / LLM}{Agent 与工具调用, RAG / 混合检索, 模型评测, PEFT / QLoRA, Hugging Face Transformers, LangGraph, llama.cpp}
+\skill{后端}{Python, FastAPI, PHP, Laravel, REST APIs, SQL, MySQL, SQLite}
+\skill{Web 与工具}{JavaScript, Vue.js, Linux, Git, pytest}
+\skill{语言}{中文（母语水平）, 英语（流利）, 马来语（中级）}
+
+\section{教育背景}
+\education{国立清华大学（NTHU）}{信息系统与应用 硕士}{4.09/4.3}{2026.06}
+\vspace{0.26em}
+\education{中华大学}{计算机科学与信息工程 学士}{3.9/4.0}{2024.06}
+
+\end{document}
