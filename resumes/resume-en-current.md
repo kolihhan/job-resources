@@ -40,8 +40,8 @@ Malaysia | [+60 17-424 6282](tel:+60174246282) | [lihhanko526@gmail.com](mailto:
 
 ## Research
 
-**Context-Aware Implicit Workplace Meaning**  
-*M.S. Thesis | National Tsing Hua University | NLP · retrieval · role/context knowledge graphs · Llama 3.1-8B*
+**Interpreting Implicit Intent through Workplace Hierarchies and Context**  
+*M.S. Thesis | National Tsing Hua University | NLP · retrieval · Role/Context KGs · Llama 3.1-8B*
 
 - Curated and labeled 20,455 workplace utterances from 7 forums for speaker/listener state, emotion, and communicative purpose.
 - Built Role KG and Context KG retrieval with Llama 3.1-8B; semantic F1 improved from 0.644 to 0.682 on 400 target utterances.
