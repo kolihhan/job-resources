@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[a4paper,top=0.46in,bottom=0.45in,left=0.58in,right=0.58in]{geometry}
+\usepackage[a4paper,top=0.50in,bottom=0.56in,left=0.58in,right=0.58in]{geometry}
 \usepackage{fontspec}
 \setmainfont{Noto Sans}
 \setsansfont{Noto Sans}
@@ -21,11 +21,11 @@
 \definecolor{linktone}{HTML}{315A78}
 
 \titleformat{\section}{\fontsize{12.7}{13.5}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.30em}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{0.96em}{0.40em}
+\titlespacing*{\section}{0pt}{0.82em}{0.36em}
 
 \newenvironment{resumeitems}{%
-  \begin{itemize}[leftmargin=1.04em,itemsep=0.07em,topsep=0.10em,parsep=0pt,partopsep=0pt]
-  \fontsize{10.05}{12.00}\selectfont\raggedright
+  \begin{itemize}[leftmargin=1.04em,itemsep=0.05em,topsep=0.08em,parsep=0pt,partopsep=0pt]
+  \fontsize{10.00}{11.85}\selectfont\raggedright
 }{\end{itemize}}
 
 % Fixed two-column header grid used by Experience, Projects, Research, Education.
@@ -73,7 +73,7 @@
 }
 
 \newcommand{\skill}[2]{%
-  {\fontsize{10.05}{11.65}\selectfont\textbf{#1:} #2}\par\vspace{0.02em}
+  {\fontsize{10.00}{11.50}\selectfont\textbf{#1:} #2}\par\vspace{0.02em}
 }
 
 \begin{document}
@@ -96,7 +96,7 @@
   \item Maintained a production Laravel/Vue.js platform, including queue workers, scheduled jobs, database/server migrations, and Linux troubleshooting.
   \item Integrated GPT-SoVITS with pronunciation and text checks into backend speech-generation workflows.
 \end{resumeitems}
-\vspace{0.10em}
+\vspace{0.08em}
 
 \role{Full-Stack Developer Intern}{Pac Com Solution}{Jun 2021 -- Jan 2022}
 \begin{resumeitems}
@@ -110,7 +110,7 @@
   \item Fine-tuned it with QLoRA on corrective examples from observed failures, improving success from 34.5\% to 62.0\% on 200 frozen tasks.
   \item Improved GAIA100 accuracy from 9\% to 18\% on 100 tasks; over-search remained the main failure mode.
 \end{resumeitems}
-\vspace{0.10em}
+\vspace{0.08em}
 
 \projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B, pytest}
 \begin{resumeitems}
@@ -118,7 +118,7 @@
   \item Shared one service layer across FastAPI, CLI, Streamlit, and evaluation to keep behavior consistent.
   \item Improved correct-query accuracy from 33\% to 39\% on 100 BIRD DEV queries, fixing 6 failures with no regressions.
 \end{resumeitems}
-\vspace{0.10em}
+\vspace{0.08em}
 
 \projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python, BM25, Qwen embeddings, RRF, FastAPI}
 \begin{resumeitems}
@@ -141,7 +141,7 @@
 
 \section{EDUCATION}
 \education{National Tsing Hua University}{M.S., Information Systems \& Applications}{4.09/4.3}{Jun 2026}
-\vspace{0.08em}
+\vspace{0.04em}
 \education{Chung Hua University}{B.S., Computer Science \& Information Engineering}{3.9/4.0}{Jun 2024}
 
 \end{document}
