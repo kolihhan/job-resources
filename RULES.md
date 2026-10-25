@@ -51,7 +51,7 @@ Any application, recruiter outreach or other employer-facing action requires exp
 - Gmail = receipts, recruiter messages, OA/interviews, deadlines, rejections and targeted dedupe evidence.
 - `PROFILE.md` = stable candidate facts + current battlefield/market strategy.
 - `RULES.md` = detailed execution policy.
-- `DISCOVERY_STATE.md` = compact verified discovery/maintenance receipt + FreeHire cursor only.
+- `DISCOVERY_STATE.md` = compact verified discovery/maintenance receipt, FreeHire cursor, and bounded hourly-scout incremental state only.
 - Old spreadsheet = legacy/read-only.
 
 Scheduler prompts and `NEXT_CHAT_PROMPT.md` must read these files rather than carry private copies of strategy/policy.
@@ -196,7 +196,9 @@ Runtime baseline:
 
 Exact runtime timestamps live in the automation definitions. Do not duplicate exact minute offsets in repo policy.
 
-Hourly scouts are read-only. They may search, verify, dedupe, classify and recommend. They do not submit applications, contact employers, modify Gmail, or mutate GitHub Issues.
+Hourly scouts are **read-only for opportunity/application state**. They do not submit applications, contact employers, modify Gmail, or mutate GitHub Issues. They may update only the bounded hourly-scout cursor / recent-seen receipt inside `DISCOVERY_STATE.md` so repeated unchanged search results can be skipped cheaply across runs.
+
+A scout-state write is allowed only when the cursor/watermark/recent-seen set materially changed. Do not create heartbeat commits. If the state write cannot be completed safely, report the exact limitation and continue with GitHub-history dedupe rather than inventing state.
 
 Do not force equal discovery volume across battlefields. SG is quality-first, CN may run higher-throughput after hard filtering, and MY must clear the destination-quality bar.
 
@@ -214,7 +216,9 @@ One unusual event must not rewrite strategy. Reallocation should follow repeated
 
 Use:
 
-`battlefield scout → broad raw discovery → cheap hard filter → read actual JD/team/product → AI/research relevance gate → cheap GitHub dedupe → liveness/eligibility → targeted Gmail dedupe → exact route → recommend/create Issue`
+`battlefield scout → source delta/fresh head → derive candidate key → incremental seen filter → cheap hard filter → cheap GitHub dedupe → ONLY for net-new/changed candidates read actual JD/team/product → AI/research relevance → liveness/eligibility → targeted Gmail dedupe → exact route → recommend survivor`
+
+**Do not open and deeply research an unchanged candidate merely to discover at the end that it was already seen.** Dedupe is a pre-research gate.
 
 Raw discovery candidates do not become Issues automatically.
 
@@ -256,21 +260,63 @@ Do not strengthen `preferred`, `plus`, `bonus`, `nice to have`, `familiarity`, `
 
 ---
 
-## 9. Cheap dedupe before expensive research
+## 9. Incremental discovery and cheap dedupe before expensive research
 
-Check GitHub history in this order:
+Every hourly scout must behave incrementally.
 
-1. exact requisition/job ID;
-2. same employer + same/near-identical role family;
-3. explicit user-confirmed prior application history.
+### Candidate key
 
-A same-employer role-family hit is a comparison flag, not automatic duplicate. Suppress exact or demonstrably near-identical repeats, or when spraying would clearly damage a stronger active application.
+Derive the cheapest stable key available, in this order:
+
+1. `source + exact requisition/job ID`;
+2. canonical exact-role URL when no stable ID exists;
+3. fallback normalized `company | title | location` fingerprint.
+
+Do not spend tokens opening the full JD merely to derive a key when search-result metadata already exposes one.
+
+### Cross-run seen gate
+
+Before deep research, compare the candidate key against:
+
+1. `DISCOVERY_STATE.md` source watermark / bounded recent-seen cache for that market;
+2. all relevant GitHub Issues, including closed history, using exact req/job ID first and then exact/near-identical employer-title identity;
+3. current-run candidates so the same role from multiple mirrors is collapsed before verification.
+
+If the exact candidate was seen before and the source does **not** indicate a material change, skip immediately. Do not re-open the JD, re-check Gmail, or re-run full eligibility research.
+
+A same-employer but materially different role remains eligible for comparison; this rule suppresses unchanged role repeats, not legitimate distinct requisitions.
+
+### NEW / CHANGED rule
+
+Deep verification is reserved for:
+
+- a genuinely new candidate key; or
+- a previously seen candidate for which the source provides a meaningful `CHANGED`/updated signal, new exact requisition identity, changed employment/seniority/location/JD, reopened status, or other material evidence that could change the verdict.
+
+A crawler timestamp alone is not a material change.
+
+### Source cursor / recent-seen state
+
+Prefer source-native incremental state when available: monotonic event sequence, `updated_at`, posted-after watermark, source cursor, page token, or equivalent.
+
+When a source has no reliable delta API/filter:
+
+- inspect only a shallow fresh head rather than repeating a broad historical sweep every hour;
+- compare search-result keys to the bounded recent-seen cache before opening results;
+- keep the fallback cache bounded to **at most 200 candidate keys per market**, evicting oldest entries first;
+- do not store job descriptions or duplicate the Issue tracker in the cache.
+
+`DISCOVERY_STATE.md` stores only compact discovery efficiency state: last successful scout time, useful source watermarks/cursors, and the bounded fallback seen keys. It is not opportunity state and must not become a second job list.
+
+### FreeHire
+
+For FreeHire, consume `feed/candidates.json` / event sequence as the incremental surface. Unchanged jobs are already suppressed upstream; do not traverse historical pages during routine hourly scouting.
 
 ---
 
 ## 10. Verify serious survivors
 
-For plausible survivors verify:
+For plausible net-new/changed survivors verify:
 
 1. exact/full JD and current role-level liveness;
 2. material AI/ML/research relevance;
@@ -379,6 +425,7 @@ Routine public FreeHire ingestion is owned by `kolihhan/freehirefetch`.
 - SG: useful broad radar plus direct/ATS/platform gap search.
 - CN: supplementary; native sources remain primary.
 - MY: supplementary; destination-quality filtering still applies.
+- Routine hourly consumption uses the incremental `feed/candidates.json` surface; historical page traversal is for explicit catch-up/audit only.
 - Preserve the FreeHire cursor section when updating DISCOVERY_STATE.
 
 ---
@@ -392,6 +439,8 @@ Use FreeHire + direct employer/ATS + LinkedIn/JobStreet/Indeed gaps. Rotate engi
 ### Mainland China
 
 Rotate BOSS → official/campus → 牛客 → 51job → 智联 → 猎聘. Search AI应用、大模型、Agent、RAG、AI后端、算法/ML/NLP、检索/推荐/评测 and research/research-engineering. Keep native/direct human routes prominent.
+
+For hourly CN discovery, prefer source update/posted filters or a shallow fresh head. Do not re-open the same 牛客/智联/BOSS/official role every hour after its candidate key has been seen unchanged.
 
 ### Malaysia
 
@@ -412,6 +461,8 @@ Discovery source only, never authoritative proof. Independently verify company, 
 Verify material GitHub writes by reading them back.
 
 If a create/update action times out or could have succeeded ambiguously, search/read back before retrying. Persistent ambiguity stops the write loop.
+
+Scout automation may write only its compact cursor/recent-seen receipt inside `DISCOVERY_STATE.md`; it may not mutate Issues. Preserve unrelated receipt sections when updating that file.
 
 ---
 
