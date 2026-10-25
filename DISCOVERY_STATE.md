@@ -14,20 +14,61 @@
 - earlier worker correction: `2026-10-09` — stale-NEW regression fixed in `kolihhan/freehirefetch` commit `05a0553e2899e3b8c88d7aa77598746eb6452f45`.
 - intake mode: FreeHire ingestion runs hourly. Historical cursor catch-up remains preserved at 513 rather than guessed; fresh AI discovery should now consume the incremental candidate surface rather than traversing historical JSONL pages.
 
+## Hourly scout incremental state
+
+This section is **efficiency state only**, not opportunity/application state. GitHub Issues remain the job state. Hourly scouts may update only the bounded object below; they must preserve the rest of this file.
+
+Candidate-key priority: `source + exact job/requisition ID` → canonical exact-role URL → normalized `company|title|location` fallback.
+
+Rules:
+
+- use source-native cursor / updated-after / posted-after / event sequence when available;
+- otherwise inspect only a shallow fresh head and compare candidate keys before opening full JDs;
+- unchanged seen key → skip before deep research / Gmail checks;
+- deep research only `NEW` or materially `CHANGED` candidates;
+- `recent_seen_keys` is fallback-only, FIFO, maximum 200 keys per market;
+- all existing open/closed GitHub Issues are an additional seen-history baseline and should be checked by exact ID/URL/role identity before deep research;
+- update this state only when something changed; no heartbeat-only commit.
+
+<!-- hourly-scout-state:start -->
+```json
+{
+  "version": 1,
+  "initialized_on": "2026-10-25",
+  "SG": {
+    "last_success_at": null,
+    "source_watermarks": {},
+    "recent_seen_keys": []
+  },
+  "CN": {
+    "last_success_at": null,
+    "source_watermarks": {},
+    "recent_seen_keys": []
+  },
+  "MY": {
+    "last_success_at": null,
+    "source_watermarks": {},
+    "recent_seen_keys": []
+  }
+}
+```
+<!-- hourly-scout-state:end -->
+
 ## Current receipt
 
-- completed run: `2026-10-25 six-battlefield strategy migration + active-queue reconciliation`.
-- canonical strategy: `README.md`, `PROFILE.md` and `RULES.md` now define the North Star and six battlefields: `SG-ENG`, `SG-RES`, `CN-ENG`, `CN-RES`, `MY-ENG`, `MY-RES`. Singapore is quality-first, Mainland China supports higher-throughput native/direct discovery after hard filtering, and Malaysia is TOP / destination-quality only. Engineering and realistic research/research-engineering are both valid target outcomes.
-- automation architecture: `SG AI Scout`, `CN AI Scout` and `MY TOP AI Scout` run hourly as read-only reconnaissance; `Recruiting Signal Watch` checks both Gmail accounts hourly for meaningful progression; `AI Job Strategy Review` compares all six battlefields weekly and recommends adaptive allocation. Scheduler prompts read the repo contract rather than maintaining a private copy of policy.
-- verified active queue snapshot: `ACTION 0 / APPLY 31 / CHECK 7`.
-- APPLY battlefield snapshot: `SG-ENG 5 / SG-RES 1 / CN-ENG 17 / CN-RES 2 / MY-ENG 6 / MY-RES 0`.
-- CHECK battlefield snapshot: `CN-ENG 3 / MY-ENG 3 / MY-RES 1`; no current SG CHECK was found in this pass.
+- completed run: `2026-10-25 incremental hourly-scout efficiency migration`.
+- incremental correction: hourly scouts must now derive candidate keys and dedupe against `DISCOVERY_STATE.md` + all GitHub Issue history **before** expensive JD/Gmail verification. Unchanged candidates are skipped; only net-new or materially changed candidates receive deep research.
+- bounded persistence: scouts may update only the `Hourly scout incremental state` object in this file. They remain read-only for GitHub Issues, Gmail and employer-facing actions. The fallback cache is capped at 200 keys per market and must not become a second job tracker.
+- canonical strategy: `README.md`, `PROFILE.md` and `RULES.md` define the North Star and six battlefields: `SG-ENG`, `SG-RES`, `CN-ENG`, `CN-RES`, `MY-ENG`, `MY-RES`. Singapore is quality-first, Mainland China supports higher-throughput native/direct discovery after hard filtering, and Malaysia is TOP / destination-quality only. Engineering and realistic research/research-engineering are both valid target outcomes.
+- automation architecture: `SG AI Scout`, `CN AI Scout` and `MY TOP AI Scout` run hourly reconnaissance; `Recruiting Signal Watch` checks both Gmail accounts hourly for meaningful progression; `AI Job Strategy Review` compares all six battlefields weekly and recommends adaptive allocation. Scheduler prompts read the repo contract rather than maintaining a private copy of policy.
+- verified active queue snapshot from the prior reconciliation: `ACTION 0 / APPLY 31 / CHECK 7`.
+- APPLY battlefield snapshot from the prior reconciliation: `SG-ENG 5 / SG-RES 1 / CN-ENG 17 / CN-RES 2 / MY-ENG 6 / MY-RES 0`.
+- CHECK battlefield snapshot from the prior reconciliation: `CN-ENG 3 / MY-ENG 3 / MY-RES 1`; no current SG CHECK was found in that pass.
 - Malaysia cleanup: `#664 TAPiO` and `#662 Mentix` were closed because current evidence showed good AI fit but did not clear the new MY destination-quality bar. `#647 Michael Page AI Software Engineer` moved APPLY→CHECK because the role is permanent and well-paid but the confidential end-client/team is the one remaining quality blocker. `#479 MoneyLion / Gen Digital Applied AI Scientist` was restored to the real CHECK queue with missing labels repaired and classified `MY-RES`.
 - Mainland China cleanup: cold-outreach-only leads `#502 ThinkingAI` and `#495 DeepWisdom` were closed because no exact materially AI-related live opportunity was established. Real one-blocker CHECK items `#503 MGI`, `#496 RayNeo` and `#494 XrayBot` had missing labels repaired and remain `CN-ENG`.
 - label/state repair: previously title-only active Issues including `#501 Genoria`, `#493 亨通数字智能`, `#492 容知日新` and `#491 SimpleAI` were given the correct `status:apply` + `market:cn` labels. Open title markers and labels now drive the same operational queue rather than separate counts.
 - priority cleanup: all ad-hoc `[TOP]` title markers were removed. Strategic priority now comes from battlefield fit, exact evidence and weekly funnel review rather than a static Top-10 list.
 - deadline note: `#492 容知日新 — 大模型应用/智能体开发工程师` currently records an application deadline of `2026-10-28`; it remains APPLY because no exact application authorization has been given.
-- prior lifecycle evidence preserved: submitted WAIT history remains intact; this pass deliberately did not bulk-clean WAIT because silence is not rejection and WAIT is historical/application evidence rather than the execution queue.
-- FreeHire note: the prior scheduled run observed `feed/candidates.json` returning 404. Cursor remains `513`; do not infer progress from that failure or create a replacement tracker.
-- employer-facing actions: `none`. No application, recruiter message, email or other employer contact was sent during this migration/cleanup.
-- next rotation: hourly scouts continue net-new read-only discovery by battlefield. New queue mutations require verified evidence and the repo contract; employer-facing actions still require exact user authorization. Weekly strategy review should reallocate effort from real funnel progression rather than raw Issue or application counts.
+- prior lifecycle evidence preserved: submitted WAIT history remains intact; silence is not rejection and WAIT is historical/application evidence rather than the execution queue.
+- employer-facing actions: `none` during this incremental-scout migration.
+- next rotation: hourly scouts consume only net-new/changed source deltas where possible and use the bounded recent-seen fallback otherwise. New queue mutations still require separate verified execution under the repo contract; employer-facing actions require exact user authorization.
