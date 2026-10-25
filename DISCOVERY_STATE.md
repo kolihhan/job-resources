@@ -37,9 +37,9 @@ Rules:
   "version": 1,
   "initialized_on": "2026-10-25",
   "SG": {
-    "last_success_at": "2026-10-26T04:59:23+08:00",
+    "last_success_at": "2026-10-26T05:57:31+08:00",
     "source_watermarks": {
-      "freehire_event_seq": 14762
+      "freehire_event_seq": 15589
     },
     "recent_seen_keys": [
       "whatjobs-sg:data engineer:94036733",
@@ -61,7 +61,11 @@ Rules:
       "openai:applied-ai-engineer-startups-mandarin-speaking-singapore",
       "openai:applied-ai-engineer-cyber-singapore",
       "mcf:MCF-2026-1865115",
-      "ntu|ai engineer (ai products)|singapore"
+      "ntu|ai engineer (ai products)|singapore",
+      "manatal:redalpha:L8W5W9WV",
+      "whatjobs-sg:full stack developer:94051574",
+      "whatjobs-sg:full stack developer:94050712",
+      "whatjobs-sg:full stack developer:94050849"
     ]
   },
   "CN": {
