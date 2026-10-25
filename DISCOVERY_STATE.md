@@ -37,9 +37,24 @@ Rules:
   "version": 1,
   "initialized_on": "2026-10-25",
   "SG": {
-    "last_success_at": null,
-    "source_watermarks": {},
-    "recent_seen_keys": []
+    "last_success_at": "2026-10-26T00:56:30+08:00",
+    "source_watermarks": {
+      "freehire_event_seq": 14762
+    },
+    "recent_seen_keys": [
+      "whatjobs-sg:data engineer:94036733",
+      "whatjobs-sg:full stack developer:94031129",
+      "whatjobs-sg:data engineer:94039940",
+      "whatjobs-sg:data engineer:94031203",
+      "whatjobs-sg:data engineer:94037158",
+      "whatjobs-sg:backend developer:93853710",
+      "whatjobs-sg:data engineer:94037851",
+      "whatjobs-sg:data engineer:94027800",
+      "linkedin:4322726898",
+      "astar:3152",
+      "fireworks:ai-field-engineer-singapore",
+      "xora:agentic-ai-engineer-singapore"
+    ]
   },
   "CN": {
     "last_success_at": "2026-10-26T00:14:05+08:00",
