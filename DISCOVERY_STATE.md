@@ -37,7 +37,7 @@ Rules:
   "version": 1,
   "initialized_on": "2026-10-25",
   "SG": {
-    "last_success_at": "2026-10-26T00:56:30+08:00",
+    "last_success_at": "2026-10-26T04:59:23+08:00",
     "source_watermarks": {
       "freehire_event_seq": 14762
     },
@@ -53,7 +53,15 @@ Rules:
       "linkedin:4322726898",
       "astar:3152",
       "fireworks:ai-field-engineer-singapore",
-      "xora:agentic-ai-engineer-singapore"
+      "xora:agentic-ai-engineer-singapore",
+      "smartrecruiters:744000148798260",
+      "google:141008036452803270",
+      "google:83825176881308358",
+      "openai-ashby:02ec1893-17df-420c-8d19-48eca8edd884",
+      "openai:applied-ai-engineer-startups-mandarin-speaking-singapore",
+      "openai:applied-ai-engineer-cyber-singapore",
+      "mcf:MCF-2026-1865115",
+      "ntu|ai engineer (ai products)|singapore"
     ]
   },
   "CN": {
