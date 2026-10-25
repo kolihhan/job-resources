@@ -4,23 +4,26 @@ Private operating inbox for the current search.
 
 Current contract:
 
-- **Singapore + Mainland China** = active primary markets;
-- **Malaysia** = active **TOP-only** parallel lane;
+- **Singapore + Mainland China + Malaysia** = active markets;
 - **Hong Kong = paused** as of 2026-10-23: do not discover or promote new HK roles until the user explicitly reactivates HK;
-- main search = **permanent full-time only**.
+- main search = **permanent full-time only**;
+- current execution mode = **high-throughput application generation**: find and verify any realistically applicable early-career engineering opportunity, with stronger companies/teams and Applied-AI roles prioritized first rather than used as eligibility gates.
 
-Primary role lane:
+Active role scope:
 
-- Applied AI / AI Application / LLM / RAG / Agent;
-- AI backend / AI-native product engineering;
-- retrieval / search / evaluation when the work is closely connected to LLM or Agent systems;
-- strong software/backend roles only when they clearly compound the same career direction.
+- Applied AI / AI Application / LLM / RAG / Agent / AI backend remain the preferred lane;
+- general backend / full-stack / software engineer roles are active;
+- test-development / SDET / QA automation roles are active when the stack is realistically learnable;
+- Python / Java / PHP application engineering and adjacent early-career software roles are active;
+- data/search/retrieval/platform roles may survive when the mandatory stack and ownership level are realistically compatible.
 
-Default deprioritize/skip: pure CV, traditional ML without LLM/application overlap, generic MLOps, model-serving/platform/infra, deep distributed systems, mature FDE/solution-architecture ownership, and generic SWE that would require a separate interview-prep track.
+Do **not** reject a role merely because it is not Applied AI, because the company is ordinary, or because part of the stack is learnable rather than already on the resume. Company/team quality determines **priority**, not baseline eligibility.
 
-Goal: get interviews and offers for a strong engineering role without turning the search itself into another software project.
+Cheap hard skips remain: clearly closed/expired or duplicate roles; explicit non-permanent employment; explicit citizenship/right-to-work/no-sponsorship blockers where relevant; clearly incompatible cohort; hard 4+/5+ mature professional-YOE floors; Staff/Lead/Manager or clearly mature ownership; and substantial mandatory technical/domain mismatch.
 
-`discover → cheap screen → verify serious survivors → user go → apply → follow up`
+Goal: maximize realistic interviews and offers without turning the search itself into another software project.
+
+`discover broadly → cheap hard screen → read actual JD → dedupe → verify serious survivors → user go → apply → follow up`
 
 ## Use these views
 
@@ -29,7 +32,7 @@ Do **not** work from the unfiltered Issues list.
 - [NOW — ACTION + APPLY + CHECK](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%22status%3Await%22) — everything that may need attention.
 - [SG NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Asg%22%20-label%3A%22status%3Await%22) — Singapore.
 - [CN NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Acn%22%20-label%3A%22status%3Await%22) — Mainland China.
-- [MY NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Amy%22%20-label%3A%22status%3Await%22) — Malaysia TOP-only lane.
+- [MY NOW](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Amy%22%20-label%3A%22status%3Await%22) — Malaysia.
 - [HK WAIT / history](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22market%3Ahk%22) — historical submitted HK applications only; HK discovery is paused.
 - [ACTION](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aaction%22) — OA, interview, recruiter reply, useful deadline/action.
 - [APPLY](https://github.com/kolihhan/job-resources/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22status%3Aapply%22) — verified roles ready for review.
@@ -41,7 +44,7 @@ Do **not** work from the unfiltered Issues list.
 ## Four open states
 
 - `[ACTION]` — something useful needs attention now or soon.
-- `[APPLY]` — verified and worth applying; still needs my exact `go`.
+- `[APPLY]` — verified and realistically applicable; still needs my exact `go`.
 - `[CHECK]` — liveness is proven and exactly one blocker/decision remains.
 - `[WAIT]` — already submitted/contacted and waiting.
 
@@ -70,14 +73,14 @@ On an exact role:
 
 ## Search model
 
-Maintenance comes before discovery. Search broadly enough to find good roles, but only serious survivors become Issues.
+Maintenance comes before discovery. Search broadly and cheaply, then spend verification effort only on plausible survivors. Raw discovery candidates never become Issues automatically.
 
-- **SG:** direct employer/ATS + targeted FreeHire/LinkedIn/JobStreet/Indeed gaps. Focus Agent/RAG/evaluation/AI backend and early-career AI-native product roles.
-- **CN:** native-source-first — BOSS, official/campus, 牛客, 51job, 智联, 猎聘. Focus 2026-compatible Agent/RAG/evaluation/AI backend/search-retrieval roles.
-- **MY:** TOP-only and AI-first. Strong Applied AI / Agent / RAG / AI software/backend roles at high-quality employers/teams; ordinary fallback jobs do not enter the queue.
+- **SG:** FreeHire broad radar + direct employer/ATS + LinkedIn/JobStreet/Indeed gaps. Search Applied AI plus general SWE/backend/full-stack/test automation and adjacent early-career engineering.
+- **CN:** native-source-first — BOSS, official/campus, 牛客, 51job, 智联, 猎聘 — plus FreeHire/other feeds as supplementary radar. Search 2026-compatible AI and general software/backend/test-development roles.
+- **MY:** broad early-career engineering lane with no sponsorship friction. Prefer TOP companies/teams and Applied AI, but ordinary credible SWE/backend/full-stack/test/AI roles may enter the queue when realistically applicable.
 - **HK:** paused. Do not discover new HK roles. Existing WAIT items remain only so employer replies are not lost.
 
-All active markets use the same survivor gates: exact current liveness, permanent full-time employment, early-career/cohort fit, truthful YOE fit, dedupe, work-authorization classification, technical-direction fit and a usable exact application route.
+All active markets use the same hard gates: current liveness, permanent full-time employment, realistic early-career/cohort fit, truthful hard-requirement fit, dedupe, work-authorization classification where relevant, and a usable exact application route.
 
 Unknown SG/CN sponsorship willingness is allowed at APPLY. Explicit no-sponsorship/right-to-work/citizenship blockers are not. Singapore MCF-only routes are blocked.
 
@@ -90,7 +93,7 @@ Unknown SG/CN sponsorship willingness is allowed at APPLY. Explicit no-sponsorsh
 
 ## Automation
 
-Scheduled maintenance keeps Issues synchronized with recruiting evidence. Discovery rotates SG/CN source families and role lanes; MY TOP is a smaller parallel rotation. HK stays paused until explicitly reactivated.
+Scheduled maintenance keeps Issues synchronized with recruiting evidence. Discovery rotates SG/CN/MY source families and broad role lanes. HK stays paused until explicitly reactivated.
 
 The latest scheduled run leaves one compact receipt in [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md). If strategy changes, update `PROFILE.md` / `RULES.md` once rather than copying policy into prompts or another tracker.
 
