@@ -16,13 +16,10 @@
 
 ## Current receipt
 
-- completed run: `2026-10-25 15:29 MYT maintenance reconciliation after user confirmed all stale ACTION items were already handled`.
-- workflow: `Reconciled GitHub operational state against the user's latest direct confirmation and Gmail evidence instead of treating stale Issue labels as real pending work.`
-- target contract: `Permanent full-time AI-related careers only across SG + CN + MY. Research Engineer / AI Researcher / Applied Scientist / Research Scientist are explicitly in scope when hard requirements are realistic.`
-- queue reconciliation: `Moved #599 StarHub, #595 AI Singapore AI Products, #575 Huawei 大模型Agent, #536 ChinaAMC, #468 Tencent PCG Agent, #419 iFLYTEK J14502, #297 Maxify and #220 杭州赢云 from stale ACTION to WAIT. Open ACTION is now 0.`
-- Maxify correction: `#297 is one existing pipeline, not a new second process. The 2026-10-23 Next Step email to lihhanko526 duplicated the earlier screening stage already completed through lihhanko3. GPA/start timing/PrinciplesYou had been sent in September; prototype ZIP was submitted 2026-10-21 and followed up 2026-10-23. Current state is WAIT for a real post-prototype response.`
-- iFLYTEK note: `Gmail contains official 科大讯飞 application acknowledgement on 2026-10-22, but the email does not expose requisition J14502. User confirmation establishes the ACTION was handled; do not claim the receipt proves that exact req ID.`
-- current open queue snapshot: `ACTION 0 / APPLY 28 / CHECK 4`.
-- current CHECK: `#641 Sunway Digital employment-type conflict; #664 TAPiO employment type unresolved; #665 Kuailu exact usable non-MCF route unresolved; #666 Bjak prior application identity unresolved.`
-- employer-facing actions in this reconciliation: `none. This run only corrected GitHub state; it did not submit applications, send recruiter messages, or contact employers.`
-- next rotation: `Do not infer a pending-action backlog from stale labels. With ACTION=0, the next useful work is to (a) resolve the four CHECK blockers cheaply, (b) prune/rank the 28 APPLY items by value × fit × callback realism × friction, and (c) continue fresh AI-only discovery only where it adds genuinely better opportunities rather than duplicates.`
+- completed run: `2026-10-25 16:42 MYT scheduled maintenance + SG-gap/CN-native discovery`.
+- maintenance: `ACTION remains 0. Inspected current APPLY/CHECK and both Gmail accounts for recent lifecycle evidence. New LinkedIn receipts showed several user-submitted applications after the prior receipt.`
+- lifecycle reconciliation: `Created #668 WAIT for Nas Company — AI Product Engineer - Nas.com (Suzhou, LinkedIn 4464328185) and #669 WAIT for BOKE Technology / 波克科技 — AI应用工程师 (Shanghai, LinkedIn 4466163556), both from exact LinkedIn application confirmations dated 2026-10-25. ThoughtFull AI Engineer acknowledgement is not a rejection and remains WAIT. NCS Python Developer is generic/non-AI from the available receipt and was not added to the AI queue. Xiaomi 算法工程师 receipt lacks enough JD evidence in this run to assert material AI relevance, so no new Issue was guessed.`
+- discovery: `Completed SG-gap + CN-native searches for Applied AI / LLM-Agent-RAG / evaluation / research-engineering. No new verified survivor. NTU R00025937 is an exact duplicate of closed #597 and remains blocked by contract employment evidence. TOPPAN Ecquaria AI Engineer is already #214 WAIT. CN native results were predominantly 2027-only or already-ended; no 2026-compatible new survivor cleared the full gate.`
+- FreeHire: `Preferred feed/candidates.json returned 404 during this run. Per RULES, did not guess or advance cursor; cursor remains 513. Direct SG gap and CN-native discovery continued independently.`
+- employer-facing actions by this run: `none. No applications or messages were submitted.`
+- next rotation: `Resolve the four CHECK blockers cheaply; continue SG direct/ATS AI evaluation/research + CN native 2026-compatible Applied-AI/Agent/search-retrieval lanes. Re-test FreeHire candidates.json only as the RULES-defined radar surface; do not infer cursor progress from the 404.`
