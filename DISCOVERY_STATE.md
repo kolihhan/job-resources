@@ -16,14 +16,13 @@
 
 ## Current receipt
 
-- completed run: `2026-10-25 interactive AI-only repo-skills pass + firehose efficiency hardening`.
-- workflow: `Used current repo workflow plus TDD for behavior changes. Raw candidates still do not become GitHub Issues automatically; RULES.md Stage 2 verification remains required before Issue creation.`
-- target contract: `Permanent full-time AI-related careers only across SG + CN + MY. Research Engineer / AI Researcher / Applied Scientist / Research Scientist are explicitly in scope when hard requirements are realistic. Generic SWE/backend/full-stack/test survives only when the actual work is materially AI/ML/research-related.`
-- queue correction: `Closed #660 积加科技 测试开发工程师 after re-reading the live JD. Its core work is general AIoT test development; AI Test Agent is only one exploratory responsibility and therefore does not clear the AI-direction gate.`
-- new APPLY: `#662 Mentix Full Stack AI Developer (MY); #663 AEON Bank Machine Learning Engineer (MY).`
-- new CHECK: `#664 TAPiO AI Developer (MY) — employment type unresolved; #665 Kuailu LLM Evaluation Engineer (SG) — usable non-MCF route unresolved; #666 Bjak Applied AI Engineer - AI Finance Agent (MY) — prior Bjak application identity unresolved.`
-- rejected research/AI leads: `A*STAR current IAIC Research Engineer roles surfaced in this pass were not promoted because current evidence showed contract employment and/or mature experience requirements. Bitdeer research/evaluation roles were not promoted where mandatory implementation depth materially exceeded current evidence.`
-- dedupe notes: `Lenovo fresh/junior AI roles were suppressed because #456 and #332 already record two recent Lenovo AI applications. Bjak was not treated as clean because Gmail contains a real employer receipt.`
-- efficiency architecture: `Raw firehose remains broad for recall → only latest NEW/CHANGED events are considered → deterministic AI relevance + explicit non-permanent filter → <=10 fresh candidates/market → ChatGPT/repo workflow performs actual-JD/liveness, GitHub/Gmail dedupe, hard requirements, work-auth/route verification → only verified serious survivors become APPLY/CHECK Issues. GitHub Issues remain the only human execution queue.`
-- employer-facing actions: `none. No application, recruiter message, or external employer contact was sent.`
-- next rotation: `Consume only the latest incremental feed/candidates.json after each successful ingestion. Resolve existing CHECK blockers before expanding new Issues; continue SG/CN/MY AI-only discovery with research/research-engineering included.`
+- completed run: `2026-10-25 15:29 MYT maintenance reconciliation after user confirmed all stale ACTION items were already handled`.
+- workflow: `Reconciled GitHub operational state against the user's latest direct confirmation and Gmail evidence instead of treating stale Issue labels as real pending work.`
+- target contract: `Permanent full-time AI-related careers only across SG + CN + MY. Research Engineer / AI Researcher / Applied Scientist / Research Scientist are explicitly in scope when hard requirements are realistic.`
+- queue reconciliation: `Moved #599 StarHub, #595 AI Singapore AI Products, #575 Huawei 大模型Agent, #536 ChinaAMC, #468 Tencent PCG Agent, #419 iFLYTEK J14502, #297 Maxify and #220 杭州赢云 from stale ACTION to WAIT. Open ACTION is now 0.`
+- Maxify correction: `#297 is one existing pipeline, not a new second process. The 2026-10-23 Next Step email to lihhanko526 duplicated the earlier screening stage already completed through lihhanko3. GPA/start timing/PrinciplesYou had been sent in September; prototype ZIP was submitted 2026-10-21 and followed up 2026-10-23. Current state is WAIT for a real post-prototype response.`
+- iFLYTEK note: `Gmail contains official 科大讯飞 application acknowledgement on 2026-10-22, but the email does not expose requisition J14502. User confirmation establishes the ACTION was handled; do not claim the receipt proves that exact req ID.`
+- current open queue snapshot: `ACTION 0 / APPLY 28 / CHECK 4`.
+- current CHECK: `#641 Sunway Digital employment-type conflict; #664 TAPiO employment type unresolved; #665 Kuailu exact usable non-MCF route unresolved; #666 Bjak prior application identity unresolved.`
+- employer-facing actions in this reconciliation: `none. This run only corrected GitHub state; it did not submit applications, send recruiter messages, or contact employers.`
+- next rotation: `Do not infer a pending-action backlog from stale labels. With ACTION=0, the next useful work is to (a) resolve the four CHECK blockers cheaply, (b) prune/rank the 28 APPLY items by value × fit × callback realism × friction, and (c) continue fresh AI-only discovery only where it adds genuinely better opportunities rather than duplicates.`
