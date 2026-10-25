@@ -57,7 +57,7 @@ Rules:
     ]
   },
   "CN": {
-    "last_success_at": "2026-10-26T00:14:05+08:00",
+    "last_success_at": "2026-10-26T01:14:00+08:00",
     "source_watermarks": {},
     "recent_seen_keys": [
       "nowcoder:444729",
@@ -71,7 +71,21 @@ Rules:
       "nowcoder:459899",
       "nowcoder:409608",
       "nowcoder:465596",
-      "nowcoder:458229"
+      "nowcoder:458229",
+      "nowcoder:460226",
+      "nowcoder:437310",
+      "nowcoder:466220",
+      "nowcoder:462883",
+      "nowcoder:418881",
+      "nowcoder:411836",
+      "nowcoder:460589",
+      "nowcoder:408899",
+      "nowcoder:464472",
+      "nowcoder:419262",
+      "nowcoder:421060",
+      "nowcoder:417978",
+      "nowcoder:421328",
+      "nowcoder:417625"
     ]
   },
   "MY": {
