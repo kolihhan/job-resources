@@ -2,12 +2,31 @@
 
 Private operating inbox for the current search.
 
+## North star
+
+Maximize the probability of getting a **permanent full-time AI-related offer I would genuinely accept**.
+
+Do not optimize for raw application count, raw callback count, Issue count, or interview count in isolation. Those are funnel signals only.
+
 Current contract:
 
 - **Singapore + Mainland China + Malaysia** = active markets;
 - **Hong Kong = paused** as of 2026-10-23;
 - main search = **permanent full-time only**;
-- current execution mode = **high-throughput AI-career search**: search broadly inside AI-related work, not across all generic tech jobs.
+- current execution mode = **divide-and-conquer AI career search** across six battlefields, not one undifferentiated queue.
+
+## Six battlefields
+
+| Battlefield | Purpose |
+|---|---|
+| `SG-ENG` | High-quality AI engineering roles where the work and employer justify Singapore work-pass friction. |
+| `SG-RES` | MSc-compatible research engineering / applied research roles with realistic degree/publication requirements. |
+| `CN-ENG` | Higher-throughput AI engineering search using native/direct routes, with fast filtering for foreign-hire and cohort blockers. |
+| `CN-RES` | Research engineering / applied research roles with realistic MSc-level requirements and foreign-hire feasibility. |
+| `MY-ENG` | **TOP / destination-quality only**: strong employer/team, meaningful AI ownership, compensation/WLB/growth upside. Not a generic fallback lane. |
+| `MY-RES` | **TOP / destination-quality only** research or research-engineering roles with strong technical environment and career upside. |
+
+Engineering and research are both valid career outcomes. Weekly strategy review reallocates effort across the six battlefields based on real funnel evidence rather than a fixed market split.
 
 Active role scope:
 
@@ -23,13 +42,13 @@ A generic title such as `Software Engineer` or `Backend Engineer` may still surv
 
 Research is explicitly allowed. Do not reject a role merely because it is research-oriented; instead check the real degree/publication/research-experience requirements. A hard PhD/publication/mature-research requirement the candidate does not satisfy remains a blocker.
 
-Company quality determines **priority**, not baseline eligibility. A credible smaller company with real AI work may be better than a famous company offering unrelated generic software work.
+Company quality determines priority in SG/CN. In Malaysia, the bar is intentionally higher: ordinary low-upside roles are not queue-worthy just because they are AI-related.
 
 Cheap hard skips remain: clearly closed/expired or duplicate roles; explicit non-permanent employment; explicit citizenship/right-to-work/no-sponsorship blockers where relevant; incompatible cohort; hard 4+/5+ mature professional-YOE floors; clearly mature ownership; hard PhD/research requirements not met; and substantial mandatory technical/domain mismatch.
 
-Goal: maximize realistic interviews and offers **within an AI/ML career direction** without turning the search itself into another software project.
+Operating loop:
 
-`discover AI-related roles broadly → cheap hard screen → read actual JD → confirm AI relevance → dedupe → verify serious survivors → user go → apply → follow up`
+`scout by battlefield → cheap hard screen → read actual JD → confirm AI relevance → dedupe → verify serious survivors → user review/go → apply → observe funnel → weekly rebalance`
 
 ## Use these views
 
@@ -56,6 +75,8 @@ Do **not** work from the unfiltered Issues list.
 
 Rejected, expired, duplicate, blocked, AI-direction-mismatch, withdrawn or intentionally skipped roles are closed.
 
+Do not encode strategy priority using ad-hoc title markers such as `[TOP]`. Priority comes from battlefield fit, current evidence and the weekly strategy review.
+
 ## Simple commands
 
 On an exact role:
@@ -70,21 +91,21 @@ On an exact role:
 
 - GitHub Issues = live operational opportunity state.
 - Gmail = receipts, recruiter/OA/interview/rejection evidence and targeted dedupe.
-- [`PROFILE.md`](PROFILE.md) = stable candidate facts and current market/role scope.
+- [`PROFILE.md`](PROFILE.md) = stable candidate facts + battlefield/market strategy.
 - [`RULES.md`](RULES.md) = the only detailed execution policy.
-- [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md) = latest discovery receipt/cursor + next rotation only.
+- [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md) = latest verified discovery/maintenance receipt + FreeHire cursor only.
 - Old spreadsheet = legacy/read-only.
 
 ## Search model
 
-Maintenance comes before discovery. Raw discovery candidates never become Issues automatically.
+Raw discovery candidates never become Issues automatically.
 
-- **SG:** FreeHire can remain a broad raw radar because AI jobs may use generic SWE/backend titles, but promotion requires reading the JD/team/product and confirming material AI/ML relevance. Add direct employer/ATS + LinkedIn/JobStreet/Indeed gaps.
-- **CN:** native-source-first — BOSS, official/campus, 牛客, 51job, 智联, 猎聘 — plus FreeHire/other feeds. Search AI应用、大模型、Agent、RAG、算法/ML/NLP、AI后端、评测 and AI research/research-engineering lanes.
-- **MY:** search AI/ML/GenAI/LLM/Agent/AI software and realistic AI research roles. Strong companies/teams are preferred but not required.
+- **SG:** quality-first. Search both engineering and research lanes. FreeHire can remain broad raw radar because AI jobs may use generic titles, but promotion requires actual JD/team/product AI relevance and a role worth the work-pass friction. Fill gaps with direct employer/ATS + LinkedIn/JobStreet/Indeed.
+- **CN:** higher-throughput and native-source-first — BOSS, official/campus, 牛客, 51job, 智联, 猎聘 — plus supplementary feeds. Search both engineering and research lanes, then cheaply eliminate cohort/foreign-hire/hard-fit blockers.
+- **MY:** TOP/destination-quality only. Search strong MNCs, serious AI product/R&D teams, strong banks/digital banks and high-upside AI companies. Ordinary low-upside roles do not enter the queue merely because they contain AI keywords.
 - **HK:** paused.
 
-All active markets use the same hard gates: material AI/ML relevance, current liveness, permanent full-time employment, realistic early-career/cohort fit, truthful hard-requirement fit, dedupe, work-authorization classification where relevant, and a usable exact application route.
+All active markets still use the same hard gates: material AI/ML relevance, current liveness, permanent full-time employment, realistic early-career/cohort fit, truthful hard-requirement fit, dedupe, work-authorization classification where relevant, and a usable exact application route.
 
 Unknown SG/CN sponsorship willingness is allowed at APPLY. Explicit no-sponsorship/right-to-work/citizenship blockers are not. Singapore MCF-only routes are blocked.
 
@@ -97,8 +118,14 @@ Unknown SG/CN sponsorship willingness is allowed at APPLY. Explicit no-sponsorsh
 
 ## Automation
 
-Scheduled maintenance keeps Issues synchronized with recruiting evidence. Discovery rotates **AI-related** role/source lanes across SG/CN/MY. HK stays paused until explicitly reactivated.
+Automation is reconnaissance and feedback, not autonomous application execution.
 
-The latest scheduled run leaves one compact receipt in [`DISCOVERY_STATE.md`](DISCOVERY_STATE.md). If strategy changes, update `PROFILE.md` / `RULES.md` once rather than copying policy into prompts or another tracker.
+- SG AI Scout: hourly, read-only.
+- CN AI Scout: hourly, read-only.
+- MY TOP AI Scout: hourly, read-only.
+- Recruiting Signal Watch: hourly condition watch over both Gmail accounts; ordinary receipts do not count as meaningful progression.
+- AI Job Strategy Review: weekly; evaluates `SG-ENG`, `SG-RES`, `CN-ENG`, `CN-RES`, `MY-ENG`, `MY-RES` and recommends next-week effort allocation from real funnel evidence.
+
+Scouts may search, verify, dedupe, classify and recommend. They do **not** submit applications, contact employers, or mutate GitHub/Gmail state. Scheduler prompts must read the current repo contract rather than maintain private copies of policy.
 
 See [`PROFILE.md`](PROFILE.md), [`RULES.md`](RULES.md), and [dated market evidence](docs/market-facts-2026-10-01.md).
