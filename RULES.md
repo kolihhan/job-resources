@@ -2,21 +2,32 @@
 
 ## 1. Goal and priority
 
-Get interviews and offers for a **permanent full-time AI-related role** without turning the search itself into another software project.
+North star: maximize the probability of getting a **permanent full-time AI-related offer the candidate would genuinely accept**.
 
-Current execution mode is **high-throughput AI-career search** across Singapore, Mainland China and Malaysia.
+Do not optimize raw application count, Issue count, callback count or interview count in isolation. Use them only as funnel evidence.
+
+Current execution mode is **divide-and-conquer AI-career search** across six battlefields:
+
+- `SG-ENG`
+- `SG-RES`
+- `CN-ENG`
+- `CN-RES`
+- `MY-ENG`
+- `MY-RES`
 
 Priority order:
 
 1. advance active employer responses, OA, interviews, recruiter conversations and real deadlines;
-2. reconcile GitHub/Gmail lifecycle state before discovering more jobs;
-3. find and verify realistically applicable **AI/ML-related** roles across SG + CN + MY;
-4. prioritize stronger companies/teams and low-friction routes when role fit is otherwise comparable;
+2. reconcile GitHub/Gmail lifecycle state before creating new queue items;
+3. find and verify realistically applicable AI/ML/research roles across the six battlefields;
+4. allocate effort toward battlefields producing the best combination of role quality and real progression;
 5. keep Hong Kong paused until explicitly reactivated.
 
-Optimize for:
+Optimize for the combined probability of a good accepted offer:
 
-**realistic interview probability × AI-career relevance × application throughput × technical plausibility × engineering/research environment × career portability**.
+**role quality × eligibility/work-auth feasibility × screen probability × interview probability × engineering/research environment × compensation/WLB where evidenced × career growth/portability × willingness to accept**.
+
+Engineering and research are both valid outcomes. Research is not a downgrade or exception lane.
 
 Active target families include:
 
@@ -25,14 +36,10 @@ Active target families include:
 - AI Backend / AI Software Engineer / AI-native Product Engineer;
 - ML Engineer / NLP / Search / Retrieval / Ranking where work is materially AI/ML;
 - Agent/LLM evaluation / AI quality / AI testing where AI systems are the actual object of the work;
-- **Research Engineer / AI Researcher / Applied Scientist / Research Scientist** when hard requirements are realistic;
+- Research Engineer / AI Researcher / Applied Scientist / Research Scientist when hard requirements are realistic;
 - data science when the core work is materially ML/AI rather than generic BI/analytics.
 
-A generic title such as Software Engineer, Backend Engineer, Full-stack Engineer or QA/SDET may survive **only when the actual team/product/JD is materially AI-related**. Pure generic software work is not a target merely because the candidate could perform it.
-
-Research is explicitly allowed. Do not reject a role merely because it is research-oriented. Read the actual requirements: MSc-compatible research/research-engineering roles are active; hard PhD/publication/independent-research requirements the candidate does not satisfy remain blockers.
-
-Company quality determines priority, not eligibility. A smaller credible AI company/research team with meaningful AI work may be preferable to a famous employer offering unrelated generic software work.
+Generic Software Engineer / Backend / Full-stack / QA/SDET titles survive only when the actual team/product/JD is materially AI-related.
 
 Any application, recruiter outreach or other employer-facing action requires explicit user authorization for that exact action or an unambiguous authorized batch.
 
@@ -42,79 +49,74 @@ Any application, recruiter outreach or other employer-facing action requires exp
 
 - GitHub Issues = live operational opportunity state.
 - Gmail = receipts, recruiter messages, OA/interviews, deadlines, rejections and targeted dedupe evidence.
-- `PROFILE.md` = stable candidate facts and current market/role scope.
+- `PROFILE.md` = stable candidate facts + current battlefield/market strategy.
 - `RULES.md` = detailed execution policy.
-- `DISCOVERY_STATE.md` = one rolling discovery receipt/cursor + next rotation only.
+- `DISCOVERY_STATE.md` = compact verified discovery/maintenance receipt + FreeHire cursor only.
 - Old spreadsheet = legacy/read-only.
 
-Scheduler prompts and `NEXT_CHAT_PROMPT.md` must point back to these files rather than copying policy.
+Scheduler prompts and `NEXT_CHAT_PROMPT.md` must read these files rather than carry private copies of strategy/policy.
 
-Do not create another dashboard, database, spreadsheet mirror, scoring engine, scraper framework, knowledge graph or agent framework.
+Do not create another dashboard, database, spreadsheet mirror, score file, knowledge graph, application framework or parallel tracker.
 
 ---
 
-## 3. Current market contract
+## 3. Battlefield contract
 
-### Singapore — active AI target
+### `SG-ENG` — quality-first AI engineering
 
-Search early-career roles across:
+Search early-career Applied AI, GenAI, LLM/Agent/RAG, AI software/backend/product, ML/NLP/search/retrieval/evaluation and FDE roles.
 
-- Applied AI / GenAI / LLM / Agent / RAG;
-- AI software/backend/product engineering;
-- ML/NLP/search/retrieval/evaluation;
-- Research Engineer / Applied Scientist / realistic AI research roles.
+Singapore requires employer-supported EP or S Pass. `UNKNOWN` sponsorship willingness may reach APPLY. Explicit no-sponsorship/local-right-to-work-only wording is BLOCKED. MCF-only routes are blocked unless a separate usable route exists.
 
-Generic SWE/backend/full-stack/test titles may survive only when the actual JD/team/product is materially AI-related.
+Because work-pass friction is real, prioritize roles with enough technical/career upside to justify it. Do not compensate for sponsorship friction by spraying low-quality generic roles.
 
-Work authorization:
+### `SG-RES` — MSc-compatible research
 
-- employer-supported EP or S Pass is required;
-- `UNKNOWN` sponsorship willingness is allowed at APPLY;
-- explicit no-sponsorship / local-right-to-work-only wording is `BLOCKED`;
-- MCF-only route = blocked/closed unless a separate verified non-MCF route exists.
+Search Research Engineer, Applied Scientist, AI/NLP/Retrieval/Agent research and realistic applied-research roles.
 
-Use FreeHire as broad raw radar because AI jobs may use generic engineering titles, but promotion requires actual JD/team/product AI relevance. Fill gaps with direct employer/ATS + targeted LinkedIn/JobStreet/Indeed.
+Hard PhD, hard publication-record, postdoc or mature independent-research requirements the candidate does not meet are blockers. MSc thesis/research may truthfully support research-experience claims where wording permits.
 
-### Mainland China — active AI target
+### `CN-ENG` — higher-throughput native AI search
 
-Search 2026-compatible:
+Search 2026-compatible AI应用、大模型、Agent/RAG、AI后端、AI软件、算法/ML/NLP、检索/推荐/评测 and related AI engineering roles.
 
-- AI应用 / 大模型应用 / Agent / RAG;
-- AI后端 / AI软件开发;
-- 算法 / ML / NLP / 检索 / 推荐 / 评测;
-- Research Engineer / AI研究 / 应用研究 when requirements are realistic.
+Employer-supported Mainland China foreign work permit is required. Employer willingness may remain UNKNOWN until engagement; UNKNOWN alone does not block APPLY. Explicit citizenship/foreign-hire/cohort blockers do.
 
-Pure generic backend/software/test roles are not target opportunities unless the actual team/product/JD is materially AI-related.
+Use native routes first for coverage and human reach: BOSS, official/campus portals, 牛客, 51job, 智联, 猎聘. Direct recruiter/employer routes are valuable when verified.
 
-Work authorization:
+### `CN-RES` — MSc-compatible research
 
-- employer-supported Mainland China foreign work permit is required;
-- employer willingness may remain `UNKNOWN` until engagement;
-- UNKNOWN alone does not block APPLY.
+Search Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retrieval/Agent research where requirements are realistic.
 
-Use native sources first for coverage: BOSS, official/campus portals, 牛客, 51job, 智联, 猎聘. FreeHire/other feeds are supplementary radar.
+Do not let employer prestige override foreign-hire, degree, publication, seniority or technical hard blockers.
 
-### Malaysia — active AI target
+### `MY-ENG` — TOP / destination-quality only
 
 Malaysia has no foreign-work-permit friction for this candidate.
 
-Search AI/ML/GenAI/LLM/Agent/AI software/evaluation and realistic AI-research/research-engineering roles. Strong companies/teams are preferred, but meaningful AI work is the direction gate.
+Search strong MNC/regional tech, serious AI product/R&D teams, strong banks/digital banks and high-upside AI companies for meaningful AI engineering work.
 
-Do not spend search time verifying Malaysian sponsorship.
+**Malaysia is not a generic fallback lane.** Ordinary low-upside generic SWE, shallow AI-wrapper roles, weak outsourcing/bodyshop and roles that would not plausibly be worth choosing over continuing SG/CN should not enter APPLY/CHECK merely because they are local.
+
+### `MY-RES` — TOP / destination-quality only
+
+Search strong research/research-engineering environments with meaningful applied research, credible technical peers/mentorship and career portability.
+
+Local work authorization is an advantage, not a reason to lower the quality bar.
 
 ### Hong Kong — paused
 
-Hong Kong remains paused as of 2026-10-23. Do not discover new HK roles. Existing submitted WAIT items remain so employer replies are not lost.
+Do not discover new HK roles. Existing submitted WAIT items remain only so employer replies are not lost.
 
 ### Web3 / crypto
 
-Not a primary lane. Consider only when permanent full-time, credible, and the actual role is materially AI/ML-related.
+Not a primary lane. Consider only when permanent full-time, credible and materially AI/ML-related.
 
 ---
 
 ## 4. Employment-type hard rule
 
-For this search, **permanent full-time remains a hard outcome filter**.
+For this search, **permanent full-time is a hard outcome filter**.
 
 Close/skip when current evidence positively indicates fixed-term, temporary, contract, staffing/bodyshop/dispatch, project-only, internship, or trainee/graduate programme without a credible regular permanent-employment path.
 
@@ -136,74 +138,75 @@ The candidate is early-career.
 Default target:
 
 - new graduate / 0–3 YOE;
-- 1–3 YOE is normal target/stretch territory;
-- reasonable 2–4 YOE may survive when hard requirements and actual ownership remain plausible.
+- 1–3 YOE normal target/stretch territory;
+- reasonable 2–4 YOE may survive when hard requirements and ownership remain plausible.
 
 Hard/near-hard negatives:
 
 - hard 4+/5+ professional-YOE floor without a real alternative route;
 - Staff / Principal / Lead / Manager / Director / Head of or clearly mature ownership;
 - specialized professional-experience floor the candidate cannot truthfully satisfy;
-- research role with hard PhD requirement the candidate does not meet;
+- research role with hard PhD requirement not met;
 - hard publication-record / independent-research / postdoc requirement not met.
 
 A Senior title alone is a review flag, not automatic rejection. Read the JD.
 
 Mandatory `3+ years` is a meaningful negative signal, but generic software-engineering wording may truthfully use paid part-time/intern production work when employer wording permits it. Do not reinterpret specialized floors such as `2+ years professional production GenAI` as generic software experience.
 
-For research roles, MSc thesis/research can truthfully support research-experience claims, but do not invent publications, PhD-level depth, or conventional full-time research YOE.
-
 Never convert master's study, projects, internships or part-time work into fictitious conventional full-time professional YOE.
 
 ---
 
-## 6. Every maintenance run
+## 6. Maintenance and lifecycle
 
-Before discovery:
+Before changing queue state:
 
 1. read README / PROFILE / RULES / DISCOVERY_STATE;
-2. fully inspect current ACTION / APPLY / CHECK;
+2. inspect current ACTION / APPLY / CHECK relevant to the task;
 3. inspect WAIT only when recent, Gmail-triggered or needed for dedupe;
-4. check both Gmail accounts for recent state-changing recruiting evidence;
+4. check both Gmail accounts when lifecycle/dedupe evidence is needed;
 5. update existing Issues before creating new opportunities.
 
 State transitions:
 
 - official application receipt or user-confirmed `applied` → WAIT;
 - OA / interview / recruiter reply / useful requested action / deadline → ACTION;
-- explicitly authorized application awaiting execution may remain ACTION until real submission evidence exists;
+- explicitly authorized application awaiting execution may remain ACTION until submission evidence exists;
 - confirmed rejection / expired / duplicate / user skip / paused market / hard blocker / clear AI-direction mismatch → close;
 - silence is not rejection;
 - newer evidence overrides older evidence.
 
-**Pure generic SWE/test/backend is now a valid direction-mismatch reason unless the actual JD/team/product is materially AI-related.**
-
 Keep title, status label, body and next action synchronized.
 
-For an authorized application-type ACTION, the Issue body must say `AUTHORIZED APPLICATION; submission pending`; do not ask for authorization again for that exact unchanged role.
+For an authorized application-type ACTION, the Issue body must say `AUTHORIZED APPLICATION; submission pending`; do not ask authorization again for that exact unchanged role.
 
 ---
 
-## 7. Discovery schedule and rotation
+## 7. Automation and discovery cadence
 
-Scheduled MYT windows remain 00 / 04 / 08 / 12 / 16 / 20.
+Automation is reconnaissance and feedback, not autonomous execution.
 
-Before scheduled discovery, read DISCOVERY_STATE. If the current window already has a completed run satisfying the current contract, do maintenance only and skip duplicate discovery.
+Runtime baseline:
 
-Operational cadence:
+- Singapore scout runs hourly and covers `SG-ENG` + `SG-RES`;
+- Mainland China scout runs hourly and covers `CN-ENG` + `CN-RES`;
+- Malaysia TOP scout runs hourly and covers `MY-ENG` + `MY-RES`;
+- recruiting signal watch checks both Gmail accounts hourly but notifies only on meaningful recruiting progression;
+- weekly strategy review compares all six battlefields and recommends next-week effort allocation.
 
-- SG + CN remain high-frequency baseline lanes;
-- MY remains active;
-- SG = FreeHire raw radar + targeted direct/ATS/platform AI gaps;
-- CN = native-source-first AI rotation + supplementary feeds;
-- MY = AI/ML/GenAI/research roles via official careers, LinkedIn, JobStreet/Hiredly and direct employers;
-- HK remains out of discovery rotation.
+Exact runtime timestamps live in the automation definitions. Do not duplicate exact minute offsets in repo policy.
 
-Rotate role families, not just sources: Applied AI, LLM/Agent/RAG, AI backend/software, ML/NLP/search/retrieval, evaluation, and research/research-engineering.
+Hourly scouts are read-only. They may search, verify, dedupe, classify and recommend. They do not submit applications, contact employers, modify Gmail, or mutate GitHub Issues.
 
-If a lane yields only duplicates/hard rejects, expand to another **AI-related** role/source cluster before concluding the market is sparse.
+Do not force equal discovery volume across battlefields. SG is quality-first, CN may run higher-throughput after hard filtering, and MY must clear the destination-quality bar.
 
-After a scheduled run, preserve any FreeHire cursor section and update one compact current receipt with time, markets/sources/role lanes, serious survivors, failures and next rotation.
+Weekly allocation is adaptive. Evaluate real funnel evidence separately for each battlefield:
+
+`application → meaningful human/recruiter response → OA/challenge → interview → later round → offer`
+
+Automated receipts are not meaningful progression. GitHub WAIT counts are not clean application denominators.
+
+One unusual event must not rewrite strategy. Reallocation should follow repeated or materially strong evidence.
 
 ---
 
@@ -211,13 +214,11 @@ After a scheduled run, preserve any FreeHire cursor section and update one compa
 
 Use:
 
-`broad raw discovery → cheap hard filter → read actual JD/team/product → AI-relevance gate → cheap GitHub dedupe → liveness/eligibility → exact-ID Gmail dedupe → exact route → Issue`
+`battlefield scout → broad raw discovery → cheap hard filter → read actual JD/team/product → AI/research relevance gate → cheap GitHub dedupe → liveness/eligibility → targeted Gmail dedupe → exact route → recommend/create Issue`
 
-Raw discovery candidates do **not** become Issues.
+Raw discovery candidates do not become Issues automatically.
 
-### Stage 1 — active role families
-
-Active:
+Active role families:
 
 - Applied AI / AI Software Engineer / GenAI Engineer;
 - LLM Application / RAG / Agent engineering;
@@ -230,8 +231,6 @@ Active:
 - Research Engineer / AI Researcher / Applied Scientist / Research Scientist when requirements are realistic;
 - AI/ML-heavy Data Scientist.
 
-Generic-title roles are only active when the actual JD/team/product shows material AI/ML work.
-
 Not routine targets:
 
 - pure generic backend/SWE/full-stack with no AI work;
@@ -241,9 +240,7 @@ Not routine targets:
 - unrelated specialist systems roles;
 - research positions with clearly unmet hard PhD/publication requirements.
 
-### Cheap hard filter
-
-Reject cheaply for material hard blockers such as:
+Cheap hard blockers include:
 
 - wrong/paused market;
 - explicit non-permanent employment;
@@ -257,13 +254,11 @@ Reject cheaply for material hard blockers such as:
 
 Do not strengthen `preferred`, `plus`, `bonus`, `nice to have`, `familiarity`, `exposure`, coursework, self-study or personal-project wording into hard requirements.
 
-Do not reject because company is ordinary. **Do reject when the work itself is not materially AI-related.**
-
 ---
 
 ## 9. Cheap dedupe before expensive research
 
-Before Stage 2, check GitHub history in this order:
+Check GitHub history in this order:
 
 1. exact requisition/job ID;
 2. same employer + same/near-identical role family;
@@ -273,18 +268,19 @@ A same-employer role-family hit is a comparison flag, not automatic duplicate. S
 
 ---
 
-## 10. Stage 2 — verify serious survivors
+## 10. Verify serious survivors
 
 For plausible survivors verify:
 
 1. exact/full JD and current role-level liveness;
 2. material AI/ML/research relevance;
-3. employment classification;
-4. cohort, seniority and hard requirements;
-5. realistic candidate fit;
-6. work authorization where relevant;
-7. targeted Gmail dedupe in both accounts using exact requisition/job ID first;
-8. exact usable application route.
+3. battlefield fit, including the MY destination-quality bar;
+4. employment classification;
+5. cohort, seniority and hard requirements;
+6. realistic candidate fit;
+7. work authorization where relevant;
+8. targeted Gmail dedupe in both accounts using exact requisition/job ID first when available;
+9. exact usable application route.
 
 A role does not need the literal word Permanent to reach APPLY. PROBABLE regular full-time employment is sufficient when no contradictory non-permanent evidence exists.
 
@@ -304,7 +300,7 @@ UNKNOWN is allowed to reach APPLY. BLOCKED is not. Lack of public sponsorship wo
 
 Freshness is a ranking signal, not a 30-day death sentence.
 
-Current liveness is required before a new Issue is created. Strong proof includes an active exact-role form/ATS action, official current role page with active apply action, current application window, or employer-controlled ATS status showing the requisition open/published.
+Current liveness is required before a new APPLY/CHECK Issue is created. Strong proof includes an active exact-role form/ATS action, official current role page with active apply action, current application window, or employer-controlled ATS status showing the requisition open/published.
 
 Search snippets, mirrors and crawler timestamps are discovery evidence only. Newer closed/expired evidence overrides older liveness evidence.
 
@@ -330,20 +326,20 @@ It must have:
 
 - material AI/ML/research relevance;
 - realistic early-career fit;
-- active-market fit;
+- active battlefield fit;
 - no obvious cohort/seniority/hard-requirement block;
 - current role-level liveness proof;
 - employment CONFIRMED or PROBABLE, or exactly one CONFLICT blocker on an otherwise strong role;
 - no established duplicate;
 - either a verified exact route or exactly one material blocker remaining other than sponsorship/work-permit UNKNOWN.
 
-Company prestige is not required. **AI relevance is.**
+For MY-ENG/MY-RES, it must also clear the destination-quality bar. Ordinary low-upside local roles create nothing.
 
 Bad, closed, generic-non-AI, obvious-mismatch or raw candidates create nothing.
 
 ---
 
-## 15. Issue states
+## 15. Issue states and queue hygiene
 
 Only four open states: ACTION / APPLY / CHECK / WAIT.
 
@@ -358,6 +354,8 @@ Every open opportunity must have exactly one market label and exactly one status
 
 APPLY/CHECK should store exact route/blocker, req ID, liveness, employment evidence, plain-language work, hard requirements, AI relevance, strengths/gaps, work auth, dedupe result and exactly one next action.
 
+Do **not** encode strategic priority using ad-hoc title markers such as `[TOP]`. The status prefix and market are operational state; priority comes from battlefield strategy and current evidence.
+
 ---
 
 ## 16. Authorization
@@ -370,17 +368,17 @@ When authorization is granted but execution is not yet possible, keep it in ACTI
 
 ---
 
-## 17. Dedicated FreeHire lane
+## 17. FreeHire lane
 
-Routine FreeHire ingestion is owned by public `kolihhan/freehirefetch` plus the private FreeHire Intake scheduler.
+Routine public FreeHire ingestion is owned by `kolihhan/freehirefetch`.
 
 - FreeHire contains public job data and machine-dedupe/health metadata only.
 - FreeHire is Stage 1 discovery evidence only.
-- Its raw search may remain broader than the final AI target because many AI companies use generic SWE/backend titles.
-- **Raw FreeHire category inclusion does not imply queue eligibility.** JD/team/product AI relevance must be checked before Issue creation.
-- SG: FreeHire is primary broad raw radar while healthy/readable; direct/ATS/platform searches fill AI-specific gaps.
-- CN: FreeHire is supplementary; native sources remain primary.
-- MY: FreeHire is supplementary broad radar alongside direct/platform AI searches.
+- Its raw search may remain broader than the final target because AI companies may use generic engineering titles.
+- Raw FreeHire category inclusion does not imply queue eligibility.
+- SG: useful broad radar plus direct/ATS/platform gap search.
+- CN: supplementary; native sources remain primary.
+- MY: supplementary; destination-quality filtering still applies.
 - Preserve the FreeHire cursor section when updating DISCOVERY_STATE.
 
 ---
@@ -389,19 +387,19 @@ Routine FreeHire ingestion is owned by public `kolihhan/freehirefetch` plus the 
 
 ### Singapore
 
-Use FreeHire + direct employer/ATS + LinkedIn/JobStreet/Indeed gaps. Rotate Applied AI, LLM/Agent/RAG, AI software/backend, ML/NLP/search/retrieval/evaluation and research-engineering lanes.
+Use FreeHire + direct employer/ATS + LinkedIn/JobStreet/Indeed gaps. Rotate engineering and research lanes. Quality and work-pass plausibility matter more than raw volume.
 
 ### Mainland China
 
-Rotate BOSS → official/campus → 牛客 → 51job → 智联 → 猎聘. Search AI应用、大模型、Agent、RAG、AI后端、算法/ML/NLP、检索/推荐/评测 and AI research/research-engineering. Do not let CN discovery collapse because one source is hard to inspect.
+Rotate BOSS → official/campus → 牛客 → 51job → 智联 → 猎聘. Search AI应用、大模型、Agent、RAG、AI后端、算法/ML/NLP、检索/推荐/评测 and research/research-engineering. Keep native/direct human routes prominent.
+
+### Malaysia
+
+Use official careers, LinkedIn, JobStreet/Hiredly and direct employers, but only surface opportunities that clear the TOP/destination-quality bar.
 
 ### Hong Kong
 
 Paused.
-
-### Malaysia
-
-Use official careers, LinkedIn, JobStreet/Hiredly and direct employers for AI/ML/GenAI/LLM/Agent/AI software/evaluation/research roles. Strong companies are preferred but not required.
 
 ### Telegram / DeJob
 
@@ -413,7 +411,7 @@ Discovery source only, never authoritative proof. Independently verify company, 
 
 Verify material GitHub writes by reading them back.
 
-If a create action times out or could have succeeded ambiguously, search/read back before retrying. Persistent ambiguity stops the write loop.
+If a create/update action times out or could have succeeded ambiguously, search/read back before retrying. Persistent ambiguity stops the write loop.
 
 ---
 
