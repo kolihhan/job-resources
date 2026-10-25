@@ -26,6 +26,7 @@ Rules:
 - otherwise inspect only a shallow fresh head and compare candidate keys before opening full JDs;
 - unchanged seen key → skip before deep research / Gmail checks;
 - deep research only `NEW` or materially `CHANGED` candidates;
+- **record inspected candidate keys regardless of outcome**: survivor, hard reject, duplicate, low-quality reject, or route failure all count as seen, so rejected jobs are not researched again next hour unless a material CHANGED signal appears;
 - `recent_seen_keys` is fallback-only, FIFO, maximum 200 keys per market;
 - all existing open/closed GitHub Issues are an additional seen-history baseline and should be checked by exact ID/URL/role identity before deep research;
 - update this state only when something changed; no heartbeat-only commit.
@@ -58,6 +59,7 @@ Rules:
 
 - completed run: `2026-10-25 incremental hourly-scout efficiency migration`.
 - incremental correction: hourly scouts must now derive candidate keys and dedupe against `DISCOVERY_STATE.md` + all GitHub Issue history **before** expensive JD/Gmail verification. Unchanged candidates are skipped; only net-new or materially changed candidates receive deep research.
+- reject-cache correction: candidate keys are retained in the bounded cache even when the candidate is rejected, duplicated or fails a quality gate. This prevents hourly re-research of the same bad job.
 - bounded persistence: scouts may update only the `Hourly scout incremental state` object in this file. They remain read-only for GitHub Issues, Gmail and employer-facing actions. The fallback cache is capped at 200 keys per market and must not become a second job tracker.
 - canonical strategy: `README.md`, `PROFILE.md` and `RULES.md` define the North Star and six battlefields: `SG-ENG`, `SG-RES`, `CN-ENG`, `CN-RES`, `MY-ENG`, `MY-RES`. Singapore is quality-first, Mainland China supports higher-throughput native/direct discovery after hard filtering, and Malaysia is TOP / destination-quality only. Engineering and realistic research/research-engineering are both valid target outcomes.
 - automation architecture: `SG AI Scout`, `CN AI Scout` and `MY TOP AI Scout` run hourly reconnaissance; `Recruiting Signal Watch` checks both Gmail accounts hourly for meaningful progression; `AI Job Strategy Review` compares all six battlefields weekly and recommends adaptive allocation. Scheduler prompts read the repo contract rather than maintaining a private copy of policy.
