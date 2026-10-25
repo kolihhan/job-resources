@@ -10,11 +10,31 @@
 - Malaysia employment does not require foreign-work-permit sponsorship for this candidate.
 - MyCareersFuture (MCF) is not a usable application channel for this candidate. An SG role that is MCF-only is blocked unless a separate verified non-MCF application route exists.
 
+## North star
+
+The goal is not maximum applications, callbacks, Issues or interviews.
+
+The goal is to maximize the probability of getting a **permanent full-time AI-related offer I would genuinely accept**.
+
+Judge opportunities and market allocation by the combination of:
+
+- role quality and real AI/research ownership;
+- eligibility and work-authorization feasibility;
+- probability of passing screen and interview;
+- compensation/WLB when evidence exists;
+- engineering/research environment;
+- 1–2 year career growth and portability;
+- willingness to actually accept the offer.
+
 ## Positioning
 
 Early-career engineer targeting an **AI/ML career**, with software/backend production experience plus applied-AI/NLP research and project evidence.
 
-Target role families, in priority order:
+The truthful positioning is stronger than “fresh graduate trying AI”:
+
+> Software/backend engineer with MSc NLP/LLM research and hands-on LLM/RAG/Agent/retrieval/evaluation work, targeting AI engineering or realistic research/research-engineering roles.
+
+Target role families:
 
 - Applied AI / AI Application Engineer / Generative AI Engineer
 - LLM / RAG / Agent / Coding Agent / Agent Harness Engineer
@@ -34,11 +54,61 @@ Research is explicitly acceptable. Do not reject a role just because it is resea
 
 Still skip when mandatory work is substantially incompatible, such as deep CUDA/kernel/compiler work without an alternative route, specialist networking/security unrelated to AI, mature solution architecture/customer ownership, or another domain where the candidate cannot apply truthfully. Soft/preferred stack gaps are not hard blockers.
 
+## Six battlefields
+
+The search is split into six independent battlefields. They share hard eligibility rules but **do not share the same sourcing or prioritization strategy**.
+
+### `SG-ENG`
+
+Purpose: high-quality AI engineering opportunities with enough technical/career upside to justify Singapore work-pass friction.
+
+Target: Applied AI, AI software/backend, Agent/LLM/RAG, ML/NLP/search/retrieval/evaluation, AI-native product/FDE.
+
+Strategy: quality-first and targeted. Prefer strong teams/employers and direct/recruiter/employer routes where available; do not compensate for sponsorship friction with indiscriminate application volume.
+
+### `SG-RES`
+
+Purpose: MSc-compatible research engineering / applied research roles in Singapore.
+
+Target: Research Engineer, Applied Scientist, AI/NLP/Retrieval/Agent research roles where hard degree/publication requirements are realistic.
+
+Strategy: read literal research requirements. Hard PhD/publication/mature-research requirements remain blockers; research itself is not a blocker.
+
+### `CN-ENG`
+
+Purpose: exploit the larger AI engineering opportunity surface while filtering foreign-hire and cohort constraints cheaply.
+
+Target: AI应用、大模型、Agent/RAG、AI后端、算法/ML/NLP、检索/推荐/评测、AI software/product roles.
+
+Strategy: higher-throughput discovery, native-source-first, and prefer routes that can reach a human quickly such as BOSS/牛客/direct recruiter/employer when usable. Quickly kill explicit citizenship/cohort/work-permit blockers.
+
+### `CN-RES`
+
+Purpose: MSc-compatible research engineering / applied research roles in Mainland China.
+
+Target: Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retrieval/Agent research where requirements remain truthful and realistic.
+
+Strategy: use native/direct channels; do not treat research prestige as enough to ignore foreign-hire, degree, publication or maturity blockers.
+
+### `MY-ENG`
+
+Purpose: **TOP / destination-quality only**, not a generic fallback.
+
+Target: strong MNC/regional tech, serious AI product/R&D teams, strong banks/digital banks, or high-upside AI companies where the role has meaningful AI ownership and credible career growth.
+
+Ordinary low-upside generic SWE or shallow AI-wrapper roles are not worth entering the queue simply because local work authorization is easy.
+
+### `MY-RES`
+
+Purpose: **TOP / destination-quality only** research/research-engineering opportunities.
+
+Target: strong research environment, meaningful applied research, credible technical peers/mentorship and career portability.
+
+Local work authorization is an advantage, not a reason to lower the quality bar.
+
 ## First-job preference
 
-The immediate goal is to maximize realistic interviews and offers for a **permanent full-time AI-related role**, normally on-site or hybrid.
-
-Prioritize stronger opportunities first when available:
+Prioritize opportunities that provide:
 
 - real AI/ML/LLM/research ownership rather than superficial prompt/demo work;
 - Python/backend/API/database work around AI systems;
@@ -56,18 +126,9 @@ Keep using the current resume/project evidence. Change them only for a concrete 
 
 ## Company quality
 
-Company/team quality is a prioritization factor, not a baseline eligibility rule.
+For Singapore and Mainland China, company/team quality is a prioritization factor rather than a baseline eligibility rule. A smaller credible AI company/research team with meaningful work may be preferable to a famous employer offering unrelated generic software work.
 
-A smaller credible AI company/research team with meaningful AI work may be preferable to a famous company offering unrelated generic software work.
-
-Prefer roles with:
-
-- meaningful AI/ML/research content;
-- credible engineering/research environment;
-- technical ownership;
-- good compensation/WLB when evidence exists;
-- mentorship, growth and career portability;
-- strong fit with the candidate's actual evidence.
+For Malaysia, the bar is intentionally stricter: a role should be plausibly good enough to choose over continuing the SG/CN search. Prefer strong employer/team quality, meaningful AI/research ownership, credible growth and good compensation/WLB where evidence exists.
 
 ## Seniority
 
@@ -101,37 +162,31 @@ Never convert master's study, projects, internships or part-time employment into
 
 Treat these stable paths as the resume assets; replace them in place rather than accumulating versioned copies.
 
-## Search markets
+## Market rules
 
-### Active target: Singapore
+### Singapore
 
-Search Singapore for AI-related early-career roles: Applied AI, GenAI, LLM/Agent/RAG, AI software/backend, ML/NLP/search/retrieval/evaluation, Research Engineer, Applied Scientist and realistic AI-research roles.
-
-Generic SWE/backend/full-stack titles may survive only when the actual JD/team/product is materially AI-related.
-
+- Search both `SG-ENG` and `SG-RES`.
 - Unknown sponsorship/pass willingness is allowed at APPLY.
 - Explicit no-sponsorship/right-to-work-only wording is a blocker.
 - MCF-only application routes are blocked.
 - Prefer employers/roles where compensation and hiring structure make EP/S Pass support realistic when evidence is available.
 
-### Active target: Mainland China
+### Mainland China
 
-Search 2026-compatible AI-related roles across AI应用、大模型、Agent、RAG、AI后端、算法/ML/NLP、检索/推荐/评测 and research/research-engineering.
-
-Generic backend/software roles are not a target unless the team/product/JD is materially AI-related.
-
+- Search both `CN-ENG` and `CN-RES`.
 - Distinguish legal work-permit plausibility from employer willingness.
 - Employer willingness may remain UNKNOWN until engagement; UNKNOWN alone must not prevent an otherwise live, eligible role from reaching APPLY.
 - Favor 2026-compatible, recent-graduate and 0–3 YOE opportunities.
 - Native recruitment sources remain especially important.
 
-### Active target: Malaysia
+### Malaysia
 
-Search Malaysia for AI/ML/GenAI/LLM/Agent/AI software/evaluation and realistic AI research roles. Strong companies/teams remain preferred, but meaningful AI work is the actual direction gate.
+- Search both `MY-ENG` and `MY-RES`.
+- Only destination-quality opportunities should enter the active queue.
+- Do not spend search time verifying Malaysian sponsorship.
 
-Do not spend search time verifying Malaysian sponsorship.
-
-### Paused: Hong Kong
+### Hong Kong
 
 Hong Kong is **paused as of 2026-10-23**.
 
@@ -139,8 +194,14 @@ Hong Kong is **paused as of 2026-10-23**.
 - Do not promote new HK APPLY/ACTION items until the user explicitly reactivates HK.
 - Existing submitted `WAIT` items remain open only so employer replies are not lost.
 
-## Review trigger after 2026-10-31
+## Adaptive allocation
 
-After 2026-10-31, reassess market weighting based on substantive progression: human recruiter screens/interviews, OA followed by real next-round movement, or comparable employer engagement.
+Do not use a permanent SG/CN/MY percentage split.
 
-Increase weight toward whichever active market is producing stronger real traction while keeping the AI-career direction fixed. HK stays paused unless explicitly reactivated.
+The weekly strategy review should evaluate `SG-ENG`, `SG-RES`, `CN-ENG`, `CN-RES`, `MY-ENG`, and `MY-RES` separately using real funnel evidence:
+
+`application → meaningful human/recruiter response → OA/challenge → interview → later round → offer`
+
+Automated receipts are not meaningful progression. GitHub `WAIT` count is not a clean application denominator.
+
+Increase effort where a lane is generating stronger realistic progression and good opportunities; reduce lanes dominated by hard eligibility blockers, weak-quality roles or repeated no-response. One unusual result must not rewrite the whole strategy.
