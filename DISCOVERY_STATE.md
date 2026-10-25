@@ -42,9 +42,22 @@ Rules:
     "recent_seen_keys": []
   },
   "CN": {
-    "last_success_at": null,
+    "last_success_at": "2026-10-26T00:14:05+08:00",
     "source_watermarks": {},
-    "recent_seen_keys": []
+    "recent_seen_keys": [
+      "nowcoder:444729",
+      "nowcoder:415407",
+      "nowcoder:463573",
+      "nowcoder:464143",
+      "nowcoder:460621",
+      "nowcoder:466398",
+      "nowcoder:462852",
+      "nowcoder:466025",
+      "nowcoder:459899",
+      "nowcoder:409608",
+      "nowcoder:465596",
+      "nowcoder:458229"
+    ]
   },
   "MY": {
     "last_success_at": null,
