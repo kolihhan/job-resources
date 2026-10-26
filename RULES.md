@@ -172,7 +172,11 @@ Hourly scouts may **not**:
 - move/close/reopen/update existing opportunity Issues automatically;
 - create Issues for raw/unverified candidates.
 
-If a previously existing Issue has materially changed evidence, report it for maintenance rather than silently changing its lifecycle state.
+If a previously existing Issue has materially changed discovery evidence, scouts report it for maintenance rather than silently changing its lifecycle state.
+
+The **Recruiting Signal Watch** is the narrow exception for lifecycle reconciliation. It may update an existing opportunity Issue only when Gmail provides high-confidence lifecycle evidence and the message maps to exactly one Issue by exact requisition/job ID or an unambiguous company + role match. Eligible evidence is limited to OA/assessment, interview scheduling/invite, human recruiter reply/request, useful deadline/action-required message, offer, or explicit rejection/withdrawal/role-closed outcome. Ordinary receipts, alerts, marketing, stale duplicates, ambiguous matches, or silence do not mutate GitHub.
+
+When it updates an Issue, change only the lifecycle state/title/status label, minimal evidence, and next action needed to reflect the newer event. Do not copy unnecessary private email body text. Read the Issue back after the write. If mapping or write outcome is ambiguous, stop and report the mismatch instead of guessing or retrying blindly. Recruiting Signal Watch never sends replies, submits forms, contacts employers, or modifies Gmail.
 
 A new survivor is not durably handed off until the Issue create succeeds **and the created Issue is read back**. If create/write outcome is ambiguous, search/read back before retrying. If persistence is not proven, do not mark that survivor handled and do not advance a source watermark past it.
 
@@ -454,6 +458,8 @@ Hourly scout write scope is deliberately narrow:
 - update only its own bounded state object in `DISCOVERY_STATE.md`.
 
 Scouts do not automatically modify/close/reopen existing opportunity Issues. They do not submit applications or contact employers.
+
+Recruiting Signal Watch may make only the narrow deterministic lifecycle updates authorized in section 7. Every such update must be read back; ambiguous role mapping or write outcome stops mutation and is reported instead.
 
 ---
 
