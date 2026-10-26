@@ -1,0 +1,190 @@
+# Canonical Source Routing
+
+This is a focused execution supplement to `RULES.md` section 15. `RULES.md` remains authoritative if anything here conflicts with it.
+
+## Goal
+
+Increase **unique high-quality job recall per unit of scout work** by making sources complementary instead of repeatedly discovering the same employer/role through several boards.
+
+The default should be:
+
+> **known employer -> canonical first-party discovery owner**
+>
+> **unknown employer -> native/radar discovery -> resolve first-party owner once -> official source owns future discovery**
+
+Do not create a second opportunity tracker. GitHub Issues remain the only live opportunity state. Source-routing memory is machine-efficiency state only and belongs in `DISCOVERY_STATE.md`.
+
+---
+
+## 1. Separate three concepts
+
+Never conflate these:
+
+- **Job identity** — whether two observations are the same underlying role.
+- **Discovery owner** — the source the scout should routinely scan for that employer.
+- **Application route** — the route the user may eventually use to apply/contact; this may differ from the discovery owner.
+
+Example: Grab's official ATS can own discovery while a current LinkedIn Easy Apply or recruiter route remains the lower-friction application route.
+
+`source` is provenance, **not job identity**.
+
+---
+
+## 2. Canonical discovery ownership
+
+A verified employer-controlled careers/ATS surface may become that employer's **canonical discovery owner**.
+
+Examples: Workday, Greenhouse, Ashby, Lever, SmartRecruiters, Feishu Hire, Moka, Beisen, or an employer's own recruiting API/portal.
+
+Once an employer has a healthy canonical owner:
+
+1. Routine first-party discovery for that employer goes through the owner only.
+2. Do **not** independently deep-research the same employer from LinkedIn, JobStreet, Indeed, FreeHire, WhatJobs, generic search, or mirrors.
+3. Lower-tier observations for that employer become **gap signals or route-enrichment signals**, not parallel discovery lanes.
+4. A lower-tier observation may trigger one cheap owner check when it appears to expose a genuinely unseen requisition.
+5. A transient owner failure does not erase ownership. Use a fallback for that run if needed and retry the owner later. Change ownership only when there is evidence the employer migrated portals or the old owner is no longer authoritative.
+
+This is source routing, not source banning. Tier-2/Tier-3 sources remain useful where they add new coverage.
+
+---
+
+## 3. Unknown-employer promotion
+
+When Tier 2/3 surfaces an employer that has no known canonical owner:
+
+1. Cheap-screen the metadata first; do not resolve an official portal for obvious hard rejects.
+2. For a plausible survivor, make **one bounded canonical-source resolution attempt** using the employer's own careers page / ATS / official recruiting portal.
+3. If a current official source is found:
+   - re-anchor verification to that official source;
+   - use the official requisition ID/URL when available;
+   - persist the verified source-owner mapping in bounded machine state when the employer is likely to recur (core watch target or repeated discovery).
+4. If no usable official source can be established cheaply, keep the current Tier-2/Tier-3 observation eligible under normal `RULES.md` verification. Do not turn source resolution into an endless research task.
+
+The desired learning loop is:
+
+`aggregator finds company once -> official source discovered -> future scans go direct`
+
+---
+
+## 4. Job identity across sources
+
+Cross-source safety remains necessary because fallbacks and route-enrichment will still occasionally observe the same role.
+
+Use the cheapest stable identity in this order:
+
+1. **`normalized employer + employer requisition/job ID`** when the ID is issued by the employer/ATS and is stable across observations.
+2. Canonical employer-controlled exact-role URL after removing tracking/query noise that does not identify a distinct requisition.
+3. `normalized employer | normalized title | normalized location` as a **suspected-duplicate fingerprint only**.
+
+Important:
+
+- Do **not** prefix a stable employer requisition ID with the discovery source. `freehire:Grab:JR123` and `workday:Grab:JR123` must collapse to the same underlying identity `grab|JR123` when `JR123` is genuinely the employer requisition ID.
+- A board-specific listing ID (for example a LinkedIn/WhatJobs internal ID) is provenance only and must **not** be treated as a global employer requisition ID.
+- The fallback fingerprint must not auto-merge roles when the employer may have several openings with the same title/location. Use a cheap role-page/ID comparison first.
+
+Exact GitHub Issue-history dedupe in `RULES.md` still applies before expensive JD research.
+
+---
+
+## 5. When lower-tier sources are still allowed for an owned employer
+
+A canonical owner suppresses **redundant routine discovery**, not all lower-tier use.
+
+A Tier-2/Tier-3 observation for an owned employer is worth work only when at least one applies:
+
+- it exposes an exact requisition/job ID not present in the latest owner delta;
+- the owner is temporarily unavailable or incomplete;
+- it appears to be a platform-exclusive role/recruiter posting;
+- it provides a materially better human-visible application route (for example BOSS/牛客 recruiter chat, LinkedIn Easy Apply, or an employer-published recruiter contact);
+- it is evidence that the employer changed ATS/careers platform.
+
+Otherwise stop at the cheap routing gate. Do not open the full JD merely to prove a duplicate.
+
+---
+
+## 6. Market routing
+
+### Singapore
+
+Routine order:
+
+`canonical employer ATS/portal -> targeted native gap discovery -> radar for unknown employers/gaps`
+
+For employers with a verified ATS owner, LinkedIn/JobStreet/Indeed should mainly supply application-route enrichment or gap signals rather than parallel full discovery.
+
+### Malaysia
+
+Because MY is destination-company first, canonical source ownership should be aggressive for core/top employers. Broad boards should primarily discover strong employers outside the current watch universe and fill genuine official-source gaps.
+
+### Mainland China
+
+Official social/campus/company portals own role truth where available. BOSS/牛客 remain strategically important for recruiter reach and platform-only roles, so they are **not disabled** for an owned employer.
+
+For a BOSS/牛客 role at an owned employer:
+
+- if the same requisition exists officially, treat the platform observation as route enrichment;
+- if it appears absent officially, perform one bounded official-gap check, then allow the platform-only role to proceed under normal verification if still credible/current.
+
+51job/智联/猎聘 and radar sources should be more strongly suppressed for already-owned employers unless they reveal a real gap.
+
+---
+
+## 7. Bounded source-owner state
+
+`DISCOVERY_STATE.md` may keep a compact `canonical_sources` map as machine-efficiency state.
+
+Persist only verified mappings that are likely to save repeated work:
+
+- core target/watch employers; or
+- employers that have appeared repeatedly and have a stable official portal.
+
+Suggested fields per entry:
+
+```json
+{
+  "company_key": "grab",
+  "display_name": "Grab",
+  "owner_type": "workday",
+  "owner_locator": "<stable portal identifier or official careers URL>",
+  "verified_on": "YYYY-MM-DD"
+}
+```
+
+Rules:
+
+- store no JD/body, candidate decision, or application state here;
+- no parallel job list;
+- one employer has at most one routine discovery owner at a time;
+- aliases may normalize into the same `company_key`;
+- a temporary fetch failure does not delete the mapping;
+- replace the mapping only after verifying a real portal migration/ownership change;
+- keep this bounded and useful rather than trying to catalogue the whole internet.
+
+---
+
+## 8. Hourly scout order
+
+Within each market's existing bounded budget:
+
+1. **Owned first-party delta** — rotate through canonical owners / official target-company sources.
+2. **Native/direct fresh head** — search for unknown employers, platform-exclusive roles, recruiter reach, and real gaps; cheap-suppress routine duplicates for owned employers.
+3. **Radar fresh head / gap recovery** — prioritize unknown employers and missing coverage; do not re-deep-research owned-company roles without a gap signal.
+4. Then follow the existing `RULES.md` pipeline: identity/Issue-history gate -> hard screen -> JD verification -> Gmail dedupe -> route -> durable Issue/terminal disposition -> watermark.
+
+The router should reduce overlap **before** JD fetches, LLM-style reasoning, Gmail checks, and Issue work.
+
+---
+
+## 9. What success looks like
+
+Do not optimize raw source count.
+
+The intended improvements are:
+
+- more **unique** serious roles found per run;
+- higher first-party coverage for recurring/core employers;
+- fewer full-JD reads for roles already visible elsewhere;
+- fewer repeated cross-source duplicates reaching deep verification;
+- aggregators increasingly discovering **new employers/gaps** instead of repeatedly rediscovering known employers.
+
+No new dashboard or tracker is required to measure this. Use concrete scout evidence and the existing daily strategy review when a source-routing failure is material.
