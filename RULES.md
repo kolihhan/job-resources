@@ -145,6 +145,21 @@ Transitions:
 
 Only explicit authorization for the exact role/action permits an application or external contact. `go` on one role does not authorize another role at the same employer.
 
+### Direct-email application review gate
+
+When the verified application route is an employer/recruiter email, use a mandatory **prepare → user review → send** flow. A general `go` or permission to apply authorizes preparation of the package, not silent email transmission before the user has reviewed the exact package.
+
+Before any direct-email send:
+
+1. choose the communication language from the employer/recruiter context: normally Chinese for Mainland-China recruiting and English for Singapore/Malaysia/international recruiting, unless the actual employer communication clearly indicates otherwise;
+2. perform a **humanizer pass** in that language: concise, natural, specific to the role, understated and non-corporate; remove generic AI-written phrasing, unnecessary enthusiasm, inflated claims, and template filler;
+3. ground the email in verified candidate evidence only, selecting a few role-relevant strengths rather than copying the whole resume or JD; never inflate professional YOE, production-AI experience, skills, work authorization, or employer facts;
+4. use the current stable resume assets from the repo: `resumes/resume-en-current.pdf` for English applications and `resumes/resume-cn-current.pdf` for Chinese applications. Confirm the selected file is the current intended resume before presenting the package. If a material role-specific resume change is genuinely needed, update the repo source-of-truth resume in place and regenerate the stable PDF instead of creating ad-hoc versioned copies;
+5. present the user with one complete review package: **recipient, subject, exact email body, selected resume attachment, and any other requested attachment**;
+6. do not send until the user has reviewed that exact package and explicitly approves sending it. If any material wording, recipient, subject, or attachment changes after approval, present the changed package again before sending.
+
+Once the exact reviewed package is approved for send, transmit that package without silent rewriting or attachment substitution. Preserve sent-message evidence in the matching Issue after a successful send.
+
 ---
 
 ## 7. Automation contract
