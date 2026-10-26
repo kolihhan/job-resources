@@ -47,79 +47,16 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
       "freehire_event_seq": 15757
     },
     "recent_seen_keys": [
-      "manatal:redalpha:QYW8W8V5",
-      "whatjobs-sg:data engineer:94051195",
-      "whatjobs-sg:data engineer:94037833",
-      "whatjobs-sg:data engineer:94045725",
-      "whatjobs-sg:data engineer:94046741",
-      "whatjobs-sg:data engineer:94047967",
-      "whatjobs-sg:data engineer:94050391",
-      "whatjobs-sg:python developer:94046569",
-      "manatal:redalpha:8X59W7WV",
-      "manatal:redalpha:4R6WW957",
-      "manatal:redalpha:L43436W7",
-      "manatal:redalpha:L34Y94XW",
-      "whatjobs-sg:data engineer:94037151",
-      "naukri:5:291024009927",
-      "naukri:5:141022013150",
-      "manatal:talentweb3:W38W75YW",
-      "mycareersfuture:eac399f067e138b998be391459373ac4",
-      "mycareersfuture:d3cecccb9e595192f61230ee25f7df37",
-      "manatal:wesource:W3X49449",
-      "manatal:wesource:5WV9788R",
-      "manatal:wesource:5WV97985",
-      "whatjobs-sg:backend developer:94032928",
-      "naukri:3:070521003493",
-      "mycareersfuture:d7f6b4c6758ad0d036d7cb4119a4f143",
-      "jobstreet:6290:95455412",
-      "jobstreet:6290:95455304",
-      "whatjobs-sg:data engineer:94033937",
-      "mycareersfuture:8a7ed895383851b22f0a3f4ee31997ab",
-      "zohorecruit:siscojobs.zohorecruit.com:696108000048625159",
-      "manatal:work-with-us:5W958595",
-      "manatal:work-with-us:5WR349V5",
-      "keka:hrtech:5553",
-      "keka:hrtech:5466",
-      "naukri:8:151024015326",
-      "naukri:3:080521001025",
-      "mycareersfuture:4e0dbb07f43170894b8fb2b5772b9273",
-      "mycareersfuture:d41681fec354b152ef718134547d1b64",
-      "mycareersfuture:a833199031b47e71ed835a547f8db818",
-      "mycareersfuture:12791d18dc256ff7566890fafac14b4d",
-      "jobvite:veson:o3j0AfwG",
-      "astar:3212",
-      "micron:JR96479"
+      "manatal:redalpha:QYW8W8V5", "whatjobs-sg:data engineer:94051195", "whatjobs-sg:data engineer:94037833", "whatjobs-sg:data engineer:94045725", "whatjobs-sg:data engineer:94046741", "whatjobs-sg:data engineer:94047967", "whatjobs-sg:data engineer:94050391", "whatjobs-sg:python developer:94046569", "manatal:redalpha:8X59W7WV", "manatal:redalpha:4R6WW957", "manatal:redalpha:L43436W7", "manatal:redalpha:L34Y94XW", "whatjobs-sg:data engineer:94037151", "naukri:5:291024009927", "naukri:5:141022013150", "manatal:talentweb3:W38W75YW", "mycareersfuture:eac399f067e138b998be391459373ac4", "mycareersfuture:d3cecccb9e595192f61230ee25f7df37", "manatal:wesource:W3X49449", "manatal:wesource:5WV9788R", "manatal:wesource:5WV97985", "whatjobs-sg:backend developer:94032928", "naukri:3:070521003493", "mycareersfuture:d7f6b4c6758ad0d036d7cb4119a4f143", "jobstreet:6290:95455412", "jobstreet:6290:95455304", "whatjobs-sg:data engineer:94033937", "mycareersfuture:8a7ed895383851b22f0a3f4ee31997ab", "zohorecruit:siscojobs.zohorecruit.com:696108000048625159", "manatal:work-with-us:5W958595", "manatal:work-with-us:5WR349V5", "keka:hrtech:5553", "keka:hrtech:5466", "naukri:8:151024015326", "naukri:3:080521001025", "mycareersfuture:4e0dbb07f43170894b8fb2b5772b9273", "mycareersfuture:d41681fec354b152ef718134547d1b64", "mycareersfuture:a833199031b47e71ed835a547f8db818", "mycareersfuture:12791d18dc256ff7566890fafac14b4d", "jobvite:veson:o3j0AfwG", "astar:3212", "micron:JR96479"
     ]
   },
   "CN": {
-    "last_state_change_at": "2026-10-26T15:16:00+08:00",
+    "last_state_change_at": "2026-10-26T19:06:56+08:00",
     "source_watermarks": {
       "freehire_event_seq": 15878
     },
     "recent_seen_keys": [
-      "manatal:hyred-apac:93V98694",
-      "nowcoder:415407",
-      "nowcoder:458229",
-      "nowcoder:437310",
-      "nowcoder:466220",
-      "nowcoder:412983",
-      "nowcoder:460621",
-      "nowcoder:434106",
-      "nowcoder:460589",
-      "nowcoder:415292",
-      "nowcoder:466398",
-      "nowcoder:469603",
-      "nowcoder:439289",
-      "nowcoder:467251",
-      "nowcoder:464026",
-      "nowcoder:411836",
-      "nowcoder:402337",
-      "nowcoder:458196",
-      "nowcoder:459703",
-      "nowcoder:417625",
-      "nowcoder:437982",
-      "nowcoder:442114",
-      "nowcoder:459127"
+      "manatal:hyred-apac:93V98694", "nowcoder:415407", "nowcoder:458229", "nowcoder:437310", "nowcoder:466220", "nowcoder:412983", "nowcoder:460621", "nowcoder:434106", "nowcoder:460589", "nowcoder:415292", "nowcoder:466398", "nowcoder:469603", "nowcoder:439289", "nowcoder:467251", "nowcoder:464026", "nowcoder:411836", "nowcoder:402337", "nowcoder:458196", "nowcoder:459703", "nowcoder:417625", "nowcoder:437982", "nowcoder:442114", "nowcoder:459127", "nowcoder:463573", "nowcoder:467328", "nowcoder:440311"
     ]
   },
   "MY": {
@@ -128,13 +65,7 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
       "freehire_event_seq": 15878
     },
     "recent_seen_keys": [
-      "whatjobs-my:data engineer:26965994",
-      "whatjobs-my:full stack developer:26963001",
-      "whatjobs-my:full stack developer:26962331",
-      "whatjobs-my:full stack developer:26962221",
-      "whatjobs-my:full stack developer:26965852",
-      "jobstreet:compasia|ai engineer – gen ai, agentic ai & integration|petaling jaya",
-      "jobstreet:6290:95468129"
+      "whatjobs-my:data engineer:26965994", "whatjobs-my:full stack developer:26963001", "whatjobs-my:full stack developer:26962331", "whatjobs-my:full stack developer:26962221", "whatjobs-my:full stack developer:26965852", "jobstreet:compasia|ai engineer – gen ai, agentic ai & integration|petaling jaya", "jobstreet:6290:95468129"
     ]
   }
 }
