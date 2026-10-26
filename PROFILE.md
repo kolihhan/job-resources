@@ -156,11 +156,11 @@ Never convert master's study, projects, internships or part-time employment into
 ## Current resume assets
 
 - English text source of truth: [`resumes/resume-en-current.md`](resumes/resume-en-current.md)
-- Chinese text source of truth: [`resumes/resume-cn-current.md`](resumes/resume-cn-current.md)
+- Chinese text source of truth: [`resumes/resume-zh-current.md`](resumes/resume-zh-current.md)
 - English PDF: [`resumes/resume-en-current.pdf`](resumes/resume-en-current.pdf)
-- Chinese PDF: [`resumes/resume-cn-current.pdf`](resumes/resume-cn-current.pdf)
+- Chinese PDF: [`resumes/resume-zh-current.pdf`](resumes/resume-zh-current.pdf)
 
-Treat these stable paths as the resume assets; replace them in place rather than accumulating versioned copies.
+These are the **only canonical resume assets** for employer-facing applications. Use the current repo files themselves; do not substitute a Downloads copy, renamed/versioned backup, older generated PDF, or another locally cached file merely because its contents look similar. Replace the canonical assets in place when they change rather than accumulating versioned copies.
 
 ## Market rules
 
