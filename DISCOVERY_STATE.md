@@ -42,7 +42,7 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
   "cache_semantics": "terminal-or-durable-only",
   "migrated_on": "2026-10-26",
   "SG": {
-    "last_state_change_at": "2026-10-26T12:03:38+08:00",
+    "last_state_change_at": "2026-10-26T13:57:40+08:00",
     "source_watermarks": {
       "freehire_event_seq": 15757
     },
@@ -86,7 +86,9 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
       "mycareersfuture:d41681fec354b152ef718134547d1b64",
       "mycareersfuture:a833199031b47e71ed835a547f8db818",
       "mycareersfuture:12791d18dc256ff7566890fafac14b4d",
-      "jobvite:veson:o3j0AfwG"
+      "jobvite:veson:o3j0AfwG",
+      "astar:3212",
+      "micron:JR96479"
     ]
   },
   "CN": {
