@@ -51,12 +51,12 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
     ]
   },
   "CN": {
-    "last_state_change_at": "2026-10-26T20:32:32+08:00",
+    "last_state_change_at": "2026-10-26T21:14:00+08:00",
     "source_watermarks": {
       "freehire_event_seq": 15878
     },
     "recent_seen_keys": [
-      "manatal:hyred-apac:93V98694", "nowcoder:415407", "nowcoder:458229", "nowcoder:437310", "nowcoder:466220", "nowcoder:412983", "nowcoder:460621", "nowcoder:434106", "nowcoder:460589", "nowcoder:415292", "nowcoder:466398", "nowcoder:469603", "nowcoder:439289", "nowcoder:467251", "nowcoder:464026", "nowcoder:411836", "nowcoder:402337", "nowcoder:458196", "nowcoder:459703", "nowcoder:417625", "nowcoder:437982", "nowcoder:442114", "nowcoder:459127", "nowcoder:463573", "nowcoder:467328", "nowcoder:440311", "nowcoder:463580", "nowcoder:467510"
+      "manatal:hyred-apac:93V98694", "nowcoder:415407", "nowcoder:458229", "nowcoder:437310", "nowcoder:466220", "nowcoder:412983", "nowcoder:460621", "nowcoder:434106", "nowcoder:460589", "nowcoder:415292", "nowcoder:466398", "nowcoder:469603", "nowcoder:439289", "nowcoder:467251", "nowcoder:464026", "nowcoder:411836", "nowcoder:402337", "nowcoder:458196", "nowcoder:459703", "nowcoder:417625", "nowcoder:437982", "nowcoder:442114", "nowcoder:459127", "nowcoder:463573", "nowcoder:467328", "nowcoder:440311", "nowcoder:463580", "nowcoder:467510", "baidu:J99969", "baidu:J99560"
     ]
   },
   "MY": {
