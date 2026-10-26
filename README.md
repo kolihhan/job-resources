@@ -55,7 +55,7 @@ No parallel candidate inbox, dashboard, spreadsheet mirror, or second tracker.
 
 The operating loop is:
 
-`source delta/fresh head → derive candidate key → exact GitHub Issue-history dedupe → seen gate → cheap hard screen → ONLY THEN read full JD → verify survivor → targeted Gmail dedupe → exact route → durable APPLY/CHECK Issue or terminal reject → advance source watermark`
+`first-party/source delta or fresh head → derive candidate key → exact GitHub Issue-history dedupe → seen gate → cheap hard screen → ONLY THEN read full JD → verify survivor → targeted Gmail dedupe → exact route → durable APPLY/CHECK Issue or terminal reject → advance source watermark`
 
 Two invariants:
 
@@ -71,23 +71,33 @@ A survivor is not considered handled until its Issue create succeeds and the Iss
 
 When a source exposes an exact job/requisition ID, the scout searches **all GitHub Issues, including closed history**, for that ID before opening the full JD. Issue search is the gate; repository code search is not a substitute.
 
+### Source hierarchy
+
+Discovery is now **first-party first**:
+
+1. **Tier 1 — official/direct:** employer careers/ATS, official campus/social portals, research/university portals, employer-controlled recruiting email/direct route.
+2. **Tier 2 — native/direct platforms:** BOSS/牛客 in China; LinkedIn/JobStreet/Hiredly/Indeed exact-role flows in SG/MY.
+3. **Tier 3 — radar:** FreeHire, WhatJobs, generic indexes, mirrors and search snippets.
+
+Tier 3 helps discover gaps; it does not drive the queue. The market target-company lists in `RULES.md` are priority watch lists, **not whitelists**.
+
 ### FreeHire
 
-FreeHire is a broad upstream radar, not the human job queue.
+FreeHire is a broad upstream radar, not the human job queue and no longer the primary source for any market.
 
 `feed/candidates.json` is the fast path, not a lossless queue. Each market scout also tracks `freehire_event_seq`. If the scout watermark lags `feed/index.json:last_seq`, a run was missed/delayed, or the capped snapshot overflows (`matched_counts > counts`), the scout recovers only the missing sequence range from `feed/pages/*.jsonl` before advancing the watermark.
 
 This prevents scheduler delay or snapshot caps from silently dropping jobs.
 
-### Native sources
+### Market sourcing
 
-CN remains native-source-first: BOSS, official/campus, 牛客, 51job, 智联, 猎聘.
+**Singapore:** first-party watch includes AI Singapore/NTU, A*STAR, OpenAI Singapore, Sea/SAIL/Shopee, Grab, ByteDance/TikTok, Micron, Apple, Google, Microsoft, Singtel and selected strong finance/fintech AI teams. LinkedIn/JobStreet/Indeed and FreeHire fill gaps.
 
-SG uses FreeHire plus direct employer/ATS + LinkedIn/JobStreet/Indeed gaps.
+**Mainland China:** official employer/social/campus recruiting comes first for Alibaba, Tencent, ByteDance, Huawei, Baidu, Meituan, JD, Xiaohongshu and strong AI-native companies such as DeepSeek, Kimi/Moonshot, Zhipu AI and StepFun. BOSS/牛客 remain high-value because recruiter reach matters; 51job/智联/猎聘 are secondary coverage; FreeHire/aggregators are radar only.
 
-MY uses official careers, LinkedIn, JobStreet/Hiredly, direct employers, and supplementary FreeHire, but keeps the destination-quality bar.
+**Malaysia:** company-first and TOP-only. Core watch includes Sea/Shopee, Grab, Gen Digital/MoneyLion, AEON Bank/GXBank, Keysight, AMD, Intel, Dell, YTL AI Labs and similarly strong product/R&D teams. LinkedIn/JobStreet/Hiredly and recruiter routes fill exact-role gaps; FreeHire remains supplementary.
 
-When a source exposes a trustworthy posted/updated cursor, scouts persist it. Otherwise they inspect only a shallow fresh head and use the bounded terminal/durable seen cache.
+Target lists prioritize search effort, not eligibility. An excellent exact role from another credible employer can still enter the queue.
 
 ## Automation
 
