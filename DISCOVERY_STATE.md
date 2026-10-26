@@ -116,7 +116,7 @@ Rules:
     ]
   },
   "MY": {
-    "last_success_at": "2026-10-26T04:17:00+08:00",
+    "last_success_at": "2026-10-26T09:21:00+08:00",
     "source_watermarks": {},
     "recent_seen_keys": [
       "joblum:2286754",
@@ -130,7 +130,12 @@ Rules:
       "freehire:techstreet:sumafrol",
       "jobstreet:g-asiapacific:ai-engineer",
       "linkedin:4479792500",
-      "linkedin:4477988506"
+      "linkedin:4477988506",
+      "whatjobs-my:data engineer:26965994",
+      "whatjobs-my:full stack developer:26963001",
+      "whatjobs-my:full stack developer:26962331",
+      "whatjobs-my:full stack developer:26962221",
+      "whatjobs-my:full stack developer:26965852"
     ]
   }
 }
