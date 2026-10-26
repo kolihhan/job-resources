@@ -198,10 +198,16 @@ Hong Kong is **paused as of 2026-10-23**.
 
 Do not use a permanent SG/CN/MY percentage split.
 
-The weekly strategy review should evaluate `SG-ENG`, `SG-RES`, `CN-ENG`, `CN-RES`, `MY-ENG`, and `MY-RES` separately using real funnel evidence:
+The **daily** strategy review should evaluate `SG-ENG`, `SG-RES`, `CN-ENG`, `CN-RES`, `MY-ENG`, and `MY-RES` separately using real funnel evidence:
 
 `application → meaningful human/recruiter response → OA/challenge → interview → later round → offer`
 
 Automated receipts are not meaningful progression. GitHub `WAIT` count is not a clean application denominator.
 
 Increase effort where a lane is generating stronger realistic progression and good opportunities; reduce lanes dominated by hard eligibility blockers, weak-quality roles or repeated no-response. One unusual result must not rewrite the whole strategy.
+
+## Adaptive learning memory
+
+- **ENG recall — hidden AI work behind generic titles.** Signal: generic software titles can hide unusually strong target-lane work. Evidence: #674 Grab is published as `Software Engineer, Backend` but the JD is AI-first / agentic-harness engineering; #661 Agnes AI is published as `Software Engineer` while the JD describes an AI Forward Deployed Engineer. Adjustment: when cheap metadata/team/product context contains strong Agent/LLM/RAG/MCP/Coding-Agent/AI-first signals, preserve generic SWE/backend/full-stack titles through the cheap screen and read the JD before rejecting. **Review/expiry:** re-evaluate after 10 such escalations or by 2026-11-09, whichever comes first.
+
+- **SG/CN/MY execution route — published human-visible/direct paths deserve a soft preference when role quality is comparable.** Signal: direct routes have produced real progression, not only receipts. Evidence: #462 Pantas direct employer email reached interview invite; #378 SafeTruck direct employer email reached HR screening/hiring-manager handoff; #367 Vivacity direct application reached an employer challenge. Adjustment: for an already verified strong role, prefer a published employer-controlled email, native recruiter chat, or similarly direct human-visible route over a long ATS when both are credible; do not lower role/eligibility gates and do not contact anyone without authorization. **Review/expiry:** re-evaluate after 10 additional direct-route applications with enough response time or by 2026-11-09, whichever comes first.
