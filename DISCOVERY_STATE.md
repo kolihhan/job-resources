@@ -90,11 +90,25 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
     ]
   },
   "CN": {
-    "last_state_change_at": "2026-10-26T03:08:51+08:00",
+    "last_state_change_at": "2026-10-26T12:10:31+08:00",
     "source_watermarks": {
-      "freehire_event_seq": 15589
+      "freehire_event_seq": 15757
     },
-    "recent_seen_keys": []
+    "recent_seen_keys": [
+      "manatal:hyred-apac:93V98694",
+      "nowcoder:415407",
+      "nowcoder:458229",
+      "nowcoder:437310",
+      "nowcoder:466220",
+      "nowcoder:412983",
+      "nowcoder:460621",
+      "nowcoder:434106",
+      "nowcoder:460589",
+      "nowcoder:415292",
+      "nowcoder:466398",
+      "nowcoder:469603",
+      "nowcoder:439289"
+    ]
   },
   "MY": {
     "last_state_change_at": "2026-10-26T11:18:43+08:00",
