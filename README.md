@@ -23,11 +23,11 @@ Main search: **permanent full-time only**.
 | `MY-ENG` | **TOP / destination-quality only** AI engineering. |
 | `MY-RES` | **TOP / destination-quality only** research / research engineering. |
 
-Engineering and research are both valid outcomes. Weekly strategy review reallocates effort using real funnel evidence rather than a fixed market split.
+Engineering and research are both valid outcomes. Daily strategy review reallocates effort using real funnel evidence rather than a fixed market split.
 
 Target families include Applied AI, GenAI, LLM/RAG/Agent, Coding Agent/Harness, AI backend/software/product, ML/NLP/search/retrieval/ranking, AI evaluation/quality/testing, and realistic Research Engineer / AI Researcher / Applied Scientist / Research Scientist roles.
 
-Generic SWE/backend/full-stack/QA titles survive only when the actual team/product/JD is materially AI-related.
+Generic SWE/backend/full-stack/QA titles survive only when the actual team/product/JD is materially AI-related. Strong AI signals in cheap metadata/team/product context are enough to preserve a generic title until the JD is read.
 
 ## Four open states
 
@@ -44,12 +44,12 @@ Do not encode strategy priority with `[TOP]`. Priority comes from battlefield fi
 
 - GitHub Issues = live operational opportunity state.
 - Gmail = recruiting lifecycle evidence + targeted dedupe.
-- `PROFILE.md` = stable candidate facts + market/battlefield strategy.
+- `PROFILE.md` = stable candidate facts + market/battlefield strategy + bounded adaptive learning memory.
 - `RULES.md` = **the only detailed execution policy**.
 - `DISCOVERY_STATE.md` = compact machine efficiency state only: cursors/watermarks/recent-seen receipt.
 - Old spreadsheet = legacy/read-only.
 
-No parallel candidate inbox, dashboard, spreadsheet mirror, or second tracker.
+No parallel candidate inbox, dashboard, spreadsheet mirror, score file, or second tracker.
 
 ## Lossless discovery model
 
@@ -67,13 +67,15 @@ Raw candidates do not become Issues automatically. A **verified serious survivor
 
 A survivor is not considered handled until its Issue create succeeds and the Issue is read back. If persistence fails or is ambiguous, the scout must not mark it seen and must not advance the source watermark past it.
 
+For campus/graduate/year-coded roles, campaign/program eligibility is part of verification. If the exact JD omits the graduation window, the official campaign/program window must be checked before promotion.
+
 ### Exact-ID dedupe
 
 When a source exposes an exact job/requisition ID, the scout searches **all GitHub Issues, including closed history**, for that ID before opening the full JD. Issue search is the gate; repository code search is not a substitute.
 
 ### Source hierarchy
 
-Discovery is now **first-party first**:
+Discovery is **first-party first**:
 
 1. **Tier 1 — official/direct:** employer careers/ATS, official campus/social portals, research/university portals, employer-controlled recruiting email/direct route.
 2. **Tier 2 — native/direct platforms:** BOSS/牛客 in China; LinkedIn/JobStreet/Hiredly/Indeed exact-role flows in SG/MY.
@@ -104,8 +106,8 @@ Target lists prioritize search effort, not eligibility. An excellent exact role 
 - SG AI Scout — hourly, `SG-ENG` + `SG-RES`.
 - CN AI Scout — hourly, `CN-ENG` + `CN-RES`.
 - MY TOP AI Scout — hourly, `MY-ENG` + `MY-RES`.
-- Recruiting Signal Watch — hourly over both Gmail accounts; ordinary receipts are not meaningful progression.
-- AI Job Strategy Review — weekly across all six battlefields.
+- Recruiting Signal Watch — hourly over both Gmail accounts; substantive lifecycle signals update the canonical Issue and preserve `Furthest stage`.
+- AI Job Strategy Review — **daily** across all six battlefields; controlled learning may update only the bounded adaptive-memory block in `PROFILE.md` when the evidence threshold is met.
 
 Hourly scouts may search/verify/dedupe, create a **new verified APPLY/CHECK Issue**, and update only their compact discovery cursor/cache. They do not submit applications, contact employers, modify Gmail, or automatically modify/close/reopen existing opportunity Issues.
 
@@ -114,9 +116,10 @@ Scheduler runtime health comes from the automation system. `DISCOVERY_STATE.md` 
 ## What I should do
 
 1. Handle ACTION first.
-2. Review APPLY and say `go` only for exact roles I want submitted.
-3. Resolve useful CHECK blockers.
-4. Leave WAIT alone unless new evidence arrives.
+2. When APPLY is larger than practical execution capacity, derive a **top 3–5 APPLY NOW** from current Issues; keep NEXT and SELECTIVE as secondary views without creating new labels/trackers.
+3. Say `go` only for exact roles I want submitted.
+4. Resolve useful CHECK blockers.
+5. Leave WAIT alone unless new evidence arrives.
 
 Simple commands on an exact role:
 
