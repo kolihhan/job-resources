@@ -88,7 +88,7 @@ Target families include:
 - Research Engineer / AI Researcher / Applied Scientist / Research Scientist when requirements are realistic;
 - AI/ML-heavy Data Scientist.
 
-Generic SWE/backend/full-stack/QA titles survive only when the actual team/product/JD is materially AI-related.
+Generic SWE/backend/full-stack/QA titles survive only when the actual team/product/JD is materially AI-related. **Do not title-gate at the cheap screen when source metadata, snippet, team name, or product context already contains strong Agent/LLM/RAG/MCP/Coding-Agent/AI-first signals; preserve the candidate long enough to read the actual JD.**
 
 Cheap hard blockers include:
 
@@ -101,6 +101,8 @@ Cheap hard blockers include:
 - substantial mandatory stack/domain mismatch;
 - clearly closed/expired listing;
 - exact duplicate/already applied.
+
+For campus, graduate, trainee, named-program, or year-coded hiring (for example `2027`, `AIDU`, graduate programme), **program/campaign eligibility is part of the hard requirements**. If the exact role page omits the graduation window, inspect the employer-controlled campaign/program page before promotion. Exact-JD silence is not evidence of cohort compatibility. An explicit incompatible campaign window is BLOCKED.
 
 A Senior title alone is a review flag, not automatic rejection. A mandatory `3+ years` is a real negative, but generic engineering wording may truthfully use paid part-time/intern production work when employer wording permits it. Never convert study/projects/internships/part-time work into fictitious conventional full-time YOE.
 
@@ -155,7 +157,7 @@ Runtime baseline:
 - Mainland China scout hourly: `CN-ENG` + `CN-RES`.
 - Malaysia TOP scout hourly: `MY-ENG` + `MY-RES`.
 - Recruiting Signal Watch hourly over both Gmail accounts.
-- AI Job Strategy Review weekly across all six battlefields.
+- AI Job Strategy Review **daily** across all six battlefields.
 
 Exact minute offsets live in automation definitions, not repo policy.
 
@@ -176,7 +178,7 @@ If a previously existing Issue has materially changed discovery evidence, scouts
 
 The **Recruiting Signal Watch** is the narrow exception for lifecycle reconciliation. It may update an existing opportunity Issue only when Gmail provides high-confidence lifecycle evidence and the message maps to exactly one Issue by exact requisition/job ID or an unambiguous company + role match. Eligible evidence is limited to OA/assessment, interview scheduling/invite, human recruiter reply/request, useful deadline/action-required message, offer, or explicit rejection/withdrawal/role-closed outcome. Ordinary receipts, alerts, marketing, stale duplicates, ambiguous matches, or silence do not mutate GitHub.
 
-When it updates an Issue, change only the lifecycle state/title/status label, minimal evidence, and next action needed to reflect the newer event. Do not copy unnecessary private email body text. Read the Issue back after the write. If mapping or write outcome is ambiguous, stop and report the mismatch instead of guessing or retrying blindly. Recruiting Signal Watch never sends replies, submits forms, contacts employers, or modifies Gmail.
+When it updates an Issue, change only the lifecycle state/title/status label, minimal evidence, next action, and a compact `Furthest stage` field/line needed to reflect the newer event. `Furthest stage` is monotonic: a later administrative or waiting message must not erase a more advanced stage already reached. Do not copy unnecessary private email body text. Read the Issue back after the write. If mapping or write outcome is ambiguous, stop and report the mismatch instead of guessing or retrying blindly. Recruiting Signal Watch never sends replies, submits forms, contacts employers, or modifies Gmail.
 
 A new survivor is not durably handed off until the Issue create succeeds **and the created Issue is read back**. If create/write outcome is ambiguous, search/read back before retrying. If persistence is not proven, do not mark that survivor handled and do not advance a source watermark past it.
 
@@ -295,6 +297,8 @@ For a plausible net-new/changed survivor verify:
 8. targeted Gmail dedupe in both accounts using exact requisition/job ID first when available;
 9. exact usable application route.
 
+For campus/graduate/program hiring, verification in item 5 includes the **employer-controlled campaign/program eligibility**, not only the exact role page. If a role is year-coded or clearly attached to a named graduate campaign and the exact JD omits its graduation window, resolve that window before promotion. If campaign compatibility cannot be established and it is the only remaining material blocker, CHECK may be used; an explicit incompatible window is BLOCKED.
+
 A role does not need the literal word `Permanent` to reach APPLY. PROBABLE regular full-time is sufficient when no contradictory evidence exists.
 
 Work authorization uses CONFIRMED / PROBABLE / UNKNOWN / BLOCKED. UNKNOWN may reach APPLY; BLOCKED may not. Lack of public sponsorship wording alone is not a CHECK blocker.
@@ -342,7 +346,7 @@ Issue states:
 - APPLY when all promotion gates pass.
 - CHECK only when liveness is proven and exactly one material blocker remains.
 
-Every new Issue must have exactly one `market:*` label and one `status:*` label. Store: battlefield, company/title/location, exact ID/URL, liveness, employment evidence, plain-language work, hard requirements, AI relevance, strengths/gaps, work auth, dedupe result, exact route/blocker, and one next action.
+Every new Issue must have exactly one `market:*` label and one `status:*` label. Store: battlefield, company/title/location, exact ID/URL, liveness, employment evidence, plain-language work, hard requirements, AI relevance, strengths/gaps, work auth, dedupe result, **Discovery source (specific source + tier), Application route / route type**, exact route/blocker, and one next action. These source/route fields are required so later strategy learning can measure source yield instead of guessing.
 
 After create, read back the Issue. **Only after successful readback may the candidate key be cached and its source watermark advanced.**
 
@@ -463,7 +467,7 @@ Recruiting Signal Watch may make only the narrow deterministic lifecycle updates
 
 ---
 
-## 17. Weekly strategy and funnel evidence
+## 17. Daily strategy, adaptive learning, and execution
 
 Do not force equal discovery volume across battlefields. SG is quality-first, CN may be higher-throughput after hard filters, and MY is destination-quality only.
 
@@ -471,9 +475,39 @@ Evaluate each battlefield using the real funnel:
 
 `application → meaningful human/recruiter response → OA/challenge → interview → later round → offer`
 
-Also compare **source yield**, not just market yield: first-party/direct, native/direct platform, and radar/aggregator should be judged by how many serious survivors and meaningful recruiting progressions they produce. Reduce repeated effort on sources dominated by duplicates, stale roles or low-quality stretches.
+Also compare **source yield**, not just market yield: first-party/direct, native/direct platform, and radar/aggregator should be judged by how many serious survivors and meaningful recruiting progressions they produce. Source-yield conclusions require actual `Discovery source` and `Application route` evidence; do not infer the source from company or Issue age.
 
-Automated receipts are not meaningful progression. WAIT counts are not clean application denominators. One unusual event must not rewrite strategy; reallocation follows repeated or materially strong evidence.
+Automated receipts are not meaningful progression. WAIT counts are not clean application denominators. Do not penalize an unexecuted APPLY, a recent application that has not had a reasonable chance to progress, or silence alone. Do not reward a market/source merely because it received more applications or because local work authorization is easier.
+
+### Controlled adaptive learning
+
+Continuous observation is allowed; strategy mutation is deliberately slower. Change soft search strategy only when either:
+
+1. at least **two independent meaningful outcomes** support the same directional signal; or
+2. one directly verified recall/precision failure reveals a deterministic screening bug that would predictably recur.
+
+One rejection, interview, employer, or unusual event must not rewrite the strategy by itself.
+
+When the learning threshold is met, update only `## Adaptive learning memory` in `PROFILE.md`:
+
+- keep at most **8 current bullets**;
+- each bullet states scope/battlefield, observed signal, concrete evidence, soft search-priority adjustment, and a review/expiry condition;
+- replace or delete stale/contradicted bullets instead of accumulating history;
+- hard RULES always override adaptive memory.
+
+Adaptive memory may reweight source emphasis, query/title recall, employer rotation, route preference, and search effort. It must **not** change stable candidate facts, permanent/full-time policy, active market scope, work-authorization facts, truthful-experience rules, employer-facing authorization requirements, or turn sponsorship/work-permit `UNKNOWN` into a hard blocker without explicit user instruction.
+
+Preserve bounded exploration. Adaptive learning may reweight active battlefields, but it must not zero one out merely because another lane recently performed better. Continue enough exploration to detect regime changes and hidden GOLD.
+
+### Execution governor
+
+Lossless opportunity storage and human attention are different problems. Keep all verified survivors in GitHub Issues, but when the user asks `what now`, when a strategy review runs, or when the APPLY queue is materially larger than practical execution capacity, **derive rather than persist** a small execution view:
+
+- `APPLY NOW` — the top **3–5** opportunities to act on next;
+- `NEXT` — strong opportunities after the immediate set;
+- `SELECTIVE` — worthwhile stretches or lower-callback options.
+
+Rank from current Issue evidence using the north-star factors plus deadline/urgency and application friction. Do not create `[TOP]` labels, another priority tracker, or a score file. This derived view does not change APPLY eligibility and does not authorize submission.
 
 ---
 
