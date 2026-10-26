@@ -116,7 +116,7 @@ Rules:
     ]
   },
   "MY": {
-    "last_success_at": "2026-10-26T10:22:00+08:00",
+    "last_success_at": "2026-10-26T11:18:43+08:00",
     "source_watermarks": {},
     "recent_seen_keys": [
       "joblum:2286754",
@@ -139,7 +139,18 @@ Rules:
       "linkedin:4470265735",
       "auris:ai-specialist:kuala-lumpur",
       "ytl-ai-labs:senior-ai-product-engineer:kuala-lumpur",
-      "moneylion:llm-applied-scientist:kuala-lumpur"
+      "moneylion:llm-applied-scientist:kuala-lumpur",
+      "linkedin:4431483628",
+      "linkedin:4439464726",
+      "linkedin:4481304865",
+      "linkedin:4473786657",
+      "linkedin:4477998002",
+      "linkedin:4479495588",
+      "linkedin:4478415423",
+      "linkedin:4481389546",
+      "linkedin:4392819326",
+      "ocean-hub-management|ai engineer|cheras-kuala-lumpur",
+      "tether|ai research engineer-kernel-inference-optimization|remote-malaysia"
     ]
   }
 }
