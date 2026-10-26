@@ -111,11 +111,18 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
     ]
   },
   "MY": {
-    "last_state_change_at": "2026-10-26T11:18:43+08:00",
+    "last_state_change_at": "2026-10-26T12:22:13+08:00",
     "source_watermarks": {
-      "freehire_event_seq": 15589
+      "freehire_event_seq": 15757
     },
-    "recent_seen_keys": []
+    "recent_seen_keys": [
+      "whatjobs-my:data engineer:26965994",
+      "whatjobs-my:full stack developer:26963001",
+      "whatjobs-my:full stack developer:26962331",
+      "whatjobs-my:full stack developer:26962221",
+      "whatjobs-my:full stack developer:26965852",
+      "jobstreet:compasia|ai engineer – gen ai, agentic ai & integration|petaling jaya"
+    ]
   }
 }
 ```
