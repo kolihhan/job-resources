@@ -58,7 +58,7 @@ Hard PhD, postdoc, hard publication-record, or mature independent-research requi
 
 Higher-throughput 2026-compatible AI应用、大模型、Agent/RAG、AI后端、AI软件、算法/ML/NLP、检索/推荐/评测 roles.
 
-Use native/direct routes first: BOSS, official/campus, 牛客, 51job, 智联, 猎聘. Employer willingness to support a Mainland China foreign work permit may remain UNKNOWN until engagement; explicit blockers do block.
+Use employer first-party recruiting plus native/direct routes. BOSS and 牛客 remain especially valuable when they expose recruiter reach or a usable direct action. Employer willingness to support a Mainland China foreign work permit may remain UNKNOWN until engagement; explicit blockers do block.
 
 ### CN-RES
 
@@ -182,7 +182,7 @@ A new survivor is not durably handed off until the Issue create succeeds **and t
 
 Use this order:
 
-`battlefield scout → source delta/fresh head → derive candidate key → exact-ID/Issue-history gate → recent-seen gate → cheap hard filter → ONLY for net-new/changed candidates read actual JD/team/product → AI/research relevance → liveness/eligibility → targeted Gmail dedupe → exact route → durable APPLY/CHECK Issue or terminal disposition → advance watermark`
+`battlefield scout → first-party/source delta or bounded fresh head → derive candidate key → exact-ID/Issue-history gate → recent-seen gate → cheap hard filter → ONLY for net-new/changed candidates read actual JD/team/product → AI/research relevance → liveness/eligibility → targeted Gmail dedupe → exact route → durable APPLY/CHECK Issue or terminal disposition → advance watermark`
 
 Dedupe is a **pre-research gate**. Do not deeply research an unchanged candidate merely to discover at the end that it already existed.
 
@@ -260,7 +260,7 @@ Fallback cache maximum: **500 keys per market**, FIFO. It stores keys only, neve
 
 `kolihhan/freehirefetch` owns public ingestion.
 
-FreeHire is Stage-1 discovery evidence only. SG uses it as broad radar; CN/MY use it as supplementary discovery.
+FreeHire is Stage-1 discovery evidence only. It is a **Tier-3 radar**, not a primary market source. SG/CN/MY should first spend discovery effort on the market-specific first-party and direct/native lanes in section 15.
 
 Routine consumption:
 
@@ -307,6 +307,8 @@ APPLY requires a current usable exact-role route: exact form, employer ATS requi
 
 LinkedIn Easy Apply, BOSS, 51job, 智联, 牛客, 猎聘 or similar count when the exact-role action is usable.
 
+For a high-quality survivor, prefer the lowest-friction credible route after role verification: employer ATS, employer-controlled recruiting email, native recruiter chat, or native apply. A better route improves execution priority but does not weaken eligibility or quality gates.
+
 If tooling prevents route verification, CHECK is allowed only when liveness is independently proven and route verification is the one remaining blocker.
 
 Fresh-check the route immediately before acting on a user `go`.
@@ -344,21 +346,97 @@ Do not use `[TOP]` title markers. Priority comes from battlefield strategy and c
 
 ---
 
-## 15. Source-specific notes
+## 15. Source strategy: first-party first
 
-### Singapore
+The source hierarchy is about **where to look first**, not which employers are allowed. The target-company universe is a priority watch list, **not a whitelist**. A strong company/role outside the list may still enter APPLY/CHECK if all normal gates pass.
 
-FreeHire + direct employer/ATS + LinkedIn/JobStreet/Indeed gaps. Quality and work-pass plausibility matter more than volume.
+### Global source tiers
 
-### Mainland China
+**Tier 1 — first-party / direct**
 
-Rotate BOSS → official/campus → 牛客 → 51job → 智联 → 猎聘. Prefer source-native newest/updated/posted filters and persist a real watermark when available. Otherwise use a shallow fresh head + bounded terminal/durable cache.
+- employer-controlled career page or exact ATS (Workday, Greenhouse, Ashby, Lever, SmartRecruiters, Moka/北森/自研 ATS, etc.);
+- official university/research-lab career portal for the actual employer/team;
+- official campus/social-recruiting portal;
+- employer-controlled recruiting email or named recruiter route published by the employer.
 
-### Malaysia
+**Tier 2 — high-signal native/direct platforms**
 
-Official careers, LinkedIn, JobStreet/Hiredly, direct employers, and supplementary FreeHire. Surface only destination-quality opportunities. Persist source-native posted/updated cursor state when available.
+- Singapore/Malaysia: LinkedIn exact-role/native apply, JobStreet, Hiredly, Indeed when the exact role and action are current;
+- Mainland China: BOSS and 牛客 first because recruiter reach/direct chat can materially improve execution; 51job, 智联 and 猎聘 are secondary native coverage.
 
-### Telegram / DeJob
+**Tier 3 — radar / aggregation**
+
+- FreeHire, WhatJobs, generic job indexes, search-engine snippets, Telegram/DeJob and other mirrors.
+
+Tier 3 is discovery only. It must resolve to authoritative/current exact-role evidence before promotion. Do not spend broad-sweep effort on Tier 3 while obvious Tier-1 target-company coverage is still missing.
+
+### Bounded target rotation
+
+Do not full-sweep every target employer every hour. Each hourly scout should inspect a bounded subset of first-party targets plus source-native deltas/fresh heads, rotating across the core watch universe. Prefer sources exposing reliable updated/posted filters or requisition feeds. Repeatedly reloading unchanged career homepages is not useful work.
+
+If a target employer has no current plausible early-career AI role, record no new opportunity state; move on. The watch list exists to improve signal quality, not to force an Issue from every company.
+
+### Singapore — quality-first first-party watch
+
+Core first-party target groups:
+
+- **AI / research:** AI Singapore / NTU, A*STAR (especially IAIC/IHPC/CFAR), Sea AI Lab;
+- **frontier / product AI:** OpenAI Singapore, Sea/Shopee, Grab, ByteDance/TikTok;
+- **strong engineering / industry AI:** Micron, Apple, Google, Microsoft, Singtel;
+- **selected finance/fintech where the exact work is real AI:** DBS, Prudential, Visa and similarly strong teams.
+
+Source order:
+
+`official employer/ATS or research portal → direct recruiter/employer route if published → LinkedIn/JobStreet/Indeed exact-role gaps → FreeHire/aggregator radar`.
+
+Quality and work-pass plausibility matter more than volume. Unknown sponsorship may still reach APPLY, but do not compensate for work-pass friction by padding SG with mediocre roles.
+
+### Mainland China — official + recruiter-reach first
+
+Core first-party target groups:
+
+- **large AI/product platforms:** Alibaba, Tencent, ByteDance, Huawei/Huawei Cloud, Baidu, Meituan, JD, Xiaohongshu;
+- **AI-native/model companies with official recruiting surfaces:** DeepSeek, Moonshot/Kimi, Zhipu AI, StepFun and similarly strong current AI-native employers;
+- **high-signal smaller AI/product teams:** role-triggered first-party/direct employers such as current Agent/Harness/AI4S companies may be added when their exact role quality is strong.
+
+Source order:
+
+`official social/campus career portal → BOSS/牛客 direct recruiter/native action → 51job/智联/猎聘 → FreeHire/aggregator radar`.
+
+Use BOSS/牛客 aggressively for human reach, but do not let a platform listing outrank a contradictory employer-controlled JD. Prefer 2026-compatible and 0–3 YOE roles; kill explicit foreign-hire/cohort blockers cheaply.
+
+### Malaysia — destination-company first
+
+Malaysia is intentionally **company-first and TOP-only**, not a broad AI-board sweep.
+
+Core first-party target groups:
+
+- **regional/product tech:** Sea/Shopee, Grab;
+- **fintech/digital-bank/AI product:** Gen Digital/MoneyLion, AEON Bank, GXBank and similarly strong product teams;
+- **strong MNC engineering/R&D:** Keysight, AMD, Intel, Dell and similarly strong Malaysia engineering hubs;
+- **high-upside local/regional AI teams:** YTL AI Labs and other teams only when the exact role clears the destination-quality bar.
+
+Role-triggered exceptions outside the core watch list are allowed when the exact role itself is unusually strong on AI ownership, compensation, engineering environment and growth. A famous company with shallow work is not automatically MY TOP; a lesser-known company with exceptional role/team evidence can still pass.
+
+Source order:
+
+`official employer/ATS → employer-controlled recruiter/direct route → LinkedIn/JobStreet/Hiredly exact-role → selective recruiter agency when the role/client quality is evidentially strong → FreeHire/aggregator radar`.
+
+Do not spend meaningful MY search time on ordinary local generic AI/SWE listings merely because work authorization is easy.
+
+### GOLD route enrichment
+
+For an unusually strong verified opportunity, after the exact role is established, spend a small bounded amount of effort checking whether there is a better human-visible route:
+
+- named recruiter/talent partner;
+- employer-published recruiting email;
+- BOSS/牛客 recruiter chat;
+- hiring manager or clearly relevant same-team contact when publicly identifiable;
+- credible alumni/warm path when naturally available.
+
+This is route enrichment, not authorization to contact anyone. Do not invent relationships, spam employees, or use people-search as a substitute for applying to the role.
+
+### Telegram / DeJob / other mirrors
 
 Discovery only, never authoritative proof. Independently verify exact role/JD, AI relevance, liveness, hard requirements, dedupe, and route.
 
@@ -386,6 +464,8 @@ Do not force equal discovery volume across battlefields. SG is quality-first, CN
 Evaluate each battlefield using the real funnel:
 
 `application → meaningful human/recruiter response → OA/challenge → interview → later round → offer`
+
+Also compare **source yield**, not just market yield: first-party/direct, native/direct platform, and radar/aggregator should be judged by how many serious survivors and meaningful recruiting progressions they produce. Reduce repeated effort on sources dominated by duplicates, stale roles or low-quality stretches.
 
 Automated receipts are not meaningful progression. WAIT counts are not clean application denominators. One unusual event must not rewrite strategy; reallocation follows repeated or materially strong evidence.
 
