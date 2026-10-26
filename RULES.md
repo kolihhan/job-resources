@@ -147,15 +147,18 @@ Only explicit authorization for the exact role/action permits an application or 
 
 ### Direct-email application review gate
 
-When the verified application route is an employer/recruiter email, use a mandatory **prepare → user review → send** flow. A general `go` or permission to apply authorizes preparation of the package, not silent email transmission before the user has reviewed the exact package.
+When the verified application route is an employer/recruiter email, use a mandatory **prepare → humanizer skill → user review → send** flow. A general `go` or permission to apply authorizes preparation of the package, not silent email transmission before the user has reviewed the exact package.
 
 Before any direct-email send:
 
-1. choose the communication language from the employer/recruiter context: normally Chinese for Mainland-China recruiting and English for Singapore/Malaysia/international recruiting, unless the actual employer communication clearly indicates otherwise;
-2. perform a **humanizer pass** in that language: concise, natural, specific to the role, understated and non-corporate; remove generic AI-written phrasing, unnecessary enthusiasm, inflated claims, and template filler;
-3. ground the email in verified candidate evidence only, selecting a few role-relevant strengths rather than copying the whole resume or JD; never inflate professional YOE, production-AI experience, skills, work authorization, or employer facts;
+1. choose the communication language from the employer/recruiter context: normally Simplified Chinese for Mainland-China recruiting and English for Singapore/Malaysia/international recruiting, unless the actual employer communication clearly indicates otherwise;
+2. draft for the actual email genre, then apply the **language-specific humanizer skill**, not an improvised generic “make it natural” pass:
+   - **English:** `asavvin-pixel/unslop`, catalog-reviewed `SKILL.md` SHA `984b8555db7e4e9db5f4f45856985eb1767fd9be`. Use its writing-mode guidance from the first draft: preserve the email genre, remove AI rhetoric/structure, keep real specifics, and do not invent facts for liveliness.
+   - **Simplified Chinese:** `Hyacehila/humanizer-zh-next`, catalog-reviewed `SKILL.md` SHA `fe895ce0e4ba91c6fe4a96a9d1d4f8e9c2c32092`. Use its email/书信 guidance: remove empty/template phrasing while preserving meaning, facts, claim strength, useful politeness, requests, dates and commitments.
+   If the required skill instructions cannot be loaded, or the available `SKILL.md` differs from the pinned reviewed hash, do not pretend the named skill was used and do not silently substitute a generic humanizer; surface the mismatch to the user before sending.
+3. after humanization, fact-check the draft against the exact JD/Issue and current resume evidence. Keep it concise, specific to the role, understated and non-corporate; use only a few relevant strengths rather than copying the whole resume or JD. Never inflate professional YOE, production-AI experience, skills, work authorization, or employer facts;
 4. use the current stable resume assets from the repo: `resumes/resume-en-current.pdf` for English applications and `resumes/resume-cn-current.pdf` for Chinese applications. Confirm the selected file is the current intended resume before presenting the package. If a material role-specific resume change is genuinely needed, update the repo source-of-truth resume in place and regenerate the stable PDF instead of creating ad-hoc versioned copies;
-5. present the user with one complete review package: **recipient, subject, exact email body, selected resume attachment, and any other requested attachment**;
+5. present the user with one complete review package: **recipient, subject, exact humanized email body, selected resume attachment, and any other requested attachment**;
 6. do not send until the user has reviewed that exact package and explicitly approves sending it. If any material wording, recipient, subject, or attachment changes after approval, present the changed package again before sending.
 
 Once the exact reviewed package is approved for send, transmit that package without silent rewriting or attachment substitution. Preserve sent-message evidence in the matching Issue after a successful send.
