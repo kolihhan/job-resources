@@ -2,7 +2,9 @@
 
 ## 1. North star
 
-Maximize the probability of getting a **permanent full-time AI-related offer the candidate would genuinely accept**.
+Maximize the probability of getting a **high-quality AI-related outcome the candidate would genuinely accept**.
+
+The default and preferred outcome remains a **permanent full-time offer**. A narrow exception exists only for `*-RES` battlefields: a fixed-term research role may remain eligible when the actual lab/team/project is strong enough that the candidate could rationally choose it over continuing to wait for an ordinary permanent role because it materially improves the next 1–2 year research/AI trajectory. Fixed-term status is a cost to justify, not a prestige waiver or an automatic rejection.
 
 Do not optimize raw application count, Issue count, callback count, interview count, or discovery volume in isolation. Those are funnel signals only.
 
@@ -20,6 +22,8 @@ Hong Kong is paused until explicitly reactivated.
 Engineering and research are both valid outcomes. Optimize for the combined probability of a good accepted offer:
 
 **role quality × eligibility/work-auth feasibility × screen probability × interview probability × technical environment × compensation/WLB where evidenced × growth/portability × willingness to accept**.
+
+These factors are decision inputs, **not an instruction to invent an arbitrary numeric score**. Use hard gates first, then evidence-based comparison and dominance reasoning among serious survivors.
 
 Any application, recruiter outreach, or other employer-facing action requires explicit user authorization for that exact action or an unambiguous authorized batch.
 
@@ -52,7 +56,7 @@ Singapore requires employer-supported EP or S Pass. Sponsorship `UNKNOWN` may re
 
 MSc-compatible Research Engineer, Applied Scientist, AI/NLP/Retrieval/Agent research and realistic applied-research roles.
 
-Hard PhD, postdoc, hard publication-record, or mature independent-research requirements not met are blockers.
+Hard PhD, postdoc, hard publication-record, or mature independent-research requirements not met are blockers. Permanent/regular research employment remains preferred, but a genuinely strong fixed-term research role may survive only through the section-5 research-exception gate.
 
 ### CN-ENG
 
@@ -62,7 +66,7 @@ Use employer first-party recruiting plus native/direct routes. BOSS and 牛客 r
 
 ### CN-RES
 
-MSc-compatible Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retrieval/Agent research. Prestige never overrides degree/publication/seniority/foreign-hire hard blockers.
+MSc-compatible Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retrieval/Agent research. Prestige never overrides degree/publication/seniority/foreign-hire hard blockers. Fixed-term research must justify itself through the same section-5 research-exception gate.
 
 ### MY-ENG
 
@@ -72,7 +76,7 @@ Malaysia is not a generic fallback lane. Ordinary low-upside local roles, shallo
 
 ### MY-RES
 
-**TOP / destination-quality only** research/research-engineering environments with credible technical peers, meaningful applied research, and career portability.
+**TOP / destination-quality only** research/research-engineering environments with credible technical peers, meaningful applied research, and career portability. A fixed-term research role must clear both the MY destination-quality bar and the section-5 research-exception gate.
 
 ---
 
@@ -93,7 +97,7 @@ Generic SWE/backend/full-stack/QA titles survive only when the actual team/produ
 Cheap hard blockers include:
 
 - paused/wrong market;
-- explicit non-permanent employment;
+- explicit non-permanent employment **unless the role is in a `*-RES` battlefield and is plausibly eligible for the section-5 research exception**;
 - hard mature seniority or 4+/5+ professional-YOE floor without a real alternative route;
 - incompatible graduation/cohort window;
 - explicit citizenship/no-sponsorship/right-to-work blocker where relevant;
@@ -112,14 +116,30 @@ Do not strengthen `preferred`, `plus`, `bonus`, `nice to have`, `familiarity`, `
 
 ## 5. Employment type
 
-Permanent full-time is a hard outcome filter.
+Permanent full-time is the default and preferred outcome.
 
 - `CONFIRMED` — role explicitly says permanent/regular indefinite employment.
 - `PROBABLE` — normal full-time/regular hiring with no contradictory non-permanent signal.
-- `CONFLICT` — credible current sources disagree.
-- `BLOCKED` — evidence establishes contract/fixed-term/temp/part-time/freelance/internship/trainee/project-only/staffing or another prohibited type.
+- `RESEARCH_EXCEPTION` — an explicitly fixed-term/contract research or research-engineering role in a `*-RES` battlefield that passes every research-exception condition below.
+- `CONFLICT` — credible current sources disagree about employment type or the evidence needed to classify it.
+- `BLOCKED` — evidence establishes prohibited non-permanent employment that does not qualify for `RESEARCH_EXCEPTION`, including ordinary contract/fixed-term/temp/part-time/freelance/internship/trainee/project-only/staffing work.
 
-CONFIRMED or PROBABLE may reach APPLY. CONFLICT may use CHECK only when it is the one remaining material blocker. BLOCKED closes/skips.
+### Research-exception gate
+
+`RESEARCH_EXCEPTION` is narrow. It exists because strong university/research-lab hiring is often fixed-term even when the role can be strategically better than an ordinary permanent first job. **Famous institution, RA/RE title, or “LLM/AI” wording alone never qualifies.**
+
+A fixed-term role qualifies only when all are evidenced:
+
+1. **Destination-quality environment** — credible PI/team/lab/institution with real technical/research peers, mentorship or research ownership; not generic project staffing.
+2. **Material target alignment** — substantive AI/ML/LLM/Agent/retrieval/evaluation/knowledge-systems research or research engineering that matches the candidate's direction; not mostly admin, annotation, data cleaning, routine support or unrelated domain work.
+3. **Portable output path** — credible opportunity to produce durable technical/research value such as publications, strong experiments, open-source/software artifacts, production/research transfer, industry collaboration, or clearly transferable systems depth. Publication is not mandatory if the engineering/research output is otherwise strong.
+4. **Realistic early-career fit** — degree, publication, seniority and stack requirements remain truthful and plausible; the exception never overrides hard PhD/publication/maturity blockers.
+5. **Enough runway and upside to justify fixed-term risk** — the stated terms/project context provide a plausible period to produce meaningful output, and the role is strong enough that the candidate could rationally accept it over continuing to wait for an ordinary permanent alternative.
+6. **No disguised low-quality non-permanent work** — staffing/bodyshop, freelance, internship/trainee, part-time, generic temporary support, or weak project-only labor remains BLOCKED.
+
+Do not turn these conditions into a weighted score. Establish them from concrete role/lab/project evidence and explain the decisive tradeoff. If the exception cannot be established, non-permanent employment remains BLOCKED; use CHECK only when liveness is proven and exactly one material unresolved fact could determine whether the role qualifies.
+
+`CONFIRMED`, `PROBABLE`, or `RESEARCH_EXCEPTION` may reach APPLY. `CONFLICT` may use CHECK only when it is the one remaining material blocker. `BLOCKED` closes/skips.
 
 ---
 
@@ -314,7 +334,7 @@ For a plausible net-new/changed survivor verify:
 1. exact/full JD and current role-level liveness;
 2. material AI/ML/research relevance;
 3. battlefield fit, including the MY destination-quality bar;
-4. employment classification;
+4. employment classification, including every section-5 research-exception condition when `RESEARCH_EXCEPTION` is claimed;
 5. cohort, seniority, and hard requirements;
 6. realistic candidate fit;
 7. work authorization where relevant;
@@ -323,7 +343,7 @@ For a plausible net-new/changed survivor verify:
 
 For campus/graduate/program hiring, verification in item 5 includes the **employer-controlled campaign/program eligibility**, not only the exact role page. If a role is year-coded or clearly attached to a named graduate campaign and the exact JD omits its graduation window, resolve that window before promotion. If campaign compatibility cannot be established and it is the only remaining material blocker, CHECK may be used; an explicit incompatible window is BLOCKED.
 
-A role does not need the literal word `Permanent` to reach APPLY. PROBABLE regular full-time is sufficient when no contradictory evidence exists.
+A role does not need the literal word `Permanent` to reach APPLY. PROBABLE regular full-time is sufficient when no contradictory evidence exists. A fixed-term research role may reach APPLY only when `RESEARCH_EXCEPTION` is positively established; merely being a university/lab role is insufficient.
 
 Work authorization uses CONFIRMED / PROBABLE / UNKNOWN / BLOCKED. UNKNOWN may reach APPLY; BLOCKED may not. Lack of public sponsorship wording alone is not a CHECK blocker.
 
@@ -358,12 +378,14 @@ Required:
 - active battlefield fit;
 - no obvious cohort/seniority/hard-requirement block;
 - current exact-role liveness proof;
-- employment CONFIRMED or PROBABLE, or exactly one CONFLICT blocker on an otherwise strong role;
+- employment `CONFIRMED`, `PROBABLE`, or positively established `RESEARCH_EXCEPTION`, or exactly one `CONFLICT` blocker on an otherwise strong role;
 - exact GitHub Issue-history dedupe completed;
 - targeted Gmail dedupe completed when required;
 - verified exact route, or exactly one material blocker remaining other than sponsorship/work-permit UNKNOWN.
 
 For MY, the role must also clear the TOP/destination-quality bar.
+
+For `RESEARCH_EXCEPTION`, the Issue must state the fixed-term evidence and the concrete reason the role passes each decisive section-5 condition; do not hide the contract nature or substitute institution prestige for actual project/team evidence.
 
 Issue states:
 
@@ -519,7 +541,7 @@ When the learning threshold is met, update only `## Adaptive learning memory` in
 - replace or delete stale/contradicted bullets instead of accumulating history;
 - hard RULES always override adaptive memory.
 
-Adaptive memory may reweight source emphasis, query/title recall, employer rotation, route preference, and search effort. It must **not** change stable candidate facts, permanent/full-time policy, active market scope, work-authorization facts, truthful-experience rules, employer-facing authorization requirements, or turn sponsorship/work-permit `UNKNOWN` into a hard blocker without explicit user instruction.
+Adaptive memory may reweight source emphasis, query/title recall, employer rotation, route preference, and search effort. It must **not** change stable candidate facts, the section-5 employment/research-exception policy, active market scope, work-authorization facts, truthful-experience rules, employer-facing authorization requirements, or turn sponsorship/work-permit `UNKNOWN` into a hard blocker without explicit user instruction.
 
 Preserve bounded exploration. Adaptive learning may reweight active battlefields, but it must not zero one out merely because another lane recently performed better. Continue enough exploration to detect regime changes and hidden GOLD.
 
@@ -531,7 +553,9 @@ Lossless opportunity storage and human attention are different problems. Keep al
 - `NEXT` — strong opportunities after the immediate set;
 - `SELECTIVE` — worthwhile stretches or lower-callback options.
 
-Rank from current Issue evidence using the north-star factors plus deadline/urgency and application friction. Do not create `[TOP]` labels, another priority tracker, or a score file. This derived view does not change APPLY eligibility and does not authorize submission.
+Use hard eligibility/acceptability gates first. Then compare current Issue evidence using the north-star factors plus deadline/urgency and application friction. **Do not create a weighted numeric composite score or pretend incomparable evidence is precise.** Prefer pairwise/dominance reasoning: explain why one role should be acted on before another. When two strong roles represent genuinely different bets (for example a high-upside MNC engineering role versus a strong research-lab role) and neither clearly dominates, keep both in the appropriate execution tier rather than forcing a fake 1-to-N ranking.
+
+Do not create `[TOP]` labels, another priority tracker, or a score file. This derived view does not change APPLY eligibility and does not authorize submission.
 
 ---
 
