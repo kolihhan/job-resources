@@ -14,7 +14,9 @@
 
 The goal is not maximum applications, callbacks, Issues or interviews.
 
-The goal is to maximize the probability of getting a **permanent full-time AI-related offer I would genuinely accept**.
+The default goal is to maximize the probability of getting a **permanent full-time AI-related offer I would genuinely accept**.
+
+A narrow exception exists for `*-RES` battlefields: a fixed-term research role may remain eligible when the actual lab/team/project is strong enough that I could rationally choose it over continuing to wait for an ordinary permanent role because it materially improves my next 1–2 year research/AI trajectory. Fixed-term status is a cost to justify, not a prestige waiver or an automatic rejection.
 
 Judge opportunities and market allocation by the combination of:
 
@@ -50,7 +52,8 @@ Research is explicitly acceptable. Do not reject a role just because it is resea
 
 - MSc-compatible research/research-engineering roles are active;
 - publication or research experience may be a stretch signal, not automatically fatal unless clearly mandatory;
-- hard PhD, strong publication-record, or mature independent-research requirements the candidate does not satisfy are blockers.
+- hard PhD, strong publication-record, or mature independent-research requirements the candidate does not satisfy are blockers;
+- fixed-term research is not automatically fatal in a `*-RES` lane, but it must pass the narrow research-exception gate in `RULES.md`; ordinary project staffing, weak labs, data-cleaning/admin-heavy RA work, or roles without credible technical/research upside do not get this exception.
 
 Still skip when mandatory work is substantially incompatible, such as deep CUDA/kernel/compiler work without an alternative route, specialist networking/security unrelated to AI, mature solution architecture/customer ownership, or another domain where the candidate cannot apply truthfully. Soft/preferred stack gaps are not hard blockers.
 
@@ -72,7 +75,7 @@ Purpose: MSc-compatible research engineering / applied research roles in Singapo
 
 Target: Research Engineer, Applied Scientist, AI/NLP/Retrieval/Agent research roles where hard degree/publication requirements are realistic.
 
-Strategy: read literal research requirements. Hard PhD/publication/mature-research requirements remain blockers; research itself is not a blocker.
+Strategy: read literal research requirements. Hard PhD/publication/mature-research requirements remain blockers; research itself is not a blocker. Permanent/regular roles remain preferred, but unusually strong fixed-term research roles may survive only through the research-exception gate in `RULES.md`.
 
 ### `CN-ENG`
 
@@ -88,7 +91,7 @@ Purpose: MSc-compatible research engineering / applied research roles in Mainlan
 
 Target: Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retrieval/Agent research where requirements remain truthful and realistic.
 
-Strategy: use native/direct channels; do not treat research prestige as enough to ignore foreign-hire, degree, publication or maturity blockers.
+Strategy: use native/direct channels; do not treat research prestige as enough to ignore foreign-hire, degree, publication or maturity blockers. Fixed-term research must justify itself under the same research-exception gate rather than receiving a prestige pass.
 
 ### `MY-ENG`
 
@@ -104,7 +107,7 @@ Purpose: **TOP / destination-quality only** research/research-engineering opport
 
 Target: strong research environment, meaningful applied research, credible technical peers/mentorship and career portability.
 
-Local work authorization is an advantage, not a reason to lower the quality bar.
+Local work authorization is an advantage, not a reason to lower the quality bar. Fixed-term research may survive only when it clears both the MY destination-quality bar and the research-exception gate.
 
 ## First-job preference
 
@@ -120,7 +123,7 @@ Prioritize opportunities that provide:
 - portable skills and employer/team reputation;
 - low-friction/direct application routes when role quality and fit are otherwise comparable.
 
-For the current search, **permanent full-time is a hard filter**. Fixed-term, temporary, contract, staffing/bodyshop, project-only and internships are skipped unless the user explicitly changes this policy.
+For the current search, **permanent full-time remains the default and preferred outcome**. Fixed-term, temporary, contract, staffing/bodyshop, project-only and internships are normally skipped. The only standing exception is a narrowly qualified `*-RES` role that passes `RULES.md`'s research-exception gate; the exception exists to preserve genuinely career-changing research opportunities, not to increase RA volume.
 
 Keep using the current resume/project evidence. Change them only for a concrete application need or repeated relevant employer feedback. Do not restart portfolio polishing as a substitute for applications.
 
