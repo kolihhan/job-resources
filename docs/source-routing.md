@@ -131,12 +131,13 @@ University/research-lab hiring can bypass or lag the normal ATS delta. For `SG-R
 - treat official lab/centre pages, PI `Join Us` pages, and active lab GitHub org/README recruiting notices as **gap signals** that can reveal a live RA/RE/Research Associate/Research Officer opening or a PI-managed route;
 - when a lab signal exposes an employer requisition ID or official university/research-agency career URL, re-anchor identity, liveness and normal verification to that canonical employer route immediately;
 - if an employer-published PI/lab email is genuinely the application route, it may remain the route after the normal employment, seniority, work-authorization and dedupe checks; it does not create a second opportunity state;
-- a lab page or GitHub recruiting notice by itself does **not** waive the permanent/full-time rule, PhD/publication gates, or Singapore work-pass rules;
+- a lab page or GitHub recruiting notice by itself does **not** waive PhD/publication, fit, work-pass or quality gates. Fixed-term research is not auto-rejected or auto-admitted: only a role that positively passes `RULES.md` section 5 as `RESEARCH_EXCEPTION` may survive the default permanent/full-time preference;
+- when fixed-term status is visible, verify the actual PI/lab/project, substantive work, portable output path and terms needed by the research-exception gate rather than killing the candidate at metadata stage;
 - do not repeatedly crawl every lab. Prioritize labs/centres with direct LLM, Agent, evaluation, NLP, retrieval, knowledge-graph, AI-systems or applied-research overlap and stop once the official requisition/route is resolved.
 
 The intended loop is:
 
-`lab/PI/GitHub signal -> exact university/research requisition -> normal RULES pipeline -> GitHub Issue`
+`lab/PI/GitHub signal -> exact university/research requisition or verified PI-managed opening -> normal RULES pipeline -> GitHub Issue`
 
 ### Malaysia
 
@@ -152,7 +153,7 @@ Do not let a Malaysia scout complete from the destination-employer watch list al
 - Re-anchor plausible survivors to the employer-controlled exact role where one is cheaply available, then apply the normal Malaysia employment, seniority, stack-fit, exact-history and Gmail gates.
 - Name the broad-platform source family searched in the run result so a missed gap pass is visible.
 
-Research-lab pages may be used as bounded gap signals for destination-quality research environments (for example MIMOS or strong university/industry labs), but the same MY-TOP quality bar and permanent/full-time rule still apply. Do not widen MY into ordinary fixed-term academic RA volume.
+Research-lab pages may be used as bounded gap signals for destination-quality research environments (for example MIMOS or strong university/industry labs). Do not widen MY into ordinary fixed-term academic RA volume: a fixed-term MY-RES role must clear both the MY-TOP bar and the `RULES.md` section-5 research-exception gate.
 
 ### Mainland China
 
@@ -177,7 +178,7 @@ Do not let a CN scout complete from first-party employer rotation alone. Before 
 - After one bounded official-gap check, a credible platform-only role may continue under the normal Tier-2/Tier-3 verification path instead of being discarded solely because the employer has not indexed the role publicly.
 - The scout result should name the native/platform source families actually searched so a coverage failure is observable rather than hidden behind a generic `no new roles` result.
 
-Research-lab/team pages for strong AI-native or industrial-research groups (for example model, Agent, NLP or evaluation teams) may act as gap signals, but exact employer hiring pages/native recruiter routes should own actionable role truth. Foreign-work-permit feasibility remains a normal hard/early-triage concern; lab prestige does not override it.
+Research-lab/team pages for strong AI-native or industrial-research groups (for example model, Agent, NLP or evaluation teams) may act as gap signals, but exact employer hiring pages/native recruiter routes should own actionable role truth. Foreign-work-permit feasibility remains a normal hard/early-triage concern; lab prestige does not override it. Fixed-term CN-RES roles still require the `RULES.md` section-5 research-exception gate.
 
 ---
 
@@ -221,7 +222,7 @@ Within each market's existing bounded budget:
 1. **Owned first-party delta** — rotate through canonical owners / official target-company sources.
 2. **Native/direct fresh head** — search for unknown employers, platform-exclusive roles, recruiter reach, and real gaps; cheap-suppress routine duplicates for owned employers.
 3. **Radar fresh head / gap recovery** — prioritize unknown employers and missing coverage; do not re-deep-research owned-company roles without a gap signal.
-4. For research battlefields, use the bounded lab-source gap pass described above when the current rotation reaches a research institution/lab; once an exact requisition is found, return to canonical-source verification rather than continuing lab-page browsing.
+4. For research battlefields, use the bounded lab-source gap pass described above when the current rotation reaches a research institution/lab; once an exact requisition or verified PI-managed opening is found, return to canonical verification rather than continuing lab-page browsing.
 5. Then follow the existing `RULES.md` pipeline: identity/Issue-history gate -> hard screen -> JD verification -> Gmail dedupe -> route -> durable Issue/terminal disposition -> watermark.
 
 The market-specific recall floors above make step 2 observable: do not report `no new survivors` when the required bounded native/broad-platform gap slice for that market was skipped.
