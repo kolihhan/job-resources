@@ -112,6 +112,17 @@ Routine order:
 
 For employers with a verified ATS owner, LinkedIn/JobStreet/Indeed should mainly supply application-route enrichment or gap signals rather than parallel full discovery.
 
+#### SG broad-platform gap floor
+
+Do not let a Singapore scout complete from owned-employer ATS rotation alone. Before reporting no new survivors, run one bounded broad-platform gap slice.
+
+- Rotate at least **one broad discovery family per run** among LinkedIn Jobs, JobStreet, Indeed, MyCareersFuture, recruiter/team posts, or another credible Singapore hiring surface.
+- Use these surfaces to discover unknown employers, materially new requisitions, hidden AI work behind generic titles, and lower-friction routes; do not repeatedly deep-read duplicate owned-employer jobs.
+- Rotate query families across Applied AI / GenAI / Agent / RAG / LLM evaluation, AI software/backend/platform, ML/NLP/search/retrieval, and MSc-compatible research-engineering terms rather than relying only on `AI Engineer`.
+- MyCareersFuture may be used as discovery/evidence, but an MCF-only application route remains blocked when `RULES.md` says so.
+- Re-anchor plausible survivors to a first-party employer page where one is cheaply available, then continue through normal Singapore sponsorship, employment, seniority and dedupe gates.
+- Name the broad-platform source family searched in the run result so a missed gap pass is visible.
+
 #### SG-RES lab-source gap pass
 
 University/research-lab hiring can bypass or lag the normal ATS delta. For `SG-RES`, use a **bounded gap pass**, not a parallel tracker:
@@ -130,6 +141,16 @@ The intended loop is:
 ### Malaysia
 
 Because MY is destination-company first, canonical source ownership should be aggressive for core/top employers. Broad boards should primarily discover strong employers outside the current watch universe and fill genuine official-source gaps.
+
+#### MY broad-platform gap floor
+
+Do not let a Malaysia scout complete from the destination-employer watch list alone. Before reporting no new survivors, run one bounded broad-platform gap slice.
+
+- Rotate at least **one discovery family per run** among JobStreet, LinkedIn Jobs, Indeed, Hiredly, recruiter/team posts, or another credible Malaysia hiring surface.
+- The gap slice exists to find strong employers outside the current watch universe, materially new requisitions at owned employers, and hidden high-quality SWE/AI work behind generic titles. It does **not** lower the MY TOP / destination-quality bar.
+- Rotate both AI-native terms (Applied AI, Agent, GenAI, RAG, LLM, ML/NLP/evaluation) and the Malaysia-only destination-quality SWE families allowed by the current repo contract (backend, platform, data engineering, cloud/software infrastructure, software-heavy DevOps/SRE/SDET, full-stack/product engineering).
+- Re-anchor plausible survivors to the employer-controlled exact role where one is cheaply available, then apply the normal Malaysia employment, seniority, stack-fit, exact-history and Gmail gates.
+- Name the broad-platform source family searched in the run result so a missed gap pass is visible.
 
 Research-lab pages may be used as bounded gap signals for destination-quality research environments (for example MIMOS or strong university/industry labs), but the same MY-TOP quality bar and permanent/full-time rule still apply. Do not widen MY into ordinary fixed-term academic RA volume.
 
@@ -202,6 +223,8 @@ Within each market's existing bounded budget:
 3. **Radar fresh head / gap recovery** — prioritize unknown employers and missing coverage; do not re-deep-research owned-company roles without a gap signal.
 4. For research battlefields, use the bounded lab-source gap pass described above when the current rotation reaches a research institution/lab; once an exact requisition is found, return to canonical-source verification rather than continuing lab-page browsing.
 5. Then follow the existing `RULES.md` pipeline: identity/Issue-history gate -> hard screen -> JD verification -> Gmail dedupe -> route -> durable Issue/terminal disposition -> watermark.
+
+The market-specific recall floors above make step 2 observable: do not report `no new survivors` when the required bounded native/broad-platform gap slice for that market was skipped.
 
 The router should reduce overlap **before** JD fetches, LLM-style reasoning, Gmail checks, and Issue work.
 
