@@ -144,6 +144,18 @@ For a BOSS/牛客 role at an owned employer:
 
 51job/智联/猎聘 and radar sources should be more strongly suppressed for already-owned employers unless they reveal a real gap.
 
+#### CN native-platform recall floor
+
+Do not let a CN scout complete from first-party employer rotation alone. Before reporting no new survivors, every run must include both a bounded official-owner rotation **and** a bounded native/platform-wide fresh-head pass.
+
+- Rotate through at least **two distinct source families per run** from BOSS直聘, 牛客招聘, 猎聘, 智联招聘, 前程无忧/51job, 脉脉/team-direct recruiting signals, or another credible China-native surface. Do not require every platform on every run; rotate them so coverage expands without turning the scout into an unbounded crawl.
+- If a native platform cannot be read directly, bounded indexed/site-specific search may be used as a **discovery signal**. It does not by itself prove liveness, employment type, cohort eligibility, or application-route usability.
+- Rotate query families rather than relying on generic `AI工程师`: include Agent/智能体/Agent平台, AI应用/大模型应用/AI Native, Coding Agent/AI Coding/MCP/Skills/Harness, RAG/知识库/知识图谱/NL2SQL/Data Agent, 大模型评测/Agent评测/AI质量, NLP/检索/搜索/推荐, and AI后端/算法开发/研发工程师. Preserve title-hidden AI work when team/product/snippet evidence is strong enough to justify reading the JD.
+- Prioritize strong AI hubs such as Beijing, Shanghai, Shenzhen, Hangzhou and Chengdu when a platform supports location filtering, but do not hard-code discovery to only those cities.
+- A native/platform candidate must still pass the normal cheap hard filters, exact Issue-history gate, cohort check, liveness/employment/work-auth verification, Gmail dedupe and route verification. Re-anchor to the employer-controlled exact role when one is found.
+- After one bounded official-gap check, a credible platform-only role may continue under the normal Tier-2/Tier-3 verification path instead of being discarded solely because the employer has not indexed the role publicly.
+- The scout result should name the native/platform source families actually searched so a coverage failure is observable rather than hidden behind a generic `no new roles` result.
+
 Research-lab/team pages for strong AI-native or industrial-research groups (for example model, Agent, NLP or evaluation teams) may act as gap signals, but exact employer hiring pages/native recruiter routes should own actionable role truth. Foreign-work-permit feasibility remains a normal hard/early-triage concern; lab prestige does not override it.
 
 ---
