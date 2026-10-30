@@ -119,10 +119,13 @@ Do not strengthen `preferred`, `plus`, `bonus`, `nice to have`, `familiarity`, `
 Permanent full-time is the default and preferred outcome.
 
 - `CONFIRMED` — role explicitly says permanent/regular indefinite employment.
-- `PROBABLE` — normal full-time/regular hiring with no contradictory non-permanent signal.
+- `PROBABLE` — normal regular hiring where the available employer/role context supports an indefinite appointment and no contradictory non-permanent signal is present. The word `Full time` by itself is **not** enough to establish this.
+- `TERM_UNKNOWN` — only for a live `*-RES` university/research-lab role where schedule/liveness is known but the appointment term or duration is not stated by a reliable source. `Full time` describes workload/schedule, not whether the appointment is indefinite or grant-funded/fixed-term.
 - `RESEARCH_EXCEPTION` — an explicitly fixed-term/contract research or research-engineering role in a `*-RES` battlefield that passes every research-exception condition below.
 - `CONFLICT` — credible current sources disagree about employment type or the evidence needed to classify it.
 - `BLOCKED` — evidence establishes prohibited non-permanent employment that does not qualify for `RESEARCH_EXCEPTION`, including ordinary contract/fixed-term/temp/part-time/freelance/internship/trainee/project-only/staffing work.
+
+`TERM_UNKNOWN` is an application-stage uncertainty, not proof of a good contract. It may reach APPLY when every other promotion gate passes because applying is reversible and the term can often be resolved during the process. The Issue must state the uncertainty plainly. The actual term must be resolved before accepting an offer; if fixed-term is later established, the role must pass `RESEARCH_EXCEPTION` to remain an acceptable outcome.
 
 ### Research-exception gate
 
@@ -139,7 +142,7 @@ A fixed-term role qualifies only when all are evidenced:
 
 Do not turn these conditions into a weighted score. Establish them from concrete role/lab/project evidence and explain the decisive tradeoff. If the exception cannot be established, non-permanent employment remains BLOCKED; use CHECK only when liveness is proven and exactly one material unresolved fact could determine whether the role qualifies.
 
-`CONFIRMED`, `PROBABLE`, or `RESEARCH_EXCEPTION` may reach APPLY. `CONFLICT` may use CHECK only when it is the one remaining material blocker. `BLOCKED` closes/skips.
+`CONFIRMED`, `PROBABLE`, `TERM_UNKNOWN`, or `RESEARCH_EXCEPTION` may reach APPLY. `CONFLICT` may use CHECK only when it is the one remaining material blocker. `BLOCKED` closes/skips.
 
 ---
 
@@ -343,7 +346,7 @@ For a plausible net-new/changed survivor verify:
 
 For campus/graduate/program hiring, verification in item 5 includes the **employer-controlled campaign/program eligibility**, not only the exact role page. If a role is year-coded or clearly attached to a named graduate campaign and the exact JD omits its graduation window, resolve that window before promotion. If campaign compatibility cannot be established and it is the only remaining material blocker, CHECK may be used; an explicit incompatible window is BLOCKED.
 
-A role does not need the literal word `Permanent` to reach APPLY. PROBABLE regular full-time is sufficient when no contradictory evidence exists. A fixed-term research role may reach APPLY only when `RESEARCH_EXCEPTION` is positively established; merely being a university/lab role is insufficient.
+A role does not need the literal word `Permanent` to reach APPLY. PROBABLE regular full-time is sufficient when the employer/role context actually supports a regular indefinite appointment and no contradictory evidence exists. For a university/research-lab `*-RES` appointment, `Full time` alone is not sufficient to infer `PROBABLE`; when term/duration is silent, classify it `TERM_UNKNOWN`. `TERM_UNKNOWN` may reach APPLY when all other gates pass, but the term must be resolved before accepting any offer. A fixed-term research role may remain acceptable only when `RESEARCH_EXCEPTION` is positively established; merely being a university/lab role is insufficient.
 
 Work authorization uses CONFIRMED / PROBABLE / UNKNOWN / BLOCKED. UNKNOWN may reach APPLY; BLOCKED may not. Lack of public sponsorship wording alone is not a CHECK blocker.
 
@@ -378,14 +381,14 @@ Required:
 - active battlefield fit;
 - no obvious cohort/seniority/hard-requirement block;
 - current exact-role liveness proof;
-- employment `CONFIRMED`, `PROBABLE`, or positively established `RESEARCH_EXCEPTION`, or exactly one `CONFLICT` blocker on an otherwise strong role;
+- employment `CONFIRMED`, `PROBABLE`, `TERM_UNKNOWN` (only as defined in section 5 for `*-RES`), or positively established `RESEARCH_EXCEPTION`, or exactly one `CONFLICT` blocker on an otherwise strong role;
 - exact GitHub Issue-history dedupe completed;
 - targeted Gmail dedupe completed when required;
 - verified exact route, or exactly one material blocker remaining other than sponsorship/work-permit UNKNOWN.
 
 For MY, the role must also clear the TOP/destination-quality bar.
 
-For `RESEARCH_EXCEPTION`, the Issue must state the fixed-term evidence and the concrete reason the role passes each decisive section-5 condition; do not hide the contract nature or substitute institution prestige for actual project/team evidence.
+For `TERM_UNKNOWN`, the Issue must state that `Full time` does not establish the appointment term and must carry a next action to resolve the term before offer acceptance or earlier when a cheap employer/PI interaction can resolve it. For `RESEARCH_EXCEPTION`, the Issue must state the fixed-term evidence and the concrete reason the role passes each decisive section-5 condition; do not hide the contract nature or substitute institution prestige for actual project/team evidence.
 
 Issue states:
 
