@@ -12,31 +12,30 @@
 
 ## North star
 
-The goal is not maximum applications, callbacks, Issues or interviews.
+The candidate primarily seeks **AI/NLP/LLM work centered on knowledge-enhanced language models and agentic systems**. Rank by what the candidate would actually build or research during the week, not the employer logo or job title.
 
-The default goal is to maximize the probability of getting a **permanent full-time AI-related offer I would genuinely accept**.
+Two reference archetypes:
+- **Knowledge-enhanced LLM / NLP:** RAG, retrieval/reranking/grounding, semantic search/ranking, knowledge-enhanced generation, LLM memory and knowledge utilization, knowledge graphs + LLM, context-aware language understanding, and long-context knowledge reasoning.
+- **Agentic LLM:** tool use/function calling, reasoning/planning, agent memory, agent evaluation/benchmarks, multi-agent systems, agent reliability, coding agents, retrieval/tool-augmented agents, and post-training related to agent behavior.
 
-A narrow exception exists for `*-RES` battlefields: a fixed-term research role may remain eligible when the actual lab/team/project is strong enough that I could rationally choose it over continuing to wait for an ordinary permanent role because it materially improves my next 1–2 year research/AI trajectory. Fixed-term status is a cost to justify, not a prestige waiver or an automatic rejection.
+Use these priorities as qualitative judgments, not new labels, lifecycle states, or numerical scores:
+- **GOLD:** substantive work combining several of language models/NLP, retrieval/knowledge/memory, agents/reasoning, and evaluation. Especially valuable are knowledge-enhanced LLMs, RAG/retrieval research, NLP/dialogue research engineering, agent reasoning/planning/tool use, LLM/agent evaluation and reliability, search/ranking, and agent-behavior post-training. A keyword list alone does not establish this tier.
+- **ACCEPTABLE ADJACENT:** ML research engineering, applied AI science, multimodal LLM work with substantial language/reasoning, AI backend for RAG/agents/knowledge systems, or research engineering with LLM experimentation when the actual role provides a credible path toward the North Star.
+- **DEPRIORITIZE:** generic data science, BI/analytics, traditional tabular ML, pure CV, robotics without meaningful language/agent work, pure CUDA/inference/infrastructure, generic backend/SWE, generic AI application CRUD, and prompt-only chatbot work. Unusually strong career value can justify consideration, but these roles must not crowd out realistic North-Star roles. Malaysia's broader SWE eligibility remains available under `docs/my-swe-scope.md`; it does not make those roles GOLD.
 
-Judge opportunities and market allocation by the combination of:
+The default and preferred outcome is a **permanent full-time offer the candidate would genuinely accept**. The narrow `*-RES` fixed-term research exception remains governed by `RULES.md` section 5; institution prestige does not qualify a contract by itself.
 
-- role quality and real AI/research ownership;
-- eligibility and work-authorization feasibility;
-- probability of passing screen and interview;
-- compensation/WLB when evidence exists;
-- engineering/research environment;
-- 1–2 year career growth and portability;
-- willingness to actually accept the offer.
+Compare realistic eligibility/callback and interview fit, substantive work, technical depth, team/mentorship, portable outputs, future optionality, compensation/WLB where evidenced, work authorization, execution friction and downside risk. A smaller company or lab doing genuine NLP/knowledge/Agent research engineering may be more valuable than a famous employer offering unrelated work. Do not optimize applications, callbacks, Issues or interviews in isolation, or invent callback probabilities. Mandatory requirements remain literal even when thematic fit is excellent.
 
 ## Positioning
 
-Early-career engineer targeting an **AI/ML career**, with software/backend production experience plus applied-AI/NLP research and project evidence.
+Early-career engineer targeting **knowledge-enhanced NLP/LLM and agentic systems**, with software/backend production experience plus applied-AI/NLP research and project evidence.
 
 The truthful positioning is stronger than “fresh graduate trying AI”:
 
-> Software/backend engineer with MSc NLP/LLM research and hands-on LLM/RAG/Agent/retrieval/evaluation work, targeting AI engineering or realistic research/research-engineering roles.
+> Software/backend engineer with MSc contextual-NLP/graph/knowledge research and separate hands-on LLM/RAG/Agent/retrieval/evaluation projects, targeting realistic NLP/LLM research engineering and applied LLM roles.
 
-Target role families:
+Target titles are discovery hints, interpreted through the North-Star work priorities above. Typical families include LLM/NLP Research Engineer, RAG/Knowledge Engineer, Knowledge-Augmented LLM Engineer, Retrieval/Search Engineer, Agent Research Engineer, and MSc-compatible Research Associate/Research Officer/Applied Scientist roles in NLP/LLM/Agents. Existing broader eligible families include:
 
 - Applied AI / AI Application Engineer / Generative AI Engineer
 - LLM / RAG / Agent / Coding Agent / Agent Harness Engineer
@@ -46,7 +45,7 @@ Target role families:
 - **Research Engineer / AI Researcher / Applied Scientist / Research Scientist** when hard requirements are realistic
 - data-science roles when the core work is materially ML/AI rather than reporting/BI
 
-A generic title such as `Software Engineer`, `Backend Engineer`, `Full-stack Engineer` or `QA/SDET` is relevant **only when the actual team/product/JD is materially AI-related**. Pure generic software work is not a target merely because the candidate can perform it.
+For SG/CN, a generic title such as `Software Engineer`, `Backend Engineer`, `Full-stack Engineer` or `QA/SDET` survives only when actual team/product/JD work is materially AI-related; AI-assisted coding alone does not prove North-Star work. For MY, `docs/my-swe-scope.md` preserves broader destination-quality SWE eligibility as a secondary option. In every market, capability to perform a generic role is not enough to make it a high priority.
 
 Research is explicitly acceptable. Do not reject a role just because it is research-oriented. Evaluate the real requirements:
 
@@ -94,6 +93,8 @@ Target: Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retriev
 Strategy: use native/direct channels; do not treat research prestige as enough to ignore foreign-hire, degree, publication or maturity blockers. Fixed-term research must justify itself under the same research-exception gate rather than receiving a prestige pass.
 
 ### `MY-ENG`
+
+Apply the North-Star priorities first. Destination-quality non-AI SWE remains a secondary eligible option under `docs/my-swe-scope.md` and must not displace realistic NLP/LLM/Agent opportunities.
 
 Purpose: **TOP / destination-quality only**, not a generic fallback.
 
@@ -146,6 +147,8 @@ For Malaysia, the bar is intentionally stricter: a role should be plausibly good
 - For research roles, hard PhD/publication/independent-research requirements must be treated literally.
 
 ## Evidence I can truthfully claim
+
+The master's thesis studies **context- and role-aware implicit intent understanding in workplace dialogue**. Its dialogue/context modelling, GCN/graph representations, speaker/listener and role modelling, entity R-GCN, role classification, Role KG + Context KG, and knowledge/context fusion support NLP/dialogue understanding, contextual reasoning and graph/knowledge representations. They do **not** establish production LLM-agent development, tool-use systems, or LLM post-training experience. Attribute practical RAG/retrieval/agent and post-training claims to the corresponding separately evidenced projects; academic/project experience remains distinct from professional production AI.
 
 - Paid software-development experience from part-time and internship work.
 - Python, FastAPI, REST APIs, SQL, backend engineering.
@@ -207,7 +210,7 @@ The **daily** strategy review should evaluate `SG-ENG`, `SG-RES`, `CN-ENG`, `CN-
 
 Automated receipts are not meaningful progression. GitHub `WAIT` count is not a clean application denominator.
 
-Increase effort where a lane is generating stronger realistic progression and good opportunities; reduce lanes dominated by hard eligibility blockers, weak-quality roles or repeated no-response. One unusual result must not rewrite the whole strategy.
+Apply North-Star work alignment and career value before market/route tie-breaks; more callbacks for unrelated work must not redefine the goal. Increase effort where a lane is generating stronger realistic progression and good opportunities; reduce lanes dominated by hard eligibility blockers, weak-quality roles or repeated no-response. One unusual result must not rewrite the whole strategy.
 
 ## Adaptive learning memory
 

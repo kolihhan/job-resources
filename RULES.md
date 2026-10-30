@@ -2,7 +2,7 @@
 
 ## 1. North star
 
-Maximize the probability of getting a **high-quality AI-related outcome the candidate would genuinely accept**.
+Maximize the probability of a **high-quality accepted outcome toward knowledge-enhanced NLP/LLM and agentic systems**. `PROFILE.md` defines the canonical North-Star archetypes and GOLD / ACCEPTABLE ADJACENT / DEPRIORITIZE work priorities; apply them across all six battlefields. Eligibility for a broader role does not establish execution priority.
 
 The default and preferred outcome remains a **permanent full-time offer**. A narrow exception exists only for `*-RES` battlefields: a fixed-term research role may remain eligible when the actual lab/team/project is strong enough that the candidate could rationally choose it over continuing to wait for an ordinary permanent role because it materially improves the next 1–2 year research/AI trajectory. Fixed-term status is a cost to justify, not a prestige waiver or an automatic rejection.
 
@@ -46,6 +46,8 @@ Scheduler prompts must read the repo contract rather than maintain private copie
 
 ## 3. Battlefield contract
 
+Apply `PROFILE.md`'s North-Star priorities within each battlefield. The broader eligible families below are not equally preferred; employer watch lists and easy local work authorization do not override actual work alignment.
+
 ### SG-ENG
 
 Quality-first early-career Applied AI, GenAI, LLM/Agent/RAG, AI software/backend/product, ML/NLP/search/retrieval/evaluation and FDE roles.
@@ -70,7 +72,7 @@ MSc-compatible Research Engineer, AI研究/应用研究, Applied Scientist, NLP/
 
 ### MY-ENG
 
-**TOP / destination-quality only.** Strong MNC/regional tech, serious AI product/R&D, strong banks/digital banks, and high-upside AI companies with meaningful AI ownership and career upside.
+**TOP / destination-quality only.** Prioritize North-Star AI/NLP/LLM roles at credible teams. The Malaysia-only expansion in `docs/my-swe-scope.md` also permits destination-quality permanent SWE as a secondary option; it does not grant GOLD priority merely for MNC status or local work rights.
 
 Malaysia is not a generic fallback lane. Ordinary low-upside local roles, shallow AI wrappers, and weak outsourcing/bodyshop roles do not enter the queue merely because they are local or AI-labelled.
 
@@ -92,7 +94,7 @@ Target families include:
 - Research Engineer / AI Researcher / Applied Scientist / Research Scientist when requirements are realistic;
 - AI/ML-heavy Data Scientist.
 
-Generic SWE/backend/full-stack/QA titles survive only when the actual team/product/JD is materially AI-related. **Do not title-gate at the cheap screen when source metadata, snippet, team name, or product context already contains strong Agent/LLM/RAG/MCP/Coding-Agent/AI-first signals; preserve the candidate long enough to read the actual JD.**
+For SG/CN, generic SWE/backend/full-stack/QA titles survive only when the actual team/product/JD is materially AI-related. MY's broader destination-quality SWE eligibility in `docs/my-swe-scope.md` remains secondary under `PROFILE.md`'s North-Star priorities. **Do not title-gate at the cheap screen when source metadata, snippet, team name, or product context already contains strong Agent/LLM/RAG/MCP/Coding-Agent/AI-first signals; preserve the candidate long enough to read the actual JD.**
 
 Cheap hard blockers include:
 
@@ -110,7 +112,7 @@ For campus, graduate, trainee, named-program, or year-coded hiring (for example 
 
 A Senior title alone is a review flag, not automatic rejection. A mandatory `3+ years` is a real negative, but generic engineering wording may truthfully use paid part-time/intern production work when employer wording permits it. Never convert study/projects/internships/part-time work into fictitious conventional full-time YOE.
 
-Do not strengthen `preferred`, `plus`, `bonus`, `nice to have`, `familiarity`, `exposure`, coursework, self-study, or personal-project wording into hard requirements.
+Do not strengthen `preferred`, `plus`, `bonus`, `nice to have`, `familiarity`, `exposure`, coursework, self-study, or personal-project wording into hard requirements. Conversely, do not soften required skills or production/seniority expectations because the theme is attractive. Trace each decisive requirement to candidate evidence: a KG thesis is not graph-database experience, a Transformers/PEFT run is not automatically strong PyTorch programming, and paid web production plus academic Agent work is not automatically production-grade AI experience. Resume omission is UNKNOWN, not proof of inability. Resolve a single material uncertainty with CHECK only when every other gate passes; confirmed incompatible mandatory requirements block.
 
 ---
 
@@ -335,8 +337,8 @@ Historical page traversal is not routine broad re-analysis; it is bounded gap re
 For a plausible net-new/changed survivor verify:
 
 1. exact/full JD and current role-level liveness;
-2. material AI/ML/research relevance;
-3. battlefield fit, including the MY destination-quality bar;
+2. actual weekly work and its alignment with `PROFILE.md`'s North-Star priorities, not only AI keywords;
+3. battlefield fit, including the MY destination-quality bar and secondary SWE scope;
 4. employment classification, including every section-5 research-exception condition when `RESEARCH_EXCEPTION` is claimed;
 5. cohort, seniority, and hard requirements;
 6. realistic candidate fit;
@@ -376,7 +378,7 @@ Create a new Issue only for a verified serious survivor that deserves user atten
 
 Required:
 
-- material AI/ML/research relevance;
+- material AI/ML/research relevance, or the explicitly permitted MY secondary SWE scope;
 - realistic early-career fit;
 - active battlefield fit;
 - no obvious cohort/seniority/hard-requirement block;
@@ -395,7 +397,7 @@ Issue states:
 - APPLY when all promotion gates pass.
 - CHECK only when liveness is proven and exactly one material blocker remains.
 
-Every new Issue must have exactly one `market:*` label and one `status:*` label. Store: battlefield, company/title/location, exact ID/URL, liveness, employment evidence, plain-language work, hard requirements, AI relevance, strengths/gaps, work auth, dedupe result, **Discovery source (specific source + tier), Application route / route type**, exact route/blocker, and one next action. These source/route fields are required so later strategy learning can measure source yield instead of guessing.
+Every new Issue must have exactly one `market:*` label and one `status:*` label. Store: battlefield, company/title/location, exact ID/URL, liveness, employment evidence, plain-language work, hard requirements, North-Star work alignment (GOLD / ACCEPTABLE ADJACENT / DEPRIORITIZE, with evidence/uncertainty), strengths/gaps and the single biggest hiring risk, work auth, dedupe result, **Discovery source (specific source + tier), Application route / route type**, exact route/blocker, and one next action. These source/route fields are required so later strategy learning can measure source yield instead of guessing.
 
 After create, read back the Issue. **Only after successful readback may the candidate key be cached and its source watermark advanced.**
 
@@ -544,7 +546,7 @@ When the learning threshold is met, update only `## Adaptive learning memory` in
 - replace or delete stale/contradicted bullets instead of accumulating history;
 - hard RULES always override adaptive memory.
 
-Adaptive memory may reweight source emphasis, query/title recall, employer rotation, route preference, and search effort. It must **not** change stable candidate facts, the section-5 employment/research-exception policy, active market scope, work-authorization facts, truthful-experience rules, employer-facing authorization requirements, or turn sponsorship/work-permit `UNKNOWN` into a hard blocker without explicit user instruction.
+Adaptive memory may reweight source emphasis, query/title recall, employer rotation, route preference, and search effort within the explicit North Star. It must **not** redefine North-Star priorities or change stable candidate facts, the section-5 employment/research-exception policy, active market scope, work-authorization facts, truthful-experience rules, employer-facing authorization requirements, or turn sponsorship/work-permit `UNKNOWN` into a hard blocker without explicit user instruction.
 
 Preserve bounded exploration. Adaptive learning may reweight active battlefields, but it must not zero one out merely because another lane recently performed better. Continue enough exploration to detect regime changes and hidden GOLD.
 
@@ -556,7 +558,9 @@ Lossless opportunity storage and human attention are different problems. Keep al
 - `NEXT` — strong opportunities after the immediate set;
 - `SELECTIVE` — worthwhile stretches or lower-callback options.
 
-Use hard eligibility/acceptability gates first. Then compare current Issue evidence using the north-star factors plus deadline/urgency and application friction. **Do not create a weighted numeric composite score or pretend incomparable evidence is precise.** Prefer pairwise/dominance reasoning: explain why one role should be acted on before another. When two strong roles represent genuinely different bets (for example a high-upside MNC engineering role versus a strong research-lab role) and neither clearly dominates, keep both in the appropriate execution tier rather than forcing a fake 1-to-N ranking.
+Use hard eligibility/acceptability gates first. Derive `APPLY NOW` / `NEXT` / `SELECTIVE` from `PROFILE.md`'s work priorities plus realistic hiring fit and career value. Keep operational ACTIONs (OA/interview deadlines, replies and application completion) and worthwhile CHECK resolutions visible separately; an urgent administrative step does not make a role GOLD, and CHECK is never presented as application-ready.
+
+For every serious comparison, answer compactly in existing Issue evidence or the derived view: (1) what would the candidate actually build/research; (2) how central is LLM/NLP/agents/knowledge/retrieval work (qualitatively, no invented percentages); (3) how does it deepen the North-Star trajectory; (4) are stated requirements realistically reachable for a fresh master's graduate; (5) what is the single biggest mismatch/hiring risk? Use VERIFIED / INFERRED / UNKNOWN for material claims. Separate genuine high-upside stretches from immediate execution; an unproven mandatory requirement must be resolved rather than relabelled as a preferred gap. Compare current evidence using deadline/urgency and application friction as well. **Do not create a weighted numeric composite score or pretend incomparable evidence is precise.** Prefer pairwise/dominance reasoning: explain why one role should be acted on before another. When two strong roles represent genuinely different bets (for example a high-upside MNC engineering role versus a strong research-lab role) and neither clearly dominates, keep both in the appropriate execution tier rather than forcing a fake 1-to-N ranking.
 
 Do not create `[TOP]` labels, another priority tracker, or a score file. This derived view does not change APPLY eligibility and does not authorize submission.
 

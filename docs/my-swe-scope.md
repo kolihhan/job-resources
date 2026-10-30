@@ -4,7 +4,9 @@ This file records the user's explicit 2026-10-28 scope expansion for the Malaysi
 
 ## Goal
 
-For Malaysia, search not only AI/ML roles but also **destination-quality permanent full-time software engineering roles** that the candidate would genuinely consider over continuing the Singapore / Mainland China search.
+The user's 2026-10-30 North Star in `../PROFILE.md` now governs priority: **knowledge-enhanced NLP/LLM and agentic systems first**. This supplement preserves broader Malaysia SWE **eligibility**, not equal discovery or execution priority. Run broad SWE exploration as a bounded secondary option; do not let generic SWE, prestige, salary alone, or local work rights crowd out realistic North-Star opportunities. Non-AI roles can still merit attention when unusually strong career value is evidenced and the tradeoff is explicit.
+
+For Malaysia, retain bounded secondary discovery of **destination-quality permanent full-time software engineering roles** that the candidate would genuinely consider over continuing the Singapore / Mainland China search.
 
 Do not turn Malaysia into generic volume. The existing MY TOP / destination-quality bar remains in force.
 

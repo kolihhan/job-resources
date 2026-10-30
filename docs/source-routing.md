@@ -6,6 +6,8 @@ This is a focused execution supplement to `RULES.md` section 15. `RULES.md` rema
 
 Increase **unique high-quality job recall per unit of scout work** by making sources complementary instead of repeatedly discovering the same employer/role through several boards.
 
+Across source families, prioritize `PROFILE.md`'s knowledge-enhanced NLP/LLM and Agent archetypes. Rotate retrieval/reranking/grounding, knowledge graphs + LLM, memory/context/dialogue, agent reasoning/tool use, LLM/agent evaluation/reliability and agent-behavior post-training queries. Employer ownership is a discovery-efficiency rule, not a prestige ranking. Malaysia's broader SWE pass remains a bounded secondary option under `docs/my-swe-scope.md`; preserve the market gap floors without letting generic roles crowd out the North Star.
+
 The default should be:
 
 > **known employer -> canonical first-party discovery owner**

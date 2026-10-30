@@ -4,13 +4,13 @@ Private operating inbox for the current search.
 
 ## North star
 
-Maximize the probability of getting a **permanent full-time AI-related offer I would genuinely accept**.
+Prioritize **knowledge-enhanced NLP/LLM and agentic systems**: retrieval/RAG/knowledge/memory, language understanding, reasoning/tool use, and LLM/agent evaluation. `PROFILE.md` is the canonical North-Star definition; `RULES.md` governs comparative execution.
 
 Do not optimize raw application count, callback count, Issue count, interview count, or discovery volume in isolation.
 
 Active markets: **Singapore + Mainland China + Malaysia**. Hong Kong is paused.
 
-Main search: **permanent full-time only**.
+Main search: **permanent full-time**, with only the narrow research exception in `RULES.md` section 5.
 
 ## Six battlefields
 
@@ -27,7 +27,7 @@ Engineering and research are both valid outcomes. Daily strategy review realloca
 
 Target families include Applied AI, GenAI, LLM/RAG/Agent, Coding Agent/Harness, AI backend/software/product, ML/NLP/search/retrieval/ranking, AI evaluation/quality/testing, and realistic Research Engineer / AI Researcher / Applied Scientist / Research Scientist roles.
 
-Generic SWE/backend/full-stack/QA titles survive only when the actual team/product/JD is materially AI-related. Strong AI signals in cheap metadata/team/product context are enough to preserve a generic title until the JD is read.
+SG/CN generic SWE/backend/full-stack/QA titles survive only when actual team/product/JD work is materially AI-related. Strong signals preserve a generic title until the JD is read. MY retains broader destination-quality SWE eligibility under `docs/my-swe-scope.md` as a secondary option; it must not crowd out realistic North-Star work.
 
 ## Four open states
 
@@ -115,8 +115,8 @@ Scheduler runtime health comes from the automation system. `DISCOVERY_STATE.md` 
 
 ## What I should do
 
-1. Handle ACTION first.
-2. When APPLY is larger than practical execution capacity, derive a **top 3–5 APPLY NOW** from current Issues; keep NEXT and SELECTIVE as secondary views without creating new labels/trackers.
+1. Handle time-sensitive recruiting ACTIONs and application completion as operational tasks; their urgency does not establish career fit.
+2. Derive a **top 3–5 APPLY NOW** from current eligible Issues using the North Star; keep NEXT/SELECTIVE secondary views and useful CHECK resolutions separate, without new labels/trackers.
 3. Say `go` only for exact roles I want submitted.
 4. Resolve useful CHECK blockers.
 5. Leave WAIT alone unless new evidence arrives.
