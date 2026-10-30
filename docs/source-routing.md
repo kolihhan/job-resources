@@ -127,13 +127,15 @@ Do not let a Singapore scout complete from owned-employer ATS rotation alone. Be
 
 University/research-lab hiring can bypass or lag the normal ATS delta. For `SG-RES`, use a **bounded gap pass**, not a parallel tracker:
 
-- periodically rotate through current NUS / NTU / A*STAR research and AI surfaces with a bounded **full-live snapshot**, not delta-only;
+- periodically rotate through current **NUS / NTU / A*STAR / SMU / SUTD** research and AI surfaces with a bounded **full-live snapshot**, not delta-only;
+- within those institutions, keep a small rotating set of high-signal labs/PIs/centres whose current work materially overlaps LLM, Agent, evaluation, NLP, retrieval, knowledge graphs or AI systems; do not create a separate tracker or crawl every lab;
 - treat official lab/centre pages, PI `Join Us` pages, and active lab GitHub org/README recruiting notices as **gap signals** that can reveal a live RA/RE/Research Associate/Research Officer opening or a PI-managed route;
 - when a lab signal exposes an employer requisition ID or official university/research-agency career URL, re-anchor identity, liveness and normal verification to that canonical employer route immediately;
 - if an employer-published PI/lab email is genuinely the application route, it may remain the route after the normal employment, seniority, work-authorization and dedupe checks; it does not create a second opportunity state;
-- a lab page or GitHub recruiting notice by itself does **not** waive PhD/publication, fit, work-pass or quality gates. Fixed-term research is not auto-rejected or auto-admitted: only a role that positively passes `RULES.md` section 5 as `RESEARCH_EXCEPTION` may survive the default permanent/full-time preference;
+- for a university/research-lab role, `Full time` is schedule evidence only and must **not** be used by itself to infer permanent/regular indefinite employment. When term/duration is not stated, classify the role as `TERM_UNKNOWN` under `RULES.md`; this does not by itself block APPLY, but the term must be resolved before offer acceptance and a later confirmed fixed term must pass `RESEARCH_EXCEPTION`;
+- a lab page or GitHub recruiting notice by itself does **not** waive PhD/publication, fit, work-pass or quality gates. Fixed-term research is not auto-rejected or auto-admitted: only a role that positively passes `RULES.md` section 5 as `RESEARCH_EXCEPTION` may remain an acceptable fixed-term outcome;
 - when fixed-term status is visible, verify the actual PI/lab/project, substantive work, portable output path and terms needed by the research-exception gate rather than killing the candidate at metadata stage;
-- do not repeatedly crawl every lab. Prioritize labs/centres with direct LLM, Agent, evaluation, NLP, retrieval, knowledge-graph, AI-systems or applied-research overlap and stop once the official requisition/route is resolved.
+- do not repeatedly crawl every lab. Prioritize labs/centres with direct target overlap and stop once the official requisition/route is resolved.
 
 The intended loop is:
 
