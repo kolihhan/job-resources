@@ -21,7 +21,7 @@ Malaysia | [+60 17-424 6282](tel:+60174246282) | [lihhanko526@gmail.com](mailto:
 *Python · Qwen3.5-9B · QLoRA / PEFT · Transformers · llama.cpp*
 
 - Built a tool-using agent with search, file inspection, Python execution, timeouts, duplicate blocking, and trace logs.
-- Fine-tuned Qwen3.5-9B with QLoRA on corrective failure examples, raising 200-task success from 34.5% to 62.0%.
+- QLoRA on corrective failure examples raised 200-task success from 34.5% to 62.0%.
 - Evaluated on GAIA100, raising accuracy from 9% to 18%; failure analysis showed over-search remained the main failure mode.
 
 **[Hybrid Retrieval Evaluation](https://github.com/kolihhan/local-rag-search)**  
