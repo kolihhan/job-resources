@@ -10,10 +10,11 @@ Malaysia | [+60 17-424 6282](tel:+60174246282) | [lihhanko526@gmail.com](mailto:
 ## Research Experience
 
 **Interpreting Implicit Intent through Workplace Hierarchies and Context**  
-*M.S. Thesis | National Tsing Hua University | NLP · retrieval · Role/Context KGs · Llama 3.1-8B*
+*M.S. Thesis | National Tsing Hua University | NLP · Graph Learning · Role/Context KGs · Llama 3.1-8B*
 
-- Curated 20,455 workplace utterances from 7 forums with speaker/listener state, emotion, and purpose labels to study context-dependent implicit intent.
-- Evaluated Role KG + Context KG retrieval with Llama 3.1-8B on 400 targets, improving semantic F1 from 0.644 to 0.682.
+- Studied how workplace implicit intent changes with conversational context and speaker–listener role/hierarchy, rather than treating each utterance in isolation.
+- Built a pipeline from LLM-extracted speaker/listener states to GCN/GAT graph representations, then retrieved complementary evidence from a Role KG and Context KG for Llama 3.1-8B interpretation.
+- Compared Baseline, Prior KG, Role KG, Context KG, and DualKG on 400 targets; in target-only evaluation, DualKG achieved the highest observed semantic F1 among the evaluated methods (0.682 vs 0.644 baseline).
 
 ## Selected AI Projects
 
