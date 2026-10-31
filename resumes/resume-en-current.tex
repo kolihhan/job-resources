@@ -21,30 +21,30 @@
 \definecolor{linktone}{HTML}{315A78}
 
 \titleformat{\section}{\fontsize{12.7}{13.8}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.05em}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{1.10em}{0.62em}
+\titlespacing*{\section}{0pt}{1.00em}{0.56em}
 
 \newenvironment{resumeitems}{%
-  \begin{itemize}[leftmargin=1.04em,itemsep=0.10em,topsep=0.12em,parsep=0pt,partopsep=0pt]
-  \fontsize{9.92}{12.35}\selectfont\raggedright
+  \begin{itemize}[leftmargin=1.04em,itemsep=0.08em,topsep=0.10em,parsep=0pt,partopsep=0pt]
+  \fontsize{9.70}{11.85}\selectfont\raggedright
 }{\end{itemize}}
 
 \newcommand{\entryheader}[2]{%
   \noindent
   \begin{minipage}[t]{0.79\linewidth}\vspace{0pt}\raggedright
-    {\fontsize{10.75}{11.8}\selectfont\textbf{#1}}%
+    {\fontsize{10.55}{11.55}\selectfont\textbf{#1}}%
   \end{minipage}%
   \hfill
   \begin{minipage}[t]{0.19\linewidth}\vspace{1.2pt}\raggedleft
-    {\fontsize{9.35}{10.2}\selectfont\textcolor{muted}{#2}}%
+    {\fontsize{9.20}{10.0}\selectfont\textcolor{muted}{#2}}%
   \end{minipage}\par
 }
 
 \newcommand{\entrysub}[1]{%
-  \vspace{0.01em}{\fontsize{9.75}{10.9}\selectfont #1}\par
+  \vspace{0.01em}{\fontsize{9.58}{10.7}\selectfont #1}\par
 }
 
 \newcommand{\entrymeta}[1]{%
-  \vspace{0.01em}{\fontsize{9.45}{10.6}\selectfont\textcolor{muted}{#1}}\par
+  \vspace{0.01em}{\fontsize{9.28}{10.4}\selectfont\textcolor{muted}{#1}}\par
 }
 
 \newcommand{\role}[3]{%
@@ -53,7 +53,7 @@
 }
 
 \newcommand{\projectlink}[3]{%
-  \noindent{\fontsize{10.75}{11.8}\selectfont\href{#2}{\textbf{#1}}}\par
+  \noindent{\fontsize{10.55}{11.55}\selectfont\href{#2}{\textbf{#1}}}\par
   \entrymeta{#3}
 }
 
@@ -69,66 +69,70 @@
 
 \newcommand{\skill}[2]{%
   \noindent
-  \begin{minipage}[t]{0.145\linewidth}\vspace{0pt}{\fontsize{9.8}{11.5}\selectfont\textbf{#1:}}\end{minipage}%
+  \begin{minipage}[t]{0.145\linewidth}\vspace{0pt}{\fontsize{9.55}{11.2}\selectfont\textbf{#1:}}\end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.84\linewidth}\vspace{0pt}{\fontsize{9.8}{11.5}\selectfont #2}\end{minipage}\par\vspace{0.05em}
+  \begin{minipage}[t]{0.84\linewidth}\vspace{0pt}{\fontsize{9.55}{11.2}\selectfont #2}\end{minipage}\par\vspace{0.03em}
 }
 
 \begin{document}
 
 \begin{center}
-  {\fontsize{23.5}{24.2}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.06em]
-  {\fontsize{10.9}{11.8}\selectfont\bfseries Software Engineer \textbar\ Applied AI \& LLM Systems}\\[0.14em]
+  {\fontsize{23.5}{24.2}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.10em]
   {\fontsize{9.15}{10.0}\selectfont Malaysia \;\textbar\;
   \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;\textbar\;
   \href{mailto:lihhanko526@gmail.com}{\textcolor{linktone}{lihhanko526@gmail.com}} \;\textbar\;
   \href{https://github.com/kolihhan}{\textcolor{linktone}{GitHub}} \;\textbar\;
   \href{https://www.linkedin.com/in/ko-lih-han-748993241}{\textcolor{linktone}{LinkedIn}}}
 \end{center}
-\vspace{-0.02em}
+\vspace{-0.04em}
 
-\section{EXPERIENCE}
+\section{EDUCATION}
+\education{National Tsing Hua University}{M.S., Information Systems \& Applications}{4.09/4.3}{Jun 2026}
+\vspace{0.10em}
+\education{Chung Hua University}{B.S., Computer Science \& Information Engineering}{3.9/4.0}{Jun 2024}
+
+\section{RESEARCH EXPERIENCE}
+\research{Interpreting Implicit Intent through Workplace Hierarchies and Context}{M.S. Thesis}{\textbf{National Tsing Hua University} \;\textbar\; NLP, retrieval, Role/Context KGs, Llama 3.1-8B}
+\begin{resumeitems}
+  \item Curated 20,455 workplace utterances from 7 forums with speaker/listener state, emotion, and purpose labels to study context-dependent implicit intent.
+  \item Evaluated Role KG + Context KG retrieval with Llama 3.1-8B on 400 targets, improving semantic F1 from 0.644 to 0.682.
+\end{resumeitems}
+
+\section{SELECTED AI PROJECTS}
+\projectlink{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
+\begin{resumeitems}
+  \item Built a tool-using agent with search, file inspection, Python execution, timeouts, duplicate blocking, and trace logs.
+  \item Fine-tuned Qwen3.5-9B with QLoRA on corrective failure examples, raising 200-task success from 34.5\% to 62.0\%.
+  \item Evaluated on GAIA100, raising accuracy from 9\% to 18\%; failure analysis showed over-search remained the main failure mode.
+\end{resumeitems}
+\vspace{0.14em}
+
+\projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python, BM25, Qwen embeddings, RRF, FastAPI}
+\begin{resumeitems}
+  \item Built a hybrid retriever combining BM25, Qwen dense retrieval, RRF, and inspectable rank provenance.
+  \item Evaluated 64 queries over 5,189 documents; Recall@10 rose from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742.
+\end{resumeitems}
+\vspace{0.14em}
+
+\projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B, pytest}
+\begin{resumeitems}
+  \item Built an NL-to-SQL service with schema grounding, validation, bounded repair, and read-only execution.
+  \item Shared one service layer across FastAPI, CLI, Streamlit, and evaluation to prevent path drift.
+  \item Evaluated 100 BIRD DEV queries; correct-query accuracy rose from 33\% to 39\%, fixing 6 queries with no regressions.
+\end{resumeitems}
+
+\section{SOFTWARE ENGINEERING EXPERIENCE}
 \role{Software Developer}{\textbf{Kahap Inc} \;\textbar\; Part-time}{Aug 2022 -- Aug 2026}
 \begin{resumeitems}
   \item Built and launched a feedback platform for submissions, discussions, admin review, and notifications.
   \item Maintained a Laravel/Vue.js production platform across queues, scheduled jobs, migrations, and Linux operations.
   \item Integrated GPT-SoVITS, pronunciation checks, and text checks into backend speech workflows.
 \end{resumeitems}
-\vspace{0.18em}
+\vspace{0.14em}
 
 \role{Full-Stack Developer Intern}{\textbf{Pac Com Solution}}{Jun 2021 -- Jan 2022}
 \begin{resumeitems}
   \item Built features and fixed bugs in a production Laravel/Vue.js POS system.
-\end{resumeitems}
-
-\section{PROJECTS}
-\projectlink{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
-\begin{resumeitems}
-  \item Built a tool-using agent with search, file inspection, Python execution, timeouts, duplicate blocking, and trace logs.
-  \item Used QLoRA on corrective failure examples, raising 200-task success from 34.5\% to 62.0\%.
-  \item Raised GAIA100 accuracy from 9\% to 18\%; over-search remained the main failure mode.
-\end{resumeitems}
-\vspace{0.18em}
-
-\projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B, pytest}
-\begin{resumeitems}
-  \item Built an NL-to-SQL service with schema grounding, validation, bounded repair, and read-only execution.
-  \item Shared one service layer across FastAPI, CLI, Streamlit, and evaluation to prevent path drift.
-  \item Raised correct-query accuracy from 33\% to 39\% on 100 BIRD DEV queries, fixing 6 with no regressions.
-\end{resumeitems}
-\vspace{0.18em}
-
-\projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python, BM25, Qwen embeddings, RRF, FastAPI}
-\begin{resumeitems}
-  \item Built a hybrid retriever with BM25, Qwen dense retrieval, RRF, and inspectable rank provenance.
-  \item On 64 queries over 5,189 documents, Recall@10 rose from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742.
-\end{resumeitems}
-
-\section{RESEARCH}
-\research{Interpreting Implicit Intent through Workplace Hierarchies and Context}{M.S. Thesis}{\textbf{National Tsing Hua University} \;\textbar\; NLP, retrieval, Role/Context KGs, Llama 3.1-8B}
-\begin{resumeitems}
-  \item Curated 20,455 workplace utterances from 7 forums with speaker/listener state, emotion, and purpose labels.
-  \item Built Role KG + Context KG retrieval with Llama 3.1-8B, raising semantic F1 from 0.644 to 0.682 on 400 targets.
 \end{resumeitems}
 
 \section{SKILLS}
@@ -136,10 +140,5 @@
 \skill{Backend}{Python, FastAPI, PHP, Laravel, REST APIs, SQL, MySQL, SQLite}
 \skill{Web \& Tools}{JavaScript, Vue.js, Linux, Git, pytest}
 \skill{Languages}{Chinese (Native), English (Fluent), Malay (Intermediate)}
-
-\section{EDUCATION}
-\education{National Tsing Hua University}{M.S., Information Systems \& Applications}{4.09/4.3}{Jun 2026}
-\vspace{0.14em}
-\education{Chung Hua University}{B.S., Computer Science \& Information Engineering}{3.9/4.0}{Jun 2024}
 
 \end{document}
