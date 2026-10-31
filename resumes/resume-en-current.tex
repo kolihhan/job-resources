@@ -92,10 +92,11 @@
 \education{Chung Hua University}{B.S., Computer Science \& Information Engineering}{3.9/4.0}{Jun 2024}
 
 \section{RESEARCH EXPERIENCE}
-\research{Interpreting Implicit Intent through Workplace Hierarchies and Context}{M.S. Thesis}{\textbf{National Tsing Hua University} \;\textbar\; NLP, retrieval, Role/Context KGs, Llama 3.1-8B}
+\research{Interpreting Implicit Intent through Workplace Hierarchies and Context}{M.S. Thesis}{\textbf{National Tsing Hua University} \;\textbar\; NLP, Graph Learning, Role/Context KGs, Llama 3.1-8B}
 \begin{resumeitems}
-  \item Curated 20,455 workplace utterances from 7 forums with speaker/listener state, emotion, and purpose labels to study context-dependent implicit intent.
-  \item Evaluated Role KG + Context KG retrieval with Llama 3.1-8B on 400 targets, improving semantic F1 from 0.644 to 0.682.
+  \item Studied how workplace implicit intent changes with conversational context and speaker--listener role/hierarchy, rather than treating each utterance in isolation.
+  \item Built a pipeline from LLM-extracted speaker/listener states to GCN/GAT graph representations, then retrieved complementary evidence from a Role KG and Context KG for Llama 3.1-8B interpretation.
+  \item Compared Baseline, Prior KG, Role KG, Context KG, and DualKG on 400 targets; in target-only evaluation, DualKG achieved the highest observed semantic F1 among the evaluated methods (0.682 vs 0.644 baseline).
 \end{resumeitems}
 
 \section{SELECTED AI PROJECTS}
