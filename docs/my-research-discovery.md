@@ -4,7 +4,7 @@ This is a focused execution supplement for the existing `MY-RES` battlefield. `R
 
 ## Goal
 
-Increase recall of **destination-quality, MSc-compatible Malaysia AI research / applied-research roles** without weakening the permanent-employment, seniority, liveness, dedupe, or MY-TOP quality gates.
+Increase recall of **destination-quality, MSc-compatible Malaysia AI research / applied-research roles** under `PROFILE.md`'s content-first priorities and `RULES.md` section-5 research quality/terms checks, preserving seniority, liveness, dedupe and MY-TOP gates.
 
 A research role may have a generic engineering/data title. Do not require the word `research` in the title when the actual work is materially research-oriented.
 
@@ -27,7 +27,7 @@ Cheap-screen false positives aggressively: generic analytics, BI/reporting, ordi
 Keep the existing first-party-first contract. Add a bounded **research recall layer**:
 
 1. **Known / core employer official owners** — scan employer careers / ATS normally.
-2. **ATS-universe radar for unknown employers** — use public ATS-board indexes only as discovery/gap radar, then resolve every survivor to the employer-controlled role page before promotion. Useful radar references include:
+2. **ATS-universe radar for unknown employers** — use public ATS-board indexes only as discovery/gap radar, then make one bounded canonical-resolution attempt and verify survivors under `RULES.md` / `source-routing.md`; lack of a canonical URL alone does not block content classification. Useful radar references include:
    - `mherzog4/job-boards` for broad Greenhouse / Lever / Ashby board coverage;
    - multi-ATS scraper implementations such as `sukhhdipsingh/ats-job-scraper` only as implementation / coverage references, not job authority.
 3. **Native/direct fresh heads** — LinkedIn / Indeed / JobStreet / Hiredly may reveal unknown employers or research titles; re-anchor to first-party evidence whenever possible.

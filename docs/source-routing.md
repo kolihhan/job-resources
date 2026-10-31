@@ -6,7 +6,7 @@ This is a focused execution supplement to `RULES.md` section 15. `RULES.md` rema
 
 Increase **unique high-quality job recall per unit of scout work** by making sources complementary instead of repeatedly discovering the same employer/role through several boards.
 
-Across source families, prioritize `PROFILE.md`'s knowledge-enhanced NLP/LLM and Agent archetypes. Rotate retrieval/reranking/grounding, knowledge graphs + LLM, memory/context/dialogue, agent reasoning/tool use, LLM/agent evaluation/reliability and agent-behavior post-training queries. Employer ownership is a discovery-efficiency rule, not a prestige ranking. Malaysia's broader SWE pass remains a bounded secondary option under `docs/my-swe-scope.md`; preserve the market gap floors without letting generic roles crowd out the North Star.
+Across source families, prioritize `PROFILE.md`'s LLM/NLP research archetypes through **bounded rotation**: retrieval/ranking + LLM/memory, KG + LLM, knowledge-enhanced language understanding, agent tool use/reasoning/planning/evaluation, and RA/RO/RE/Applied Scientist + LLM/NLP. Context/dialogue queries must directly target NLP/language-model research; rotate subsets, not every family each run. Employer ownership is a discovery-efficiency rule, not a prestige ranking. Malaysia's broader SWE pass remains a bounded secondary option under `docs/my-swe-scope.md`; preserve the market gap floors without letting generic roles crowd out the North Star.
 
 The default should be:
 
@@ -28,7 +28,7 @@ Never conflate these:
 
 Example: Grab's official ATS can own discovery while a current LinkedIn Easy Apply or recruiter route remains the lower-friction application route.
 
-`source` is provenance, **not job identity**.
+`source` is provenance, **not job identity**. GOLD content classification uses employer-authored JD evidence under `PROFILE.md`, including faithful exact-role reproductions; canonical URL resolution, liveness and usable route remain separate normal verification gates.
 
 ---
 
@@ -157,7 +157,7 @@ Do not let a Malaysia scout complete from the destination-employer watch list al
 - Re-anchor plausible survivors to the employer-controlled exact role where one is cheaply available, then apply the normal Malaysia employment, seniority, stack-fit, exact-history and Gmail gates.
 - Name the broad-platform source family searched in the run result so a missed gap pass is visible.
 
-Research-lab pages may be used as bounded gap signals for destination-quality research environments (for example MIMOS or strong university/industry labs). Do not widen MY into ordinary fixed-term academic RA volume: a fixed-term MY-RES role must clear both the MY-TOP bar and the `RULES.md` section-5 research-exception gate.
+Research-lab pages may be used as bounded gap signals for destination-quality research environments (for example MIMOS or strong university/industry labs). Fixed-term MY-RES roles must clear the MY-TOP and `RULES.md` section-5 research quality/terms gates; GOLD academic roles are not penalized for fixed-term status.
 
 ### Mainland China
 

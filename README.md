@@ -4,13 +4,13 @@ Private operating inbox for the current search.
 
 ## North star
 
-Prioritize **knowledge-enhanced NLP/LLM and agentic systems**: retrieval/RAG/knowledge/memory, language understanding, reasoning/tool use, and LLM/agent evaluation. `PROFILE.md` is the canonical North-Star definition; `RULES.md` governs comparative execution.
+Prioritize **LLM/NLP research-oriented work** in knowledge-enhanced language models and agentic LLMs, then substantial applied LLM engineering. `PROFILE.md` defines content tiers and evidence; `RULES.md` governs eligibility and execution.
 
 Do not optimize raw application count, callback count, Issue count, interview count, or discovery volume in isolation.
 
 Active markets: **Singapore + Mainland China + Malaysia**. Hong Kong is paused.
 
-Main search: **permanent full-time**, with only the narrow research exception in `RULES.md` section 5.
+Rank by content first. GOLD academic and industrial research share a tier; fixed-term GOLD academic work retains priority subject to `RULES.md` section 5 quality/terms checks.
 
 ## Six battlefields
 
@@ -38,7 +38,7 @@ SG/CN generic SWE/backend/full-stack/QA titles survive only when actual team/pro
 
 Rejected, expired, duplicate, blocked, withdrawn, paused-market, direction-mismatch, or intentionally skipped roles are closed.
 
-Do not encode strategy priority with `[TOP]`. Priority comes from battlefield fit and current evidence.
+Do not encode strategy priority with `[TOP]`. Priority comes from actual content fit and current evidence.
 
 ## Source of truth
 
@@ -116,7 +116,7 @@ Scheduler runtime health comes from the automation system. `DISCOVERY_STATE.md` 
 ## What I should do
 
 1. Handle time-sensitive recruiting ACTIONs and application completion as operational tasks; their urgency does not establish career fit.
-2. Derive a **top 3–5 APPLY NOW** from current eligible Issues using the North Star; keep NEXT/SELECTIVE secondary views and useful CHECK resolutions separate, without new labels/trackers.
+2. Derive **up to 5 APPLY NOW** from current eligible GOLD/adjacent Issues using the canonical content-first order; keep NEXT/SELECTIVE secondary views and useful CHECK resolutions separate, without new labels/trackers.
 3. Say `go` only for exact roles I want submitted.
 4. Resolve useful CHECK blockers.
 5. Leave WAIT alone unless new evidence arrives.

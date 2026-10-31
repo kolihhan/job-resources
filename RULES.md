@@ -4,7 +4,7 @@
 
 Maximize the probability of a **high-quality accepted outcome toward knowledge-enhanced NLP/LLM and agentic systems**. `PROFILE.md` defines the canonical North-Star archetypes and GOLD / ACCEPTABLE ADJACENT / DEPRIORITIZE work priorities; apply them across all six battlefields. Eligibility for a broader role does not establish execution priority.
 
-The default and preferred outcome remains a **permanent full-time offer**. A narrow exception exists only for `*-RES` battlefields: a fixed-term research role may remain eligible when the actual lab/team/project is strong enough that the candidate could rationally choose it over continuing to wait for an ordinary permanent role because it materially improves the next 1–2 year research/AI trajectory. Fixed-term status is a cost to justify, not a prestige waiver or an automatic rejection.
+Rank actual weekly work using `PROFILE.md`'s content tiers. Reject hard-ineligible roles at any tier; compare execution factors only within the same tier and equal content fit. GOLD academic RA/RO/RE is not penalized for fixed-term status; section 5 retains research-quality and employment-terms checks.
 
 Do not optimize raw application count, Issue count, callback count, interview count, or discovery volume in isolation. Those are funnel signals only.
 
@@ -19,11 +19,7 @@ Active battlefields:
 
 Hong Kong is paused until explicitly reactivated.
 
-Engineering and research are both valid outcomes. Optimize for the combined probability of a good accepted offer:
-
-**role quality × eligibility/work-auth feasibility × screen probability × interview probability × technical environment × compensation/WLB where evidenced × growth/portability × willingness to accept**.
-
-These factors are decision inputs, **not an instruction to invent an arbitrary numeric score**. Use hard gates first, then evidence-based comparison and dominance reasoning among serious survivors.
+Engineering and research are both valid outcomes: **content tier/fit → hard eligibility → same-tier execution comparison**. Work rights, graduate friendliness, friction, urgency, permanent status, prestige and evidenced compensation/WLB only break ties at equal content fit. Do not invent scores or callback probabilities. Already applied belongs to dedupe/WAIT/ACTION, never ranking.
 
 Any application, recruiter outreach, or other employer-facing action requires explicit user authorization for that exact action or an unambiguous authorized batch.
 
@@ -58,7 +54,7 @@ Singapore requires employer-supported EP or S Pass. Sponsorship `UNKNOWN` may re
 
 MSc-compatible Research Engineer, Applied Scientist, AI/NLP/Retrieval/Agent research and realistic applied-research roles.
 
-Hard PhD, postdoc, hard publication-record, or mature independent-research requirements not met are blockers. Permanent/regular research employment remains preferred, but a genuinely strong fixed-term research role may survive only through the section-5 research-exception gate.
+Hard PhD, postdoc, hard publication-record, or mature independent-research requirements not met remain blockers. Apply the content-first order and section-5 research quality/terms gate.
 
 ### CN-ENG
 
@@ -68,7 +64,7 @@ Use employer first-party recruiting plus native/direct routes. BOSS and 牛客 r
 
 ### CN-RES
 
-MSc-compatible Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retrieval/Agent research. Prestige never overrides degree/publication/seniority/foreign-hire hard blockers. Fixed-term research must justify itself through the same section-5 research-exception gate.
+MSc-compatible Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retrieval/Agent research. Prestige never overrides degree/publication/seniority/foreign-hire hard blockers. Apply the same section-5 research quality/terms gate.
 
 ### MY-ENG
 
@@ -118,7 +114,7 @@ Do not strengthen `preferred`, `plus`, `bonus`, `nice to have`, `familiarity`, `
 
 ## 5. Employment type
 
-Permanent full-time is the default and preferred outcome.
+Employment quality remains a hard gate; permanent status is only an equal-content, same-tier tie-break. GOLD academic RA/RO/RE fixed-term status itself never lowers execution priority.
 
 - `CONFIRMED` — role explicitly says permanent/regular indefinite employment.
 - `PROBABLE` — normal regular hiring where the available employer/role context supports an indefinite appointment and no contradictory non-permanent signal is present. The word `Full time` by itself is **not** enough to establish this.
@@ -131,7 +127,7 @@ Permanent full-time is the default and preferred outcome.
 
 ### Research-exception gate
 
-`RESEARCH_EXCEPTION` is narrow. It exists because strong university/research-lab hiring is often fixed-term even when the role can be strategically better than an ordinary permanent first job. **Famous institution, RA/RE title, or “LLM/AI” wording alone never qualifies.**
+`RESEARCH_EXCEPTION` preserves credible fixed-term research without a requirement to justify abandoning permanent employment. **Famous institution, RA/RE title, or “LLM/AI” wording alone never qualifies.**
 
 A fixed-term role qualifies only when all are evidenced:
 
@@ -139,10 +135,10 @@ A fixed-term role qualifies only when all are evidenced:
 2. **Material target alignment** — substantive AI/ML/LLM/Agent/retrieval/evaluation/knowledge-systems research or research engineering that matches the candidate's direction; not mostly admin, annotation, data cleaning, routine support or unrelated domain work.
 3. **Portable output path** — credible opportunity to produce durable technical/research value such as publications, strong experiments, open-source/software artifacts, production/research transfer, industry collaboration, or clearly transferable systems depth. Publication is not mandatory if the engineering/research output is otherwise strong.
 4. **Realistic early-career fit** — degree, publication, seniority and stack requirements remain truthful and plausible; the exception never overrides hard PhD/publication/maturity blockers.
-5. **Enough runway and upside to justify fixed-term risk** — the stated terms/project context provide a plausible period to produce meaningful output, and the role is strong enough that the candidate could rationally accept it over continuing to wait for an ordinary permanent alternative.
+5. **Actual terms and output feasibility** — inspect known terms/funding for concrete obstacles to meaningful output. For otherwise qualified GOLD academic RA/RO/RE, unstated duration is resolved before acceptance and alone does not create CHECK; fixed-term status never lowers priority.
 6. **No disguised low-quality non-permanent work** — staffing/bodyshop, freelance, internship/trainee, part-time, generic temporary support, or weak project-only labor remains BLOCKED.
 
-Do not turn these conditions into a weighted score. Establish them from concrete role/lab/project evidence and explain the decisive tradeoff. If the exception cannot be established, non-permanent employment remains BLOCKED; use CHECK only when liveness is proven and exactly one material unresolved fact could determine whether the role qualifies.
+Do not turn these conditions into a weighted score. Establish quality and terms from concrete role/lab/project evidence. If the exception cannot be established, non-permanent employment remains BLOCKED; use CHECK only when liveness is proven and exactly one material unresolved fact could determine whether the role qualifies.
 
 `CONFIRMED`, `PROBABLE`, `TERM_UNKNOWN`, or `RESEARCH_EXCEPTION` may reach APPLY. `CONFLICT` may use CHECK only when it is the one remaining material blocker. `BLOCKED` closes/skips.
 
@@ -337,7 +333,7 @@ Historical page traversal is not routine broad re-analysis; it is bounded gap re
 For a plausible net-new/changed survivor verify:
 
 1. exact/full JD and current role-level liveness;
-2. actual weekly work and its alignment with `PROFILE.md`'s North-Star priorities, not only AI keywords;
+2. actual weekly work, quoting employer-authored JD evidence under `PROFILE.md`; classify content separately from canonical-source, liveness and route verification;
 3. battlefield fit, including the MY destination-quality bar and secondary SWE scope;
 4. employment classification, including every section-5 research-exception condition when `RESEARCH_EXCEPTION` is claimed;
 5. cohort, seniority, and hard requirements;
@@ -364,7 +360,7 @@ APPLY requires a current usable exact-role route: exact form, employer ATS requi
 
 LinkedIn Easy Apply, BOSS, 51job, 智联, 牛客, 猎聘 or similar count when the exact-role action is usable.
 
-For a high-quality survivor, prefer the lowest-friction credible route after role verification: employer ATS, employer-controlled recruiting email, native recruiter chat, or native apply. A better route improves execution priority but does not weaken eligibility or quality gates.
+For a high-quality survivor, prefer the lowest-friction credible route after role verification: employer ATS, employer-controlled recruiting email, native recruiter chat, or native apply. Route friction only breaks ties within the same tier and equal content fit; eligibility/quality gates remain unchanged.
 
 If tooling prevents route verification, CHECK is allowed only when liveness is independently proven and route verification is the one remaining blocker.
 
@@ -554,13 +550,13 @@ Preserve bounded exploration. Adaptive learning may reweight active battlefields
 
 Lossless opportunity storage and human attention are different problems. Keep all verified survivors in GitHub Issues, but when the user asks `what now`, when a strategy review runs, or when the APPLY queue is materially larger than practical execution capacity, **derive rather than persist** a small execution view:
 
-- `APPLY NOW` — the top **3–5** opportunities to act on next;
+- `APPLY NOW` — up to **5** eligible GOLD/ACCEPTABLE ADJACENT opportunities; fewer when necessary, never DEPRIORITIZE filler;
 - `NEXT` — strong opportunities after the immediate set;
 - `SELECTIVE` — worthwhile stretches or lower-callback options.
 
-Use hard eligibility/acceptability gates first. Derive `APPLY NOW` / `NEXT` / `SELECTIVE` from `PROFILE.md`'s work priorities plus realistic hiring fit and career value. Keep operational ACTIONs (OA/interview deadlines, replies and application completion) and worthwhile CHECK resolutions visible separately; an urgent administrative step does not make a role GOLD, and CHECK is never presented as application-ready.
+Derive `APPLY NOW` / `NEXT` / `SELECTIVE` by content tier/fit → realistic hard eligibility → equal-content same-tier execution comparison; no ineligible role becomes actionable. Keep operational ACTIONs (OA/interview deadlines, replies and application completion) and worthwhile CHECK resolutions visible separately; an urgent administrative step does not make a role GOLD, and CHECK is never presented as application-ready.
 
-For every serious comparison, answer compactly in existing Issue evidence or the derived view: (1) what would the candidate actually build/research; (2) how central is LLM/NLP/agents/knowledge/retrieval work (qualitatively, no invented percentages); (3) how does it deepen the North-Star trajectory; (4) are stated requirements realistically reachable for a fresh master's graduate; (5) what is the single biggest mismatch/hiring risk? Use VERIFIED / INFERRED / UNKNOWN for material claims. Separate genuine high-upside stretches from immediate execution; an unproven mandatory requirement must be resolved rather than relabelled as a preferred gap. Compare current evidence using deadline/urgency and application friction as well. **Do not create a weighted numeric composite score or pretend incomparable evidence is precise.** Prefer pairwise/dominance reasoning: explain why one role should be acted on before another. When two strong roles represent genuinely different bets (for example a high-upside MNC engineering role versus a strong research-lab role) and neither clearly dominates, keep both in the appropriate execution tier rather than forcing a fake 1-to-N ranking.
+For `good positions` / opportunity comparisons, show at most 5 as **Issue # | tier + academic/industrial carrier | actual work with employer-authored JD quote | biggest risk | next step**. GOLD first; adjacent may fill remaining places, DEPRIORITIZE may not. Insufficient content evidence stays UNKNOWN; non-canonical JD provenance alone does not make it UNKNOWN. GOLD + CHECK is valid only with an independent real blocker, never as application-ready. Explain content fit and realistic requirements; use VERIFIED / INFERRED / UNKNOWN, no scores or numeric probabilities. Deadline/urgency, application friction and other execution factors only break ties within the same tier and equal content fit; ACTION urgency is separate. Prefer pairwise reasoning without forced precision.
 
 Do not create `[TOP]` labels, another priority tracker, or a score file. This derived view does not change APPLY eligibility and does not authorize submission.
 

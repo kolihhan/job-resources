@@ -4,7 +4,7 @@ This file records the user's explicit 2026-10-28 scope expansion for the Malaysi
 
 ## Goal
 
-The user's 2026-10-30 North Star in `../PROFILE.md` now governs priority: **knowledge-enhanced NLP/LLM and agentic systems first**. This supplement preserves broader Malaysia SWE **eligibility**, not equal discovery or execution priority. Run broad SWE exploration as a bounded secondary option; do not let generic SWE, prestige, salary alone, or local work rights crowd out realistic North-Star opportunities. Non-AI roles can still merit attention when unusually strong career value is evidenced and the tradeoff is explicit.
+`../PROFILE.md` governs content-first priority. **Generic MY SWE/backend is DEPRIORITIZE fallback**, never above GOLD/ACCEPTABLE ADJACENT for permanent status, prestige, easy apply or local work rights. A SWE-title role whose actual LLM/NLP work satisfies GOLD or ACCEPTABLE ADJACENT is classified accordingly; title alone never downgrades it. This supplement preserves broader destination-quality SWE eligibility through bounded secondary discovery.
 
 For Malaysia, retain bounded secondary discovery of **destination-quality permanent full-time software engineering roles** that the candidate would genuinely consider over continuing the Singapore / Mainland China search.
 
@@ -40,7 +40,7 @@ Continue to reject:
 - low-upside maintenance-only work;
 - ordinary local generic SWE with weak technical environment;
 - manual QA / support-heavy roles with little engineering ownership;
-- contract, fixed-term, trainee, internship, staffing, or project-only employment under the permanent-only rule;
+- for generic SWE, contract/fixed-term, trainee, internship, staffing or project-only employment; research employment remains governed by `RULES.md` section 5;
 - mature senior roles or hard 4+/5+ professional-YOE floors without a truthful alternative route.
 
 ## Candidate-fit interpretation
@@ -69,4 +69,4 @@ This list is a watch universe, not a whitelist.
 
 ## Source / lifecycle rules
 
-All normal `RULES.md` requirements still apply for liveness, permanent employment, realistic seniority, exact Issue-history dedupe, Gmail dedupe, usable application route, durable Issue creation/readback, and employer-facing authorization.
+All normal `RULES.md` requirements still apply for liveness, section-5 employment quality, realistic seniority, exact Issue-history dedupe, Gmail dedupe, usable application route, durable Issue creation/readback and employer-facing authorization.

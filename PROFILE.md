@@ -12,20 +12,17 @@
 
 ## North star
 
-The candidate primarily seeks **AI/NLP/LLM work centered on knowledge-enhanced language models and agentic systems**. Rank by what the candidate would actually build or research during the week, not the employer logo or job title.
+Seek **LLM/NLP research-oriented work**. Judge actual weekly research/development, not title, logo or employment term; use qualitative tiers, never scores or invented callback probabilities.
 
-Two reference archetypes:
-- **Knowledge-enhanced LLM / NLP:** RAG, retrieval/reranking/grounding, semantic search/ranking, knowledge-enhanced generation, LLM memory and knowledge utilization, knowledge graphs + LLM, context-aware language understanding, and long-context knowledge reasoning.
-- **Agentic LLM:** tool use/function calling, reasoning/planning, agent memory, agent evaluation/benchmarks, multi-agent systems, agent reliability, coding agents, retrieval/tool-augmented agents, and post-training related to agent behavior.
-
-Use these priorities as qualitative judgments, not new labels, lifecycle states, or numerical scores:
-- **GOLD:** substantive work combining several of language models/NLP, retrieval/knowledge/memory, agents/reasoning, and evaluation. Especially valuable are knowledge-enhanced LLMs, RAG/retrieval research, NLP/dialogue research engineering, agent reasoning/planning/tool use, LLM/agent evaluation and reliability, search/ranking, and agent-behavior post-training. A keyword list alone does not establish this tier.
-- **ACCEPTABLE ADJACENT:** ML research engineering, applied AI science, multimodal LLM work with substantial language/reasoning, AI backend for RAG/agents/knowledge systems, or research engineering with LLM experimentation when the actual role provides a credible path toward the North Star.
-- **DEPRIORITIZE:** generic data science, BI/analytics, traditional tabular ML, pure CV, robotics without meaningful language/agent work, pure CUDA/inference/infrastructure, generic backend/SWE, generic AI application CRUD, and prompt-only chatbot work. Unusually strong career value can justify consideration, but these roles must not crowd out realistic North-Star roles. Malaysia's broader SWE eligibility remains available under `docs/my-swe-scope.md`; it does not make those roles GOLD.
-
-The default and preferred outcome is a **permanent full-time offer the candidate would genuinely accept**. The narrow `*-RES` fixed-term research exception remains governed by `RULES.md` section 5; institution prestige does not qualify a contract by itself.
-
-Compare realistic eligibility/callback and interview fit, substantive work, technical depth, team/mentorship, portable outputs, future optionality, compensation/WLB where evidenced, work authorization, execution friction and downside risk. A smaller company or lab doing genuine NLP/knowledge/Agent research engineering may be more valuable than a famous employer offering unrelated work. Do not optimize applications, callbacks, Issues or interviews in isolation, or invent callback probabilities. Mandatory requirements remain literal even when thematic fit is excellent.
+- **Knowledge-enhanced LLM / NLP:** retrieval/reranking/RAG, grounding, knowledge utilization, KG + LLM and LLM memory; context/dialogue reasoning counts only when directly tied to NLP, language models, knowledge-enhanced language understanding or LLM reasoning.
+- **Agentic LLM:** agents, tool learning/use, reasoning/planning, memory, LLM/agent evaluation, benchmarks, reliability and coding-agent research.
+- **GOLD:** LLM/NLP is the core object of substantive research in either direction above; isolated keywords, ordinary dialogue/GNN work or an RA title do not qualify.
+- **Content evidence:** quote specific employer-authored exact-role JD wording proving the work's core. Official careers/lab posts or faithful full LinkedIn/Indeed JD reproductions qualify; snippets, aggregator rewrites, AI summaries and title inference do not. Insufficient wording means UNKNOWN.
+- **Research carriers:** academic RA/Research Assistant/Associate/Officer/Engineer and industrial Research/ML/NLP/Algorithm Engineer/Applied Scientist share GOLD. Content first; equal content fit favors academia for mentorship, experiment depth, research ownership and portable outputs.
+- **ACCEPTABLE ADJACENT:** substantial applied LLM engineering in production RAG/retrieval/knowledge, agent runtime/tool systems or evaluation pipelines. API calls, prompt chains, framework wrapping, generic chatbots/automation and CRUD + LLM alone do not qualify.
+- **DEPRIORITIZE:** generic SWE/backend, DS/BI/analytics, QA, firmware, DevOps, unrelated ML/CV, pure CUDA/inference/infrastructure and shallow AI wrappers are fallback only; permanent/easy/local/prestige never lift them above the first two tiers. Classify SWE titles by actual content.
+- **Order:** content tier/fit → realistic hard eligibility → execution. Only within the same tier and equal content fit may work rights, graduate friendliness, friction, urgency, permanent status, prestige or evidenced compensation/WLB break ties. Already applied belongs to lifecycle/dedupe, never ranking.
+- **Employment/source:** GOLD academic RA/RO/RE fixed-term status never lowers execution priority; retain `RULES.md` §5 quality/terms checks and TERM_UNKNOWN eligibility. Canonical URL, liveness and usable route are separate verification questions under `RULES.md` / `docs/source-routing.md`, not GOLD content gates.
 
 ## Positioning
 
@@ -52,7 +49,7 @@ Research is explicitly acceptable. Do not reject a role just because it is resea
 - MSc-compatible research/research-engineering roles are active;
 - publication or research experience may be a stretch signal, not automatically fatal unless clearly mandatory;
 - hard PhD, strong publication-record, or mature independent-research requirements the candidate does not satisfy are blockers;
-- fixed-term research is not automatically fatal in a `*-RES` lane, but it must pass the narrow research-exception gate in `RULES.md`; ordinary project staffing, weak labs, data-cleaning/admin-heavy RA work, or roles without credible technical/research upside do not get this exception.
+- fixed-term research must pass `RULES.md` section 5 quality/terms checks; GOLD academic RA/RO/RE is not penalized for its term. Ordinary project staffing, weak labs, data-cleaning/admin-heavy RA work and roles without credible research upside remain excluded.
 
 Still skip when mandatory work is substantially incompatible, such as deep CUDA/kernel/compiler work without an alternative route, specialist networking/security unrelated to AI, mature solution architecture/customer ownership, or another domain where the candidate cannot apply truthfully. Soft/preferred stack gaps are not hard blockers.
 
@@ -74,7 +71,7 @@ Purpose: MSc-compatible research engineering / applied research roles in Singapo
 
 Target: Research Engineer, Applied Scientist, AI/NLP/Retrieval/Agent research roles where hard degree/publication requirements are realistic.
 
-Strategy: read literal research requirements. Hard PhD/publication/mature-research requirements remain blockers; research itself is not a blocker. Permanent/regular roles remain preferred, but unusually strong fixed-term research roles may survive only through the research-exception gate in `RULES.md`.
+Strategy: read literal research requirements. Hard PhD/publication/mature-research requirements remain blockers. Apply the content-first order above and `RULES.md` section 5 quality/terms checks without penalizing GOLD academic roles for fixed-term status.
 
 ### `CN-ENG`
 
@@ -90,7 +87,7 @@ Purpose: MSc-compatible research engineering / applied research roles in Mainlan
 
 Target: Research Engineer, AI研究/应用研究, Applied Scientist, NLP/Retrieval/Agent research where requirements remain truthful and realistic.
 
-Strategy: use native/direct channels; do not treat research prestige as enough to ignore foreign-hire, degree, publication or maturity blockers. Fixed-term research must justify itself under the same research-exception gate rather than receiving a prestige pass.
+Strategy: use native/direct channels; research prestige never overrides foreign-hire, degree, publication or maturity blockers. Apply the same content-first order and section-5 research quality/terms checks.
 
 ### `MY-ENG`
 
@@ -122,9 +119,9 @@ Prioritize opportunities that provide:
 - code review and strong engineering/research peers;
 - mentorship and a credible engineering/research ladder;
 - portable skills and employer/team reputation;
-- low-friction/direct application routes when role quality and fit are otherwise comparable.
+- low-friction/direct application routes only within the same tier and equal content fit.
 
-For the current search, **permanent full-time remains the default and preferred outcome**. Fixed-term, temporary, contract, staffing/bodyshop, project-only and internships are normally skipped. The only standing exception is a narrowly qualified `*-RES` role that passes `RULES.md`'s research-exception gate; the exception exists to preserve genuinely career-changing research opportunities, not to increase RA volume.
+Apply the content-first order above. `RULES.md` section 5 retains employment-quality gates and the research exception; fixed-term GOLD academic research needs credible quality and terms, not proof it is worth giving up permanent employment.
 
 Keep using the current resume/project evidence. Change them only for a concrete application need or repeated relevant employer feedback. Do not restart portfolio polishing as a substitute for applications.
 
@@ -148,7 +145,7 @@ For Malaysia, the bar is intentionally stricter: a role should be plausibly good
 
 ## Evidence I can truthfully claim
 
-The master's thesis studies **context- and role-aware implicit intent understanding in workplace dialogue**. Its dialogue/context modelling, GCN/graph representations, speaker/listener and role modelling, entity R-GCN, role classification, Role KG + Context KG, and knowledge/context fusion support NLP/dialogue understanding, contextual reasoning and graph/knowledge representations. They do **not** establish production LLM-agent development, tool-use systems, or LLM post-training experience. Attribute practical RAG/retrieval/agent and post-training claims to the corresponding separately evidenced projects; academic/project experience remains distinct from professional production AI.
+The master's thesis studies **context- and role-aware implicit intent understanding in workplace dialogue**. Its dialogue/context modelling, GCN/graph representations, speaker/listener and role modelling, entity R-GCN, role classification, Role KG + Context KG, and knowledge/context fusion support NLP/dialogue understanding, contextual reasoning and graph/knowledge representations. They do **not** establish production LLM-agent/RAG development, agent training, production tool-use systems, or LLM post-training experience. Attribute practical RAG/retrieval/agent and post-training claims to the corresponding separately evidenced projects; academic/project experience remains distinct from professional production AI.
 
 - Paid software-development experience from part-time and internship work.
 - Python, FastAPI, REST APIs, SQL, backend engineering.
@@ -214,10 +211,10 @@ Apply North-Star work alignment and career value before market/route tie-breaks;
 
 ## Adaptive learning memory
 
-- **MY-ENG allocation — destination-quality Malaysia AI engineering currently has the strongest verified progression.** Signal: multiple independent MY-ENG employers have reached substantive human stages. Evidence: #462 Pantas progressed from direct application to a completed interview on 2026-10-27; #184 Ant International reached OA plus completed technical interview; #378 SafeTruck completed HR screening and forwarded the résumé to its hiring manager. Adjustment: when a role already clears the MY destination-quality gate, give MY-ENG execution priority over comparable-friction SG/CN options; do not broaden MY into generic lower-quality volume, and preserve bounded SG/CN exploration. **Review/expiry:** re-evaluate after 10 additional executed MY-ENG applications with enough response time or by 2026-11-10, whichever comes first.
+- **MY-ENG allocation — destination-quality Malaysia AI engineering currently has the strongest verified progression.** Signal: multiple independent MY-ENG employers have reached substantive human stages. Evidence: #462 Pantas progressed from direct application to a completed interview on 2026-10-27; #184 Ant International reached OA plus completed technical interview; #378 SafeTruck completed HR screening and forwarded the résumé to its hiring manager. Adjustment: only within the same tier and equal actual content fit, use MY-ENG progression as an execution tie-break over comparable-friction SG/CN options that also clear their quality gates; do not broaden MY into generic lower-quality volume, and preserve bounded SG/CN exploration. **Review/expiry:** re-evaluate after 10 additional executed MY-ENG applications with enough response time or by 2026-11-10, whichever comes first.
 
 - **ENG recall — hidden AI work behind generic titles.** Signal: generic software titles can hide unusually strong target-lane work. Evidence: #674 Grab is published as `Software Engineer, Backend` but the JD is AI-first / agentic-harness engineering; #661 Agnes AI is published as `Software Engineer` while the JD describes an AI Forward Deployed Engineer. Adjustment: when cheap metadata/team/product context contains strong Agent/LLM/RAG/MCP/Coding-Agent/AI-first signals, preserve generic SWE/backend/full-stack titles through the cheap screen and read the JD before rejecting. **Review/expiry:** re-evaluate after 10 such escalations or by 2026-11-09, whichever comes first.
 
 - **CN-ENG / CN-RES work-authorization triage — verify employer willingness early when a cheap human-visible route exists.** Signal: foreign-hire feasibility has produced repeated explicit employer-side blocks after otherwise relevant applications. Evidence: Shanghai AI Laboratory / PJ Lab replied that it currently lacks qualification to employ foreign nationals; 造物潭 replied that it currently has no plan to hire non-Chinese nationals. Adjustment: for an otherwise strong Mainland role, use a published recruiter/employer/native-chat route to ask about foreign-work-permit feasibility early when this is cheap; keep UNKNOWN eligible at APPLY, do not require pre-clearance, and preserve CN exploration. **Review/expiry:** re-evaluate after 10 additional substantive CN employer/recruiter responses or by 2026-11-09, whichever comes first.
 
-- **SG/CN/MY execution route — published human-visible/direct paths deserve a soft preference when role quality is comparable.** Signal: direct routes have produced real progression, not only receipts. Evidence: #462 Pantas direct employer email reached interview invite; #378 SafeTruck direct employer email reached HR screening/hiring-manager handoff; #367 Vivacity direct application reached an employer challenge. Adjustment: for an already verified strong role, prefer a published employer-controlled email, native recruiter chat, or similarly direct human-visible route over a long ATS when both are credible; do not lower role/eligibility gates and do not contact anyone without authorization. **Review/expiry:** re-evaluate after 10 additional direct-route applications with enough response time or by 2026-11-09, whichever comes first.
+- **SG/CN/MY execution route — published human-visible/direct paths deserve a soft preference only within the same tier and equal content fit.** Signal: direct routes have produced real progression, not only receipts. Evidence: #462 Pantas direct employer email reached interview invite; #378 SafeTruck direct employer email reached HR screening/hiring-manager handoff; #367 Vivacity direct application reached an employer challenge. Adjustment: only within the same tier and equal content fit, prefer a published employer-controlled email, native recruiter chat, or similarly direct human-visible route over a long ATS when both are credible; do not lower role/eligibility gates and do not contact anyone without authorization. **Review/expiry:** re-evaluate after 10 additional direct-route applications with enough response time or by 2026-11-09, whichever comes first.
