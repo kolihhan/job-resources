@@ -1,6 +1,6 @@
 % !TeX TS-program = xelatex
 \documentclass[10pt,a4paper,UTF8]{ctexart}
-\usepackage[a4paper,top=1.18cm,bottom=1.18cm,left=1.52cm,right=1.52cm]{geometry}
+\usepackage[a4paper,top=1.08cm,bottom=1.08cm,left=1.50cm,right=1.50cm]{geometry}
 \usepackage{fontspec}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -24,23 +24,23 @@
 \definecolor{linktone}{HTML}{315A78}
 
 \titleformat{\section}
-  {\fontsize{11.55}{12.8}\selectfont\bfseries\color{ink}}
-  {}{0pt}{}[\vspace{1.3pt}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{0.78em}{0.36em}
+  {\fontsize{11.45}{12.65}\selectfont\bfseries\color{ink}}
+  {}{0pt}{}[\vspace{1.2pt}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{0.70em}{0.32em}
 
 \setlist[itemize]{
   leftmargin=1.14em,
   labelsep=0.33em,
-  itemsep=0.08em,
-  topsep=0.07em,
+  itemsep=0.055em,
+  topsep=0.045em,
   parsep=0pt,
   partopsep=0pt
 }
 
 \newcommand{\ResumeUrl}[2]{\href{#1}{\textcolor{linktone}{#2}}}
-\newcommand{\BodyText}{\fontsize{9.48}{11.45}\selectfont}
-\newcommand{\MetaText}{\fontsize{8.66}{9.80}\selectfont}
-\newcommand{\TitleText}{\fontsize{10.15}{11.25}\selectfont}
+\newcommand{\BodyText}{\fontsize{9.28}{11.12}\selectfont}
+\newcommand{\MetaText}{\fontsize{8.55}{9.65}\selectfont}
+\newcommand{\TitleText}{\fontsize{10.05}{11.15}\selectfont}
 
 \NewDocumentCommand{\ResumeItem}{m o o}{%
   \par\noindent
@@ -64,7 +64,7 @@
 \newcommand{\EducationItem}[3]{%
   \noindent
   \begin{minipage}[t]{0.79\linewidth}\vspace{0pt}
-    {\TitleText\bfseries #1}\;{\fontsize{9.25}{10.45}\selectfont #2}
+    {\TitleText\bfseries #1}\;{\fontsize{9.15}{10.30}\selectfont #2}
   \end{minipage}%
   \hfill
   \begin{minipage}[t]{0.19\linewidth}\vspace{0.5pt}\raggedleft
@@ -73,62 +73,59 @@
 }
 
 \newcommand{\SkillRow}[2]{%
-  \noindent\begin{minipage}[t]{0.135\linewidth}\vspace{0pt}{\fontsize{9.12}{10.62}\selectfont\bfseries #1}\end{minipage}%
+  \noindent\begin{minipage}[t]{0.135\linewidth}\vspace{0pt}{\fontsize{8.98}{10.38}\selectfont\bfseries #1}\end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.855\linewidth}\vspace{0pt}{\fontsize{9.12}{10.62}\selectfont #2}\end{minipage}\par\vspace{0.05em}
+  \begin{minipage}[t]{0.855\linewidth}\vspace{0pt}{\fontsize{8.98}{10.38}\selectfont #2}\end{minipage}\par\vspace{0.035em}
 }
 
 \begin{document}
 
 \noindent
 \begin{minipage}[t]{0.38\linewidth}
-  \vspace{0pt}{\fontsize{21.7}{22.7}\selectfont\bfseries\color{ink} 高立恒}
+  \vspace{0pt}{\fontsize{21.5}{22.5}\selectfont\bfseries\color{ink} 高立恒}
 \end{minipage}%
 \hfill
 \begin{minipage}[t]{0.60\linewidth}
   \vspace{0.7pt}\raggedleft
-  {\fontsize{8.55}{9.45}\selectfont
+  {\fontsize{8.48}{9.38}\selectfont
   \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;·\;
-  \ResumeUrl{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com}\\[0.06em]
+  \ResumeUrl{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com}\\[0.05em]
   马来西亚籍 \;·\;
   \ResumeUrl{https://github.com/kolihhan}{GitHub} \;·\;
   \ResumeUrl{https://www.linkedin.com/in/ko-lih-han-748993241}{LinkedIn}}
 \end{minipage}
-\vspace{0.00em}
-
-{\fontsize{9.15}{10.25}\selectfont\textbf{求职方向：}NLP / 大语言模型研究与应用（RAG、Agent）}\par
 \vspace{-0.02em}
 
 \section{教育背景}
 \EducationItem{国立清华大学（NTHU）}{信息系统与应用硕士 \;·\; \textbf{GPA 4.09/4.3}}{2026.06}
-\vspace{0.06em}
+\vspace{0.045em}
 \EducationItem{中华大学}{计算机科学与信息工程学士 \;·\; GPA 3.9/4.0}{2024.06}
 
 \section{工作经历}
 \ResumeItem{Kahap Inc}[软件开发工程师（兼职）][2022.08--2026.08]
 {\BodyText
 \begin{itemize}
-  \item 使用 \textbf{Laravel、Vue.js 与 MySQL} 开发并上线反馈平台，完成意见提交、讨论、后台审核、通知和定时任务等核心功能。
-  \item 负责\textbf{应用发布与后台任务运行}，处理部署、队列 Worker、定时任务和数据库迁移。
-  \item 维护 Linux 服务器与运行环境，处理 SSL 续期、服务异常和数据库故障排查。
-  \item 在语音生成流程中接入 \textbf{GPT-SoVITS}，并加入发音与文本校验。
+  \item 使用 \textbf{Laravel、Vue.js 与 MySQL} 开发并上线反馈平台，覆盖意见提交、讨论、后台审核、通知与定时任务，并持续迭代生产功能。
+  \item 负责应用发布与后台任务运行，处理部署、队列 Worker、定时任务、数据库迁移及线上异常排查。
+  \item 维护 \textbf{Linux / Nginx} 运行环境，处理 SSL 续期、服务器迁移与数据库故障，并跟进队列和定时任务的运行状态。
+  \item 在语音生成流程中接入 \textbf{GPT-SoVITS}，并加入发音与文本校验，减少异常输入进入合成流程。
 \end{itemize}}
-\vspace{0.09em}
+\vspace{0.055em}
 
 \ResumeItem{Pac Com Solution}[全栈开发实习生][2021.06--2022.01]
 {\BodyText
 \begin{itemize}
-  \item 参与 Laravel/Vue.js POS 系统的功能开发与问题修复，完成后端业务逻辑和前端页面实现。
+  \item 参与 Laravel/Vue.js POS 系统的功能开发与问题修复，在既有代码库中完成后端业务逻辑与前端页面实现。
 \end{itemize}}
 
 \section{科研经历}
 \ResearchItem{职场对话隐含意图理解：上下文与角色关系建模}{硕士论文，国立清华大学 \;·\; NLP · 图学习 · 知识图谱 · LLM}
 {\BodyText
 \begin{itemize}
-  \item 研究同一句话在不同上下文和职场角色关系下为何会表达不同意图。
-  \item 使用 \textbf{GCN/GAT} 对说话者与听者状态进行图建模，编码对话中的角色和状态信息。
-  \item 从 \textbf{Role KG 与 Context KG} 检索相关知识，为 Llama 3.1-8B 提供角色和上下文证据。
-  \item 在 400 条仅给出目标话语的样本上，语义 \textbf{F1 从纯文本基线 0.644 提升至 0.682}。
+  \item 研究同一句话在不同上下文和职场角色关系下为何会表达不同意图，重点关注角色权力与对话状态对意图判断的影响。
+  \item 构建有序对话状态图，使用 \textbf{GCN/GAT} 编码说话者与听者的状态、关系及上下文信息。
+  \item 从 \textbf{Role KG 与 Context KG} 检索角色和情境证据，并将两类知识融合后提供给 Llama 3.1-8B 进行隐含意图判断。
+  \item 对比纯文本 Baseline、Prior KG、Role KG、Context KG 与 DualKG；在 400 条仅给出目标话语的样本上，DualKG 语义 \textbf{F1 从 0.644 提升至 0.682}。
 \end{itemize}}
 
 \section{项目经历}
@@ -139,20 +136,21 @@
   \item 根据失败轨迹整理纠错样本进行 \textbf{QLoRA/SFT}，在 200 个固定评测任务上将成功率从 \textbf{34.5\% 提升至 62.0\%}。
   \item 在 GAIA100 外部评测中，准确率从 \textbf{9\% 提升至 18\%}；轨迹分析显示，过度搜索仍是主要失败原因。
 \end{itemize}}
-\vspace{0.08em}
+\vspace{0.045em}
 
 \ProjectItem{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{BM25 · Qwen Dense Retrieval · RRF · Retrieval Evaluation}
 {\BodyText
 \begin{itemize}
-  \item 实现 \textbf{BM25、Qwen Dense Retrieval 与 RRF 融合}，并保留各路排名，便于分析融合对单条结果的影响。
-  \item 在 5,189 篇文档、64 条查询上，\textbf{Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742}。
+  \item 实现 \textbf{BM25、Qwen Dense Retrieval 与 RRF 融合}，保留各路排名与融合结果，便于分析不同检索器对单条结果的贡献。
+  \item 在 5,189 篇文档、64 条查询上进行检索评测，\textbf{Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742}。
 \end{itemize}}
-\vspace{0.08em}
+\vspace{0.045em}
 
 \ProjectItem{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Qwen3.5-9B · Schema Grounding · SQL Verification · Bounded Repair}
 {\BodyText
 \begin{itemize}
-  \item 构建 Text-to-SQL 系统，根据数据库 Schema 生成 SQL；执行前进行\textbf{确定性校验}，最多修复 \textbf{2 次}，并以只读方式执行。
+  \item 构建 Text-to-SQL 系统，以问题和数据库 Schema 生成 SQL，并串接确定性 verifier、有限次数修复与只读执行流程。
+  \item verifier 检查单语句、SQL-only、只读约束及执行前编译验证；失败时最多修复 \textbf{2 次}，同时记录执行结果与 trace。
   \item 在 100 条 BIRD DEV 查询上，正确率从 \textbf{33\% 提升至 39\%}，执行成功率从 \textbf{75\% 提升至 90\%}；修复 6 条错误查询，且未出现原本正确的查询被改错。
 \end{itemize}}
 
