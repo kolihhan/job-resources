@@ -1,6 +1,6 @@
 % !TeX TS-program = xelatex
 \documentclass[10pt,a4paper,UTF8]{ctexart}
-\usepackage[a4paper,top=1.22cm,bottom=1.26cm,left=1.50cm,right=1.50cm]{geometry}
+\usepackage[a4paper,top=1.35cm,bottom=1.35cm,left=1.55cm,right=1.55cm]{geometry}
 \usepackage{fontspec}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -16,144 +16,145 @@
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
 \setlength{\emergencystretch}{2em}
-\linespread{1.06}
 \urlstyle{same}
 
-\definecolor{accent}{HTML}{1F3344}
-\definecolor{muted}{HTML}{4F5860}
-\definecolor{rulegray}{HTML}{A7AFB5}
+\definecolor{ink}{HTML}{172734}
+\definecolor{muted}{HTML}{66717A}
+\definecolor{rulegray}{HTML}{D4D9DD}
 \definecolor{linktone}{HTML}{315A78}
 
-\titleformat{\section}{\fontsize{12.6}{14.0}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{1.4pt}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{0.92em}{0.46em}
+\titleformat{\section}
+  {\fontsize{11.7}{13.0}\selectfont\bfseries\color{ink}}
+  {}{0pt}{}[\vspace{1.6pt}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{0.98em}{0.46em}
 
 \setlist[itemize]{
-  leftmargin=1.18em,
-  labelsep=0.32em,
-  itemsep=0.11em,
-  topsep=0.11em,
+  leftmargin=1.15em,
+  labelsep=0.34em,
+  itemsep=0.14em,
+  topsep=0.12em,
   parsep=0pt,
   partopsep=0pt
 }
 
 \newcommand{\ResumeUrl}[2]{\href{#1}{\textcolor{linktone}{#2}}}
-\newcommand{\BodyText}{\fontsize{9.95}{11.92}\selectfont}
-\newcommand{\MetaText}{\fontsize{9.20}{10.42}\selectfont}
+\newcommand{\BodyText}{\fontsize{9.92}{12.12}\selectfont}
+\newcommand{\MetaText}{\fontsize{8.95}{10.10}\selectfont}
+\newcommand{\TitleText}{\fontsize{10.35}{11.55}\selectfont}
 
 \NewDocumentCommand{\ResumeItem}{m o o}{%
   \par\noindent
-  {\fontsize{10.62}{11.82}\selectfont\bfseries #1}%
-  \IfValueT{#2}{\IfBlankF{#2}{\;{\MetaText\textcolor{muted}{\textnormal{| #2}}}}}%
+  {\TitleText\bfseries #1}%
+  \IfValueT{#2}{\IfBlankF{#2}{\;{\MetaText\textcolor{muted}{\textnormal{· #2}}}}}%
   \hfill
   \IfValueT{#3}{{\MetaText\textcolor{muted}{#3}}}%
   \par\vspace{0.02em}
 }
 
 \newcommand{\ResearchItem}[2]{%
-  \noindent{\fontsize{10.62}{11.82}\selectfont\bfseries #1}\par
+  \noindent{\TitleText\bfseries #1}\par
   {\MetaText\textcolor{muted}{#2}}\par\vspace{0.02em}
 }
 
 \newcommand{\ProjectItem}[3]{%
-  \noindent{\fontsize{10.62}{11.82}\selectfont\ResumeUrl{#2}{\textbf{#1}}}\par
+  \noindent{\TitleText\href{#2}{\textcolor{ink}{\textbf{#1}}}}\par
   {\MetaText\textcolor{muted}{#3}}\par\vspace{0.02em}
 }
 
 \newcommand{\EducationItem}[3]{%
   \noindent
-  \begin{minipage}[t]{0.78\linewidth}\vspace{0pt}
-    {\fontsize{10.62}{11.82}\selectfont\bfseries #1}\\[-0.02em]
-    {\fontsize{9.62}{10.88}\selectfont #2}
+  \begin{minipage}[t]{0.79\linewidth}\vspace{0pt}
+    {\TitleText\bfseries #1}\;{\fontsize{9.55}{10.85}\selectfont #2}
   \end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.20\linewidth}\vspace{1.0pt}\raggedleft
+  \begin{minipage}[t]{0.19\linewidth}\vspace{0.5pt}\raggedleft
     {\MetaText\textcolor{muted}{#3}}
   \end{minipage}\par
 }
 
 \newcommand{\SkillRow}[2]{%
-  \noindent\begin{minipage}[t]{0.15\linewidth}\vspace{0pt}\BodyText\bfseries #1\end{minipage}%
+  \noindent\begin{minipage}[t]{0.135\linewidth}\vspace{0pt}{\fontsize{9.45}{11.0}\selectfont\bfseries #1}\end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.835\linewidth}\vspace{0pt}\BodyText #2\end{minipage}\par\vspace{0.10em}
+  \begin{minipage}[t]{0.855\linewidth}\vspace{0pt}{\fontsize{9.45}{11.0}\selectfont #2}\end{minipage}\par\vspace{0.08em}
 }
 
 \begin{document}
 
 \noindent
 \begin{minipage}[t]{0.38\linewidth}
-  \vspace{0pt}{\fontsize{23.0}{23.8}\selectfont\bfseries\color{accent} 高立恒}
+  \vspace{0pt}{\fontsize{22.2}{23.2}\selectfont\bfseries\color{ink} 高立恒}
 \end{minipage}%
 \hfill
-\begin{minipage}[t]{0.59\linewidth}
-  \vspace{1.0pt}\raggedleft
-  {\fontsize{8.98}{9.92}\selectfont
-  \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;|\;
-  \ResumeUrl{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com}\\[0.10em]
-  马来西亚籍 \;|\;
-  \ResumeUrl{https://github.com/kolihhan}{GitHub} \;|\;
+\begin{minipage}[t]{0.60\linewidth}
+  \vspace{0.8pt}\raggedleft
+  {\fontsize{8.7}{9.65}\selectfont
+  \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;·\;
+  \ResumeUrl{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com}\\[0.08em]
+  马来西亚籍 \;·\;
+  \ResumeUrl{https://github.com/kolihhan}{GitHub} \;·\;
   \ResumeUrl{https://www.linkedin.com/in/ko-lih-han-748993241}{LinkedIn}}
 \end{minipage}
-\vspace{0.03em}
+\vspace{0.08em}
 
 \section{教育背景}
-\EducationItem{国立清华大学（NTHU）}{信息系统与应用硕士 \;|\; GPA 4.09/4.3}{2026.06}
-\vspace{0.08em}
-\EducationItem{中华大学}{计算机科学与信息工程学士 \;|\; GPA 3.9/4.0}{2024.06}
+\EducationItem{国立清华大学（NTHU）}{信息系统与应用硕士 \;·\; GPA 4.09/4.3}{2026.06}
+\vspace{0.12em}
+\EducationItem{中华大学}{计算机科学与信息工程学士 \;·\; GPA 3.9/4.0}{2024.06}
 
 \section{工作经历}
-\ResumeItem{Kahap Inc}[软件开发工程师 · 兼职][2022.08--2026.08]
+\ResumeItem{Kahap Inc}[软件开发工程师（兼职）][2022.08--2026.08]
 {\BodyText
 \begin{itemize}
-  \item 开发并上线基于 Laravel/Vue.js 的反馈平台核心模块，覆盖意见提交、讨论、后台审核、通知及定时任务。
-  \item 承担线上部署与运维，处理队列 Worker、定时任务、数据库迁移、SSL 更新及 Linux 服务器故障。
-  \item 将 GPT-SoVITS 接入后端语音流程，并在合成前增加发音与文本校验。
+  \item 开发并上线反馈平台的核心功能，包括意见提交、讨论、后台审核、通知与定时任务，主要使用 Laravel、Vue.js 和 MySQL。
+  \item 维护线上系统与服务器环境，处理部署、队列 Worker、定时任务、数据库迁移、SSL 更新及 Linux 故障排查。
+  \item 在语音生成流程中接入 GPT-SoVITS，并加入发音与文本校验。
 \end{itemize}}
-\vspace{0.14em}
+\vspace{0.19em}
 
 \ResumeItem{Pac Com Solution}[全栈开发实习生][2021.06--2022.01]
 {\BodyText
 \begin{itemize}
-  \item 参与 Laravel/Vue.js POS 系统功能开发与缺陷修复，涉及后端逻辑及前端页面。
+  \item 参与 Laravel/Vue.js POS 系统的功能开发与问题修复，负责后端逻辑和前端页面实现。
 \end{itemize}}
 
 \section{科研经历}
-\ResearchItem{基于上下文与角色关系的职场对话隐含意图理解}{硕士论文，国立清华大学 \;|\; NLP · 图学习 · 知识图谱 · LLM}
+\ResearchItem{职场对话隐含意图理解：上下文与角色关系建模}{硕士论文，国立清华大学 \;·\; NLP · 图学习 · 知识图谱 · LLM}
 {\BodyText
 \begin{itemize}
-  \item 面向职场对话隐含意图识别，建模上下文及说话者-听者角色关系。
-  \item 将说话者/听者状态编码为对话图，并分别检索角色与上下文知识，作为 Llama 3.1-8B 的辅助信息。
-  \item 在 400 条仅提供目标话语的样本上进行评测；结合角色与上下文知识后，语义 F1 由 0.644 提升至 0.682。
+  \item 研究上下文与说话者/听者角色如何影响职场话语的隐含意图判断。
+  \item 将说话者和听者状态表示为对话图，并检索角色与上下文知识，为 Llama 3.1-8B 提供补充信息。
+  \item 在 400 条仅给出目标话语的样本上，加入角色与上下文知识后，语义 F1 从 0.644 提升至 0.682。
 \end{itemize}}
 
 \section{项目经历}
-\ProjectItem{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Qwen3.5-9B · QLoRA · 工具调用 · Agent 评测}
+\ProjectItem{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Qwen3.5-9B · QLoRA · Tool Use · Agent Evaluation}
 {\BodyText
 \begin{itemize}
-  \item 基于 Qwen3.5-9B 构建工具调用 Agent，支持搜索、文件读取与 Python 执行。
-  \item 基于失败轨迹构造纠错样本进行 QLoRA 微调，200 个评测任务成功率由 34.5\% 提升至 62.0\%。
-  \item GAIA100 准确率由 9\% 提升至 18\%；错误分析显示，过度搜索仍是主要失败原因。
+  \item 构建可调用搜索、文件读取和 Python 的 Qwen Agent，用于完成多步骤任务。
+  \item 从失败轨迹中整理纠错样本进行 QLoRA 微调，在 200 个固定评测任务上将成功率从 34.5\% 提升至 62.0\%。
+  \item GAIA100 准确率从 9\% 提升至 18\%；运行轨迹分析显示，过度搜索仍是主要失败原因。
 \end{itemize}}
-\vspace{0.14em}
+\vspace{0.19em}
 
-\ProjectItem{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{BM25 · 向量检索 · RRF · 检索评测}
+\ProjectItem{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{BM25 · Dense Retrieval · RRF · Retrieval Evaluation}
 {\BodyText
 \begin{itemize}
-  \item 对比 BM25、向量检索及 RRF 混合检索方案，在 5,189 篇文档上评测检索效果。
-  \item 融合 BM25 与向量检索后，在 64 条查询上 Recall@10 由 0.734 提升至 0.763，MRR@20 由 0.679 提升至 0.742。
+  \item 对比 BM25、向量检索与 RRF 混合检索，在 5,189 篇文档、64 条查询上进行评测。
+  \item 混合检索将 Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742。
 \end{itemize}}
-\vspace{0.14em}
+\vspace{0.19em}
 
-\ProjectItem{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Qwen3.5-9B · Schema Grounding · SQL 校验 · 自动修复}
+\ProjectItem{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Qwen3.5-9B · Schema Grounding · SQL Validation · Repair}
 {\BodyText
 \begin{itemize}
-  \item 基于数据库 Schema 生成 SQL，并加入确定性校验与自动修复机制。
-  \item 在 100 条 BIRD DEV 查询上，正确率由 33\% 提升至 39\%，修复 6 条原本错误的查询，未引入回退。
+  \item 构建 Text-to-SQL 系统，利用数据库 Schema 生成 SQL，并在执行前完成校验与有限次数修复。
+  \item 在 100 条 BIRD DEV 查询上，正确率从 33\% 提升至 39\%，修复 6 条错误查询且没有新增错误案例。
 \end{itemize}}
 
 \section{专业技能}
-\SkillRow{LLM / NLP}{RAG、混合检索、知识图谱、工具调用 Agent、PEFT / QLoRA、LLM 评测}
-\SkillRow{机器学习}{Transformers、图神经网络、Embedding 模型}
-\SkillRow{后端}{Python、FastAPI、PHP、Laravel、REST API、SQL、MySQL、SQLite}
+\SkillRow{LLM / NLP}{RAG、混合检索、知识图谱、Tool-using Agent、PEFT / QLoRA、LLM 评测}
+\SkillRow{机器学习}{Transformers、图神经网络、Embedding / Dense Retrieval}
+\SkillRow{工程开发}{Python、FastAPI、PHP、Laravel、Vue.js、REST API、SQL、MySQL、SQLite}
 \SkillRow{工具}{Linux、Git、pytest、llama.cpp、LangGraph}
 \SkillRow{语言}{中文（母语）、英语（流利）、马来语（中级）}
 
