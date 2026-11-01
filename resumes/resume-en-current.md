@@ -2,7 +2,7 @@
 
 Malaysia | [+60 17-424 6282](tel:+60174246282) | [lihhanko526@gmail.com](mailto:lihhanko526@gmail.com) | [GitHub](https://github.com/kolihhan) | [LinkedIn](https://www.linkedin.com/in/ko-lih-han-748993241)
 
-## Software Engineering Experience
+## Work Experience
 
 **Software Developer**, **Kahap Inc** | Part-time | Aug 2022 - Aug 2026
 
