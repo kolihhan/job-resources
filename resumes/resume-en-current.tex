@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[a4paper,top=0.48in,bottom=0.55in,left=0.58in,right=0.58in]{geometry}
+\usepackage[a4paper,top=0.50in,bottom=0.52in,left=0.60in,right=0.60in]{geometry}
 \usepackage{fontspec}
 \setmainfont{Noto Sans}
 \setsansfont{Noto Sans}
@@ -15,36 +15,37 @@
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
 \tolerance=9999
+
 \definecolor{accent}{HTML}{1F3344}
 \definecolor{rulegray}{HTML}{A7AFB5}
 \definecolor{muted}{HTML}{4F5860}
 \definecolor{linktone}{HTML}{315A78}
 
-\titleformat{\section}{\fontsize{11.9}{12.8}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.08em}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{0.82em}{0.44em}
+\titleformat{\section}{\fontsize{11.8}{12.7}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{-0.10em}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{0.78em}{0.40em}
 
 \newenvironment{resumeitems}{%
-  \begin{itemize}[leftmargin=1.03em,itemsep=0.05em,topsep=0.08em,parsep=0pt,partopsep=0pt]
-  \fontsize{9.55}{11.45}\selectfont\raggedright
+  \begin{itemize}[leftmargin=1.03em,itemsep=0.04em,topsep=0.07em,parsep=0pt,partopsep=0pt]
+  \fontsize{9.45}{11.25}\selectfont\raggedright
 }{\end{itemize}}
 
 \newcommand{\entryheader}[2]{%
   \noindent
   \begin{minipage}[t]{0.78\linewidth}\vspace{0pt}\raggedright
-    {\fontsize{10.35}{11.35}\selectfont\textbf{#1}}%
+    {\fontsize{10.3}{11.3}\selectfont\textbf{#1}}%
   \end{minipage}%
   \hfill
   \begin{minipage}[t]{0.20\linewidth}\vspace{1.0pt}\raggedleft
-    {\fontsize{9.05}{9.9}\selectfont\textcolor{muted}{#2}}%
+    {\fontsize{9.0}{9.8}\selectfont\textcolor{muted}{#2}}%
   \end{minipage}\par
 }
 
 \newcommand{\entrysub}[1]{%
-  \vspace{0.01em}{\fontsize{9.45}{10.55}\selectfont #1}\par
+  \vspace{0.01em}{\fontsize{9.35}{10.45}\selectfont #1}\par
 }
 
 \newcommand{\entrymeta}[1]{%
-  \vspace{0.01em}{\fontsize{9.18}{10.25}\selectfont\textcolor{muted}{#1}}\par
+  \vspace{0.01em}{\fontsize{9.05}{10.15}\selectfont\textcolor{muted}{#1}}\par
 }
 
 \newcommand{\role}[3]{%
@@ -53,12 +54,12 @@
 }
 
 \newcommand{\projectlink}[3]{%
-  \noindent{\fontsize{10.35}{11.35}\selectfont\href{#2}{\textbf{#1}}}\par
+  \noindent{\fontsize{10.3}{11.3}\selectfont\href{#2}{\textbf{#1}}}\par
   \entrymeta{#3}
 }
 
 \newcommand{\researchentry}[2]{%
-  \noindent{\fontsize{10.35}{11.35}\selectfont\textbf{#1}}\par
+  \noindent{\fontsize{10.3}{11.3}\selectfont\textbf{#1}}\par
   \entrymeta{#2}
 }
 
@@ -69,77 +70,83 @@
 
 \newcommand{\skill}[2]{%
   \noindent
-  \begin{minipage}[t]{0.145\linewidth}\vspace{0pt}{\fontsize{9.35}{10.9}\selectfont\textbf{#1:}}\end{minipage}%
+  \begin{minipage}[t]{0.175\linewidth}\vspace{0pt}{\fontsize{9.15}{10.55}\selectfont\textbf{#1:}}\end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.84\linewidth}\vspace{0pt}{\fontsize{9.35}{10.9}\selectfont #2}\end{minipage}\par\vspace{0.02em}
+  \begin{minipage}[t]{0.81\linewidth}\vspace{0pt}{\fontsize{9.15}{10.55}\selectfont #2}\end{minipage}\par\vspace{0.01em}
 }
 
 \begin{document}
 
-\begin{center}
-  {\fontsize{22.5}{23.2}\selectfont\bfseries\color{accent} KO LIH HAN}\\[0.10em]
-  {\fontsize{9.05}{9.9}\selectfont Malaysia \;\textbar\;
+\noindent
+\begin{minipage}[t]{0.43\linewidth}
+  \vspace{0pt}{\fontsize{22.0}{22.8}\selectfont\bfseries\color{accent} KO LIH HAN}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.54\linewidth}
+  \vspace{1.2pt}\raggedleft
+  {\fontsize{8.9}{9.8}\selectfont
   \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;\textbar\;
-  \href{mailto:lihhanko526@gmail.com}{\textcolor{linktone}{lihhanko526@gmail.com}} \;\textbar\;
+  \href{mailto:lihhanko526@gmail.com}{\textcolor{linktone}{lihhanko526@gmail.com}}\\[0.12em]
+  Malaysia \;\textbar\;
   \href{https://github.com/kolihhan}{\textcolor{linktone}{GitHub}} \;\textbar\;
   \href{https://www.linkedin.com/in/ko-lih-han-748993241}{\textcolor{linktone}{LinkedIn}}}
-\end{center}
-\vspace{-0.08em}
+\end{minipage}
+\vspace{0.04em}
 
 \section{WORK EXPERIENCE}
 \role{Software Developer}{\textbf{Kahap Inc} \;\textbar\; Part-time}{Aug 2022 -- Aug 2026}
 \begin{resumeitems}
-  \item Built and shipped a feedback platform covering submissions, discussions, admin review, and notifications.
-  \item Kept the Laravel/Vue.js system running in production, handling queues, scheduled jobs, migrations, and Linux server operations.
-  \item Added GPT-SoVITS, pronunciation checks, and text validation to backend speech workflows.
+  \item Developed core features for a production Laravel/Vue.js feedback platform, including submissions, discussions, administrative review, notifications, and scheduled tasks.
+  \item Managed day-to-day production operations across deployments, queue workers, scheduled jobs, database migrations, SSL renewal, and Linux server troubleshooting.
+  \item Integrated GPT-SoVITS into backend speech workflows with pronunciation and text validation before synthesis.
 \end{resumeitems}
-\vspace{0.10em}
+\vspace{0.08em}
 
 \role{Full-Stack Developer Intern}{\textbf{Pac Com Solution}}{Jun 2021 -- Jan 2022}
 \begin{resumeitems}
-  \item Implemented features and fixes for a production Laravel/Vue.js POS system.
+  \item Developed and maintained features for a production Laravel/Vue.js point-of-sale system across backend logic and frontend interfaces.
 \end{resumeitems}
 
 \section{RESEARCH EXPERIENCE}
-\researchentry{Interpreting Implicit Intent through Workplace Hierarchies and Context}{M.S. Thesis, National Tsing Hua University \;\textbar\; NLP, Graph Learning, Role/Context KGs, Llama 3.1-8B}
+\researchentry{Context-Aware Implicit Intent Understanding in Workplace Dialogue}{M.S. Thesis, National Tsing Hua University \;\textbar\; NLP, Graph Learning, Knowledge Graphs, LLMs}
 \begin{resumeitems}
-  \item Examined workplace utterances whose intent shifts with conversational context and speaker-listener roles, instead of interpreting each utterance on its own.
-  \item Encoded LLM-extracted speaker/listener states with GCN/GAT, then used Role KG and Context KG retrieval to provide evidence for Llama 3.1-8B.
-  \item On 400 target-only cases, DualKG reached semantic F1 0.682 versus 0.644 for the text-only baseline, outperforming Prior KG, Role KG, and Context KG.
+  \item Modeled how workplace context and speaker-listener roles affect the implicit intent of an utterance.
+  \item Represented speaker and listener states as dialogue graphs, and retrieved role- and context-specific knowledge to guide Llama 3.1-8B.
+  \item Evaluated the approach on 400 cases where only the target utterance was available; combining role and context knowledge improved semantic F1 from 0.644 to 0.682.
 \end{resumeitems}
 
 \section{PROJECTS}
-\projectlink{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Python, Qwen3.5-9B, QLoRA / PEFT, Transformers, llama.cpp}
+\projectlink{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Qwen3.5-9B, QLoRA, Tool Use, Agent Evaluation}
 \begin{resumeitems}
-  \item Built a tool-using Qwen agent with search, file inspection, Python execution, timeouts, duplicate blocking, and trace logs.
-  \item QLoRA on corrective failure examples raised success from 34.5\% to 62.0\% on a 200-task evaluation.
-  \item GAIA100 accuracy rose from 9\% to 18\%; trace review showed over-search was still the main failure mode.
+  \item Built a Qwen-based agent that can search, inspect files, and execute Python to complete multi-step tasks.
+  \item Fine-tuned the model on examples collected from failed agent runs, improving task success from 34.5\% to 62.0\% across 200 evaluation tasks.
+  \item On GAIA100, accuracy improved from 9\% to 18\%; error analysis showed excessive searching remained the main failure mode.
 \end{resumeitems}
-\vspace{0.10em}
+\vspace{0.08em}
 
-\projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python, BM25, Qwen embeddings, RRF, FastAPI}
+\projectlink{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{BM25, Dense Retrieval, RRF, Retrieval Evaluation}
 \begin{resumeitems}
-  \item Combined BM25 and Qwen dense retrieval with RRF, while keeping rank provenance inspectable.
-  \item Across 64 queries and 5,189 documents, Recall@10 rose from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742.
+  \item Compared lexical, dense, and hybrid retrieval for finding relevant documents from a 5,189-document collection.
+  \item Combining BM25 and dense retrieval improved Recall@10 from 0.734 to 0.763 and MRR@20 from 0.679 to 0.742 across 64 queries.
 \end{resumeitems}
-\vspace{0.10em}
+\vspace{0.08em}
 
-\projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python, FastAPI, LangGraph, SQLite, Qwen3.5-9B, pytest}
+\projectlink{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Qwen3.5-9B, Schema Grounding, SQL Validation, Agentic Repair}
 \begin{resumeitems}
-  \item Built an NL-to-SQL pipeline with schema grounding, validation, bounded repair, and read-only execution.
-  \item Kept FastAPI, CLI, Streamlit, and evaluation on one service layer to avoid behavior drift between interfaces.
-  \item On 100 BIRD DEV queries, correct-query accuracy rose from 33\% to 39\%, fixing 6 cases without regressions.
+  \item Built a Text-to-SQL system that uses database schema information to generate, check, and repair SQL before execution.
+  \item On 100 BIRD DEV queries, correct-query accuracy improved from 33\% to 39\%, fixing 6 previously incorrect cases without introducing regressions.
 \end{resumeitems}
 
 \section{EDUCATION}
-\education{National Tsing Hua University}{M.S., Information Systems \& Applications}{4.09/4.3}{Jun 2026}
-\vspace{0.07em}
-\education{Chung Hua University}{B.S., Computer Science \& Information Engineering}{3.9/4.0}{Jun 2024}
+\education{National Tsing Hua University}{M.S. in Information Systems \& Applications}{4.09/4.3}{Jun 2026}
+\vspace{0.05em}
+\education{Chung Hua University}{B.S. in Computer Science \& Information Engineering}{3.9/4.0}{Jun 2024}
 
 \section{SKILLS}
-\skill{AI / LLM}{Agents \& tool use, RAG / hybrid retrieval, evaluation, PEFT / QLoRA, Transformers, LangGraph, llama.cpp}
+\skill{LLM / NLP}{RAG, hybrid retrieval, knowledge graphs, tool-using agents, PEFT / QLoRA, LLM evaluation}
+\skill{Machine Learning}{Transformers, graph neural networks, embedding models}
 \skill{Backend}{Python, FastAPI, PHP, Laravel, REST APIs, SQL, MySQL, SQLite}
-\skill{Web \& Tools}{JavaScript, Vue.js, Linux, Git, pytest}
+\skill{Tools}{Linux, Git, pytest, llama.cpp, LangGraph}
 \skill{Languages}{Chinese (Native), English (Fluent), Malay (Intermediate)}
 
 \end{document}
