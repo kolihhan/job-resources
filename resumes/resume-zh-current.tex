@@ -1,6 +1,6 @@
 % !TeX TS-program = xelatex
 \documentclass[10pt,a4paper,UTF8]{ctexart}
-\usepackage[a4paper,top=1.22cm,bottom=1.20cm,left=1.52cm,right=1.52cm]{geometry}
+\usepackage[a4paper,top=1.18cm,bottom=1.18cm,left=1.52cm,right=1.52cm]{geometry}
 \usepackage{fontspec}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -26,21 +26,21 @@
 \titleformat{\section}
   {\fontsize{11.55}{12.8}\selectfont\bfseries\color{ink}}
   {}{0pt}{}[\vspace{1.3pt}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{0.88em}{0.40em}
+\titlespacing*{\section}{0pt}{0.78em}{0.36em}
 
 \setlist[itemize]{
   leftmargin=1.14em,
   labelsep=0.33em,
-  itemsep=0.11em,
-  topsep=0.09em,
+  itemsep=0.08em,
+  topsep=0.07em,
   parsep=0pt,
   partopsep=0pt
 }
 
 \newcommand{\ResumeUrl}[2]{\href{#1}{\textcolor{linktone}{#2}}}
-\newcommand{\BodyText}{\fontsize{9.62}{11.72}\selectfont}
-\newcommand{\MetaText}{\fontsize{8.72}{9.88}\selectfont}
-\newcommand{\TitleText}{\fontsize{10.18}{11.30}\selectfont}
+\newcommand{\BodyText}{\fontsize{9.48}{11.45}\selectfont}
+\newcommand{\MetaText}{\fontsize{8.66}{9.80}\selectfont}
+\newcommand{\TitleText}{\fontsize{10.15}{11.25}\selectfont}
 
 \NewDocumentCommand{\ResumeItem}{m o o}{%
   \par\noindent
@@ -64,7 +64,7 @@
 \newcommand{\EducationItem}[3]{%
   \noindent
   \begin{minipage}[t]{0.79\linewidth}\vspace{0pt}
-    {\TitleText\bfseries #1}\;{\fontsize{9.30}{10.55}\selectfont #2}
+    {\TitleText\bfseries #1}\;{\fontsize{9.25}{10.45}\selectfont #2}
   \end{minipage}%
   \hfill
   \begin{minipage}[t]{0.19\linewidth}\vspace{0.5pt}\raggedleft
@@ -73,9 +73,9 @@
 }
 
 \newcommand{\SkillRow}[2]{%
-  \noindent\begin{minipage}[t]{0.135\linewidth}\vspace{0pt}{\fontsize{9.22}{10.8}\selectfont\bfseries #1}\end{minipage}%
+  \noindent\begin{minipage}[t]{0.135\linewidth}\vspace{0pt}{\fontsize{9.12}{10.62}\selectfont\bfseries #1}\end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.855\linewidth}\vspace{0pt}{\fontsize{9.22}{10.8}\selectfont #2}\end{minipage}\par\vspace{0.07em}
+  \begin{minipage}[t]{0.855\linewidth}\vspace{0pt}{\fontsize{9.12}{10.62}\selectfont #2}\end{minipage}\par\vspace{0.05em}
 }
 
 \begin{document}
@@ -94,23 +94,26 @@
   \ResumeUrl{https://github.com/kolihhan}{GitHub} \;·\;
   \ResumeUrl{https://www.linkedin.com/in/ko-lih-han-748993241}{LinkedIn}}
 \end{minipage}
-\vspace{0.02em}
+\vspace{0.00em}
+
+{\fontsize{9.15}{10.25}\selectfont\textbf{求职方向：}NLP / 大语言模型研究与应用（RAG、Agent）}\par
+\vspace{-0.02em}
 
 \section{教育背景}
-\EducationItem{国立清华大学（NTHU）}{信息系统与应用硕士 \;·\; GPA 4.09/4.3}{2026.06}
-\vspace{0.07em}
+\EducationItem{国立清华大学（NTHU）}{信息系统与应用硕士 \;·\; \textbf{GPA 4.09/4.3}}{2026.06}
+\vspace{0.06em}
 \EducationItem{中华大学}{计算机科学与信息工程学士 \;·\; GPA 3.9/4.0}{2024.06}
 
 \section{工作经历}
 \ResumeItem{Kahap Inc}[软件开发工程师（兼职）][2022.08--2026.08]
 {\BodyText
 \begin{itemize}
-  \item 使用 Laravel、Vue.js 与 MySQL 开发并上线反馈平台，完成意见提交、讨论、后台审核、通知和定时任务等核心功能。
-  \item 负责应用发布与后台任务运行，处理部署、队列 Worker、定时任务和数据库迁移。
+  \item 使用 \textbf{Laravel、Vue.js 与 MySQL} 开发并上线反馈平台，完成意见提交、讨论、后台审核、通知和定时任务等核心功能。
+  \item 负责\textbf{应用发布与后台任务运行}，处理部署、队列 Worker、定时任务和数据库迁移。
   \item 维护 Linux 服务器与运行环境，处理 SSL 续期、服务异常和数据库故障排查。
-  \item 在语音生成流程中接入 GPT-SoVITS，并加入发音与文本校验。
+  \item 在语音生成流程中接入 \textbf{GPT-SoVITS}，并加入发音与文本校验。
 \end{itemize}}
-\vspace{0.11em}
+\vspace{0.09em}
 
 \ResumeItem{Pac Com Solution}[全栈开发实习生][2021.06--2022.01]
 {\BodyText
@@ -123,9 +126,9 @@
 {\BodyText
 \begin{itemize}
   \item 研究同一句话在不同上下文和职场角色关系下为何会表达不同意图。
-  \item 使用 GCN/GAT 对说话者与听者状态进行图建模，编码对话中的角色和状态信息。
-  \item 从 Role KG 与 Context KG 检索相关知识，为 Llama 3.1-8B 提供角色和上下文证据。
-  \item 在 400 条仅给出目标话语的样本上，语义 F1 从纯文本基线的 0.644 提升至 0.682。
+  \item 使用 \textbf{GCN/GAT} 对说话者与听者状态进行图建模，编码对话中的角色和状态信息。
+  \item 从 \textbf{Role KG 与 Context KG} 检索相关知识，为 Llama 3.1-8B 提供角色和上下文证据。
+  \item 在 400 条仅给出目标话语的样本上，语义 \textbf{F1 从纯文本基线 0.644 提升至 0.682}。
 \end{itemize}}
 
 \section{项目经历}
@@ -133,24 +136,24 @@
 {\BodyText
 \begin{itemize}
   \item 构建 Qwen Agent，支持搜索、文件读取和 Python 执行，并加入超时、重复调用拦截与运行轨迹记录。
-  \item 根据失败轨迹整理纠错样本进行 QLoRA/SFT，在 200 个固定评测任务上将成功率从 34.5\% 提升至 62.0\%。
-  \item 在 GAIA100 外部评测中，准确率从 9\% 提升至 18\%；轨迹分析显示，过度搜索仍是主要失败原因。
+  \item 根据失败轨迹整理纠错样本进行 \textbf{QLoRA/SFT}，在 200 个固定评测任务上将成功率从 \textbf{34.5\% 提升至 62.0\%}。
+  \item 在 GAIA100 外部评测中，准确率从 \textbf{9\% 提升至 18\%}；轨迹分析显示，过度搜索仍是主要失败原因。
 \end{itemize}}
-\vspace{0.10em}
+\vspace{0.08em}
 
 \ProjectItem{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{BM25 · Qwen Dense Retrieval · RRF · Retrieval Evaluation}
 {\BodyText
 \begin{itemize}
-  \item 实现 BM25、Qwen 向量检索与 RRF 融合，并保留各路排名，便于分析融合对单条结果的影响。
-  \item 在 5,189 篇文档、64 条查询上，Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742。
+  \item 实现 \textbf{BM25、Qwen Dense Retrieval 与 RRF 融合}，并保留各路排名，便于分析融合对单条结果的影响。
+  \item 在 5,189 篇文档、64 条查询上，\textbf{Recall@10 从 0.734 提升至 0.763，MRR@20 从 0.679 提升至 0.742}。
 \end{itemize}}
-\vspace{0.10em}
+\vspace{0.08em}
 
 \ProjectItem{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Qwen3.5-9B · Schema Grounding · SQL Verification · Bounded Repair}
 {\BodyText
 \begin{itemize}
-  \item 构建 Text-to-SQL 系统，根据数据库 Schema 生成 SQL；执行前进行确定性校验，最多修复 2 次，并以只读方式执行。
-  \item 在 100 条 BIRD DEV 查询上，正确率从 33\% 提升至 39\%，执行成功率从 75\% 提升至 90\%；修复 6 条错误查询，且未出现原本正确的查询被改错。
+  \item 构建 Text-to-SQL 系统，根据数据库 Schema 生成 SQL；执行前进行\textbf{确定性校验}，最多修复 \textbf{2 次}，并以只读方式执行。
+  \item 在 100 条 BIRD DEV 查询上，正确率从 \textbf{33\% 提升至 39\%}，执行成功率从 \textbf{75\% 提升至 90\%}；修复 6 条错误查询，且未出现原本正确的查询被改错。
 \end{itemize}}
 
 \section{专业技能}
