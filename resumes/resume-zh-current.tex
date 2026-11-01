@@ -1,7 +1,6 @@
 % !TeX TS-program = xelatex
 \documentclass[10pt,a4paper,UTF8]{ctexart}
-
-\usepackage[a4paper,top=1.18cm,bottom=1.25cm,left=1.35cm,right=1.35cm]{geometry}
+\usepackage[a4paper,top=1.22cm,bottom=1.30cm,left=1.48cm,right=1.48cm]{geometry}
 \usepackage{fontspec}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -13,13 +12,12 @@
 \setmainfont{Noto Sans}
 \setCJKmainfont[BoldFont=Noto Sans CJK SC Bold]{Noto Sans CJK SC}
 \setCJKsansfont[BoldFont=Noto Sans CJK SC Bold]{Noto Sans CJK SC}
-\newCJKfontfamily\thesisfont{Noto Sans CJK TC}
 
 \pagestyle{empty}
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
 \setlength{\emergencystretch}{2em}
-\linespread{1.14}
+\linespread{1.08}
 \urlstyle{same}
 
 \definecolor{accent}{HTML}{1F3344}
@@ -27,124 +25,119 @@
 \definecolor{rulegray}{HTML}{B5BBC0}
 \definecolor{linktone}{HTML}{315A78}
 
-\titleformat{\section}{\fontsize{13.15}{14.8}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{2.8pt}\color{rulegray}\titlerule]
-\titlespacing*{\section}{0pt}{1.40em}{0.68em}
+\titleformat{\section}{\fontsize{12.2}{13.5}\selectfont\bfseries\color{accent}}{}{0pt}{}[\vspace{1.8pt}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{0.82em}{0.46em}
 
 \setlist[itemize]{
-  leftmargin=1.25em,
-  labelsep=0.35em,
-  itemsep=0.25em,
-  topsep=0.20em,
+  leftmargin=1.20em,
+  labelsep=0.34em,
+  itemsep=0.08em,
+  topsep=0.08em,
   parsep=0pt,
   partopsep=0pt
 }
 
-\newcommand{\ResumeName}[1]{\def\resumename{#1}}
-\newcommand{\ResumeHeadline}[1]{\def\resumeheadline{#1}}
-\newcommand{\ResumeContacts}[1]{\def\resumecontacts{#1}}
-
-\newcommand{\ResumeTitle}{%
-  \begin{center}
-    {\fontsize{23.8}{25.4}\selectfont\bfseries\color{accent}\resumename}\\[0.20em]
-    {\fontsize{11.1}{12.5}\selectfont\bfseries\resumeheadline}\\[0.34em]
-    {\fontsize{9.25}{10.55}\selectfont\resumecontacts}
-  \end{center}
-  \vspace{-0.08em}
-}
-
 \newcommand{\ResumeUrl}[2]{\href{#1}{\textcolor{linktone}{\CJKunderline{#2}}}}
+\newcommand{\BodyText}{\fontsize{9.75}{11.55}\selectfont}
+\newcommand{\MetaText}{\fontsize{9.05}{10.25}\selectfont}
 
-% Inspired by fky2015/resume-ng: title + optional descriptor + right-aligned metadata
 \NewDocumentCommand{\ResumeItem}{m o o}{%
   \par\noindent
-  {\fontsize{11.15}{12.6}\selectfont\bfseries #1}%
-  \IfValueT{#2}{%
-    \IfBlankF{#2}{\;{\fontsize{9.9}{11.2}\selectfont\textcolor{muted}{\textnormal{| #2}}}}%
-  }%
+  {\fontsize{10.35}{11.55}\selectfont\bfseries #1}%
+  \IfValueT{#2}{\IfBlankF{#2}{\;{\MetaText\textcolor{muted}{\textnormal{| #2}}}}}%
   \hfill
-  \IfValueT{#3}{{\fontsize{9.7}{11.0}\selectfont\textcolor{muted}{#3}}}%
-  \par\vspace{0.08em}
+  \IfValueT{#3}{{\MetaText\textcolor{muted}{#3}}}%
+  \par\vspace{0.03em}
 }
 
-\newcommand{\BodyText}{\fontsize{10.34}{13.08}\selectfont}
-\newcommand{\TechLine}[1]{{\fontsize{9.55}{10.9}\selectfont\textcolor{muted}{#1}}\par\vspace{0.06em}}
+\newcommand{\ResearchItem}[2]{%
+  \noindent{\fontsize{10.35}{11.55}\selectfont\bfseries #1}\par
+  {\MetaText\textcolor{muted}{#2}}\par\vspace{0.03em}
+}
+
+\newcommand{\ProjectItem}[3]{%
+  \noindent{\fontsize{10.35}{11.55}\selectfont\ResumeUrl{#2}{#1}}\par
+  {\MetaText\textcolor{muted}{#3}}\par\vspace{0.03em}
+}
+
 \newcommand{\SkillRow}[2]{%
   \noindent\begin{minipage}[t]{0.145\linewidth}\vspace{0pt}\BodyText\bfseries #1\end{minipage}%
   \hfill
-  \begin{minipage}[t]{0.835\linewidth}\vspace{0pt}\BodyText #2\end{minipage}\par\vspace{0.24em}
-}
-
-\ResumeName{高立恒}
-\ResumeHeadline{KO LIH HAN \;|\; 软件工程师 \;|\; Applied AI / LLM Systems}
-\ResumeContacts{%
-  马来西亚籍 \;|\;
-  \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;|\;
-  \ResumeUrl{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com} \;|\;
-  \ResumeUrl{https://github.com/kolihhan}{GitHub} \;|\;
-  \ResumeUrl{https://www.linkedin.com/in/ko-lih-han-748993241}{LinkedIn}%
+  \begin{minipage}[t]{0.835\linewidth}\vspace{0pt}\BodyText #2\end{minipage}\par\vspace{0.10em}
 }
 
 \begin{document}
-\ResumeTitle
 
-\section{教育背景}
-\ResumeItem{国立清华大学（NTHU）}[信息系统与应用硕士 · GPA 4.09/4.3][2026.06]
-\ResumeItem{中华大学}[计算机科学与信息工程学士 · GPA 3.9/4.0][2024.06]
+\begin{center}
+  {\fontsize{22.5}{23.5}\selectfont\bfseries\color{accent} 高立恒}\\[0.12em]
+  {\fontsize{9.0}{10.0}\selectfont 马来西亚籍 \;|\;
+  \href{tel:+60174246282}{\textcolor{linktone}{+60 17-424 6282}} \;|\;
+  \ResumeUrl{mailto:lihhanko526@gmail.com}{lihhanko526@gmail.com} \;|\;
+  \ResumeUrl{https://github.com/kolihhan}{GitHub} \;|\;
+  \ResumeUrl{https://www.linkedin.com/in/ko-lih-han-748993241}{LinkedIn}}
+\end{center}
+\vspace{-0.08em}
 
 \section{工作经历}
 \ResumeItem{Kahap Inc}[软件开发工程师 · 兼职][2022.08--2026.08]
 {\BodyText
 \begin{itemize}
-  \item 从零开发并上线反馈平台，整合意见提交、讨论、后台审核和通知流程。
-  \item 负责 Laravel/Vue.js 线上系统维护，包括队列与定时任务、数据库/服务器迁移和 Linux 故障排查。
-  \item 接入 GPT-SoVITS，并在后端加入发音与文本检查，服务语音生成流程。
+  \item 从零开发并上线反馈平台，覆盖意见提交、讨论、后台审核和通知等核心流程。
+  \item 长期维护 Laravel/Vue.js 线上系统，处理队列、定时任务、数据库迁移和 Linux 服务器问题。
+  \item 在后端接入 GPT-SoVITS，并加入发音与文本检查，完善语音生成流程。
 \end{itemize}}
-\vspace{0.28em}
+\vspace{0.10em}
 
 \ResumeItem{Pac Com Solution}[全栈开发实习生][2021.06--2022.01]
 {\BodyText
 \begin{itemize}
-  \item 参与 Laravel/Vue.js POS 系统功能开发和缺陷修复，覆盖后端与部分前端工作。
-\end{itemize}}
-
-\section{项目经历}
-\ResumeItem{\ResumeUrl{https://github.com/kolihhan/small-agent-qlora}{Small-Agent QLoRA}}[Python · Qwen3.5-9B · QLoRA / PEFT · Transformers · llama.cpp]
-{\BodyText
-\begin{itemize}
-  \item 用 Qwen3.5-9B 开发工具调用 Agent，支持搜索、文件读取和 Python 执行，并加入超时、重复调用拦截和运行追踪。
-  \item 针对运行失败整理纠错样本并做 QLoRA 微调，200 个固定任务成功率从 \textbf{34.5\%} 提升到 \textbf{62.0\%}。
-  \item 在 GAIA100 的 100 个任务上，准确率从 \textbf{9\%} 提升到 \textbf{18\%}；主要问题仍是过度搜索。
-\end{itemize}}
-\vspace{0.32em}
-
-\ResumeItem{\ResumeUrl{https://github.com/kolihhan/semantic-text2sql-agent}{Semantic Text-to-SQL}}[Python · FastAPI · LangGraph · SQLite · Qwen3.5-9B · pytest]
-{\BodyText
-\begin{itemize}
-  \item 开发本地 NL-to-SQL 服务，包含 Schema Grounding、确定性校验、最多两次修复和只读执行。
-  \item FastAPI、CLI、Streamlit 和评测共用同一服务层，避免应用路径与评测路径不一致。
-  \item 在 100 条 BIRD DEV 查询上，正确率从 \textbf{33\%} 提升到 \textbf{39\%}，修复 6 条错误查询，未引入回退。
-\end{itemize}}
-\vspace{0.32em}
-
-\ResumeItem{\ResumeUrl{https://github.com/kolihhan/local-rag-search}{Hybrid Retrieval Evaluation}}[Python · BM25 · Qwen Embeddings · RRF · FastAPI]
-{\BodyText
-\begin{itemize}
-  \item 实现 BM25、Qwen 向量检索与 RRF 融合的本地混合检索，并保留结果的排名来源便于分析。
-  \item 在 5,189 篇文档和 64 条 EnterpriseRAG-Bench 查询上，Recall@10 从 \textbf{0.734} 提升到 \textbf{0.763}，MRR@20 从 \textbf{0.679} 提升到 \textbf{0.742}。
+  \item 负责 Laravel/Vue.js POS 系统的功能开发和线上问题修复。
 \end{itemize}}
 
 \section{研究经历}
-\ResumeItem{{\thesisfont 基於職場階層與情境脈絡之聽者隱含意圖解析}}[硕士论文 · 国立清华大学]
+\ResearchItem{基于职场层级与情境脉络的隐含意图理解}{硕士论文，国立清华大学 \;|\; NLP · 图学习 · Role/Context KG · Llama 3.1-8B}
 {\BodyText
 \begin{itemize}
-  \item 整理并标注来自 7 个论坛的 20,455 条职场话语，标签包括说话者/听者状态、情绪和沟通目的。
-  \item 设计 Role KG 与 Context KG 检索并结合 Llama 3.1-8B；在 400 条固定样本上，语义 F1 从 \textbf{0.644} 提升到 \textbf{0.682}。
+  \item 研究职场对话中会随上下文、说话者与听者角色变化的隐含意图，而不是只根据单句话判断。
+  \item 将 LLM 提取的说话者/听者状态编码为 GCN/GAT 图表示，再通过 Role KG 与 Context KG 检索，为 Llama 3.1-8B 提供补充证据。
+  \item 在 400 条 target-only 样本上，DualKG 的语义 F1 为 0.682，高于纯文本基线的 0.644，也高于 Prior KG、Role KG 和 Context KG。
 \end{itemize}}
 
+\section{项目经历}
+\ProjectItem{Small-Agent QLoRA}{https://github.com/kolihhan/small-agent-qlora}{Python · Qwen3.5-9B · QLoRA / PEFT · Transformers · llama.cpp}
+{\BodyText
+\begin{itemize}
+  \item 开发可调用搜索、文件读取和 Python 的 Qwen Agent，并加入超时、重复调用拦截和运行追踪。
+  \item 用失败案例整理纠错样本并做 QLoRA 微调，200 个固定任务的成功率从 34.5\% 提升到 62.0\%。
+  \item GAIA100 准确率从 9\% 提升到 18\%；分析运行记录后，主要问题仍是过度搜索。
+\end{itemize}}
+\vspace{0.10em}
+
+\ProjectItem{Hybrid Retrieval Evaluation}{https://github.com/kolihhan/local-rag-search}{Python · BM25 · Qwen Embeddings · RRF · FastAPI}
+{\BodyText
+\begin{itemize}
+  \item 将 BM25 与 Qwen 向量检索通过 RRF 融合，并保留每条结果的排名来源，方便检查检索行为。
+  \item 在 5,189 篇文档和 64 条查询上，Recall@10 从 0.734 提升到 0.763，MRR@20 从 0.679 提升到 0.742。
+\end{itemize}}
+\vspace{0.10em}
+
+\ProjectItem{Semantic Text-to-SQL}{https://github.com/kolihhan/semantic-text2sql-agent}{Python · FastAPI · LangGraph · SQLite · Qwen3.5-9B · pytest}
+{\BodyText
+\begin{itemize}
+  \item 开发 NL-to-SQL 流程，包含 Schema Grounding、确定性校验、有限次数修复和只读执行。
+  \item FastAPI、CLI、Streamlit 与评测共用同一服务层，避免不同入口出现行为偏差。
+  \item 在 100 条 BIRD DEV 查询上，正确率从 33\% 提升到 39\%，修复 6 条原本错误的查询，没有引入回退。
+\end{itemize}}
+
+\section{教育背景}
+\ResumeItem{国立清华大学（NTHU）}[信息系统与应用硕士 · GPA 4.09/4.3][2026.06]
+\vspace{0.04em}
+\ResumeItem{中华大学}[计算机科学与信息工程学士 · GPA 3.9/4.0][2024.06]
+
 \section{专业技能}
-\SkillRow{AI / LLM}{Agent 与工具调用；RAG / 混合检索；模型评测；PEFT / QLoRA；Hugging Face Transformers；LangGraph；llama.cpp}
+\SkillRow{AI / LLM}{Agent 与工具调用；RAG / 混合检索；模型评测；PEFT / QLoRA；Transformers；LangGraph；llama.cpp}
 \SkillRow{后端}{Python；FastAPI；PHP；Laravel；REST API；SQL；MySQL；SQLite}
 \SkillRow{Web / 工具}{JavaScript；Vue.js；Linux；Git；pytest}
-\SkillRow{语言}{中文（母语水平）；英语（流利）；马来语（中级）}
+\SkillRow{语言}{中文（母语）；英语（流利）；马来语（中级）}
 
 \end{document}
