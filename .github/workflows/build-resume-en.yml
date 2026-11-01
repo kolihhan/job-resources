@@ -50,7 +50,7 @@ jobs:
           grep -q 'Semantic Text-to-SQL' /tmp/resume-en.txt
           grep -q '34.5% to 62.0%' /tmp/resume-en.txt
           grep -q '33% to 39%' /tmp/resume-en.txt
-          grep -q 'Interpreting Implicit Intent through Workplace' /tmp/resume-en.txt
+          grep -q 'Context-Aware Implicit Intent Understanding in Workplace Dialogue' /tmp/resume-en.txt
           grep -q '4.09/4.3' /tmp/resume-en.txt
 
           pdftotext -layout resumes/resume-zh-current.pdf /tmp/resume-zh.txt
