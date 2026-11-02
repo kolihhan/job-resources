@@ -65,7 +65,7 @@ Two invariants:
 
 Raw candidates do not become Issues automatically. A **verified serious survivor** may be created automatically as a new APPLY/CHECK Issue by the hourly scout after all promotion gates pass. That is queue maintenance only; it does **not** authorize an application.
 
-A survivor is not considered handled until its Issue create succeeds and the Issue is read back. If persistence fails or is ambiguous, the scout must not mark it seen and must not advance the source watermark past it.
+A survivor is not considered handled until its Issue create succeeds and the Issue is read back. If persistence fails or is ambiguous, preserve it through the source-specific retry/cursor contract rather than silently dropping it.
 
 For campus/graduate/year-coded roles, campaign/program eligibility is part of verification. If the exact JD omits the graduation window, the official campaign/program window must be checked before promotion.
 
@@ -87,9 +87,13 @@ Tier 3 helps discover gaps; it does not drive the queue. The market target-compa
 
 FreeHire is a broad upstream radar, not the human job queue and no longer the primary source for any market.
 
-`feed/candidates.json` is the fast path, not a lossless queue. Each market scout also tracks `freehire_event_seq`. If the scout watermark lags `feed/index.json:last_seq`, a run was missed/delayed, or the capped snapshot overflows (`matched_counts > counts`), the scout recovers only the missing sequence range from `feed/pages/*.jsonl` before advancing the watermark.
+The active downstream path is defined in `docs/freehire-triage-consumption.md`:
 
-This prevents scheduler delay or snapshot caps from silently dropping jobs.
+`full current FreeHire scan → conservative machine candidate set → private strong known-role dedupe → stable candidate_seq → bounded 30-candidate market batch → hourly scout`
+
+Each market scout reads only its own `discovery-state/freehire-batch-<market>.json`, plus its `triage-<market>.json` cursor and `retry-<market>.json` receipts. Weak company/title history matches are suspicion only; they never auto-suppress. A transient verification failure becomes a durable retry receipt so later candidates can continue.
+
+The old raw `feed/pages/*.jsonl` watermark recovery path is superseded for normal hourly execution and retained only for audit/rebuild history in `docs/freehire-gap-recovery.md`.
 
 ### Market sourcing
 
@@ -109,7 +113,7 @@ Target lists prioritize search effort, not eligibility. An excellent exact role 
 - Recruiting Signal Watch — hourly over both Gmail accounts; substantive lifecycle signals update the canonical Issue and preserve `Furthest stage`.
 - AI Job Strategy Review — **daily** across all six battlefields; controlled learning may update only the bounded adaptive-memory block in `PROFILE.md` when the evidence threshold is met.
 
-Hourly scouts may search/verify/dedupe, create a **new verified APPLY/CHECK Issue**, and update only their compact discovery cursor/cache. They do not submit applications, contact employers, modify Gmail, or automatically modify/close/reopen existing opportunity Issues.
+Hourly scouts execute two independent discovery phases: the normal first-party/native fresh-platform rotation, then the bounded FreeHire triage/retry batch. They may search/verify/dedupe, create a **new verified APPLY/CHECK Issue**, and update only their market-owned compact discovery cursor/retry/cache state. They do not submit applications, contact employers, modify Gmail, or automatically modify/close/reopen existing opportunity Issues.
 
 Scheduler runtime health comes from the automation system. `DISCOVERY_STATE.md` stores `last_state_change_at`, not a heartbeat; a successful no-change run should not create a commit.
 
