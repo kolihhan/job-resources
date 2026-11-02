@@ -39,7 +39,7 @@ Every run must complete all of the following before FreeHire work:
 - Persist and read back fresh-state progress after the attempts.
 - Fresh-head/delta semantics are preferred where supported. The goal is unique new recall, not repeatedly revalidating old roles.
 
-With two platforms per hourly run, SG and MY finish their five-platform sweep within at most three runs; CN finishes its six-platform sweep within three runs.
+With two platforms per hourly run, SG and MY finish their five-platform sweep within at most three runs; CN finishes its seven-platform sweep within at most four runs.
 
 ### Phase B — FreeHire backlog
 
@@ -94,8 +94,9 @@ In this exact order:
 3. 智联招聘
 4. 前程无忧 / 51job
 5. 脉脉 / team-direct recruiting signals
+6. 高校 / 实验室 / 研究院 / PI / research-direct recruiting signals
 
-The platform sweep replaces the old paired native-surface buckets. Two individual platforms are attempted each run, so every six-platform sweep completes within three runs.
+The platform sweep replaces the old paired native-surface buckets. Two individual platforms are attempted each run, so every seven-platform sweep completes within at most four runs. The research-direct family is bounded: prioritize current RA/RE/Research Associate/Research Officer/research-engineering signals from strong labs, institutes, PI/team pages, GitHub recruiting notices, and joint research centres that materially overlap LLM, NLP, retrieval, knowledge, Agent or AI systems. Do not crawl universities indiscriminately.
 
 ### CN official owner buckets
 
@@ -162,7 +163,7 @@ A run result must name every platform actually attempted, not just a generic sou
 The system is healthy when:
 
 - no platform repeats before the current market sweep is complete;
-- each market completes a full platform sweep within at most three successful hourly runs;
+- SG and MY complete a full platform sweep within at most three successful hourly runs, and CN within at most four;
 - owner/query buckets continue rotating;
 - FreeHire recovery continues independently;
 - new verified survivors are durably handed off to APPLY/CHECK when found.
