@@ -2,52 +2,65 @@
 
 This is a focused execution supplement to `README.md`, `RULES.md`, and `docs/source-routing.md`.
 
-## Problem this contract prevents
+## Goal
 
-A prompt that merely says `rotate sources` is not enough. Without durable rotation state, an hourly scout can repeatedly choose the same familiar source/query family and keep rediscovering the same already-seen jobs. Fresh discovery and FreeHire backlog recovery must also have separate bounded work floors so backlog work cannot starve new-role discovery, and fresh search cannot silently replace lossless recovery.
+Fresh discovery must cover the whole relevant platform set instead of repeatedly choosing the easiest or most familiar source. A platform sweep is **exhaustive and persistent**: every listed platform is attempted once before any platform repeats.
 
-## Authoritative fresh-rotation state
+Fresh discovery and FreeHire recovery remain separate bounded work floors so neither can starve the other.
 
-Each market owns one small mutable state file:
+## Authoritative state
+
+Each market owns one mutable state file:
 
 - SG: `discovery-state/fresh-sg.json`
 - CN: `discovery-state/fresh-cn.json`
 - MY: `discovery-state/fresh-my.json`
 
-Each scout may update only its own file. The file stores **next** indexes, not last indexes. A bounded attempted rotation unit advances its corresponding next index even if it yields zero survivors; this prevents a temporarily weak or inaccessible source from pinning the scout forever. Exact opportunity state remains only in GitHub Issues.
+Each file stores the next platform index plus owner/query rotation state. Opportunity/application state remains only in GitHub Issues.
 
-## Two independent work floors per hourly run
+## Two independent phases per scout run
 
-Every market run has two independent phases:
+### Phase A — fresh discovery
 
-### Phase A — fresh discovery floor
-
-Complete one persisted rotation unit **before** FreeHire backlog work:
+Every run must complete all of the following before FreeHire work:
 
 1. one official/canonical owner bucket;
-2. one required broad/native surface bucket;
+2. the next **two individual platforms** in that market's platform sweep;
 3. one query-family bucket;
-4. SG additionally advances one research/lab bucket when the SG-RES gap pass is due.
+4. SG additionally attempts the current research/lab bucket.
 
-Use the indexes from the market's fresh-state file. Do not substitute a favorite source because it is easier. After the bounded attempt, persist the next indexes and record the selections used.
+### Platform-sweep invariant
 
-Fresh discovery must use current/fresh-head or owner-delta semantics where the source supports them. The purpose is **new unique recall**, not repeatedly proving that old roles still exist.
+- Start at `next_platform_index`.
+- Attempt two consecutive platforms in listed order, wrapping only after the final platform.
+- A platform may not repeat until every other platform in the current sweep has been attempted.
+- When the index wraps from the final platform to `0`, increment `platform_cycle`.
+- A bounded attempted search counts as an attempt even when the platform is inaccessible, weak, or yields zero results. Record the failure; do not silently replace it with a favorite platform.
+- Persist and read back fresh-state progress after the attempts.
+- Fresh-head/delta semantics are preferred where supported. The goal is unique new recall, not repeatedly revalidating old roles.
 
-### Phase B — FreeHire backlog floor
+With two platforms per hourly run, SG and MY finish their five-platform sweep within at most three runs; CN finishes its six-platform sweep within three runs.
 
-After Phase A, execute FreeHire recovery from the market-owned FreeHire cursor under `docs/freehire-gap-recovery.md`.
+### Phase B — FreeHire backlog
 
-- target up to **250 global sequence numbers per run** when backlog exists;
-- persist any fully handled contiguous prefix even if fewer than 250 are completed;
+After Phase A, execute FreeHire recovery under `docs/freehire-gap-recovery.md` using the market-owned FreeHire cursor.
+
+- target up to 250 global sequence numbers per run while backlog exists;
+- persist every fully handled contiguous prefix;
 - other-market events are cheap skips;
-- FreeHire work never satisfies the fresh-discovery floor;
-- fresh discovery never satisfies FreeHire recovery.
+- FreeHire never satisfies fresh discovery, and fresh discovery never satisfies FreeHire recovery.
 
-The 250 target is a bounded catch-up target, not a requirement to overrun the execution window or deep-read every event.
+## SG platform sweep
 
-## SG rotation
+In this exact order:
 
-### Official/canonical owner buckets
+0. LinkedIn Jobs Singapore
+1. JobStreet Singapore
+2. Indeed Singapore
+3. MyCareersFuture
+4. recruiter / team / PI direct posts
+
+### SG official/canonical owner buckets
 
 0. NUS / NTU / A*STAR / AI Singapore
 1. Sea / SAIL / Shopee / Grab / Singtel
@@ -55,15 +68,7 @@ The 250 target is a bounded catch-up target, not a requirement to overrun the ex
 3. Google / Microsoft / Apple / OpenAI
 4. strong finance / fintech AI teams and other recurring canonical owners
 
-### Broad surface buckets
-
-0. LinkedIn Jobs
-1. JobStreet Singapore
-2. Indeed Singapore
-3. MyCareersFuture
-4. recruiter / team / PI direct posts
-
-### Query buckets
+### SG query buckets
 
 0. Agent / LLM / RAG / evaluation
 1. NLP / search / retrieval / ranking / knowledge graph
@@ -79,9 +84,20 @@ The 250 target is a bounded catch-up target, not a requirement to overrun the ex
 3. SMU
 4. SUTD
 
-## CN rotation
+## CN platform sweep
 
-### Official owner buckets
+In this exact order:
+
+0. BOSS直聘
+1. 牛客招聘
+2. 猎聘
+3. 智联招聘
+4. 前程无忧 / 51job
+5. 脉脉 / team-direct recruiting signals
+
+The platform sweep replaces the old paired native-surface buckets. Two individual platforms are attempted each run, so every six-platform sweep completes within three runs.
+
+### CN official owner buckets
 
 0. Alibaba / Tencent
 1. ByteDance / Baidu
@@ -90,15 +106,7 @@ The 250 target is a bounded catch-up target, not a requirement to overrun the ex
 4. DeepSeek / Moonshot
 5. Zhipu AI / StepFun / other strong AI-native owners
 
-### Native surface buckets
-
-0. BOSS直聘 + 牛客招聘
-1. 猎聘 + 智联招聘
-2. 前程无忧/51job + 脉脉/team-direct signals
-
-The two members of the selected native bucket are both attempted, preserving the existing two-source-family recall floor.
-
-### Query buckets
+### CN query buckets
 
 0. Agent / 智能体 / planning / memory / tool use
 1. RAG / 知识库 / 知识图谱 / NL2SQL / Data Agent
@@ -107,9 +115,17 @@ The two members of the selected native bucket are both attempted, preserving the
 4. AI后端 / 大模型平台 / 推理 / AI systems
 5. Coding Agent / AI Coding / MCP / Skills / Harness
 
-## MY rotation
+## MY platform sweep
 
-### Official/canonical owner buckets
+In this exact order:
+
+0. LinkedIn Jobs Malaysia
+1. JobStreet Malaysia
+2. Indeed Malaysia
+3. Hiredly
+4. recruiter / team / direct hiring posts
+
+### MY official/canonical owner buckets
 
 0. Sea / Shopee / Grab
 1. Gen Digital / MoneyLion
@@ -118,15 +134,7 @@ The two members of the selected native bucket are both attempted, preserving the
 4. Dell / YTL AI Labs
 5. MIMOS / strong university-industry research labs / other recurring destination-quality owners
 
-### Broad surface buckets
-
-0. LinkedIn Jobs Malaysia
-1. Indeed Malaysia
-2. Hiredly
-3. recruiter / team posts
-4. JobStreet Malaysia
-
-### Query buckets
+### MY query buckets
 
 0. Agent / LLM / RAG / GenAI
 1. NLP / search / retrieval / evaluation / knowledge
@@ -134,17 +142,27 @@ The two members of the selected native bucket are both attempted, preserving the
 3. destination-quality backend / data / cloud / SRE / SDET
 4. destination-quality full-stack / product engineering with material AI signal
 
-## Advancement and reporting
+## State advancement
 
-After the fresh phase, update only the market-owned fresh-state file:
+After Phase A, update only the market-owned fresh-state file:
 
-- increment each attempted `next_*_index` modulo that market's bucket count;
+- advance `next_platform_index` by the number of attempted platforms, wrapping modulo platform count;
+- increment `platform_cycle` on each wrap;
+- increment `next_owner_bucket` and `next_query_bucket` modulo their counts;
+- SG also increments `next_research_bucket` modulo 5;
 - write `last_completed_at`;
-- record `last_owner_bucket`, `last_surface_bucket`, `last_query_bucket`, and where applicable `last_research_bucket`;
-- increment `run_counter`.
+- record `last_platforms`, `last_owner_bucket`, `last_query_bucket`, and SG `last_research_bucket`;
+- increment `run_counter`;
+- read the state file back before reporting success.
 
-A run result must name the actual owner bucket, surface bucket, query bucket, and FreeHire cursor movement. If the selected source cannot be searched, report the bounded failure and still rotate to the next source for the next hourly run; do not silently fall back to the same favorite source every hour.
+A run result must name every platform actually attempted, not just a generic source family.
 
-## Success criterion
+## Health criterion
 
-The system is healthy when consecutive hourly runs visibly change source/query buckets while still advancing the FreeHire cursor. Raw APPLY count is not itself a health metric, but repeated identical source selections are a routing failure.
+The system is healthy when:
+
+- no platform repeats before the current market sweep is complete;
+- each market completes a full platform sweep within at most three successful hourly runs;
+- owner/query buckets continue rotating;
+- FreeHire recovery continues independently;
+- new verified survivors are durably handed off to APPLY/CHECK when found.
