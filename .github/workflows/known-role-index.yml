@@ -40,15 +40,29 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/build_known_role_index.py
 
-      - name: Publish derived index
+      - name: Download current FreeHire cold start
+        run: |
+          curl -fsSL --retry 3 --retry-delay 2 \
+            https://raw.githubusercontent.com/kolihhan/freehirefetch/main/feed/coldstart.json \
+            -o /tmp/freehire-coldstart.json
+
+      - name: Subtract known job history
+        run: |
+          python scripts/filter_freehire_coldstart.py \
+            --coldstart /tmp/freehire-coldstart.json \
+            --known discovery-state/known-role-index.json \
+            --output discovery-state/freehire-coldstart.json
+
+      - name: Publish derived discovery state
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add discovery-state/known-role-index.json
+          git add discovery-state/known-role-index.json discovery-state/freehire-coldstart.json
           if git diff --cached --quiet; then
-            echo "Known-role index unchanged."
+            echo "Derived discovery state unchanged."
             exit 0
           fi
-          git commit -m "chore: refresh known-role index [skip ci]"
+          git commit -m "chore: refresh discovery dedupe state [skip ci]"
+          git pull --rebase origin main
           git push
