@@ -1,12 +1,13 @@
 {
-  "version": 1,
+  "version": 2,
   "market": "CN",
+  "platform_cycle": 1,
+  "next_platform_index": 0,
   "next_owner_bucket": 0,
-  "next_surface_bucket": 1,
   "next_query_bucket": 1,
   "run_counter": 0,
   "last_completed_at": null,
+  "last_platforms": [],
   "last_owner_bucket": null,
-  "last_surface_bucket": null,
   "last_query_bucket": null
 }
