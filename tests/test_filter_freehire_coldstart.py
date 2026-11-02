@@ -25,6 +25,9 @@ class FreeHireColdStartFilterTests(unittest.TestCase):
             "generated_at": "2026-11-03T00:00:00Z",
             "count": 4,
             "counts": {"SG": 2, "CN": 1, "MY": 1},
+            "matched_counts": {"SG": 2, "CN": 1, "MY": 1},
+            "raw_counts": {"SG": 200, "CN": 100, "MY": 50},
+            "title_hard_drop_counts": {"SG": 20, "CN": 10, "MY": 5},
             "candidates": [
                 {
                     "market": "SG",
@@ -69,6 +72,9 @@ class FreeHireColdStartFilterTests(unittest.TestCase):
         result = mod.filter_coldstart(coldstart, known, generated_at="2026-11-03T00:10:00Z")
 
         self.assertEqual(result["source_count"], 4)
+        self.assertEqual(result["raw_counts"], {"SG": 200, "CN": 100, "MY": 50})
+        self.assertEqual(result["title_hard_drop_counts"], {"SG": 20, "CN": 10, "MY": 5})
+        self.assertEqual(result["machine_candidate_counts"], {"SG": 2, "CN": 1, "MY": 1})
         self.assertEqual(result["known_exact_count"], 2)
         self.assertEqual(result["suspected_known_count"], 1)
         self.assertEqual(result["unseen_count"], 1)
