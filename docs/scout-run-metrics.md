@@ -6,16 +6,16 @@ This is the durable audit contract for every SG/CN/MY scout run. It is machine/a
 
 Every completed scout run must leave enough evidence to answer:
 
-- which platforms were actually searched;
+- which fresh platforms were actually searched;
 - how many result rows/cards were actually inspected;
 - how many unique candidate keys were derived;
 - how many candidates died at Issue-history dedupe or cheap hard filters;
 - how many full JDs were read;
 - how many verified survivors were found;
 - how many APPLY/CHECK Issues were created;
-- how far FreeHire recovery advanced and why it stopped.
+- how many FreeHire triage candidates/retries were processed and where the market cursor ended.
 
-Do not report platform-advertised totals (for example `1,484 AI jobs`) as scanned volume. `results_inspected` means rows/cards actually inspected in this run.
+Do not report platform-advertised totals as scanned volume. `results_inspected` means rows/cards actually inspected in this run.
 
 ## Durable log location
 
@@ -35,9 +35,9 @@ Each line must contain these keys:
 
 ```json
 {
-  "completed_at": "2026-11-02T22:30:00+08:00",
+  "completed_at": "2026-11-03T01:10:00+08:00",
   "market": "SG",
-  "platform_cycle": 1,
+  "platform_cycle": 2,
   "platform_attempts": [
     {
       "platform": "LinkedIn Jobs Singapore",
@@ -64,17 +64,21 @@ Each line must contain these keys:
     "apply_created": 1,
     "check_created": 1
   },
-  "freehire": {
-    "start_seq": 16120,
-    "end_seq": 16200,
-    "advanced": 80,
-    "events_read": 80,
-    "market_relevant": 7,
-    "issue_duplicates": 2,
-    "cheap_hard_rejects": 4,
-    "full_jd_reads": 1,
-    "verified_survivors": 0,
-    "next_seq": 16201
+  "freehire_triage": {
+    "cursor_start": 0,
+    "cursor_end": 30,
+    "batch_candidates": 30,
+    "strong_known_duplicates": 4,
+    "weak_suspected_checked": 2,
+    "cheap_hard_rejects": 18,
+    "full_jd_reads": 6,
+    "retries_due": 1,
+    "retries_processed": 1,
+    "retries_created_or_updated": 1,
+    "verified_survivors": 2,
+    "apply_created": 1,
+    "check_created": 1,
+    "next_candidate_seq": 31
   },
   "blocker": null
 }
@@ -84,27 +88,48 @@ For CN/MY omit `research_bucket` or set it to null.
 
 ## Counting rules
 
+Fresh phase:
+
 - `queries_run`: actual distinct search queries executed on that platform.
-- `results_inspected`: result rows/cards actually looked at enough to derive title/employer/location/ID or candidate key. Never use a platform's displayed total-result count.
+- `results_inspected`: result rows/cards actually looked at enough to derive title/employer/location/ID or candidate key.
 - `unique_candidates`: unique candidate keys within that platform attempt.
 - `global_unique_candidates`: candidates remaining after cross-platform identity collapse for the whole fresh phase.
 - `issue_duplicates`: exact/current-history duplicates killed before full-JD research.
-- `cheap_hard_rejects`: terminal cheap-screen rejects such as seniority/cohort/domain/employment mismatch before full-JD research where possible.
+- `cheap_hard_rejects`: terminal cheap-screen rejects before full-JD research where possible.
 - `full_jd_reads`: candidates whose substantive JD was opened/read for verification.
 - `verified_survivors`: candidates that survived verification far enough to merit durable APPLY/CHECK handoff in this run.
 - `apply_created` / `check_created`: Issues actually created and read back successfully.
-- FreeHire counts refer only to the lossless recovery phase and must not be mixed into fresh-platform totals.
-- If the same candidate appears on two platforms, it may count once in each platform's local `unique_candidates`, but only once in `global_unique_candidates`.
-- Unknown counts must be `null`, never guessed.
+
+FreeHire triage phase:
+
+- `cursor_start` / `cursor_end`: market `last_consumed_candidate_seq` before and after the run.
+- `batch_candidates`: candidates actually taken from the bounded market batch in this run.
+- `strong_known_duplicates`: candidates killed by exact all-Issue-history identity before full-JD work.
+- `weak_suspected_checked`: `known_status=suspected_known` candidates for which the weak suspicion was explicitly checked; this is never an automatic drop count.
+- `cheap_hard_rejects`: terminal RULES rejects from batch metadata/snippet/known campaign evidence before deeper JD research.
+- `full_jd_reads`: batch/retry candidates whose substantive authoritative or best available JD was actually read.
+- `retries_due`: retry receipts due at the start of the run.
+- `retries_processed`: due retry receipts actually attempted.
+- `retries_created_or_updated`: transient candidates durably moved into retry state or whose receipt was updated.
+- `verified_survivors`: FreeHire candidates that reached durable APPLY/CHECK handoff.
+- `next_candidate_seq`: next market candidate sequence expected after cursor advancement, or null when no batch remains.
+
+Unknown counts must be `null`, never guessed.
+
+Fresh-platform counts and FreeHire-triage counts must remain separate even when they identify the same role. Cross-source exact dedupe prevents duplicate Issue creation.
 
 ## Reporting
 
-The human-facing run result must include a compact summary such as:
+The human-facing run result should include a compact summary such as:
 
-`Fresh: 2 platforms / 37 rows inspected / 21 global unique / 9 duplicates / 7 hard rejects / 5 full JDs / 2 survivors (1 APPLY, 1 CHECK). FreeHire: +80 seq, 7 market-relevant.`
+`Fresh: 2 platforms / 37 rows inspected / 21 global unique / 9 duplicates / 7 hard rejects / 5 full JDs / 2 survivors (1 APPLY, 1 CHECK). FreeHire triage: 30 batch candidates / cursor 120→150 / 3 exact duplicates / 18 cheap rejects / 7 full JDs / 1 retry / 1 survivor.`
 
-Also name each platform and its `results_inspected` count. The durable JSONL record is authoritative for audit history.
+Also name each fresh platform and its `results_inspected` count. The durable JSONL record is authoritative for audit history.
 
 ## Failure handling
 
-A run is not fully complete until both fresh-state persistence and metrics-log persistence/read-back are verified. If metrics persistence fails, report that explicitly and do not claim the audit record was saved. Do not alter opportunity state merely to repair metrics.
+A run is not fully complete until fresh-state persistence, market triage/retry persistence, and metrics-log persistence/read-back are verified.
+
+A transient candidate verification failure is not a reason to freeze the main FreeHire cursor if a durable retry receipt was successfully written and read back. Failure to persist the retry receipt itself is an infrastructure blocker; do not advance beyond that candidate.
+
+If metrics persistence fails, report that explicitly and do not claim the audit record was saved. Do not alter opportunity state merely to repair metrics.
