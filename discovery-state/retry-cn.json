@@ -2,75 +2,12 @@
   "version": 1,
   "market": "CN",
   "receipts": [
-    {
-      "role_key": "freehire:ai-engineer-hr-plus-talent-limited-y2ip5ltg",
-      "candidate_seq": 183,
-      "reason_code": "employer_identity_verification_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T07:15:00+08:00",
-      "company": "HR Plus (Talent) Limited",
-      "title": "AI Engineer",
-      "source_url": "https://www.careers-page.com/hr-plus-talent-limited/job/4R63XW57"
-    },
-    {
-      "role_key": "freehire:llm-application-engineer-bjakcareer-67rw3n3k",
-      "candidate_seq": 460,
-      "reason_code": "location_employment_verification_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T07:15:00+08:00",
-      "company": "Bjak",
-      "title": "LLM Application Engineer",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/3643630b-105a-4ffd-9122-02b4436a9fe9"
-    },
-    {
-      "role_key": "freehire:machine-learning-engineer-ranking-retrieval-bjakcareer-5vbjfft2",
-      "candidate_seq": 649,
-      "reason_code": "role_identity_liveness_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T07:15:00+08:00",
-      "company": "Bjak",
-      "title": "Machine Learning Engineer, Ranking & Retrieval",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1"
-    },
-    {
-      "role_key": "freehire:forward-deployed-engineer-ai-engineer-data-engineer-equity-research-analyst-hr-plus-talent-limited-gma25ize",
-      "candidate_seq": 1418,
-      "reason_code": "employer_identity_verification_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T07:15:00+08:00",
-      "company": "HR Plus (Talent) Limited",
-      "title": "Forward Deployed Engineer & AI Engineer& Data Engineer & Equity Research Analyst",
-      "source_url": "https://www.careers-page.com/hr-plus-talent-limited/job/W34YY486"
-    },
-    {
-      "role_key": "freehire:suan-fa-gong-cheng-shi-llm-ai-agent-fang-xiang-meituan-eckpjemm",
-      "candidate_seq": 1510,
-      "reason_code": "authoritative_source_timeout",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T07:15:00+08:00",
-      "company": "Meituan",
-      "title": "算法工程师｜LLM / AI Agent 方向",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4592562550"
-    },
-    {
-      "role_key": "freehire:shu-ju-ji-zhu-ji-chan-pin-bu-shu-ju-yan-fa-gong-cheng-shi-shu-ju-zi-chan-llm-agent-fang-xiang-alibaba-group-auex5wox",
-      "candidate_seq": 1514,
-      "reason_code": "authoritative_route_verification_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T07:15:00+08:00",
-      "company": "Alibaba Group",
-      "title": "数据技术及产品部-数据研发工程师-数据资产 / LLM Agent 方向",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100018760001"
-    },
-    {
-      "role_key": "freehire:dou-yin-feng-kong-ji-zuo-mo-xing-suan-fa-gong-cheng-shi-llm-agentic-aifang-xiang-data-bytedance-cbmdm37d",
-      "candidate_seq": 1521,
-      "reason_code": "authoritative_route_verification_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T07:15:00+08:00",
-      "company": "ByteDance",
-      "title": "抖音风控基座模型算法工程师（LLM & Agentic AI方向）-Data",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7658298540355193141/detail"
-    }
+    {"role_key":"freehire:ai-engineer-hr-plus-talent-limited-y2ip5ltg","candidate_seq":183,"reason_code":"employer_identity_verification_transient","attempts":1,"next_retry_at":"2026-11-03T07:15:00+08:00","company":"HR Plus (Talent) Limited","title":"AI Engineer","source_url":"https://www.careers-page.com/hr-plus-talent-limited/job/4R63XW57"},
+    {"role_key":"freehire:llm-application-engineer-bjakcareer-67rw3n3k","candidate_seq":460,"reason_code":"location_employment_verification_transient","attempts":1,"next_retry_at":"2026-11-03T07:15:00+08:00","company":"Bjak","title":"LLM Application Engineer","source_url":"https://jobs.ashbyhq.com/bjakcareer/3643630b-105a-4ffd-9122-02b4436a9fe9"},
+    {"role_key":"freehire:machine-learning-engineer-ranking-retrieval-bjakcareer-5vbjfft2","candidate_seq":649,"reason_code":"role_identity_liveness_transient","attempts":1,"next_retry_at":"2026-11-03T07:15:00+08:00","company":"Bjak","title":"Machine Learning Engineer, Ranking & Retrieval","source_url":"https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1"},
+    {"role_key":"freehire:forward-deployed-engineer-ai-engineer-data-engineer-equity-research-analyst-hr-plus-talent-limited-gma25ize","candidate_seq":1418,"reason_code":"employer_identity_verification_transient","attempts":1,"next_retry_at":"2026-11-03T07:15:00+08:00","company":"HR Plus (Talent) Limited","title":"Forward Deployed Engineer & AI Engineer& Data Engineer & Equity Research Analyst","source_url":"https://www.careers-page.com/hr-plus-talent-limited/job/W34YY486"},
+    {"role_key":"freehire:suan-fa-gong-cheng-shi-llm-ai-agent-fang-xiang-meituan-eckpjemm","candidate_seq":1510,"reason_code":"authoritative_source_timeout","attempts":1,"next_retry_at":"2026-11-03T07:15:00+08:00","company":"Meituan","title":"算法工程师｜LLM / AI Agent 方向","source_url":"https://zhaopin.meituan.com/web/position/detail?jobUnionId=4592562550"},
+    {"role_key":"freehire:shu-ju-ji-zhu-ji-chan-pin-bu-shu-ju-yan-fa-gong-cheng-shi-shu-ju-zi-chan-llm-agent-fang-xiang-alibaba-group-auex5wox","candidate_seq":1514,"reason_code":"authoritative_route_verification_transient","attempts":1,"next_retry_at":"2026-11-03T07:15:00+08:00","company":"Alibaba Group","title":"数据技术及产品部-数据研发工程师-数据资产 / LLM Agent 方向","source_url":"https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100018760001"},
+    {"role_key":"freehire:dou-yin-feng-kong-ji-zuo-mo-xing-suan-fa-gong-cheng-shi-llm-agentic-aifang-xiang-data-bytedance-cbmdm37d","candidate_seq":1521,"reason_code":"authoritative_route_verification_transient","attempts":1,"next_retry_at":"2026-11-03T07:15:00+08:00","company":"ByteDance","title":"抖音风控基座模型算法工程师（LLM & Agentic AI方向）-Data","source_url":"https://jobs.bytedance.com/experienced/position/7658298540355193141/detail"}
   ]
 }
