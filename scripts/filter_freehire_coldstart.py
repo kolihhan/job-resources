@@ -33,6 +33,18 @@ def _exact_match(candidate: dict, strong_urls: set[str], freehire_slugs: set[str
     return False, None
 
 
+def _count_map(value: object) -> dict[str, int]:
+    if not isinstance(value, dict):
+        return {}
+    result: dict[str, int] = {}
+    for key, count in value.items():
+        try:
+            result[str(key)] = int(count)
+        except (TypeError, ValueError):
+            continue
+    return result
+
+
 def filter_coldstart(coldstart: dict, known: dict, generated_at: str) -> dict:
     strong = known.get("strong") if isinstance(known.get("strong"), dict) else {}
     weak = known.get("weak") if isinstance(known.get("weak"), dict) else {}
@@ -83,6 +95,10 @@ def filter_coldstart(coldstart: dict, known: dict, generated_at: str) -> dict:
         "version": 1,
         "generated_at": generated_at,
         "source_generated_at": coldstart.get("generated_at"),
+        "raw_counts": _count_map(coldstart.get("raw_counts")),
+        "title_hard_drop_counts": _count_map(coldstart.get("title_hard_drop_counts")),
+        "machine_candidate_counts": _count_map(coldstart.get("counts")),
+        "machine_matched_counts": _count_map(coldstart.get("matched_counts")),
         "source_count": source_count,
         "known_exact_count": known_exact_count,
         "suspected_known_count": suspected_known_count,
@@ -126,6 +142,9 @@ def main(argv: list[str] | None = None) -> int:
     print(
         json.dumps(
             {
+                "raw_counts": result["raw_counts"],
+                "title_hard_drop_counts": result["title_hard_drop_counts"],
+                "machine_candidate_counts": result["machine_candidate_counts"],
                 "source_count": result["source_count"],
                 "known_exact_count": result["known_exact_count"],
                 "suspected_known_count": result["suspected_known_count"],
