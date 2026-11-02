@@ -1,0 +1,28 @@
+name: Known Role Index
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tests/test_known_role_index.py'
+      - 'scripts/build_known_role_index.py'
+      - '.github/workflows/known-role-index.yml'
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+
+      - name: Run known-role index tests
+        run: python -m unittest tests/test_known_role_index.py -v
