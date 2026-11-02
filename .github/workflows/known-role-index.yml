@@ -53,12 +53,27 @@ jobs:
             --known discovery-state/known-role-index.json \
             --output discovery-state/freehire-coldstart.json
 
+      - name: Write compact funnel summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          source = Path('discovery-state/freehire-coldstart.json')
+          data = json.loads(source.read_text(encoding='utf-8'))
+          summary = {key: value for key, value in data.items() if key != 'candidates'}
+          Path('discovery-state/freehire-coldstart-summary.json').write_text(
+              json.dumps(summary, ensure_ascii=False, indent=2, sort_keys=True) + '\n',
+              encoding='utf-8',
+          )
+          PY
+
       - name: Publish derived discovery state
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add discovery-state/known-role-index.json discovery-state/freehire-coldstart.json
+          git add discovery-state/known-role-index.json discovery-state/freehire-coldstart.json discovery-state/freehire-coldstart-summary.json
           if git diff --cached --quiet; then
             echo "Derived discovery state unchanged."
             exit 0
