@@ -7,13 +7,19 @@ on:
       - 'tests/test_known_role_index.py'
       - 'scripts/build_known_role_index.py'
       - '.github/workflows/known-role-index.yml'
+  schedule:
+    - cron: '52 * * * *'
 
 permissions:
-  contents: read
+  contents: write
   issues: read
 
+concurrency:
+  group: known-role-index
+  cancel-in-progress: false
+
 jobs:
-  test:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -26,3 +32,21 @@ jobs:
 
       - name: Run known-role index tests
         run: python -m unittest tests/test_known_role_index.py -v
+
+      - name: Build index from all GitHub Issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_known_role_index.py
+
+      - name: Publish derived index
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add discovery-state/known-role-index.json
+          if git diff --cached --quiet; then
+            echo "Known-role index unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh known-role index [skip ci]"
+          git push
