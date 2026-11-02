@@ -5,6 +5,7 @@ import unittest
 
 SCRIPTS = Path(__file__).parents[1] / "scripts"
 SCRIPT = SCRIPTS / "filter_freehire_coldstart.py"
+QUEUE_SCRIPT = SCRIPTS / "build_freehire_review_queue.py"
 
 
 class FreeHireColdStartFilterTests(unittest.TestCase):
@@ -86,6 +87,55 @@ class FreeHireColdStartFilterTests(unittest.TestCase):
         self.assertEqual(result["markets"]["SG"]["unseen"], 1)
         self.assertEqual(result["markets"]["CN"]["known_exact"], 1)
         self.assertEqual(result["markets"]["MY"]["suspected_known"], 1)
+
+
+class FreeHireReviewQueueTests(unittest.TestCase):
+    def _load_module(self):
+        self.assertTrue(QUEUE_SCRIPT.exists(), "scripts/build_freehire_review_queue.py is required")
+        spec = importlib.util.spec_from_file_location("build_freehire_review_queue", QUEUE_SCRIPT)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod
+
+    def test_sequences_are_stable_across_reorder_and_batches_follow_market_cursor(self):
+        mod = self._load_module()
+        coldstart = {
+            "source_generated_at": "2026-11-03T00:00:00Z",
+            "candidates": [
+                {"market": "SG", "public_slug": "sg-a", "company": "A", "title": "AI Engineer"},
+                {"market": "SG", "public_slug": "sg-b", "company": "B", "title": "LLM Engineer"},
+                {"market": "CN", "public_slug": "cn-a", "company": "C", "title": "Agent Engineer"},
+                {"market": "MY", "public_slug": "my-a", "company": "D", "title": "Research Engineer", "known_status": "suspected_known"},
+            ],
+        }
+        cursors = {
+            "SG": {"last_consumed_candidate_seq": 0},
+            "CN": {"last_consumed_candidate_seq": 0},
+            "MY": {"last_consumed_candidate_seq": 0},
+        }
+
+        registry, batches = mod.build_batches(coldstart, registry=None, cursors=cursors, batch_size=1)
+        self.assertEqual(registry["next_candidate_seq"], 5)
+        self.assertEqual(batches["SG"]["candidates"][0]["public_slug"], "sg-a")
+        self.assertEqual(batches["SG"]["candidates"][0]["candidate_seq"], 1)
+        self.assertEqual(batches["CN"]["candidates"][0]["candidate_seq"], 3)
+        self.assertEqual(batches["MY"]["candidates"][0]["known_status"], "suspected_known")
+
+        reordered = dict(coldstart)
+        reordered["candidates"] = [
+            coldstart["candidates"][1],
+            coldstart["candidates"][0],
+            coldstart["candidates"][3],
+            coldstart["candidates"][2],
+        ]
+        cursors["SG"]["last_consumed_candidate_seq"] = 1
+        registry2, batches2 = mod.build_batches(reordered, registry=registry, cursors=cursors, batch_size=2)
+
+        self.assertEqual(registry2["roles"]["freehire:sg-a"]["candidate_seq"], 1)
+        self.assertEqual(registry2["roles"]["freehire:sg-b"]["candidate_seq"], 2)
+        self.assertEqual([c["public_slug"] for c in batches2["SG"]["candidates"]], ["sg-b"])
+        self.assertEqual(batches2["SG"]["cursor_before"], 1)
+        self.assertEqual(batches2["SG"]["max_candidate_seq"], 2)
 
 
 if __name__ == "__main__":
