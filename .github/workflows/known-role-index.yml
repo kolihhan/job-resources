@@ -5,7 +5,9 @@ on:
   push:
     paths:
       - 'tests/test_known_role_index.py'
+      - 'tests/test_filter_freehire_coldstart.py'
       - 'scripts/build_known_role_index.py'
+      - 'scripts/filter_freehire_coldstart.py'
       - '.github/workflows/known-role-index.yml'
   schedule:
     - cron: '52 * * * *'
@@ -30,8 +32,8 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Run known-role index tests
-        run: python -m unittest tests/test_known_role_index.py -v
+      - name: Run derived-state tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
 
       - name: Build index from all GitHub Issues
         env:
