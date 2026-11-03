@@ -76,18 +76,42 @@ jobs:
       - name: Publish derived discovery state
         shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            discovery-state/known-role-index.json \
-            discovery-state/freehire-coldstart.json \
-            discovery-state/freehire-coldstart-summary.json \
-            discovery-state/freehire-review-registry.json
-          git add -A discovery-state/freehire-batch-*.json
-          if git diff --cached --quiet; then
-            echo "Derived discovery state unchanged."
-            exit 0
-          fi
-          git commit -m "chore: refresh discovery dedupe state [skip ci]"
-          git pull --rebase origin main
-          git push
+
+          snapshot="$(mktemp -d)"
+          mkdir -p "$snapshot/state"
+          cp discovery-state/known-role-index.json "$snapshot/state/"
+          cp discovery-state/freehire-coldstart.json "$snapshot/state/"
+          cp discovery-state/freehire-coldstart-summary.json "$snapshot/state/"
+          cp discovery-state/freehire-review-registry.json "$snapshot/state/"
+          cp discovery-state/freehire-batch-*.json "$snapshot/state/"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+
+            rm -f discovery-state/freehire-batch-*.json
+            cp "$snapshot/state/known-role-index.json" discovery-state/
+            cp "$snapshot/state/freehire-coldstart.json" discovery-state/
+            cp "$snapshot/state/freehire-coldstart-summary.json" discovery-state/
+            cp "$snapshot/state/freehire-review-registry.json" discovery-state/
+            cp "$snapshot/state"/freehire-batch-*.json discovery-state/
+
+            git add -A discovery-state
+            if git diff --cached --quiet; then
+              echo "Derived discovery state unchanged."
+              exit 0
+            fi
+
+            git commit -m "chore: refresh discovery dedupe state [skip ci]"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push raced with main update; retrying from latest main (attempt $attempt/3)."
+          done
+
+          echo "Failed to publish derived discovery state after 3 attempts."
+          exit 1
