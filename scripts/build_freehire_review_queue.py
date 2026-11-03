@@ -14,6 +14,7 @@ _DEFAULT_SHARD_SIZE = 25  # record-count ceiling; byte budget is the safety boun
 _DEFAULT_MAX_SHARD_BYTES = 8_000
 _TRANSPORT_FIELDS = (
     "market",
+    "public_slug",
     "company",
     "title",
     "location",
