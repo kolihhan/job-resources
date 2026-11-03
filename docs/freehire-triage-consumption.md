@@ -12,7 +12,7 @@ The public `kolihhan/freehirefetch` collector periodically performs a full curre
 2. subtracts only strong historical matches from the current FreeHire cold-start set;
 3. preserves weak company/title matches as `suspected_known` rather than suppressing them;
 4. assigns a stable private `candidate_seq` to each FreeHire `public_slug`;
-5. publishes one bounded 100-candidate head batch per market.
+5. publishes one bounded 100-candidate head batch per market as a small manifest plus connector-safe 25-candidate shards.
 
 Hourly scouts reason over those bounded market batches instead of raw FreeHire sequence pages or the multi-megabyte cold-start file.
 
@@ -23,10 +23,9 @@ These files are machine-efficiency state only. They are not a second human oppor
 Derived by the hourly repo workflow:
 
 - `discovery-state/freehire-review-registry.json`
-- `discovery-state/freehire-batch-sg.json`
-- `discovery-state/freehire-batch-cn.json`
-- `discovery-state/freehire-batch-my.json`
-- `discovery-state/freehire-coldstart-summary.json`
+- `discovery-state/freehire-batch-sg.json`, `freehire-batch-cn.json`, `freehire-batch-my.json` — small manifests only;
+- `discovery-state/freehire-batch-<market>-01.json` through the manifest-listed shard files — candidate payload, at most 25 candidates each;
+- `discovery-state/freehire-coldstart-summary.json`.
 
 Market-owned mutable state:
 
@@ -82,7 +81,11 @@ Resolve/remove a receipt when the role becomes an exact historical duplicate, re
 
 ### 2. Current bounded batch
 
-Read only the market's `freehire-batch-<market>.json`. Process candidates in ascending `candidate_seq`. The generated batch contains at most 100 candidates.
+First read only the market manifest `discovery-state/freehire-batch-<market>.json`. It contains batch metadata plus an ordered `shards` list and no candidate payload.
+
+Then read every listed shard, in manifest order. Each shard contains at most 25 candidates and is small enough for reliable connector reads. Process all shard candidates in ascending `candidate_seq`. The aggregate manifest batch contains at most 100 candidates.
+
+If any manifest-listed shard is missing, truncated, unreadable, or its candidate count does not reconcile with the manifest, treat that as an infrastructure blocker for FreeHire cursor advancement; do not pretend the unread portion was processed.
 
 For each candidate:
 
@@ -119,9 +122,9 @@ A failure to persist the retry receipt itself is an infrastructure blocker: do n
 
 `triage-<market>.json` stores `last_consumed_candidate_seq`.
 
-After the batch:
+After the aggregate manifest batch:
 
-- advance to the highest processed batch `candidate_seq` only when every earlier candidate in that market batch was either terminally handled, durably handed off to an Issue, or durably moved into retry state;
+- advance to the highest processed batch `candidate_seq` only when every earlier candidate across all listed shards was either terminally handled, durably handed off to an Issue, or durably moved into retry state;
 - persist the cursor and retry file separately;
 - read both back before claiming the FreeHire phase completed.
 
@@ -143,4 +146,4 @@ Fresh discovery and FreeHire triage have separate metrics.
 
 The current consumer is built from the full-current FreeHire cold-start snapshot because that snapshot contains enough substantive job text to avoid the recall loss of the old compact event log. The public raw event log remains available for audit/rebuild.
 
-A future public cross-source triage event feed may replace this bridge once canonical identity-v2 and additional ATS adapters are proven. The private cursor/retry semantics should remain compatible: bounded candidate batches, strong-history suppression, weak suspicion only, and non-blocking retries.
+A future public cross-source triage event feed may replace this bridge once canonical identity-v2 and additional ATS adapters are proven. The private cursor/retry semantics should remain compatible: bounded candidate batches, strong-history suppression, weak suspicion only, connector-safe shards, and non-blocking retries.
