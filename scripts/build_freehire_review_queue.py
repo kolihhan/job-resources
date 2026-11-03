@@ -11,6 +11,28 @@ import tempfile
 _MARKETS = ("SG", "CN", "MY")
 _DEFAULT_BATCH_SIZE = 100
 _DEFAULT_SHARD_SIZE = 25
+_TRANSPORT_FIELDS = (
+    "market",
+    "public_slug",
+    "company",
+    "title",
+    "location",
+    "source",
+    "source_url",
+    "freehire_url",
+    "external_id",
+    "identity",
+    "known_status",
+    "known_match_basis",
+    "ai_score",
+    "ai_signals",
+    "flags",
+    "employment_type",
+    "posted_at",
+    "created_at",
+    "event_kind",
+    "event_seq",
+)
 
 
 def _role_key(candidate: dict) -> str | None:
@@ -26,6 +48,10 @@ def _seq(value: object, default: int = 0) -> int:
     except (TypeError, ValueError):
         return default
     return max(default, parsed)
+
+
+def _compact_candidate(candidate: dict) -> dict:
+    return {key: candidate.get(key) for key in _TRANSPORT_FIELDS if key in candidate}
 
 
 def _normalize_registry(registry: dict | None) -> dict:
@@ -91,7 +117,7 @@ def build_batches(
             roles[role_key] = record
             next_candidate_seq += 1
 
-        candidate = dict(source_candidate)
+        candidate = _compact_candidate(source_candidate)
         candidate["role_key"] = role_key
         candidate["candidate_seq"] = record["candidate_seq"]
         current[role_key] = (record["candidate_seq"], candidate)
@@ -117,7 +143,8 @@ def build_batches(
         selected = [candidate for _, candidate in available[:batch_size]]
         max_candidate_seq = max((candidate["candidate_seq"] for candidate in selected), default=cursor)
         batches[market] = {
-            "version": 1,
+            "version": 2,
+            "transport": "compact_metadata_v1",
             "generated_at": normalized["generated_at"],
             "source_generated_at": coldstart.get("source_generated_at"),
             "market": market,
@@ -144,7 +171,8 @@ def shard_batch(batch: dict, shard_size: int = _DEFAULT_SHARD_SIZE) -> tuple[dic
         seqs = [_seq(candidate.get("candidate_seq")) for candidate in shard_candidates if isinstance(candidate, dict)]
         shards.append(
             {
-                "version": 1,
+                "version": batch.get("version", 2),
+                "transport": batch.get("transport", "compact_metadata_v1"),
                 "generated_at": batch.get("generated_at"),
                 "source_generated_at": batch.get("source_generated_at"),
                 "market": market,
