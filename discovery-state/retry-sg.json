@@ -1,9 +1,6 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-03T20:00:00+08:00",
-  "receipts": [
-    {"role_key":"freehire:ai-driven-full-stack-developer-llms-cloud-phillip-securities-pte-ltd-eunkarzm","candidate_seq":60,"reason_code":"requirements_verification_transient","attempts":2,"next_retry_at":"2026-11-03T20:05:00+08:00","company":"Phillip Securities","title":"AI-Driven Full Stack Developer — LLMs & Cloud","source_url":"https://en-sg.whatjobs.com/pub_api__cpl__94379407__7119"},
-    {"role_key":"freehire:senior-llm-data-scientist-real-time-ai-big-data-agoda-company-pte-ltd-u4hdexfr","candidate_seq":64,"reason_code":"requirements_verification_transient","attempts":2,"next_retry_at":"2026-11-03T20:05:00+08:00","company":"Agoda","title":"Senior LLM Data Scientist - Real-time AI & Big Data","source_url":"https://en-sg.whatjobs.com/pub_api__cpl__94036733__7119"}
-  ]
+  "updated_at": "2026-11-03T21:03:59+08:00",
+  "receipts": []
 }
