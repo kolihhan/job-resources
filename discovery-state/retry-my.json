@@ -1,6 +1,27 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T01:23:10+08:00",
-  "receipts": []
+  "updated_at": "2026-11-04T06:25:00+08:00",
+  "receipts": [
+    {
+      "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
+      "candidate_seq": 2505,
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T07:20:00+08:00",
+      "company": "Curlec by Razorpay",
+      "title": "AI-Driven DevOps Engineer — Cloud, Kubernetes & Automation",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903359__7112"
+    },
+    {
+      "role_key": "freehire:gen-ai-engineer-lavu-tech-solutions-2cqjvi4u",
+      "candidate_seq": 2510,
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T07:20:00+08:00",
+      "company": "Lavu Tech Solutions",
+      "title": "Gen AI Engineer",
+      "source_url": "https://my.jobstreet.com/job/94846738"
+    }
+  ]
 }
