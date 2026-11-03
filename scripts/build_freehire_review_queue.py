@@ -10,6 +10,7 @@ import tempfile
 
 _MARKETS = ("SG", "CN", "MY")
 _DEFAULT_BATCH_SIZE = 100
+_DEFAULT_SHARD_SIZE = 25
 
 
 def _role_key(candidate: dict) -> str | None:
@@ -131,6 +132,37 @@ def build_batches(
     return normalized, batches
 
 
+def shard_batch(batch: dict, shard_size: int = _DEFAULT_SHARD_SIZE) -> tuple[dict, list[dict]]:
+    if shard_size <= 0:
+        raise ValueError("shard_size must be positive")
+
+    candidates = batch.get("candidates") if isinstance(batch.get("candidates"), list) else []
+    market = str(batch.get("market") or "").upper()
+    shards: list[dict] = []
+    for offset in range(0, len(candidates), shard_size):
+        shard_candidates = candidates[offset : offset + shard_size]
+        seqs = [_seq(candidate.get("candidate_seq")) for candidate in shard_candidates if isinstance(candidate, dict)]
+        shards.append(
+            {
+                "version": 1,
+                "generated_at": batch.get("generated_at"),
+                "source_generated_at": batch.get("source_generated_at"),
+                "market": market,
+                "shard_index": len(shards) + 1,
+                "candidate_count": len(shard_candidates),
+                "min_candidate_seq": min(seqs) if seqs else batch.get("cursor_before"),
+                "max_candidate_seq": max(seqs) if seqs else batch.get("cursor_before"),
+                "candidates": shard_candidates,
+            }
+        )
+
+    manifest = {key: value for key, value in batch.items() if key != "candidates"}
+    manifest["shard_size"] = shard_size
+    manifest["shard_count"] = len(shards)
+    manifest["shards"] = [f"freehire-batch-{market.lower()}-{index:02d}.json" for index in range(1, len(shards) + 1)]
+    return manifest, shards
+
+
 def _read_json(path: Path, default: dict) -> dict:
     if not path.exists():
         return default
@@ -156,12 +188,25 @@ def _atomic_write_json(path: Path, payload: dict) -> None:
         raise
 
 
+def _write_sharded_batch(state_dir: Path, market: str, batch: dict, shard_size: int) -> dict:
+    market_key = market.lower()
+    for stale in state_dir.glob(f"freehire-batch-{market_key}-[0-9][0-9].json"):
+        stale.unlink()
+
+    manifest, shards = shard_batch(batch, shard_size=shard_size)
+    _atomic_write_json(state_dir / f"freehire-batch-{market_key}.json", manifest)
+    for index, shard in enumerate(shards, start=1):
+        _atomic_write_json(state_dir / f"freehire-batch-{market_key}-{index:02d}.json", shard)
+    return manifest
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--coldstart", default="discovery-state/freehire-coldstart.json")
     parser.add_argument("--registry", default="discovery-state/freehire-review-registry.json")
     parser.add_argument("--state-dir", default="discovery-state")
     parser.add_argument("--batch-size", type=int, default=_DEFAULT_BATCH_SIZE)
+    parser.add_argument("--shard-size", type=int, default=_DEFAULT_SHARD_SIZE)
     args = parser.parse_args(argv)
 
     state_dir = Path(args.state_dir)
@@ -180,8 +225,10 @@ def main(argv: list[str] | None = None) -> int:
         batch_size=args.batch_size,
     )
     _atomic_write_json(registry_path, new_registry)
-    for market, batch in batches.items():
-        _atomic_write_json(state_dir / f"freehire-batch-{market.lower()}.json", batch)
+    manifests = {
+        market: _write_sharded_batch(state_dir, market, batch, shard_size=args.shard_size)
+        for market, batch in batches.items()
+    }
 
     print(
         json.dumps(
@@ -191,12 +238,13 @@ def main(argv: list[str] | None = None) -> int:
                 "missing_identity_count": new_registry["missing_identity_count"],
                 "batches": {
                     market: {
-                        "cursor_before": batch["cursor_before"],
-                        "candidate_count": batch["candidate_count"],
-                        "remaining_after_batch": batch["remaining_after_batch"],
-                        "max_candidate_seq": batch["max_candidate_seq"],
+                        "cursor_before": manifest["cursor_before"],
+                        "candidate_count": manifest["candidate_count"],
+                        "remaining_after_batch": manifest["remaining_after_batch"],
+                        "max_candidate_seq": manifest["max_candidate_seq"],
+                        "shard_count": manifest["shard_count"],
                     }
-                    for market, batch in batches.items()
+                    for market, manifest in manifests.items()
                 },
             },
             sort_keys=True,
