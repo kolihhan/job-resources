@@ -87,13 +87,13 @@ Tier 3 helps discover gaps; it does not drive the queue. The market target-compa
 
 FreeHire is a broad upstream radar, not the human job queue and no longer the primary source for any market.
 
-The active downstream path is defined in `docs/freehire-triage-consumption.md`:
+The **only active downstream FreeHire execution contract** is `docs/freehire-triage-consumption.md`. It owns the current batch size, byte-bounded transport, retry/deferred behavior, deep-JD budget, reject-audit recall checks, and cursor rules. Do not duplicate those numbers here or in other discovery docs.
 
-`full current FreeHire scan → conservative machine candidate set → private strong known-role dedupe → stable candidate_seq → bounded 30-candidate market batch → hourly scout`
+Conceptually the path is:
 
-Each market scout reads only its own `discovery-state/freehire-batch-<market>.json`, plus its `triage-<market>.json` cursor and `retry-<market>.json` receipts. Weak company/title history matches are suspicion only; they never auto-suppress. A transient verification failure becomes a durable retry receipt so later candidates can continue.
+`full current FreeHire scan with substantive JD text → conservative machine candidate set → private strong-history dedupe → stable candidate_seq → compact metadata transport → hourly cheap screen → authoritative JD only when needed → APPLY/CHECK or terminal/retry disposition`
 
-The old raw `feed/pages/*.jsonl` watermark recovery path is superseded for normal hourly execution and retained only for audit/rebuild history in `docs/freehire-gap-recovery.md`.
+Weak company/title history matches are suspicion only; they never auto-suppress. The old raw `feed/pages/*.jsonl` watermark recovery path is superseded for normal hourly execution and retained only for audit/rebuild history in `docs/freehire-gap-recovery.md`.
 
 ### Market sourcing
 
@@ -113,7 +113,7 @@ Target lists prioritize search effort, not eligibility. An excellent exact role 
 - Recruiting Signal Watch — hourly over both Gmail accounts; substantive lifecycle signals update the canonical Issue and preserve `Furthest stage`.
 - AI Job Strategy Review — **daily** across all six battlefields; controlled learning may update only the bounded adaptive-memory block in `PROFILE.md` when the evidence threshold is met.
 
-Hourly scouts execute two independent discovery phases: the normal first-party/native fresh-platform rotation, then the bounded FreeHire triage/retry batch. They may search/verify/dedupe, create a **new verified APPLY/CHECK Issue**, and update only their market-owned compact discovery cursor/retry/cache state. They do not submit applications, contact employers, modify Gmail, or automatically modify/close/reopen existing opportunity Issues.
+Hourly scouts execute two independent discovery phases: the normal first-party/native fresh-platform rotation, then FreeHire triage/retry under the canonical FreeHire contract. They may search/verify/dedupe, create a **new verified APPLY/CHECK Issue**, and update only their market-owned compact discovery cursor/retry/cache state. They do not submit applications, contact employers, modify Gmail, or automatically modify/close/reopen existing opportunity Issues.
 
 Scheduler runtime health comes from the automation system. `DISCOVERY_STATE.md` stores `last_state_change_at`, not a heartbeat; a successful no-change run should not create a commit.
 
