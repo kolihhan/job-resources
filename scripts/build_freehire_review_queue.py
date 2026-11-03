@@ -10,18 +10,16 @@ import tempfile
 
 _MARKETS = ("SG", "CN", "MY")
 _DEFAULT_BATCH_SIZE = 100
-_DEFAULT_SHARD_SIZE = 25
+_DEFAULT_SHARD_SIZE = 25  # record-count ceiling; byte budget is the safety boundary
+_DEFAULT_MAX_SHARD_BYTES = 8_000
 _TRANSPORT_FIELDS = (
     "market",
-    "public_slug",
     "company",
     "title",
     "location",
     "source",
     "source_url",
-    "freehire_url",
     "external_id",
-    "identity",
     "known_status",
     "known_match_basis",
     "ai_score",
@@ -29,9 +27,6 @@ _TRANSPORT_FIELDS = (
     "flags",
     "employment_type",
     "posted_at",
-    "created_at",
-    "event_kind",
-    "event_seq",
 )
 
 
@@ -72,11 +67,7 @@ def _normalize_registry(registry: dict | None) -> dict:
             "public_slug": str(record.get("public_slug") or ""),
         }
     next_candidate_seq = max(_seq(source.get("next_candidate_seq"), 1), max_seen + 1, 1)
-    return {
-        "version": 1,
-        "next_candidate_seq": next_candidate_seq,
-        "roles": roles,
-    }
+    return {"version": 1, "next_candidate_seq": next_candidate_seq, "roles": roles}
 
 
 def build_batches(
@@ -137,14 +128,18 @@ def build_batches(
             else 0
         )
         available = sorted(
-            (pair for pair in current.values() if str(pair[1].get("market") or "").upper() == market and pair[0] > cursor),
+            (
+                pair
+                for pair in current.values()
+                if str(pair[1].get("market") or "").upper() == market and pair[0] > cursor
+            ),
             key=lambda pair: pair[0],
         )
         selected = [candidate for _, candidate in available[:batch_size]]
         max_candidate_seq = max((candidate["candidate_seq"] for candidate in selected), default=cursor)
         batches[market] = {
-            "version": 2,
-            "transport": "compact_metadata_v1",
+            "version": 3,
+            "transport": "compact_metadata_byte_bounded_v1",
             "generated_at": normalized["generated_at"],
             "source_generated_at": coldstart.get("source_generated_at"),
             "market": market,
@@ -159,35 +154,65 @@ def build_batches(
     return normalized, batches
 
 
-def shard_batch(batch: dict, shard_size: int = _DEFAULT_SHARD_SIZE) -> tuple[dict, list[dict]]:
+def _make_shard(batch: dict, market: str, shard_index: int, candidates: list[dict]) -> dict:
+    seqs = [_seq(candidate.get("candidate_seq")) for candidate in candidates if isinstance(candidate, dict)]
+    return {
+        "version": batch.get("version", 3),
+        "transport": batch.get("transport", "compact_metadata_byte_bounded_v1"),
+        "generated_at": batch.get("generated_at"),
+        "source_generated_at": batch.get("source_generated_at"),
+        "market": market,
+        "shard_index": shard_index,
+        "candidate_count": len(candidates),
+        "min_candidate_seq": min(seqs) if seqs else batch.get("cursor_before"),
+        "max_candidate_seq": max(seqs) if seqs else batch.get("cursor_before"),
+        "candidates": candidates,
+    }
+
+
+def _serialized_size(payload: dict) -> int:
+    return len(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True).encode("utf-8"))
+
+
+def shard_batch(
+    batch: dict,
+    shard_size: int = _DEFAULT_SHARD_SIZE,
+    max_shard_bytes: int = _DEFAULT_MAX_SHARD_BYTES,
+) -> tuple[dict, list[dict]]:
     if shard_size <= 0:
         raise ValueError("shard_size must be positive")
+    if max_shard_bytes <= 0:
+        raise ValueError("max_shard_bytes must be positive")
 
     candidates = batch.get("candidates") if isinstance(batch.get("candidates"), list) else []
     market = str(batch.get("market") or "").upper()
     shards: list[dict] = []
-    for offset in range(0, len(candidates), shard_size):
-        shard_candidates = candidates[offset : offset + shard_size]
-        seqs = [_seq(candidate.get("candidate_seq")) for candidate in shard_candidates if isinstance(candidate, dict)]
-        shards.append(
-            {
-                "version": batch.get("version", 2),
-                "transport": batch.get("transport", "compact_metadata_v1"),
-                "generated_at": batch.get("generated_at"),
-                "source_generated_at": batch.get("source_generated_at"),
-                "market": market,
-                "shard_index": len(shards) + 1,
-                "candidate_count": len(shard_candidates),
-                "min_candidate_seq": min(seqs) if seqs else batch.get("cursor_before"),
-                "max_candidate_seq": max(seqs) if seqs else batch.get("cursor_before"),
-                "candidates": shard_candidates,
-            }
-        )
+    current: list[dict] = []
+
+    for candidate in candidates:
+        proposed = current + [candidate]
+        proposed_payload = _make_shard(batch, market, len(shards) + 1, proposed)
+        if current and (len(proposed) > shard_size or _serialized_size(proposed_payload) > max_shard_bytes):
+            shards.append(_make_shard(batch, market, len(shards) + 1, current))
+            current = [candidate]
+        else:
+            current = proposed
+
+        singleton_or_current = _make_shard(batch, market, len(shards) + 1, current)
+        if _serialized_size(singleton_or_current) > max_shard_bytes:
+            seq = candidate.get("candidate_seq") if isinstance(candidate, dict) else None
+            raise ValueError(f"candidate_seq {seq} exceeds max_shard_bytes={max_shard_bytes}")
+
+    if current:
+        shards.append(_make_shard(batch, market, len(shards) + 1, current))
 
     manifest = {key: value for key, value in batch.items() if key != "candidates"}
     manifest["shard_size"] = shard_size
+    manifest["max_shard_bytes"] = max_shard_bytes
     manifest["shard_count"] = len(shards)
-    manifest["shards"] = [f"freehire-batch-{market.lower()}-{index:02d}.json" for index in range(1, len(shards) + 1)]
+    manifest["shards"] = [
+        f"freehire-batch-{market.lower()}-{index:02d}.json" for index in range(1, len(shards) + 1)
+    ]
     return manifest, shards
 
 
@@ -216,12 +241,18 @@ def _atomic_write_json(path: Path, payload: dict) -> None:
         raise
 
 
-def _write_sharded_batch(state_dir: Path, market: str, batch: dict, shard_size: int) -> dict:
+def _write_sharded_batch(
+    state_dir: Path,
+    market: str,
+    batch: dict,
+    shard_size: int,
+    max_shard_bytes: int,
+) -> dict:
     market_key = market.lower()
-    for stale in state_dir.glob(f"freehire-batch-{market_key}-[0-9][0-9].json"):
+    for stale in state_dir.glob(f"freehire-batch-{market_key}-*.json"):
         stale.unlink()
 
-    manifest, shards = shard_batch(batch, shard_size=shard_size)
+    manifest, shards = shard_batch(batch, shard_size=shard_size, max_shard_bytes=max_shard_bytes)
     _atomic_write_json(state_dir / f"freehire-batch-{market_key}.json", manifest)
     for index, shard in enumerate(shards, start=1):
         _atomic_write_json(state_dir / f"freehire-batch-{market_key}-{index:02d}.json", shard)
@@ -235,6 +266,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--state-dir", default="discovery-state")
     parser.add_argument("--batch-size", type=int, default=_DEFAULT_BATCH_SIZE)
     parser.add_argument("--shard-size", type=int, default=_DEFAULT_SHARD_SIZE)
+    parser.add_argument("--max-shard-bytes", type=int, default=_DEFAULT_MAX_SHARD_BYTES)
     args = parser.parse_args(argv)
 
     state_dir = Path(args.state_dir)
@@ -254,7 +286,13 @@ def main(argv: list[str] | None = None) -> int:
     )
     _atomic_write_json(registry_path, new_registry)
     manifests = {
-        market: _write_sharded_batch(state_dir, market, batch, shard_size=args.shard_size)
+        market: _write_sharded_batch(
+            state_dir,
+            market,
+            batch,
+            shard_size=args.shard_size,
+            max_shard_bytes=args.max_shard_bytes,
+        )
         for market, batch in batches.items()
     }
 
@@ -271,6 +309,7 @@ def main(argv: list[str] | None = None) -> int:
                         "remaining_after_batch": manifest["remaining_after_batch"],
                         "max_candidate_seq": manifest["max_candidate_seq"],
                         "shard_count": manifest["shard_count"],
+                        "max_shard_bytes": manifest["max_shard_bytes"],
                     }
                     for market, manifest in manifests.items()
                 },
