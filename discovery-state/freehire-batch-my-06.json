@@ -2,216 +2,189 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 7,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning",
-        "jd:deep_learning",
-        "jd:tensorflow"
+        "title:ai"
       ],
-      "candidate_seq": 2344,
-      "company": "half the sky",
+      "candidate_seq": 2446,
+      "company": "SNSoft Sdn Bhd",
       "employment_type": null,
-      "external_id": "half-the-sky-2:L89WW63R",
+      "external_id": "6290:95517925",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Bangsar South, Kuala Lumpur",
+      "market": "MY",
+      "posted_at": "2026-10-27T04:13:49Z",
+      "public_slug": "ai-engineer-snsoft-sdn-bhd-tpmacfo4",
+      "role_key": "freehire:ai-engineer-snsoft-sdn-bhd-tpmacfo4",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95517925?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2447,
+      "company": "MerchantSpring",
+      "employment_type": null,
+      "external_id": "full stack developer:26969906",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-26T20:20:53Z",
+      "public_slug": "full-stack-engineer-ai-native-scalable-analytics-merchantspring-vpw5pyum",
+      "role_key": "freehire:full-stack-engineer-ai-native-scalable-analytics-merchantspring-vpw5pyum",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26969906__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Full-Stack Engineer – AI-Native, Scalable Analytics"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2448,
+      "company": "QNE SOFTWARE MALAYSIA SDN. BHD.",
+      "employment_type": null,
+      "external_id": "full stack developer:26965108",
       "flags": [
-        "experience_5_plus_hint",
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-25T22:21:13Z",
+      "public_slug": "senior-software-engineer-full-stack-cloud-ai-driven-qne-software-malaysia-sdn-bhd-v2gxgwuh",
+      "role_key": "freehire:senior-software-engineer-full-stack-cloud-ai-driven-qne-software-malaysia-sdn-bhd-v2gxgwuh",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26965108__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Senior Software Engineer — Full-Stack, Cloud & AI-Driven"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2449,
+      "company": "OSL",
+      "employment_type": null,
+      "external_id": "data engineer:26963258",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-25T22:21:12Z",
+      "public_slug": "senior-data-engineer-payments-funds-flow-ai-native-osl-ntgqsrwn",
+      "role_key": "freehire:senior-data-engineer-payments-funds-flow-ai-native-osl-ntgqsrwn",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26963258__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior Data Engineer, Payments & Funds-Flow (AI-Native)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2450,
+      "company": "Appnovation",
+      "employment_type": null,
+      "external_id": "full stack developer:26966020",
+      "flags": [
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-24T15:28:54Z",
-      "public_slug": "64308-machine-learning-engineer-half-the-sky-dl5r2b2p",
-      "role_key": "freehire:64308-machine-learning-engineer-half-the-sky-dl5r2b2p",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/half-the-sky-2/job/L89WW63R?utm_source=freehire.me",
-      "title": "64308 Machine Learning Engineer"
+      "posted_at": "2026-10-25T22:21:05Z",
+      "public_slug": "full-stack-developer-web-ai-integration-appnovation-elhuc3f6",
+      "role_key": "freehire:full-stack-developer-web-ai-integration-appnovation-elhuc3f6",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26966020__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Full Stack Developer (Web & AI Integration)"
     },
     {
-      "ai_score": 7,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:genai",
-        "jd:machine_learning"
+        "title:ai"
       ],
-      "candidate_seq": 2345,
-      "company": "KUKA",
+      "candidate_seq": 2451,
+      "company": "Lenovo",
       "employment_type": null,
-      "external_id": "jobs.kuka.com:1360050555",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "MY",
-      "posted_at": "2026-10-24T00:00:00Z",
-      "public_slug": "senior-ai-engineer-kuka-pzmmcwv4",
-      "role_key": "freehire:senior-ai-engineer-kuka-pzmmcwv4",
-      "source": "successfactors",
-      "source_url": "https://jobs.kuka.com/job/Petaling-Jaya-Senior-AI-Engineer-10/1360050555/?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 2346,
-      "company": "AIngineer Sdn Bhd",
-      "employment_type": null,
-      "external_id": "data engineer:26953709",
+      "external_id": "frontend developer:26965758",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-18T13:07:57Z",
-      "public_slug": "ai-engineer-rag-pipelines-multi-agent-systems-aingineer-sdn-bhd-6lgljv54",
-      "role_key": "freehire:ai-engineer-rag-pipelines-multi-agent-systems-aingineer-sdn-bhd-6lgljv54",
+      "posted_at": "2026-10-25T22:21:01Z",
+      "public_slug": "junior-ai-web-developer-secure-auth-frontend-lenovo-ckmj2il3",
+      "role_key": "freehire:junior-ai-web-developer-secure-auth-frontend-lenovo-ckmj2il3",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26953709__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "AI Engineer: RAG Pipelines & Multi-Agent Systems"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26965758__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Junior AI Web Developer - Secure Auth Frontend"
     },
     {
-      "ai_score": 7,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
+        "title:ai"
       ],
-      "candidate_seq": 2347,
-      "company": "CIMB Group Malaysia",
+      "candidate_seq": 2452,
+      "company": "Lenovo",
       "employment_type": null,
-      "external_id": "java developer:26953174",
+      "external_id": "frontend developer:26965829",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-25T22:21:01Z",
+      "public_slug": "junior-ai-driven-web-developer-lenovo-vkcjlpl7",
+      "role_key": "freehire:junior-ai-driven-web-developer-lenovo-vkcjlpl7",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26965829__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Junior AI-Driven Web Developer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2453,
+      "company": "Axonect",
+      "employment_type": null,
+      "external_id": "data engineer:26960560",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-18T13:06:56Z",
-      "public_slug": "vice-president-gt-dpp-shared-service-interface-my-senior-software-engineer-ai-solutions-cimb-group-malaysia-6lt2ryhc",
-      "role_key": "freehire:vice-president-gt-dpp-shared-service-interface-my-senior-software-engineer-ai-solutions-cimb-group-malaysia-6lt2ryhc",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26953174__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Vice President, GT-DPP, Shared Service Interface MY (Senior Software Engineer - AI Solutions)"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai",
-        "jd:rag"
-      ],
-      "candidate_seq": 2348,
-      "company": "LAVU TECH SOLUTIONS SDN. BHD.",
-      "employment_type": null,
-      "external_id": "python developer:26900452",
-      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-09T17:45:00Z",
-      "public_slug": "genai-software-engineer-lavu-tech-solutions-sdn-bhd-p5qyxytk",
-      "role_key": "freehire:genai-software-engineer-lavu-tech-solutions-sdn-bhd-p5qyxytk",
+      "posted_at": "2026-10-23T09:44:05Z",
+      "public_slug": "senior-qa-engineer-data-etl-ml-pipelines-axonect-dga6pwdp",
+      "role_key": "freehire:senior-qa-engineer-data-etl-ml-pipelines-axonect-dga6pwdp",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26900452__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "GenAI Software Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 2349,
-      "company": "CIMB",
-      "employment_type": null,
-      "external_id": "ejox.fa.ap1.oraclecloud.com/jobsearch:37205",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-09T00:00:00Z",
-      "public_slug": "vice-president-gt-dpp-shared-service-interface-my-senior-software-engineer-ai-solutions-cimb-bn7t55f3",
-      "role_key": "freehire:vice-president-gt-dpp-shared-service-interface-my-senior-software-engineer-ai-solutions-cimb-bn7t55f3",
-      "source": "oracle",
-      "source_url": "https://ejox.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/37205?utm_source=freehire.me",
-      "title": "Vice President, GT-DPP, Shared Service Interface MY (Senior Software Engineer - AI Solutions)"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai",
-        "jd:machine_learning",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 2350,
-      "company": "Asia Pacific University College of Technology & Innovation",
-      "employment_type": null,
-      "external_id": "6290:95061494",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-10-06T03:44:58Z",
-      "public_slug": "software-engineer-ai-cloud-asia-pacific-university-college-of-technology-innovation-5vytnnsf",
-      "role_key": "freehire:software-engineer-ai-cloud-asia-pacific-university-college-of-technology-innovation-5vytnnsf",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95061494?utm_source=freehire.me",
-      "title": "Software Engineer (AI/Cloud)"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai",
-        "jd:evaluation"
-      ],
-      "candidate_seq": 2351,
-      "company": "Dell",
-      "employment_type": null,
-      "external_id": "enterpriseplatform.dell.com/CX_1001:299699",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Selangor, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-06T00:00:00Z",
-      "public_slug": "senior-engineer-service-delivery-genai-hpc-engineer-dell-f6alk46a",
-      "role_key": "freehire:senior-engineer-service-delivery-genai-hpc-engineer-dell-f6alk46a",
-      "source": "oracle",
-      "source_url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/299699?utm_source=freehire.me",
-      "title": "Senior Engineer, Service Delivery (GenAI & HPC Engineer)"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26960560__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior QA Engineer - Data, ETL & ML Pipelines"
     }
   ],
-  "generated_at": "2026-11-03T06:36:14.940526Z",
+  "generated_at": "2026-11-03T12:25:39.802912Z",
   "market": "MY",
-  "max_candidate_seq": 2351,
-  "min_candidate_seq": 2344,
+  "max_candidate_seq": 2453,
+  "min_candidate_seq": 2446,
   "shard_index": 6,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

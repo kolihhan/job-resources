@@ -2,172 +2,56 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 8,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "title:ml"
+        "title:ai"
       ],
-      "candidate_seq": 2336,
-      "company": "Flextronics - The Flex Company",
+      "candidate_seq": 2438,
+      "company": "Neobankbeat",
       "employment_type": null,
-      "external_id": "data engineer:26914905",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Bayan Lepas, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-03T09:22:53Z",
-      "public_slug": "senior-ai-data-engineer-ml-pipelines-in-production-flextronics-the-flex-company-xyepaq2f",
-      "role_key": "freehire:senior-ai-data-engineer-ml-pipelines-in-production-flextronics-the-flex-company-xyepaq2f",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26914905__7112?utm_campaign=publisher&utm_medium=api&geoID=1144&utm_source=freehire.me",
-      "title": "Senior AI Data Engineer: ML Pipelines in Production"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai",
-        "jd:machine_learning",
-        "jd:agent",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 2337,
-      "company": "MY61 Nexperia Malaysia",
-      "employment_type": null,
-      "external_id": "6290:94999030",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-10-01T03:00:00Z",
-      "public_slug": "ai-engineer-my61-nexperia-malaysia-xer2ilch",
-      "role_key": "freehire:ai-engineer-my61-nexperia-malaysia-xer2ilch",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/94999030?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai",
-        "jd:machine_learning",
-        "jd:agent",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 2338,
-      "company": "nexperia",
-      "employment_type": null,
-      "external_id": "nexperia.wd3.myworkdayjobs.com/careers:/job/Kuala-Lumpur/AI-Engineer_R-20014697",
+      "external_id": "backend developer:26979250",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur",
+      "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-01T00:00:00Z",
-      "public_slug": "ai-engineer-nexperia-refnb7pv",
-      "role_key": "freehire:ai-engineer-nexperia-refnb7pv",
-      "source": "workday",
-      "source_url": "https://nexperia.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/AI-Engineer_R-20014697?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:ml"
-      ],
-      "candidate_seq": 2339,
-      "company": "Flextronics - The Flex Company",
-      "employment_type": null,
-      "external_id": "data engineer:26750910",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Malaysia",
-      "market": "MY",
-      "posted_at": "2026-08-13T10:07:40Z",
-      "public_slug": "senior-ai-data-engineer-production-ml-pipelines-flextronics-the-flex-company-pk4k5roz",
-      "role_key": "freehire:senior-ai-data-engineer-production-ml-pipelines-flextronics-the-flex-company-pk4k5roz",
+      "posted_at": "2026-10-31T18:21:53Z",
+      "public_slug": "golang-backend-engineer-crm-ai-platforms-neobankbeat-z6gwkljw",
+      "role_key": "freehire:golang-backend-engineer-crm-ai-platforms-neobankbeat-z6gwkljw",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26750910__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Senior AI Data Engineer – Production ML & Pipelines"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26979250__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Golang Backend Engineer — CRM & AI Platforms"
     },
     {
-      "ai_score": 8,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "title:ml"
+        "title:ai"
       ],
-      "candidate_seq": 2340,
-      "company": "careers.k3advisorygroup.com",
+      "candidate_seq": 2439,
+      "company": "RUNJIAN (M) SDN. BHD.",
       "employment_type": null,
-      "external_id": "careers.k3advisorygroup.com:7785284",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
+      "external_id": "backend developer:26980187",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, MY",
+      "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-05-24T15:44:36Z",
-      "public_slug": "ai-ml-engineer-careers-k3advisorygroup-com-icju6knf",
-      "role_key": "freehire:ai-ml-engineer-careers-k3advisorygroup-com-icju6knf",
-      "source": "teamtailor",
-      "source_url": "https://careers.k3advisorygroup.com/jobs/7785284-ai-ml-engineer?utm_source=freehire.me",
-      "title": "AI / ML Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:machine_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 2341,
-      "company": "Virtuos Games",
-      "employment_type": null,
-      "external_id": "backend developer:26981586",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Malaysia",
-      "market": "MY",
-      "posted_at": "2026-11-01T12:20:28Z",
-      "public_slug": "senior-ai-backend-engineer-for-enterprise-agent-platform-virtuos-games-kxheun4u",
-      "role_key": "freehire:senior-ai-backend-engineer-for-enterprise-agent-platform-virtuos-games-kxheun4u",
+      "posted_at": "2026-10-31T18:21:53Z",
+      "public_slug": "ai-driven-backend-engineer-apis-data-pipelines-runjian-m-sdn-bhd-ajekqe5j",
+      "role_key": "freehire:ai-driven-backend-engineer-apis-data-pipelines-runjian-m-sdn-bhd-ajekqe5j",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26981586__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Senior AI Backend Engineer for Enterprise Agent Platform"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26980187__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "AI-Driven Backend Engineer: APIs & Data Pipelines"
     },
     {
-      "ai_score": 7,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
+        "title:ai"
       ],
-      "candidate_seq": 2342,
-      "company": "Always Marketing Malaysia Sdn Bhd",
+      "candidate_seq": 2440,
+      "company": "Floward",
       "employment_type": null,
-      "external_id": "full stack developer:26957648",
+      "external_id": "devops engineer:26976338",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -176,44 +60,130 @@
       "known_status": "unseen",
       "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-30T02:20:17Z",
-      "public_slug": "senior-full-stack-engineer-ai-driven-retail-platform-always-marketing-malaysia-sdn-bhd-ugcnxuif",
-      "role_key": "freehire:senior-full-stack-engineer-ai-driven-retail-platform-always-marketing-malaysia-sdn-bhd-ugcnxuif",
+      "posted_at": "2026-10-30T16:22:27Z",
+      "public_slug": "senior-devops-engineer-ai-driven-infra-gitops-floward-j5olrl4l",
+      "role_key": "freehire:senior-devops-engineer-ai-driven-infra-gitops-floward-j5olrl4l",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26957648__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer, AI-Driven Retail Platform"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26976338__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior DevOps Engineer: AI-Driven Infra & GitOps"
     },
     {
-      "ai_score": 7,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning",
-        "jd:deep_learning",
-        "jd:tensorflow"
+        "title:ai"
       ],
-      "candidate_seq": 2343,
-      "company": "half the sky",
+      "candidate_seq": 2441,
+      "company": "TikTok Pte. Ltd.",
       "employment_type": null,
-      "external_id": "half-the-sky-2:L5898843",
+      "external_id": "data engineer:26977426",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-30T12:23:56Z",
+      "public_slug": "ai-safety-data-quality-engineer-early-career-tiktok-pte-ltd-22kpcvxp",
+      "role_key": "freehire:ai-safety-data-quality-engineer-early-career-tiktok-pte-ltd-22kpcvxp",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26977426__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "AI Safety & Data Quality Engineer (Early Career)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2442,
+      "company": "Sxfactor",
+      "employment_type": null,
+      "external_id": "devops engineer:26974846",
       "flags": [
-        "experience_5_plus_hint"
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "location": "Shah Alam, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-24T15:28:54Z",
-      "public_slug": "64308-machine-learning-engineer-half-the-sky-ni4pqn6f",
-      "role_key": "freehire:64308-machine-learning-engineer-half-the-sky-ni4pqn6f",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/half-the-sky-2/job/L5898843?utm_source=freehire.me",
-      "title": "64308  Machine Learning Engineer"
+      "posted_at": "2026-10-29T18:20:48Z",
+      "public_slug": "senior-devops-engineer-ai-powered-saas-on-aws-sxfactor-3gzigsc4",
+      "role_key": "freehire:senior-devops-engineer-ai-powered-saas-on-aws-sxfactor-3gzigsc4",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26974846__7112?utm_campaign=publisher&utm_medium=api&geoID=142&utm_source=freehire.me",
+      "title": "Senior DevOps Engineer—AI-Powered SaaS on AWS"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2443,
+      "company": "ABB",
+      "employment_type": null,
+      "external_id": "abb.wd3.myworkdayjobs.com/external_career_page:/job/Petaling-Jaya-Selangor-Malaysia/AI-Engineer--Electrification-Services_JR00051856",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Selangor, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "ai-engineer-electrification-services-abb-eisobxop",
+      "role_key": "freehire:ai-engineer-electrification-services-abb-eisobxop",
+      "source": "workday",
+      "source_url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Petaling-Jaya-Selangor-Malaysia/AI-Engineer--Electrification-Services_JR00051856?utm_source=freehire.me",
+      "title": "AI Engineer, Electrification Services"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2444,
+      "company": "Luxoft (old)",
+      "employment_type": null,
+      "external_id": "full stack developer:26972704",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-28T18:22:20Z",
+      "public_slug": "senior-full-stack-engineer-cloud-microservices-ai-luxoft-old-bfy6bfr4",
+      "role_key": "freehire:senior-full-stack-engineer-cloud-microservices-ai-luxoft-old-bfy6bfr4",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26972704__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer: Cloud, Microservices & AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2445,
+      "company": "GENCODE SDN BHD",
+      "employment_type": null,
+      "external_id": "full stack developer:26971289",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-27T20:21:45Z",
+      "public_slug": "full-stack-laravel-developer-api-first-ai-driven-gencode-sdn-bhd-scqu7ccy",
+      "role_key": "freehire:full-stack-laravel-developer-api-first-ai-driven-gencode-sdn-bhd-scqu7ccy",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26971289__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Full-Stack Laravel Developer — API-first & AI-Driven"
     }
   ],
-  "generated_at": "2026-11-03T06:36:14.940526Z",
+  "generated_at": "2026-11-03T12:25:39.802912Z",
   "market": "MY",
-  "max_candidate_seq": 2343,
-  "min_candidate_seq": 2336,
+  "max_candidate_seq": 2445,
+  "min_candidate_seq": 2438,
   "shard_index": 5,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

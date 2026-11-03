@@ -1,72 +1,92 @@
 {
-  "candidate_count": 7,
+  "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 11,
+      "ai_score": 9,
       "ai_signals": [
         "title:ai",
         "title:ml",
-        "jd:llm",
-        "jd:genai",
         "jd:agent"
       ],
-      "candidate_seq": 101,
-      "company": "Apple",
-      "employment_type": "full_time",
-      "external_id": ":200690917",
+      "candidate_seq": 206,
+      "company": "NTT SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":7895f2139b3e3697fe16dcfa17f6180c",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "ml-ai-engineer-fraud-analytics-model-government-project-ntt-singapore-pte-ltd-rdwpadyw",
+      "role_key": "freehire:ml-ai-engineer-fraud-analytics-model-government-project-ntt-singapore-pte-ltd-rdwpadyw",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/7895f2139b3e3697fe16dcfa17f6180c?utm_source=freehire.me",
+      "title": "ML/AI Engineer (Fraud Analytics Model) - Government Project"
+    },
+    {
+      "ai_score": 9,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "jd:agent"
+      ],
+      "candidate_seq": 207,
+      "company": "JOBSTER PRIVATE LTD.",
+      "employment_type": null,
+      "external_id": ":2635377b4ccb9631ea683a3463d93369",
       "flags": [
         "senior_title_hint",
-        "experience_5_plus_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-22T21:43:50Z",
-      "public_slug": "apple-media-products-senior-machine-learning-engineer-language-ai-apple-65f2oat7",
-      "role_key": "freehire:apple-media-products-senior-machine-learning-engineer-language-ai-apple-65f2oat7",
-      "source": "apple",
-      "source_url": "https://jobs.apple.com/en-us/details/200690917/apple-media-products-senior-machine-learning-engineer-language-ai?utm_source=freehire.me",
-      "title": "Apple Media Products - Senior Machine Learning Engineer, Language AI"
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "senior-ml-ai-engineer-1731-jobster-private-ltd-lsah57mn",
+      "role_key": "freehire:senior-ml-ai-engineer-1731-jobster-private-ltd-lsah57mn",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/2635377b4ccb9631ea683a3463d93369?utm_source=freehire.me",
+      "title": "Senior ML/AI Engineer - #1731"
     },
     {
-      "ai_score": 11,
+      "ai_score": 9,
       "ai_signals": [
-        "title:llm",
         "title:ai",
-        "jd:agent",
-        "jd:rag"
+        "title:ml",
+        "jd:agent"
       ],
-      "candidate_seq": 102,
-      "company": "Quesscorp Singapore Pte Ltd",
+      "candidate_seq": 208,
+      "company": "JOBSTER PRIVATE LTD.",
       "employment_type": null,
-      "external_id": "data engineer:93717994",
-      "flags": [],
+      "external_id": ":33e54b262321856cf1315322f5cb2e0c",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-21T18:43:40Z",
-      "public_slug": "data-engineer-ai-etl-aws-glue-airflow-llm-quesscorp-singapore-pte-ltd-gd6iajsk",
-      "role_key": "freehire:data-engineer-ai-etl-aws-glue-airflow-llm-quesscorp-singapore-pte-ltd-gd6iajsk",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93717994__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Data Engineer (AI) - (ETL, AWS Glue, Airflow, LLM)"
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "senior-ml-ai-engineer-1733-jobster-private-ltd-7hc5oclg",
+      "role_key": "freehire:senior-ml-ai-engineer-1733-jobster-private-ltd-7hc5oclg",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/33e54b262321856cf1315322f5cb2e0c?utm_source=freehire.me",
+      "title": "Senior ML/AI Engineer - #1733"
     },
     {
-      "ai_score": 11,
+      "ai_score": 9,
       "ai_signals": [
         "title:ai",
-        "title:agent",
-        "jd:agent",
-        "jd:rag",
-        "jd:evaluation"
+        "title:ml",
+        "jd:machine_learning"
       ],
-      "candidate_seq": 103,
-      "company": "ELLIOTT MOSS CONSULTING PTE. LTD.",
+      "candidate_seq": 209,
+      "company": "KEYSIGHT TECHNOLOGIES SINGAPORE (SALES) PTE. LTD.",
       "employment_type": null,
-      "external_id": ":484629c36ee307ded9894bd6632635e9",
+      "external_id": ":9aa7446b0ab90ea8fe606ea2dce3a43f",
       "flags": [
         "experience_5_plus_hint"
       ],
@@ -74,128 +94,120 @@
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-20T00:00:00Z",
-      "public_slug": "it-application-support-specialist-l2-agentic-ai-engineer-elliott-moss-consulting-pte-ltd-laqnocv3",
-      "role_key": "freehire:it-application-support-specialist-l2-agentic-ai-engineer-elliott-moss-consulting-pte-ltd-laqnocv3",
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "device-modeling-ai-ml-software-engineer-keysight-technologies-singapore-sales-pte-ltd-cjishkyn",
+      "role_key": "freehire:device-modeling-ai-ml-software-engineer-keysight-technologies-singapore-sales-pte-ltd-cjishkyn",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/484629c36ee307ded9894bd6632635e9?utm_source=freehire.me",
-      "title": "IT Application Support Specialist L2 (Agentic AI Engineer)"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/9aa7446b0ab90ea8fe606ea2dce3a43f?utm_source=freehire.me",
+      "title": "Device Modeling AI/ML Software Engineer"
     },
     {
-      "ai_score": 11,
-      "ai_signals": [
-        "title:ai",
-        "title:agent",
-        "jd:llm",
-        "jd:agent",
-        "jd:computer_vision"
-      ],
-      "candidate_seq": 104,
-      "company": "RESARO SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":91cec132bf454328602f7c009728f41a",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-20T00:00:00Z",
-      "public_slug": "senior-ai-engineer-agentic-ai-evaluation-resaro-singapore-pte-ltd-gzgtd4h6",
-      "role_key": "freehire:senior-ai-engineer-agentic-ai-evaluation-resaro-singapore-pte-ltd-gzgtd4h6",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/91cec132bf454328602f7c009728f41a?utm_source=freehire.me",
-      "title": "Senior AI Engineer - Agentic AI Evaluation"
-    },
-    {
-      "ai_score": 11,
+      "ai_score": 9,
       "ai_signals": [
         "title:ai",
         "title:ml",
-        "jd:llm",
-        "jd:agent",
-        "jd:evaluation"
+        "jd:computer_vision"
       ],
-      "candidate_seq": 105,
-      "company": "The Japan Research Institute, Limited (Singapore Branch)",
+      "candidate_seq": 210,
+      "company": "AISON PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:92791049",
+      "external_id": ":8cea67c49311cae39b93699d33c29027",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "ai-ml-engineer-aison-pte-ltd-rd5m4amg",
+      "role_key": "freehire:ai-ml-engineer-aison-pte-ltd-rd5m4amg",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/8cea67c49311cae39b93699d33c29027?utm_source=freehire.me",
+      "title": "AI/ML Engineer"
+    },
+    {
+      "ai_score": 9,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:genai",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 211,
+      "company": "TOPPAN ECQUARIA PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":d60303741781abb6eb66589eea55eedc",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "ai-engineer-toppan-ecquaria-pte-ltd-2z5ud3z6",
+      "role_key": "freehire:ai-engineer-toppan-ecquaria-pte-ltd-2z5ud3z6",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/d60303741781abb6eb66589eea55eedc?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 9,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 212,
+      "company": "Xtremax Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "xtremax-pte-ltd:D8FB8C842C",
       "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore, Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-19T17:44:32Z",
-      "public_slug": "avp-vp-ai-ml-model-validation-engineer-data-management-office-the-japan-research-institute-limited-singapore-branch-aveszkfs",
-      "role_key": "freehire:avp-vp-ai-ml-model-validation-engineer-data-management-office-the-japan-research-institute-limited-singapore-branch-aveszkfs",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92791049__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AVP/VP, AI/ML Model Validation Engineer, Data Management Office"
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "senior-ml-ai-engineer-aws-databricks-mlops-public-sector-xtremax-pte-ltd-f6t4k5b7",
+      "role_key": "freehire:senior-ml-ai-engineer-aws-databricks-mlops-public-sector-xtremax-pte-ltd-f6t4k5b7",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/D8FB8C842C?utm_source=freehire.me",
+      "title": "Senior ML/AI Engineer - AWS, Databricks & MLOps (Public Sector)"
     },
     {
-      "ai_score": 11,
+      "ai_score": 9,
       "ai_signals": [
-        "title:ai",
-        "title:agent",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag"
-      ],
-      "candidate_seq": 106,
-      "company": "KYNDRYL (SINGAPORE) PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93531505",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:32Z",
-      "public_slug": "gen-ai-full-stack-engineer-multi-cloud-agentic-ai-kyndryl-singapore-pte-ltd-v3bzcfdz",
-      "role_key": "freehire:gen-ai-full-stack-engineer-multi-cloud-agentic-ai-kyndryl-singapore-pte-ltd-v3bzcfdz",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531505__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Gen AI Full-Stack Engineer — Multi-Cloud & Agentic AI"
-    },
-    {
-      "ai_score": 11,
-      "ai_signals": [
-        "title:ai",
-        "title:computer_vision",
-        "jd:llm",
+        "title:ml",
+        "title:research",
+        "jd:machine_learning",
         "jd:multimodal",
         "jd:computer_vision"
       ],
-      "candidate_seq": 107,
-      "company": "RECRUIT EXPRESS PTE LTD",
+      "candidate_seq": 213,
+      "company": "APPLE SOUTH ASIA PTE. LTD.",
       "employment_type": null,
-      "external_id": ":65bae93ffc6d5f9dc54d3263bcde4165",
+      "external_id": ":f9bbd73f75d102604c4c82b58d866a51",
       "flags": [
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-16T00:00:00Z",
-      "public_slug": "ai-engineer-computer-vision-recruit-express-pte-ltd-7hgzrzy6",
-      "role_key": "freehire:ai-engineer-computer-vision-recruit-express-pte-ltd-7hgzrzy6",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "machine-learning-researcher-image-video-generation-apple-south-asia-pte-ltd-lhnpotfh",
+      "role_key": "freehire:machine-learning-researcher-image-video-generation-apple-south-asia-pte-ltd-lhnpotfh",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/65bae93ffc6d5f9dc54d3263bcde4165?utm_source=freehire.me",
-      "title": "AI Engineer, Computer Vision"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/f9bbd73f75d102604c4c82b58d866a51?utm_source=freehire.me",
+      "title": "Machine Learning Researcher, Image/Video Generation"
     }
   ],
-  "generated_at": "2026-11-03T06:36:14.940526Z",
+  "generated_at": "2026-11-03T12:25:39.802912Z",
   "market": "SG",
-  "max_candidate_seq": 107,
-  "min_candidate_seq": 101,
+  "max_candidate_seq": 213,
+  "min_candidate_seq": 206,
   "shard_index": 10,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

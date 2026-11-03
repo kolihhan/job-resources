@@ -2,201 +2,195 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 7,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:rag",
-        "jd:retrieval"
+        "title:ai"
       ],
-      "candidate_seq": 2352,
-      "company": "Agensi Pekerjaan Penta Consultancy Sdn. Bhd",
+      "candidate_seq": 2454,
+      "company": "Experian Asia Pacific",
       "employment_type": null,
-      "external_id": "agensi-pekerjaan-penta-consultancy-sdn-bhd:5WR436X3",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-09-14T20:13:26Z",
-      "public_slug": "ai-engineer-agensi-pekerjaan-penta-consultancy-sdn-bhd-utpjsbyy",
-      "role_key": "freehire:ai-engineer-agensi-pekerjaan-penta-consultancy-sdn-bhd-utpjsbyy",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/agensi-pekerjaan-penta-consultancy-sdn-bhd/job/5WR436X3?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "title:data_science",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 2353,
-      "company": "Oxydata Software",
-      "employment_type": "full_time",
-      "external_id": "6285:93153470",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur City Centre, Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-07-06T14:32:58Z",
-      "public_slug": "data-scientist-ai-engineer-oxydata-software-p7l53ywo",
-      "role_key": "freehire:data-scientist-ai-engineer-oxydata-software-p7l53ywo",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/93153470?utm_source=freehire.me",
-      "title": "Data scientist (AI Engineer)"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai",
-        "jd:agent"
-      ],
-      "candidate_seq": 2354,
-      "company": "Jabil",
-      "employment_type": null,
-      "external_id": "jabil.wd5.myworkdayjobs.com/Jabil_Careers:/job/Penang/GenAI-Developer_J2437827",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "Penang",
-      "market": "MY",
-      "posted_at": "2026-01-22T00:00:00Z",
-      "public_slug": "genai-developer-jabil-jghfvb2q",
-      "role_key": "freehire:genai-developer-jabil-jghfvb2q",
-      "source": "workday",
-      "source_url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/GenAI-Developer_J2437827?utm_source=freehire.me",
-      "title": "GenAI Developer"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "jd:llm",
-        "jd:genai",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 2355,
-      "company": "Ibroad Solutions LLP",
-      "employment_type": null,
-      "external_id": "5:301026012966",
+      "external_id": "full stack developer:26960781",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-30T05:50:05Z",
-      "public_slug": "software-engineer-ibroad-solutions-llp-bs3g5l5g",
-      "role_key": "freehire:software-engineer-ibroad-solutions-llp-bs3g5l5g",
-      "source": "naukri",
-      "source_url": "https://www.naukri.com/job-listings-software-engineer-ibroad-solutions-llp-malaysia-3-to-5-years-301026012966?utm_source=freehire.me",
-      "title": "Software Engineer"
+      "posted_at": "2026-10-23T09:43:56Z",
+      "public_slug": "full-stack-software-engineer-ii-hybrid-growth-ai-tools-experian-asia-pacific-wgsl7sfj",
+      "role_key": "freehire:full-stack-software-engineer-ii-hybrid-growth-ai-tools-experian-asia-pacific-wgsl7sfj",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26960781__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Full-Stack Software Engineer II — Hybrid, Growth & AI Tools"
     },
     {
-      "ai_score": 6,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 2356,
-      "company": "Quanton Asia Sdn Bhd",
+      "candidate_seq": 2455,
+      "company": "Arba Travel",
       "employment_type": null,
-      "external_id": "6287:95590854",
+      "external_id": "full stack developer:26961078",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Putrajaya, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-23T09:43:56Z",
+      "public_slug": "ai-first-full-stack-engineer-for-travel-tech-remote-arba-travel-mkpad5rx",
+      "role_key": "freehire:ai-first-full-stack-engineer-for-travel-tech-remote-arba-travel-mkpad5rx",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26961078__7112?utm_campaign=publisher&utm_medium=api&geoID=12&utm_source=freehire.me",
+      "title": "AI-First Full-Stack Engineer for Travel Tech (Remote)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2456,
+      "company": "Oxydata Software",
+      "employment_type": null,
+      "external_id": "full stack developer:26958363",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-23T09:43:53Z",
+      "public_slug": "senior-ai-full-stack-engineer-onsite-oxydata-software-gyplk4rd",
+      "role_key": "freehire:senior-ai-full-stack-engineer-onsite-oxydata-software-gyplk4rd",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26958363__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior AI Full-Stack Engineer - Onsite"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2457,
+      "company": "ThoughtFull",
+      "employment_type": null,
+      "external_id": "full stack developer:26961394",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-23T09:43:53Z",
+      "public_slug": "senior-full-stack-engineer-ai-driven-healthtech-thoughtfull-4jqcjbiy",
+      "role_key": "freehire:senior-full-stack-engineer-ai-driven-healthtech-thoughtfull-4jqcjbiy",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26961394__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer — AI-Driven HealthTech"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2458,
+      "company": "Digile Pte Ltd",
+      "employment_type": null,
+      "external_id": "devops engineer:26961307",
       "flags": [
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur",
+      "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-30T00:21:20Z",
-      "public_slug": "mid-level-automation-ai-developer-quanton-asia-sdn-bhd-75c6last",
-      "role_key": "freehire:mid-level-automation-ai-developer-quanton-asia-sdn-bhd-75c6last",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95590854?utm_source=freehire.me",
-      "title": "Mid-Level Automation & AI Developer"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:data_science",
-        "jd:genai",
-        "jd:machine_learning",
-        "jd:deep_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 2357,
-      "company": "Private Advertiser",
-      "employment_type": "full_time",
-      "external_id": "data engineer:26974868",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuching, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-29T18:21:01Z",
-      "public_slug": "engineer-data-scientist-private-advertiser-hbuiv2vi",
-      "role_key": "freehire:engineer-data-scientist-private-advertiser-hbuiv2vi",
+      "posted_at": "2026-10-23T09:43:50Z",
+      "public_slug": "devops-engineer-mlops-for-ai-production-reliability-digile-pte-ltd-vceez7bb",
+      "role_key": "freehire:devops-engineer-mlops-for-ai-production-reliability-digile-pte-ltd-vceez7bb",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26974868__7112?utm_campaign=publisher&utm_medium=api&geoID=92&utm_source=freehire.me",
-      "title": "Engineer, Data Scientist"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26961307__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "DevOps Engineer | MLOps for AI Production & Reliability"
     },
     {
-      "ai_score": 6,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "title:data_science"
+        "title:ai"
       ],
-      "candidate_seq": 2358,
-      "company": "Private Advertiser",
-      "employment_type": "full_time",
-      "external_id": "data engineer:26975748",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuching, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-29T18:21:01Z",
-      "public_slug": "ai-engineer-data-scientist-private-advertiser-tbhj7zdp",
-      "role_key": "freehire:ai-engineer-data-scientist-private-advertiser-tbhj7zdp",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26975748__7112?utm_campaign=publisher&utm_medium=api&geoID=92&utm_source=freehire.me",
-      "title": "AI Engineer & Data Scientist"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent"
-      ],
-      "candidate_seq": 2359,
-      "company": "CoinWorldCap",
+      "candidate_seq": 2459,
+      "company": "Employment Hero",
       "employment_type": null,
-      "external_id": "backend developer:26975830",
-      "flags": [],
+      "external_id": "full stack developer:26955741",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shah Alam, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-22T02:21:19Z",
+      "public_slug": "senior-full-stack-engineer-remote-ai-powered-hr-employment-hero-zs2sugvy",
+      "role_key": "freehire:senior-full-stack-engineer-remote-ai-powered-hr-employment-hero-zs2sugvy",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26955741__7112?utm_campaign=publisher&utm_medium=api&geoID=142&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer (Remote) AI-Powered HR"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2460,
+      "company": "Axonect",
+      "employment_type": null,
+      "external_id": "data engineer:26957289",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-29T18:20:48Z",
-      "public_slug": "ai-driven-backend-engineer-for-fintech-platforms-coinworldcap-ozuomh67",
-      "role_key": "freehire:ai-driven-backend-engineer-for-fintech-platforms-coinworldcap-ozuomh67",
+      "posted_at": "2026-10-21T10:24:10Z",
+      "public_slug": "senior-qa-engineer-data-ml-pipelines-ci-cd-axonect-p5yhwscv",
+      "role_key": "freehire:senior-qa-engineer-data-ml-pipelines-ci-cd-axonect-p5yhwscv",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26975830__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "AI-Driven Backend Engineer for Fintech Platforms"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26957289__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior QA Engineer - Data & ML Pipelines | CI/CD"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2461,
+      "company": "Devopsroles",
+      "employment_type": null,
+      "external_id": "devops engineer:26955937",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-21T10:23:30Z",
+      "public_slug": "chief-data-ai-devops-architect-devopsroles-xscd64ds",
+      "role_key": "freehire:chief-data-ai-devops-architect-devopsroles-xscd64ds",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26955937__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Chief Data & AI DevOps Architect"
     }
   ],
-  "generated_at": "2026-11-03T06:36:14.940526Z",
+  "generated_at": "2026-11-03T12:25:39.802912Z",
   "market": "MY",
-  "max_candidate_seq": 2359,
-  "min_candidate_seq": 2352,
+  "max_candidate_seq": 2461,
+  "min_candidate_seq": 2454,
   "shard_index": 7,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

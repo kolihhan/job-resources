@@ -2,40 +2,140 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 2393,
-      "company": "Neuron Solutions Sdn. Bhd.",
+      "candidate_seq": 2496,
+      "company": "Segi Fresh",
       "employment_type": null,
-      "external_id": "full stack developer:26962221",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": "frontend developer:26914408",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": "Petaling Jaya, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-25T22:21:08Z",
-      "public_slug": "senior-full-stack-engineer-ai-first-end-to-end-neuron-solutions-sdn-bhd-es7zrscp",
-      "role_key": "freehire:senior-full-stack-engineer-ai-first-end-to-end-neuron-solutions-sdn-bhd-es7zrscp",
+      "posted_at": "2026-10-03T09:22:40Z",
+      "public_slug": "full-stack-developer-modern-web-api-ai-assisted-vibe-coding-segi-fresh-3fva75gb",
+      "role_key": "freehire:full-stack-developer-modern-web-api-ai-assisted-vibe-coding-segi-fresh-3fva75gb",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26962221__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer — AI-First, End-to-End"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26914408__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Full Stack Developer (Modern Web, API & AI-Assisted / Vibe Coding)"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 2394,
-      "company": "Oxydata Software Sdn Bhd",
+      "candidate_seq": 2497,
+      "company": "Segi Fresh",
       "employment_type": null,
-      "external_id": "full stack developer:26962331",
+      "external_id": "frontend developer:26917878",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-10-03T09:22:40Z",
+      "public_slug": "ai-driven-full-stack-developer-web-api-segi-fresh-2a36x3pz",
+      "role_key": "freehire:ai-driven-full-stack-developer-web-api-segi-fresh-2a36x3pz",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26917878__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "AI-Driven Full-Stack Developer (Web & API)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2498,
+      "company": "UST USource",
+      "employment_type": null,
+      "external_id": "6287:95032111",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Cyberjaya, Selangor",
+      "market": "MY",
+      "posted_at": "2026-10-02T07:00:18Z",
+      "public_slug": "ai-engineer-ust-usource-w27npmyk",
+      "role_key": "freehire:ai-engineer-ust-usource-w27npmyk",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95032111?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2499,
+      "company": "UltaHost",
+      "employment_type": null,
+      "external_id": "ultahost:8735",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Podgorica, Podgorica",
+      "market": "MY",
+      "posted_at": "2026-10-01T07:36:10Z",
+      "public_slug": "full-stack-javascript-developer-ai-native-ultahost-fusxwmmy",
+      "role_key": "freehire:full-stack-javascript-developer-ai-native-ultahost-fusxwmmy",
+      "source": "keka",
+      "source_url": "https://ultahost.keka.com/careers/jobdetails/8735?utm_source=freehire.me",
+      "title": "Full-Stack JavaScript Developer (AI-Native)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2500,
+      "company": "Bjak",
+      "employment_type": null,
+      "external_id": "bjakcareer:4ca587f8-31df-4b92-af45-2c4cb4f3f233",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Taipei, Taiwan",
+      "market": "MY",
+      "posted_at": "2026-10-01T06:35:05Z",
+      "public_slug": "mobile-developer-ai-finance-agent-bjakcareer-kyoz6qtg",
+      "role_key": "freehire:mobile-developer-ai-finance-agent-bjakcareer-kyoz6qtg",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/4ca587f8-31df-4b92-af45-2c4cb4f3f233?utm_source=freehire.me",
+      "title": "Mobile Developer - AI Finance Agent"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2501,
+      "company": "GrowthDesk",
+      "employment_type": null,
+      "external_id": "growthdesk:744000152699031",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Selangor, my",
+      "market": "MY",
+      "posted_at": "2026-09-30T14:24:23Z",
+      "public_slug": "data-analytics-ai-product-analyst-growthdesk-ogsypa33",
+      "role_key": "freehire:data-analytics-ai-product-analyst-growthdesk-ogsypa33",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/Growthdesk/744000152699031-data-analytics-ai-product-analyst?utm_source=freehire.me",
+      "title": "Data Analytics & AI Product Analyst"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2502,
+      "company": "CFI Financial Group",
+      "employment_type": null,
+      "external_id": "data engineer:26903989",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -44,161 +144,42 @@
       "known_status": "unseen",
       "location": "Petaling Jaya, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-25T22:21:08Z",
-      "public_slug": "senior-ai-solutions-full-stack-engineer-onsite-oxydata-software-sdn-bhd-ogw53p4e",
-      "role_key": "freehire:senior-ai-solutions-full-stack-engineer-onsite-oxydata-software-sdn-bhd-ogw53p4e",
+      "posted_at": "2026-09-28T11:22:08Z",
+      "public_slug": "senior-data-engineer-finance-data-platform-ml-tools-cfi-financial-group-dgoa6vtc",
+      "role_key": "freehire:senior-data-engineer-finance-data-platform-ml-tools-cfi-financial-group-dgoa6vtc",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26962331__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
-      "title": "Senior AI Solutions Full-Stack Engineer (Onsite)"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903989__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Senior Data Engineer - Finance Data Platform & ML Tools"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 2395,
-      "company": "Brighten Business Consulting",
-      "employment_type": "full_time",
-      "external_id": "6287:95454828",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Cheras, Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-10-23T03:38:46Z",
-      "public_slug": "software-developer-ai-assisted-development-brighten-business-consulting-dwcsiafg",
-      "role_key": "freehire:software-developer-ai-assisted-development-brighten-business-consulting-dwcsiafg",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95454828?utm_source=freehire.me",
-      "title": "Software Developer (AI-Assisted Development)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 2396,
-      "company": "MaiStorage",
+      "candidate_seq": 2503,
+      "company": "Cognite",
       "employment_type": null,
-      "external_id": "6296:95449964",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Bandar Puteri Puchong, Selangor",
-      "market": "MY",
-      "posted_at": "2026-10-23T01:28:27Z",
-      "public_slug": "ai-pre-sales-engineer-maistorage-gqyocavt",
-      "role_key": "freehire:ai-pre-sales-engineer-maistorage-gqyocavt",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95449964?utm_source=freehire.me",
-      "title": "AI Pre-sales Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 2397,
-      "company": "NielsenIQ",
-      "employment_type": null,
-      "external_id": "NielsenIQ:744000157096979",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, 14, my",
-      "market": "MY",
-      "posted_at": "2026-10-22T10:35:40Z",
-      "public_slug": "machine-learning-engineer-nielseniq-jk3oadxi",
-      "role_key": "freehire:machine-learning-engineer-nielseniq-jk3oadxi",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000157096979-machine-learning-engineer?utm_source=freehire.me",
-      "title": "Machine Learning Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 2398,
-      "company": "CDNetworks",
-      "employment_type": null,
-      "external_id": "cdnetworks:ZVru1nhsmR",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-10-22T00:00:00Z",
-      "public_slug": "presales-engineer-cdn-ai-cdnetworks-ug54ozir",
-      "role_key": "freehire:presales-engineer-cdn-ai-cdnetworks-ug54ozir",
-      "source": "jazzhr",
-      "source_url": "https://cdnetworks.applytojob.com/apply/ZVru1nhsmR/Presales-Engineer-CDNAI?utm_source=freehire.me",
-      "title": "Presales Engineer (CDN+AI)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 2399,
-      "company": "Oxydata Software",
-      "employment_type": "full_time",
-      "external_id": "6287:95416699",
+      "external_id": "data engineer:26899123",
       "flags": [
         "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Petaling, Selangor",
+      "location": "Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-21T17:52:41Z",
-      "public_slug": "senior-full-stack-engineer-ai-solutions-oxydata-software-7a3scgoo",
-      "role_key": "freehire:senior-full-stack-engineer-ai-solutions-oxydata-software-7a3scgoo",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95416699?utm_source=freehire.me",
-      "title": "Senior Full Stack Engineer – AI Solutions"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:genai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 2400,
-      "company": "Hays Recruitment",
-      "employment_type": null,
-      "external_id": "6287:95405880",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-10-21T06:03:19Z",
-      "public_slug": "senior-data-scientist-hays-recruitment-axqd2uxu",
-      "role_key": "freehire:senior-data-scientist-hays-recruitment-axqd2uxu",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95405880?utm_source=freehire.me",
-      "title": "Senior Data Scientist"
+      "posted_at": "2026-09-27T09:23:18Z",
+      "public_slug": "senior-data-engineer-industrial-ai-dataops-cognite-fg4mkk2o",
+      "role_key": "freehire:senior-data-engineer-industrial-ai-dataops-cognite-fg4mkk2o",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26899123__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Senior Data Engineer - Industrial AI & DataOps"
     }
   ],
-  "generated_at": "2026-11-03T06:36:14.940526Z",
+  "generated_at": "2026-11-03T12:25:39.802912Z",
   "market": "MY",
-  "max_candidate_seq": 2400,
-  "min_candidate_seq": 2393,
+  "max_candidate_seq": 2503,
+  "min_candidate_seq": 2496,
   "shard_index": 12,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

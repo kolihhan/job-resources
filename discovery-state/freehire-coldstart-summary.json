@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T06:36:14.679202Z",
-  "known_exact_count": 24,
+  "generated_at": "2026-11-03T12:25:39.456521Z",
+  "known_exact_count": 29,
   "machine_candidate_counts": {
     "CN": 789,
     "MY": 293,
@@ -19,16 +19,16 @@
       "unseen": 756
     },
     "MY": {
-      "known_exact": 1,
+      "known_exact": 2,
       "source": 293,
-      "suspected_known": 13,
+      "suspected_known": 12,
       "unseen": 279
     },
     "SG": {
-      "known_exact": 9,
+      "known_exact": 13,
       "source": 1542,
       "suspected_known": 24,
-      "unseen": 1509
+      "unseen": 1505
     }
   },
   "raw_counts": {
@@ -36,15 +36,15 @@
     "MY": 4759,
     "SG": 14585
   },
-  "review_count": 2600,
+  "review_count": 2595,
   "source_count": 2624,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
-  "suspected_known_count": 56,
+  "suspected_known_count": 55,
   "title_hard_drop_counts": {
     "CN": 486,
     "MY": 707,
     "SG": 2340
   },
-  "unseen_count": 2544,
+  "unseen_count": 2540,
   "version": 1
 }
