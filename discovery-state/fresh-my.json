@@ -2,15 +2,15 @@
   "version": 2,
   "market": "MY",
   "platform_cycle": 9,
-  "next_platform_index": 0,
-  "next_owner_bucket": 2,
-  "next_query_bucket": 1,
-  "run_counter": 20,
-  "last_completed_at": "2026-11-03T17:24:00+08:00",
+  "next_platform_index": 2,
+  "next_owner_bucket": 3,
+  "next_query_bucket": 2,
+  "run_counter": 21,
+  "last_completed_at": "2026-11-03T18:24:00+08:00",
   "last_platforms": [
-    "Hiredly",
-    "recruiter / team / direct hiring posts"
+    "LinkedIn Jobs Malaysia",
+    "JobStreet Malaysia"
   ],
-  "last_owner_bucket": "Gen Digital / MoneyLion",
-  "last_query_bucket": "Agent / LLM / RAG / GenAI"
+  "last_owner_bucket": "AEON Bank / GXBank",
+  "last_query_bucket": "NLP / search / retrieval / evaluation / knowledge"
 }
