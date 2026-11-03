@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T04:04:51.315561Z",
-  "known_exact_count": 16,
+  "generated_at": "2026-11-03T04:24:12.691321Z",
+  "known_exact_count": 17,
   "machine_candidate_counts": {
     "CN": 789,
     "MY": 293,
@@ -13,10 +13,10 @@
   },
   "markets": {
     "CN": {
-      "known_exact": 6,
+      "known_exact": 7,
       "source": 789,
       "suspected_known": 19,
-      "unseen": 764
+      "unseen": 763
     },
     "MY": {
       "known_exact": 1,
@@ -36,7 +36,7 @@
     "MY": 4759,
     "SG": 14585
   },
-  "review_count": 2608,
+  "review_count": 2607,
   "source_count": 2624,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "suspected_known_count": 56,
@@ -45,6 +45,6 @@
     "MY": 707,
     "SG": 2340
   },
-  "unseen_count": 2552,
+  "unseen_count": 2551,
   "version": 1
 }

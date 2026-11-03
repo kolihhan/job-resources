@@ -43684,35 +43684,6 @@
     {
       "ai_score": 9,
       "ai_signals": [
-        "title:llm",
-        "jd:llm",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
-      ],
-      "company": "Alibaba Group",
-      "created_at": "2026-10-28T09:17:00Z",
-      "description_excerpt": "<p>1. 负责查询理解、意图识别、查询改写与拆解等能力建设，提升复杂自然语言查询和多轮检索场景下的搜索效果。<br>2. 负责关键词检索、向量检索及多路召回融合，优化相关性排序与重排策略，提升结果的准确性、覆盖度、时效性和多样性。<br>3. 面向 LLM / Agent 的信息使用需求，优化正文及证据片段选择、内容去重、上下文组织和来源信息输出，提高有限 Token 预算内的有效信息密度。<br>4. 建立搜索评测集与效果分析体系，通过离线实验、线上反馈和失败案例分析，持续优化检索效果及下游任务表现。<br>5. 与数据及平台研发协作，推进网页内容处理、索引更新和搜索 API 的集成上线，优化服务延迟、吞吐量、稳定性及资源成本。<br>6. 跟踪信息检索与大模型相关技术进展，结合业务需求开展技术验证，推动有实际收益的方案落地。</p><p>1. 具备搜索引擎、信息检索、语义检索或生产级 RAG 检索模块的实际研发经验，能够清晰说明个人承担的工作、技术方案及效果。<br>2. 理解搜索系统的主要链路，在查询理解、召回、排序、重排或检索评估中至少一个方向具有深入实践。<br>3. 熟悉倒排索引、向量检索、相关性建模等基础方法，能够根据数据特点和业务需求设计检索方案并分析效果。<br>4. 熟练掌握 Python、C++等至少一种编程语言，具备扎实的数据结构与算法基础，以及独立开发、",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": ":100052620006",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/a-li-ath-sou-suo-suan-fa-gong-cheng-shi-llm-agent-tokenfoundry-alibaba-group-7hpyn4dj",
-      "identity": "a-li-ath-sou-suo-suan-fa-gong-cheng-shi-llm-agent-tokenfoundry-alibaba-group-7hpyn4dj",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-28T03:15:30Z",
-      "public_slug": "a-li-ath-sou-suo-suan-fa-gong-cheng-shi-llm-agent-tokenfoundry-alibaba-group-7hpyn4dj",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100052620006&utm_source=freehire.me",
-      "title": "阿里ATH-搜索算法工程师（LLM & Agent）-TokenFoundry"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
         "title:ai",
         "title:agent",
         "jd:agent"
@@ -71479,8 +71450,8 @@
       "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-03T04:04:51.315561Z",
-  "known_exact_count": 16,
+  "generated_at": "2026-11-03T04:24:12.691321Z",
+  "known_exact_count": 17,
   "machine_candidate_counts": {
     "CN": 789,
     "MY": 293,
@@ -71493,10 +71464,10 @@
   },
   "markets": {
     "CN": {
-      "known_exact": 6,
+      "known_exact": 7,
       "source": 789,
       "suspected_known": 19,
-      "unseen": 764
+      "unseen": 763
     },
     "MY": {
       "known_exact": 1,
@@ -71516,7 +71487,7 @@
     "MY": 4759,
     "SG": 14585
   },
-  "review_count": 2608,
+  "review_count": 2607,
   "source_count": 2624,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "suspected_known_count": 56,
@@ -71525,6 +71496,6 @@
     "MY": 707,
     "SG": 2340
   },
-  "unseen_count": 2552,
+  "unseen_count": 2551,
   "version": 1
 }
