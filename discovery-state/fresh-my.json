@@ -2,15 +2,15 @@
   "version": 2,
   "market": "MY",
   "platform_cycle": 7,
-  "next_platform_index": 2,
-  "next_owner_bucket": 4,
-  "next_query_bucket": 2,
-  "run_counter": 16,
-  "last_completed_at": "2026-11-03T13:21:45+08:00",
+  "next_platform_index": 4,
+  "next_owner_bucket": 5,
+  "next_query_bucket": 3,
+  "run_counter": 17,
+  "last_completed_at": "2026-11-03T14:29:00+08:00",
   "last_platforms": [
-    "LinkedIn Jobs Malaysia",
-    "JobStreet Malaysia"
+    "Indeed Malaysia",
+    "Hiredly"
   ],
-  "last_owner_bucket": "Keysight / AMD / Intel",
-  "last_query_bucket": "NLP / search / retrieval / evaluation / knowledge"
+  "last_owner_bucket": "Dell / YTL AI Labs",
+  "last_query_bucket": "AI backend / platform / ML engineering"
 }
