@@ -2,7 +2,7 @@
   "batch_size": 100,
   "candidate_count": 100,
   "cursor_before": 30,
-  "generated_at": "2026-11-03T04:29:00.001180Z",
+  "generated_at": "2026-11-03T06:28:03.790612Z",
   "market": "SG",
   "max_candidate_seq": 133,
   "remaining_after_batch": 1379,
@@ -15,5 +15,6 @@
     "freehire-batch-sg-04.json"
   ],
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
-  "version": 1
+  "transport": "compact_metadata_v1",
+  "version": 2
 }

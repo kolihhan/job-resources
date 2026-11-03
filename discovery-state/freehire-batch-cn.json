@@ -1,11 +1,11 @@
 {
   "batch_size": 100,
   "candidate_count": 100,
-  "cursor_before": 1557,
-  "generated_at": "2026-11-03T04:29:00.001180Z",
+  "cursor_before": 1664,
+  "generated_at": "2026-11-03T06:28:03.790612Z",
   "market": "CN",
-  "max_candidate_seq": 1664,
-  "remaining_after_batch": 619,
+  "max_candidate_seq": 1767,
+  "remaining_after_batch": 519,
   "shard_count": 4,
   "shard_size": 25,
   "shards": [
@@ -15,5 +15,6 @@
     "freehire-batch-cn-04.json"
   ],
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
-  "version": 1
+  "transport": "compact_metadata_v1",
+  "version": 2
 }

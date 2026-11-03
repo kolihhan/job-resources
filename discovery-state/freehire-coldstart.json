@@ -43795,35 +43795,6 @@
     {
       "ai_score": 9,
       "ai_signals": [
-        "title:llm",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:vector_db"
-      ],
-      "company": "Alibaba Group",
-      "created_at": "2026-10-17T02:46:24Z",
-      "description_excerpt": "<p>1、大模型应用系统架构设计：设计并实现大模型应用整体后端架构（API 层、编排层、Agent 层、工具层）；构建 LLM + RAG + Tool Calling + Workflow 的服务框架；构建稳定可复用的大模型调用封装层。<br>2、Agent 与工作流系统开发：构建可扩展的 Agent 执行框架（ReAct / Planner-Executor / Multi-Agent）；设计工具调用协议（MCP、Tool Schema、Function Calling）；支持复杂任务拆解、状态管理、上下文管理、长短期记忆管理。<br>3、RAG 与知识系统建设：构建知识索引与向量检索系统；设计高性能 embedding + 向量数据库架构；优化召回准确率、时效性与成本效率。<br>4、高并发与稳定性保障：构建支持高并发请求的大模型服务网关，优化模型调用延迟与成本，设计缓存机制，保障 SLA、容灾、限流、熔断。<br>5、多模态与实时系统支持：支持文本、语音、图像、多模态模型接口；支持流式输出（Streaming）；构建实时交互系统（如 AI 助手）。</p><p>1、本科及以上学历，计算机相关专业，2年以上后端开发经验。<br>2、熟练掌握Go / Python / Java等至少一门后端语言；熟悉微服务架构设计与分布式系统。<br>3、大模型相关经验：有 LLM应用开发经验",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": ":100011300013",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/token-foundry-da-mo-xing-ying-yong-hou-duan-gong-cheng-shi-llm-application-backend-engineer-bei-jing-hang-zhou-alibaba-group-u4qk4ubl",
-      "identity": "token-foundry-da-mo-xing-ying-yong-hou-duan-gong-cheng-shi-llm-application-backend-engineer-bei-jing-hang-zhou-alibaba-group-u4qk4ubl",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-07T16:00:00Z",
-      "public_slug": "token-foundry-da-mo-xing-ying-yong-hou-duan-gong-cheng-shi-llm-application-backend-engineer-bei-jing-hang-zhou-alibaba-group-u4qk4ubl",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100011300013&utm_source=freehire.me",
-      "title": "Token Foundry-大模型应用后端工程师（LLM Application Backend Engineer）-北京/杭州"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
         "title:ai",
         "jd:llm",
         "jd:rag",
@@ -43850,33 +43821,6 @@
       "source": "alibaba",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100023640002&utm_source=freehire.me",
       "title": "飞猪-大模型搜推算法专家-AI Agent方向"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:ai",
-        "title:agent",
-        "jd:transformer"
-      ],
-      "company": "Tencent",
-      "created_at": "2026-10-17T02:49:59Z",
-      "description_excerpt": "<p>渴望为世界带来新意的人，早已对描绘未来的“热词”不陌生——人工智能、机器学习、数据科学等等。腾讯始终在业界前沿不断探索，积极布局，并为优秀的你提供无限广阔的舞台。我们坚信科技的不断革新，最终能带来美好的、撼动人心的改变。</p><p>1.负责小程序 Coding Agent 核心策略设计与落地，围绕意图理解、需求建模、任务规划与记忆管理，提升代码生成、二次修改、调试修复等场景的任务完成能力；<br>2.建设 Coding Agent 多维评估体系，围绕用户体验、任务完成率、修改成功率、工具调用准确率和对话效率，搭建自动化评测与回归验证链路；<br>3.负责 Agent RL 训练方向的探索与落地，优化需求理解、工具调用、多步推理轨迹、过程奖励建模与自我校正机制，提升 Agent 在复杂代码任务中的成功率。</p><p>1.计算机、数学等相关专业本科及以上学历，熟练使用 Python，具备良好的工程能力；<br>2.扎实的计算机与深度学习基础，理解 Transformer 架构及 Agent 架构范式，熟悉任务规划、工具调用、多步推理、执行反馈等核心机制；<br>3.了解 Agent RL 训练方法，熟悉过程奖励建模、多步轨迹优化、工具调用优化或自我校正机制者优先；<br>4.具备良好的数据分析与实验设计能力，能围绕用户体验指标发现问题并驱动迭代；<br>5.具备快速学习与独立",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": ":2082710396749393920",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/wei-xin-xiao-cheng-xu-ai-agent-suan-fa-gong-cheng-shi-codingfang-xiang-tencent-loj5yd6r",
-      "identity": "wei-xin-xiao-cheng-xu-ai-agent-suan-fa-gong-cheng-shi-codingfang-xiang-tencent-loj5yd6r",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Guangzhou, China",
-      "market": "CN",
-      "posted_at": "2026-09-16T00:00:00Z",
-      "public_slug": "wei-xin-xiao-cheng-xu-ai-agent-suan-fa-gong-cheng-shi-codingfang-xiang-tencent-loj5yd6r",
-      "source": "tencent",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2082710396749393920&utm_source=freehire.me",
-      "title": "微信小程序-AI Agent 算法工程师-Coding方向"
     },
     {
       "ai_score": 9,
@@ -44330,35 +44274,6 @@
         "jd:llm",
         "jd:agent",
         "jd:rag",
-        "jd:vector_db"
-      ],
-      "company": "Alibaba Group",
-      "created_at": "2026-10-17T02:46:31Z",
-      "description_excerpt": "<p>1. 开发 AI Agent 的核心模块，推动生成式 AI 在实际开发场景中的落地应用，构建从需求理解到代码生成的完整智能体<br>2. 通过 Prompt Engineering、工具设计、RAG、Agent 系统架构优化等手段，持续提升 Agent 的性能、准确性和可靠性<br>3. 通过快速原型验证新产品功能创意，探索 AI 辅助开发的新模式，推动产品创新和用户体验优化<br>4. 构建评估系统和自动化评估流程，建立 Agent 性能、质量和成本的可观测体系，驱动持续优化</p><p>1. 深度理解 AI 技术栈，熟悉 LLM、Agent、Prompt Engineering、RAG、Tool Calling 等 AI 核心概念，有 AI 应用开发实践经验<br>2. 有扎实的编程基础和编码设计能力，熟练使用 Python/TypeScript 等语言，具备构建可维护、可测试代码库的能力<br>3. 精通前端或后端技术栈，能够快速构建原型和开发评估平台，验证 AI 能力在实际场景中的效果<br>4. 扎实的后端技术理解，包括数据库、缓存、消息队列和微服务等分布式系统知识<br>5. 具备好奇心和持续学习能力，对 AI 技术发展保持敏感度，能独立解决 AI 应用中的复杂技术问题<br>加分项<br>● 开发过 AI Agent 系统、代码生成工具、智能 IDE 插件等 A",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": ":100007583015",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/a-li-yun-zhi-neng-ai-agentquan-zhan-kai-fa-gong-cheng-shi-miao-wu-hang-zhou-alibaba-group-amrmk2vv",
-      "identity": "a-li-yun-zhi-neng-ai-agentquan-zhan-kai-fa-gong-cheng-shi-miao-wu-hang-zhou-alibaba-group-amrmk2vv",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-09-15T02:39:42Z",
-      "public_slug": "a-li-yun-zhi-neng-ai-agentquan-zhan-kai-fa-gong-cheng-shi-miao-wu-hang-zhou-alibaba-group-amrmk2vv",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100007583015&utm_source=freehire.me",
-      "title": "阿里云智能-AI Agent全栈开发工程师-秒悟-杭州"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
         "jd:evaluation"
       ],
       "company": "PayerMax",
@@ -44498,34 +44413,6 @@
       "source": "meituan",
       "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697317646&utm_source=freehire.me",
       "title": "AI Agent开发工程师"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:llm",
-        "jd:agent",
-        "jd:fine_tuning",
-        "jd:model_training"
-      ],
-      "company": "ByteDance",
-      "created_at": "2026-10-17T02:47:38Z",
-      "description_excerpt": "<p>1、探索下一代Agent：研究Agent在复杂长程任务（Long-horizon Tasks）中的能力边界；探索Planning、Memory、Tool Use、Multi-Agent、Proactive Agent等方向；构建面向真实生产环境的大规模Agent系统；<br>2、大模型后训练（Post-training）：基于SFT、Preference Learning、RL（GRPO、PPO等）持续提升模型能力；构建Agent Reward、自动评测体系和训练数据闭环；探索Long Context、Reasoning、Tool Calling等能力优化；<br>3、AI原生产品算法研发：将LLM技术应用于企业服务场景；探索用户理解、长期记忆、行为建模、个性化等方向；持续提升AI产品的智能化体验；<br>4、端侧模型与推理优化：探索VLM、LLM在移动端、端侧设备上的部署与优化；持续优化模型推理效率、延迟、成本和用户体验；研究模型压缩、量化、蒸馏等技术。</p><p>1、扎实的机器学习、深度学习基础；<br>2、熟悉Transformer、Attention、MoE等主流模型结构；<br>3、理解LLM的训练流程，包括Pre-training、SFT、RLHF/Post-training；<br>4、熟悉Python，具备良好的工程能力和代码质量意识；<br>5、能快速阅读",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "jobs.bytedance.com:7672386392661756165",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/aida-mo-xing-suan-fa-gong-cheng-shi-llm-agent-rl-ji-tuan-xin-xi-xi-tong-bytedance-5jx2gmbb",
-      "identity": "aida-mo-xing-suan-fa-gong-cheng-shi-llm-agent-rl-ji-tuan-xin-xi-xi-tong-bytedance-5jx2gmbb",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-08-10T13:00:46Z",
-      "public_slug": "aida-mo-xing-suan-fa-gong-cheng-shi-llm-agent-rl-ji-tuan-xin-xi-xi-tong-bytedance-5jx2gmbb",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7672386392661756165/detail?utm_source=freehire.me",
-      "title": "AI大模型算法工程师（LLM/Agent/RL）-集团信息系统"
     },
     {
       "ai_score": 8,
@@ -44724,32 +44611,6 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7525709658586482962/detail?utm_source=freehire.me",
       "title": "大模型训练优化工程师-Commercial AI"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:agent"
-      ],
-      "company": "ByteDance",
-      "created_at": "2026-10-17T02:47:27Z",
-      "description_excerpt": "<p>1、作为广告商家服务方向的大模型算法团队成员，致力于打造经营领域内的商家服务大模型，为客户全生命周期的工作提供助力与赋能，助力商家的经营与成长；<br>2、调研并应用前沿的大规模模型高效训练/推理方案，包括但不限于极致优化SFT、RM、RLHF等技术；<br>3、聚焦LLM的Post-training技术，以及RL与LLM-based Agent相结合的交叉研究与应用落地。</p><p>1、机器学习、人工智能、数理统计等相关专业背景；<br>2、熟悉大模型相关基础知识，熟悉LLM的训练或Fine-Tuning的方法，例如SFT/RLHF经验，或熟悉强化学习（RL）概念，深入了解PPO相关算法知识；<br>3、优秀的代码工程能力、数据结构和基础算法功底，熟练掌握C/C++、Java、Golang或Python编程语言；<br>4、有良好的系统架构能力，参与过复杂业务系统的设计与落地，有LLM、Agent相关项目经验；<br>5、有激情、不畏难、乐于挑战、快速尝试，乐于了解业务知识，具有良好的团队合作意识、理解沟通能力以及独立解决问题的能力。</p>",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "jobs.bytedance.com:7477557096075757842",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/da-mo-xing-suan-fa-gong-cheng-shi-ai-agent-ju-liang-aigong-zuo-tai-bytedance-nybyrxkl",
-      "identity": "da-mo-xing-suan-fa-gong-cheng-shi-ai-agent-ju-liang-aigong-zuo-tai-bytedance-nybyrxkl",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shanghai",
-      "market": "CN",
-      "posted_at": "2025-03-03T12:27:03Z",
-      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-ai-agent-ju-liang-aigong-zuo-tai-bytedance-nybyrxkl",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7477557096075757842/detail?utm_source=freehire.me",
-      "title": "大模型算法工程师（AI Agent）-巨量AI工作台"
     },
     {
       "ai_score": 8,
@@ -45469,34 +45330,6 @@
       "source": "apple",
       "source_url": "https://jobs.apple.com/en-us/details/200675980/software-engineer-data-services-is-t-ai-data-platforms?utm_source=freehire.me",
       "title": "Software Engineer, Data Services, IS&T Ai & Data Platforms"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag",
-        "jd:vector_db"
-      ],
-      "company": "O Group",
-      "created_at": "2026-06-17T20:11:56Z",
-      "description_excerpt": "<div> <div>What You’ll Be Doing</div> <div>Understand different AI models’ feature</div> <div>Understand different business domains’ feature</div> <div>Provide integration solutions for AI models into the business domain</div> <div>Maintain systems’ high availability and high throughput</div> <div>Improve technology best practices and code reviews for peers</div> <div>Build and maintain various AI infrastructure / platform</div> <div> </div> <div> </div> <div>What We Look For In You</div> <div>Bachelors in Science / Technology / Engineering / Mathematics</div> <div>Experience in AI Agent / RAG",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "ogroup:7767882003",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/ai-engineer-o-group-ixjchpvm",
-      "identity": "ai-engineer-o-group-ixjchpvm",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "深圳",
-      "market": "CN",
-      "posted_at": "2026-08-07T09:33:08Z",
-      "public_slug": "ai-engineer-o-group-ixjchpvm",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/ogroup/jobs/7767882003?utm_source=freehire.me",
-      "title": "AI Engineer"
     },
     {
       "ai_score": 7,
@@ -46469,36 +46302,6 @@
       "source": "alibaba",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100028980001&utm_source=freehire.me",
       "title": "Token Foundry-AI for Engineering 大模型算法研究员-Qwen基础模型"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "jd:llm",
-        "jd:pytorch",
-        "jd:transformer",
-        "jd:fine_tuning",
-        "jd:model_training",
-        "jd:evaluation"
-      ],
-      "company": "Alibaba Group",
-      "created_at": "2026-10-17T02:46:36Z",
-      "description_excerpt": "<p>1. 挖掘大模型弱点，持续快速构建覆盖各项模型能力的评测数据集，探索可靠、具有可扩展性的评测方案。<br>2. 参与 LLM-as-a-Judge 方案构建，训练 LLM Judge / Reward Model，建模人类偏好并提升长尾任务的评价准确性。<br>3. 参与 Reward System 构建，设计 Reward Signal、合成对应数据，并通过 RL提升模型的能力上限。<br>4. 参与开发 Evaluation、Reward System 所需工程框架，简化各类测试任务和模型集成流程，帮助提高团队效率。</p><p>1. 学历与计算机、机器学习等方向相关，博士及硕士优先。<br>2. 了解 LLM Evaluation（评测方案与评测数据构建）或具有 Post-training（SFT、RL等）训练和数据合成经验。<br>3. 精通 Python 以及 Pytorch 等深度学习框架。<br>4. 熟悉 Transformer 架构以及大语言模型基础知识。</p><p>加分项：<br>1. 具有较强的代码工程能力。<br>2. 曾发表顶级会议论文并具有一定的学术影响力，包括但不限于 NeurIPS、ICLR、ICML、ACL等。<br>3. 拥有知名开源项目，在开源社区具有较好的影响力。</p>",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": ":7000031308",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/token-foundry-da-mo-xing-ping-gu-xi-tong-suan-fa-gong-cheng-shi-qwen-alibaba-group-vzg66s4k",
-      "identity": "token-foundry-da-mo-xing-ping-gu-xi-tong-suan-fa-gong-cheng-shi-qwen-alibaba-group-vzg66s4k",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Hangzhou; Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-27T02:59:49Z",
-      "public_slug": "token-foundry-da-mo-xing-ping-gu-xi-tong-suan-fa-gong-cheng-shi-qwen-alibaba-group-vzg66s4k",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=7000031308&utm_source=freehire.me",
-      "title": "Token Foundry-大模型评估系统算法研究员-Qwen"
     },
     {
       "ai_score": 6,
@@ -71450,8 +71253,8 @@
       "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-03T04:28:59.610326Z",
-  "known_exact_count": 17,
+  "generated_at": "2026-11-03T06:28:03.384216Z",
+  "known_exact_count": 24,
   "machine_candidate_counts": {
     "CN": 789,
     "MY": 293,
@@ -71464,10 +71267,10 @@
   },
   "markets": {
     "CN": {
-      "known_exact": 7,
+      "known_exact": 14,
       "source": 789,
       "suspected_known": 19,
-      "unseen": 763
+      "unseen": 756
     },
     "MY": {
       "known_exact": 1,
@@ -71487,7 +71290,7 @@
     "MY": 4759,
     "SG": 14585
   },
-  "review_count": 2607,
+  "review_count": 2600,
   "source_count": 2624,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "suspected_known_count": 56,
@@ -71496,6 +71299,6 @@
     "MY": 707,
     "SG": 2340
   },
-  "unseen_count": 2551,
+  "unseen_count": 2544,
   "version": 1
 }
