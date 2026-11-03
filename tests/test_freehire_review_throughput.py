@@ -39,6 +39,30 @@ class FreeHireReviewThroughputTests(unittest.TestCase):
         self.assertEqual(batches["CN"]["remaining_after_batch"], 30)
         self.assertEqual(batches["CN"]["max_candidate_seq"], 100)
 
+    def test_100_candidate_batch_splits_into_four_25_candidate_shards(self):
+        mod = self._load_module()
+        batch = {
+            "version": 1,
+            "market": "CN",
+            "cursor_before": 0,
+            "batch_size": 100,
+            "candidate_count": 100,
+            "remaining_after_batch": 30,
+            "max_candidate_seq": 100,
+            "generated_at": "2026-11-03T00:00:00Z",
+            "source_generated_at": "2026-11-03T00:00:00Z",
+            "candidates": [{"candidate_seq": i} for i in range(1, 101)],
+        }
+
+        manifest, shards = mod.shard_batch(batch, shard_size=25)
+
+        self.assertEqual(manifest["candidate_count"], 100)
+        self.assertEqual(manifest["shard_count"], 4)
+        self.assertNotIn("candidates", manifest)
+        self.assertEqual([len(shard["candidates"]) for shard in shards], [25, 25, 25, 25])
+        self.assertEqual(shards[0]["min_candidate_seq"], 1)
+        self.assertEqual(shards[-1]["max_candidate_seq"], 100)
+
 
 if __name__ == "__main__":
     unittest.main()
