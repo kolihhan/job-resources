@@ -9,6 +9,7 @@ from pathlib import Path
 import tempfile
 
 _MARKETS = ("SG", "CN", "MY")
+_DEFAULT_BATCH_SIZE = 100
 
 
 def _role_key(candidate: dict) -> str | None:
@@ -55,7 +56,7 @@ def build_batches(
     coldstart: dict,
     registry: dict | None,
     cursors: dict[str, dict] | None,
-    batch_size: int = 30,
+    batch_size: int = _DEFAULT_BATCH_SIZE,
     generated_at: str | None = None,
 ) -> tuple[dict, dict[str, dict]]:
     if batch_size <= 0:
@@ -160,7 +161,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--coldstart", default="discovery-state/freehire-coldstart.json")
     parser.add_argument("--registry", default="discovery-state/freehire-review-registry.json")
     parser.add_argument("--state-dir", default="discovery-state")
-    parser.add_argument("--batch-size", type=int, default=30)
+    parser.add_argument("--batch-size", type=int, default=_DEFAULT_BATCH_SIZE)
     args = parser.parse_args(argv)
 
     state_dir = Path(args.state_dir)
