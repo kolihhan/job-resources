@@ -6,6 +6,7 @@ on:
     paths:
       - 'tests/test_known_role_index.py'
       - 'tests/test_filter_freehire_coldstart.py'
+      - 'tests/test_freehire_review_throughput.py'
       - 'scripts/build_known_role_index.py'
       - 'scripts/filter_freehire_coldstart.py'
       - 'scripts/build_freehire_review_queue.py'
@@ -70,7 +71,7 @@ jobs:
           PY
 
       - name: Build bounded market review batches
-        run: python scripts/build_freehire_review_queue.py --batch-size 30
+        run: python scripts/build_freehire_review_queue.py --batch-size 100
 
       - name: Publish derived discovery state
         shell: bash
