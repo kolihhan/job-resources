@@ -1,149 +1,141 @@
 # FreeHire Triage Consumption
 
-This is the active downstream contract for hourly SG/CN/MY scouts.
+This is the canonical downstream contract for hourly SG/CN/MY FreeHire triage. Other active docs should reference this file instead of restating throughput numbers.
 
-It replaces raw FreeHire event-sequence recovery as the normal reasoning path. `docs/freehire-gap-recovery.md` is retained only as historical/audit documentation.
+The old raw `feed/pages/*.jsonl` sequence-recovery path is audit/rebuild history only.
 
-## Purpose
+## Pipeline
 
-The public `kolihhan/freehirefetch` collector periodically performs a full current-job scan with substantive job text and publishes `feed/coldstart.json`. The private `kolihhan/job-resources` workflow then:
+`full current FreeHire scan with substantive JD text -> conservative machine candidate set -> private strong-history dedupe -> stable candidate_seq -> compact metadata batch -> hourly scout -> authoritative JD only when needed`
 
-1. rebuilds `discovery-state/known-role-index.json` from all GitHub Issues, open and closed;
-2. subtracts only strong historical matches from the current FreeHire cold-start set;
-3. preserves weak company/title matches as `suspected_known` rather than suppressing them;
-4. assigns a stable private `candidate_seq` to each FreeHire `public_slug`;
-5. publishes one bounded 100-candidate head batch per market as a small manifest plus connector-safe 25-candidate shards.
+GitHub Issues remain the only live human opportunity state.
 
-Hourly scouts reason over those bounded market batches instead of raw FreeHire sequence pages or the multi-megabyte cold-start file.
+## Why transport is compact
+
+The full cold-start snapshot keeps substantive job text because the machine filter needs it for recall. Hourly scout shards do **not** carry JD bodies or arbitrary raw payload fields. They carry only compact identity/screening metadata such as:
+
+- `candidate_seq`, `role_key`, `public_slug`;
+- company/title/location/market;
+- source/source URL/external ID;
+- known-history status/basis;
+- AI score/signals and machine flags;
+- employment type and relevant timestamps.
+
+The scout opens the authoritative or best available source URL for substantive JD verification. Connector safety comes from bounded metadata payload, **not** from assuming a fixed number of full-JD records is always small enough.
 
 ## Machine state
 
-These files are machine-efficiency state only. They are not a second human opportunity queue, and they never replace GitHub Issues.
-
-Derived by the hourly repo workflow:
+Derived by the repo workflow:
 
 - `discovery-state/freehire-review-registry.json`
-- `discovery-state/freehire-batch-sg.json`, `freehire-batch-cn.json`, `freehire-batch-my.json` — small manifests only;
-- `discovery-state/freehire-batch-<market>-01.json` through the manifest-listed shard files — candidate payload, at most 25 candidates each;
-- `discovery-state/freehire-coldstart-summary.json`.
+- `discovery-state/freehire-batch-{sg,cn,my}.json` — manifests only
+- manifest-listed `freehire-batch-<market>-NN.json` — compact candidate metadata shards
+- `discovery-state/freehire-coldstart-summary.json`
 
 Market-owned mutable state:
 
-- SG: `discovery-state/triage-sg.json`, `discovery-state/retry-sg.json`
-- CN: `discovery-state/triage-cn.json`, `discovery-state/retry-cn.json`
-- MY: `discovery-state/triage-my.json`, `discovery-state/retry-my.json`
+- `discovery-state/triage-<market>.json`
+- `discovery-state/retry-<market>.json`
 
-Each scout may update only its own market-owned files.
+These files are machine-efficiency state, not a second opportunity tracker.
 
-## Candidate identity and sequence
-
-`freehire-review-registry.json` maps source-local FreeHire identity to a stable private sequence:
+## Identity
 
 `freehire:<public_slug> -> candidate_seq`
 
-A candidate keeps the same `candidate_seq` when the upstream cold-start ordering changes. Reappearing source roles therefore do not get a new sequence merely because the source reordered its response.
+`candidate_seq` is a stable private consumption sequence, not a cross-source canonical role identity. Strong cross-source/history suppression still follows `docs/source-routing.md` and the final all-Issue-history gate. Weak company/title matches are suspicion only and never auto-suppress.
 
-This sequence is a private consumption cursor, not a cross-source canonical role identity. Exact cross-source suppression still requires the strong identity rules in `docs/source-routing.md` and the final all-Issue-history gate.
+## Hourly budget
 
-## Per-run FreeHire phase
+Per market run:
 
-After the normal fresh-platform phase, the market scout performs this independent FreeHire phase.
+- process up to **10 due retries** first;
+- cheap-screen up to **100** current batch candidates;
+- perform at most **15 normal substantive full-JD reads** for plausible candidates;
+- audit up to **5 cheap rejects** with independent full-JD reads to estimate false-negative risk.
 
-### Throughput budget
+The reject-audit reads are separate from the 15 normal deep-read budget because they measure the cheap filter rather than serve candidate promotion.
 
-The normal hourly target is deliberately asymmetric:
+If more than 15 plausible candidates survive the cheap gate, preserve every extra candidate as a durable `budget_deferred` retry receipt. Never silently skip it and never freeze later candidates merely because the deep-read budget is exhausted.
 
-- cheap-screen up to **100** batch candidates per market run;
-- perform at most **15 substantive full-JD reads** in that run;
-- process up to **10 due retries** before the normal batch.
+## 1. Due retries
 
-The 100-candidate budget is for cheap identity/history/policy screening. The 15-JD cap prevents a noisy batch from consuming the whole run in expensive browsing and reasoning.
+Process up to 10 receipts whose `next_retry_at` is due, oldest first. `budget_deferred` is normal backlog work, not an infrastructure failure.
 
-If more than 15 candidates survive the cheap gate, do not drop them and do not freeze the main cursor. Preserve every extra plausible candidate as a durable retry receipt with `reason_code=budget_deferred`, a near-term `next_retry_at`, and the usual compact identity/source fields. Once those receipts are persisted and read back, the main cursor may continue.
+Resolve/remove a receipt when the role becomes an exact historical duplicate, reaches a terminal disposition, or a verified APPLY/CHECK Issue is created and read back.
 
-### 1. Due retries
+## 2. Current batch
 
-Read the market retry file first. Process up to 10 receipts whose `next_retry_at` is due, oldest first. `budget_deferred` receipts are normal backlog work, not failures.
-
-A retry receipt contains only machine state such as:
-
-```json
-{
-  "role_key": "freehire:example-slug",
-  "candidate_seq": 123,
-  "reason_code": "verification_transient",
-  "attempts": 2,
-  "next_retry_at": "2026-11-03T12:00:00+08:00"
-}
-```
-
-Resolve/remove a receipt when the role becomes an exact historical duplicate, reaches a terminal RULES disposition, or a verified APPLY/CHECK Issue is successfully created and read back.
-
-### 2. Current bounded batch
-
-First read only the market manifest `discovery-state/freehire-batch-<market>.json`. It contains batch metadata plus an ordered `shards` list and no candidate payload.
-
-Then read every listed shard, in manifest order. Each shard contains at most 25 candidates and is small enough for reliable connector reads. Process all shard candidates in ascending `candidate_seq`. The aggregate manifest batch contains at most 100 candidates.
-
-If any manifest-listed shard is missing, truncated, unreadable, or its candidate count does not reconcile with the manifest, treat that as an infrastructure blocker for FreeHire cursor advancement; do not pretend the unread portion was processed.
+1. Read `discovery-state/freehire-batch-<market>.json`.
+2. Read every manifest-listed shard in order.
+3. Reconcile manifest/shard counts and process candidates in ascending `candidate_seq`.
+4. If a shard is missing, truncated, unreadable, or count-mismatched, do not advance past unread data.
 
 For each candidate:
 
-1. run the exact all-Issue-history dedupe gate before expensive work;
-2. if `known_status=suspected_known`, explicitly check the weak employer/title suspicion; weak identity alone never suppresses;
-3. apply the normal cheap hard screen from `RULES.md`;
-4. open/read the authoritative or best available full JD only for candidates that survive the cheap gate, subject to the 15-JD per-run cap;
-5. verify liveness, cohort/degree/seniority/stack, employment type, SG work-pass or CN foreign-hire constraints where relevant, and the usable application route;
-6. run targeted Gmail dedupe only for a serious survivor;
-7. create only a new verified APPLY/CHECK Issue, then read it back before treating the survivor as durably handed off.
+1. exact all-Issue-history dedupe before expensive work;
+2. explicitly resolve `known_status=suspected_known` rather than auto-dropping it;
+3. apply only high-confidence cheap hard screens from `RULES.md` using compact metadata/signals/known campaign evidence;
+4. open the authoritative or best available full JD for candidates that survive, subject to the 15 normal deep-read budget;
+5. verify liveness, eligibility, cohort/degree/seniority/stack, employment type, work authorization constraints, and usable route;
+6. run targeted Gmail dedupe only for serious survivors;
+7. create/read back only a new verified APPLY/CHECK Issue.
 
-Candidates beyond the 15-JD budget that otherwise survive the cheap gate must be durably receipted as `budget_deferred`; they are never silently skipped.
+Do not submit applications, contact employers, or modify Gmail automatically.
 
-Do not submit applications, contact employers, modify Gmail, or silently change existing opportunity Issues.
+## 3. Reject audit — anti-overfit / recall check
 
-## Non-blocking retry rule
+A high cheap-reject count proves throughput, not recall. Each run with enough cheap rejects must audit up to 5 of them.
 
-A transient candidate verification failure or a deep-read budget deferral must not stall later candidates.
+Choose a small stratified sample rather than only the easiest rejects. Prefer coverage across:
 
-If the candidate is otherwise worth preserving but a transient source/route/liveness/verification problem or the per-run deep-read budget prevents a terminal disposition, upsert a retry receipt with:
+- different reject reasons;
+- different sources;
+- generic titles with AI signals;
+- borderline AI scores/signals;
+- research vs engineering titles where present.
 
-- `role_key`;
-- `candidate_seq`;
-- a compact `reason_code`;
-- incremented `attempts`;
-- `next_retry_at`;
-- compact company/title/source URL fields needed for retry.
+For each sampled reject, open/read the authoritative or best available substantive JD and ask whether the original cheap terminal decision was still correct under current `PROFILE.md`/`RULES.md`.
 
-Once the retry receipt is durably written and read back, the main triage cursor may advance past that candidate and processing continues.
+Record:
 
-A failure to persist the retry receipt itself is an infrastructure blocker: do not advance the cursor past a candidate whose required durable receipt cannot be established.
+- `reject_audit_sampled`;
+- `reject_audit_false_negatives`.
+
+If an audited reject is actually a serious eligible survivor, count one false negative and route it through the **normal** exact-history, liveness, eligibility, Gmail and APPLY/CHECK gates. Do not silently change the cheap filter from one anecdote. Repeated false negatives with the same mechanism are evidence for a later rule change.
+
+Exact-history duplicates are not part of the reject-audit sample because they test dedupe, not fit recall.
+
+## Retry rule
+
+Transient verification failures and deep-read budget deferrals must not stall later candidates. Persist a compact receipt containing at least:
+
+- `role_key` / `candidate_seq`;
+- reason code / attempts / `next_retry_at`;
+- compact company/title/source URL identity.
+
+After the receipt is written and read back, the main cursor may continue. Failure to persist a required receipt is an infrastructure blocker.
 
 ## Cursor advancement
 
-`triage-<market>.json` stores `last_consumed_candidate_seq`.
+Advance `triage-<market>.json:last_consumed_candidate_seq` only when every earlier batch candidate is one of:
 
-After the aggregate manifest batch:
+- terminally handled;
+- durably handed off to an Issue;
+- durably moved into retry state.
 
-- advance to the highest processed batch `candidate_seq` only when every earlier candidate across all listed shards was either terminally handled, durably handed off to an Issue, or durably moved into retry state;
-- persist the cursor and retry file separately;
-- read both back before claiming the FreeHire phase completed.
+Persist/read back cursor and retry state before claiming completion.
 
-The cursor can advance over transient verification failures and deep-read budget deferrals only because those candidates have durable retry receipts.
+## Fresh discovery remains independent
 
-## Relationship to fresh discovery
+FreeHire is Tier-3 radar and never satisfies fresh-platform obligations. SG/MY/CN continue their market rotations in `docs/fresh-discovery-rotation.md`.
 
-FreeHire remains Tier-3 radar.
+## Validation principle
 
-The FreeHire batch never satisfies the market's fresh-platform requirements:
+Do not declare a transport/filter change successful from the market or batch used to design it. After a change:
 
-- SG still performs its broad-platform and research/lab rotation;
-- CN still performs official-owner plus native-platform rotation;
-- MY still performs its destination-quality broad-platform rotation and MY research recall.
+- verify tests/derived state in GitHub Actions;
+- validate on another market or later batch;
+- inspect reject-audit false negatives before tightening cheap filters.
 
-Fresh discovery and FreeHire triage have separate metrics.
-
-## Current bridge and future collector work
-
-The current consumer is built from the full-current FreeHire cold-start snapshot because that snapshot contains enough substantive job text to avoid the recall loss of the old compact event log. The public raw event log remains available for audit/rebuild.
-
-A future public cross-source triage event feed may replace this bridge once canonical identity-v2 and additional ATS adapters are proven. The private cursor/retry semantics should remain compatible: bounded candidate batches, strong-history suppression, weak suspicion only, connector-safe shards, and non-blocking retries.
+The current compact-transport change should therefore be validated first on SG/MY, where the previous full-payload shards actually truncated, rather than using the earlier successful CN batch as self-confirmation.
