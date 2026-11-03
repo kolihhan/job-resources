@@ -19,13 +19,17 @@ Do not report platform-advertised totals as scanned volume. `results_inspected` 
 
 ## Durable log location
 
-Append exactly one compact JSON object per completed run to the market/month log:
+Append exactly one compact JSON object per completed run to the **daily market shard**:
 
-- `discovery-metrics/YYYY-MM/sg.jsonl`
-- `discovery-metrics/YYYY-MM/cn.jsonl`
-- `discovery-metrics/YYYY-MM/my.jsonl`
+- `discovery-metrics/YYYY-MM-DD/sg.jsonl`
+- `discovery-metrics/YYYY-MM-DD/cn.jsonl`
+- `discovery-metrics/YYYY-MM-DD/my.jsonl`
 
-Use Asia/Kuala_Lumpur month boundaries. If the monthly file does not exist, create it. If it exists, fetch it, append one newline-delimited JSON object, write the full file back, then read it back and verify the final line matches this run. Each market writes only its own file.
+Use Asia/Kuala_Lumpur date boundaries. A daily shard contains at most the runs for one market on one local calendar day, keeping each file small enough for safe whole-file fetch/append/read-back through the GitHub connector.
+
+If the daily file does not exist, create it. If it exists, fetch it completely, append one newline-delimited JSON object, write the full file back, then fetch it again and verify the final line matches this run. Each market writes only its own file.
+
+The legacy monthly files under `discovery-metrics/YYYY-MM/{sg,cn,my}.jsonl` are historical/read-only. Do not append new runs to them and do not migrate or rewrite them merely to satisfy this contract.
 
 Metrics logging is required even when the run finds zero survivors or hits a blocker.
 
