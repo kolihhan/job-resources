@@ -1,27 +1,6 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-03T15:17:34+08:00",
-  "receipts": [
-    {
-      "role_key": "freehire:ai-engineer-nexperia-refnb7pv",
-      "candidate_seq": 2338,
-      "reason_code": "liveness_requirements_verification_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T16:20:00+08:00",
-      "company": "Nexperia",
-      "title": "AI Engineer",
-      "source_url": "https://nexperia.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/AI-Engineer_R-20014697"
-    },
-    {
-      "role_key": "freehire:software-ai-engineer-bizlink-group-6s44nj2f",
-      "candidate_seq": 2376,
-      "reason_code": "requirements_verification_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T16:20:00+08:00",
-      "company": "BizLink Group",
-      "title": "SOFTWARE/AI ENGINEER",
-      "source_url": "https://my.jobstreet.com/job/94432820"
-    }
-  ]
+  "updated_at": "2026-11-03T17:24:00+08:00",
+  "receipts": []
 }
