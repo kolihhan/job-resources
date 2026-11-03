@@ -71,7 +71,11 @@ jobs:
           PY
 
       - name: Build bounded market review batches
-        run: python scripts/build_freehire_review_queue.py --batch-size 100 --shard-size 25
+        run: |
+          python scripts/build_freehire_review_queue.py \
+            --batch-size 100 \
+            --shard-size 25 \
+            --max-shard-bytes 8000
 
       - name: Publish derived discovery state
         shell: bash
