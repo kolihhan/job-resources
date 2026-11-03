@@ -1,16 +1,16 @@
 {
   "version": 2,
   "market": "CN",
-  "platform_cycle": 10,
-  "next_platform_index": 5,
-  "next_owner_bucket": 4,
-  "next_query_bucket": 5,
-  "run_counter": 34,
-  "last_completed_at": "2026-11-04T04:08:16+08:00",
+  "platform_cycle": 11,
+  "next_platform_index": 0,
+  "next_owner_bucket": 5,
+  "next_query_bucket": 0,
+  "run_counter": 35,
+  "last_completed_at": "2026-11-04T05:06:17+08:00",
   "last_platforms": [
-    "智联招聘",
-    "前程无忧 / 51job"
+    "脉脉 / team-direct recruiting signals",
+    "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals"
   ],
-  "last_owner_bucket": 3,
-  "last_query_bucket": 4
+  "last_owner_bucket": 4,
+  "last_query_bucket": 5
 }
