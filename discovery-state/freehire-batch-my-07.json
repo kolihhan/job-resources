@@ -1,152 +1,17 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 6,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:data_science",
+        "jd:llm",
+        "jd:genai"
       ],
-      "candidate_seq": 2454,
-      "company": "Experian Asia Pacific",
+      "candidate_seq": 2553,
+      "company": "DXC Technology",
       "employment_type": null,
-      "external_id": "full stack developer:26960781",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-23T09:43:56Z",
-      "public_slug": "full-stack-software-engineer-ii-hybrid-growth-ai-tools-experian-asia-pacific-wgsl7sfj",
-      "role_key": "freehire:full-stack-software-engineer-ii-hybrid-growth-ai-tools-experian-asia-pacific-wgsl7sfj",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26960781__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Full-Stack Software Engineer II — Hybrid, Growth & AI Tools"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2455,
-      "company": "Arba Travel",
-      "employment_type": null,
-      "external_id": "full stack developer:26961078",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Putrajaya, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-23T09:43:56Z",
-      "public_slug": "ai-first-full-stack-engineer-for-travel-tech-remote-arba-travel-mkpad5rx",
-      "role_key": "freehire:ai-first-full-stack-engineer-for-travel-tech-remote-arba-travel-mkpad5rx",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26961078__7112?utm_campaign=publisher&utm_medium=api&geoID=12&utm_source=freehire.me",
-      "title": "AI-First Full-Stack Engineer for Travel Tech (Remote)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2456,
-      "company": "Oxydata Software",
-      "employment_type": null,
-      "external_id": "full stack developer:26958363",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-23T09:43:53Z",
-      "public_slug": "senior-ai-full-stack-engineer-onsite-oxydata-software-gyplk4rd",
-      "role_key": "freehire:senior-ai-full-stack-engineer-onsite-oxydata-software-gyplk4rd",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26958363__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior AI Full-Stack Engineer - Onsite"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2457,
-      "company": "ThoughtFull",
-      "employment_type": null,
-      "external_id": "full stack developer:26961394",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-23T09:43:53Z",
-      "public_slug": "senior-full-stack-engineer-ai-driven-healthtech-thoughtfull-4jqcjbiy",
-      "role_key": "freehire:senior-full-stack-engineer-ai-driven-healthtech-thoughtfull-4jqcjbiy",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26961394__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer — AI-Driven HealthTech"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2458,
-      "company": "Digile Pte Ltd",
-      "employment_type": null,
-      "external_id": "devops engineer:26961307",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-23T09:43:50Z",
-      "public_slug": "devops-engineer-mlops-for-ai-production-reliability-digile-pte-ltd-vceez7bb",
-      "role_key": "freehire:devops-engineer-mlops-for-ai-production-reliability-digile-pte-ltd-vceez7bb",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26961307__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "DevOps Engineer | MLOps for AI Production & Reliability"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2459,
-      "company": "Employment Hero",
-      "employment_type": null,
-      "external_id": "full stack developer:26955741",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shah Alam, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-22T02:21:19Z",
-      "public_slug": "senior-full-stack-engineer-remote-ai-powered-hr-employment-hero-zs2sugvy",
-      "role_key": "freehire:senior-full-stack-engineer-remote-ai-powered-hr-employment-hero-zs2sugvy",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26955741__7112?utm_campaign=publisher&utm_medium=api&geoID=142&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer (Remote) AI-Powered HR"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 2460,
-      "company": "Axonect",
-      "employment_type": null,
-      "external_id": "data engineer:26957289",
+      "external_id": "dxctechnology.wd1.myworkdayjobs.com/dxcjobs:/job/MYS---PETALING-JAYA/Senior-Data-Scientist_51580985",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -154,43 +19,127 @@
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": "MYS - PETALING JAYA",
       "market": "MY",
-      "posted_at": "2026-10-21T10:24:10Z",
-      "public_slug": "senior-qa-engineer-data-ml-pipelines-ci-cd-axonect-p5yhwscv",
-      "role_key": "freehire:senior-qa-engineer-data-ml-pipelines-ci-cd-axonect-p5yhwscv",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26957289__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior QA Engineer - Data & ML Pipelines | CI/CD"
+      "posted_at": "2026-05-21T00:00:00Z",
+      "public_slug": "senior-data-scientist-dxc-technology-3jlo3t3a",
+      "role_key": "freehire:senior-data-scientist-dxc-technology-3jlo3t3a",
+      "source": "workday",
+      "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Senior-Data-Scientist_51580985?utm_source=freehire.me",
+      "title": "Senior Data Scientist"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2461,
-      "company": "Devopsroles",
+      "candidate_seq": 2554,
+      "company": "nextventures",
       "employment_type": null,
-      "external_id": "devops engineer:26955937",
+      "external_id": "nextventures:2602082",
       "flags": [
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Malaysia",
+      "location": "Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-21T10:23:30Z",
-      "public_slug": "chief-data-ai-devops-architect-devopsroles-xscd64ds",
-      "role_key": "freehire:chief-data-ai-devops-architect-devopsroles-xscd64ds",
+      "posted_at": "2026-05-13T04:33:21Z",
+      "public_slug": "software-engineer-trading-platform-ai-native-nextventures-4ttf5tkp",
+      "role_key": "freehire:software-engineer-trading-platform-ai-native-nextventures-4ttf5tkp",
+      "source": "recruitee",
+      "source_url": "https://career.nextventures.io/o/software-engineer-trading-platform-ai-native?utm_source=freehire.me",
+      "title": "Software Engineer, Trading Platform (AI-Native)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2555,
+      "company": "Beyondsoft Consulting",
+      "employment_type": null,
+      "external_id": "beyondsoft:10999",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Vietnam, VN",
+      "market": "MY",
+      "posted_at": "2024-11-02T21:28:07Z",
+      "public_slug": "ai-engineer-beyondsoft-consulting-fk5xxsk5",
+      "role_key": "freehire:ai-engineer-beyondsoft-consulting-fk5xxsk5",
+      "source": "icims",
+      "source_url": "https://careers-beyondsoft.icims.com/jobs/10999/ai-engineer/job?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2640,
+      "company": "Bitdeer Technologies Group",
+      "employment_type": null,
+      "external_id": "data engineer:26776092",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Johor Bahru, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-02T20:22:45Z",
+      "public_slug": "ai-hpc-data-center-infrastructure-engineer-bitdeer-technologies-group-ktrlrlcb",
+      "role_key": "freehire:ai-hpc-data-center-infrastructure-engineer-bitdeer-technologies-group-ktrlrlcb",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26955937__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Chief Data & AI DevOps Architect"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26776092__7112?utm_campaign=publisher&utm_medium=api&geoID=60&utm_source=freehire.me",
+      "title": "AI/HPC Data Center Infrastructure Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2641,
+      "company": "Goldbox Technologies Limited",
+      "employment_type": null,
+      "external_id": "full stack developer:26985308",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-02T20:22:34Z",
+      "public_slug": "hybrid-full-stack-engineer-iot-ai-smart-city-goldbox-technologies-limited-ucfj42y2",
+      "role_key": "freehire:hybrid-full-stack-engineer-iot-ai-smart-city-goldbox-technologies-limited-ucfj42y2",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26985308__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Hybrid Full-Stack Engineer – IoT, AI & Smart City"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2642,
+      "company": "Gen",
+      "employment_type": null,
+      "external_id": ":ptstbvc5av",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "MY",
+      "posted_at": "2026-10-22T16:23:30Z",
+      "public_slug": "machine-learning-engineer-gen-rq2hpi7k",
+      "role_key": "freehire:machine-learning-engineer-gen-rq2hpi7k",
+      "source": "arc",
+      "source_url": "https://arc.dev/remote-jobs/j/gen-machine-learning-engineer-ptstbvc5av?utm_source=freehire.me",
+      "title": "Machine Learning Engineer"
     }
   ],
-  "generated_at": "2026-11-03T12:25:39.802912Z",
+  "generated_at": "2026-11-03T19:52:04.657490Z",
   "market": "MY",
-  "max_candidate_seq": 2461,
-  "min_candidate_seq": 2454,
+  "max_candidate_seq": 2642,
+  "min_candidate_seq": 2553,
   "shard_index": 7,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

@@ -2,84 +2,145 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 2421,
-      "company": "MVC Resources",
+      "candidate_seq": 2520,
+      "company": "SWAROVSKI GLOBAL BUSINESS SERVICES ASIA SDN BHD",
       "employment_type": null,
-      "external_id": "mvc-resources.zohorecruit.com:641778000038095195",
+      "external_id": "full stack developer:26879201",
       "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "sri petaling, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-09-07T00:00:00Z",
-      "public_slug": "ai-engineer-mvc-resources-ktav33g7",
-      "role_key": "freehire:ai-engineer-mvc-resources-ktav33g7",
-      "source": "zohorecruit",
-      "source_url": "https://mvc-resources.zohorecruit.com/jobs/Careers/641778000038095195?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 2422,
-      "company": "OmniTrans AI Sdn Bhd",
-      "employment_type": null,
-      "external_id": "backend developer:26835921",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-08-31T17:12:14Z",
-      "public_slug": "backend-engineer-api-distributed-systems-golang-ai-omnitrans-ai-sdn-bhd-75dnmbfg",
-      "role_key": "freehire:backend-engineer-api-distributed-systems-golang-ai-omnitrans-ai-sdn-bhd-75dnmbfg",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26835921__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Backend Engineer – API & Distributed Systems(Golang&AI)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 2423,
-      "company": "Experian Asia Pacific",
-      "employment_type": null,
-      "external_id": "full stack developer:26819929",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Malaysia",
       "market": "MY",
-      "posted_at": "2026-08-26T17:15:04Z",
-      "public_slug": "senior-full-stack-engineer-php-react-hybrid-ai-driven-experian-asia-pacific-v4uyysnl",
-      "role_key": "freehire:senior-full-stack-engineer-php-react-hybrid-ai-driven-experian-asia-pacific-v4uyysnl",
+      "posted_at": "2026-09-19T10:40:42Z",
+      "public_slug": "sap-full-stack-developer-ai-fiori-on-btp-hybrid-swarovski-global-business-services-asia-sdn-bhd-jlvh57s5",
+      "role_key": "freehire:sap-full-stack-developer-ai-fiori-on-btp-hybrid-swarovski-global-business-services-asia-sdn-bhd-jlvh57s5",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26819929__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Senior Full Stack Engineer — PHP + React (Hybrid & AI‑Driven)"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26879201__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "SAP Full-Stack Developer - AI & Fiori on BTP (Hybrid)"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 2424,
-      "company": "Carousell",
+      "candidate_seq": 2521,
+      "company": "MVC Resources",
       "employment_type": null,
-      "external_id": "backend developer:26806906",
+      "external_id": "mvc-resources.zohorecruit.com:641778000038391523",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-17T00:00:00Z",
+      "public_slug": "presales-engineer-cdn-ai-mvc-resources-niul5ese",
+      "role_key": "freehire:presales-engineer-cdn-ai-mvc-resources-niul5ese",
+      "source": "zohorecruit",
+      "source_url": "https://mvc-resources.zohorecruit.com/jobs/Careers/641778000038391523?utm_source=freehire.me",
+      "title": "Presales Engineer (CDN+AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2522,
+      "company": "HashWhale",
+      "employment_type": null,
+      "external_id": "full stack developer:26871737",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-15T12:21:27Z",
+      "public_slug": "ai-driven-full-stack-engineer-remote-hashwhale-7oo43vaj",
+      "role_key": "freehire:ai-driven-full-stack-engineer-remote-hashwhale-7oo43vaj",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26871737__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "AI-Driven Full-Stack Engineer — Remote"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2523,
+      "company": "The Access Group",
+      "employment_type": null,
+      "external_id": "theaccessgroup.wd103.myworkdayjobs.com/Access_Group_External_Careers:/job/Kuala-Lumpur---GOC/Senior-Software-Engineer--Net-_JR002688",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur - GOC",
+      "market": "MY",
+      "posted_at": "2026-09-15T00:00:00Z",
+      "public_slug": "senior-full-stack-ai-engineer-the-access-group-brn3a54r",
+      "role_key": "freehire:senior-full-stack-ai-engineer-the-access-group-brn3a54r",
+      "source": "workday",
+      "source_url": "https://theaccessgroup.wd103.myworkdayjobs.com/Access_Group_External_Careers/job/Kuala-Lumpur---GOC/Senior-Software-Engineer--Net-_JR002688?utm_source=freehire.me",
+      "title": "Senior Full Stack AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2524,
+      "company": "Career Wise",
+      "employment_type": null,
+      "external_id": "career-wise:RY785R6R",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Penang, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-14T16:08:17Z",
+      "public_slug": "net-developer-with-ai-python-expertise-career-wise-weu4qbin",
+      "role_key": "freehire:net-developer-with-ai-python-expertise-career-wise-weu4qbin",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/career-wise/job/RY785R6R?utm_source=freehire.me",
+      "title": ".NET Developer with AI & Python Expertise"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2525,
+      "company": "Accenture Southeast Asia",
+      "employment_type": null,
+      "external_id": "full stack developer:26871024",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-14T14:29:30Z",
+      "public_slug": "kubernetes-full-stack-engineer-with-ml-python-accenture-southeast-asia-bwcr2vp4",
+      "role_key": "freehire:kubernetes-full-stack-engineer-with-ml-python-accenture-southeast-asia-bwcr2vp4",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26871024__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Kubernetes Full-Stack Engineer with ML (Python)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2526,
+      "company": "MHA Consultancy Services Sdn Bhd",
+      "employment_type": null,
+      "external_id": "devops engineer:26860000",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -88,110 +149,41 @@
       "known_status": "unseen",
       "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-08-24T14:11:04Z",
-      "public_slug": "senior-backend-engineer-ai-first-systems-leader-carousell-y27te5fs",
-      "role_key": "freehire:senior-backend-engineer-ai-first-systems-leader-carousell-y27te5fs",
+      "posted_at": "2026-09-10T12:18:33Z",
+      "public_slug": "senior-devops-engineer-multi-cloud-kubernetes-ai-ops-mha-consultancy-services-sdn-bhd-hl3d4a75",
+      "role_key": "freehire:senior-devops-engineer-multi-cloud-kubernetes-ai-ops-mha-consultancy-services-sdn-bhd-hl3d4a75",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26806906__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior Backend Engineer - AI-First Systems Leader"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26860000__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior DevOps Engineer: Multi-Cloud, Kubernetes & AI Ops"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
+        "title:ai"
       ],
-      "candidate_seq": 2425,
-      "company": "Infineon",
+      "candidate_seq": 2527,
+      "company": "Luxoft Malaysia Sdn. Bhd.",
       "employment_type": null,
-      "external_id": "infineon.eightfold.ai/infineon.com:563808971874262",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Melaka",
-      "market": "MY",
-      "posted_at": "2026-08-22T10:16:44Z",
-      "public_slug": "specialist-data-engineer-ai-infineon-qvkzahbb",
-      "role_key": "freehire:specialist-data-engineer-ai-infineon-qvkzahbb",
-      "source": "eightfold",
-      "source_url": "https://jobs.infineon.com/careers/job/563808971874262?utm_source=freehire.me",
-      "title": "Specialist Data Engineer & AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 2426,
-      "company": "swarovski",
-      "employment_type": null,
-      "external_id": "swarovski.wd3.myworkdayjobs.com/swarovski:/job/Bandar-Bayan-Baru-MYS/SAP-Platform-Engineer---AI-Developer_R-113792-1",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Bandar Bayan Baru, MYS",
-      "market": "MY",
-      "posted_at": "2026-07-22T00:00:00Z",
-      "public_slug": "sap-platform-engineer-ai-developer-swarovski-sbvxjmdr",
-      "role_key": "freehire:sap-platform-engineer-ai-developer-swarovski-sbvxjmdr",
-      "source": "workday",
-      "source_url": "https://swarovski.wd3.myworkdayjobs.com/swarovski/job/Bandar-Bayan-Baru-MYS/SAP-Platform-Engineer---AI-Developer_R-113792-1?utm_source=freehire.me",
-      "title": "SAP Platform Engineer & AI Developer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 2427,
-      "company": "bsigroup",
-      "employment_type": "full_time",
-      "external_id": "bsigroup.wd3.myworkdayjobs.com/bsi_careers:/job/Kuala-Lumpur-Malaysia/Machine-Learning-Operations-Engineer_JR0020486",
+      "external_id": "backend developer:26845230",
       "flags": [
-        "visa_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": "Subang Jaya, Malaysia",
       "market": "MY",
-      "posted_at": "2026-07-16T00:00:00Z",
-      "public_slug": "platform-engineer-ml-ops-bsigroup-ljc3ptlw",
-      "role_key": "freehire:platform-engineer-ml-ops-bsigroup-ljc3ptlw",
-      "source": "workday",
-      "source_url": "https://wd3.myworkdaysite.com/recruiting/bsigroup/BSI_Careers/job/Kuala-Lumpur-Malaysia/Machine-Learning-Operations-Engineer_JR0020486?utm_source=freehire.me",
-      "title": "Platform Engineer - ML Ops"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 2428,
-      "company": "Scicom (MSC) Berhad",
-      "employment_type": null,
-      "external_id": "6282:93293032",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-07-13T06:49:50Z",
-      "public_slug": "forward-deployed-ai-engineer-iva-solutions-scicom-msc-berhad-h3eikgba",
-      "role_key": "freehire:forward-deployed-ai-engineer-iva-solutions-scicom-msc-berhad-h3eikgba",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/93293032?utm_source=freehire.me",
-      "title": "Forward Deployed AI Engineer (IVA Solutions)"
+      "posted_at": "2026-09-03T11:15:14Z",
+      "public_slug": "full-stack-backend-engineer-ai-cloud-apps-luxoft-malaysia-sdn-bhd-o2b5w7xe",
+      "role_key": "freehire:full-stack-backend-engineer-ai-cloud-apps-luxoft-malaysia-sdn-bhd-o2b5w7xe",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26845230__7112?utm_campaign=publisher&utm_medium=api&geoID=147&utm_source=freehire.me",
+      "title": "Full-Stack Backend Engineer — AI Cloud & Apps"
     }
   ],
-  "generated_at": "2026-11-03T12:25:39.802912Z",
+  "generated_at": "2026-11-03T19:52:04.657490Z",
   "market": "MY",
-  "max_candidate_seq": 2428,
-  "min_candidate_seq": 2421,
+  "max_candidate_seq": 2527,
+  "min_candidate_seq": 2520,
   "shard_index": 3,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

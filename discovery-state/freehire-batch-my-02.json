@@ -2,105 +2,60 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 2413,
-      "company": "Runjian (M) Sdn. Bhd.",
-      "employment_type": "full_time",
-      "external_id": "6301:95132962",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Bangsar South, Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-10-08T02:37:47Z",
-      "public_slug": "test-engineer-qa-ai-evaluation-runjian-m-sdn-bhd-v6gm2rmn",
-      "role_key": "freehire:test-engineer-qa-ai-evaluation-runjian-m-sdn-bhd-v6gm2rmn",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95132962?utm_source=freehire.me",
-      "title": "Test Engineer (QA & AI Evaluation)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 2414,
-      "company": "6255 UOB Innovation Hub 2 Sdn Bhd",
+      "candidate_seq": 2512,
+      "company": "Brooks Automation",
       "employment_type": null,
-      "external_id": "devops engineer:26919844",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-04T09:21:44Z",
-      "public_slug": "mlops-engineer-ai-pipelines-cloud-devops-6255-uob-innovation-hub-2-sdn-bhd-wcl77if2",
-      "role_key": "freehire:mlops-engineer-ai-pipelines-cloud-devops-6255-uob-innovation-hub-2-sdn-bhd-wcl77if2",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26919844__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "MLOps Engineer — AI Pipelines & Cloud DevOps"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 2415,
-      "company": "Anite",
-      "employment_type": null,
-      "external_id": "data engineer:26900186",
+      "external_id": "brooksauto.wd1.myworkdayjobs.com/Brooks_External_Site:/job/Malaysia---Johor/Senior-Data---AI-Engineer_R5070-1",
       "flags": [
-        "experience_5_plus_hint"
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "George Town, Malaysia",
+      "location": "Malaysia - Johor",
       "market": "MY",
-      "posted_at": "2026-09-27T09:23:20Z",
-      "public_slug": "supply-chain-ai-analytics-engineer-anite-n7ijfxlx",
-      "role_key": "freehire:supply-chain-ai-analytics-engineer-anite-n7ijfxlx",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26900186__7112?utm_campaign=publisher&utm_medium=api&geoID=1143&utm_source=freehire.me",
-      "title": "Supply Chain AI & Analytics Engineer"
+      "posted_at": "2026-09-23T00:00:00Z",
+      "public_slug": "senior-data-ai-engineer-brooks-automation-ji2nmjlt",
+      "role_key": "freehire:senior-data-ai-engineer-brooks-automation-ji2nmjlt",
+      "source": "workday",
+      "source_url": "https://brooksauto.wd1.myworkdayjobs.com/Brooks_External_Site/job/Malaysia---Johor/Senior-Data---AI-Engineer_R5070-1?utm_source=freehire.me",
+      "title": "Senior Data & AI Engineer"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:ai"
       ],
-      "candidate_seq": 2416,
-      "company": "GBG",
+      "candidate_seq": 2513,
+      "company": "Maybank",
       "employment_type": null,
-      "external_id": "gbg:B15BD6672D",
+      "external_id": "data engineer:26889746",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-09-25T00:00:00Z",
-      "public_slug": "machine-learning-engineer-4023-gbg-ru4a6ri4",
-      "role_key": "freehire:machine-learning-engineer-4023-gbg-ru4a6ri4",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/B15BD6672D?utm_source=freehire.me",
-      "title": "Machine Learning Engineer (4023)"
+      "posted_at": "2026-09-22T10:40:28Z",
+      "public_slug": "ai-specialist-ai-data-engineering-ai-advisory-group-audit-maybank-4e3bg3c6",
+      "role_key": "freehire:ai-specialist-ai-data-engineering-ai-advisory-group-audit-maybank-4e3bg3c6",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26889746__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "AI Specialist, AI & Data Engineering, AI Advisory, Group Audit"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 2417,
-      "company": "Amaris Consulting",
+      "candidate_seq": 2514,
+      "company": "R Systems",
       "employment_type": null,
-      "external_id": "backend developer:26893884",
+      "external_id": "data engineer:26883438",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -109,90 +64,125 @@
       "known_status": "unseen",
       "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-09-24T13:21:41Z",
-      "public_slug": "senior-backend-engineer-c-net-on-azure-ai-orchestration-amaris-consulting-zlyxgr5h",
-      "role_key": "freehire:senior-backend-engineer-c-net-on-azure-ai-orchestration-amaris-consulting-zlyxgr5h",
+      "posted_at": "2026-09-21T12:42:04Z",
+      "public_slug": "senior-data-engineer-ai-driven-data-lake-on-aws-r-systems-77g6miok",
+      "role_key": "freehire:senior-data-engineer-ai-driven-data-lake-on-aws-r-systems-77g6miok",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26893884__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior Backend Engineer - C#/.NET on Azure + AI Orchestration"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26883438__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior Data Engineer: AI-Driven Data Lake on AWS"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:ai"
       ],
-      "candidate_seq": 2418,
-      "company": "Always Marketing Malaysia Sdn Bhd",
+      "candidate_seq": 2515,
+      "company": "AVEVA Asia Pacific Sdn Bhd",
       "employment_type": null,
-      "external_id": "alwaysmkt:wubBG3sS8g",
+      "external_id": "data engineer:26880554",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "KL Gateway, Kerinchi, Kuala Lumpur",
+      "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-09-23T00:00:00Z",
-      "public_slug": "machine-learning-operation-engineer-mlops-engineer-always-marketing-malaysia-sdn-bhd-ez42be64",
-      "role_key": "freehire:machine-learning-operation-engineer-mlops-engineer-always-marketing-malaysia-sdn-bhd-ez42be64",
-      "source": "jazzhr",
-      "source_url": "https://alwaysmkt.applytojob.com/apply/wubBG3sS8g/Machine-Learning-Operation-Engineer-MLOps-Engineer?utm_source=freehire.me",
-      "title": "Machine Learning Operation Engineer (MLOps Engineer)"
+      "posted_at": "2026-09-20T10:41:06Z",
+      "public_slug": "data-ai-engineer-aveva-asia-pacific-sdn-bhd-vqohwxfu",
+      "role_key": "freehire:data-ai-engineer-aveva-asia-pacific-sdn-bhd-vqohwxfu",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26880554__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Data AI Engineer"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:genai",
-        "jd:rag"
+        "title:ai"
       ],
-      "candidate_seq": 2419,
-      "company": "Centific",
+      "candidate_seq": 2516,
+      "company": "Entermind AI",
       "employment_type": null,
-      "external_id": "centific.wd1.myworkdayjobs.com/Centific_Global:/job/Malaysia-Office--Penang/Junior-Data-Scientist_JR108429-1",
+      "external_id": "data engineer:26881777",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Malaysia Office -Penang",
+      "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-09-22T00:00:00Z",
-      "public_slug": "junior-data-scientist-centific-qxjib6zj",
-      "role_key": "freehire:junior-data-scientist-centific-qxjib6zj",
-      "source": "workday",
-      "source_url": "https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Malaysia-Office--Penang/Junior-Data-Scientist_JR108429-1?utm_source=freehire.me",
-      "title": "Junior Data Scientist"
+      "posted_at": "2026-09-20T10:41:05Z",
+      "public_slug": "data-engineer-architect-ai-ready-data-pipelines-entermind-ai-23og3cr4",
+      "role_key": "freehire:data-engineer-architect-ai-ready-data-pipelines-entermind-ai-23og3cr4",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26881777__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Data Engineer: Architect AI-Ready Data Pipelines"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ml"
       ],
-      "candidate_seq": 2420,
-      "company": "Rapsodo",
+      "candidate_seq": 2517,
+      "company": "Alphv Recruit",
       "employment_type": null,
-      "external_id": "rapsodo:6AD3727A4D",
+      "external_id": "data engineer:26879393",
       "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "location": "Selangor, Malaysia",
       "market": "MY",
-      "posted_at": "2026-09-15T00:00:00Z",
-      "public_slug": "senior-data-ai-engineer-rapsodo-q5eosz6x",
-      "role_key": "freehire:senior-data-ai-engineer-rapsodo-q5eosz6x",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/6AD3727A4D?utm_source=freehire.me",
-      "title": "Senior Data & AI Engineer"
+      "posted_at": "2026-09-19T10:40:46Z",
+      "public_slug": "lakehouse-data-engineer-real-time-pipelines-ml-alphv-recruit-uf47lqfm",
+      "role_key": "freehire:lakehouse-data-engineer-real-time-pipelines-ml-alphv-recruit-uf47lqfm",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26879393__7112?utm_campaign=publisher&utm_medium=api&geoID=15&utm_source=freehire.me",
+      "title": "Lakehouse Data Engineer - Real-time Pipelines & ML"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2518,
+      "company": "AVEVA Asia Pacific Sdn Bhd",
+      "employment_type": null,
+      "external_id": "full stack developer:26879935",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-19T10:40:43Z",
+      "public_slug": "full-stack-engineer-net-angular-hybrid-ai-driven-aveva-asia-pacific-sdn-bhd-ttxg4elg",
+      "role_key": "freehire:full-stack-engineer-net-angular-hybrid-ai-driven-aveva-asia-pacific-sdn-bhd-ttxg4elg",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26879935__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Full-Stack Engineer — .NET & Angular, Hybrid & AI-Driven"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2519,
+      "company": "SWAROVSKI GLOBAL BUSINESS SERVICES ASIA SDN BHD",
+      "employment_type": null,
+      "external_id": "full stack developer:26878542",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-19T10:40:42Z",
+      "public_slug": "sap-full-stack-developer-abap-btp-ai-swarovski-global-business-services-asia-sdn-bhd-2neis5gd",
+      "role_key": "freehire:sap-full-stack-developer-abap-btp-ai-swarovski-global-business-services-asia-sdn-bhd-2neis5gd",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26878542__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "SAP Full-Stack Developer (ABAP/BTP/AI)"
     }
   ],
-  "generated_at": "2026-11-03T12:25:39.802912Z",
+  "generated_at": "2026-11-03T19:52:04.657490Z",
   "market": "MY",
-  "max_candidate_seq": 2420,
-  "min_candidate_seq": 2413,
+  "max_candidate_seq": 2519,
+  "min_candidate_seq": 2512,
   "shard_index": 2,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

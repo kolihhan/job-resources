@@ -1,93 +1,41 @@
 {
-  "candidate_count": 7,
+  "candidate_count": 2,
   "candidates": [
     {
-      "ai_score": 9,
+      "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:agent",
-        "jd:agent"
+        "title:ml"
       ],
-      "candidate_seq": 230,
-      "company": "Beyondsoft International",
+      "candidate_seq": 342,
+      "company": "jpmc-dev9.fa.oraclecloud.com/CX",
       "employment_type": null,
-      "external_id": "devops engineer:92804950",
+      "external_id": "jpmc-dev9.fa.oraclecloud.com/CX:210731292",
       "flags": [
-        "agency_or_outstaff_hint"
+        "experience_5_plus_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-07T09:56:51Z",
-      "public_slug": "agentic-ai-engineer-azure-sre-devops-beyondsoft-international-2bplbe72",
-      "role_key": "freehire:agentic-ai-engineer-azure-sre-devops-beyondsoft-international-2bplbe72",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92804950__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Agentic AI Engineer — Azure, SRE & DevOps"
+      "posted_at": "2026-04-01T00:00:00Z",
+      "public_slug": "ai-ml-solutions-enablement-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-hhxjhfmk",
+      "role_key": "freehire:ai-ml-solutions-enablement-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-hhxjhfmk",
+      "source": "oracle",
+      "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731292?utm_source=freehire.me",
+      "title": "AI/ML Solutions Enablement – Associate, APAC Chief & Data Analytics Office"
     },
     {
-      "ai_score": 9,
+      "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:fine_tuning",
-        "jd:model_training"
+        "title:ml"
       ],
-      "candidate_seq": 232,
-      "company": "GRC Construction",
+      "candidate_seq": 343,
+      "company": "JPMC",
       "employment_type": null,
-      "external_id": "6290:95080397",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Tai Seng, North-East Region",
-      "market": "SG",
-      "posted_at": "2026-10-06T04:01:40Z",
-      "public_slug": "ai-engineer-grc-construction-xa3rqatm",
-      "role_key": "freehire:ai-engineer-grc-construction-xa3rqatm",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95080397?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:genai",
-        "title:ai"
-      ],
-      "candidate_seq": 233,
-      "company": "USER EXPERIENCE RESEARCHERS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:92777848",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-06T01:58:56Z",
-      "public_slug": "genai-fullstack-engineer-build-ai-workflows-apps-user-experience-researchers-pte-ltd-e3qabk77",
-      "role_key": "freehire:genai-fullstack-engineer-build-ai-workflows-apps-user-experience-researchers-pte-ltd-e3qabk77",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92777848__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "GenAI Fullstack Engineer - Build AI Workflows & Apps"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 234,
-      "company": "SCIENTEC CONSULTING PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:91905072",
+      "external_id": "jpmc-dev1.fa.oraclecloud.com/CX:210731274",
       "flags": [
         "seniority_hint"
       ],
@@ -95,95 +43,18 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-28T15:57:22Z",
-      "public_slug": "full-stack-engineer-ai-scientec-consulting-pte-ltd-nruv5hdw",
-      "role_key": "freehire:full-stack-engineer-ai-scientec-consulting-pte-ltd-nruv5hdw",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91905072__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Engineer (AI)"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:genai",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 235,
-      "company": "Unison Group",
-      "employment_type": null,
-      "external_id": "unisongroup:FF2BDE7276",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-25T00:00:00Z",
-      "public_slug": "gen-ai-engineer-banking-unison-group-x5e6rrr3",
-      "role_key": "freehire:gen-ai-engineer-banking-unison-group-x5e6rrr3",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/FF2BDE7276?utm_source=freehire.me",
-      "title": "Gen AI Engineer - Banking"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:ai",
-        "title:ml",
-        "jd:agent"
-      ],
-      "candidate_seq": 236,
-      "company": "POET TECHNOLOGIES PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:91847825",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-19T10:15:37Z",
-      "public_slug": "senior-ai-data-platform-engineer-ml-infra-production-poet-technologies-pte-ltd-rnzdq3lz",
-      "role_key": "freehire:senior-ai-data-platform-engineer-ml-infra-production-poet-technologies-pte-ltd-rnzdq3lz",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91847825__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI & Data Platform Engineer: ML Infra & Production"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:ai",
-        "title:ml",
-        "jd:pytorch"
-      ],
-      "candidate_seq": 237,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "data engineer:90399384",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T16:02:41Z",
-      "public_slug": "ai-data-platform-engineer-lakehouse-ml-pipelines-tiktok-q3wvwlcl",
-      "role_key": "freehire:ai-data-platform-engineer-lakehouse-ml-pipelines-tiktok-q3wvwlcl",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90399384__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Data Platform Engineer: Lakehouse & ML Pipelines"
+      "posted_at": "2026-04-01T00:00:00Z",
+      "public_slug": "ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev1-fa-oraclecloud-com-cx-73byzcny",
+      "role_key": "freehire:ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev1-fa-oraclecloud-com-cx-73byzcny",
+      "source": "oracle",
+      "source_url": "https://jpmc-dev1.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731274?utm_source=freehire.me",
+      "title": "AI/ML Capabilities – Associate, APAC Chief & Data Analytics Office"
     }
   ],
-  "generated_at": "2026-11-03T12:25:39.802912Z",
+  "generated_at": "2026-11-03T19:52:04.657490Z",
   "market": "SG",
-  "max_candidate_seq": 237,
-  "min_candidate_seq": 230,
+  "max_candidate_seq": 343,
+  "min_candidate_seq": 342,
   "shard_index": 13,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",

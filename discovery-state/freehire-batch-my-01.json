@@ -1,215 +1,193 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 2404,
-      "company": "QI AI Labs",
+      "candidate_seq": 2504,
+      "company": "Mettler-Toledo Services Asia-Pac Sdn Bhd",
       "employment_type": null,
-      "external_id": "backend developer:26955304",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-19T15:05:24Z",
-      "public_slug": "backend-engineer-ai-powered-enterprise-workflows-qi-ai-labs-3a2be4ik",
-      "role_key": "freehire:backend-engineer-ai-powered-enterprise-workflows-qi-ai-labs-3a2be4ik",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26955304__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Backend Engineer — AI-Powered Enterprise Workflows"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:genai",
-        "jd:rag"
-      ],
-      "candidate_seq": 2405,
-      "company": "CENTIFIC GLOBAL SOLUTIONS, SLU",
-      "employment_type": null,
-      "external_id": ":10150862",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-17T12:00:47Z",
-      "public_slug": "data-scientist-centific-global-solutions-slu-t63iggja",
-      "role_key": "freehire:data-scientist-centific-global-solutions-slu-t63iggja",
-      "source": "startupjobs",
-      "source_url": "https://startup.jobs/data-scientist-centific-global-solutions-sl-10150862?utm_source=freehire.me",
-      "title": "Data Scientist"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 2406,
-      "company": "CoinWorldCap",
-      "employment_type": null,
-      "external_id": "backend developer:26951259",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-10-17T09:44:30Z",
-      "public_slug": "ai-driven-backend-engineer-for-fintech-data-pipelines-coinworldcap-l7prvbfl",
-      "role_key": "freehire:ai-driven-backend-engineer-for-fintech-data-pipelines-coinworldcap-l7prvbfl",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26951259__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "AI-Driven Backend Engineer for Fintech & Data Pipelines"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 2407,
-      "company": "Avinity Analytics Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "full stack developer:26950733",
+      "external_id": "data engineer:26901268",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Petaling Jaya, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-16T14:25:03Z",
-      "public_slug": "ai-driven-full-stack-web-developer-avinity-analytics-pte-ltd-iayahuq7",
-      "role_key": "freehire:ai-driven-full-stack-web-developer-avinity-analytics-pte-ltd-iayahuq7",
+      "posted_at": "2026-09-27T09:23:18Z",
+      "public_slug": "data-engineer-build-scalable-data-platform-for-ai-mettler-toledo-services-asia-pac-sdn-bhd-fzd7g3dv",
+      "role_key": "freehire:data-engineer-build-scalable-data-platform-for-ai-mettler-toledo-services-asia-pac-sdn-bhd-fzd7g3dv",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26950733__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
-      "title": "AI-Driven Full-Stack Web Developer"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26901268__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Data Engineer: Build Scalable Data Platform for AI"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 2408,
-      "company": "Avinity Analytics Pte. Ltd.",
+      "candidate_seq": 2505,
+      "company": "Curlec by Razorpay",
       "employment_type": null,
-      "external_id": "full stack developer:26948861",
+      "external_id": "devops engineer:26903359",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-27T09:23:15Z",
+      "public_slug": "ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
+      "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903359__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "AI-Driven DevOps Engineer — Cloud, Kubernetes & Automation"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2506,
+      "company": "Jumpstart commerce sdn bhd",
+      "employment_type": null,
+      "external_id": "frontend developer:26901223",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-27T09:23:07Z",
+      "public_slug": "remote-shopify-frontend-developer-ai-driven-commerce-jumpstart-commerce-sdn-bhd-gcg2l656",
+      "role_key": "freehire:remote-shopify-frontend-developer-ai-driven-commerce-jumpstart-commerce-sdn-bhd-gcg2l656",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26901223__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Remote Shopify Frontend Developer | AI-Driven Commerce"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2507,
+      "company": "Salt Digital Recruitment",
+      "employment_type": null,
+      "external_id": "data engineer:26896080",
       "flags": [
-        "agency_or_outstaff_hint"
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-25T17:22:16Z",
+      "public_slug": "senior-software-engineer-ml-data-apis-h2o-salt-digital-recruitment-vewi2qyb",
+      "role_key": "freehire:senior-software-engineer-ml-data-apis-h2o-salt-digital-recruitment-vewi2qyb",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26896080__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior Software Engineer - ML & Data APIs (H2O)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2508,
+      "company": "Brooks Automation Malaysia SDN. BHD.",
+      "employment_type": null,
+      "external_id": "data engineer:26894648",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Johor, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-09-25T17:22:15Z",
+      "public_slug": "senior-data-ai-engineer-brooks-automation-malaysia-sdn-bhd-mrqe7wwl",
+      "role_key": "freehire:senior-data-ai-engineer-brooks-automation-malaysia-sdn-bhd-mrqe7wwl",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26894648__7112?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2509,
+      "company": "Biomed Global (M) Sdn. Bhd.",
+      "employment_type": null,
+      "external_id": "full stack developer:26895154",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Petaling Jaya, Malaysia",
       "market": "MY",
-      "posted_at": "2026-10-16T14:25:03Z",
-      "public_slug": "web-developer-full-stack-ai-avinity-analytics-pte-ltd-2jb2y3mp",
-      "role_key": "freehire:web-developer-full-stack-ai-avinity-analytics-pte-ltd-2jb2y3mp",
+      "posted_at": "2026-09-25T17:22:02Z",
+      "public_slug": "senior-full-stack-developer-ai-driven-production-apps-biomed-global-m-sdn-bhd-kfcoripv",
+      "role_key": "freehire:senior-full-stack-developer-ai-driven-production-apps-biomed-global-m-sdn-bhd-kfcoripv",
       "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26948861__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
-      "title": "Web Developer (Full Stack, AI)"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26895154__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Senior Full-Stack Developer — AI-Driven, Production Apps"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:ai"
       ],
-      "candidate_seq": 2409,
-      "company": "NielsenIQ",
+      "candidate_seq": 2510,
+      "company": "Lavu Tech Solutions",
       "employment_type": null,
-      "external_id": "NielsenIQ:744000155973050",
+      "external_id": "6282:94846738",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, 14, my",
+      "location": "Kuala Lumpur City Centre, Kuala Lumpur",
       "market": "MY",
-      "posted_at": "2026-10-16T11:28:46Z",
-      "public_slug": "machine-learning-engineer-nielseniq-hjomf6oo",
-      "role_key": "freehire:machine-learning-engineer-nielseniq-hjomf6oo",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155973050-machine-learning-engineer?utm_source=freehire.me",
-      "title": "Machine Learning Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 2410,
-      "company": "Tentacle Technologies",
-      "employment_type": null,
-      "external_id": "6290:95303070",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur",
-      "market": "MY",
-      "posted_at": "2026-10-16T01:26:32Z",
-      "public_slug": "ai-engineer-insurance-decision-intelligence-tentacle-technologies-74vm4rvu",
-      "role_key": "freehire:ai-engineer-insurance-decision-intelligence-tentacle-technologies-74vm4rvu",
+      "posted_at": "2026-09-23T08:15:04Z",
+      "public_slug": "gen-ai-engineer-lavu-tech-solutions-2cqjvi4u",
+      "role_key": "freehire:gen-ai-engineer-lavu-tech-solutions-2cqjvi4u",
       "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95303070?utm_source=freehire.me",
-      "title": "AI Engineer - Insurance Decision Intelligence"
+      "source_url": "https://my.jobstreet.com/job/94846738?utm_source=freehire.me",
+      "title": "Gen AI Engineer"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:tensorflow"
+        "title:ai"
       ],
-      "candidate_seq": 2411,
-      "company": "5G-Starlink Pte.",
+      "candidate_seq": 2511,
+      "company": "brooksauto",
       "employment_type": null,
-      "external_id": "data engineer:26929150",
-      "flags": [],
+      "external_id": "brooksauto.wd1.myworkdayjobs.com/brooks_conversion_site:/job/Malaysia---Johor/Senior-Data---AI-Engineer_R5070",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "George Town, Malaysia",
+      "location": "Malaysia - Johor",
       "market": "MY",
-      "posted_at": "2026-10-09T13:45:05Z",
-      "public_slug": "remote-software-engineer-data-analytics-ml-5g-starlink-pte-w4wzl2x6",
-      "role_key": "freehire:remote-software-engineer-data-analytics-ml-5g-starlink-pte-w4wzl2x6",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26929150__7112?utm_campaign=publisher&utm_medium=api&geoID=1143&utm_source=freehire.me",
-      "title": "Remote Software Engineer - Data Analytics & ML"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 2412,
-      "company": "FOZ One Sdn Bhd",
-      "employment_type": null,
-      "external_id": "6290:95142931",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Johor Bahru, Johor",
-      "market": "MY",
-      "posted_at": "2026-10-08T07:16:03Z",
-      "public_slug": "ai-software-engineer-foz-one-sdn-bhd-n3dah4us",
-      "role_key": "freehire:ai-software-engineer-foz-one-sdn-bhd-n3dah4us",
-      "source": "jobstreet",
-      "source_url": "https://my.jobstreet.com/job/95142931?utm_source=freehire.me",
-      "title": "AI Software Engineer"
+      "posted_at": "2026-09-23T00:00:00Z",
+      "public_slug": "senior-data-ai-engineer-brooksauto-ol25tsmj",
+      "role_key": "freehire:senior-data-ai-engineer-brooksauto-ol25tsmj",
+      "source": "workday",
+      "source_url": "https://brooksauto.wd1.myworkdayjobs.com/Brooks_Conversion_Site/job/Malaysia---Johor/Senior-Data---AI-Engineer_R5070?utm_source=freehire.me",
+      "title": "Senior Data & AI Engineer"
     }
   ],
-  "generated_at": "2026-11-03T12:25:39.802912Z",
+  "generated_at": "2026-11-03T19:52:04.657490Z",
   "market": "MY",
-  "max_candidate_seq": 2412,
-  "min_candidate_seq": 2404,
+  "max_candidate_seq": 2511,
+  "min_candidate_seq": 2504,
   "shard_index": 1,
   "source_generated_at": "2026-11-03T01:12:54.808439Z",
   "transport": "compact_metadata_byte_bounded_v1",
