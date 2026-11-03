@@ -1,4 +1,5 @@
 import importlib.util
+import json
 from pathlib import Path
 import unittest
 
@@ -62,6 +63,96 @@ class FreeHireReviewThroughputTests(unittest.TestCase):
         self.assertEqual([len(shard["candidates"]) for shard in shards], [25, 25, 25, 25])
         self.assertEqual(shards[0]["min_candidate_seq"], 1)
         self.assertEqual(shards[-1]["max_candidate_seq"], 100)
+
+    def test_hourly_batch_projects_candidates_to_compact_metadata(self):
+        mod = self._load_module()
+        source = {
+            "market": "SG",
+            "public_slug": "agent-role-1",
+            "company": "Example AI",
+            "title": "Agent Engineer",
+            "location": "Singapore",
+            "source": "workday",
+            "source_url": "https://example.com/job/1",
+            "freehire_url": "https://freehire.me/jobs/agent-role-1",
+            "external_id": "REQ-1",
+            "identity": "agent-role-1",
+            "known_status": "suspected_known",
+            "known_match_basis": "company_title",
+            "ai_score": 11,
+            "ai_signals": ["title:agent", "jd:rag"],
+            "flags": ["senior_hint"],
+            "employment_type": "full_time",
+            "posted_at": "2026-11-01T00:00:00Z",
+            "created_at": "2026-11-02T00:00:00Z",
+            "description_excerpt": "VERY-LONG-JD " * 10000,
+            "raw_payload": {"also": "must not travel"},
+        }
+        cursors = {market: {"last_consumed_candidate_seq": 0} for market in ("SG", "CN", "MY")}
+
+        _, batches = mod.build_batches(
+            {"source_generated_at": "2026-11-03T00:00:00Z", "candidates": [source]},
+            registry=None,
+            cursors=cursors,
+        )
+        candidate = batches["SG"]["candidates"][0]
+
+        self.assertNotIn("description_excerpt", candidate)
+        self.assertNotIn("raw_payload", candidate)
+        for key in (
+            "candidate_seq",
+            "role_key",
+            "market",
+            "public_slug",
+            "company",
+            "title",
+            "location",
+            "source",
+            "source_url",
+            "freehire_url",
+            "external_id",
+            "identity",
+            "known_status",
+            "known_match_basis",
+            "ai_score",
+            "ai_signals",
+            "flags",
+            "employment_type",
+            "posted_at",
+            "created_at",
+        ):
+            self.assertIn(key, candidate)
+
+    def test_shard_size_is_not_driven_by_jd_length(self):
+        mod = self._load_module()
+        candidates = []
+        for i in range(25):
+            candidates.append(
+                {
+                    "market": "MY",
+                    "public_slug": f"my-{i:03d}",
+                    "company": "Example",
+                    "title": "AI Engineer",
+                    "location": "Malaysia",
+                    "source_url": f"https://example.com/{i}",
+                    "ai_score": 8,
+                    "ai_signals": ["title:ai", "jd:agent"],
+                    "flags": [],
+                    "description_excerpt": "X" * 20000,
+                }
+            )
+        cursors = {market: {"last_consumed_candidate_seq": 0} for market in ("SG", "CN", "MY")}
+
+        _, batches = mod.build_batches(
+            {"source_generated_at": "2026-11-03T00:00:00Z", "candidates": candidates},
+            registry=None,
+            cursors=cursors,
+        )
+        _, shards = mod.shard_batch(batches["MY"], shard_size=25)
+        encoded = json.dumps(shards[0], ensure_ascii=False).encode("utf-8")
+
+        self.assertLess(len(encoded), 100_000)
+        self.assertTrue(all("description_excerpt" not in c for c in shards[0]["candidates"]))
 
 
 if __name__ == "__main__":
