@@ -64,11 +64,12 @@ class FreeHireReviewThroughputTests(unittest.TestCase):
         )
         candidate = batches["SG"]["candidates"][0]
 
-        for dropped in ("description_excerpt", "raw_payload", "freehire_url", "identity", "created_at", "event_kind", "event_seq", "public_slug"):
+        for dropped in ("description_excerpt", "raw_payload", "freehire_url", "identity", "created_at", "event_kind", "event_seq"):
             self.assertNotIn(dropped, candidate)
         for key in (
             "candidate_seq",
             "role_key",
+            "public_slug",
             "market",
             "company",
             "title",
