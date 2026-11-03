@@ -16,7 +16,7 @@ Malaysia | [+60 17-424 6282](tel:+60174246282) | [lihhanko526@gmail.com](mailto:
 
 ## Research Experience
 
-**Context-Aware Implicit Intent Understanding in Workplace Dialogue**  
+**Interpreting Implicit Intent through Workplace Hierarchies and Context**  
 *M.S. Thesis, National Tsing Hua University | NLP · Graph Learning · Knowledge Graphs · LLMs*
 
 - Modeled how workplace context and speaker-listener roles affect the implicit intent of an utterance.
