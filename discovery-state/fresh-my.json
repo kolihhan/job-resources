@@ -1,16 +1,16 @@
 {
   "version": 2,
   "market": "MY",
-  "platform_cycle": 11,
-  "next_platform_index": 4,
-  "next_owner_bucket": 3,
-  "next_query_bucket": 3,
-  "run_counter": 27,
-  "last_completed_at": "2026-11-04T00:18:16+08:00",
+  "platform_cycle": 12,
+  "next_platform_index": 1,
+  "next_owner_bucket": 4,
+  "next_query_bucket": 4,
+  "run_counter": 28,
+  "last_completed_at": "2026-11-04T01:23:10+08:00",
   "last_platforms": [
-    "Indeed Malaysia",
-    "Hiredly"
+    "recruiter / team / direct hiring posts",
+    "LinkedIn Jobs Malaysia"
   ],
-  "last_owner_bucket": "AEON Bank / GXBank",
-  "last_query_bucket": "AI backend / platform / ML engineering"
+  "last_owner_bucket": "Keysight / AMD / Intel",
+  "last_query_bucket": "destination-quality backend / data / cloud / SRE / SDET"
 }
