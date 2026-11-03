@@ -2,15 +2,15 @@
   "version": 2,
   "market": "CN",
   "platform_cycle": 4,
-  "next_platform_index": 1,
-  "next_owner_bucket": 5,
-  "next_query_bucket": 0,
-  "run_counter": 11,
-  "last_completed_at": "2026-11-03T07:12:17+08:00",
+  "next_platform_index": 3,
+  "next_owner_bucket": 0,
+  "next_query_bucket": 1,
+  "run_counter": 12,
+  "last_completed_at": "2026-11-03T08:15:00+08:00",
   "last_platforms": [
-    "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals",
-    "BOSS直聘"
+    "牛客招聘",
+    "猎聘"
   ],
-  "last_owner_bucket": 4,
-  "last_query_bucket": 5
+  "last_owner_bucket": 5,
+  "last_query_bucket": 0
 }
