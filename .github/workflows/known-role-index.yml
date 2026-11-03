@@ -71,7 +71,7 @@ jobs:
           PY
 
       - name: Build bounded market review batches
-        run: python scripts/build_freehire_review_queue.py --batch-size 100
+        run: python scripts/build_freehire_review_queue.py --batch-size 100 --shard-size 25
 
       - name: Publish derived discovery state
         shell: bash
@@ -82,10 +82,8 @@ jobs:
             discovery-state/known-role-index.json \
             discovery-state/freehire-coldstart.json \
             discovery-state/freehire-coldstart-summary.json \
-            discovery-state/freehire-review-registry.json \
-            discovery-state/freehire-batch-sg.json \
-            discovery-state/freehire-batch-cn.json \
-            discovery-state/freehire-batch-my.json
+            discovery-state/freehire-review-registry.json
+          git add -A discovery-state/freehire-batch-*.json
           if git diff --cached --quiet; then
             echo "Derived discovery state unchanged."
             exit 0
