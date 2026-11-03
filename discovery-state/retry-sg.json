@@ -1,17 +1,6 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-03T08:00:00+08:00",
-  "receipts": [
-    {
-      "role_key": "freehire:machine-learning-engineer-e-commerce-merchant-growth-llm-agentic-systems-bytedance-s747ldp6",
-      "candidate_seq": 7,
-      "reason_code": "verification_transient",
-      "attempts": 1,
-      "next_retry_at": "2026-11-03T08:10:00+08:00",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer - E-commerce Merchant Growth, LLM Agentic Systems",
-      "source_url": "https://jobs.bytedance.com/en/position/7616680923447527733/detail"
-    }
-  ]
+  "updated_at": "2026-11-03T09:00:00+08:00",
+  "receipts": []
 }
