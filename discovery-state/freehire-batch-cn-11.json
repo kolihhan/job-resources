@@ -1,0 +1,206 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning",
+        "jd:nlp"
+      ],
+      "candidate_seq": 1747,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200617349",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-08-25T15:04:05Z",
+      "public_slug": "aiml-software-engineer-machine-learning-platform-infrastructure-apple-xstyz5e4",
+      "role_key": "freehire:aiml-software-engineer-machine-learning-platform-infrastructure-apple-xstyz5e4",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200617349/aiml-software-engineer-machine-learning-platform-infrastructure?utm_source=freehire.me",
+      "title": "AIML - Software Engineer, Machine Learning Platform & Infrastructure"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:llm",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1748,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200595406",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2025-07-03T10:10:54Z",
+      "public_slug": "aiml-machine-learning-engineer-data-machine-learning-innovation-apple-zmwkhsfe",
+      "role_key": "freehire:aiml-machine-learning-engineer-data-machine-learning-innovation-apple-zmwkhsfe",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200595406/aiml-machine-learning-engineer-data-machine-learning-innovation?utm_source=freehire.me",
+      "title": "AIML - Machine Learning Engineer, Data & Machine Learning Innovation"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "jd:llm",
+        "jd:rag",
+        "jd:retrieval",
+        "jd:nlp",
+        "jd:fine_tuning",
+        "jd:model_training",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 1749,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7520227411453364487",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-06-26T12:13:15Z",
+      "public_slug": "aisuan-fa-gong-cheng-shi-shu-ju-ku-bytedance-cwobv6gp",
+      "role_key": "freehire:aisuan-fa-gong-cheng-shi-shu-ju-ku-bytedance-cwobv6gp",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7520227411453364487/detail?utm_source=freehire.me",
+      "title": "AI算法工程师-数据库"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning",
+        "jd:nlp"
+      ],
+      "candidate_seq": 1751,
+      "company": "Bosch Group",
+      "employment_type": null,
+      "external_id": "boschgroup:744000038186141",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hong Kong, Hong Kong, cn",
+      "market": "CN",
+      "posted_at": "2025-01-23T03:45:15Z",
+      "public_slug": "software-expert-ai-developer-m-bdo4-pu-bosch-group-6iihefsd",
+      "role_key": "freehire:software-expert-ai-developer-m-bdo4-pu-bosch-group-6iihefsd",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000038186141-software-expert-ai-developer-m-bdo4-pu?utm_source=freehire.me",
+      "title": "Software Expert (AI Developer) - M/BDO4-PU"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:nlp",
+        "jd:pytorch",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 1753,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7360584856491739402",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2024-04-22T07:08:41Z",
+      "public_slug": "cv-nlp-duo-mo-tai-suan-fa-gong-cheng-shi-guo-ji-dian-shang-ping-tai-zhi-li-bytedance-hyxej4hy",
+      "role_key": "freehire:cv-nlp-duo-mo-tai-suan-fa-gong-cheng-shi-guo-ji-dian-shang-ping-tai-zhi-li-bytedance-hyxej4hy",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7360584856491739402/detail?utm_source=freehire.me",
+      "title": "CV/NLP/多模态算法工程师 - 国际电商（平台治理）"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 1754,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7299363825898817842",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2023-11-09T07:41:45Z",
+      "public_slug": "llm-agentji-chu-jia-gou-gong-cheng-shi-trae-bytedance-pqks25h5",
+      "role_key": "freehire:llm-agentji-chu-jia-gou-gong-cheng-shi-trae-bytedance-pqks25h5",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7299363825898817842/detail?utm_source=freehire.me",
+      "title": "LLM Agent基础架构工程师-TRAE"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:pytorch",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 1755,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7168290468999399710",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2022-11-21T06:22:45Z",
+      "public_slug": "bian-pai-diao-du-gao-ji-yan-fa-gong-cheng-shi-ml-infrafang-xiang-ji-chu-ji-zhu-bytedance-gx3wg6j4",
+      "role_key": "freehire:bian-pai-diao-du-gao-ji-yan-fa-gong-cheng-shi-ml-infrafang-xiang-ji-chu-ji-zhu-bytedance-gx3wg6j4",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7168290468999399710/detail?utm_source=freehire.me",
+      "title": "编排调度高级研发工程师（ML Infra方向）-基础技术"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:rag"
+      ],
+      "candidate_seq": 1756,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7094183443253168391",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2022-05-05T09:38:13Z",
+      "public_slug": "ye-wu-feng-kong-ce-shi-kai-fa-zhuan-jia-tiktok-bytedance-sp4ma6un",
+      "role_key": "freehire:ye-wu-feng-kong-ce-shi-kai-fa-zhuan-jia-tiktok-bytedance-sp4ma6un",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7094183443253168391/detail?utm_source=freehire.me",
+      "title": "AI Agent开发工程师（业务风控） - TikTok研发"
+    }
+  ],
+  "generated_at": "2026-11-03T06:34:15.651489Z",
+  "market": "CN",
+  "max_candidate_seq": 1756,
+  "min_candidate_seq": 1747,
+  "shard_index": 11,
+  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

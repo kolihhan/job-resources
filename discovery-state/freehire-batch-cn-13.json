@@ -1,0 +1,82 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 1765,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100034880003",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-10-29T12:42:46Z",
+      "public_slug": "qian-wen-ban-gong-ai-ke-hu-duan-quan-zhan-kai-fa-gong-cheng-shi-hang-zhou-shen-zhen-alibaba-group-ontemeii",
+      "role_key": "freehire:qian-wen-ban-gong-ai-ke-hu-duan-quan-zhan-kai-fa-gong-cheng-shi-hang-zhou-shen-zhen-alibaba-group-ontemeii",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100034880003&utm_source=freehire.me",
+      "title": "千问办公-AI 客户端全栈开发工程师-杭州"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1766,
+      "company": "Schneider Electric",
+      "employment_type": null,
+      "external_id": "se.jibeapply.com:140009",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China-Jiangsu-Wuxi",
+      "market": "CN",
+      "posted_at": "2026-10-29T07:01:35Z",
+      "public_slug": "ai-engineer-ii-schneider-electric-jn3pzldb",
+      "role_key": "freehire:ai-engineer-ii-schneider-electric-jn3pzldb",
+      "source": "jibe",
+      "source_url": "https://se.jibeapply.com/careers-home/jobs/140009?utm_source=freehire.me",
+      "title": "AI Engineer II"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "jd:llm",
+        "jd:rag",
+        "jd:retrieval",
+        "jd:pytorch",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 1767,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100027060002",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-10-29T02:53:06Z",
+      "public_slug": "a-li-jian-kang-tu-suan-fa-gong-cheng-shi-hang-zhou-bei-jing-alibaba-group-rys2gwsa",
+      "role_key": "freehire:a-li-jian-kang-tu-suan-fa-gong-cheng-shi-hang-zhou-bei-jing-alibaba-group-rys2gwsa",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100027060002&utm_source=freehire.me",
+      "title": "阿里健康-图算法工程师-杭州/北京"
+    }
+  ],
+  "generated_at": "2026-11-03T06:34:15.651489Z",
+  "market": "CN",
+  "max_candidate_seq": 1767,
+  "min_candidate_seq": 1765,
+  "shard_index": 13,
+  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

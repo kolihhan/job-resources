@@ -1,0 +1,200 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning",
+        "jd:transformer"
+      ],
+      "candidate_seq": 1739,
+      "company": "Qualcomm",
+      "employment_type": null,
+      "external_id": "qualcomm.eightfold.ai/qualcomm.com:446706674522",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, China",
+      "market": "CN",
+      "posted_at": "2025-10-28T00:00:00Z",
+      "public_slug": "robotic-embodied-ai-engineer-qualcomm-idqhqbt5",
+      "role_key": "freehire:robotic-embodied-ai-engineer-qualcomm-idqhqbt5",
+      "source": "eightfold",
+      "source_url": "https://careers.qualcomm.com/careers/job/446706674522?utm_source=freehire.me",
+      "title": "Robotic Embodied AI Engineer"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:agent",
+        "jd:pytorch"
+      ],
+      "candidate_seq": 1740,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7552737765198514439",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-09-22T02:44:43Z",
+      "public_slug": "tong-xin-ai-ml-infragong-cheng-shi-dou-bao-shou-ji-zhu-shou-bei-jing-shen-zhen-bytedance-fdtkogzv",
+      "role_key": "freehire:tong-xin-ai-ml-infragong-cheng-shi-dou-bao-shou-ji-zhu-shou-bei-jing-shen-zhen-bytedance-fdtkogzv",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7552737765198514439/detail?utm_source=freehire.me",
+      "title": "通信AI/ML Infra工程师-豆包手机助手（北京/深圳）"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:rag"
+      ],
+      "candidate_seq": 1741,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7550964671864539410",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-09-17T08:03:07Z",
+      "public_slug": "hou-duan-kai-fa-shi-xi-sheng-ai-platform-bytedance-tc6lmhse",
+      "role_key": "freehire:hou-duan-kai-fa-shi-xi-sheng-ai-platform-bytedance-tc6lmhse",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7550964671864539410/detail?utm_source=freehire.me",
+      "title": "后端开发实习生-AI Platform"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1742,
+      "company": "jpmc-dev9.fa.oraclecloud.com/CX",
+      "employment_type": null,
+      "external_id": "jpmc-dev9.fa.oraclecloud.com/CX:210668055",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2025-09-16T00:00:00Z",
+      "public_slug": "asset-management-ai-engineer-associate-vp-jpmc-dev9-fa-oraclecloud-com-cx-dfjufdpj",
+      "role_key": "freehire:asset-management-ai-engineer-associate-vp-jpmc-dev9-fa-oraclecloud-com-cx-dfjufdpj",
+      "source": "oracle",
+      "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210668055?utm_source=freehire.me",
+      "title": "Asset Management - AI Engineer -  Associate/VP"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1743,
+      "company": "JPMC",
+      "employment_type": null,
+      "external_id": "jpmc-dev8.fa.oraclecloud.com/CX:210668055",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2025-09-16T00:00:00Z",
+      "public_slug": "asset-management-ai-engineer-associate-vp-jpmc-dev8-fa-oraclecloud-com-cx-7gx7i6wt",
+      "role_key": "freehire:asset-management-ai-engineer-associate-vp-jpmc-dev8-fa-oraclecloud-com-cx-7gx7i6wt",
+      "source": "oracle",
+      "source_url": "https://jpmc-dev8.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210668055?utm_source=freehire.me",
+      "title": "Asset Management - AI Engineer -  Associate/VP"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1744,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7548358333829499144",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2025-09-10T07:26:32Z",
+      "public_slug": "ai-infra-agenthou-duan-kai-fa-gong-cheng-shi-ji-suan-bytedance-wliqot6p",
+      "role_key": "freehire:ai-infra-agenthou-duan-kai-fa-gong-cheng-shi-ji-suan-bytedance-wliqot6p",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7548358333829499144/detail?utm_source=freehire.me",
+      "title": "AI Infra Agent后端开发工程师-计算"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "title:data_science"
+      ],
+      "candidate_seq": 1745,
+      "company": "Ganwei Company",
+      "employment_type": "part_time",
+      "external_id": "ganweigroup.zohorecruit.com:608065000007149074",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Remote, China",
+      "market": "CN",
+      "posted_at": "2025-09-04T00:00:00Z",
+      "public_slug": "shu-ju-ke-xue-jia-ji-qi-xue-xi-gong-cheng-shi-data-scientist-ml-engineer-ganweigroup-zohorecruit-com-xxb3mjsn",
+      "role_key": "freehire:shu-ju-ke-xue-jia-ji-qi-xue-xi-gong-cheng-shi-data-scientist-ml-engineer-ganweigroup-zohorecruit-com-xxb3mjsn",
+      "source": "zohorecruit",
+      "source_url": "https://ganweigroup.zohorecruit.com/jobs/Careers/608065000007149074?utm_source=freehire.me",
+      "title": "数据科学家/机器学习工程师 (Data Scientist/ML Engineer)"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:pytorch",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 1746,
+      "company": "StarTorus",
+      "employment_type": null,
+      "external_id": "startorus.jobs.feishu.cn:7545426775980755239",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2025-09-02T09:50:06Z",
+      "public_slug": "ju-bian-ai-suan-fa-gong-cheng-shi-startorus-dcn6s3oe",
+      "role_key": "freehire:ju-bian-ai-suan-fa-gong-cheng-shi-startorus-dcn6s3oe",
+      "source": "feishujobs",
+      "source_url": "https://startorus.jobs.feishu.cn/index/position/7545426775980755239/detail?utm_source=freehire.me",
+      "title": "聚变 AI 算法工程师"
+    }
+  ],
+  "generated_at": "2026-11-03T06:34:15.651489Z",
+  "market": "CN",
+  "max_candidate_seq": 1746,
+  "min_candidate_seq": 1739,
+  "shard_index": 10,
+  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

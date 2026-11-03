@@ -1,0 +1,202 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1722,
+      "company": "Qualcomm",
+      "employment_type": null,
+      "external_id": "qualcomm.eightfold.ai/qualcomm.com:446718659840",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Beijing, China",
+      "market": "CN",
+      "posted_at": "2026-05-26T00:00:00Z",
+      "public_slug": "genai-software-engineer-qualcomm-qs7tqrrw",
+      "role_key": "freehire:genai-software-engineer-qualcomm-qs7tqrrw",
+      "source": "eightfold",
+      "source_url": "https://careers.qualcomm.com/careers/job/446718659840?utm_source=freehire.me",
+      "title": "GenAI Software Engineer"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:pytorch",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 1723,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7643780906043427077",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-05-25T11:09:25Z",
+      "public_slug": "yan-gao-jia-gou-gao-ji-gong-cheng-shi-applied-ai-bytedance-xbrzby25",
+      "role_key": "freehire:yan-gao-jia-gou-gao-ji-gong-cheng-shi-applied-ai-bytedance-xbrzby25",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7643780906043427077/detail?utm_source=freehire.me",
+      "title": "广告架构高级工程师-Applied AI"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1724,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7641818297424480517",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-05-20T03:59:52Z",
+      "public_slug": "gao-ji-zi-shen-duo-mo-tai-da-mo-xing-suan-fa-gong-cheng-shi-commercial-ai-bytedance-gfn5zhlc",
+      "role_key": "freehire:gao-ji-zi-shen-duo-mo-tai-da-mo-xing-suan-fa-gong-cheng-shi-commercial-ai-bytedance-gfn5zhlc",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7641818297424480517/detail?utm_source=freehire.me",
+      "title": "高级/资深多模态大模型算法工程师-Commercial AI"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1725,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7639747538568186117",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-05-14T14:05:29Z",
+      "public_slug": "ai-agentsuan-fa-zhuan-jia-guo-ji-dian-shang-bytedance-gfiz2ycc",
+      "role_key": "freehire:ai-agentsuan-fa-zhuan-jia-guo-ji-dian-shang-bytedance-gfiz2ycc",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7639747538568186117/detail?utm_source=freehire.me",
+      "title": "AI Agent算法专家-国际电商"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:llm",
+        "jd:llm"
+      ],
+      "candidate_seq": 1726,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7628868066707589381",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-04-15T06:25:06Z",
+      "public_slug": "da-mo-xing-yu-zhi-neng-ti-an-quan-mian-xiang-agentic-aide-gong-fang-ping-gu-yu-ke-xin-an-quan-fang-yu-llm-security-an-quan-yu-feng-kong-bei-jing-shen-zhen-bytedance-roobg6sc",
+      "role_key": "freehire:da-mo-xing-yu-zhi-neng-ti-an-quan-mian-xiang-agentic-aide-gong-fang-ping-gu-yu-ke-xin-an-quan-fang-yu-llm-security-an-quan-yu-feng-kong-bei-jing-shen-zhen-bytedance-roobg6sc",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7628868066707589381/detail?utm_source=freehire.me",
+      "title": "大模型与智能体安全——面向Agentic AI的攻防评估与可信安全防御（LLM Security）-安全与风控（北京/深圳）"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "title:data_science"
+      ],
+      "candidate_seq": 1727,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200650906",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-03-10T01:58:19Z",
+      "public_slug": "data-scientist-applied-ai-insights-apple-vrgcolpp",
+      "role_key": "freehire:data-scientist-applied-ai-insights-apple-vrgcolpp",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200650906/data-scientist-applied-ai-insights?utm_source=freehire.me",
+      "title": "Data Scientist, Applied AI & Insights"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:pytorch",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 1728,
+      "company": "XPeng",
+      "employment_type": null,
+      "external_id": "xiaopeng.jobs.feishu.cn:7612589277972580618",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-03-02T09:35:30Z",
+      "public_slug": "ai-infrajia-gou-shi-xpeng-rjevwxia",
+      "role_key": "freehire:ai-infrajia-gou-shi-xpeng-rjevwxia",
+      "source": "feishujobs",
+      "source_url": "https://xiaopeng.jobs.feishu.cn/index/position/7612589277972580618/detail?utm_source=freehire.me",
+      "title": "AI infra架构师"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "jd:agent",
+        "jd:rag",
+        "jd:pytorch",
+        "jd:tensorflow",
+        "jd:transformer",
+        "jd:fine_tuning",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 1729,
+      "company": "01.AI",
+      "employment_type": null,
+      "external_id": "01ai.jobs.feishu.cn:7605812208450734374",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-02-12T03:24:21Z",
+      "public_slug": "aisuan-fa-gong-cheng-shi-zhi-neng-ti-01-ai-tccg2rtb",
+      "role_key": "freehire:aisuan-fa-gong-cheng-shi-zhi-neng-ti-01-ai-tccg2rtb",
+      "source": "feishujobs",
+      "source_url": "https://01ai.jobs.feishu.cn/index/position/7605812208450734374/detail?utm_source=freehire.me",
+      "title": "AI算法工程师（智能体）"
+    }
+  ],
+  "generated_at": "2026-11-03T06:34:15.651489Z",
+  "market": "CN",
+  "max_candidate_seq": 1729,
+  "min_candidate_seq": 1722,
+  "shard_index": 8,
+  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

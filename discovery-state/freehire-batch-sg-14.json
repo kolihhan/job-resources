@@ -1,0 +1,121 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "ai_score": 10,
+      "ai_signals": [
+        "title:genai",
+        "title:agent",
+        "jd:genai"
+      ],
+      "candidate_seq": 130,
+      "company": "Capgemini",
+      "employment_type": null,
+      "external_id": "careers.capgemini.com:1440907533",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, SG",
+      "market": "SG",
+      "posted_at": "2026-10-31T00:00:00Z",
+      "public_slug": "full-stack-engineer-genai-and-agentic-applications-capgemini-tormez52",
+      "role_key": "freehire:full-stack-engineer-genai-and-agentic-applications-capgemini-tormez52",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Full-Stack-Engineer-%28GenAI-and-Agentic-Applications%29/1440907533/?utm_source=freehire.me",
+      "title": "Full Stack Engineer (GenAI and Agentic Applications)"
+    },
+    {
+      "ai_score": 10,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:genai",
+        "jd:machine_learning",
+        "jd:deep_learning",
+        "jd:agent",
+        "jd:rag"
+      ],
+      "candidate_seq": 131,
+      "company": "XALTIUS PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":77254e04b421c02b6bfeb06c4fced00e",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T00:00:00Z",
+      "public_slug": "corporate-trainer-data-science-and-ai-xaltius-pte-ltd-omikx7lg",
+      "role_key": "freehire:corporate-trainer-data-science-and-ai-xaltius-pte-ltd-omikx7lg",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/77254e04b421c02b6bfeb06c4fced00e?utm_source=freehire.me",
+      "title": "Corporate Trainer - Data Science and AI"
+    },
+    {
+      "ai_score": 10,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning",
+        "jd:deep_learning",
+        "jd:nlp",
+        "jd:computer_vision",
+        "jd:pytorch",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 132,
+      "company": "RMR INTERNATIONAL PRIVATE LIMITED",
+      "employment_type": null,
+      "external_id": ":5c539df007f888e365b2d633329edbdd",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T00:00:00Z",
+      "public_slug": "ai-engineer-rmr-international-private-limited-xg62eflo",
+      "role_key": "freehire:ai-engineer-rmr-international-private-limited-xg62eflo",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/5c539df007f888e365b2d633329edbdd?utm_source=freehire.me",
+      "title": "AI ENGINEER"
+    },
+    {
+      "ai_score": 10,
+      "ai_signals": [
+        "title:ai",
+        "title:data_science",
+        "jd:llm",
+        "jd:genai",
+        "jd:machine_learning",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 133,
+      "company": "Cubist Systematic Strategies",
+      "employment_type": null,
+      "external_id": "point72:8658618002",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hong Kong, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T21:12:32Z",
+      "public_slug": "ai-data-scientist-cubist-systematic-strategies-6a73gt5s",
+      "role_key": "freehire:ai-data-scientist-cubist-systematic-strategies-6a73gt5s",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/point72/jobs/8658618002?gh_jid=8658618002&utm_source=freehire.me",
+      "title": "AI Data Scientist"
+    }
+  ],
+  "generated_at": "2026-11-03T06:34:15.651489Z",
+  "market": "SG",
+  "max_candidate_seq": 133,
+  "min_candidate_seq": 130,
+  "shard_index": 14,
+  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

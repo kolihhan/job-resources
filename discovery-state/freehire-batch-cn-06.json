@@ -1,0 +1,201 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent",
+        "jd:rag"
+      ],
+      "candidate_seq": 1705,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7668170602797402421",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Hangzhou; Shanghai",
+      "market": "CN",
+      "posted_at": "2026-07-30T04:22:00Z",
+      "public_slug": "ai-agentkai-fa-gong-cheng-shi-fan-dou-yin-shu-ju-bp-bytedance-7l6c2loz",
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-fan-dou-yin-shu-ju-bp-bytedance-7l6c2loz",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7668170602797402421/detail?utm_source=freehire.me",
+      "title": "AI Agent开发工程师（泛抖音） - 数据BP"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1706,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7667952201713977653",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen; Shanghai",
+      "market": "CN",
+      "posted_at": "2026-07-29T14:21:55Z",
+      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-ai-platform-bytedance-3w7lzcnq",
+      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-ai-platform-bytedance-3w7lzcnq",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667952201713977653/detail?utm_source=freehire.me",
+      "title": "大模型算法工程师 - AI Platform"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:llm",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1707,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200665352",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint",
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-07-29T03:17:00Z",
+      "public_slug": "senior-machine-learning-engineer-apple-ui5c7aqv",
+      "role_key": "freehire:senior-machine-learning-engineer-apple-ui5c7aqv",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200665352/senior-machine-learning-engineer?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:llm",
+        "jd:llm"
+      ],
+      "candidate_seq": 1708,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7667152802128922885",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai; Shenzhen; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-07-27T10:32:14Z",
+      "public_slug": "llm-agentkai-fa-gong-cheng-shi-trae-bytedance-5j2txcrw",
+      "role_key": "freehire:llm-agentkai-fa-gong-cheng-shi-trae-bytedance-5j2txcrw",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667152802128922885/detail?utm_source=freehire.me",
+      "title": "LLM Agent开发工程师 - TRAE"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1709,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7667142530726906117",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-07-27T09:49:35Z",
+      "public_slug": "ai-agentkai-fa-gong-cheng-shi-dou-yin-yan-fa-bytedance-wkazmgaf",
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-dou-yin-yan-fa-bytedance-wkazmgaf",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667142530726906117/detail?utm_source=freehire.me",
+      "title": "AI Agent开发工程师 - 抖音研发"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent",
+        "jd:rag"
+      ],
+      "candidate_seq": 1710,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7667124448756091189",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai; Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-07-27T08:40:15Z",
+      "public_slug": "ai-agentyan-fa-gong-cheng-shi-guo-ji-hua-yan-gao-zhi-liang-xiao-neng-bytedance-qk3oqp5z",
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-guo-ji-hua-yan-gao-zhi-liang-xiao-neng-bytedance-qk3oqp5z",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667124448756091189/detail?utm_source=freehire.me",
+      "title": "AI Agent研发工程师 - 国际化广告质量效能"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:pytorch"
+      ],
+      "candidate_seq": 1711,
+      "company": "XPeng",
+      "employment_type": null,
+      "external_id": "xiaopeng.jobs.feishu.cn:7665244973268650281",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-07-22T07:09:45Z",
+      "public_slug": "embodied-ai-system-engineer-xpeng-xkigoysl",
+      "role_key": "freehire:embodied-ai-system-engineer-xpeng-xkigoysl",
+      "source": "feishujobs",
+      "source_url": "https://xiaopeng.jobs.feishu.cn/index/position/7665244973268650281/detail?utm_source=freehire.me",
+      "title": "Embodied AI System Engineer"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 1712,
+      "company": "AfterShip",
+      "employment_type": null,
+      "external_id": "aftership/43117:b1a30f07-0c01-49e3-a87f-c62786a325bd",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-07-21T16:00:00Z",
+      "public_slug": "da-shu-ju-qian-duan-gong-cheng-shi-ai-fang-xiang-aftership-n4l237zf",
+      "role_key": "freehire:da-shu-ju-qian-duan-gong-cheng-shi-ai-fang-xiang-aftership-n4l237zf",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/aftership/43117?utm_source=freehire.me#/job/b1a30f07-0c01-49e3-a87f-c62786a325bd",
+      "title": "大数据前端工程师（AI 方向）"
+    }
+  ],
+  "generated_at": "2026-11-03T06:34:15.651489Z",
+  "market": "CN",
+  "max_candidate_seq": 1712,
+  "min_candidate_seq": 1705,
+  "shard_index": 6,
+  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

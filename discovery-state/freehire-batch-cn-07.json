@@ -1,0 +1,205 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 1713,
+      "company": "dbs",
+      "employment_type": "full_time",
+      "external_id": "dbs.wd3.myworkdayjobs.com/dbs_careers:/job/Guangzhou-DTC/AI-Engineer---Architect_WD86765-1",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Guangzhou (DTC)",
+      "market": "CN",
+      "posted_at": "2026-07-21T00:00:00Z",
+      "public_slug": "applied-ai-engineer-architect-dbs-lbtlfbyw",
+      "role_key": "freehire:applied-ai-engineer-architect-dbs-lbtlfbyw",
+      "source": "workday",
+      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Guangzhou-DTC/AI-Engineer---Architect_WD86765-1?utm_source=freehire.me",
+      "title": "Applied AI Engineer / Architect"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:rag"
+      ],
+      "candidate_seq": 1714,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7664640744187398405",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai",
+      "market": "CN",
+      "posted_at": "2026-07-20T16:15:59Z",
+      "public_slug": "aiopsyan-fa-gong-cheng-shi-ai-agentfang-xiang-yin-shi-pin-ji-zhu-bytedance-dqkld5us",
+      "role_key": "freehire:aiopsyan-fa-gong-cheng-shi-ai-agentfang-xiang-yin-shi-pin-ji-zhu-bytedance-dqkld5us",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7664640744187398405/detail?utm_source=freehire.me",
+      "title": "AIOps研发工程师（AI Agent方向） - 音视频技术"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:deep_learning",
+        "jd:llm",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1716,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Deep-Learning-Senior-Engineer--End-To-End-Autonomous-Driving_JR2019758",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-06-17T00:00:00Z",
+      "public_slug": "deep-learning-senior-engineer-end-to-end-autonomous-driving-nvidia-rnvvzpip",
+      "role_key": "freehire:deep-learning-senior-engineer-end-to-end-autonomous-driving-nvidia-rnvvzpip",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Senior-Engineer--End-To-End-Autonomous-Driving_JR2019758?utm_source=freehire.me",
+      "title": "Deep Learning Senior Engineer, End-To-End Autonomous Driving"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:evaluation"
+      ],
+      "candidate_seq": 1717,
+      "company": "Nextmind Solutions Private Limited",
+      "employment_type": null,
+      "external_id": "jpmc.fa.oraclecloud.com/CX_2001:210752658",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-06-03T00:00:00Z",
+      "public_slug": "asset-management-ai-systems-engineer-associate-vp-nextmind-solutions-private-limited-53erh7nq",
+      "role_key": "freehire:asset-management-ai-systems-engineer-associate-vp-nextmind-solutions-private-limited-53erh7nq",
+      "source": "oracle",
+      "source_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210752658?utm_source=freehire.me",
+      "title": "Asset Management - AI Systems Engineer – Associate/VP"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:evaluation"
+      ],
+      "candidate_seq": 1718,
+      "company": "JPMC",
+      "employment_type": null,
+      "external_id": "jpmc.fa.oraclecloud.com/CX:210752658",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-06-03T00:00:00Z",
+      "public_slug": "asset-management-ai-systems-engineer-associate-vp-jpmc-fa-oraclecloud-com-cx-irw7l4k2",
+      "role_key": "freehire:asset-management-ai-systems-engineer-associate-vp-jpmc-fa-oraclecloud-com-cx-irw7l4k2",
+      "source": "oracle",
+      "source_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210752658?utm_source=freehire.me",
+      "title": "Asset Management - AI Systems Engineer – Associate/VP"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:evaluation"
+      ],
+      "candidate_seq": 1719,
+      "company": "JP Morgan Chase",
+      "employment_type": null,
+      "external_id": "jpmc.fa.oraclecloud.com/CX_1001:210752658",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-06-03T00:00:00Z",
+      "public_slug": "asset-management-ai-systems-engineer-associate-vp-jp-morgan-chase-4u37g73s",
+      "role_key": "freehire:asset-management-ai-systems-engineer-associate-vp-jp-morgan-chase-4u37g73s",
+      "source": "oracle",
+      "source_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210752658?utm_source=freehire.me",
+      "title": "Asset Management - AI Systems Engineer – Associate/VP"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:rag"
+      ],
+      "candidate_seq": 1720,
+      "company": "Meituan",
+      "employment_type": null,
+      "external_id": ":3239147057",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-05-27T01:00:13Z",
+      "public_slug": "keetaji-zhu-gong-gei-suan-fa-gong-cheng-shi-ai-native-meituan-7fergrcv",
+      "role_key": "freehire:keetaji-zhu-gong-gei-suan-fa-gong-cheng-shi-ai-native-meituan-7fergrcv",
+      "source": "meituan",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=3239147057&utm_source=freehire.me",
+      "title": "Keeta技术-供给算法工程师（AI Native）"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:llm"
+      ],
+      "candidate_seq": 1721,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7644030099127945477",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-05-26T03:03:02Z",
+      "public_slug": "da-mo-xing-xun-lian-tui-li-infrashi-xi-sheng-genai-bytedance-eq3higsn",
+      "role_key": "freehire:da-mo-xing-xun-lian-tui-li-infrashi-xi-sheng-genai-bytedance-eq3higsn",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7644030099127945477/detail?utm_source=freehire.me",
+      "title": "大模型训练/推理Infra实习生-GenAI"
+    }
+  ],
+  "generated_at": "2026-11-03T06:34:15.651489Z",
+  "market": "CN",
+  "max_candidate_seq": 1721,
+  "min_candidate_seq": 1713,
+  "shard_index": 7,
+  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}
