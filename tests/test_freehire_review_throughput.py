@@ -18,20 +18,11 @@ class FreeHireReviewThroughputTests(unittest.TestCase):
         coldstart = {
             "source_generated_at": "2026-11-03T00:00:00Z",
             "candidates": [
-                {
-                    "market": "CN",
-                    "public_slug": f"cn-{i:03d}",
-                    "company": f"Company {i}",
-                    "title": "AI Engineer",
-                }
+                {"market": "CN", "public_slug": f"cn-{i:03d}", "company": f"Company {i}", "title": "AI Engineer"}
                 for i in range(130)
             ],
         }
-        cursors = {
-            "SG": {"last_consumed_candidate_seq": 0},
-            "CN": {"last_consumed_candidate_seq": 0},
-            "MY": {"last_consumed_candidate_seq": 0},
-        }
+        cursors = {market: {"last_consumed_candidate_seq": 0} for market in ("SG", "CN", "MY")}
 
         _, batches = mod.build_batches(coldstart, registry=None, cursors=cursors)
 
@@ -39,30 +30,6 @@ class FreeHireReviewThroughputTests(unittest.TestCase):
         self.assertEqual(batches["CN"]["candidate_count"], 100)
         self.assertEqual(batches["CN"]["remaining_after_batch"], 30)
         self.assertEqual(batches["CN"]["max_candidate_seq"], 100)
-
-    def test_100_candidate_batch_splits_into_four_25_candidate_shards(self):
-        mod = self._load_module()
-        batch = {
-            "version": 1,
-            "market": "CN",
-            "cursor_before": 0,
-            "batch_size": 100,
-            "candidate_count": 100,
-            "remaining_after_batch": 30,
-            "max_candidate_seq": 100,
-            "generated_at": "2026-11-03T00:00:00Z",
-            "source_generated_at": "2026-11-03T00:00:00Z",
-            "candidates": [{"candidate_seq": i} for i in range(1, 101)],
-        }
-
-        manifest, shards = mod.shard_batch(batch, shard_size=25)
-
-        self.assertEqual(manifest["candidate_count"], 100)
-        self.assertEqual(manifest["shard_count"], 4)
-        self.assertNotIn("candidates", manifest)
-        self.assertEqual([len(shard["candidates"]) for shard in shards], [25, 25, 25, 25])
-        self.assertEqual(shards[0]["min_candidate_seq"], 1)
-        self.assertEqual(shards[-1]["max_candidate_seq"], 100)
 
     def test_hourly_batch_projects_candidates_to_compact_metadata(self):
         mod = self._load_module()
@@ -97,21 +64,18 @@ class FreeHireReviewThroughputTests(unittest.TestCase):
         )
         candidate = batches["SG"]["candidates"][0]
 
-        self.assertNotIn("description_excerpt", candidate)
-        self.assertNotIn("raw_payload", candidate)
+        for dropped in ("description_excerpt", "raw_payload", "freehire_url", "identity", "created_at", "event_kind", "event_seq", "public_slug"):
+            self.assertNotIn(dropped, candidate)
         for key in (
             "candidate_seq",
             "role_key",
             "market",
-            "public_slug",
             "company",
             "title",
             "location",
             "source",
             "source_url",
-            "freehire_url",
             "external_id",
-            "identity",
             "known_status",
             "known_match_basis",
             "ai_score",
@@ -119,40 +83,50 @@ class FreeHireReviewThroughputTests(unittest.TestCase):
             "flags",
             "employment_type",
             "posted_at",
-            "created_at",
         ):
             self.assertIn(key, candidate)
 
-    def test_shard_size_is_not_driven_by_jd_length(self):
+    def test_sharding_is_bounded_by_serialized_bytes_not_only_item_count(self):
         mod = self._load_module()
         candidates = []
-        for i in range(25):
+        for i in range(100):
             candidates.append(
                 {
                     "market": "MY",
                     "public_slug": f"my-{i:03d}",
-                    "company": "Example",
-                    "title": "AI Engineer",
-                    "location": "Malaysia",
-                    "source_url": f"https://example.com/{i}",
-                    "ai_score": 8,
-                    "ai_signals": ["title:ai", "jd:agent"],
+                    "company": "Example Company " + ("C" * 80),
+                    "title": "AI Agent Engineer " + ("T" * 120),
+                    "location": "Kuala Lumpur, Malaysia",
+                    "source": "workday",
+                    "source_url": "https://example.com/jobs/" + ("u" * 350) + str(i),
+                    "external_id": f"REQ-{i}",
+                    "known_status": "unseen",
+                    "known_match_basis": None,
+                    "ai_score": 9,
+                    "ai_signals": ["title:ai", "title:agent", "jd:llm", "jd:rag", "jd:retrieval"],
                     "flags": [],
-                    "description_excerpt": "X" * 20000,
+                    "employment_type": "full_time",
+                    "posted_at": "2026-11-01T00:00:00Z",
+                    "description_excerpt": "X" * 50000,
                 }
             )
         cursors = {market: {"last_consumed_candidate_seq": 0} for market in ("SG", "CN", "MY")}
-
         _, batches = mod.build_batches(
             {"source_generated_at": "2026-11-03T00:00:00Z", "candidates": candidates},
             registry=None,
             cursors=cursors,
         )
-        _, shards = mod.shard_batch(batches["MY"], shard_size=25)
-        encoded = json.dumps(shards[0], ensure_ascii=False).encode("utf-8")
 
-        self.assertLess(len(encoded), 100_000)
-        self.assertTrue(all("description_excerpt" not in c for c in shards[0]["candidates"]))
+        manifest, shards = mod.shard_batch(batches["MY"], shard_size=25, max_shard_bytes=8000)
+
+        self.assertEqual(sum(len(shard["candidates"]) for shard in shards), 100)
+        self.assertGreater(len(shards), 4)
+        self.assertEqual(manifest["max_shard_bytes"], 8000)
+        self.assertTrue(all(len(shard["candidates"]) <= 25 for shard in shards))
+        for shard in shards:
+            encoded = json.dumps(shard, ensure_ascii=False, indent=2, sort_keys=True).encode("utf-8")
+            self.assertLessEqual(len(encoded), 8000)
+            self.assertTrue(all("description_excerpt" not in c for c in shard["candidates"]))
 
 
 if __name__ == "__main__":
