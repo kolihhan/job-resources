@@ -1,51 +1,51 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T17:20:22+08:00",
+  "updated_at": "2026-11-04T19:19:09+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
       "candidate_seq": 2505,
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T18:20:00+08:00",
+      "attempts": 6,
+      "next_retry_at": "2026-11-04T20:20:00+08:00",
       "company": "Curlec by Razorpay",
       "title": "AI-Driven DevOps Engineer — Cloud, Kubernetes & Automation",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903359__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent full JD lists 1–3y DevOps and agent workflows, but aggregator employment says contract while another says full-time; canonical Curlec ATS/route and employment remain unverified."
+      "detail": "2026-11-04T16:24:24+08:00 Independent full JD lists 1–3y DevOps and agent workflows, but aggregator employment says contract while another says full-time; canonical Curlec ATS/route and employment remain unverified. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion."
     },
     {
       "role_key": "freehire:gen-ai-engineer-lavu-tech-solutions-2cqjvi4u",
       "candidate_seq": 2510,
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T18:20:00+08:00",
+      "attempts": 6,
+      "next_retry_at": "2026-11-04T20:20:00+08:00",
       "company": "Lavu Tech Solutions",
       "title": "Gen AI Engineer",
       "source_url": "https://my.jobstreet.com/job/94846738",
-      "detail": "2026-11-04T16:24:24+08:00 Independent substantive JD found GenAI/RAG/LangGraph and broad cloud/full-stack requirements; no employer-owned current exact route or destination-quality evidence; preserve."
+      "detail": "2026-11-04T16:24:24+08:00 Independent substantive JD found GenAI/RAG/LangGraph and broad cloud/full-stack requirements; no employer-owned current exact route or destination-quality evidence; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion."
     },
     {
       "role_key": "freehire:kubernetes-full-stack-engineer-with-ml-python-accenture-southeast-asia-bwcr2vp4",
       "candidate_seq": 2525,
       "reason_code": "verification_pending",
-      "attempts": 3,
-      "next_retry_at": "2026-11-04T18:20:00+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-04T20:20:00+08:00",
       "company": "Accenture Southeast Asia",
       "title": "Kubernetes Full-Stack Engineer with ML (Python)",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26871024__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent JD describes Kubernetes/Rancher/BI/ML pipeline customer delivery; employer exact role and permanent direct employment not verified; preserve."
+      "detail": "2026-11-04T16:24:24+08:00 Independent JD describes Kubernetes/Rancher/BI/ML pipeline customer delivery; employer exact role and permanent direct employment not verified; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion."
     },
     {
       "role_key": "freehire:senior-full-stack-ai-engineer-the-access-group-brn3a54r",
       "candidate_seq": 2523,
       "reason_code": "verification_pending",
-      "attempts": 3,
-      "next_retry_at": "2026-11-04T18:20:00+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-04T20:20:00+08:00",
       "company": "The Access Group",
       "title": "Senior Full Stack AI Engineer",
       "source_url": "https://theaccessgroup.wd103.myworkdayjobs.com/Access_Group_External_Careers/job/Kuala-Lumpur---GOC/Senior-Software-Engineer--Net-_JR002688",
-      "detail": "2026-11-04T16:24:24+08:00 Exact Workday requisition JR002688 not confirmed as AI engineer; senior .NET role identity/fit unresolved; preserve."
+      "detail": "2026-11-04T16:24:24+08:00 Exact Workday requisition JR002688 not confirmed as AI engineer; senior .NET role identity/fit unresolved; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion."
     },
     {
       "candidate_seq": 2531,
@@ -54,20 +54,20 @@
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26824609__7112",
       "role_key": "freehire:senior-cloud-devops-engineer-ai-hpc-infra-bitdeer-nasdaq-btdr-6upusual",
       "reason_code": "verification_pending",
-      "attempts": 3,
-      "next_retry_at": "2026-11-04T18:20:00+08:00",
-      "detail": "2026-11-04T16:24:24+08:00 Senior AI/HPC infrastructure role lacks authoritative exact JD and realistic YOE verification; preserve."
+      "attempts": 4,
+      "next_retry_at": "2026-11-04T20:20:00+08:00",
+      "detail": "2026-11-04T16:24:24+08:00 Senior AI/HPC infrastructure role lacks authoritative exact JD and realistic YOE verification; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion."
     },
     {
       "role_key": "freehire:cloud-devops-engineer-aws-ai-automations-respond-fvras7cv",
       "candidate_seq": 2537,
       "reason_code": "verification_pending",
-      "attempts": 3,
-      "next_retry_at": "2026-11-04T18:20:00+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-04T20:20:00+08:00",
       "company": "Respond",
       "title": "Cloud DevOps Engineer — AWS, AI Automations",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26774970__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent full JD: Respond AWS/GCP DevOps, 3+ years combined development/DevOps, software-heavy but destination quality, canonical route and experience interpretation unresolved; preserve."
+      "detail": "2026-11-04T16:24:24+08:00 Independent full JD: Respond AWS/GCP DevOps, 3+ years combined development/DevOps, software-heavy but destination quality, canonical route and experience interpretation unresolved; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion."
     },
     {
       "role_key": "freehire:senior-developer-machine-learning-operations-uobgroup-c65rljgh",
