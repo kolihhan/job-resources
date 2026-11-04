@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-04T21:58:03+08:00",
+  "updated_at": "2026-11-04T23:58:09+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -52,6 +52,36 @@
       "reason_code": "source_unverifiable",
       "attempts": 1,
       "next_retry_at": "2026-11-05T21:58:03+08:00"
+    },
+    {
+      "candidate_seq": 267,
+      "role_key": "freehire:m01-ml-ai-engineer-dpa-fpt-software-cewrx53c",
+      "company": "FPT Software",
+      "title": "M01 - ML/AI Engineer (DPA)",
+      "source_url": "https://sg.jobstreet.com/job/95588553",
+      "reason_code": "source_unverifiable_possible_cross_source_duplicate",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T23:58:09+08:00"
+    },
+    {
+      "candidate_seq": 268,
+      "role_key": "freehire:senior-ai-engineer-surbana-jurong-services-pte-ltd-u5tafhut",
+      "company": "SURBANA JURONG SERVICES PTE. LTD.",
+      "title": "Senior AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/396351082f0359cfddf08908fa6f7f49",
+      "reason_code": "mcf_only_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T23:58:09+08:00"
+    },
+    {
+      "candidate_seq": 269,
+      "role_key": "freehire:ai-engineer-surbana-jurong-services-pte-ltd-r37i5e2q",
+      "company": "SURBANA JURONG SERVICES PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/153b62e0cf904edd41ee3dac2e48b0c0",
+      "reason_code": "mcf_only_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T23:58:09+08:00"
     }
   ]
 }
