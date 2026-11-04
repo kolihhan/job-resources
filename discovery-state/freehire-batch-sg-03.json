@@ -73,28 +73,6 @@
     {
       "ai_score": 8,
       "ai_signals": [
-        "title:ai",
-        "title:agent"
-      ],
-      "candidate_seq": 259,
-      "company": "Binance",
-      "employment_type": null,
-      "external_id": "binance:5002667101",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hong Kong; Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T16:19:29Z",
-      "public_slug": "ai-agent-engineer-binance-uykfk4bm",
-      "role_key": "freehire:ai-agent-engineer-binance-uykfk4bm",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002667101?utm_source=freehire.me",
-      "title": "AI Agent  Engineer"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
         "title:llm",
         "title:data_science",
         "jd:llm"
@@ -187,11 +165,33 @@
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reolink/jobs/4417478009?utm_source=freehire.me",
       "title": "Machine Learning AI Specialist (PhD Holder)"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:agent"
+      ],
+      "candidate_seq": 265,
+      "company": "Reolink",
+      "employment_type": null,
+      "external_id": "reolink:4448320009",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T09:30:32Z",
+      "public_slug": "agentic-ai-engineer-specialist-phd-holder-reolink-pbkqkrkz",
+      "role_key": "freehire:agentic-ai-engineer-specialist-phd-holder-reolink-pbkqkrkz",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reolink/jobs/4448320009?utm_source=freehire.me",
+      "title": "Agentic AI Engineer / Specialist (PhD Holder)"
     }
   ],
-  "generated_at": "2026-11-04T00:14:16.163078Z",
+  "generated_at": "2026-11-04T07:00:28.696112Z",
   "market": "SG",
-  "max_candidate_seq": 264,
+  "max_candidate_seq": 265,
   "min_candidate_seq": 256,
   "shard_index": 3,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",

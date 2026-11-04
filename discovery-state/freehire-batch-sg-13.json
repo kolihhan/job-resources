@@ -1,5 +1,5 @@
 {
-  "candidate_count": 4,
+  "candidate_count": 5,
   "candidates": [
     {
       "ai_score": 8,
@@ -101,11 +101,35 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380198__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "AI Engineer: RAG Pipelines for Enterprise Data (Singapore)"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent",
+        "jd:model_training",
+        "jd:evaluation"
+      ],
+      "candidate_seq": 354,
+      "company": "Hudson River Trading",
+      "employment_type": "full_time",
+      "external_id": "wehrtyou:8234195",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "London, United Kingdom; New York, NY, United States; Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T20:35:07Z",
+      "public_slug": "applied-ai-engineer-hudson-river-trading-lg446mmn",
+      "role_key": "freehire:applied-ai-engineer-hudson-river-trading-lg446mmn",
+      "source": "greenhouse",
+      "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8234195&utm_source=freehire.me",
+      "title": "Applied AI Engineer"
     }
   ],
-  "generated_at": "2026-11-04T00:14:16.163078Z",
+  "generated_at": "2026-11-04T07:00:28.696112Z",
   "market": "SG",
-  "max_candidate_seq": 353,
+  "max_candidate_seq": 354,
   "min_candidate_seq": 350,
   "shard_index": 13,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",

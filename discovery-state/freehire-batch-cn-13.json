@@ -7,49 +7,53 @@
         "title:ai",
         "jd:rag"
       ],
-      "candidate_seq": 1931,
+      "candidate_seq": 1956,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7596927316308789509",
-      "flags": [],
+      "external_id": "jobs.bytedance.com:7439251458647918856",
+      "flags": [
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing",
+      "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-01-19T04:39:49Z",
-      "public_slug": "agentgong-cheng-shi-ai-codingfang-xiang-zhong-guo-jiao-yi-yu-yan-gao-bytedance-sqfbadpx",
-      "role_key": "freehire:agentgong-cheng-shi-ai-codingfang-xiang-zhong-guo-jiao-yi-yu-yan-gao-bytedance-sqfbadpx",
+      "posted_at": "2024-11-20T06:58:48Z",
+      "public_slug": "zi-shen-da-mo-xing-suan-fa-gong-cheng-shi-yan-jiu-yuan-ai-platform-bytedance-36jtddcw",
+      "role_key": "freehire:zi-shen-da-mo-xing-suan-fa-gong-cheng-shi-yan-jiu-yuan-ai-platform-bytedance-36jtddcw",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7596927316308789509/detail?utm_source=freehire.me",
-      "title": "Agent工程师（AI Coding方向）-中国交易与广告"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7439251458647918856/detail?utm_source=freehire.me",
+      "title": "资深大模型算法工程师/研究员-AI Platform"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:nlp",
+        "jd:agent"
       ],
-      "candidate_seq": 1932,
+      "candidate_seq": 1957,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7595441600677890309",
-      "flags": [],
+      "external_id": "jobs.bytedance.com:7435902972822112520",
+      "flags": [
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Beijing; Shanghai",
       "market": "CN",
-      "posted_at": "2026-01-15T04:39:14Z",
-      "public_slug": "hou-duan-kai-fa-shi-xi-sheng-dev-ai-bytedance-lohaxqfh",
-      "role_key": "freehire:hou-duan-kai-fa-shi-xi-sheng-dev-ai-bytedance-lohaxqfh",
+      "posted_at": "2024-11-11T06:30:41Z",
+      "public_slug": "nlp-duo-mo-tai-zi-shen-suan-fa-gong-cheng-shi-yi-tu-li-jie-re-dian-wa-jue-fang-xiang-tiktok-shop-bytedance-ezwhikf6",
+      "role_key": "freehire:nlp-duo-mo-tai-zi-shen-suan-fa-gong-cheng-shi-yi-tu-li-jie-re-dian-wa-jue-fang-xiang-tiktok-shop-bytedance-ezwhikf6",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7595441600677890309/detail?utm_source=freehire.me",
-      "title": "后端开发实习生-Dev AI"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7435902972822112520/detail?utm_source=freehire.me",
+      "title": "NLP/多模态资深算法工程师（意图理解/热点挖掘方向） - TikTok Shop"
     }
   ],
-  "generated_at": "2026-11-04T00:14:16.163078Z",
+  "generated_at": "2026-11-04T07:00:28.696112Z",
   "market": "CN",
-  "max_candidate_seq": 1932,
-  "min_candidate_seq": 1931,
+  "max_candidate_seq": 1957,
+  "min_candidate_seq": 1956,
   "shard_index": 13,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

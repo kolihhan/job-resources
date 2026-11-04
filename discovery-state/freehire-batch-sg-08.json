@@ -1,31 +1,6 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 7,
   "candidates": [
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 301,
-      "company": "AvePoint",
-      "employment_type": null,
-      "external_id": "avepoint:8029829",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T18:04:43Z",
-      "public_slug": "ai-engineer-managed-services-avepoint-v2rf7lnz",
-      "role_key": "freehire:ai-engineer-managed-services-avepoint-v2rf7lnz",
-      "source": "greenhouse",
-      "source_url": "https://www.avepoint.com/careers/job-detail?gh_jid=8029829&utm_source=freehire.me",
-      "title": "AI Engineer (Managed Services)"
-    },
     {
       "ai_score": 8,
       "ai_signals": [
@@ -199,10 +174,10 @@
       "title": "AVP, AI Engineer, Global Financial Market Technology, Group Technology"
     }
   ],
-  "generated_at": "2026-11-04T00:14:16.163078Z",
+  "generated_at": "2026-11-04T07:00:28.696112Z",
   "market": "SG",
   "max_candidate_seq": 309,
-  "min_candidate_seq": 301,
+  "min_candidate_seq": 302,
   "shard_index": 8,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

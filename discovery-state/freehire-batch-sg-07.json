@@ -5,34 +5,6 @@
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 291,
-      "company": "Talentvis",
-      "employment_type": null,
-      "external_id": "6303:95342414",
-      "flags": [
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Downtown Core, Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-19T02:31:53Z",
-      "public_slug": "chief-technology-officer-enterprise-ai-solutions-company-talentvis-5iuqhec4",
-      "role_key": "freehire:chief-technology-officer-enterprise-ai-solutions-company-talentvis-5iuqhec4",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95342414?utm_source=freehire.me",
-      "title": "Chief Technology Officer (Enterprise AI solutions company)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
         "title:agent"
       ],
       "candidate_seq": 292,
@@ -206,12 +178,37 @@
       "source": "mycareersfuture",
       "source_url": "https://www.mycareersfuture.gov.sg/job/cc9203206241e223d0873a4c1a275abc?utm_source=freehire.me",
       "title": "AI Solution Engineer (Asset Management & Reliability)"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 301,
+      "company": "AvePoint",
+      "employment_type": null,
+      "external_id": "avepoint:8029829",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-14T18:04:43Z",
+      "public_slug": "ai-engineer-managed-services-avepoint-v2rf7lnz",
+      "role_key": "freehire:ai-engineer-managed-services-avepoint-v2rf7lnz",
+      "source": "greenhouse",
+      "source_url": "https://www.avepoint.com/careers/job-detail?gh_jid=8029829&utm_source=freehire.me",
+      "title": "AI Engineer (Managed Services)"
     }
   ],
-  "generated_at": "2026-11-04T00:14:16.163078Z",
+  "generated_at": "2026-11-04T07:00:28.696112Z",
   "market": "SG",
-  "max_candidate_seq": 299,
-  "min_candidate_seq": 291,
+  "max_candidate_seq": 301,
+  "min_candidate_seq": 292,
   "shard_index": 7,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

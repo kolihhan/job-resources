@@ -1,12 +1,12 @@
 {
   "batch_size": 100,
   "candidate_count": 100,
-  "cursor_before": 1803,
-  "generated_at": "2026-11-04T00:14:16.163078Z",
+  "cursor_before": 1821,
+  "generated_at": "2026-11-04T07:00:28.696112Z",
   "market": "CN",
-  "max_candidate_seq": 1932,
+  "max_candidate_seq": 1957,
   "max_shard_bytes": 8000,
-  "remaining_after_batch": 322,
+  "remaining_after_batch": 306,
   "shard_count": 13,
   "shard_size": 25,
   "shards": [

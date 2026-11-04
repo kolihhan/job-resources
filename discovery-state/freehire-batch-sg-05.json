@@ -5,34 +5,6 @@
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:research",
-        "jd:machine_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 274,
-      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":057e7d8262cfdd93ec6e10c2a1771b58",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "senior-research-scientist-ai-safety-and-security-singapore-google-asia-pacific-pte-ltd-ngoyq2od",
-      "role_key": "freehire:senior-research-scientist-ai-safety-and-security-singapore-google-asia-pacific-pte-ltd-ngoyq2od",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/057e7d8262cfdd93ec6e10c2a1771b58?utm_source=freehire.me",
-      "title": "Senior Research Scientist, AI Safety and Security - Singapore"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
         "title:ml"
       ],
       "candidate_seq": 275,
@@ -195,12 +167,37 @@
       "source": "mycareersfuture",
       "source_url": "https://www.mycareersfuture.gov.sg/job/095e0204843b55038a6533f11e661f69?utm_source=freehire.me",
       "title": "Research Scientist (Computer Science/Software Engineering/Artificial Intelligence)"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:agent"
+      ],
+      "candidate_seq": 282,
+      "company": "PayPal",
+      "employment_type": null,
+      "external_id": "paypal.eightfold.ai/paypal.com:274923002548",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T00:00:00Z",
+      "public_slug": "senior-agentic-ai-engineer-paypal-skz22kig",
+      "role_key": "freehire:senior-agentic-ai-engineer-paypal-skz22kig",
+      "source": "eightfold",
+      "source_url": "https://paypal.eightfold.ai/careers/job/274923002548?utm_source=freehire.me",
+      "title": "Senior Agentic AI Engineer"
     }
   ],
-  "generated_at": "2026-11-04T00:14:16.163078Z",
+  "generated_at": "2026-11-04T07:00:28.696112Z",
   "market": "SG",
-  "max_candidate_seq": 281,
-  "min_candidate_seq": 274,
+  "max_candidate_seq": 282,
+  "min_candidate_seq": 275,
   "shard_index": 5,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
