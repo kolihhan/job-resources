@@ -2,15 +2,15 @@
   "version": 2,
   "market": "CN",
   "platform_cycle": 16,
-  "next_platform_index": 3,
-  "next_owner_bucket": 0,
-  "next_query_bucket": 1,
-  "run_counter": 54,
-  "last_completed_at": "2026-11-05T00:07:03+08:00",
+  "next_platform_index": 5,
+  "next_owner_bucket": 1,
+  "next_query_bucket": 2,
+  "run_counter": 55,
+  "last_completed_at": "2026-11-05T01:12:18+08:00",
   "last_platforms": [
-    "牛客招聘",
-    "猎聘"
+    "智联招聘",
+    "前程无忧 / 51job"
   ],
-  "last_owner_bucket": 5,
-  "last_query_bucket": 0
+  "last_owner_bucket": 0,
+  "last_query_bucket": 1
 }
