@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-04T23:58:09+08:00",
+  "updated_at": "2026-11-05T01:00:46+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -82,6 +82,16 @@
       "reason_code": "mcf_only_route_unresolved",
       "attempts": 1,
       "next_retry_at": "2026-11-05T23:58:09+08:00"
+    },
+    {
+      "candidate_seq": 271,
+      "role_key": "freehire:space-executive-ml-engineer-supply-chain-ai",
+      "reason_code": "mcf_only_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T01:00:46+08:00",
+      "company": "SPACE EXECUTIVE PTE. LTD.",
+      "title": "ML Engineer - Supply Chain AI",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/70213c308b9482247a3018e34b45108e"
     }
   ]
 }
