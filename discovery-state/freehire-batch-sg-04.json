@@ -1,28 +1,6 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:ml"
-      ],
-      "candidate_seq": 264,
-      "company": "Reolink",
-      "employment_type": null,
-      "external_id": "reolink:4417478009",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T09:30:38Z",
-      "public_slug": "machine-learning-ai-specialist-phd-holder-reolink-5bsjthdp",
-      "role_key": "freehire:machine-learning-ai-specialist-phd-holder-reolink-5bsjthdp",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reolink/jobs/4417478009?utm_source=freehire.me",
-      "title": "Machine Learning AI Specialist (PhD Holder)"
-    },
     {
       "ai_score": 8,
       "ai_signals": [
@@ -215,12 +193,12 @@
       "title": "GenAI Software Engineer"
     }
   ],
-  "generated_at": "2026-11-03T19:52:04.657490Z",
+  "generated_at": "2026-11-04T00:14:16.163078Z",
   "market": "SG",
   "max_candidate_seq": 272,
-  "min_candidate_seq": 264,
+  "min_candidate_seq": 265,
   "shard_index": 4,
-  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

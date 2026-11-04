@@ -1,62 +1,114 @@
 {
-  "candidate_count": 2,
+  "candidate_count": 4,
   "candidates": [
     {
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:ml"
+        "jd:rag",
+        "jd:retrieval",
+        "jd:fine_tuning",
+        "jd:model_training"
       ],
-      "candidate_seq": 342,
-      "company": "jpmc-dev9.fa.oraclecloud.com/CX",
+      "candidate_seq": 350,
+      "company": "csit",
       "employment_type": null,
-      "external_id": "jpmc-dev9.fa.oraclecloud.com/CX:210731292",
+      "external_id": "csit:5e30e45c-a60e-4966-b302-476233a4eb22",
       "flags": [
-        "experience_5_plus_hint",
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-04-01T00:00:00Z",
-      "public_slug": "ai-ml-solutions-enablement-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-hhxjhfmk",
-      "role_key": "freehire:ai-ml-solutions-enablement-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-hhxjhfmk",
-      "source": "oracle",
-      "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731292?utm_source=freehire.me",
-      "title": "AI/ML Solutions Enablement – Associate, APAC Chief & Data Analytics Office"
+      "posted_at": "2025-05-15T03:17:22Z",
+      "public_slug": "senior-software-engineer-ai-product-development-csit-m2dowfp4",
+      "role_key": "freehire:senior-software-engineer-ai-product-development-csit-m2dowfp4",
+      "source": "lever",
+      "source_url": "https://jobs.lever.co/csit/5e30e45c-a60e-4966-b302-476233a4eb22?utm_source=freehire.me",
+      "title": "Senior Software Engineer (AI Product Development)"
     },
     {
-      "ai_score": 8,
+      "ai_score": 7,
       "ai_signals": [
         "title:ai",
-        "title:ml"
+        "jd:genai",
+        "jd:machine_learning",
+        "jd:vector_db"
       ],
-      "candidate_seq": 343,
-      "company": "JPMC",
+      "candidate_seq": 351,
+      "company": "Apple",
       "employment_type": null,
-      "external_id": "jpmc-dev1.fa.oraclecloud.com/CX:210731274",
+      "external_id": ":200692847",
       "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-02T05:36:39Z",
+      "public_slug": "senior-software-engineer-data-solutions-ai-data-platforms-apple-ihrkqa4b",
+      "role_key": "freehire:senior-software-engineer-data-solutions-ai-data-platforms-apple-ihrkqa4b",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200692847/senior-software-engineer-data-solutions-ai-data-platforms?utm_source=freehire.me",
+      "title": "Senior Software Engineer (Data Solutions), Ai & Data Platforms"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:llm",
+        "title:research"
+      ],
+      "candidate_seq": 352,
+      "company": "TIKTOK PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":6b152768fd1fac97793c6c9c5744d78c",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-02T00:00:00Z",
+      "public_slug": "research-scientist-llm-applications-for-international-e-commerce-scenarios-global-frontier-tech-recruitment-program-2027-start-phd-tiktok-pte-ltd-wiwpypxm",
+      "role_key": "freehire:research-scientist-llm-applications-for-international-e-commerce-scenarios-global-frontier-tech-recruitment-program-2027-start-phd-tiktok-pte-ltd-wiwpypxm",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6b152768fd1fac97793c6c9c5744d78c?utm_source=freehire.me",
+      "title": "Research Scientist - LLM Applications for International E-commerce Scenarios - Global Frontier Tech Recruitment Program - 2027 Start (PhD)"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 353,
+      "company": "Helius Technologies",
+      "employment_type": null,
+      "external_id": "data engineer:94380198",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-04-01T00:00:00Z",
-      "public_slug": "ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev1-fa-oraclecloud-com-cx-73byzcny",
-      "role_key": "freehire:ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev1-fa-oraclecloud-com-cx-73byzcny",
-      "source": "oracle",
-      "source_url": "https://jpmc-dev1.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731274?utm_source=freehire.me",
-      "title": "AI/ML Capabilities – Associate, APAC Chief & Data Analytics Office"
+      "posted_at": "2026-10-31T14:39:14Z",
+      "public_slug": "ai-engineer-rag-pipelines-for-enterprise-data-singapore-helius-technologies-dfn7sefh",
+      "role_key": "freehire:ai-engineer-rag-pipelines-for-enterprise-data-singapore-helius-technologies-dfn7sefh",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380198__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Engineer: RAG Pipelines for Enterprise Data (Singapore)"
     }
   ],
-  "generated_at": "2026-11-03T19:52:04.657490Z",
+  "generated_at": "2026-11-04T00:14:16.163078Z",
   "market": "SG",
-  "max_candidate_seq": 343,
-  "min_candidate_seq": 342,
+  "max_candidate_seq": 353,
+  "min_candidate_seq": 350,
   "shard_index": 13,
-  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -6,176 +6,121 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2528,
-      "company": "Mitsui Chemicals Group",
+      "candidate_seq": 2545,
+      "company": "swarovski",
       "employment_type": null,
-      "external_id": "data engineer:26839690",
+      "external_id": "swarovski.wd3.myworkdayjobs.com/swarovski:/job/Bandar-Bayan-Baru-MYS/SAP-Full-Stack-Developer--ABAP-BTP-AI-_R-113791-1",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": "Bandar Bayan Baru, MYS",
       "market": "MY",
-      "posted_at": "2026-09-03T05:11:24Z",
-      "public_slug": "autonomous-driving-data-engineer-scale-ai-pipelines-mitsui-chemicals-group-fenyrsyf",
-      "role_key": "freehire:autonomous-driving-data-engineer-scale-ai-pipelines-mitsui-chemicals-group-fenyrsyf",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26839690__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Autonomous Driving Data Engineer - Scale AI Pipelines"
+      "posted_at": "2026-07-22T00:00:00Z",
+      "public_slug": "sap-full-stack-developer-abap-btp-ai-swarovski-k535fv4q",
+      "role_key": "freehire:sap-full-stack-developer-abap-btp-ai-swarovski-k535fv4q",
+      "source": "workday",
+      "source_url": "https://swarovski.wd3.myworkdayjobs.com/swarovski/job/Bandar-Bayan-Baru-MYS/SAP-Full-Stack-Developer--ABAP-BTP-AI-_R-113791-1?utm_source=freehire.me",
+      "title": "SAP Full-Stack Developer (ABAP/BTP/AI)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2529,
-      "company": "Faculty Digital PTE LTD",
+      "candidate_seq": 2546,
+      "company": "Deriv.com",
       "employment_type": null,
-      "external_id": "data engineer:26832303",
+      "external_id": "deriv.zohorecruit.eu:47807000095267380",
       "flags": [
         "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
-      "market": "MY",
-      "posted_at": "2026-08-31T17:12:18Z",
-      "public_slug": "senior-data-engineer-scalable-ai-analytics-pipelines-faculty-digital-pte-ltd-okbj2flv",
-      "role_key": "freehire:senior-data-engineer-scalable-ai-analytics-pipelines-faculty-digital-pte-ltd-okbj2flv",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26832303__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior Data Engineer — Scalable AI & Analytics Pipelines"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:data_science",
-        "jd:machine_learning",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 2530,
-      "company": "Grab",
-      "employment_type": "full_time",
-      "external_id": "Grab:744000146439114",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Petaling Jaya, my",
-      "market": "MY",
-      "posted_at": "2026-08-31T10:27:18Z",
-      "public_slug": "senior-data-scientist-trust-fraud-grab-sqwpiuhc",
-      "role_key": "freehire:senior-data-scientist-trust-fraud-grab-sqwpiuhc",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/Grab/744000146439114-senior-data-scientist-trust-fraud-?utm_source=freehire.me",
-      "title": "Senior Data Scientist (Trust & Fraud)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2531,
-      "company": "Bitdeer (NASDAQ: BTDR)",
-      "employment_type": null,
-      "external_id": "devops engineer:26824609",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Malaysia",
-      "market": "MY",
-      "posted_at": "2026-08-28T17:15:23Z",
-      "public_slug": "senior-cloud-devops-engineer-ai-hpc-infra-bitdeer-nasdaq-btdr-6upusual",
-      "role_key": "freehire:senior-cloud-devops-engineer-ai-hpc-infra-bitdeer-nasdaq-btdr-6upusual",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26824609__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Senior Cloud DevOps Engineer – AI & HPC Infra"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2532,
-      "company": "Axi",
-      "employment_type": null,
-      "external_id": "axicorpfinancialservicesptyltd:5223611007",
-      "flags": [
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Philippines",
-      "market": "MY",
-      "posted_at": "2026-08-27T09:42:00Z",
-      "public_slug": "ai-solutions-engineer-axi-wunrzzge",
-      "role_key": "freehire:ai-solutions-engineer-axi-wunrzzge",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/axicorpfinancialservicesptyltd/jobs/5223611007?utm_source=freehire.me",
-      "title": "AI Solutions Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2533,
-      "company": "TTUKoffer",
-      "employment_type": null,
-      "external_id": "ttukoffer:X9546VV3",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
         "seniority_hint",
         "visa_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": "Cyberjaya, Malaysia",
       "market": "MY",
-      "posted_at": "2026-08-17T23:07:21Z",
-      "public_slug": "x9546vv3-zhong-wen-gang-senior-operations-engineer-sre-ai-platform-gao-ji-yun-wei-gong-cheng-shi-sre-ren-gong-zhi-neng-ping-tai-ttukoffer-qtabvixn",
-      "role_key": "freehire:x9546vv3-zhong-wen-gang-senior-operations-engineer-sre-ai-platform-gao-ji-yun-wei-gong-cheng-shi-sre-ren-gong-zhi-neng-ping-tai-ttukoffer-qtabvixn",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/ttukoffer/job/X9546VV3?utm_source=freehire.me",
-      "title": "X9546VV3 |【中文岗】Senior Operations Engineer (SRE/AI Platform) 高级运维工程师（SRE/人工智能平台）"
+      "posted_at": "2026-07-15T00:00:00Z",
+      "public_slug": "senior-devops-engineer-ai-production-infrastructure-deriv-com-blofzhmr",
+      "role_key": "freehire:senior-devops-engineer-ai-production-infrastructure-deriv-com-blofzhmr",
+      "source": "zohorecruit",
+      "source_url": "https://deriv.zohorecruit.eu/jobs/Careers/47807000095267380?utm_source=freehire.me",
+      "title": "Senior DevOps Engineer (AI & Production Infrastructure)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2547,
+      "company": "NielsenIQ",
+      "employment_type": null,
+      "external_id": "NielsenIQ:744000137631039",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, 14, my",
+      "market": "MY",
+      "posted_at": "2026-07-14T10:01:27Z",
+      "public_slug": "machine-learning-operation-analyst-nielseniq-zig64i5u",
+      "role_key": "freehire:machine-learning-operation-analyst-nielseniq-zig64i5u",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000137631039-machine-learning-operation-analyst?utm_source=freehire.me",
+      "title": "Machine Learning Operation Analyst"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2534,
-      "company": "K3 Advisory Group",
+      "candidate_seq": 2548,
+      "company": "SNS Network",
       "employment_type": null,
-      "external_id": "data engineer:26782973",
+      "external_id": "6293:93256665",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": "Petaling Jaya, Selangor",
       "market": "MY",
-      "posted_at": "2026-08-14T19:07:16Z",
-      "public_slug": "azure-data-engineer-for-ai-driven-platform-k3-advisory-group-lfyreyls",
-      "role_key": "freehire:azure-data-engineer-for-ai-driven-platform-k3-advisory-group-lfyreyls",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26782973__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Azure Data Engineer for AI-Driven Platform"
+      "posted_at": "2026-07-10T11:19:06Z",
+      "public_slug": "ai-engineer-sns-network-4qi3vrkf",
+      "role_key": "freehire:ai-engineer-sns-network-4qi3vrkf",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/93256665?utm_source=freehire.me",
+      "title": "AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2535,
-      "company": "DC2AC PTE LTD",
+      "candidate_seq": 2549,
+      "company": "Flextronics International",
       "employment_type": null,
-      "external_id": "full stack developer:26731600",
+      "external_id": "flextronics.wd1.myworkdayjobs.com/Careers:/job/Malaysia-Penang/AI-Data-Engineer_WD222009-1",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia, Penang",
+      "market": "MY",
+      "posted_at": "2026-06-19T00:00:00Z",
+      "public_slug": "ai-data-engineer-flextronics-international-vbt67nr7",
+      "role_key": "freehire:ai-data-engineer-flextronics-international-vbt67nr7",
+      "source": "workday",
+      "source_url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Malaysia-Penang/AI-Data-Engineer_WD222009-1?utm_source=freehire.me",
+      "title": "AI Data Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2550,
+      "company": "squirro",
+      "employment_type": null,
+      "external_id": "squirro:119",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -184,20 +129,68 @@
       "known_status": "unseen",
       "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-08-14T19:07:14Z",
-      "public_slug": "senior-full-stack-engineer-aws-ai-iot-platform-dc2ac-pte-ltd-2yjenlnk",
-      "role_key": "freehire:senior-full-stack-engineer-aws-ai-iot-platform-dc2ac-pte-ltd-2yjenlnk",
-      "source": "whatjobs-my",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26731600__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: AWS, AI & IoT Platform"
+      "posted_at": "2026-06-08T00:00:00Z",
+      "public_slug": "senior-software-engineer-python-ai-platform-integration-squirro-b5mnr3vl",
+      "role_key": "freehire:senior-software-engineer-python-ai-platform-integration-squirro-b5mnr3vl",
+      "source": "bamboohr",
+      "source_url": "https://squirro.bamboohr.com/careers/119?utm_source=freehire.me",
+      "title": "Senior Software Engineer – Python & AI Platform Integration"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2551,
+      "company": "DXC Technology",
+      "employment_type": null,
+      "external_id": "dxctechnology.wd1.myworkdayjobs.com/dxcjobs:/job/MYS---PETALING-JAYA/AI-DevOps-Engineer--MLOps---Cloud-_51580987",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "MYS - PETALING JAYA",
+      "market": "MY",
+      "posted_at": "2026-05-21T00:00:00Z",
+      "public_slug": "ai-devops-engineer-mlops-cloud-dxc-technology-gnh6pifi",
+      "role_key": "freehire:ai-devops-engineer-mlops-cloud-dxc-technology-gnh6pifi",
+      "source": "workday",
+      "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/AI-DevOps-Engineer--MLOps---Cloud-_51580987?utm_source=freehire.me",
+      "title": "AI DevOps Engineer (MLOps & Cloud)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2552,
+      "company": "DXC Technology",
+      "employment_type": null,
+      "external_id": "dxctechnology.wd1.myworkdayjobs.com/dxcjobs:/job/MYS---PETALING-JAYA/Senior-Python-AI-Engineer_51580986",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "MYS - PETALING JAYA",
+      "market": "MY",
+      "posted_at": "2026-05-21T00:00:00Z",
+      "public_slug": "senior-python-ai-engineer-dxc-technology-6yhqnjfo",
+      "role_key": "freehire:senior-python-ai-engineer-dxc-technology-6yhqnjfo",
+      "source": "workday",
+      "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Senior-Python-AI-Engineer_51580986?utm_source=freehire.me",
+      "title": "Senior Python AI Engineer"
     }
   ],
-  "generated_at": "2026-11-03T19:52:04.657490Z",
+  "generated_at": "2026-11-04T00:14:16.163078Z",
   "market": "MY",
-  "max_candidate_seq": 2535,
-  "min_candidate_seq": 2528,
+  "max_candidate_seq": 2552,
+  "min_candidate_seq": 2545,
   "shard_index": 4,
-  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

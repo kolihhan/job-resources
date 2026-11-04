@@ -118,30 +118,6 @@
     {
       "ai_score": 8,
       "ai_signals": [
-        "title:llm",
-        "jd:llm",
-        "jd:agent",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 261,
-      "company": "Binance",
-      "employment_type": null,
-      "external_id": "binance:5002455101",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T15:31:19Z",
-      "public_slug": "binance-accelerator-program-llm-model-training-data-processing-binance-khcky7vz",
-      "role_key": "freehire:binance-accelerator-program-llm-model-training-data-processing-binance-khcky7vz",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002455101?utm_source=freehire.me",
-      "title": "Binance Accelerator Program - LLM Model Training & Data Processing"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
         "title:ai",
         "title:ml"
       ],
@@ -189,14 +165,36 @@
       "source": "greenhouse",
       "source_url": "https://job-boards.greenhouse.io/reolink/jobs/4455234009?utm_source=freehire.me",
       "title": "Senior AI Engineer [ Computer Vision | Transformer | PyTorch ]"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:ml"
+      ],
+      "candidate_seq": 264,
+      "company": "Reolink",
+      "employment_type": null,
+      "external_id": "reolink:4417478009",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T09:30:38Z",
+      "public_slug": "machine-learning-ai-specialist-phd-holder-reolink-5bsjthdp",
+      "role_key": "freehire:machine-learning-ai-specialist-phd-holder-reolink-5bsjthdp",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reolink/jobs/4417478009?utm_source=freehire.me",
+      "title": "Machine Learning AI Specialist (PhD Holder)"
     }
   ],
-  "generated_at": "2026-11-03T19:52:04.657490Z",
+  "generated_at": "2026-11-04T00:14:16.163078Z",
   "market": "SG",
-  "max_candidate_seq": 263,
+  "max_candidate_seq": 264,
   "min_candidate_seq": 256,
   "shard_index": 3,
-  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -5,31 +5,6 @@
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:ml"
-      ],
-      "candidate_seq": 289,
-      "company": "Alcon Singapore Manufacturing Pte Ltd",
-      "employment_type": null,
-      "external_id": "data engineer:93006305",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T17:44:37Z",
-      "public_slug": "senior-data-analytics-ai-ml-engineer-for-smart-factory-alcon-singapore-manufacturing-pte-ltd-k7pyb43e",
-      "role_key": "freehire:senior-data-analytics-ai-ml-engineer-for-smart-factory-alcon-singapore-manufacturing-pte-ltd-k7pyb43e",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93006305__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Analytics & AI/ML Engineer for Smart Factory"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
         "jd:llm",
         "jd:agent",
         "jd:rag",
@@ -133,31 +108,6 @@
     {
       "ai_score": 8,
       "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 295,
-      "company": "GENESIS NETWORKS PTE LTD",
-      "employment_type": null,
-      "external_id": ":2bc2a71b26d6f7d219535d9af4a63bdf",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T00:00:00Z",
-      "public_slug": "ai-application-developer-genesis-networks-pte-ltd-u3bmjtyj",
-      "role_key": "freehire:ai-application-developer-genesis-networks-pte-ltd-u3bmjtyj",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/2bc2a71b26d6f7d219535d9af4a63bdf?utm_source=freehire.me",
-      "title": "AI Application Developer"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
         "title:genai",
         "jd:genai",
         "jd:agent",
@@ -202,14 +152,68 @@
       "source": "google",
       "source_url": "https://www.google.com/about/careers/applications/jobs/results/133255371375420102?utm_source=freehire.me",
       "title": "Research Scientist, AI Safety and Security"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:research",
+        "jd:machine_learning",
+        "jd:agent"
+      ],
+      "candidate_seq": 298,
+      "company": "Google",
+      "employment_type": null,
+      "external_id": ":139663771818697414",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T11:39:03Z",
+      "public_slug": "senior-research-scientist-ai-safety-and-security-google-nadd3fvx",
+      "role_key": "freehire:senior-research-scientist-ai-safety-and-security-google-nadd3fvx",
+      "source": "google",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/139663771818697414?utm_source=freehire.me",
+      "title": "Senior Research Scientist, AI Safety and Security"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:genai",
+        "jd:machine_learning",
+        "jd:rag"
+      ],
+      "candidate_seq": 299,
+      "company": "YOKOGAWA ENGINEERING ASIA PTE LTD",
+      "employment_type": null,
+      "external_id": ":cc9203206241e223d0873a4c1a275abc",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T00:00:00Z",
+      "public_slug": "ai-solution-engineer-asset-management-reliability-yokogawa-engineering-asia-pte-ltd-us3fblr6",
+      "role_key": "freehire:ai-solution-engineer-asset-management-reliability-yokogawa-engineering-asia-pte-ltd-us3fblr6",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/cc9203206241e223d0873a4c1a275abc?utm_source=freehire.me",
+      "title": "AI Solution Engineer (Asset Management & Reliability)"
     }
   ],
-  "generated_at": "2026-11-03T19:52:04.657490Z",
+  "generated_at": "2026-11-04T00:14:16.163078Z",
   "market": "SG",
-  "max_candidate_seq": 297,
-  "min_candidate_seq": 289,
+  "max_candidate_seq": 299,
+  "min_candidate_seq": 291,
   "shard_index": 7,
-  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

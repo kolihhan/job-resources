@@ -5,30 +5,6 @@
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:research",
-        "jd:machine_learning",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 281,
-      "company": "NANYANG TECHNOLOGICAL UNIVERSITY",
-      "employment_type": null,
-      "external_id": ":095e0204843b55038a6533f11e661f69",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-23T00:00:00Z",
-      "public_slug": "research-scientist-computer-science-software-engineering-artificial-intelligence-nanyang-technological-university-4ptkx57o",
-      "role_key": "freehire:research-scientist-computer-science-software-engineering-artificial-intelligence-nanyang-technological-university-4ptkx57o",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/095e0204843b55038a6533f11e661f69?utm_source=freehire.me",
-      "title": "Research Scientist (Computer Science/Software Engineering/Artificial Intelligence)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
         "title:agent"
       ],
       "candidate_seq": 282,
@@ -200,14 +176,39 @@
       "source": "mycareersfuture",
       "source_url": "https://www.mycareersfuture.gov.sg/job/9d8d6e91c9e75820c46465644f95325d?utm_source=freehire.me",
       "title": "Junior AI Engineer"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:ml"
+      ],
+      "candidate_seq": 289,
+      "company": "Alcon Singapore Manufacturing Pte Ltd",
+      "employment_type": null,
+      "external_id": "data engineer:93006305",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-19T17:44:37Z",
+      "public_slug": "senior-data-analytics-ai-ml-engineer-for-smart-factory-alcon-singapore-manufacturing-pte-ltd-k7pyb43e",
+      "role_key": "freehire:senior-data-analytics-ai-ml-engineer-for-smart-factory-alcon-singapore-manufacturing-pte-ltd-k7pyb43e",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93006305__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Analytics & AI/ML Engineer for Smart Factory"
     }
   ],
-  "generated_at": "2026-11-03T19:52:04.657490Z",
+  "generated_at": "2026-11-04T00:14:16.163078Z",
   "market": "SG",
-  "max_candidate_seq": 288,
-  "min_candidate_seq": 281,
+  "max_candidate_seq": 289,
+  "min_candidate_seq": 282,
   "shard_index": 6,
-  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

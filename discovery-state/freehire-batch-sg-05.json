@@ -5,31 +5,6 @@
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:genai",
-        "jd:computer_vision",
-        "jd:tensorflow"
-      ],
-      "candidate_seq": 273,
-      "company": "Newbridge",
-      "employment_type": null,
-      "external_id": "newbridge-:638XXY65",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T01:29:13Z",
-      "public_slug": "ai-mobile-application-developer-ios-android-cross-platform-newbridge-hthrwshk",
-      "role_key": "freehire:ai-mobile-application-developer-ios-android-cross-platform-newbridge-hthrwshk",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/newbridge-/job/638XXY65?utm_source=freehire.me",
-      "title": "AI Mobile Application Developer (iOS / Android / Cross-Platform)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
         "title:research",
         "jd:machine_learning",
         "jd:agent"
@@ -196,14 +171,38 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93983474__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "AI/ML Engineer – Data & Deployment Specialist"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:research",
+        "jd:machine_learning",
+        "jd:multimodal"
+      ],
+      "candidate_seq": 281,
+      "company": "NANYANG TECHNOLOGICAL UNIVERSITY",
+      "employment_type": null,
+      "external_id": ":095e0204843b55038a6533f11e661f69",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T00:00:00Z",
+      "public_slug": "research-scientist-computer-science-software-engineering-artificial-intelligence-nanyang-technological-university-4ptkx57o",
+      "role_key": "freehire:research-scientist-computer-science-software-engineering-artificial-intelligence-nanyang-technological-university-4ptkx57o",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/095e0204843b55038a6533f11e661f69?utm_source=freehire.me",
+      "title": "Research Scientist (Computer Science/Software Engineering/Artificial Intelligence)"
     }
   ],
-  "generated_at": "2026-11-03T19:52:04.657490Z",
+  "generated_at": "2026-11-04T00:14:16.163078Z",
   "market": "SG",
-  "max_candidate_seq": 280,
-  "min_candidate_seq": 273,
+  "max_candidate_seq": 281,
+  "min_candidate_seq": 274,
   "shard_index": 5,
-  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -5,60 +5,6 @@
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:research",
-        "jd:machine_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 298,
-      "company": "Google",
-      "employment_type": null,
-      "external_id": ":139663771818697414",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T11:39:03Z",
-      "public_slug": "senior-research-scientist-ai-safety-and-security-google-nadd3fvx",
-      "role_key": "freehire:senior-research-scientist-ai-safety-and-security-google-nadd3fvx",
-      "source": "google",
-      "source_url": "https://www.google.com/about/careers/applications/jobs/results/139663771818697414?utm_source=freehire.me",
-      "title": "Senior Research Scientist, AI Safety and Security"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:genai",
-        "jd:machine_learning",
-        "jd:rag"
-      ],
-      "candidate_seq": 299,
-      "company": "YOKOGAWA ENGINEERING ASIA PTE LTD",
-      "employment_type": null,
-      "external_id": ":cc9203206241e223d0873a4c1a275abc",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T00:00:00Z",
-      "public_slug": "ai-solution-engineer-asset-management-reliability-yokogawa-engineering-asia-pte-ltd-us3fblr6",
-      "role_key": "freehire:ai-solution-engineer-asset-management-reliability-yokogawa-engineering-asia-pte-ltd-us3fblr6",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/cc9203206241e223d0873a4c1a275abc?utm_source=freehire.me",
-      "title": "AI Solution Engineer (Asset Management & Reliability)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
         "jd:llm",
         "jd:agent",
         "jd:rag",
@@ -101,28 +47,6 @@
       "source": "workday",
       "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Postdoctoral-Fellow--AI-ML-driven-High-throughput-Material-Synthesis-and-Characterization-_R00026039-1?utm_source=freehire.me",
       "title": "Postdoctoral Fellow (AI/ML-driven High-throughput Material Synthesis and Characterization)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:ml"
-      ],
-      "candidate_seq": 303,
-      "company": "ST ENGINEERING ADVANCED NETWORKS & SENSORS PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":8e4b39ca26436a1da6930d742315a9b1",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T00:00:00Z",
-      "public_slug": "ai-ml-engineer-dsc-te-vibu-st-engineering-advanced-networks-sensors-pte-ltd-jhlsldbz",
-      "role_key": "freehire:ai-ml-engineer-dsc-te-vibu-st-engineering-advanced-networks-sensors-pte-ltd-jhlsldbz",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/8e4b39ca26436a1da6930d742315a9b1?utm_source=freehire.me",
-      "title": "AI/ML Engineer (DSC/TE/VIBU)"
     },
     {
       "ai_score": 8,
@@ -201,14 +125,86 @@
       "source": "phenom",
       "source_url": "https://manulife.phenompro.com/global/en/job/MFZMFIUSJR26091688EXTERNALENGLOBAL?utm_source=freehire.me",
       "title": "Senior Data Scientist"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 307,
+      "company": "surbanajurong",
+      "employment_type": null,
+      "external_id": "surbanajurong.wd3.myworkdayjobs.com/sj_careers:/job/Singapore/AI-Engineer_JR119182",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T00:00:00Z",
+      "public_slug": "ai-engineer-surbanajurong-bbdrnprk",
+      "role_key": "freehire:ai-engineer-surbanajurong-bbdrnprk",
+      "source": "workday",
+      "source_url": "https://surbanajurong.wd3.myworkdayjobs.com/SJ_Careers/job/Singapore/AI-Engineer_JR119182?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:ml"
+      ],
+      "candidate_seq": 308,
+      "company": "RECRUIT LYNC PTE. LTD.",
+      "employment_type": null,
+      "external_id": "python developer:91577999",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Yishun, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T11:18:47Z",
+      "public_slug": "manufacturing-software-engineer-python-automation-ai-ml-recruit-lync-pte-ltd-5mbvvkgd",
+      "role_key": "freehire:manufacturing-software-engineer-python-automation-ai-ml-recruit-lync-pte-ltd-5mbvvkgd",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91577999__7119?utm_campaign=publisher&utm_medium=api&geoID=609&utm_source=freehire.me",
+      "title": "Manufacturing Software Engineer: Python Automation & AI/ML"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai",
+        "jd:agent",
+        "jd:rag",
+        "jd:evaluation"
+      ],
+      "candidate_seq": 309,
+      "company": "DBS Bank",
+      "employment_type": "full_time",
+      "external_id": "6290:95180541",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-09T08:30:00Z",
+      "public_slug": "avp-ai-engineer-global-financial-market-technology-group-technology-dbs-bank-h75lnjd7",
+      "role_key": "freehire:avp-ai-engineer-global-financial-market-technology-group-technology-dbs-bank-h75lnjd7",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95180541?utm_source=freehire.me",
+      "title": "AVP, AI Engineer, Global Financial Market Technology, Group Technology"
     }
   ],
-  "generated_at": "2026-11-03T19:52:04.657490Z",
+  "generated_at": "2026-11-04T00:14:16.163078Z",
   "market": "SG",
-  "max_candidate_seq": 306,
-  "min_candidate_seq": 298,
+  "max_candidate_seq": 309,
+  "min_candidate_seq": 301,
   "shard_index": 8,
-  "source_generated_at": "2026-11-03T01:12:54.808439Z",
+  "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }
