@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T07:21:18+08:00",
+  "updated_at": "2026-11-04T08:24:11+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -42,6 +42,26 @@
       "company": "AVEVA",
       "title": "Data AI Engineer",
       "source_url": "https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/job/Kuala-Lumpur-Malaysia/Data-AI-Engineer_R014844"
+    },
+    {
+      "role_key": "freehire:net-developer-with-ai-python-expertise-career-wise-weu4qbin",
+      "candidate_seq": 2524,
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T10:20:00+08:00",
+      "company": "Career Wise",
+      "title": ".NET Developer with AI & Python Expertise",
+      "source_url": "https://www.careers-page.com/career-wise/job/RY785R6R"
+    },
+    {
+      "role_key": "freehire:kubernetes-full-stack-engineer-with-ml-python-accenture-southeast-asia-bwcr2vp4",
+      "candidate_seq": 2525,
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T10:20:00+08:00",
+      "company": "Accenture Southeast Asia",
+      "title": "Kubernetes Full-Stack Engineer with ML (Python)",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26871024__7112"
     }
   ]
 }
