@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T01:00:46+08:00",
+  "updated_at": "2026-11-05T05:12:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -92,6 +92,56 @@
       "company": "SPACE EXECUTIVE PTE. LTD.",
       "title": "ML Engineer - Supply Chain AI",
       "source_url": "https://www.mycareersfuture.gov.sg/job/70213c308b9482247a3018e34b45108e"
+    },
+    {
+      "candidate_seq": 276,
+      "company": "NEWBRIDGE ALLIANCE PTE. LTD.",
+      "title": "AI Mobile Application Developer (iOS / Android / Cross-Platform)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/586092938adde85077e3d3572df02f4c",
+      "reason_code": "mcf_only_route_unresolved",
+      "role_key": "freehire:276",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T05:12:00+08:00"
+    },
+    {
+      "candidate_seq": 277,
+      "company": "TIKTOK PTE. LTD.",
+      "title": "AI Agent Development Engineer Graduate (TikTok Monetization Quality Assurance) - 2027 Start",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/b16a3888c7fa8ef4b7d11bc5d73bb241",
+      "reason_code": "graduate_2027_campaign_and_non_mcf_route_unresolved",
+      "role_key": "freehire:277",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T05:12:00+08:00"
+    },
+    {
+      "candidate_seq": 279,
+      "company": "INFOWIZ PTE LTD",
+      "title": "Machine Learning Engineer / Data Scientist",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94037158__7119",
+      "reason_code": "source_unverifiable",
+      "role_key": "freehire:279",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T05:12:00+08:00"
+    },
+    {
+      "candidate_seq": 280,
+      "company": "Evolution Singapore",
+      "title": "AI/ML Engineer – Data & Deployment Specialist",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93983474__7119",
+      "reason_code": "source_unverifiable",
+      "role_key": "freehire:280",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T05:12:00+08:00"
+    },
+    {
+      "candidate_seq": 282,
+      "company": "PayPal",
+      "title": "Senior Agentic AI Engineer",
+      "source_url": "https://paypal.eightfold.ai/careers/job/274923002548",
+      "reason_code": "seniority_equivalent_experience_and_workpass_route_review",
+      "role_key": "freehire:282",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T05:12:00+08:00"
     }
   ]
 }
