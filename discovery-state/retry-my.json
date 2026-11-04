@@ -1,40 +1,40 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-05T00:24:00+08:00",
+  "updated_at": "2026-11-05T06:15:14+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
       "candidate_seq": 2505,
       "reason_code": "verification_pending",
-      "attempts": 9,
-      "next_retry_at": "2026-11-05T01:20:00+08:00",
+      "attempts": 10,
+      "next_retry_at": "2026-11-05T08:20:00+08:00",
       "company": "Curlec by Razorpay",
       "title": "AI-Driven DevOps Engineer — Cloud, Kubernetes & Automation",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903359__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent full JD lists 1–3y DevOps and agent workflows, but aggregator employment says contract while another says full-time; canonical Curlec ATS/route and employment remain unverified. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Cross-source substantive JD confirms 1-3y DevOps/agent automation; employment conflict Full time vs Contract remains; no employer-owned exact requisition. 2026-11-04T22:24+08:00: Independent full JD (JobLeads) supports 1-3y DevOps/agent automation, but conflicting third-party contract vs permanent claims; official exact employment route unresolved. 2026-11-05T00:24+08:00: JobLeads full JD confirms 1–3y and agentic DevOps, but Trabajo lists Contract alongside Full-time; employer-owned exact employment/route still unresolved."
+      "detail": "2026-11-04T16:24:24+08:00 Independent full JD lists 1–3y DevOps and agent workflows, but aggregator employment says contract while another says full-time; canonical Curlec ATS/route and employment remain unverified. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Cross-source substantive JD confirms 1-3y DevOps/agent automation; employment conflict Full time vs Contract remains; no employer-owned exact requisition. 2026-11-04T22:24+08:00: Independent full JD (JobLeads) supports 1-3y DevOps/agent automation, but conflicting third-party contract vs permanent claims; official exact employment route unresolved. 2026-11-05T00:24+08:00: JobLeads full JD confirms 1–3y and agentic DevOps, but Trabajo lists Contract alongside Full-time; employer-owned exact employment/route still unresolved. 2026-11-05T06:15+08:00: JobLeads substantive JD confirms 1–3y DevOps/AWS/Kubernetes and AI automation; Trabajo labels both Full-time and Contract, employment terms unresolved; no official exact route."
     },
     {
       "role_key": "freehire:gen-ai-engineer-lavu-tech-solutions-2cqjvi4u",
       "candidate_seq": 2510,
       "reason_code": "verification_pending",
-      "attempts": 9,
-      "next_retry_at": "2026-11-05T01:20:00+08:00",
+      "attempts": 10,
+      "next_retry_at": "2026-11-05T08:20:00+08:00",
       "company": "Lavu Tech Solutions",
       "title": "Gen AI Engineer",
       "source_url": "https://my.jobstreet.com/job/94846738",
-      "detail": "2026-11-04T16:24:24+08:00 Independent substantive JD found GenAI/RAG/LangGraph and broad cloud/full-stack requirements; no employer-owned current exact route or destination-quality evidence; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Substantive third-party JD available but suspicious copied bolttech language; employer identity/quality and exact route remain unverified. 2026-11-04T22:24+08:00: Previously retrieved third-party LangGraph/RAG JD; no new official role or employment-quality evidence this pass. 2026-11-05T00:24+08:00: JobLeads full JD confirms LangGraph/RAG, JobStreet indexes current Gen AI Engineer, but employer-owned route and MY destination-quality still unproven."
+      "detail": "2026-11-04T16:24:24+08:00 Independent substantive JD found GenAI/RAG/LangGraph and broad cloud/full-stack requirements; no employer-owned current exact route or destination-quality evidence; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Substantive third-party JD available but suspicious copied bolttech language; employer identity/quality and exact route remain unverified. 2026-11-04T22:24+08:00: Previously retrieved third-party LangGraph/RAG JD; no new official role or employment-quality evidence this pass. 2026-11-05T00:24+08:00: JobLeads full JD confirms LangGraph/RAG, JobStreet indexes current Gen AI Engineer, but employer-owned route and MY destination-quality still unproven. 2026-11-05T06:15+08:00: JobLeads/Jobstore substantive GenAI LangGraph JD found, but official employer-controlled exact route and MY destination quality still unverified."
     },
     {
       "role_key": "freehire:kubernetes-full-stack-engineer-with-ml-python-accenture-southeast-asia-bwcr2vp4",
       "candidate_seq": 2525,
       "reason_code": "verification_pending",
-      "attempts": 6,
-      "next_retry_at": "2026-11-04T23:20:00+08:00",
+      "attempts": 7,
+      "next_retry_at": "2026-11-05T08:20:00+08:00",
       "company": "Accenture Southeast Asia",
       "title": "Kubernetes Full-Stack Engineer with ML (Python)",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26871024__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent JD describes Kubernetes/Rancher/BI/ML pipeline customer delivery; employer exact role and permanent direct employment not verified; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Only third-party Kubernetes/ML delivery listing found; no official Accenture requisition or permanent terms. 2026-11-04T22:24+08:00: Existing third-party Kubernetes/ML delivery JD; no verified employer-owned exact requisition, permanent terms, or TOP-level fit."
+      "detail": "2026-11-04T16:24:24+08:00 Independent JD describes Kubernetes/Rancher/BI/ML pipeline customer delivery; employer exact role and permanent direct employment not verified; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Only third-party Kubernetes/ML delivery listing found; no official Accenture requisition or permanent terms. 2026-11-04T22:24+08:00: Existing third-party Kubernetes/ML delivery JD; no verified employer-owned exact requisition, permanent terms, or TOP-level fit. 2026-11-05T06:15+08:00: Expertini substantive Kubernetes/Rancher/ML data pipeline JD found, but no employer-owned exact requisition or permanent terms verified."
     },
     {
       "candidate_seq": 2531,
@@ -51,23 +51,23 @@
       "role_key": "freehire:cloud-devops-engineer-aws-ai-automations-respond-fvras7cv",
       "candidate_seq": 2537,
       "reason_code": "verification_pending",
-      "attempts": 6,
-      "next_retry_at": "2026-11-04T23:20:00+08:00",
+      "attempts": 7,
+      "next_retry_at": "2026-11-05T08:20:00+08:00",
       "company": "Respond",
       "title": "Cloud DevOps Engineer — AWS, AI Automations",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26774970__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent full JD: Respond AWS/GCP DevOps, 3+ years combined development/DevOps, software-heavy but destination quality, canonical route and experience interpretation unresolved; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Substantive third-party JD confirms 3+ years combined DevOps/software and AWS/GCP; official exact role/route still not verified. 2026-11-04T22:24+08:00: Third-party AWS/DevOps JD 3+ years; official direct route and destination quality unresolved."
+      "detail": "2026-11-04T16:24:24+08:00 Independent full JD: Respond AWS/GCP DevOps, 3+ years combined development/DevOps, software-heavy but destination quality, canonical route and experience interpretation unresolved; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Substantive third-party JD confirms 3+ years combined DevOps/software and AWS/GCP; official exact role/route still not verified. 2026-11-04T22:24+08:00: Third-party AWS/DevOps JD 3+ years; official direct route and destination quality unresolved. 2026-11-05T06:15+08:00: LinkedIn substantive respond.io DevOps JD indicates 3+ combined dev/DevOps and AWS/GCP; canonical role/route and hard fit not confirmed."
     },
     {
       "role_key": "freehire:senior-developer-machine-learning-operations-uobgroup-c65rljgh",
       "candidate_seq": 2543,
       "reason_code": "verification_pending",
-      "attempts": 7,
-      "next_retry_at": "2026-11-05T01:20:00+08:00",
+      "attempts": 8,
+      "next_retry_at": "2026-11-05T08:20:00+08:00",
       "company": "UOB",
       "title": "Senior Developer, Machine Learning Operations",
       "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/The-Gardens-North-Tower/Associate--MEA-Tech_JR75606",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. UOB official JR75606 is live and substantive GenAI/Agentic AI MLOps; strong mandatory OpenShift/Kubernetes/AWS/CI-CD stack; targeted Gmail and employment/fit gates not completed; preserve. 2026-11-04T20:19+08:00: Official UOB Workday JR75606 still displays full-time GenAI/Agentic MLOps; OpenShift/Kubernetes/AWS/CI-CD are explicit must-have stack; no verified candidate fit/Gmail gate. 2026-11-04T21:24+08:00: Official UOB JR75606 JD confirms mandatory OpenShift/Kubernetes, AWS and mature CI/CD tools; candidate fit not demonstrated, no Gmail gate. 2026-11-04T22:24+08:00: Official JR75606 GenAI MLOps remains promising but mandatory Kubernetes/OpenShift/AWS stack, full candidate fit and targeted Gmail not verified. 2026-11-05T00:24+08:00: Official UOB Workday JR75606 full JD rechecked: full-time GenAI/Agentic MLOps, mandatory OpenShift/Kubernetes/AWS and mature CI/CD; hard-fit/Gmail gate remains unresolved."
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. UOB official JR75606 is live and substantive GenAI/Agentic AI MLOps; strong mandatory OpenShift/Kubernetes/AWS/CI-CD stack; targeted Gmail and employment/fit gates not completed; preserve. 2026-11-04T20:19+08:00: Official UOB Workday JR75606 still displays full-time GenAI/Agentic MLOps; OpenShift/Kubernetes/AWS/CI-CD are explicit must-have stack; no verified candidate fit/Gmail gate. 2026-11-04T21:24+08:00: Official UOB JR75606 JD confirms mandatory OpenShift/Kubernetes, AWS and mature CI/CD tools; candidate fit not demonstrated, no Gmail gate. 2026-11-04T22:24+08:00: Official JR75606 GenAI MLOps remains promising but mandatory Kubernetes/OpenShift/AWS stack, full candidate fit and targeted Gmail not verified. 2026-11-05T00:24+08:00: Official UOB Workday JR75606 full JD rechecked: full-time GenAI/Agentic MLOps, mandatory OpenShift/Kubernetes/AWS and mature CI/CD; hard-fit/Gmail gate remains unresolved. 2026-11-05T06:15+08:00: UOB official JR75606 JD reconfirmed GenAI/Agentic AI production MLOps with OpenShift/AWS; hard fit and targeted Gmail remain unresolved."
     },
     {
       "candidate_seq": 2642,
