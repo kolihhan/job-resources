@@ -1,51 +1,40 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T21:24:09+08:00",
+  "updated_at": "2026-11-04T22:24:43+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
       "candidate_seq": 2505,
       "reason_code": "verification_pending",
-      "attempts": 7,
-      "next_retry_at": "2026-11-04T22:20:00+08:00",
+      "attempts": 8,
+      "next_retry_at": "2026-11-04T23:20:00+08:00",
       "company": "Curlec by Razorpay",
       "title": "AI-Driven DevOps Engineer — Cloud, Kubernetes & Automation",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903359__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent full JD lists 1–3y DevOps and agent workflows, but aggregator employment says contract while another says full-time; canonical Curlec ATS/route and employment remain unverified. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Cross-source substantive JD confirms 1-3y DevOps/agent automation; employment conflict Full time vs Contract remains; no employer-owned exact requisition."
+      "detail": "2026-11-04T16:24:24+08:00 Independent full JD lists 1–3y DevOps and agent workflows, but aggregator employment says contract while another says full-time; canonical Curlec ATS/route and employment remain unverified. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Cross-source substantive JD confirms 1-3y DevOps/agent automation; employment conflict Full time vs Contract remains; no employer-owned exact requisition. 2026-11-04T22:24+08:00: Independent full JD (JobLeads) supports 1-3y DevOps/agent automation, but conflicting third-party contract vs permanent claims; official exact employment route unresolved."
     },
     {
       "role_key": "freehire:gen-ai-engineer-lavu-tech-solutions-2cqjvi4u",
       "candidate_seq": 2510,
       "reason_code": "verification_pending",
-      "attempts": 7,
-      "next_retry_at": "2026-11-04T22:20:00+08:00",
+      "attempts": 8,
+      "next_retry_at": "2026-11-04T23:20:00+08:00",
       "company": "Lavu Tech Solutions",
       "title": "Gen AI Engineer",
       "source_url": "https://my.jobstreet.com/job/94846738",
-      "detail": "2026-11-04T16:24:24+08:00 Independent substantive JD found GenAI/RAG/LangGraph and broad cloud/full-stack requirements; no employer-owned current exact route or destination-quality evidence; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Substantive third-party JD available but suspicious copied bolttech language; employer identity/quality and exact route remain unverified."
+      "detail": "2026-11-04T16:24:24+08:00 Independent substantive JD found GenAI/RAG/LangGraph and broad cloud/full-stack requirements; no employer-owned current exact route or destination-quality evidence; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Substantive third-party JD available but suspicious copied bolttech language; employer identity/quality and exact route remain unverified. 2026-11-04T22:24+08:00: Previously retrieved third-party LangGraph/RAG JD; no new official role or employment-quality evidence this pass."
     },
     {
       "role_key": "freehire:kubernetes-full-stack-engineer-with-ml-python-accenture-southeast-asia-bwcr2vp4",
       "candidate_seq": 2525,
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T22:20:00+08:00",
+      "attempts": 6,
+      "next_retry_at": "2026-11-04T23:20:00+08:00",
       "company": "Accenture Southeast Asia",
       "title": "Kubernetes Full-Stack Engineer with ML (Python)",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26871024__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent JD describes Kubernetes/Rancher/BI/ML pipeline customer delivery; employer exact role and permanent direct employment not verified; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Only third-party Kubernetes/ML delivery listing found; no official Accenture requisition or permanent terms."
-    },
-    {
-      "role_key": "freehire:senior-full-stack-ai-engineer-the-access-group-brn3a54r",
-      "candidate_seq": 2523,
-      "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T22:20:00+08:00",
-      "company": "The Access Group",
-      "title": "Senior Full Stack AI Engineer",
-      "source_url": "https://theaccessgroup.wd103.myworkdayjobs.com/Access_Group_External_Careers/job/Kuala-Lumpur---GOC/Senior-Software-Engineer--Net-_JR002688",
-      "detail": "2026-11-04T16:24:24+08:00 Exact Workday requisition JR002688 not confirmed as AI engineer; senior .NET role identity/fit unresolved; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Third-party AI title tied to Workday JR002688, exact .NET/AI identity and employment conflicting; no safe promotion."
+      "detail": "2026-11-04T16:24:24+08:00 Independent JD describes Kubernetes/Rancher/BI/ML pipeline customer delivery; employer exact role and permanent direct employment not verified; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Only third-party Kubernetes/ML delivery listing found; no official Accenture requisition or permanent terms. 2026-11-04T22:24+08:00: Existing third-party Kubernetes/ML delivery JD; no verified employer-owned exact requisition, permanent terms, or TOP-level fit."
     },
     {
       "candidate_seq": 2531,
@@ -54,64 +43,64 @@
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26824609__7112",
       "role_key": "freehire:senior-cloud-devops-engineer-ai-hpc-infra-bitdeer-nasdaq-btdr-6upusual",
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T22:20:00+08:00",
-      "detail": "2026-11-04T16:24:24+08:00 Senior AI/HPC infrastructure role lacks authoritative exact JD and realistic YOE verification; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Current Bitdeer listings corroborate senior infrastructure family, but exact role and hard requirements not employer-verified."
+      "attempts": 6,
+      "next_retry_at": "2026-11-04T23:20:00+08:00",
+      "detail": "2026-11-04T16:24:24+08:00 Senior AI/HPC infrastructure role lacks authoritative exact JD and realistic YOE verification; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Current Bitdeer listings corroborate senior infrastructure family, but exact role and hard requirements not employer-verified. 2026-11-04T22:24+08:00: Senior AI/HPC cloud infrastructure; no employer exact requisition and realistic hard fit evidence."
     },
     {
       "role_key": "freehire:cloud-devops-engineer-aws-ai-automations-respond-fvras7cv",
       "candidate_seq": 2537,
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T22:20:00+08:00",
+      "attempts": 6,
+      "next_retry_at": "2026-11-04T23:20:00+08:00",
       "company": "Respond",
       "title": "Cloud DevOps Engineer — AWS, AI Automations",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26774970__7112",
-      "detail": "2026-11-04T16:24:24+08:00 Independent full JD: Respond AWS/GCP DevOps, 3+ years combined development/DevOps, software-heavy but destination quality, canonical route and experience interpretation unresolved; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Substantive third-party JD confirms 3+ years combined DevOps/software and AWS/GCP; official exact role/route still not verified."
+      "detail": "2026-11-04T16:24:24+08:00 Independent full JD: Respond AWS/GCP DevOps, 3+ years combined development/DevOps, software-heavy but destination quality, canonical route and experience interpretation unresolved; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Substantive third-party JD confirms 3+ years combined DevOps/software and AWS/GCP; official exact role/route still not verified. 2026-11-04T22:24+08:00: Third-party AWS/DevOps JD 3+ years; official direct route and destination quality unresolved."
     },
     {
       "role_key": "freehire:senior-developer-machine-learning-operations-uobgroup-c65rljgh",
       "candidate_seq": 2543,
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T22:20:00+08:00",
+      "attempts": 6,
+      "next_retry_at": "2026-11-04T23:20:00+08:00",
       "company": "UOB",
       "title": "Senior Developer, Machine Learning Operations",
       "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/The-Gardens-North-Tower/Associate--MEA-Tech_JR75606",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. UOB official JR75606 is live and substantive GenAI/Agentic AI MLOps; strong mandatory OpenShift/Kubernetes/AWS/CI-CD stack; targeted Gmail and employment/fit gates not completed; preserve. 2026-11-04T20:19+08:00: Official UOB Workday JR75606 still displays full-time GenAI/Agentic MLOps; OpenShift/Kubernetes/AWS/CI-CD are explicit must-have stack; no verified candidate fit/Gmail gate. 2026-11-04T21:24+08:00: Official UOB JR75606 JD confirms mandatory OpenShift/Kubernetes, AWS and mature CI/CD tools; candidate fit not demonstrated, no Gmail gate."
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. UOB official JR75606 is live and substantive GenAI/Agentic AI MLOps; strong mandatory OpenShift/Kubernetes/AWS/CI-CD stack; targeted Gmail and employment/fit gates not completed; preserve. 2026-11-04T20:19+08:00: Official UOB Workday JR75606 still displays full-time GenAI/Agentic MLOps; OpenShift/Kubernetes/AWS/CI-CD are explicit must-have stack; no verified candidate fit/Gmail gate. 2026-11-04T21:24+08:00: Official UOB JR75606 JD confirms mandatory OpenShift/Kubernetes, AWS and mature CI/CD tools; candidate fit not demonstrated, no Gmail gate. 2026-11-04T22:24+08:00: Official JR75606 GenAI MLOps remains promising but mandatory Kubernetes/OpenShift/AWS stack, full candidate fit and targeted Gmail not verified."
     },
     {
       "candidate_seq": 2642,
       "company": "Gen",
       "title": "Machine Learning Engineer",
       "source_url": "https://arc.dev/remote-jobs/j/gen-machine-learning-engineer-ptstbvc5av",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. Gen role identity vs existing MoneyLion/Gen issues remains unresolved; no verified current exact canonical route. 2026-11-04T20:19+08:00: Official Gen/MoneyLion Machine Learning Engineer already has APPLY Issue, but arc.dev source identity is not proven identical; exact match unresolved. 2026-11-04T21:24+08:00: Gen arc.dev role not matched to distinct official requisition; historical Gen/MoneyLion issue remains suspicion only.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. Gen role identity vs existing MoneyLion/Gen issues remains unresolved; no verified current exact canonical route. 2026-11-04T20:19+08:00: Official Gen/MoneyLion Machine Learning Engineer already has APPLY Issue, but arc.dev source identity is not proven identical; exact match unresolved. 2026-11-04T21:24+08:00: Gen arc.dev role not matched to distinct official requisition; historical Gen/MoneyLion issue remains suspicion only. 2026-11-04T22:24+08:00: Arc.dev Gen Machine Learning Engineer lacks verified distinct official requisition versus existing Gen/MoneyLion issue.",
       "role_key": "freehire:seq-2642",
       "reason_code": "verification_pending",
-      "attempts": 4,
-      "next_retry_at": "2026-11-04T22:20:00+08:00"
+      "attempts": 5,
+      "next_retry_at": "2026-11-04T23:20:00+08:00"
     },
     {
       "candidate_seq": 2717,
       "company": "MaiStorage",
       "title": "AI Engineer (Solution)",
       "source_url": "https://my.jobstreet.com/job/95662622",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage Solution exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage Solution listing 95662622; historical same-title CLOSED issue exists for expired earlier listing; new identity unresolved, preserve. 2026-11-04T21:24+08:00: MaiStorage Solution JobStreet 95662622 not proven distinct from historical closed same-title role; official route/quality unresolved.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage Solution exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage Solution listing 95662622; historical same-title CLOSED issue exists for expired earlier listing; new identity unresolved, preserve. 2026-11-04T21:24+08:00: MaiStorage Solution JobStreet 95662622 not proven distinct from historical closed same-title role; official route/quality unresolved. 2026-11-04T22:24+08:00: JobStreet live employer listing shows full-time solution AI engineering; historical same-title CLOSED issue, exact new requisition identity unresolved.",
       "role_key": "freehire:seq-2717",
       "reason_code": "verification_pending",
-      "attempts": 4,
-      "next_retry_at": "2026-11-04T22:20:00+08:00"
+      "attempts": 5,
+      "next_retry_at": "2026-11-04T23:20:00+08:00"
     },
     {
       "candidate_seq": 2718,
       "company": "MaiStorage",
       "title": "AI Engineer (R&D)",
       "source_url": "https://my.jobstreet.com/job/95661869",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage R&D exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage R&D listing 95661869, full-time RM6K–8K fresh-graduate friendly; historical same-title SKIP Issue exists; new requisition identity and destination-quality decision unresolved. 2026-11-04T21:24+08:00: MaiStorage R&D JobStreet 95661869 appears graduate-friendly but distinct requisition and employer quality not confirmed; historical SKIP respected.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage R&D exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage R&D listing 95661869, full-time RM6K–8K fresh-graduate friendly; historical same-title SKIP Issue exists; new requisition identity and destination-quality decision unresolved. 2026-11-04T21:24+08:00: MaiStorage R&D JobStreet 95661869 appears graduate-friendly but distinct requisition and employer quality not confirmed; historical SKIP respected. 2026-11-04T22:24+08:00: JobStreet live employer listing shows full-time, fresh graduate welcome, RM6k-8k; full independent JD is LLM GPU/kernel/memory optimization; historical same-title SKIP and destination/skill-fit unresolved.",
       "role_key": "freehire:seq-2718",
       "reason_code": "verification_pending",
-      "attempts": 4,
-      "next_retry_at": "2026-11-04T22:20:00+08:00"
+      "attempts": 5,
+      "next_retry_at": "2026-11-04T23:20:00+08:00"
     }
   ]
 }
