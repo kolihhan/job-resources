@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T16:24:24+08:00",
+  "updated_at": "2026-11-04T17:20:22+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -70,103 +70,48 @@
       "detail": "2026-11-04T16:24:24+08:00 Independent full JD: Respond AWS/GCP DevOps, 3+ years combined development/DevOps, software-heavy but destination quality, canonical route and experience interpretation unresolved; preserve."
     },
     {
-      "role_key": "freehire:devops-engineer-at-peopleworks-ai-peopleworks-ai-vuffytlc",
-      "candidate_seq": 2540,
-      "reason_code": "verification_pending",
-      "attempts": 2,
-      "next_retry_at": "2026-11-04T16:20:00+08:00",
-      "company": "Peopleworks.ai",
-      "title": "DevOps Engineer at Peopleworks.ai",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26766429__7112",
-      "detail": "2026-11-04 14:20 MY: targeted retry recheck; canonical JD / eligibility / employment / exact route still unverified; retained for verification"
-    },
-    {
       "role_key": "freehire:senior-developer-machine-learning-operations-uobgroup-c65rljgh",
       "candidate_seq": 2543,
       "reason_code": "verification_pending",
-      "attempts": 2,
-      "next_retry_at": "2026-11-04T16:20:00+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-04T19:20:00+08:00",
       "company": "UOB",
       "title": "Senior Developer, Machine Learning Operations",
       "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/The-Gardens-North-Tower/Associate--MEA-Tech_JR75606",
-      "detail": "2026-11-04 14:20 MY: targeted retry recheck; canonical JD / eligibility / employment / exact route still unverified; retained for verification"
-    },
-    {
-      "role_key": "freehire:seq-2546",
-      "candidate_seq": 2546,
-      "reason_code": "verification_pending",
-      "detail": "2026-11-04 14:20 MY: targeted retry recheck; canonical JD / eligibility / employment / exact route still unverified; retained for verification",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T16:20:00+08:00",
-      "company": "Deriv.com",
-      "title": "Senior DevOps Engineer (AI & Production Infrastructure)",
-      "source_url": "https://deriv.zohorecruit.eu/jobs/Careers/47807000095267380"
-    },
-    {
-      "role_key": "freehire:seq-2548",
-      "candidate_seq": 2548,
-      "reason_code": "verification_pending",
-      "detail": "2026-11-04 14:20 MY: targeted retry recheck; canonical JD / eligibility / employment / exact route still unverified; retained for verification",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T16:20:00+08:00",
-      "company": "SNS Network",
-      "title": "AI Engineer",
-      "source_url": "https://my.jobstreet.com/job/93256665"
-    },
-    {
-      "role_key": "freehire:seq-2550",
-      "candidate_seq": 2550,
-      "reason_code": "verification_pending",
-      "detail": "2026-11-04 14:20 MY: targeted retry recheck; canonical JD / eligibility / employment / exact route still unverified; retained for verification",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T16:20:00+08:00",
-      "company": "Squirro",
-      "title": "Senior Software Engineer – Python & AI Platform Integration",
-      "source_url": "https://squirro.bamboohr.com/careers/119"
-    },
-    {
-      "candidate_seq": 2641,
-      "company": "Goldbox Technologies Limited",
-      "title": "Hybrid Full-Stack Engineer – IoT, AI & Smart City",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26985308__7112",
-      "detail": "2026-11-04 15:17 MY: rechecked source/history; no verified exact role identity and current full JD/route sufficient for promotion or terminal disposition. Retained for targeted verification.",
-      "role_key": "freehire:seq-2641",
-      "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T16:20:00+08:00"
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. UOB official JR75606 is live and substantive GenAI/Agentic AI MLOps; strong mandatory OpenShift/Kubernetes/AWS/CI-CD stack; targeted Gmail and employment/fit gates not completed; preserve."
     },
     {
       "candidate_seq": 2642,
       "company": "Gen",
       "title": "Machine Learning Engineer",
       "source_url": "https://arc.dev/remote-jobs/j/gen-machine-learning-engineer-ptstbvc5av",
-      "detail": "2026-11-04 15:17 MY: rechecked source/history; no verified exact role identity and current full JD/route sufficient for promotion or terminal disposition. Retained for targeted verification.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. Gen role identity vs existing MoneyLion/Gen issues remains unresolved; no verified current exact canonical route.",
       "role_key": "freehire:seq-2642",
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T16:20:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T19:20:00+08:00"
     },
     {
       "candidate_seq": 2717,
       "company": "MaiStorage",
       "title": "AI Engineer (Solution)",
       "source_url": "https://my.jobstreet.com/job/95662622",
-      "detail": "2026-11-04 15:17 MY: rechecked source/history; no verified exact role identity and current full JD/route sufficient for promotion or terminal disposition. Retained for targeted verification.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage Solution exact JobStreet ID still requires cross-history role identity and canonical route verification.",
       "role_key": "freehire:seq-2717",
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T16:20:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T19:20:00+08:00"
     },
     {
       "candidate_seq": 2718,
       "company": "MaiStorage",
       "title": "AI Engineer (R&D)",
       "source_url": "https://my.jobstreet.com/job/95661869",
-      "detail": "2026-11-04 15:17 MY: rechecked source/history; no verified exact role identity and current full JD/route sufficient for promotion or terminal disposition. Retained for targeted verification.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage R&D exact JobStreet ID still requires cross-history role identity and canonical route verification.",
       "role_key": "freehire:seq-2718",
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T16:20:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T19:20:00+08:00"
     }
   ]
 }
