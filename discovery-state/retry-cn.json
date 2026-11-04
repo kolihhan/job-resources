@@ -741,6 +741,36 @@
       "company": "ByteDance",
       "title": "AI Agent工程师-巨量广告与自助",
       "source_url": "https://jobs.bytedance.com/experienced/position/7681247643292436789/detail"
+    },
+    {
+      "candidate_seq": 1825,
+      "role_key": "freehire:gao-de-ju-shen-zhi-neng-shu-ju-bi-huan-agent-ying-yong-suan-fa-gong-cheng-shi-ju-shen-zhi-neng-shu-ju-fang-xiang-alibaba-group-35szffvg",
+      "company": "Alibaba Group",
+      "title": "高德-具身智能数据闭环 Agent 应用算法工程师-具身智能数据方向",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100014040002",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T18:13:08+08:00"
+    },
+    {
+      "candidate_seq": 1828,
+      "role_key": "freehire:dian-ping-ji-zhu-ai-agentkai-fa-gong-cheng-shi-meituan-4vncs6st",
+      "company": "Meituan",
+      "title": "点评技术-AI Agent开发工程师",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4728217671",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T18:13:08+08:00"
+    },
+    {
+      "candidate_seq": 1829,
+      "role_key": "freehire:llm-infragong-cheng-shi-data-dou-yin-zhi-bo-dian-shang-jian-ying-bytedance-pmv4f4kr",
+      "company": "ByteDance",
+      "title": "LLM Infra工程师 - Data-抖音/直播/电商/剪映",
+      "source_url": "https://jobs.bytedance.com/campus/position/7678911812435544373/detail",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T18:13:08+08:00"
     }
   ]
 }
