@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T07:00:23+08:00",
+  "updated_at": "2026-11-05T07:56:07+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -192,6 +192,36 @@
       "reason_code": "authoritative_jd_and_seniority_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T07:00:00+08:00"
+    },
+    {
+      "candidate_seq": 304,
+      "company": "ISIXI PRIVATE LIMITED",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/e8ef3bce7cfcd685e0fba51786bcb65b",
+      "role_key": "freehire:ai-engineer-isixi-private-limited-taeb63dr",
+      "reason_code": "mcf_only_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:00:00+08:00"
+    },
+    {
+      "candidate_seq": 306,
+      "company": "Manulife",
+      "title": "Senior Data Scientist",
+      "source_url": "https://manulife.phenompro.com/global/en/job/MFZMFIUSJR26091688EXTERNALENGLOBAL",
+      "role_key": "freehire:senior-data-scientist-manulife-obqicu7n",
+      "reason_code": "mandatory_seniority_and_ai_content_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:00:00+08:00"
+    },
+    {
+      "candidate_seq": 307,
+      "company": "Surbana Jurong",
+      "title": "AI Engineer",
+      "source_url": "https://surbanajurong.wd3.myworkdayjobs.com/SJ_Careers/job/Singapore/AI-Engineer_JR119182",
+      "role_key": "freehire:ai-engineer-surbanajurong-bbdrnprk",
+      "reason_code": "authoritative_jd_unavailable",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:00:00+08:00"
     }
   ]
 }
