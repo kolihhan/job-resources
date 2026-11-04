@@ -721,6 +721,26 @@
       "reason_code": "authoritative_source_unreadable_retry",
       "attempts": 1,
       "next_retry_at": "2026-11-05T13:05:19+08:00"
+    },
+    {
+      "role_key": "freehire:ai-agentgao-ji-gong-cheng-shi-ju-liang-yan-gao-yu-zi-zhu-bytedance-anvhvl37",
+      "candidate_seq": 1822,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T04:08:46+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent高级工程师-巨量广告与自助",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7681248135279134981/detail"
+    },
+    {
+      "role_key": "freehire:ai-agentgong-cheng-shi-ju-liang-yan-gao-yu-zi-zhu-bytedance-eng5mc57",
+      "candidate_seq": 1823,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T04:08:46+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent工程师-巨量广告与自助",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7681247643292436789/detail"
     }
   ]
 }
