@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T10:15:41+08:00",
+  "updated_at": "2026-11-04T11:24:19+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -142,6 +142,72 @@
       "company": "UOB",
       "title": "Senior Developer, Machine Learning Operations",
       "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/The-Gardens-North-Tower/Associate--MEA-Tech_JR75606"
+    },
+    {
+      "role_key": "freehire:seq-2546",
+      "candidate_seq": 2546,
+      "reason_code": "verification_pending",
+      "detail": "senior_scope_requires_verification",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "Deriv.com",
+      "title": "Senior DevOps Engineer (AI & Production Infrastructure)",
+      "source_url": "https://deriv.zohorecruit.eu/jobs/Careers/47807000095267380"
+    },
+    {
+      "role_key": "freehire:seq-2548",
+      "candidate_seq": 2548,
+      "reason_code": "verification_pending",
+      "detail": "ai_infrastructure_role_fit_pending",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "SNS Network",
+      "title": "AI Engineer",
+      "source_url": "https://my.jobstreet.com/job/93256665"
+    },
+    {
+      "role_key": "freehire:seq-2549",
+      "candidate_seq": 2549,
+      "reason_code": "verification_pending",
+      "detail": "canonical_jd_unavailable",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "Flextronics International",
+      "title": "AI Data Engineer",
+      "source_url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Malaysia-Penang/AI-Data-Engineer_WD222009-1"
+    },
+    {
+      "role_key": "freehire:seq-2550",
+      "candidate_seq": 2550,
+      "reason_code": "verification_pending",
+      "detail": "seniority_and_liveness_pending",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "Squirro",
+      "title": "Senior Software Engineer – Python & AI Platform Integration",
+      "source_url": "https://squirro.bamboohr.com/careers/119"
+    },
+    {
+      "role_key": "freehire:seq-2551",
+      "candidate_seq": 2551,
+      "reason_code": "verification_pending",
+      "detail": "required_experience_and_liveness_pending",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "DXC Technology",
+      "title": "AI DevOps Engineer (MLOps & Cloud)",
+      "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/AI-DevOps-Engineer--MLOps---Cloud-_51580987"
+    },
+    {
+      "role_key": "freehire:seq-2552",
+      "candidate_seq": 2552,
+      "reason_code": "verification_pending",
+      "detail": "required_experience_and_liveness_pending",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "DXC Technology",
+      "title": "Senior Python AI Engineer",
+      "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Senior-Python-AI-Engineer_51580986"
     }
   ]
 }
