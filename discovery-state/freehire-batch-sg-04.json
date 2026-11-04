@@ -5,157 +5,36 @@
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:ml"
+        "title:agent"
       ],
-      "candidate_seq": 266,
-      "company": "FPT Asia Pacific Pte Ltd",
+      "candidate_seq": 292,
+      "company": "ncs3",
       "employment_type": null,
-      "external_id": "fpt-asia-pacific-pte-ltd:638X85XW",
+      "external_id": "ncs3:6000000001497996",
       "flags": [
-        "agency_or_outstaff_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, sg",
       "market": "SG",
-      "posted_at": "2026-10-30T05:43:25Z",
-      "public_slug": "m01-ml-ai-engineer-dpa-fpt-asia-pacific-pte-ltd-iinn36o5",
-      "role_key": "freehire:m01-ml-ai-engineer-dpa-fpt-asia-pacific-pte-ltd-iinn36o5",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/fpt-asia-pacific-pte-ltd/job/638X85XW?utm_source=freehire.me",
-      "title": "M01 -  ML/AI Engineer (DPA)"
+      "posted_at": "2026-10-19T01:29:56Z",
+      "public_slug": "eg-presales-consultant-cloud-agentic-ai-ncs3-bky3l3cm",
+      "role_key": "freehire:eg-presales-consultant-cloud-agentic-ai-ncs3-bky3l3cm",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001497996--eg-presales-consultant-cloud-agentic-ai-?utm_source=freehire.me",
+      "title": "#EG Presales Consultant (Cloud, Agentic AI)"
     },
     {
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:ml"
+        "title:agent"
       ],
-      "candidate_seq": 267,
-      "company": "FPT Software",
+      "candidate_seq": 293,
+      "company": "NCS Group",
       "employment_type": null,
-      "external_id": "6290:95588553",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T13:01:03Z",
-      "public_slug": "m01-ml-ai-engineer-dpa-fpt-software-cewrx53c",
-      "role_key": "freehire:m01-ml-ai-engineer-dpa-fpt-software-cewrx53c",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95588553?utm_source=freehire.me",
-      "title": "M01 - ML/AI Engineer (DPA)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 268,
-      "company": "SURBANA JURONG SERVICES PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":396351082f0359cfddf08908fa6f7f49",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "senior-ai-engineer-surbana-jurong-services-pte-ltd-u5tafhut",
-      "role_key": "freehire:senior-ai-engineer-surbana-jurong-services-pte-ltd-u5tafhut",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/396351082f0359cfddf08908fa6f7f49?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 269,
-      "company": "SURBANA JURONG SERVICES PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":153b62e0cf904edd41ee3dac2e48b0c0",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "ai-engineer-surbana-jurong-services-pte-ltd-r37i5e2q",
-      "role_key": "freehire:ai-engineer-surbana-jurong-services-pte-ltd-r37i5e2q",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/153b62e0cf904edd41ee3dac2e48b0c0?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:ml"
-      ],
-      "candidate_seq": 270,
-      "company": "MSD INTERNATIONAL GMBH (SINGAPORE BRANCH)",
-      "employment_type": "fellowship",
-      "external_id": ":66bb59eedf1b85735a4b5d9700c3962c",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "assoc-scientist-post-doc-fellow-ai-ml-for-tissue-analytics-quantitative-biosciences-msd-international-gmbh-singapore-branch-br4ajvql",
-      "role_key": "freehire:assoc-scientist-post-doc-fellow-ai-ml-for-tissue-analytics-quantitative-biosciences-msd-international-gmbh-singapore-branch-br4ajvql",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/66bb59eedf1b85735a4b5d9700c3962c?utm_source=freehire.me",
-      "title": "Assoc. Scientist, Post-Doc Fellow,  AI/ML for Tissue Analytics, Quantitative Biosciences"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:ml"
-      ],
-      "candidate_seq": 271,
-      "company": "SPACE EXECUTIVE PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":70213c308b9482247a3018e34b45108e",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "ml-engineer-supply-chain-ai-space-executive-pte-ltd-6b5vilcw",
-      "role_key": "freehire:ml-engineer-supply-chain-ai-space-executive-pte-ltd-6b5vilcw",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/70213c308b9482247a3018e34b45108e?utm_source=freehire.me",
-      "title": "ML Engineer - Supply Chain AI"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:genai",
-        "jd:llm",
-        "jd:genai",
-        "jd:agent"
-      ],
-      "candidate_seq": 272,
-      "company": "BASE CAMP DIGITAL PTE. LTD.",
-      "employment_type": null,
-      "external_id": "6290:95551688",
+      "external_id": "6297:95350695",
       "flags": [
         "experience_5_plus_hint"
       ],
@@ -163,12 +42,64 @@
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T05:40:19Z",
-      "public_slug": "genai-software-engineer-base-camp-digital-pte-ltd-w34tnfnn",
-      "role_key": "freehire:genai-software-engineer-base-camp-digital-pte-ltd-w34tnfnn",
+      "posted_at": "2026-10-19T01:29:56Z",
+      "public_slug": "eg-presales-consultant-cloud-agentic-ai-ncs-group-hqxlvkuh",
+      "role_key": "freehire:eg-presales-consultant-cloud-agentic-ai-ncs-group-hqxlvkuh",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95551688?utm_source=freehire.me",
-      "title": "GenAI Software Engineer"
+      "source_url": "https://sg.jobstreet.com/job/95350695?utm_source=freehire.me",
+      "title": "#EG Presales Consultant (Cloud, Agentic AI)"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 294,
+      "company": "TALENTVIS SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":ac322715a6cb7bf00c8fdfdbfaed9ab3",
+      "flags": [
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-19T00:00:00Z",
+      "public_slug": "chief-technology-officer-enterprise-ai-solutions-company-talentvis-singapore-pte-ltd-6koa4shl",
+      "role_key": "freehire:chief-technology-officer-enterprise-ai-solutions-company-talentvis-singapore-pte-ltd-6koa4shl",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/ac322715a6cb7bf00c8fdfdbfaed9ab3?utm_source=freehire.me",
+      "title": "Chief Technology Officer (Enterprise AI solutions company)"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai",
+        "jd:agent",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 296,
+      "company": "Google",
+      "employment_type": null,
+      "external_id": ":83825176881308358",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:41:52Z",
+      "public_slug": "genai-forward-deployed-engineer-google-cloud-english-korean-google-nw2c6zpf",
+      "role_key": "freehire:genai-forward-deployed-engineer-google-cloud-english-korean-google-nw2c6zpf",
+      "source": "google",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/83825176881308358?utm_source=freehire.me",
+      "title": "GenAI Forward Deployed Engineer, Google Cloud (English, Korean)"
     },
     {
       "ai_score": 8,
@@ -178,31 +109,106 @@
         "jd:machine_learning",
         "jd:agent"
       ],
-      "candidate_seq": 274,
-      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "candidate_seq": 297,
+      "company": "Google",
       "employment_type": null,
-      "external_id": ":057e7d8262cfdd93ec6e10c2a1771b58",
+      "external_id": ":133255371375420102",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T12:39:31Z",
+      "public_slug": "research-scientist-ai-safety-and-security-google-75thqhk4",
+      "role_key": "freehire:research-scientist-ai-safety-and-security-google-75thqhk4",
+      "source": "google",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/133255371375420102?utm_source=freehire.me",
+      "title": "Research Scientist, AI Safety and Security"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:research",
+        "jd:machine_learning",
+        "jd:agent"
+      ],
+      "candidate_seq": 298,
+      "company": "Google",
+      "employment_type": null,
+      "external_id": ":139663771818697414",
       "flags": [
         "senior_title_hint",
-        "seniority_hint",
-        "visa_hint"
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "senior-research-scientist-ai-safety-and-security-singapore-google-asia-pacific-pte-ltd-ngoyq2od",
-      "role_key": "freehire:senior-research-scientist-ai-safety-and-security-singapore-google-asia-pacific-pte-ltd-ngoyq2od",
+      "posted_at": "2026-10-16T11:39:03Z",
+      "public_slug": "senior-research-scientist-ai-safety-and-security-google-nadd3fvx",
+      "role_key": "freehire:senior-research-scientist-ai-safety-and-security-google-nadd3fvx",
+      "source": "google",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/139663771818697414?utm_source=freehire.me",
+      "title": "Senior Research Scientist, AI Safety and Security"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:genai",
+        "jd:machine_learning",
+        "jd:rag"
+      ],
+      "candidate_seq": 299,
+      "company": "YOKOGAWA ENGINEERING ASIA PTE LTD",
+      "employment_type": null,
+      "external_id": ":cc9203206241e223d0873a4c1a275abc",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T00:00:00Z",
+      "public_slug": "ai-solution-engineer-asset-management-reliability-yokogawa-engineering-asia-pte-ltd-us3fblr6",
+      "role_key": "freehire:ai-solution-engineer-asset-management-reliability-yokogawa-engineering-asia-pte-ltd-us3fblr6",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/057e7d8262cfdd93ec6e10c2a1771b58?utm_source=freehire.me",
-      "title": "Senior Research Scientist, AI Safety and Security - Singapore"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/cc9203206241e223d0873a4c1a275abc?utm_source=freehire.me",
+      "title": "AI Solution Engineer (Asset Management & Reliability)"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 301,
+      "company": "AvePoint",
+      "employment_type": null,
+      "external_id": "avepoint:8029829",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-14T18:04:43Z",
+      "public_slug": "ai-engineer-managed-services-avepoint-v2rf7lnz",
+      "role_key": "freehire:ai-engineer-managed-services-avepoint-v2rf7lnz",
+      "source": "greenhouse",
+      "source_url": "https://www.avepoint.com/careers/job-detail?gh_jid=8029829&utm_source=freehire.me",
+      "title": "AI Engineer (Managed Services)"
     }
   ],
-  "generated_at": "2026-11-04T07:00:28.696112Z",
+  "generated_at": "2026-11-04T15:48:34.356098Z",
   "market": "SG",
-  "max_candidate_seq": 274,
-  "min_candidate_seq": 266,
+  "max_candidate_seq": 301,
+  "min_candidate_seq": 292,
   "shard_index": 4,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

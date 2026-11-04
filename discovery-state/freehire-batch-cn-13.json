@@ -2,58 +2,58 @@
   "candidate_count": 2,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:rag"
+        "title:ai"
       ],
-      "candidate_seq": 1956,
-      "company": "ByteDance",
+      "candidate_seq": 1975,
+      "company": "Schneider Electric",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7439251458647918856",
+      "external_id": "se.jibeapply.com:140010",
       "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Shanghai",
+      "location": "China-Shanghai-Shanghai",
       "market": "CN",
-      "posted_at": "2024-11-20T06:58:48Z",
-      "public_slug": "zi-shen-da-mo-xing-suan-fa-gong-cheng-shi-yan-jiu-yuan-ai-platform-bytedance-36jtddcw",
-      "role_key": "freehire:zi-shen-da-mo-xing-suan-fa-gong-cheng-shi-yan-jiu-yuan-ai-platform-bytedance-36jtddcw",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7439251458647918856/detail?utm_source=freehire.me",
-      "title": "资深大模型算法工程师/研究员-AI Platform"
+      "posted_at": "2026-10-29T07:02:23Z",
+      "public_slug": "senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
+      "role_key": "freehire:senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
+      "source": "jibe",
+      "source_url": "https://se.jibeapply.com/careers-home/jobs/140010?utm_source=freehire.me",
+      "title": "Senior AI Engineer II"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:nlp",
-        "jd:agent"
+        "jd:llm",
+        "jd:pytorch",
+        "jd:transformer",
+        "jd:fine_tuning"
       ],
-      "candidate_seq": 1957,
-      "company": "ByteDance",
+      "candidate_seq": 1976,
+      "company": "Alibaba Group",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7435902972822112520",
-      "flags": [
-        "seniority_hint"
-      ],
+      "external_id": ":100018420003",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing; Shanghai",
+      "location": "Hangzhou",
       "market": "CN",
-      "posted_at": "2024-11-11T06:30:41Z",
-      "public_slug": "nlp-duo-mo-tai-zi-shen-suan-fa-gong-cheng-shi-yi-tu-li-jie-re-dian-wa-jue-fang-xiang-tiktok-shop-bytedance-ezwhikf6",
-      "role_key": "freehire:nlp-duo-mo-tai-zi-shen-suan-fa-gong-cheng-shi-yi-tu-li-jie-re-dian-wa-jue-fang-xiang-tiktok-shop-bytedance-ezwhikf6",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7435902972822112520/detail?utm_source=freehire.me",
-      "title": "NLP/多模态资深算法工程师（意图理解/热点挖掘方向） - TikTok Shop"
+      "posted_at": "2026-10-29T06:47:01Z",
+      "public_slug": "da-mo-yuan-chao-sheng-aida-mo-xing-suan-fa-zhuan-jia-ju-shen-zhi-neng-alibaba-group-xnnnbpju",
+      "role_key": "freehire:da-mo-yuan-chao-sheng-aida-mo-xing-suan-fa-zhuan-jia-ju-shen-zhi-neng-alibaba-group-xnnnbpju",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100018420003&utm_source=freehire.me",
+      "title": "达摩院-超声AI大模型算法专家-具身智能"
     }
   ],
-  "generated_at": "2026-11-04T07:00:28.696112Z",
+  "generated_at": "2026-11-04T15:48:34.356098Z",
   "market": "CN",
-  "max_candidate_seq": 1957,
-  "min_candidate_seq": 1956,
+  "max_candidate_seq": 1976,
+  "min_candidate_seq": 1975,
   "shard_index": 13,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

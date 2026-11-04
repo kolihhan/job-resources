@@ -2,81 +2,30 @@
   "candidate_count": 5,
   "candidates": [
     {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:fine_tuning",
-        "jd:model_training"
-      ],
-      "candidate_seq": 350,
-      "company": "csit",
-      "employment_type": null,
-      "external_id": "csit:5e30e45c-a60e-4966-b302-476233a4eb22",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2025-05-15T03:17:22Z",
-      "public_slug": "senior-software-engineer-ai-product-development-csit-m2dowfp4",
-      "role_key": "freehire:senior-software-engineer-ai-product-development-csit-m2dowfp4",
-      "source": "lever",
-      "source_url": "https://jobs.lever.co/csit/5e30e45c-a60e-4966-b302-476233a4eb22?utm_source=freehire.me",
-      "title": "Senior Software Engineer (AI Product Development)"
-    },
-    {
       "ai_score": 7,
       "ai_signals": [
         "title:ai",
+        "jd:llm",
         "jd:genai",
-        "jd:machine_learning",
-        "jd:vector_db"
+        "jd:rag"
       ],
-      "candidate_seq": 351,
-      "company": "Apple",
+      "candidate_seq": 376,
+      "company": "RiDiK (a Subsidiary of CLPS. Nasdaq: CLPS)",
       "employment_type": null,
-      "external_id": ":200692847",
+      "external_id": "6290:95334908",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Changi, East Region",
       "market": "SG",
-      "posted_at": "2026-11-02T05:36:39Z",
-      "public_slug": "senior-software-engineer-data-solutions-ai-data-platforms-apple-ihrkqa4b",
-      "role_key": "freehire:senior-software-engineer-data-solutions-ai-data-platforms-apple-ihrkqa4b",
-      "source": "apple",
-      "source_url": "https://jobs.apple.com/en-us/details/200692847/senior-software-engineer-data-solutions-ai-data-platforms?utm_source=freehire.me",
-      "title": "Senior Software Engineer (Data Solutions), Ai & Data Platforms"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:llm",
-        "title:research"
-      ],
-      "candidate_seq": 352,
-      "company": "TIKTOK PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":6b152768fd1fac97793c6c9c5744d78c",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-02T00:00:00Z",
-      "public_slug": "research-scientist-llm-applications-for-international-e-commerce-scenarios-global-frontier-tech-recruitment-program-2027-start-phd-tiktok-pte-ltd-wiwpypxm",
-      "role_key": "freehire:research-scientist-llm-applications-for-international-e-commerce-scenarios-global-frontier-tech-recruitment-program-2027-start-phd-tiktok-pte-ltd-wiwpypxm",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/6b152768fd1fac97793c6c9c5744d78c?utm_source=freehire.me",
-      "title": "Research Scientist - LLM Applications for International E-commerce Scenarios - Global Frontier Tech Recruitment Program - 2027 Start (PhD)"
+      "posted_at": "2026-10-18T14:40:06Z",
+      "public_slug": "046-ai-engineer-ai-maintenance-technology-upgrades-ridik-a-subsidiary-of-clps-nasdaq-clps-lbpd4735",
+      "role_key": "freehire:046-ai-engineer-ai-maintenance-technology-upgrades-ridik-a-subsidiary-of-clps-nasdaq-clps-lbpd4735",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95334908?utm_source=freehire.me",
+      "title": "046 - AI Engineer – AI Maintenance & Technology Upgrades"
     },
     {
       "ai_score": 7,
@@ -84,53 +33,106 @@
         "title:ai",
         "jd:llm",
         "jd:rag",
-        "jd:retrieval"
+        "jd:vector_db"
       ],
-      "candidate_seq": 353,
-      "company": "Helius Technologies",
+      "candidate_seq": 377,
+      "company": "Devxlabs",
       "employment_type": null,
-      "external_id": "data engineer:94380198",
-      "flags": [],
+      "external_id": "full stack developer:93582394",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T14:39:14Z",
-      "public_slug": "ai-engineer-rag-pipelines-for-enterprise-data-singapore-helius-technologies-dfn7sefh",
-      "role_key": "freehire:ai-engineer-rag-pipelines-for-enterprise-data-singapore-helius-technologies-dfn7sefh",
+      "posted_at": "2026-10-18T13:46:46Z",
+      "public_slug": "ai-native-fullstack-developer-devxlabs-j47uwkcd",
+      "role_key": "freehire:ai-native-fullstack-developer-devxlabs-j47uwkcd",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380198__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Engineer: RAG Pipelines for Enterprise Data (Singapore)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93582394__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-native Fullstack Developer"
     },
     {
       "ai_score": 7,
       "ai_signals": [
         "title:ai",
-        "jd:agent",
-        "jd:model_training",
-        "jd:evaluation"
+        "jd:llm",
+        "jd:genai",
+        "jd:agent"
       ],
-      "candidate_seq": 354,
-      "company": "Hudson River Trading",
-      "employment_type": "full_time",
-      "external_id": "wehrtyou:8234195",
+      "candidate_seq": 378,
+      "company": "PERSOL SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "backend developer:93583539",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "London, United Kingdom; New York, NY, United States; Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T20:35:07Z",
-      "public_slug": "applied-ai-engineer-hudson-river-trading-lg446mmn",
-      "role_key": "freehire:applied-ai-engineer-hudson-river-trading-lg446mmn",
-      "source": "greenhouse",
-      "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8234195&utm_source=freehire.me",
-      "title": "Applied AI Engineer"
+      "posted_at": "2026-10-18T13:46:18Z",
+      "public_slug": "banking-ai-backend-developer-persol-singapore-pte-ltd-nv77vtnh",
+      "role_key": "freehire:banking-ai-backend-developer-persol-singapore-pte-ltd-nv77vtnh",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93583539__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Banking AI & Backend Developer"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:ml",
+        "jd:llm",
+        "jd:machine_learning",
+        "jd:agent"
+      ],
+      "candidate_seq": 379,
+      "company": "CGG Services SAS",
+      "employment_type": null,
+      "external_id": ":8744336",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-17T05:58:05Z",
+      "public_slug": "senior-machine-learning-engineer-cgg-services-sas-wec6ecn7",
+      "role_key": "freehire:senior-machine-learning-engineer-cgg-services-sas-wec6ecn7",
+      "source": "startupjobs",
+      "source_url": "https://startup.jobs/senior-machine-learning-engineer-cgg-services-sas-8744336?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:computer_vision",
+        "jd:machine_learning",
+        "jd:deep_learning",
+        "jd:computer_vision"
+      ],
+      "candidate_seq": 380,
+      "company": "RED ALPHA CYBERSECURITY PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":820d649bf2ed25057f5d4a8e90c62040",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T00:00:00Z",
+      "public_slug": "computer-vision-engineer-red-alpha-cybersecurity-pte-ltd-tl7gjlsj",
+      "role_key": "freehire:computer-vision-engineer-red-alpha-cybersecurity-pte-ltd-tl7gjlsj",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/820d649bf2ed25057f5d4a8e90c62040?utm_source=freehire.me",
+      "title": "Computer Vision Engineer"
     }
   ],
-  "generated_at": "2026-11-04T07:00:28.696112Z",
+  "generated_at": "2026-11-04T15:48:34.356098Z",
   "market": "SG",
-  "max_candidate_seq": 354,
-  "min_candidate_seq": 350,
+  "max_candidate_seq": 380,
+  "min_candidate_seq": 376,
   "shard_index": 13,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
