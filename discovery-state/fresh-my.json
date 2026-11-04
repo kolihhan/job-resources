@@ -1,16 +1,16 @@
 {
   "version": 2,
   "market": "MY",
-  "platform_cycle": 17,
-  "next_platform_index": 2,
-  "next_owner_bucket": 5,
-  "next_query_bucket": 2,
-  "run_counter": 41,
-  "last_completed_at": "2026-11-04T14:20:28+08:00",
+  "platform_cycle": 18,
+  "next_platform_index": 4,
+  "next_owner_bucket": 0,
+  "next_query_bucket": 3,
+  "run_counter": 42,
+  "last_completed_at": "2026-11-04T15:17:56+08:00",
   "last_platforms": [
-    "LinkedIn Jobs Malaysia",
-    "JobStreet Malaysia"
+    "Indeed Malaysia",
+    "Hiredly"
   ],
-  "last_owner_bucket": "Dell / YTL AI Labs",
-  "last_query_bucket": "NLP / search / retrieval / evaluation / knowledge"
+  "last_owner_bucket": "MIMOS / strong university-industry research labs / other recurring destination-quality owners",
+  "last_query_bucket": "AI backend / platform / ML engineering"
 }
