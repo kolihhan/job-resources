@@ -801,6 +801,56 @@
       "reason_code": "authoritative_source_unreadable_retry",
       "attempts": 1,
       "next_retry_at": "2026-11-05T21:11:38+08:00"
+    },
+    {
+      "role_key": "freehire:quan-zhan-jiao-fu-gong-cheng-shi-pian-qian-duan-ai-ying-yong-fang-xiang-zeentra-rbzmhdqw",
+      "candidate_seq": 1834,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T23:05:40+08:00",
+      "company": "Zeentra",
+      "title": "全栈交付工程师（偏前端 / AI 应用方向）",
+      "source_url": "https://acnc6zeentra.jobs.feishu.cn/index/position/7676375090770331946/detail"
+    },
+    {
+      "role_key": "freehire:ai-agentying-yong-yan-fa-gong-cheng-shi-huo-shan-fang-zhou-bytedance-fijxlljz",
+      "candidate_seq": 1838,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T23:05:40+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent应用研发工程师 - 火山方舟",
+      "source_url": "https://jobs.bytedance.com/campus/position/7672671254742157621/detail"
+    },
+    {
+      "role_key": "freehire:senior-web-software-engineer-ai-infrastructure-nvidia-uf7vf3r2",
+      "candidate_seq": 1839,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T23:05:40+08:00",
+      "company": "NVIDIA",
+      "title": "Senior Web Software Engineer, AI Infrastructure",
+      "source_url": "https://jobs.nvidia.com/careers/job/893396877812"
+    },
+    {
+      "role_key": "freehire:ai-agenthou-duan-yan-fa-gong-cheng-shi-data-aml-bytedance-pwtl4ml4",
+      "candidate_seq": 1840,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T23:05:40+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent后端研发工程师 - Data AML",
+      "source_url": "https://jobs.bytedance.com/campus/position/7669700362425190709/detail"
+    },
+    {
+      "role_key": "freehire:tako-ai-agentsuan-fa-gong-cheng-shi-tiktoksuan-fa-bytedance-5qeawo75",
+      "candidate_seq": 1841,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T23:05:40+08:00",
+      "company": "ByteDance",
+      "title": "Tako AI Agent算法工程师 - TikTok算法",
+      "source_url": "https://jobs.bytedance.com/campus/position/7668351587061287221/detail"
     }
   ]
 }
