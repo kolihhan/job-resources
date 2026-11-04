@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-04T19:02:31+08:00",
+  "updated_at": "2026-11-04T21:58:03+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -32,6 +32,26 @@
       "company": "Unison Group",
       "title": "AI Engineer - Forward Deployed Engineer",
       "source_url": "https://apply.workable.com/j/59B9556BEF"
+    },
+    {
+      "candidate_seq": 254,
+      "role_key": "freehire:ai-ml-data-engineering-lrdtech",
+      "company": "LRDTECH",
+      "title": "AI / ML / Data Engineering",
+      "source_url": "https://apply.workable.com/j/087BF2564D",
+      "reason_code": "source_unverifiable",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T21:58:03+08:00"
+    },
+    {
+      "candidate_seq": 260,
+      "role_key": "freehire:llm-data-scientist-algorithm-engineer-binance",
+      "company": "Binance",
+      "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
+      "reason_code": "source_unverifiable",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T21:58:03+08:00"
     }
   ]
 }
