@@ -1,14 +1,14 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T09:16:53+08:00",
+  "updated_at": "2026-11-04T10:15:41+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
       "candidate_seq": 2505,
       "reason_code": "verification_pending",
-      "attempts": 2,
-      "next_retry_at": "2026-11-04T09:20:00+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
       "company": "Curlec by Razorpay",
       "title": "AI-Driven DevOps Engineer — Cloud, Kubernetes & Automation",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903359__7112"
@@ -17,28 +17,18 @@
       "role_key": "freehire:gen-ai-engineer-lavu-tech-solutions-2cqjvi4u",
       "candidate_seq": 2510,
       "reason_code": "verification_pending",
-      "attempts": 2,
-      "next_retry_at": "2026-11-04T09:20:00+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
       "company": "Lavu Tech Solutions",
       "title": "Gen AI Engineer",
       "source_url": "https://my.jobstreet.com/job/94846738"
     },
     {
-      "role_key": "freehire:ai-specialist-ai-data-engineering-ai-advisory-group-audit-maybank-4e3bg3c6",
-      "candidate_seq": 2513,
-      "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T09:20:00+08:00",
-      "company": "Maybank",
-      "title": "AI Specialist, AI & Data Engineering, AI Advisory, Group Audit",
-      "source_url": "https://www.linkedin.com/jobs/view/4447685676/"
-    },
-    {
       "role_key": "freehire:data-ai-engineer-aveva-asia-pacific-sdn-bhd-vqohwxfu",
       "candidate_seq": 2515,
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T09:20:00+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
       "company": "AVEVA",
       "title": "Data AI Engineer",
       "source_url": "https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/job/Kuala-Lumpur-Malaysia/Data-AI-Engineer_R014844"
@@ -122,6 +112,36 @@
       "reason_code": "verification_pending",
       "attempts": 1,
       "next_retry_at": "2026-11-04T10:20:00+08:00"
+    },
+    {
+      "role_key": "freehire:cloud-devops-engineer-aws-ai-automations-respond-fvras7cv",
+      "candidate_seq": 2537,
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "Respond",
+      "title": "Cloud DevOps Engineer — AWS, AI Automations",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26774970__7112"
+    },
+    {
+      "role_key": "freehire:devops-engineer-at-peopleworks-ai-peopleworks-ai-vuffytlc",
+      "candidate_seq": 2540,
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "Peopleworks.ai",
+      "title": "DevOps Engineer at Peopleworks.ai",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26766429__7112"
+    },
+    {
+      "role_key": "freehire:senior-developer-machine-learning-operations-uobgroup-c65rljgh",
+      "candidate_seq": 2543,
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "company": "UOB",
+      "title": "Senior Developer, Machine Learning Operations",
+      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/The-Gardens-North-Tower/Associate--MEA-Tech_JR75606"
     }
   ]
 }
