@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T19:19:09+08:00",
+  "updated_at": "2026-11-04T20:19:01+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -73,45 +73,45 @@
       "role_key": "freehire:senior-developer-machine-learning-operations-uobgroup-c65rljgh",
       "candidate_seq": 2543,
       "reason_code": "verification_pending",
-      "attempts": 3,
-      "next_retry_at": "2026-11-04T19:20:00+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-04T21:20:00+08:00",
       "company": "UOB",
       "title": "Senior Developer, Machine Learning Operations",
       "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/The-Gardens-North-Tower/Associate--MEA-Tech_JR75606",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. UOB official JR75606 is live and substantive GenAI/Agentic AI MLOps; strong mandatory OpenShift/Kubernetes/AWS/CI-CD stack; targeted Gmail and employment/fit gates not completed; preserve."
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. UOB official JR75606 is live and substantive GenAI/Agentic AI MLOps; strong mandatory OpenShift/Kubernetes/AWS/CI-CD stack; targeted Gmail and employment/fit gates not completed; preserve. 2026-11-04T20:19+08:00: Official UOB Workday JR75606 still displays full-time GenAI/Agentic MLOps; OpenShift/Kubernetes/AWS/CI-CD are explicit must-have stack; no verified candidate fit/Gmail gate."
     },
     {
       "candidate_seq": 2642,
       "company": "Gen",
       "title": "Machine Learning Engineer",
       "source_url": "https://arc.dev/remote-jobs/j/gen-machine-learning-engineer-ptstbvc5av",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. Gen role identity vs existing MoneyLion/Gen issues remains unresolved; no verified current exact canonical route.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. Gen role identity vs existing MoneyLion/Gen issues remains unresolved; no verified current exact canonical route. 2026-11-04T20:19+08:00: Official Gen/MoneyLion Machine Learning Engineer already has APPLY Issue, but arc.dev source identity is not proven identical; exact match unresolved.",
       "role_key": "freehire:seq-2642",
       "reason_code": "verification_pending",
-      "attempts": 2,
-      "next_retry_at": "2026-11-04T19:20:00+08:00"
+      "attempts": 3,
+      "next_retry_at": "2026-11-04T21:20:00+08:00"
     },
     {
       "candidate_seq": 2717,
       "company": "MaiStorage",
       "title": "AI Engineer (Solution)",
       "source_url": "https://my.jobstreet.com/job/95662622",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage Solution exact JobStreet ID still requires cross-history role identity and canonical route verification.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage Solution exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage Solution listing 95662622; historical same-title CLOSED issue exists for expired earlier listing; new identity unresolved, preserve.",
       "role_key": "freehire:seq-2717",
       "reason_code": "verification_pending",
-      "attempts": 2,
-      "next_retry_at": "2026-11-04T19:20:00+08:00"
+      "attempts": 3,
+      "next_retry_at": "2026-11-04T21:20:00+08:00"
     },
     {
       "candidate_seq": 2718,
       "company": "MaiStorage",
       "title": "AI Engineer (R&D)",
       "source_url": "https://my.jobstreet.com/job/95661869",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage R&D exact JobStreet ID still requires cross-history role identity and canonical route verification.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage R&D exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage R&D listing 95661869, full-time RM6K–8K fresh-graduate friendly; historical same-title SKIP Issue exists; new requisition identity and destination-quality decision unresolved.",
       "role_key": "freehire:seq-2718",
       "reason_code": "verification_pending",
-      "attempts": 2,
-      "next_retry_at": "2026-11-04T19:20:00+08:00"
+      "attempts": 3,
+      "next_retry_at": "2026-11-04T21:20:00+08:00"
     }
   ]
 }
