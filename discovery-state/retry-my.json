@@ -1,27 +1,29 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T12:17:27+08:00",
+  "updated_at": "2026-11-04T13:21:00+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
       "candidate_seq": 2505,
       "reason_code": "verification_pending",
-      "attempts": 3,
-      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
       "company": "Curlec by Razorpay",
       "title": "AI-Driven DevOps Engineer — Cloud, Kubernetes & Automation",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903359__7112"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26903359__7112",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "role_key": "freehire:gen-ai-engineer-lavu-tech-solutions-2cqjvi4u",
       "candidate_seq": 2510,
       "reason_code": "verification_pending",
-      "attempts": 3,
-      "next_retry_at": "2026-11-04T12:20:00+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
       "company": "Lavu Tech Solutions",
       "title": "Gen AI Engineer",
-      "source_url": "https://my.jobstreet.com/job/94846738"
+      "source_url": "https://my.jobstreet.com/job/94846738",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "role_key": "freehire:data-ai-engineer-aveva-asia-pacific-sdn-bhd-vqohwxfu",
@@ -37,61 +39,56 @@
       "role_key": "freehire:net-developer-with-ai-python-expertise-career-wise-weu4qbin",
       "candidate_seq": 2524,
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T10:20:00+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
       "company": "Career Wise",
       "title": ".NET Developer with AI & Python Expertise",
-      "source_url": "https://www.careers-page.com/career-wise/job/RY785R6R"
+      "source_url": "https://www.careers-page.com/career-wise/job/RY785R6R",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "role_key": "freehire:kubernetes-full-stack-engineer-with-ml-python-accenture-southeast-asia-bwcr2vp4",
       "candidate_seq": 2525,
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T10:20:00+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
       "company": "Accenture Southeast Asia",
       "title": "Kubernetes Full-Stack Engineer with ML (Python)",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26871024__7112"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26871024__7112",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "role_key": "freehire:senior-full-stack-ai-engineer-the-access-group-brn3a54r",
       "candidate_seq": 2523,
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T10:20:00+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
       "company": "The Access Group",
       "title": "Senior Full Stack AI Engineer",
-      "source_url": "https://theaccessgroup.wd103.myworkdayjobs.com/Access_Group_External_Careers/job/Kuala-Lumpur---GOC/Senior-Software-Engineer--Net-_JR002688"
+      "source_url": "https://theaccessgroup.wd103.myworkdayjobs.com/Access_Group_External_Careers/job/Kuala-Lumpur---GOC/Senior-Software-Engineer--Net-_JR002688",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "role_key": "freehire:senior-devops-engineer-multi-cloud-kubernetes-ai-ops-mha-consultancy-services-sdn-bhd-hl3d4a75",
       "candidate_seq": 2526,
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T10:20:00+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
       "company": "MHA Consultancy Services Sdn Bhd",
       "title": "Senior DevOps Engineer: Multi-Cloud, Kubernetes & AI Ops",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26860000__7112"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26860000__7112",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "role_key": "freehire:full-stack-backend-engineer-ai-cloud-apps-luxoft-malaysia-sdn-bhd-o2b5w7xe",
       "candidate_seq": 2527,
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T10:20:00+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
       "company": "Luxoft Malaysia Sdn. Bhd.",
       "title": "Full-Stack Backend Engineer — AI Cloud & Apps",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26845230__7112"
-    },
-    {
-      "candidate_seq": 2530,
-      "company": "Grab",
-      "title": "Senior Data Scientist (Trust & Fraud)",
-      "source_url": "https://jobs.smartrecruiters.com/Grab/744000146439114-senior-data-scientist-trust-fraud-",
-      "role_key": "freehire:senior-data-scientist-trust-fraud-grab-sqwpiuhc",
-      "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T10:20:00+08:00"
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26845230__7112",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "candidate_seq": 2531,
@@ -100,8 +97,9 @@
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26824609__7112",
       "role_key": "freehire:senior-cloud-devops-engineer-ai-hpc-infra-bitdeer-nasdaq-btdr-6upusual",
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T10:20:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "candidate_seq": 2535,
@@ -110,8 +108,9 @@
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26731600__7112",
       "role_key": "freehire:senior-full-stack-engineer-aws-ai-iot-platform-dc2ac-pte-ltd-2yjenlnk",
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-04T10:20:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-04T15:20:00+08:00",
+      "detail": "2026-11-04 13:21 MY: targeted public-source recheck; exact full JD/route or destination-quality gate remains unverified"
     },
     {
       "role_key": "freehire:cloud-devops-engineer-aws-ai-automations-respond-fvras7cv",
