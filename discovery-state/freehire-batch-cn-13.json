@@ -1,59 +1,85 @@
 {
-  "candidate_count": 2,
+  "candidate_count": 3,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval",
+        "jd:vector_db"
       ],
-      "candidate_seq": 1975,
-      "company": "Schneider Electric",
+      "candidate_seq": 1977,
+      "company": "Trip.com Group",
       "employment_type": null,
-      "external_id": "se.jibeapply.com:140010",
+      "external_id": "trip/70415:dd5d4d96-9a4e-46e2-87b6-7f3d31ccf465",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-10-29T06:34:46Z",
+      "public_slug": "hou-duan-kai-fa-zhuan-jia-trip-com-group-zfwgjpl4",
+      "role_key": "freehire:hou-duan-kai-fa-zhuan-jia-trip-com-group-zfwgjpl4",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/dd5d4d96-9a4e-46e2-87b6-7f3d31ccf465",
+      "title": "后端开发专家"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 1978,
+      "company": "Trip.com Group",
+      "employment_type": null,
+      "external_id": "trip/70415:f992e294-062c-4d88-8853-d817cbb06f7a",
       "flags": [
-        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China-Shanghai-Shanghai",
+      "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-29T07:02:23Z",
-      "public_slug": "senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
-      "role_key": "freehire:senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
-      "source": "jibe",
-      "source_url": "https://se.jibeapply.com/careers-home/jobs/140010?utm_source=freehire.me",
-      "title": "Senior AI Engineer II"
+      "posted_at": "2026-10-29T06:34:46Z",
+      "public_slug": "zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv",
+      "role_key": "freehire:zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/f992e294-062c-4d88-8853-d817cbb06f7a",
+      "title": "资深后端开发工程师"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "jd:llm",
         "jd:pytorch",
-        "jd:transformer",
-        "jd:fine_tuning"
+        "jd:fine_tuning",
+        "jd:model_training"
       ],
-      "candidate_seq": 1976,
+      "candidate_seq": 1979,
       "company": "Alibaba Group",
       "employment_type": null,
-      "external_id": ":100018420003",
+      "external_id": ":100022860013",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Beijing; Hangzhou",
       "market": "CN",
-      "posted_at": "2026-10-29T06:47:01Z",
-      "public_slug": "da-mo-yuan-chao-sheng-aida-mo-xing-suan-fa-zhuan-jia-ju-shen-zhi-neng-alibaba-group-xnnnbpju",
-      "role_key": "freehire:da-mo-yuan-chao-sheng-aida-mo-xing-suan-fa-zhuan-jia-ju-shen-zhi-neng-alibaba-group-xnnnbpju",
+      "posted_at": "2026-11-03T05:56:59Z",
+      "public_slug": "token-foundry-he-ban-suan-fa-zhuan-jia-qwen-alibaba-group-53e3757c",
+      "role_key": "freehire:token-foundry-he-ban-suan-fa-zhuan-jia-qwen-alibaba-group-53e3757c",
       "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100018420003&utm_source=freehire.me",
-      "title": "达摩院-超声AI大模型算法专家-具身智能"
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100022860013&utm_source=freehire.me",
+      "title": "Token Foundry-合版算法研究员-Qwen"
     }
   ],
-  "generated_at": "2026-11-04T15:48:34.356098Z",
+  "generated_at": "2026-11-04T21:34:26.952141Z",
   "market": "CN",
-  "max_candidate_seq": 1976,
-  "min_candidate_seq": 1975,
+  "max_candidate_seq": 1979,
+  "min_candidate_seq": 1977,
   "shard_index": 13,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

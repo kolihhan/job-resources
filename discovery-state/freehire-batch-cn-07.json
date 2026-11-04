@@ -6,48 +6,6 @@
       "ai_signals": [
         "title:genai"
       ],
-      "candidate_seq": 1908,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7628877878437251333",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-04-15T07:03:52Z",
-      "public_slug": "shi-xi-ji-yu-tou-fang-xin-hao-fan-kui-de-agenticshi-pin-sheng-cheng-bi-huan-yu-ying-yong-yan-jiu-genai-bei-jing-bytedance-i4y7zo7k",
-      "role_key": "freehire:shi-xi-ji-yu-tou-fang-xin-hao-fan-kui-de-agenticshi-pin-sheng-cheng-bi-huan-yu-ying-yong-yan-jiu-genai-bei-jing-bytedance-i4y7zo7k",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7628877878437251333/detail?utm_source=freehire.me",
-      "title": "【实习】基于投放信号反馈的Agentic视频生成闭环与应用研究-GenAI（北京）"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 1909,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7628878079282137349",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-04-15T07:03:30Z",
-      "public_slug": "ji-yu-tou-fang-xin-hao-fan-kui-de-agenticshi-pin-sheng-cheng-bi-huan-yu-ying-yong-yan-jiu-genai-bei-jing-shang-hai-hang-zhou-bytedance-2l2mkhvd",
-      "role_key": "freehire:ji-yu-tou-fang-xin-hao-fan-kui-de-agenticshi-pin-sheng-cheng-bi-huan-yu-ying-yong-yan-jiu-genai-bei-jing-shang-hai-hang-zhou-bytedance-2l2mkhvd",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7628878079282137349/detail?utm_source=freehire.me",
-      "title": "基于投放信号反馈的Agentic视频生成闭环与应用研究-GenAI（北京/上海/杭州）"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
       "candidate_seq": 1910,
       "company": "ByteDance",
       "employment_type": null,
@@ -171,12 +129,55 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/campus/position/7624043193672452405/detail?utm_source=freehire.me",
       "title": "LLM/多模态大模型算法实习生-PICO"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag"
+      ],
+      "candidate_seq": 1919,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7622911837717481781",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-03-30T05:11:26Z",
+      "public_slug": "ai-agentyan-fa-gong-cheng-shi-data-aml-bytedance-lmc4ravi",
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-data-aml-bytedance-lmc4ravi",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7622911837717481781/detail?utm_source=freehire.me",
+      "title": "AI Agent研发工程师-Data AML"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:llm"
+      ],
+      "candidate_seq": 1921,
+      "company": "Moonshot AI",
+      "employment_type": null,
+      "external_id": "moonshot/148506:f5ec07aa-a252-4519-9cb0-3256e7dd5461",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-01-29T16:00:00Z",
+      "public_slug": "xi-tong-gong-cheng-shi-llm-tui-li-xi-tong-moonshot-ai-uqcdgbgf",
+      "role_key": "freehire:xi-tong-gong-cheng-shi-llm-tui-li-xi-tong-moonshot-ai-uqcdgbgf",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/moonshot/148506?utm_source=freehire.me#/job/f5ec07aa-a252-4519-9cb0-3256e7dd5461",
+      "title": "系统工程师-LLM 推理系统"
     }
   ],
-  "generated_at": "2026-11-04T15:48:34.356098Z",
+  "generated_at": "2026-11-04T21:34:26.952141Z",
   "market": "CN",
-  "max_candidate_seq": 1918,
-  "min_candidate_seq": 1908,
+  "max_candidate_seq": 1921,
+  "min_candidate_seq": 1910,
   "shard_index": 7,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

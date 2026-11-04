@@ -4,95 +4,91 @@
     {
       "ai_score": 7,
       "ai_signals": [
-        "title:genai",
-        "jd:llm",
-        "jd:genai"
-      ],
-      "candidate_seq": 359,
-      "company": "D L RESOURCES PTE LTD",
-      "employment_type": null,
-      "external_id": ":8fbcc05e30694162d9fb3a08537f5981",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "senior-genai-application-engineer-bank-sector-client-d-l-resources-pte-ltd-5whjou6f",
-      "role_key": "freehire:senior-genai-application-engineer-bank-sector-client-d-l-resources-pte-ltd-5whjou6f",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/8fbcc05e30694162d9fb3a08537f5981?utm_source=freehire.me",
-      "title": "Senior GenAI Application Engineer - Bank Sector Client"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag"
-      ],
-      "candidate_seq": 360,
-      "company": "SCHONFELD STRATEGIC ADVISORS (SINGAPORE) PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":2585094fdfe11a3e3ff1b91fa5dec1e1",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "ai-platform-engineer-schonfeld-strategic-advisors-singapore-pte-ltd-cyizfbom",
-      "role_key": "freehire:ai-platform-engineer-schonfeld-strategic-advisors-singapore-pte-ltd-cyizfbom",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/2585094fdfe11a3e3ff1b91fa5dec1e1?utm_source=freehire.me",
-      "title": "AI Platform Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag"
-      ],
-      "candidate_seq": 361,
-      "company": "Schonfeld",
-      "employment_type": null,
-      "external_id": "schonfeld:8303536",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hong Kong, Hong Kong; Singapore, Central, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T10:29:44Z",
-      "public_slug": "ai-site-reliability-engineer-schonfeld-57bv72rv",
-      "role_key": "freehire:ai-site-reliability-engineer-schonfeld-57bv72rv",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/schonfeld/jobs/8303536?utm_source=freehire.me",
-      "title": "AI Platform Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:data_science",
         "jd:llm",
         "jd:genai",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
+        "jd:rag"
       ],
-      "candidate_seq": 362,
-      "company": "RAZER (ASIA-PACIFIC) PTE. LTD.",
+      "candidate_seq": 376,
+      "company": "RiDiK (a Subsidiary of CLPS. Nasdaq: CLPS)",
       "employment_type": null,
-      "external_id": ":1f9243e691115e6b4dcb7b1b2e085b30",
+      "external_id": "6290:95334908",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Changi, East Region",
+      "market": "SG",
+      "posted_at": "2026-10-18T14:40:06Z",
+      "public_slug": "046-ai-engineer-ai-maintenance-technology-upgrades-ridik-a-subsidiary-of-clps-nasdaq-clps-lbpd4735",
+      "role_key": "freehire:046-ai-engineer-ai-maintenance-technology-upgrades-ridik-a-subsidiary-of-clps-nasdaq-clps-lbpd4735",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95334908?utm_source=freehire.me",
+      "title": "046 - AI Engineer – AI Maintenance & Technology Upgrades"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:rag",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 377,
+      "company": "Devxlabs",
+      "employment_type": null,
+      "external_id": "full stack developer:93582394",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-18T13:46:46Z",
+      "public_slug": "ai-native-fullstack-developer-devxlabs-j47uwkcd",
+      "role_key": "freehire:ai-native-fullstack-developer-devxlabs-j47uwkcd",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93582394__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-native Fullstack Developer"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:genai",
+        "jd:agent"
+      ],
+      "candidate_seq": 378,
+      "company": "PERSOL SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "backend developer:93583539",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-18T13:46:18Z",
+      "public_slug": "banking-ai-backend-developer-persol-singapore-pte-ltd-nv77vtnh",
+      "role_key": "freehire:banking-ai-backend-developer-persol-singapore-pte-ltd-nv77vtnh",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93583539__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Banking AI & Backend Developer"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:ml",
+        "jd:llm",
+        "jd:machine_learning",
+        "jd:agent"
+      ],
+      "candidate_seq": 379,
+      "company": "CGG Services SAS",
+      "employment_type": null,
+      "external_id": ":8744336",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -101,12 +97,36 @@
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "senior-data-scientist-razer-asia-pacific-pte-ltd-aismgisy",
-      "role_key": "freehire:senior-data-scientist-razer-asia-pacific-pte-ltd-aismgisy",
+      "posted_at": "2026-10-17T05:58:05Z",
+      "public_slug": "senior-machine-learning-engineer-cgg-services-sas-wec6ecn7",
+      "role_key": "freehire:senior-machine-learning-engineer-cgg-services-sas-wec6ecn7",
+      "source": "startupjobs",
+      "source_url": "https://startup.jobs/senior-machine-learning-engineer-cgg-services-sas-8744336?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:computer_vision",
+        "jd:machine_learning",
+        "jd:deep_learning",
+        "jd:computer_vision"
+      ],
+      "candidate_seq": 380,
+      "company": "RED ALPHA CYBERSECURITY PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":820d649bf2ed25057f5d4a8e90c62040",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T00:00:00Z",
+      "public_slug": "computer-vision-engineer-red-alpha-cybersecurity-pte-ltd-tl7gjlsj",
+      "role_key": "freehire:computer-vision-engineer-red-alpha-cybersecurity-pte-ltd-tl7gjlsj",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/1f9243e691115e6b4dcb7b1b2e085b30?utm_source=freehire.me",
-      "title": "Senior Data Scientist"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/820d649bf2ed25057f5d4a8e90c62040?utm_source=freehire.me",
+      "title": "Computer Vision Engineer"
     },
     {
       "ai_score": 7,
@@ -116,101 +136,74 @@
         "jd:pytorch",
         "jd:tensorflow"
       ],
-      "candidate_seq": 363,
-      "company": "Fuku",
-      "employment_type": null,
-      "external_id": "fuku:1A9684305E",
+      "candidate_seq": 381,
+      "company": "Paves Technologies",
+      "employment_type": "full_time",
+      "external_id": "6290:95294829",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
+      "location": "East Region",
       "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "ai-engineer-fuku-cpymhc72",
-      "role_key": "freehire:ai-engineer-fuku-cpymhc72",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/1A9684305E?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:genai",
-        "title:data_science"
-      ],
-      "candidate_seq": 364,
-      "company": "uobgroup",
-      "employment_type": "full_time",
-      "external_id": "uobgroup.wd3.myworkdayjobs.com/uobexternal:/job/Central-Region-City-Area/Vice-President--GenAI-Data-Scientist--Innovation-Group_JR99382",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region (City Area)",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "vice-president-genai-data-scientist-innovation-group-uobgroup-pe4gutlk",
-      "role_key": "freehire:vice-president-genai-data-scientist-innovation-group-uobgroup-pe4gutlk",
-      "source": "workday",
-      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/Vice-President--GenAI-Data-Scientist--Innovation-Group_JR99382?utm_source=freehire.me",
-      "title": "Vice President, GenAI Data Scientist, Innovation Group"
+      "posted_at": "2026-10-15T10:54:23Z",
+      "public_slug": "ai-engineer-associate-paves-technologies-nfwl6ly5",
+      "role_key": "freehire:ai-engineer-associate-paves-technologies-nfwl6ly5",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95294829?utm_source=freehire.me",
+      "title": "AI Engineer – Associate"
     },
     {
       "ai_score": 7,
       "ai_signals": [
         "title:ai",
         "jd:llm",
-        "jd:machine_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 365,
-      "company": "REALTEK SINGAPORE PRIVATE LIMITED",
-      "employment_type": null,
-      "external_id": ":09b85d0f143666d58288c702204c184a",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "senior-ai-engineer-design-automation-realtek-singapore-private-limited-z3iy3jff",
-      "role_key": "freehire:senior-ai-engineer-design-automation-realtek-singapore-private-limited-z3iy3jff",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/09b85d0f143666d58288c702204c184a?utm_source=freehire.me",
-      "title": "Senior AI Engineer – Design Automation"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:llm",
-        "jd:llm",
+        "jd:agent",
         "jd:evaluation"
       ],
-      "candidate_seq": 366,
-      "company": "UMELIFE (SINGAPORE) PTE. LTD.",
+      "candidate_seq": 382,
+      "company": "SVM SOLUTIONS AND TECHNOLOGIES PTE. LTD.",
       "employment_type": null,
-      "external_id": ":47d6691239e542dcfd2d7fac41e8eba2",
+      "external_id": ":e44df73bc72bb60ac9f1296fbd649527",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-23T00:00:00Z",
-      "public_slug": "large-language-model-llm-evaluation-engineer-umelife-singapore-pte-ltd-4uuhxssp",
-      "role_key": "freehire:large-language-model-llm-evaluation-engineer-umelife-singapore-pte-ltd-4uuhxssp",
+      "posted_at": "2026-10-14T00:00:00Z",
+      "public_slug": "ai-engineer-svm-solutions-and-technologies-pte-ltd-q2auuzry",
+      "role_key": "freehire:ai-engineer-svm-solutions-and-technologies-pte-ltd-q2auuzry",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/47d6691239e542dcfd2d7fac41e8eba2?utm_source=freehire.me",
-      "title": "Large Language Model (LLM) Evaluation Engineer"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/e44df73bc72bb60ac9f1296fbd649527?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:ml",
+        "title:data_science",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 384,
+      "company": "Flintex",
+      "employment_type": null,
+      "external_id": "flintex.zohorecruit.com:418400000046473156",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-12T00:00:00Z",
+      "public_slug": "data-scientist-machine-learning-flintex-2prkt45t",
+      "role_key": "freehire:data-scientist-machine-learning-flintex-2prkt45t",
+      "source": "zohorecruit",
+      "source_url": "https://flintex.zohorecruit.com/jobs/Careers/418400000046473156?utm_source=freehire.me",
+      "title": "Data Scientist (Machine Learning)"
     }
   ],
-  "generated_at": "2026-11-04T15:48:34.356098Z",
+  "generated_at": "2026-11-04T21:34:26.952141Z",
   "market": "SG",
-  "max_candidate_seq": 366,
-  "min_candidate_seq": 359,
+  "max_candidate_seq": 384,
+  "min_candidate_seq": 376,
   "shard_index": 11,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

@@ -4,54 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "jd:agent",
-        "jd:rag",
-        "jd:pytorch",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 1966,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100045240002",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-11-02T08:22:13Z",
-      "public_slug": "da-mo-yuan-yi-liao-ai-agent-suan-fa-gong-cheng-shi-hang-zhou-alibaba-group-7q6pxjxw",
-      "role_key": "freehire:da-mo-yuan-yi-liao-ai-agent-suan-fa-gong-cheng-shi-hang-zhou-alibaba-group-7q6pxjxw",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100045240002&utm_source=freehire.me",
-      "title": "达摩院-医疗AI Agent 算法工程师-杭州"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:multimodal",
-        "jd:fine_tuning",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 1968,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100024580001",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-11-02T02:14:09Z",
-      "public_slug": "a-li-kong-gu-aisuan-fa-gong-cheng-shi-aishu-ju-zi-chan-alibaba-group-ujjy25mb",
-      "role_key": "freehire:a-li-kong-gu-aisuan-fa-gong-cheng-shi-aishu-ju-zi-chan-alibaba-group-ujjy25mb",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100024580001&utm_source=freehire.me",
-      "title": "阿里控股-AI算法工程师-AI数据资产"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "jd:rag",
         "jd:pytorch",
         "jd:tensorflow",
@@ -182,12 +134,60 @@
       "source": "alibaba",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100047340001&utm_source=freehire.me",
       "title": "阿里云智能-AI Infra 高级 SRE-杭州"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1975,
+      "company": "Schneider Electric",
+      "employment_type": null,
+      "external_id": "se.jibeapply.com:140010",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China-Shanghai-Shanghai",
+      "market": "CN",
+      "posted_at": "2026-10-29T07:02:23Z",
+      "public_slug": "senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
+      "role_key": "freehire:senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
+      "source": "jibe",
+      "source_url": "https://se.jibeapply.com/careers-home/jobs/140010?utm_source=freehire.me",
+      "title": "Senior AI Engineer II"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:pytorch",
+        "jd:transformer",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1976,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100018420003",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-10-29T06:47:01Z",
+      "public_slug": "da-mo-yuan-chao-sheng-aida-mo-xing-suan-fa-zhuan-jia-ju-shen-zhi-neng-alibaba-group-xnnnbpju",
+      "role_key": "freehire:da-mo-yuan-chao-sheng-aida-mo-xing-suan-fa-zhuan-jia-ju-shen-zhi-neng-alibaba-group-xnnnbpju",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100018420003&utm_source=freehire.me",
+      "title": "达摩院-超声AI大模型算法专家-具身智能"
     }
   ],
-  "generated_at": "2026-11-04T15:48:34.356098Z",
+  "generated_at": "2026-11-04T21:34:26.952141Z",
   "market": "CN",
-  "max_candidate_seq": 1974,
-  "min_candidate_seq": 1966,
+  "max_candidate_seq": 1976,
+  "min_candidate_seq": 1969,
   "shard_index": 12,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

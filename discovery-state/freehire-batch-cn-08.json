@@ -5,49 +5,6 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:rag"
-      ],
-      "candidate_seq": 1919,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7622911837717481781",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-03-30T05:11:26Z",
-      "public_slug": "ai-agentyan-fa-gong-cheng-shi-data-aml-bytedance-lmc4ravi",
-      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-data-aml-bytedance-lmc4ravi",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7622911837717481781/detail?utm_source=freehire.me",
-      "title": "AI Agent研发工程师-Data AML"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:llm"
-      ],
-      "candidate_seq": 1921,
-      "company": "Moonshot AI",
-      "employment_type": null,
-      "external_id": "moonshot/148506:f5ec07aa-a252-4519-9cb0-3256e7dd5461",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-01-29T16:00:00Z",
-      "public_slug": "xi-tong-gong-cheng-shi-llm-tui-li-xi-tong-moonshot-ai-uqcdgbgf",
-      "role_key": "freehire:xi-tong-gong-cheng-shi-llm-tui-li-xi-tong-moonshot-ai-uqcdgbgf",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/moonshot/148506?utm_source=freehire.me#/job/f5ec07aa-a252-4519-9cb0-3256e7dd5461",
-      "title": "系统工程师-LLM 推理系统"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
         "jd:agent"
       ],
       "candidate_seq": 1922,
@@ -200,12 +157,56 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7597368132369795381/detail?utm_source=freehire.me",
       "title": "Agent算法专家-Commercial AI"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag"
+      ],
+      "candidate_seq": 1931,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7596927316308789509",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-01-19T04:39:49Z",
+      "public_slug": "agentgong-cheng-shi-ai-codingfang-xiang-zhong-guo-jiao-yi-yu-yan-gao-bytedance-sqfbadpx",
+      "role_key": "freehire:agentgong-cheng-shi-ai-codingfang-xiang-zhong-guo-jiao-yi-yu-yan-gao-bytedance-sqfbadpx",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7596927316308789509/detail?utm_source=freehire.me",
+      "title": "Agent工程师（AI Coding方向）-中国交易与广告"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 1932,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7595441600677890309",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-01-15T04:39:14Z",
+      "public_slug": "hou-duan-kai-fa-shi-xi-sheng-dev-ai-bytedance-lohaxqfh",
+      "role_key": "freehire:hou-duan-kai-fa-shi-xi-sheng-dev-ai-bytedance-lohaxqfh",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7595441600677890309/detail?utm_source=freehire.me",
+      "title": "后端开发实习生-Dev AI"
     }
   ],
-  "generated_at": "2026-11-04T15:48:34.356098Z",
+  "generated_at": "2026-11-04T21:34:26.952141Z",
   "market": "CN",
-  "max_candidate_seq": 1930,
-  "min_candidate_seq": 1919,
+  "max_candidate_seq": 1932,
+  "min_candidate_seq": 1922,
   "shard_index": 8,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",

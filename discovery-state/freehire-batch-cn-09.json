@@ -5,50 +5,6 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:rag"
-      ],
-      "candidate_seq": 1931,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7596927316308789509",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-01-19T04:39:49Z",
-      "public_slug": "agentgong-cheng-shi-ai-codingfang-xiang-zhong-guo-jiao-yi-yu-yan-gao-bytedance-sqfbadpx",
-      "role_key": "freehire:agentgong-cheng-shi-ai-codingfang-xiang-zhong-guo-jiao-yi-yu-yan-gao-bytedance-sqfbadpx",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7596927316308789509/detail?utm_source=freehire.me",
-      "title": "Agent工程师（AI Coding方向）-中国交易与广告"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 1932,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7595441600677890309",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-01-15T04:39:14Z",
-      "public_slug": "hou-duan-kai-fa-shi-xi-sheng-dev-ai-bytedance-lohaxqfh",
-      "role_key": "freehire:hou-duan-kai-fa-shi-xi-sheng-dev-ai-bytedance-lohaxqfh",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7595441600677890309/detail?utm_source=freehire.me",
-      "title": "后端开发实习生-Dev AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
         "jd:fine_tuning"
       ],
       "candidate_seq": 1933,
@@ -179,12 +135,59 @@
       "source": "mokahr",
       "source_url": "https://app.mokahr.com/social-recruitment/moonshot/148506?utm_source=freehire.me#/job/9a3b3788-9a29-4408-9bcf-6aaeac705916",
       "title": "大模型算法工程师（数据方向）"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1942,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200611927",
+      "flags": [
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-07-25T01:04:13Z",
+      "public_slug": "aiml-sr-machine-learning-engineer-data-and-ml-innovation-apple-g6agv2qf",
+      "role_key": "freehire:aiml-sr-machine-learning-engineer-data-and-ml-innovation-apple-g6agv2qf",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200611927/aiml-sr-machine-learning-engineer-data-and-ml-innovation?utm_source=freehire.me",
+      "title": "AIML - Sr. Machine Learning Engineer - Data and ML Innovation"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 1945,
+      "company": "01.AI",
+      "employment_type": null,
+      "external_id": "01ai.jobs.feishu.cn:7523168732886812978",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-07-04T10:20:22Z",
+      "public_slug": "forward-deployed-ai-engineer-01-ai-7jmzfbnn",
+      "role_key": "freehire:forward-deployed-ai-engineer-01-ai-7jmzfbnn",
+      "source": "feishujobs",
+      "source_url": "https://01ai.jobs.feishu.cn/index/position/7523168732886812978/detail?utm_source=freehire.me",
+      "title": "Forward Deployed AI Engineer"
     }
   ],
-  "generated_at": "2026-11-04T15:48:34.356098Z",
+  "generated_at": "2026-11-04T21:34:26.952141Z",
   "market": "CN",
-  "max_candidate_seq": 1939,
-  "min_candidate_seq": 1931,
+  "max_candidate_seq": 1945,
+  "min_candidate_seq": 1933,
   "shard_index": 9,
   "source_generated_at": "2026-11-03T23:39:05.670006Z",
   "transport": "compact_metadata_byte_bounded_v1",
