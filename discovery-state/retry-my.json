@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T11:24:19+08:00",
+  "updated_at": "2026-11-04T12:17:27+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -208,6 +208,50 @@
       "company": "DXC Technology",
       "title": "Senior Python AI Engineer",
       "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Senior-Python-AI-Engineer_51580986"
+    },
+    {
+      "candidate_seq": 2641,
+      "company": "Goldbox Technologies Limited",
+      "title": "Hybrid Full-Stack Engineer – IoT, AI & Smart City",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26985308__7112",
+      "detail": "employer_quality_and_exact_jd_unverified",
+      "role_key": "freehire:seq-2641",
+      "reason_code": "verification_pending",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T14:20:00+08:00"
+    },
+    {
+      "candidate_seq": 2642,
+      "company": "Gen",
+      "title": "Machine Learning Engineer",
+      "source_url": "https://arc.dev/remote-jobs/j/gen-machine-learning-engineer-ptstbvc5av",
+      "detail": "possible_existing_gen_issue_identity_and_malaysia_location_unverified",
+      "role_key": "freehire:seq-2642",
+      "reason_code": "verification_pending",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T14:20:00+08:00"
+    },
+    {
+      "candidate_seq": 2717,
+      "company": "MaiStorage",
+      "title": "AI Engineer (Solution)",
+      "source_url": "https://my.jobstreet.com/job/95662622",
+      "detail": "suspected_known_company_title_existing_closed_issue_exact_id_not_proven",
+      "role_key": "freehire:seq-2717",
+      "reason_code": "verification_pending",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T14:20:00+08:00"
+    },
+    {
+      "candidate_seq": 2718,
+      "company": "MaiStorage",
+      "title": "AI Engineer (R&D)",
+      "source_url": "https://my.jobstreet.com/job/95661869",
+      "detail": "historical_skip_company_title_exact_id_and_current_jd_unverified",
+      "role_key": "freehire:seq-2718",
+      "reason_code": "verification_pending",
+      "attempts": 0,
+      "next_retry_at": "2026-11-04T14:20:00+08:00"
     }
   ]
 }
