@@ -1,6 +1,37 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-03T21:56:30+08:00",
-  "receipts": []
+  "updated_at": "2026-11-04T19:02:31+08:00",
+  "receipts": [
+    {
+      "candidate_seq": 238,
+      "role_key": "freehire:graduate-big-data-engineer-ai-ml-search-infra-tiktok-irgxapdm",
+      "reason_code": "source_unverifiable",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T19:02:31+08:00",
+      "company": "TikTok",
+      "title": "Graduate Big Data Engineer — AI/ML & Search Infra",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90422145__7119"
+    },
+    {
+      "candidate_seq": 243,
+      "role_key": "freehire:data-engineer-ii-ai-ml-pipelines-impact-quantumblack-ai-by-mckinsey-ots33tio",
+      "reason_code": "source_unverifiable",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T19:02:31+08:00",
+      "company": "QuantumBlack, AI by McKinsey",
+      "title": "Data Engineer II: AI/ML Pipelines & Impact",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88841792__7119"
+    },
+    {
+      "candidate_seq": 245,
+      "role_key": "freehire:ai-engineer-forward-deployed-engineer-unison-group-wzmmtf4j",
+      "reason_code": "source_unverifiable",
+      "attempts": 1,
+      "next_retry_at": "2026-11-05T19:02:31+08:00",
+      "company": "Unison Group",
+      "title": "AI Engineer - Forward Deployed Engineer",
+      "source_url": "https://apply.workable.com/j/59B9556BEF"
+    }
+  ]
 }
