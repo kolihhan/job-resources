@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T05:12:00+08:00",
+  "updated_at": "2026-11-05T05:56:56+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -142,6 +142,46 @@
       "role_key": "freehire:senior-agentic-ai-engineer-paypal-skz22kig",
       "attempts": 1,
       "next_retry_at": "2026-11-06T05:12:00+08:00"
+    },
+    {
+      "candidate_seq": 284,
+      "role_key": "freehire:senior-ai-engineer-supply-chain-retail-ai-recruitpedia-pte-ltd-eaebptni",
+      "company": "RECRUITPEDIA PTE. LTD.",
+      "title": "Senior AI Engineer (Supply Chain & Retail AI)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/8c9e6d08792de94d6fffd044e4453e47?utm_source=freehire.me",
+      "reason_code": "mcf_only_route_and_eligibility_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:00:00+08:00"
+    },
+    {
+      "candidate_seq": 285,
+      "role_key": "freehire:ai-engineer-gemini-enterprise-agent-elliott-moss-consulting-pte-ltd-ezjcfcho",
+      "company": "ELLIOTT MOSS CONSULTING PTE. LTD.",
+      "title": "AI Engineer (Gemini Enterprise Agent )",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/d0649178d780a8b60929120a35030cd0?utm_source=freehire.me",
+      "reason_code": "mcf_only_route_and_eligibility_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:00:00+08:00"
+    },
+    {
+      "candidate_seq": 286,
+      "role_key": "freehire:ai-ml-platform-engineer-production-pipelines-mlops-seatrium-sg-pte-ltd-w7qu4svs",
+      "company": "Seatrium (SG) Pte. Ltd.",
+      "title": "AI/ML Platform Engineer — Production Pipelines & MLOps",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92736210__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_source_unverifiable",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:00:00+08:00"
+    },
+    {
+      "candidate_seq": 287,
+      "role_key": "freehire:ai-engineer-scientec-consulting-pte-ltd-l4nbjuov",
+      "company": "SCIENTEC CONSULTING PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/acd50e27dd4d2b517d0f6c02324d4e16?utm_source=freehire.me",
+      "reason_code": "mcf_only_route_and_eligibility_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:00:00+08:00"
     }
   ]
 }
