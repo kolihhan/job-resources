@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-04T08:24:11+08:00",
+  "updated_at": "2026-11-04T09:16:53+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -92,6 +92,36 @@
       "company": "Luxoft Malaysia Sdn. Bhd.",
       "title": "Full-Stack Backend Engineer — AI Cloud & Apps",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26845230__7112"
+    },
+    {
+      "candidate_seq": 2530,
+      "company": "Grab",
+      "title": "Senior Data Scientist (Trust & Fraud)",
+      "source_url": "https://jobs.smartrecruiters.com/Grab/744000146439114-senior-data-scientist-trust-fraud-",
+      "role_key": "freehire:senior-data-scientist-trust-fraud-grab-sqwpiuhc",
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T10:20:00+08:00"
+    },
+    {
+      "candidate_seq": 2531,
+      "company": "Bitdeer (NASDAQ: BTDR)",
+      "title": "Senior Cloud DevOps Engineer – AI & HPC Infra",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26824609__7112",
+      "role_key": "freehire:senior-cloud-devops-engineer-ai-hpc-infra-bitdeer-nasdaq-btdr-6upusual",
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T10:20:00+08:00"
+    },
+    {
+      "candidate_seq": 2535,
+      "company": "DC2AC PTE LTD",
+      "title": "Senior Full-Stack Engineer: AWS, AI & IoT Platform",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26731600__7112",
+      "role_key": "freehire:senior-full-stack-engineer-aws-ai-iot-platform-dc2ac-pte-ltd-2yjenlnk",
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-04T10:20:00+08:00"
     }
   ]
 }
