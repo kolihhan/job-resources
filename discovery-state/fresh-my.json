@@ -2,15 +2,15 @@
   "version": 2,
   "market": "MY",
   "platform_cycle": 15,
-  "next_platform_index": 2,
-  "next_owner_bucket": 0,
-  "next_query_bucket": 2,
-  "run_counter": 36,
-  "last_completed_at": "2026-11-04T09:16:53+08:00",
+  "next_platform_index": 4,
+  "next_owner_bucket": 1,
+  "next_query_bucket": 3,
+  "run_counter": 37,
+  "last_completed_at": "2026-11-04T10:15:41+08:00",
   "last_platforms": [
-    "LinkedIn Jobs Malaysia",
-    "JobStreet Malaysia"
+    "Indeed Malaysia",
+    "Hiredly"
   ],
-  "last_owner_bucket": "MIMOS / strong university-industry research labs / other recurring destination-quality owners",
-  "last_query_bucket": "NLP / search / retrieval / evaluation / knowledge"
+  "last_owner_bucket": "Sea / Shopee / Grab",
+  "last_query_bucket": "AI backend / platform / ML engineering"
 }
