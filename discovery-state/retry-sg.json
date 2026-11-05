@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T02:57:17+08:00",
+  "updated_at": "2026-11-06T03:55:11+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -1732,6 +1732,96 @@
       "reason_code": "exact_issue_id_checked_authoritative_jd_or_final_eligibility_route_unresolved",
       "attempts": 1,
       "next_retry_at": "2026-11-06T09:00:00+08:00"
+    },
+    {
+      "candidate_seq": 530,
+      "role_key": "freehire:senior-software-engineer-mlops-epam-systems-2evhohh7",
+      "company": "EPAM Systems",
+      "title": "Senior Software Engineer (MLOps)",
+      "source_url": "https://careers.epam.com/en/vacancy/senior-software-engineer-mlops-blti9i5gclwlc6yk56a_en",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 533,
+      "role_key": "freehire:genai-security-devops-support-engineer-cloudsine-pte-ltd-tug75tfl",
+      "company": "CLOUDSINE PTE. LTD.",
+      "title": "GenAI Security DevOps & Support Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92279304__7119",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 534,
+      "role_key": "freehire:enterprise-data-scientist-lseg-bqf5gjbs",
+      "company": "LSEG",
+      "title": "Enterprise Data Scientist",
+      "source_url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/SGP-Singapore-1-Raffles-Quay/Enterprise-Data-Scientist_R0123374",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 535,
+      "role_key": "freehire:senior-data-engineer-lakehouse-genai-pipelines-r-systems-singapore-pte-limited-isxpjcff",
+      "company": "r systems (singapore) pte limited",
+      "title": "Senior Data Engineer — Lakehouse & GenAI Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92132528__7119",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 536,
+      "role_key": "freehire:ai-data-engineer-michael-page-personnel-pte-ltd-jmqlmxxe",
+      "company": "MICHAEL PAGE (PERSONNEL) PTE. LTD.",
+      "title": "AI Data Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91906001__7119",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 537,
+      "role_key": "freehire:data-scientist-ai-lab-ocbc-7hlb7h5z",
+      "company": "ocbc",
+      "title": "Data Scientist, AI Lab",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/Data-Scientist--AI-Lab_JR00011202-1",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 538,
+      "role_key": "freehire:senior-ml-engineer-data-mining-for-ecommerce-insights-tiktok-pte-ltd-b2w3xbwh",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Senior ML Engineer - Data Mining for Ecommerce Insights",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90855855__7119",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 539,
+      "role_key": "freehire:machine-learning-engineer-fpt-asia-pacific-pte-ltd-i7q4f5py",
+      "company": "FPT Asia Pacific Pte Ltd",
+      "title": "Machine Learning Engineer",
+      "source_url": "https://www.careers-page.com/fpt-asia-pacific-pte-ltd/job/Y689R4X9",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 540,
+      "role_key": "freehire:ai-safety-governance-engineer-sage-nanyang-technological-university-hp662zoh",
+      "company": "Nanyang Technological University",
+      "title": "AI Safety & Governance Engineer (SAGE)",
+      "source_url": "https://sg.jobstreet.com/job/94516149",
+      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
     }
   ]
 }
