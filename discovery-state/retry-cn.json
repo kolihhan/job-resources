@@ -346,8 +346,8 @@
       "role_key": "freehire:llm-agentgong-cheng-shi-trae-bytedance-geodaiyr",
       "candidate_seq": 1737,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T12:10:38+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T04:13:18+08:00",
       "company": "ByteDance",
       "title": "LLM Agent工程师-TRAE",
       "source_url": "https://jobs.bytedance.com/experienced/position/7572521002975119669/detail"
@@ -759,8 +759,8 @@
       "title": "点评技术-AI Agent开发工程师",
       "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4728217671",
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T18:13:08+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T04:13:18+08:00"
     },
     {
       "candidate_seq": 1829,
