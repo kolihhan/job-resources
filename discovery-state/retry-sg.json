@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T01:05:00+08:00",
+  "updated_at": "2026-11-06T01:58:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -1562,6 +1562,86 @@
       "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 499,
+      "role_key": "freehire:eg-fullstack-developer-ai-applications-ncs3-aausyoay",
+      "company": "ncs3",
+      "title": "#EG Fullstack Developer – AI Applications",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001495687--eg-fullstack-developer-ai-applications?utm_source=freehire.me",
+      "reason_code": "official_jd_read_2to4_years_ai_fullstack_workpass_and_stack_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 501,
+      "role_key": "freehire:php-software-developer-laravel-codeigniter-ai-integration-dl-ideas-pte-ltd-m2am4vb3",
+      "company": "DL Ideas Pte. Ltd.",
+      "title": "PHP Software Developer (Laravel / CodeIgniter / AI Integration)",
+      "source_url": "https://sg.jobstreet.com/job/95290541?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 503,
+      "role_key": "freehire:senior-ai-data-engineer-aryan-solutions-pte-ltd-7uxoirbz",
+      "company": "aryan solutions pte. ltd.",
+      "title": "Senior AI Data Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91908911__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 506,
+      "role_key": "freehire:senior-data-and-ai-solution-engineer-great-eastern-c6fryiyr",
+      "company": "Great Eastern",
+      "title": "Senior Data and AI Solution Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95246064?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 508,
+      "role_key": "freehire:data-scientist-ai-big-data-architect-uarrow-pte-ltd-t7ec64bc",
+      "company": "UARROW PTE. LTD.",
+      "title": "Data Scientist - AI & Big Data Architect",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92804810__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 509,
+      "role_key": "freehire:data-scientist-ai-big-data-cloud-pipelines-unisonedge-consulting-pte-ltd-7xobpdml",
+      "company": "UNISONEDGE CONSULTING PTE. LTD.",
+      "title": "Data Scientist: AI & Big Data Cloud Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93009214__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 511,
+      "role_key": "freehire:ai-driven-data-scientist-big-data-optimization-micron-semiconductor-asia-operations-pte-ltd-wbea3i6y",
+      "company": "micron semiconductor asia operations pte. ltd.",
+      "title": "AI-Driven Data Scientist: Big Data & Optimization",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91912983__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 514,
+      "role_key": "freehire:senior-data-engineer-lakehouse-ai-ready-platforms-charterhouse-partnership-kf3ar7kc",
+      "company": "Charterhouse Partnership",
+      "title": "Senior Data Engineer: Lakehouse & AI-Ready Platforms",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93114247__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:00:00+08:00"
     }
   ]
 }
