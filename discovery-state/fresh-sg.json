@@ -1,18 +1,18 @@
 {
   "version": 2,
   "market": "SG",
-  "platform_cycle": 34,
-  "next_platform_index": 4,
-  "next_owner_bucket": 3,
-  "next_query_bucket": 3,
-  "next_research_bucket": 4,
-  "run_counter": 77,
-  "last_completed_at": "2026-11-06T02:57:17+08:00",
+  "platform_cycle": 35,
+  "next_platform_index": 1,
+  "next_owner_bucket": 4,
+  "next_query_bucket": 4,
+  "next_research_bucket": 0,
+  "run_counter": 78,
+  "last_completed_at": "2026-11-06T03:55:11+08:00",
   "last_platforms": [
-    "Indeed Singapore",
-    "MyCareersFuture"
+    "recruiter / team / PI direct posts",
+    "LinkedIn Jobs Singapore"
   ],
-  "last_owner_bucket": "ByteDance / TikTok / Micron",
-  "last_query_bucket": "AI backend / platform / inference / ML systems",
-  "last_research_bucket": "SMU"
+  "last_owner_bucket": "Google / Microsoft / Apple / OpenAI",
+  "last_query_bucket": "RA / RE / Applied Scientist + LLM/NLP",
+  "last_research_bucket": "SUTD"
 }
