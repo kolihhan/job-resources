@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T15:01:40+08:00",
+  "updated_at": "2026-11-05T16:03:05+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -682,6 +682,106 @@
       "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 387,
+      "role_key": "freehire:m01-ai-engineer-fpt-software-3zhaafrq",
+      "company": "FPT Software",
+      "title": "M01 - AI Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95176722?utm_source=freehire.me",
+      "reason_code": "workpass_and_exact_employer_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 388,
+      "role_key": "freehire:ai-engineer-wafer-fab-alwayshired-and5zil7",
+      "company": "AlwaysHired",
+      "title": "AI Engineer (Wafer Fab)",
+      "source_url": "https://sg.jobstreet.com/job/95085930?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 392,
+      "role_key": "freehire:ai-data-scientist-models-pipelines-dashboards-dotco-pte-ltd-ywxjwi6w",
+      "company": "Dotco Pte. Ltd.",
+      "title": "AI Data Scientist: Models, Pipelines & Dashboards",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440089__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 393,
+      "role_key": "freehire:ai-engineer-data-analytics-specialist-vebits-ai-pte-limited-sfidp2oy",
+      "company": "VEBITS AI PTE. LIMITED",
+      "title": "AI Engineer & Data Analytics Specialist",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92376433__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 397,
+      "role_key": "freehire:forward-deployed-engineer-genai-thai-english-google-lvicbqwt",
+      "company": "Google",
+      "title": "Forward Deployed Engineer, GenAI (Thai, English)",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/81491113411519174?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 398,
+      "role_key": "freehire:machine-learning-engineer-fpt-software-pesu3pns",
+      "company": "FPT Software",
+      "title": "Machine Learning Engineer",
+      "source_url": "https://sg.jobstreet.com/job/94735797?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 399,
+      "role_key": "freehire:senior-data-scientist-computer-vision-razer-kzsljerj",
+      "company": "Razer",
+      "title": "Senior Data Scientist (Computer Vision)",
+      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/Senior-Data-Scientist--Computer-Vision-_JR2026006985?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 400,
+      "role_key": "freehire:forward-deployed-engineer-genai-mandarin-english-google-6bdqzhjv",
+      "company": "Google",
+      "title": "Forward Deployed Engineer, GenAI (Mandarin, English)",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/117606273632871110?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 401,
+      "role_key": "freehire:genai-engineer-vitol-35mwwssl",
+      "company": "vitol",
+      "title": "GenAI Engineer",
+      "source_url": "https://jobs.smartrecruiters.com/Vitol/744000148798260-genai-engineer?utm_source=freehire.me",
+      "reason_code": "workpass_and_exact_employer_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 402,
+      "role_key": "freehire:applied-machine-learning-orchestration-graduate-aml-2027-start-bytedance-3ber373y",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Orchestration Graduate (AML) - 2027 Start",
+      "source_url": "https://jobs.bytedance.com/campus/position/7676396661418428725/detail?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T16:03:05+08:00"
     }
   ]
 }
