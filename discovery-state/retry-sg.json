@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T07:56:07+08:00",
+  "updated_at": "2026-11-05T08:55:56+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -222,6 +222,66 @@
       "reason_code": "authoritative_jd_unavailable",
       "attempts": 1,
       "next_retry_at": "2026-11-06T08:00:00+08:00"
+    },
+    {
+      "candidate_seq": 308,
+      "role_key": "freehire:manufacturing-software-engineer-python-automation-ai-ml-recruit-lync-pte-ltd-5mbvvkgd",
+      "company": "RECRUIT LYNC PTE. LTD.",
+      "title": "Manufacturing Software Engineer: Python Automation & AI/ML",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91577999__7119",
+      "reason_code": "ai_work_scope_and_authoritative_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:55:56+08:00"
+    },
+    {
+      "candidate_seq": 309,
+      "role_key": "freehire:avp-ai-engineer-global-financial-market-technology-group-technology-dbs-bank-h75lnjd7",
+      "company": "DBS Bank",
+      "title": "AVP, AI Engineer, Global Financial Market Technology",
+      "source_url": "https://sg.jobstreet.com/job/95180541",
+      "reason_code": "cross_source_identity_with_WD89514_and_seniority_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:55:56+08:00"
+    },
+    {
+      "candidate_seq": 310,
+      "role_key": "freehire:avp-ai-engineer-global-financial-market-technology-group-technology-dbs-cgmtkyhd",
+      "company": "DBS Bank",
+      "title": "AVP, AI Engineer, Global Financial Market Technology",
+      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Singapore---Central/AVP--AI-Engineer--Global-Financial-Market-Technology--Group-Technology_WD89514",
+      "reason_code": "official_jd_inaccessible_and_seniority_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:55:56+08:00"
+    },
+    {
+      "candidate_seq": 313,
+      "role_key": "freehire:ai-engineer-kaplan-iyftjwj4",
+      "company": "Kaplan Singapore",
+      "title": "AI Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95113819",
+      "reason_code": "employment_term_and_workpass_feasibility_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:55:56+08:00"
+    },
+    {
+      "candidate_seq": 315,
+      "role_key": "freehire:research-fellow-computer-science-computer-engineering-electronics-engineering-ai-machine-learning-ntu-tkmm3f3q",
+      "company": "NTU",
+      "title": "Research Fellow (AI/Machine Learning)",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Science-Computer-Engineering-Electronics-Engineering-AI-Machine-Learning-_R00025948",
+      "reason_code": "mandatory_phd_and_research_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:55:56+08:00"
+    },
+    {
+      "candidate_seq": 317,
+      "role_key": "freehire:ai-data-engineer-uob-kay-hian-private-limited-k6dqoc3s",
+      "company": "UOB KAY HIAN PRIVATE LIMITED",
+      "title": "AI Data Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92683029__7119",
+      "reason_code": "suspected_existing_wait_issue_285_exact_identity_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T08:55:56+08:00"
     }
   ]
 }
