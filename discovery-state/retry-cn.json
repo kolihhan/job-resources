@@ -156,8 +156,8 @@
       "role_key": "freehire:token-foundry-ai-for-engineering-da-mo-xing-suan-fa-zhuan-jia-qwenji-chu-mo-xing-alibaba-group-vi7tfmg5",
       "candidate_seq": 1657,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-05T18:11:33+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-07T07:12:41+08:00",
       "company": "Alibaba Group",
       "title": "Token Foundry-AI for Engineering 大模型算法研究员-Qwen基础模型",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100028980001"
@@ -506,8 +506,8 @@
       "role_key": "freehire:ai-infra-agentce-shi-kai-fa-gong-cheng-shi-ji-suan-bytedance-nmf3kzdt",
       "candidate_seq": 1785,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T18:11:33+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T07:12:41+08:00",
       "company": "ByteDance",
       "title": "AI Infra Agent测试开发工程师 - 计算",
       "source_url": "https://jobs.bytedance.com/experienced/position/7698279172454156549/detail"
@@ -1291,6 +1291,56 @@
       "company": "ByteDance",
       "title": "AI Agent前端开发工程师 - Seed 产品研发",
       "source_url": "https://jobs.bytedance.com/experienced/position/7550971282021320968/detail?utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:ai-codingda-mo-xing-gong-cheng-shi-suan-fa-zhuan-jia-dev-infra-bytedance-wkherzvf",
+      "candidate_seq": 1943,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:12:41+08:00",
+      "company": "ByteDance",
+      "title": "AI Coding大模型工程师/算法专家-Dev Infra",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7530567393682016519/detail"
+    },
+    {
+      "role_key": "freehire:machine-learning-engineer-johnsonelectric-ge6hd3o7",
+      "candidate_seq": 1944,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:12:41+08:00",
+      "company": "johnsonelectric",
+      "title": "Machine Learning Engineer",
+      "source_url": "https://johnsonelectric.wd3.myworkdayjobs.com/Career_JE/job/China-Jiangmen/Machine-Learning-Engineer_R00027264"
+    },
+    {
+      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-ai-coding-jian-ying-capcut-bei-jing-shang-hai-shen-zhen-bytedance-rnyrqrjq",
+      "candidate_seq": 1947,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:12:41+08:00",
+      "company": "ByteDance",
+      "title": "大模型算法工程师（AI Coding）-剪映CapCut（北京/上海/深圳）",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7517646590229334290/detail"
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-tiktokyan-fa-bytedance-tz6ew3oa",
+      "candidate_seq": 1948,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:12:41+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师 - TikTok研发",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7517120188606482695/detail"
+    },
+    {
+      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-ai-coding-bei-jing-shang-hai-hang-zhou-bytedance-vx33stlk",
+      "candidate_seq": 1949,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:12:41+08:00",
+      "company": "ByteDance",
+      "title": "大模型算法工程师-AI Coding（北京/上海/杭州）",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7515415402173794578/detail"
     }
   ]
 }
