@@ -4,26 +4,49 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:deep_learning",
-        "jd:deep_learning"
+        "title:ai",
+        "jd:rag"
       ],
-      "candidate_seq": 1846,
-      "company": "NVIDIA",
+      "candidate_seq": 1845,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Beijing/Deep-Learning-Performance-Software-Engineer_JR2021626",
-      "flags": [
-        "visa_hint"
-      ],
+      "external_id": "jobs.bytedance.com:7667884524668160309",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China, Beijing",
+      "location": "Shanghai; Beijing",
       "market": "CN",
-      "posted_at": "2026-07-29T00:00:00Z",
-      "public_slug": "deep-learning-performance-software-engineer-nvidia-jjnk4qat",
-      "role_key": "freehire:deep-learning-performance-software-engineer-nvidia-jjnk4qat",
-      "source": "workday",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Deep-Learning-Performance-Software-Engineer_JR2021626?utm_source=freehire.me",
-      "title": "Deep Learning Performance Software Engineer"
+      "posted_at": "2026-07-29T09:48:10Z",
+      "public_slug": "agentopsping-tai-yan-fa-gong-cheng-shi-ai-platform-bytedance-mestwlzm",
+      "role_key": "freehire:agentopsping-tai-yan-fa-gong-cheng-shi-ai-platform-bytedance-mestwlzm",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667884524668160309/detail?utm_source=freehire.me",
+      "title": "AgentOps平台研发工程师 - AI Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:retrieval",
+        "jd:multimodal",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 1847,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7667578387524225333",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai; Hangzhou; Beijing",
+      "market": "CN",
+      "posted_at": "2026-07-28T14:03:34Z",
+      "public_slug": "duo-mo-tai-nei-rong-li-jie-chuang-zuo-suan-fa-gong-cheng-shi-tiktok-shop-bytedance-gc5actfe",
+      "role_key": "freehire:duo-mo-tai-nei-rong-li-jie-chuang-zuo-suan-fa-gong-cheng-shi-tiktok-shop-bytedance-gc5actfe",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667578387524225333/detail?utm_source=freehire.me",
+      "title": "多模态内容理解&创作算法工程师 - TikTok Shop"
     },
     {
       "ai_score": 5,
@@ -141,51 +164,29 @@
         "title:ai",
         "jd:rag"
       ],
-      "candidate_seq": 1854,
+      "candidate_seq": 1853,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7667055078772820229",
+      "external_id": "jobs.bytedance.com:7667086452887357749",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing; Hangzhou; Shenzhen",
+      "location": "Beijing; Shanghai; Hangzhou",
       "market": "CN",
-      "posted_at": "2026-07-27T04:16:05Z",
-      "public_slug": "ai-agentkai-fa-gong-cheng-shi-zi-jin-ye-wu-tiktok-shop-bytedance-zwdabti3",
-      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-zi-jin-ye-wu-tiktok-shop-bytedance-zwdabti3",
+      "posted_at": "2026-07-27T06:12:14Z",
+      "public_slug": "ai-agentkai-fa-gong-cheng-shi-dong-nan-ya-ye-wu-tiktok-shop-bytedance-732owkjk",
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-dong-nan-ya-ye-wu-tiktok-shop-bytedance-732owkjk",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7667055078772820229/detail?utm_source=freehire.me",
-      "title": "AI Agent开发工程师（资金业务） - TikTok Shop"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:rag"
-      ],
-      "candidate_seq": 1855,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7667053567440701701",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-07-27T04:06:59Z",
-      "public_slug": "ai-agentkai-fa-gong-cheng-shi-mei-guo-ye-wu-tiktok-shop-bytedance-hzduq4lh",
-      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-mei-guo-ye-wu-tiktok-shop-bytedance-hzduq4lh",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7667053567440701701/detail?utm_source=freehire.me",
-      "title": "AI Agent开发工程师（美国业务） - TikTok Shop"
+      "source_url": "https://jobs.bytedance.com/campus/position/7667086452887357749/detail?utm_source=freehire.me",
+      "title": "AI Agent开发工程师（东南亚业务） - TikTok Shop"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "CN",
-  "max_candidate_seq": 1855,
-  "min_candidate_seq": 1846,
+  "max_candidate_seq": 1853,
+  "min_candidate_seq": 1845,
   "shard_index": 1,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

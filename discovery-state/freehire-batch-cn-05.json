@@ -4,54 +4,6 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 1887,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7649006577206282549",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-06-08T12:53:16Z",
-      "public_slug": "ai-agentan-quan-tuan-dui-fu-ze-ren-zhi-neng-an-quan-bytedance-q2kb6zhm",
-      "role_key": "freehire:ai-agentan-quan-tuan-dui-fu-ze-ren-zhi-neng-an-quan-bytedance-q2kb6zhm",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7649006577206282549/detail?utm_source=freehire.me",
-      "title": "AI Agent安全团队负责人-智能安全"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 1888,
-      "company": "ShopBack",
-      "employment_type": null,
-      "external_id": "shopback-2:78475932-4553-48bf-95f8-8a42762159a2",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen, China",
-      "market": "CN",
-      "posted_at": "2026-06-08T12:11:27Z",
-      "public_slug": "senior-software-engineer-machine-learning-shopback-2-zxyl5xna",
-      "role_key": "freehire:senior-software-engineer-machine-learning-shopback-2-zxyl5xna",
-      "source": "lever",
-      "source_url": "https://jobs.lever.co/shopback-2/78475932-4553-48bf-95f8-8a42762159a2?utm_source=freehire.me",
-      "title": "Senior Software Engineer - Machine Learning"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
         "title:agent",
         "jd:fine_tuning"
       ],
@@ -121,79 +73,120 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:deep_learning",
+        "jd:deep_learning"
       ],
-      "candidate_seq": 1892,
-      "company": "RZR Global Inc.",
+      "candidate_seq": 1893,
+      "company": "NVIDIA",
       "employment_type": null,
-      "external_id": "rzr:4146505009",
+      "external_id": "nvidia.eightfold.ai/nvidia.com:893395294482",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing, China",
+      "location": "China, Shanghai",
       "market": "CN",
-      "posted_at": "2026-06-01T23:54:09Z",
-      "public_slug": "machine-learning-engineer-rzr-global-inc-bdrk4dah",
-      "role_key": "freehire:machine-learning-engineer-rzr-global-inc-bdrk4dah",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/rzr/jobs/4146505009?utm_source=freehire.me",
-      "title": "Machine Learning Engineer "
+      "posted_at": "2026-06-01T00:00:00Z",
+      "public_slug": "deep-learning-performance-architect-nvidia-45b4z4ax",
+      "role_key": "freehire:deep-learning-performance-architect-nvidia-45b4z4ax",
+      "source": "eightfold",
+      "source_url": "https://jobs.nvidia.com/careers/job/893395294482?utm_source=freehire.me",
+      "title": "Deep Learning Performance Architect"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:agent",
-        "jd:fine_tuning"
+        "title:deep_learning",
+        "jd:deep_learning"
       ],
-      "candidate_seq": 1894,
-      "company": "Meituan",
+      "candidate_seq": 1895,
+      "company": "NVIDIA",
       "employment_type": null,
-      "external_id": ":4517801293",
+      "external_id": "nvidia.eightfold.ai/nvidia.com:893395294498",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-05-28T00:00:00Z",
+      "public_slug": "infrastructure-software-engineer-deep-learning-libraries-nvidia-4rwlctdb",
+      "role_key": "freehire:infrastructure-software-engineer-deep-learning-libraries-nvidia-4rwlctdb",
+      "source": "eightfold",
+      "source_url": "https://jobs.nvidia.com/careers/job/893395294498?utm_source=freehire.me",
+      "title": "Infrastructure Software Engineer, Deep Learning Libraries"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:llm"
+      ],
+      "candidate_seq": 1898,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7642281747283396917",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-05-21T09:58:30Z",
+      "public_slug": "llm-agentji-chu-jia-gou-shi-xi-sheng-trae-bytedance-dcvtgdpe",
+      "role_key": "freehire:llm-agentji-chu-jia-gou-shi-xi-sheng-trae-bytedance-dcvtgdpe",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7642281747283396917/detail?utm_source=freehire.me",
+      "title": "LLM Agent基础架构实习生-TRAE"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:genai"
+      ],
+      "candidate_seq": 1899,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7642225252077029685",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Beijing",
       "market": "CN",
-      "posted_at": "2026-05-29T02:27:53Z",
-      "public_slug": "longcat-agentic-codingsuan-fa-yan-jiu-yuan-meituan-gt5fsf6t",
-      "role_key": "freehire:longcat-agentic-codingsuan-fa-yan-jiu-yuan-meituan-gt5fsf6t",
-      "source": "meituan",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4517801293&utm_source=freehire.me",
-      "title": "LongCat - Agentic Coding算法研究员"
+      "posted_at": "2026-05-21T06:19:01Z",
+      "public_slug": "yan-gao-zeng-chang-suan-fa-shi-xi-sheng-genai-bytedance-2riforba",
+      "role_key": "freehire:yan-gao-zeng-chang-suan-fa-shi-xi-sheng-genai-bytedance-2riforba",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7642225252077029685/detail?utm_source=freehire.me",
+      "title": "广告增长算法实习生-GenAI"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:pytorch",
-        "jd:tensorflow"
+        "title:ai",
+        "jd:rag"
       ],
-      "candidate_seq": 1897,
-      "company": "Meituan",
+      "candidate_seq": 1901,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": ":2669092038",
-      "flags": [],
+      "external_id": "jobs.bytedance.com:7641239818484631813",
+      "flags": [
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing",
+      "location": "Hangzhou",
       "market": "CN",
-      "posted_at": "2026-05-27T01:00:05Z",
-      "public_slug": "keetaji-zhu-aizeng-chang-suan-fa-gong-cheng-shi-meituan-qn22om66",
-      "role_key": "freehire:keetaji-zhu-aizeng-chang-suan-fa-gong-cheng-shi-meituan-qn22om66",
-      "source": "meituan",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=2669092038&utm_source=freehire.me",
-      "title": "Keeta技术-AI增长算法工程师"
+      "posted_at": "2026-05-18T14:36:09Z",
+      "public_slug": "hou-duan-zi-shen-yan-fa-gong-cheng-shi-ai-infra-zhi-pin-fang-xiang-kai-fa-zhe-fu-wu-bytedance-j66gy6jh",
+      "role_key": "freehire:hou-duan-zi-shen-yan-fa-gong-cheng-shi-ai-infra-zhi-pin-fang-xiang-kai-fa-zhe-fu-wu-bytedance-j66gy6jh",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7641239818484631813/detail?utm_source=freehire.me",
+      "title": "后端资深研发工程师（AI Infra/制品方向）-开发者服务"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "CN",
-  "max_candidate_seq": 1897,
-  "min_candidate_seq": 1887,
+  "max_candidate_seq": 1901,
+  "min_candidate_seq": 1889,
   "shard_index": 5,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

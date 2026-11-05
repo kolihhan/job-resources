@@ -1,0 +1,120 @@
+{
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2859,
+      "company": "Involve Asia Technologies Sdn Bhd",
+      "employment_type": null,
+      "external_id": "full stack developer:26989695",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-04T19:46:11Z",
+      "public_slug": "full-stack-software-engineer-end-to-end-ownership-ai-tools-involve-asia-technologies-sdn-bhd-ra4ysqgo",
+      "role_key": "freehire:full-stack-software-engineer-end-to-end-ownership-ai-tools-involve-asia-technologies-sdn-bhd-ra4ysqgo",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26989695__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Full‑Stack Software Engineer — End‑to‑End Ownership + AI Tools"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2860,
+      "company": "NMG Consulting",
+      "employment_type": null,
+      "external_id": "full stack developer:26988808",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-04T19:46:08Z",
+      "public_slug": "azure-full-stack-engineer-cloud-native-ai-driven-nmg-consulting-ajp42xif",
+      "role_key": "freehire:azure-full-stack-engineer-cloud-native-ai-driven-nmg-consulting-ajp42xif",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26988808__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Azure Full-Stack Engineer: Cloud-Native & AI-Driven"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2861,
+      "company": "Neuron Solutions Sdn. Bhd.",
+      "employment_type": "full_time",
+      "external_id": "6297:95698466",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Johor",
+      "market": "MY",
+      "posted_at": "2026-11-04T14:11:10Z",
+      "public_slug": "data-centre-ai-network-security-engineer-neuron-solutions-sdn-bhd-yjofwt4a",
+      "role_key": "freehire:data-centre-ai-network-security-engineer-neuron-solutions-sdn-bhd-yjofwt4a",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95698466?utm_source=freehire.me",
+      "title": "Data Centre AI Network & Security Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2862,
+      "company": "Gen Digital Inc.",
+      "employment_type": "full_time",
+      "external_id": "gen-digital:2f170362-7e3b-48a2-956e-1bac730a7d1d",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "MYS - Kuala Lumpur",
+      "market": "MY",
+      "posted_at": "2026-11-04T04:31:30Z",
+      "public_slug": "machine-learning-engineer-moneylion-gen-digital-inc-fz6fgzwq",
+      "role_key": "freehire:machine-learning-engineer-moneylion-gen-digital-inc-fz6fgzwq",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/gen-digital/2f170362-7e3b-48a2-956e-1bac730a7d1d?utm_source=freehire.me",
+      "title": "Machine Learning Engineer - MoneyLion"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2863,
+      "company": "Data Flows",
+      "employment_type": "full_time",
+      "external_id": "6287:95631864",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Mid Valley City, Kuala Lumpur",
+      "market": "MY",
+      "posted_at": "2026-11-02T03:27:00Z",
+      "public_slug": "software-developer-ai-driven-full-time-contract-data-flows-xhf4jxql",
+      "role_key": "freehire:software-developer-ai-driven-full-time-contract-data-flows-xhf4jxql",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95631864?utm_source=freehire.me",
+      "title": "Software Developer: AI Driven (Full Time/Contract)"
+    }
+  ],
+  "generated_at": "2026-11-05T01:51:04.091579Z",
+  "market": "MY",
+  "max_candidate_seq": 2863,
+  "min_candidate_seq": 2859,
+  "shard_index": 2,
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

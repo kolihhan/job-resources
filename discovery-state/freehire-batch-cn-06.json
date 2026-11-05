@@ -4,90 +4,27 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:llm"
+        "title:ai",
+        "jd:agent"
       ],
-      "candidate_seq": 1898,
-      "company": "ByteDance",
+      "candidate_seq": 1903,
+      "company": "Razer",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7642281747283396917",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-05-21T09:58:30Z",
-      "public_slug": "llm-agentji-chu-jia-gou-shi-xi-sheng-trae-bytedance-dcvtgdpe",
-      "role_key": "freehire:llm-agentji-chu-jia-gou-shi-xi-sheng-trae-bytedance-dcvtgdpe",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7642281747283396917/detail?utm_source=freehire.me",
-      "title": "LLM Agent基础架构实习生-TRAE"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 1899,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7642225252077029685",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-05-21T06:19:01Z",
-      "public_slug": "yan-gao-zeng-chang-suan-fa-shi-xi-sheng-genai-bytedance-2riforba",
-      "role_key": "freehire:yan-gao-zeng-chang-suan-fa-shi-xi-sheng-genai-bytedance-2riforba",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7642225252077029685/detail?utm_source=freehire.me",
-      "title": "广告增长算法实习生-GenAI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 1900,
-      "company": "Atria",
-      "employment_type": null,
-      "external_id": "atria:b29bfc20-f15a-4f57-b9cb-b3a8ee72aaf7",
+      "external_id": "razer.wd3.myworkdayjobs.com/Careers:/job/Chengdu/Senior-AI-Software-Engineer_JR2026007375-1",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China",
+      "location": "Chengdu",
       "market": "CN",
-      "posted_at": "2026-05-21T03:42:29Z",
-      "public_slug": "senior-applied-genai-video-engineer-atria-vax3n3u2",
-      "role_key": "freehire:senior-applied-genai-video-engineer-atria-vax3n3u2",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/atria/b29bfc20-f15a-4f57-b9cb-b3a8ee72aaf7?utm_source=freehire.me",
-      "title": "Senior Applied GenAI Video Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 1902,
-      "company": "Telit Cinterion",
-      "employment_type": null,
-      "external_id": "9af0fdda-7bbc-4ddf-865d-e78c9593fb3f:4169926",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Dalian, China",
-      "market": "CN",
-      "posted_at": "2026-05-14T07:54:59Z",
-      "public_slug": "edge-ai-software-engineer-telit-cinterion-t2kptr5j",
-      "role_key": "freehire:edge-ai-software-engineer-telit-cinterion-t2kptr5j",
-      "source": "paylocity",
-      "source_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4169926?utm_source=freehire.me",
-      "title": "Edge AI Software Engineer"
+      "posted_at": "2026-05-11T00:00:00Z",
+      "public_slug": "senior-ai-software-engineer-razer-7vbwvqpk",
+      "role_key": "freehire:senior-ai-software-engineer-razer-7vbwvqpk",
+      "source": "workday",
+      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Chengdu/Senior-AI-Software-Engineer_JR2026007375-1?utm_source=freehire.me",
+      "title": "Senior AI Software Engineer"
     },
     {
       "ai_score": 5,
@@ -136,6 +73,50 @@
     {
       "ai_score": 5,
       "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1906,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.eightfold.ai/nvidia.com:893394875865",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-04-24T00:00:00Z",
+      "public_slug": "machine-learning-engineer-humanoid-robotics-nvidia-acijeouj",
+      "role_key": "freehire:machine-learning-engineer-humanoid-robotics-nvidia-acijeouj",
+      "source": "eightfold",
+      "source_url": "https://jobs.nvidia.com/careers/job/893394875865?utm_source=freehire.me",
+      "title": "Machine Learning Engineer - Humanoid Robotics"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag"
+      ],
+      "candidate_seq": 1907,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7631535962104023349",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-04-22T10:59:46Z",
+      "public_slug": "ai-agentji-yi-xi-tong-gong-cheng-shi-jia-gou-shi-ji-chu-she-shi-bytedance-pgl5pnp6",
+      "role_key": "freehire:ai-agentji-yi-xi-tong-gong-cheng-shi-jia-gou-shi-ji-chu-she-shi-bytedance-pgl5pnp6",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7631535962104023349/detail?utm_source=freehire.me",
+      "title": "AI Agent记忆系统工程师/架构师-基础设施"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
         "title:genai"
       ],
       "candidate_seq": 1908,
@@ -174,14 +155,35 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/campus/position/7628878079282137349/detail?utm_source=freehire.me",
       "title": "基于投放信号反馈的Agentic视频生成闭环与应用研究-GenAI（北京/上海/杭州）"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:genai"
+      ],
+      "candidate_seq": 1910,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7628877654605236485",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-04-15T07:02:57Z",
+      "public_slug": "shi-xi-ji-yu-tou-fang-xin-hao-fan-kui-de-agenticshi-pin-sheng-cheng-bi-huan-yu-ying-yong-yan-jiu-genai-bei-jing-shang-hai-hang-zhou-bytedance-onuurxcf",
+      "role_key": "freehire:shi-xi-ji-yu-tou-fang-xin-hao-fan-kui-de-agenticshi-pin-sheng-cheng-bi-huan-yu-ying-yong-yan-jiu-genai-bei-jing-shang-hai-hang-zhou-bytedance-onuurxcf",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7628877654605236485/detail?utm_source=freehire.me",
+      "title": "【实习】基于投放信号反馈的Agentic视频生成闭环与应用研究-GenAI（北京/上海/杭州）"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "CN",
-  "max_candidate_seq": 1909,
-  "min_candidate_seq": 1898,
+  "max_candidate_seq": 1910,
+  "min_candidate_seq": 1903,
   "shard_index": 6,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

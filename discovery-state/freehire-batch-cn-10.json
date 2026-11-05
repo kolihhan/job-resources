@@ -4,6 +4,75 @@
     {
       "ai_score": 5,
       "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1941,
+      "company": "Razer",
+      "employment_type": null,
+      "external_id": "razer.wd3.myworkdayjobs.com/Careers:/job/Chengdu/Senior-Machine-Learning-Engineer_JR2025005145",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Chengdu",
+      "market": "CN",
+      "posted_at": "2025-09-10T00:00:00Z",
+      "public_slug": "senior-machine-learning-engineer-razer-hgziyj5g",
+      "role_key": "freehire:senior-machine-learning-engineer-razer-hgziyj5g",
+      "source": "workday",
+      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Chengdu/Senior-Machine-Learning-Engineer_JR2025005145?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 1943,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7530567393682016519",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2025-07-24T08:48:16Z",
+      "public_slug": "ai-codingda-mo-xing-gong-cheng-shi-suan-fa-zhuan-jia-dev-infra-bytedance-wkherzvf",
+      "role_key": "freehire:ai-codingda-mo-xing-gong-cheng-shi-suan-fa-zhuan-jia-dev-infra-bytedance-wkherzvf",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7530567393682016519/detail?utm_source=freehire.me",
+      "title": "AI Coding大模型工程师/算法专家-Dev Infra"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 1944,
+      "company": "johnsonelectric",
+      "employment_type": null,
+      "external_id": "johnsonelectric.wd3.myworkdayjobs.com/career_je:/job/China-Jiangmen/Machine-Learning-Engineer_R00027264",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Jiangmen",
+      "market": "CN",
+      "posted_at": "2025-07-08T00:00:00Z",
+      "public_slug": "machine-learning-engineer-johnsonelectric-ge6hd3o7",
+      "role_key": "freehire:machine-learning-engineer-johnsonelectric-ge6hd3o7",
+      "source": "workday",
+      "source_url": "https://johnsonelectric.wd3.myworkdayjobs.com/Career_JE/job/China-Jiangmen/Machine-Learning-Engineer_R00027264?utm_source=freehire.me",
+      "title": "Machine Learning Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
         "title:deep_learning",
         "jd:deep_learning"
       ],
@@ -22,6 +91,50 @@
       "source": "feishujobs",
       "source_url": "https://momenta.jobs.feishu.cn/index/position/7522402754289043766/detail?utm_source=freehire.me",
       "title": "Deep Learning Planning R&D Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 1947,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7517646590229334290",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-06-19T13:20:03Z",
+      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-ai-coding-jian-ying-capcut-bei-jing-shang-hai-shen-zhen-bytedance-rnyrqrjq",
+      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-ai-coding-jian-ying-capcut-bei-jing-shang-hai-shen-zhen-bytedance-rnyrqrjq",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7517646590229334290/detail?utm_source=freehire.me",
+      "title": "大模型算法工程师（AI Coding）-剪映CapCut（北京/上海/深圳）"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag"
+      ],
+      "candidate_seq": 1948,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7517120188606482695",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2025-06-18T03:15:14Z",
+      "public_slug": "ai-agentkai-fa-gong-cheng-shi-tiktokyan-fa-bytedance-tz6ew3oa",
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-tiktokyan-fa-bytedance-tz6ew3oa",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7517120188606482695/detail?utm_source=freehire.me",
+      "title": "AI Agent开发工程师 - TikTok研发"
     },
     {
       "ai_score": 5,
@@ -66,127 +179,14 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7506517987350268167/detail?utm_source=freehire.me",
       "title": "多模态大模型算法工程师-Commercial AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 1951,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7497173118583376146",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shanghai; Hangzhou",
-      "market": "CN",
-      "posted_at": "2025-04-25T09:07:48Z",
-      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-ai-coding-dou-yin-ai-bytedance-36v2traw",
-      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-ai-coding-dou-yin-ai-bytedance-36v2traw",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7497173118583376146/detail?utm_source=freehire.me",
-      "title": "大模型算法工程师（AI Coding） - 抖音AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:llm"
-      ],
-      "candidate_seq": 1953,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7475312939860478226",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2025-02-25T11:14:56Z",
-      "public_slug": "suan-fa-kai-fa-shi-xi-sheng-code-llm-tiktok-bytedance-xkj67hm6",
-      "role_key": "freehire:suan-fa-kai-fa-shi-xi-sheng-code-llm-tiktok-bytedance-xkj67hm6",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7475312939860478226/detail?utm_source=freehire.me",
-      "title": "算法开发实习生（Code LLM）-TikTok"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:rag"
-      ],
-      "candidate_seq": 1954,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7471107025285171464",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2025-02-14T03:15:11Z",
-      "public_slug": "agentopsping-tai-yan-fa-gong-cheng-shi-ai-platform-bytedance-twbitvry",
-      "role_key": "freehire:agentopsping-tai-yan-fa-gong-cheng-shi-ai-platform-bytedance-twbitvry",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7471107025285171464/detail?utm_source=freehire.me",
-      "title": "AgentOPS平台研发工程师-AI Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:rag"
-      ],
-      "candidate_seq": 1956,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7439251458647918856",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2024-11-20T06:58:48Z",
-      "public_slug": "zi-shen-da-mo-xing-suan-fa-gong-cheng-shi-yan-jiu-yuan-ai-platform-bytedance-36jtddcw",
-      "role_key": "freehire:zi-shen-da-mo-xing-suan-fa-gong-cheng-shi-yan-jiu-yuan-ai-platform-bytedance-36jtddcw",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7439251458647918856/detail?utm_source=freehire.me",
-      "title": "资深大模型算法工程师/研究员-AI Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:nlp",
-        "jd:agent"
-      ],
-      "candidate_seq": 1957,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7435902972822112520",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shanghai",
-      "market": "CN",
-      "posted_at": "2024-11-11T06:30:41Z",
-      "public_slug": "nlp-duo-mo-tai-zi-shen-suan-fa-gong-cheng-shi-yi-tu-li-jie-re-dian-wa-jue-fang-xiang-tiktok-shop-bytedance-ezwhikf6",
-      "role_key": "freehire:nlp-duo-mo-tai-zi-shen-suan-fa-gong-cheng-shi-yi-tu-li-jie-re-dian-wa-jue-fang-xiang-tiktok-shop-bytedance-ezwhikf6",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7435902972822112520/detail?utm_source=freehire.me",
-      "title": "NLP/多模态资深算法工程师（意图理解/热点挖掘方向） - TikTok Shop"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "CN",
-  "max_candidate_seq": 1957,
-  "min_candidate_seq": 1946,
+  "max_candidate_seq": 1950,
+  "min_candidate_seq": 1941,
   "shard_index": 10,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

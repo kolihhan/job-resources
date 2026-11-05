@@ -2,6 +2,49 @@
   "candidate_count": 8,
   "candidates": [
     {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 1964,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:6885587026939496712",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2020-10-20T06:34:46Z",
+      "public_slug": "ce-shi-kai-fa-gong-cheng-shi-da-mo-xing-ai-agentfang-xiang-dou-yin-bytedance-b22ug7vi",
+      "role_key": "freehire:ce-shi-kai-fa-gong-cheng-shi-da-mo-xing-ai-agentfang-xiang-dou-yin-bytedance-b22ug7vi",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/6885587026939496712/detail?utm_source=freehire.me",
+      "title": "测试开发工程师 （大模型/AI Agent方向）-抖音"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1965,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100034320001",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-02T09:00:55Z",
+      "public_slug": "qian-wen-ban-gong-ai-agentquan-zhan-kai-fa-gong-cheng-shi-hang-zhou-alibaba-group-mlxgteph",
+      "role_key": "freehire:qian-wen-ban-gong-ai-agentquan-zhan-kai-fa-gong-cheng-shi-hang-zhou-alibaba-group-mlxgteph",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100034320001&utm_source=freehire.me",
+      "title": "千问办公-AI Agent全栈开发工程师-杭州"
+    },
+    {
       "ai_score": 4,
       "ai_signals": [
         "jd:rag",
@@ -18,57 +61,12 @@
       "known_status": "unseen",
       "location": "Beijing",
       "market": "CN",
-      "posted_at": "2026-11-03T02:00:21Z",
+      "posted_at": "2026-11-04T02:00:11Z",
       "public_slug": "keetaji-zhu-da-mo-xing-suan-fa-gong-cheng-shi-zhuan-jia-meituan-o6hwz6pi",
       "role_key": "freehire:keetaji-zhu-da-mo-xing-suan-fa-gong-cheng-shi-zhuan-jia-meituan-o6hwz6pi",
       "source": "meituan",
       "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=3008237497&utm_source=freehire.me",
       "title": "Keeta技术-大模型算法工程师/专家"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:agent",
-        "jd:pytorch",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 1970,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100011840001",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-30T10:33:52Z",
-      "public_slug": "qian-wen-shi-ye-bu-qian-yan-da-mo-xing-quan-zhan-yan-jiu-yuan-bei-jing-hang-zhou-alibaba-group-nzdmlik7",
-      "role_key": "freehire:qian-wen-shi-ye-bu-qian-yan-da-mo-xing-quan-zhan-yan-jiu-yuan-bei-jing-hang-zhou-alibaba-group-nzdmlik7",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100011840001&utm_source=freehire.me",
-      "title": "千问事业部-前沿大模型全栈研究员-北京/杭州"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1971,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100018960005",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-30T09:51:11Z",
-      "public_slug": "ji-tuan-an-quan-bu-ai-qu-dong-shu-ju-fen-xi-shi-hang-zhou-alibaba-group-m37mn7zz",
-      "role_key": "freehire:ji-tuan-an-quan-bu-ai-qu-dong-shu-ju-fen-xi-shi-hang-zhou-alibaba-group-m37mn7zz",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100018960005&utm_source=freehire.me",
-      "title": "集团安全部-AI 驱动数据分析师-杭州"
     },
     {
       "ai_score": 4,
@@ -117,29 +115,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1974,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100047340001",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-29T07:43:44Z",
-      "public_slug": "a-li-yun-zhi-neng-ai-infra-gao-ji-sre-hang-zhou-alibaba-group-vlfvqwqc",
-      "role_key": "freehire:a-li-yun-zhi-neng-ai-infra-gao-ji-sre-hang-zhou-alibaba-group-vlfvqwqc",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100047340001&utm_source=freehire.me",
-      "title": "阿里云智能-AI Infra 高级 SRE-杭州"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1975,
       "company": "Schneider Electric",
       "employment_type": null,
@@ -162,34 +137,60 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "jd:llm",
-        "jd:pytorch",
-        "jd:transformer",
-        "jd:fine_tuning"
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval",
+        "jd:vector_db"
       ],
-      "candidate_seq": 1976,
-      "company": "Alibaba Group",
+      "candidate_seq": 1977,
+      "company": "Trip.com Group",
       "employment_type": null,
-      "external_id": ":100018420003",
+      "external_id": "trip/70415:dd5d4d96-9a4e-46e2-87b6-7f3d31ccf465",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-29T06:47:01Z",
-      "public_slug": "da-mo-yuan-chao-sheng-aida-mo-xing-suan-fa-zhuan-jia-ju-shen-zhi-neng-alibaba-group-xnnnbpju",
-      "role_key": "freehire:da-mo-yuan-chao-sheng-aida-mo-xing-suan-fa-zhuan-jia-ju-shen-zhi-neng-alibaba-group-xnnnbpju",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100018420003&utm_source=freehire.me",
-      "title": "达摩院-超声AI大模型算法专家-具身智能"
+      "posted_at": "2026-10-29T06:34:46Z",
+      "public_slug": "hou-duan-kai-fa-zhuan-jia-trip-com-group-zfwgjpl4",
+      "role_key": "freehire:hou-duan-kai-fa-zhuan-jia-trip-com-group-zfwgjpl4",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/dd5d4d96-9a4e-46e2-87b6-7f3d31ccf465",
+      "title": "后端开发专家（租车）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 1978,
+      "company": "Trip.com Group",
+      "employment_type": null,
+      "external_id": "trip/70415:f992e294-062c-4d88-8853-d817cbb06f7a",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-10-29T06:34:46Z",
+      "public_slug": "zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv",
+      "role_key": "freehire:zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/f992e294-062c-4d88-8853-d817cbb06f7a",
+      "title": "资深后端开发工程师（租车）"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "CN",
-  "max_candidate_seq": 1976,
-  "min_candidate_seq": 1969,
+  "max_candidate_seq": 1978,
+  "min_candidate_seq": 1964,
   "shard_index": 12,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

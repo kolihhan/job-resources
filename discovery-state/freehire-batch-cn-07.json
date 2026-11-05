@@ -6,27 +6,6 @@
       "ai_signals": [
         "title:genai"
       ],
-      "candidate_seq": 1910,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7628877654605236485",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-04-15T07:02:57Z",
-      "public_slug": "shi-xi-ji-yu-tou-fang-xin-hao-fan-kui-de-agenticshi-pin-sheng-cheng-bi-huan-yu-ying-yong-yan-jiu-genai-bei-jing-shang-hai-hang-zhou-bytedance-onuurxcf",
-      "role_key": "freehire:shi-xi-ji-yu-tou-fang-xin-hao-fan-kui-de-agenticshi-pin-sheng-cheng-bi-huan-yu-ying-yong-yan-jiu-genai-bei-jing-shang-hai-hang-zhou-bytedance-onuurxcf",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7628877654605236485/detail?utm_source=freehire.me",
-      "title": "【实习】基于投放信号反馈的Agentic视频生成闭环与应用研究-GenAI（北京/上海/杭州）"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
       "candidate_seq": 1911,
       "company": "ByteDance",
       "employment_type": null,
@@ -42,28 +21,6 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/campus/position/7628877600912329013/detail?utm_source=freehire.me",
       "title": "基于投放信号反馈的Agentic视频生成闭环与应用研究-GenAI（北京）"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 1913,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7628154377077344565",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen",
-      "market": "CN",
-      "posted_at": "2026-04-13T08:16:00Z",
-      "public_slug": "ai-agentkai-fa-gong-cheng-shi-shen-zhen-dou-yin-yong-hu-chan-pin-bytedance-6y2msxm3",
-      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-shen-zhen-dou-yin-yong-hu-chan-pin-bytedance-6y2msxm3",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7628154377077344565/detail?utm_source=freehire.me",
-      "title": "AI Agent开发工程师（深圳） - 抖音用户产品"
     },
     {
       "ai_score": 5,
@@ -86,6 +43,28 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/campus/position/7628081438860495157/detail?utm_source=freehire.me",
       "title": "AI Agent开发实习生-抖音研发"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag"
+      ],
+      "candidate_seq": 1915,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7627065258499082549",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai; Shenzhen; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-04-10T09:49:46Z",
+      "public_slug": "ai-codingfu-wu-duan-gong-cheng-shi-zi-jie-yun-aisuan-li-ji-chu-she-shi-bytedance-wtfcequy",
+      "role_key": "freehire:ai-codingfu-wu-duan-gong-cheng-shi-zi-jie-yun-aisuan-li-ji-chu-she-shi-bytedance-wtfcequy",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7627065258499082549/detail?utm_source=freehire.me",
+      "title": "AI Coding服务端工程师（字节云） - AI算力基础设施"
     },
     {
       "ai_score": 5,
@@ -157,6 +136,27 @@
       "ai_signals": [
         "title:llm"
       ],
+      "candidate_seq": 1920,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7618973543171098885",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-03-19T14:28:54Z",
+      "public_slug": "llm-vlmda-mo-xing-tui-li-suan-zi-kuang-jia-you-hua-zhuan-jia-data-aml-bytedance-6agnzcxz",
+      "role_key": "freehire:llm-vlmda-mo-xing-tui-li-suan-zi-kuang-jia-you-hua-zhuan-jia-data-aml-bytedance-6agnzcxz",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7618973543171098885/detail?utm_source=freehire.me",
+      "title": "LLM/VLM大模型推理算子/框架优化专家 - Data AML"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:llm"
+      ],
       "candidate_seq": 1921,
       "company": "Moonshot AI",
       "employment_type": null,
@@ -174,12 +174,12 @@
       "title": "系统工程师-LLM 推理系统"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "CN",
   "max_candidate_seq": 1921,
-  "min_candidate_seq": 1910,
+  "min_candidate_seq": 1911,
   "shard_index": 7,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

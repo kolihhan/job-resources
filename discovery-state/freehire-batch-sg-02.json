@@ -5,138 +5,85 @@
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:agent"
+        "title:data_science",
+        "jd:machine_learning",
+        "jd:model_training"
       ],
-      "candidate_seq": 292,
+      "candidate_seq": 336,
+      "company": "cygnify",
+      "employment_type": null,
+      "external_id": "cygnify:913e503d-07b4-4f67-8435-36d9a9b6dff1",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-24T03:14:39Z",
+      "public_slug": "data-scientist-ai-fintech-cygnify-v3434gwx",
+      "role_key": "freehire:data-scientist-ai-fintech-cygnify-v3434gwx",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cygnify/913e503d-07b4-4f67-8435-36d9a9b6dff1?utm_source=freehire.me",
+      "title": "Data Scientist – AI Fintech"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:ml"
+      ],
+      "candidate_seq": 337,
+      "company": "Nestria",
+      "employment_type": null,
+      "external_id": "6290:93250277",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-10T06:43:23Z",
+      "public_slug": "applied-ml-ai-engineer-nestria-ntaioeuz",
+      "role_key": "freehire:applied-ml-ai-engineer-nestria-ntaioeuz",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/93250277?utm_source=freehire.me",
+      "title": "Applied ML / AI Engineer"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning",
+        "jd:pytorch",
+        "jd:tensorflow",
+        "jd:model_training"
+      ],
+      "candidate_seq": 338,
       "company": "ncs3",
       "employment_type": null,
-      "external_id": "ncs3:6000000001497996",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
+      "external_id": "ncs3:6000000001174513",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, sg",
       "market": "SG",
-      "posted_at": "2026-10-19T01:29:56Z",
-      "public_slug": "eg-presales-consultant-cloud-agentic-ai-ncs3-bky3l3cm",
-      "role_key": "freehire:eg-presales-consultant-cloud-agentic-ai-ncs3-bky3l3cm",
+      "posted_at": "2026-06-23T03:05:06Z",
+      "public_slug": "eg-machine-learning-engineer-ncs3-or23y57z",
+      "role_key": "freehire:eg-machine-learning-engineer-ncs3-or23y57z",
       "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001497996--eg-presales-consultant-cloud-agentic-ai-?utm_source=freehire.me",
-      "title": "#EG Presales Consultant (Cloud, Agentic AI)"
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001174513--eg-machine-learning-engineer?utm_source=freehire.me",
+      "title": "#EG Machine Learning Engineer"
     },
     {
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "title:agent"
+        "title:ml"
       ],
-      "candidate_seq": 293,
-      "company": "NCS Group",
-      "employment_type": null,
-      "external_id": "6297:95350695",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T01:29:56Z",
-      "public_slug": "eg-presales-consultant-cloud-agentic-ai-ncs-group-hqxlvkuh",
-      "role_key": "freehire:eg-presales-consultant-cloud-agentic-ai-ncs-group-hqxlvkuh",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95350695?utm_source=freehire.me",
-      "title": "#EG Presales Consultant (Cloud, Agentic AI)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 294,
-      "company": "TALENTVIS SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":ac322715a6cb7bf00c8fdfdbfaed9ab3",
-      "flags": [
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T00:00:00Z",
-      "public_slug": "chief-technology-officer-enterprise-ai-solutions-company-talentvis-singapore-pte-ltd-6koa4shl",
-      "role_key": "freehire:chief-technology-officer-enterprise-ai-solutions-company-talentvis-singapore-pte-ltd-6koa4shl",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/ac322715a6cb7bf00c8fdfdbfaed9ab3?utm_source=freehire.me",
-      "title": "Chief Technology Officer (Enterprise AI solutions company)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai",
-        "jd:agent",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 296,
-      "company": "Google",
-      "employment_type": null,
-      "external_id": ":83825176881308358",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:41:52Z",
-      "public_slug": "genai-forward-deployed-engineer-google-cloud-english-korean-google-nw2c6zpf",
-      "role_key": "freehire:genai-forward-deployed-engineer-google-cloud-english-korean-google-nw2c6zpf",
-      "source": "google",
-      "source_url": "https://www.google.com/about/careers/applications/jobs/results/83825176881308358?utm_source=freehire.me",
-      "title": "GenAI Forward Deployed Engineer, Google Cloud (English, Korean)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:research",
-        "jd:machine_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 297,
-      "company": "Google",
-      "employment_type": null,
-      "external_id": ":133255371375420102",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T12:39:31Z",
-      "public_slug": "research-scientist-ai-safety-and-security-google-75thqhk4",
-      "role_key": "freehire:research-scientist-ai-safety-and-security-google-75thqhk4",
-      "source": "google",
-      "source_url": "https://www.google.com/about/careers/applications/jobs/results/133255371375420102?utm_source=freehire.me",
-      "title": "Research Scientist, AI Safety and Security"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:research",
-        "jd:machine_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 298,
-      "company": "Google",
-      "employment_type": null,
-      "external_id": ":139663771818697414",
+      "candidate_seq": 339,
+      "company": "Finite State",
+      "employment_type": "full_time",
+      "external_id": "finitestate:6020077004",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -145,72 +92,115 @@
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-16T11:39:03Z",
-      "public_slug": "senior-research-scientist-ai-safety-and-security-google-nadd3fvx",
-      "role_key": "freehire:senior-research-scientist-ai-safety-and-security-google-nadd3fvx",
-      "source": "google",
-      "source_url": "https://www.google.com/about/careers/applications/jobs/results/139663771818697414?utm_source=freehire.me",
-      "title": "Senior Research Scientist, AI Safety and Security"
+      "posted_at": "2026-06-11T15:23:12Z",
+      "public_slug": "senior-qa-engineer-ai-ml-finite-state-iysb57tu",
+      "role_key": "freehire:senior-qa-engineer-ai-ml-finite-state-iysb57tu",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/finitestate/jobs/6020077004?utm_source=freehire.me",
+      "title": "Senior QA Engineer - AI/ML"
     },
     {
       "ai_score": 8,
       "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:genai",
-        "jd:machine_learning",
-        "jd:rag"
+        "title:agent"
       ],
-      "candidate_seq": 299,
-      "company": "YOKOGAWA ENGINEERING ASIA PTE LTD",
+      "candidate_seq": 340,
+      "company": "TikTok",
       "employment_type": null,
-      "external_id": ":cc9203206241e223d0873a4c1a275abc",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T00:00:00Z",
-      "public_slug": "ai-solution-engineer-asset-management-reliability-yokogawa-engineering-asia-pte-ltd-us3fblr6",
-      "role_key": "freehire:ai-solution-engineer-asset-management-reliability-yokogawa-engineering-asia-pte-ltd-us3fblr6",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/cc9203206241e223d0873a4c1a275abc?utm_source=freehire.me",
-      "title": "AI Solution Engineer (Asset Management & Reliability)"
-    },
-    {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 301,
-      "company": "AvePoint",
-      "employment_type": null,
-      "external_id": "avepoint:8029829",
+      "external_id": "6290:91295557",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T18:04:43Z",
-      "public_slug": "ai-engineer-managed-services-avepoint-v2rf7lnz",
-      "role_key": "freehire:ai-engineer-managed-services-avepoint-v2rf7lnz",
-      "source": "greenhouse",
-      "source_url": "https://www.avepoint.com/careers/job-detail?gh_jid=8029829&utm_source=freehire.me",
-      "title": "AI Engineer (Managed Services)"
+      "posted_at": "2026-04-01T22:32:04Z",
+      "public_slug": "ai-agent-engineer-tiktok-live-singapore-tiktok-ydcmboln",
+      "role_key": "freehire:ai-agent-engineer-tiktok-live-singapore-tiktok-ydcmboln",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/91295557?utm_source=freehire.me",
+      "title": "AI Agent Engineer - TikTok LIVE (Singapore)"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:ml"
+      ],
+      "candidate_seq": 341,
+      "company": "jpmc-dev9.fa.oraclecloud.com/CX",
+      "employment_type": null,
+      "external_id": "jpmc-dev9.fa.oraclecloud.com/CX:210731274",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-04-01T00:00:00Z",
+      "public_slug": "ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-epomuqoi",
+      "role_key": "freehire:ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-epomuqoi",
+      "source": "oracle",
+      "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731274?utm_source=freehire.me",
+      "title": "AI/ML Capabilities – Associate, APAC Chief & Data Analytics Office"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:ml"
+      ],
+      "candidate_seq": 342,
+      "company": "jpmc-dev9.fa.oraclecloud.com/CX",
+      "employment_type": null,
+      "external_id": "jpmc-dev9.fa.oraclecloud.com/CX:210731292",
+      "flags": [
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-04-01T00:00:00Z",
+      "public_slug": "ai-ml-solutions-enablement-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-hhxjhfmk",
+      "role_key": "freehire:ai-ml-solutions-enablement-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-hhxjhfmk",
+      "source": "oracle",
+      "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731292?utm_source=freehire.me",
+      "title": "AI/ML Solutions Enablement – Associate, APAC Chief & Data Analytics Office"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "title:ml"
+      ],
+      "candidate_seq": 343,
+      "company": "JPMC",
+      "employment_type": null,
+      "external_id": "jpmc-dev1.fa.oraclecloud.com/CX:210731274",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-04-01T00:00:00Z",
+      "public_slug": "ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev1-fa-oraclecloud-com-cx-73byzcny",
+      "role_key": "freehire:ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev1-fa-oraclecloud-com-cx-73byzcny",
+      "source": "oracle",
+      "source_url": "https://jpmc-dev1.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731274?utm_source=freehire.me",
+      "title": "AI/ML Capabilities – Associate, APAC Chief & Data Analytics Office"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "SG",
-  "max_candidate_seq": 301,
-  "min_candidate_seq": 292,
+  "max_candidate_seq": 343,
+  "min_candidate_seq": 336,
   "shard_index": 2,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

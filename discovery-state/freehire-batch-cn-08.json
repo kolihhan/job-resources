@@ -92,27 +92,49 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "jd:llm",
-        "jd:pytorch",
-        "jd:tensorflow",
-        "jd:transformer",
-        "jd:fine_tuning"
+        "title:ai",
+        "jd:agent"
       ],
-      "candidate_seq": 1926,
-      "company": "01.AI",
+      "candidate_seq": 1927,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": "01ai.jobs.feishu.cn:7599882714242287914",
+      "external_id": "jobs.bytedance.com:7599598898747656453",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing",
+      "location": "Shenzhen",
       "market": "CN",
-      "posted_at": "2026-01-27T03:51:24Z",
-      "public_slug": "zhi-shi-suan-fa-gong-cheng-shi-ben-ti-lun-she-ji-zhi-shi-tu-pu-gou-jian-fang-xiang-01-ai-acyov6ht",
-      "role_key": "freehire:zhi-shi-suan-fa-gong-cheng-shi-ben-ti-lun-she-ji-zhi-shi-tu-pu-gou-jian-fang-xiang-01-ai-acyov6ht",
+      "posted_at": "2026-01-26T09:25:21Z",
+      "public_slug": "agentsuan-fa-gong-cheng-shi-ai-platform-bytedance-y2sc2as5",
+      "role_key": "freehire:agentsuan-fa-gong-cheng-shi-ai-platform-bytedance-y2sc2as5",
       "source": "feishujobs",
-      "source_url": "https://01ai.jobs.feishu.cn/index/position/7599882714242287914/detail?utm_source=freehire.me",
-      "title": "知识算法工程师（本体论设计、知识图谱构建方向）"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7599598898747656453/detail?utm_source=freehire.me",
+      "title": "Agent算法工程师-AI Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1928,
+      "company": "Razer",
+      "employment_type": null,
+      "external_id": "razer.wd3.myworkdayjobs.com/Careers:/job/Chengdu/Senior-Machine-Learning-Engineer_JR2025005657",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Chengdu",
+      "market": "CN",
+      "posted_at": "2026-01-26T00:00:00Z",
+      "public_slug": "senior-machine-learning-engineer-razer-t2i5ymcw",
+      "role_key": "freehire:senior-machine-learning-engineer-razer-t2i5ymcw",
+      "source": "workday",
+      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Chengdu/Senior-Machine-Learning-Engineer_JR2025005657?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
     },
     {
       "ai_score": 5,
@@ -179,36 +201,14 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7596927316308789509/detail?utm_source=freehire.me",
       "title": "Agent工程师（AI Coding方向）-中国交易与广告"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 1932,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7595441600677890309",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-01-15T04:39:14Z",
-      "public_slug": "hou-duan-kai-fa-shi-xi-sheng-dev-ai-bytedance-lohaxqfh",
-      "role_key": "freehire:hou-duan-kai-fa-shi-xi-sheng-dev-ai-bytedance-lohaxqfh",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7595441600677890309/detail?utm_source=freehire.me",
-      "title": "后端开发实习生-Dev AI"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "CN",
-  "max_candidate_seq": 1932,
+  "max_candidate_seq": 1931,
   "min_candidate_seq": 1922,
   "shard_index": 8,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

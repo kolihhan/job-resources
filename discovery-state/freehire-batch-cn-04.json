@@ -7,21 +7,45 @@
         "title:ai",
         "jd:rag"
       ],
-      "candidate_seq": 1877,
+      "candidate_seq": 1876,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7656745923674229045",
+      "external_id": "jobs.bytedance.com:7656746281671330053",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing",
+      "location": "Hangzhou",
       "market": "CN",
-      "posted_at": "2026-06-29T09:27:06Z",
-      "public_slug": "ai-agentquan-zhan-gong-cheng-shi-xi-sheng-zhong-guo-jiao-yi-yu-yan-gao-bytedance-4ueb5wlp",
-      "role_key": "freehire:ai-agentquan-zhan-gong-cheng-shi-xi-sheng-zhong-guo-jiao-yi-yu-yan-gao-bytedance-4ueb5wlp",
+      "posted_at": "2026-06-29T09:28:19Z",
+      "public_slug": "ai-agentquan-zhan-gong-cheng-shi-shi-xi-sheng-zhong-guo-jiao-yi-yu-yan-gao-bytedance-wj7hr7hz",
+      "role_key": "freehire:ai-agentquan-zhan-gong-cheng-shi-shi-xi-sheng-zhong-guo-jiao-yi-yu-yan-gao-bytedance-wj7hr7hz",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7656745923674229045/detail?utm_source=freehire.me",
-      "title": "AI Agent全栈工程实习生-中国交易与广告"
+      "source_url": "https://jobs.bytedance.com/campus/position/7656746281671330053/detail?utm_source=freehire.me",
+      "title": "AI Agent全栈工程师实习生-中国交易与广告"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:deep_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 1878,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.eightfold.ai/nvidia.com:893395999542",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-06-29T00:00:00Z",
+      "public_slug": "deep-learning-compiler-ci-infrastructure-engineer-nvidia-ukycc75v",
+      "role_key": "freehire:deep-learning-compiler-ci-infrastructure-engineer-nvidia-ukycc75v",
+      "source": "eightfold",
+      "source_url": "https://jobs.nvidia.com/careers/job/893395999542?utm_source=freehire.me",
+      "title": "Deep Learning Compiler CI/Infrastructure Engineer"
     },
     {
       "ai_score": 5,
@@ -66,31 +90,6 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7655227690361964853/detail?utm_source=freehire.me",
       "title": "后端开发工程师（AI Agent方向） - 安全与风控"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "jd:llm",
-        "jd:rag",
-        "jd:pytorch",
-        "jd:tensorflow",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 1882,
-      "company": "回响科技",
-      "employment_type": null,
-      "external_id": "echotech.jobs.feishu.cn:7652258167313811750",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-06-17T07:15:52Z",
-      "public_slug": "aisuan-fa-gong-cheng-hui-xiang-ke-ji-pjl3qo3g",
-      "role_key": "freehire:aisuan-fa-gong-cheng-hui-xiang-ke-ji-pjl3qo3g",
-      "source": "feishujobs",
-      "source_url": "https://echotech.jobs.feishu.cn/index/position/7652258167313811750/detail?utm_source=freehire.me",
-      "title": "ai算法工程"
     },
     {
       "ai_score": 5,
@@ -163,32 +162,36 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ml",
+        "jd:machine_learning"
       ],
-      "candidate_seq": 1886,
-      "company": "ByteDance",
+      "candidate_seq": 1888,
+      "company": "ShopBack",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7649007032946821429",
-      "flags": [],
+      "external_id": "shopback-2:78475932-4553-48bf-95f8-8a42762159a2",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing",
+      "location": "Shenzhen, China",
       "market": "CN",
-      "posted_at": "2026-06-08T12:56:34Z",
-      "public_slug": "ai-agentan-quan-gong-cheng-shi-zhuan-jia-zhi-neng-an-quan-bytedance-4yqicihm",
-      "role_key": "freehire:ai-agentan-quan-gong-cheng-shi-zhuan-jia-zhi-neng-an-quan-bytedance-4yqicihm",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7649007032946821429/detail?utm_source=freehire.me",
-      "title": "AI Agent安全工程师/专家-智能安全"
+      "posted_at": "2026-06-08T12:11:27Z",
+      "public_slug": "senior-software-engineer-machine-learning-shopback-2-zxyl5xna",
+      "role_key": "freehire:senior-software-engineer-machine-learning-shopback-2-zxyl5xna",
+      "source": "lever",
+      "source_url": "https://jobs.lever.co/shopback-2/78475932-4553-48bf-95f8-8a42762159a2?utm_source=freehire.me",
+      "title": "Senior Software Engineer - Machine Learning"
     }
   ],
-  "generated_at": "2026-11-04T21:34:26.952141Z",
+  "generated_at": "2026-11-05T01:51:04.091579Z",
   "market": "CN",
-  "max_candidate_seq": 1886,
-  "min_candidate_seq": 1877,
+  "max_candidate_seq": 1888,
+  "min_candidate_seq": 1876,
   "shard_index": 4,
-  "source_generated_at": "2026-11-03T23:39:05.670006Z",
+  "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }
