@@ -1,201 +1,210 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:llm"
       ],
-      "candidate_seq": 1869,
-      "company": "ShopBack",
+      "candidate_seq": 1920,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": "shopback-2:ba45be9d-a04b-43db-90c6-cf56c5181cc3",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint",
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen, China",
-      "market": "CN",
-      "posted_at": "2026-07-21T03:25:11Z",
-      "public_slug": "senior-machine-learning-engineer-shopback-2-665fkkbx",
-      "role_key": "freehire:senior-machine-learning-engineer-shopback-2-665fkkbx",
-      "source": "lever",
-      "source_url": "https://jobs.lever.co/shopback-2/ba45be9d-a04b-43db-90c6-cf56c5181cc3?utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "jd:llm",
-        "jd:nlp",
-        "jd:pytorch",
-        "jd:transformer",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 1870,
-      "company": "SHEIN",
-      "employment_type": null,
-      "external_id": "shein/2933:ac799c5d-9e05-4d62-8fdd-2a50d0cf0617",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai; Nanjing",
-      "market": "CN",
-      "posted_at": "2026-07-20T16:00:00Z",
-      "public_slug": "zi-shen-suan-fa-gong-cheng-shi-zhuan-jia-nlpzhi-neng-ke-fu-shang-hai-nan-jing-shein-gqachwmz",
-      "role_key": "freehire:zi-shen-suan-fa-gong-cheng-shi-zhuan-jia-nlpzhi-neng-ke-fu-shang-hai-nan-jing-shein-gqachwmz",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/shein/2933?utm_source=freehire.me#/job/ac799c5d-9e05-4d62-8fdd-2a50d0cf0617",
-      "title": "资深算法工程师/专家（NLP智能客服）-上海南京"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 1871,
-      "company": "Ultralytics",
-      "employment_type": "full_time",
-      "external_id": "ultralytics:b25d91d2-6fbb-4d4d-bfd1-0111f0195c7b",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen",
-      "market": "CN",
-      "posted_at": "2026-07-14T08:03:39Z",
-      "public_slug": "ml-engineer-ultralytics-bqjgmvbg",
-      "role_key": "freehire:ml-engineer-ultralytics-bqjgmvbg",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/ultralytics/b25d91d2-6fbb-4d4d-bfd1-0111f0195c7b?utm_source=freehire.me",
-      "title": "ML Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:deep_learning",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 1872,
-      "company": "NVIDIA",
-      "employment_type": null,
-      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Deep-Learning-Kernel-Software-Performance-Architect_JR2020693-1",
+      "external_id": "jobs.bytedance.com:7618973543171098885",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China, Shanghai",
+      "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-07-09T00:00:00Z",
-      "public_slug": "deep-learning-kernel-software-performance-architect-nvidia-4li3h7kw",
-      "role_key": "freehire:deep-learning-kernel-software-performance-architect-nvidia-4li3h7kw",
-      "source": "workday",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Kernel-Software-Performance-Architect_JR2020693-1?utm_source=freehire.me",
-      "title": "Deep Learning Kernel Software Performance Architect"
+      "posted_at": "2026-03-19T14:28:54Z",
+      "public_slug": "llm-vlmda-mo-xing-tui-li-suan-zi-kuang-jia-you-hua-zhuan-jia-data-aml-bytedance-6agnzcxz",
+      "role_key": "freehire:llm-vlmda-mo-xing-tui-li-suan-zi-kuang-jia-you-hua-zhuan-jia-data-aml-bytedance-6agnzcxz",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7618973543171098885/detail?utm_source=freehire.me",
+      "title": "LLM/VLM大模型推理算子/框架优化专家 - Data AML"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:rag"
+        "title:llm"
       ],
-      "candidate_seq": 1875,
-      "company": "ByteDance",
+      "candidate_seq": 1921,
+      "company": "Moonshot AI",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7657831065828870405",
+      "external_id": "moonshot/148506:f5ec07aa-a252-4519-9cb0-3256e7dd5461",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Beijing",
       "market": "CN",
-      "posted_at": "2026-07-02T07:36:22Z",
-      "public_slug": "ai-agentkai-fa-gong-cheng-shi-ben-di-sheng-huo-fang-xiang-tiktoksheng-huo-fu-wu-bytedance-hvi2366g",
-      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-ben-di-sheng-huo-fang-xiang-tiktoksheng-huo-fu-wu-bytedance-hvi2366g",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7657831065828870405/detail?utm_source=freehire.me",
-      "title": "AI Agent开发工程师（本地生活方向）-TikTok生活服务"
+      "posted_at": "2026-01-29T16:00:00Z",
+      "public_slug": "xi-tong-gong-cheng-shi-llm-tui-li-xi-tong-moonshot-ai-uqcdgbgf",
+      "role_key": "freehire:xi-tong-gong-cheng-shi-llm-tui-li-xi-tong-moonshot-ai-uqcdgbgf",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/moonshot/148506?utm_source=freehire.me#/job/f5ec07aa-a252-4519-9cb0-3256e7dd5461",
+      "title": "系统工程师-LLM 推理系统"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:rag"
+        "jd:agent"
       ],
-      "candidate_seq": 1876,
+      "candidate_seq": 1922,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7656746281671330053",
+      "external_id": "jobs.bytedance.com:7600764543892031749",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-06-29T09:28:19Z",
-      "public_slug": "ai-agentquan-zhan-gong-cheng-shi-shi-xi-sheng-zhong-guo-jiao-yi-yu-yan-gao-bytedance-wj7hr7hz",
-      "role_key": "freehire:ai-agentquan-zhan-gong-cheng-shi-shi-xi-sheng-zhong-guo-jiao-yi-yu-yan-gao-bytedance-wj7hr7hz",
+      "posted_at": "2026-01-29T12:48:25Z",
+      "public_slug": "ai-agentkai-fa-shi-xi-sheng-ji-suan-bytedance-ovvrt2dc",
+      "role_key": "freehire:ai-agentkai-fa-shi-xi-sheng-ji-suan-bytedance-ovvrt2dc",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7656746281671330053/detail?utm_source=freehire.me",
-      "title": "AI Agent全栈工程师实习生-中国交易与广告"
+      "source_url": "https://jobs.bytedance.com/campus/position/7600764543892031749/detail?utm_source=freehire.me",
+      "title": "AI Agent开发实习生-计算"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:deep_learning",
-        "jd:deep_learning"
+        "title:ai",
+        "jd:nlp"
       ],
-      "candidate_seq": 1878,
-      "company": "NVIDIA",
+      "candidate_seq": 1923,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": "nvidia.eightfold.ai/nvidia.com:893395999542",
+      "external_id": "jobs.bytedance.com:7600400589659654453",
       "flags": [
-        "experience_5_plus_hint"
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China, Shanghai",
+      "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-06-29T00:00:00Z",
-      "public_slug": "deep-learning-compiler-ci-infrastructure-engineer-nvidia-ukycc75v",
-      "role_key": "freehire:deep-learning-compiler-ci-infrastructure-engineer-nvidia-ukycc75v",
-      "source": "eightfold",
-      "source_url": "https://jobs.nvidia.com/careers/job/893395999542?utm_source=freehire.me",
-      "title": "Deep Learning Compiler CI/Infrastructure Engineer"
+      "posted_at": "2026-01-28T13:16:41Z",
+      "public_slug": "gao-ji-zi-shen-duo-mo-tai-da-mo-xing-suan-fa-gong-cheng-shi-commercial-ai-bytedance-tp5g2a44",
+      "role_key": "freehire:gao-ji-zi-shen-duo-mo-tai-da-mo-xing-suan-fa-gong-cheng-shi-commercial-ai-bytedance-tp5g2a44",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7600400589659654453/detail?utm_source=freehire.me",
+      "title": "高级/资深多模态大模型算法工程师-Commercial AI"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:agent",
-        "jd:fine_tuning"
+        "title:genai"
       ],
-      "candidate_seq": 1879,
-      "company": "Meituan",
+      "candidate_seq": 1924,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": ":4592968243",
+      "external_id": "jobs.bytedance.com:7600278149267622197",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing; Shanghai",
+      "location": "Beijing",
       "market": "CN",
-      "posted_at": "2026-06-26T12:09:41Z",
-      "public_slug": "longcatshi-xi-agentic-codingsuan-fa-yan-jiu-yuan-meituan-rw6v4six",
-      "role_key": "freehire:longcatshi-xi-agentic-codingsuan-fa-yan-jiu-yuan-meituan-rw6v4six",
-      "source": "meituan",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4592968243&utm_source=freehire.me",
-      "title": "【LongCat实习】Agentic Coding算法研究员"
+      "posted_at": "2026-01-28T05:22:38Z",
+      "public_slug": "duo-mo-tai-mo-xing-shi-xi-sheng-genai-bytedance-so53izwq",
+      "role_key": "freehire:duo-mo-tai-mo-xing-shi-xi-sheng-genai-bytedance-so53izwq",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7600278149267622197/detail?utm_source=freehire.me",
+      "title": "多模态模型实习生-GenAI"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:llm"
+      ],
+      "candidate_seq": 1925,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7599921873673079093",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-01-27T06:19:13Z",
+      "public_slug": "llm-agentsshi-xi-sheng-tiktok-aichuang-xin-zhong-xin-bytedance-o7wfp72e",
+      "role_key": "freehire:llm-agentsshi-xi-sheng-tiktok-aichuang-xin-zhong-xin-bytedance-o7wfp72e",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7599921873673079093/detail?utm_source=freehire.me",
+      "title": "LLM Agents实习生-TikTok AI创新中心"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 1927,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7599598898747656453",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-01-26T09:25:21Z",
+      "public_slug": "agentsuan-fa-gong-cheng-shi-ai-platform-bytedance-y2sc2as5",
+      "role_key": "freehire:agentsuan-fa-gong-cheng-shi-ai-platform-bytedance-y2sc2as5",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7599598898747656453/detail?utm_source=freehire.me",
+      "title": "Agent算法工程师-AI Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 1928,
+      "company": "Razer",
+      "employment_type": null,
+      "external_id": "razer.wd3.myworkdayjobs.com/Careers:/job/Chengdu/Senior-Machine-Learning-Engineer_JR2025005657",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Chengdu",
+      "market": "CN",
+      "posted_at": "2026-01-26T00:00:00Z",
+      "public_slug": "senior-machine-learning-engineer-razer-t2i5ymcw",
+      "role_key": "freehire:senior-machine-learning-engineer-razer-t2i5ymcw",
+      "source": "workday",
+      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Chengdu/Senior-Machine-Learning-Engineer_JR2025005657?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:nlp"
+      ],
+      "candidate_seq": 1929,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7597372495176714549",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-01-20T09:26:23Z",
+      "public_slug": "duo-mo-tai-da-mo-xing-suan-fa-zhuan-jia-commercial-ai-bytedance-ra5ozu42",
+      "role_key": "freehire:duo-mo-tai-da-mo-xing-suan-fa-zhuan-jia-commercial-ai-bytedance-ra5ozu42",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7597372495176714549/detail?utm_source=freehire.me",
+      "title": "多模态大模型算法专家-Commercial AI"
     }
   ],
-  "generated_at": "2026-11-05T08:36:07.058202Z",
+  "generated_at": "2026-11-05T16:53:18.599071Z",
   "market": "CN",
-  "max_candidate_seq": 1879,
-  "min_candidate_seq": 1869,
+  "max_candidate_seq": 1929,
+  "min_candidate_seq": 1920,
   "shard_index": 2,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

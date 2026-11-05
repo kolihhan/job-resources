@@ -6,147 +6,92 @@
       "ai_signals": [
         "title:ai",
         "jd:llm",
-        "jd:fine_tuning"
+        "jd:genai"
       ],
-      "candidate_seq": 450,
-      "company": "XFUSION INTERNATIONAL PTE. LTD.",
+      "candidate_seq": 541,
+      "company": "Ntu",
       "employment_type": null,
-      "external_id": ":14ef834c99772228e246435602726f5b",
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Safety---Governance-Engineer--SAGE-_R00025725",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-09T00:00:00Z",
+      "public_slug": "ai-safety-governance-engineer-sage-ntu-ohyuutkx",
+      "role_key": "freehire:ai-safety-governance-engineer-sage-ntu-ohyuutkx",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Safety---Governance-Engineer--SAGE-_R00025725?utm_source=freehire.me",
+      "title": "AI Safety & Governance Engineer (SAGE)"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai",
+        "jd:agent"
+      ],
+      "candidate_seq": 543,
+      "company": "HDB Housing &amp; Development Board",
+      "employment_type": null,
+      "external_id": "6297:94466277",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "ai-solutions-engineer-xfusion-international-pte-ltd-yvwpm47j",
-      "role_key": "freehire:ai-solutions-engineer-xfusion-international-pte-ltd-yvwpm47j",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/14ef834c99772228e246435602726f5b?utm_source=freehire.me",
-      "title": "AI Solutions Engineer"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag"
-      ],
-      "candidate_seq": 451,
-      "company": "Foodpanda",
-      "employment_type": null,
-      "external_id": "6290:95559102",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T12:50:31Z",
-      "public_slug": "senior-software-engineer-data-ai-foodpanda-36ultjzc",
-      "role_key": "freehire:senior-software-engineer-data-ai-foodpanda-36ultjzc",
+      "posted_at": "2026-09-07T04:00:00Z",
+      "public_slug": "it-security-specialist-identity-ai-hdb-housing-amp-development-board-rljep672",
+      "role_key": "freehire:it-security-specialist-identity-ai-hdb-housing-amp-development-board-rljep672",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95559102?utm_source=freehire.me",
-      "title": "Senior Software Engineer (Data & AI)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag"
-      ],
-      "candidate_seq": 452,
-      "company": "Delivery Hero",
-      "employment_type": null,
-      "external_id": "deliveryhero:744000158197189",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-28T01:53:09Z",
-      "public_slug": "senior-software-engineer-data-ai-delivery-hero-tm2xfnnc",
-      "role_key": "freehire:senior-software-engineer-data-ai-delivery-hero-tm2xfnnc",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/DeliveryHero/744000158197189-senior-software-engineer-data-ai-?utm_source=freehire.me",
-      "title": "Senior Software Engineer (Data & AI)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "title:data_science"
-      ],
-      "candidate_seq": 453,
-      "company": "Ttsh",
-      "employment_type": null,
-      "external_id": "data engineer:94061731",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T00:40:55Z",
-      "public_slug": "senior-ai-engineer-data-scientist-healthcare-cloud-ttsh-kfi6m52e",
-      "role_key": "freehire:senior-ai-engineer-data-scientist-healthcare-cloud-ttsh-kfi6m52e",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061731__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Engineer & Data Scientist - Healthcare (Cloud)"
+      "source_url": "https://sg.jobstreet.com/job/94466277?utm_source=freehire.me",
+      "title": "IT Security Specialist (Identity & AI)"
     },
     {
       "ai_score": 6,
       "ai_signals": [
         "title:ai",
         "jd:machine_learning",
-        "jd:fine_tuning"
+        "jd:agent"
       ],
-      "candidate_seq": 454,
-      "company": "Fuku",
+      "candidate_seq": 544,
+      "company": "Unison Group",
       "employment_type": null,
-      "external_id": "fuku:C7E7A9616B",
+      "external_id": "unisongroup:1217C1F456",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "ai-engineer-fuku-sg3k6g5v",
-      "role_key": "freehire:ai-engineer-fuku-sg3k6g5v",
+      "posted_at": "2026-09-07T00:00:00Z",
+      "public_slug": "ai-software-engineer-unison-group-6m4vbbq5",
+      "role_key": "freehire:ai-software-engineer-unison-group-6m4vbbq5",
       "source": "workable",
-      "source_url": "https://apply.workable.com/j/C7E7A9616B?utm_source=freehire.me",
-      "title": "AI engineer"
+      "source_url": "https://apply.workable.com/j/1217C1F456?utm_source=freehire.me",
+      "title": "AI Software Engineer"
     },
     {
       "ai_score": 6,
       "ai_signals": [
-        "title:genai",
-        "jd:genai"
+        "title:ai",
+        "jd:llm",
+        "jd:model_training"
       ],
-      "candidate_seq": 455,
-      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "candidate_seq": 546,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": ":6f538285a2432bf421daa303086c0baa",
+      "external_id": "jobs.bytedance.com:7680867503056898309",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "forward-deployed-engineer-genai-google-cloud-korean-english-singapore-google-asia-pacific-pte-ltd-irce2obg",
-      "role_key": "freehire:forward-deployed-engineer-genai-google-cloud-korean-english-singapore-google-asia-pacific-pte-ltd-irce2obg",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/6f538285a2432bf421daa303086c0baa?utm_source=freehire.me",
-      "title": "Forward Deployed Engineer, GenAI, Google Cloud (Korean, English) - Singapore"
+      "posted_at": "2026-09-02T09:31:06Z",
+      "public_slug": "ai-infrastructure-engineer-graduate-tiktok-recommendation-architecture-singapore-2027-start-bytedance-pjkgtsrl",
+      "role_key": "freehire:ai-infrastructure-engineer-graduate-tiktok-recommendation-architecture-singapore-2027-start-bytedance-pjkgtsrl",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7680867503056898309/detail?utm_source=freehire.me",
+      "title": "AI Infrastructure Engineer Graduate (TikTok Recommendation Architecture, Singapore) - 2027 Start"
     },
     {
       "ai_score": 6,
@@ -154,21 +99,45 @@
         "title:llm",
         "jd:llm"
       ],
-      "candidate_seq": 456,
-      "company": "BLACK SESAME TECHNOLOGIES (SINGAPORE) PTE. LTD.",
+      "candidate_seq": 549,
+      "company": "Qube Research & Technologies",
       "employment_type": null,
-      "external_id": ":1bab9bae5efc4c0d97d373439cd867fb",
+      "external_id": "quberesearchandtechnologies:8759003002",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Hong Kong",
       "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "engineer-robotics-algorithm-slam-llm-black-sesame-technologies-singapore-pte-ltd-scpaxk4v",
-      "role_key": "freehire:engineer-robotics-algorithm-slam-llm-black-sesame-technologies-singapore-pte-ltd-scpaxk4v",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/1bab9bae5efc4c0d97d373439cd867fb?utm_source=freehire.me",
-      "title": "Engineer, Robotics Algorithm (SLAM & LLM)"
+      "posted_at": "2026-08-28T09:06:40Z",
+      "public_slug": "production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac",
+      "role_key": "freehire:production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002?utm_source=freehire.me",
+      "title": "Production Support Engineer — LLM Platform"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "title:data_science"
+      ],
+      "candidate_seq": 551,
+      "company": "ocbc",
+      "employment_type": null,
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/Data-Scientist--Platform-AI-Squad--Group-Data-Office--AVP-VP-_JR00010526-1",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "OCBC Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-26T00:00:00Z",
+      "public_slug": "data-scientist-platform-ai-squad-group-data-office-avp-vp-ocbc-lszyuwns",
+      "role_key": "freehire:data-scientist-platform-ai-squad-group-data-office-avp-vp-ocbc-lszyuwns",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/Data-Scientist--Platform-AI-Squad--Group-Data-Office--AVP-VP-_JR00010526-1?utm_source=freehire.me",
+      "title": "Data Scientist, Platform AI Squad, Group Data Office (AVP/VP)"
     },
     {
       "ai_score": 6,
@@ -177,29 +146,55 @@
         "jd:machine_learning",
         "jd:model_training"
       ],
-      "candidate_seq": 457,
-      "company": "Abnormal Security",
+      "candidate_seq": 552,
+      "company": "Shopee",
       "employment_type": null,
-      "external_id": "abnormalsecurity:8002099003",
+      "external_id": "backend developer:90388437",
       "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-24T14:45:59Z",
+      "public_slug": "expert-backend-engineer-machine-learning-server-parameter-ego-team-shopee-6btl6g4a",
+      "role_key": "freehire:expert-backend-engineer-machine-learning-server-parameter-ego-team-shopee-6btl6g4a",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90388437__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Expert Backend Engineer (Machine Learning Server Parameter) - EGO team"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning",
+        "jd:model_training"
+      ],
+      "candidate_seq": 553,
+      "company": "Shopee",
+      "employment_type": null,
+      "external_id": "backend developer:90355551",
+      "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Remote - Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T04:50:30Z",
-      "public_slug": "machine-learning-engineer-1-abnormal-security-vlkm2rj3",
-      "role_key": "freehire:machine-learning-engineer-1-abnormal-security-vlkm2rj3",
-      "source": "greenhouse",
-      "source_url": "https://abnormal.ai/careers/jobs/8002099003?gh_jid=8002099003&utm_source=freehire.me",
-      "title": "Machine Learning Engineer 1"
+      "posted_at": "2026-08-23T09:46:15Z",
+      "public_slug": "senior-backend-engineer-machine-learning-server-parameter-ego-team-shopee-exx4v4bb",
+      "role_key": "freehire:senior-backend-engineer-machine-learning-server-parameter-ego-team-shopee-exx4v4bb",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90355551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer (Machine Learning Server Parameter) - EGO team"
     }
   ],
-  "generated_at": "2026-11-05T08:36:07.058202Z",
+  "generated_at": "2026-11-05T16:53:18.599071Z",
   "market": "SG",
-  "max_candidate_seq": 457,
-  "min_candidate_seq": 450,
+  "max_candidate_seq": 553,
+  "min_candidate_seq": 541,
   "shard_index": 6,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

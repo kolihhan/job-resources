@@ -1,32 +1,57 @@
 {
-  "candidate_count": 1,
+  "candidate_count": 2,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2005,
-      "company": "Alibaba Group",
+      "candidate_seq": 2071,
+      "company": "Apple",
       "employment_type": null,
-      "external_id": ":100023715065",
+      "external_id": ":200675988",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-20T12:54:21Z",
-      "public_slug": "a-li-guo-ji-ai-shu-ju-gong-cheng-shi-ai-data-hang-zhou-alibaba-group-bjallwlj",
-      "role_key": "freehire:a-li-guo-ji-ai-shu-ju-gong-cheng-shi-ai-data-hang-zhou-alibaba-group-bjallwlj",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100023715065&utm_source=freehire.me",
-      "title": "阿里国际-AI 数据工程师（AI Data ）-杭州"
+      "posted_at": "2026-08-08T00:20:03Z",
+      "public_slug": "software-engineer-data-services-is-t-ai-data-platforms-apple-4bj55sfz",
+      "role_key": "freehire:software-engineer-data-services-is-t-ai-data-platforms-apple-4bj55sfz",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200675988/software-engineer-data-services-is-t-ai-data-platforms?utm_source=freehire.me",
+      "title": "Software Engineer, Data Services, IS&T Ai & Data Platforms"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:machine_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 2073,
+      "company": "WuXi Biologics",
+      "employment_type": null,
+      "external_id": "wuxibiologics/99960:f793a5cc-ae03-4669-af2c-90d2d675beb4",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-08-06T16:00:00Z",
+      "public_slug": "data-scientist-shu-ju-ke-xue-jia-wuxi-biologics-hu6njw5i",
+      "role_key": "freehire:data-scientist-shu-ju-ke-xue-jia-wuxi-biologics-hu6njw5i",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/wuxibiologics/99960?utm_source=freehire.me#/job/f793a5cc-ae03-4669-af2c-90d2d675beb4",
+      "title": "Data Scientist-数据科学家"
     }
   ],
-  "generated_at": "2026-11-05T08:36:07.058202Z",
+  "generated_at": "2026-11-05T16:53:18.599071Z",
   "market": "CN",
-  "max_candidate_seq": 2005,
-  "min_candidate_seq": 2005,
+  "max_candidate_seq": 2073,
+  "min_candidate_seq": 2071,
   "shard_index": 13,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

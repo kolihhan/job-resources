@@ -4,133 +4,83 @@
     {
       "ai_score": 6,
       "ai_signals": [
-        "title:genai",
-        "jd:genai"
+        "title:ai",
+        "title:data_science"
       ],
-      "candidate_seq": 425,
-      "company": "UOB Venture",
+      "candidate_seq": 509,
+      "company": "UNISONEDGE CONSULTING PTE. LTD.",
       "employment_type": null,
-      "external_id": "backend developer:94650283",
+      "external_id": "data engineer:93009214",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-12T05:19:18Z",
+      "public_slug": "data-scientist-ai-big-data-cloud-pipelines-unisonedge-consulting-pte-ltd-7xobpdml",
+      "role_key": "freehire:data-scientist-ai-big-data-cloud-pipelines-unisonedge-consulting-pte-ltd-7xobpdml",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93009214__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Scientist: AI & Big Data Cloud Pipelines"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning",
+        "jd:nlp"
+      ],
+      "candidate_seq": 510,
+      "company": "Tangspac Consulting Group",
+      "employment_type": null,
+      "external_id": "data engineer:93113032",
       "flags": [
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-02T14:41:49Z",
-      "public_slug": "vp-enterprise-genai-backend-engineer-group-technology-ops-uob-venture-ns4huzg2",
-      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-uob-venture-ns4huzg2",
+      "posted_at": "2026-10-12T05:19:18Z",
+      "public_slug": "vp-data-analytics-ml-python-big-data-tangspac-consulting-group-i22ffw5x",
+      "role_key": "freehire:vp-data-analytics-ml-python-big-data-tangspac-consulting-group-i22ffw5x",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94650283__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113032__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "VP - Data Analytics (ML, Python,Big Data)"
     },
     {
       "ai_score": 6,
       "ai_signals": [
-        "jd:llm",
-        "jd:genai",
-        "jd:agent",
+        "title:ai",
+        "title:data_science"
+      ],
+      "candidate_seq": 511,
+      "company": "micron semiconductor asia operations pte. ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:91912983",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-12T05:19:18Z",
+      "public_slug": "ai-driven-data-scientist-big-data-optimization-micron-semiconductor-asia-operations-pte-ltd-wbea3i6y",
+      "role_key": "freehire:ai-driven-data-scientist-big-data-optimization-micron-semiconductor-asia-operations-pte-ltd-wbea3i6y",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91912983__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Data Scientist: Big Data & Optimization"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
         "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
+        "jd:nlp"
       ],
-      "candidate_seq": 426,
-      "company": "LTM LIMITED SINGAPORE BRANCH",
+      "candidate_seq": 514,
+      "company": "Charterhouse Partnership",
       "employment_type": null,
-      "external_id": ":832ddd4eb503f3a7d0f8a07c0d4fc5df",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-02T00:00:00Z",
-      "public_slug": "software-engineer-ltm-limited-singapore-branch-2em7tlgq",
-      "role_key": "freehire:software-engineer-ltm-limited-singapore-branch-2em7tlgq",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/832ddd4eb503f3a7d0f8a07c0d4fc5df?utm_source=freehire.me",
-      "title": "Software Engineer"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent"
-      ],
-      "candidate_seq": 427,
-      "company": "SENG HENG ENGINEERING (PRIVATE) LIMITED",
-      "employment_type": null,
-      "external_id": ":98fde559cd8c5daa0e48caab5895885f",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-02T00:00:00Z",
-      "public_slug": "ai-engineer-seng-heng-engineering-private-limited-fbx3frwf",
-      "role_key": "freehire:ai-engineer-seng-heng-engineering-private-limited-fbx3frwf",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/98fde559cd8c5daa0e48caab5895885f?utm_source=freehire.me",
-      "title": "AI ENGINEER"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:retrieval",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 428,
-      "company": "Centre for Strategic Infocomm Technologies",
-      "employment_type": null,
-      "external_id": "data engineer:94640263",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:53Z",
-      "public_slug": "data-engineer-content-processing-ai-pipelines-centre-for-strategic-infocomm-technologies-ype2v5ce",
-      "role_key": "freehire:data-engineer-content-processing-ai-pipelines-centre-for-strategic-infocomm-technologies-ype2v5ce",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94640263__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Engineer, Content Processing & AI Pipelines"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai"
-      ],
-      "candidate_seq": 429,
-      "company": "UOB",
-      "employment_type": null,
-      "external_id": "backend developer:94636602",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:34Z",
-      "public_slug": "vp-enterprise-genai-backend-engineer-group-technology-ops-uob-xkfmho6f",
-      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-uob-xkfmho6f",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94636602__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai"
-      ],
-      "candidate_seq": 430,
-      "company": "UOB",
-      "employment_type": null,
-      "external_id": "backend developer:94637542",
+      "external_id": "data engineer:93114247",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -139,12 +89,12 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-01T10:40:32Z",
-      "public_slug": "senior-genai-backend-engineer-enterprise-production-uob-ogy27mh3",
-      "role_key": "freehire:senior-genai-backend-engineer-enterprise-production-uob-ogy27mh3",
+      "posted_at": "2026-10-10T11:19:12Z",
+      "public_slug": "senior-data-engineer-lakehouse-ai-ready-platforms-charterhouse-partnership-kf3ar7kc",
+      "role_key": "freehire:senior-data-engineer-lakehouse-ai-ready-platforms-charterhouse-partnership-kf3ar7kc",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637542__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior GenAI Backend Engineer - Enterprise Production"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93114247__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer: Lakehouse & AI-Ready Platforms"
     },
     {
       "ai_score": 6,
@@ -152,49 +102,98 @@
         "title:genai",
         "jd:genai"
       ],
-      "candidate_seq": 431,
-      "company": "ZEAL INFOTECH PTE. LTD.",
+      "candidate_seq": 515,
+      "company": "Saksoft Pte Ltd",
       "employment_type": null,
-      "external_id": "react developer:94639463",
+      "external_id": "full stack developer:93112870",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-01T10:40:17Z",
-      "public_slug": "genai-driven-full-stack-developer-react-python-zeal-infotech-pte-ltd-2zlqvl37",
-      "role_key": "freehire:genai-driven-full-stack-developer-react-python-zeal-infotech-pte-ltd-2zlqvl37",
+      "posted_at": "2026-10-10T11:18:49Z",
+      "public_slug": "genai-data-engineering-full-stack-engineer-saksoft-pte-ltd-lecd3bxn",
+      "role_key": "freehire:genai-data-engineering-full-stack-engineer-saksoft-pte-ltd-lecd3bxn",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94639463__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "GenAI-Driven Full-Stack Developer (React+Python)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112870__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "GenAI Data Engineering & Full‑Stack Engineer"
     },
     {
       "ai_score": 6,
       "ai_signals": [
-        "title:ml",
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 516,
+      "company": "Capgemini",
+      "employment_type": null,
+      "external_id": "careers.capgemini.com:1440919733",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "software-engineer-genai-security-quality-capgemini-inn5ahqc",
+      "role_key": "freehire:software-engineer-genai-security-quality-capgemini-inn5ahqc",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Software-Engineer-%28GenAI-Security-&-Quality%29/1440919733/?utm_source=freehire.me",
+      "title": "Software Engineer (GenAI Security & Quality)"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 517,
+      "company": "Capgemini",
+      "employment_type": null,
+      "external_id": "careers.capgemini.com:1440915233",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "frontend-engineer-genai-applications-capgemini-2yvfkjzp",
+      "role_key": "freehire:frontend-engineer-genai-applications-capgemini-2yvfkjzp",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Frontend-Engineer-%28GenAI-Applications%29/1440915233/?utm_source=freehire.me",
+      "title": "Frontend Engineer (GenAI Applications)"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
         "title:data_science"
       ],
-      "candidate_seq": 432,
-      "company": "XIAOMI TECHNOLOGIES SINGAPORE PTE. LTD.",
+      "candidate_seq": 518,
+      "company": "UNISYNC SYSTEMS PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:94030388",
+      "external_id": "data engineer:93076659",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T14:39:13Z",
-      "public_slug": "data-scientist-ml-data-analytics-pipelines-xiaomi-technologies-singapore-pte-ltd-64ow6qqy",
-      "role_key": "freehire:data-scientist-ml-data-analytics-pipelines-xiaomi-technologies-singapore-pte-ltd-64ow6qqy",
+      "posted_at": "2026-10-09T11:19:36Z",
+      "public_slug": "data-scientist-ai-big-data-platform-engineer-unisync-systems-pte-ltd-p2a3wpa6",
+      "role_key": "freehire:data-scientist-ai-big-data-platform-engineer-unisync-systems-pte-ltd-p2a3wpa6",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030388__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Scientist: ML & Data Analytics Pipelines"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93076659__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Scientist, AI & Big Data Platform Engineer"
     }
   ],
-  "generated_at": "2026-11-05T08:36:07.058202Z",
+  "generated_at": "2026-11-05T16:53:18.599071Z",
   "market": "SG",
-  "max_candidate_seq": 432,
-  "min_candidate_seq": 425,
+  "max_candidate_seq": 518,
+  "min_candidate_seq": 509,
   "shard_index": 3,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

@@ -1,17 +1,16 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 7,
   "candidates": [
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:rag",
-        "jd:nlp"
+        "jd:llm"
       ],
-      "candidate_seq": 514,
-      "company": "Charterhouse Partnership",
+      "candidate_seq": 599,
+      "company": "Arta Tech",
       "employment_type": null,
-      "external_id": "data engineer:93114247",
+      "external_id": "backend developer:94638653",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -20,178 +19,164 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:19:12Z",
-      "public_slug": "senior-data-engineer-lakehouse-ai-ready-platforms-charterhouse-partnership-kf3ar7kc",
-      "role_key": "freehire:senior-data-engineer-lakehouse-ai-ready-platforms-charterhouse-partnership-kf3ar7kc",
+      "posted_at": "2026-11-01T10:40:35Z",
+      "public_slug": "senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
+      "role_key": "freehire:senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93114247__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer: Lakehouse & AI-Ready Platforms"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638653__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer — AI-Driven Finance Platform"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:genai",
-        "jd:genai"
+        "title:ml",
+        "jd:machine_learning"
       ],
-      "candidate_seq": 515,
-      "company": "Saksoft Pte Ltd",
+      "candidate_seq": 600,
+      "company": "Monee",
       "employment_type": null,
-      "external_id": "full stack developer:93112870",
+      "external_id": "data engineer:92133441",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:49Z",
-      "public_slug": "genai-data-engineering-full-stack-engineer-saksoft-pte-ltd-lecd3bxn",
-      "role_key": "freehire:genai-data-engineering-full-stack-engineer-saksoft-pte-ltd-lecd3bxn",
+      "posted_at": "2026-10-31T14:39:12Z",
+      "public_slug": "machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
+      "role_key": "freehire:machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112870__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "GenAI Data Engineering & Full‑Stack Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92133441__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Machine Learning Engineer - Risk Data Experienced (Individual Contributor) Singapore Data Science"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:genai",
-        "jd:genai"
+        "title:ml",
+        "jd:machine_learning"
       ],
-      "candidate_seq": 516,
-      "company": "Capgemini",
+      "candidate_seq": 601,
+      "company": "Monee",
       "employment_type": null,
-      "external_id": "careers.capgemini.com:1440919733",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
+      "external_id": "data engineer:92191308",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T00:00:00Z",
-      "public_slug": "software-engineer-genai-security-quality-capgemini-inn5ahqc",
-      "role_key": "freehire:software-engineer-genai-security-quality-capgemini-inn5ahqc",
-      "source": "successfactors",
-      "source_url": "https://careers.capgemini.com/job/Singapore-Software-Engineer-%28GenAI-Security-&-Quality%29/1440919733/?utm_source=freehire.me",
-      "title": "Software Engineer (GenAI Security & Quality)"
+      "posted_at": "2026-10-31T14:39:12Z",
+      "public_slug": "ml-engineer-real-time-risk-data-infrastructure-monee-f5iq65hm",
+      "role_key": "freehire:ml-engineer-real-time-risk-data-infrastructure-monee-f5iq65hm",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92191308__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "ML Engineer – Real-Time Risk Data & Infrastructure"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:genai",
+        "title:ai",
         "jd:genai"
       ],
-      "candidate_seq": 517,
-      "company": "Capgemini",
+      "candidate_seq": 602,
+      "company": "Nanyang Technological University Singapore",
       "employment_type": null,
-      "external_id": "careers.capgemini.com:1440915233",
+      "external_id": "data engineer:94533551",
       "flags": [
+        "senior_title_hint",
         "experience_5_plus_hint",
-        "agency_or_outstaff_hint"
+        "seniority_hint"
       ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-10T00:00:00Z",
-      "public_slug": "frontend-engineer-genai-applications-capgemini-2yvfkjzp",
-      "role_key": "freehire:frontend-engineer-genai-applications-capgemini-2yvfkjzp",
-      "source": "successfactors",
-      "source_url": "https://careers.capgemini.com/job/Singapore-Frontend-Engineer-%28GenAI-Applications%29/1440915233/?utm_source=freehire.me",
-      "title": "Frontend Engineer (GenAI Applications)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "title:data_science"
-      ],
-      "candidate_seq": 518,
-      "company": "UNISYNC SYSTEMS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93076659",
-      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-09T11:19:36Z",
-      "public_slug": "data-scientist-ai-big-data-platform-engineer-unisync-systems-pte-ltd-p2a3wpa6",
-      "role_key": "freehire:data-scientist-ai-big-data-platform-engineer-unisync-systems-pte-ltd-p2a3wpa6",
+      "posted_at": "2026-10-31T12:40:40Z",
+      "public_slug": "senior-data-services-ai-engineer-nanyang-technological-university-singapore-o4rtk6re",
+      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-singapore-o4rtk6re",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93076659__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Scientist, AI & Big Data Platform Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94533551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Services & AI Engineer"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:genai",
+        "title:ai",
         "jd:genai"
       ],
-      "candidate_seq": 519,
-      "company": "D L RESOURCES PTE LTD",
+      "candidate_seq": 603,
+      "company": "Nanyang Technological University",
       "employment_type": null,
-      "external_id": "data engineer:92986025",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-09T11:19:35Z",
-      "public_slug": "data-integration-engineer-genai-d-l-resources-pte-ltd-so5yehzc",
-      "role_key": "freehire:data-integration-engineer-genai-d-l-resources-pte-ltd-so5yehzc",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92986025__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Data & Integration Engineer - GenAI"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai"
+      "external_id": "data engineer:94536370",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
       ],
-      "candidate_seq": 520,
-      "company": "RISKDATA CONSULTING PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93007446",
-      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-08T10:37:37Z",
-      "public_slug": "genai-powered-data-architect-big-data-engineer-riskdata-consulting-pte-ltd-zqqwue2e",
-      "role_key": "freehire:genai-powered-data-architect-big-data-engineer-riskdata-consulting-pte-ltd-zqqwue2e",
+      "posted_at": "2026-10-31T12:40:40Z",
+      "public_slug": "senior-data-services-ai-engineer-nanyang-technological-university-2wfkoidj",
+      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-2wfkoidj",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93007446__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "GenAI-Powered Data Architect & Big Data Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536370__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Services & AI Engineer"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:retrieval",
-        "jd:vector_db"
+        "jd:agent"
       ],
-      "candidate_seq": 521,
-      "company": "Ng Teng Fong General Hospital",
-      "employment_type": "part_time",
-      "external_id": "6290:95078880",
-      "flags": [],
+      "candidate_seq": 604,
+      "company": "FOODPANDA SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:94534042",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-06T03:36:59Z",
-      "public_slug": "associate-ai-developer-part-time-short-term-contract-ng-teng-fong-general-hospital-jidconfw",
-      "role_key": "freehire:associate-ai-developer-part-time-short-term-contract-ng-teng-fong-general-hospital-jidconfw",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95078880?utm_source=freehire.me",
-      "title": "Associate AI Developer (Part Time, Short Term Contract)"
+      "posted_at": "2026-10-31T12:40:36Z",
+      "public_slug": "senior-data-ai-engineer-production-ai-pipelines-foodpanda-singapore-pte-ltd-7ee3olxs",
+      "role_key": "freehire:senior-data-ai-engineer-production-ai-pipelines-foodpanda-singapore-pte-ltd-7ee3olxs",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534042__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & AI Engineer: Production AI & Pipelines"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 605,
+      "company": "Temasek International Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:94536103",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:40:32Z",
+      "public_slug": "senior-associate-assistant-vice-president-ai-data-engineer-1365003057a4-temasek-international-pte-ltd-altct5ya",
+      "role_key": "freehire:senior-associate-assistant-vice-president-ai-data-engineer-1365003057a4-temasek-international-pte-ltd-altct5ya",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536103__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Associate/Assistant Vice President, AI Data Engineer (1365003057A4)"
     }
   ],
-  "generated_at": "2026-11-05T08:36:07.058202Z",
+  "generated_at": "2026-11-05T16:53:18.599071Z",
   "market": "SG",
-  "max_candidate_seq": 521,
-  "min_candidate_seq": 514,
+  "max_candidate_seq": 605,
+  "min_candidate_seq": 599,
   "shard_index": 12,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
