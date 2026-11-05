@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T22:08:00+08:00",
+  "updated_at": "2026-11-05T22:57:29+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -1272,6 +1272,106 @@
       "reason_code": "authoritative_jd_eligibility_sg_workpass_and_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 459,
+      "role_key": "freehire:459",
+      "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE LTD",
+      "title": "Senior Data Scientist: AI, Big Data & Optimization",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94062090__7119",
+      "reason_code": "authoritative_jd_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 461,
+      "role_key": "freehire:461",
+      "company": "ASUS",
+      "title": "Machine Learning Engineer",
+      "source_url": "https://recruit.asus.com/Jobs/Detail?sn=8344cabe-1518-41bc-aad0-94cfff7672d8",
+      "reason_code": "official_jd_inaccessible",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 462,
+      "role_key": "freehire:462",
+      "company": "RED DOT AI PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/73604089f1f59965803c6b8898dc2af5",
+      "reason_code": "non_mcf_route_and_official_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 463,
+      "role_key": "freehire:463",
+      "company": "DADACONSULTANTS PTE. LTD.",
+      "title": "AI Engineer – Retail & Supply Chain",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/158efbe7de43ce77a0e355f2b54b5bf5",
+      "reason_code": "non_mcf_route_and_ai_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 464,
+      "role_key": "freehire:464",
+      "company": "TRINITY CONSULTING SERVICES PTE. LTD.",
+      "title": "Senior Computer Vision Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/db9d0f3cf0b97b4f2d0e8b8f6bc9e5e1",
+      "reason_code": "seniority_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 466,
+      "role_key": "freehire:466",
+      "company": "Red Alpha",
+      "title": "AI Engineer",
+      "source_url": "https://www.careers-page.com/redalpha/job/L8W5W9WV",
+      "reason_code": "twelve_week_training_three_year_commitment_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 467,
+      "role_key": "freehire:467",
+      "company": "Innova Digital Solutions Pte Ltd",
+      "title": "GenAI-Ready Data & Integration Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94027800__7119",
+      "reason_code": "authoritative_jd_and_ai_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 468,
+      "role_key": "freehire:468",
+      "company": "D8 LooP",
+      "title": "Senior Data Engineer, Data and AI, Customer Data Platform",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94037851__7119",
+      "reason_code": "seniority_and_ai_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 469,
+      "role_key": "freehire:469",
+      "company": "OCBC Bank",
+      "title": "Data Scientist, AI Lab",
+      "source_url": "https://echojobs.io/job/ocbc-bank-data-scientist-ai-lab-1u64z",
+      "reason_code": "cross_source_identity_and_official_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 470,
+      "role_key": "freehire:470",
+      "company": "OVERSEA-CHINESE BANKING CORPORATION LIMITED",
+      "title": "Data Scientist, AI Lab",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/70cef99099e5eed7ac828f88da8eb8ae",
+      "reason_code": "cross_source_identity_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T23:00:00+08:00"
     }
   ]
 }
