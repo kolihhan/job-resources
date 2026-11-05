@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T16:03:05+08:00",
+  "updated_at": "2026-11-05T17:00:50+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -782,6 +782,106 @@
       "reason_code": "authoritative_jd_eligibility_and_route_unresolved",
       "attempts": 1,
       "next_retry_at": "2026-11-06T16:03:05+08:00"
+    },
+    {
+      "candidate_seq": 403,
+      "role_key": "freehire:full-stack-engineer-ai-systems-the-gmp-group-fnnou46d",
+      "company": "The GMP Group",
+      "title": "Full Stack Engineer (AI Systems)",
+      "source_url": "https://www.careers-page.com/gmp-group-2/job/W34W69RW?utm_source=freehire.me",
+      "reason_code": "workpass_and_client_employer_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 404,
+      "role_key": "freehire:genai-sme-uob-primestaff-management-service-pte-ltd-7se7qag2",
+      "company": "PrimeStaff Management Service Pte Ltd",
+      "title": "GenAI SME - UOB",
+      "source_url": "https://www.careers-page.com/primestaff/job/X9637W3Y?utm_source=freehire.me",
+      "reason_code": "seniority_and_workpass_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 406,
+      "role_key": "freehire:software-test-engineer-graduate-ai-2027-start-tiktok-c34lig3y",
+      "company": "TikTok",
+      "title": "Software Test Engineer Graduate (AI) - 2027 Start",
+      "source_url": "https://sg.jobstreet.com/job/93760164?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 407,
+      "role_key": "freehire:ai-engineer-viavi-solutions-spjexvpi",
+      "company": "Viavi Solutions",
+      "title": "AI Engineer",
+      "source_url": "https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Singapore-Techpt-SGP/AI-Engineer_260004846-2?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 409,
+      "role_key": "freehire:ai-full-stack-engineer-base-camp-digital-pte-ltd-j3ug2ja4",
+      "company": "Base Camp Digital PTE Ltd",
+      "title": "AI Full Stack Engineer",
+      "source_url": "https://sg.jobstreet.com/job/93365706?utm_source=freehire.me",
+      "reason_code": "employer_identity_and_workpass_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 411,
+      "role_key": "freehire:machine-learning-engineer-monetization-data-alignment-tiktok-shtipmqh",
+      "company": "TikTok",
+      "title": "Machine Learning Engineer, Monetization Data Alignment",
+      "source_url": "https://sg.jobstreet.com/job/92350120?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 413,
+      "role_key": "freehire:risk-services-ai-factory-data-scientist-senior-associate-pwc-ignarytw",
+      "company": "pwc",
+      "title": "Risk Services - AI Factory (Data Scientist) Senior Associate",
+      "source_url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Singapore---Marina-One/Risk-Services---AI-Factory--Data-Scientist--Senior-Associate_712770WD-1?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 414,
+      "role_key": "freehire:senior-data-scientist-computer-vision-engineer-razer-z2h7c2ai",
+      "company": "Razer",
+      "title": "Senior Data Scientist (Computer Vision Engineer)",
+      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/Senior-Software-Engineer--Computer-Vision-Engineer-_JR2025005486?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 415,
+      "role_key": "freehire:feng-kong-chui-yu-da-mo-xing-ji-zuo-he-agentic-aiyan-jiu-feng-kong-xin-jia-po-research-on-risk-control-vertical-llm-foundation-and-agent-risk-control-singapore-bytedance-frls6y4z",
+      "company": "ByteDance",
+      "title": "风控垂域大模型基座和Agentic AI研究-风控（新加坡）Research on Risk Control Vertical LLM Foundation and Agent-Risk Control (Singapore)",
+      "source_url": "https://jobs.bytedance.com/campus/position/7630866669057411381/detail?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 417,
+      "role_key": "freehire:machine-learning-system-engineer-graduate-aml-2026-start-phd-bytedance-hni66pfr",
+      "company": "ByteDance",
+      "title": "Machine Learning System Engineer Graduate (AML) - 2026 Start (PhD)",
+      "source_url": "https://jobs.bytedance.com/campus/position/7588841161038940469/detail?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T17:00:50+08:00"
     }
   ]
 }
