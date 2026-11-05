@@ -4,201 +4,194 @@
     {
       "ai_score": 6,
       "ai_signals": [
-        "title:genai",
-        "jd:genai"
-      ],
-      "candidate_seq": 437,
-      "company": "Nanyang Technological University",
-      "employment_type": null,
-      "external_id": "data engineer:94535106",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-31T12:40:36Z",
-      "public_slug": "senior-data-genai-engineer-pipelines-platforms-cloud-nanyang-technological-university-vytxkr3y",
-      "role_key": "freehire:senior-data-genai-engineer-pipelines-platforms-cloud-nanyang-technological-university-vytxkr3y",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94535106__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data & GenAI Engineer: Pipelines, Platforms & Cloud"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai"
-      ],
-      "candidate_seq": 438,
-      "company": "1011 United Overseas Bank Ltd",
-      "employment_type": null,
-      "external_id": "backend developer:94535860",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-31T12:39:48Z",
-      "public_slug": "vp-enterprise-genai-backend-engineer-group-technology-ops-1011-united-overseas-bank-ltd-pj5gv4n4",
-      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-1011-united-overseas-bank-ltd-pj5gv4n4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94535860__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:llm",
-        "jd:llm"
-      ],
-      "candidate_seq": 439,
-      "company": "ONCOSHOT PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93903064",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T16:40:19Z",
-      "public_slug": "senior-llm-extraction-engineer-oncology-data-oncoshot-pte-ltd-cjpquq3h",
-      "role_key": "freehire:senior-llm-extraction-engineer-oncology-data-oncoshot-pte-ltd-cjpquq3h",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93903064__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior LLM Extraction Engineer – Oncology Data"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:retrieval"
+        "jd:rag",
+        "jd:nlp"
       ],
-      "candidate_seq": 440,
-      "company": "Binance",
+      "candidate_seq": 514,
+      "company": "Charterhouse Partnership",
       "employment_type": null,
-      "external_id": "binance:5002573101",
+      "external_id": "data engineer:93114247",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:19:12Z",
+      "public_slug": "senior-data-engineer-lakehouse-ai-ready-platforms-charterhouse-partnership-kf3ar7kc",
+      "role_key": "freehire:senior-data-engineer-lakehouse-ai-ready-platforms-charterhouse-partnership-kf3ar7kc",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93114247__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer: Lakehouse & AI-Ready Platforms"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 515,
+      "company": "Saksoft Pte Ltd",
+      "employment_type": null,
+      "external_id": "full stack developer:93112870",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hong Kong; Singapore; Taiwan",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-03T11:58:25Z",
-      "public_slug": "binance-accelerator-program-ai-engineer-dev-tools-binance-6gsjkhgr",
-      "role_key": "freehire:binance-accelerator-program-ai-engineer-dev-tools-binance-6gsjkhgr",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002573101?utm_source=freehire.me",
-      "title": "Binance Accelerator Program - AI Engineer, Dev Tools"
+      "posted_at": "2026-10-10T11:18:49Z",
+      "public_slug": "genai-data-engineering-full-stack-engineer-saksoft-pte-ltd-lecd3bxn",
+      "role_key": "freehire:genai-data-engineering-full-stack-engineer-saksoft-pte-ltd-lecd3bxn",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112870__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "GenAI Data Engineering & Full‑Stack Engineer"
     },
     {
       "ai_score": 6,
       "ai_signals": [
-        "title:ai",
-        "jd:genai",
-        "jd:rag"
+        "title:genai",
+        "jd:genai"
       ],
-      "candidate_seq": 441,
-      "company": "Thoughtworks",
+      "candidate_seq": 516,
+      "company": "Capgemini",
       "employment_type": null,
-      "external_id": "thoughtworks:8200470",
+      "external_id": "careers.capgemini.com:1440919733",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint",
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "software-engineer-genai-security-quality-capgemini-inn5ahqc",
+      "role_key": "freehire:software-engineer-genai-security-quality-capgemini-inn5ahqc",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Software-Engineer-%28GenAI-Security-&-Quality%29/1440919733/?utm_source=freehire.me",
+      "title": "Software Engineer (GenAI Security & Quality)"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 517,
+      "company": "Capgemini",
+      "employment_type": null,
+      "external_id": "careers.capgemini.com:1440915233",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "frontend-engineer-genai-applications-capgemini-2yvfkjzp",
+      "role_key": "freehire:frontend-engineer-genai-applications-capgemini-2yvfkjzp",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Frontend-Engineer-%28GenAI-Applications%29/1440915233/?utm_source=freehire.me",
+      "title": "Frontend Engineer (GenAI Applications)"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "title:data_science"
+      ],
+      "candidate_seq": 518,
+      "company": "UNISYNC SYSTEMS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93076659",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T14:48:54Z",
-      "public_slug": "senior-ai-engineer-thoughtworks-a7ayupct",
-      "role_key": "freehire:senior-ai-engineer-thoughtworks-a7ayupct",
-      "source": "greenhouse",
-      "source_url": "https://www.thoughtworks.com/careers/jobs/8200470?gh_jid=8200470&utm_source=freehire.me",
-      "title": "Senior AI Engineer"
+      "posted_at": "2026-10-09T11:19:36Z",
+      "public_slug": "data-scientist-ai-big-data-platform-engineer-unisync-systems-pte-ltd-p2a3wpa6",
+      "role_key": "freehire:data-scientist-ai-big-data-platform-engineer-unisync-systems-pte-ltd-p2a3wpa6",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93076659__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Scientist, AI & Big Data Platform Engineer"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 519,
+      "company": "D L RESOURCES PTE LTD",
+      "employment_type": null,
+      "external_id": "data engineer:92986025",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T11:19:35Z",
+      "public_slug": "data-integration-engineer-genai-d-l-resources-pte-ltd-so5yehzc",
+      "role_key": "freehire:data-integration-engineer-genai-d-l-resources-pte-ltd-so5yehzc",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92986025__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Data & Integration Engineer - GenAI"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 520,
+      "company": "RISKDATA CONSULTING PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93007446",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-08T10:37:37Z",
+      "public_slug": "genai-powered-data-architect-big-data-engineer-riskdata-consulting-pte-ltd-zqqwue2e",
+      "role_key": "freehire:genai-powered-data-architect-big-data-engineer-riskdata-consulting-pte-ltd-zqqwue2e",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93007446__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "GenAI-Powered Data Architect & Big Data Engineer"
     },
     {
       "ai_score": 6,
       "ai_signals": [
         "title:ai",
-        "jd:agent",
-        "jd:retrieval"
+        "jd:retrieval",
+        "jd:vector_db"
       ],
-      "candidate_seq": 442,
-      "company": "ANCHOR SEARCH GROUP PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":fa2c7ea3d79199f4a20c1e627e1f9655",
+      "candidate_seq": 521,
+      "company": "Ng Teng Fong General Hospital",
+      "employment_type": "part_time",
+      "external_id": "6290:95078880",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "software-engineer-ai-anchor-search-group-pte-ltd-s3jcaaju",
-      "role_key": "freehire:software-engineer-ai-anchor-search-group-pte-ltd-s3jcaaju",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/fa2c7ea3d79199f4a20c1e627e1f9655?utm_source=freehire.me",
-      "title": "Software Engineer - AI"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai",
-        "jd:agent"
-      ],
-      "candidate_seq": 443,
-      "company": "CFGI (SINGAPORE) PRIVATE LIMITED",
-      "employment_type": null,
-      "external_id": ":6aad36959a0e0e87f2074354355b7c05",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "ai-engineer-ccp-for-ict-professionals-cfgi-singapore-private-limited-swunypdu",
-      "role_key": "freehire:ai-engineer-ccp-for-ict-professionals-cfgi-singapore-private-limited-swunypdu",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/6aad36959a0e0e87f2074354355b7c05?utm_source=freehire.me",
-      "title": "AI Engineer [CCP for ICT Professionals]"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 444,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6290:95587195",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T19:38:40Z",
-      "public_slug": "machine-learning-engineer-emerging-business-tiktok-bric-tiktok-i7rionnq",
-      "role_key": "freehire:machine-learning-engineer-emerging-business-tiktok-bric-tiktok-i7rionnq",
+      "posted_at": "2026-10-06T03:36:59Z",
+      "public_slug": "associate-ai-developer-part-time-short-term-contract-ng-teng-fong-general-hospital-jidconfw",
+      "role_key": "freehire:associate-ai-developer-part-time-short-term-contract-ng-teng-fong-general-hospital-jidconfw",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95587195?utm_source=freehire.me",
-      "title": "Machine Learning Engineer - Emerging Business - TikTok BRIC"
+      "source_url": "https://sg.jobstreet.com/job/95078880?utm_source=freehire.me",
+      "title": "Associate AI Developer (Part Time, Short Term Contract)"
     }
   ],
-  "generated_at": "2026-11-05T01:51:04.091579Z",
+  "generated_at": "2026-11-05T08:36:07.058202Z",
   "market": "SG",
-  "max_candidate_seq": 444,
-  "min_candidate_seq": 437,
+  "max_candidate_seq": 521,
+  "min_candidate_seq": 514,
   "shard_index": 12,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

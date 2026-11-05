@@ -4,95 +4,25 @@
     {
       "ai_score": 6,
       "ai_signals": [
-        "title:genai",
-        "jd:genai"
+        "title:ai",
+        "jd:genai",
+        "jd:agent"
       ],
-      "candidate_seq": 429,
-      "company": "UOB",
+      "candidate_seq": 501,
+      "company": "DL Ideas Pte. Ltd.",
       "employment_type": null,
-      "external_id": "backend developer:94636602",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:34Z",
-      "public_slug": "vp-enterprise-genai-backend-engineer-group-technology-ops-uob-xkfmho6f",
-      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-uob-xkfmho6f",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94636602__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai"
-      ],
-      "candidate_seq": 430,
-      "company": "UOB",
-      "employment_type": null,
-      "external_id": "backend developer:94637542",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:32Z",
-      "public_slug": "senior-genai-backend-engineer-enterprise-production-uob-ogy27mh3",
-      "role_key": "freehire:senior-genai-backend-engineer-enterprise-production-uob-ogy27mh3",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637542__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior GenAI Backend Engineer - Enterprise Production"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai"
-      ],
-      "candidate_seq": 431,
-      "company": "ZEAL INFOTECH PTE. LTD.",
-      "employment_type": null,
-      "external_id": "react developer:94639463",
+      "external_id": "6287:95290541",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Tai Seng, North-East Region",
       "market": "SG",
-      "posted_at": "2026-11-01T10:40:17Z",
-      "public_slug": "genai-driven-full-stack-developer-react-python-zeal-infotech-pte-ltd-2zlqvl37",
-      "role_key": "freehire:genai-driven-full-stack-developer-react-python-zeal-infotech-pte-ltd-2zlqvl37",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94639463__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "GenAI-Driven Full-Stack Developer (React+Python)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ml",
-        "title:data_science"
-      ],
-      "candidate_seq": 432,
-      "company": "XIAOMI TECHNOLOGIES SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:94030388",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-31T14:39:13Z",
-      "public_slug": "data-scientist-ml-data-analytics-pipelines-xiaomi-technologies-singapore-pte-ltd-64ow6qqy",
-      "role_key": "freehire:data-scientist-ml-data-analytics-pipelines-xiaomi-technologies-singapore-pte-ltd-64ow6qqy",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030388__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Scientist: ML & Data Analytics Pipelines"
+      "posted_at": "2026-10-15T07:47:30Z",
+      "public_slug": "php-software-developer-laravel-codeigniter-ai-integration-dl-ideas-pte-ltd-m2am4vb3",
+      "role_key": "freehire:php-software-developer-laravel-codeigniter-ai-integration-dl-ideas-pte-ltd-m2am4vb3",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95290541?utm_source=freehire.me",
+      "title": "PHP Software Developer (Laravel / CodeIgniter / AI Integration)"
     },
     {
       "ai_score": 6,
@@ -101,10 +31,10 @@
         "jd:agent",
         "jd:rag"
       ],
-      "candidate_seq": 433,
-      "company": "FOODPANDA SINGAPORE PTE. LTD.",
+      "candidate_seq": 503,
+      "company": "aryan solutions pte. ltd.",
       "employment_type": null,
-      "external_id": "data engineer:94536631",
+      "external_id": "data engineer:91908911",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -114,91 +44,163 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:40:40Z",
-      "public_slug": "senior-software-engineer-data-ai-foodpanda-singapore-pte-ltd-6txodize",
-      "role_key": "freehire:senior-software-engineer-data-ai-foodpanda-singapore-pte-ltd-6txodize",
+      "posted_at": "2026-10-14T11:18:31Z",
+      "public_slug": "senior-ai-data-engineer-aryan-solutions-pte-ltd-7uxoirbz",
+      "role_key": "freehire:senior-ai-data-engineer-aryan-solutions-pte-ltd-7uxoirbz",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536631__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Software Engineer (Data & AI)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai"
-      ],
-      "candidate_seq": 434,
-      "company": "Nanyang Technological University Singapore",
-      "employment_type": null,
-      "external_id": "data engineer:94533487",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-31T12:40:40Z",
-      "public_slug": "senior-data-genai-platform-engineer-nanyang-technological-university-singapore-uygkwzpr",
-      "role_key": "freehire:senior-data-genai-platform-engineer-nanyang-technological-university-singapore-uygkwzpr",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94533487__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data & GenAI Platform Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91908911__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Data Engineer"
     },
     {
       "ai_score": 6,
       "ai_signals": [
         "title:ai",
-        "jd:agent",
-        "jd:rag"
+        "jd:llm",
+        "jd:genai"
       ],
-      "candidate_seq": 435,
-      "company": "foodpanda",
+      "candidate_seq": 506,
+      "company": "Great Eastern",
       "employment_type": null,
-      "external_id": "data engineer:94534715",
+      "external_id": "6290:95246064",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:40:37Z",
-      "public_slug": "senior-data-ai-engineer-build-production-ai-pipelines-foodpanda-6hhctxed",
-      "role_key": "freehire:senior-data-ai-engineer-build-production-ai-pipelines-foodpanda-6hhctxed",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534715__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data & AI Engineer: Build Production AI & Pipelines"
+      "posted_at": "2026-10-13T20:46:23Z",
+      "public_slug": "senior-data-and-ai-solution-engineer-great-eastern-c6fryiyr",
+      "role_key": "freehire:senior-data-and-ai-solution-engineer-great-eastern-c6fryiyr",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95246064?utm_source=freehire.me",
+      "title": "Senior Data and AI Solution Engineer"
     },
     {
       "ai_score": 6,
       "ai_signals": [
-        "title:genai",
-        "jd:genai"
+        "jd:llm",
+        "jd:genai",
+        "jd:machine_learning",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
       ],
-      "candidate_seq": 436,
-      "company": "D L RESOURCES PTE LTD",
+      "candidate_seq": 507,
+      "company": "TPO Temasek Polytechnic",
+      "employment_type": "part_time",
+      "external_id": "data engineer:92791202",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-12T05:19:18Z",
+      "public_slug": "lecturer-big-data-analytics-school-of-informatics-it-tpo-temasek-polytechnic-hkldau32",
+      "role_key": "freehire:lecturer-big-data-analytics-school-of-informatics-it-tpo-temasek-polytechnic-hkldau32",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92791202__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Lecturer (Big Data Analytics) / School of Informatics & IT"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "title:data_science"
+      ],
+      "candidate_seq": 508,
+      "company": "UARROW PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:94534940",
+      "external_id": "data engineer:92804810",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:40:36Z",
-      "public_slug": "genai-ready-data-integration-engineer-d-l-resources-pte-ltd-jpdklchu",
-      "role_key": "freehire:genai-ready-data-integration-engineer-d-l-resources-pte-ltd-jpdklchu",
+      "posted_at": "2026-10-12T05:19:18Z",
+      "public_slug": "data-scientist-ai-big-data-architect-uarrow-pte-ltd-t7ec64bc",
+      "role_key": "freehire:data-scientist-ai-big-data-architect-uarrow-pte-ltd-t7ec64bc",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534940__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "GenAI-Ready Data Integration Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92804810__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Scientist - AI & Big Data Architect"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "title:data_science"
+      ],
+      "candidate_seq": 509,
+      "company": "UNISONEDGE CONSULTING PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93009214",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-12T05:19:18Z",
+      "public_slug": "data-scientist-ai-big-data-cloud-pipelines-unisonedge-consulting-pte-ltd-7xobpdml",
+      "role_key": "freehire:data-scientist-ai-big-data-cloud-pipelines-unisonedge-consulting-pte-ltd-7xobpdml",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93009214__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Scientist: AI & Big Data Cloud Pipelines"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning",
+        "jd:nlp"
+      ],
+      "candidate_seq": 510,
+      "company": "Tangspac Consulting Group",
+      "employment_type": null,
+      "external_id": "data engineer:93113032",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-12T05:19:18Z",
+      "public_slug": "vp-data-analytics-ml-python-big-data-tangspac-consulting-group-i22ffw5x",
+      "role_key": "freehire:vp-data-analytics-ml-python-big-data-tangspac-consulting-group-i22ffw5x",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113032__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "VP - Data Analytics (ML, Python,Big Data)"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "title:data_science"
+      ],
+      "candidate_seq": 511,
+      "company": "micron semiconductor asia operations pte. ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:91912983",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-12T05:19:18Z",
+      "public_slug": "ai-driven-data-scientist-big-data-optimization-micron-semiconductor-asia-operations-pte-ltd-wbea3i6y",
+      "role_key": "freehire:ai-driven-data-scientist-big-data-optimization-micron-semiconductor-asia-operations-pte-ltd-wbea3i6y",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91912983__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Data Scientist: Big Data & Optimization"
     }
   ],
-  "generated_at": "2026-11-05T01:51:04.091579Z",
+  "generated_at": "2026-11-05T08:36:07.058202Z",
   "market": "SG",
-  "max_candidate_seq": 436,
-  "min_candidate_seq": 429,
+  "max_candidate_seq": 511,
+  "min_candidate_seq": 501,
   "shard_index": 11,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

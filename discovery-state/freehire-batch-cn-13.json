@@ -1,78 +1,32 @@
 {
-  "candidate_count": 3,
+  "candidate_count": 1,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1981,
-      "company": "Pfizer",
-      "employment_type": "full_time",
-      "external_id": "pfizer.wd1.myworkdayjobs.com/PfizerCareers:/job/China---Zhejiang---Hangzhou/Senior-AI-Infrastructure---Platform-Engineer_4966491",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China - Zhejiang - Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "senior-ai-infrastructure-platform-engineer-pfizer-xssmfy2u",
-      "role_key": "freehire:senior-ai-infrastructure-platform-engineer-pfizer-xssmfy2u",
-      "source": "workday",
-      "source_url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Zhejiang---Hangzhou/Senior-AI-Infrastructure---Platform-Engineer_4966491?utm_source=freehire.me",
-      "title": "Senior AI Infrastructure & Platform Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1983,
-      "company": "Bjak",
-      "employment_type": "full_time",
-      "external_id": "bjakcareer:60def69d-14bc-44e9-af57-2f87fb3a827e",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Global",
-      "market": "CN",
-      "posted_at": "2026-11-04T04:45:33Z",
-      "public_slug": "ai-security-engineer-bjakcareer-3bfbsdh2",
-      "role_key": "freehire:ai-security-engineer-bjakcareer-3bfbsdh2",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/60def69d-14bc-44e9-af57-2f87fb3a827e?utm_source=freehire.me",
-      "title": "AI Security Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1991,
-      "company": "Bjak",
+      "candidate_seq": 2005,
+      "company": "Alibaba Group",
       "employment_type": null,
-      "external_id": "bjakcareer:800c8f3d-fed6-42ee-9ddd-3ee2c026bd30",
+      "external_id": ":100023715065",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "United States",
+      "location": "Hangzhou",
       "market": "CN",
-      "posted_at": "2026-10-26T09:00:15Z",
-      "public_slug": "backend-engineer-ai-agent-systems-bjakcareer-xfgkztjy",
-      "role_key": "freehire:backend-engineer-ai-agent-systems-bjakcareer-xfgkztjy",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/800c8f3d-fed6-42ee-9ddd-3ee2c026bd30?utm_source=freehire.me",
-      "title": "Backend Engineer, AI (Agent Systems)"
+      "posted_at": "2026-10-20T12:54:21Z",
+      "public_slug": "a-li-guo-ji-ai-shu-ju-gong-cheng-shi-ai-data-hang-zhou-alibaba-group-bjallwlj",
+      "role_key": "freehire:a-li-guo-ji-ai-shu-ju-gong-cheng-shi-ai-data-hang-zhou-alibaba-group-bjallwlj",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100023715065&utm_source=freehire.me",
+      "title": "阿里国际-AI 数据工程师（AI Data ）-杭州"
     }
   ],
-  "generated_at": "2026-11-05T01:51:04.091579Z",
+  "generated_at": "2026-11-05T08:36:07.058202Z",
   "market": "CN",
-  "max_candidate_seq": 1991,
-  "min_candidate_seq": 1981,
+  "max_candidate_seq": 2005,
+  "min_candidate_seq": 2005,
   "shard_index": 13,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

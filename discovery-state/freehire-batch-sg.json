@@ -1,12 +1,12 @@
 {
   "batch_size": 100,
   "candidate_count": 100,
-  "cursor_before": 317,
-  "generated_at": "2026-11-05T01:51:04.091579Z",
+  "cursor_before": 402,
+  "generated_at": "2026-11-05T08:36:07.058202Z",
   "market": "SG",
-  "max_candidate_seq": 447,
+  "max_candidate_seq": 528,
   "max_shard_bytes": 8000,
-  "remaining_after_batch": 994,
+  "remaining_after_batch": 933,
   "shard_count": 13,
   "shard_size": 25,
   "shards": [

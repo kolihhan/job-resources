@@ -2,207 +2,207 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 7,
+      "ai_score": 6,
       "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:rag",
-        "jd:retrieval"
+        "jd:agent",
+        "jd:rag"
       ],
-      "candidate_seq": 353,
-      "company": "Helius Technologies",
+      "candidate_seq": 433,
+      "company": "FOODPANDA SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:94380198",
-      "flags": [],
+      "external_id": "data engineer:94536631",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T14:39:14Z",
-      "public_slug": "ai-engineer-rag-pipelines-for-enterprise-data-singapore-helius-technologies-dfn7sefh",
-      "role_key": "freehire:ai-engineer-rag-pipelines-for-enterprise-data-singapore-helius-technologies-dfn7sefh",
+      "posted_at": "2026-10-31T12:40:40Z",
+      "public_slug": "senior-software-engineer-data-ai-foodpanda-singapore-pte-ltd-6txodize",
+      "role_key": "freehire:senior-software-engineer-data-ai-foodpanda-singapore-pte-ltd-6txodize",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380198__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Engineer: RAG Pipelines for Enterprise Data (Singapore)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536631__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Software Engineer (Data & AI)"
     },
     {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:model_training",
-        "jd:evaluation"
-      ],
-      "candidate_seq": 354,
-      "company": "Hudson River Trading",
-      "employment_type": "full_time",
-      "external_id": "wehrtyou:8234195",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "London, United Kingdom; New York, NY, United States; Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T20:35:07Z",
-      "public_slug": "applied-ai-engineer-hudson-river-trading-lg446mmn",
-      "role_key": "freehire:applied-ai-engineer-hudson-river-trading-lg446mmn",
-      "source": "greenhouse",
-      "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8234195&utm_source=freehire.me",
-      "title": "Applied AI Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:llm",
-        "title:data_science"
-      ],
-      "candidate_seq": 355,
-      "company": "Binance",
-      "employment_type": null,
-      "external_id": "binance:5002579101",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T16:19:29Z",
-      "public_slug": "binance-accelerator-program-data-scientist-llm-trading-binance-mhd7qjpv",
-      "role_key": "freehire:binance-accelerator-program-data-scientist-llm-trading-binance-mhd7qjpv",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002579101?utm_source=freehire.me",
-      "title": "Binance Accelerator Program - Data Scientist (LLM & Trading)"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag"
-      ],
-      "candidate_seq": 357,
-      "company": "Schonfeld Strategic Advisors",
-      "employment_type": null,
-      "external_id": "6290:95614718",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Marina South, Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-30T13:53:45Z",
-      "public_slug": "ai-platform-engineer-schonfeld-strategic-advisors-yphnxncc",
-      "role_key": "freehire:ai-platform-engineer-schonfeld-strategic-advisors-yphnxncc",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95614718?utm_source=freehire.me",
-      "title": "AI Platform Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:llm",
-        "jd:llm",
-        "jd:evaluation"
-      ],
-      "candidate_seq": 358,
-      "company": "Umelife",
-      "employment_type": null,
-      "external_id": "6290:95602065",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Boon Keng, Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-30T01:56:39Z",
-      "public_slug": "large-language-model-llm-evaluation-engineer-umelife-n4vnlcek",
-      "role_key": "freehire:large-language-model-llm-evaluation-engineer-umelife-n4vnlcek",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95602065?utm_source=freehire.me",
-      "title": "Large Language Model (LLM) Evaluation Engineer"
-    },
-    {
-      "ai_score": 7,
+      "ai_score": 6,
       "ai_signals": [
         "title:genai",
-        "jd:llm",
         "jd:genai"
       ],
-      "candidate_seq": 359,
-      "company": "D L RESOURCES PTE LTD",
+      "candidate_seq": 434,
+      "company": "Nanyang Technological University Singapore",
       "employment_type": null,
-      "external_id": ":8fbcc05e30694162d9fb3a08537f5981",
+      "external_id": "data engineer:94533487",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "senior-genai-application-engineer-bank-sector-client-d-l-resources-pte-ltd-5whjou6f",
-      "role_key": "freehire:senior-genai-application-engineer-bank-sector-client-d-l-resources-pte-ltd-5whjou6f",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/8fbcc05e30694162d9fb3a08537f5981?utm_source=freehire.me",
-      "title": "Senior GenAI Application Engineer - Bank Sector Client"
+      "posted_at": "2026-10-31T12:40:40Z",
+      "public_slug": "senior-data-genai-platform-engineer-nanyang-technological-university-singapore-uygkwzpr",
+      "role_key": "freehire:senior-data-genai-platform-engineer-nanyang-technological-university-singapore-uygkwzpr",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94533487__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & GenAI Platform Engineer"
     },
     {
-      "ai_score": 7,
+      "ai_score": 6,
       "ai_signals": [
         "title:ai",
-        "jd:llm",
         "jd:agent",
         "jd:rag"
       ],
-      "candidate_seq": 360,
-      "company": "SCHONFELD STRATEGIC ADVISORS (SINGAPORE) PTE. LTD.",
+      "candidate_seq": 435,
+      "company": "foodpanda",
       "employment_type": null,
-      "external_id": ":2585094fdfe11a3e3ff1b91fa5dec1e1",
+      "external_id": "data engineer:94534715",
       "flags": [
-        "experience_5_plus_hint"
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "ai-platform-engineer-schonfeld-strategic-advisors-singapore-pte-ltd-cyizfbom",
-      "role_key": "freehire:ai-platform-engineer-schonfeld-strategic-advisors-singapore-pte-ltd-cyizfbom",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/2585094fdfe11a3e3ff1b91fa5dec1e1?utm_source=freehire.me",
-      "title": "AI Platform Engineer"
+      "posted_at": "2026-10-31T12:40:37Z",
+      "public_slug": "senior-data-ai-engineer-build-production-ai-pipelines-foodpanda-6hhctxed",
+      "role_key": "freehire:senior-data-ai-engineer-build-production-ai-pipelines-foodpanda-6hhctxed",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534715__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & AI Engineer: Build Production AI & Pipelines"
     },
     {
-      "ai_score": 7,
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 436,
+      "company": "D L RESOURCES PTE LTD",
+      "employment_type": null,
+      "external_id": "data engineer:94534940",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:40:36Z",
+      "public_slug": "genai-ready-data-integration-engineer-d-l-resources-pte-ltd-jpdklchu",
+      "role_key": "freehire:genai-ready-data-integration-engineer-d-l-resources-pte-ltd-jpdklchu",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534940__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "GenAI-Ready Data Integration Engineer"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 437,
+      "company": "Nanyang Technological University",
+      "employment_type": null,
+      "external_id": "data engineer:94535106",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:40:36Z",
+      "public_slug": "senior-data-genai-engineer-pipelines-platforms-cloud-nanyang-technological-university-vytxkr3y",
+      "role_key": "freehire:senior-data-genai-engineer-pipelines-platforms-cloud-nanyang-technological-university-vytxkr3y",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94535106__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & GenAI Engineer: Pipelines, Platforms & Cloud"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:genai",
+        "jd:genai"
+      ],
+      "candidate_seq": 438,
+      "company": "1011 United Overseas Bank Ltd",
+      "employment_type": null,
+      "external_id": "backend developer:94535860",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:39:48Z",
+      "public_slug": "vp-enterprise-genai-backend-engineer-group-technology-ops-1011-united-overseas-bank-ltd-pj5gv4n4",
+      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-1011-united-overseas-bank-ltd-pj5gv4n4",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94535860__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:llm",
+        "jd:llm"
+      ],
+      "candidate_seq": 439,
+      "company": "ONCOSHOT PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93903064",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T16:40:19Z",
+      "public_slug": "senior-llm-extraction-engineer-oncology-data-oncoshot-pte-ltd-cjpquq3h",
+      "role_key": "freehire:senior-llm-extraction-engineer-oncology-data-oncoshot-pte-ltd-cjpquq3h",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93903064__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior LLM Extraction Engineer – Oncology Data"
+    },
+    {
+      "ai_score": 6,
       "ai_signals": [
         "title:ai",
         "jd:llm",
-        "jd:agent",
-        "jd:rag"
+        "jd:retrieval"
       ],
-      "candidate_seq": 361,
-      "company": "Schonfeld",
+      "candidate_seq": 440,
+      "company": "Binance",
       "employment_type": null,
-      "external_id": "schonfeld:8303536",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
+      "external_id": "binance:5002573101",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hong Kong, Hong Kong; Singapore, Central, Singapore",
+      "location": "Hong Kong; Singapore; Taiwan",
       "market": "SG",
-      "posted_at": "2026-10-29T10:29:44Z",
-      "public_slug": "ai-site-reliability-engineer-schonfeld-57bv72rv",
-      "role_key": "freehire:ai-site-reliability-engineer-schonfeld-57bv72rv",
+      "posted_at": "2026-11-03T11:58:25Z",
+      "public_slug": "binance-accelerator-program-ai-engineer-dev-tools-binance-6gsjkhgr",
+      "role_key": "freehire:binance-accelerator-program-ai-engineer-dev-tools-binance-6gsjkhgr",
       "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/schonfeld/jobs/8303536?utm_source=freehire.me",
-      "title": "AI Platform Engineer"
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002573101?utm_source=freehire.me",
+      "title": "Binance Accelerator Program - AI Engineer, Dev Tools"
     }
   ],
-  "generated_at": "2026-11-05T01:51:04.091579Z",
+  "generated_at": "2026-11-05T08:36:07.058202Z",
   "market": "SG",
-  "max_candidate_seq": 361,
-  "min_candidate_seq": 353,
+  "max_candidate_seq": 440,
+  "min_candidate_seq": 433,
   "shard_index": 4,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
