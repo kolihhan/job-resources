@@ -5,9 +5,9 @@
     {
       "role_key": "freehire:suan-fa-gong-cheng-shi-llm-ai-agent-fang-xiang-meituan-eckpjemm",
       "candidate_seq": 1510,
-      "reason_code": "authoritative_source_timeout",
-      "attempts": 4,
-      "next_retry_at": "2026-11-05T02:14:09+08:00",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 5,
+      "next_retry_at": "2026-11-05T12:10:38+08:00",
       "company": "Meituan",
       "title": "算法工程师｜LLM / AI Agent 方向",
       "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4592562550"
@@ -36,8 +36,8 @@
       "role_key": "freehire:a-li-guo-ji-zhan-agentic-ai-suan-fa-gong-cheng-shi-shen-zhen-alibaba-group-tobatfbu",
       "candidate_seq": 1537,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T01:14:03+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-05T12:10:38+08:00",
       "company": "Alibaba Group",
       "title": "阿里国际站-Agentic AI 算法工程师-深圳",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100048720006"
@@ -146,8 +146,8 @@
       "role_key": "freehire:ai-gong-cheng-shi-haidilao-s2nebgtm",
       "candidate_seq": 1640,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T01:14:03+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-05T12:10:38+08:00",
       "company": "Haidilao",
       "title": "AI 工程师",
       "source_url": "https://haidilao.jobs.feishu.cn/index/position/7585124139137255734/detail"
@@ -346,8 +346,8 @@
       "role_key": "freehire:llm-agentgong-cheng-shi-trae-bytedance-geodaiyr",
       "candidate_seq": 1737,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T01:14:03+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-05T12:10:38+08:00",
       "company": "ByteDance",
       "title": "LLM Agent工程师-TRAE",
       "source_url": "https://jobs.bytedance.com/experienced/position/7572521002975119669/detail"
