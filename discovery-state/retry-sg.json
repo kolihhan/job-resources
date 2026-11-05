@@ -352,6 +352,16 @@
       "reason_code": "current_listing_and_ai_content_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T11:00:00+08:00"
+    },
+    {
+      "candidate_seq": 327,
+      "role_key": "freehire:data-engineer-ai-ml-pipelines-digital-twin-thales-group-ndmeax64",
+      "company": "Thales Group",
+      "title": "Data Engineer: AI/ML Pipelines & Digital Twin",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91184124__7119",
+      "reason_code": "digital_twin_ai_core_and_authoritative_source_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:00:00+08:00"
     }
   ]
 }
