@@ -2,15 +2,15 @@
   "version": 2,
   "market": "CN",
   "platform_cycle": 19,
-  "next_platform_index": 0,
-  "next_owner_bucket": 3,
-  "next_query_bucket": 4,
-  "run_counter": 63,
-  "last_completed_at": "2026-11-05T09:14:50+08:00",
+  "next_platform_index": 2,
+  "next_owner_bucket": 4,
+  "next_query_bucket": 5,
+  "run_counter": 64,
+  "last_completed_at": "2026-11-05T10:10:38+08:00",
   "last_platforms": [
-    "脉脉 / team-direct recruiting signals",
-    "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals"
+    "BOSS直聘",
+    "牛客招聘"
   ],
-  "last_owner_bucket": 2,
-  "last_query_bucket": 3
+  "last_owner_bucket": 3,
+  "last_query_bucket": 4
 }
