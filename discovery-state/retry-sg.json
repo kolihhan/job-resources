@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T18:00:01+08:00",
+  "updated_at": "2026-11-05T18:57:23+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -982,6 +982,106 @@
       "reason_code": "authoritative_jd_eligibility_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 429,
+      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-uob-xkfmho6f",
+      "company": "UOB",
+      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94636602__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 430,
+      "role_key": "freehire:senior-genai-backend-engineer-enterprise-production-uob-ogy27mh3",
+      "company": "UOB",
+      "title": "Senior GenAI Backend Engineer - Enterprise Production",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637542__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 431,
+      "role_key": "freehire:genai-driven-full-stack-developer-react-python-zeal-infotech-pte-ltd-2zlqvl37",
+      "company": "ZEAL INFOTECH PTE. LTD.",
+      "title": "GenAI-Driven Full-Stack Developer (React+Python)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94639463__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 432,
+      "role_key": "freehire:data-scientist-ml-data-analytics-pipelines-xiaomi-technologies-singapore-pte-ltd-64ow6qqy",
+      "company": "XIAOMI TECHNOLOGIES SINGAPORE PTE. LTD.",
+      "title": "Data Scientist: ML & Data Analytics Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030388__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 433,
+      "role_key": "freehire:senior-software-engineer-data-ai-foodpanda-singapore-pte-ltd-6txodize",
+      "company": "FOODPANDA SINGAPORE PTE. LTD.",
+      "title": "Senior Software Engineer (Data & AI)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536631__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 434,
+      "role_key": "freehire:senior-data-genai-platform-engineer-nanyang-technological-university-singapore-uygkwzpr",
+      "company": "Nanyang Technological University Singapore",
+      "title": "Senior Data & GenAI Platform Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94533487__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 435,
+      "role_key": "freehire:senior-data-ai-engineer-build-production-ai-pipelines-foodpanda-6hhctxed",
+      "company": "foodpanda",
+      "title": "Senior Data & AI Engineer: Build Production AI & Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534715__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 436,
+      "role_key": "freehire:genai-ready-data-integration-engineer-d-l-resources-pte-ltd-jpdklchu",
+      "company": "D L RESOURCES PTE LTD",
+      "title": "GenAI-Ready Data Integration Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534940__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 437,
+      "role_key": "freehire:senior-data-genai-engineer-pipelines-platforms-cloud-nanyang-technological-university-vytxkr3y",
+      "company": "Nanyang Technological University",
+      "title": "Senior Data & GenAI Engineer: Pipelines, Platforms & Cloud",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94535106__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 438,
+      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-1011-united-overseas-bank-ltd-pj5gv4n4",
+      "company": "1011 United Overseas Bank Ltd",
+      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94535860__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T19:00:00+08:00"
     }
   ]
 }
