@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T13:57:44+08:00",
+  "updated_at": "2026-11-05T15:01:40+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -582,6 +582,106 @@
       "reason_code": "authoritative_jd_seniority_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T13:57:44+08:00"
+    },
+    {
+      "candidate_seq": 371,
+      "role_key": "freehire:data-scientist-healthcare-gmp-recruitment-services-s-pte-ltd-66xuyjca",
+      "company": "GMP RECRUITMENT SERVICES (S) PTE LTD",
+      "title": "Data Scientist (Healthcare)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/8c29de2ebeac061e0372644f0489d4df?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 372,
+      "role_key": "freehire:ai-engineer-carecam-pte-ltd-pt63e5wy",
+      "company": "CARECAM PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/691618e42edc7d56f05813c69933f226?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 375,
+      "role_key": "freehire:eg-ai-engineer-contact-centre-ncs-group-k3b2v7fe",
+      "company": "NCS Group",
+      "title": "#EG AI Engineer (Contact Centre)",
+      "source_url": "https://sg.jobstreet.com/job/95361109?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 376,
+      "role_key": "freehire:046-ai-engineer-ai-maintenance-technology-upgrades-ridik-a-subsidiary-of-clps-nasdaq-clps-lbpd4735",
+      "company": "RiDiK (a Subsidiary of CLPS. Nasdaq: CLPS)",
+      "title": "046 - AI Engineer – AI Maintenance & Technology Upgrades",
+      "source_url": "https://sg.jobstreet.com/job/95334908?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 377,
+      "role_key": "freehire:ai-native-fullstack-developer-devxlabs-j47uwkcd",
+      "company": "Devxlabs",
+      "title": "AI-native Fullstack Developer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93582394__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 378,
+      "role_key": "freehire:banking-ai-backend-developer-persol-singapore-pte-ltd-nv77vtnh",
+      "company": "PERSOL SINGAPORE PTE. LTD.",
+      "title": "Banking AI & Backend Developer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93583539__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 379,
+      "role_key": "freehire:senior-machine-learning-engineer-cgg-services-sas-wec6ecn7",
+      "company": "CGG Services SAS",
+      "title": "Senior Machine Learning Engineer",
+      "source_url": "https://startup.jobs/senior-machine-learning-engineer-cgg-services-sas-8744336?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 381,
+      "role_key": "freehire:ai-engineer-associate-paves-technologies-nfwl6ly5",
+      "company": "Paves Technologies",
+      "title": "AI Engineer – Associate",
+      "source_url": "https://sg.jobstreet.com/job/95294829?utm_source=freehire.me",
+      "reason_code": "sg_pr_preferred_and_ai_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 384,
+      "role_key": "freehire:data-scientist-machine-learning-flintex-2prkt45t",
+      "company": "Flintex",
+      "title": "Data Scientist (Machine Learning)",
+      "source_url": "https://flintex.zohorecruit.com/jobs/Careers/418400000046473156?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
+    },
+    {
+      "candidate_seq": 386,
+      "role_key": "freehire:m01-ai-engineer-fpt-asia-pacific-pte-ltd-gvpdykn4",
+      "company": "FPT Asia Pacific Pte Ltd",
+      "title": "M01 - AI Engineer",
+      "source_url": "https://www.careers-page.com/fpt-asia-pacific-pte-ltd/job/RY98577X?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T15:01:40+08:00"
     }
   ]
 }
