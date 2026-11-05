@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T12:56:05+08:00",
+  "updated_at": "2026-11-05T13:57:44+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -512,6 +512,76 @@
       "reason_code": "cross_source_schonfeld_identity_and_seniority_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 362,
+      "role_key": "freehire:sg-362-razer-asia-pacific-pte-ltd-",
+      "company": "RAZER (ASIA-PACIFIC) PTE. LTD.",
+      "title": "Senior Data Scientist",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/1f9243e691115e6b4dcb7b1b2e085b30",
+      "reason_code": "seniority_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T13:57:44+08:00"
+    },
+    {
+      "candidate_seq": 363,
+      "role_key": "freehire:sg-363-fuku",
+      "company": "Fuku",
+      "title": "AI Engineer",
+      "source_url": "https://apply.workable.com/j/1A9684305E",
+      "reason_code": "official_jd_unreadable_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T13:57:44+08:00"
+    },
+    {
+      "candidate_seq": 365,
+      "role_key": "freehire:sg-365-realtek-singapore-private-limited",
+      "company": "REALTEK SINGAPORE PRIVATE LIMITED",
+      "title": "Senior AI Engineer – Design Automation",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/09b85d0f143666d58288c702204c184a",
+      "reason_code": "design_automation_scope_seniority_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T13:57:44+08:00"
+    },
+    {
+      "candidate_seq": 366,
+      "role_key": "freehire:sg-366-umelife-singapore-pte-ltd-",
+      "company": "UMELIFE (SINGAPORE) PTE. LTD.",
+      "title": "Large Language Model (LLM) Evaluation Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/47d6691239e542dcfd2d7fac41e8eba2",
+      "reason_code": "official_jd_eligibility_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T13:57:44+08:00"
+    },
+    {
+      "candidate_seq": 367,
+      "role_key": "freehire:sg-367-kuailu-software-singapore-pte-ltd-",
+      "company": "KUAILU SOFTWARE (SINGAPORE) PTE. LTD.",
+      "title": "Large Language Model (LLM) Evaluation Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/b3a1c1c7b977d25a2fbe592b042c1427",
+      "reason_code": "official_jd_eligibility_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T13:57:44+08:00"
+    },
+    {
+      "candidate_seq": 368,
+      "role_key": "freehire:sg-368-anotech-energy-singapore-pte-ltd-",
+      "company": "ANOTECH ENERGY SINGAPORE PTE. LTD.",
+      "title": "Software Engineer - GenAI",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/c8c6b2909581898f792f079e920ec30f",
+      "reason_code": "official_jd_eligibility_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T13:57:44+08:00"
+    },
+    {
+      "candidate_seq": 370,
+      "role_key": "freehire:sg-370-luxoft-information-technology-singa",
+      "company": "luxoft information technology (singapore) pte. ltd.",
+      "title": "Senior AI Data Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93803377__7119",
+      "reason_code": "authoritative_jd_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T13:57:44+08:00"
     }
   ]
 }
