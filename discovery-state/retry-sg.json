@@ -1,14 +1,14 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T18:57:23+08:00",
+  "updated_at": "2026-11-05T21:00:59+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
       "role_key": "freehire:graduate-big-data-engineer-ai-ml-search-infra-tiktok-irgxapdm",
-      "reason_code": "source_unverifiable",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T19:02:31+08:00",
+      "reason_code": "graduate_campaign_and_exact_official_role_unresolved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T09:00:59+08:00",
       "company": "TikTok",
       "title": "Graduate Big Data Engineer — AI/ML & Search Infra",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90422145__7119"
@@ -16,9 +16,9 @@
     {
       "candidate_seq": 243,
       "role_key": "freehire:data-engineer-ii-ai-ml-pipelines-impact-quantumblack-ai-by-mckinsey-ots33tio",
-      "reason_code": "source_unverifiable",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T19:02:31+08:00",
+      "reason_code": "official_jd_found_but_fit_and_route_not_final",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T09:00:59+08:00",
       "company": "QuantumBlack, AI by McKinsey",
       "title": "Data Engineer II: AI/ML Pipelines & Impact",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88841792__7119"
@@ -26,9 +26,9 @@
     {
       "candidate_seq": 245,
       "role_key": "freehire:ai-engineer-forward-deployed-engineer-unison-group-wzmmtf4j",
-      "reason_code": "source_unverifiable",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T19:02:31+08:00",
+      "reason_code": "mandatory_4plus_years_confirmed_secondary_source_official_identity_unresolved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T09:00:59+08:00",
       "company": "Unison Group",
       "title": "AI Engineer - Forward Deployed Engineer",
       "source_url": "https://apply.workable.com/j/59B9556BEF"
@@ -1082,6 +1082,106 @@
       "reason_code": "authoritative_jd_content_liveness_workpass_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T19:00:00+08:00"
+    },
+    {
+      "candidate_seq": 439,
+      "role_key": "freehire:senior-llm-extraction-engineer-oncology-data-oncoshot-pte-ltd-cjpquq3h",
+      "company": "ONCOSHOT PTE. LTD.",
+      "title": "Senior LLM Extraction Engineer – Oncology Data",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93903064__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 440,
+      "role_key": "freehire:binance-accelerator-program-ai-engineer-dev-tools-binance-6gsjkhgr",
+      "company": "Binance",
+      "title": "Binance Accelerator Program - AI Engineer, Dev Tools",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002573101?utm_source=freehire.me",
+      "reason_code": "official_greenhouse_page_and_accelerator_eligibility_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 441,
+      "role_key": "freehire:senior-ai-engineer-thoughtworks-a7ayupct",
+      "company": "Thoughtworks",
+      "title": "Senior AI Engineer",
+      "source_url": "https://www.thoughtworks.com/careers/jobs/8200470?gh_jid=8200470&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 442,
+      "role_key": "freehire:software-engineer-ai-anchor-search-group-pte-ltd-s3jcaaju",
+      "company": "ANCHOR SEARCH GROUP PTE. LTD.",
+      "title": "Software Engineer - AI",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/fa2c7ea3d79199f4a20c1e627e1f9655?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 443,
+      "role_key": "freehire:ai-engineer-ccp-for-ict-professionals-cfgi-singapore-private-limited-swunypdu",
+      "company": "CFGI (SINGAPORE) PRIVATE LIMITED",
+      "title": "AI Engineer [CCP for ICT Professionals]",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6aad36959a0e0e87f2074354355b7c05?utm_source=freehire.me",
+      "reason_code": "ccp_program_eligibility_and_non_mcf_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 444,
+      "role_key": "freehire:machine-learning-engineer-emerging-business-tiktok-bric-tiktok-i7rionnq",
+      "company": "TikTok",
+      "title": "Machine Learning Engineer - Emerging Business - TikTok BRIC",
+      "source_url": "https://sg.jobstreet.com/job/95587195?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 445,
+      "role_key": "freehire:data-scientist-ai-engineer-wivoo-pbdpt2yg",
+      "company": "Wivoo",
+      "title": "Data Scientist / AI Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94379680__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 446,
+      "role_key": "freehire:ai-driven-backend-engineer-python-java-spring-boot-hi5-elite-pte-ltd-la3zcr6o",
+      "company": "HI5 ELITE PTE. LTD.",
+      "title": "AI-Driven Backend Engineer (Python/Java, Spring Boot)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94384158__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 447,
+      "role_key": "freehire:ai-solutions-engineer-xfusion-jqny6xr4",
+      "company": "xFusion",
+      "title": "AI Solutions Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95585000?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 448,
+      "role_key": "freehire:forward-deployed-engineer-genai-thai-english-singapore-google-asia-pacific-pte-ltd-5bgcvs2b",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "title": "Forward Deployed Engineer, GenAI (Thai, English) - Singapore",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/3d0d2d238bb302e8167d7d7be70ea2e1?utm_source=freehire.me",
+      "reason_code": "thai_language_requirement_and_non_mcf_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T09:00:59+08:00"
     }
   ]
 }
