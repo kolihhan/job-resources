@@ -2,17 +2,17 @@
   "version": 2,
   "market": "SG",
   "platform_cycle": 31,
-  "next_platform_index": 0,
-  "next_owner_bucket": 1,
-  "next_query_bucket": 1,
-  "next_research_bucket": 2,
-  "run_counter": 70,
-  "last_completed_at": "2026-11-05T20:01:54+08:00",
+  "next_platform_index": 2,
+  "next_owner_bucket": 2,
+  "next_query_bucket": 2,
+  "next_research_bucket": 3,
+  "run_counter": 71,
+  "last_completed_at": "2026-11-05T21:00:59+08:00",
   "last_platforms": [
-    "MyCareersFuture",
-    "recruiter / team / PI direct posts"
+    "LinkedIn Jobs Singapore",
+    "JobStreet Singapore"
   ],
-  "last_owner_bucket": "NUS / NTU / A*STAR / AI Singapore",
-  "last_query_bucket": "Agent / LLM / RAG / evaluation",
-  "last_research_bucket": "NTU"
+  "last_owner_bucket": "Sea / SAIL / Shopee / Grab / Singtel",
+  "last_query_bucket": "NLP / search / retrieval / ranking / knowledge graph",
+  "last_research_bucket": "A*STAR"
 }
