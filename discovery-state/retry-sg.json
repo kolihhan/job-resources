@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T11:57:42+08:00",
+  "updated_at": "2026-11-05T12:56:05+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -422,6 +422,96 @@
       "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T11:57:42+08:00"
+    },
+    {
+      "candidate_seq": 351,
+      "role_key": "freehire:sg-351-apple",
+      "company": "Apple",
+      "title": "Senior Software Engineer (Data Solutions), AI & Data Platforms",
+      "source_url": "https://jobs.apple.com/en-us/details/200692847/senior-software-engineer-data-solutions-ai-data-platforms",
+      "reason_code": "authoritative_jd_eligibility_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 352,
+      "role_key": "freehire:sg-352-tiktok",
+      "company": "TikTok",
+      "title": "Research Scientist - LLM Applications (2027 PhD)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6b152768fd1fac97793c6c9c5744d78c",
+      "reason_code": "phd_2027_campaign_and_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 353,
+      "role_key": "freehire:sg-353-helius-technologies",
+      "company": "Helius Technologies",
+      "title": "AI Engineer: RAG Pipelines for Enterprise Data",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380198__7119",
+      "reason_code": "authoritative_jd_eligibility_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 354,
+      "role_key": "freehire:sg-354-hudson-river-trading",
+      "company": "Hudson River Trading",
+      "title": "Applied AI Engineer",
+      "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8234195",
+      "reason_code": "authoritative_jd_eligibility_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 355,
+      "role_key": "freehire:sg-355-binance",
+      "company": "Binance",
+      "title": "Accelerator Program - Data Scientist (LLM & Trading)",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002579101",
+      "reason_code": "authoritative_jd_eligibility_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 357,
+      "role_key": "freehire:sg-357-schonfeld",
+      "company": "Schonfeld",
+      "title": "AI Platform Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95614718",
+      "reason_code": "cross_source_schonfeld_identity_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 358,
+      "role_key": "freehire:sg-358-umelife",
+      "company": "Umelife",
+      "title": "LLM Evaluation Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95602065",
+      "reason_code": "authoritative_jd_eligibility_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 359,
+      "role_key": "freehire:sg-359-d-l-resources",
+      "company": "D L Resources",
+      "title": "Senior GenAI Application Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/8fbcc05e30694162d9fb3a08537f5981",
+      "reason_code": "authoritative_jd_eligibility_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
+    },
+    {
+      "candidate_seq": 360,
+      "role_key": "freehire:sg-360-schonfeld",
+      "company": "Schonfeld",
+      "title": "AI Platform Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/2585094fdfe11a3e3ff1b91fa5dec1e1",
+      "reason_code": "cross_source_schonfeld_identity_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T12:56:05+08:00"
     }
   ]
 }
