@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-05T06:15:14+08:00",
+  "updated_at": "2026-11-05T08:25:00+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -37,17 +37,6 @@
       "detail": "2026-11-04T16:24:24+08:00 Independent JD describes Kubernetes/Rancher/BI/ML pipeline customer delivery; employer exact role and permanent direct employment not verified; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Only third-party Kubernetes/ML delivery listing found; no official Accenture requisition or permanent terms. 2026-11-04T22:24+08:00: Existing third-party Kubernetes/ML delivery JD; no verified employer-owned exact requisition, permanent terms, or TOP-level fit. 2026-11-05T06:15+08:00: Expertini substantive Kubernetes/Rancher/ML data pipeline JD found, but no employer-owned exact requisition or permanent terms verified."
     },
     {
-      "candidate_seq": 2531,
-      "company": "Bitdeer (NASDAQ: BTDR)",
-      "title": "Senior Cloud DevOps Engineer – AI & HPC Infra",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26824609__7112",
-      "role_key": "freehire:senior-cloud-devops-engineer-ai-hpc-infra-bitdeer-nasdaq-btdr-6upusual",
-      "reason_code": "verification_pending",
-      "attempts": 6,
-      "next_retry_at": "2026-11-04T23:20:00+08:00",
-      "detail": "2026-11-04T16:24:24+08:00 Senior AI/HPC infrastructure role lacks authoritative exact JD and realistic YOE verification; preserve. 2026-11-04T19:19+08:00: Rechecked indexed full-JD/official-role signals; unresolved canonical exact role or employment and quality gate. No promotion. 2026-11-04T21:24+08:00: Current Bitdeer listings corroborate senior infrastructure family, but exact role and hard requirements not employer-verified. 2026-11-04T22:24+08:00: Senior AI/HPC cloud infrastructure; no employer exact requisition and realistic hard fit evidence."
-    },
-    {
       "role_key": "freehire:cloud-devops-engineer-aws-ai-automations-respond-fvras7cv",
       "candidate_seq": 2537,
       "reason_code": "verification_pending",
@@ -74,33 +63,33 @@
       "company": "Gen",
       "title": "Machine Learning Engineer",
       "source_url": "https://arc.dev/remote-jobs/j/gen-machine-learning-engineer-ptstbvc5av",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. Gen role identity vs existing MoneyLion/Gen issues remains unresolved; no verified current exact canonical route. 2026-11-04T20:19+08:00: Official Gen/MoneyLion Machine Learning Engineer already has APPLY Issue, but arc.dev source identity is not proven identical; exact match unresolved. 2026-11-04T21:24+08:00: Gen arc.dev role not matched to distinct official requisition; historical Gen/MoneyLion issue remains suspicion only. 2026-11-04T22:24+08:00: Arc.dev Gen Machine Learning Engineer lacks verified distinct official requisition versus existing Gen/MoneyLion issue.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. Gen role identity vs existing MoneyLion/Gen issues remains unresolved; no verified current exact canonical route. 2026-11-04T20:19+08:00: Official Gen/MoneyLion Machine Learning Engineer already has APPLY Issue, but arc.dev source identity is not proven identical; exact match unresolved. 2026-11-04T21:24+08:00: Gen arc.dev role not matched to distinct official requisition; historical Gen/MoneyLion issue remains suspicion only. 2026-11-04T22:24+08:00: Arc.dev Gen Machine Learning Engineer lacks verified distinct official requisition versus existing Gen/MoneyLion issue. 2026-11-05T08:25+08:00: New indexed Gen/MoneyLion ML Engineer JD overlaps existing APPLY #687; no employer requisition ID proving distinct role, retained as suspected history.",
       "role_key": "freehire:seq-2642",
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T23:20:00+08:00"
+      "attempts": 6,
+      "next_retry_at": "2026-11-05T12:20:00+08:00"
     },
     {
       "candidate_seq": 2717,
       "company": "MaiStorage",
       "title": "AI Engineer (Solution)",
       "source_url": "https://my.jobstreet.com/job/95662622",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage Solution exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage Solution listing 95662622; historical same-title CLOSED issue exists for expired earlier listing; new identity unresolved, preserve. 2026-11-04T21:24+08:00: MaiStorage Solution JobStreet 95662622 not proven distinct from historical closed same-title role; official route/quality unresolved. 2026-11-04T22:24+08:00: JobStreet live employer listing shows full-time solution AI engineering; historical same-title CLOSED issue, exact new requisition identity unresolved.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage Solution exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage Solution listing 95662622; historical same-title CLOSED issue exists for expired earlier listing; new identity unresolved, preserve. 2026-11-04T21:24+08:00: MaiStorage Solution JobStreet 95662622 not proven distinct from historical closed same-title role; official route/quality unresolved. 2026-11-04T22:24+08:00: JobStreet live employer listing shows full-time solution AI engineering; historical same-title CLOSED issue, exact new requisition identity unresolved. 2026-11-05T08:25+08:00: JobStreet current MaiStorage Solution listing verified, but same-title CLOSED #264; board ID 95662622 absent from issue history and distinct employer requisition unproven.",
       "role_key": "freehire:seq-2717",
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T23:20:00+08:00"
+      "attempts": 6,
+      "next_retry_at": "2026-11-05T12:20:00+08:00"
     },
     {
       "candidate_seq": 2718,
       "company": "MaiStorage",
       "title": "AI Engineer (R&D)",
       "source_url": "https://my.jobstreet.com/job/95661869",
-      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage R&D exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage R&D listing 95661869, full-time RM6K–8K fresh-graduate friendly; historical same-title SKIP Issue exists; new requisition identity and destination-quality decision unresolved. 2026-11-04T21:24+08:00: MaiStorage R&D JobStreet 95661869 appears graduate-friendly but distinct requisition and employer quality not confirmed; historical SKIP respected. 2026-11-04T22:24+08:00: JobStreet live employer listing shows full-time, fresh graduate welcome, RM6k-8k; full independent JD is LLM GPU/kernel/memory optimization; historical same-title SKIP and destination/skill-fit unresolved.",
+      "detail": "2026-11-04T17:20:22+08:00 Rechecked authoritative/best-available JD and exact identity. MaiStorage R&D exact JobStreet ID still requires cross-history role identity and canonical route verification. 2026-11-04T20:19+08:00: Current JobStreet MaiStorage R&D listing 95661869, full-time RM6K–8K fresh-graduate friendly; historical same-title SKIP Issue exists; new requisition identity and destination-quality decision unresolved. 2026-11-04T21:24+08:00: MaiStorage R&D JobStreet 95661869 appears graduate-friendly but distinct requisition and employer quality not confirmed; historical SKIP respected. 2026-11-04T22:24+08:00: JobStreet live employer listing shows full-time, fresh graduate welcome, RM6k-8k; full independent JD is LLM GPU/kernel/memory optimization; historical same-title SKIP and destination/skill-fit unresolved. 2026-11-05T08:25+08:00: JobStreet current MaiStorage R&D full-time RM6k-8k fresh-grad listing verified; historical SKIP #383 and core GPU/kernel fit mismatch remain; distinct requisition and MY-TOP quality unproven.",
       "role_key": "freehire:seq-2718",
       "reason_code": "verification_pending",
-      "attempts": 5,
-      "next_retry_at": "2026-11-04T23:20:00+08:00"
+      "attempts": 6,
+      "next_retry_at": "2026-11-05T12:20:00+08:00"
     }
   ]
 }
