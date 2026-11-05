@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T10:58:55+08:00",
+  "updated_at": "2026-11-05T11:57:42+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -362,6 +362,66 @@
       "reason_code": "digital_twin_ai_core_and_authoritative_source_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T11:00:00+08:00"
+    },
+    {
+      "candidate_seq": 340,
+      "role_key": "freehire:ai-agent-engineer-tiktok-live-singapore-tiktok-ydcmboln",
+      "company": "TikTok",
+      "title": "AI Agent Engineer - TikTok LIVE (Singapore)",
+      "source_url": "https://sg.jobstreet.com/job/91295557",
+      "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:57:42+08:00"
+    },
+    {
+      "candidate_seq": 341,
+      "role_key": "freehire:ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-epomuqoi",
+      "company": "jpmc-dev9.fa.oraclecloud.com/CX",
+      "title": "AI/ML Capabilities – Associate, APAC Chief & Data Analytics Office",
+      "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731274",
+      "reason_code": "jpmc_official_role_liveness_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:57:42+08:00"
+    },
+    {
+      "candidate_seq": 342,
+      "role_key": "freehire:ai-ml-solutions-enablement-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-hhxjhfmk",
+      "company": "jpmc-dev9.fa.oraclecloud.com/CX",
+      "title": "AI/ML Solutions Enablement – Associate, APAC Chief & Data Analytics Office",
+      "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731292",
+      "reason_code": "jpmc_official_role_liveness_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:57:42+08:00"
+    },
+    {
+      "candidate_seq": 345,
+      "role_key": "freehire:llm-mllm-algorithm-engineer-global-e-commerce-bytedance-a7fcewzb",
+      "company": "ByteDance",
+      "title": "LLM/MLLM Algorithm Engineer - Global E-Commerce",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7621874043991132421/detail",
+      "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:57:42+08:00"
+    },
+    {
+      "candidate_seq": 346,
+      "role_key": "freehire:ai-engineer-fuku-bem735ht",
+      "company": "Fuku",
+      "title": "Ai engineer",
+      "source_url": "https://apply.workable.com/j/BA5E438B6A",
+      "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:57:42+08:00"
+    },
+    {
+      "candidate_seq": 347,
+      "role_key": "freehire:ai-engineer-artificial-intelligencecontract-banking-fuku-3554xmjy",
+      "company": "Fuku",
+      "title": "AI Engineer / Artificial IntelligenceContract- Banking",
+      "source_url": "https://apply.workable.com/j/123210122A",
+      "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:57:42+08:00"
     }
   ]
 }
