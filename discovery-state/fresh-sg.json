@@ -2,17 +2,17 @@
   "version": 2,
   "market": "SG",
   "platform_cycle": 27,
-  "next_platform_index": 1,
-  "next_owner_bucket": 4,
-  "next_query_bucket": 4,
-  "next_research_bucket": 0,
-  "run_counter": 63,
-  "last_completed_at": "2026-11-05T12:56:05+08:00",
+  "next_platform_index": 3,
+  "next_owner_bucket": 0,
+  "next_query_bucket": 0,
+  "next_research_bucket": 1,
+  "run_counter": 64,
+  "last_completed_at": "2026-11-05T13:57:44+08:00",
   "last_platforms": [
-    "recruiter / team / PI direct posts",
-    "LinkedIn Jobs Singapore"
+    "JobStreet Singapore",
+    "Indeed Singapore"
   ],
-  "last_owner_bucket": "Google / Microsoft / Apple / OpenAI",
-  "last_query_bucket": "RA / RE / Applied Scientist + LLM/NLP",
-  "last_research_bucket": "SUTD"
+  "last_owner_bucket": "strong finance / fintech AI teams and other recurring canonical owners",
+  "last_query_bucket": "coding agent / MCP / tool use / agent reliability",
+  "last_research_bucket": "NUS"
 }
