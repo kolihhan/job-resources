@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T03:55:11+08:00",
+  "updated_at": "2026-11-06T04:57:08+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -1822,6 +1822,86 @@
       "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
       "attempts": 1,
       "next_retry_at": "2026-11-06T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 541,
+      "role_key": "freehire:ai-safety-governance-engineer-sage-ntu-ohyuutkx",
+      "company": "Ntu",
+      "title": "AI Safety & Governance Engineer (SAGE)",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Safety---Governance-Engineer--SAGE-_R00025725?utm_source=freehire.me",
+      "reason_code": "official_jd_2to4_years_security_testing_and_sg_workpass_review",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:57:08+08:00"
+    },
+    {
+      "candidate_seq": 544,
+      "role_key": "freehire:ai-software-engineer-unison-group-6m4vbbq5",
+      "company": "Unison Group",
+      "title": "AI Software Engineer",
+      "source_url": "https://apply.workable.com/j/1217C1F456?utm_source=freehire.me",
+      "reason_code": "official_jd_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:57:08+08:00"
+    },
+    {
+      "candidate_seq": 546,
+      "role_key": "freehire:ai-infrastructure-engineer-graduate-tiktok-recommendation-architecture-singapore-2027-start-bytedance-pjkgtsrl",
+      "company": "ByteDance",
+      "title": "AI Infrastructure Engineer Graduate (TikTok Recommendation Architecture, Singapore) - 2027 Start",
+      "source_url": "https://jobs.bytedance.com/campus/position/7680867503056898309/detail?utm_source=freehire.me",
+      "reason_code": "2027_graduate_campaign_eligibility_and_official_role_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:57:08+08:00"
+    },
+    {
+      "candidate_seq": 549,
+      "role_key": "freehire:production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac",
+      "company": "Qube Research & Technologies",
+      "title": "Production Support Engineer — LLM Platform",
+      "source_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002?utm_source=freehire.me",
+      "reason_code": "production_support_llm_platform_scope_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:57:08+08:00"
+    },
+    {
+      "candidate_seq": 551,
+      "role_key": "freehire:data-scientist-platform-ai-squad-group-data-office-avp-vp-ocbc-lszyuwns",
+      "company": "ocbc",
+      "title": "Data Scientist, Platform AI Squad, Group Data Office (AVP/VP)",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/Data-Scientist--Platform-AI-Squad--Group-Data-Office--AVP-VP-_JR00010526-1?utm_source=freehire.me",
+      "reason_code": "avp_vp_seniority_and_actual_llm_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:57:08+08:00"
+    },
+    {
+      "candidate_seq": 553,
+      "role_key": "freehire:senior-backend-engineer-machine-learning-server-parameter-ego-team-shopee-exx4v4bb",
+      "company": "Shopee",
+      "title": "Senior Backend Engineer (Machine Learning Server Parameter) - EGO team",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90355551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "senior_cpp_parameter_server_6plus_years_probable_mismatch_authoritative_jd_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:57:08+08:00"
+    },
+    {
+      "candidate_seq": 554,
+      "role_key": "freehire:applied-ai-engineer-the-gmp-group-monackox",
+      "company": "The GMP Group",
+      "title": "Applied AI Engineer",
+      "source_url": "https://www.careers-page.com/gmp-group-2/job/4R65V7YV?utm_source=freehire.me",
+      "reason_code": "recruiter_role_employer_identity_sg_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:57:08+08:00"
+    },
+    {
+      "candidate_seq": 555,
+      "role_key": "freehire:senior-ai-engineer-krisvconsulting-services-pte-ltd-w25q72q4",
+      "company": "Krisvconsulting Services Pte Ltd",
+      "title": "Senior AI Engineer",
+      "source_url": "https://www.careers-page.com/krisvconsulting-services-pte-ltd/job/RYR4YY3R?utm_source=freehire.me",
+      "reason_code": "senior_title_experience_and_llm_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:57:08+08:00"
     }
   ]
 }
