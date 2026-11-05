@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T00:05:30+08:00",
+  "updated_at": "2026-11-06T01:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -86,9 +86,9 @@
     {
       "candidate_seq": 271,
       "role_key": "freehire:space-executive-ml-engineer-supply-chain-ai",
-      "reason_code": "mcf_only_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T01:00:46+08:00",
+      "reason_code": "full_linkedin_jd_read_supply_chain_mlops_not_north_star_no_verified_non_mcf_route",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T01:05:00+08:00",
       "company": "SPACE EXECUTIVE PTE. LTD.",
       "title": "ML Engineer - Supply Chain AI",
       "source_url": "https://www.mycareersfuture.gov.sg/job/70213c308b9482247a3018e34b45108e"
@@ -1462,6 +1462,106 @@
       "reason_code": "authoritative_jd_and_eligibility_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 484,
+      "role_key": "freehire:data-scientist-junior-mid-ai-analyst-one-tech-stop-pte-ltd-mazek2hm",
+      "company": "ONE TECH STOP PTE. LTD.",
+      "title": "Data Scientist (Junior-Mid AI Analyst)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/7da6d0fa9bd32f773c663256b4d7bfac?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 485,
+      "role_key": "freehire:data-scientist-ai-analyst-consultant-recruit-express-pte-ltd-zvhtml2w",
+      "company": "RECRUIT EXPRESS PTE LTD",
+      "title": "Data Scientist (AI Analyst Consultant)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/02fa77cf36f91547cdacd9922d2c0301?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 486,
+      "role_key": "freehire:backend-engineer-ai-platform-agent-dadaconsultants-pte-ltd-j3naiqog",
+      "company": "DADACONSULTANTS PTE. LTD.",
+      "title": "Backend Engineer （AI platform/agent）",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93876002__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 487,
+      "role_key": "freehire:ai-engineer-multimedia-engineering-pte-ltd-cbuvwmc4",
+      "company": "Multimedia Engineering Pte Ltd",
+      "title": "AI Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95414467?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 488,
+      "role_key": "freehire:asus-aics-sg-machine-learning-engineer-asus-global-pte-ltd-gsudqty5",
+      "company": "ASUS GLOBAL PTE. LTD.",
+      "title": "ASUS AICS SG - Machine Learning Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/63426649ee7f8f9f4e579b383eced832?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 493,
+      "role_key": "freehire:ai-engineer-conex-healthcare-pte-ltd-ancj7ru4",
+      "company": "CONEX HEALTHCARE PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/0acf54646d7230f5fb19f1eb93051de8?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 494,
+      "role_key": "freehire:research-engineer-i-computer-science-artificial-intelligence-data-science-electrical-engineering-nanyang-technological-university-oaoi5ssh",
+      "company": "Nanyang Technological University",
+      "title": "Research Engineer I (Computer Science / Artificial Intelligence / Data Science / Electrical Engineering)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763505__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 496,
+      "role_key": "freehire:ai-product-engineer-garena-qonvsqbd",
+      "company": "Garena",
+      "title": "AI Product Engineer",
+      "source_url": "https://careers.garena.com/global/careers/J02145135?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 497,
+      "role_key": "freehire:full-stack-engineer-gen-ai-kyndryl-singapore-pte-ltd-pvgxdebj",
+      "company": "KYNDRYL (SINGAPORE) PTE. LTD.",
+      "title": "Full Stack Engineer (Gen AI)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531988__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
+    },
+    {
+      "candidate_seq": 498,
+      "role_key": "freehire:genai-focused-full-stack-engineer-for-public-sector-2y-govtech-singapore-wasas2vf",
+      "company": "GovTech Singapore",
+      "title": "GenAI-Focused Full-Stack Engineer for Public Sector (2y)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93532221__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T10:05:00+08:00"
     }
   ]
 }
