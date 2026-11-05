@@ -1,18 +1,18 @@
 {
   "version": 2,
   "market": "SG",
-  "platform_cycle": 35,
-  "next_platform_index": 3,
-  "next_owner_bucket": 0,
-  "next_query_bucket": 0,
-  "next_research_bucket": 1,
-  "run_counter": 79,
-  "last_completed_at": "2026-11-06T04:57:08+08:00",
+  "platform_cycle": 36,
+  "next_platform_index": 0,
+  "next_owner_bucket": 1,
+  "next_query_bucket": 1,
+  "next_research_bucket": 2,
+  "run_counter": 80,
+  "last_completed_at": "2026-11-06T07:01:12+08:00",
   "last_platforms": [
-    "JobStreet Singapore",
-    "Indeed Singapore"
+    "MyCareersFuture",
+    "recruiter / team / PI direct posts"
   ],
-  "last_owner_bucket": "strong finance / fintech AI teams and other recurring canonical owners",
-  "last_query_bucket": "coding agent / MCP / tool use / agent reliability",
-  "last_research_bucket": "NUS"
+  "last_owner_bucket": "NUS / NTU / A*STAR / AI Singapore",
+  "last_query_bucket": "Agent / LLM / RAG / evaluation",
+  "last_research_bucket": "NTU"
 }
