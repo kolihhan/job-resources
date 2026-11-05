@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T22:57:29+08:00",
+  "updated_at": "2026-11-06T00:05:30+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -59,9 +59,9 @@
       "company": "FPT Software",
       "title": "M01 - ML/AI Engineer (DPA)",
       "source_url": "https://sg.jobstreet.com/job/95588553",
-      "reason_code": "source_unverifiable_possible_cross_source_duplicate",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T23:58:09+08:00"
+      "reason_code": "jobstreet_exact_jd_inaccessible_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
     },
     {
       "candidate_seq": 268,
@@ -69,9 +69,9 @@
       "company": "SURBANA JURONG SERVICES PTE. LTD.",
       "title": "Senior AI Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/396351082f0359cfddf08908fa6f7f49",
-      "reason_code": "mcf_only_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T23:58:09+08:00"
+      "reason_code": "mcf_only_non_mcf_route_unverified_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
     },
     {
       "candidate_seq": 269,
@@ -79,9 +79,9 @@
       "company": "SURBANA JURONG SERVICES PTE. LTD.",
       "title": "AI Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/153b62e0cf904edd41ee3dac2e48b0c0",
-      "reason_code": "mcf_only_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T23:58:09+08:00"
+      "reason_code": "mcf_only_non_mcf_route_unverified_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
     },
     {
       "candidate_seq": 271,
@@ -1372,6 +1372,96 @@
       "reason_code": "cross_source_identity_and_non_mcf_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "candidate_seq": 474,
+      "role_key": "freehire:backend-engineer-applied-machine-learning-platform-singapore-regular-bytedance-old-x2x26wdc",
+      "company": "ByteDance (old)",
+      "title": "Backend Engineer - Applied Machine Learning Platform Singapore Regular",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93973157__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_and_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 475,
+      "role_key": "freehire:ai-engineer-ai-products-nanyang-technological-university-h7432t6u",
+      "company": "Nanyang Technological University",
+      "title": "AI Engineer (AI Products)",
+      "source_url": "https://sg.jobstreet.com/job/95469343?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_and_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 476,
+      "role_key": "freehire:senior-software-engineer-ml-infrastructure-motional-singapore-pte-limited-jsg5jjae",
+      "company": "MOTIONAL SINGAPORE PTE. LIMITED",
+      "title": "Senior Software Engineer, ML Infrastructure",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/5b1f2806d39dd83dc58990c1ecbda955?utm_source=freehire.me",
+      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 477,
+      "role_key": "freehire:data-scientist-business-analyst-ai-recruit-express-pte-ltd-7omukwty",
+      "company": "RECRUIT EXPRESS PTE LTD",
+      "title": "Data Scientist | Business Analyst (AI)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/dae0a84885989516e4174b889c8ddb7d?utm_source=freehire.me",
+      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 478,
+      "role_key": "freehire:forward-deployed-engineer-genai-mandarin-english-singapore-google-asia-pacific-pte-ltd-md3apz6w",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "title": "Forward Deployed Engineer, GenAI (Mandarin, English) - Singapore",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/b2401c45a2744b5abd723314056dd8d0?utm_source=freehire.me",
+      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 479,
+      "role_key": "freehire:ai-analyst-data-scientist-recruit-express-pte-ltd-ohmboypy",
+      "company": "RECRUIT EXPRESS PTE LTD",
+      "title": "AI Analyst (Data Scientist)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/9c577010728ec1132cd546fdf08c0d9d?utm_source=freehire.me",
+      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 480,
+      "role_key": "freehire:ai-solutions-engineer-absolute-kinetics-consultancy-pte-ltd-2wqqekpd",
+      "company": "ABSOLUTE KINETICS CONSULTANCY PTE LTD",
+      "title": "AI Solutions Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/c9ad5937a04ae41cbef0bcb0a7fcf460?utm_source=freehire.me",
+      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 481,
+      "role_key": "freehire:research-engineer-ii-computer-science-cyber-security-artificial-intelligence-nanyang-technological-university-dgeqpo36",
+      "company": "NANYANG TECHNOLOGICAL UNIVERSITY",
+      "title": "Research Engineer II (Computer Science / Cyber Security / Artificial Intelligence)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/38b96a7df87e6d304419aa322d5a1988?utm_source=freehire.me",
+      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
+    },
+    {
+      "candidate_seq": 482,
+      "role_key": "freehire:genai-engineer-data-dashboards-deployments-etonhouse-international-education-group-xkjbbv6j",
+      "company": "EtonHouse International Education Group",
+      "title": "GenAI Engineer: Data, Dashboards & Deployments",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93922015__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_and_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T06:05:30+08:00"
     }
   ]
 }
