@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T17:00:50+08:00",
+  "updated_at": "2026-11-05T18:00:01+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -882,6 +882,106 @@
       "reason_code": "authoritative_jd_eligibility_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T17:00:50+08:00"
+    },
+    {
+      "candidate_seq": 419,
+      "role_key": "freehire:site-reliability-engineer-machine-learning-systems-singapore-bytedance-xwnxlwp5",
+      "company": "ByteDance",
+      "title": "Site Reliability Engineer - Machine Learning Systems (Singapore)",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7584749586574805253/detail?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 420,
+      "role_key": "freehire:machine-learning-system-engineer-data-aml-soaring-star-talent-program-bytedance-ebznjzds",
+      "company": "ByteDance",
+      "title": "Machine Learning System Engineer - Data AML - Soaring Star Talent Program",
+      "source_url": "https://jobs.bytedance.com/campus/position/7508727792475162887/detail?utm_source=freehire.me",
+      "reason_code": "soaring_star_campaign_eligibility_and_official_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 421,
+      "role_key": "freehire:backend-engineer-applied-machine-learning-platform-bytedance-m6bnfyer",
+      "company": "ByteDance",
+      "title": "Backend Engineer, Applied Machine Learning Platform",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7389885881886804251/detail?utm_source=freehire.me",
+      "reason_code": "suspected_known_exact_issue_id_not_found_official_identity_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 422,
+      "role_key": "freehire:site-reliability-engineer-machine-learning-systems-singapore-bytedance-cmyvlme2",
+      "company": "ByteDance",
+      "title": "Site Reliability Engineer, Machine Learning Systems - Singapore",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7374622806136637723/detail?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 423,
+      "role_key": "freehire:data-scientist-machine-learning-lomotif-e3j3bchw",
+      "company": "Lomotif",
+      "title": "Data Scientist (Machine Learning)",
+      "source_url": "https://jobs.smartrecruiters.com/Httpwwwlomotifcomabouthtml/743999719990432-data-scientist-machine-learning-?utm_source=freehire.me",
+      "reason_code": "historical_listing_liveness_and_ai_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 424,
+      "role_key": "freehire:genai-driven-full-stack-engineer-react-python-zeal-infotech-zp3ei4ey",
+      "company": "ZEAL INFOTECH",
+      "title": "GenAI‑Driven Full-Stack Engineer (React + Python)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94708938__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 425,
+      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-uob-venture-ns4huzg2",
+      "company": "UOB Venture",
+      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94650283__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "reason_code": "vp_seniority_and_official_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 426,
+      "role_key": "freehire:software-engineer-ltm-limited-singapore-branch-2em7tlgq",
+      "company": "LTM LIMITED SINGAPORE BRANCH",
+      "title": "Software Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/832ddd4eb503f3a7d0f8a07c0d4fc5df?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 427,
+      "role_key": "freehire:ai-engineer-seng-heng-engineering-private-limited-fbx3frwf",
+      "company": "SENG HENG ENGINEERING (PRIVATE) LIMITED",
+      "title": "AI ENGINEER",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/98fde559cd8c5daa0e48caab5895885f?utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
+    },
+    {
+      "candidate_seq": 428,
+      "role_key": "freehire:data-engineer-content-processing-ai-pipelines-centre-for-strategic-infocomm-technologies-ype2v5ce",
+      "company": "Centre for Strategic Infocomm Technologies",
+      "title": "Data Engineer, Content Processing & AI Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94640263__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:00:01+08:00"
     }
   ]
 }
