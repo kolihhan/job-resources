@@ -106,8 +106,8 @@
       "role_key": "freehire:agentic-aisuan-fa-gong-cheng-shi-feng-kong-bytedance-7axmwvlv",
       "candidate_seq": 1625,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-05T06:11:41+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-06T18:06:31+08:00",
       "company": "ByteDance",
       "title": "Agentic AI算法工程师 - 风控",
       "source_url": "https://jobs.bytedance.com/campus/position/7667900909641369909/detail"
@@ -466,8 +466,8 @@
       "role_key": "freehire:qian-wen-ban-gong-ai-ke-hu-duan-quan-zhan-kai-fa-gong-cheng-shi-hang-zhou-shen-zhen-alibaba-group-ontemeii",
       "candidate_seq": 1765,
       "reason_code": "verification_source_not_confirmed",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T05:06:17+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T18:06:31+08:00",
       "company": "Alibaba Group",
       "title": "千问办公-AI 客户端全栈开发工程师-杭州",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100034880003"
@@ -476,8 +476,8 @@
       "role_key": "freehire:ai-engineer-ii-schneider-electric-jn3pzldb",
       "candidate_seq": 1766,
       "reason_code": "verification_source_not_confirmed",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T05:06:17+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T18:06:31+08:00",
       "company": "Schneider Electric",
       "title": "AI Engineer II",
       "source_url": "https://se.jibeapply.com/careers-home/jobs/140009"
@@ -536,8 +536,8 @@
       "role_key": "freehire:guang-zi-ai-da-yu-yan-mo-xing-codingsuan-fa-zhuan-jia-tencent-rdzumuyk",
       "candidate_seq": 1789,
       "reason_code": "authoritative_jd_and_eligibility_unverified",
-      "attempts": 0,
-      "next_retry_at": "2026-11-05T05:06:17+08:00",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T18:06:31+08:00",
       "company": "Tencent",
       "title": "光子 AI-大语言模型Coding算法专家",
       "source_url": "https://careers.tencent.com/jobdesc.html?postId=2067104290106945536"
