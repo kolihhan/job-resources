@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T08:55:56+08:00",
+  "updated_at": "2026-11-05T10:58:55+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -282,6 +282,76 @@
       "reason_code": "suspected_existing_wait_issue_285_exact_identity_unresolved",
       "attempts": 1,
       "next_retry_at": "2026-11-06T08:55:56+08:00"
+    },
+    {
+      "candidate_seq": 323,
+      "role_key": "freehire:pending-323",
+      "company": "Mindteck",
+      "title": "Full Stack Developer – AI/ML",
+      "source_url": "https://sg.jobstreet.com/job/94836064",
+      "reason_code": "employment_type_citizenship_conflicting_sources",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:00:00+08:00"
+    },
+    {
+      "candidate_seq": 329,
+      "role_key": "freehire:pending-329",
+      "company": "TikTok",
+      "title": "AI Agent Engineer (Stability) - TikTok",
+      "source_url": "https://sg.jobstreet.com/job/94243455",
+      "reason_code": "official_role_and_material_agent_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:00:00+08:00"
+    },
+    {
+      "candidate_seq": 330,
+      "role_key": "freehire:pending-330",
+      "company": "Bitdeer Technologies Group",
+      "title": "Senior LLM Inference Performance and Evaluation Engineer",
+      "source_url": "https://bitdeer.breezy.hr/p/fa503f83da0a-senior-llm-inference-performance-evaluation-engineer",
+      "reason_code": "mandatory_seniority_and_current_liveness_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:00:00+08:00"
+    },
+    {
+      "candidate_seq": 333,
+      "role_key": "freehire:pending-333",
+      "company": "Singapore Telecommunications",
+      "title": "AI Solutions Engineer",
+      "source_url": "https://sg.jobstreet.com/job/93886201",
+      "reason_code": "current_listing_and_employment_terms_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:00:00+08:00"
+    },
+    {
+      "candidate_seq": 335,
+      "role_key": "freehire:pending-335",
+      "company": "TikTok",
+      "title": "Software Test Engineer (AI), TikTok Search",
+      "source_url": "https://sg.jobstreet.com/job/93760147",
+      "reason_code": "official_ai_scope_and_role_liveness_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:00:00+08:00"
+    },
+    {
+      "candidate_seq": 336,
+      "role_key": "freehire:pending-336",
+      "company": "cygnify",
+      "title": "Data Scientist – AI Fintech",
+      "source_url": "https://jobs.ashbyhq.com/cygnify/913e503d-07b4-4f67-8435-36d9a9b6dff1",
+      "reason_code": "ai_content_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:00:00+08:00"
+    },
+    {
+      "candidate_seq": 337,
+      "role_key": "freehire:pending-337",
+      "company": "Nestria",
+      "title": "Applied ML / AI Engineer",
+      "source_url": "https://sg.jobstreet.com/job/93250277",
+      "reason_code": "current_listing_and_ai_content_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T11:00:00+08:00"
     }
   ]
 }
