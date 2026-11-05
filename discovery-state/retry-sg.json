@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T04:57:08+08:00",
+  "updated_at": "2026-11-06T07:01:12+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -59,9 +59,9 @@
       "company": "FPT Software",
       "title": "M01 - ML/AI Engineer (DPA)",
       "source_url": "https://sg.jobstreet.com/job/95588553",
-      "reason_code": "jobstreet_exact_jd_inaccessible_on_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "jobstreet_exact_jd_inaccessible_on_retry_recheck_route_or_jd_still_unverified",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 268,
@@ -98,50 +98,50 @@
       "company": "NEWBRIDGE ALLIANCE PTE. LTD.",
       "title": "AI Mobile Application Developer (iOS / Android / Cross-Platform)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/586092938adde85077e3d3572df02f4c",
-      "reason_code": "mcf_only_route_unresolved",
+      "reason_code": "mcf_only_route_unresolved_recheck_route_or_jd_still_unverified",
       "role_key": "freehire:ai-mobile-application-developer-ios-android-cross-platform-newbridge-alliance-pte-ltd-4n4ieb57",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T05:12:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 277,
       "company": "TIKTOK PTE. LTD.",
       "title": "AI Agent Development Engineer Graduate (TikTok Monetization Quality Assurance) - 2027 Start",
       "source_url": "https://www.mycareersfuture.gov.sg/job/b16a3888c7fa8ef4b7d11bc5d73bb241",
-      "reason_code": "graduate_2027_campaign_and_non_mcf_route_unresolved",
+      "reason_code": "graduate_2027_campaign_and_non_mcf_route_unresolved_recheck_route_or_jd_still_unverified",
       "role_key": "freehire:ai-agent-development-engineer-graduate-tiktok-monetization-quality-assurance-2027-start-tiktok-pte-ltd-r6np4pvi",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T05:12:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 279,
       "company": "INFOWIZ PTE LTD",
       "title": "Machine Learning Engineer / Data Scientist",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94037158__7119",
-      "reason_code": "source_unverifiable",
+      "reason_code": "source_unverifiable_recheck_route_or_jd_still_unverified",
       "role_key": "freehire:machine-learning-engineer-data-scientist-infowiz-pte-ltd-ck5bkzro",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T05:12:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 280,
       "company": "Evolution Singapore",
       "title": "AI/ML Engineer – Data & Deployment Specialist",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93983474__7119",
-      "reason_code": "source_unverifiable",
+      "reason_code": "source_unverifiable_recheck_route_or_jd_still_unverified",
       "role_key": "freehire:ai-ml-engineer-data-deployment-specialist-evolution-singapore-7zz6ggxk",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T05:12:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 282,
       "company": "PayPal",
       "title": "Senior Agentic AI Engineer",
       "source_url": "https://paypal.eightfold.ai/careers/job/274923002548",
-      "reason_code": "seniority_equivalent_experience_and_workpass_route_review",
+      "reason_code": "seniority_equivalent_experience_and_workpass_route_review_recheck_route_or_jd_still_unverified",
       "role_key": "freehire:senior-agentic-ai-engineer-paypal-skz22kig",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T05:12:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 284,
@@ -149,9 +149,9 @@
       "company": "RECRUITPEDIA PTE. LTD.",
       "title": "Senior AI Engineer (Supply Chain & Retail AI)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/8c9e6d08792de94d6fffd044e4453e47?utm_source=freehire.me",
-      "reason_code": "mcf_only_route_and_eligibility_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:00:00+08:00"
+      "reason_code": "mcf_only_route_and_eligibility_unresolved_recheck_route_or_jd_still_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 285,
@@ -159,9 +159,9 @@
       "company": "ELLIOTT MOSS CONSULTING PTE. LTD.",
       "title": "AI Engineer (Gemini Enterprise Agent )",
       "source_url": "https://www.mycareersfuture.gov.sg/job/d0649178d780a8b60929120a35030cd0?utm_source=freehire.me",
-      "reason_code": "mcf_only_route_and_eligibility_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:00:00+08:00"
+      "reason_code": "mcf_only_route_and_eligibility_unresolved_recheck_route_or_jd_still_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 286,
@@ -169,9 +169,9 @@
       "company": "Seatrium (SG) Pte. Ltd.",
       "title": "AI/ML Platform Engineer — Production Pipelines & MLOps",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92736210__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "official_source_unverifiable",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:00:00+08:00"
+      "reason_code": "official_source_unverifiable_recheck_route_or_jd_still_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 287,
@@ -179,9 +179,9 @@
       "company": "SCIENTEC CONSULTING PTE. LTD.",
       "title": "AI Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/acd50e27dd4d2b517d0f6c02324d4e16?utm_source=freehire.me",
-      "reason_code": "mcf_only_route_and_eligibility_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:00:00+08:00"
+      "reason_code": "mcf_only_route_and_eligibility_unresolved_recheck_route_or_jd_still_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
       "candidate_seq": 289,
@@ -1902,6 +1902,46 @@
       "reason_code": "senior_title_experience_and_llm_scope_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-06T10:57:08+08:00"
+    },
+    {
+      "candidate_seq": 556,
+      "role_key": "freehire:senior-data-scientist-enterprise-ai-krisvconsulting-services-pte-ltd-bba63tt6",
+      "company": "Krisvconsulting Services Pte Ltd",
+      "title": "Senior Data Scientist – Enterprise AI",
+      "source_url": "https://www.careers-page.com/krisvconsulting-services-pte-ltd/job/RYR4YYV6?utm_source=freehire.me",
+      "reason_code": "official_exact_jd_liveness_eligibility_and_non_mcf_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
+    },
+    {
+      "candidate_seq": 563,
+      "role_key": "freehire:machine-learning-engineer-video-recommendation-singapore-tiktok-f6s7rcnb",
+      "company": "TikTok",
+      "title": "Machine Learning Engineer, Video Recommendation - Singapore",
+      "source_url": "https://sg.jobstreet.com/job/93558335?utm_source=freehire.me",
+      "reason_code": "official_exact_jd_liveness_eligibility_and_non_mcf_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
+    },
+    {
+      "candidate_seq": 566,
+      "role_key": "freehire:ai-engineer-azure-ai-solutions-unison-group-xtuawzck",
+      "company": "Unison Group",
+      "title": "AI Engineer (Azure AI Solutions)",
+      "source_url": "https://apply.workable.com/j/D3D079059F?utm_source=freehire.me",
+      "reason_code": "official_exact_jd_liveness_eligibility_and_non_mcf_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
+    },
+    {
+      "candidate_seq": 567,
+      "role_key": "freehire:ai-data-scientist-unison-group-ul2zji3p",
+      "company": "Unison Group",
+      "title": "AI Data Scientist",
+      "source_url": "https://apply.workable.com/j/F8F87FF946?utm_source=freehire.me",
+      "reason_code": "official_exact_jd_liveness_eligibility_and_non_mcf_route_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T07:01:12+08:00"
     }
   ]
 }
