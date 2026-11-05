@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-05T21:00:59+08:00",
+  "updated_at": "2026-11-05T22:08:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -39,9 +39,9 @@
       "company": "LRDTECH",
       "title": "AI / ML / Data Engineering",
       "source_url": "https://apply.workable.com/j/087BF2564D",
-      "reason_code": "source_unverifiable",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T21:58:03+08:00"
+      "reason_code": "official_application_source_inaccessible_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
     },
     {
       "candidate_seq": 260,
@@ -49,9 +49,9 @@
       "company": "Binance",
       "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
       "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
-      "reason_code": "source_unverifiable",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T21:58:03+08:00"
+      "reason_code": "official_application_source_inaccessible_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
     },
     {
       "candidate_seq": 267,
@@ -1182,6 +1182,96 @@
       "reason_code": "thai_language_requirement_and_non_mcf_route_unresolved",
       "attempts": 1,
       "next_retry_at": "2026-11-06T09:00:59+08:00"
+    },
+    {
+      "candidate_seq": 449,
+      "role_key": "freehire:data-ai-engineer-avallis-financial-pte-ltd-bhgefvp7",
+      "company": "AVALLIS FINANCIAL PTE. LTD.",
+      "title": "Data & AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/01192fca8bdb12f0a0d5c271ad9703f8",
+      "reason_code": "authoritative_jd_eligibility_sg_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 450,
+      "role_key": "freehire:ai-solutions-engineer-xfusion-international-pte-ltd-yvwpm47j",
+      "company": "XFUSION INTERNATIONAL PTE. LTD.",
+      "title": "AI Solutions Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/14ef834c99772228e246435602726f5b",
+      "reason_code": "authoritative_jd_eligibility_sg_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 451,
+      "role_key": "freehire:senior-software-engineer-data-ai-foodpanda-36ultjzc",
+      "company": "Foodpanda",
+      "title": "Senior Software Engineer (Data & AI)",
+      "source_url": "https://sg.jobstreet.com/job/95559102",
+      "reason_code": "cross_source_identity_seniority_and_authoritative_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 452,
+      "role_key": "freehire:senior-software-engineer-data-ai-delivery-hero-tm2xfnnc",
+      "company": "Delivery Hero",
+      "title": "Senior Software Engineer (Data & AI)",
+      "source_url": "https://jobs.smartrecruiters.com/DeliveryHero/744000158197189-senior-software-engineer-data-ai-",
+      "reason_code": "cross_source_identity_seniority_and_authoritative_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 453,
+      "role_key": "freehire:senior-ai-engineer-data-scientist-healthcare-cloud-ttsh-kfi6m52e",
+      "company": "Ttsh",
+      "title": "Senior AI Engineer & Data Scientist - Healthcare (Cloud)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061731__7119",
+      "reason_code": "authoritative_jd_eligibility_sg_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 454,
+      "role_key": "freehire:ai-engineer-fuku-sg3k6g5v",
+      "company": "Fuku",
+      "title": "AI engineer",
+      "source_url": "https://apply.workable.com/j/C7E7A9616B",
+      "reason_code": "authoritative_jd_eligibility_sg_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 455,
+      "role_key": "freehire:forward-deployed-engineer-genai-google-cloud-korean-english-singapore-google-asia-pacific-pte-ltd-irce2obg",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "title": "Forward Deployed Engineer, GenAI, Google Cloud (Korean, English) - Singapore",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6f538285a2432bf421daa303086c0baa",
+      "reason_code": "korean_language_requirement_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 456,
+      "role_key": "freehire:engineer-robotics-algorithm-slam-llm-black-sesame-technologies-singapore-pte-ltd-scpaxk4v",
+      "company": "BLACK SESAME TECHNOLOGIES (SINGAPORE) PTE. LTD.",
+      "title": "Engineer, Robotics Algorithm (SLAM & LLM)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/1bab9bae5efc4c0d97d373439cd867fb",
+      "reason_code": "authoritative_jd_eligibility_sg_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
+    },
+    {
+      "candidate_seq": 458,
+      "role_key": "freehire:senior-software-engineer-machine-learning-platform-airwallex-singapore-pte-ltd-bnow33ox",
+      "company": "AIRWALLEX (SINGAPORE) PTE. LTD.",
+      "title": "Senior Software Engineer, Machine Learning Platform",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/bf7a9738db91fb14f485aaca17827cc0",
+      "reason_code": "authoritative_jd_eligibility_sg_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-06T22:08:00+08:00"
     }
   ]
 }
