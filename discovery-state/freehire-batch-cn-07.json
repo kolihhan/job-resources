@@ -1,65 +1,167 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
+        "title:ml"
       ],
-      "candidate_seq": 1977,
-      "company": "Trip.com Group",
+      "candidate_seq": 2031,
+      "company": "Grab",
       "employment_type": null,
-      "external_id": "trip/70415:dd5d4d96-9a4e-46e2-87b6-7f3d31ccf465",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-29T06:34:46Z",
-      "public_slug": "hou-duan-kai-fa-zhuan-jia-trip-com-group-zfwgjpl4",
-      "role_key": "freehire:hou-duan-kai-fa-zhuan-jia-trip-com-group-zfwgjpl4",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/dd5d4d96-9a4e-46e2-87b6-7f3d31ccf465",
-      "title": "后端开发专家（租车）"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 1978,
-      "company": "Trip.com Group",
-      "employment_type": null,
-      "external_id": "trip/70415:f992e294-062c-4d88-8853-d817cbb06f7a",
+      "external_id": "Grab:744000152581689",
       "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Shanghai",
+      "location": "Beijing, cn",
       "market": "CN",
-      "posted_at": "2026-10-29T06:34:46Z",
-      "public_slug": "zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv",
-      "role_key": "freehire:zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/f992e294-062c-4d88-8853-d817cbb06f7a",
-      "title": "资深后端开发工程师（租车）"
+      "posted_at": "2026-09-30T02:08:24Z",
+      "public_slug": "senior-machine-learning-engineer-grab-gpfpcm5h",
+      "role_key": "freehire:senior-machine-learning-engineer-grab-gpfpcm5h",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/Grab/744000152581689-senior-machine-learning-engineer?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1981,
-      "company": "Pfizer",
+      "candidate_seq": 2032,
+      "company": "hkex",
       "employment_type": "full_time",
-      "external_id": "pfizer.wd1.myworkdayjobs.com/PfizerCareers:/job/China---Zhejiang---Hangzhou/Senior-AI-Infrastructure---Platform-Engineer_4966491",
+      "external_id": "hkex.wd3.myworkdayjobs.com/hkexcareerpage:/job/CN-Shenzhen-HyQ/Associate---Software-Developer---AI-Vulnerability-Triage---LME_R004438",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "CN-Shenzhen-HyQ",
+      "market": "CN",
+      "posted_at": "2026-09-30T00:00:00Z",
+      "public_slug": "associate-software-developer-ai-vulnerability-triage-lme-hkex-dgo6gz2f",
+      "role_key": "freehire:associate-software-developer-ai-vulnerability-triage-lme-hkex-dgo6gz2f",
+      "source": "workday",
+      "source_url": "https://hkex.wd3.myworkdayjobs.com/HKEXCareerPage/job/CN-Shenzhen-HyQ/Associate---Software-Developer---AI-Vulnerability-Triage---LME_R004438?utm_source=freehire.me",
+      "title": "Associate - Software Developer – AI Vulnerability Triage - LME"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2033,
+      "company": "Roche",
+      "employment_type": null,
+      "external_id": "roche.wd3.myworkdayjobs.com/roche-ext:/job/Shanghai/Applied-AI-Head---Roche-Information-Solutions-China_202609-124729-1",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-09-30T00:00:00Z",
+      "public_slug": "applied-ai-head-roche-information-solutions-china-roche-bb6q7mtr",
+      "role_key": "freehire:applied-ai-head-roche-information-solutions-china-roche-bb6q7mtr",
+      "source": "workday",
+      "source_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Shanghai/Applied-AI-Head---Roche-Information-Solutions-China_202609-124729-1?utm_source=freehire.me",
+      "title": "Applied AI Head - Roche Information Solutions China"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2035,
+      "company": "ocbc",
+      "employment_type": null,
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-China-Chengdu/AM--Data-Science--Reusable-AI-Squad_JR00011393",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "OCBC China, Chengdu",
+      "market": "CN",
+      "posted_at": "2026-09-28T00:00:00Z",
+      "public_slug": "am-data-science-reusable-ai-squad-ocbc-ixyhw72d",
+      "role_key": "freehire:am-data-science-reusable-ai-squad-ocbc-ixyhw72d",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-China-Chengdu/AM--Data-Science--Reusable-AI-Squad_JR00011393?utm_source=freehire.me",
+      "title": "AM, Data Science, Reusable AI Squad"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2038,
+      "company": "dbs",
+      "employment_type": "full_time",
+      "external_id": "dbs.wd3.myworkdayjobs.com/dbs_careers:/job/Guangzhou/AI-Engineer_WD89063",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Guangzhou",
+      "market": "CN",
+      "posted_at": "2026-09-24T00:00:00Z",
+      "public_slug": "ai-engineer-dbs-sw6alwpq",
+      "role_key": "freehire:ai-engineer-dbs-sw6alwpq",
+      "source": "workday",
+      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Guangzhou/AI-Engineer_WD89063?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2039,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7688617050661488901",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-09-23T06:43:44Z",
+      "public_slug": "ai-nativequan-zhan-gong-cheng-shi-dou-yin-zhi-bo-bytedance-vhmrqiao",
+      "role_key": "freehire:ai-nativequan-zhan-gong-cheng-shi-dou-yin-zhi-bo-bytedance-vhmrqiao",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7688617050661488901/detail?utm_source=freehire.me",
+      "title": "AI Native全栈工程师 - 抖音直播"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2041,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7687906361073551669",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shenzhen; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-09-21T08:44:34Z",
+      "public_slug": "ai-agentzhi-liang-xiao-neng-gong-cheng-shi-seed-chan-pin-yan-fa-zhi-liang-xiao-neng-bytedance-gzi2kw73",
+      "role_key": "freehire:ai-agentzhi-liang-xiao-neng-gong-cheng-shi-seed-chan-pin-yan-fa-zhi-liang-xiao-neng-bytedance-gzi2kw73",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7687906361073551669/detail?utm_source=freehire.me",
+      "title": "AI Agent质量效能工程师 - Seed 产品研发质量效能"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2042,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-DGX-Cloud-AI-Infrastructure-Software-Engineer_JR1998048",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -67,149 +169,20 @@
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China - Zhejiang - Hangzhou",
+      "location": "China, Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "senior-ai-infrastructure-platform-engineer-pfizer-xssmfy2u",
-      "role_key": "freehire:senior-ai-infrastructure-platform-engineer-pfizer-xssmfy2u",
+      "posted_at": "2026-09-21T00:00:00Z",
+      "public_slug": "senior-dgx-cloud-ai-infrastructure-software-engineer-nvidia-xrwlvzcx",
+      "role_key": "freehire:senior-dgx-cloud-ai-infrastructure-software-engineer-nvidia-xrwlvzcx",
       "source": "workday",
-      "source_url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Zhejiang---Hangzhou/Senior-AI-Infrastructure---Platform-Engineer_4966491?utm_source=freehire.me",
-      "title": "Senior AI Infrastructure & Platform Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1983,
-      "company": "Bjak",
-      "employment_type": "full_time",
-      "external_id": "bjakcareer:60def69d-14bc-44e9-af57-2f87fb3a827e",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Global",
-      "market": "CN",
-      "posted_at": "2026-11-04T04:45:33Z",
-      "public_slug": "ai-security-engineer-bjakcareer-3bfbsdh2",
-      "role_key": "freehire:ai-security-engineer-bjakcareer-3bfbsdh2",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/60def69d-14bc-44e9-af57-2f87fb3a827e?utm_source=freehire.me",
-      "title": "AI Security Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1991,
-      "company": "Bjak",
-      "employment_type": null,
-      "external_id": "bjakcareer:800c8f3d-fed6-42ee-9ddd-3ee2c026bd30",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "United States",
-      "market": "CN",
-      "posted_at": "2026-10-26T09:00:15Z",
-      "public_slug": "backend-engineer-ai-agent-systems-bjakcareer-xfgkztjy",
-      "role_key": "freehire:backend-engineer-ai-agent-systems-bjakcareer-xfgkztjy",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/800c8f3d-fed6-42ee-9ddd-3ee2c026bd30?utm_source=freehire.me",
-      "title": "Backend Engineer, AI (Agent Systems)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1992,
-      "company": "Bjak",
-      "employment_type": null,
-      "external_id": "bjakcareer:8a1ac53b-279c-4fe7-b126-1fbe2b284e92",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China",
-      "market": "CN",
-      "posted_at": "2026-10-26T08:51:55Z",
-      "public_slug": "full-stack-engineer-ai-internal-systems-bjakcareer-gsecmt3h",
-      "role_key": "freehire:full-stack-engineer-ai-internal-systems-bjakcareer-gsecmt3h",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/8a1ac53b-279c-4fe7-b126-1fbe2b284e92?utm_source=freehire.me",
-      "title": "Full Stack Engineer, AI Internal Systems"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1993,
-      "company": "Bjak",
-      "employment_type": null,
-      "external_id": "bjakcareer:4693af98-b7d4-47dd-a4c0-5d9ebdff081a",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China",
-      "market": "CN",
-      "posted_at": "2026-10-26T08:51:50Z",
-      "public_slug": "backend-engineer-ai-internal-systems-bjakcareer-a3hgny3t",
-      "role_key": "freehire:backend-engineer-ai-internal-systems-bjakcareer-a3hgny3t",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/4693af98-b7d4-47dd-a4c0-5d9ebdff081a?utm_source=freehire.me",
-      "title": "Backend Engineer, AI Internal Systems"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1994,
-      "company": "Schneider Electric",
-      "employment_type": null,
-      "external_id": "se.jibeapply.com:137672",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "China-Shanghai-Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-26T07:07:41Z",
-      "public_slug": "ai-engineer-i-schneider-electric-wx3z7sxi",
-      "role_key": "freehire:ai-engineer-i-schneider-electric-wx3z7sxi",
-      "source": "jibe",
-      "source_url": "https://se.jibeapply.com/careers-home/jobs/137672?utm_source=freehire.me",
-      "title": "AI Engineer I"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:nlp",
-        "jd:transformer",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 1995,
-      "company": "Zuoyebang",
-      "employment_type": null,
-      "external_id": "zuoyebang/41328:f5214b00-edbc-44ef-89a2-d46b5b45fa96",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "北京市, 北京市",
-      "market": "CN",
-      "posted_at": "2026-10-26T02:44:55Z",
-      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-zuoyebang-jc2dt7qy",
-      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-zuoyebang-jc2dt7qy",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/zuoyebang/41328?utm_source=freehire.me#/job/f5214b00-edbc-44ef-89a2-d46b5b45fa96",
-      "title": "大模型算法工程师"
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-DGX-Cloud-AI-Infrastructure-Software-Engineer_JR1998048?utm_source=freehire.me",
+      "title": "Senior DGX Cloud AI Infrastructure Software Engineer"
     }
   ],
-  "generated_at": "2026-11-05T16:53:18.599071Z",
+  "generated_at": "2026-11-05T22:55:40.942009Z",
   "market": "CN",
-  "max_candidate_seq": 1995,
-  "min_candidate_seq": 1977,
+  "max_candidate_seq": 2042,
+  "min_candidate_seq": 2031,
   "shard_index": 7,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

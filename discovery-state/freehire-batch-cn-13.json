@@ -1,57 +1,74 @@
 {
-  "candidate_count": 2,
+  "candidate_count": 3,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2071,
-      "company": "Apple",
+      "candidate_seq": 2103,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": ":200675988",
+      "external_id": "jobs.bytedance.com:7667950653440526645",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou; Shanghai; Beijing",
+      "market": "CN",
+      "posted_at": "2026-07-29T14:08:44Z",
+      "public_slug": "ai-codingsuan-fa-gong-cheng-shi-ai-platform-bytedance-l3kzplvc",
+      "role_key": "freehire:ai-codingsuan-fa-gong-cheng-shi-ai-platform-bytedance-l3kzplvc",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667950653440526645/detail?utm_source=freehire.me",
+      "title": "AI Coding算法工程师 - AI Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2104,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7667950077989980469",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-07-29T14:04:20Z",
+      "public_slug": "agentshu-ju-ping-ce-gong-cheng-shi-ai-platform-bytedance-hzhwtiyo",
+      "role_key": "freehire:agentshu-ju-ping-ce-gong-cheng-shi-ai-platform-bytedance-hzhwtiyo",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667950077989980469/detail?utm_source=freehire.me",
+      "title": "Agent数据&评测工程师 - AI Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2105,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7667888717122963765",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-08-08T00:20:03Z",
-      "public_slug": "software-engineer-data-services-is-t-ai-data-platforms-apple-4bj55sfz",
-      "role_key": "freehire:software-engineer-data-services-is-t-ai-data-platforms-apple-4bj55sfz",
-      "source": "apple",
-      "source_url": "https://jobs.apple.com/en-us/details/200675988/software-engineer-data-services-is-t-ai-data-platforms?utm_source=freehire.me",
-      "title": "Software Engineer, Data Services, IS&T Ai & Data Platforms"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:data_science",
-        "jd:machine_learning",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 2073,
-      "company": "WuXi Biologics",
-      "employment_type": null,
-      "external_id": "wuxibiologics/99960:f793a5cc-ae03-4669-af2c-90d2d675beb4",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-08-06T16:00:00Z",
-      "public_slug": "data-scientist-shu-ju-ke-xue-jia-wuxi-biologics-hu6njw5i",
-      "role_key": "freehire:data-scientist-shu-ju-ke-xue-jia-wuxi-biologics-hu6njw5i",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/wuxibiologics/99960?utm_source=freehire.me#/job/f793a5cc-ae03-4669-af2c-90d2d675beb4",
-      "title": "Data Scientist-数据科学家"
+      "posted_at": "2026-07-29T10:05:23Z",
+      "public_slug": "agentzi-jin-hua-suan-fa-gong-cheng-shi-ai-platform-bytedance-n4aqqyo2",
+      "role_key": "freehire:agentzi-jin-hua-suan-fa-gong-cheng-shi-ai-platform-bytedance-n4aqqyo2",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667888717122963765/detail?utm_source=freehire.me",
+      "title": "Agent自进化算法工程师 - AI Platform"
     }
   ],
-  "generated_at": "2026-11-05T16:53:18.599071Z",
+  "generated_at": "2026-11-05T22:55:40.942009Z",
   "market": "CN",
-  "max_candidate_seq": 2073,
-  "min_candidate_seq": 2071,
+  "max_candidate_seq": 2105,
+  "min_candidate_seq": 2103,
   "shard_index": 13,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

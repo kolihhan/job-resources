@@ -5,146 +5,153 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:agent"
+        "jd:machine_learning"
       ],
-      "candidate_seq": 606,
-      "company": "Blockchain Academics",
+      "candidate_seq": 658,
+      "company": "D8 LooP",
       "employment_type": null,
-      "external_id": "data engineer:94534141",
-      "flags": [],
+      "external_id": "data engineer:94030927",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:40:28Z",
-      "public_slug": "big-data-platform-engineer-ai-driven-crypto-infra-blockchain-academics-6mwymn33",
-      "role_key": "freehire:big-data-platform-engineer-ai-driven-crypto-infra-blockchain-academics-6mwymn33",
+      "posted_at": "2026-10-25T12:41:09Z",
+      "public_slug": "senior-data-engineer-real-time-data-ai-platform-d8-loop-lyf336sn",
+      "role_key": "freehire:senior-data-engineer-real-time-data-ai-platform-d8-loop-lyf336sn",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534141__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Big Data Platform Engineer — AI-Driven Crypto Infra"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030927__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer, Real-Time Data & AI Platform"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 659,
+      "company": "HTX (Home Team Science & Technology Agency)",
+      "employment_type": null,
+      "external_id": "full stack developer:94035322",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T12:41:03Z",
+      "public_slug": "senior-full-stack-engineer-ai-for-public-safety-htx-home-team-science-technology-agency-mbisbd24",
+      "role_key": "freehire:senior-full-stack-engineer-ai-for-public-safety-htx-home-team-science-technology-agency-mbisbd24",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94035322__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer: AI for Public Safety"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 660,
+      "company": "microsoft regional sales pte. ltd.",
+      "employment_type": null,
+      "external_id": "devops engineer:94029199",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T12:40:36Z",
+      "public_slug": "senior-solutions-engineer-ai-powered-devops-architect-microsoft-regional-sales-pte-ltd-3akdqc7k",
+      "role_key": "freehire:senior-solutions-engineer-ai-powered-devops-architect-microsoft-regional-sales-pte-ltd-3akdqc7k",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94029199__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Solutions Engineer – AI-Powered DevOps Architect"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 661,
+      "company": "CYBERVAULT INNOVATIONS AND TECHNOLOGIES PTE. LTD.",
+      "employment_type": null,
+      "external_id": "react developer:94031652",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T12:40:07Z",
+      "public_slug": "senior-full-stack-developer-react-python-ai-cybervault-innovations-and-technologies-pte-ltd-rb44da2x",
+      "role_key": "freehire:senior-full-stack-developer-react-python-ai-cybervault-innovations-and-technologies-pte-ltd-rb44da2x",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031652__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Developer: React, Python & AI"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:computer_vision",
         "jd:computer_vision"
       ],
-      "candidate_seq": 607,
-      "company": "Ailytics",
-      "employment_type": "full_time",
-      "external_id": "software-engineer:4878934",
+      "candidate_seq": 662,
+      "company": "Qeexo, Co.",
+      "employment_type": null,
+      "external_id": "35180-qeexo-co:120271",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T20:05:29Z",
-      "public_slug": "senior-ai-engineer-remote-within-2-5hrs-of-sgt-ailytics-wykmbx2y",
-      "role_key": "freehire:senior-ai-engineer-remote-within-2-5hrs-of-sgt-ailytics-wykmbx2y",
-      "source": "wellfound",
-      "source_url": "https://wellfound.com/jobs/4878934-senior-ai-engineer-remote-within-2-5hrs-of-sgt?utm_source=freehire.me",
-      "title": "Senior AI Engineer (Remote- Within 2.5Hrs of SGT)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 608,
-      "company": "dbs bank ltd.",
-      "employment_type": "full_time",
-      "external_id": "data engineer:94383331",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T16:40:20Z",
-      "public_slug": "svp-senior-cloud-engineer-data-ai-platform-group-technology-dbs-bank-ltd-kyupggr3",
-      "role_key": "freehire:svp-senior-cloud-engineer-data-ai-platform-group-technology-dbs-bank-ltd-kyupggr3",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94383331__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "SVP, Senior Cloud Engineer (Data & AI Platform), Group Technology"
+      "posted_at": "2026-10-24T23:10:36Z",
+      "public_slug": "computer-vision-sales-engineer-qeexo-co-bhftlijv",
+      "role_key": "freehire:computer-vision-sales-engineer-qeexo-co-bhftlijv",
+      "source": "trinethire",
+      "source_url": "https://app.trinethire.com/companies/35180-qeexo-co/jobs/120271-computer-vision-sales-engineer?utm_source=freehire.me",
+      "title": "Computer Vision Sales Engineer"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ml",
-        "jd:machine_learning"
+        "jd:pytorch"
       ],
-      "candidate_seq": 609,
-      "company": "Monee SG Private Limited",
+      "candidate_seq": 663,
+      "company": "ByteDance (old)",
       "employment_type": null,
-      "external_id": "data engineer:94033240",
+      "external_id": "data engineer:93113116",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T16:40:20Z",
-      "public_slug": "ml-platform-engineer-real-time-risk-data-pipelines-monee-sg-private-limited-r2ramvpz",
-      "role_key": "freehire:ml-platform-engineer-real-time-risk-data-pipelines-monee-sg-private-limited-r2ramvpz",
+      "posted_at": "2026-10-24T18:03:53Z",
+      "public_slug": "data-engineer-phd-scale-ml-infra-lakehouse-bytedance-old-6xppnojo",
+      "role_key": "freehire:data-engineer-phd-scale-ml-infra-lakehouse-bytedance-old-6xppnojo",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033240__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "ML Platform Engineer — Real-Time Risk & Data Pipelines"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 610,
-      "company": "Lex",
-      "employment_type": null,
-      "external_id": "data engineer:93955496",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T16:40:19Z",
-      "public_slug": "machine-learning-engineer-strategic-data-solutions-lex-4mya4gzi",
-      "role_key": "freehire:machine-learning-engineer-strategic-data-solutions-lex-4mya4gzi",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93955496__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Machine Learning Engineer, Strategic Data Solutions"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 611,
-      "company": "Lex",
-      "employment_type": null,
-      "external_id": "data engineer:93954658",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T16:40:19Z",
-      "public_slug": "ml-engineer-strategic-data-solutions-fulfillment-ops-lex-oggrf3i5",
-      "role_key": "freehire:ml-engineer-strategic-data-solutions-fulfillment-ops-lex-oggrf3i5",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93954658__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "ML Engineer, Strategic Data Solutions (Fulfillment Ops)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113116__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Engineer (PhD) – Scale ML Infra & Lakehouse"
     }
   ],
-  "generated_at": "2026-11-05T16:53:18.599071Z",
+  "generated_at": "2026-11-05T22:55:40.942009Z",
   "market": "SG",
-  "max_candidate_seq": 611,
-  "min_candidate_seq": 606,
+  "max_candidate_seq": 663,
+  "min_candidate_seq": 658,
   "shard_index": 13,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

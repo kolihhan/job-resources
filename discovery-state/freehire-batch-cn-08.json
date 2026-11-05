@@ -4,184 +4,184 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "jd:rag",
+        "title:ai"
+      ],
+      "candidate_seq": 2046,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7686429124152461621",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-09-17T09:10:52Z",
+      "public_slug": "da-mo-xing-ying-yong-jia-gou-shi-ai-agentfang-xiang-tiktok-sou-suo-bytedance-32opzpra",
+      "role_key": "freehire:da-mo-xing-ying-yong-jia-gou-shi-ai-agentfang-xiang-tiktok-sou-suo-bytedance-32opzpra",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7686429124152461621/detail?utm_source=freehire.me",
+      "title": "大模型应用架构师（AI Agent方向） - TikTok 搜索"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
         "jd:nlp",
         "jd:transformer",
         "jd:fine_tuning"
       ],
-      "candidate_seq": 1996,
-      "company": "Trip.com Group",
+      "candidate_seq": 2050,
+      "company": "Meituan",
       "employment_type": null,
-      "external_id": "trip/70415:e03d227f-0603-422f-913e-c111e26e2b75",
+      "external_id": ":4762780340",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-26T02:41:13Z",
-      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-trip-com-group-5hknatha",
-      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-trip-com-group-5hknatha",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/e03d227f-0603-422f-913e-c111e26e2b75",
-      "title": "大模型算法工程师"
+      "posted_at": "2026-09-14T02:12:05Z",
+      "public_slug": "sou-suo-suan-fa-gong-cheng-shi-agentfang-xiang-meituan-rxroc5qr",
+      "role_key": "freehire:sou-suo-suan-fa-gong-cheng-shi-agentfang-xiang-meituan-rxroc5qr",
+      "source": "meituan",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4762780340&utm_source=freehire.me",
+      "title": "搜索算法工程师（Agent方向）"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1998,
-      "company": "ByteDance",
+      "candidate_seq": 2054,
+      "company": "Zeentra",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7699706505119090949",
+      "external_id": "acnc6zeentra.jobs.feishu.cn:7682634319332378918",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-23T03:56:53Z",
-      "public_slug": "ai-nativequan-zhan-kai-fa-gong-cheng-shi-tiktokyong-hu-zeng-chang-bytedance-gfukvvrx",
-      "role_key": "freehire:ai-nativequan-zhan-kai-fa-gong-cheng-shi-tiktokyong-hu-zeng-chang-bytedance-gfukvvrx",
+      "posted_at": "2026-09-07T03:47:45Z",
+      "public_slug": "ai-an-quan-ping-tai-yan-fa-gong-cheng-shi-zeentra-fqpgv3pc",
+      "role_key": "freehire:ai-an-quan-ping-tai-yan-fa-gong-cheng-shi-zeentra-fqpgv3pc",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7699706505119090949/detail?utm_source=freehire.me",
-      "title": "AI Native全栈开发工程师 - TikTok用户增长"
+      "source_url": "https://acnc6zeentra.jobs.feishu.cn/index/position/7682634319332378918/detail?utm_source=freehire.me",
+      "title": "AI 安全平台研发工程师"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ml"
+        "title:ai"
       ],
-      "candidate_seq": 2000,
-      "company": "Optiver ",
+      "candidate_seq": 2055,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": "optiverus:8371647002",
+      "external_id": "jobs.bytedance.com:7680919763589417269",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-09-02T13:00:44Z",
+      "public_slug": "ai-agentyan-fa-gong-cheng-shi-huo-shan-fang-zhou-bytedance-zsxfqzl3",
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-huo-shan-fang-zhou-bytedance-zsxfqzl3",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7680919763589417269/detail?utm_source=freehire.me",
+      "title": "AI Agent研发工程师 - 火山方舟"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2056,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7680196825143773493",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-08-31T14:06:15Z",
+      "public_slug": "agentkai-fa-gong-cheng-shi-ai-ji-chu-neng-li-ji-tuan-xin-xi-xi-tong-bytedance-gqmn6mgh",
+      "role_key": "freehire:agentkai-fa-gong-cheng-shi-ai-ji-chu-neng-li-ji-tuan-xin-xi-xi-tong-bytedance-gqmn6mgh",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7680196825143773493/detail?utm_source=freehire.me",
+      "title": "Agent开发工程师（AI-基础能力） - 集团信息系统"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2059,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-Data-Infrastructure-Engineer--AI-Performance_JR2022970",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Shanghai, China",
+      "location": "China, Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-22T07:14:02Z",
-      "public_slug": "senior-machine-learning-engineer-optiver-hhyhtogz",
-      "role_key": "freehire:senior-machine-learning-engineer-optiver-hhyhtogz",
-      "source": "greenhouse",
-      "source_url": "https://www.optiver.com/join-us/jobs/8371647002/?gh_jid=8371647002&utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2001,
-      "company": "MiniMax Group Inc.",
-      "employment_type": null,
-      "external_id": ":49snzL",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-22T04:27:59Z",
-      "public_slug": "ai-data-infrastructure-engineer-minimax-group-inc-2iyq4cez",
-      "role_key": "freehire:ai-data-infrastructure-engineer-minimax-group-inc-2iyq4cez",
-      "source": "jobstash",
-      "source_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7698998278890080521/detail?utm_source=freehire.me",
-      "title": "AI Data Infrastructure Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2002,
-      "company": "MiniMax Group Inc.",
-      "employment_type": null,
-      "external_id": ":zZnb8D",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-22T04:27:59Z",
-      "public_slug": "ai-data-platform-engineer-minimax-group-inc-wuypmh3t",
-      "role_key": "freehire:ai-data-platform-engineer-minimax-group-inc-wuypmh3t",
-      "source": "jobstash",
-      "source_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7698975666025105700/detail?utm_source=freehire.me",
-      "title": "AI Data Platform Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2003,
-      "company": "Tencent",
-      "employment_type": null,
-      "external_id": ":2113089272218300416",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen, China",
-      "market": "CN",
-      "posted_at": "2026-10-22T00:00:00Z",
-      "public_slug": "ai-infra-sre-gong-cheng-shi-da-mo-xing-tui-li-shen-zhen-bei-jing-tencent-ysremuty",
-      "role_key": "freehire:ai-infra-sre-gong-cheng-shi-da-mo-xing-tui-li-shen-zhen-bei-jing-tencent-ysremuty",
-      "source": "tencent",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2113089272218300416&utm_source=freehire.me",
-      "title": "AI Infra SRE 工程师(大模型推理)(深圳/北京)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2005,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100023715065",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-20T12:54:21Z",
-      "public_slug": "a-li-guo-ji-ai-shu-ju-gong-cheng-shi-ai-data-hang-zhou-alibaba-group-bjallwlj",
-      "role_key": "freehire:a-li-guo-ji-ai-shu-ju-gong-cheng-shi-ai-data-hang-zhou-alibaba-group-bjallwlj",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100023715065&utm_source=freehire.me",
-      "title": "阿里国际-AI 数据工程师（AI Data ）-杭州"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2006,
-      "company": "State Street",
-      "employment_type": null,
-      "external_id": "statestreet.wd1.myworkdayjobs.com/Global:/job/Hangzhou-China/Software-Engineering---Development--Off-AI-_R-799766",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou, China",
-      "market": "CN",
-      "posted_at": "2026-10-20T00:00:00Z",
-      "public_slug": "software-engineering-development-off-ai-state-street-ilnkz6ne",
-      "role_key": "freehire:software-engineering-development-off-ai-state-street-ilnkz6ne",
+      "posted_at": "2026-08-19T00:00:00Z",
+      "public_slug": "senior-data-infrastructure-engineer-ai-performance-nvidia-oye5xlhi",
+      "role_key": "freehire:senior-data-infrastructure-engineer-ai-performance-nvidia-oye5xlhi",
       "source": "workday",
-      "source_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Hangzhou-China/Software-Engineering---Development--Off-AI-_R-799766?utm_source=freehire.me",
-      "title": "Software Engineering & Development, Off（AI)"
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Data-Infrastructure-Engineer--AI-Performance_JR2022970?utm_source=freehire.me",
+      "title": "Senior Data Infrastructure Engineer, AI Performance"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2060,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7675348782494189877",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-08-18T12:36:49Z",
+      "public_slug": "ai-agentkai-fa-gong-cheng-shi-chuang-xin-zhong-tai-shu-ju-bp-bytedance-mhae4vkj",
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-chuang-xin-zhong-tai-shu-ju-bp-bytedance-mhae4vkj",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7675348782494189877/detail?utm_source=freehire.me",
+      "title": "AI Agent开发工程师（创新&中台） - 数据BP"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2063,
+      "company": "Suanmiao Technology",
+      "employment_type": null,
+      "external_id": "sunmmio1104.jobs.feishu.cn:7674886872305387826",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-08-17T06:42:35Z",
+      "public_slug": "ai-yuan-sheng-gao-ji-quan-zhan-gong-cheng-shi-suanmiao-technology-fhoyeguh",
+      "role_key": "freehire:ai-yuan-sheng-gao-ji-quan-zhan-gong-cheng-shi-suanmiao-technology-fhoyeguh",
+      "source": "feishujobs",
+      "source_url": "https://sunmmio1104.jobs.feishu.cn/index/position/7674886872305387826/detail?utm_source=freehire.me",
+      "title": "AI 原生高级全栈工程师​"
     }
   ],
-  "generated_at": "2026-11-05T16:53:18.599071Z",
+  "generated_at": "2026-11-05T22:55:40.942009Z",
   "market": "CN",
-  "max_candidate_seq": 2006,
-  "min_candidate_seq": 1996,
+  "max_candidate_seq": 2063,
+  "min_candidate_seq": 2046,
   "shard_index": 8,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

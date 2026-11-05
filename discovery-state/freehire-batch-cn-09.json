@@ -4,185 +4,191 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:nlp"
+        "title:ai"
       ],
-      "candidate_seq": 2007,
-      "company": "Trip.com Group",
+      "candidate_seq": 2064,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": "trip/70415:74f709e5-b26a-4ad0-96a5-fc9e5fef2d21",
+      "external_id": "jobs.bytedance.com:7673794371164915973",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-08-14T08:04:50Z",
+      "public_slug": "ai-agentkai-fa-hou-duan-shi-xi-sheng-fan-qie-xiao-shuo-hong-guo-duan-ju-fan-qie-chang-ting-bytedance-4lgjuyze",
+      "role_key": "freehire:ai-agentkai-fa-hou-duan-shi-xi-sheng-fan-qie-xiao-shuo-hong-guo-duan-ju-fan-qie-chang-ting-bytedance-4lgjuyze",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7673794371164915973/detail?utm_source=freehire.me",
+      "title": "AI Agent开发后端实习生 - 番茄小说/红果短剧/番茄畅听"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2065,
+      "company": "Jabil",
+      "employment_type": null,
+      "external_id": "jabil.wd5.myworkdayjobs.com/Jabil_Careers:/job/Wuxi/AI-Engineer_J2461057",
       "flags": [
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Shanghai",
+      "location": "Wuxi",
       "market": "CN",
-      "posted_at": "2026-10-19T16:00:00Z",
-      "public_slug": "gao-ji-zi-shen-javakai-fa-gong-cheng-shi-aisou-suo-yin-qing-fang-xiang-trip-com-group-5ydb7ikp",
-      "role_key": "freehire:gao-ji-zi-shen-javakai-fa-gong-cheng-shi-aisou-suo-yin-qing-fang-xiang-trip-com-group-5ydb7ikp",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/74f709e5-b26a-4ad0-96a5-fc9e5fef2d21",
-      "title": "高级/资深Java开发工程师（AI搜索引擎方向）"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2011,
-      "company": "Calculet",
-      "employment_type": null,
-      "external_id": "calculet.jobs.feishu.cn:7696755638693792026",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-10-15T05:03:07Z",
-      "public_slug": "ai-xin-pian-ruan-jian-ce-shi-kai-fa-zhuan-jia-calculet-2xbflh3l",
-      "role_key": "freehire:ai-xin-pian-ruan-jian-ce-shi-kai-fa-zhuan-jia-calculet-2xbflh3l",
-      "source": "feishujobs",
-      "source_url": "https://calculet.jobs.feishu.cn/index/position/7696755638693792026/detail?utm_source=freehire.me",
-      "title": "AI 芯片软件测试开发专家"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2012,
-      "company": "SoundHound Inc.",
-      "employment_type": null,
-      "external_id": "soundhound:am9icG9zdDrodSVOdxZDrN1m4EZIihO3",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing, CHN",
-      "market": "CN",
-      "posted_at": "2026-10-14T13:42:11Z",
-      "public_slug": "partner-engineer-voice-ai-solutions-automotive-china-soundhound-inc-e2hnypaj",
-      "role_key": "freehire:partner-engineer-voice-ai-solutions-automotive-china-soundhound-inc-e2hnypaj",
-      "source": "gem",
-      "source_url": "https://jobs.gem.com/soundhound/am9icG9zdDrodSVOdxZDrN1m4EZIihO3?utm_source=freehire.me",
-      "title": "Partner Engineer - Voice AI Solutions - Automotive (China)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2016,
-      "company": "MiniMax",
-      "employment_type": null,
-      "external_id": "vrfi1sk8a0.jobs.feishu.cn:7696078040379558207",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-13T09:13:42Z",
-      "public_slug": "gao-xing-neng-wang-luo-gong-cheng-shi-ai-tui-li-wang-qia-fang-xiang-minimax-l44vav3z",
-      "role_key": "freehire:gao-xing-neng-wang-luo-gong-cheng-shi-ai-tui-li-wang-qia-fang-xiang-minimax-l44vav3z",
-      "source": "feishujobs",
-      "source_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7696078040379558207/detail?utm_source=freehire.me",
-      "title": "高性能网络工程师—AI 推理 · 网卡方向"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2017,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7696052883951569157",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-13T07:36:32Z",
-      "public_slug": "quan-zhan-kai-fa-shi-xi-sheng-ai-music-bytedance-bv2zxumb",
-      "role_key": "freehire:quan-zhan-kai-fa-shi-xi-sheng-ai-music-bytedance-bv2zxumb",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7696052883951569157/detail?utm_source=freehire.me",
-      "title": "全栈开发实习生 - AI Music"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2019,
-      "company": "Tencent",
-      "employment_type": null,
-      "external_id": ":2088182151676870656",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen, China",
-      "market": "CN",
-      "posted_at": "2026-10-13T00:00:00Z",
-      "public_slug": "wu-wei-qi-yue-qian-duan-kai-fa-gong-cheng-shi-ai-chuang-xin-hu-dong-fang-xiang-tencent-v2ob6wxy",
-      "role_key": "freehire:wu-wei-qi-yue-qian-duan-kai-fa-gong-cheng-shi-ai-chuang-xin-hu-dong-fang-xiang-tencent-v2ob6wxy",
-      "source": "tencent",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2088182151676870656&utm_source=freehire.me",
-      "title": "《无畏契约》-前端开发工程师-（AI & 创新互动方向）"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2020,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7695612878254311733",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shenzhen; Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-12T03:08:29Z",
-      "public_slug": "duo-mei-ti-suan-fa-gong-cheng-shi-ai-infra-yin-shi-pin-ji-zhu-bytedance-iz6jrneb",
-      "role_key": "freehire:duo-mei-ti-suan-fa-gong-cheng-shi-ai-infra-yin-shi-pin-ji-zhu-bytedance-iz6jrneb",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7695612878254311733/detail?utm_source=freehire.me",
-      "title": "多媒体算法工程师（AI Infra） - 音视频技术"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2022,
-      "company": "NVIDIA",
-      "employment_type": null,
-      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-12T00:00:00Z",
-      "public_slug": "ai-developer-technology-engineer-nvidia-wxtukfl6",
-      "role_key": "freehire:ai-developer-technology-engineer-nvidia-wxtukfl6",
+      "posted_at": "2026-08-14T00:00:00Z",
+      "public_slug": "ai-engineer-jabil-znekmsyp",
+      "role_key": "freehire:ai-engineer-jabil-znekmsyp",
       "source": "workday",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383?utm_source=freehire.me",
-      "title": "AI Developer Technology Engineer"
+      "source_url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Wuxi/AI-Engineer_J2461057?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 2066,
+      "company": "Pfizer",
+      "employment_type": null,
+      "external_id": "pfizer.wd1.myworkdayjobs.com/PfizerCareers:/job/China---Zhejiang---Hangzhou/_4961847",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China - Zhejiang - Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-08-13T00:00:00Z",
+      "public_slug": "gao-ji-hou-duan-kai-fa-gong-cheng-shi-pfizer-2s2itgse",
+      "role_key": "freehire:gao-ji-hou-duan-kai-fa-gong-cheng-shi-pfizer-2s2itgse",
+      "source": "workday",
+      "source_url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Zhejiang---Hangzhou/_4961847?utm_source=freehire.me",
+      "title": "高级后端开发工程师"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2067,
+      "company": "Intel",
+      "employment_type": null,
+      "external_id": "intel.wd1.myworkdayjobs.com/External:/job/PRC-Shanghai/Cloud-and-AI-System-Engineer_JR0286408",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "PRC, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-08-12T00:00:00Z",
+      "public_slug": "cloud-and-ai-system-engineer-intel-4jcv6f4m",
+      "role_key": "freehire:cloud-and-ai-system-engineer-intel-4jcv6f4m",
+      "source": "workday",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/Cloud-and-AI-System-Engineer_JR0286408?utm_source=freehire.me",
+      "title": "Cloud and AI System Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2068,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200677381",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Cupertino",
+      "market": "CN",
+      "posted_at": "2026-08-11T17:45:43Z",
+      "public_slug": "senior-data-and-applied-ai-engineer-core-data-intelligence-apple-l26mb55g",
+      "role_key": "freehire:senior-data-and-applied-ai-engineer-core-data-intelligence-apple-l26mb55g",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200677381/senior-data-and-applied-ai-engineer-core-data-intelligence?utm_source=freehire.me",
+      "title": "Senior Data and Applied AI Engineer, Core Data & Intelligence"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2069,
+      "company": "RoboScience",
+      "employment_type": null,
+      "external_id": "roboscience.jobs.feishu.cn:7672725884294088970",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-08-11T10:58:31Z",
+      "public_slug": "xi-tong-gong-cheng-shi-aiopsduan-ce-zhong-jian-jian-yu-ai-xi-tong-fang-xiang-roboscience-hm5j47u2",
+      "role_key": "freehire:xi-tong-gong-cheng-shi-aiopsduan-ce-zhong-jian-jian-yu-ai-xi-tong-fang-xiang-roboscience-hm5j47u2",
+      "source": "feishujobs",
+      "source_url": "https://roboscience.jobs.feishu.cn/index/position/7672725884294088970/detail?utm_source=freehire.me",
+      "title": "系统工程师-AIOps端侧中间件与 AI 系统方向"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2071,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200675988",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-08-08T00:20:03Z",
+      "public_slug": "software-engineer-data-services-is-t-ai-data-platforms-apple-4bj55sfz",
+      "role_key": "freehire:software-engineer-data-services-is-t-ai-data-platforms-apple-4bj55sfz",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200675988/software-engineer-data-services-is-t-ai-data-platforms?utm_source=freehire.me",
+      "title": "Software Engineer, Data Services, IS&T Ai & Data Platforms"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:machine_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 2073,
+      "company": "WuXi Biologics",
+      "employment_type": null,
+      "external_id": "wuxibiologics/99960:f793a5cc-ae03-4669-af2c-90d2d675beb4",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-08-06T16:00:00Z",
+      "public_slug": "data-scientist-shu-ju-ke-xue-jia-wuxi-biologics-hu6njw5i",
+      "role_key": "freehire:data-scientist-shu-ju-ke-xue-jia-wuxi-biologics-hu6njw5i",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/wuxibiologics/99960?utm_source=freehire.me#/job/f793a5cc-ae03-4669-af2c-90d2d675beb4",
+      "title": "Data Scientist-数据科学家"
     }
   ],
-  "generated_at": "2026-11-05T16:53:18.599071Z",
+  "generated_at": "2026-11-05T22:55:40.942009Z",
   "market": "CN",
-  "max_candidate_seq": 2022,
-  "min_candidate_seq": 2007,
+  "max_candidate_seq": 2073,
+  "min_candidate_seq": 2064,
   "shard_index": 9,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

@@ -1,206 +1,182 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 7,
   "candidates": [
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:genai",
-        "jd:genai"
+        "title:llm"
       ],
-      "candidate_seq": 533,
-      "company": "CLOUDSINE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "devops engineer:92279304",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-27T17:56:16Z",
-      "public_slug": "genai-security-devops-support-engineer-cloudsine-pte-ltd-tug75tfl",
-      "role_key": "freehire:genai-security-devops-support-engineer-cloudsine-pte-ltd-tug75tfl",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92279304__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "GenAI Security DevOps & Support Engineer"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:data_science",
-        "jd:genai",
-        "jd:machine_learning",
-        "jd:agent",
-        "jd:nlp"
-      ],
-      "candidate_seq": 534,
-      "company": "LSEG",
-      "employment_type": null,
-      "external_id": "lseg.wd3.myworkdayjobs.com/Careers:/job/SGP-Singapore-1-Raffles-Quay/Enterprise-Data-Scientist_R0123374",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "SGP-Singapore-1 Raffles Quay",
-      "market": "SG",
-      "posted_at": "2026-09-25T00:00:00Z",
-      "public_slug": "enterprise-data-scientist-lseg-bqf5gjbs",
-      "role_key": "freehire:enterprise-data-scientist-lseg-bqf5gjbs",
-      "source": "workday",
-      "source_url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/SGP-Singapore-1-Raffles-Quay/Enterprise-Data-Scientist_R0123374?utm_source=freehire.me",
-      "title": "Enterprise Data Scientist"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:genai",
-        "jd:genai"
-      ],
-      "candidate_seq": 535,
-      "company": "r systems (singapore) pte limited",
-      "employment_type": null,
-      "external_id": "data engineer:92132528",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-24T11:58:30Z",
-      "public_slug": "senior-data-engineer-lakehouse-genai-pipelines-r-systems-singapore-pte-limited-isxpjcff",
-      "role_key": "freehire:senior-data-engineer-lakehouse-genai-pipelines-r-systems-singapore-pte-limited-isxpjcff",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92132528__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer — Lakehouse & GenAI Pipelines"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 536,
-      "company": "MICHAEL PAGE (PERSONNEL) PTE. LTD.",
-      "employment_type": "full_time",
-      "external_id": "data engineer:91906001",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-21T12:17:46Z",
-      "public_slug": "ai-data-engineer-michael-page-personnel-pte-ltd-jmqlmxxe",
-      "role_key": "freehire:ai-data-engineer-michael-page-personnel-pte-ltd-jmqlmxxe",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91906001__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Data Engineer"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "title:data_science"
-      ],
-      "candidate_seq": 537,
-      "company": "ocbc",
-      "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/Data-Scientist--AI-Lab_JR00011202-1",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "OCBC Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-21T00:00:00Z",
-      "public_slug": "data-scientist-ai-lab-ocbc-7hlb7h5z",
-      "role_key": "freehire:data-scientist-ai-lab-ocbc-7hlb7h5z",
-      "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/Data-Scientist--AI-Lab_JR00011202-1?utm_source=freehire.me",
-      "title": "Data Scientist, AI Lab"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ml",
-        "jd:pytorch",
-        "jd:tensorflow"
-      ],
-      "candidate_seq": 538,
+      "candidate_seq": 594,
       "company": "TIKTOK PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:90855855",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-19T12:17:02Z",
-      "public_slug": "senior-ml-engineer-data-mining-for-ecommerce-insights-tiktok-pte-ltd-b2w3xbwh",
-      "role_key": "freehire:senior-ml-engineer-data-mining-for-ecommerce-insights-tiktok-pte-ltd-b2w3xbwh",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90855855__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior ML Engineer - Data Mining for Ecommerce Insights"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ml",
-        "jd:genai",
-        "jd:model_training"
-      ],
-      "candidate_seq": 539,
-      "company": "FPT Asia Pacific Pte Ltd",
-      "employment_type": null,
-      "external_id": "fpt-asia-pacific-pte-ltd:Y689R4X9",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
+      "external_id": ":07db83d6dcf3a37bc82198cd741fa5df",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-09-18T02:57:15Z",
-      "public_slug": "machine-learning-engineer-fpt-asia-pacific-pte-ltd-i7q4f5py",
-      "role_key": "freehire:machine-learning-engineer-fpt-asia-pacific-pte-ltd-i7q4f5py",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/fpt-asia-pacific-pte-ltd/job/Y689R4X9?utm_source=freehire.me",
-      "title": "Machine Learning Engineer"
+      "posted_at": "2026-11-02T00:00:00Z",
+      "public_slug": "multimodal-llm-algorithm-engineer-graduate-global-e-commerce-knowledge-graph-2027-start-phd-tiktok-pte-ltd-zdbrmd7q",
+      "role_key": "freehire:multimodal-llm-algorithm-engineer-graduate-global-e-commerce-knowledge-graph-2027-start-phd-tiktok-pte-ltd-zdbrmd7q",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/07db83d6dcf3a37bc82198cd741fa5df?utm_source=freehire.me",
+      "title": "Multimodal LLM Algorithm Engineer Graduate (Global E-Commerce, Knowledge Graph) - 2027 Start (PhD)"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:genai"
+        "jd:agent"
       ],
-      "candidate_seq": 540,
-      "company": "Nanyang Technological University",
+      "candidate_seq": 595,
+      "company": "China, Beijing Branch",
+      "employment_type": "full_time",
+      "external_id": "data engineer:94636485",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-01T14:39:25Z",
+      "public_slug": "svp-vp-senior-cloud-engineer-data-ai-platform-group-technology-china-beijing-branch-jr3i22qx",
+      "role_key": "freehire:svp-vp-senior-cloud-engineer-data-ai-platform-group-technology-china-beijing-branch-jr3i22qx",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94636485__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "SVP/VP, Senior Cloud Engineer (Data & AI Platform), Group Technology"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 596,
+      "company": "Cheil Singapore Pte Ltd",
       "employment_type": null,
-      "external_id": "6290:94516149",
+      "external_id": "full stack developer:94639780",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-01T10:40:42Z",
+      "public_slug": "senior-full-stack-developer-ai-aws-devops-cheil-singapore-pte-ltd-fk4n5ebn",
+      "role_key": "freehire:senior-full-stack-developer-ai-aws-devops-cheil-singapore-pte-ltd-fk4n5ebn",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94639780__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Developer - AI, AWS & DevOps"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 597,
+      "company": "CHEIL SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:94640121",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-01T10:40:42Z",
+      "public_slug": "senior-full-stack-developer-ai-driven-aws-ci-cd-cheil-singapore-pte-ltd-nagwjw6a",
+      "role_key": "freehire:senior-full-stack-developer-ai-driven-aws-ci-cd-cheil-singapore-pte-ltd-nagwjw6a",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94640121__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full Stack Developer — AI-Driven, AWS & CI/CD"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 598,
+      "company": "ARTA TECH PTE. LTD.",
+      "employment_type": null,
+      "external_id": "backend developer:94637970",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-01T10:40:35Z",
+      "public_slug": "senior-backend-engineer-ai-powered-finance-platform-arta-tech-pte-ltd-5aht2uxa",
+      "role_key": "freehire:senior-backend-engineer-ai-powered-finance-platform-arta-tech-pte-ltd-5aht2uxa",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637970__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer - AI-Powered Finance Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 599,
+      "company": "Arta Tech",
+      "employment_type": null,
+      "external_id": "backend developer:94638653",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-01T10:40:35Z",
+      "public_slug": "senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
+      "role_key": "freehire:senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638653__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer — AI-Driven Finance Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 600,
+      "company": "Monee",
+      "employment_type": null,
+      "external_id": "data engineer:92133441",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "North Region",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-09T04:32:55Z",
-      "public_slug": "ai-safety-governance-engineer-sage-nanyang-technological-university-hp662zoh",
-      "role_key": "freehire:ai-safety-governance-engineer-sage-nanyang-technological-university-hp662zoh",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94516149?utm_source=freehire.me",
-      "title": "AI Safety & Governance Engineer (SAGE)"
+      "posted_at": "2026-10-31T14:39:12Z",
+      "public_slug": "machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
+      "role_key": "freehire:machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92133441__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Machine Learning Engineer - Risk Data Experienced (Individual Contributor) Singapore Data Science"
     }
   ],
-  "generated_at": "2026-11-05T16:53:18.599071Z",
+  "generated_at": "2026-11-05T22:55:40.942009Z",
   "market": "SG",
-  "max_candidate_seq": 540,
-  "min_candidate_seq": 533,
+  "max_candidate_seq": 600,
+  "min_candidate_seq": 594,
   "shard_index": 5,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

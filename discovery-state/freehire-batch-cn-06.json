@@ -2,189 +2,184 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 1961,
-      "company": "ByteDance",
+      "candidate_seq": 2012,
+      "company": "SoundHound Inc.",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7349028240274016539",
+      "external_id": "soundhound:am9icG9zdDrodSVOdxZDrN1m4EZIihO3",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, CHN",
+      "market": "CN",
+      "posted_at": "2026-10-14T13:42:11Z",
+      "public_slug": "partner-engineer-voice-ai-solutions-automotive-china-soundhound-inc-e2hnypaj",
+      "role_key": "freehire:partner-engineer-voice-ai-solutions-automotive-china-soundhound-inc-e2hnypaj",
+      "source": "gem",
+      "source_url": "https://jobs.gem.com/soundhound/am9icG9zdDrodSVOdxZDrN1m4EZIihO3?utm_source=freehire.me",
+      "title": "Partner Engineer - Voice AI Solutions - Automotive (China)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2016,
+      "company": "MiniMax",
+      "employment_type": null,
+      "external_id": "vrfi1sk8a0.jobs.feishu.cn:7696078040379558207",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou; Beijing",
+      "location": "Beijing; Shanghai",
       "market": "CN",
-      "posted_at": "2024-03-22T03:43:05Z",
-      "public_slug": "ruan-jian-yan-fa-gong-cheng-shi-ai-agentan-quan-fang-xiang-an-quan-yu-feng-kong-bytedance-dajlrmdt",
-      "role_key": "freehire:ruan-jian-yan-fa-gong-cheng-shi-ai-agentan-quan-fang-xiang-an-quan-yu-feng-kong-bytedance-dajlrmdt",
+      "posted_at": "2026-10-13T09:13:42Z",
+      "public_slug": "gao-xing-neng-wang-luo-gong-cheng-shi-ai-tui-li-wang-qia-fang-xiang-minimax-l44vav3z",
+      "role_key": "freehire:gao-xing-neng-wang-luo-gong-cheng-shi-ai-tui-li-wang-qia-fang-xiang-minimax-l44vav3z",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7349028240274016539/detail?utm_source=freehire.me",
-      "title": "软件研发工程师（AI Agent安全方向） - 安全与风控"
+      "source_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7696078040379558207/detail?utm_source=freehire.me",
+      "title": "高性能网络工程师—AI 推理 · 网卡方向"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:pytorch"
+        "title:ai"
       ],
-      "candidate_seq": 1962,
+      "candidate_seq": 2017,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7168351396164782349",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2022-11-21T06:29:16Z",
-      "public_slug": "bian-pai-diao-du-gao-ji-yan-fa-gong-cheng-shi-ml-infrafang-xiang-ji-chu-jia-gou-bytedance-z4ts6w5s",
-      "role_key": "freehire:bian-pai-diao-du-gao-ji-yan-fa-gong-cheng-shi-ml-infrafang-xiang-ji-chu-jia-gou-bytedance-z4ts6w5s",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7168351396164782349/detail?utm_source=freehire.me",
-      "title": "编排调度高级研发工程师（ML Infra方向）-基础架构"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 1964,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:6885587026939496712",
+      "external_id": "jobs.bytedance.com:7696052883951569157",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2020-10-20T06:34:46Z",
-      "public_slug": "ce-shi-kai-fa-gong-cheng-shi-da-mo-xing-ai-agentfang-xiang-dou-yin-bytedance-b22ug7vi",
-      "role_key": "freehire:ce-shi-kai-fa-gong-cheng-shi-da-mo-xing-ai-agentfang-xiang-dou-yin-bytedance-b22ug7vi",
+      "posted_at": "2026-10-13T07:36:32Z",
+      "public_slug": "quan-zhan-kai-fa-shi-xi-sheng-ai-music-bytedance-bv2zxumb",
+      "role_key": "freehire:quan-zhan-kai-fa-shi-xi-sheng-ai-music-bytedance-bv2zxumb",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/6885587026939496712/detail?utm_source=freehire.me",
-      "title": "测试开发工程师 （大模型/AI Agent方向）-抖音"
+      "source_url": "https://jobs.bytedance.com/campus/position/7696052883951569157/detail?utm_source=freehire.me",
+      "title": "全栈开发实习生 - AI Music"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1965,
-      "company": "Alibaba Group",
+      "candidate_seq": 2019,
+      "company": "Tencent",
       "employment_type": null,
-      "external_id": ":100034320001",
+      "external_id": ":2088182151676870656",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Shenzhen, China",
       "market": "CN",
-      "posted_at": "2026-11-02T09:00:55Z",
-      "public_slug": "qian-wen-ban-gong-ai-agentquan-zhan-kai-fa-gong-cheng-shi-hang-zhou-alibaba-group-mlxgteph",
-      "role_key": "freehire:qian-wen-ban-gong-ai-agentquan-zhan-kai-fa-gong-cheng-shi-hang-zhou-alibaba-group-mlxgteph",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100034320001&utm_source=freehire.me",
-      "title": "千问办公-AI Agent全栈开发工程师-杭州"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:rag",
-        "jd:pytorch",
-        "jd:tensorflow",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 1969,
-      "company": "Meituan",
-      "employment_type": null,
-      "external_id": ":3008237497",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-11-04T02:00:11Z",
-      "public_slug": "keetaji-zhu-da-mo-xing-suan-fa-gong-cheng-shi-zhuan-jia-meituan-o6hwz6pi",
-      "role_key": "freehire:keetaji-zhu-da-mo-xing-suan-fa-gong-cheng-shi-zhuan-jia-meituan-o6hwz6pi",
-      "source": "meituan",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=3008237497&utm_source=freehire.me",
-      "title": "Keeta技术-大模型算法工程师/专家"
+      "posted_at": "2026-10-13T00:00:00Z",
+      "public_slug": "wu-wei-qi-yue-qian-duan-kai-fa-gong-cheng-shi-ai-chuang-xin-hu-dong-fang-xiang-tencent-v2ob6wxy",
+      "role_key": "freehire:wu-wei-qi-yue-qian-duan-kai-fa-gong-cheng-shi-ai-chuang-xin-hu-dong-fang-xiang-tencent-v2ob6wxy",
+      "source": "tencent",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2088182151676870656&utm_source=freehire.me",
+      "title": "《无畏契约》-前端开发工程师-（AI & 创新互动方向）"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1972,
-      "company": "Alibaba Group",
+      "candidate_seq": 2020,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": ":100025420003",
+      "external_id": "jobs.bytedance.com:7695612878254311733",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Beijing; Shenzhen; Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-29T12:39:32Z",
-      "public_slug": "qian-wen-ban-gong-ai-shu-ju-gong-cheng-shi-hang-zhou-alibaba-group-ikdpgs6w",
-      "role_key": "freehire:qian-wen-ban-gong-ai-shu-ju-gong-cheng-shi-hang-zhou-alibaba-group-ikdpgs6w",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100025420003&utm_source=freehire.me",
-      "title": "千问办公-AI 数据工程师-杭州"
+      "posted_at": "2026-10-12T03:08:29Z",
+      "public_slug": "duo-mei-ti-suan-fa-gong-cheng-shi-ai-infra-yin-shi-pin-ji-zhu-bytedance-iz6jrneb",
+      "role_key": "freehire:duo-mei-ti-suan-fa-gong-cheng-shi-ai-infra-yin-shi-pin-ji-zhu-bytedance-iz6jrneb",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7695612878254311733/detail?utm_source=freehire.me",
+      "title": "多媒体算法工程师（AI Infra） - 音视频技术"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1973,
-      "company": "Alibaba Group",
+      "candidate_seq": 2022,
+      "company": "NVIDIA",
       "employment_type": null,
-      "external_id": ":100053300004",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-29T12:14:05Z",
-      "public_slug": "a-li-yun-zhi-neng-ai-jia-gou-ji-hou-duan-yan-fa-zhuan-jia-abe-jiao-yi-yu-ji-fei-xi-tong-yan-fa-hang-zhou-alibaba-group-3jt3prws",
-      "role_key": "freehire:a-li-yun-zhi-neng-ai-jia-gou-ji-hou-duan-yan-fa-zhuan-jia-abe-jiao-yi-yu-ji-fei-xi-tong-yan-fa-hang-zhou-alibaba-group-3jt3prws",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100053300004&utm_source=freehire.me",
-      "title": "阿里云智能-AI 架构及后端研发专家（ABE）-交易与计费系统研发-杭州"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1975,
-      "company": "Schneider Electric",
-      "employment_type": null,
-      "external_id": "se.jibeapply.com:140010",
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China-Shanghai-Shanghai",
+      "location": "China, Shanghai",
       "market": "CN",
-      "posted_at": "2026-10-29T07:02:23Z",
-      "public_slug": "senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
-      "role_key": "freehire:senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
-      "source": "jibe",
-      "source_url": "https://se.jibeapply.com/careers-home/jobs/140010?utm_source=freehire.me",
-      "title": "Senior AI Engineer II"
+      "posted_at": "2026-10-12T00:00:00Z",
+      "public_slug": "ai-developer-technology-engineer-nvidia-wxtukfl6",
+      "role_key": "freehire:ai-developer-technology-engineer-nvidia-wxtukfl6",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383?utm_source=freehire.me",
+      "title": "AI Developer Technology Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2024,
+      "company": "Microsoft",
+      "employment_type": null,
+      "external_id": "apply.careers.microsoft.com/microsoft.com:1970393557007337",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Beijing, Beijing",
+      "market": "CN",
+      "posted_at": "2026-10-10T06:26:44Z",
+      "public_slug": "software-engineer-ii-core-ai-microsoft-d6ep44jf",
+      "role_key": "freehire:software-engineer-ii-core-ai-microsoft-d6ep44jf",
+      "source": "eightfold",
+      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557007337?utm_source=freehire.me",
+      "title": "Software Engineer II - Core AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2029,
+      "company": "ABB",
+      "employment_type": null,
+      "external_id": "abb.wd3.myworkdayjobs.com/external_career_page:/job/Shanghai-Shanghai-China/-AI-_JR00048554",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-10-08T00:00:00Z",
+      "public_slug": "ying-yong-ruan-jian-kai-fa-ai-abb-aq5bk2te",
+      "role_key": "freehire:ying-yong-ruan-jian-kai-fa-ai-abb-aq5bk2te",
+      "source": "workday",
+      "source_url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Shanghai-Shanghai-China/-AI-_JR00048554?utm_source=freehire.me",
+      "title": "应用软件开发(AI)"
     }
   ],
-  "generated_at": "2026-11-05T16:53:18.599071Z",
+  "generated_at": "2026-11-05T22:55:40.942009Z",
   "market": "CN",
-  "max_candidate_seq": 1975,
-  "min_candidate_seq": 1961,
+  "max_candidate_seq": 2029,
+  "min_candidate_seq": 2012,
   "shard_index": 6,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",

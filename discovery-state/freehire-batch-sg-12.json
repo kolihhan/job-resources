@@ -1,85 +1,38 @@
 {
-  "candidate_count": 7,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:llm"
+        "jd:agent"
       ],
-      "candidate_seq": 599,
-      "company": "Arta Tech",
+      "candidate_seq": 650,
+      "company": "ASUS",
       "employment_type": null,
-      "external_id": "backend developer:94638653",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:35Z",
-      "public_slug": "senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
-      "role_key": "freehire:senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638653__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer — AI-Driven Finance Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 600,
-      "company": "Monee",
-      "employment_type": null,
-      "external_id": "data engineer:92133441",
+      "external_id": ":13e3a18f-a21b-4c9f-908d-0aac9559f363",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T14:39:12Z",
-      "public_slug": "machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
-      "role_key": "freehire:machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92133441__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Machine Learning Engineer - Risk Data Experienced (Individual Contributor) Singapore Data Science"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 601,
-      "company": "Monee",
-      "employment_type": null,
-      "external_id": "data engineer:92191308",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-31T14:39:12Z",
-      "public_slug": "ml-engineer-real-time-risk-data-infrastructure-monee-f5iq65hm",
-      "role_key": "freehire:ml-engineer-real-time-risk-data-infrastructure-monee-f5iq65hm",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92191308__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "ML Engineer – Real-Time Risk Data & Infrastructure"
+      "posted_at": "2026-10-26T08:18:09Z",
+      "public_slug": "ai-engineer-asus-rjctxl5j",
+      "role_key": "freehire:ai-engineer-asus-rjctxl5j",
+      "source": "asus",
+      "source_url": "https://recruit.asus.com/Jobs/Detail?sn=13e3a18f-a21b-4c9f-908d-0aac9559f363&utm_source=freehire.me",
+      "title": "AI Engineer"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:genai"
+        "jd:multimodal"
       ],
-      "candidate_seq": 602,
-      "company": "Nanyang Technological University Singapore",
+      "candidate_seq": 651,
+      "company": "dada consultants",
       "employment_type": null,
-      "external_id": "data engineer:94533551",
+      "external_id": "data engineer:94043243",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -87,25 +40,90 @@
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:40:40Z",
-      "public_slug": "senior-data-services-ai-engineer-nanyang-technological-university-singapore-o4rtk6re",
-      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-singapore-o4rtk6re",
+      "posted_at": "2026-10-26T02:40:02Z",
+      "public_slug": "senior-data-engineer-embodied-ai-dada-consultants-ozi76pzy",
+      "role_key": "freehire:senior-data-engineer-embodied-ai-dada-consultants-ozi76pzy",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94533551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Services & AI Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94043243__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Senior Data Engineer | Embodied AI"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:genai"
+        "jd:model_training"
       ],
-      "candidate_seq": 603,
-      "company": "Nanyang Technological University",
+      "candidate_seq": 652,
+      "company": "AIENERGE PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:94536370",
+      "external_id": ":49ca24c183a069edb75ff6cd440e88aa",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "ai-energy-management-system-software-developer-aienerge-pte-ltd-ks6p4h35",
+      "role_key": "freehire:ai-energy-management-system-software-developer-aienerge-pte-ltd-ks6p4h35",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/49ca24c183a069edb75ff6cd440e88aa?utm_source=freehire.me",
+      "title": "AI Energy Management System Software Developer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 653,
+      "company": "Gramian",
+      "employment_type": null,
+      "external_id": "gramian:3630C28B2A",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "United Kingdom; Germany; Poland; South Africa; United Arab Emirates; Egypt",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "machine-learning-research-engineering-specialist-gramian-fduuxda3",
+      "role_key": "freehire:machine-learning-research-engineering-specialist-gramian-fduuxda3",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/3630C28B2A?utm_source=freehire.me",
+      "title": "Machine Learning Research & Engineering Specialist"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:genai"
+      ],
+      "candidate_seq": 654,
+      "company": "uobgroup",
+      "employment_type": null,
+      "external_id": "uobgroup.wd3.myworkdayjobs.com/uobexternal:/job/Central-Region-City-Area/SO-System-Analyst--GenAI---GMET_JR84920",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region (City Area)",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "so-system-analyst-genai-gmet-uobgroup-gs526if5",
+      "role_key": "freehire:so-system-analyst-genai-gmet-uobgroup-gs526if5",
+      "source": "workday",
+      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/SO-System-Analyst--GenAI---GMET_JR84920?utm_source=freehire.me",
+      "title": "SO System Analyst (GenAI), GMET"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 655,
+      "company": "DBS BANK LTD.",
+      "employment_type": "full_time",
+      "external_id": ":8595c20088343835c05ca585f5c06a1c",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -113,14 +131,14 @@
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:40:40Z",
-      "public_slug": "senior-data-services-ai-engineer-nanyang-technological-university-2wfkoidj",
-      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-2wfkoidj",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536370__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Services & AI Engineer"
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "svp-senior-cloud-engineer-data-ai-platform-group-technology-wd87133-dbs-bank-ltd-yhpu3tcz",
+      "role_key": "freehire:svp-senior-cloud-engineer-data-ai-platform-group-technology-wd87133-dbs-bank-ltd-yhpu3tcz",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/8595c20088343835c05ca585f5c06a1c?utm_source=freehire.me",
+      "title": "SVP, Senior Cloud Engineer (Data & AI Platform), Group Technology (WD87133)"
     },
     {
       "ai_score": 5,
@@ -128,55 +146,51 @@
         "title:ai",
         "jd:agent"
       ],
-      "candidate_seq": 604,
-      "company": "FOODPANDA SINGAPORE PTE. LTD.",
+      "candidate_seq": 656,
+      "company": "INFOGAIN TECHNOLOGIES PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:94534042",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": ":d3fa47b4177a3b43ecbbc435061be67a",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:40:36Z",
-      "public_slug": "senior-data-ai-engineer-production-ai-pipelines-foodpanda-singapore-pte-ltd-7ee3olxs",
-      "role_key": "freehire:senior-data-ai-engineer-production-ai-pipelines-foodpanda-singapore-pte-ltd-7ee3olxs",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534042__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data & AI Engineer: Production AI & Pipelines"
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "ai-infrastructure-engineer-iskt-001-infogain-technologies-pte-ltd-leysfvl6",
+      "role_key": "freehire:ai-infrastructure-engineer-iskt-001-infogain-technologies-pte-ltd-leysfvl6",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/d3fa47b4177a3b43ecbbc435061be67a?utm_source=freehire.me",
+      "title": "AI & Infrastructure Engineer ISKT-001"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:agent"
+        "jd:multimodal"
       ],
-      "candidate_seq": 605,
-      "company": "Temasek International Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "data engineer:94536103",
+      "candidate_seq": 657,
+      "company": "Talent@Web3",
+      "employment_type": "part_time",
+      "external_id": "talentweb3:W38W75YW",
       "flags": [
-        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:40:32Z",
-      "public_slug": "senior-associate-assistant-vice-president-ai-data-engineer-1365003057a4-temasek-international-pte-ltd-altct5ya",
-      "role_key": "freehire:senior-associate-assistant-vice-president-ai-data-engineer-1365003057a4-temasek-international-pte-ltd-altct5ya",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536103__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Associate/Assistant Vice President, AI Data Engineer (1365003057A4)"
+      "posted_at": "2026-10-25T23:54:22Z",
+      "public_slug": "chief-technology-officer-ai-startup-talent-web3-fvqpdas5",
+      "role_key": "freehire:chief-technology-officer-ai-startup-talent-web3-fvqpdas5",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/talentweb3/job/W38W75YW?utm_source=freehire.me",
+      "title": "Chief Technology Officer (AI Startup)"
     }
   ],
-  "generated_at": "2026-11-05T16:53:18.599071Z",
+  "generated_at": "2026-11-05T22:55:40.942009Z",
   "market": "SG",
-  "max_candidate_seq": 605,
-  "min_candidate_seq": 599,
+  "max_candidate_seq": 657,
+  "min_candidate_seq": 650,
   "shard_index": 12,
   "source_generated_at": "2026-11-04T23:54:24.015055Z",
   "transport": "compact_metadata_byte_bounded_v1",
