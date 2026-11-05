@@ -2,15 +2,15 @@
   "version": 2,
   "market": "MY",
   "platform_cycle": 29,
-  "next_platform_index": 3,
-  "next_owner_bucket": 3,
-  "next_query_bucket": 0,
-  "run_counter": 69,
-  "last_completed_at": "2026-11-05T18:24:52+08:00",
+  "next_platform_index": 0,
+  "next_owner_bucket": 4,
+  "next_query_bucket": 1,
+  "run_counter": 70,
+  "last_completed_at": "2026-11-05T19:15:26+08:00",
   "last_platforms": [
-    "JobStreet Malaysia",
-    "Indeed Malaysia"
+    "Hiredly",
+    "recruiter / team / direct hiring posts"
   ],
-  "last_owner_bucket": "AEON Bank / GXBank",
-  "last_query_bucket": "destination-quality full-stack / product engineering with material AI signal"
+  "last_owner_bucket": "Keysight / AMD / Intel",
+  "last_query_bucket": "Agent / LLM / RAG / GenAI"
 }
