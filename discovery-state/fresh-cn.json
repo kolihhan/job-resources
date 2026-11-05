@@ -2,15 +2,15 @@
   "version": 2,
   "market": "CN",
   "platform_cycle": 21,
-  "next_platform_index": 4,
-  "next_owner_bucket": 0,
-  "next_query_bucket": 1,
-  "run_counter": 72,
-  "last_completed_at": "2026-11-05T18:06:31+08:00",
+  "next_platform_index": 6,
+  "next_owner_bucket": 1,
+  "next_query_bucket": 2,
+  "run_counter": 73,
+  "last_completed_at": "2026-11-05T19:13:21+08:00",
   "last_platforms": [
-    "猎聘",
-    "智联招聘"
+    "前程无忧 / 51job",
+    "脉脉 / team-direct recruiting signals"
   ],
-  "last_owner_bucket": 5,
-  "last_query_bucket": 0
+  "last_owner_bucket": 0,
+  "last_query_bucket": 1
 }
