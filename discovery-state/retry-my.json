@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-06T18:21:00+08:00",
+  "updated_at": "2026-11-06T19:15:33+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -227,12 +227,12 @@
       "role_key": "freehire:full-stack-engineer-backend-mobile-ai-solutions-seg-international-bhd-kvs5cpmr",
       "candidate_seq": 2949,
       "reason_code": "verification_pending",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T18:20:00+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-06T20:20:00+08:00",
       "company": "SEG International Bhd",
       "title": "Full Stack Engineer (Backend, Mobile & AI Solutions)",
       "source_url": "https://my.jobstreet.com/job/95653803?utm_source=freehire.me",
-      "detail": "2026-11-06 12:17 MYT: Exact external ID searched across all GitHub Issue history: no exact hit. Current compact metadata reconciled. Exact JobStreet/Oracle full role pages inaccessible or not fully verifiable in this run; retain for authoritative JD, MY destination-quality, employment, liveness, route and targeted Gmail verification. Senior/5+ hints are not treated as confirmed hard requirements. 2026-11-06 16:22 MYT: Rechecked indexed official/native evidence. SEG JobStreet full-time RM6k-7.5k listing confirmed; healthcare full-stack, MY-TOP quality and exact JD/route not established. Preserve verification_pending; no employer contact."
+      "detail": "2026-11-06 12:17 MYT: Exact external ID searched across all GitHub Issue history: no exact hit. Current compact metadata reconciled. Exact JobStreet/Oracle full role pages inaccessible or not fully verifiable in this run; retain for authoritative JD, MY destination-quality, employment, liveness, route and targeted Gmail verification. Senior/5+ hints are not treated as confirmed hard requirements. 2026-11-06 16:22 MYT: Rechecked indexed official/native evidence. SEG JobStreet full-time RM6k-7.5k listing confirmed; healthcare full-stack, MY-TOP quality and exact JD/route not established. Preserve verification_pending; no employer contact. 2026-11-06 19:15 MYT: Exact native JobStreet 95653803 direct access failed; no authoritative complete JD or evidence of destination-quality engineering peers/regular employment. Preserve verification_pending, do not promote."
     }
   ]
 }
