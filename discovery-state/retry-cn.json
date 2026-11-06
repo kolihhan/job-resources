@@ -1411,6 +1411,86 @@
       "reason_code": "authoritative_source_unreadable_retry",
       "attempts": 0,
       "next_retry_at": "2026-11-07T11:10:24+08:00"
+    },
+    {
+      "role_key": "freehire:token-foundry-he-ban-suan-fa-zhuan-jia-qwen-alibaba-group-53e3757c",
+      "candidate_seq": 1979,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:08:22+08:00",
+      "company": "Alibaba Group",
+      "title": "Token Foundry-合版算法研究员-Qwen",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100022860013&utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:a-li-jian-kang-aisou-suo-suan-fa-zhuan-jia-da-mo-xing-yu-agentfang-xiang-hang-zhou-bei-jing-alibaba-group-6owq6c4u",
+      "candidate_seq": 1980,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:08:22+08:00",
+      "company": "Alibaba Group",
+      "title": "阿里健康-AI搜索算法专家（大模型与Agent方向）-杭州/北京",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100019200001&utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:senior-ai-infrastructure-platform-engineer-pfizer-xssmfy2u",
+      "candidate_seq": 1981,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:08:22+08:00",
+      "company": "Pfizer",
+      "title": "Senior AI Infrastructure & Platform Engineer",
+      "source_url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Zhejiang---Hangzhou/Senior-AI-Infrastructure---Platform-Engineer_4966491?utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:ji-tuan-an-quan-bu-quan-mo-tai-da-mo-xing-ying-yong-suan-fa-zhuan-jia-hang-zhou-alibaba-group-i4ztbzht",
+      "candidate_seq": 1982,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:08:22+08:00",
+      "company": "Alibaba Group",
+      "title": "集团安全部-全模态大模型应用算法专家-杭州",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100015500001&utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:ai-security-engineer-bjakcareer-3bfbsdh2",
+      "candidate_seq": 1983,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:08:22+08:00",
+      "company": "Bjak",
+      "title": "AI Security Engineer",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/60def69d-14bc-44e9-af57-2f87fb3a827e?utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:a-li-jian-kang-ai-native-gong-cheng-shi-java-hou-duan-fang-xiang-hang-zhou-bei-jing-alibaba-group-nwanzy44",
+      "candidate_seq": 1984,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:08:22+08:00",
+      "company": "Alibaba Group",
+      "title": "阿里健康-AI Native 工程师（Java 后端方向）-杭州/北京",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100018620013&utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:ji-tuan-an-quan-bu-nei-rong-an-quan-da-mo-xing-suan-fa-zhuan-jia-hang-zhou-bei-jing-alibaba-group-4wi5hnv5",
+      "candidate_seq": 1985,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:08:22+08:00",
+      "company": "Alibaba Group",
+      "title": "集团安全部-内容安全大模型算法专家-杭州/北京",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100011220002&utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:token-foundry-ai-for-science-engineering-suan-fa-zhuan-jia-qwenmo-xing-xun-lian-alibaba-group-emrzzwgn",
+      "candidate_seq": 1988,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:08:22+08:00",
+      "company": "Alibaba Group",
+      "title": "Token Foundry-AI for Science/Engineering 算法研究员-Qwen模型训练",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100022900005&utm_source=freehire.me"
     }
   ]
 }
