@@ -64,6 +64,26 @@ Process up to 10 receipts whose `next_retry_at` is due, oldest first. `budget_de
 
 Resolve/remove a receipt when the role becomes an exact historical duplicate, reaches a terminal disposition, or a verified APPLY/CHECK Issue is created and read back.
 
+## Read-only JD source probe (bounded preflight)
+
+For plausible candidates **after** the exact all-Issue-history gate and cheap hard screening, prefer the repository helper `scripts/jd_source_probe.py` when a Python execution environment is available:
+
+```bash
+python scripts/jd_source_probe.py --self-test
+python scripts/jd_source_probe.py --input discovery-state/freehire-batch-sg-01.json --limit 10
+python scripts/jd_source_probe.py --input discovery-state/freehire-batch-sg-01.json --limit 10 --fetch
+```
+
+Run against an actual manifest-listed shard (or a bounded JSON candidate list); do not assume a fixed shard number or number of candidates. The helper removes tracking parameters, labels official/native vs radar sources, identifies explicit ATS requisition hints, attempts supported public SmartRecruiters/Greenhouse JSON endpoints before the original link, and emits exact-title/ID fallback searches. It uses **only read-only GET**, bounded size/time and a strict source-host allowlist. If the scout runtime cannot execute Python or lacks network, perform the equivalent bounded official/ATS search using available tools; never claim the script ran.
+
+Interpret evidence conservatively:
+- `JD_CONTENT_FOUND` means a substantive, title-matching JD was retrieved, **not** that the position is still open, early-career eligible, permanent or directly applicable.
+- `SOURCE_UNVERIFIED`, `NOT_FETCHED`, `RADAR_OR_UNKNOWN`, and transient HTTP failures require an authoritative alternate source or a durable retry. Never turn a JS application shell or a generic company home page into a verified JD.
+- Separately confirm (1) exact requisition identity, (2) current vacancy, (3) **full JD and hard requirements**, (4) appropriate contract/work authorization, and (5) real application route. For an explicit hard mismatch in a current full JD, make the normal terminal decision; do not indefinitely retry that candidate as an "unreadable JD".
+- The helper is a preflight aid, not an independent candidate database; do not write its JSONL output as a second inbox. Only canonical GitHub Issues, terminal dispositions and existing retry/cursor state may hold decisions.
+
+Retain the existing **15 substantive JD reads / 10 due retries** limit. Count a true alternate-source substantive JD as evidence; do not count a 200/302 response, another mirrored snippet, or a retry increment as progress.
+
 ## 2. Current batch
 
 1. Read `discovery-state/freehire-batch-<market>.json`.
