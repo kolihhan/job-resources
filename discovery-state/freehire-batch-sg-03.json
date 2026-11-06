@@ -4,23 +4,46 @@
     {
       "ai_score": 5,
       "ai_signals": [
+        "title:genai"
+      ],
+      "candidate_seq": 709,
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93490821",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T01:20:21Z",
+      "public_slug": "forward-deployed-engineer-data-genai-google-cloud-singapore-google-asia-pacific-pte-ltd-zd2aswk5",
+      "role_key": "freehire:forward-deployed-engineer-data-genai-google-cloud-singapore-google-asia-pacific-pte-ltd-zd2aswk5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490821__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Forward Deployed Engineer, Data, GenAI, Google Cloud - Singapore"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
         "title:ai",
         "jd:agent"
       ],
-      "candidate_seq": 618,
-      "company": "10X AI TECHNOLOGY PTE. LTD.",
+      "candidate_seq": 710,
+      "company": "CAPCO CONSULTING SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": ":7ba4de484d925ef93683781b8bdfc51a",
+      "external_id": ":6e6842543b08551ed96f2f83c6a8121c",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "ai-engineer-10x-ai-technology-pte-ltd-qo3jrhdt",
-      "role_key": "freehire:ai-engineer-10x-ai-technology-pte-ltd-qo3jrhdt",
+      "posted_at": "2026-10-16T00:00:00Z",
+      "public_slug": "ai-engineer-capco-consulting-singapore-pte-ltd-5swlwp6o",
+      "role_key": "freehire:ai-engineer-capco-consulting-singapore-pte-ltd-5swlwp6o",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/7ba4de484d925ef93683781b8bdfc51a?utm_source=freehire.me",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6e6842543b08551ed96f2f83c6a8121c?utm_source=freehire.me",
       "title": "AI Engineer"
     },
     {
@@ -29,47 +52,65 @@
         "title:ai",
         "jd:machine_learning"
       ],
-      "candidate_seq": 619,
-      "company": "Citi",
-      "employment_type": "full_time",
-      "external_id": "citi.wd5.myworkdayjobs.com/2:/job/Singapore--Singapore/AI-Engineer---Global-Rates--APAC-Local-Markets-Sales---Trading_261000356",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore  Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "ai-engineer-global-rates-apac-local-markets-sales-trading-citi-waikemkx",
-      "role_key": "freehire:ai-engineer-global-rates-apac-local-markets-sales-trading-citi-waikemkx",
-      "source": "workday",
-      "source_url": "https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/AI-Engineer---Global-Rates--APAC-Local-Markets-Sales---Trading_261000356?utm_source=freehire.me",
-      "title": "AI Engineer – Global Rates, APAC Local Markets Sales & Trading"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:computer_vision",
-        "jd:computer_vision"
-      ],
-      "candidate_seq": 620,
-      "company": "HYUNDAI MOTOR GROUP INNOVATION CENTER IN SINGAPORE PTE. LTD.",
+      "candidate_seq": 711,
+      "company": "GMP TECHNOLOGIES (S) PTE LTD",
       "employment_type": null,
-      "external_id": ":870d92ce9dd1f14711877e88dd7ac867",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
+      "external_id": ":0793e13a4f9869f1d9a8fe9eb0d58a6f",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "senior-computer-vision-engineer-hyundai-motor-group-innovation-center-in-singapore-pte-ltd-qkoeb5ey",
-      "role_key": "freehire:senior-computer-vision-engineer-hyundai-motor-group-innovation-center-in-singapore-pte-ltd-qkoeb5ey",
+      "posted_at": "2026-10-16T00:00:00Z",
+      "public_slug": "applied-ai-engineer-gmp-technologies-s-pte-ltd-pxfkxekl",
+      "role_key": "freehire:applied-ai-engineer-gmp-technologies-s-pte-ltd-pxfkxekl",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/870d92ce9dd1f14711877e88dd7ac867?utm_source=freehire.me",
-      "title": "Senior Computer Vision Engineer"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/0793e13a4f9869f1d9a8fe9eb0d58a6f?utm_source=freehire.me",
+      "title": "Applied AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 713,
+      "company": "AIGP Health Pte Ltd.",
+      "employment_type": null,
+      "external_id": "full stack developer:93488982",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T11:19:54Z",
+      "public_slug": "ai-driven-full-stack-engineer-for-healthtech-platform-aigp-health-pte-ltd-qnxiwzde",
+      "role_key": "freehire:ai-driven-full-stack-engineer-for-healthtech-platform-aigp-health-pte-ltd-qnxiwzde",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93488982__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Full-Stack Engineer for HealthTech Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 714,
+      "company": "KEAWORLD PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:93490201",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T11:19:50Z",
+      "public_slug": "blazor-azure-full-stack-engineer-ai-data-keaworld-pte-ltd-pxxs2u4h",
+      "role_key": "freehire:blazor-azure-full-stack-engineer-ai-data-keaworld-pte-ltd-pxxs2u4h",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490201__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Blazor & Azure Full-Stack Engineer (AI & Data)"
     },
     {
       "ai_score": 5,
@@ -77,32 +118,10 @@
         "title:ai",
         "jd:genai"
       ],
-      "candidate_seq": 621,
-      "company": "Meta",
+      "candidate_seq": 715,
+      "company": "Brighter Signals",
       "employment_type": null,
-      "external_id": ":1121828427300243",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Austin, TX",
-      "market": "SG",
-      "posted_at": "2026-10-29T17:57:32Z",
-      "public_slug": "applied-ai-architect-meta-enterprise-platform-meta-u5m2w6bq",
-      "role_key": "freehire:applied-ai-architect-meta-enterprise-platform-meta-u5m2w6bq",
-      "source": "meta",
-      "source_url": "https://www.metacareers.com/profile/job_details/1121828427300243/?utm_source=freehire.me",
-      "title": "Applied AI Architect, Meta Enterprise Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 622,
-      "company": "DBS Bank Ltd",
-      "employment_type": null,
-      "external_id": "data engineer:93955750",
+      "external_id": "full stack developer:93491392",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -111,87 +130,62 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-29T16:42:25Z",
-      "public_slug": "senior-cloud-engineer-data-ai-platform-gcp-dbs-bank-ltd-dl5l2ld6",
-      "role_key": "freehire:senior-cloud-engineer-data-ai-platform-gcp-dbs-bank-ltd-dl5l2ld6",
+      "posted_at": "2026-10-15T11:19:50Z",
+      "public_slug": "senior-full-stack-engineer-ai-powered-healthcare-brighter-signals-jgijo7vi",
+      "role_key": "freehire:senior-full-stack-engineer-ai-powered-healthcare-brighter-signals-jgijo7vi",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93955750__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Cloud Engineer, Data & AI Platform (GCP)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93491392__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full Stack Engineer - AI-Powered Healthcare"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:llm"
+        "jd:multimodal"
       ],
-      "candidate_seq": 623,
-      "company": "AI Facile",
-      "employment_type": null,
-      "external_id": "full stack developer:93532716",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T16:42:00Z",
-      "public_slug": "senior-ai-fueled-full-stack-engineer-ai-facile-vi5tq5cr",
-      "role_key": "freehire:senior-ai-fueled-full-stack-engineer-ai-facile-vi5tq5cr",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93532716__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI-Fueled Full-Stack Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 624,
+      "candidate_seq": 716,
       "company": "TIKTOK PTE. LTD.",
       "employment_type": null,
-      "external_id": "full stack developer:94382268",
+      "external_id": "backend developer:93492604",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-29T16:41:54Z",
-      "public_slug": "ai-driven-full-stack-engineer-for-live-revenue-platforms-tiktok-pte-ltd-6j5rslyg",
-      "role_key": "freehire:ai-driven-full-stack-engineer-for-live-revenue-platforms-tiktok-pte-ltd-6j5rslyg",
+      "posted_at": "2026-10-15T11:19:40Z",
+      "public_slug": "backend-engineer-data-ai-for-large-scale-recommendations-tiktok-pte-ltd-t2cgbx4c",
+      "role_key": "freehire:backend-engineer-data-ai-for-large-scale-recommendations-tiktok-pte-ltd-t2cgbx4c",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94382268__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full-Stack Engineer for Live Revenue Platforms"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93492604__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer: Data + AI for Large-Scale Recommendations"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:agent"
+        "jd:genai"
       ],
-      "candidate_seq": 625,
-      "company": "kaishi partners pte. ltd.",
+      "candidate_seq": 719,
+      "company": "JASS TECH PTE. LTD.",
       "employment_type": null,
-      "external_id": "full stack developer:93750190",
+      "external_id": ":212e2739dd2f6666820d49dc075f1fc2",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-29T12:42:09Z",
-      "public_slug": "full-stack-engineer-ai-products-kaishi-partners-pte-ltd-hq5xgbg7",
-      "role_key": "freehire:full-stack-engineer-ai-products-kaishi-partners-pte-ltd-hq5xgbg7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93750190__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Full Stack Engineer AI Products"
+      "posted_at": "2026-10-15T00:00:00Z",
+      "public_slug": "cybersecurity-architect-ai-driven-network-security-jass-tech-pte-ltd-llw4io4g",
+      "role_key": "freehire:cybersecurity-architect-ai-driven-network-security-jass-tech-pte-ltd-llw4io4g",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/212e2739dd2f6666820d49dc075f1fc2?utm_source=freehire.me",
+      "title": "Cybersecurity Architect – AI-Driven Network Security"
     }
   ],
-  "generated_at": "2026-11-06T03:42:21.345144Z",
+  "generated_at": "2026-11-06T11:35:59.258760Z",
   "market": "SG",
-  "max_candidate_seq": 625,
-  "min_candidate_seq": 618,
+  "max_candidate_seq": 719,
+  "min_candidate_seq": 709,
   "shard_index": 3,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",

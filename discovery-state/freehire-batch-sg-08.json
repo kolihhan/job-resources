@@ -5,62 +5,128 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 658,
-      "company": "D8 LooP",
-      "employment_type": null,
-      "external_id": "data engineer:94030927",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:09Z",
-      "public_slug": "senior-data-engineer-real-time-data-ai-platform-d8-loop-lyf336sn",
-      "role_key": "freehire:senior-data-engineer-real-time-data-ai-platform-d8-loop-lyf336sn",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030927__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer, Real-Time Data & AI Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 659,
-      "company": "HTX (Home Team Science & Technology Agency)",
-      "employment_type": null,
-      "external_id": "full stack developer:94035322",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:03Z",
-      "public_slug": "senior-full-stack-engineer-ai-for-public-safety-htx-home-team-science-technology-agency-mbisbd24",
-      "role_key": "freehire:senior-full-stack-engineer-ai-for-public-safety-htx-home-team-science-technology-agency-mbisbd24",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94035322__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: AI for Public Safety"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
         "jd:agent"
       ],
-      "candidate_seq": 660,
-      "company": "microsoft regional sales pte. ltd.",
+      "candidate_seq": 774,
+      "company": "SimplifyNext",
       "employment_type": null,
-      "external_id": "devops engineer:94029199",
+      "external_id": "simplifynext:4996764007",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T01:57:19Z",
+      "public_slug": "ai-engineer-graduate-simplifynext-3bjkro7c",
+      "role_key": "freehire:ai-engineer-graduate-simplifynext-3bjkro7c",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007?utm_source=freehire.me",
+      "title": "AI Engineer (Graduate)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 776,
+      "company": "PhillipCapital",
+      "employment_type": null,
+      "external_id": "full stack developer:92440256",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:52Z",
+      "public_slug": "ai-driven-full-stack-engineer-for-digital-assets-phillipcapital-bn2cpyqn",
+      "role_key": "freehire:ai-driven-full-stack-engineer-for-digital-assets-phillipcapital-bn2cpyqn",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440256__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Full Stack Engineer for Digital Assets"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 777,
+      "company": "PhillipCapital",
+      "employment_type": null,
+      "external_id": "full stack developer:92442062",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:38Z",
+      "public_slug": "full-stack-developer-ai-enabled-phillipcapital-t3yxhuvi",
+      "role_key": "freehire:full-stack-developer-ai-enabled-phillipcapital-t3yxhuvi",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92442062__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Developer (AI-Enabled)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 778,
+      "company": "Thales Group",
+      "employment_type": null,
+      "external_id": "devops engineer:92441755",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:32Z",
+      "public_slug": "senior-devops-engineer-cloud-ai-automation-thales-group-7v76t2o7",
+      "role_key": "freehire:senior-devops-engineer-cloud-ai-automation-thales-group-7v76t2o7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441755__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior DevOps Engineer: Cloud, AI & Automation"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 780,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "backend developer:92135040",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-24T11:58:16Z",
+      "public_slug": "backend-engineer-ai-application-tiktok-local-service-singapore-tiktok-gkcqmcuh",
+      "role_key": "freehire:backend-engineer-ai-application-tiktok-local-service-singapore-tiktok-gkcqmcuh",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92135040__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer (AI Application) - TikTok Local Service (Singapore)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 782,
+      "company": "FREEFLO",
+      "employment_type": null,
+      "external_id": "backend developer:92055782",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -69,12 +135,37 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:40:36Z",
-      "public_slug": "senior-solutions-engineer-ai-powered-devops-architect-microsoft-regional-sales-pte-ltd-3akdqc7k",
-      "role_key": "freehire:senior-solutions-engineer-ai-powered-devops-architect-microsoft-regional-sales-pte-ltd-3akdqc7k",
+      "posted_at": "2026-09-23T12:15:22Z",
+      "public_slug": "senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
+      "role_key": "freehire:senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94029199__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Solutions Engineer – AI-Powered DevOps Architect"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92055782__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Backend Engineer — Python & Serverless"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:model_training"
+      ],
+      "candidate_seq": 783,
+      "company": "Shopee",
+      "employment_type": null,
+      "external_id": "backend developer:92056599",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-23T12:15:16Z",
+      "public_slug": "senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
+      "role_key": "freehire:senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92056599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer - AI-Driven Anti-Fraud Platform"
     },
     {
       "ai_score": 5,
@@ -82,120 +173,27 @@
         "title:ai",
         "jd:genai"
       ],
-      "candidate_seq": 661,
-      "company": "CYBERVAULT INNOVATIONS AND TECHNOLOGIES PTE. LTD.",
+      "candidate_seq": 785,
+      "company": "GlobalFoundries",
       "employment_type": null,
-      "external_id": "react developer:94031652",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:40:07Z",
-      "public_slug": "senior-full-stack-developer-react-python-ai-cybervault-innovations-and-technologies-pte-ltd-rb44da2x",
-      "role_key": "freehire:senior-full-stack-developer-react-python-ai-cybervault-innovations-and-technologies-pte-ltd-rb44da2x",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031652__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Developer: React, Python & AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:computer_vision",
-        "jd:computer_vision"
-      ],
-      "candidate_seq": 662,
-      "company": "Qeexo, Co.",
-      "employment_type": null,
-      "external_id": "35180-qeexo-co:120271",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-24T23:10:36Z",
-      "public_slug": "computer-vision-sales-engineer-qeexo-co-bhftlijv",
-      "role_key": "freehire:computer-vision-sales-engineer-qeexo-co-bhftlijv",
-      "source": "trinethire",
-      "source_url": "https://app.trinethire.com/companies/35180-qeexo-co/jobs/120271-computer-vision-sales-engineer?utm_source=freehire.me",
-      "title": "Computer Vision Sales Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:pytorch"
-      ],
-      "candidate_seq": 663,
-      "company": "ByteDance (old)",
-      "employment_type": null,
-      "external_id": "data engineer:93113116",
+      "external_id": "globalfoundries.eightfold.ai/globalfoundries.com:563980770601252",
       "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-24T18:03:53Z",
-      "public_slug": "data-engineer-phd-scale-ml-infra-lakehouse-bytedance-old-6xppnojo",
-      "role_key": "freehire:data-engineer-phd-scale-ml-infra-lakehouse-bytedance-old-6xppnojo",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113116__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Engineer (PhD) – Scale ML Infra & Lakehouse"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:rag"
-      ],
-      "candidate_seq": 665,
-      "company": "Singdata inc.",
-      "employment_type": null,
-      "external_id": "data engineer:93980054",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-23T18:00:05Z",
-      "public_slug": "ai-solutions-engineer-data-ai-platform-singdata-inc-egdbr24p",
-      "role_key": "freehire:ai-solutions-engineer-data-ai-platform-singdata-inc-egdbr24p",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93980054__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Solutions Engineer — Data & AI Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 666,
-      "company": "Nanyang Technological University",
-      "employment_type": null,
-      "external_id": "6290:95469387",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "North Region",
-      "market": "SG",
-      "posted_at": "2026-10-23T13:53:29Z",
-      "public_slug": "ai-engineer-full-stack-nanyang-technological-university-r4e7syr5",
-      "role_key": "freehire:ai-engineer-full-stack-nanyang-technological-university-r4e7syr5",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95469387?utm_source=freehire.me",
-      "title": "AI Engineer, Full Stack"
+      "posted_at": "2026-09-23T00:00:00Z",
+      "public_slug": "software-engineer-ai-applications-globalfoundries-qb5rviok",
+      "role_key": "freehire:software-engineer-ai-applications-globalfoundries-qb5rviok",
+      "source": "eightfold",
+      "source_url": "https://careers.gf.com/careers/job/563980770601252?utm_source=freehire.me",
+      "title": "Software Engineer (AI Applications)"
     }
   ],
-  "generated_at": "2026-11-06T03:42:21.345144Z",
+  "generated_at": "2026-11-06T11:35:59.258760Z",
   "market": "SG",
-  "max_candidate_seq": 666,
-  "min_candidate_seq": 658,
+  "max_candidate_seq": 785,
+  "min_candidate_seq": 774,
   "shard_index": 8,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",

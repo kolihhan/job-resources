@@ -5,105 +5,56 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 743,
+      "company": "ncs3",
+      "employment_type": null,
+      "external_id": "ncs3:6000000001474348",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-10-09T01:39:52Z",
+      "public_slug": "eg-ai-engineer-ncs3-e3jhvkvf",
+      "role_key": "freehire:eg-ai-engineer-ncs3-e3jhvkvf",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001474348--eg-ai-engineer?utm_source=freehire.me",
+      "title": "#EG AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 744,
+      "company": "NCS Group",
+      "employment_type": null,
+      "external_id": "6290:95177485",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T01:39:52Z",
+      "public_slug": "eg-ai-engineer-ncs-group-sb7mj3zk",
+      "role_key": "freehire:eg-ai-engineer-ncs-group-sb7mj3zk",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95177485?utm_source=freehire.me",
+      "title": "#EG AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
         "jd:agent"
       ],
-      "candidate_seq": 642,
-      "company": "DOLE ASIA HOLDINGS PTE. LTD.",
+      "candidate_seq": 745,
+      "company": "MICROSOFT OPERATIONS PTE LTD",
       "employment_type": null,
-      "external_id": ":d68669ee7fdfc2895e571520866fd954",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "it-support-security-ai-automation-engineer-dole-asia-holdings-pte-ltd-uixoh5fs",
-      "role_key": "freehire:it-support-security-ai-automation-engineer-dole-asia-holdings-pte-ltd-uixoh5fs",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/d68669ee7fdfc2895e571520866fd954?utm_source=freehire.me",
-      "title": "IT Support, Security & AI Automation Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:model_training"
-      ],
-      "candidate_seq": 643,
-      "company": "Nebius",
-      "employment_type": null,
-      "external_id": "nebius:5000612101",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T21:56:23Z",
-      "public_slug": "senior-customer-ai-engineer-token-factory-nebius-bg3sybg2",
-      "role_key": "freehire:senior-customer-ai-engineer-token-factory-nebius-bg3sybg2",
-      "source": "greenhouse",
-      "source_url": "https://careers.nebius.com/?gh_jid=5000612101&utm_source=freehire.me",
-      "title": "Senior Customer AI Engineer - Token Factory"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 644,
-      "company": "Evolution Singapore",
-      "employment_type": null,
-      "external_id": "data engineer:94060086",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T15:02:33Z",
-      "public_slug": "genai-ready-data-integration-engineer-evolution-singapore-o544toqz",
-      "role_key": "freehire:genai-ready-data-integration-engineer-evolution-singapore-o544toqz",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94060086__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "GenAI-Ready Data & Integration Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 645,
-      "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE LTD",
-      "employment_type": null,
-      "external_id": "data engineer:94061327",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T15:02:27Z",
-      "public_slug": "senior-front-end-data-engineer-for-labor-productivity-ai-micron-semiconductor-asia-operations-pte-ltd-ommb5wcp",
-      "role_key": "freehire:senior-front-end-data-engineer-for-labor-productivity-ai-micron-semiconductor-asia-operations-pte-ltd-ommb5wcp",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061327__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Front-End Data Engineer for Labor Productivity & AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 646,
-      "company": "Thales Avionics, Inc. (AGS)",
-      "employment_type": null,
-      "external_id": "full stack developer:94059751",
+      "external_id": "data engineer:93012599",
       "flags": [
         "experience_5_plus_hint"
       ],
@@ -111,87 +62,138 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-26T15:02:17Z",
-      "public_slug": "full-stack-engineer-for-ai-driven-avionics-lab-thales-avionics-inc-ags-7srvg2it",
-      "role_key": "freehire:full-stack-engineer-for-ai-driven-avionics-lab-thales-avionics-inc-ags-7srvg2it",
+      "posted_at": "2026-10-08T10:37:39Z",
+      "public_slug": "data-solution-engineer-data-ai-microsoft-operations-pte-ltd-cdi64dvy",
+      "role_key": "freehire:data-solution-engineer-data-ai-microsoft-operations-pte-ltd-cdi64dvy",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94059751__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer for AI-Driven Avionics Lab"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Solution Engineer, Data + AI"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:genai"
       ],
-      "candidate_seq": 647,
-      "company": "Singapore Telecommunications",
+      "candidate_seq": 746,
+      "company": "REGTECH INSIGHT PTE. LTD.",
       "employment_type": null,
-      "external_id": "6290:95504559",
+      "external_id": "data engineer:93012687",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-08T10:37:37Z",
+      "public_slug": "senior-data-engineer-genai-solutions-architect-regtech-insight-pte-ltd-yvjihfvw",
+      "role_key": "freehire:senior-data-engineer-genai-solutions-architect-regtech-insight-pte-ltd-yvjihfvw",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012687__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer & GenAI Solutions Architect"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 748,
+      "company": "Saksoft Pte Limited",
+      "employment_type": null,
+      "external_id": "6287:95149671",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Little India, Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-08T04:33:59Z",
+      "public_slug": "ai-full-stack-engineer-developer-saksoft-pte-limited-gfc7z6ey",
+      "role_key": "freehire:ai-full-stack-engineer-developer-saksoft-pte-limited-gfc7z6ey",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95149671?utm_source=freehire.me",
+      "title": "AI Full Stack Engineer Developer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 749,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200659354",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-26T12:00:00Z",
-      "public_slug": "senior-ai-engineer-aida-singapore-telecommunications-powvcyxw",
-      "role_key": "freehire:senior-ai-engineer-aida-singapore-telecommunications-powvcyxw",
+      "posted_at": "2026-10-07T05:09:52Z",
+      "public_slug": "machine-learning-engineer-strategic-data-solutions-apple-cr36xcnb",
+      "role_key": "freehire:machine-learning-engineer-strategic-data-solutions-apple-cr36xcnb",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200659354/machine-learning-engineer-strategic-data-solutions?utm_source=freehire.me",
+      "title": "Machine Learning Engineer, Strategic Data Solutions"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 750,
+      "company": "Adecco",
+      "employment_type": null,
+      "external_id": "6290:95090948",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-06T09:17:56Z",
+      "public_slug": "ai-data-science-senior-researcher-phd-holder-adecco-in24argz",
+      "role_key": "freehire:ai-data-science-senior-researcher-phd-holder-adecco-in24argz",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95504559?utm_source=freehire.me",
-      "title": "Senior AI Engineer #AIDA"
+      "source_url": "https://sg.jobstreet.com/job/95090948?utm_source=freehire.me",
+      "title": "AI & Data Science Senior Researcher (PhD holder)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ml",
-        "jd:retrieval"
+        "jd:deep_learning"
       ],
-      "candidate_seq": 648,
-      "company": "Bjak",
+      "candidate_seq": 751,
+      "company": "Western Digital",
       "employment_type": null,
-      "external_id": "bjakcareer:2fddb7f2-3231-4c6f-b21c-3d69c3f353a7",
-      "flags": [],
+      "external_id": "WesternDigital:744000153662059",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "United States",
+      "location": "Singapore, sg",
       "market": "SG",
-      "posted_at": "2026-10-26T09:42:19Z",
-      "public_slug": "applied-machine-learning-engineer-bjakcareer-6xdc5s4s",
-      "role_key": "freehire:applied-machine-learning-engineer-bjakcareer-6xdc5s4s",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/2fddb7f2-3231-4c6f-b21c-3d69c3f353a7?utm_source=freehire.me",
-      "title": "Applied Machine Learning Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 649,
-      "company": "Bjak",
-      "employment_type": null,
-      "external_id": "bjakcareer:1815a891-6854-4ada-9cd3-178009b807d1",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China",
-      "market": "SG",
-      "posted_at": "2026-10-26T09:42:11Z",
-      "public_slug": "machine-learning-engineer-ranking-retrieval-bjakcareer-5vbjfft2",
-      "role_key": "freehire:machine-learning-engineer-ranking-retrieval-bjakcareer-5vbjfft2",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1?utm_source=freehire.me",
-      "title": "Machine Learning Engineer, Ranking & Retrieval"
+      "posted_at": "2026-10-06T04:59:12Z",
+      "public_slug": "senior-technologist-machine-learning-western-digital-cntwyjwk",
+      "role_key": "freehire:senior-technologist-machine-learning-western-digital-cntwyjwk",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000153662059-senior-technologist-machine-learning?utm_source=freehire.me",
+      "title": "Senior Technologist - Machine Learning"
     }
   ],
-  "generated_at": "2026-11-06T03:42:21.345144Z",
+  "generated_at": "2026-11-06T11:35:59.258760Z",
   "market": "SG",
-  "max_candidate_seq": 649,
-  "min_candidate_seq": 642,
+  "max_candidate_seq": 751,
+  "min_candidate_seq": 743,
   "shard_index": 6,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",

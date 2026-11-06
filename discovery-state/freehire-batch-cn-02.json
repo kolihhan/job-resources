@@ -4,206 +4,207 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1992,
-      "company": "Bjak",
-      "employment_type": null,
-      "external_id": "bjakcareer:8a1ac53b-279c-4fe7-b126-1fbe2b284e92",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China",
-      "market": "CN",
-      "posted_at": "2026-10-26T08:51:55Z",
-      "public_slug": "full-stack-engineer-ai-internal-systems-bjakcareer-gsecmt3h",
-      "role_key": "freehire:full-stack-engineer-ai-internal-systems-bjakcareer-gsecmt3h",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/8a1ac53b-279c-4fe7-b126-1fbe2b284e92?utm_source=freehire.me",
-      "title": "Full Stack Engineer, AI Internal Systems"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1993,
-      "company": "Bjak",
-      "employment_type": null,
-      "external_id": "bjakcareer:4693af98-b7d4-47dd-a4c0-5d9ebdff081a",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China",
-      "market": "CN",
-      "posted_at": "2026-10-26T08:51:50Z",
-      "public_slug": "backend-engineer-ai-internal-systems-bjakcareer-a3hgny3t",
-      "role_key": "freehire:backend-engineer-ai-internal-systems-bjakcareer-a3hgny3t",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/4693af98-b7d4-47dd-a4c0-5d9ebdff081a?utm_source=freehire.me",
-      "title": "Backend Engineer, AI Internal Systems"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1994,
-      "company": "Schneider Electric",
-      "employment_type": null,
-      "external_id": "se.jibeapply.com:137672",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "China-Shanghai-Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-26T07:07:41Z",
-      "public_slug": "ai-engineer-i-schneider-electric-wx3z7sxi",
-      "role_key": "freehire:ai-engineer-i-schneider-electric-wx3z7sxi",
-      "source": "jibe",
-      "source_url": "https://se.jibeapply.com/careers-home/jobs/137672?utm_source=freehire.me",
-      "title": "AI Engineer I"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:nlp",
-        "jd:transformer",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 1995,
-      "company": "Zuoyebang",
-      "employment_type": null,
-      "external_id": "zuoyebang/41328:f5214b00-edbc-44ef-89a2-d46b5b45fa96",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "北京市, 北京市",
-      "market": "CN",
-      "posted_at": "2026-10-26T02:44:55Z",
-      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-zuoyebang-jc2dt7qy",
-      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-zuoyebang-jc2dt7qy",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/zuoyebang/41328?utm_source=freehire.me#/job/f5214b00-edbc-44ef-89a2-d46b5b45fa96",
-      "title": "大模型算法工程师"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:rag",
-        "jd:nlp",
-        "jd:transformer",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 1996,
-      "company": "Trip.com Group",
-      "employment_type": null,
-      "external_id": "trip/70415:e03d227f-0603-422f-913e-c111e26e2b75",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-26T02:41:13Z",
-      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-trip-com-group-5hknatha",
-      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-trip-com-group-5hknatha",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/e03d227f-0603-422f-913e-c111e26e2b75",
-      "title": "大模型算法工程师"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1998,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7699706505119090949",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-23T03:56:53Z",
-      "public_slug": "ai-nativequan-zhan-kai-fa-gong-cheng-shi-tiktokyong-hu-zeng-chang-bytedance-gfukvvrx",
-      "role_key": "freehire:ai-nativequan-zhan-kai-fa-gong-cheng-shi-tiktokyong-hu-zeng-chang-bytedance-gfukvvrx",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7699706505119090949/detail?utm_source=freehire.me",
-      "title": "AI Native全栈开发工程师 - TikTok用户增长"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "jd:llm",
         "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
+        "jd:transformer",
+        "jd:fine_tuning"
       ],
-      "candidate_seq": 1999,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100035100001",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Guangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-22T13:37:52Z",
-      "public_slug": "ling-xi-hu-yu-xuan-fa-agentkai-fa-gong-cheng-shi-xuan-fa-ji-zhu-alibaba-group-spbz4ac6",
-      "role_key": "freehire:ling-xi-hu-yu-xuan-fa-agentkai-fa-gong-cheng-shi-xuan-fa-ji-zhu-alibaba-group-spbz4ac6",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100035100001&utm_source=freehire.me",
-      "title": "灵犀互娱-宣发Agent开发工程师-宣发技术"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2001,
-      "company": "MiniMax Group Inc.",
-      "employment_type": null,
-      "external_id": ":49snzL",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-22T04:27:59Z",
-      "public_slug": "ai-data-infrastructure-engineer-minimax-group-inc-2iyq4cez",
-      "role_key": "freehire:ai-data-infrastructure-engineer-minimax-group-inc-2iyq4cez",
-      "source": "jobstash",
-      "source_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7698998278890080521/detail?utm_source=freehire.me",
-      "title": "AI Data Infrastructure Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2003,
+      "candidate_seq": 2021,
       "company": "Tencent",
       "employment_type": null,
-      "external_id": ":2113089272218300416",
+      "external_id": ":2092149663925977088",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, China",
+      "market": "CN",
+      "posted_at": "2026-10-12T00:00:00Z",
+      "public_slug": "hun-yuan-agentic-visionsuan-fa-yan-jiu-yuan-bei-jing-shang-hai-shen-zhen-tencent-w5t2iu3a",
+      "role_key": "freehire:hun-yuan-agentic-visionsuan-fa-yan-jiu-yuan-bei-jing-shang-hai-shen-zhen-tencent-w5t2iu3a",
+      "source": "tencent",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2092149663925977088&utm_source=freehire.me",
+      "title": "混元Agentic Vision算法研究员（北京/上海）(深圳)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2022,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-10-12T00:00:00Z",
+      "public_slug": "ai-developer-technology-engineer-nvidia-wxtukfl6",
+      "role_key": "freehire:ai-developer-technology-engineer-nvidia-wxtukfl6",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383?utm_source=freehire.me",
+      "title": "AI Developer Technology Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2024,
+      "company": "Microsoft",
+      "employment_type": null,
+      "external_id": "apply.careers.microsoft.com/microsoft.com:1970393557007337",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Beijing, Beijing",
+      "market": "CN",
+      "posted_at": "2026-10-10T06:26:44Z",
+      "public_slug": "software-engineer-ii-core-ai-microsoft-d6ep44jf",
+      "role_key": "freehire:software-engineer-ii-core-ai-microsoft-d6ep44jf",
+      "source": "eightfold",
+      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557007337?utm_source=freehire.me",
+      "title": "Software Engineer II - Core AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2025,
+      "company": "Bosch Group",
+      "employment_type": null,
+      "external_id": "boschgroup:744000154663199",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, Shanghai, cn",
+      "market": "CN",
+      "posted_at": "2026-10-09T12:17:17Z",
+      "public_slug": "embodied-ai-engineer-humanoid-robotics-rbcn-bosch-group-pds65o2a",
+      "role_key": "freehire:embodied-ai-engineer-humanoid-robotics-rbcn-bosch-group-pds65o2a",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154663199-embodied-ai-engineer-humanoid-robotics-rbcn?utm_source=freehire.me",
+      "title": "Embodied AI Engineer (Humanoid Robotics)_RBCN"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2026,
+      "company": "Tencent",
+      "employment_type": null,
+      "external_id": ":1788096480758734848",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Shenzhen, China",
       "market": "CN",
-      "posted_at": "2026-10-22T00:00:00Z",
-      "public_slug": "ai-infra-sre-gong-cheng-shi-da-mo-xing-tui-li-shen-zhen-bei-jing-tencent-ysremuty",
-      "role_key": "freehire:ai-infra-sre-gong-cheng-shi-da-mo-xing-tui-li-shen-zhen-bei-jing-tencent-ysremuty",
+      "posted_at": "2026-10-09T00:00:00Z",
+      "public_slug": "guang-zi-ai-you-xi-shu-ju-ke-xue-zhuan-jia-tencent-hjwoovg6",
+      "role_key": "freehire:guang-zi-ai-you-xi-shu-ju-ke-xue-zhuan-jia-tencent-hjwoovg6",
       "source": "tencent",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2113089272218300416&utm_source=freehire.me",
-      "title": "AI Infra SRE 工程师(大模型推理)(深圳/北京)"
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=1788096480758734848&utm_source=freehire.me",
+      "title": "光子 AI-游戏数据科学专家"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2027,
+      "company": "Tencent",
+      "employment_type": null,
+      "external_id": ":2108391501406056448",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, China",
+      "market": "CN",
+      "posted_at": "2026-10-09T00:00:00Z",
+      "public_slug": "devops-ai-ying-yong-kai-fa-gong-cheng-shi-bei-jing-shen-zhen-tencent-qqy7psf6",
+      "role_key": "freehire:devops-ai-ying-yong-kai-fa-gong-cheng-shi-bei-jing-shen-zhen-tencent-qqy7psf6",
+      "source": "tencent",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2108391501406056448&utm_source=freehire.me",
+      "title": "#DevOps AI 应用开发工程师#（北京/深圳）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2029,
+      "company": "ABB",
+      "employment_type": null,
+      "external_id": "abb.wd3.myworkdayjobs.com/external_career_page:/job/Shanghai-Shanghai-China/-AI-_JR00048554",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-10-08T00:00:00Z",
+      "public_slug": "ying-yong-ruan-jian-kai-fa-ai-abb-aq5bk2te",
+      "role_key": "freehire:ying-yong-ruan-jian-kai-fa-ai-abb-aq5bk2te",
+      "source": "workday",
+      "source_url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Shanghai-Shanghai-China/-AI-_JR00048554?utm_source=freehire.me",
+      "title": "应用软件开发(AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2030,
+      "company": "Bjak",
+      "employment_type": null,
+      "external_id": "bjakcareer:fb5ae07c-bf4c-4721-af6c-5a767ee34442",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Sydney, Australia",
+      "market": "CN",
+      "posted_at": "2026-10-01T06:10:37Z",
+      "public_slug": "mobile-engineer-ai-finance-agent-bjakcareer-ggohyyzw",
+      "role_key": "freehire:mobile-engineer-ai-finance-agent-bjakcareer-ggohyyzw",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/fb5ae07c-bf4c-4721-af6c-5a767ee34442?utm_source=freehire.me",
+      "title": "Mobile Engineer - AI Finance Agent"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2031,
+      "company": "Grab",
+      "employment_type": null,
+      "external_id": "Grab:744000152581689",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, cn",
+      "market": "CN",
+      "posted_at": "2026-09-30T02:08:24Z",
+      "public_slug": "senior-machine-learning-engineer-grab-gpfpcm5h",
+      "role_key": "freehire:senior-machine-learning-engineer-grab-gpfpcm5h",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/Grab/744000152581689-senior-machine-learning-engineer?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
     }
   ],
-  "generated_at": "2026-11-06T03:42:21.345144Z",
+  "generated_at": "2026-11-06T11:35:59.258760Z",
   "market": "CN",
-  "max_candidate_seq": 2003,
-  "min_candidate_seq": 1992,
+  "max_candidate_seq": 2031,
+  "min_candidate_seq": 2021,
   "shard_index": 2,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",

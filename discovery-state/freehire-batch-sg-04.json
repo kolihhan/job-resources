@@ -7,158 +7,123 @@
         "title:ai",
         "jd:agent"
       ],
-      "candidate_seq": 626,
-      "company": "MiAO Worlds",
+      "candidate_seq": 721,
+      "company": "NCS PTE. LTD.",
       "employment_type": null,
-      "external_id": "6290:95585134",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-29T08:57:36Z",
-      "public_slug": "software-engineer-ai-agents-miao-worlds-2hmhourc",
-      "role_key": "freehire:software-engineer-ai-agents-miao-worlds-2hmhourc",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95585134?utm_source=freehire.me",
-      "title": "Software Engineer, AI Agents"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 627,
-      "company": "MiAO Worlds",
-      "employment_type": null,
-      "external_id": "6290:95585084",
+      "external_id": "data engineer:93079041",
       "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-29T08:52:40Z",
-      "public_slug": "founding-engineer-ai-agents-miao-worlds-ryynucqa",
-      "role_key": "freehire:founding-engineer-ai-agents-miao-worlds-ryynucqa",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95585084?utm_source=freehire.me",
-      "title": "Founding Engineer, AI Agents"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:agent",
-        "jd:llm"
-      ],
-      "candidate_seq": 628,
-      "company": "ARTA TECH PTE. LTD.",
-      "employment_type": null,
-      "external_id": "6290:95585052",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-29T07:10:13Z",
-      "public_slug": "backend-systems-agentic-engineer-arta-tech-pte-ltd-la73bdpm",
-      "role_key": "freehire:backend-systems-agentic-engineer-arta-tech-pte-ltd-la73bdpm",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95585052?utm_source=freehire.me",
-      "title": "Backend / Systems Agentic Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 629,
-      "company": "uobgroup",
-      "employment_type": null,
-      "external_id": "uobgroup.wd3.myworkdayjobs.com/uobexternal:/job/Central-Region-City-Area/VP--Enterprise-GenAI-Backend-Engineer--Group-Technology---Ops_JR99807",
-      "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region (City Area)",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "vp-enterprise-genai-backend-engineer-group-technology-ops-uobgroup-rxgncsiz",
-      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-uobgroup-rxgncsiz",
-      "source": "workday",
-      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/VP--Enterprise-GenAI-Backend-Engineer--Group-Technology---Ops_JR99807?utm_source=freehire.me",
-      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 630,
-      "company": "U3 INFOTECH PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":8d13f7310c9a43940695a36cedd4f70c",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "devsecops-ai-security-consultant-u3-infotech-pte-ltd-bwwcfr3j",
-      "role_key": "freehire:devsecops-ai-security-consultant-u3-infotech-pte-ltd-bwwcfr3j",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/8d13f7310c9a43940695a36cedd4f70c?utm_source=freehire.me",
-      "title": "DevSecOps & AI Security Consultant"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 631,
-      "company": "GOLDTECH RESOURCES PTE LTD",
-      "employment_type": null,
-      "external_id": ":ed254f3ac95e8452ef1cc54fdc82e146",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "devops-engineer-ai-platform-devops-engineer-goldtech-resources-pte-ltd-tgzrvttx",
-      "role_key": "freehire:devops-engineer-ai-platform-devops-engineer-goldtech-resources-pte-ltd-tgzrvttx",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/ed254f3ac95e8452ef1cc54fdc82e146?utm_source=freehire.me",
-      "title": "DevOps Engineer (AI Platform)DevOps Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 632,
-      "company": "DBS Bank Ltd",
-      "employment_type": "full_time",
-      "external_id": "devops engineer:93831818",
-      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T08:40:10Z",
-      "public_slug": "assoc-ai-core-devops-engineer-data-platform-group-technology-dbs-bank-ltd-e7s47hio",
-      "role_key": "freehire:assoc-ai-core-devops-engineer-data-platform-group-technology-dbs-bank-ltd-e7s47hio",
+      "posted_at": "2026-10-14T21:20:26Z",
+      "public_slug": "ai-harness-architect-senior-data-engineer-ncs-pte-ltd-kv3xerda",
+      "role_key": "freehire:ai-harness-architect-senior-data-engineer-ncs-pte-ltd-kv3xerda",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93831818__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Assoc, AI Core DevOps Engineer, Data Platform, Group Technology"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93079041__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Harness Architect - Senior Data Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 723,
+      "company": "NCS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93075001",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-14T21:20:20Z",
+      "public_slug": "senior-ai-data-engineer-ncs-pte-ltd-55bk2uw2",
+      "role_key": "freehire:senior-ai-data-engineer-ncs-pte-ltd-55bk2uw2",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93075001__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Data Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:genai",
+        "jd:agent"
+      ],
+      "candidate_seq": 727,
+      "company": "AvePoint",
+      "employment_type": null,
+      "external_id": "avepoint:7809901",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-14T18:04:43Z",
+      "public_slug": "data-scientist-avepoint-nogr3nd2",
+      "role_key": "freehire:data-scientist-avepoint-nogr3nd2",
+      "source": "greenhouse",
+      "source_url": "https://www.avepoint.com/careers/job-detail?gh_jid=7809901&utm_source=freehire.me",
+      "title": "Data Scientist"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:machine_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 728,
+      "company": "Grab",
+      "employment_type": null,
+      "external_id": "Grab:744000155416489",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-10-14T05:55:54Z",
+      "public_slug": "senior-data-scientist-search-recommendations-grab-44y2vnni",
+      "role_key": "freehire:senior-data-scientist-search-recommendations-grab-44y2vnni",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/Grab/744000155416489-senior-data-scientist-search-recommendations-?utm_source=freehire.me",
+      "title": "Senior Data Scientist (Search & Recommendations)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 729,
+      "company": "ACHIEVE Group",
+      "employment_type": null,
+      "external_id": "6301:95255677",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "One North, Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-14T03:25:37Z",
+      "public_slug": "qa-engineer-consumer-products-ai-assisted-testing-one-north-achieve-group-xgmolprh",
+      "role_key": "freehire:qa-engineer-consumer-products-ai-assisted-testing-one-north-achieve-group-xgmolprh",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95255677?utm_source=freehire.me",
+      "title": "QA Engineer (Consumer Products | AI-Assisted Testing) One North"
     },
     {
       "ai_score": 5,
@@ -166,31 +131,78 @@
         "title:ai",
         "jd:genai"
       ],
-      "candidate_seq": 633,
-      "company": "Nanyang Technological University",
+      "candidate_seq": 731,
+      "company": "Johnson & Johnson MedTech",
       "employment_type": null,
-      "external_id": "6290:95540386",
+      "external_id": "full stack developer:93415921",
       "flags": [
         "senior_title_hint",
-        "experience_5_plus_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T02:54:21Z",
-      "public_slug": "senior-data-services-ai-engineer-nanyang-technological-university-bb2scaci",
-      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-bb2scaci",
+      "posted_at": "2026-10-13T11:20:11Z",
+      "public_slug": "senior-ai-powered-full-stack-engineer-johnson-johnson-medtech-d2ukel26",
+      "role_key": "freehire:senior-ai-powered-full-stack-engineer-johnson-johnson-medtech-d2ukel26",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415921__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI-Powered Full-Stack Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 732,
+      "company": "ScienTec Consulting",
+      "employment_type": null,
+      "external_id": "6282:95234065",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-13T05:50:06Z",
+      "public_slug": "ai-automation-engineer-government-scientec-consulting-zxhbdb2p",
+      "role_key": "freehire:ai-automation-engineer-government-scientec-consulting-zxhbdb2p",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95540386?utm_source=freehire.me",
-      "title": "Senior Data Services & AI Engineer"
+      "source_url": "https://sg.jobstreet.com/job/95234065?utm_source=freehire.me",
+      "title": "AI Automation Engineer (Government)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 733,
+      "company": "EPIQ Hong Kong, Limited",
+      "employment_type": null,
+      "external_id": "6290:95234032",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-13T05:48:50Z",
+      "public_slug": "backend-software-engineer-ai-lab-epiq-hong-kong-limited-dw3vidd7",
+      "role_key": "freehire:backend-software-engineer-ai-lab-epiq-hong-kong-limited-dw3vidd7",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95234032?utm_source=freehire.me",
+      "title": "Backend Software Engineer - AI Lab"
     }
   ],
-  "generated_at": "2026-11-06T03:42:21.345144Z",
+  "generated_at": "2026-11-06T11:35:59.258760Z",
   "market": "SG",
-  "max_candidate_seq": 633,
-  "min_candidate_seq": 626,
+  "max_candidate_seq": 733,
+  "min_candidate_seq": 721,
   "shard_index": 4,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
