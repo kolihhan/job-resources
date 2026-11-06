@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T22:58:55+08:00",
+  "updated_at": "2026-11-07T00:00:04+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -282,9 +282,12 @@
       "company": "TikTok",
       "title": "AI Agent Engineer (Stability) - TikTok",
       "source_url": "https://sg.jobstreet.com/job/94243455",
-      "reason_code": "official_role_and_material_agent_scope_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:00:00+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 330,
@@ -292,9 +295,12 @@
       "company": "Bitdeer Technologies Group",
       "title": "Senior LLM Inference Performance and Evaluation Engineer",
       "source_url": "https://bitdeer.breezy.hr/p/fa503f83da0a-senior-llm-inference-performance-evaluation-engineer",
-      "reason_code": "mandatory_seniority_and_current_liveness_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:00:00+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 333,
@@ -302,9 +308,12 @@
       "company": "Singapore Telecommunications",
       "title": "AI Solutions Engineer",
       "source_url": "https://sg.jobstreet.com/job/93886201",
-      "reason_code": "current_listing_and_employment_terms_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:00:00+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 335,
@@ -312,19 +321,12 @@
       "company": "TikTok",
       "title": "Software Test Engineer (AI), TikTok Search",
       "source_url": "https://sg.jobstreet.com/job/93760147",
-      "reason_code": "official_ai_scope_and_role_liveness_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:00:00+08:00"
-    },
-    {
-      "candidate_seq": 336,
-      "role_key": "freehire:data-scientist-ai-fintech-cygnify-v3434gwx",
-      "company": "cygnify",
-      "title": "Data Scientist – AI Fintech",
-      "source_url": "https://jobs.ashbyhq.com/cygnify/913e503d-07b4-4f67-8435-36d9a9b6dff1",
-      "reason_code": "ai_content_and_sg_workpass_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:00:00+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 337,
@@ -332,9 +334,12 @@
       "company": "Nestria",
       "title": "Applied ML / AI Engineer",
       "source_url": "https://sg.jobstreet.com/job/93250277",
-      "reason_code": "current_listing_and_ai_content_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:00:00+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 327,
@@ -342,9 +347,12 @@
       "company": "Thales Group",
       "title": "Data Engineer: AI/ML Pipelines & Digital Twin",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91184124__7119",
-      "reason_code": "digital_twin_ai_core_and_authoritative_source_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:00:00+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 340,
@@ -352,9 +360,12 @@
       "company": "TikTok",
       "title": "AI Agent Engineer - TikTok LIVE (Singapore)",
       "source_url": "https://sg.jobstreet.com/job/91295557",
-      "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:57:42+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 341,
@@ -362,9 +373,12 @@
       "company": "jpmc-dev9.fa.oraclecloud.com/CX",
       "title": "AI/ML Capabilities – Associate, APAC Chief & Data Analytics Office",
       "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731274",
-      "reason_code": "jpmc_official_role_liveness_and_seniority_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:57:42+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 342,
@@ -372,9 +386,12 @@
       "company": "jpmc-dev9.fa.oraclecloud.com/CX",
       "title": "AI/ML Solutions Enablement – Associate, APAC Chief & Data Analytics Office",
       "source_url": "https://jpmc-dev9.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/210731292",
-      "reason_code": "jpmc_official_role_liveness_and_seniority_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:57:42+08:00"
+      "reason_code": "alternate_source_checked_substantive_verification_incomplete",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "last_retry_at": "2026-11-07T00:00:04+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded official employer/ATS or exact-role indexed alternate; no new substantive JD verified"
     },
     {
       "candidate_seq": 345,
@@ -3292,6 +3309,61 @@
       "next_retry_at": "2026-11-07T23:00:00+08:00",
       "retry_new_evidence": false,
       "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 741,
+      "role_key": "freehire:senior-full-stack-engineer-ai-powered-health-tech-biopharma-careers-ayziotni",
+      "company": "Biopharma Asia",
+      "title": "Senior Full-Stack Engineer: AI-Powered Health Tech",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113490__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 745,
+      "role_key": "freehire:data-solution-engineer-data-ai-microsoft-operations-pte-ltd-cdi64dvy",
+      "company": "MICROSOFT OPERATIONS PTE LTD",
+      "title": "Data Solution Engineer, Data + AI",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 746,
+      "role_key": "freehire:senior-data-engineer-genai-solutions-architect-regtech-insight-pte-ltd-yvjihfvw",
+      "company": "REGTECH INSIGHT PTE. LTD.",
+      "title": "Senior Data Engineer & GenAI Solutions Architect",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012687__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 748,
+      "role_key": "freehire:ai-full-stack-engineer-developer-saksoft-pte-limited-gfc7z6ey",
+      "company": "Saksoft Pte Limited",
+      "title": "AI Full Stack Engineer Developer",
+      "source_url": "https://sg.jobstreet.com/job/95149671?utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 751,
+      "role_key": "freehire:senior-technologist-machine-learning-western-digital-cntwyjwk",
+      "company": "Western Digital",
+      "title": "Senior Technologist - Machine Learning",
+      "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000153662059-senior-technologist-machine-learning?utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T00:00:04+08:00",
+      "retry_new_evidence": false
     }
   ]
 }
