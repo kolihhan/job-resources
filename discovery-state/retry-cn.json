@@ -166,8 +166,8 @@
       "role_key": "freehire:qian-wen-shi-ye-bu-yun-dong-jian-kang-agent-suan-fa-gong-cheng-shi-hang-zhou-alibaba-group-huc5wxg6",
       "candidate_seq": 1661,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-05T19:06:03+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-07T08:05:32+08:00",
       "company": "Alibaba Group",
       "title": "千问事业部-运动健康 Agent 算法工程师-杭州",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100028400003"
@@ -356,8 +356,8 @@
       "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-ji-suan-bytedance-xzim4r2s",
       "candidate_seq": 1738,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T20:13:52+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T08:05:32+08:00",
       "company": "ByteDance",
       "title": "AI Agent研发工程师 - 计算",
       "source_url": "https://jobs.bytedance.com/experienced/position/7571727651531983109/detail"
@@ -496,8 +496,8 @@
       "role_key": "freehire:a-li-guo-ji-zhan-ai-agentce-shi-kai-fa-gong-cheng-shi-accio-work-alibaba-group-7c5tgdnd",
       "candidate_seq": 1784,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T19:06:03+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T08:05:32+08:00",
       "company": "Alibaba Group",
       "title": "阿里国际站-AI Agent测试开发工程师-Accio Work",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100024715002"
@@ -749,8 +749,8 @@
       "title": "高德-具身智能数据闭环 Agent 应用算法工程师-具身智能数据方向",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100014040002",
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T18:13:08+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:05:32+08:00"
     },
     {
       "candidate_seq": 1828,
@@ -769,18 +769,8 @@
       "title": "LLM Infra工程师 - Data-抖音/直播/电商/剪映",
       "source_url": "https://jobs.bytedance.com/campus/position/7678911812435544373/detail",
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T18:13:08+08:00"
-    },
-    {
-      "candidate_seq": 1831,
-      "role_key": "freehire:senior-deep-learning-solution-architect-nvidia-jr2024043",
-      "company": "NVIDIA",
-      "title": "Senior Deep Learning Solution Architect",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Senior-Deep-Learning-Solution-Architect_JR2024043",
-      "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T21:11:38+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:05:32+08:00"
     },
     {
       "candidate_seq": 1832,
@@ -856,8 +846,8 @@
       "role_key": "freehire:hou-duan-yan-fa-gong-cheng-shi-ai-agentfang-xiang-an-quan-yu-feng-kong-bytedance-vuqnfuqy",
       "candidate_seq": 1842,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T19:06:03+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T08:05:32+08:00",
       "company": "ByteDance",
       "title": "后端研发工程师（AI Agent方向） - 安全与风控",
       "source_url": "https://jobs.bytedance.com/campus/position/7668323746595735861/detail"
@@ -866,8 +856,8 @@
       "role_key": "freehire:an-quan-yan-fa-gong-cheng-shi-ai-forke-hu-duan-an-quan-an-quan-yu-feng-kong-bytedance-7tzr47hm",
       "candidate_seq": 1843,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T20:13:52+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T08:05:32+08:00",
       "company": "ByteDance",
       "title": "安全研发工程师（AI for客户端安全） - 安全与风控",
       "source_url": "https://jobs.bytedance.com/campus/position/7668310479979301173/detail"
@@ -876,8 +866,8 @@
       "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-huo-shan-yin-qing-bytedance-s6pf5pdq",
       "candidate_seq": 1844,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-05T20:13:52+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T08:05:32+08:00",
       "company": "ByteDance",
       "title": "AI Agent研发工程师 - 火山引擎",
       "source_url": "https://jobs.bytedance.com/campus/position/7667887867200948533/detail"
@@ -886,8 +876,8 @@
       "role_key": "freehire:agentopsping-tai-yan-fa-gong-cheng-shi-ai-platform-bytedance-mestwlzm",
       "candidate_seq": 1845,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-05T20:13:52+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:05:32+08:00",
       "company": "ByteDance",
       "title": "AgentOps平台研发工程师 - AI Platform",
       "source_url": "https://jobs.bytedance.com/campus/position/7667884524668160309/detail"
