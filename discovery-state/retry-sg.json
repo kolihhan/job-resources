@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-07T00:00:04+08:00",
+  "updated_at": "2026-11-07T01:58:44+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -399,9 +399,12 @@
       "company": "ByteDance",
       "title": "LLM/MLLM Algorithm Engineer - Global E-Commerce",
       "source_url": "https://jobs.bytedance.com/experienced/position/7621874043991132421/detail",
-      "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:57:42+08:00"
+      "reason_code": "employer_exact_role_full_jd_confirmed_workpass_and_route_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": true,
+      "alternate_source_attempted": "joinbytedance.com exact requisition full JD"
     },
     {
       "candidate_seq": 346,
@@ -410,8 +413,11 @@
       "title": "Ai engineer",
       "source_url": "https://apply.workable.com/j/BA5E438B6A",
       "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:57:42+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded exact employer/req indexed alternate search; no substantive eligibility evidence"
     },
     {
       "candidate_seq": 347,
@@ -420,8 +426,11 @@
       "title": "AI Engineer / Artificial IntelligenceContract- Banking",
       "source_url": "https://apply.workable.com/j/123210122A",
       "reason_code": "official_jd_scope_liveness_and_sg_workpass_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:57:42+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded exact employer/req indexed alternate search; no substantive eligibility evidence"
     },
     {
       "candidate_seq": 351,
@@ -430,8 +439,11 @@
       "title": "Senior Software Engineer (Data Solutions), AI & Data Platforms",
       "source_url": "https://jobs.apple.com/en-us/details/200692847/senior-software-engineer-data-solutions-ai-data-platforms",
       "reason_code": "authoritative_jd_eligibility_and_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T12:56:05+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded exact employer/req indexed alternate search; no substantive eligibility evidence"
     },
     {
       "candidate_seq": 352,
@@ -440,8 +452,11 @@
       "title": "Research Scientist - LLM Applications (2027 PhD)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/6b152768fd1fac97793c6c9c5744d78c",
       "reason_code": "phd_2027_campaign_and_mcf_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T12:56:05+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded exact employer/req indexed alternate search; no substantive eligibility evidence"
     },
     {
       "candidate_seq": 353,
@@ -450,8 +465,11 @@
       "title": "AI Engineer: RAG Pipelines for Enterprise Data",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380198__7119",
       "reason_code": "authoritative_jd_eligibility_and_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T12:56:05+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded exact employer/req indexed alternate search; no substantive eligibility evidence"
     },
     {
       "candidate_seq": 354,
@@ -460,8 +478,11 @@
       "title": "Applied AI Engineer",
       "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8234195",
       "reason_code": "authoritative_jd_eligibility_and_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T12:56:05+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded exact employer/req indexed alternate search; no substantive eligibility evidence"
     },
     {
       "candidate_seq": 355,
@@ -470,8 +491,11 @@
       "title": "Accelerator Program - Data Scientist (LLM & Trading)",
       "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002579101",
       "reason_code": "authoritative_jd_eligibility_and_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T12:56:05+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded exact employer/req indexed alternate search; no substantive eligibility evidence"
     },
     {
       "candidate_seq": 357,
@@ -480,8 +504,11 @@
       "title": "AI Platform Engineer",
       "source_url": "https://sg.jobstreet.com/job/95614718",
       "reason_code": "cross_source_schonfeld_identity_and_seniority_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T12:56:05+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded exact employer/req indexed alternate search; no substantive eligibility evidence"
     },
     {
       "candidate_seq": 358,
@@ -489,9 +516,12 @@
       "company": "Umelife",
       "title": "LLM Evaluation Engineer",
       "source_url": "https://sg.jobstreet.com/job/95602065",
-      "reason_code": "authoritative_jd_eligibility_and_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T12:56:05+08:00"
+      "reason_code": "full_jd_found_linkedin_no_longer_accepting_non_mcf_route_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T02:00:00+08:00",
+      "last_retry_at": "2026-11-07T01:58:44+08:00",
+      "retry_new_evidence": true,
+      "alternate_source_attempted": "LinkedIn full JD and application status"
     },
     {
       "candidate_seq": 359,
