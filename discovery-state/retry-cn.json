@@ -265,41 +265,49 @@
       "role_key": "freehire:a-li-ma-ma-aiying-yong-suan-fa-gong-cheng-shi-ai-data-decision-intelligence-alibaba-group-eddytqbe",
       "candidate_seq": 1682,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T21:11:54+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "Alibaba Group",
       "title": "阿里妈妈-AI应用算法工程师-AI Data & Decision Intelligence",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100041380002"
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100041380002",
+      "last_alternate_source": "exact employer-title/requisition indexed alternate-source search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:hun-yuan-agenthou-xun-lian-suan-fa-gong-cheng-shi-bei-jing-shang-hai-shen-zhen-tencent-sfsxuvyr",
       "candidate_seq": 1683,
-      "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T21:11:54+08:00",
+      "reason_code": "alternate_full_jd_found_liveness_foreign_hire_unverified",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "Tencent",
       "title": "混元Agent后训练算法工程师（北京/上海/深圳）",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2068941068765933568"
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2068941068765933568",
+      "last_alternate_source": "jdwatch.work/jobs/jw9ky10h9 full role JD",
+      "last_retry_new_evidence": true
     },
     {
       "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-agentfang-xiang-trip-com-group-vd75ka5f",
       "candidate_seq": 1685,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T21:11:54+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "Trip.com Group",
       "title": "大模型算法工程师（Agent方向）",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415#/job/794e0e13-e580-4c7a-ae65-d30eb2409fab"
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415#/job/794e0e13-e580-4c7a-ae65-d30eb2409fab",
+      "last_alternate_source": "exact employer-title/requisition indexed alternate-source search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:ai-agentsuan-fa-gong-cheng-shi-meituan-tkcymljt",
       "candidate_seq": 1686,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T21:11:54+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "Meituan",
       "title": "AI Agent算法工程师",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4706679243"
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4706679243",
+      "last_alternate_source": "exact employer-title/requisition indexed alternate-source search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-aiji-chu-neng-li-ji-tuan-xin-xi-xi-tong-bytedance-ctrvwziq",
@@ -567,11 +575,13 @@
       "role_key": "freehire:machine-learning-engineer-strategic-data-solutions-compliance-apple-ahh4swrz",
       "candidate_seq": 1790,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T21:11:54+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "Apple",
       "title": "Machine Learning Engineer - Strategic Data Solutions (Compliance)",
-      "source_url": "https://jobs.apple.com/en-us/details/200687878/machine-learning-engineer-strategic-data-solutions-compliance"
+      "source_url": "https://jobs.apple.com/en-us/details/200687878/machine-learning-engineer-strategic-data-solutions-compliance",
+      "last_alternate_source": "exact employer-title/requisition indexed alternate-source search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:qi-ye-wei-xin-da-mo-xing-suan-fa-gong-cheng-shi-agentying-yong-yan-zhou-bei-jing-tencent-piu5lljf",
@@ -1152,52 +1162,62 @@
     {
       "role_key": "freehire:duo-mo-tai-da-mo-xing-suan-fa-gong-cheng-shi-agentsuan-fa-gong-cheng-shi-guo-ji-dian-shang-bytedance-lbflphjn",
       "candidate_seq": 1884,
-      "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "reason_code": "alternate_full_jd_found_liveness_foreign_hire_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "ByteDance",
       "title": "多模态大模型算法工程师/Agent算法工程师-国际电商",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7650046575809759541/detail?utm_source=freehire.me"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7650046575809759541/detail?utm_source=freehire.me",
+      "last_alternate_source": "jobs.ultraai.site exact employer requisition 7650047595531979061",
+      "last_retry_new_evidence": true
     },
     {
       "role_key": "freehire:cv-nlp-duo-mo-tai-suan-fa-gong-cheng-shi-guo-ji-hua-dian-shang-bytedance-5jadcalc",
       "candidate_seq": 1885,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "ByteDance",
       "title": "CV/NLP/多模态算法工程师-国际化电商",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7649587324724168965/detail?utm_source=freehire.me"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7649587324724168965/detail?utm_source=freehire.me",
+      "last_alternate_source": "exact employer-title/requisition indexed alternate-source search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:senior-software-engineer-machine-learning-shopback-2-zxyl5xna",
       "candidate_seq": 1888,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "ShopBack",
       "title": "Senior Software Engineer - Machine Learning",
-      "source_url": "https://jobs.lever.co/shopback-2/78475932-4553-48bf-95f8-8a42762159a2?utm_source=freehire.me"
+      "source_url": "https://jobs.lever.co/shopback-2/78475932-4553-48bf-95f8-8a42762159a2?utm_source=freehire.me",
+      "last_alternate_source": "exact employer-title/requisition indexed alternate-source search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:longcatda-mo-xing-ren-cai-xiao-zhao-agentic-codingsuan-fa-yan-jiu-yuan-meituan-szcxsvj7",
       "candidate_seq": 1889,
-      "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "reason_code": "alternate_full_jd_found_cohort_foreign_hire_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "Meituan",
       "title": "【LongCat大模型人才校招】Agentic Coding算法研究员",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4530729606&utm_source=freehire.me"
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4530729606&utm_source=freehire.me",
+      "last_alternate_source": "jdwatch.work/jobs/j15c5f8wq full role JD",
+      "last_retry_new_evidence": true
     },
     {
       "role_key": "freehire:longcatda-mo-xing-ren-cai-xiao-zhao-agentic-foundation-model-suan-fa-yan-jiu-yuan-meituan-om6xhjeo",
       "candidate_seq": 1890,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
       "company": "Meituan",
       "title": "【LongCat大模型人才校招】Agentic Foundation Model 算法研究员",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4530026949&utm_source=freehire.me"
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4530026949&utm_source=freehire.me",
+      "last_alternate_source": "exact employer-title/requisition indexed alternate-source search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:ai-agenthou-duan-kai-fa-gong-cheng-shi-aichui-zhi-chang-jing-ji-tuan-xin-xi-xi-tong-bytedance-zxpj7yod",
@@ -1768,6 +1788,50 @@
       "company": "ocbc",
       "title": "AM, Data Science, Reusable AI Squad",
       "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-China-Chengdu/AM--Data-Science--Reusable-AI-Squad_JR00011393?utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:ai-engineer-dbs-sw6alwpq",
+      "candidate_seq": 2038,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
+      "company": "dbs",
+      "title": "AI Engineer",
+      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Guangzhou/AI-Engineer_WD89063?utm_source=freehire.me",
+      "external_id": "dbs.wd3.myworkdayjobs.com/dbs_careers:/job/Guangzhou/AI-Engineer_WD89063"
+    },
+    {
+      "role_key": "freehire:ai-nativequan-zhan-gong-cheng-shi-dou-yin-zhi-bo-bytedance-vhmrqiao",
+      "candidate_seq": 2039,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Native全栈工程师 - 抖音直播",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7688617050661488901/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7688617050661488901"
+    },
+    {
+      "role_key": "freehire:wei-xin-sou-suo-da-mo-xing-suan-fa-gong-cheng-shi-sou-suo-planner-fang-xiang-tencent-dfolaf3o",
+      "candidate_seq": 2040,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
+      "company": "Tencent",
+      "title": "微信搜索-大模型算法工程师-搜索 Planner 方向",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2091832458562682880&utm_source=freehire.me",
+      "external_id": ":2091832458562682880"
+    },
+    {
+      "role_key": "freehire:ai-agentzhi-liang-xiao-neng-gong-cheng-shi-seed-chan-pin-yan-fa-zhi-liang-xiao-neng-bytedance-gzi2kw73",
+      "candidate_seq": 2041,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-08T06:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent质量效能工程师 - Seed 产品研发质量效能",
+      "source_url": "https://jobs.bytedance.com/campus/position/7687906361073551669/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7687906361073551669"
     }
   ]
 }
