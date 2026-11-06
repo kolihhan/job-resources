@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T10:04:34+08:00",
+  "updated_at": "2026-11-06T11:00:11+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -2142,6 +2142,106 @@
       "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 592,
+      "role_key": "freehire:machine-learning-engineer-recommendation-tiktok-e-commerce-tiktok-pte-ltd-cg4y7mai",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Machine Learning Engineer (Recommendation) - TikTok e-Commerce",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/56ed463e158619dac40fa8e9d9f3c1ff?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 593,
+      "role_key": "freehire:content-understanding-llm-algorithm-engineer-graduate-global-e-commerce-2027-start-tiktok-pte-ltd-injfsqve",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Content Understanding LLM Algorithm Engineer Graduate (Global E-Commerce) - 2027 Start",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/cda3b6268bc1e321d0857be98575b63b?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 594,
+      "role_key": "freehire:multimodal-llm-algorithm-engineer-graduate-global-e-commerce-knowledge-graph-2027-start-phd-tiktok-pte-ltd-zdbrmd7q",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Multimodal LLM Algorithm Engineer Graduate (Global E-Commerce, Knowledge Graph) - 2027 Start (PhD)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/07db83d6dcf3a37bc82198cd741fa5df?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 595,
+      "role_key": "freehire:svp-vp-senior-cloud-engineer-data-ai-platform-group-technology-china-beijing-branch-jr3i22qx",
+      "company": "China, Beijing Branch",
+      "title": "SVP/VP, Senior Cloud Engineer (Data & AI Platform), Group Technology",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94636485__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 596,
+      "role_key": "freehire:senior-full-stack-developer-ai-aws-devops-cheil-singapore-pte-ltd-fk4n5ebn",
+      "company": "Cheil Singapore Pte Ltd",
+      "title": "Senior Full-Stack Developer - AI, AWS & DevOps",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94639780__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 597,
+      "role_key": "freehire:senior-full-stack-developer-ai-driven-aws-ci-cd-cheil-singapore-pte-ltd-nagwjw6a",
+      "company": "CHEIL SINGAPORE PTE. LTD.",
+      "title": "Senior Full Stack Developer — AI-Driven, AWS & CI/CD",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94640121__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 598,
+      "role_key": "freehire:senior-backend-engineer-ai-powered-finance-platform-arta-tech-pte-ltd-5aht2uxa",
+      "company": "ARTA TECH PTE. LTD.",
+      "title": "Senior Backend Engineer - AI-Powered Finance Platform",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637970__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 599,
+      "role_key": "freehire:senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
+      "company": "Arta Tech",
+      "title": "Senior Backend Engineer — AI-Driven Finance Platform",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638653__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 600,
+      "role_key": "freehire:machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
+      "company": "Monee",
+      "title": "Machine Learning Engineer - Risk Data Experienced (Individual Contributor) Singapore Data Science",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92133441__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 601,
+      "role_key": "freehire:ml-engineer-real-time-risk-data-infrastructure-monee-f5iq65hm",
+      "company": "Monee",
+      "title": "ML Engineer – Real-Time Risk Data & Infrastructure",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92191308__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T11:00:11+08:00"
     }
   ]
 }
