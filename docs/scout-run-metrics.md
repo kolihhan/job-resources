@@ -96,8 +96,6 @@ FreeHire phase:
 
 A false-negative audit survivor may also increment normal survivor/APPLY/CHECK fields after it passes the same final gates; the audit fields remain separate so recall can be measured.
 
-## Reporting
-
 ## Coverage and correctness diagnostics (additive fields)
 
 For new records, also report:
@@ -110,6 +108,7 @@ For new records, also report:
 
 **Pre-write and post-write invariant:** Validate all market-owned discovery files with python scripts/validate_scout_state.py (or equivalent structural checks if the runtime lacks Python). In particular fresh-<market>.json must contain rotation counters, retry-<market>.json must contain a receipt array, and triage-<market>.json must contain the consumption cursor. A read-back that only compares bytes can falsely certify a file written to the **wrong path**. On any shape mismatch: stop changing market state, report BLOCKED_STATE, and preserve the original data for repair. Never advance a cursor or say the cycle completed when validation fails.
 
+## Reporting
 
 Human-facing summaries should include both throughput and recall evidence, for example:
 
