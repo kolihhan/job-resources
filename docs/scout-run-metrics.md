@@ -98,6 +98,19 @@ A false-negative audit survivor may also increment normal survivor/APPLY/CHECK f
 
 ## Reporting
 
+## Coverage and correctness diagnostics (additive fields)
+
+For new records, also report:
+
+- run_quality: COMPLETE or PARTIAL_COVERAGE or BLOCKED_STATE. This is **not** inferred from the number of new Issues. COMPLETE requires the scheduled source attempts, bounded alternate-source recovery for weak/zero-row attempts, all mandatory durable handoffs, and read-back validation. It does not promise market exhaustiveness.
+- coverage_gaps: concrete blocked/weak sources and their actual inspected rows, not a generic statement of no listings.
+- fallback_sources: source families used to compensate for blocked native pages, with separately counted rows (avoid duplicates).
+- retry_new_evidence: number of retries that yielded a new substantive JD, route, or eligibility fact; distinguish from attempts/reschedules.
+- recall_spotcheck (daily review, not every hourly run): independent fresh roles sampled, matches in all Issue history, verified missed eligible roles, and root cause. Small samples indicate **possible** false negatives, not a statistically valid market recall estimate.
+
+**Pre-write and post-write invariant:** Validate all market-owned discovery files with python scripts/validate_scout_state.py (or equivalent structural checks if the runtime lacks Python). In particular fresh-<market>.json must contain rotation counters, retry-<market>.json must contain a receipt array, and triage-<market>.json must contain the consumption cursor. A read-back that only compares bytes can falsely certify a file written to the **wrong path**. On any shape mismatch: stop changing market state, report BLOCKED_STATE, and preserve the original data for repair. Never advance a cursor or say the cycle completed when validation fails.
+
+
 Human-facing summaries should include both throughput and recall evidence, for example:
 
 `FreeHire: 100 candidates / 68 cheap rejects / 15 normal JD reads / reject audit 5 with 0 false negatives / 4 survivors / cursor 100→200.`
