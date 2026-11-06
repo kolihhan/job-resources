@@ -90,10 +90,13 @@ def probe(row,fetch=False):
     source=source_info(row.get("source_url",""))
     title=str(row.get("title") or "").strip()
     company=str(row.get("company") or "").strip()
+    source_id = re.search(r"(?i)(?:JR\d{5,}|WD\d{4,}|R\d{6,}|\b\d{10,}\b)", source.get("url") or "")
+    search = f'"{company}" "{title}"' + (f' "{source_id.group()}"' if source_id else '')
     out={"candidate_seq":row.get("candidate_seq"),"company":company,"title":title,
+         "source_id_hint":source_id.group() if source_id else None,
          "source_kind":source["kind"],"provider":source.get("provider"),
          "canonical_url":source.get("url"),"api_url":source.get("api"),
-         "fallback_search":f'"{company}" "{title}" careers job',
+         "fallback_search":search + " careers job",
          "status":"NOT_FETCHED" if not fetch else "SOURCE_UNVERIFIED",
          "job_live":"UNKNOWN","application_route":"UNKNOWN","requires_human_review":True}
     if not fetch or source["kind"]!="DIRECT_SOURCE":return out
@@ -126,6 +129,7 @@ def test():
     assert "Qualifications" in to_text(json.dumps({"title":"#EG AI Engineer","jobAd":{"sections":{"qualification":{"text":"Qualifications: 4 years"}}}}),"application/json")
     assert probe(row)["job_live"]=="UNKNOWN"
     assert probe(row)["status"]=="NOT_FETCHED"
+    assert "JR00048554" in probe({"company":"ABB","title":"应用软件开发(AI)","source_url":"https://abb.wd3.myworkdayjobs.com/x/-AI-_JR00048554"})["fallback_search"]
     print("PASS: URL canonicalization, ATS ID, safe sources, HTML/JSON JD extraction, conservative liveness")
 
 
