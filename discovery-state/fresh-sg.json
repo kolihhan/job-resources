@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T18:57:48+08:00",
+  "updated_at": "2026-11-06T20:00:36+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -1589,9 +1589,9 @@
       "company": "micron semiconductor asia operations pte. ltd.",
       "title": "AI-Driven Data Scientist: Big Data & Optimization",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91912983__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 514,
@@ -1599,9 +1599,9 @@
       "company": "Charterhouse Partnership",
       "title": "Senior Data Engineer: Lakehouse & AI-Ready Platforms",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93114247__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 515,
@@ -1699,9 +1699,9 @@
       "company": "EPAM Systems",
       "title": "Senior Software Engineer (MLOps)",
       "source_url": "https://careers.epam.com/en/vacancy/senior-software-engineer-mlops-blti9i5gclwlc6yk56a_en",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "official_epam_jd_read_senior_mlops_and_workpass_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 533,
@@ -1709,9 +1709,9 @@
       "company": "CLOUDSINE PTE. LTD.",
       "title": "GenAI Security DevOps & Support Engineer",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92279304__7119",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 534,
@@ -1719,9 +1719,9 @@
       "company": "LSEG",
       "title": "Enterprise Data Scientist",
       "source_url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/SGP-Singapore-1-Raffles-Quay/Enterprise-Data-Scientist_R0123374",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 535,
@@ -1729,9 +1729,9 @@
       "company": "r systems (singapore) pte limited",
       "title": "Senior Data Engineer — Lakehouse & GenAI Pipelines",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92132528__7119",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 536,
@@ -1739,9 +1739,9 @@
       "company": "MICHAEL PAGE (PERSONNEL) PTE. LTD.",
       "title": "AI Data Engineer",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91906001__7119",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 537,
@@ -1749,9 +1749,9 @@
       "company": "ocbc",
       "title": "Data Scientist, AI Lab",
       "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/Data-Scientist--AI-Lab_JR00011202-1",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 538,
@@ -1759,9 +1759,9 @@
       "company": "TIKTOK PTE. LTD.",
       "title": "Senior ML Engineer - Data Mining for Ecommerce Insights",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90855855__7119",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 539,
@@ -1769,9 +1769,9 @@
       "company": "FPT Asia Pacific Pte Ltd",
       "title": "Machine Learning Engineer",
       "source_url": "https://www.careers-page.com/fpt-asia-pacific-pte-ltd/job/Y689R4X9",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_rechecked_metadata_authoritative_role_eligibility_route_not_verified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     },
     {
       "candidate_seq": 540,
@@ -2862,6 +2862,106 @@
       "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 684,
+      "role_key": "freehire:ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-vbstwotp",
+      "company": "INVESTMENT COMPANY OF THE PEOPLE'S REPUBLIC OF CHINA (SINGAPORE) PTE LTD",
+      "title": "AI ENGINEER",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/d28fe2ac4e2ded802686e611db5e8f5a?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 685,
+      "role_key": "freehire:senior-applied-ai-engineer-agents-evaluation-gengis-ai-j5dbvmxh",
+      "company": "Gengis AI",
+      "title": "Senior Applied AI Engineer (Agents & Evaluation)",
+      "source_url": "https://wellfound.com/jobs/4772634-senior-applied-ai-engineer-agents-evaluation?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 691,
+      "role_key": "freehire:ai-engineer-software-development-engineer-amd-bo65lqvo",
+      "company": "AMD",
+      "title": "AI Engineer (Software Development Engineer)",
+      "source_url": "https://sg.jobstreet.com/job/95358234?utm_source=freehire.me",
+      "reason_code": "suspected_known_exact_id_no_issue_match_identity_and_jd_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 692,
+      "role_key": "freehire:applied-ai-engineer-startups-mandarin-speaking-openai-ivsuzx22",
+      "company": "OpenAI",
+      "title": "Applied AI Engineer, Startups (Mandarin-speaking)",
+      "source_url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 693,
+      "role_key": "freehire:eg-senior-ai-data-engineer-ncs3-zplpp6lz",
+      "company": "ncs3",
+      "title": "#EG Senior AI Data Engineer",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001497912--eg-senior-ai-data-engineer?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 695,
+      "role_key": "freehire:ai-engineer-d-simlab-technologies-pte-ltd-wuavq4ec",
+      "company": "D-SIMLAB TECHNOLOGIES PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/9e35ef5c0b58b4ed0cc28ff1c8f5606a?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 696,
+      "role_key": "freehire:applied-ai-engineer-oncoshot-pte-ltd-hkaxnudw",
+      "company": "ONCOSHOT PTE. LTD.",
+      "title": "Applied AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6b7f17660fef2158b0be6d5ec1dee223?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 697,
+      "role_key": "freehire:ai-solutions-engineer-go-net-zero-pte-ltd-a6jkftqu",
+      "company": "GO NET ZERO PTE. LTD.",
+      "title": "AI Solutions Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/363c5ca8bd5784b30466a7287010c367?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 698,
+      "role_key": "freehire:full-stack-engineer-ai-enhanced-web-api-builder-elliott-moss-consulting-pte-ltd-lrmpjrmu",
+      "company": "ELLIOTT MOSS CONSULTING PTE. LTD.",
+      "title": "Full-Stack Engineer: AI-Enhanced Web & API Builder",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93579933__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 699,
+      "role_key": "freehire:ai-and-data-engineer-astm-asia-pacific-limited-fas3zlk5",
+      "company": "ASTM ASIA PACIFIC LIMITED",
+      "title": "AI and Data Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95334335?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:00:36+08:00"
     }
   ]
 }
