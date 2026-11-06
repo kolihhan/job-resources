@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T20:55:10+08:00",
+  "updated_at": "2026-11-06T21:58:32+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -270,8 +270,11 @@
       "title": "Full Stack Developer – AI/ML",
       "source_url": "https://sg.jobstreet.com/job/94836064",
       "reason_code": "employment_type_citizenship_conflicting_sources",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T11:00:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded employer exact-role indexed alternative, no substantive JD"
     },
     {
       "candidate_seq": 329,
@@ -1510,8 +1513,11 @@
       "title": "GenAI-Focused Full-Stack Engineer for Public Sector (2y)",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93532221__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded employer exact-role indexed alternative, no substantive JD"
     },
     {
       "candidate_seq": 499,
@@ -1780,8 +1786,11 @@
       "title": "AI Safety & Governance Engineer (SAGE)",
       "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Safety---Governance-Engineer--SAGE-_R00025725?utm_source=freehire.me",
       "reason_code": "official_jd_2to4_years_security_testing_and_sg_workpass_review",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:57:08+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded employer exact-role indexed alternative, no substantive JD"
     },
     {
       "candidate_seq": 544,
@@ -1790,8 +1799,11 @@
       "title": "AI Software Engineer",
       "source_url": "https://apply.workable.com/j/1217C1F456?utm_source=freehire.me",
       "reason_code": "official_jd_and_seniority_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:57:08+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded employer exact-role indexed alternative, no substantive JD"
     },
     {
       "candidate_seq": 546,
@@ -1800,8 +1812,11 @@
       "title": "AI Infrastructure Engineer Graduate (TikTok Recommendation Architecture, Singapore) - 2027 Start",
       "source_url": "https://jobs.bytedance.com/campus/position/7680867503056898309/detail?utm_source=freehire.me",
       "reason_code": "2027_graduate_campaign_eligibility_and_official_role_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:57:08+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded employer exact-role indexed alternative, no substantive JD"
     },
     {
       "candidate_seq": 549,
@@ -1809,9 +1824,12 @@
       "company": "Qube Research & Technologies",
       "title": "Production Support Engineer — LLM Platform",
       "source_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002?utm_source=freehire.me",
-      "reason_code": "production_support_llm_platform_scope_and_seniority_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:57:08+08:00"
+      "reason_code": "official_greenhouse_openings_no_exact_role_confirmed",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "QRT official Greenhouse openings"
     },
     {
       "candidate_seq": 551,
@@ -1820,8 +1838,11 @@
       "title": "Data Scientist, Platform AI Squad, Group Data Office (AVP/VP)",
       "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/Data-Scientist--Platform-AI-Squad--Group-Data-Office--AVP-VP-_JR00010526-1?utm_source=freehire.me",
       "reason_code": "avp_vp_seniority_and_actual_llm_scope_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:57:08+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded employer exact-role indexed alternative, no substantive JD"
     },
     {
       "candidate_seq": 553,
@@ -1830,8 +1851,11 @@
       "title": "Senior Backend Engineer (Machine Learning Server Parameter) - EGO team",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90355551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "reason_code": "senior_cpp_parameter_server_6plus_years_probable_mismatch_authoritative_jd_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:57:08+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded employer exact-role indexed alternative, no substantive JD"
     },
     {
       "candidate_seq": 554,
@@ -1839,9 +1863,12 @@
       "company": "The GMP Group",
       "title": "Applied AI Engineer",
       "source_url": "https://www.careers-page.com/gmp-group-2/job/4R65V7YV?utm_source=freehire.me",
-      "reason_code": "recruiter_role_employer_identity_sg_workpass_and_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:57:08+08:00"
+      "reason_code": "recruiter_full_jd_agent_memory_evaluation_confirmed_employer_workpass_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": true,
+      "alternate_source_attempted": "GMP recruiter exact JD"
     },
     {
       "candidate_seq": 555,
@@ -1850,8 +1877,11 @@
       "title": "Senior AI Engineer",
       "source_url": "https://www.careers-page.com/krisvconsulting-services-pte-ltd/job/RYR4YY3R?utm_source=freehire.me",
       "reason_code": "senior_title_experience_and_llm_scope_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:57:08+08:00"
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T22:00:00+08:00",
+      "last_retry_at": "2026-11-06T21:58:32+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "bounded employer exact-role indexed alternative, no substantive JD"
     },
     {
       "candidate_seq": 556,
@@ -3042,6 +3072,106 @@
       "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 711,
+      "role_key": "freehire:applied-ai-engineer-gmp-technologies-s-pte-ltd-pxfkxekl",
+      "company": "GMP TECHNOLOGIES (S) PTE LTD",
+      "title": "Applied AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/0793e13a4f9869f1d9a8fe9eb0d58a6f?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 713,
+      "role_key": "freehire:ai-driven-full-stack-engineer-for-healthtech-platform-aigp-health-pte-ltd-qnxiwzde",
+      "company": "AIGP Health Pte Ltd.",
+      "title": "AI-Driven Full-Stack Engineer for HealthTech Platform",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93488982__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 714,
+      "role_key": "freehire:blazor-azure-full-stack-engineer-ai-data-keaworld-pte-ltd-pxxs2u4h",
+      "company": "KEAWORLD PTE. LTD.",
+      "title": "Blazor & Azure Full-Stack Engineer (AI & Data)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490201__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 715,
+      "role_key": "freehire:senior-full-stack-engineer-ai-powered-healthcare-brighter-signals-jgijo7vi",
+      "company": "Brighter Signals",
+      "title": "Senior Full Stack Engineer - AI-Powered Healthcare",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93491392__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 716,
+      "role_key": "freehire:backend-engineer-data-ai-for-large-scale-recommendations-tiktok-pte-ltd-t2cgbx4c",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Backend Engineer: Data + AI for Large-Scale Recommendations",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93492604__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 719,
+      "role_key": "freehire:cybersecurity-architect-ai-driven-network-security-jass-tech-pte-ltd-llw4io4g",
+      "company": "JASS TECH PTE. LTD.",
+      "title": "Cybersecurity Architect – AI-Driven Network Security",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/212e2739dd2f6666820d49dc075f1fc2?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 721,
+      "role_key": "freehire:ai-harness-architect-senior-data-engineer-ncs-pte-ltd-kv3xerda",
+      "company": "NCS PTE. LTD.",
+      "title": "AI Harness Architect - Senior Data Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93079041__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 723,
+      "role_key": "freehire:senior-ai-data-engineer-ncs-pte-ltd-55bk2uw2",
+      "company": "NCS PTE. LTD.",
+      "title": "Senior AI Data Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93075001__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 727,
+      "role_key": "freehire:data-scientist-avepoint-nogr3nd2",
+      "company": "AvePoint",
+      "title": "Data Scientist",
+      "source_url": "https://www.avepoint.com/careers/job-detail?gh_jid=7809901&utm_source=freehire.me",
+      "reason_code": "avepoint_full_jd_ai_bi_scope_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 728,
+      "role_key": "freehire:senior-data-scientist-search-recommendations-grab-44y2vnni",
+      "company": "Grab",
+      "title": "Senior Data Scientist (Search & Recommendations)",
+      "source_url": "https://jobs.smartrecruiters.com/Grab/744000155416489-senior-data-scientist-search-recommendations-?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T22:00:00+08:00"
     }
   ]
 }
