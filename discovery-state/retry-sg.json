@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T12:05:00+08:00",
+  "updated_at": "2026-11-06T13:03:32+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -184,16 +184,6 @@
       "next_retry_at": "2026-11-07T07:01:12+08:00"
     },
     {
-      "candidate_seq": 289,
-      "role_key": "freehire:senior-data-analytics-ai-ml-engineer-for-smart-factory-alcon-singapore-manufacturing-pte-ltd-k7pyb43e",
-      "company": "Alcon Singapore Manufacturing Pte Ltd",
-      "title": "Senior Data Analytics & AI/ML Engineer for Smart Factory",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93006305__7119",
-      "reason_code": "authoritative_jd_and_seniority_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T07:00:00+08:00"
-    },
-    {
       "candidate_seq": 304,
       "company": "ISIXI PRIVATE LIMITED",
       "title": "AI Engineer",
@@ -259,9 +249,9 @@
       "company": "Kaplan Singapore",
       "title": "AI Engineer",
       "source_url": "https://sg.jobstreet.com/job/95113819",
-      "reason_code": "employment_term_and_workpass_feasibility_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T08:55:56+08:00"
+      "reason_code": "full_jobstreet_jd_confirmed_early_career_applied_llm_but_salary_3500_4000_and_sg_workpass_route_unresolved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T13:03:32+08:00"
     },
     {
       "candidate_seq": 315,
@@ -2342,6 +2332,36 @@
       "reason_code": "official_full_jd_liveness_workpass_route_unverified",
       "attempts": 0,
       "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 616,
+      "role_key": "freehire:ml-platform-integration-engineer-exasoft-pte-ltd-ue2ly3hp",
+      "company": "EXASOFT PTE. LTD.",
+      "title": "ML Platform / Integration Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/5e256523aeb3ed51a8893b7c08ca86ef?utm_source=freehire.me",
+      "reason_code": "mcf_only_route_and_cv_focused_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:03:32+08:00"
+    },
+    {
+      "candidate_seq": 618,
+      "role_key": "freehire:ai-engineer-10x-ai-technology-pte-ltd-qo3jrhdt",
+      "company": "10X AI TECHNOLOGY PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/7ba4de484d925ef93683781b8bdfc51a?utm_source=freehire.me",
+      "reason_code": "mcf_only_route_exact_employer_jd_and_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:03:32+08:00"
+    },
+    {
+      "candidate_seq": 622,
+      "role_key": "freehire:senior-cloud-engineer-data-ai-platform-gcp-dbs-bank-ltd-dl5l2ld6",
+      "company": "DBS Bank Ltd",
+      "title": "Senior Cloud Engineer, Data & AI Platform (GCP)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93955750__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "senior_platform_role_official_jd_and_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:03:32+08:00"
     }
   ]
 }
