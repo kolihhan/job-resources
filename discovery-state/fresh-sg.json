@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T20:00:36+08:00",
+  "updated_at": "2026-11-06T20:55:10+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -1429,9 +1429,9 @@
       "company": "ONE TECH STOP PTE. LTD.",
       "title": "Data Scientist (Junior-Mid AI Analyst)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/7da6d0fa9bd32f773c663256b4d7bfac?utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 485,
@@ -1439,9 +1439,9 @@
       "company": "RECRUIT EXPRESS PTE LTD",
       "title": "Data Scientist (AI Analyst Consultant)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/02fa77cf36f91547cdacd9922d2c0301?utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 486,
@@ -1449,9 +1449,9 @@
       "company": "DADACONSULTANTS PTE. LTD.",
       "title": "Backend Engineer （AI platform/agent）",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93876002__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 487,
@@ -1459,9 +1459,9 @@
       "company": "Multimedia Engineering Pte Ltd",
       "title": "AI Engineer",
       "source_url": "https://sg.jobstreet.com/job/95414467?utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 488,
@@ -1469,9 +1469,9 @@
       "company": "ASUS GLOBAL PTE. LTD.",
       "title": "ASUS AICS SG - Machine Learning Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/63426649ee7f8f9f4e579b383eced832?utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 493,
@@ -1479,9 +1479,9 @@
       "company": "CONEX HEALTHCARE PTE. LTD.",
       "title": "AI Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/0acf54646d7230f5fb19f1eb93051de8?utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 494,
@@ -1489,19 +1489,9 @@
       "company": "Nanyang Technological University",
       "title": "Research Engineer I (Computer Science / Artificial Intelligence / Data Science / Electrical Engineering)",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763505__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
-    },
-    {
-      "candidate_seq": 496,
-      "role_key": "freehire:ai-product-engineer-garena-qonvsqbd",
-      "company": "Garena",
-      "title": "AI Product Engineer",
-      "source_url": "https://careers.garena.com/global/careers/J02145135?utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 497,
@@ -1509,9 +1499,9 @@
       "company": "KYNDRYL (SINGAPORE) PTE. LTD.",
       "title": "Full Stack Engineer (Gen AI)",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531988__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:05:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 498,
@@ -1779,9 +1769,9 @@
       "company": "Nanyang Technological University",
       "title": "AI Safety & Governance Engineer (SAGE)",
       "source_url": "https://sg.jobstreet.com/job/94516149",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_eligibility_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_source_not_authoritatively_resolved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     },
     {
       "candidate_seq": 541,
@@ -2962,6 +2952,96 @@
       "reason_code": "exact_issue_id_no_match_full_jd_eligibility_sg_workpass_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T20:00:36+08:00"
+    },
+    {
+      "candidate_seq": 701,
+      "role_key": "freehire:multimodal-ai-engineer-data-security-governance-internal-security-department-on5orjib",
+      "company": "Internal Security Department",
+      "title": "Multimodal AI Engineer - Data Security & Governance",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531850__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 703,
+      "role_key": "freehire:forward-deployed-ai-engineer-access-people-singapore-pte-ltd-f5x3r3mj",
+      "company": "ACCESS PEOPLE (SINGAPORE) PTE. LTD.",
+      "title": "Forward Deployed AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/30b2d11bace3cfbc9ea5479cd1f71365?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 704,
+      "role_key": "freehire:data-engineer-for-ai-driven-investment-data-platform-sofina-dmbmdjrd",
+      "company": "Sofina",
+      "title": "Data Engineer for AI-Driven Investment Data Platform",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93534181__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 705,
+      "role_key": "freehire:ai-native-full-stack-engineer-end-to-end-features-equity-manus-ai-vctp625i",
+      "company": "Manus AI",
+      "title": "AI-Native Full-Stack Engineer — End-to-End Features, Equity",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533217__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 706,
+      "role_key": "freehire:full-stack-engineer-payment-platforms-ai-agents-tiktok-mytr6ljw",
+      "company": "TikTok",
+      "title": "Full-Stack Engineer, Payment Platforms & AI Agents",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531652__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 707,
+      "role_key": "freehire:deep-learning-engineer-monee-monee-5t3v6kk4",
+      "company": "Monee",
+      "title": "Deep Learning Engineer - Monee",
+      "source_url": "https://sg.jobstreet.com/job/95319064?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 708,
+      "role_key": "freehire:ai-engineer-capco-the-capital-market-company-group-5aru5v6r",
+      "company": "Capco (The Capital Market Company Group)",
+      "title": "AI Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95323886?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 709,
+      "role_key": "freehire:forward-deployed-engineer-data-genai-google-cloud-singapore-google-asia-pacific-pte-ltd-zd2aswk5",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "title": "Forward Deployed Engineer, Data, GenAI, Google Cloud - Singapore",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490821__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
+    },
+    {
+      "candidate_seq": 710,
+      "role_key": "freehire:ai-engineer-capco-consulting-singapore-pte-ltd-5swlwp6o",
+      "company": "CAPCO CONSULTING SINGAPORE PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6e6842543b08551ed96f2f83c6a8121c?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_clear_full_jd_or_sg_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T20:55:10+08:00"
     }
   ]
 }
