@@ -5,195 +5,190 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 743,
-      "company": "ncs3",
-      "employment_type": null,
-      "external_id": "ncs3:6000000001474348",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-09T01:39:52Z",
-      "public_slug": "eg-ai-engineer-ncs3-e3jhvkvf",
-      "role_key": "freehire:eg-ai-engineer-ncs3-e3jhvkvf",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001474348--eg-ai-engineer?utm_source=freehire.me",
-      "title": "#EG AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 744,
-      "company": "NCS Group",
-      "employment_type": null,
-      "external_id": "6290:95177485",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-09T01:39:52Z",
-      "public_slug": "eg-ai-engineer-ncs-group-sb7mj3zk",
-      "role_key": "freehire:eg-ai-engineer-ncs-group-sb7mj3zk",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95177485?utm_source=freehire.me",
-      "title": "#EG AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
         "jd:agent"
       ],
-      "candidate_seq": 745,
-      "company": "MICROSOFT OPERATIONS PTE LTD",
+      "candidate_seq": 815,
+      "company": "DADACONSULTANTS PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:93012599",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-08T10:37:39Z",
-      "public_slug": "data-solution-engineer-data-ai-microsoft-operations-pte-ltd-cdi64dvy",
-      "role_key": "freehire:data-solution-engineer-data-ai-microsoft-operations-pte-ltd-cdi64dvy",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Solution Engineer, Data + AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 746,
-      "company": "REGTECH INSIGHT PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93012687",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-08T10:37:37Z",
-      "public_slug": "senior-data-engineer-genai-solutions-architect-regtech-insight-pte-ltd-yvjihfvw",
-      "role_key": "freehire:senior-data-engineer-genai-solutions-architect-regtech-insight-pte-ltd-yvjihfvw",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012687__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer & GenAI Solutions Architect"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 748,
-      "company": "Saksoft Pte Limited",
-      "employment_type": null,
-      "external_id": "6287:95149671",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Little India, Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-08T04:33:59Z",
-      "public_slug": "ai-full-stack-engineer-developer-saksoft-pte-limited-gfc7z6ey",
-      "role_key": "freehire:ai-full-stack-engineer-developer-saksoft-pte-limited-gfc7z6ey",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95149671?utm_source=freehire.me",
-      "title": "AI Full Stack Engineer Developer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 749,
-      "company": "Apple",
-      "employment_type": null,
-      "external_id": ":200659354",
+      "external_id": "full stack developer:88826094",
       "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "Singapore",
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-07T05:09:52Z",
-      "public_slug": "machine-learning-engineer-strategic-data-solutions-apple-cr36xcnb",
-      "role_key": "freehire:machine-learning-engineer-strategic-data-solutions-apple-cr36xcnb",
-      "source": "apple",
-      "source_url": "https://jobs.apple.com/en-us/details/200659354/machine-learning-engineer-strategic-data-solutions?utm_source=freehire.me",
-      "title": "Machine Learning Engineer, Strategic Data Solutions"
+      "posted_at": "2026-08-14T18:39:36Z",
+      "public_slug": "full-stack-engineer-software-engineer-ai-products-golang-growth-platform-dadaconsultants-pte-ltd-3of2sltg",
+      "role_key": "freehire:full-stack-engineer-software-engineer-ai-products-golang-growth-platform-dadaconsultants-pte-ltd-3of2sltg",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88826094__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Engineer / Software Engineer (AI Products / Golang / Growth Platform)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:machine_learning"
+        "jd:llm"
       ],
-      "candidate_seq": 750,
-      "company": "Adecco",
+      "candidate_seq": 816,
+      "company": "NAS EDUCATION PTE. LTD.",
       "employment_type": null,
-      "external_id": "6290:95090948",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": "full stack developer:88893019",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Central Region",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-06T09:17:56Z",
-      "public_slug": "ai-data-science-senior-researcher-phd-holder-adecco-in24argz",
-      "role_key": "freehire:ai-data-science-senior-researcher-phd-holder-adecco-in24argz",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95090948?utm_source=freehire.me",
-      "title": "AI & Data Science Senior Researcher (PhD holder)"
+      "posted_at": "2026-08-14T18:39:35Z",
+      "public_slug": "ai-full-stack-engineer-nas-education-pte-ltd-zdpbupqm",
+      "role_key": "freehire:ai-full-stack-engineer-nas-education-pte-ltd-zdpbupqm",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88893019__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Full-Stack Engineer"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ml",
-        "jd:deep_learning"
+        "title:ai",
+        "jd:llm"
       ],
-      "candidate_seq": 751,
-      "company": "Western Digital",
+      "candidate_seq": 820,
+      "company": "sggovterp",
       "employment_type": null,
-      "external_id": "WesternDigital:744000153662059",
+      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/IMD---Mapletree-Business-City-MBC-BLK-10/AI-Product-Analyst--Developer-Community---AI-Verify-Foundation_JR-10000054244",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "IMD - Mapletree Business City, MBC BLK 10",
+      "market": "SG",
+      "posted_at": "2026-08-11T00:00:00Z",
+      "public_slug": "ai-product-analyst-developer-community-ai-verify-foundation-sggovterp-msr5iplg",
+      "role_key": "freehire:ai-product-analyst-developer-community-ai-verify-foundation-sggovterp-msr5iplg",
+      "source": "workday",
+      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/IMD---Mapletree-Business-City-MBC-BLK-10/AI-Product-Analyst--Developer-Community---AI-Verify-Foundation_JR-10000054244?utm_source=freehire.me",
+      "title": "AI Product Analyst (Developer Community), AI Verify Foundation"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag"
+      ],
+      "candidate_seq": 821,
+      "company": "Temasek International Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:89280014",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, sg",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-06T04:59:12Z",
-      "public_slug": "senior-technologist-machine-learning-western-digital-cntwyjwk",
-      "role_key": "freehire:senior-technologist-machine-learning-western-digital-cntwyjwk",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000153662059-senior-technologist-machine-learning?utm_source=freehire.me",
-      "title": "Senior Technologist - Machine Learning"
+      "posted_at": "2026-08-10T14:42:23Z",
+      "public_slug": "senior-ai-data-platform-engineer-rag-governance-temasek-international-pte-ltd-suiamwh7",
+      "role_key": "freehire:senior-ai-data-platform-engineer-rag-governance-temasek-international-pte-ltd-suiamwh7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__89280014__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Data Platform Engineer | RAG & Governance"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:computer_vision"
+      ],
+      "candidate_seq": 822,
+      "company": "Shopee",
+      "employment_type": null,
+      "external_id": "data engineer:88794805",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:17Z",
+      "public_slug": "ai-data-engineer-marketplace-intelligence-data-2027-graduate-shopee-oruvlzi5",
+      "role_key": "freehire:ai-data-engineer-marketplace-intelligence-data-2027-graduate-shopee-oruvlzi5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88794805__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Data Engineer , Marketplace Intelligence & Data (2027 Graduate)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:multimodal"
+      ],
+      "candidate_seq": 823,
+      "company": "Shopee",
+      "employment_type": null,
+      "external_id": "data engineer:88830334",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:15Z",
+      "public_slug": "ai-data-engineer-marketplace-intelligence-data-shopee-oa27sted",
+      "role_key": "freehire:ai-data-engineer-marketplace-intelligence-data-shopee-oa27sted",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88830334__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Data Engineer – Marketplace Intelligence & Data"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 824,
+      "company": "Ellis Technologies, Inc.",
+      "employment_type": null,
+      "external_id": "backend developer:88059216",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:07Z",
+      "public_slug": "backend-engineer-ai-application-tiktok-local-service-singapore-ellis-technologies-inc-s2bb67ju",
+      "role_key": "freehire:backend-engineer-ai-application-tiktok-local-service-singapore-ellis-technologies-inc-s2bb67ju",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88059216__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer (AI Application) - TikTok Local Service (Singapore)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 825,
+      "company": "Shopee",
+      "employment_type": null,
+      "external_id": "backend developer:88989373",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:05Z",
+      "public_slug": "backend-engineer-promotions-platform-ai-shopee-t47fjob4",
+      "role_key": "freehire:backend-engineer-promotions-platform-ai-shopee-t47fjob4",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88989373__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer – Promotions Platform & AI"
     }
   ],
-  "generated_at": "2026-11-06T11:35:59.258760Z",
+  "generated_at": "2026-11-06T18:32:14.341061Z",
   "market": "SG",
-  "max_candidate_seq": 751,
-  "min_candidate_seq": 743,
+  "max_candidate_seq": 825,
+  "min_candidate_seq": 815,
   "shard_index": 6,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",

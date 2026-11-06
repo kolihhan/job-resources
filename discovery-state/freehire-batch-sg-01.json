@@ -1,219 +1,193 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 684,
-      "company": "INVESTMENT COMPANY OF THE PEOPLE'S REPUBLIC OF CHINA (SINGAPORE) PTE LTD",
-      "employment_type": null,
-      "external_id": ":d28fe2ac4e2ded802686e611db5e8f5a",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-21T00:00:00Z",
-      "public_slug": "ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-vbstwotp",
-      "role_key": "freehire:ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-vbstwotp",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/d28fe2ac4e2ded802686e611db5e8f5a?utm_source=freehire.me",
-      "title": "AI ENGINEER"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 685,
-      "company": "Gengis AI",
-      "employment_type": "full_time",
-      "external_id": "full-stack-engineer:4772634",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-20T23:38:32Z",
-      "public_slug": "senior-applied-ai-engineer-agents-evaluation-gengis-ai-j5dbvmxh",
-      "role_key": "freehire:senior-applied-ai-engineer-agents-evaluation-gengis-ai-j5dbvmxh",
-      "source": "wellfound",
-      "source_url": "https://wellfound.com/jobs/4772634-senior-applied-ai-engineer-agents-evaluation?utm_source=freehire.me",
-      "title": "Senior Applied AI Engineer (Agents & Evaluation)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 691,
-      "company": "AMD",
-      "employment_type": null,
-      "external_id": "6290:95358234",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T09:04:00Z",
-      "public_slug": "ai-engineer-software-development-engineer-amd-bo65lqvo",
-      "role_key": "freehire:ai-engineer-software-development-engineer-amd-bo65lqvo",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95358234?utm_source=freehire.me",
-      "title": "AI Engineer (Software Development Engineer)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 692,
-      "company": "OpenAI",
-      "employment_type": null,
-      "external_id": "openai:502fcf97-75b2-4e54-9957-a29cee8eb1ca",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T04:30:59Z",
-      "public_slug": "applied-ai-engineer-startups-mandarin-speaking-openai-ivsuzx22",
-      "role_key": "freehire:applied-ai-engineer-startups-mandarin-speaking-openai-ivsuzx22",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca?utm_source=freehire.me",
-      "title": "Applied AI Engineer, Startups (Mandarin-speaking)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 693,
-      "company": "ncs3",
-      "employment_type": null,
-      "external_id": "ncs3:6000000001497912",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-19T01:23:56Z",
-      "public_slug": "eg-senior-ai-data-engineer-ncs3-zplpp6lz",
-      "role_key": "freehire:eg-senior-ai-data-engineer-ncs3-zplpp6lz",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001497912--eg-senior-ai-data-engineer?utm_source=freehire.me",
-      "title": "#EG Senior AI Data Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
+        "title:ml",
         "jd:machine_learning"
       ],
-      "candidate_seq": 695,
-      "company": "D-SIMLAB TECHNOLOGIES PTE. LTD.",
-      "employment_type": "full_time",
-      "external_id": ":9e35ef5c0b58b4ed0cc28ff1c8f5606a",
+      "candidate_seq": 755,
+      "company": "Ntu",
+      "employment_type": null,
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/Research-Fellow--Econometrics-and-Machine-Learning-_R00025939",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "NTU Main Campus, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-19T00:00:00Z",
-      "public_slug": "ai-engineer-d-simlab-technologies-pte-ltd-wuavq4ec",
-      "role_key": "freehire:ai-engineer-d-simlab-technologies-pte-ltd-wuavq4ec",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/9e35ef5c0b58b4ed0cc28ff1c8f5606a?utm_source=freehire.me",
-      "title": "AI Engineer"
+      "posted_at": "2026-10-05T00:00:00Z",
+      "public_slug": "research-fellow-econometrics-and-machine-learning-ntu-ff45thqk",
+      "role_key": "freehire:research-fellow-econometrics-and-machine-learning-ntu-ff45thqk",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Econometrics-and-Machine-Learning-_R00025939?utm_source=freehire.me",
+      "title": "Research Fellow (Econometrics and Machine Learning)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:llm"
+        "jd:multimodal"
       ],
-      "candidate_seq": 696,
-      "company": "ONCOSHOT PTE. LTD.",
-      "employment_type": "full_time",
-      "external_id": ":6b7f17660fef2158b0be6d5ec1dee223",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T00:00:00Z",
-      "public_slug": "applied-ai-engineer-oncoshot-pte-ltd-hkaxnudw",
-      "role_key": "freehire:applied-ai-engineer-oncoshot-pte-ltd-hkaxnudw",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/6b7f17660fef2158b0be6d5ec1dee223?utm_source=freehire.me",
-      "title": "Applied AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 697,
-      "company": "GO NET ZERO PTE. LTD.",
+      "candidate_seq": 765,
+      "company": "CLIPLY PTE. LTD.",
       "employment_type": null,
-      "external_id": ":363c5ca8bd5784b30466a7287010c367",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T00:00:00Z",
-      "public_slug": "ai-solutions-engineer-go-net-zero-pte-ltd-a6jkftqu",
-      "role_key": "freehire:ai-solutions-engineer-go-net-zero-pte-ltd-a6jkftqu",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/363c5ca8bd5784b30466a7287010c367?utm_source=freehire.me",
-      "title": "AI Solutions Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 698,
-      "company": "ELLIOTT MOSS CONSULTING PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93579933",
+      "external_id": "full stack developer:92682433",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-18T13:46:53Z",
-      "public_slug": "full-stack-engineer-ai-enhanced-web-api-builder-elliott-moss-consulting-pte-ltd-lrmpjrmu",
-      "role_key": "freehire:full-stack-engineer-ai-enhanced-web-api-builder-elliott-moss-consulting-pte-ltd-lrmpjrmu",
+      "posted_at": "2026-10-04T01:57:56Z",
+      "public_slug": "founding-full-stack-engineer-video-ai-multimodal-platform-cliply-pte-ltd-pthxsvhn",
+      "role_key": "freehire:founding-full-stack-engineer-video-ai-multimodal-platform-cliply-pte-ltd-pthxsvhn",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93579933__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer: AI-Enhanced Web & API Builder"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92682433__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Founding Full-Stack Engineer - Video AI & Multimodal Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:nlp"
+      ],
+      "candidate_seq": 767,
+      "company": "V2EX",
+      "employment_type": null,
+      "external_id": "data engineer:92664570",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-03T09:58:24Z",
+      "public_slug": "ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-zip76ces",
+      "role_key": "freehire:ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-zip76ces",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92664570__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI 大模型明星项目|诚聘 Data Engineer & Web Scraping Engineer(新加坡|可办签证 | 代发)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 768,
+      "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:92662521",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-03T09:58:22Z",
+      "public_slug": "frontend-data-engineer-labor-productivity-ai-enablement-micron-semiconductor-asia-operations-pte-ltd-wmrpcn7n",
+      "role_key": "freehire:frontend-data-engineer-labor-productivity-ai-enablement-micron-semiconductor-asia-operations-pte-ltd-wmrpcn7n",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92662521__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Frontend Data Engineer, Labor Productivity & AI Enablement"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 769,
+      "company": "0123 DIGITAL PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:92663275",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-03T09:58:07Z",
+      "public_slug": "remote-full-stack-engineer-ai-agents-enterprise-apps-0123-digital-pte-ltd-c5d7zzms",
+      "role_key": "freehire:remote-full-stack-engineer-ai-agents-enterprise-apps-0123-digital-pte-ltd-c5d7zzms",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92663275__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Remote Full Stack Engineer - AI Agents & Enterprise Apps"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:nlp"
+      ],
+      "candidate_seq": 770,
+      "company": "V2EX",
+      "employment_type": null,
+      "external_id": "data engineer:92647419",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-02T23:58:32Z",
+      "public_slug": "ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-26a35ivn",
+      "role_key": "freehire:ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-26a35ivn",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92647419__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI 大模型明星项目|诚聘 Data Engineer & Web Scraping Engineer(新加坡|可办签证 | 代发)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:agent",
+        "jd:agent"
+      ],
+      "candidate_seq": 772,
+      "company": "Newbridge",
+      "employment_type": "full_time",
+      "external_id": "newbridge-:6369963R",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T13:38:28Z",
+      "public_slug": "senior-forward-deployed-engineer-agentic-development-lifecycle-newbridge-f3xgvrwr",
+      "role_key": "freehire:senior-forward-deployed-engineer-agentic-development-lifecycle-newbridge-f3xgvrwr",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/newbridge-/job/6369963R?utm_source=freehire.me",
+      "title": "Senior Forward Deployed Engineer - Agentic Development Lifecycle"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 773,
+      "company": "SimplifyNext",
+      "employment_type": null,
+      "external_id": "simplifynext:5019281007",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T01:57:19Z",
+      "public_slug": "ai-engineer-simplifynext-js5dsv5t",
+      "role_key": "freehire:ai-engineer-simplifynext-js5dsv5t",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007?utm_source=freehire.me",
+      "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-06T11:35:59.258760Z",
+  "generated_at": "2026-11-06T18:32:14.341061Z",
   "market": "SG",
-  "max_candidate_seq": 698,
-  "min_candidate_seq": 684,
+  "max_candidate_seq": 773,
+  "min_candidate_seq": 755,
   "shard_index": 1,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",

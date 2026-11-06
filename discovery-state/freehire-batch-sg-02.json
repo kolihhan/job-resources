@@ -1,27 +1,171 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:machine_learning"
+        "jd:agent"
       ],
-      "candidate_seq": 699,
-      "company": "ASTM ASIA PACIFIC LIMITED",
+      "candidate_seq": 774,
+      "company": "SimplifyNext",
       "employment_type": null,
-      "external_id": "6290:95334335",
+      "external_id": "simplifynext:4996764007",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T01:57:19Z",
+      "public_slug": "ai-engineer-graduate-simplifynext-3bjkro7c",
+      "role_key": "freehire:ai-engineer-graduate-simplifynext-3bjkro7c",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007?utm_source=freehire.me",
+      "title": "AI Engineer (Graduate)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 776,
+      "company": "PhillipCapital",
+      "employment_type": null,
+      "external_id": "full stack developer:92440256",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Central Region",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-18T02:38:00Z",
-      "public_slug": "ai-and-data-engineer-astm-asia-pacific-limited-fas3zlk5",
-      "role_key": "freehire:ai-and-data-engineer-astm-asia-pacific-limited-fas3zlk5",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95334335?utm_source=freehire.me",
-      "title": "AI and Data Engineer"
+      "posted_at": "2026-09-29T09:56:52Z",
+      "public_slug": "ai-driven-full-stack-engineer-for-digital-assets-phillipcapital-bn2cpyqn",
+      "role_key": "freehire:ai-driven-full-stack-engineer-for-digital-assets-phillipcapital-bn2cpyqn",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440256__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Full Stack Engineer for Digital Assets"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 777,
+      "company": "PhillipCapital",
+      "employment_type": null,
+      "external_id": "full stack developer:92442062",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:38Z",
+      "public_slug": "full-stack-developer-ai-enabled-phillipcapital-t3yxhuvi",
+      "role_key": "freehire:full-stack-developer-ai-enabled-phillipcapital-t3yxhuvi",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92442062__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Developer (AI-Enabled)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 778,
+      "company": "Thales Group",
+      "employment_type": null,
+      "external_id": "devops engineer:92441755",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:32Z",
+      "public_slug": "senior-devops-engineer-cloud-ai-automation-thales-group-7v76t2o7",
+      "role_key": "freehire:senior-devops-engineer-cloud-ai-automation-thales-group-7v76t2o7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441755__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior DevOps Engineer: Cloud, AI & Automation"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 780,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "backend developer:92135040",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-24T11:58:16Z",
+      "public_slug": "backend-engineer-ai-application-tiktok-local-service-singapore-tiktok-gkcqmcuh",
+      "role_key": "freehire:backend-engineer-ai-application-tiktok-local-service-singapore-tiktok-gkcqmcuh",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92135040__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer (AI Application) - TikTok Local Service (Singapore)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 782,
+      "company": "FREEFLO",
+      "employment_type": null,
+      "external_id": "backend developer:92055782",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-23T12:15:22Z",
+      "public_slug": "senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
+      "role_key": "freehire:senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92055782__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Backend Engineer — Python & Serverless"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:model_training"
+      ],
+      "candidate_seq": 783,
+      "company": "Shopee",
+      "employment_type": null,
+      "external_id": "backend developer:92056599",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-23T12:15:16Z",
+      "public_slug": "senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
+      "role_key": "freehire:senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92056599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer - AI-Driven Anti-Fraud Platform"
     },
     {
       "ai_score": 5,
@@ -29,183 +173,27 @@
         "title:ai",
         "jd:genai"
       ],
-      "candidate_seq": 700,
-      "company": "VIVIDTECH PTE.LTD",
+      "candidate_seq": 785,
+      "company": "GlobalFoundries",
       "employment_type": null,
-      "external_id": "6287:95332243",
+      "external_id": "globalfoundries.eightfold.ai/globalfoundries.com:563980770601252",
       "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "North-East Region",
-      "market": "SG",
-      "posted_at": "2026-10-18T02:18:51Z",
-      "public_slug": "full-stack-developer-ai-content-platform-vividtech-pte-ltd-dpe5iymi",
-      "role_key": "freehire:full-stack-developer-ai-content-platform-vividtech-pte-ltd-dpe5iymi",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95332243?utm_source=freehire.me",
-      "title": "Full-Stack Developer – AI Content Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 701,
-      "company": "Internal Security Department",
-      "employment_type": null,
-      "external_id": "data engineer:93531850",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-17T13:18:13Z",
-      "public_slug": "multimodal-ai-engineer-data-security-governance-internal-security-department-on5orjib",
-      "role_key": "freehire:multimodal-ai-engineer-data-security-governance-internal-security-department-on5orjib",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531850__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Multimodal AI Engineer - Data Security & Governance"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 703,
-      "company": "ACCESS PEOPLE (SINGAPORE) PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":30b2d11bace3cfbc9ea5479cd1f71365",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-17T00:00:00Z",
-      "public_slug": "forward-deployed-ai-engineer-access-people-singapore-pte-ltd-f5x3r3mj",
-      "role_key": "freehire:forward-deployed-ai-engineer-access-people-singapore-pte-ltd-f5x3r3mj",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/30b2d11bace3cfbc9ea5479cd1f71365?utm_source=freehire.me",
-      "title": "Forward Deployed AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 704,
-      "company": "Sofina",
-      "employment_type": null,
-      "external_id": "data engineer:93534181",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:54Z",
-      "public_slug": "data-engineer-for-ai-driven-investment-data-platform-sofina-dmbmdjrd",
-      "role_key": "freehire:data-engineer-for-ai-driven-investment-data-platform-sofina-dmbmdjrd",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93534181__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Engineer for AI-Driven Investment Data Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 705,
-      "company": "Manus AI",
-      "employment_type": null,
-      "external_id": "full stack developer:93533217",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:31Z",
-      "public_slug": "ai-native-full-stack-engineer-end-to-end-features-equity-manus-ai-vctp625i",
-      "role_key": "freehire:ai-native-full-stack-engineer-end-to-end-features-equity-manus-ai-vctp625i",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533217__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Native Full-Stack Engineer — End-to-End Features, Equity"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 706,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "full stack developer:93531652",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:25Z",
-      "public_slug": "full-stack-engineer-payment-platforms-ai-agents-tiktok-mytr6ljw",
-      "role_key": "freehire:full-stack-engineer-payment-platforms-ai-agents-tiktok-mytr6ljw",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531652__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer, Payment Platforms & AI Agents"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:deep_learning",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 707,
-      "company": "Monee",
-      "employment_type": null,
-      "external_id": "6290:95319064",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T08:49:48Z",
-      "public_slug": "deep-learning-engineer-monee-monee-5t3v6kk4",
-      "role_key": "freehire:deep-learning-engineer-monee-monee-5t3v6kk4",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95319064?utm_source=freehire.me",
-      "title": "Deep Learning Engineer - Monee"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 708,
-      "company": "Capco (The Capital Market Company Group)",
-      "employment_type": null,
-      "external_id": "6290:95323886",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "People's Park, Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-16T07:53:13Z",
-      "public_slug": "ai-engineer-capco-the-capital-market-company-group-5aru5v6r",
-      "role_key": "freehire:ai-engineer-capco-the-capital-market-company-group-5aru5v6r",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95323886?utm_source=freehire.me",
-      "title": "AI Engineer"
+      "posted_at": "2026-09-23T00:00:00Z",
+      "public_slug": "software-engineer-ai-applications-globalfoundries-qb5rviok",
+      "role_key": "freehire:software-engineer-ai-applications-globalfoundries-qb5rviok",
+      "source": "eightfold",
+      "source_url": "https://careers.gf.com/careers/job/563980770601252?utm_source=freehire.me",
+      "title": "Software Engineer (AI Applications)"
     }
   ],
-  "generated_at": "2026-11-06T11:35:59.258760Z",
+  "generated_at": "2026-11-06T18:32:14.341061Z",
   "market": "SG",
-  "max_candidate_seq": 708,
-  "min_candidate_seq": 699,
+  "max_candidate_seq": 785,
+  "min_candidate_seq": 774,
   "shard_index": 2,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",

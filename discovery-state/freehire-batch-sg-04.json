@@ -4,13 +4,36 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:genai"
       ],
-      "candidate_seq": 721,
-      "company": "NCS PTE. LTD.",
+      "candidate_seq": 797,
+      "company": "Housing & Development Board",
       "employment_type": null,
-      "external_id": "data engineer:93079041",
+      "external_id": "full stack developer:90635738",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-30T12:45:48Z",
+      "public_slug": "full-stack-engineer-cloud-native-genai-driven-delivery-housing-development-board-o3hdgfan",
+      "role_key": "freehire:full-stack-engineer-cloud-native-genai-driven-delivery-housing-development-board-o3hdgfan",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90635738__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer — Cloud-Native, GenAI-Driven Delivery"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:model_training"
+      ],
+      "candidate_seq": 798,
+      "company": "SHOPEE SINGAPORE PRIVATE LIMITED",
+      "employment_type": null,
+      "external_id": "backend developer:90521386",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -19,12 +42,36 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T21:20:26Z",
-      "public_slug": "ai-harness-architect-senior-data-engineer-ncs-pte-ltd-kv3xerda",
-      "role_key": "freehire:ai-harness-architect-senior-data-engineer-ncs-pte-ltd-kv3xerda",
+      "posted_at": "2026-08-28T20:49:31Z",
+      "public_slug": "senior-backend-engineer-distributed-ml-platform-c-shopee-singapore-private-limited-nc7vuzpu",
+      "role_key": "freehire:senior-backend-engineer-distributed-ml-platform-c-shopee-singapore-private-limited-nc7vuzpu",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93079041__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Harness Architect - Senior Data Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90521386__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer - Distributed ML Platform (C++)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 799,
+      "company": "SHOPEE SINGAPORE PRIVATE LIMITED",
+      "employment_type": null,
+      "external_id": "backend developer:90521816",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-28T20:49:31Z",
+      "public_slug": "expert-backend-engineer-machine-learning-server-parameter-ego-team-shopee-singapore-private-limited-56jrtr56",
+      "role_key": "freehire:expert-backend-engineer-machine-learning-server-parameter-ego-team-shopee-singapore-private-limited-56jrtr56",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90521816__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Expert Backend Engineer (Machine Learning Server Parameter) - EGO team"
     },
     {
       "ai_score": 5,
@@ -32,76 +79,71 @@
         "title:ai",
         "jd:agent"
       ],
-      "candidate_seq": 723,
-      "company": "NCS PTE. LTD.",
+      "candidate_seq": 800,
+      "company": "Infineon",
       "employment_type": null,
-      "external_id": "data engineer:93075001",
+      "external_id": "infineon.eightfold.ai/infineon.com:563808971627062",
       "flags": [
         "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-26T06:48:29Z",
+      "public_slug": "senior-ai-engineer-infineon-r7acm7jx",
+      "role_key": "freehire:senior-ai-engineer-infineon-r7acm7jx",
+      "source": "eightfold",
+      "source_url": "https://jobs.infineon.com/careers/job/563808971627062?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 801,
+      "company": "Shopee",
+      "employment_type": null,
+      "external_id": "backend developer:90355418",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T21:20:20Z",
-      "public_slug": "senior-ai-data-engineer-ncs-pte-ltd-55bk2uw2",
-      "role_key": "freehire:senior-ai-data-engineer-ncs-pte-ltd-55bk2uw2",
+      "posted_at": "2026-08-23T09:46:14Z",
+      "public_slug": "senior-backend-engineer-ml-parameter-server-distributed-shopee-cxcluodq",
+      "role_key": "freehire:senior-backend-engineer-ml-parameter-server-distributed-shopee-cxcluodq",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93075001__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Data Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90355418__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer, ML Parameter Server (Distributed)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:genai",
+        "title:ml",
         "jd:agent"
       ],
-      "candidate_seq": 727,
-      "company": "AvePoint",
+      "candidate_seq": 802,
+      "company": "cygnify",
       "employment_type": null,
-      "external_id": "avepoint:7809901",
+      "external_id": "cygnify:e8781236-94d2-4f3e-8411-1c761d96f3e6",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T18:04:43Z",
-      "public_slug": "data-scientist-avepoint-nogr3nd2",
-      "role_key": "freehire:data-scientist-avepoint-nogr3nd2",
-      "source": "greenhouse",
-      "source_url": "https://www.avepoint.com/careers/job-detail?gh_jid=7809901&utm_source=freehire.me",
-      "title": "Data Scientist"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:machine_learning",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 728,
-      "company": "Grab",
-      "employment_type": null,
-      "external_id": "Grab:744000155416489",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-14T05:55:54Z",
-      "public_slug": "senior-data-scientist-search-recommendations-grab-44y2vnni",
-      "role_key": "freehire:senior-data-scientist-search-recommendations-grab-44y2vnni",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/Grab/744000155416489-senior-data-scientist-search-recommendations-?utm_source=freehire.me",
-      "title": "Senior Data Scientist (Search & Recommendations)"
+      "posted_at": "2026-08-19T11:21:13Z",
+      "public_slug": "platform-engineer-machine-learning-cygnify-qht5a6ju",
+      "role_key": "freehire:platform-engineer-machine-learning-cygnify-qht5a6ju",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cygnify/e8781236-94d2-4f3e-8411-1c761d96f3e6?utm_source=freehire.me",
+      "title": "Platform Engineer (Machine Learning)"
     },
     {
       "ai_score": 5,
@@ -109,100 +151,49 @@
         "title:ai",
         "jd:llm"
       ],
-      "candidate_seq": 729,
-      "company": "ACHIEVE Group",
+      "candidate_seq": 803,
+      "company": "Xtremax Pte. Ltd.",
       "employment_type": null,
-      "external_id": "6301:95255677",
+      "external_id": "xtremax-pte-ltd:82A37475EC",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "One North, Central Region",
+      "location": "Singapore, Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T03:25:37Z",
-      "public_slug": "qa-engineer-consumer-products-ai-assisted-testing-one-north-achieve-group-xgmolprh",
-      "role_key": "freehire:qa-engineer-consumer-products-ai-assisted-testing-one-north-achieve-group-xgmolprh",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95255677?utm_source=freehire.me",
-      "title": "QA Engineer (Consumer Products | AI-Assisted Testing) One North"
+      "posted_at": "2026-08-19T00:00:00Z",
+      "public_slug": "full-stack-engineer-ai-public-sector-xtremax-pte-ltd-aocvvb3u",
+      "role_key": "freehire:full-stack-engineer-ai-public-sector-xtremax-pte-ltd-aocvvb3u",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/82A37475EC?utm_source=freehire.me",
+      "title": "Full Stack Engineer - AI (Public Sector)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:genai"
+        "jd:llm"
       ],
-      "candidate_seq": 731,
-      "company": "Johnson & Johnson MedTech",
+      "candidate_seq": 804,
+      "company": "cygnify",
       "employment_type": null,
-      "external_id": "full stack developer:93415921",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": "cygnify:8b4caac6-95d5-4964-b5c5-1eef092af1c9",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-13T11:20:11Z",
-      "public_slug": "senior-ai-powered-full-stack-engineer-johnson-johnson-medtech-d2ukel26",
-      "role_key": "freehire:senior-ai-powered-full-stack-engineer-johnson-johnson-medtech-d2ukel26",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415921__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI-Powered Full-Stack Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 732,
-      "company": "ScienTec Consulting",
-      "employment_type": null,
-      "external_id": "6282:95234065",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-13T05:50:06Z",
-      "public_slug": "ai-automation-engineer-government-scientec-consulting-zxhbdb2p",
-      "role_key": "freehire:ai-automation-engineer-government-scientec-consulting-zxhbdb2p",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95234065?utm_source=freehire.me",
-      "title": "AI Automation Engineer (Government)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 733,
-      "company": "EPIQ Hong Kong, Limited",
-      "employment_type": null,
-      "external_id": "6290:95234032",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-13T05:48:50Z",
-      "public_slug": "backend-software-engineer-ai-lab-epiq-hong-kong-limited-dw3vidd7",
-      "role_key": "freehire:backend-software-engineer-ai-lab-epiq-hong-kong-limited-dw3vidd7",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95234032?utm_source=freehire.me",
-      "title": "Backend Software Engineer - AI Lab"
+      "posted_at": "2026-08-18T12:42:31Z",
+      "public_slug": "full-stack-developer-ai-cygnify-7d5jysws",
+      "role_key": "freehire:full-stack-developer-ai-cygnify-7d5jysws",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cygnify/8b4caac6-95d5-4964-b5c5-1eef092af1c9?utm_source=freehire.me",
+      "title": "Full Stack Developer (AI)"
     }
   ],
-  "generated_at": "2026-11-06T11:35:59.258760Z",
+  "generated_at": "2026-11-06T18:32:14.341061Z",
   "market": "SG",
-  "max_candidate_seq": 733,
-  "min_candidate_seq": 721,
+  "max_candidate_seq": 804,
+  "min_candidate_seq": 797,
   "shard_index": 4,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",

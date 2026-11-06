@@ -1,199 +1,212 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 797,
-      "company": "Housing & Development Board",
-      "employment_type": null,
-      "external_id": "full stack developer:90635738",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-30T12:45:48Z",
-      "public_slug": "full-stack-engineer-cloud-native-genai-driven-delivery-housing-development-board-o3hdgfan",
-      "role_key": "freehire:full-stack-engineer-cloud-native-genai-driven-delivery-housing-development-board-o3hdgfan",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90635738__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer — Cloud-Native, GenAI-Driven Delivery"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:model_training"
-      ],
-      "candidate_seq": 798,
-      "company": "SHOPEE SINGAPORE PRIVATE LIMITED",
-      "employment_type": null,
-      "external_id": "backend developer:90521386",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-28T20:49:31Z",
-      "public_slug": "senior-backend-engineer-distributed-ml-platform-c-shopee-singapore-private-limited-nc7vuzpu",
-      "role_key": "freehire:senior-backend-engineer-distributed-ml-platform-c-shopee-singapore-private-limited-nc7vuzpu",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90521386__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer - Distributed ML Platform (C++)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
         "title:ml",
         "jd:machine_learning"
       ],
-      "candidate_seq": 799,
-      "company": "SHOPEE SINGAPORE PRIVATE LIMITED",
+      "candidate_seq": 854,
+      "company": "ByteDance",
       "employment_type": null,
-      "external_id": "backend developer:90521816",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-28T20:49:31Z",
-      "public_slug": "expert-backend-engineer-machine-learning-server-parameter-ego-team-shopee-singapore-private-limited-56jrtr56",
-      "role_key": "freehire:expert-backend-engineer-machine-learning-server-parameter-ego-team-shopee-singapore-private-limited-56jrtr56",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90521816__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Expert Backend Engineer (Machine Learning Server Parameter) - EGO team"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 800,
-      "company": "Infineon",
-      "employment_type": null,
-      "external_id": "infineon.eightfold.ai/infineon.com:563808971627062",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-26T06:48:29Z",
-      "public_slug": "senior-ai-engineer-infineon-r7acm7jx",
-      "role_key": "freehire:senior-ai-engineer-infineon-r7acm7jx",
-      "source": "eightfold",
-      "source_url": "https://jobs.infineon.com/careers/job/563808971627062?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 801,
-      "company": "Shopee",
-      "employment_type": null,
-      "external_id": "backend developer:90355418",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-23T09:46:14Z",
-      "public_slug": "senior-backend-engineer-ml-parameter-server-distributed-shopee-cxcluodq",
-      "role_key": "freehire:senior-backend-engineer-ml-parameter-server-distributed-shopee-cxcluodq",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90355418__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer, ML Parameter Server (Distributed)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:agent"
-      ],
-      "candidate_seq": 802,
-      "company": "cygnify",
-      "employment_type": null,
-      "external_id": "cygnify:e8781236-94d2-4f3e-8411-1c761d96f3e6",
+      "external_id": "jobs.bytedance.com:7621591115837786373",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-08-19T11:21:13Z",
-      "public_slug": "platform-engineer-machine-learning-cygnify-qht5a6ju",
-      "role_key": "freehire:platform-engineer-machine-learning-cygnify-qht5a6ju",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/cygnify/e8781236-94d2-4f3e-8411-1c761d96f3e6?utm_source=freehire.me",
-      "title": "Platform Engineer (Machine Learning)"
+      "posted_at": "2026-03-26T15:46:08Z",
+      "public_slug": "machine-learning-engineer-global-e-commerce-eta-pricing-conversion-bytedance-7ji56itc",
+      "role_key": "freehire:machine-learning-engineer-global-e-commerce-eta-pricing-conversion-bytedance-7ji56itc",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7621591115837786373/detail?utm_source=freehire.me",
+      "title": "Machine Learning Engineer, Global E-Commerce (ETA, Pricing & Conversion)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:llm"
+        "jd:machine_learning"
       ],
-      "candidate_seq": 803,
-      "company": "Xtremax Pte. Ltd.",
+      "candidate_seq": 855,
+      "company": "Fuku",
       "employment_type": null,
-      "external_id": "xtremax-pte-ltd:82A37475EC",
+      "external_id": "fuku:C6B0981CCB",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-19T00:00:00Z",
-      "public_slug": "full-stack-engineer-ai-public-sector-xtremax-pte-ltd-aocvvb3u",
-      "role_key": "freehire:full-stack-engineer-ai-public-sector-xtremax-pte-ltd-aocvvb3u",
+      "posted_at": "2026-03-26T00:00:00Z",
+      "public_slug": "ai-engineer-fuku-oncspdx5",
+      "role_key": "freehire:ai-engineer-fuku-oncspdx5",
       "source": "workable",
-      "source_url": "https://apply.workable.com/j/82A37475EC?utm_source=freehire.me",
-      "title": "Full Stack Engineer - AI (Public Sector)"
+      "source_url": "https://apply.workable.com/j/C6B0981CCB?utm_source=freehire.me",
+      "title": "Ai engineer"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "jd:llm",
+        "jd:genai",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
       ],
-      "candidate_seq": 804,
-      "company": "cygnify",
+      "candidate_seq": 856,
+      "company": "FPT Software",
       "employment_type": null,
-      "external_id": "cygnify:8b4caac6-95d5-4964-b5c5-1eef092af1c9",
+      "external_id": "6290:90999279",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-08-18T12:42:31Z",
-      "public_slug": "full-stack-developer-ai-cygnify-7d5jysws",
-      "role_key": "freehire:full-stack-developer-ai-cygnify-7d5jysws",
+      "posted_at": "2026-03-17T09:20:33Z",
+      "public_slug": "g60-full-stack-engineer-fpt-software-pperbkq4",
+      "role_key": "freehire:g60-full-stack-engineer-fpt-software-pperbkq4",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/90999279?utm_source=freehire.me",
+      "title": "G60 - Full Stack Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 857,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7616682027854088501",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-03-13T10:16:53Z",
+      "public_slug": "machine-learning-engineer-supply-chain-forecasting-bytedance-qkjxkmbf",
+      "role_key": "freehire:machine-learning-engineer-supply-chain-forecasting-bytedance-qkjxkmbf",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7616682027854088501/detail?utm_source=freehire.me",
+      "title": "Machine Learning Engineer, Supply Chain Forecasting"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 858,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7613016835703720197",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-03-03T13:15:27Z",
+      "public_slug": "machine-learning-engineer-recommendation-global-e-commerce-alliance-bytedance-tby5mofs",
+      "role_key": "freehire:machine-learning-engineer-recommendation-global-e-commerce-alliance-bytedance-tby5mofs",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7613016835703720197/detail?utm_source=freehire.me",
+      "title": "Machine Learning Engineer (Recommendation), Global E-Commerce Alliance"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:multimodal"
+      ],
+      "candidate_seq": 859,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "6290:90233442",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-02-09T19:52:00Z",
+      "public_slug": "machine-learning-engineer-tiktok-bric-live-integrity-singapore-tiktok-rnmelftu",
+      "role_key": "freehire:machine-learning-engineer-tiktok-bric-live-integrity-singapore-tiktok-rnmelftu",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/90233442?utm_source=freehire.me",
+      "title": "Machine Learning Engineer - TikTok BRIC Live Integrity - Singapore"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 860,
+      "company": "Toku Ltd",
+      "employment_type": null,
+      "external_id": "toku:2452660",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Central Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-01-30T08:42:38Z",
+      "public_slug": "founding-ai-engineer-apac-speech-recognition-toku-ltd-m6rjtzyj",
+      "role_key": "freehire:founding-ai-engineer-apac-speech-recognition-toku-ltd-m6rjtzyj",
+      "source": "recruitee",
+      "source_url": "https://careers.toku.co/o/founding-ai-engineer-apac-speech-recognition?utm_source=freehire.me",
+      "title": "Founding AI Engineer - APAC Speech Recognition"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 861,
+      "company": "tokultd",
+      "employment_type": null,
+      "external_id": "tokultd:2452660",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Central Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-01-30T08:42:38Z",
+      "public_slug": "founding-ai-engineer-apac-speech-recognition-tokultd-7esrxpev",
+      "role_key": "freehire:founding-ai-engineer-apac-speech-recognition-tokultd-7esrxpev",
+      "source": "recruitee",
+      "source_url": "https://careers.toku.co/o/founding-ai-engineer-apac-speech-recognition?utm_source=freehire.me",
+      "title": "Founding AI Engineer - APAC Speech Recognition"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 862,
+      "company": "Cognition",
+      "employment_type": null,
+      "external_id": "cognition:811c3f5a-b26d-4162-b49b-93890a91794d",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "San Francisco",
+      "market": "SG",
+      "posted_at": "2025-10-23T20:55:52Z",
+      "public_slug": "applied-ai-engineer-cognition-rmbvbb4g",
+      "role_key": "freehire:applied-ai-engineer-cognition-rmbvbb4g",
       "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/cygnify/8b4caac6-95d5-4964-b5c5-1eef092af1c9?utm_source=freehire.me",
-      "title": "Full Stack Developer (AI)"
+      "source_url": "https://jobs.ashbyhq.com/cognition/811c3f5a-b26d-4162-b49b-93890a91794d?utm_source=freehire.me",
+      "title": "Applied AI Engineer"
     }
   ],
-  "generated_at": "2026-11-06T11:35:59.258760Z",
+  "generated_at": "2026-11-06T18:32:14.341061Z",
   "market": "SG",
-  "max_candidate_seq": 804,
-  "min_candidate_seq": 797,
+  "max_candidate_seq": 862,
+  "min_candidate_seq": 854,
   "shard_index": 10,
   "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
