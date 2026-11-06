@@ -36,6 +36,22 @@ Platform rules:
 - persist/read back fresh state after attempts;
 - prefer fresh-head/delta semantics where supported.
 
+
+### Coverage recovery and honest completion
+
+The rotation counts **attempts**, not successful market coverage. Continue advancing the platform index after a bounded attempt (to avoid getting stuck on a blocked site), but never label a low-coverage run as a healthy complete search.
+
+For each selected platform:
+
+1. Count only distinct, identifiable job rows actually inspected. An unreachable page, blank results, or an index hit with no exact role identity counts **zero**.
+2. When a platform yields **zero rows** or substantially misses its roughly 20-row target, perform **one bounded alternate-source gap pass in the same run**: indexed/site-specific exact-role queries, official ATS/company career search, or PI/lab postings appropriate to that platform and query bucket. Clearly distinguish alternate-source rows from native rows; do not double count across search queries or source families.
+3. Re-anchor promising new signals to authoritative exact-role JD and usable application route. If the official page is JS-only, try another employer-published route or faithful full-JD reproduction once; record the unresolved blocker rather than claiming verification.
+4. If coverage remains weak, set run_quality=PARTIAL_COVERAGE and record coverage_gaps/fallback_sources in the run metrics. Zero new APPLY/CHECK then means **no verified survivors in the limited slice**, not no new roles on the market. The next run still rotates normally; revisit a failed source through its next rotation or high-value targeted gap pass.
+
+**SG research recall:** Every SG run also performs a bounded current RA/RE/Research Officer lab/official-portal sweep in its research bucket, including current NUS/NTU/A*STAR requisitions or PI-managed postings. Use role IDs and posted dates to find genuinely new opportunities, not just static lab homepages. Check all-Issue history before deep work; do not let unrelated university/research roles crowd out knowledge-enhanced LLM, Agent, NLP and evaluation research.
+
+**CN access fallback:** BOSS/51job/脉脉 inaccessible does not mean no vacancies. Use bounded search-index/native alternatives (including 牛客, employer social recruiting and lab/PI direct postings), and preserve the unverified source as a coverage gap.
+
 With two platforms per hourly run, SG/MY complete five-platform sweeps within at most three successful runs; CN completes seven platforms within at most four.
 
 ### Phase B — FreeHire triage
