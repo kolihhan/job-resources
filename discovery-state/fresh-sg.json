@@ -1,14 +1,14 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T16:58:53+08:00",
+  "updated_at": "2026-11-06T18:03:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
       "role_key": "freehire:graduate-big-data-engineer-ai-ml-search-infra-tiktok-irgxapdm",
-      "reason_code": "graduate_campaign_and_exact_official_role_unresolved",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T09:00:59+08:00",
+      "reason_code": "due_retry_attempted_exact_verification_incomplete_preserved",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T18:03:00+08:00",
       "company": "TikTok",
       "title": "Graduate Big Data Engineer — AI/ML & Search Infra",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90422145__7119"
@@ -16,9 +16,9 @@
     {
       "candidate_seq": 243,
       "role_key": "freehire:data-engineer-ii-ai-ml-pipelines-impact-quantumblack-ai-by-mckinsey-ots33tio",
-      "reason_code": "official_jd_found_but_fit_and_route_not_final",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T09:00:59+08:00",
+      "reason_code": "due_retry_attempted_exact_verification_incomplete_preserved",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T18:03:00+08:00",
       "company": "QuantumBlack, AI by McKinsey",
       "title": "Data Engineer II: AI/ML Pipelines & Impact",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88841792__7119"
@@ -26,9 +26,9 @@
     {
       "candidate_seq": 245,
       "role_key": "freehire:ai-engineer-forward-deployed-engineer-unison-group-wzmmtf4j",
-      "reason_code": "mandatory_4plus_years_confirmed_secondary_source_official_identity_unresolved",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T09:00:59+08:00",
+      "reason_code": "due_retry_attempted_exact_verification_incomplete_preserved",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T18:03:00+08:00",
       "company": "Unison Group",
       "title": "AI Engineer - Forward Deployed Engineer",
       "source_url": "https://apply.workable.com/j/59B9556BEF"
@@ -1069,9 +1069,9 @@
       "company": "ONCOSHOT PTE. LTD.",
       "title": "Senior LLM Extraction Engineer – Oncology Data",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93903064__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "due_retry_attempted_exact_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
     },
     {
       "candidate_seq": 440,
@@ -1079,19 +1079,9 @@
       "company": "Binance",
       "title": "Binance Accelerator Program - AI Engineer, Dev Tools",
       "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002573101?utm_source=freehire.me",
-      "reason_code": "official_greenhouse_page_and_accelerator_eligibility_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
-    },
-    {
-      "candidate_seq": 441,
-      "role_key": "freehire:senior-ai-engineer-thoughtworks-a7ayupct",
-      "company": "Thoughtworks",
-      "title": "Senior AI Engineer",
-      "source_url": "https://www.thoughtworks.com/careers/jobs/8200470?gh_jid=8200470&utm_source=freehire.me",
-      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "official_greenhouse_jd_live_2026_11_06_6month_contract_grad_eligible_but_gmail_workpass_and_route_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
     },
     {
       "candidate_seq": 442,
@@ -1099,9 +1089,9 @@
       "company": "ANCHOR SEARCH GROUP PTE. LTD.",
       "title": "Software Engineer - AI",
       "source_url": "https://www.mycareersfuture.gov.sg/job/fa2c7ea3d79199f4a20c1e627e1f9655?utm_source=freehire.me",
-      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "due_retry_attempted_exact_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
     },
     {
       "candidate_seq": 443,
@@ -1109,9 +1099,9 @@
       "company": "CFGI (SINGAPORE) PRIVATE LIMITED",
       "title": "AI Engineer [CCP for ICT Professionals]",
       "source_url": "https://www.mycareersfuture.gov.sg/job/6aad36959a0e0e87f2074354355b7c05?utm_source=freehire.me",
-      "reason_code": "ccp_program_eligibility_and_non_mcf_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "due_retry_attempted_exact_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
     },
     {
       "candidate_seq": 444,
@@ -1119,9 +1109,9 @@
       "company": "TikTok",
       "title": "Machine Learning Engineer - Emerging Business - TikTok BRIC",
       "source_url": "https://sg.jobstreet.com/job/95587195?utm_source=freehire.me",
-      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "due_retry_attempted_exact_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
     },
     {
       "candidate_seq": 445,
@@ -1699,9 +1689,9 @@
       "company": "Rapsodo",
       "title": "Senior Computer Vision Engineer",
       "source_url": "https://apply.workable.com/j/635A0AF638",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_or_final_eligibility_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:00+08:00"
+      "reason_code": "due_retry_attempted_exact_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
     },
     {
       "candidate_seq": 530,
@@ -2672,6 +2662,106 @@
       "reason_code": "exact_issue_id_checked_authoritative_jd_or_eligibility_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T16:58:53+08:00"
+    },
+    {
+      "candidate_seq": 663,
+      "role_key": "freehire:data-engineer-phd-scale-ml-infra-lakehouse-bytedance-old-6xppnojo",
+      "company": "ByteDance (old)",
+      "title": "Data Engineer (PhD) – Scale ML Infra & Lakehouse",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113116__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 665,
+      "role_key": "freehire:ai-solutions-engineer-data-ai-platform-singdata-inc-egdbr24p",
+      "company": "Singdata inc.",
+      "title": "AI Solutions Engineer — Data & AI Platform",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93980054__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 666,
+      "role_key": "freehire:ai-engineer-full-stack-nanyang-technological-university-r4e7syr5",
+      "company": "Nanyang Technological University",
+      "title": "AI Engineer, Full Stack",
+      "source_url": "https://sg.jobstreet.com/job/95469387?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 667,
+      "role_key": "freehire:ai-engineer-evaluation-nanyang-technological-university-ii4sd5ak",
+      "company": "Nanyang Technological University",
+      "title": "AI Engineer (Evaluation)",
+      "source_url": "https://sg.jobstreet.com/job/95469366?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 668,
+      "role_key": "freehire:data-scientist-micron-semiconductors-oxfme6k7",
+      "company": "Micron Semiconductors",
+      "title": "Data Scientist",
+      "source_url": "https://sg.jobstreet.com/job/95467372?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 669,
+      "role_key": "freehire:ai-engineer-amd-boo76nui",
+      "company": "AMD",
+      "title": "AI Engineer",
+      "source_url": "https://echojobs.io/job/amd-ai-engineer-software-development-engineer-u91c6?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 670,
+      "role_key": "freehire:junior-full-stack-developer-gen-ai-data-integration-greengarden-integrated-services-pte-ltd-zw4emst3",
+      "company": "GREENGARDEN INTEGRATED SERVICES PTE. LTD.",
+      "title": "JUNIOR FULL STACK DEVELOPER (GEN AI & DATA INTEGRATION)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/4b84e7c859440940d33f9bda489875a5?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 671,
+      "role_key": "freehire:senior-computer-vision-engineer-persol-singapore-pte-ltd-lq6a6si7",
+      "company": "PERSOL SINGAPORE PTE. LTD.",
+      "title": "Senior Computer Vision Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/e0cdcac01a5993c339304250282c5f2d?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 672,
+      "role_key": "freehire:senior-cloud-engineer-data-platform-ai-on-gcp-devopsroles-e4agzayk",
+      "company": "Devopsroles",
+      "title": "Senior Cloud Engineer - Data Platform & AI on GCP",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93903882__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 673,
+      "role_key": "freehire:research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
+      "company": "Agency for Science, Technology and Research",
+      "title": "Research Engineer, Cybersecurity, IAIC",
+      "source_url": "https://sg.jobstreet.com/job/95443052?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:03:00+08:00"
     }
   ]
 }
