@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T15:04:46+08:00",
+  "updated_at": "2026-11-06T16:00:13+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -2502,6 +2502,106 @@
       "company": "DOLE ASIA HOLDINGS PTE. LTD.",
       "title": "IT Support, Security & AI Automation Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/d68669ee7fdfc2895e571520866fd954"
+    },
+    {
+      "candidate_seq": 643,
+      "role_key": "freehire:senior-customer-ai-engineer-token-factory-nebius-bg3sybg2",
+      "company": "Nebius",
+      "title": "Senior Customer AI Engineer - Token Factory",
+      "source_url": "https://careers.nebius.com/?gh_jid=5000612101",
+      "reason_code": "official_listing_visible_seniority_and_customer_facing_scope_need_full_jd",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 644,
+      "role_key": "freehire:genai-ready-data-integration-engineer-evolution-singapore-o544toqz",
+      "company": "Evolution Singapore",
+      "title": "GenAI-Ready Data & Integration Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94060086__7119",
+      "reason_code": "aggregator_only_authoritative_identity_and_ai_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 645,
+      "role_key": "freehire:senior-front-end-data-engineer-for-labor-productivity-ai-micron-semiconductor-asia-operations-pte-ltd-ommb5wcp",
+      "company": "Micron Semiconductor",
+      "title": "Senior Front-End Data Engineer for Labor Productivity & AI",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061327__7119",
+      "reason_code": "senior_title_and_manufacturing_data_scope_require_authoritative_jd",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 646,
+      "role_key": "freehire:full-stack-engineer-for-ai-driven-avionics-lab-thales-avionics-inc-ags-7srvg2it",
+      "company": "Thales Avionics",
+      "title": "Full-Stack Engineer for AI-Driven Avionics Lab",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94059751__7119",
+      "reason_code": "five_plus_experience_hint_and_avionics_ai_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 647,
+      "role_key": "freehire:senior-ai-engineer-aida-singapore-telecommunications-powvcyxw",
+      "company": "Singtel",
+      "title": "Senior AI Engineer #AIDA",
+      "source_url": "https://sg.jobstreet.com/job/95504559",
+      "reason_code": "jobstreet_related_listing_found_exact_role_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 648,
+      "role_key": "freehire:applied-machine-learning-engineer-bjakcareer-6xdc5s4s",
+      "company": "Bjak",
+      "title": "Applied Machine Learning Engineer",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/2fddb7f2-3231-4c6f-b21c-3d69c3f353a7",
+      "reason_code": "source_location_us_not_singapore_verify_market_before_promotion",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 649,
+      "role_key": "freehire:machine-learning-engineer-ranking-retrieval-bjakcareer-5vbjfft2",
+      "company": "Bjak",
+      "title": "Machine Learning Engineer, Ranking & Retrieval",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1",
+      "reason_code": "source_location_china_not_singapore_verify_market_before_promotion",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 650,
+      "role_key": "freehire:ai-engineer-asus-rjctxl5j",
+      "company": "ASUS",
+      "title": "AI Engineer",
+      "source_url": "https://recruit.asus.com/Jobs/Detail?sn=13e3a18f-a21b-4c9f-908d-0aac9559f363",
+      "reason_code": "official_job_jd_and_agent_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 651,
+      "role_key": "freehire:senior-data-engineer-embodied-ai-dada-consultants-ozi76pzy",
+      "company": "dada consultants",
+      "title": "Senior Data Engineer | Embodied AI",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94043243__7119",
+      "reason_code": "senior_five_plus_and_embodied_ai_scope_require_jd",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
+    },
+    {
+      "candidate_seq": 652,
+      "role_key": "freehire:ai-energy-management-system-software-developer-aienerge-pte-ltd-ks6p4h35",
+      "company": "AIENERGE",
+      "title": "AI Energy Management System Software Developer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/49ca24c183a069edb75ff6cd440e88aa",
+      "reason_code": "mcf_only_route_unusable_without_verified_external_route",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:00:13+08:00"
     }
   ]
 }
