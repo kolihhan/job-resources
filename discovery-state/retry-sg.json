@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T07:01:12+08:00",
+  "updated_at": "2026-11-06T08:04:05+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -69,9 +69,9 @@
       "company": "SURBANA JURONG SERVICES PTE. LTD.",
       "title": "Senior AI Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/396351082f0359cfddf08908fa6f7f49",
-      "reason_code": "mcf_only_non_mcf_route_unverified_on_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "source_route_and_eligibility_still_unverified_on_retry",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 269,
@@ -79,9 +79,9 @@
       "company": "SURBANA JURONG SERVICES PTE. LTD.",
       "title": "AI Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/153b62e0cf904edd41ee3dac2e48b0c0",
-      "reason_code": "mcf_only_non_mcf_route_unverified_on_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "source_route_and_eligibility_still_unverified_on_retry",
+      "attempts": 3,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 271,
@@ -1379,9 +1379,9 @@
       "company": "ByteDance (old)",
       "title": "Backend Engineer - Applied Machine Learning Platform Singapore Regular",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93973157__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "authoritative_jd_and_eligibility_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "source_route_and_eligibility_still_unverified_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 475,
@@ -1389,9 +1389,9 @@
       "company": "Nanyang Technological University",
       "title": "AI Engineer (AI Products)",
       "source_url": "https://sg.jobstreet.com/job/95469343?utm_source=freehire.me",
-      "reason_code": "authoritative_jd_and_eligibility_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "official_NTU_R00024969_identified_exact_history_identity_and_workpass_unresolved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 476,
@@ -1399,9 +1399,9 @@
       "company": "MOTIONAL SINGAPORE PTE. LIMITED",
       "title": "Senior Software Engineer, ML Infrastructure",
       "source_url": "https://www.mycareersfuture.gov.sg/job/5b1f2806d39dd83dc58990c1ecbda955?utm_source=freehire.me",
-      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "source_route_and_eligibility_still_unverified_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 477,
@@ -1409,9 +1409,9 @@
       "company": "RECRUIT EXPRESS PTE LTD",
       "title": "Data Scientist | Business Analyst (AI)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/dae0a84885989516e4174b889c8ddb7d?utm_source=freehire.me",
-      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "source_route_and_eligibility_still_unverified_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 478,
@@ -1419,9 +1419,9 @@
       "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
       "title": "Forward Deployed Engineer, GenAI (Mandarin, English) - Singapore",
       "source_url": "https://www.mycareersfuture.gov.sg/job/b2401c45a2744b5abd723314056dd8d0?utm_source=freehire.me",
-      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "source_route_and_eligibility_still_unverified_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 479,
@@ -1429,9 +1429,9 @@
       "company": "RECRUIT EXPRESS PTE LTD",
       "title": "AI Analyst (Data Scientist)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/9c577010728ec1132cd546fdf08c0d9d?utm_source=freehire.me",
-      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "source_route_and_eligibility_still_unverified_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 480,
@@ -1439,9 +1439,9 @@
       "company": "ABSOLUTE KINETICS CONSULTANCY PTE LTD",
       "title": "AI Solutions Engineer",
       "source_url": "https://www.mycareersfuture.gov.sg/job/c9ad5937a04ae41cbef0bcb0a7fcf460?utm_source=freehire.me",
-      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "source_route_and_eligibility_still_unverified_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 481,
@@ -1449,9 +1449,9 @@
       "company": "NANYANG TECHNOLOGICAL UNIVERSITY",
       "title": "Research Engineer II (Computer Science / Cyber Security / Artificial Intelligence)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/38b96a7df87e6d304419aa322d5a1988?utm_source=freehire.me",
-      "reason_code": "mcf_only_non_mcf_route_and_exact_jd_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
+      "reason_code": "official_NTU_R00025211_found_identity_and_eligibility_unresolved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
       "candidate_seq": 482,
@@ -1942,6 +1942,106 @@
       "reason_code": "official_exact_jd_liveness_eligibility_and_non_mcf_route_unresolved",
       "attempts": 1,
       "next_retry_at": "2026-11-07T07:01:12+08:00"
+    },
+    {
+      "candidate_seq": 569,
+      "role_key": "freehire:vp-avp-genai-engineer-scientist-innovation-group-uobgroup-dviiw6pc",
+      "company": "uobgroup",
+      "title": "VP / AVP, GenAI Engineer/Scientist, Innovation Group",
+      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/VP---AVP--GenAI-Engineer-Scientist--Innovation-Group_JR80139?utm_source=freehire.me",
+      "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 570,
+      "role_key": "freehire:vp-data-scientist-enterprise-ai-innovation-group-uobgroup-lccuymg6",
+      "company": "uobgroup",
+      "title": "VP, Data Scientist, Enterprise AI, Innovation Group",
+      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/VP--Data-Scientist--Enterprise-AI--Innovation-Group_JR88406?utm_source=freehire.me",
+      "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 571,
+      "role_key": "freehire:eg-ai-engineer-autonomous-network-ncs3-luo5ozta",
+      "company": "ncs3",
+      "title": "#EG AI Engineer (Autonomous Network)",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237--eg-ai-engineer-autonomous-network-?utm_source=freehire.me",
+      "reason_code": "official_related_NCS_role_found_exact_6000000001140237_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 572,
+      "role_key": "freehire:platform-senior-ai-engineer-ncs3-mp2hk25e",
+      "company": "ncs3",
+      "title": "Platform Senior AI Engineer",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001138861-platform-senior-ai-engineer?utm_source=freehire.me",
+      "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 573,
+      "role_key": "freehire:senior-data-scientist-enterprise-ai-aida-singapore-telecommunications-qo7bmwps",
+      "company": "Singapore Telecommunications",
+      "title": "Senior Data Scientist, Enterprise AI #AIDA",
+      "source_url": "https://sg.jobstreet.com/job/92319596?utm_source=freehire.me",
+      "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 574,
+      "role_key": "freehire:senior-ai-engineer-fpt-software-f7oxt5vg",
+      "company": "FPT Software",
+      "title": "Senior AI Engineer",
+      "source_url": "https://sg.jobstreet.com/job/92008164?utm_source=freehire.me",
+      "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 575,
+      "role_key": "freehire:da-mo-xing-shi-dai-xia-de-sou-yan-tui-xi-tong-chuang-xin-yan-jiu-data-dou-yin-zhi-bo-dian-shang-jian-ying-xin-jia-po-innovative-research-on-search-advertising-and-recommendation-systems-in-the-era-of-llms-data-tiktok-live-e-commerce-capcut-singapore-bytedance-ejbfaeab",
+      "company": "ByteDance",
+      "title": "大模型时代下的搜广推系统创新研究-Data-抖音/直播/电商/剪映（新加坡）Innovative Research on Search, Advertising, and Recommendation Systems in the Era of LLMs-Data-TikTok/Live/E-commerce/CapCut (Singapore)",
+      "source_url": "https://jobs.bytedance.com/campus/position/7637134730707323141/detail?utm_source=freehire.me",
+      "reason_code": "campus_campaign_eligibility_and_exact_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 576,
+      "role_key": "freehire:eg-platform-ai-engineer-ncs3-djk56wg6",
+      "company": "ncs3",
+      "title": "#EG Platform AI Engineer",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001031326--eg-platform-ai-engineer?utm_source=freehire.me",
+      "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 578,
+      "role_key": "freehire:machine-learning-engineer-payment-risk-global-payment-singapore-bytedance-mdleejhm",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer (Payment & Risk) - Global Payment - Singapore",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7620582976708446517/detail?utm_source=freehire.me",
+      "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 579,
+      "role_key": "freehire:machine-learning-engineer-feed-e-commerce-singapore-bytedance-bnguu2tu",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer - Feed E-Commerce - Singapore",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7613017667172305205/detail?utm_source=freehire.me",
+      "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T08:04:05+08:00"
     }
   ]
 }
