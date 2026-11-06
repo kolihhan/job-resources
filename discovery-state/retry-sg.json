@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T21:58:32+08:00",
+  "updated_at": "2026-11-06T22:58:55+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3172,6 +3172,126 @@
       "reason_code": "exact_issue_id_no_match_official_jd_and_workpass_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T22:00:00+08:00"
+    },
+    {
+      "candidate_seq": 729,
+      "role_key": "freehire:qa-engineer-consumer-products-ai-assisted-testing-one-north-achieve-group-xgmolprh",
+      "company": "ACHIEVE Group",
+      "title": "QA Engineer (Consumer Products | AI-Assisted Testing) One North",
+      "source_url": "https://sg.jobstreet.com/job/95255677?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 731,
+      "role_key": "freehire:senior-ai-powered-full-stack-engineer-johnson-johnson-medtech-d2ukel26",
+      "company": "Johnson & Johnson MedTech",
+      "title": "Senior AI-Powered Full-Stack Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415921__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 732,
+      "role_key": "freehire:ai-automation-engineer-government-scientec-consulting-zxhbdb2p",
+      "company": "ScienTec Consulting",
+      "title": "AI Automation Engineer (Government)",
+      "source_url": "https://sg.jobstreet.com/job/95234065?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 733,
+      "role_key": "freehire:backend-software-engineer-ai-lab-epiq-hong-kong-limited-dw3vidd7",
+      "company": "EPIQ Hong Kong, Limited",
+      "title": "Backend Software Engineer - AI Lab",
+      "source_url": "https://sg.jobstreet.com/job/95234032?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 734,
+      "role_key": "freehire:senior-solutions-engineer-developer-productivity-ai-microsoft-lohfuijf",
+      "company": "Microsoft",
+      "title": "Senior Solutions Engineer - Developer Productivity & AI",
+      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557022868?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 735,
+      "role_key": "freehire:ai-systems-engineer-power-platform-copilot-persol-ry7i72je",
+      "company": "PERSOL",
+      "title": "AI Systems Engineer (Power Platform & Copilot)",
+      "source_url": "https://sg.jobstreet.com/job/95212709?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 736,
+      "role_key": "freehire:junior-it-business-analyst-qa-agile-delivery-agentic-management-r10483-baiwu-hk-international-limited-5vahbk3v",
+      "company": "Baiwu (HK) International Limited",
+      "title": "Junior IT Business Analyst (QA/ Agile Delivery/ Agentic management)(R10483)",
+      "source_url": "https://sg.jobstreet.com/job/95212352?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 737,
+      "role_key": "freehire:senior-full-stack-engineer-ai-platform-apis-alpha-z-xewqgzfw",
+      "company": "Alpha Z",
+      "title": "Senior Full-Stack Engineer - AI Platform & APIs",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159839__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 738,
+      "role_key": "freehire:snowflake-data-architect-engineer-genai-ready-tata-consultancy-services-tcs-r3ronl7o",
+      "company": "Tata Consultancy Services (TCS)",
+      "title": "Snowflake Data Architect & Engineer (GenAI-ready)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112210__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
+    },
+    {
+      "candidate_seq": 740,
+      "role_key": "freehire:senior-ai-driven-full-stack-engineer-8438-johnson-johnson-international-singapore-pte-ltd-legal-entity-qso6u6tx",
+      "company": "8438-Johnson & Johnson International (Singapore) Pte. Ltd. Legal Entity",
+      "title": "Senior AI-Driven Full-Stack Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113670__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_and_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T23:00:00+08:00",
+      "retry_new_evidence": false,
+      "alternate_source_attempted": "indexed exact-role fallback where available; no fully verified eligibility"
     }
   ]
 }
