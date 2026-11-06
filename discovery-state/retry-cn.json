@@ -116,21 +116,25 @@
       "role_key": "freehire:ai-agentsuan-fa-gong-cheng-shi-dou-yin-dian-shang-bytedance-75cvymtd",
       "candidate_seq": 1626,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 4,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
+      "attempts": 5,
+      "next_retry_at": "2026-11-08T00:10:00+08:00",
       "company": "ByteDance",
       "title": "AI Agent算法工程师 - 抖音电商",
-      "source_url": "https://jobs.bytedance.com/campus/position/7667570226904713477/detail"
+      "source_url": "https://jobs.bytedance.com/campus/position/7667570226904713477/detail",
+      "last_alternate_source_attempted": "indexed exact requisition/title search (different from original URL)",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-ji-suan-bytedance-sefk5jci",
       "candidate_seq": 1636,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 4,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
+      "attempts": 5,
+      "next_retry_at": "2026-11-08T00:10:00+08:00",
       "company": "ByteDance",
       "title": "AI Agent研发工程师 - 计算",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7615578634536945925/detail"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7615578634536945925/detail",
+      "last_alternate_source_attempted": "indexed exact requisition/title search (different from original URL)",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:agent-engineer-agent-gong-cheng-shi-moonshot-ai-4sbtejzs",
@@ -176,31 +180,37 @@
       "role_key": "freehire:ai-infra-sre-gong-cheng-shi-agentsha-xiang-tencent-tqvn5wse",
       "candidate_seq": 1666,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T00:10:00+08:00",
       "company": "Tencent",
       "title": "AI Infra SRE 工程师(Agent沙箱)",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2113089274038628352"
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2113089274038628352",
+      "last_alternate_source_attempted": "indexed exact requisition/title search (different from original URL)",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:a-li-guo-ji-aiying-yong-kai-fa-gong-cheng-shi-ai-coding-hang-zhou-alibaba-group-ffdy3lto",
       "candidate_seq": 1667,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T00:10:00+08:00",
       "company": "Alibaba Group",
       "title": "阿里国际-AI应用开发工程师（AI Coding）-杭州",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100023775005"
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100023775005",
+      "last_alternate_source_attempted": "indexed exact requisition/title search (different from original URL)",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:kinfrazhi-neng-jian-suo-suan-fa-yan-jiu-bei-shang-shen-tencent-l3rnkqea",
       "candidate_seq": 1669,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T00:10:00+08:00",
       "company": "Tencent",
       "title": "Kinfra智能检索算法研究(北上深)",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2108399579169996800"
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2108399579169996800",
+      "last_alternate_source_attempted": "indexed exact requisition/title search (different from original URL)",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:hun-yuan-da-yu-yan-mo-xing-hou-xun-lian-suan-fa-gong-cheng-shi-memoryfang-xiang-bei-jing-shen-zhen-shang-hai-tencent-e7fxdfvt",
@@ -1691,6 +1701,56 @@
       "company": "Tencent",
       "title": "混元Agentic Vision算法研究员（北京/上海）(深圳)",
       "source_url": "https://careers.tencent.com/jobdesc.html?postId=2092149663925977088&utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:software-engineer-ii-core-ai-microsoft-d6ep44jf",
+      "candidate_seq": 2024,
+      "reason_code": "authoritative_jd_and_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T12:10:00+08:00",
+      "company": "Microsoft",
+      "title": "Software Engineer II - Core AI",
+      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557007337?utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:devops-ai-ying-yong-kai-fa-gong-cheng-shi-bei-jing-shen-zhen-tencent-qqy7psf6",
+      "candidate_seq": 2027,
+      "reason_code": "authoritative_jd_and_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T12:10:00+08:00",
+      "company": "Tencent",
+      "title": "#DevOps AI 应用开发工程师#（北京/深圳）",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2108391501406056448&utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:ying-yong-ruan-jian-kai-fa-ai-abb-aq5bk2te",
+      "candidate_seq": 2029,
+      "reason_code": "authoritative_jd_and_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T12:10:00+08:00",
+      "company": "ABB",
+      "title": "应用软件开发(AI)",
+      "source_url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Shanghai-Shanghai-China/-AI-_JR00048554?utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:mobile-engineer-ai-finance-agent-bjakcareer-ggohyyzw",
+      "candidate_seq": 2030,
+      "reason_code": "authoritative_jd_and_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T12:10:00+08:00",
+      "company": "Bjak",
+      "title": "Mobile Engineer - AI Finance Agent",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/fb5ae07c-bf4c-4721-af6c-5a767ee34442?utm_source=freehire.me"
+    },
+    {
+      "role_key": "freehire:am-data-science-reusable-ai-squad-ocbc-ixyhw72d",
+      "candidate_seq": 2035,
+      "reason_code": "authoritative_jd_and_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T12:10:00+08:00",
+      "company": "ocbc",
+      "title": "AM, Data Science, Reusable AI Squad",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-China-Chengdu/AM--Data-Science--Reusable-AI-Squad_JR00011393?utm_source=freehire.me"
     }
   ]
 }
