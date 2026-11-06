@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T18:03:00+08:00",
+  "updated_at": "2026-11-06T18:57:48+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -1119,9 +1119,9 @@
       "company": "Wivoo",
       "title": "Data Scientist / AI Engineer",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94379680__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 446,
@@ -1129,9 +1129,9 @@
       "company": "HI5 ELITE PTE. LTD.",
       "title": "AI-Driven Backend Engineer (Python/Java, Spring Boot)",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94384158__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 447,
@@ -1139,9 +1139,9 @@
       "company": "xFusion",
       "title": "AI Solutions Engineer",
       "source_url": "https://sg.jobstreet.com/job/95585000?utm_source=freehire.me",
-      "reason_code": "authoritative_jd_liveness_workpass_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 448,
@@ -1149,9 +1149,9 @@
       "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
       "title": "Forward Deployed Engineer, GenAI (Thai, English) - Singapore",
       "source_url": "https://www.mycareersfuture.gov.sg/job/3d0d2d238bb302e8167d7d7be70ea2e1?utm_source=freehire.me",
-      "reason_code": "thai_language_requirement_and_non_mcf_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:59+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 449,
@@ -1529,9 +1529,9 @@
       "company": "ncs3",
       "title": "#EG Fullstack Developer – AI Applications",
       "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001495687--eg-fullstack-developer-ai-applications?utm_source=freehire.me",
-      "reason_code": "official_jd_read_2to4_years_ai_fullstack_workpass_and_stack_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "official_jd_rechecked_2to4_years_ai_fullstack_non_mcf_route_live_workpass_and_stack_unverified",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 501,
@@ -1539,9 +1539,9 @@
       "company": "DL Ideas Pte. Ltd.",
       "title": "PHP Software Developer (Laravel / CodeIgniter / AI Integration)",
       "source_url": "https://sg.jobstreet.com/job/95290541?utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 503,
@@ -1549,9 +1549,9 @@
       "company": "aryan solutions pte. ltd.",
       "title": "Senior AI Data Engineer",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91908911__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 506,
@@ -1559,9 +1559,9 @@
       "company": "Great Eastern",
       "title": "Senior Data and AI Solution Engineer",
       "source_url": "https://sg.jobstreet.com/job/95246064?utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 508,
@@ -1569,9 +1569,9 @@
       "company": "UARROW PTE. LTD.",
       "title": "Data Scientist - AI & Big Data Architect",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92804810__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 509,
@@ -1579,9 +1579,9 @@
       "company": "UNISONEDGE CONSULTING PTE. LTD.",
       "title": "Data Scientist: AI & Big Data Cloud Pipelines",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93009214__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T10:00:00+08:00"
+      "reason_code": "due_retry_attempted_authoritative_verification_incomplete_preserved",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     },
     {
       "candidate_seq": 511,
@@ -2762,6 +2762,106 @@
       "reason_code": "exact_issue_id_no_match_authoritative_jd_liveness_eligibility_workpass_and_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T18:03:00+08:00"
+    },
+    {
+      "candidate_seq": 674,
+      "role_key": "freehire:full-stack-engineer-ai-products-kaishi-partners-pte-ltd-wsdx6zwl",
+      "company": "KAISHI PARTNERS PTE. LTD.",
+      "title": "Full Stack Engineer — AI Products",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/34a150fad19ed6b3842919e5a10a3628?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 675,
+      "role_key": "freehire:gemini-enterprise-agent-engineer-avensys-consulting-pte-ltd-7mzg2363",
+      "company": "AVENSYS CONSULTING PTE. LTD.",
+      "title": "Gemini Enterprise Agent Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/902e7ffb9c4b2fa7567c2bc8713bb908?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 676,
+      "role_key": "freehire:research-engineer-cybersecurity-iaic-a-star-research-entities-4cpdbo6v",
+      "company": "A*STAR RESEARCH ENTITIES",
+      "title": "Research Engineer, Cybersecurity, IAIC",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/2040995059fc3bd478a8c44f5cd9ae58?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 677,
+      "role_key": "freehire:ai-security-engineer-u3-solutions-pte-ltd-nazfllh4",
+      "company": "U3 SOLUTIONS PTE. LTD.",
+      "title": "AI Security Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/9453d700d8d9b27b7171c31ffcfcfc2d?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 678,
+      "role_key": "freehire:ai-security-engineer-u3-infotech-pte-ltd-emlsxbd7",
+      "company": "U3 INFOTECH PTE. LTD.",
+      "title": "AI Security Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/bf72e94fb2363cecd1766b7e1fdc5475?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 679,
+      "role_key": "freehire:ai-infrastructure-engineer-kaishi-partners-pte-ltd-leobt5po",
+      "company": "KAISHI PARTNERS PTE. LTD.",
+      "title": "AI Infrastructure Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/66d249de99751560590f771a1d9e1965?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 680,
+      "role_key": "freehire:senior-data-engineer-encora-technologies-pte-ltd-fm4uijli",
+      "company": "encora technologies pte. ltd.",
+      "title": "Senior Data Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93747553__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 681,
+      "role_key": "freehire:ai-driven-backend-engineer-end-to-end-features-with-equity-manus-ai-t5zduzyc",
+      "company": "Manus AI",
+      "title": "AI-Driven Backend Engineer End-to-End Features with Equity",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93830169__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 682,
+      "role_key": "freehire:tiktok-shop-llm-operations-specialist-content-safety-tiktok-e2f34tm6",
+      "company": "TikTok",
+      "title": "TikTok Shop - LLM Operations Specialist, Content Safety",
+      "source_url": "https://sg.jobstreet.com/job/95414290?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
+    },
+    {
+      "candidate_seq": 683,
+      "role_key": "freehire:ai-engineer-3echo-workspace-3echo-pte-ltd-k3qgocm7",
+      "company": "3ECHO PTE. LTD.",
+      "title": "AI Engineer - 3echo Workspace",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/fc602a09a8aa49a425adca0749b32251?utm_source=freehire.me",
+      "reason_code": "exact_issue_id_no_match_authoritative_jd_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T18:57:48+08:00"
     }
   ]
 }
