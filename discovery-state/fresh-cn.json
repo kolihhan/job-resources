@@ -1,16 +1,16 @@
 {
   "version": 2,
   "market": "CN",
-  "platform_cycle": 25,
-  "next_platform_index": 6,
-  "next_owner_bucket": 3,
-  "next_query_bucket": 4,
-  "run_counter": 87,
-  "last_completed_at": "2026-11-06T10:08:57+08:00",
+  "platform_cycle": 26,
+  "next_platform_index": 1,
+  "next_owner_bucket": 4,
+  "next_query_bucket": 5,
+  "run_counter": 88,
+  "last_completed_at": "2026-11-06T11:10:24+08:00",
   "last_platforms": [
-    "前程无忧 / 51job",
-    "脉脉 / team-direct recruiting signals"
+    "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals",
+    "BOSS直聘"
   ],
-  "last_owner_bucket": 2,
-  "last_query_bucket": 3
+  "last_owner_bucket": 3,
+  "last_query_bucket": 4
 }
