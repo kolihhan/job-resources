@@ -130,6 +130,20 @@ def test():
     assert probe(row)["job_live"]=="UNKNOWN"
     assert probe(row)["status"]=="NOT_FETCHED"
     assert "JR00048554" in probe({"company":"ABB","title":"应用软件开发(AI)","source_url":"https://abb.wd3.myworkdayjobs.com/x/-AI-_JR00048554"})["fallback_search"]
+    assert source_info("https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Guangzhou/AI-Engineer_WD89063")["provider"] == "workday"
+    assert source_info("https://jobs.bytedance.com/experienced/position/7688617050661488901/detail")["provider"] == "bytedance"
+    assert source_info("https://job-boards.greenhouse.io/binance/jobs/5002667101")["api"].endswith("/binance/jobs/5002667101?content=true")
+    real_fetch = globals()["fetch_jd"]
+    try:
+        globals()["fetch_jd"] = lambda url: (True, to_text(html, "text/html"), "HTTP_200")
+        assert probe(row, fetch=True)["status"] == "JD_CONTENT_FOUND"
+        assert probe(row, fetch=True)["job_live"] == "UNKNOWN"
+        globals()["fetch_jd"] = lambda url: (True, "Loading...", "HTTP_200")
+        assert probe(row, fetch=True)["status"] == "SOURCE_UNVERIFIED"
+        globals()["fetch_jd"] = lambda url: (False, "", "HTTP_403")
+        assert probe(row, fetch=True)["status"] == "SOURCE_UNVERIFIED"
+    finally:
+        globals()["fetch_jd"] = real_fetch
     print("PASS: URL canonicalization, ATS ID, safe sources, HTML/JSON JD extraction, conservative liveness")
 
 
