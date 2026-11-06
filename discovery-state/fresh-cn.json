@@ -2,15 +2,15 @@
   "version": 2,
   "market": "CN",
   "platform_cycle": 25,
-  "next_platform_index": 2,
-  "next_owner_bucket": 1,
-  "next_query_bucket": 2,
-  "run_counter": 85,
-  "last_completed_at": "2026-11-06T08:05:32+08:00",
+  "next_platform_index": 4,
+  "next_owner_bucket": 2,
+  "next_query_bucket": 3,
+  "run_counter": 86,
+  "last_completed_at": "2026-11-06T09:12:16+08:00",
   "last_platforms": [
-    "BOSS直聘",
-    "牛客招聘"
+    "猎聘",
+    "智联招聘"
   ],
-  "last_owner_bucket": 0,
-  "last_query_bucket": 1
+  "last_owner_bucket": 1,
+  "last_query_bucket": 2
 }
