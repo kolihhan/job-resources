@@ -108,6 +108,18 @@ Exact-history duplicates are not part of the reject-audit sample because they te
 
 ## Retry rule
 
+### Retry escalation — stop repeating the same inaccessible URL
+
+A persisted retry is not proof of progress. For each due receipt, retain the stable job identity and prior evidence while choosing a **new verification route** when the previous route failed:
+
+- First failed authoritative open: try the employer careers/ATS search by exact requisition ID or exact title/location; use one faithful full-JD reproduction if needed.
+- On a repeated same-blocker retry, do **not** consume another deep-read slot re-opening exactly the same failed URL without new evidence. Switch to another source, employer contact/route discovery (read-only), or defer the record with an explicit source-specific blocker.
+- After three attempts with no new substantive evidence, use a longer retry interval (at least 24 hours) unless a published closing date or exceptional GOLD research signal makes immediate alternate-route investigation worthwhile. Preserve the receipt; never silently drop an eligible unknown.
+- Prioritize due retries with **new evidence, upcoming deadlines, or high North-Star content**, then oldest receipts among otherwise comparable candidates. Keep the existing per-run retry limit. Avoid spending the whole verification budget repeatedly on inert aggregator mirrors.
+
+Every retry records whether **new substantive evidence** was obtained (yes/no) and the alternate source attempted. Do not mark a verification completed merely because the URL was opened, the attempt counter increased, or a new next_retry_at was saved. Deduped/terminal/verified candidates still exit through the existing normal gates.
+
+
 Transient verification failures and deep-read budget deferrals must not stall later candidates. Persist a compact receipt containing at least:
 
 - `role_key` / `candidate_seq`;
