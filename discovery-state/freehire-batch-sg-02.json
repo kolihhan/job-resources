@@ -2,205 +2,199 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "title:data_science"
+        "title:ml",
+        "jd:machine_learning"
       ],
-      "candidate_seq": 567,
-      "company": "Unison Group",
+      "candidate_seq": 609,
+      "company": "Monee SG Private Limited",
       "employment_type": null,
-      "external_id": "unisongroup:F8F87FF946",
+      "external_id": "data engineer:94033240",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-06-19T00:00:00Z",
-      "public_slug": "ai-data-scientist-unison-group-ul2zji3p",
-      "role_key": "freehire:ai-data-scientist-unison-group-ul2zji3p",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/F8F87FF946?utm_source=freehire.me",
-      "title": "AI Data Scientist"
+      "posted_at": "2026-10-30T16:40:20Z",
+      "public_slug": "ml-platform-engineer-real-time-risk-data-pipelines-monee-sg-private-limited-r2ramvpz",
+      "role_key": "freehire:ml-platform-engineer-real-time-risk-data-pipelines-monee-sg-private-limited-r2ramvpz",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033240__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "ML Platform Engineer — Real-Time Risk & Data Pipelines"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "title:research"
+        "title:ml",
+        "jd:machine_learning"
       ],
-      "candidate_seq": 568,
-      "company": "Ntu",
+      "candidate_seq": 610,
+      "company": "Lex",
       "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-Safety-_R00024943",
+      "external_id": "data engineer:93955496",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-06-19T00:00:00Z",
-      "public_slug": "research-associate-embodied-ai-safety-ntu-3azzhouk",
-      "role_key": "freehire:research-associate-embodied-ai-safety-ntu-3azzhouk",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-Safety-_R00024943?utm_source=freehire.me",
-      "title": "Research Associate (Embodied AI Safety)"
+      "posted_at": "2026-10-30T16:40:19Z",
+      "public_slug": "machine-learning-engineer-strategic-data-solutions-lex-4mya4gzi",
+      "role_key": "freehire:machine-learning-engineer-strategic-data-solutions-lex-4mya4gzi",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93955496__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Machine Learning Engineer, Strategic Data Solutions"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:genai",
-        "jd:agent"
+        "title:ml",
+        "jd:machine_learning"
       ],
-      "candidate_seq": 569,
-      "company": "uobgroup",
+      "candidate_seq": 611,
+      "company": "Lex",
       "employment_type": null,
-      "external_id": "uobgroup.wd3.myworkdayjobs.com/uobexternal:/job/Central-Region-City-Area/VP---AVP--GenAI-Engineer-Scientist--Innovation-Group_JR80139",
-      "flags": [
-        "seniority_hint"
-      ],
+      "external_id": "data engineer:93954658",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Central Region (City Area)",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-06-17T00:00:00Z",
-      "public_slug": "vp-avp-genai-engineer-scientist-innovation-group-uobgroup-dviiw6pc",
-      "role_key": "freehire:vp-avp-genai-engineer-scientist-innovation-group-uobgroup-dviiw6pc",
-      "source": "workday",
-      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/VP---AVP--GenAI-Engineer-Scientist--Innovation-Group_JR80139?utm_source=freehire.me",
-      "title": "VP / AVP, GenAI Engineer/Scientist, Innovation Group"
+      "posted_at": "2026-10-30T16:40:19Z",
+      "public_slug": "ml-engineer-strategic-data-solutions-fulfillment-ops-lex-oggrf3i5",
+      "role_key": "freehire:ml-engineer-strategic-data-solutions-fulfillment-ops-lex-oggrf3i5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93954658__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "ML Engineer, Strategic Data Solutions (Fulfillment Ops)"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:agent",
+        "jd:model_training"
+      ],
+      "candidate_seq": 612,
+      "company": "Binance",
+      "employment_type": null,
+      "external_id": "binance:5002567101",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hong Kong; Japan; Singapore; Taiwan",
+      "market": "SG",
+      "posted_at": "2026-10-30T15:37:55Z",
+      "public_slug": "binance-accelerator-program-research-data-scientist-binance-rvk4fue7",
+      "role_key": "freehire:binance-accelerator-program-research-data-scientist-binance-rvk4fue7",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002567101?utm_source=freehire.me",
+      "title": "Binance Accelerator Program - Research Data Scientist"
+    },
+    {
+      "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "title:data_science"
+        "jd:machine_learning"
       ],
-      "candidate_seq": 570,
-      "company": "uobgroup",
-      "employment_type": "full_time",
-      "external_id": "uobgroup.wd3.myworkdayjobs.com/uobexternal:/job/Central-Region-City-Area/VP--Data-Scientist--Enterprise-AI--Innovation-Group_JR88406",
+      "candidate_seq": 613,
+      "company": "Binance",
+      "employment_type": null,
+      "external_id": "binance:5002713101",
       "flags": [
+        "senior_title_hint",
         "experience_5_plus_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Central Region (City Area)",
+      "location": "Hong Kong; Singapore; Taiwan",
       "market": "SG",
-      "posted_at": "2026-06-17T00:00:00Z",
-      "public_slug": "vp-data-scientist-enterprise-ai-innovation-group-uobgroup-lccuymg6",
-      "role_key": "freehire:vp-data-scientist-enterprise-ai-innovation-group-uobgroup-lccuymg6",
-      "source": "workday",
-      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/VP--Data-Scientist--Enterprise-AI--Innovation-Group_JR88406?utm_source=freehire.me",
-      "title": "VP, Data Scientist, Enterprise AI, Innovation Group"
+      "posted_at": "2026-11-05T10:11:53Z",
+      "public_slug": "senior-data-analyst-ai-compliance-binance-gaj7qrmb",
+      "role_key": "freehire:senior-data-analyst-ai-compliance-binance-gaj7qrmb",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002713101?utm_source=freehire.me",
+      "title": "Senior Data Analyst (AI Compliance)"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:agent",
-        "jd:rag"
+        "title:ml",
+        "jd:machine_learning"
       ],
-      "candidate_seq": 571,
-      "company": "ncs3",
+      "candidate_seq": 614,
+      "company": "Thoughtworks",
       "employment_type": null,
-      "external_id": "ncs3:6000000001140237",
+      "external_id": "thoughtworks:8255607",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "agency_or_outstaff_hint",
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-05T08:48:50Z",
+      "public_slug": "senior-machine-learning-engineer-thoughtworks-njotvhbs",
+      "role_key": "freehire:senior-machine-learning-engineer-thoughtworks-njotvhbs",
+      "source": "greenhouse",
+      "source_url": "https://www.thoughtworks.com/careers/jobs/8255607?gh_jid=8255607&utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:computer_vision"
+      ],
+      "candidate_seq": 616,
+      "company": "EXASOFT PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":5e256523aeb3ed51a8893b7c08ca86ef",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, sg",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-06-09T06:24:41Z",
-      "public_slug": "eg-ai-engineer-autonomous-network-ncs3-luo5ozta",
-      "role_key": "freehire:eg-ai-engineer-autonomous-network-ncs3-luo5ozta",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237--eg-ai-engineer-autonomous-network-?utm_source=freehire.me",
-      "title": "#EG AI Engineer (Autonomous Network)"
+      "posted_at": "2026-10-30T00:00:00Z",
+      "public_slug": "ml-platform-integration-engineer-exasoft-pte-ltd-ue2ly3hp",
+      "role_key": "freehire:ml-platform-integration-engineer-exasoft-pte-ltd-ue2ly3hp",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/5e256523aeb3ed51a8893b7c08ca86ef?utm_source=freehire.me",
+      "title": "ML Platform / Integration Engineer"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:rag"
+        "title:computer_vision",
+        "jd:computer_vision"
       ],
-      "candidate_seq": 572,
-      "company": "ncs3",
+      "candidate_seq": 617,
+      "company": "HYUNDAI MOTOR GROUP INNOVATION CENTER IN SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": "ncs3:6000000001138861",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-06-09T02:20:51Z",
-      "public_slug": "platform-senior-ai-engineer-ncs3-mp2hk25e",
-      "role_key": "freehire:platform-senior-ai-engineer-ncs3-mp2hk25e",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001138861-platform-senior-ai-engineer?utm_source=freehire.me",
-      "title": "Platform Senior AI Engineer"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "title:data_science"
-      ],
-      "candidate_seq": 573,
-      "company": "Singapore Telecommunications",
-      "employment_type": null,
-      "external_id": "6290:92319596",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": ":1955ca1938d7936f360f394166ef0714",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-05-25T09:04:19Z",
-      "public_slug": "senior-data-scientist-enterprise-ai-aida-singapore-telecommunications-qo7bmwps",
-      "role_key": "freehire:senior-data-scientist-enterprise-ai-aida-singapore-telecommunications-qo7bmwps",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/92319596?utm_source=freehire.me",
-      "title": "Senior Data Scientist, Enterprise AI #AIDA"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent"
-      ],
-      "candidate_seq": 574,
-      "company": "FPT Software",
-      "employment_type": null,
-      "external_id": "6290:92008164",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-05-08T18:04:56Z",
-      "public_slug": "senior-ai-engineer-fpt-software-f7oxt5vg",
-      "role_key": "freehire:senior-ai-engineer-fpt-software-f7oxt5vg",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/92008164?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
+      "posted_at": "2026-10-30T00:00:00Z",
+      "public_slug": "computer-vision-engineer-hyundai-motor-group-innovation-center-in-singapore-pte-ltd-b74z636g",
+      "role_key": "freehire:computer-vision-engineer-hyundai-motor-group-innovation-center-in-singapore-pte-ltd-b74z636g",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/1955ca1938d7936f360f394166ef0714?utm_source=freehire.me",
+      "title": "Computer Vision Engineer"
     }
   ],
-  "generated_at": "2026-11-05T22:55:40.942009Z",
+  "generated_at": "2026-11-06T03:42:21.345144Z",
   "market": "SG",
-  "max_candidate_seq": 574,
-  "min_candidate_seq": 567,
+  "max_candidate_seq": 617,
+  "min_candidate_seq": 609,
   "shard_index": 2,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -1,166 +1,49 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 650,
-      "company": "ASUS",
-      "employment_type": null,
-      "external_id": ":13e3a18f-a21b-4c9f-908d-0aac9559f363",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T08:18:09Z",
-      "public_slug": "ai-engineer-asus-rjctxl5j",
-      "role_key": "freehire:ai-engineer-asus-rjctxl5j",
-      "source": "asus",
-      "source_url": "https://recruit.asus.com/Jobs/Detail?sn=13e3a18f-a21b-4c9f-908d-0aac9559f363&utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 651,
-      "company": "dada consultants",
-      "employment_type": null,
-      "external_id": "data engineer:94043243",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T02:40:02Z",
-      "public_slug": "senior-data-engineer-embodied-ai-dada-consultants-ozi76pzy",
-      "role_key": "freehire:senior-data-engineer-embodied-ai-dada-consultants-ozi76pzy",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94043243__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Senior Data Engineer | Embodied AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:model_training"
-      ],
-      "candidate_seq": 652,
-      "company": "AIENERGE PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":49ca24c183a069edb75ff6cd440e88aa",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T00:00:00Z",
-      "public_slug": "ai-energy-management-system-software-developer-aienerge-pte-ltd-ks6p4h35",
-      "role_key": "freehire:ai-energy-management-system-software-developer-aienerge-pte-ltd-ks6p4h35",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/49ca24c183a069edb75ff6cd440e88aa?utm_source=freehire.me",
-      "title": "AI Energy Management System Software Developer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
         "jd:machine_learning"
       ],
-      "candidate_seq": 653,
-      "company": "Gramian",
+      "candidate_seq": 699,
+      "company": "ASTM ASIA PACIFIC LIMITED",
       "employment_type": null,
-      "external_id": "gramian:3630C28B2A",
+      "external_id": "6290:95334335",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "United Kingdom; Germany; Poland; South Africa; United Arab Emirates; Egypt",
+      "location": "Central Region",
       "market": "SG",
-      "posted_at": "2026-10-26T00:00:00Z",
-      "public_slug": "machine-learning-research-engineering-specialist-gramian-fduuxda3",
-      "role_key": "freehire:machine-learning-research-engineering-specialist-gramian-fduuxda3",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/3630C28B2A?utm_source=freehire.me",
-      "title": "Machine Learning Research & Engineering Specialist"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 654,
-      "company": "uobgroup",
-      "employment_type": null,
-      "external_id": "uobgroup.wd3.myworkdayjobs.com/uobexternal:/job/Central-Region-City-Area/SO-System-Analyst--GenAI---GMET_JR84920",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region (City Area)",
-      "market": "SG",
-      "posted_at": "2026-10-26T00:00:00Z",
-      "public_slug": "so-system-analyst-genai-gmet-uobgroup-gs526if5",
-      "role_key": "freehire:so-system-analyst-genai-gmet-uobgroup-gs526if5",
-      "source": "workday",
-      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/SO-System-Analyst--GenAI---GMET_JR84920?utm_source=freehire.me",
-      "title": "SO System Analyst (GenAI), GMET"
+      "posted_at": "2026-10-18T02:38:00Z",
+      "public_slug": "ai-and-data-engineer-astm-asia-pacific-limited-fas3zlk5",
+      "role_key": "freehire:ai-and-data-engineer-astm-asia-pacific-limited-fas3zlk5",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95334335?utm_source=freehire.me",
+      "title": "AI and Data Engineer"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:agent"
+        "jd:genai"
       ],
-      "candidate_seq": 655,
-      "company": "DBS BANK LTD.",
-      "employment_type": "full_time",
-      "external_id": ":8595c20088343835c05ca585f5c06a1c",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T00:00:00Z",
-      "public_slug": "svp-senior-cloud-engineer-data-ai-platform-group-technology-wd87133-dbs-bank-ltd-yhpu3tcz",
-      "role_key": "freehire:svp-senior-cloud-engineer-data-ai-platform-group-technology-wd87133-dbs-bank-ltd-yhpu3tcz",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/8595c20088343835c05ca585f5c06a1c?utm_source=freehire.me",
-      "title": "SVP, Senior Cloud Engineer (Data & AI Platform), Group Technology (WD87133)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 656,
-      "company": "INFOGAIN TECHNOLOGIES PTE. LTD.",
+      "candidate_seq": 700,
+      "company": "VIVIDTECH PTE.LTD",
       "employment_type": null,
-      "external_id": ":d3fa47b4177a3b43ecbbc435061be67a",
+      "external_id": "6287:95332243",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "North-East Region",
       "market": "SG",
-      "posted_at": "2026-10-26T00:00:00Z",
-      "public_slug": "ai-infrastructure-engineer-iskt-001-infogain-technologies-pte-ltd-leysfvl6",
-      "role_key": "freehire:ai-infrastructure-engineer-iskt-001-infogain-technologies-pte-ltd-leysfvl6",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/d3fa47b4177a3b43ecbbc435061be67a?utm_source=freehire.me",
-      "title": "AI & Infrastructure Engineer ISKT-001"
+      "posted_at": "2026-10-18T02:18:51Z",
+      "public_slug": "full-stack-developer-ai-content-platform-vividtech-pte-ltd-dpe5iymi",
+      "role_key": "freehire:full-stack-developer-ai-content-platform-vividtech-pte-ltd-dpe5iymi",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95332243?utm_source=freehire.me",
+      "title": "Full-Stack Developer – AI Content Platform"
     },
     {
       "ai_score": 5,
@@ -168,31 +51,163 @@
         "title:ai",
         "jd:multimodal"
       ],
-      "candidate_seq": 657,
-      "company": "Talent@Web3",
-      "employment_type": "part_time",
-      "external_id": "talentweb3:W38W75YW",
-      "flags": [
-        "seniority_hint"
+      "candidate_seq": 701,
+      "company": "Internal Security Department",
+      "employment_type": null,
+      "external_id": "data engineer:93531850",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-17T13:18:13Z",
+      "public_slug": "multimodal-ai-engineer-data-security-governance-internal-security-department-on5orjib",
+      "role_key": "freehire:multimodal-ai-engineer-data-security-governance-internal-security-department-on5orjib",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531850__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Multimodal AI Engineer - Data Security & Governance"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
       ],
+      "candidate_seq": 703,
+      "company": "ACCESS PEOPLE (SINGAPORE) PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":30b2d11bace3cfbc9ea5479cd1f71365",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T23:54:22Z",
-      "public_slug": "chief-technology-officer-ai-startup-talent-web3-fvqpdas5",
-      "role_key": "freehire:chief-technology-officer-ai-startup-talent-web3-fvqpdas5",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/talentweb3/job/W38W75YW?utm_source=freehire.me",
-      "title": "Chief Technology Officer (AI Startup)"
+      "posted_at": "2026-10-17T00:00:00Z",
+      "public_slug": "forward-deployed-ai-engineer-access-people-singapore-pte-ltd-f5x3r3mj",
+      "role_key": "freehire:forward-deployed-ai-engineer-access-people-singapore-pte-ltd-f5x3r3mj",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/30b2d11bace3cfbc9ea5479cd1f71365?utm_source=freehire.me",
+      "title": "Forward Deployed AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 704,
+      "company": "Sofina",
+      "employment_type": null,
+      "external_id": "data engineer:93534181",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:54Z",
+      "public_slug": "data-engineer-for-ai-driven-investment-data-platform-sofina-dmbmdjrd",
+      "role_key": "freehire:data-engineer-for-ai-driven-investment-data-platform-sofina-dmbmdjrd",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93534181__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Engineer for AI-Driven Investment Data Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 705,
+      "company": "Manus AI",
+      "employment_type": null,
+      "external_id": "full stack developer:93533217",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:31Z",
+      "public_slug": "ai-native-full-stack-engineer-end-to-end-features-equity-manus-ai-vctp625i",
+      "role_key": "freehire:ai-native-full-stack-engineer-end-to-end-features-equity-manus-ai-vctp625i",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533217__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Native Full-Stack Engineer — End-to-End Features, Equity"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 706,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "full stack developer:93531652",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:25Z",
+      "public_slug": "full-stack-engineer-payment-platforms-ai-agents-tiktok-mytr6ljw",
+      "role_key": "freehire:full-stack-engineer-payment-platforms-ai-agents-tiktok-mytr6ljw",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531652__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer, Payment Platforms & AI Agents"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:deep_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 707,
+      "company": "Monee",
+      "employment_type": null,
+      "external_id": "6290:95319064",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T08:49:48Z",
+      "public_slug": "deep-learning-engineer-monee-monee-5t3v6kk4",
+      "role_key": "freehire:deep-learning-engineer-monee-monee-5t3v6kk4",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95319064?utm_source=freehire.me",
+      "title": "Deep Learning Engineer - Monee"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 708,
+      "company": "Capco (The Capital Market Company Group)",
+      "employment_type": null,
+      "external_id": "6290:95323886",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "People's Park, Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-16T07:53:13Z",
+      "public_slug": "ai-engineer-capco-the-capital-market-company-group-5aru5v6r",
+      "role_key": "freehire:ai-engineer-capco-the-capital-market-company-group-5aru5v6r",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95323886?utm_source=freehire.me",
+      "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-05T22:55:40.942009Z",
+  "generated_at": "2026-11-06T03:42:21.345144Z",
   "market": "SG",
-  "max_candidate_seq": 657,
-  "min_candidate_seq": 650,
+  "max_candidate_seq": 708,
+  "min_candidate_seq": 699,
   "shard_index": 12,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -1,204 +1,188 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 7,
   "candidates": [
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "title:data_science"
+        "jd:genai"
       ],
-      "candidate_seq": 556,
-      "company": "Krisvconsulting Services Pte Ltd",
+      "candidate_seq": 602,
+      "company": "Nanyang Technological University Singapore",
       "employment_type": null,
-      "external_id": "krisvconsulting-services-pte-ltd:RYR4YYV6",
+      "external_id": "data engineer:94533551",
       "flags": [
         "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
+        "experience_5_plus_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-15T22:31:11Z",
-      "public_slug": "senior-data-scientist-enterprise-ai-krisvconsulting-services-pte-ltd-bba63tt6",
-      "role_key": "freehire:senior-data-scientist-enterprise-ai-krisvconsulting-services-pte-ltd-bba63tt6",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/krisvconsulting-services-pte-ltd/job/RYR4YYV6?utm_source=freehire.me",
-      "title": "Senior Data Scientist – Enterprise AI"
+      "posted_at": "2026-10-31T12:40:40Z",
+      "public_slug": "senior-data-services-ai-engineer-nanyang-technological-university-singapore-o4rtk6re",
+      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-singapore-o4rtk6re",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94533551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Services & AI Engineer"
     },
     {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ml",
-        "jd:llm",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 559,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6290:93721505",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-03T05:59:55Z",
-      "public_slug": "machine-learning-engineer-graduate-global-e-commerce-2027-start-phd-tiktok-ypwxpzae",
-      "role_key": "freehire:machine-learning-engineer-graduate-global-e-commerce-2027-start-phd-tiktok-ypwxpzae",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93721505?utm_source=freehire.me",
-      "title": "Machine Learning Engineer Graduate (Global E-Commerce) - 2027 Start (PhD)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ml",
-        "jd:deep_learning",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 560,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6290:93721498",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-03T05:59:49Z",
-      "public_slug": "machine-learning-engineer-graduate-audio-understanding-2027-start-phd-tiktok-ieycgwcp",
-      "role_key": "freehire:machine-learning-engineer-graduate-audio-understanding-2027-start-phd-tiktok-ieycgwcp",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93721498?utm_source=freehire.me",
-      "title": "Machine Learning Engineer Graduate (Audio Understanding) - 2027 Start (PhD)"
-    },
-    {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:llm",
-        "jd:multimodal"
+        "jd:genai"
       ],
-      "candidate_seq": 561,
-      "company": "Ntu",
+      "candidate_seq": 603,
+      "company": "Nanyang Technological University",
       "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--AI-Products-_R00024969",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-28T00:00:00Z",
-      "public_slug": "ai-engineer-ai-products-ntu-z657hcsf",
-      "role_key": "freehire:ai-engineer-ai-products-ntu-z657hcsf",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AI-Products-_R00024969?utm_source=freehire.me",
-      "title": "AI Engineer (AI Products)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 563,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6287:93558335",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-26T02:11:15Z",
-      "public_slug": "machine-learning-engineer-video-recommendation-singapore-tiktok-f6s7rcnb",
-      "role_key": "freehire:machine-learning-engineer-video-recommendation-singapore-tiktok-f6s7rcnb",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93558335?utm_source=freehire.me",
-      "title": "Machine Learning Engineer, Video Recommendation - Singapore"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "title:data_science"
-      ],
-      "candidate_seq": 564,
-      "company": "PricewaterhouseCoopers (PwC)",
-      "employment_type": null,
-      "external_id": "pwc.wd3.myworkdayjobs.com/Global_Campus_Careers:/job/Singapore---Marina-One/Risk-Services---AI-Factory--Data-Scientist--Associate--July-2027-Intake-_741283WD",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore - Marina One",
-      "market": "SG",
-      "posted_at": "2026-07-01T00:00:00Z",
-      "public_slug": "risk-services-ai-factory-data-scientist-associate-july-2027-intake-pricewaterhousecoopers-pwc-6o3s7qfs",
-      "role_key": "freehire:risk-services-ai-factory-data-scientist-associate-july-2027-intake-pricewaterhousecoopers-pwc-6o3s7qfs",
-      "source": "workday",
-      "source_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore---Marina-One/Risk-Services---AI-Factory--Data-Scientist--Associate--July-2027-Intake-_741283WD?utm_source=freehire.me",
-      "title": "Risk Services - AI Factory (Data Scientist) Associate (July 2027 Intake)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "jd:llm",
-        "jd:genai",
-        "jd:machine_learning",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 565,
-      "company": "sggovterp",
-      "employment_type": "part_time",
-      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/Singapore/Lecturer--Big-Data-Analytics----School-of-Informatics---IT_JR-10000048003",
+      "external_id": "data engineer:94536370",
       "flags": [
-        "experience_5_plus_hint"
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:40:40Z",
+      "public_slug": "senior-data-services-ai-engineer-nanyang-technological-university-2wfkoidj",
+      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-2wfkoidj",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536370__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Services & AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 604,
+      "company": "FOODPANDA SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:94534042",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:40:36Z",
+      "public_slug": "senior-data-ai-engineer-production-ai-pipelines-foodpanda-singapore-pte-ltd-7ee3olxs",
+      "role_key": "freehire:senior-data-ai-engineer-production-ai-pipelines-foodpanda-singapore-pte-ltd-7ee3olxs",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534042__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & AI Engineer: Production AI & Pipelines"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 605,
+      "company": "Temasek International Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:94536103",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:40:32Z",
+      "public_slug": "senior-associate-assistant-vice-president-ai-data-engineer-1365003057a4-temasek-international-pte-ltd-altct5ya",
+      "role_key": "freehire:senior-associate-assistant-vice-president-ai-data-engineer-1365003057a4-temasek-international-pte-ltd-altct5ya",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536103__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Associate/Assistant Vice President, AI Data Engineer (1365003057A4)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 606,
+      "company": "Blockchain Academics",
+      "employment_type": null,
+      "external_id": "data engineer:94534141",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:40:28Z",
+      "public_slug": "big-data-platform-engineer-ai-driven-crypto-infra-blockchain-academics-6mwymn33",
+      "role_key": "freehire:big-data-platform-engineer-ai-driven-crypto-infra-blockchain-academics-6mwymn33",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534141__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Big Data Platform Engineer — AI-Driven Crypto Infra"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:computer_vision"
+      ],
+      "candidate_seq": 607,
+      "company": "Ailytics",
+      "employment_type": "full_time",
+      "external_id": "software-engineer:4878934",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-07-01T00:00:00Z",
-      "public_slug": "lecturer-big-data-analytics-school-of-informatics-it-sggovterp-yxodsfgo",
-      "role_key": "freehire:lecturer-big-data-analytics-school-of-informatics-it-sggovterp-yxodsfgo",
-      "source": "workday",
-      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Singapore/Lecturer--Big-Data-Analytics----School-of-Informatics---IT_JR-10000048003?utm_source=freehire.me",
-      "title": "Lecturer (Big Data Analytics) / School of Informatics & IT"
+      "posted_at": "2026-10-30T20:05:29Z",
+      "public_slug": "senior-ai-engineer-remote-within-2-5hrs-of-sgt-ailytics-wykmbx2y",
+      "role_key": "freehire:senior-ai-engineer-remote-within-2-5hrs-of-sgt-ailytics-wykmbx2y",
+      "source": "wellfound",
+      "source_url": "https://wellfound.com/jobs/4878934-senior-ai-engineer-remote-within-2-5hrs-of-sgt?utm_source=freehire.me",
+      "title": "Senior AI Engineer (Remote- Within 2.5Hrs of SGT)"
     },
     {
-      "ai_score": 6,
+      "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:machine_learning",
-        "jd:model_training"
+        "jd:agent"
       ],
-      "candidate_seq": 566,
-      "company": "Unison Group",
-      "employment_type": null,
-      "external_id": "unisongroup:D3D079059F",
-      "flags": [],
+      "candidate_seq": 608,
+      "company": "dbs bank ltd.",
+      "employment_type": "full_time",
+      "external_id": "data engineer:94383331",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-06-23T00:00:00Z",
-      "public_slug": "ai-engineer-azure-ai-solutions-unison-group-xtuawzck",
-      "role_key": "freehire:ai-engineer-azure-ai-solutions-unison-group-xtuawzck",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/D3D079059F?utm_source=freehire.me",
-      "title": "AI Engineer (Azure AI Solutions)"
+      "posted_at": "2026-10-30T16:40:20Z",
+      "public_slug": "svp-senior-cloud-engineer-data-ai-platform-group-technology-dbs-bank-ltd-kyupggr3",
+      "role_key": "freehire:svp-senior-cloud-engineer-data-ai-platform-group-technology-dbs-bank-ltd-kyupggr3",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94383331__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "SVP, Senior Cloud Engineer (Data & AI Platform), Group Technology"
     }
   ],
-  "generated_at": "2026-11-05T22:55:40.942009Z",
+  "generated_at": "2026-11-06T03:42:21.345144Z",
   "market": "SG",
-  "max_candidate_seq": 566,
-  "min_candidate_seq": 556,
+  "max_candidate_seq": 608,
+  "min_candidate_seq": 602,
   "shard_index": 1,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

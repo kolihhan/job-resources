@@ -1,26 +1,29 @@
 {
-  "candidate_count": 7,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:llm"
+        "title:ai",
+        "jd:agent"
       ],
-      "candidate_seq": 594,
-      "company": "TIKTOK PTE. LTD.",
+      "candidate_seq": 634,
+      "company": "POLYTRON.AI PTE. LTD.",
       "employment_type": null,
-      "external_id": ":07db83d6dcf3a37bc82198cd741fa5df",
-      "flags": [],
+      "external_id": ":b26aacf7bd2a962edfdd51527991d2c1",
+      "flags": [
+        "visa_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-11-02T00:00:00Z",
-      "public_slug": "multimodal-llm-algorithm-engineer-graduate-global-e-commerce-knowledge-graph-2027-start-phd-tiktok-pte-ltd-zdbrmd7q",
-      "role_key": "freehire:multimodal-llm-algorithm-engineer-graduate-global-e-commerce-knowledge-graph-2027-start-phd-tiktok-pte-ltd-zdbrmd7q",
+      "posted_at": "2026-10-28T00:00:00Z",
+      "public_slug": "full-stack-engineer-ai-native-polytron-ai-pte-ltd-pqsfomyr",
+      "role_key": "freehire:full-stack-engineer-ai-native-polytron-ai-pte-ltd-pqsfomyr",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/07db83d6dcf3a37bc82198cd741fa5df?utm_source=freehire.me",
-      "title": "Multimodal LLM Algorithm Engineer Graduate (Global E-Commerce, Knowledge Graph) - 2027 Start (PhD)"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/b26aacf7bd2a962edfdd51527991d2c1?utm_source=freehire.me",
+      "title": "Full Stack Engineer (AI Native)"
     },
     {
       "ai_score": 5,
@@ -28,10 +31,34 @@
         "title:ai",
         "jd:agent"
       ],
-      "candidate_seq": 595,
-      "company": "China, Beijing Branch",
-      "employment_type": "full_time",
-      "external_id": "data engineer:94636485",
+      "candidate_seq": 635,
+      "company": "GREY TREE PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":930506d8bd80fdaf8ca9d1bebdbeddd2",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-28T00:00:00Z",
+      "public_slug": "ai-engineer-grey-tree-pte-ltd-ccilkh7v",
+      "role_key": "freehire:ai-engineer-grey-tree-pte-ltd-ccilkh7v",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/930506d8bd80fdaf8ca9d1bebdbeddd2?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 636,
+      "company": "Ntu",
+      "employment_type": null,
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/Senior-Data-Services---AI-Engineer_R00026139",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -39,116 +66,62 @@
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "NTU Main Campus, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-01T14:39:25Z",
-      "public_slug": "svp-vp-senior-cloud-engineer-data-ai-platform-group-technology-china-beijing-branch-jr3i22qx",
-      "role_key": "freehire:svp-vp-senior-cloud-engineer-data-ai-platform-group-technology-china-beijing-branch-jr3i22qx",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94636485__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "SVP/VP, Senior Cloud Engineer (Data & AI Platform), Group Technology"
+      "posted_at": "2026-10-28T00:00:00Z",
+      "public_slug": "senior-data-services-ai-engineer-ntu-56nyx27o",
+      "role_key": "freehire:senior-data-services-ai-engineer-ntu-56nyx27o",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Senior-Data-Services---AI-Engineer_R00026139?utm_source=freehire.me",
+      "title": "Senior Data Services & AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:computer_vision",
+        "jd:computer_vision"
+      ],
+      "candidate_seq": 637,
+      "company": "TDK SENSEI PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":7906131e93e4e30591ad09daf604184d",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-28T00:00:00Z",
+      "public_slug": "computer-vision-sales-engineer-asean-tdk-sensei-pte-ltd-jra5gg2h",
+      "role_key": "freehire:computer-vision-sales-engineer-asean-tdk-sensei-pte-ltd-jra5gg2h",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/7906131e93e4e30591ad09daf604184d?utm_source=freehire.me",
+      "title": "Computer Vision Sales Engineer (ASEAN)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:llm"
+        "jd:agent"
       ],
-      "candidate_seq": 596,
-      "company": "Cheil Singapore Pte Ltd",
+      "candidate_seq": 638,
+      "company": "dadaconsultants pte. ltd.",
       "employment_type": null,
-      "external_id": "full stack developer:94639780",
+      "external_id": "full stack developer:93753040",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint",
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-11-01T10:40:42Z",
-      "public_slug": "senior-full-stack-developer-ai-aws-devops-cheil-singapore-pte-ltd-fk4n5ebn",
-      "role_key": "freehire:senior-full-stack-developer-ai-aws-devops-cheil-singapore-pte-ltd-fk4n5ebn",
+      "posted_at": "2026-10-27T08:39:33Z",
+      "public_slug": "full-stack-engineer-software-engineer-ai-products-golang-growth-platform-dadaconsultants-pte-ltd-r7gjv7rq",
+      "role_key": "freehire:full-stack-engineer-software-engineer-ai-products-golang-growth-platform-dadaconsultants-pte-ltd-r7gjv7rq",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94639780__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Developer - AI, AWS & DevOps"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 597,
-      "company": "CHEIL SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:94640121",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:42Z",
-      "public_slug": "senior-full-stack-developer-ai-driven-aws-ci-cd-cheil-singapore-pte-ltd-nagwjw6a",
-      "role_key": "freehire:senior-full-stack-developer-ai-driven-aws-ci-cd-cheil-singapore-pte-ltd-nagwjw6a",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94640121__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full Stack Developer — AI-Driven, AWS & CI/CD"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 598,
-      "company": "ARTA TECH PTE. LTD.",
-      "employment_type": null,
-      "external_id": "backend developer:94637970",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:35Z",
-      "public_slug": "senior-backend-engineer-ai-powered-finance-platform-arta-tech-pte-ltd-5aht2uxa",
-      "role_key": "freehire:senior-backend-engineer-ai-powered-finance-platform-arta-tech-pte-ltd-5aht2uxa",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637970__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer - AI-Powered Finance Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 599,
-      "company": "Arta Tech",
-      "employment_type": null,
-      "external_id": "backend developer:94638653",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:35Z",
-      "public_slug": "senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
-      "role_key": "freehire:senior-backend-engineer-ai-driven-finance-platform-arta-tech-o5o7aszo",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638653__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer — AI-Driven Finance Platform"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93753040__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Full Stack Engineer / Software Engineer (AI Products / Golang / Growth Platform)"
     },
     {
       "ai_score": 5,
@@ -156,29 +129,75 @@
         "title:ml",
         "jd:machine_learning"
       ],
-      "candidate_seq": 600,
-      "company": "Monee",
+      "candidate_seq": 639,
+      "company": "Gramian Consulting Group",
       "employment_type": null,
-      "external_id": "data engineer:92133441",
+      "external_id": "6290:95525602",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-27T07:37:13Z",
+      "public_slug": "machine-learning-research-engineering-specialist-gramian-consulting-group-v6gtvbmv",
+      "role_key": "freehire:machine-learning-research-engineering-specialist-gramian-consulting-group-v6gtvbmv",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95525602?utm_source=freehire.me",
+      "title": "Machine Learning Research & Engineering Specialist"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 640,
+      "company": "NUSABASE DIGITAL PTE. LTD.",
+      "employment_type": null,
+      "external_id": "6290:95524165",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Central Region",
       "market": "SG",
-      "posted_at": "2026-10-31T14:39:12Z",
-      "public_slug": "machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
-      "role_key": "freehire:machine-learning-engineer-risk-data-experienced-individual-contributor-singapore-data-science-monee-z4luyjtw",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92133441__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Machine Learning Engineer - Risk Data Experienced (Individual Contributor) Singapore Data Science"
+      "posted_at": "2026-10-27T07:36:54Z",
+      "public_slug": "ai-application-frontend-development-engineer-token-platform-nusabase-digital-pte-ltd-3m2dww6q",
+      "role_key": "freehire:ai-application-frontend-development-engineer-token-platform-nusabase-digital-pte-ltd-3m2dww6q",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95524165?utm_source=freehire.me",
+      "title": "AI Application Frontend Development Engineer (Token Platform)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 641,
+      "company": "Samsung",
+      "employment_type": null,
+      "external_id": "sec.wd3.myworkdayjobs.com/Samsung_Careers:/job/Mapletree-Business-City-Singapore-Singapore/AI---Data-Analytics-Specialist_R121588",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Mapletree Business City, Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "ai-data-analytics-specialist-samsung-uoah7nfv",
+      "role_key": "freehire:ai-data-analytics-specialist-samsung-uoah7nfv",
+      "source": "workday",
+      "source_url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Mapletree-Business-City-Singapore-Singapore/AI---Data-Analytics-Specialist_R121588?utm_source=freehire.me",
+      "title": "AI & Data Analytics Specialist"
     }
   ],
-  "generated_at": "2026-11-05T22:55:40.942009Z",
+  "generated_at": "2026-11-06T03:42:21.345144Z",
   "market": "SG",
-  "max_candidate_seq": 600,
-  "min_candidate_seq": 594,
+  "max_candidate_seq": 641,
+  "min_candidate_seq": 634,
   "shard_index": 5,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

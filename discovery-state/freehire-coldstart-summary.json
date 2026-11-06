@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-11-05T22:55:40.537917Z",
-  "known_exact_count": 18,
+  "generated_at": "2026-11-06T03:42:20.950503Z",
+  "known_exact_count": 28,
   "machine_candidate_counts": {
-    "CN": 573,
-    "MY": 259,
-    "SG": 1364
+    "CN": 715,
+    "MY": 289,
+    "SG": 1529
   },
   "machine_matched_counts": {
-    "CN": 573,
-    "MY": 259,
-    "SG": 1364
+    "CN": 715,
+    "MY": 289,
+    "SG": 1529
   },
   "markets": {
     "CN": {
-      "known_exact": 5,
-      "source": 573,
+      "known_exact": 12,
+      "source": 715,
       "suspected_known": 18,
-      "unseen": 550
+      "unseen": 685
     },
     "MY": {
-      "known_exact": 2,
-      "source": 259,
+      "known_exact": 3,
+      "source": 289,
       "suspected_known": 13,
-      "unseen": 244
+      "unseen": 273
     },
     "SG": {
-      "known_exact": 11,
-      "source": 1364,
-      "suspected_known": 17,
-      "unseen": 1336
+      "known_exact": 13,
+      "source": 1529,
+      "suspected_known": 24,
+      "unseen": 1492
     }
   },
   "raw_counts": {
     "CN": 10000,
-    "MY": 4850,
-    "SG": 12622
+    "MY": 4907,
+    "SG": 14736
   },
-  "review_count": 2178,
-  "source_count": 2196,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
-  "suspected_known_count": 48,
+  "review_count": 2505,
+  "source_count": 2533,
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
+  "suspected_known_count": 55,
   "title_hard_drop_counts": {
-    "CN": 542,
-    "MY": 749,
-    "SG": 2009
+    "CN": 550,
+    "MY": 718,
+    "SG": 2398
   },
-  "unseen_count": 2130,
+  "unseen_count": 2450,
   "version": 1
 }

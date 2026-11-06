@@ -4,137 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 2031,
-      "company": "Grab",
-      "employment_type": null,
-      "external_id": "Grab:744000152581689",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing, cn",
-      "market": "CN",
-      "posted_at": "2026-09-30T02:08:24Z",
-      "public_slug": "senior-machine-learning-engineer-grab-gpfpcm5h",
-      "role_key": "freehire:senior-machine-learning-engineer-grab-gpfpcm5h",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/Grab/744000152581689-senior-machine-learning-engineer?utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2032,
-      "company": "hkex",
-      "employment_type": "full_time",
-      "external_id": "hkex.wd3.myworkdayjobs.com/hkexcareerpage:/job/CN-Shenzhen-HyQ/Associate---Software-Developer---AI-Vulnerability-Triage---LME_R004438",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "CN-Shenzhen-HyQ",
-      "market": "CN",
-      "posted_at": "2026-09-30T00:00:00Z",
-      "public_slug": "associate-software-developer-ai-vulnerability-triage-lme-hkex-dgo6gz2f",
-      "role_key": "freehire:associate-software-developer-ai-vulnerability-triage-lme-hkex-dgo6gz2f",
-      "source": "workday",
-      "source_url": "https://hkex.wd3.myworkdayjobs.com/HKEXCareerPage/job/CN-Shenzhen-HyQ/Associate---Software-Developer---AI-Vulnerability-Triage---LME_R004438?utm_source=freehire.me",
-      "title": "Associate - Software Developer – AI Vulnerability Triage - LME"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2033,
-      "company": "Roche",
-      "employment_type": null,
-      "external_id": "roche.wd3.myworkdayjobs.com/roche-ext:/job/Shanghai/Applied-AI-Head---Roche-Information-Solutions-China_202609-124729-1",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-09-30T00:00:00Z",
-      "public_slug": "applied-ai-head-roche-information-solutions-china-roche-bb6q7mtr",
-      "role_key": "freehire:applied-ai-head-roche-information-solutions-china-roche-bb6q7mtr",
-      "source": "workday",
-      "source_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Shanghai/Applied-AI-Head---Roche-Information-Solutions-China_202609-124729-1?utm_source=freehire.me",
-      "title": "Applied AI Head - Roche Information Solutions China"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2035,
-      "company": "ocbc",
-      "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-China-Chengdu/AM--Data-Science--Reusable-AI-Squad_JR00011393",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "OCBC China, Chengdu",
-      "market": "CN",
-      "posted_at": "2026-09-28T00:00:00Z",
-      "public_slug": "am-data-science-reusable-ai-squad-ocbc-ixyhw72d",
-      "role_key": "freehire:am-data-science-reusable-ai-squad-ocbc-ixyhw72d",
-      "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-China-Chengdu/AM--Data-Science--Reusable-AI-Squad_JR00011393?utm_source=freehire.me",
-      "title": "AM, Data Science, Reusable AI Squad"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2038,
-      "company": "dbs",
-      "employment_type": "full_time",
-      "external_id": "dbs.wd3.myworkdayjobs.com/dbs_careers:/job/Guangzhou/AI-Engineer_WD89063",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Guangzhou",
-      "market": "CN",
-      "posted_at": "2026-09-24T00:00:00Z",
-      "public_slug": "ai-engineer-dbs-sw6alwpq",
-      "role_key": "freehire:ai-engineer-dbs-sw6alwpq",
-      "source": "workday",
-      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Guangzhou/AI-Engineer_WD89063?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2039,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7688617050661488901",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-09-23T06:43:44Z",
-      "public_slug": "ai-nativequan-zhan-gong-cheng-shi-dou-yin-zhi-bo-bytedance-vhmrqiao",
-      "role_key": "freehire:ai-nativequan-zhan-gong-cheng-shi-dou-yin-zhi-bo-bytedance-vhmrqiao",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7688617050661488901/detail?utm_source=freehire.me",
-      "title": "AI Native全栈工程师 - 抖音直播"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ai"
       ],
       "candidate_seq": 2041,
@@ -177,14 +46,146 @@
       "source": "workday",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-DGX-Cloud-AI-Infrastructure-Software-Engineer_JR1998048?utm_source=freehire.me",
       "title": "Senior DGX Cloud AI Infrastructure Software Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:pytorch",
+        "jd:transformer",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2044,
+      "company": "Tencent",
+      "employment_type": null,
+      "external_id": ":2092983717080510464",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, China",
+      "market": "CN",
+      "posted_at": "2026-09-20T00:00:00Z",
+      "public_slug": "hun-yuan-you-xi-sheng-cheng-suan-fa-gong-cheng-shi-bei-jing-shen-zhen-shang-hai-tencent-vycdla2i",
+      "role_key": "freehire:hun-yuan-you-xi-sheng-cheng-suan-fa-gong-cheng-shi-bei-jing-shen-zhen-shang-hai-tencent-vycdla2i",
+      "source": "tencent",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2092983717080510464&utm_source=freehire.me",
+      "title": "混元游戏生成算法工程师（北京/深圳/上海）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2046,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7686429124152461621",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-09-17T09:10:52Z",
+      "public_slug": "da-mo-xing-ying-yong-jia-gou-shi-ai-agentfang-xiang-tiktok-sou-suo-bytedance-32opzpra",
+      "role_key": "freehire:da-mo-xing-ying-yong-jia-gou-shi-ai-agentfang-xiang-tiktok-sou-suo-bytedance-32opzpra",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7686429124152461621/detail?utm_source=freehire.me",
+      "title": "大模型应用架构师（AI Agent方向） - TikTok 搜索"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2047,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7686323817039350069",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen; Beijing",
+      "market": "CN",
+      "posted_at": "2026-09-17T02:25:12Z",
+      "public_slug": "ai-infraji-zhu-fu-ze-ren-chuang-zuo-da-gui-mo-xun-lian-fang-xiang-jian-ying-capcut-bytedance-vwrjel4e",
+      "role_key": "freehire:ai-infraji-zhu-fu-ze-ren-chuang-zuo-da-gui-mo-xun-lian-fang-xiang-jian-ying-capcut-bytedance-vwrjel4e",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7686323817039350069/detail?utm_source=freehire.me",
+      "title": "AI Infra技术负责人（创作大规模训练方向） - 剪映CapCut"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2048,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7685978642254268725",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai; Beijing",
+      "market": "CN",
+      "posted_at": "2026-09-16T04:04:59Z",
+      "public_slug": "ai-agentying-yong-jia-gou-shi-tiktokyan-fa-bytedance-me3vnr6a",
+      "role_key": "freehire:ai-agentying-yong-jia-gou-shi-tiktokyan-fa-bytedance-me3vnr6a",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7685978642254268725/detail?utm_source=freehire.me",
+      "title": "AI Agent应用架构师 - TikTok研发"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2049,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100015863002",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-09-15T06:30:04Z",
+      "public_slug": "athshi-ye-qun-ai-agentquan-zhan-gong-cheng-shi-shang-ye-zeng-chang-bei-jing-hang-zhou-alibaba-group-xmvjdc7g",
+      "role_key": "freehire:athshi-ye-qun-ai-agentquan-zhan-gong-cheng-shi-shang-ye-zeng-chang-bei-jing-hang-zhou-alibaba-group-xmvjdc7g",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100015863002&utm_source=freehire.me",
+      "title": "ATH事业群-AI Agent全栈工程师-商业增长-北京/杭州"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:nlp",
+        "jd:transformer",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2050,
+      "company": "Meituan",
+      "employment_type": null,
+      "external_id": ":4762780340",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-09-14T02:12:05Z",
+      "public_slug": "sou-suo-suan-fa-gong-cheng-shi-agentfang-xiang-meituan-rxroc5qr",
+      "role_key": "freehire:sou-suo-suan-fa-gong-cheng-shi-agentfang-xiang-meituan-rxroc5qr",
+      "source": "meituan",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4762780340&utm_source=freehire.me",
+      "title": "搜索算法工程师（Agent方向）"
     }
   ],
-  "generated_at": "2026-11-05T22:55:40.942009Z",
+  "generated_at": "2026-11-06T03:42:21.345144Z",
   "market": "CN",
-  "max_candidate_seq": 2042,
-  "min_candidate_seq": 2031,
+  "max_candidate_seq": 2050,
+  "min_candidate_seq": 2041,
   "shard_index": 7,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

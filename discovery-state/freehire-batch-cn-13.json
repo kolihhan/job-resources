@@ -1,76 +1,34 @@
 {
-  "candidate_count": 3,
+  "candidate_count": 1,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2103,
+      "candidate_seq": 2106,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7667950653440526645",
+      "external_id": "jobs.bytedance.com:7667887564768643333",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou; Shanghai; Beijing",
+      "location": "Shanghai; Hangzhou",
       "market": "CN",
-      "posted_at": "2026-07-29T14:08:44Z",
-      "public_slug": "ai-codingsuan-fa-gong-cheng-shi-ai-platform-bytedance-l3kzplvc",
-      "role_key": "freehire:ai-codingsuan-fa-gong-cheng-shi-ai-platform-bytedance-l3kzplvc",
+      "posted_at": "2026-07-29T10:01:34Z",
+      "public_slug": "da-mo-xing-ying-yong-kai-fa-gong-cheng-shi-ai-codingfang-xiang-ai-platform-bytedance-hfoi5t2t",
+      "role_key": "freehire:da-mo-xing-ying-yong-kai-fa-gong-cheng-shi-ai-codingfang-xiang-ai-platform-bytedance-hfoi5t2t",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7667950653440526645/detail?utm_source=freehire.me",
-      "title": "AI Coding算法工程师 - AI Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2104,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7667950077989980469",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shanghai; Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-07-29T14:04:20Z",
-      "public_slug": "agentshu-ju-ping-ce-gong-cheng-shi-ai-platform-bytedance-hzhwtiyo",
-      "role_key": "freehire:agentshu-ju-ping-ce-gong-cheng-shi-ai-platform-bytedance-hzhwtiyo",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7667950077989980469/detail?utm_source=freehire.me",
-      "title": "Agent数据&评测工程师 - AI Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2105,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7667888717122963765",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-07-29T10:05:23Z",
-      "public_slug": "agentzi-jin-hua-suan-fa-gong-cheng-shi-ai-platform-bytedance-n4aqqyo2",
-      "role_key": "freehire:agentzi-jin-hua-suan-fa-gong-cheng-shi-ai-platform-bytedance-n4aqqyo2",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7667888717122963765/detail?utm_source=freehire.me",
-      "title": "Agent自进化算法工程师 - AI Platform"
+      "source_url": "https://jobs.bytedance.com/campus/position/7667887564768643333/detail?utm_source=freehire.me",
+      "title": "大模型应用开发工程师（AI Coding方向） - AI Platform"
     }
   ],
-  "generated_at": "2026-11-05T22:55:40.942009Z",
+  "generated_at": "2026-11-06T03:42:21.345144Z",
   "market": "CN",
-  "max_candidate_seq": 2105,
-  "min_candidate_seq": 2103,
+  "max_candidate_seq": 2106,
+  "min_candidate_seq": 2106,
   "shard_index": 13,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

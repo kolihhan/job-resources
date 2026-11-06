@@ -2,47 +2,97 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 1964,
-      "company": "ByteDance",
+      "candidate_seq": 2005,
+      "company": "Alibaba Group",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:6885587026939496712",
+      "external_id": ":100023715065",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Shanghai",
+      "location": "Hangzhou",
       "market": "CN",
-      "posted_at": "2020-10-20T06:34:46Z",
-      "public_slug": "ce-shi-kai-fa-gong-cheng-shi-da-mo-xing-ai-agentfang-xiang-dou-yin-bytedance-b22ug7vi",
-      "role_key": "freehire:ce-shi-kai-fa-gong-cheng-shi-da-mo-xing-ai-agentfang-xiang-dou-yin-bytedance-b22ug7vi",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/6885587026939496712/detail?utm_source=freehire.me",
-      "title": "测试开发工程师 （大模型/AI Agent方向）-抖音"
+      "posted_at": "2026-10-20T12:54:21Z",
+      "public_slug": "a-li-guo-ji-ai-shu-ju-gong-cheng-shi-ai-data-hang-zhou-alibaba-group-bjallwlj",
+      "role_key": "freehire:a-li-guo-ji-ai-shu-ju-gong-cheng-shi-ai-data-hang-zhou-alibaba-group-bjallwlj",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100023715065&utm_source=freehire.me",
+      "title": "阿里国际-AI 数据工程师（AI Data ）-杭州"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1965,
-      "company": "Alibaba Group",
+      "candidate_seq": 2006,
+      "company": "State Street",
       "employment_type": null,
-      "external_id": ":100034320001",
-      "flags": [],
+      "external_id": "statestreet.wd1.myworkdayjobs.com/Global:/job/Hangzhou-China/Software-Engineering---Development--Off-AI-_R-799766",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Hangzhou, China",
       "market": "CN",
-      "posted_at": "2026-11-02T09:00:55Z",
-      "public_slug": "qian-wen-ban-gong-ai-agentquan-zhan-kai-fa-gong-cheng-shi-hang-zhou-alibaba-group-mlxgteph",
-      "role_key": "freehire:qian-wen-ban-gong-ai-agentquan-zhan-kai-fa-gong-cheng-shi-hang-zhou-alibaba-group-mlxgteph",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100034320001&utm_source=freehire.me",
-      "title": "千问办公-AI Agent全栈开发工程师-杭州"
+      "posted_at": "2026-10-20T00:00:00Z",
+      "public_slug": "software-engineering-development-off-ai-state-street-ilnkz6ne",
+      "role_key": "freehire:software-engineering-development-off-ai-state-street-ilnkz6ne",
+      "source": "workday",
+      "source_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Hangzhou-China/Software-Engineering---Development--Off-AI-_R-799766?utm_source=freehire.me",
+      "title": "Software Engineering & Development, Off（AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:nlp"
+      ],
+      "candidate_seq": 2007,
+      "company": "Trip.com Group",
+      "employment_type": null,
+      "external_id": "trip/70415:74f709e5-b26a-4ad0-96a5-fc9e5fef2d21",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-10-19T16:00:00Z",
+      "public_slug": "gao-ji-zi-shen-javakai-fa-gong-cheng-shi-aisou-suo-yin-qing-fang-xiang-trip-com-group-5ydb7ikp",
+      "role_key": "freehire:gao-ji-zi-shen-javakai-fa-gong-cheng-shi-aisou-suo-yin-qing-fang-xiang-trip-com-group-5ydb7ikp",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/74f709e5-b26a-4ad0-96a5-fc9e5fef2d21",
+      "title": "高级/资深Java开发工程师（AI搜索引擎方向）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2008,
+      "company": "SoundHound AI",
+      "employment_type": null,
+      "external_id": ":10457924",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, China",
+      "market": "CN",
+      "posted_at": "2026-10-19T15:48:44Z",
+      "public_slug": "partner-engineer-voice-ai-solutions-automotive-china-soundhound-ai-dgzlbbpx",
+      "role_key": "freehire:partner-engineer-voice-ai-solutions-automotive-china-soundhound-ai-dgzlbbpx",
+      "source": "startupjobs",
+      "source_url": "https://startup.jobs/partner-engineer-voice-ai-solutions-automotive-china-soundhound-ai-10457924?utm_source=freehire.me",
+      "title": "Partner Engineer - Voice AI Solutions - Automotive (China)"
     },
     {
       "ai_score": 4,
@@ -50,147 +100,96 @@
         "jd:rag",
         "jd:pytorch",
         "jd:tensorflow",
-        "jd:fine_tuning"
+        "jd:transformer"
       ],
-      "candidate_seq": 1969,
-      "company": "Meituan",
+      "candidate_seq": 2009,
+      "company": "Alibaba Group",
       "employment_type": null,
-      "external_id": ":3008237497",
+      "external_id": ":100049960001",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-03T07:27:08Z",
+      "public_slug": "a-li-guo-ji-zhan-shu-ju-ke-xue-jia-hang-zhou-alibaba-group-5clpmsna",
+      "role_key": "freehire:a-li-guo-ji-zhan-shu-ju-ke-xue-jia-hang-zhou-alibaba-group-5clpmsna",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100049960001&utm_source=freehire.me",
+      "title": "阿里国际站-数据科学家-杭州"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2010,
+      "company": "Ericsson",
+      "employment_type": null,
+      "external_id": "ericsson.eightfold.ai/ericsson.com:563121777434144",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Beijing,Beijing,China",
+      "market": "CN",
+      "posted_at": "2026-10-16T09:13:14Z",
+      "public_slug": "data-and-ai-engineer-early-career-program-ericsson-v2jnidtk",
+      "role_key": "freehire:data-and-ai-engineer-early-career-program-ericsson-v2jnidtk",
+      "source": "eightfold",
+      "source_url": "https://jobs.ericsson.com/careers/job/563121777434144-data-and-ai-engineer-beijing-beijing-china?domain=ericsson.com&utm_source=freehire.me",
+      "title": "Data and AI engineer | Early Career Program"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2011,
+      "company": "Calculet",
+      "employment_type": null,
+      "external_id": "calculet.jobs.feishu.cn:7696755638693792026",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Beijing",
       "market": "CN",
-      "posted_at": "2026-11-04T02:00:11Z",
-      "public_slug": "keetaji-zhu-da-mo-xing-suan-fa-gong-cheng-shi-zhuan-jia-meituan-o6hwz6pi",
-      "role_key": "freehire:keetaji-zhu-da-mo-xing-suan-fa-gong-cheng-shi-zhuan-jia-meituan-o6hwz6pi",
-      "source": "meituan",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=3008237497&utm_source=freehire.me",
-      "title": "Keeta技术-大模型算法工程师/专家"
+      "posted_at": "2026-10-15T05:03:07Z",
+      "public_slug": "ai-xin-pian-ruan-jian-ce-shi-kai-fa-zhuan-jia-calculet-2xbflh3l",
+      "role_key": "freehire:ai-xin-pian-ruan-jian-ce-shi-kai-fa-zhuan-jia-calculet-2xbflh3l",
+      "source": "feishujobs",
+      "source_url": "https://calculet.jobs.feishu.cn/index/position/7696755638693792026/detail?utm_source=freehire.me",
+      "title": "AI 芯片软件测试开发专家"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1972,
-      "company": "Alibaba Group",
+      "candidate_seq": 2012,
+      "company": "SoundHound Inc.",
       "employment_type": null,
-      "external_id": ":100025420003",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-29T12:39:32Z",
-      "public_slug": "qian-wen-ban-gong-ai-shu-ju-gong-cheng-shi-hang-zhou-alibaba-group-ikdpgs6w",
-      "role_key": "freehire:qian-wen-ban-gong-ai-shu-ju-gong-cheng-shi-hang-zhou-alibaba-group-ikdpgs6w",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100025420003&utm_source=freehire.me",
-      "title": "千问办公-AI 数据工程师-杭州"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1973,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100053300004",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-10-29T12:14:05Z",
-      "public_slug": "a-li-yun-zhi-neng-ai-jia-gou-ji-hou-duan-yan-fa-zhuan-jia-abe-jiao-yi-yu-ji-fei-xi-tong-yan-fa-hang-zhou-alibaba-group-3jt3prws",
-      "role_key": "freehire:a-li-yun-zhi-neng-ai-jia-gou-ji-hou-duan-yan-fa-zhuan-jia-abe-jiao-yi-yu-ji-fei-xi-tong-yan-fa-hang-zhou-alibaba-group-3jt3prws",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100053300004&utm_source=freehire.me",
-      "title": "阿里云智能-AI 架构及后端研发专家（ABE）-交易与计费系统研发-杭州"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1975,
-      "company": "Schneider Electric",
-      "employment_type": null,
-      "external_id": "se.jibeapply.com:140010",
+      "external_id": "soundhound:am9icG9zdDrodSVOdxZDrN1m4EZIihO3",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China-Shanghai-Shanghai",
+      "location": "Beijing, CHN",
       "market": "CN",
-      "posted_at": "2026-10-29T07:02:23Z",
-      "public_slug": "senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
-      "role_key": "freehire:senior-ai-engineer-ii-schneider-electric-sq3ugbpw",
-      "source": "jibe",
-      "source_url": "https://se.jibeapply.com/careers-home/jobs/140010?utm_source=freehire.me",
-      "title": "Senior AI Engineer II"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 1977,
-      "company": "Trip.com Group",
-      "employment_type": null,
-      "external_id": "trip/70415:dd5d4d96-9a4e-46e2-87b6-7f3d31ccf465",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-29T06:34:46Z",
-      "public_slug": "hou-duan-kai-fa-zhuan-jia-trip-com-group-zfwgjpl4",
-      "role_key": "freehire:hou-duan-kai-fa-zhuan-jia-trip-com-group-zfwgjpl4",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/dd5d4d96-9a4e-46e2-87b6-7f3d31ccf465",
-      "title": "后端开发专家（租车）"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 1978,
-      "company": "Trip.com Group",
-      "employment_type": null,
-      "external_id": "trip/70415:f992e294-062c-4d88-8853-d817cbb06f7a",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-10-29T06:34:46Z",
-      "public_slug": "zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv",
-      "role_key": "freehire:zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/f992e294-062c-4d88-8853-d817cbb06f7a",
-      "title": "资深后端开发工程师（租车）"
+      "posted_at": "2026-10-14T13:42:11Z",
+      "public_slug": "partner-engineer-voice-ai-solutions-automotive-china-soundhound-inc-e2hnypaj",
+      "role_key": "freehire:partner-engineer-voice-ai-solutions-automotive-china-soundhound-inc-e2hnypaj",
+      "source": "gem",
+      "source_url": "https://jobs.gem.com/soundhound/am9icG9zdDrodSVOdxZDrN1m4EZIihO3?utm_source=freehire.me",
+      "title": "Partner Engineer - Voice AI Solutions - Automotive (China)"
     }
   ],
-  "generated_at": "2026-11-05T22:55:40.942009Z",
+  "generated_at": "2026-11-06T03:42:21.345144Z",
   "market": "CN",
-  "max_candidate_seq": 1978,
-  "min_candidate_seq": 1964,
+  "max_candidate_seq": 2012,
+  "min_candidate_seq": 2005,
   "shard_index": 3,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

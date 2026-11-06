@@ -1,116 +1,15 @@
 {
-  "candidate_count": 6,
+  "candidate_count": 2,
   "candidates": [
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
+        "title:genai"
       ],
-      "candidate_seq": 658,
-      "company": "D8 LooP",
+      "candidate_seq": 709,
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:94030927",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:09Z",
-      "public_slug": "senior-data-engineer-real-time-data-ai-platform-d8-loop-lyf336sn",
-      "role_key": "freehire:senior-data-engineer-real-time-data-ai-platform-d8-loop-lyf336sn",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030927__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer, Real-Time Data & AI Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 659,
-      "company": "HTX (Home Team Science & Technology Agency)",
-      "employment_type": null,
-      "external_id": "full stack developer:94035322",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:03Z",
-      "public_slug": "senior-full-stack-engineer-ai-for-public-safety-htx-home-team-science-technology-agency-mbisbd24",
-      "role_key": "freehire:senior-full-stack-engineer-ai-for-public-safety-htx-home-team-science-technology-agency-mbisbd24",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94035322__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: AI for Public Safety"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 660,
-      "company": "microsoft regional sales pte. ltd.",
-      "employment_type": null,
-      "external_id": "devops engineer:94029199",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:40:36Z",
-      "public_slug": "senior-solutions-engineer-ai-powered-devops-architect-microsoft-regional-sales-pte-ltd-3akdqc7k",
-      "role_key": "freehire:senior-solutions-engineer-ai-powered-devops-architect-microsoft-regional-sales-pte-ltd-3akdqc7k",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94029199__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Solutions Engineer – AI-Powered DevOps Architect"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 661,
-      "company": "CYBERVAULT INNOVATIONS AND TECHNOLOGIES PTE. LTD.",
-      "employment_type": null,
-      "external_id": "react developer:94031652",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:40:07Z",
-      "public_slug": "senior-full-stack-developer-react-python-ai-cybervault-innovations-and-technologies-pte-ltd-rb44da2x",
-      "role_key": "freehire:senior-full-stack-developer-react-python-ai-cybervault-innovations-and-technologies-pte-ltd-rb44da2x",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031652__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Developer: React, Python & AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:computer_vision",
-        "jd:computer_vision"
-      ],
-      "candidate_seq": 662,
-      "company": "Qeexo, Co.",
-      "employment_type": null,
-      "external_id": "35180-qeexo-co:120271",
+      "external_id": "data engineer:93490821",
       "flags": [
         "experience_5_plus_hint"
       ],
@@ -118,42 +17,42 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-24T23:10:36Z",
-      "public_slug": "computer-vision-sales-engineer-qeexo-co-bhftlijv",
-      "role_key": "freehire:computer-vision-sales-engineer-qeexo-co-bhftlijv",
-      "source": "trinethire",
-      "source_url": "https://app.trinethire.com/companies/35180-qeexo-co/jobs/120271-computer-vision-sales-engineer?utm_source=freehire.me",
-      "title": "Computer Vision Sales Engineer"
+      "posted_at": "2026-10-16T01:20:21Z",
+      "public_slug": "forward-deployed-engineer-data-genai-google-cloud-singapore-google-asia-pacific-pte-ltd-zd2aswk5",
+      "role_key": "freehire:forward-deployed-engineer-data-genai-google-cloud-singapore-google-asia-pacific-pte-ltd-zd2aswk5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490821__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Forward Deployed Engineer, Data, GenAI, Google Cloud - Singapore"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ml",
-        "jd:pytorch"
+        "title:ai",
+        "jd:agent"
       ],
-      "candidate_seq": 663,
-      "company": "ByteDance (old)",
+      "candidate_seq": 710,
+      "company": "CAPCO CONSULTING SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:93113116",
+      "external_id": ":6e6842543b08551ed96f2f83c6a8121c",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-24T18:03:53Z",
-      "public_slug": "data-engineer-phd-scale-ml-infra-lakehouse-bytedance-old-6xppnojo",
-      "role_key": "freehire:data-engineer-phd-scale-ml-infra-lakehouse-bytedance-old-6xppnojo",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113116__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Engineer (PhD) – Scale ML Infra & Lakehouse"
+      "posted_at": "2026-10-16T00:00:00Z",
+      "public_slug": "ai-engineer-capco-consulting-singapore-pte-ltd-5swlwp6o",
+      "role_key": "freehire:ai-engineer-capco-consulting-singapore-pte-ltd-5swlwp6o",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6e6842543b08551ed96f2f83c6a8121c?utm_source=freehire.me",
+      "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-05T22:55:40.942009Z",
+  "generated_at": "2026-11-06T03:42:21.345144Z",
   "market": "SG",
-  "max_candidate_seq": 663,
-  "min_candidate_seq": 658,
+  "max_candidate_seq": 710,
+  "min_candidate_seq": 709,
   "shard_index": 13,
-  "source_generated_at": "2026-11-04T23:54:24.015055Z",
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

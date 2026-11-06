@@ -1,0 +1,185 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "ai_score": 15,
+      "ai_signals": [
+        "title:genai",
+        "title:ai",
+        "jd:llm",
+        "jd:genai",
+        "jd:deep_learning",
+        "jd:rag",
+        "jd:nlp",
+        "jd:transformer"
+      ],
+      "candidate_seq": 2943,
+      "company": "CIMB",
+      "employment_type": "full_time",
+      "external_id": "ejox.fa.ap1.oraclecloud.com/jobsearch:33437",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-05T00:00:00Z",
+      "public_slug": "senior-gen-ai-engineer-dai-genai-development-my-cimb-b4b7segs",
+      "role_key": "freehire:senior-gen-ai-engineer-dai-genai-development-my-cimb-b4b7segs",
+      "source": "oracle",
+      "source_url": "https://ejox.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/33437?utm_source=freehire.me",
+      "title": "Senior Gen AI Engineer, DAI - GenAI - Development MY"
+    },
+    {
+      "ai_score": 12,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "title:agent"
+      ],
+      "candidate_seq": 2944,
+      "company": "Virtuos Holdings",
+      "employment_type": "full_time",
+      "external_id": "6287:95725938",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur",
+      "market": "MY",
+      "posted_at": "2026-11-05T12:00:00Z",
+      "public_slug": "machine-learning-engineer-ai-agent-platform-virtuos-holdings-xjb4rhaz",
+      "role_key": "freehire:machine-learning-engineer-ai-agent-platform-virtuos-holdings-xjb4rhaz",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95725938?utm_source=freehire.me",
+      "title": "Machine Learning Engineer - AI Agent Platform"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 2945,
+      "company": "Quanton Asia Sdn Bhd",
+      "employment_type": "full_time",
+      "external_id": "6287:95669292",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur",
+      "market": "MY",
+      "posted_at": "2026-11-03T11:59:25Z",
+      "public_slug": "mid-level-automation-ai-developer-quanton-asia-sdn-bhd-4putzypv",
+      "role_key": "freehire:mid-level-automation-ai-developer-quanton-asia-sdn-bhd-4putzypv",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95669292?utm_source=freehire.me",
+      "title": "Mid-Level Automation & AI Developer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 2946,
+      "company": "OceanSTAR Elite Group of Companies",
+      "employment_type": "full_time",
+      "external_id": "6290:95719894",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur City Centre, Kuala Lumpur",
+      "market": "MY",
+      "posted_at": "2026-11-05T08:26:06Z",
+      "public_slug": "senior-ai-engineer-frontend-ai-applications-oceanstar-elite-group-of-companies-5eahu5zy",
+      "role_key": "freehire:senior-ai-engineer-frontend-ai-applications-oceanstar-elite-group-of-companies-5eahu5zy",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95719894?utm_source=freehire.me",
+      "title": "Senior AI Engineer (Frontend & AI Applications)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2947,
+      "company": "INFRA365 Sdn Bhd",
+      "employment_type": "full_time",
+      "external_id": "6290:95718055",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Selangor",
+      "market": "MY",
+      "posted_at": "2026-11-05T07:29:40Z",
+      "public_slug": "ai-solutions-engineer-fresh-graduates-welcome-infra365-sdn-bhd-vf2cpmgb",
+      "role_key": "freehire:ai-solutions-engineer-fresh-graduates-welcome-infra365-sdn-bhd-vf2cpmgb",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95718055?utm_source=freehire.me",
+      "title": "AI Solutions Engineer (Fresh Graduates Welcome)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2948,
+      "company": "2C2P System (Malaysia) Sdn Bhd",
+      "employment_type": null,
+      "external_id": "backend developer:26989998",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-05T01:47:47Z",
+      "public_slug": "senior-backend-engineer-payments-ai-driven-dev-2c2p-system-malaysia-sdn-bhd-i6pchidz",
+      "role_key": "freehire:senior-backend-engineer-payments-ai-driven-dev-2c2p-system-malaysia-sdn-bhd-i6pchidz",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26989998__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Senior Backend Engineer – Payments & AI-Driven Dev"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2949,
+      "company": "SEG International Bhd",
+      "employment_type": "full_time",
+      "external_id": "6287:95653803",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kota Damansara, Selangor",
+      "market": "MY",
+      "posted_at": "2026-11-03T02:23:17Z",
+      "public_slug": "full-stack-engineer-backend-mobile-ai-solutions-seg-international-bhd-kvs5cpmr",
+      "role_key": "freehire:full-stack-engineer-backend-mobile-ai-solutions-seg-international-bhd-kvs5cpmr",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95653803?utm_source=freehire.me",
+      "title": "Full Stack Engineer (Backend, Mobile & AI Solutions)"
+    }
+  ],
+  "generated_at": "2026-11-06T03:42:21.345144Z",
+  "market": "MY",
+  "max_candidate_seq": 2949,
+  "min_candidate_seq": 2943,
+  "shard_index": 1,
+  "source_generated_at": "2026-11-05T23:49:33.991532Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}
