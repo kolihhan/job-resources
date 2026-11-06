@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-06T23:23:45+08:00",
+  "updated_at": "2026-11-07T00:21:32+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -216,12 +216,12 @@
       "role_key": "freehire:senior-backend-engineer-payments-ai-driven-dev-2c2p-system-malaysia-sdn-bhd-i6pchidz",
       "candidate_seq": 2948,
       "reason_code": "verification_pending",
-      "attempts": 4,
-      "next_retry_at": "2026-11-06T22:20:00+08:00",
+      "attempts": 5,
+      "next_retry_at": "2026-11-08T00:22:00+08:00",
       "company": "2C2P System (Malaysia) Sdn Bhd",
       "title": "Senior Backend Engineer – Payments & AI-Driven Dev",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26989998__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "detail": "2026-11-06 12:17 MYT: Exact external ID searched across all GitHub Issue history: no exact hit. Current compact metadata reconciled. Exact JobStreet/Oracle full role pages inaccessible or not fully verifiable in this run; retain for authoritative JD, MY destination-quality, employment, liveness, route and targeted Gmail verification. Senior/5+ hints are not treated as confirmed hard requirements. 2026-11-06 16:22 MYT: Rechecked indexed official/native evidence. 2C2P exact employer JD/route not established; senior role. Preserve verification_pending; no employer contact. 2026-11-06 18:21 MYT: 2C2P Senior Backend Engineer AI 26989998; seniority and exact employer-controlled role/terms not verified. 2026-11-06 21:18 MYT: Rechecked available indexed/native signals; no new authoritative evidence clearing all MY-TOP, exact-role identity, employment, eligibility and route gates. Retain verification_pending; no promotion."
+      "detail": "2026-11-06 12:17 MYT: Exact external ID searched across all GitHub Issue history: no exact hit. Current compact metadata reconciled. Exact JobStreet/Oracle full role pages inaccessible or not fully verifiable in this run; retain for authoritative JD, MY destination-quality, employment, liveness, route and targeted Gmail verification. Senior/5+ hints are not treated as confirmed hard requirements. 2026-11-06 16:22 MYT: Rechecked indexed official/native evidence. 2C2P exact employer JD/route not established; senior role. Preserve verification_pending; no employer contact. 2026-11-06 18:21 MYT: 2C2P Senior Backend Engineer AI 26989998; seniority and exact employer-controlled role/terms not verified. 2026-11-06 21:18 MYT: Rechecked available indexed/native signals; no new authoritative evidence clearing all MY-TOP, exact-role identity, employment, eligibility and route gates. Retain verification_pending; no promotion. 2026-11-07 00:21 MYT: Alternate indexed JobLeads and FreeHire exact-role full-text reproduction identifies 3–5 years backend experience, senior mentoring, payments backend, AI coding tools only (not core LLM). This is new substantive best-available JD evidence but not employer-authored exact requisition; employer-owned identity/route and employment terms remain unverified. No APPLY/CHECK; retry after >=24h via official 2C2P careers/ATS, not mirror URL. retry_new_evidence=yes."
     },
     {
       "role_key": "freehire:full-stack-engineer-backend-mobile-ai-solutions-seg-international-bhd-kvs5cpmr",
