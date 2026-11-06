@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T11:00:11+08:00",
+  "updated_at": "2026-11-06T12:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -2242,6 +2242,106 @@
       "reason_code": "exact_issue_id_checked_official_jd_eligibility_route_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T11:00:11+08:00"
+    },
+    {
+      "candidate_seq": 602,
+      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-singapore-o4rtk6re",
+      "company": "Nanyang Technological University Singapore",
+      "title": "Senior Data Services & AI Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94533551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 603,
+      "role_key": "freehire:senior-data-services-ai-engineer-nanyang-technological-university-2wfkoidj",
+      "company": "Nanyang Technological University",
+      "title": "Senior Data Services & AI Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536370__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 604,
+      "role_key": "freehire:senior-data-ai-engineer-production-ai-pipelines-foodpanda-singapore-pte-ltd-7ee3olxs",
+      "company": "FOODPANDA SINGAPORE PTE. LTD.",
+      "title": "Senior Data & AI Engineer: Production AI & Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534042__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 605,
+      "role_key": "freehire:senior-associate-assistant-vice-president-ai-data-engineer-1365003057a4-temasek-international-pte-ltd-altct5ya",
+      "company": "Temasek International Pte. Ltd.",
+      "title": "Senior Associate/Assistant Vice President, AI Data Engineer (1365003057A4)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536103__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 606,
+      "role_key": "freehire:big-data-platform-engineer-ai-driven-crypto-infra-blockchain-academics-6mwymn33",
+      "company": "Blockchain Academics",
+      "title": "Big Data Platform Engineer — AI-Driven Crypto Infra",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94534141__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 607,
+      "role_key": "freehire:senior-ai-engineer-remote-within-2-5hrs-of-sgt-ailytics-wykmbx2y",
+      "company": "Ailytics",
+      "title": "Senior AI Engineer (Remote- Within 2.5Hrs of SGT)",
+      "source_url": "https://wellfound.com/jobs/4878934-senior-ai-engineer-remote-within-2-5hrs-of-sgt?utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 608,
+      "role_key": "freehire:svp-senior-cloud-engineer-data-ai-platform-group-technology-dbs-bank-ltd-kyupggr3",
+      "company": "dbs bank ltd.",
+      "title": "SVP, Senior Cloud Engineer (Data & AI Platform), Group Technology",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94383331__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 609,
+      "role_key": "freehire:ml-platform-engineer-real-time-risk-data-pipelines-monee-sg-private-limited-r2ramvpz",
+      "company": "Monee SG Private Limited",
+      "title": "ML Platform Engineer — Real-Time Risk & Data Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033240__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 610,
+      "role_key": "freehire:machine-learning-engineer-strategic-data-solutions-lex-4mya4gzi",
+      "company": "Lex",
+      "title": "Machine Learning Engineer, Strategic Data Solutions",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93955496__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
+    },
+    {
+      "candidate_seq": 611,
+      "role_key": "freehire:ml-engineer-strategic-data-solutions-fulfillment-ops-lex-oggrf3i5",
+      "company": "Lex",
+      "title": "ML Engineer, Strategic Data Solutions (Fulfillment Ops)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93954658__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "official_full_jd_liveness_workpass_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-06T20:05:00+08:00"
     }
   ]
 }
