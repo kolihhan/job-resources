@@ -895,9 +895,9 @@
     {
       "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-dou-yin-ti-yan-bytedance-zuiwmuqr",
       "candidate_seq": 1848,
-      "reason_code": "verification_pending_retry",
-      "attempts": 0,
-      "next_retry_at": "2026-11-06T15:13:51+08:00",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:08:38+08:00",
       "company": "ByteDance",
       "title": "AI Agent开发工程师 - 抖音体验",
       "source_url": "https://jobs.bytedance.com/campus/position/7667551275686594821/detail"
@@ -905,9 +905,9 @@
     {
       "role_key": "freehire:ai-agentsuan-fa-gong-cheng-shi-tiktok-shop-bytedance-k63ttg7o",
       "candidate_seq": 1849,
-      "reason_code": "verification_pending_retry",
-      "attempts": 0,
-      "next_retry_at": "2026-11-06T15:13:51+08:00",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:08:38+08:00",
       "company": "ByteDance",
       "title": "AI Agent算法工程师 - TikTok Shop",
       "source_url": "https://jobs.bytedance.com/campus/position/7667453198986627381/detail"
@@ -915,9 +915,9 @@
     {
       "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-yi-dong-os-bytedance-asbuqtkp",
       "candidate_seq": 1850,
-      "reason_code": "verification_pending_retry",
-      "attempts": 0,
-      "next_retry_at": "2026-11-06T15:13:51+08:00",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T16:08:38+08:00",
       "company": "ByteDance",
       "title": "AI Agent开发工程师 - 移动OS",
       "source_url": "https://jobs.bytedance.com/campus/position/7667420480446826805/detail"
