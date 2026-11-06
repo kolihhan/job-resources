@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T08:04:05+08:00",
+  "updated_at": "2026-11-06T10:04:34+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -209,9 +209,9 @@
       "title": "Senior Data Scientist",
       "source_url": "https://manulife.phenompro.com/global/en/job/MFZMFIUSJR26091688EXTERNALENGLOBAL",
       "role_key": "freehire:senior-data-scientist-manulife-obqicu7n",
-      "reason_code": "mandatory_seniority_and_ai_content_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T08:00:00+08:00"
+      "reason_code": "official_exact_role_page_inaccessible_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
     },
     {
       "candidate_seq": 307,
@@ -219,9 +219,9 @@
       "title": "AI Engineer",
       "source_url": "https://surbanajurong.wd3.myworkdayjobs.com/SJ_Careers/job/Singapore/AI-Engineer_JR119182",
       "role_key": "freehire:ai-engineer-surbanajurong-bbdrnprk",
-      "reason_code": "authoritative_jd_unavailable",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T08:00:00+08:00"
+      "reason_code": "official_exact_role_page_inaccessible_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
     },
     {
       "candidate_seq": 308,
@@ -249,9 +249,9 @@
       "company": "DBS Bank",
       "title": "AVP, AI Engineer, Global Financial Market Technology",
       "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Singapore---Central/AVP--AI-Engineer--Global-Financial-Market-Technology--Group-Technology_WD89514",
-      "reason_code": "official_jd_inaccessible_and_seniority_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T08:55:56+08:00"
+      "reason_code": "official_exact_role_page_inaccessible_on_retry",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
     },
     {
       "candidate_seq": 313,
@@ -269,9 +269,9 @@
       "company": "NTU",
       "title": "Research Fellow (AI/Machine Learning)",
       "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Science-Computer-Engineering-Electronics-Engineering-AI-Machine-Learning-_R00025948",
-      "reason_code": "mandatory_phd_and_research_scope_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T08:55:56+08:00"
+      "reason_code": "official_phd_and_cv_3d_research_confirmed_terminal_pending_receipt_cleanup",
+      "attempts": 2,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
     },
     {
       "candidate_seq": 317,
@@ -2042,6 +2042,106 @@
       "reason_code": "authoritative_exact_jd_seniority_and_sg_workpass_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T08:04:05+08:00"
+    },
+    {
+      "candidate_seq": 580,
+      "role_key": "freehire:machine-learning-ops-engineer-global-sre-tiktok-opcyhbzx",
+      "company": "TikTok",
+      "title": "Machine Learning Ops Engineer, Global SRE",
+      "source_url": "https://sg.jobstreet.com/job/90289676?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 581,
+      "role_key": "freehire:machine-learning-engineer-user-growth-global-payment-singapore-bytedance-fa5a3wg2",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer (User Growth) - Global Payment - Singapore",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7592831890961402117/detail?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 582,
+      "role_key": "freehire:machine-learning-algorithm-research-engineer-soaring-star-talent-program-bytedance-f7tnsvsg",
+      "company": "ByteDance",
+      "title": "Machine Learning Algorithm Research Engineer - Soaring Star Talent Program",
+      "source_url": "https://jobs.bytedance.com/campus/position/7509341709441239304/detail?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 583,
+      "role_key": "freehire:senior-data-scientist-razer-5zvisczy",
+      "company": "Razer",
+      "title": "Senior Data Scientist",
+      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/AI-Data-Scientist_JR2025005484?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 584,
+      "role_key": "freehire:production-engineer-applied-machine-learning-engine-singapore-bytedance-33rawrhj",
+      "company": "ByteDance",
+      "title": "Production Engineer - Applied Machine Learning Engine (Singapore)",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7377996091973617946/detail?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 585,
+      "role_key": "freehire:ai-application-developer-neo-garden-catering-wv47urys",
+      "company": "Neo Garden Catering",
+      "title": "AI Application Developer",
+      "source_url": "https://sg.jobstreet.com/job/95641745?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 587,
+      "role_key": "freehire:regional-systems-engineer-artificial-intelligence-singapore-fortinet-aerslb37",
+      "company": "Fortinet",
+      "title": "Regional Systems Engineer (Artificial Intelligence) - Singapore",
+      "source_url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/24847?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 588,
+      "role_key": "freehire:regional-systems-engineer-artificial-intelligence-singapore-edel-fa-us2-oraclecloud-com-cx-1-f5fidz3a",
+      "company": "edel.fa.us2.oraclecloud.com/CX_1",
+      "title": "Regional Systems Engineer (Artificial Intelligence) - Singapore",
+      "source_url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/24847?utm_source=freehire.me",
+      "reason_code": "same_fortinet_oracle_req_24847_cross_source_identity_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 589,
+      "role_key": "freehire:global-banking-markets-ficc-trading-platform-software-engineer-associate-vice-president-singapore-goldman-sachs-4ayvk7se",
+      "company": "Goldman Sachs",
+      "title": "Global Investment Research, Software Engineer, Agentic Systems, Associate, Singapore",
+      "source_url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/163530?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
+    },
+    {
+      "candidate_seq": 591,
+      "role_key": "freehire:applied-ai-architect-meta-enterprise-platform-singapore-facebook-singapore-pte-ltd-tlb2qu2n",
+      "company": "FACEBOOK SINGAPORE PTE. LTD.",
+      "title": "Applied AI Architect, Meta Enterprise Platform (Singapore)",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/76ae06b23c751c3fc63c0798928ba931?utm_source=freehire.me",
+      "reason_code": "official_jd_liveness_eligibility_workpass_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T10:04:34+08:00"
     }
   ]
 }
