@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T13:03:32+08:00",
+  "updated_at": "2026-11-06T13:55:21+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -2362,6 +2362,96 @@
       "reason_code": "senior_platform_role_official_jd_and_eligibility_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-07T13:03:32+08:00"
+    },
+    {
+      "candidate_seq": 623,
+      "role_key": "freehire:senior-ai-fueled-full-stack-engineer-ai-facile-vi5tq5cr",
+      "company": "AI Facile",
+      "title": "Senior AI-Fueled Full-Stack Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93532716__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 624,
+      "role_key": "freehire:ai-driven-full-stack-engineer-for-live-revenue-platforms-tiktok-pte-ltd-6j5rslyg",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "AI-Driven Full-Stack Engineer for Live Revenue Platforms",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94382268__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 625,
+      "role_key": "freehire:full-stack-engineer-ai-products-kaishi-partners-pte-ltd-hq5xgbg7",
+      "company": "kaishi partners pte. ltd.",
+      "title": "Full Stack Engineer AI Products",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93750190__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 626,
+      "role_key": "freehire:software-engineer-ai-agents-miao-worlds-2hmhourc",
+      "company": "MiAO Worlds",
+      "title": "Software Engineer, AI Agents",
+      "source_url": "https://sg.jobstreet.com/job/95585134?utm_source=freehire.me",
+      "reason_code": "full_jd_indicates_early_career_agent_fit_but_official_route_workpass_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 627,
+      "role_key": "freehire:founding-engineer-ai-agents-miao-worlds-ryynucqa",
+      "company": "MiAO Worlds",
+      "title": "Founding Engineer, AI Agents",
+      "source_url": "https://sg.jobstreet.com/job/95585084?utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 629,
+      "role_key": "freehire:vp-enterprise-genai-backend-engineer-group-technology-ops-uobgroup-rxgncsiz",
+      "company": "uobgroup",
+      "title": "VP, Enterprise GenAI Backend Engineer, Group Technology & Ops",
+      "source_url": "https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/VP--Enterprise-GenAI-Backend-Engineer--Group-Technology---Ops_JR99807?utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 630,
+      "role_key": "freehire:devsecops-ai-security-consultant-u3-infotech-pte-ltd-bwwcfr3j",
+      "company": "U3 INFOTECH PTE. LTD.",
+      "title": "DevSecOps & AI Security Consultant",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/8d13f7310c9a43940695a36cedd4f70c?utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 631,
+      "role_key": "freehire:devops-engineer-ai-platform-devops-engineer-goldtech-resources-pte-ltd-tgzrvttx",
+      "company": "GOLDTECH RESOURCES PTE LTD",
+      "title": "DevOps Engineer (AI Platform)DevOps Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/ed254f3ac95e8452ef1cc54fdc82e146?utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 632,
+      "role_key": "freehire:assoc-ai-core-devops-engineer-data-platform-group-technology-dbs-bank-ltd-e7s47hio",
+      "company": "DBS Bank Ltd",
+      "title": "Assoc, AI Core DevOps Engineer, Data Platform, Group Technology",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93831818__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-07T13:55:21+08:00"
     }
   ]
 }
