@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-06T13:55:21+08:00",
+  "updated_at": "2026-11-06T15:04:46+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -182,16 +182,6 @@
       "reason_code": "mcf_only_route_and_eligibility_unresolved_recheck_route_or_jd_still_unverified",
       "attempts": 2,
       "next_retry_at": "2026-11-07T07:01:12+08:00"
-    },
-    {
-      "candidate_seq": 304,
-      "company": "ISIXI PRIVATE LIMITED",
-      "title": "AI Engineer",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/e8ef3bce7cfcd685e0fba51786bcb65b",
-      "role_key": "freehire:ai-engineer-isixi-private-limited-taeb63dr",
-      "reason_code": "mcf_only_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T08:00:00+08:00"
     },
     {
       "candidate_seq": 306,
@@ -1444,16 +1434,6 @@
       "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
-      "candidate_seq": 482,
-      "role_key": "freehire:genai-engineer-data-dashboards-deployments-etonhouse-international-education-group-xkjbbv6j",
-      "company": "EtonHouse International Education Group",
-      "title": "GenAI Engineer: Data, Dashboards & Deployments",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93922015__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "authoritative_jd_and_eligibility_unverified",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T06:05:30+08:00"
-    },
-    {
       "candidate_seq": 484,
       "role_key": "freehire:data-scientist-junior-mid-ai-analyst-one-tech-stop-pte-ltd-mazek2hm",
       "company": "ONE TECH STOP PTE. LTD.",
@@ -1649,9 +1629,9 @@
       "company": "Capgemini",
       "title": "Software Engineer (GenAI Security & Quality)",
       "source_url": "https://careers.capgemini.com/job/Singapore-Software-Engineer-%28GenAI-Security-&-Quality%29/1440919733/",
-      "reason_code": "exact_issue_id_checked_authoritative_jd_or_final_eligibility_route_unresolved",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T09:00:00+08:00"
+      "reason_code": "official_jd_read_3plus_years_and_AI_security_architecture_depth_unverified_eligibility",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T15:04:46+08:00"
     },
     {
       "candidate_seq": 518,
@@ -2452,6 +2432,76 @@
       "reason_code": "authoritative_full_jd_eligibility_liveness_and_non_mcf_route_unverified",
       "attempts": 0,
       "next_retry_at": "2026-11-07T13:55:21+08:00"
+    },
+    {
+      "candidate_seq": 635,
+      "role_key": "freehire:635",
+      "reason_code": "five_plus_experience_hint_requires_full_jd_and_route",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T15:04:46+08:00",
+      "company": "GREY TREE PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/930506d8bd80fdaf8ca9d1bebdbeddd2"
+    },
+    {
+      "candidate_seq": 636,
+      "role_key": "freehire:636",
+      "reason_code": "cross_source_633_636_same_official_requisition_R00026139_seniority_and_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T15:04:46+08:00",
+      "company": "NTU",
+      "title": "Senior Data Services & AI Engineer",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Senior-Data-Services---AI-Engineer_R00026139"
+    },
+    {
+      "candidate_seq": 638,
+      "role_key": "freehire:638",
+      "reason_code": "agency_listing_real_ai_work_and_direct_employer_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T15:04:46+08:00",
+      "company": "dadaconsultants pte. ltd.",
+      "title": "Full Stack Engineer / Software Engineer (AI Products / Golang / Growth Platform)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93753040__7119"
+    },
+    {
+      "candidate_seq": 639,
+      "role_key": "freehire:639",
+      "reason_code": "agency_client_identity_research_scope_and_permanent_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T15:04:46+08:00",
+      "company": "Gramian Consulting Group",
+      "title": "Machine Learning Research & Engineering Specialist",
+      "source_url": "https://sg.jobstreet.com/job/95525602"
+    },
+    {
+      "candidate_seq": 640,
+      "role_key": "freehire:640",
+      "reason_code": "agent_signal_actual_jd_and_core_llm_scope_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T15:04:46+08:00",
+      "company": "NUSABASE DIGITAL PTE. LTD.",
+      "title": "AI Application Frontend Development Engineer (Token Platform)",
+      "source_url": "https://sg.jobstreet.com/job/95524165"
+    },
+    {
+      "candidate_seq": 641,
+      "role_key": "freehire:641",
+      "reason_code": "official_jd_core_ai_scope_and_seniority_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T15:04:46+08:00",
+      "company": "Samsung",
+      "title": "AI & Data Analytics Specialist",
+      "source_url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Mapletree-Business-City-Singapore-Singapore/AI---Data-Analytics-Specialist_R121588"
+    },
+    {
+      "candidate_seq": 642,
+      "role_key": "freehire:642",
+      "reason_code": "mixed_it_support_role_actual_ai_ownership_and_non_mcf_route_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-07T15:04:46+08:00",
+      "company": "DOLE ASIA HOLDINGS PTE. LTD.",
+      "title": "IT Support, Security & AI Automation Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/d68669ee7fdfc2895e571520866fd954"
     }
   ]
 }
