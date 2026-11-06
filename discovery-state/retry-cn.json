@@ -216,41 +216,50 @@
       "role_key": "freehire:hun-yuan-da-yu-yan-mo-xing-hou-xun-lian-suan-fa-gong-cheng-shi-memoryfang-xiang-bei-jing-shen-zhen-shang-hai-tencent-e7fxdfvt",
       "candidate_seq": 1672,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T03:14:25+08:00",
       "company": "Tencent",
       "title": "混元大语言模型后训练算法工程师-Memory方向（北京/深圳/上海）",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2046923451989651456"
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2046923451989651456",
+      "last_alternate_source_attempted": "exact title indexed full JD reproduction (OfferSeek)",
+      "last_retry_new_evidence": true,
+      "last_evidence_note": "Full matching Tencent Memory JD found via OfferSeek; employer foreign-hire/liveness still unverified"
     },
     {
       "role_key": "freehire:hun-yuan-da-yu-yan-mo-xing-hou-xun-lian-suan-fa-gong-cheng-shi-shen-zhen-bei-jing-shang-hai-tencent-s5wzqpdq",
       "candidate_seq": 1674,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T03:14:25+08:00",
       "company": "Tencent",
       "title": "混元大语言模型后训练算法工程师（深圳/北京/上海）",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2009467972866957312"
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2009467972866957312",
+      "last_alternate_source_attempted": "official ATS / employer exact title or requisition indexed search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:guang-zi-ai-aiying-yong-kai-fa-gong-cheng-shi-tencent-cewsfykz",
       "candidate_seq": 1678,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T03:14:25+08:00",
       "company": "Tencent",
       "title": "光子 AI-AI应用开发工程师",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2008789833664847872"
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2008789833664847872",
+      "last_alternate_source_attempted": "official ATS / employer exact title or requisition indexed search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:a-li-yun-zhi-neng-ai-jia-gou-ji-hou-duan-gong-cheng-shi-zhi-neng-fu-wu-hang-zhou-alibaba-group-g3snajbp",
       "candidate_seq": 1681,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 3,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T03:14:25+08:00",
       "company": "Alibaba Group",
       "title": "阿里云智能-AI 架构及后端工程师-智能服务-杭州",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100044560002"
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100044560002",
+      "last_alternate_source_attempted": "official ATS / employer exact title or requisition indexed search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:a-li-ma-ma-aiying-yong-suan-fa-gong-cheng-shi-ai-data-decision-intelligence-alibaba-group-eddytqbe",
@@ -1093,64 +1102,52 @@
       "last_retry_new_evidence": false
     },
     {
-      "role_key": "freehire:senior-machine-learning-engineer-shopback-2-665fkkbx",
-      "candidate_seq": 1869,
-      "reason_code": "cheap_screen_requires_authoritative_confirmation",
-      "attempts": 0,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
-      "company": "ShopBack",
-      "title": "Senior Machine Learning Engineer",
-      "source_url": "https://jobs.lever.co/shopback-2/ba45be9d-a04b-43db-90c6-cf56c5181cc3?utm_source=freehire.me"
-    },
-    {
       "role_key": "freehire:zi-shen-suan-fa-gong-cheng-shi-zhuan-jia-nlpzhi-neng-ke-fu-shang-hai-nan-jing-shein-gqachwmz",
       "candidate_seq": 1870,
       "reason_code": "cheap_screen_requires_authoritative_confirmation",
-      "attempts": 0,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
+      "attempts": 1,
+      "next_retry_at": "2026-11-08T03:14:25+08:00",
       "company": "SHEIN",
       "title": "资深算法工程师/专家（NLP智能客服）-上海南京",
-      "source_url": "https://app.mokahr.com/social-recruitment/shein/2933?utm_source=freehire.me#/job/ac799c5d-9e05-4d62-8fdd-2a50d0cf0617"
-    },
-    {
-      "role_key": "freehire:ml-engineer-ultralytics-bqjgmvbg",
-      "candidate_seq": 1871,
-      "reason_code": "cheap_screen_requires_authoritative_confirmation",
-      "attempts": 0,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
-      "company": "Ultralytics",
-      "title": "ML Engineer",
-      "source_url": "https://jobs.ashbyhq.com/ultralytics/b25d91d2-6fbb-4d4d-bfd1-0111f0195c7b?utm_source=freehire.me"
+      "source_url": "https://app.mokahr.com/social-recruitment/shein/2933?utm_source=freehire.me#/job/ac799c5d-9e05-4d62-8fdd-2a50d0cf0617",
+      "last_alternate_source_attempted": "Moka exact title alternative indexed search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:deep-learning-kernel-software-performance-architect-nvidia-4li3h7kw",
       "candidate_seq": 1872,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 0,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
+      "attempts": 1,
+      "next_retry_at": "2026-11-08T03:14:25+08:00",
       "company": "NVIDIA",
       "title": "Deep Learning Kernel Software Performance Architect",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Kernel-Software-Performance-Architect_JR2020693-1?utm_source=freehire.me"
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Kernel-Software-Performance-Architect_JR2020693-1?utm_source=freehire.me",
+      "last_alternate_source_attempted": "official ATS / employer exact title or requisition indexed search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-ben-di-sheng-huo-fang-xiang-tiktoksheng-huo-fu-wu-bytedance-hvi2366g",
       "candidate_seq": 1875,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 0,
-      "next_retry_at": "2026-11-06T19:13:21+08:00",
+      "attempts": 1,
+      "next_retry_at": "2026-11-08T03:14:25+08:00",
       "company": "ByteDance",
       "title": "AI Agent开发工程师（本地生活方向）-TikTok生活服务",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7657831065828870405/detail?utm_source=freehire.me"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7657831065828870405/detail?utm_source=freehire.me",
+      "last_alternate_source_attempted": "official ATS / employer exact title or requisition indexed search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:hou-duan-kai-fa-gong-cheng-shi-ai-agentfang-xiang-an-quan-yu-feng-kong-bytedance-3by23mwm",
       "candidate_seq": 1880,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 1,
-      "next_retry_at": "2026-11-06T20:13:32+08:00",
+      "attempts": 2,
+      "next_retry_at": "2026-11-08T03:14:25+08:00",
       "company": "ByteDance",
       "title": "后端开发工程师（AI Agent方向） - 安全与风控",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7655227690361964853/detail?utm_source=freehire.me"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7655227690361964853/detail?utm_source=freehire.me",
+      "last_alternate_source_attempted": "official ATS / employer exact title or requisition indexed search",
+      "last_retry_new_evidence": false
     },
     {
       "role_key": "freehire:duo-mo-tai-da-mo-xing-suan-fa-gong-cheng-shi-agentsuan-fa-gong-cheng-shi-guo-ji-dian-shang-bytedance-lbflphjn",
