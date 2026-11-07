@@ -59,12 +59,12 @@
     {
       "platform": "Hiredly",
       "query_family": "AI backend / platform / ML engineering",
-      "last_attempt_at": "2026-11-07T14:22:55+08:00",
+      "last_attempt_at": "2026-11-07T15:20:12+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
-      "fallback_unique_rows": 3,
-      "reason": "Hiredly AI category native current open shell, page=2 inaccessible. Independent Hiredly IT directory lists named jobs and three exact JD pages checked, but no category-native two-page/exhaustion evidence.",
-      "next_probe": "Recover Hiredly category API/page 1+2 or independent ATS exact role coverage; follow Deloitte graduate req from official Deloitte SEA site"
+      "fallback_unique_rows": 2,
+      "reason": "Hiredly native search still only accessible as shell; independently inspected Hiredly X AI Engineer and Grab senior ML JD, no native page 1+2 coverage. Prior debt preserved.",
+      "next_probe": "Inspect Hiredly category page 1+2 through supported native API; independently verify Hiredly X employer identity and exact role"
     }
   ]
 }
