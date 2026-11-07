@@ -56,9 +56,10 @@ def canonical(url: str,market: str) -> str | None:
     if market=="SG" and p.scheme=="https" and p.hostname=="ntu.wd3.myworkdayjobs.com":
         # Canonical employer-controlled Workday URL: normalize locale/site
         # spelling but retain its exact requisition's navigable job path.
-        match=re.search(r"/job/([A-Za-z0-9_+.%()-]+_R\d{8}(?:-\d+)?)/*$",p.path)
+        match=re.search(r"/job/([A-Za-z0-9_-]+)/([^/?#]+_R\d{8}(?:-\d+)?)/*$",p.path)
         if match:
-            return "https://ntu.wd3.myworkdayjobs.com/Careers/job/"+match.group(1)
+            return ("https://ntu.wd3.myworkdayjobs.com/Careers/job/"
+                    +match.group(1)+"/"+match.group(2))
     return None
 
 def new_state(market: str) -> dict:
