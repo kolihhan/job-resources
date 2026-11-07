@@ -112,6 +112,31 @@ class IndexQueueTests(unittest.TestCase):
         s,stats=q.ingest(s,{},p)
         self.assertEqual(stats["already_seen"],1)
 
+    def test_ntu_workday_issue_readback_by_exact_declared_req(self):
+        import io
+        from unittest.mock import patch
+        class Response(io.BytesIO): pass
+        issue={"number":596,"title":"[WAIT][SG] NTU ATMRI — Research Engineer I — R00026053",
+               "body":"## Exact role\\n- Requisition: `R00026053`\\nLocation: Singapore"}
+        link="https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Computer-Science---Artificial-Intelligence---Software-Engineering---Information-Systems-_R00026053"
+        with patch.object(q,"urlopen",return_value=Response(__import__("json").dumps(issue).encode())):
+            self.assertTrue(q.verify_issue_readback("https://github.com/kolihhan/job-resources/issues/596",link,"token"))
+        sibling={"number":596,"title":"[WAIT] NTU Research Engineer II R00026162",
+                 "body":"## Exact role\\n- Requisition: `R00026162`\\nRelated earlier role R00026053"}
+        with patch.object(q,"urlopen",return_value=Response(__import__("json").dumps(sibling).encode())):
+            with self.assertRaisesRegex(ValueError,"exact source identity"):
+                q.verify_issue_readback("https://github.com/kolihhan/job-resources/issues/596",link,"token")
+
+    def test_ntu_workday_issue_readback_from_exact_url(self):
+        import io
+        from unittest.mock import patch
+        class Response(io.BytesIO): pass
+        link="https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Safety---Governance-Engineer--SAGE-_R00025725"
+        issue={"number":871,"title":"AI Safety & Governance Engineer R00025725",
+               "body":"First party application route: "+link+"\\nEvidence: verified"}
+        with patch.object(q,"urlopen",return_value=Response(__import__("json").dumps(issue).encode())):
+            self.assertTrue(q.verify_issue_readback("https://github.com/kolihhan/job-resources/issues/871",link,"token"))
+
     def test_invalid_queue_is_fail_closed(self):
         s=q.new_state("MY")
         s["next_unacknowledged_seq"]=99
