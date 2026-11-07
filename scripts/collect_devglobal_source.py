@@ -18,9 +18,9 @@ from urllib.request import Request,urlopen
 
 URL="https://devglobaljobs.com/api/v1/jobs"
 COUNTRIES={"SG":"Singapore","MY":"Malaysia"}
-TITLE_DOMAIN=re.compile(r"(?i)(?:\\bAI\\b|\\bML\\b|LLM|GenAI|NLP|Agentic|Machine Learning|Deep Learning|RAG|Retrieval|Data Science)")
+TITLE_DOMAIN=re.compile(r"(?i)(?:\bAI\b|\bML\b|LLM|GenAI|NLP|Agentic|Machine Learning|Deep Learning|RAG|Retrieval|Data Science)")
 ENGINEERING=re.compile(r"(?i)engineer|developer|research|scientist|software|backend|platform|systems|inference|architecture|data science|data scientist")
-MATURE=re.compile(r"(?i)^\\s*(?:senior|staff|principal|lead|director|head|vp|chief|manager)\\b")
+MATURE=re.compile(r"(?i)^\s*(?:senior|staff|principal|lead|director|head|vp|chief|manager)\b")
 LIMIT=50
 MAX_PAGES=2
 
