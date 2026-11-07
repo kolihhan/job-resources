@@ -112,6 +112,7 @@ Target lists prioritize search effort, not eligibility. An excellent exact role 
 - MY TOP AI Scout — hourly, `MY-ENG` + `MY-RES`.
 - Recruiting Signal Watch — hourly over both Gmail accounts; substantive lifecycle signals update the canonical Issue and preserve `Furthest stage`.
 - AI Job Strategy Review — **daily** across all six battlefields; controlled learning may update only the bounded adaptive-memory block in `PROFILE.md` when the evidence threshold is met.
+- Deep Fit Review — **daily post-discovery quality review** of a bounded set of existing APPLY/CHECK Issues; validates exact-JD duties, hard eligibility, candidate evidence and counterarguments under `RULES.md` section 7. Updates only a compact reviewed-evidence block in the existing Issue, never submits applications or creates a parallel tracker.
 
 Hourly scouts execute two independent discovery phases: the normal first-party/native fresh-platform rotation, then FreeHire triage/retry under the canonical FreeHire contract. They may search/verify/dedupe, create a **new verified APPLY/CHECK Issue**, and update only their market-owned compact discovery cursor/retry/cache state. They do not submit applications, contact employers, modify Gmail, or automatically modify/close/reopen existing opportunity Issues.
 
