@@ -56,12 +56,12 @@
     {
       "platform": "JobStreet Malaysia",
       "query_family": "destination-quality backend / data / cloud / SRE / SDET",
-      "last_attempt_at": "2026-11-08T04:23:41+08:00",
+      "last_attempt_at": "2026-11-08T05:17:32+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "01:19 cycle: requested native page 1 and 2 returned inaccessible; search-index category results did not provide source page keys or exact role IDs | 02:16 cycle: native page 1/2 inaccessible or not independently verifiable; exact-role index and employer fallback did not establish breadth | 04:23 AI-engineer query native page 1 and 2 via page-link click returned ~30 identifiable cards each, but destination-quality backend/data/cloud query family still not covered; retain debt",
-      "next_probe": "Native JobStreet destination-quality backend/data/cloud/SRE page 1+2 with exact job IDs and official ATS checks"
+      "reason": "01:19 cycle: requested native page 1 and 2 returned inaccessible; search-index category results did not provide source page keys or exact role IDs | 02:16 cycle: native page 1/2 inaccessible or not independently verifiable; exact-role index and employer fallback did not establish breadth | 04:23 AI-engineer query native page 1 and 2 via page-link click returned ~30 identifiable cards each, but destination-quality backend/data/cloud query family still not covered; retain debt | 05:17 cycle: backend query page 1 returned stale Aug 2026 snapshot, page 2 inaccessible; exact Experian 94216626 now no longer advertised",
+      "next_probe": "Fresh native backend/data/cloud page 1+2 with current role IDs; official employer ATS cross-check for stale cards"
     }
   ]
 }
