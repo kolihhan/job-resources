@@ -166,10 +166,24 @@ def verify_issue_readback(issue_url: str,candidate_url: str,token: str) -> bool:
         raise ValueError("GitHub Issue readback mismatch")
     body=str(issue.get("body") or "")
     found=re.findall(r"https?://[^\s<>\])]+",body)
-    market="SG" if "sg." in candidate_url else "MY"
-    if candidate_url not in {canonical(u.strip('.,'),market) for u in found}:
-        raise ValueError("Issue body does not reference this exact platform identity")
-    return True
+    host=urlparse(candidate_url).hostname or ""
+    market="SG" if (host=="ntu.wd3.myworkdayjobs.com" or host.startswith("sg.")) else "MY"
+    urls={canonical(u.strip('.,'),market) for u in found}
+    if candidate_url in urls:
+        return True
+    # Old Workday Issue records sometimes store the exact requisition but no URL.
+    # Accept only the canonical exact requisition declared as a field AND present
+    # in the Issue title, never incidental references to sibling requisitions.
+    if host=="ntu.wd3.myworkdayjobs.com":
+        source_req=re.search(r"_(R\\d{8})(?:-\\d+)?$",urlparse(candidate_url).path)
+        if source_req:
+            reqid=source_req.group(1)
+            title=str(issue.get("title") or "")
+            declared=re.search(r"^\\s*[-*]\\s*(?:Requisition|Req\\s*ID|Exact\\s*requisition)\\s*:\\s*\\x60?"+re.escape(reqid)+r"\\x60?\\b",
+                body,re.M|re.I)
+            if reqid in title and declared:
+                return True
+    raise ValueError("Issue body does not reference this exact source identity")
 
 def ack(state: dict,receipt: dict,issue_proven: bool=False) -> dict:
     validate_state(state,state["market"])
