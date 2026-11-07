@@ -18,26 +18,6 @@
   "coverage_debt": [
     {
       "platform": "recruiter / team / direct hiring posts",
-      "query_family": "destination-quality backend / data / cloud / SRE / SDET",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
-    },
-    {
-      "platform": "recruiter / team / direct hiring posts",
-      "query_family": "destination-quality full-stack / product engineering with material AI signal",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
-    },
-    {
-      "platform": "recruiter / team / direct hiring posts",
       "query_family": "Agent / LLM / RAG / GenAI",
       "last_attempt_at": "2026-11-07T10:24:00+08:00",
       "native_pages_read": 0,
@@ -48,47 +28,7 @@
     },
     {
       "platform": "LinkedIn Jobs Malaysia",
-      "query_family": "destination-quality backend / data / cloud / SRE / SDET",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
-      "fallback_unique_rows": 2,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
-    },
-    {
-      "platform": "LinkedIn Jobs Malaysia",
-      "query_family": "destination-quality full-stack / product engineering with material AI signal",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
-    },
-    {
-      "platform": "LinkedIn Jobs Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
-    },
-    {
-      "platform": "JobStreet Malaysia",
-      "query_family": "destination-quality backend / data / cloud / SRE / SDET",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
-    },
-    {
-      "platform": "JobStreet Malaysia",
-      "query_family": "destination-quality full-stack / product engineering with material AI signal",
       "last_attempt_at": "2026-11-07T10:24:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
@@ -108,26 +48,6 @@
     },
     {
       "platform": "Indeed Malaysia",
-      "query_family": "destination-quality backend / data / cloud / SRE / SDET",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
-    },
-    {
-      "platform": "Indeed Malaysia",
-      "query_family": "destination-quality full-stack / product engineering with material AI signal",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
-    },
-    {
-      "platform": "Indeed Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
       "last_attempt_at": "2026-11-07T10:24:00+08:00",
       "native_pages_read": 0,
@@ -135,6 +55,16 @@
       "fallback_unique_rows": 0,
       "reason": "No native page-two or exhaustion evidence; indexed fallback only",
       "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
+    },
+    {
+      "platform": "Hiredly",
+      "query_family": "AI backend / platform / ML engineering",
+      "last_attempt_at": "2026-11-07T09:18:37+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified subsequent page/exhaustion evidence; latest log: 8 exact-role rows reported",
+      "next_probe": "Attempt next page/cursor and record exact role IDs; if native blocked, verify ATS + independent native indexed sources"
     }
   ]
 }
