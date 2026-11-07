@@ -107,6 +107,14 @@ def ingest(state: dict,index: dict,payload: dict) -> tuple[dict,dict]:
             continue
         key=key_for(market,url)
         if key in existing:
+            # Preserve an exact stable source identity while filling sparse metadata.
+            for prior in state["pending"]:
+                if prior["key"]==key:
+                    if not prior.get("company") and item.get("company"):
+                        prior["company"]=str(item["company"])[:150]
+                    if not prior.get("title") and item.get("title"):
+                        prior["title"]=str(item["title"])[:180]
+                    break
             stats["already_seen"]+=1
             continue
         if url in known_set:
