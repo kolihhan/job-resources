@@ -27,6 +27,8 @@ jobs:
       - name: Test fail-closed acknowledgement and source identity
         run: python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
       - name: Apply independently evidenced hard-gate receipts and preserve all other pending candidates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
@@ -36,10 +38,10 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             python - <<'PY'
-          import json,sys
+          import json,os,sys
           from pathlib import Path
           sys.path.insert(0,'scripts')
-          from platform_index_queue import ack, atomic_write, validate_state
+          from platform_index_queue import ack, atomic_write, validate_state, verify_issue_readback
           for market in ('sg','my'):
               path=Path(f'discovery-state/platform-index-{market}.json')
               state=json.loads(path.read_text())
@@ -51,7 +53,14 @@ jobs:
                       if terminal:
                           assert terminal['state']==receipt['action'] and terminal.get('evidence_url')==receipt['evidence_url'], 'conflicting acknowledgement'
                       else:
-                          state=ack(state,receipt)
+                          proven=False
+                          if receipt['action'] in ('ISSUE_VERIFIED','DUPLICATE_CONFIRMED'):
+                              candidate=next((x for x in state['pending'] if x['key']==receipt['key']),None)
+                              if candidate is None:
+                                  raise ValueError('unknown pending candidate')
+                              proven=verify_issue_readback(
+                                  receipt.get('issue_url'),candidate['url'],os.environ.get('GITHUB_TOKEN',''))
+                          state=ack(state,receipt,issue_proven=proven)
                           atomic_write(path,state)
               validate_state(state,market.upper())
               print(f"ACK {market.upper()} pending={len(state['pending'])} terminal={len(state['terminal'])} cursor={state['next_unacknowledged_seq']}")
