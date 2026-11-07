@@ -31,36 +31,6 @@
       "url": "https://devglobaljobs.com/jobs/detail/168411325"
     },
     {
-      "company": "OpenAI",
-      "first_seen_at": "2026-11-07T08:31:24.434408Z",
-      "key": "sg:eaa7212c015797eae5f5",
-      "last_error": null,
-      "market": "SG",
-      "platform": "Dev Global Jobs (public aggregator)",
-      "query": "SG/MY AI software engineering / NLP / Agent public-feed AI",
-      "retries": 0,
-      "seq": 7,
-      "source": "devglobal:public-api:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Support Engineer - Singapore",
-      "url": "https://devglobaljobs.com/jobs/detail/166309274"
-    },
-    {
-      "company": "OpenAI",
-      "first_seen_at": "2026-11-07T08:31:24.434438Z",
-      "key": "sg:609f6c89ed878642f7eb",
-      "last_error": null,
-      "market": "SG",
-      "platform": "Dev Global Jobs (public aggregator)",
-      "query": "SG/MY AI software engineering / NLP / Agent public-feed AI",
-      "retries": 0,
-      "seq": 9,
-      "source": "devglobal:public-api:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Applied AI Engineer",
-      "url": "https://devglobaljobs.com/jobs/detail/163751342"
-    },
-    {
       "company": "Nanyang Technological University",
       "first_seen_at": "2026-11-07T09:35:18.297605Z",
       "key": "sg:5abe357872d8f208f4cc",
@@ -571,6 +541,40 @@
       "state": "HARD_REJECTED",
       "title": "AI Engineer, Data Infra",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373"
+    },
+    {
+      "company": "OpenAI",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/278990f1-59be-41ee-aad2-a9c69c5c7064",
+      "first_seen_at": "2026-11-07T08:31:24.434408Z",
+      "key": "sg:eaa7212c015797eae5f5",
+      "last_error": null,
+      "market": "SG",
+      "platform": "Dev Global Jobs (public aggregator)",
+      "query": "SG/MY AI software engineering / NLP / Agent public-feed AI",
+      "reason": "Employer-published exact Singapore AI Support Engineer (not coding/research) requires 8+ years in user operations, support engineering, or comparable technical customer support. Direct Ashby role obtained from the Dev Global source listing. No matching full-time experience; primary work is senior customer incident support, outside North-Star early-",
+      "retries": 0,
+      "seq": 7,
+      "source": "devglobal:public-api:SG",
+      "state": "HARD_REJECTED",
+      "title": "AI Support Engineer - Singapore",
+      "url": "https://devglobaljobs.com/jobs/detail/166309274"
+    },
+    {
+      "company": "OpenAI",
+      "evidence_url": "https://openai.com/careers/applied-ai-engineer-singapore/",
+      "first_seen_at": "2026-11-07T08:31:24.434438Z",
+      "key": "sg:609f6c89ed878642f7eb",
+      "last_error": null,
+      "market": "SG",
+      "platform": "Dev Global Jobs (public aggregator)",
+      "query": "SG/MY AI software engineering / NLP / Agent public-feed AI",
+      "reason": "Employer exact Applied AI Engineer Singapore requires demonstrated enterprise AI/ML deployment from prototype to production, senior customer/executive-facing architecture and technical leadership. User has paid production Laravel/backend engineering but only separate academic/personal LLM/Agent projects, not equivalent enterprise production-AI/cust",
+      "retries": 0,
+      "seq": 9,
+      "source": "devglobal:public-api:SG",
+      "state": "HARD_REJECTED",
+      "title": "Applied AI Engineer",
+      "url": "https://devglobaljobs.com/jobs/detail/163751342"
     }
   ],
   "version": 1
