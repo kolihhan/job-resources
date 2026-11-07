@@ -1,0 +1,51 @@
+{
+  "last_ingestion": {
+    "at": "2026-11-07T07:23:19.587383Z",
+    "source": "public-web-index-manual-pilot-2026-11-07",
+    "stats": {
+      "already_seen": 0,
+      "exact_history": 0,
+      "invalid_url": 0,
+      "market_mismatch": 0,
+      "new_pending": 2,
+      "observed": 2
+    }
+  },
+  "market": "SG",
+  "next_seq": 3,
+  "next_unacknowledged_seq": 1,
+  "pending": [
+    {
+      "company": "PERSOL APAC",
+      "first_seen_at": "2026-11-07T07:23:19.587334Z",
+      "key": "sg:94ed40734f8e4c0ec7c9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "LinkedIn",
+      "query": "Agent RAG engineer Singapore",
+      "retries": 0,
+      "seq": 1,
+      "source": "public-web-index-manual-pilot-2026-11-07",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Agent Development Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4456087297"
+    },
+    {
+      "company": "Tech Aalto",
+      "first_seen_at": "2026-11-07T07:23:19.587374Z",
+      "key": "sg:b80ab024388134917a64",
+      "last_error": null,
+      "market": "SG",
+      "platform": "JobStreet",
+      "query": "Singapore AI Engineer LLM",
+      "retries": 0,
+      "seq": 2,
+      "source": "public-web-index-manual-pilot-2026-11-07",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI / ML Engineer",
+      "url": "https://sg.jobstreet.com/job/95566693"
+    }
+  ],
+  "terminal": [],
+  "version": 1
+}
