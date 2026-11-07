@@ -59,12 +59,12 @@
     {
       "platform": "Hiredly",
       "query_family": "AI backend / platform / ML engineering",
-      "last_attempt_at": "2026-11-07T09:18:37+08:00",
+      "last_attempt_at": "2026-11-07T11:16:19+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No verified subsequent page/exhaustion evidence; latest log: 8 exact-role rows reported",
-      "next_probe": "Attempt next page/cursor and record exact role IDs; if native blocked, verify ATS + independent native indexed sources"
+      "fallback_unique_rows": 3,
+      "reason": "Prior coverage debt probed: Hiredly AI-Engineering index rendered role names in search index, but native page fetch returned no job cards; no native page-2 proof. Official/employer and independent LinkedIn exact-role fallbacks inspected; Tapway exact history #380.",
+      "next_probe": "Hiredly native search pagination page 1 and 2 with actual role IDs, or employer ATS plus independent native exact-role page"
     }
   ]
 }
