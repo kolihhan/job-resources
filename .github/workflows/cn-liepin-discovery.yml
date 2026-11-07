@@ -3,12 +3,14 @@ name: CN Discovery
 on:
   workflow_dispatch:
   schedule:
-    # 09:20 China/Malaysia time. Keep frequency low to reduce portal load.
-    - cron: "20 1 * * *"
+    # Small bounded 4-request slices every three hours; 9 slots cover 3 cities x 6 queries.
+    - cron: "20 1,4,7,10,13,16,19,22 * * *"
   push:
     paths:
       - "scripts/liepin_discovery.mjs"
       - "tests/liepin_discovery.test.mjs"
+      - "scripts/build_cn_source_handoff.py"
+      - "tests/test_cn_source_handoff.py"
       - ".github/workflows/cn-liepin-discovery.yml"
 
 permissions:
@@ -29,24 +31,26 @@ jobs:
         with:
           node-version: "22"
 
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
       - name: Unit tests
         run: node --test tests/liepin_discovery.test.mjs
 
-      - name: Collect Liepin jobs
+      - name: Collect bounded rotating Liepin city/query slice
         run: |
-          node scripts/liepin_discovery.mjs \
-            --city 上海 \
-            --city 深圳 \
-            --city 北京 \
-            --query AI工程师 \
-            --query 大模型 \
-            --query Agent \
-            --query Python后端 \
-            --query 后端开发 \
-            --query 软件工程师 \
+          mkdir -p artifacts
+          if ! node scripts/liepin_discovery.mjs \
+            --rotation-number "$GITHUB_RUN_NUMBER" \
             --pages 2 \
             --days 0 \
-            --output artifacts/liepin-raw.json
+            --output artifacts/liepin-raw.json \
+            > artifacts/liepin-run.log 2>&1; then
+            cat artifacts/liepin-run.log
+            exit 1
+          fi
+          cat artifacts/liepin-run.log
 
       - name: Collect official-company jobs
         run: |
@@ -118,7 +122,38 @@ jobs:
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
           NODE
 
+      - name: Test source candidate projection and sharding
+        run: python -m unittest discover -s tests -p 'test_cn_source_handoff.py' -v
+
+      - name: Export bounded candidate handoff without creating GitHub Issues
+        run: |
+          python scripts/build_cn_source_handoff.py \
+            --liepin artifacts/liepin-raw.json \
+            --jobpro artifacts/jobpro-raw.json \
+            --known discovery-state/known-role-index.json \
+            --output-dir artifacts \
+            --run-id "$GITHUB_RUN_ID"
+
+      - name: Validate handoff manifest and unique candidate identities
+        run: |
+          python - <<'PY'
+          import json
+          import hashlib
+          from pathlib import Path
+          p = Path('artifacts')
+          m = json.loads((p/'cn-source-manifest.json').read_text())
+          shards = [json.loads((p/name).read_text()) for name in m['shards']]
+          rows = [r for shard in shards for r in shard['candidates']]
+          ids = [r['source_key'] for r in rows]
+          assert len(rows) == m['candidate_count']
+          assert len(ids) == len(set(ids))
+          assert hashlib.sha256('\\n'.join(ids).encode()).hexdigest() == m['identity_sha256']
+          assert m['status'] == 'AWAITING_VERIFICATION'
+          print(f"Verified source candidate handoff: {len(ids)} IDs in {len(shards)} shards; NO APPLY/CHECK issues created")
+          PY
+
       - name: Upload raw discovery artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: cn-raw-${{ github.run_id }}
