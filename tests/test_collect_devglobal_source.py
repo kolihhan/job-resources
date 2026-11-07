@@ -8,6 +8,10 @@ m=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(m)
 
 class DevGlobalTests(unittest.TestCase):
+    def test_organization_field_maps_company_name(self):
+        rows=m.parse_roles({"jobs":[{"id":174081606,"title":"Applied AI Engineer, Codex","organization":"OpenAI","location":"Singapore"}]},"SG")
+        self.assertEqual(rows[0]["company"],"OpenAI")
+
     def test_realistic_sg_titles_are_screened_without_marking_eligibility(self):
         raw={"jobs":[
             {"id":174081606,"title":"Applied AI Engineer, Codex","company":"OpenAI","location":"Singapore"},
