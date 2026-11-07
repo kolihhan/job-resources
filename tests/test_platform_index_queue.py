@@ -74,6 +74,23 @@ class IndexQueueTests(unittest.TestCase):
                 q.verify_issue_readback("https://github.com/kolihhan/job-resources/issues/123",
                           "https://sg.jobstreet.com/job/12345678","token")
 
+
+    def test_devglobal_feed_urls_are_explicitly_separate_from_native_board(self):
+        self.assertEqual(q.canonical("https://devglobaljobs.com/jobs/detail/174081606?ref=api","SG"),
+                         "https://devglobaljobs.com/jobs/detail/174081606")
+        self.assertIsNone(q.canonical("https://devglobaljobs.com/jobs","SG"))
+        s=q.new_state("SG")
+        p={"source":"devglobal:public-api:SG","items":[
+           {"market":"SG","platform":"Dev Global Jobs (public aggregator)",
+            "url":"https://devglobaljobs.com/jobs/detail/174081606",
+            "title":"Applied AI Engineer, Codex","company":"OpenAI"}]}
+        s,stats=q.ingest(s,{},p)
+        self.assertEqual(stats["new_pending"],1)
+        self.assertEqual(s["pending"][0]["source"],"devglobal:public-api:SG")
+        self.assertEqual(s["pending"][0]["url"],"https://devglobaljobs.com/jobs/detail/174081606")
+        s,stats=q.ingest(s,{},p)
+        self.assertEqual(stats["already_seen"],1)
+
     def test_invalid_queue_is_fail_closed(self):
         s=q.new_state("MY")
         s["next_unacknowledged_seq"]=99
