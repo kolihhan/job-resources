@@ -62,21 +62,6 @@
     },
     {
       "company": "Nanyang Technological University",
-      "first_seen_at": "2026-11-07T09:35:18.297528Z",
-      "key": "sg:fbd992ef72a8bfb0f079",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 12,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Associate (Computer Engineering/Computer Science/Electronics Engineering)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Engineering-Computer-Science-Electronics-Engineering-_R00026008"
-    },
-    {
-      "company": "Nanyang Technological University",
       "first_seen_at": "2026-11-07T09:35:18.297605Z",
       "key": "sg:5abe357872d8f208f4cc",
       "last_error": null,
@@ -149,21 +134,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer (AIEH)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIEH-_R00025566"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "first_seen_at": "2026-11-07T09:35:18.297801Z",
-      "key": "sg:68b606efba1f594fa840",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 22,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer, Data Infra",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373"
     },
     {
       "company": "Nanyang Technological University",
@@ -567,6 +537,40 @@
       "state": "DUPLICATE_CONFIRMED",
       "title": "Research Engineer I (Computer Science / Artificial Intelligence / Software Engineering / Information Systems)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Computer-Science---Artificial-Intelligence---Software-Engineering---Information-Systems-_R00026053"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Engineering-Computer-Science-Electronics-Engineering-_R00026008",
+      "first_seen_at": "2026-11-07T09:35:18.297528Z",
+      "key": "sg:fbd992ef72a8bfb0f079",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "reason": "NTU first-party full JD requires in-depth reinforcement learning and LLM-agent knowledge, demonstrated independent RL research and supervision/publication output. Candidate's strengths are contextual NLP, RAG, software/Agent evaluation; advanced RL research is an unproven mandatory specialization. This is not a realistic early-career match under st",
+      "retries": 0,
+      "seq": 12,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Associate (Computer Engineering/Computer Science/Electronics Engineering)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Engineering-Computer-Science-Electronics-Engineering-_R00026008"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373",
+      "first_seen_at": "2026-11-07T09:35:18.297801Z",
+      "key": "sg:68b606efba1f594fa840",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "reason": "NTU/AISG first-party full JD demands 2–4 years large-scale production data infrastructure/platform engineering, AWS Organizations IAM, Spark/Airflow/Ray, IaC and Kubernetes; substantive daily work is data platform/governance rather than LLM/RAG research. User's production background is Laravel/Vue/MySQL, not the required cloud data infrastructure o",
+      "retries": 0,
+      "seq": 22,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer, Data Infra",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373"
     }
   ],
   "version": 1
