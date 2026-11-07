@@ -13,23 +13,23 @@ class FreeHireReviewThroughputTests(unittest.TestCase):
         spec.loader.exec_module(mod)
         return mod
 
-    def test_default_batch_is_100_and_preserves_remainder(self):
+    def test_default_batch_is_200_and_preserves_remainder(self):
         mod = self._load_module()
         coldstart = {
             "source_generated_at": "2026-11-03T00:00:00Z",
             "candidates": [
                 {"market": "CN", "public_slug": f"cn-{i:03d}", "company": f"Company {i}", "title": "AI Engineer"}
-                for i in range(130)
+                for i in range(230)
             ],
         }
         cursors = {market: {"last_consumed_candidate_seq": 0} for market in ("SG", "CN", "MY")}
 
         _, batches = mod.build_batches(coldstart, registry=None, cursors=cursors)
 
-        self.assertEqual(batches["CN"]["batch_size"], 100)
-        self.assertEqual(batches["CN"]["candidate_count"], 100)
+        self.assertEqual(batches["CN"]["batch_size"], 200)
+        self.assertEqual(batches["CN"]["candidate_count"], 200)
         self.assertEqual(batches["CN"]["remaining_after_batch"], 30)
-        self.assertEqual(batches["CN"]["max_candidate_seq"], 100)
+        self.assertEqual(batches["CN"]["max_candidate_seq"], 200)
 
     def test_hourly_batch_projects_candidates_to_compact_metadata(self):
         mod = self._load_module()
