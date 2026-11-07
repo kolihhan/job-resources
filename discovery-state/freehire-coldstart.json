@@ -4008,36 +4008,6 @@
         "jd:rag",
         "jd:retrieval"
       ],
-      "company": "Ntu",
-      "created_at": "2026-10-28T14:31:59Z",
-      "description_excerpt": "<p>ATMRI at NTU is seeking a Research Engineer II to join the Digital ATCO Assistant project. The role focuses on developing intelligent assistants for air traffic management by integrating LLMs, Retrieval-Augmented Generation, AI agents, operational data, and user-facing applications.</p><br/><p><b>Responsibilities:</b></p><ul><li>Design, develop, and integrate AI-enabled applications for the Digital ATCO Assistant project.</li><li>Build end-to-end systems that combine LLMs, Retrieval-Augmented Generation, AI agents, tool calling, workflow orchestration, and operational data sources.</li><li>",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/Research-Engineer-II---Computer-Science---Artificial-Intelligence---Software-Engineering---Information-Systems-_R00026162-1",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/research-engineer-ii-computer-science-artificial-intelligence-software-engineering-information-systems-ntu-tdaqta2p",
-      "identity": "research-engineer-ii-computer-science-artificial-intelligence-software-engineering-information-systems-ntu-tdaqta2p",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "research-engineer-ii-computer-science-artificial-intelligence-software-engineering-information-systems-ntu-tdaqta2p",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II---Computer-Science---Artificial-Intelligence---Software-Engineering---Information-Systems-_R00026162-1?utm_source=freehire.me",
-      "title": "Research Engineer II  (Computer Science / Artificial Intelligence / Software Engineering / Information Systems)"
-    },
-    {
-      "ai_score": 10,
-      "ai_signals": [
-        "title:ai",
-        "title:research",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
       "company": "NANYANG TECHNOLOGICAL UNIVERSITY",
       "created_at": "2026-10-28T11:28:18Z",
       "description_excerpt": "<p>ATMRI at NTU is seeking a Research Engineer II to join the Digital ATCO Assistant project. The role focuses on developing intelligent assistants for air traffic management by integrating LLMs, Retrieval-Augmented Generation, AI agents, operational data, and user-facing applications.<br/></p><p><strong>Responsibilities:</strong></p><ul><li><p>Design, develop, and integrate AI-enabled applications for the Digital ATCO Assistant project.</p></li><li><p>Build end-to-end systems that combine LLMs, Retrieval-Augmented Generation, AI agents, tool calling, workflow orchestration, and operational da",
@@ -15912,33 +15882,6 @@
       "public_slug": "ai-safety-governance-engineer-sage-nanyang-technological-university-hp662zoh",
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/94516149?utm_source=freehire.me",
-      "title": "AI Safety & Governance Engineer (SAGE)"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:genai"
-      ],
-      "company": "Ntu",
-      "created_at": "2026-09-09T10:51:09Z",
-      "description_excerpt": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI. AISG is supported through a government-wide partnership including the NRF, Ministry of Digital Development and Information (MDDI), Infocomm Media Development Authority (IMDA), Economic Development Board (EDB) and Enterprise Singapore (ESG). We bring together research institutions and the vibrant ecosystem of AI start-ups and companies to support impactful research, develop talent, and power Singapore&#39;s AI efforts.</p><p></p><",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Safety---Governance-Engineer--SAGE-_R00025725",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/ai-safety-governance-engineer-sage-ntu-ohyuutkx",
-      "identity": "ai-safety-governance-engineer-sage-ntu-ohyuutkx",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-09T00:00:00Z",
-      "public_slug": "ai-safety-governance-engineer-sage-ntu-ohyuutkx",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Safety---Governance-Engineer--SAGE-_R00025725?utm_source=freehire.me",
       "title": "AI Safety & Governance Engineer (SAGE)"
     },
     {
@@ -71910,8 +71853,8 @@
       "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-07T03:15:34.696614Z",
-  "known_exact_count": 34,
+  "generated_at": "2026-11-07T10:43:12.773405Z",
+  "known_exact_count": 36,
   "machine_candidate_counts": {
     "CN": 797,
     "MY": 303,
@@ -71936,10 +71879,10 @@
       "unseen": 287
     },
     "SG": {
-      "known_exact": 15,
+      "known_exact": 17,
       "source": 1559,
       "suspected_known": 24,
-      "unseen": 1520
+      "unseen": 1518
     }
   },
   "raw_counts": {
@@ -71947,7 +71890,7 @@
     "MY": 4830,
     "SG": 14597
   },
-  "review_count": 2625,
+  "review_count": 2623,
   "source_count": 2659,
   "source_generated_at": "2026-11-06T23:29:21.069922Z",
   "suspected_known_count": 51,
@@ -71956,6 +71899,6 @@
     "MY": 722,
     "SG": 2393
   },
-  "unseen_count": 2574,
+  "unseen_count": 2572,
   "version": 1
 }
