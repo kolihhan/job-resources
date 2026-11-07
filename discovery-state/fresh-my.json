@@ -39,12 +39,12 @@
     {
       "platform": "JobStreet Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
-      "native_pages_read": 0,
-      "native_unique_rows": 0,
+      "last_attempt_at": "2026-11-07T12:19:26+08:00",
+      "native_pages_read": 1,
+      "native_unique_rows": 30,
       "fallback_unique_rows": 4,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
-      "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
+      "reason": "Current ML-engineer search page 1 exposed 30 identifiable cards; page 2 click returned stale August cached snapshot, not same current result set. No valid contemporaneous page 2.",
+      "next_probe": "Refresh same JobStreet query page 2 using live native pagination and compare exact job IDs/page keys"
     },
     {
       "platform": "Indeed Malaysia",
@@ -59,12 +59,12 @@
     {
       "platform": "Hiredly",
       "query_family": "AI backend / platform / ML engineering",
-      "last_attempt_at": "2026-11-07T11:16:19+08:00",
+      "last_attempt_at": "2026-11-07T12:19:26+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 3,
-      "reason": "Prior coverage debt probed: Hiredly AI-Engineering index rendered role names in search index, but native page fetch returned no job cards; no native page-2 proof. Official/employer and independent LinkedIn exact-role fallbacks inspected; Tapway exact history #380.",
-      "next_probe": "Hiredly native search pagination page 1 and 2 with actual role IDs, or employer ATS plus independent native exact-role page"
+      "reason": "Native Hiredly /jobs returned category shell without job cards; /jobs?page=2 inaccessible. Independent Hiredly exact-role page (Tapway #380 historical SKIP) and employer/JobStreet alternative examined; breadth still unproven.",
+      "next_probe": "Hiredly searchable native results page/cursor via supported API or two independently paginated role feeds"
     }
   ]
 }
