@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-07T09:24:49.381381Z",
-    "source": "public-web-index-manual-pilot-2026-11-07",
+    "at": "2026-11-07T09:25:02.519698Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 2,
+      "already_seen": 9,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
       "new_pending": 0,
-      "observed": 2
+      "observed": 9
     }
   },
   "market": "SG",
