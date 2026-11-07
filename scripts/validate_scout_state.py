@@ -45,6 +45,22 @@ def check(kind: str, market: str, data: object) -> list[str]:
             errors.append("last_completed_at: missing string")
         if not isinstance(data.get("last_platforms"), list):
             errors.append("last_platforms: missing list")
+        debts = data.get("coverage_debt")
+        if not isinstance(debts, list):
+            errors.append("fresh state requires coverage_debt list")
+        else:
+            keys = ("platform", "query_family", "last_attempt_at",
+                    "reason", "next_probe")
+            for i, debt in enumerate(debts):
+                if not isinstance(debt, dict):
+                    errors.append(f"coverage_debt[{i}]: not an object")
+                    continue
+                for key in keys:
+                    if not isinstance(debt.get(key), str) or not debt[key]:
+                        errors.append(f"coverage_debt[{i}].{key}: missing string")
+                for key in ("native_pages_read", "native_unique_rows", "fallback_unique_rows"):
+                    if not isinstance(debt.get(key), int) or debt[key] < 0:
+                        errors.append(f"coverage_debt[{i}].{key}: invalid count")
         if "receipts" in data:
             errors.append("fresh state contains retry receipts (wrong file?)")
         if "last_consumed_candidate_seq" in data:
@@ -84,7 +100,7 @@ def self_test() -> None:
                   "next_platform_index": 1, "next_owner_bucket": 0,
                   "next_query_bucket": 2, "next_research_bucket": 2,
                   "run_counter": 8, "last_completed_at": "2026-11-06T20:00:00+08:00",
-                  "last_platforms": ["LinkedIn", "JobStreet"]}
+                  "last_platforms": ["LinkedIn", "JobStreet"], "coverage_debt": []}
     good_retry = {"market": "SG", "version": 1, "receipts": [
         {"role_key": "freehire:example", "reason_code": "retry",
          "candidate_seq": 3, "attempts": 1, "next_retry_at": "2026-11-07"}]}
