@@ -41,14 +41,23 @@ def get_json(url:str,payload:dict|None=None) -> dict:
     if not isinstance(obj,dict):raise ValueError("not JSON object")
     return obj
 
-def source_scan(fetch=get_json, pause=True, known_reqs=frozenset()) -> dict:
+def source_scan(fetch=get_json, pause=True, known_reqs=frozenset(), start_offsets=None) -> dict:
     observations={}
     probes=[]
+    start_offsets=start_offsets or {}
+    next_offsets={}
     for query in QUERIES:
-        for page in range(MAX_PAGES):
+        resume=start_offsets.get(query,0)
+        if not isinstance(resume,int) or resume<0 or resume%LIMIT:
+            raise ValueError("corrupt/invalid source cursor for "+query)
+        # Always scan the fresh head, plus overdue pages when present. A failed
+        # deeper page stays due and is never silently marked exhausted.
+        offsets=([0,LIMIT,2*LIMIT] if resume==0 else [0,resume,resume+LIMIT])
+        next_due=offsets[-1]+LIMIT
+        for page,offset in enumerate(offsets):
             try:
                 data=fetch(ROOT+"/jobs",{"appliedFacets":{},"limit":LIMIT,
-                       "offset":page*LIMIT,"searchText":query})
+                       "offset":offset,"searchText":query})
                 rows=data.get("jobPostings")
                 if not isinstance(rows,list):raise ValueError("no jobPostings")
                 valid=0
@@ -67,15 +76,19 @@ def source_scan(fetch=get_json, pause=True, known_reqs=frozenset()) -> dict:
                         observations[req]={"id":req,"title":title,"externalPath":p,
                             "postedOn":row.get("postedOn")}
                     valid+=1
-                probes.append({"query":query,"page":page+1,"offset":page*LIMIT,
+                probes.append({"query":query,"page":page+1,"offset":offset,
                     "raw_rows":len(rows),"qualified_title_rows":valid,
                     "reported_total":data.get("total"),"state":"LIST_OBTAINED"})
-                if len(rows)<LIMIT:break
+                if len(rows)<LIMIT:
+                    next_due=0
+                    break
             except Exception as e:
-                probes.append({"query":query,"page":page+1,"offset":page*LIMIT,
+                probes.append({"query":query,"page":page+1,"offset":offset,
                     "state":"SOURCE_FETCH_FAILED","error":type(e).__name__+":"+str(e)[:150]})
+                next_due=offset
                 break
             if pause:time.sleep(0.35)
+        next_offsets[query]=next_due
     if not any(p["state"]=="LIST_OBTAINED" for p in probes):
         raise RuntimeError("No NTU list API page succeeded. Source not scanned; do not claim zero vacancies.")
     items=[]
@@ -111,10 +124,7 @@ def source_scan(fetch=get_json, pause=True, known_reqs=frozenset()) -> dict:
         except Exception as e:
             fail.append({"id":role["id"],"error":type(e).__name__+":"+str(e)[:160]})
         if pause:time.sleep(0.3)
-    incomplete_queries=[
-        p for p in probes if p["state"]=="SOURCE_FETCH_FAILED" or
-        (p["page"]==MAX_PAGES and p.get("raw_rows")==LIMIT)
-    ]
+    incomplete_queries=[q for q in QUERIES if next_offsets[q]!=0]
     complete=(not incomplete_queries and not fail and len(chosen)<=MAX_DETAILS)
     return {
         "source":"ntu:official-cxs:SG",
@@ -124,6 +134,7 @@ def source_scan(fetch=get_json, pause=True, known_reqs=frozenset()) -> dict:
         "observed_at":datetime.now(timezone.utc).isoformat(),
         "coverage":"BOUNDED_QUERY_EXHAUSTED" if complete else "PARTIAL_COVERAGE",
         "title_candidates":len(chosen),
+        "next_offsets":next_offsets,
         "strong_history_id_suppressed":exact_known_count,
         "detail_budget":MAX_DETAILS,
         "details_attempted":min(MAX_DETAILS,len(chosen)),
@@ -136,6 +147,7 @@ if __name__=="__main__":
     ap=argparse.ArgumentParser()
     ap.add_argument("--output",type=Path,required=True)
     ap.add_argument("--known-index",type=Path)
+    ap.add_argument("--cursor-state",type=Path)
     args=ap.parse_args()
     known_ids=set()
     if args.known_index and args.known_index.exists():
@@ -145,7 +157,13 @@ if __name__=="__main__":
             # company or title similarity alone must never suppress a role.
             if "ntu.wd3.myworkdayjobs.com" in str(url):
                 known_ids.update(re.findall(r"R\d{8}",str(url)))
-    r=source_scan(known_reqs=known_ids)
+    offsets={}
+    if args.cursor_state and args.cursor_state.exists():
+        state=json.loads(args.cursor_state.read_text(encoding="utf-8"))
+        if state.get("source")!="ntu:official-cxs:SG":
+            raise ValueError("wrong source cursor state")
+        offsets=state.get("next_offsets",{})
+    r=source_scan(known_reqs=known_ids,start_offsets=offsets)
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(r,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print(json.dumps({"source":r["source"],"coverage":r["coverage"],
