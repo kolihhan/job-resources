@@ -96,10 +96,14 @@ def fetch_results():
                 job=payload.get("jobPostingInfo") if isinstance(payload,dict) else None
                 if not isinstance(job,dict):raise ValueError("missing jobPostingInfo")
                 jd=str(job.get("jobDescription") or "")
-                entry.update(state="LIVE_OFFICIAL_DETAIL" if jd and (req_id.lower() in str(payload).lower()) else "DETAIL_ID_OR_JD_UNVERIFIED",
+                entry.update(state=("LIVE_AND_CAN_APPLY" if jd and job.get("jobReqId")==req_id and job.get("canApply") is True
+                    else "NOT_APPLYABLE" if job.get("canApply") is False
+                    else "DETAIL_ID_OR_APPLY_UNVERIFIED"),
                    title=job.get("title"),description_chars=len(jd),
                    externalPath=matching[0]["externalPath"],
                    jobReqId=job.get("jobReqId"),timeType=job.get("timeType"),
+                   canApply=job.get("canApply"),externalUrl=job.get("externalUrl"),
+                   postedOn=job.get("postedOn"),startDate=job.get("startDate"),
                    detail_url=f"https://{HOST}/en-US/{site}"+matching[0]["externalPath"])
                 entry["jd_excerpt"]=jd[:550]
                 # Full public first-party JD is needed for mandatory-skill / YOE
