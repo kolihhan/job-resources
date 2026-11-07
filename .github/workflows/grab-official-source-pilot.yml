@@ -1,0 +1,46 @@
+name: Grab Official MY SG Source Pilot
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_grab_smartrecruiters.py'
+      - 'tests/test_grab_public_feed.py'
+      - '.github/workflows/grab-official-source-pilot.yml'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Unit test location, identity and open source evidence
+        run: python -m unittest discover -s tests -p 'test_grab_public_feed.py' -v
+      - name: Measure real Grab SmartRecruiters postings and details
+        run: python scripts/probe_grab_smartrecruiters.py --out artifacts/grab-official-source.json
+      - name: Report actual source yield and coverage debt
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          d=json.loads(Path('artifacts/grab-official-source.json').read_text())
+          lines=['# Grab MY/SG official job source pilot','',
+            'Source: Grab employer-owned SmartRecruiters public Posting API.',
+            'A passing test does NOT prove job fit or application readiness.','',
+            '| Market | Title/location IDs | Official detail verified | Source state |',
+            '|---|---:|---:|---|']
+          for x in d['results']:
+              lines.append(f"| {x['market']} | {x['observed_title_location_ids']} | {x['detail_verified']} | {x['status']} |")
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('\n'.join(lines)+'\n')
+          print(json.dumps({'exact_firstparty_items':sum(x['detail_verified'] for x in d['results'])}))
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grab-firstparty-pilot
+          path: artifacts/grab-official-source.json
+          retention-days: 14
