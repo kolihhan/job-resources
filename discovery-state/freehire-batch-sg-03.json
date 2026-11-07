@@ -5,6 +5,150 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 782,
+      "company": "FREEFLO",
+      "employment_type": null,
+      "external_id": "backend developer:92055782",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-23T12:15:22Z",
+      "public_slug": "senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
+      "role_key": "freehire:senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92055782__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Backend Engineer — Python & Serverless"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:model_training"
+      ],
+      "candidate_seq": 783,
+      "company": "Shopee",
+      "employment_type": null,
+      "external_id": "backend developer:92056599",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-23T12:15:16Z",
+      "public_slug": "senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
+      "role_key": "freehire:senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92056599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer - AI-Driven Anti-Fraud Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 785,
+      "company": "GlobalFoundries",
+      "employment_type": null,
+      "external_id": "globalfoundries.eightfold.ai/globalfoundries.com:563980770601252",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-23T00:00:00Z",
+      "public_slug": "software-engineer-ai-applications-globalfoundries-qb5rviok",
+      "role_key": "freehire:software-engineer-ai-applications-globalfoundries-qb5rviok",
+      "source": "eightfold",
+      "source_url": "https://careers.gf.com/careers/job/563980770601252?utm_source=freehire.me",
+      "title": "Software Engineer (AI Applications)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:agent"
+      ],
+      "candidate_seq": 786,
+      "company": "Nicoll Curtin",
+      "employment_type": "full_time",
+      "external_id": "6294:94782186",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-21T18:38:03Z",
+      "public_slug": "machine-learning-engineer-mid-senior-nicoll-curtin-6nw4xw3u",
+      "role_key": "freehire:machine-learning-engineer-mid-senior-nicoll-curtin-6nw4xw3u",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94782186?utm_source=freehire.me",
+      "title": "Machine Learning Engineer (Mid-Senior)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:genai"
+      ],
+      "candidate_seq": 787,
+      "company": "Tencent",
+      "employment_type": null,
+      "external_id": "tencent.wd1.myworkdayjobs.com/Tencent_Careers:/job/Singapore-CapitaSky/Tencent-Cloud---Senior-Pre-sales-Solution-Architect--GenAI---Cloud---Singapore_R107962",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore-CapitaSky",
+      "market": "SG",
+      "posted_at": "2026-09-21T00:00:00Z",
+      "public_slug": "tencent-cloud-senior-pre-sales-solution-architect-genai-cloud-singapore-tencent-ltdtneov",
+      "role_key": "freehire:tencent-cloud-senior-pre-sales-solution-architect-genai-cloud-singapore-tencent-ltdtneov",
+      "source": "workday",
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Tencent-Cloud---Senior-Pre-sales-Solution-Architect--GenAI---Cloud---Singapore_R107962?utm_source=freehire.me",
+      "title": "Tencent Cloud - Senior Pre-sales Solution Architect (GenAI & Cloud) -Singapore"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 788,
+      "company": "PSA Singapore",
+      "employment_type": null,
+      "external_id": "data engineer:91862065",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-19T18:18:02Z",
+      "public_slug": "azure-data-engineer-for-analytics-ai-platform-psa-singapore-7ouk3u5m",
+      "role_key": "freehire:azure-data-engineer-for-analytics-ai-platform-psa-singapore-7ouk3u5m",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91862065__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Azure Data Engineer for Analytics & AI Platform"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
         "jd:genai"
       ],
       "candidate_seq": 789,
@@ -50,153 +194,14 @@
       "source": "manatal",
       "source_url": "https://www.careers-page.com/ota/job/7X568683?utm_source=freehire.me",
       "title": "AI Engineer at Global Sourcing Company (Remote, Asia-based only)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:nlp"
-      ],
-      "candidate_seq": 791,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "data engineer:90422679",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T17:00:00Z",
-      "public_slug": "graduate-big-data-engineer-scalable-systems-ml-tiktok-z6inkkiy",
-      "role_key": "freehire:graduate-big-data-engineer-scalable-systems-ml-tiktok-z6inkkiy",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90422679__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Graduate Big Data Engineer - Scalable Systems & ML"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 792,
-      "company": "ASTM International",
-      "employment_type": null,
-      "external_id": "cb316e90-dff0-482d-84cc-2f99849ec539:19000101_000001:274390604278_1",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "SG",
-      "market": "SG",
-      "posted_at": "2026-09-10T16:13:54Z",
-      "public_slug": "ai-data-engineer-cb316e90-dff0-482d-84cc-2f99849ec539-19000101-000001-2553xag6",
-      "role_key": "freehire:ai-data-engineer-cb316e90-dff0-482d-84cc-2f99849ec539-19000101-000001-2553xag6",
-      "source": "adp",
-      "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=cb316e90-dff0-482d-84cc-2f99849ec539&ccId=19000101_000001&jobId=274390604278_1&lang=en_US&utm_source=freehire.me",
-      "title": "AI & Data Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:genai"
-      ],
-      "candidate_seq": 793,
-      "company": "Vitol Asia",
-      "employment_type": "full_time",
-      "external_id": "6290:94557881",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-10T14:37:02Z",
-      "public_slug": "genai-engineer-vitol-asia-qrju55vy",
-      "role_key": "freehire:genai-engineer-vitol-asia-qrju55vy",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94557881?utm_source=freehire.me",
-      "title": "GenAI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:machine_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 794,
-      "company": "Micron",
-      "employment_type": null,
-      "external_id": "careers.micron.com/micron.com:44436036",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-10T00:00:00Z",
-      "public_slug": "data-scientist-micron-w5e2hsgk",
-      "role_key": "freehire:data-scientist-micron-w5e2hsgk",
-      "source": "eightfold",
-      "source_url": "https://careers.micron.com/careers/job/44436036?utm_source=freehire.me",
-      "title": "Data Scientist"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:machine_learning",
-        "jd:agent"
-      ],
-      "candidate_seq": 795,
-      "company": "Micron Technology",
-      "employment_type": null,
-      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/Fab-10A-Singapore/Data-Scientist_JR111151",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Fab 10A, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-10T00:00:00Z",
-      "public_slug": "data-scientist-micron-technology-zooyzqun",
-      "role_key": "freehire:data-scientist-micron-technology-zooyzqun",
-      "source": "workday",
-      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Data-Scientist_JR111151?utm_source=freehire.me",
-      "title": "Data Scientist"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 796,
-      "company": "UBS",
-      "employment_type": "full_time",
-      "external_id": "6290:94370299",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-02T09:44:52Z",
-      "public_slug": "global-markets-senior-ai-platform-engineer-ubs-jzwqcugi",
-      "role_key": "freehire:global-markets-senior-ai-platform-engineer-ubs-jzwqcugi",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94370299?utm_source=freehire.me",
-      "title": "Global Markets - Senior AI Platform Engineer"
     }
   ],
-  "generated_at": "2026-11-06T23:33:29.209242Z",
+  "generated_at": "2026-11-07T02:11:58.135291Z",
   "market": "SG",
-  "max_candidate_seq": 796,
-  "min_candidate_seq": 789,
+  "max_candidate_seq": 790,
+  "min_candidate_seq": 782,
   "shard_index": 3,
-  "source_generated_at": "2026-11-05T23:49:33.991532Z",
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

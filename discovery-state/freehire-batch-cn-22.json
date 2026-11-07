@@ -1,0 +1,196 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:rag",
+        "jd:pytorch",
+        "jd:transformer",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2235,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7592503207398525237",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai; Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-01-07T06:31:12Z",
+      "public_slug": "aiying-yong-jia-gou-shi-yi-dong-os-bytedance-hd7fcbji",
+      "role_key": "freehire:aiying-yong-jia-gou-shi-yi-dong-os-bytedance-hd7fcbji",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7592503207398525237/detail?utm_source=freehire.me",
+      "title": "AI应用架构师 - 移动OS"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2236,
+      "company": "DJI",
+      "employment_type": null,
+      "external_id": "dji/170070:48fd95ca-97c1-4d6a-86ed-0605c8e81784",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen; 上海市, 上海市",
+      "market": "CN",
+      "posted_at": "2026-01-01T00:00:00Z",
+      "public_slug": "zhong-gao-ji-duo-mei-ti-suan-fa-gong-cheng-shi-liang-du-ai-tone-dji-g2gloz4i",
+      "role_key": "freehire:zhong-gao-ji-duo-mei-ti-suan-fa-gong-cheng-shi-liang-du-ai-tone-dji-g2gloz4i",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/dji/170070?utm_source=freehire.me#/job/48fd95ca-97c1-4d6a-86ed-0605c8e81784",
+      "title": "中/高级多媒体算法工程师（亮度/AI TONE）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:multimodal",
+        "jd:model_training"
+      ],
+      "candidate_seq": 2237,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7582812070758287669",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2025-12-12T03:45:16Z",
+      "public_slug": "nei-rong-an-quan-suan-fa-gong-cheng-shi-tiktokye-wu-feng-kong-bytedance-hz3vymtd",
+      "role_key": "freehire:nei-rong-an-quan-suan-fa-gong-cheng-shi-tiktokye-wu-feng-kong-bytedance-hz3vymtd",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7582812070758287669/detail?utm_source=freehire.me",
+      "title": "内容安全算法工程师-TikTok业务风控"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2239,
+      "company": "Autoliv",
+      "employment_type": null,
+      "external_id": "careerchina.autoliv.com:6905855",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Jiading Qu, CN",
+      "market": "CN",
+      "posted_at": "2025-12-10T02:30:22Z",
+      "public_slug": "data-science-and-ai-expert-statistics-autoliv-x3btd5v4",
+      "role_key": "freehire:data-science-and-ai-expert-statistics-autoliv-x3btd5v4",
+      "source": "teamtailor",
+      "source_url": "https://careerchina.autoliv.com/jobs/6905855-data-science-and-ai-expert-statistics?utm_source=freehire.me",
+      "title": "Data Science and AI Expert, Statistics"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2240,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7581340566873557253",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai; Hangzhou",
+      "market": "CN",
+      "posted_at": "2025-12-08T04:33:39Z",
+      "public_slug": "zi-shen-aiyan-fa-gong-cheng-shi-ai-test-infrafang-xiang-tiktok-shop-bytedance-na3k4ra3",
+      "role_key": "freehire:zi-shen-aiyan-fa-gong-cheng-shi-ai-test-infrafang-xiang-tiktok-shop-bytedance-na3k4ra3",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7581340566873557253/detail?utm_source=freehire.me",
+      "title": "资深AI研发工程师（AI Test Infra方向）-TikTok Shop"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:rag",
+        "jd:pytorch",
+        "jd:transformer",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2241,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7581313256771340549",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2025-12-08T02:47:39Z",
+      "public_slug": "llmsuan-fa-gong-cheng-shi-dou-bao-shou-ji-zhu-shou-shang-hai-bytedance-tqyz7trl",
+      "role_key": "freehire:llmsuan-fa-gong-cheng-shi-dou-bao-shou-ji-zhu-shou-shang-hai-bytedance-tqyz7trl",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7581313256771340549/detail?utm_source=freehire.me",
+      "title": "LLM算法工程师-豆包手机助手（上海）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2242,
+      "company": "Qualcomm",
+      "employment_type": null,
+      "external_id": "qualcomm.eightfold.ai/qualcomm.com:446714829336",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Guangdong, China",
+      "market": "CN",
+      "posted_at": "2025-11-27T00:00:00Z",
+      "public_slug": "gaming-ai-engineer-qualcomm-l34yavs3",
+      "role_key": "freehire:gaming-ai-engineer-qualcomm-l34yavs3",
+      "source": "eightfold",
+      "source_url": "https://careers.qualcomm.com/careers/job/446714829336?utm_source=freehire.me",
+      "title": "Gaming AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:machine_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 2243,
+      "company": "Mercedes-Benz Group AG",
+      "employment_type": null,
+      "external_id": "stgdaimler.taleo.net/ex:MER0003TJ8",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China (Mainland)-Beijing-Beijing",
+      "market": "CN",
+      "posted_at": "2025-10-11T00:00:00Z",
+      "public_slug": "business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw",
+      "role_key": "freehire:business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw",
+      "source": "taleo",
+      "source_url": "https://stgdaimler.taleo.net/careersection/ex/jobdetail.ftl?job=MER0003TJ8&lang=en&utm_source=freehire.me",
+      "title": "Business Intelligence (Data Scientist)  商务智能 (数据科学家)"
+    }
+  ],
+  "generated_at": "2026-11-07T02:11:58.135291Z",
+  "market": "CN",
+  "max_candidate_seq": 2243,
+  "min_candidate_seq": 2235,
+  "shard_index": 22,
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

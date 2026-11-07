@@ -1,0 +1,215 @@
+{
+  "candidate_count": 9,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 904,
+      "company": "Binance",
+      "employment_type": null,
+      "external_id": "binance:5002575101",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hong Kong; Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-06T07:34:22Z",
+      "public_slug": "pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
+      "role_key": "freehire:pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101?utm_source=freehire.me",
+      "title": "Pioneer Talent Program - Applied Data Scientist"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 905,
+      "company": "Binance",
+      "employment_type": null,
+      "external_id": "binance:5002721101",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hong Kong; Singapore; Taiwan",
+      "market": "SG",
+      "posted_at": "2026-11-05T10:11:53Z",
+      "public_slug": "senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
+      "role_key": "freehire:senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002721101?utm_source=freehire.me",
+      "title": "Senior AI Agents Backend Engineer – Golang (APAC Remote)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 906,
+      "company": "CoreWeave APAC",
+      "employment_type": null,
+      "external_id": "coreweaveapac:4703122006",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-04T23:33:14Z",
+      "public_slug": "senior-software-engineer-ai-workload-orchestration-coreweave-apac-4n52elp3",
+      "role_key": "freehire:senior-software-engineer-ai-workload-orchestration-coreweave-apac-4n52elp3",
+      "source": "greenhouse",
+      "source_url": "https://coreweave.com/careers/apac?gh_jid=4703122006&utm_source=freehire.me",
+      "title": "Senior Software Engineer- AI Workload Orchestration"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 907,
+      "company": "DRW",
+      "employment_type": null,
+      "external_id": "drweng:7276024",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "London, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T13:32:31Z",
+      "public_slug": "quantitative-researcher-machine-learning-drw-6ty6i4fu",
+      "role_key": "freehire:quantitative-researcher-machine-learning-drw-6ty6i4fu",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/drweng/jobs/7276024?utm_source=freehire.me",
+      "title": "Quantitative Researcher - Machine Learning"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 908,
+      "company": "ActAI",
+      "employment_type": null,
+      "external_id": "backend developer:590076868",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "London, United Kingdom",
+      "market": "SG",
+      "posted_at": "2026-10-30T10:48:12Z",
+      "public_slug": "backend-engineer-ai-agent-systems-actai-g6qaifv3",
+      "role_key": "freehire:backend-engineer-ai-agent-systems-actai-g6qaifv3",
+      "source": "whatjobs-uk",
+      "source_url": "https://uk.whatjobs.com/pub_api__cpl__590076868__7082?utm_campaign=publisher&utm_medium=api&geoID=33&utm_source=freehire.me",
+      "title": "Backend Engineer, AI (Agent Systems)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 909,
+      "company": "01 Computer System",
+      "employment_type": "full_time",
+      "external_id": "6296:95608967",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-30T09:42:19Z",
+      "public_slug": "presales-consultant-audio-visual-cybersecurity-ai-01-computer-system-h2q3wepv",
+      "role_key": "freehire:presales-consultant-audio-visual-cybersecurity-ai-01-computer-system-h2q3wepv",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95608967?utm_source=freehire.me",
+      "title": "Presales Consultant (Audio Visual , Cybersecurity, AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 910,
+      "company": "Reolink",
+      "employment_type": null,
+      "external_id": "reolink:4473705009",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T09:30:35Z",
+      "public_slug": "machine-learning-engineer-audio-speech-acoustics-sound-reolink-bekvly7o",
+      "role_key": "freehire:machine-learning-engineer-audio-speech-acoustics-sound-reolink-bekvly7o",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/reolink/jobs/4473705009?utm_source=freehire.me",
+      "title": "Machine Learning Engineer | Audio, Speech, Acoustics & Sound"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 911,
+      "company": "Thunes",
+      "employment_type": null,
+      "external_id": "thunes:7594336003",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Central, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T08:30:23Z",
+      "public_slug": "ai-engineer-thunes-4kegzkfb",
+      "role_key": "freehire:ai-engineer-thunes-4kegzkfb",
+      "source": "greenhouse",
+      "source_url": "https://www.thunes.com/jobs/7594336003?gh_jid=7594336003&utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 912,
+      "company": "OCBC Bank",
+      "employment_type": null,
+      "external_id": "6290:95604177",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T03:00:00Z",
+      "public_slug": "senior-ai-engineer-ocbc-bank-57u5ozdt",
+      "role_key": "freehire:senior-ai-engineer-ocbc-bank-57u5ozdt",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95604177?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
+    }
+  ],
+  "generated_at": "2026-11-07T02:11:58.135291Z",
+  "market": "SG",
+  "max_candidate_seq": 912,
+  "min_candidate_seq": 904,
+  "shard_index": 17,
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

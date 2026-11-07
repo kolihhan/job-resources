@@ -1,0 +1,150 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2252,
+      "company": "Moonshot AI",
+      "employment_type": null,
+      "external_id": "moonshot/148506:2046b627-c20c-4e83-b6fe-c4269ce40eab",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-04-09T16:00:00Z",
+      "public_slug": "qiang-hua-xue-xi-da-mo-xing-yan-fa-gong-cheng-shi-yan-jiu-yuan-ai-engineer-researcher-rl-moonshot-ai-hy2v6ytq",
+      "role_key": "freehire:qiang-hua-xue-xi-da-mo-xing-yan-fa-gong-cheng-shi-yan-jiu-yuan-ai-engineer-researcher-rl-moonshot-ai-hy2v6ytq",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/moonshot/148506?utm_source=freehire.me#/job/2046b627-c20c-4e83-b6fe-c4269ce40eab",
+      "title": "强化学习-大模型研发工程师/研究员（AI Engineer/Researcher - RL)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 2253,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7471103206984452360",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-02-14T03:04:01Z",
+      "public_slug": "yan-gao-jia-gou-gao-ji-gong-cheng-shi-ads-ml-infra-bytedance-3vxbby4z",
+      "role_key": "freehire:yan-gao-jia-gou-gao-ji-gong-cheng-shi-ads-ml-infra-bytedance-3vxbby4z",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7471103206984452360/detail?utm_source=freehire.me",
+      "title": "广告架构高级工程师-Ads ML Infra"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:nlp"
+      ],
+      "candidate_seq": 2254,
+      "company": "Voyah",
+      "employment_type": null,
+      "external_id": "voyah/146292:9c788501-01ec-4380-be87-0936aad9d7f1",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "北京市, 北京市",
+      "market": "CN",
+      "posted_at": "2025-02-06T16:00:00Z",
+      "public_slug": "suan-fa-gong-cheng-shi-nlu-nlp-yu-yin-suan-fa-kai-fa-gong-cheng-shi-voyah-iiyhxvw2",
+      "role_key": "freehire:suan-fa-gong-cheng-shi-nlu-nlp-yu-yin-suan-fa-kai-fa-gong-cheng-shi-voyah-iiyhxvw2",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/voyah/146292?utm_source=freehire.me#/job/9c788501-01ec-4380-be87-0936aad9d7f1",
+      "title": "算法工程师（NLU/NLP）（语音算法开发工程师）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:agent",
+        "jd:pytorch",
+        "jd:tensorflow",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2255,
+      "company": "Voyah",
+      "employment_type": null,
+      "external_id": "voyah/146292:78908893-a2be-4f77-9060-70462b5e2e8e",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "北京市, 北京市; 上海市, 上海市",
+      "market": "CN",
+      "posted_at": "2025-02-06T16:00:00Z",
+      "public_slug": "duo-mo-tai-da-mo-xing-suan-fa-gong-cheng-shi-yu-yin-suan-fa-kai-fa-gong-cheng-shi-voyah-vsicqfyb",
+      "role_key": "freehire:duo-mo-tai-da-mo-xing-suan-fa-gong-cheng-shi-yu-yin-suan-fa-kai-fa-gong-cheng-shi-voyah-vsicqfyb",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/voyah/146292?utm_source=freehire.me#/job/78908893-a2be-4f77-9060-70462b5e2e8e",
+      "title": "多模态大模型算法工程师（语音算法开发工程师）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:nlp",
+        "jd:tensorflow",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2257,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7460073798487886087",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai",
+      "market": "CN",
+      "posted_at": "2025-01-15T09:39:15Z",
+      "public_slug": "aiying-yong-suan-fa-gong-cheng-shi-ju-liang-aigong-zuo-tai-bytedance-7zvzohnm",
+      "role_key": "freehire:aiying-yong-suan-fa-gong-cheng-shi-ju-liang-aigong-zuo-tai-bytedance-7zvzohnm",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7460073798487886087/detail?utm_source=freehire.me",
+      "title": "AI应用算法工程师-巨量AI工作台"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:rag",
+        "jd:pytorch",
+        "jd:transformer",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2259,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7447767919717058823",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2024-12-13T05:55:36Z",
+      "public_slug": "da-mo-xing-suan-fa-zhuan-jia-dev-aifang-xiang-aime-bytedance-btzeqy3y",
+      "role_key": "freehire:da-mo-xing-suan-fa-zhuan-jia-dev-aifang-xiang-aime-bytedance-btzeqy3y",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7447767919717058823/detail?utm_source=freehire.me",
+      "title": "大模型算法专家（Dev AI方向）-Aime"
+    }
+  ],
+  "generated_at": "2026-11-07T02:11:58.135291Z",
+  "market": "CN",
+  "max_candidate_seq": 2259,
+  "min_candidate_seq": 2252,
+  "shard_index": 24,
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

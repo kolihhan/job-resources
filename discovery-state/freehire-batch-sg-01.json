@@ -4,6 +4,28 @@
     {
       "ai_score": 5,
       "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 754,
+      "company": "Kredivo Group",
+      "employment_type": null,
+      "external_id": "kredivo-group:08e00a3e1492",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-05T04:28:05Z",
+      "public_slug": "software-engineer-ai-kredivo-group-bsncssyk",
+      "role_key": "freehire:software-engineer-ai-kredivo-group-bsncssyk",
+      "source": "breezy",
+      "source_url": "https://kredivo-group.breezy.hr/p/08e00a3e1492-software-engineer-ai?utm_source=freehire.me",
+      "title": "Software Engineer - AI"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
         "title:ml",
         "jd:machine_learning"
       ],
@@ -158,38 +180,14 @@
       "source": "manatal",
       "source_url": "https://www.careers-page.com/newbridge-/job/6369963R?utm_source=freehire.me",
       "title": "Senior Forward Deployed Engineer - Agentic Development Lifecycle"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 773,
-      "company": "SimplifyNext",
-      "employment_type": null,
-      "external_id": "simplifynext:5019281007",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-01T01:57:19Z",
-      "public_slug": "ai-engineer-simplifynext-js5dsv5t",
-      "role_key": "freehire:ai-engineer-simplifynext-js5dsv5t",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007?utm_source=freehire.me",
-      "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-06T23:33:29.209242Z",
+  "generated_at": "2026-11-07T02:11:58.135291Z",
   "market": "SG",
-  "max_candidate_seq": 773,
-  "min_candidate_seq": 755,
+  "max_candidate_seq": 772,
+  "min_candidate_seq": 754,
   "shard_index": 1,
-  "source_generated_at": "2026-11-05T23:49:33.991532Z",
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

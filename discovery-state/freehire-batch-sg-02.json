@@ -7,6 +7,30 @@
         "title:ai",
         "jd:agent"
       ],
+      "candidate_seq": 773,
+      "company": "SimplifyNext",
+      "employment_type": null,
+      "external_id": "simplifynext:5019281007",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T01:57:19Z",
+      "public_slug": "ai-engineer-simplifynext-js5dsv5t",
+      "role_key": "freehire:ai-engineer-simplifynext-js5dsv5t",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
       "candidate_seq": 774,
       "company": "SimplifyNext",
       "employment_type": null,
@@ -101,6 +125,28 @@
         "title:ai",
         "jd:llm"
       ],
+      "candidate_seq": 779,
+      "company": "Space Executive",
+      "employment_type": null,
+      "external_id": "data engineer:92134258",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-24T11:58:39Z",
+      "public_slug": "end-to-end-data-platform-engineer-ai-driven-space-executive-pjegpkkg",
+      "role_key": "freehire:end-to-end-data-platform-engineer-ai-driven-space-executive-pjegpkkg",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92134258__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "End-to-End Data Platform Engineer - AI-Driven"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
       "candidate_seq": 780,
       "company": "TikTok",
       "employment_type": null,
@@ -120,82 +166,39 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "jd:genai",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval",
+        "jd:multimodal"
       ],
-      "candidate_seq": 782,
-      "company": "FREEFLO",
+      "candidate_seq": 781,
+      "company": "r systems (singapore) pte limited",
       "employment_type": null,
-      "external_id": "backend developer:92055782",
+      "external_id": "data engineer:92054486",
       "flags": [
         "senior_title_hint",
+        "experience_5_plus_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-23T12:15:22Z",
-      "public_slug": "senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
-      "role_key": "freehire:senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
+      "posted_at": "2026-09-23T12:15:33Z",
+      "public_slug": "senior-data-engineer-r-systems-singapore-pte-limited-saf5jo2z",
+      "role_key": "freehire:senior-data-engineer-r-systems-singapore-pte-limited-saf5jo2z",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92055782__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Backend Engineer — Python & Serverless"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:model_training"
-      ],
-      "candidate_seq": 783,
-      "company": "Shopee",
-      "employment_type": null,
-      "external_id": "backend developer:92056599",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-23T12:15:16Z",
-      "public_slug": "senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
-      "role_key": "freehire:senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92056599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer - AI-Driven Anti-Fraud Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 785,
-      "company": "GlobalFoundries",
-      "employment_type": null,
-      "external_id": "globalfoundries.eightfold.ai/globalfoundries.com:563980770601252",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-23T00:00:00Z",
-      "public_slug": "software-engineer-ai-applications-globalfoundries-qb5rviok",
-      "role_key": "freehire:software-engineer-ai-applications-globalfoundries-qb5rviok",
-      "source": "eightfold",
-      "source_url": "https://careers.gf.com/careers/job/563980770601252?utm_source=freehire.me",
-      "title": "Software Engineer (AI Applications)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92054486__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer"
     }
   ],
-  "generated_at": "2026-11-06T23:33:29.209242Z",
+  "generated_at": "2026-11-07T02:11:58.135291Z",
   "market": "SG",
-  "max_candidate_seq": 785,
-  "min_candidate_seq": 774,
+  "max_candidate_seq": 781,
+  "min_candidate_seq": 773,
   "shard_index": 2,
-  "source_generated_at": "2026-11-05T23:49:33.991532Z",
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

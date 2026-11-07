@@ -4,6 +4,145 @@
     {
       "ai_score": 5,
       "ai_signals": [
+        "title:ml",
+        "jd:nlp"
+      ],
+      "candidate_seq": 791,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "data engineer:90422679",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T17:00:00Z",
+      "public_slug": "graduate-big-data-engineer-scalable-systems-ml-tiktok-z6inkkiy",
+      "role_key": "freehire:graduate-big-data-engineer-scalable-systems-ml-tiktok-z6inkkiy",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90422679__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Graduate Big Data Engineer - Scalable Systems & ML"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 792,
+      "company": "ASTM International",
+      "employment_type": null,
+      "external_id": "cb316e90-dff0-482d-84cc-2f99849ec539:19000101_000001:274390604278_1",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "SG",
+      "market": "SG",
+      "posted_at": "2026-09-10T16:13:54Z",
+      "public_slug": "ai-data-engineer-cb316e90-dff0-482d-84cc-2f99849ec539-19000101-000001-2553xag6",
+      "role_key": "freehire:ai-data-engineer-cb316e90-dff0-482d-84cc-2f99849ec539-19000101-000001-2553xag6",
+      "source": "adp",
+      "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=cb316e90-dff0-482d-84cc-2f99849ec539&ccId=19000101_000001&jobId=274390604278_1&lang=en_US&utm_source=freehire.me",
+      "title": "AI & Data Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:genai"
+      ],
+      "candidate_seq": 793,
+      "company": "Vitol Asia",
+      "employment_type": "full_time",
+      "external_id": "6290:94557881",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-10T14:37:02Z",
+      "public_slug": "genai-engineer-vitol-asia-qrju55vy",
+      "role_key": "freehire:genai-engineer-vitol-asia-qrju55vy",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94557881?utm_source=freehire.me",
+      "title": "GenAI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:machine_learning",
+        "jd:agent"
+      ],
+      "candidate_seq": 794,
+      "company": "Micron",
+      "employment_type": null,
+      "external_id": "careers.micron.com/micron.com:44436036",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-10T00:00:00Z",
+      "public_slug": "data-scientist-micron-w5e2hsgk",
+      "role_key": "freehire:data-scientist-micron-w5e2hsgk",
+      "source": "eightfold",
+      "source_url": "https://careers.micron.com/careers/job/44436036?utm_source=freehire.me",
+      "title": "Data Scientist"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:machine_learning",
+        "jd:agent"
+      ],
+      "candidate_seq": 795,
+      "company": "Micron Technology",
+      "employment_type": null,
+      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/Fab-10A-Singapore/Data-Scientist_JR111151",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Fab 10A, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-10T00:00:00Z",
+      "public_slug": "data-scientist-micron-technology-zooyzqun",
+      "role_key": "freehire:data-scientist-micron-technology-zooyzqun",
+      "source": "workday",
+      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Data-Scientist_JR111151?utm_source=freehire.me",
+      "title": "Data Scientist"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 796,
+      "company": "UBS",
+      "employment_type": "full_time",
+      "external_id": "6290:94370299",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-02T09:44:52Z",
+      "public_slug": "global-markets-senior-ai-platform-engineer-ubs-jzwqcugi",
+      "role_key": "freehire:global-markets-senior-ai-platform-engineer-ubs-jzwqcugi",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94370299?utm_source=freehire.me",
+      "title": "Global Markets - Senior AI Platform Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
         "title:genai"
       ],
       "candidate_seq": 797,
@@ -48,154 +187,14 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90521386__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Backend Engineer - Distributed ML Platform (C++)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 799,
-      "company": "SHOPEE SINGAPORE PRIVATE LIMITED",
-      "employment_type": null,
-      "external_id": "backend developer:90521816",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-28T20:49:31Z",
-      "public_slug": "expert-backend-engineer-machine-learning-server-parameter-ego-team-shopee-singapore-private-limited-56jrtr56",
-      "role_key": "freehire:expert-backend-engineer-machine-learning-server-parameter-ego-team-shopee-singapore-private-limited-56jrtr56",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90521816__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Expert Backend Engineer (Machine Learning Server Parameter) - EGO team"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 800,
-      "company": "Infineon",
-      "employment_type": null,
-      "external_id": "infineon.eightfold.ai/infineon.com:563808971627062",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-26T06:48:29Z",
-      "public_slug": "senior-ai-engineer-infineon-r7acm7jx",
-      "role_key": "freehire:senior-ai-engineer-infineon-r7acm7jx",
-      "source": "eightfold",
-      "source_url": "https://jobs.infineon.com/careers/job/563808971627062?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 801,
-      "company": "Shopee",
-      "employment_type": null,
-      "external_id": "backend developer:90355418",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-23T09:46:14Z",
-      "public_slug": "senior-backend-engineer-ml-parameter-server-distributed-shopee-cxcluodq",
-      "role_key": "freehire:senior-backend-engineer-ml-parameter-server-distributed-shopee-cxcluodq",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90355418__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer, ML Parameter Server (Distributed)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:agent"
-      ],
-      "candidate_seq": 802,
-      "company": "cygnify",
-      "employment_type": null,
-      "external_id": "cygnify:e8781236-94d2-4f3e-8411-1c761d96f3e6",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-19T11:21:13Z",
-      "public_slug": "platform-engineer-machine-learning-cygnify-qht5a6ju",
-      "role_key": "freehire:platform-engineer-machine-learning-cygnify-qht5a6ju",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/cygnify/e8781236-94d2-4f3e-8411-1c761d96f3e6?utm_source=freehire.me",
-      "title": "Platform Engineer (Machine Learning)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 803,
-      "company": "Xtremax Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "xtremax-pte-ltd:82A37475EC",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-19T00:00:00Z",
-      "public_slug": "full-stack-engineer-ai-public-sector-xtremax-pte-ltd-aocvvb3u",
-      "role_key": "freehire:full-stack-engineer-ai-public-sector-xtremax-pte-ltd-aocvvb3u",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/82A37475EC?utm_source=freehire.me",
-      "title": "Full Stack Engineer - AI (Public Sector)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 804,
-      "company": "cygnify",
-      "employment_type": null,
-      "external_id": "cygnify:8b4caac6-95d5-4964-b5c5-1eef092af1c9",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-18T12:42:31Z",
-      "public_slug": "full-stack-developer-ai-cygnify-7d5jysws",
-      "role_key": "freehire:full-stack-developer-ai-cygnify-7d5jysws",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/cygnify/8b4caac6-95d5-4964-b5c5-1eef092af1c9?utm_source=freehire.me",
-      "title": "Full Stack Developer (AI)"
     }
   ],
-  "generated_at": "2026-11-06T23:33:29.209242Z",
+  "generated_at": "2026-11-07T02:11:58.135291Z",
   "market": "SG",
-  "max_candidate_seq": 804,
-  "min_candidate_seq": 797,
+  "max_candidate_seq": 798,
+  "min_candidate_seq": 791,
   "shard_index": 4,
-  "source_generated_at": "2026-11-05T23:49:33.991532Z",
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

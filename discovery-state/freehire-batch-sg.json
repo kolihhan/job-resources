@@ -1,13 +1,13 @@
 {
-  "batch_size": 100,
-  "candidate_count": 100,
+  "batch_size": 200,
+  "candidate_count": 200,
   "cursor_before": 751,
-  "generated_at": "2026-11-06T23:33:29.209242Z",
+  "generated_at": "2026-11-07T02:11:58.135291Z",
   "market": "SG",
-  "max_candidate_seq": 877,
+  "max_candidate_seq": 971,
   "max_shard_bytes": 8000,
-  "remaining_after_batch": 764,
-  "shard_count": 12,
+  "remaining_after_batch": 705,
+  "shard_count": 24,
   "shard_size": 25,
   "shards": [
     "freehire-batch-sg-01.json",
@@ -21,9 +21,21 @@
     "freehire-batch-sg-09.json",
     "freehire-batch-sg-10.json",
     "freehire-batch-sg-11.json",
-    "freehire-batch-sg-12.json"
+    "freehire-batch-sg-12.json",
+    "freehire-batch-sg-13.json",
+    "freehire-batch-sg-14.json",
+    "freehire-batch-sg-15.json",
+    "freehire-batch-sg-16.json",
+    "freehire-batch-sg-17.json",
+    "freehire-batch-sg-18.json",
+    "freehire-batch-sg-19.json",
+    "freehire-batch-sg-20.json",
+    "freehire-batch-sg-21.json",
+    "freehire-batch-sg-22.json",
+    "freehire-batch-sg-23.json",
+    "freehire-batch-sg-24.json"
   ],
-  "source_generated_at": "2026-11-05T23:49:33.991532Z",
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

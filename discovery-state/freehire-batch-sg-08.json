@@ -5,182 +5,88 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ml",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 835,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6290:93558344",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-26T02:11:42Z",
-      "public_slug": "machine-learning-engineer-location-product-tiktok-yowlssmt",
-      "role_key": "freehire:machine-learning-engineer-location-product-tiktok-yowlssmt",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93558344?utm_source=freehire.me",
-      "title": "Machine Learning Engineer - Location Product"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
         "jd:machine_learning"
       ],
-      "candidate_seq": 836,
+      "candidate_seq": 826,
       "company": "TikTok",
       "employment_type": null,
-      "external_id": "6294:93558337",
+      "external_id": "6294:93816057",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-07-26T02:11:20Z",
-      "public_slug": "machine-learning-engineer-live-recommendation-singapore-tiktok-7fc3ml6g",
-      "role_key": "freehire:machine-learning-engineer-live-recommendation-singapore-tiktok-7fc3ml6g",
+      "posted_at": "2026-08-06T12:25:19Z",
+      "public_slug": "machine-learning-engineer-graduate-recommendation-2027-start-phd-tiktok-altem4ho",
+      "role_key": "freehire:machine-learning-engineer-graduate-recommendation-2027-start-phd-tiktok-altem4ho",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93558337?utm_source=freehire.me",
-      "title": "Machine Learning Engineer, LIVE Recommendation - Singapore"
+      "source_url": "https://sg.jobstreet.com/job/93816057?utm_source=freehire.me",
+      "title": "Machine Learning Engineer Graduate (Recommendation) - 2027 Start (PhD)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:llm"
       ],
-      "candidate_seq": 837,
+      "candidate_seq": 827,
+      "company": "Dimensions HRD Consultants",
+      "employment_type": null,
+      "external_id": "21:1721515",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-05T06:35:44Z",
+      "public_slug": "legal-counsel-metals-trading-llb-llm-dimensions-hrd-consultants-c7qhkxlj",
+      "role_key": "freehire:legal-counsel-metals-trading-llb-llm-dimensions-hrd-consultants-c7qhkxlj",
+      "source": "iimjobs",
+      "source_url": "https://www.iimjobs.com/j/legal-counsel-metals-trading-llb-llm-1721515?utm_source=freehire.me",
+      "title": "Legal Counsel - Metals Trading - LLB/LLM"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 828,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "6290:93760168",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-04T11:31:59Z",
+      "public_slug": "machine-learning-ops-engineer-graduate-ads-infra-2027-start-tiktok-hvy2jrgk",
+      "role_key": "freehire:machine-learning-ops-engineer-graduate-ads-infra-2027-start-tiktok-hvy2jrgk",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/93760168?utm_source=freehire.me",
+      "title": "Machine Learning Ops Engineer Graduate (Ads Infra) - 2027 Start"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 829,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7664493475353954613",
+      "external_id": "jobs.bytedance.com:7669791940490168629",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "San Jose",
       "market": "SG",
-      "posted_at": "2026-07-20T06:30:01Z",
-      "public_slug": "llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
-      "role_key": "freehire:llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
+      "posted_at": "2026-08-03T13:10:21Z",
+      "public_slug": "machine-learning-backend-engineer-graduate-aml-mldev-2027-start-bytedance-3bruzrhs",
+      "role_key": "freehire:machine-learning-backend-engineer-graduate-aml-mldev-2027-start-bytedance-3bruzrhs",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7664493475353954613/detail?utm_source=freehire.me",
-      "title": "LLM System Backend Engineer Graduate (AML Ark) - 2027 Start"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:llm"
-      ],
-      "candidate_seq": 838,
-      "company": "bitdeer",
-      "employment_type": null,
-      "external_id": "bitdeer:fa503f83da0a",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-04T07:47:34Z",
-      "public_slug": "senior-llm-inference-performance-evaluation-engineer-bitdeer-bf4k22pz",
-      "role_key": "freehire:senior-llm-inference-performance-evaluation-engineer-bitdeer-bf4k22pz",
-      "source": "breezy",
-      "source_url": "https://bitdeer.breezy.hr/p/fa503f83da0a-senior-llm-inference-performance-evaluation-engineer?utm_source=freehire.me",
-      "title": "Senior LLM Inference Performance & Evaluation Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 839,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7663394302727538949",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-17T07:24:47Z",
-      "public_slug": "backend-applied-machine-learning-engineer-graduate-aml-efficiency-tool-2027-start-bytedance-azdczpbg",
-      "role_key": "freehire:backend-applied-machine-learning-engineer-graduate-aml-efficiency-tool-2027-start-bytedance-azdczpbg",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7663394302727538949/detail?utm_source=freehire.me",
-      "title": "Backend Applied Machine Learning Engineer Graduate (AML Efficiency Tool) - 2027 Start"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 840,
-      "company": "sim",
-      "employment_type": null,
-      "external_id": "sim.wd3.myworkdayjobs.com/external:/job/Clementi-Campus/Associate-Lecturer---Machine-Learning--HE1-_JR101301",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Clementi Campus",
-      "market": "SG",
-      "posted_at": "2026-07-15T00:00:00Z",
-      "public_slug": "associate-lecturer-machine-learning-he1-sim-koezypeg",
-      "role_key": "freehire:associate-lecturer-machine-learning-he1-sim-koezypeg",
-      "source": "workday",
-      "source_url": "https://sim.wd3.myworkdayjobs.com/External/job/Clementi-Campus/Associate-Lecturer---Machine-Learning--HE1-_JR101301?utm_source=freehire.me",
-      "title": "Associate Lecturer - Machine Learning (HE1)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 841,
-      "company": "OpenAI",
-      "employment_type": null,
-      "external_id": "openai:29f15e50-1611-4256-afad-03b7df0b7aa7",
-      "flags": [
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-08T16:58:31Z",
-      "public_slug": "applied-ai-engineer-cyber-openai-yi2qen2p",
-      "role_key": "freehire:applied-ai-engineer-cyber-openai-yi2qen2p",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7?utm_source=freehire.me",
-      "title": "Applied AI Engineer, Cyber"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 842,
-      "company": "Julius Baer",
-      "employment_type": null,
-      "external_id": "juliusbaer.wd3.myworkdayjobs.com/External:/job/Singapore/Machine-Learning-Engineer_r-18856-1",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-06T00:00:00Z",
-      "public_slug": "machine-learning-engineer-julius-baer-eimo66gl",
-      "role_key": "freehire:machine-learning-engineer-julius-baer-eimo66gl",
-      "source": "workday",
-      "source_url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Singapore/Machine-Learning-Engineer_r-18856-1?utm_source=freehire.me",
-      "title": "Machine Learning Engineer"
+      "source_url": "https://jobs.bytedance.com/campus/position/7669791940490168629/detail?utm_source=freehire.me",
+      "title": "Machine Learning Backend Engineer Graduate (AML MLDev) - 2027 Start"
     },
     {
       "ai_score": 5,
@@ -188,29 +94,128 @@
         "title:ai",
         "jd:llm"
       ],
-      "candidate_seq": 843,
-      "company": "Phillip Securities",
+      "candidate_seq": 830,
+      "company": "Ntu",
       "employment_type": null,
-      "external_id": "6290:95487811",
-      "flags": [],
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-30T00:00:00Z",
+      "public_slug": "ai-engineer-data-infra-ntu-3pjfzlpo",
+      "role_key": "freehire:ai-engineer-data-infra-ntu-3pjfzlpo",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373?utm_source=freehire.me",
+      "title": "AI Engineer, Data Infra"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:multimodal"
+      ],
+      "candidate_seq": 831,
+      "company": "Ntu",
+      "employment_type": null,
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Full-Stack_R00024983",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-28T00:00:00Z",
+      "public_slug": "ai-engineer-full-stack-ntu-nncjexoc",
+      "role_key": "freehire:ai-engineer-full-stack-ntu-nncjexoc",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Full-Stack_R00024983?utm_source=freehire.me",
+      "title": "AI Engineer, Full Stack"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:multimodal"
+      ],
+      "candidate_seq": 832,
+      "company": "Ntu",
+      "employment_type": null,
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Evaluation-_R00024988",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-28T00:00:00Z",
+      "public_slug": "ai-engineer-evaluation-ntu-7om5ms6e",
+      "role_key": "freehire:ai-engineer-evaluation-ntu-7om5ms6e",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Evaluation-_R00024988?utm_source=freehire.me",
+      "title": "AI Engineer (Evaluation)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 833,
+      "company": "Avomind",
+      "employment_type": null,
+      "external_id": "avomind:FB677415D2",
+      "flags": [
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-06-26T10:15:38Z",
-      "public_slug": "full-stack-developer-ai-enabled-phillip-securities-dp63vgm2",
-      "role_key": "freehire:full-stack-developer-ai-enabled-phillip-securities-dp63vgm2",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95487811?utm_source=freehire.me",
-      "title": "Full Stack Developer (AI-Enabled)"
+      "posted_at": "2026-07-27T00:00:00Z",
+      "public_slug": "vp-of-research-machine-learning-avomind-y4ftvhr4",
+      "role_key": "freehire:vp-of-research-machine-learning-avomind-y4ftvhr4",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/FB677415D2?utm_source=freehire.me",
+      "title": "VP of Research (Machine Learning)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 834,
+      "company": "Avomind",
+      "employment_type": null,
+      "external_id": "avomind:6291637A4F",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-27T00:00:00Z",
+      "public_slug": "senior-machine-learning-engineer-avomind-nnqh7gfo",
+      "role_key": "freehire:senior-machine-learning-engineer-avomind-nnqh7gfo",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/6291637A4F?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
     }
   ],
-  "generated_at": "2026-11-06T23:33:29.209242Z",
+  "generated_at": "2026-11-07T02:11:58.135291Z",
   "market": "SG",
-  "max_candidate_seq": 843,
-  "min_candidate_seq": 835,
+  "max_candidate_seq": 834,
+  "min_candidate_seq": 826,
   "shard_index": 8,
-  "source_generated_at": "2026-11-05T23:49:33.991532Z",
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

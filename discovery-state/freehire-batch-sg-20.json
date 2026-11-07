@@ -1,0 +1,205 @@
+{
+  "candidate_count": 9,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 929,
+      "company": "OCBC Bank",
+      "employment_type": null,
+      "external_id": "data engineer:94264815",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T12:42:03Z",
+      "public_slug": "avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-gllnl2kq",
+      "role_key": "freehire:avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-gllnl2kq",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94264815__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "AVP Data Engineer - Enterprise Data & AI Platforms"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 930,
+      "company": "OCBC Bank",
+      "employment_type": null,
+      "external_id": "6290:95586970",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T09:00:00Z",
+      "public_slug": "mgr-ai-engineer-group-audit-ocbc-bank-wwgjqq6m",
+      "role_key": "freehire:mgr-ai-engineer-group-audit-ocbc-bank-wwgjqq6m",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95586970?utm_source=freehire.me",
+      "title": "MGR, AI Engineer, Group Audit"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 931,
+      "company": "PEOPLESEARCH PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":3acd785ff4480086bf6e8fa3d2d326e7",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "full-stack-ai-engineer-peoplesearch-pte-ltd-oynr3jo5",
+      "role_key": "freehire:full-stack-ai-engineer-peoplesearch-pte-ltd-oynr3jo5",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/3acd785ff4480086bf6e8fa3d2d326e7?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 932,
+      "company": "HRNET VENTURES PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":7ad65f6c8eedb01bcad161bebdd85fb1",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "full-stack-ai-engineer-hrnet-ventures-pte-ltd-bno3juac",
+      "role_key": "freehire:full-stack-ai-engineer-hrnet-ventures-pte-ltd-bno3juac",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/7ad65f6c8eedb01bcad161bebdd85fb1?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 933,
+      "company": "ocbc",
+      "employment_type": null,
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/MGR--AI-Engineer--Group-Audit_JR00012237-1",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "OCBC Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "mgr-ai-engineer-group-audit-ocbc-onptk7ax",
+      "role_key": "freehire:mgr-ai-engineer-group-audit-ocbc-onptk7ax",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/MGR--AI-Engineer--Group-Audit_JR00012237-1?utm_source=freehire.me",
+      "title": "MGR, AI Engineer, Group Audit"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 934,
+      "company": "SEAGATE SINGAPORE INTERNATIONAL HEADQUARTERS PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":05c0c88ce33792f6c7ca22701a3e3c9e",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "engineer-ii-machine-learning-seagate-singapore-international-headquarters-pte-ltd-wvd3aoyi",
+      "role_key": "freehire:engineer-ii-machine-learning-seagate-singapore-international-headquarters-pte-ltd-wvd3aoyi",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/05c0c88ce33792f6c7ca22701a3e3c9e?utm_source=freehire.me",
+      "title": "Engineer II, Machine Learning"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 935,
+      "company": "DADACONSULTANTS PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":b3105e0b23018b02a69ed32bb9764c22",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "ict-infrastructure-engineer-ai-platform-financial-regulatory-sector-dadaconsultants-pte-ltd-ts5lrjks",
+      "role_key": "freehire:ict-infrastructure-engineer-ai-platform-financial-regulatory-sector-dadaconsultants-pte-ltd-ts5lrjks",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/b3105e0b23018b02a69ed32bb9764c22?utm_source=freehire.me",
+      "title": "ICT Infrastructure Engineer (AI Platform) – Financial Regulatory Sector"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 936,
+      "company": "Motional",
+      "employment_type": null,
+      "external_id": "motional:7834591003",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Central, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-28T17:36:44Z",
+      "public_slug": "senior-machine-learning-engineer-perception-motional-6absfy2p",
+      "role_key": "freehire:senior-machine-learning-engineer-perception-motional-6absfy2p",
+      "source": "greenhouse",
+      "source_url": "https://motional.com/open-positions/?gh_jid=7834591003&utm_source=freehire.me#/7834591003",
+      "title": "Senior Machine Learning Engineer - Perception"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 937,
+      "company": "OCBC Group",
+      "employment_type": null,
+      "external_id": "data engineer:94300262",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-28T14:41:19Z",
+      "public_slug": "enterprise-data-ai-platform-engineer-ocbc-group-wo7d4ee3",
+      "role_key": "freehire:enterprise-data-ai-platform-engineer-ocbc-group-wo7d4ee3",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94300262__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Enterprise Data & AI Platform Engineer"
+    }
+  ],
+  "generated_at": "2026-11-07T02:11:58.135291Z",
+  "market": "SG",
+  "max_candidate_seq": 937,
+  "min_candidate_seq": 929,
+  "shard_index": 20,
+  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}
