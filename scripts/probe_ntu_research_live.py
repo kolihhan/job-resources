@@ -17,7 +17,11 @@ import time
 HOST="ntu.wd3.myworkdayjobs.com"
 TENANT="ntu"
 SITES=("careers","Careers")
-IDS=("R00025211","R00025212","R00026053")
+IDS=("R00025211","R00025212","R00026053",
+     "R00026164","R00026160","R00026159","R00026162",
+     "R00026289","R00026285","R00026131","R00025566",
+     "R00025725","R00026003","R00026002","R00026097",
+     "R00025908","R00026008","R00026321","R00025373")
 KEYWORDS=("Research Engineer","LLM")
 MAX_BYTES=3_000_000
 
@@ -98,6 +102,10 @@ def fetch_results():
                    jobReqId=job.get("jobReqId"),timeType=job.get("timeType"),
                    detail_url=f"https://{HOST}/en-US/{site}"+matching[0]["externalPath"])
                 entry["jd_excerpt"]=jd[:550]
+                # Full public first-party JD is needed for mandatory-skill / YOE
+                # review. Search snippets and job titles alone are insufficient.
+                entry["jobDescription"]=jd
+                entry["jobPostingInfoKeys"]=sorted(job.keys())
             except Exception as e:
                 entry.update(state="DETAIL_FETCH_FAILED",error=type(e).__name__+":"+str(e)[:150])
         else:
