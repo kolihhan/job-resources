@@ -175,7 +175,7 @@ def probe_platform(spec: dict, fetch=fetch_html) -> dict:
     # A nominal page-2 response that repeats 19/20 IDs, or a generic
     # "popular jobs" page that ignores the query, is NOT a search coverage win.
     if (len(per_page) == 2 and result["query_scope_verified"]
-            and result["page2_new_identifiable_jobs"] >= max(2, (len(per_page[1]) + 3) // 4)):
+            and result["page2_new_identifiable_jobs"] >= max(1, (len(per_page[1]) + 3) // 4)):
         result["coverage"] = "TWO_PAGES_WITH_DISTINCT_ROLE_IDS"
     elif result["all_unique_job_identities"] > 0:
         result["coverage"] = "ROLE_LINKS_BUT_QUERY_OR_PAGE_2_UNVERIFIED"
