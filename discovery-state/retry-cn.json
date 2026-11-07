@@ -587,21 +587,27 @@
       "role_key": "freehire:qi-ye-wei-xin-da-mo-xing-suan-fa-gong-cheng-shi-agentying-yong-yan-zhou-bei-jing-tencent-piu5lljf",
       "candidate_seq": 1792,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T21:11:54+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T08:06:20+08:00",
       "company": "Tencent",
       "title": "企业微信-大模型算法工程师-Agent应用（广州/北京）",
-      "source_url": "https://careers.tencent.com/jobdesc.html?postId=1976549654753599488"
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=1976549654753599488",
+      "last_alternate_source_attempted": "Niuqizp exact employer+title full JD reproduction dated 2026-09-06",
+      "last_retry_new_evidence": true,
+      "last_evidence_note": "Matching Tencent Enterprise WeChat Agent role substantive duties found; employer current vacancy, exact req and foreign-hire unresolved"
     },
     {
       "role_key": "freehire:a-li-yun-zhi-neng-aiying-yong-suan-fa-gong-cheng-shi-hang-zhou-alibaba-group-7y67xwoz",
       "candidate_seq": 1794,
       "reason_code": "authoritative_source_unreadable_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T21:11:54+08:00",
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T08:06:20+08:00",
       "company": "Alibaba Group",
       "title": "阿里云智能-AI应用算法工程师-杭州",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100015483019"
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100015483019",
+      "last_alternate_source_attempted": "exact employer+title alternate indexed search; related but different requisitions only",
+      "last_retry_new_evidence": false,
+      "last_evidence_note": "No exact matching authoritative JD; similarly titled Alibaba roles are not identity proof"
     },
     {
       "role_key": "freehire:ai-engineer-io-tech-solutions-limited-eaifsnoj",
