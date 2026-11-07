@@ -42,7 +42,18 @@ def key_for(market: str,url: str) -> str:
 def canonical(url: str,market: str) -> str | None:
     if not isinstance(url,str):
         return None
-    return candidate_url(url.strip(),market)
+    raw=url.strip()
+    platform_role=candidate_url(raw,market)
+    if platform_role:
+        return platform_role
+    # Public aggregator is a separate, explicitly attributed discovery family.
+    # Preserve its stable original item URL; never credit it as native JobStreet/LinkedIn.
+    p=urlparse(raw)
+    if p.scheme=="https" and p.hostname in ("devglobaljobs.com","www.devglobaljobs.com"):
+        match=re.fullmatch(r"/jobs/detail/(\\d{5,15})/?",p.path)
+        if match:
+            return "https://devglobaljobs.com/jobs/detail/"+match.group(1)
+    return None
 
 def new_state(market: str) -> dict:
     return {"version":1,"market":market,"next_seq":1,"next_unacknowledged_seq":1,
