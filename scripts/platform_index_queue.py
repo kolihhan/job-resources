@@ -162,12 +162,17 @@ def ack(state: dict,receipt: dict,issue_proven: bool=False) -> dict:
         proof=receipt.get("evidence_url")
         if not isinstance(proof,str) or not proof.startswith("https://"):
             raise ValueError("terminal dispositions require an evidence URL")
-        if action=="ISSUE_VERIFIED":
+        if action=="HARD_REJECTED":
+            reason=str(receipt.get("reason") or "").strip()
+            if len(reason)<15:
+                raise ValueError("hard rejection requires an explicit evidenced reason")
+            row["reason"]=reason[:350]
+        if action in ("ISSUE_VERIFIED","DUPLICATE_CONFIRMED"):
             issue=receipt.get("issue_url")
             if not isinstance(issue,str) or not re.fullmatch(r"https://github.com/kolihhan/job-resources/issues/\d+",issue):
-                raise ValueError("ISSUE_VERIFIED requires the canonical GitHub Issue URL")
+                raise ValueError("Issue or duplicate acknowledgement requires the canonical GitHub Issue URL")
             if not issue_proven:
-                raise ValueError("ISSUE_VERIFIED requires a verified live GitHub Issue readback")
+                raise ValueError("Issue or duplicate acknowledgement requires a verified live GitHub Issue readback")
             row["issue_url"]=issue
         row["evidence_url"]=proof
         row["state"]=action
@@ -213,7 +218,7 @@ def main():
     elif args.cmd=="ack":
         receipt=json.loads(args.receipt.read_text())
         proven=False
-        if receipt.get("action")=="ISSUE_VERIFIED":
+        if receipt.get("action") in ("ISSUE_VERIFIED","DUPLICATE_CONFIRMED"):
             candidate=next((x for x in state["pending"] if x["key"]==receipt.get("key")),None)
             if not candidate:raise ValueError("unknown pending Issue acknowledgement")
             proven=verify_issue_readback(receipt.get("issue_url"),candidate["url"],os.environ.get("GITHUB_TOKEN",""))
