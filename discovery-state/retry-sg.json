@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-07T01:58:44+08:00",
+  "updated_at": "2026-11-07T08:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -39,9 +39,12 @@
       "company": "LRDTECH",
       "title": "AI / ML / Data Engineering",
       "source_url": "https://apply.workable.com/j/087BF2564D",
-      "reason_code": "official_application_source_inaccessible_on_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T22:08:00+08:00"
+      "reason_code": "alternate_source_new_evidence_eligibility_or_route_unresolved",
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T08:05:00+08:00",
+      "last_alternate_source": "2026-11-07 bounded indexed employer/title/req search",
+      "last_new_substantive_evidence": true,
+      "evidence_note": "LinkedIn exact-role JD found; LinkedIn says no longer accepting; employer ATS liveness unresolved"
     },
     {
       "candidate_seq": 260,
@@ -49,9 +52,11 @@
       "company": "Binance",
       "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
       "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
-      "reason_code": "official_application_source_inaccessible_on_retry",
-      "attempts": 2,
-      "next_retry_at": "2026-11-06T22:08:00+08:00"
+      "reason_code": "alternate_source_exact_role_search_no_new_substantive_evidence",
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T08:05:00+08:00",
+      "last_alternate_source": "2026-11-07 bounded indexed employer/title/req search",
+      "last_new_substantive_evidence": false
     },
     {
       "candidate_seq": 267,
@@ -59,9 +64,11 @@
       "company": "FPT Software",
       "title": "M01 - ML/AI Engineer (DPA)",
       "source_url": "https://sg.jobstreet.com/job/95588553",
-      "reason_code": "jobstreet_exact_jd_inaccessible_on_retry_recheck_route_or_jd_still_unverified",
-      "attempts": 3,
-      "next_retry_at": "2026-11-07T07:01:12+08:00"
+      "reason_code": "alternate_source_exact_role_search_no_new_substantive_evidence",
+      "attempts": 4,
+      "next_retry_at": "2026-11-08T08:05:00+08:00",
+      "last_alternate_source": "2026-11-07 bounded indexed employer/title/req search",
+      "last_new_substantive_evidence": false
     },
     {
       "candidate_seq": 268,
@@ -84,74 +91,55 @@
       "next_retry_at": "2026-11-07T08:04:05+08:00"
     },
     {
-      "candidate_seq": 271,
-      "role_key": "freehire:space-executive-ml-engineer-supply-chain-ai",
-      "reason_code": "full_linkedin_jd_read_supply_chain_mlops_not_north_star_no_verified_non_mcf_route",
-      "attempts": 2,
-      "next_retry_at": "2026-11-07T01:05:00+08:00",
-      "company": "SPACE EXECUTIVE PTE. LTD.",
-      "title": "ML Engineer - Supply Chain AI",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/70213c308b9482247a3018e34b45108e"
-    },
-    {
       "candidate_seq": 276,
       "company": "NEWBRIDGE ALLIANCE PTE. LTD.",
       "title": "AI Mobile Application Developer (iOS / Android / Cross-Platform)",
       "source_url": "https://www.mycareersfuture.gov.sg/job/586092938adde85077e3d3572df02f4c",
-      "reason_code": "mcf_only_route_unresolved_recheck_route_or_jd_still_unverified",
+      "reason_code": "alternate_source_new_evidence_eligibility_or_route_unresolved",
       "role_key": "freehire:ai-mobile-application-developer-ios-android-cross-platform-newbridge-alliance-pte-ltd-4n4ieb57",
-      "attempts": 2,
-      "next_retry_at": "2026-11-07T07:01:12+08:00"
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T08:05:00+08:00",
+      "last_alternate_source": "2026-11-07 bounded indexed employer/title/req search",
+      "last_new_substantive_evidence": true,
+      "evidence_note": "Exact-role full JD reproduced: mandatory mobile iOS/Android Flutter/Swift/Kotlin, primarily mobile integration; mandatory stack mismatch"
     },
     {
       "candidate_seq": 277,
       "company": "TIKTOK PTE. LTD.",
       "title": "AI Agent Development Engineer Graduate (TikTok Monetization Quality Assurance) - 2027 Start",
       "source_url": "https://www.mycareersfuture.gov.sg/job/b16a3888c7fa8ef4b7d11bc5d73bb241",
-      "reason_code": "graduate_2027_campaign_and_non_mcf_route_unresolved_recheck_route_or_jd_still_unverified",
+      "reason_code": "alternate_source_new_evidence_eligibility_or_route_unresolved",
       "role_key": "freehire:ai-agent-development-engineer-graduate-tiktok-monetization-quality-assurance-2027-start-tiktok-pte-ltd-r6np4pvi",
-      "attempts": 2,
-      "next_retry_at": "2026-11-07T07:01:12+08:00"
-    },
-    {
-      "candidate_seq": 279,
-      "company": "INFOWIZ PTE LTD",
-      "title": "Machine Learning Engineer / Data Scientist",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94037158__7119",
-      "reason_code": "source_unverifiable_recheck_route_or_jd_still_unverified",
-      "role_key": "freehire:machine-learning-engineer-data-scientist-infowiz-pte-ltd-ck5bkzro",
-      "attempts": 2,
-      "next_retry_at": "2026-11-07T07:01:12+08:00"
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T08:05:00+08:00",
+      "last_alternate_source": "2026-11-07 bounded indexed employer/title/req search",
+      "last_new_substantive_evidence": true,
+      "evidence_note": "Exact-role JD reproduction: agent memory/tool-calling/evaluation; 2027 graduate campaign eligibility and non-MCF route unresolved"
     },
     {
       "candidate_seq": 280,
       "company": "Evolution Singapore",
       "title": "AI/ML Engineer – Data & Deployment Specialist",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93983474__7119",
-      "reason_code": "source_unverifiable_recheck_route_or_jd_still_unverified",
+      "reason_code": "alternate_source_exact_role_search_no_new_substantive_evidence",
       "role_key": "freehire:ai-ml-engineer-data-deployment-specialist-evolution-singapore-7zz6ggxk",
-      "attempts": 2,
-      "next_retry_at": "2026-11-07T07:01:12+08:00"
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T08:05:00+08:00",
+      "last_alternate_source": "2026-11-07 bounded indexed employer/title/req search",
+      "last_new_substantive_evidence": false
     },
     {
       "candidate_seq": 282,
       "company": "PayPal",
       "title": "Senior Agentic AI Engineer",
       "source_url": "https://paypal.eightfold.ai/careers/job/274923002548",
-      "reason_code": "seniority_equivalent_experience_and_workpass_route_review_recheck_route_or_jd_still_unverified",
+      "reason_code": "alternate_source_new_evidence_eligibility_or_route_unresolved",
       "role_key": "freehire:senior-agentic-ai-engineer-paypal-skz22kig",
-      "attempts": 2,
-      "next_retry_at": "2026-11-07T07:01:12+08:00"
-    },
-    {
-      "candidate_seq": 284,
-      "role_key": "freehire:senior-ai-engineer-supply-chain-retail-ai-recruitpedia-pte-ltd-eaebptni",
-      "company": "RECRUITPEDIA PTE. LTD.",
-      "title": "Senior AI Engineer (Supply Chain & Retail AI)",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/8c9e6d08792de94d6fffd044e4453e47?utm_source=freehire.me",
-      "reason_code": "mcf_only_route_and_eligibility_unresolved_recheck_route_or_jd_still_unverified",
-      "attempts": 2,
-      "next_retry_at": "2026-11-07T07:01:12+08:00"
+      "attempts": 3,
+      "next_retry_at": "2026-11-08T08:05:00+08:00",
+      "last_alternate_source": "2026-11-07 bounded indexed employer/title/req search",
+      "last_new_substantive_evidence": true,
+      "evidence_note": "Exact-role full JD reproduction: mandatory 3+ relevant years or equivalent; senior ownership and mentorship; eligibility unresolved"
     },
     {
       "candidate_seq": 285,
