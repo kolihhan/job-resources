@@ -40,6 +40,33 @@ class OfficialNTUSourceTests(unittest.TestCase):
         self.assertEqual(r["coverage"],"PARTIAL_COVERAGE")
         self.assertEqual(r["items"],[])
         self.assertTrue(any(x["state"]=="SOURCE_FETCH_FAILED" for x in r["list_probes"]))
+    def test_pagination_cursor_resumes_debt_without_skipping_fresh_head(self):
+        calls=[]
+        def search(url,payload):
+            if payload is None:raise AssertionError("No candidate JDs in generic pages")
+            calls.append((payload["searchText"],payload["offset"]))
+            return {"jobPostings":[{"title":"Finance Admin","externalPath":"/job/X-_R00020001"} for _ in range(20)]}
+        r=s.source_scan(search,False)
+        self.assertEqual(r["coverage"],"PARTIAL_COVERAGE")
+        self.assertEqual(r["next_offsets"],{"LLM":60,"agent":60})
+        calls.clear()
+        r2=s.source_scan(search,False,start_offsets=r["next_offsets"])
+        self.assertEqual(calls,[("LLM",0),("LLM",60),("LLM",80),
+                                ("agent",0),("agent",60),("agent",80)])
+        self.assertEqual(r2["next_offsets"],{"LLM":100,"agent":100})
+
+    def test_exact_known_requisition_skips_detail_fetch(self):
+        paths=[]
+        def f(url,payload):
+            if payload is not None:
+                return {"jobPostings":[{"title":"Research Engineer I","externalPath":"/job/X-_R00026164-1"}]}
+            paths.append(url)
+            raise AssertionError("Known req must not be re-opened")
+        r=s.source_scan(f,False,known_reqs={"R00026164"})
+        self.assertEqual(r["strong_history_id_suppressed"],1)
+        self.assertEqual(r["items"],[])
+        self.assertEqual(paths,[])
+
     def test_fail_closed_on_no_access(self):
         with self.assertRaisesRegex(RuntimeError,"Source not scanned"):
             s.source_scan(lambda url,payload: (_ for _ in ()).throw(ConnectionError("403")),False)
