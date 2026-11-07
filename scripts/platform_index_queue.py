@@ -53,6 +53,12 @@ def canonical(url: str,market: str) -> str | None:
         match=re.fullmatch(r"/jobs/detail/(\d{5,15})/?",p.path)
         if match:
             return "https://devglobaljobs.com/jobs/detail/"+match.group(1)
+    if market=="SG" and p.scheme=="https" and p.hostname=="ntu.wd3.myworkdayjobs.com":
+        # Canonical employer-controlled Workday URL: normalize locale/site
+        # spelling but retain its exact requisition's navigable job path.
+        match=re.search(r"/job/([A-Za-z0-9_+.%()-]+_R\\d{8}(?:-\\d+)?)/*$",p.path)
+        if match:
+            return "https://ntu.wd3.myworkdayjobs.com/Careers/job/"+match.group(1)
     return None
 
 def new_state(market: str) -> dict:
