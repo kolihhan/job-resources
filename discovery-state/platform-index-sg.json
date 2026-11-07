@@ -13,24 +13,8 @@
   },
   "market": "SG",
   "next_seq": 3,
-  "next_unacknowledged_seq": 1,
-  "pending": [
-    {
-      "company": "PERSOL APAC",
-      "first_seen_at": "2026-11-07T07:23:19.587334Z",
-      "key": "sg:94ed40734f8e4c0ec7c9",
-      "last_error": null,
-      "market": "SG",
-      "platform": "LinkedIn",
-      "query": "Agent RAG engineer Singapore",
-      "retries": 0,
-      "seq": 1,
-      "source": "public-web-index-manual-pilot-2026-11-07",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Agent Development Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4456087297"
-    }
-  ],
+  "next_unacknowledged_seq": 3,
+  "pending": [],
   "terminal": [
     {
       "company": "Tech Aalto",
@@ -48,6 +32,23 @@
       "state": "HARD_REJECTED",
       "title": "AI / ML Engineer",
       "url": "https://sg.jobstreet.com/job/95566693"
+    },
+    {
+      "company": "PERSOL APAC",
+      "evidence_url": "https://sg.linkedin.com/jobs/view/ai-agent-development-engineer-at-persol-apac-4456087297",
+      "first_seen_at": "2026-11-07T07:23:19.587334Z",
+      "key": "sg:94ed40734f8e4c0ec7c9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "LinkedIn",
+      "query": "Agent RAG engineer Singapore",
+      "reason": "The exact current PERSOL recruiting JD requires deep involvement in enterprise-level Agentic AI projects plus leading enterprise Agent architecture and end-to-end performance optimization. Candidate has meaningful academic Agent/LLM work and paid software engineering, but no verified enterprise production Agent ownership meeting these mandatory spe",
+      "retries": 0,
+      "seq": 1,
+      "source": "public-web-index-manual-pilot-2026-11-07",
+      "state": "HARD_REJECTED",
+      "title": "AI Agent Development Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4456087297"
     }
   ],
   "version": 1

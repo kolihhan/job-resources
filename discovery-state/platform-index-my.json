@@ -13,24 +13,8 @@
   },
   "market": "MY",
   "next_seq": 3,
-  "next_unacknowledged_seq": 1,
-  "pending": [
-    {
-      "company": "Oxydata Software",
-      "first_seen_at": "2026-11-07T07:23:19.667961Z",
-      "key": "my:e70c2ff06e44b9f85aa4",
-      "last_error": null,
-      "market": "MY",
-      "platform": "Indeed",
-      "query": "Malaysia AI Engineer GenAI RAG",
-      "retries": 0,
-      "seq": 1,
-      "source": "public-web-index-manual-pilot-2026-11-07",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer (GenAI/RAG Systems)",
-      "url": "https://malaysia.indeed.com/viewjob?jk=3375a1020f56547c"
-    }
-  ],
+  "next_unacknowledged_seq": 3,
+  "pending": [],
   "terminal": [
     {
       "company": "Coca-Cola Beverages Singapore, Malaysia & Brunei",
@@ -48,6 +32,23 @@
       "state": "HARD_REJECTED",
       "title": "AI Engineer",
       "url": "https://www.linkedin.com/jobs/view/4474680448"
+    },
+    {
+      "company": "Oxydata Software",
+      "evidence_url": "https://www.careers-page.com/oxy/job/63RRWWVW",
+      "first_seen_at": "2026-11-07T07:23:19.667961Z",
+      "key": "my:e70c2ff06e44b9f85aa4",
+      "last_error": null,
+      "market": "MY",
+      "platform": "Indeed",
+      "query": "Malaysia AI Engineer GenAI RAG",
+      "reason": "The exact employer career-page JD explicitly requires 1–4 years building production GenAI/RAG systems and practical production LangGraph/CrewAI/N8N and FastAPI/React/Supabase/pgvector integrations. Candidate's AI/RAG projects are academic/personal; paid software experience was Laravel/Vue and cannot be represented as 1–4 years of professional produ",
+      "retries": 0,
+      "seq": 1,
+      "source": "public-web-index-manual-pilot-2026-11-07",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer (GenAI/RAG Systems)",
+      "url": "https://malaysia.indeed.com/viewjob?jk=3375a1020f56547c"
     }
   ],
   "version": 1
