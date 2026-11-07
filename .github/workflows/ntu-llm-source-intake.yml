@@ -1,0 +1,151 @@
+name: NTU First-Party LLM Research Intake
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily 09:35 Asia/Kuala_Lumpur; independent of unreliable hourly AI search.
+    - cron: "35 1 * * *"
+  push:
+    paths:
+      - 'scripts/collect_ntu_llm_source.py'
+      - 'tests/test_collect_ntu_llm_source.py'
+      - 'scripts/platform_index_queue.py'
+      - 'tests/test_platform_index_queue.py'
+      - '.github/workflows/ntu-llm-source-intake.yml'
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: platform-index-queue
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Verify first-party response parsing, depth and queue safety
+        run: |
+          python -m unittest discover -s tests -p 'test_collect_ntu_llm_source.py' -v
+          python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
+      - name: Scan bounded official NTU LLM/agent searches and verify exact-role Apply
+        run: |
+          python scripts/collect_ntu_llm_source.py \
+            --known-index discovery-state/known-role-index.json \
+            --cursor-state discovery-state/ntu-workday-source.json \
+            --output artifacts/ntu-llm-source.json
+      - name: Validate source identity and no false eligibility claim
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          r=json.loads(Path('artifacts/ntu-llm-source.json').read_text(encoding='utf8'))
+          assert r['source']=='ntu:official-cxs:SG'
+          assert r['list_probes'] and any(p['state']=='LIST_OBTAINED' for p in r['list_probes'])
+          ids=[j['source_id'] for j in r['items']]
+          assert len(ids)==len(set(ids))
+          for j in r['items']:
+              assert re.fullmatch(r'R\d{8}',j['source_id'])
+              assert j['source_verified_can_apply'] is True
+              assert j['url'].startswith('https://ntu.wd3.myworkdayjobs.com/')
+              assert j['requires_hard_jd_screen'] is True
+          assert set(r['next_offsets'])=={'LLM','agent'}
+          print('Verified first-party workday IDs:',len(ids),'next offsets:',r['next_offsets'])
+          PY
+      - name: Merge into existing persistent SG machine queue with retry and source cursor
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/platform_index_queue.py ingest \
+              --market SG \
+              --input artifacts/ntu-llm-source.json \
+              --known discovery-state/known-role-index.json \
+              --state discovery-state/platform-index-sg.json
+            python - <<'PY'
+          from pathlib import Path
+          import json
+          r=json.loads(Path('artifacts/ntu-llm-source.json').read_text(encoding='utf8'))
+          path=Path('discovery-state/ntu-workday-source.json')
+          last=json.loads(path.read_text()) if path.exists() else None
+          # Prevent an obsolete runner from overwriting newer pagination state.
+          # The shared Actions concurrency group serializes source/queue writes.
+          if last is not None and last.get('source')!=r['source']:
+              raise SystemExit('Wrong source cursor owner')
+          state={
+              'version':1,'source':r['source'],'observed_at':r['observed_at'],
+              'next_offsets':r['next_offsets'],'run_quality':r['coverage'],
+              'pages':[{'query':p['query'],'offset':p['offset'],
+                        'rows':p.get('raw_rows'),'state':p['state']}
+                       for p in r['list_probes']],
+              'source_role_ids_in_this_run':len(r['items']),
+              'strong_history_id_suppressed':r['strong_history_id_suppressed'],
+              'failed_details':len(r['details_failed'])}
+          path.parent.mkdir(parents=True,exist_ok=True)
+          path.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
+          q=json.loads(Path('discovery-state/platform-index-sg.json').read_text())
+          accounted={x['url'] for x in q['pending']+q['terminal']}
+          # source IDs are normalized by the queue; check each against exact req.
+          for row in r['items']:
+              req=row['source_id']
+              if not any(req in url for url in accounted):
+                  raise SystemExit(f'Unaccounted first-party requisition: {req}')
+          print('SG machine state: pending',len(q['pending']),
+                'known terminal',len(q['terminal']),
+                'next seq',q['next_unacknowledged_seq'])
+          PY
+            git add discovery-state/platform-index-sg.json discovery-state/ntu-workday-source.json
+            if git diff --cached --quiet; then
+              echo "No source changes; persistent queue already reconciled."
+              exit 0
+            fi
+            git commit -m "chore: persist official NTU LLM source delta and pagination debt [skip ci]"
+            if git push origin HEAD:main; then
+              echo "Saved official NTU source observations and continuation cursor."
+              exit 0
+            fi
+            echo "Concurrent source update; retrying fresh parent ${attempt}/3"
+          done
+          exit 1
+      - name: Report source-specific coverage truth
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path('artifacts/ntu-llm-source.json')
+          if not p.exists():
+              print('No source evidence was produced')
+              raise SystemExit(0)
+          r=json.loads(p.read_text())
+          lines=['# NTU official first-party LLM/Agent source','',
+                  'Employer Workday CXS is a public UI endpoint, not an officially supported partner API.',
+                  'Source links and canApply are verified but each opportunity still needs a human-quality fit/route check.','',
+                  '| Query | Offset | Rows | State |',
+                  '|---|---:|---:|---|']
+          for v in r['list_probes']:
+              lines.append(f"| {v['query']} | {v['offset']} | {v.get('raw_rows','?')} | {v['state']} |")
+          lines+=['',
+              f"Verifiably applyable first-party source identities in observed set: {len(r['items'])}.",
+              f"Strong history IDs skipped before deep JD: {r['strong_history_id_suppressed']}.",
+              f"Continuation offsets: {r['next_offsets']}. Source status: {r['coverage']}.",
+              'This is NOT a count of new APPLY opportunities, and does not authorize application.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('\n'.join(lines)+'\n')
+          PY
+      - name: Preserve inspectable source evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ntu-llm-source
+          path: artifacts/
+          retention-days: 14
