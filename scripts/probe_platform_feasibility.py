@@ -55,8 +55,8 @@ PLATFORMS = [
 ]
 
 PATTERNS = {
-    "linkedin.com": re.compile(r"/jobs/view/(?:[^/?#]*/)?(?:\d{6,})|/jobs/view/[^/?#]+", re.I),
-    "jobstreet.com": re.compile(r"/job/\d{6,}(?:/|$)", re.I),
+    "linkedin.com": re.compile(r"/jobs/view/(?:[^/?#]*-)?\d{7,}(?:/|\?|$)", re.I),
+    "jobstreet.com": re.compile(r"/job/\d{6,}(?:/|\?|$)", re.I),
     "indeed.com": re.compile(r"(?:/viewjob\?|/rc/clk\?|/pagead/clk\?|[?&]jk=[a-z0-9]{12,})", re.I),
     "mycareersfuture.gov.sg": re.compile(r"/job/(?:[^/?#]+/)*[^/?#]+-[a-f0-9]{20,}", re.I),
     "hiredly.com": re.compile(r"/jobs/(?:[^/?#]+/)?[a-z0-9][^/?#]*", re.I),
