@@ -7,6 +7,7 @@ import {
   filterRecent,
   dedupeJobs,
   resolveCity,
+  selectRotation,
 } from '../scripts/liepin_discovery.mjs';
 
 test('resolveCity maps supported Chinese city names and numeric codes', () => {
@@ -106,4 +107,14 @@ test('dedupeJobs removes duplicate source ids while preserving first occurrence'
     { source: 'liepin', sourceId: '2', title: 'second' },
   ];
   assert.deepEqual(dedupeJobs(jobs).map((j) => j.title), ['first', 'second']);
+});
+
+test('bounded rotation covers all three cities and six queries in nine slots', () => {
+  const slots = Array.from({ length: 9 }, (_, i) => selectRotation(i + 1));
+  const pairs = slots.flatMap(s => s.queries.map(q => `${s.city}:${q}`));
+  assert.equal(new Set(pairs).size, 18);
+  assert.deepEqual(selectRotation(1), {slot: 0, city: '上海', queries: ['AI工程师', '大模型'], slotsPerSweep: 9});
+  assert.deepEqual(selectRotation(10), selectRotation(1));
+  assert.deepEqual(selectRotation(9).city, '北京');
+  assert.throws(() => selectRotation(0), /positive integer/);
 });
