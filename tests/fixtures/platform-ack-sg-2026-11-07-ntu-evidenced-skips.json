@@ -1,0 +1,14 @@
+[
+  {
+    "key": "sg:fbd992ef72a8bfb0f079",
+    "action": "HARD_REJECTED",
+    "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Engineering-Computer-Science-Electronics-Engineering-_R00026008",
+    "reason": "NTU first-party full JD requires in-depth reinforcement learning and LLM-agent knowledge, demonstrated independent RL research and supervision/publication output. Candidate's strengths are contextual NLP, RAG, software/Agent evaluation; advanced RL research is an unproven mandatory specialization. This is not a realistic early-career match under strict research-fit gate."
+  },
+  {
+    "key": "sg:68b606efba1f594fa840",
+    "action": "HARD_REJECTED",
+    "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373",
+    "reason": "NTU/AISG first-party full JD demands 2–4 years large-scale production data infrastructure/platform engineering, AWS Organizations IAM, Spark/Airflow/Ray, IaC and Kubernetes; substantive daily work is data platform/governance rather than LLM/RAG research. User's production background is Laravel/Vue/MySQL, not the required cloud data infrastructure ownership."
+  }
+]
