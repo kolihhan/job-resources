@@ -1,49 +1,49 @@
 {
   "version": 2,
   "market": "MY",
-  "platform_cycle": 49,
-  "next_platform_index": 3,
-  "next_owner_bucket": 1,
-  "next_query_bucket": 1,
-  "run_counter": 108,
-  "last_completed_at": "2026-11-07T10:24:00+08:00",
+  "platform_cycle": 50,
+  "next_platform_index": 2,
+  "next_owner_bucket": 3,
+  "next_query_bucket": 4,
+  "run_counter": 109,
+  "last_completed_at": "2026-11-07T21:22:00+08:00",
   "last_platforms": [
+    "Hiredly",
     "recruiter / team / direct hiring posts",
     "LinkedIn Jobs Malaysia",
-    "JobStreet Malaysia",
-    "Indeed Malaysia"
+    "JobStreet Malaysia"
   ],
-  "last_owner_bucket": "MIMOS / research labs; Sea / Shopee / Grab",
-  "last_query_bucket": "destination-quality backend / data / cloud / SRE / SDET; destination-quality full-stack / product engineering with material AI signal; Agent / LLM / RAG / GenAI",
+  "last_owner_bucket": "Gen Digital / MoneyLion; AEON Bank / GXBank",
+  "last_query_bucket": "NLP / search / retrieval / evaluation / knowledge; AI backend / platform / ML engineering; destination-quality backend / data / cloud / SRE / SDET",
   "coverage_debt": [
     {
       "platform": "recruiter / team / direct hiring posts",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
+      "last_attempt_at": "2026-11-07T21:22:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
+      "reason": "No native page-two or exhaustion evidence; indexed fallback only | 21:22 cycle: indexed/detail fallback inspected; native page 1+2 not verified, debt remains",
       "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
     },
     {
       "platform": "LinkedIn Jobs Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T10:24:00+08:00",
+      "last_attempt_at": "2026-11-07T21:22:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only",
+      "reason": "No native page-two or exhaustion evidence; indexed fallback only | 21:22 cycle: indexed/detail fallback inspected; native page 1+2 not verified, debt remains",
       "next_probe": "Native page two/cursor or independent employer ATS exact-role verification"
     },
     {
       "platform": "JobStreet Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T20:17:11+08:00",
+      "last_attempt_at": "2026-11-07T21:22:00+08:00",
       "native_pages_read": 1,
       "native_unique_rows": 20,
       "fallback_unique_rows": 0,
-      "reason": "Current JobStreet MY AI Engineer native page 1 read with 20+ identifiable cards; exact JD pages 95718055, 95678759, 95722207 read. Native page=2 returned inaccessible; cannot claim breadth or exhaustion.",
+      "reason": "Current JobStreet MY AI Engineer native page 1 read with 20+ identifiable cards; exact JD pages 95718055, 95678759, 95722207 read. Native page=2 returned inaccessible; cannot claim breadth or exhaustion. | 21:22 cycle: indexed/detail fallback inspected; native page 1+2 not verified, debt remains",
       "next_probe": "Obtain JobStreet live page 2 cursor with exact job IDs; independently verify techstreet/INFRA365 employer quality and official route."
     },
     {
@@ -59,11 +59,11 @@
     {
       "platform": "Hiredly",
       "query_family": "AI backend / platform / ML engineering",
-      "last_attempt_at": "2026-11-07T15:20:12+08:00",
+      "last_attempt_at": "2026-11-07T21:22:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 2,
-      "reason": "Hiredly native search still only accessible as shell; independently inspected Hiredly X AI Engineer and Grab senior ML JD, no native page 1+2 coverage. Prior debt preserved.",
+      "reason": "Hiredly native search still only accessible as shell; independently inspected Hiredly X AI Engineer and Grab senior ML JD, no native page 1+2 coverage. Prior debt preserved. | 21:22 cycle: indexed/detail fallback inspected; native page 1+2 not verified, debt remains",
       "next_probe": "Inspect Hiredly category page 1+2 through supported native API; independently verify Hiredly X employer identity and exact role"
     }
   ]
