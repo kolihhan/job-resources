@@ -16,7 +16,7 @@ Use Asia/Kuala_Lumpur date boundaries. Legacy monthly files are read-only.
 
 Every run should preserve enough evidence to answer:
 
-- which fresh platforms were attempted and how many rows were actually inspected;
+- which fresh platforms, owner groups, query families and SG research buckets were attempted, and how many actual identifiable rows were inspected per source;
 - how many candidates were exact duplicates or cheap rejects;
 - how many substantive JDs were read;
 - how many cheap rejects were independently audited and how many were false negatives;
@@ -50,11 +50,11 @@ Unknown counts must be `null`, never guessed.
   "freehire_triage": {
     "cursor_start": 100,
     "cursor_end": 200,
-    "batch_candidates": 100,
+    "batch_candidates": 200,
     "strong_known_duplicates": 4,
     "weak_suspected_checked": 2,
     "cheap_hard_rejects": 70,
-    "full_jd_reads": 15,
+    "full_jd_reads": 25,
     "reject_audit_sampled": 5,
     "reject_audit_false_negatives": 0,
     "retries_due": 3,
@@ -104,6 +104,9 @@ For new records, also report:
 - coverage_gaps: concrete blocked/weak sources and their actual inspected rows, not a generic statement of no listings.
 - fallback_sources: source families used to compensate for blocked native pages, with separately counted rows (avoid duplicates).
 - retry_new_evidence: number of retries that yielded a new substantive JD, route, or eligibility fact; distinguish from attempts/reschedules.
+- fresh_bucket_coverage: the attempted owner/query/research bucket names and the exact number of unique roles found per attempted platform (additive optional fields; do not change required schema without updating validators).
+- retry_no_progress: due retries that still produced no new substantive evidence (optional additive field); report separately from newly deferred candidates and retry_new_evidence.
+- budget_pressure: whether the expanded candidate/JD ceilings, unread backlog or runtime constraints caused any PARTIAL_COVERAGE or budget deferral.
 - recall_spotcheck (daily review, not every hourly run): independent fresh roles sampled, matches in all Issue history, verified missed eligible roles, and root cause. Small samples indicate **possible** false negatives, not a statistically valid market recall estimate.
 
 **Pre-write and post-write invariant:** Validate all market-owned discovery files with python scripts/validate_scout_state.py (or equivalent structural checks if the runtime lacks Python). In particular fresh-<market>.json must contain rotation counters, retry-<market>.json must contain a receipt array, and triage-<market>.json must contain the consumption cursor. A read-back that only compares bytes can falsely certify a file written to the **wrong path**. On any shape mismatch: stop changing market state, report BLOCKED_STATE, and preserve the original data for repair. Never advance a cursor or say the cycle completed when validation fails.
@@ -112,7 +115,7 @@ For new records, also report:
 
 Human-facing summaries should include both throughput and recall evidence, for example:
 
-`FreeHire: 100 candidates / 68 cheap rejects / 15 normal JD reads / reject audit 5 with 0 false negatives / 4 survivors / cursor 100→200.`
+`FreeHire: 200 candidates / 138 cheap rejects / 25 normal JD reads / reject audit 5 with 0 false negatives / 4 survivors / cursor 100→300.`
 
 Do not describe a filter as "good" merely because it rejects many candidates. Repeated reject-audit evidence is required before tightening it further.
 
