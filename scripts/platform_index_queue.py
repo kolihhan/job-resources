@@ -50,7 +50,7 @@ def canonical(url: str,market: str) -> str | None:
     # Preserve its stable original item URL; never credit it as native JobStreet/LinkedIn.
     p=urlparse(raw)
     if p.scheme=="https" and p.hostname in ("devglobaljobs.com","www.devglobaljobs.com"):
-        match=re.fullmatch(r"/jobs/detail/(\\d{5,15})/?",p.path)
+        match=re.fullmatch(r"/jobs/detail/(\d{5,15})/?",p.path)
         if match:
             return "https://devglobaljobs.com/jobs/detail/"+match.group(1)
     return None
