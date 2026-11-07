@@ -1,0 +1,23 @@
+{
+  "source": "public-web-index-manual-pilot-2026-11-07",
+  "market": "MY",
+  "notes": "One-time observation transport from source URLs; does not verify current eligibility or availability.",
+  "items": [
+    {
+      "market": "MY",
+      "platform": "Indeed",
+      "url": "https://malaysia.indeed.com/viewjob?jk=3375a1020f56547c",
+      "title": "AI Engineer (GenAI/RAG Systems)",
+      "company": "Oxydata Software",
+      "query": "Malaysia AI Engineer GenAI RAG"
+    },
+    {
+      "market": "MY",
+      "platform": "LinkedIn",
+      "url": "https://my.linkedin.com/jobs/view/ai-engineer-at-coca-cola-beverages-singapore-malaysia-brunei-4474680448",
+      "title": "AI Engineer",
+      "company": "Coca-Cola Beverages Singapore, Malaysia & Brunei",
+      "query": "Malaysia Agentic AI Engineer"
+    }
+  ]
+}
