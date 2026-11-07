@@ -1,0 +1,78 @@
+name: SG-MY Platform Index Queue Pilot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/platform_index_queue.py'
+      - 'scripts/probe_public_job_index.py'
+      - 'tests/test_platform_index_queue.py'
+      - 'tests/fixtures/platform-index-*.json'
+      - '.github/workflows/platform-index-queue.yml'
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: platform-index-queue
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Validate strict candidate identity and acknowledgement contracts
+        run: python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
+      - name: Persist actual observed source IDs with optimistic retry
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/platform_index_queue.py ingest \
+              --market SG \
+              --input tests/fixtures/platform-index-sg-2026-11-07.json \
+              --known discovery-state/known-role-index.json \
+              --state discovery-state/platform-index-sg.json
+            python scripts/platform_index_queue.py ingest \
+              --market MY \
+              --input tests/fixtures/platform-index-my-2026-11-07.json \
+              --known discovery-state/known-role-index.json \
+              --state discovery-state/platform-index-my.json
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          for market in ("sg","my"):
+              s=json.loads(Path(f"discovery-state/platform-index-{market}.json").read_text())
+              assert s["market"]==market.upper()
+              assert len(s["pending"])+len(s["terminal"])>=2
+              assert s["next_unacknowledged_seq"]==min([r["seq"] for r in s["pending"]],default=s["next_seq"])
+              print(f"CHECKED {market.upper()} pending={len(s['pending'])} cursor={s['next_unacknowledged_seq']} (not applied)")
+          PY
+            git add discovery-state/platform-index-sg.json discovery-state/platform-index-my.json
+            if git diff --cached --quiet; then
+              echo "Queue unchanged; observed identities already persisted."
+              exit 0
+            fi
+            git commit -m "chore: persist source-index candidate checkpoints [skip ci]"
+            if git push origin HEAD:main; then
+              echo "Published checked pending queues."
+              exit 0
+            fi
+            echo "Concurrent state update; refreshing and merging candidates (attempt ${attempt}/3)"
+          done
+          echo "FAIL: queue not persisted after three optimistic attempts"
+          exit 1
+      - name: Report real queue status
+        run: |
+          python scripts/platform_index_queue.py next --state discovery-state/platform-index-sg.json --limit 5
+          python scripts/platform_index_queue.py next --state discovery-state/platform-index-my.json --limit 5
