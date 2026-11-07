@@ -14,7 +14,7 @@ from urllib.request import Request,urlopen
 HOST="https://api.smartrecruiters.com/v1/companies/grab/postings"
 COUNTRIES=("MY","SG")
 PAGE=100
-MAX_PAGES=2
+MAX_PAGES=3
 MAX_DETAIL_PER_MARKET=12
 TITLE=re.compile(r"(?i)(?:\bAI\b|machine learning|deep learning|\bML\b|genai|llm|rag|NLP|research|data scientist|data science|agentic)")
 GENERIC_ENGINEERING=re.compile(r"(?i)(?:software|backend|platform|full.?stack|site reliability|data) engineer")
@@ -64,7 +64,10 @@ def filter_listing(row,market):
 def scan_market(market,get=fetch,pause=True):
     pages=[]; found={};errors=[]
     for pg in range(MAX_PAGES):
-        u=HOST+"?"+urlencode({"limit":PAGE,"offset":pg*PAGE,"country":market})
+        # Public API country parameter returns zero even though the unfiltered
+        # list contains MY and SG. Fetch bounded unfiltered pages and filter
+        # location.country in each result and in the exact detail again.
+        u=HOST+"?"+urlencode({"limit":PAGE,"offset":pg*PAGE})
         try:
             j=get(u)
             rows=records(j)
