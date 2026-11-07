@@ -8,6 +8,25 @@ import path from 'node:path';
 
 export const SEARCH_URL = 'https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job';
 const PAGE_SIZE = 40;
+
+// Spread a 3-city x 6-query sweep over 9 short executions (4 requests/run),
+// rather than making 36 consecutive requests that may trigger a rejected response.
+const ROTATION_CITIES = ['上海', '深圳', '北京'];
+const ROTATION_QUERY_PAIRS = [
+  ['AI工程师', '大模型'],
+  ['Agent', 'Python后端'],
+  ['后端开发', '软件工程师'],
+];
+export function selectRotation(runNumber) {
+  if (!Number.isInteger(runNumber) || runNumber <= 0) throw new Error('rotation number must be a positive integer');
+  const slot = (runNumber - 1) % (ROTATION_CITIES.length * ROTATION_QUERY_PAIRS.length);
+  return {
+    slot,
+    city: ROTATION_CITIES[Math.floor(slot / ROTATION_QUERY_PAIRS.length)],
+    queries: ROTATION_QUERY_PAIRS[slot % ROTATION_QUERY_PAIRS.length],
+    slotsPerSweep: ROTATION_CITIES.length * ROTATION_QUERY_PAIRS.length,
+  };
+}
 const MIN_INTERVAL_MS = 1600;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
@@ -228,13 +247,14 @@ export async function fetchSearch(body, { fetchImpl = fetch, maxRetries = 3 } = 
 }
 
 function parseArgs(argv) {
-  const args = { queries: [], cities: [], pages: 1, days: 0, output: 'artifacts/liepin-raw.json' };
+  const args = { queries: [], cities: [], pages: 1, days: 0, output: 'artifacts/liepin-raw.json', rotationNumber: null };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     const value = argv[i + 1];
     if (arg === '--query') { args.queries.push(value); i += 1; }
     else if (arg === '--city') { args.cities.push(value); i += 1; }
     else if (arg === '--pages') { args.pages = Number(value); i += 1; }
+    else if (arg === '--rotation-number') { args.rotationNumber = Number(value); i += 1; }
     else if (arg === '--days') { args.days = Number(value); i += 1; }
     else if (arg === '--output') { args.output = value; i += 1; }
     else if (arg === '--help') { args.help = true; }
@@ -245,7 +265,7 @@ function parseArgs(argv) {
 
 function usage() {
   return `Usage: node scripts/liepin_discovery.mjs --city 上海 --query AI工程师 [options]\n\n` +
-    `Repeat --city/--query to broaden discovery. Options: --pages N --days N --output PATH`;
+    `Repeat --city/--query, or pass --rotation-number N for the bounded 9-slot official sweep. Options: --pages N --days N --output PATH`;
 }
 
 export async function runDiscovery(options) {
@@ -297,6 +317,13 @@ async function main() {
   if (args.help) {
     console.log(usage());
     return;
+  }
+  if (args.rotationNumber !== null) {
+    if (args.cities.length || args.queries.length) throw new Error('--rotation-number cannot be combined with explicit --city/--query');
+    const selected = selectRotation(args.rotationNumber);
+    args.cities = [selected.city];
+    args.queries = selected.queries;
+    console.log('Liepin bounded rotation: ' + JSON.stringify(selected));
   }
   if (args.queries.length === 0 || args.cities.length === 0) {
     throw new Error('At least one --query and one --city are required');
