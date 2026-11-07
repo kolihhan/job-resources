@@ -96,6 +96,22 @@ class IndexQueueTests(unittest.TestCase):
         self.assertIsNone(q.canonical(a,"MY"))
         self.assertIsNone(q.canonical("https://example.com/job/x_R00026164-1","SG"))
 
+    def test_my_gen_digital_ashby_exact_uuid_source(self):
+        u="https://jobs.ashbyhq.com/gen-digital/c35bae67-de6c-45b7-b116-4c30a8c6ac73?utm=x"
+        want="https://jobs.ashbyhq.com/gen-digital/c35bae67-de6c-45b7-b116-4c30a8c6ac73"
+        self.assertEqual(q.canonical(u,"MY"),want)
+        self.assertIsNone(q.canonical(u,"SG"))
+        self.assertIsNone(q.canonical("https://jobs.ashbyhq.com/gen-digital/invalid","MY"))
+        s=q.new_state("MY")
+        payload={"source":"gen-digital:official-ashby:MY","items":[
+            {"market":"MY","platform":"Gen Digital official Ashby","url":want,
+             "title":"AI Applied Scientist","company":"Gen Digital / MoneyLion"}]}
+        s,stats=q.ingest(s,{},payload)
+        self.assertEqual(stats["new_pending"],1)
+        self.assertEqual(s["pending"][0]["url"],want)
+        s,again=q.ingest(s,{},payload)
+        self.assertEqual(again["already_seen"],1)
+
     def test_devglobal_feed_urls_are_explicitly_separate_from_native_board(self):
         self.assertEqual(q.canonical("https://devglobaljobs.com/jobs/detail/174081606?ref=api","SG"),
                          "https://devglobaljobs.com/jobs/detail/174081606")
