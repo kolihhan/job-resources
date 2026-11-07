@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-07T09:35:18.298073Z",
+    "at": "2026-11-07T09:42:37.324795Z",
     "source": "ntu:official-cxs:SG",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 23,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 23,
-      "observed": 23
+      "new_pending": 1,
+      "observed": 24
     }
   },
   "market": "SG",
-  "next_seq": 35,
+  "next_seq": 36,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -404,6 +404,21 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Fellow/Research Associate (Developing AI-enabled software for nature-positive business transformation in ASEAN)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow-Research-Associate--Developing-AI-enabled-software-for-nature-positive-business-transformation-in-ASEAN-_R00024254-1"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "first_seen_at": "2026-11-07T09:42:37.324776Z",
+      "key": "sg:70c70a73cae75f4152ff",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 35,
+      "source": "ntu:official-cxs:SG",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Associate (Mechanical Engineering/Robotics/Mechatronics/Automation & Control Engineering/Artificial Intelligence (AI))",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Mechanical-Engineering-Robotics-Mechatronics-Automation---Control-Engineering-Artificial-Intelligence--AI--_R00015865-1"
     }
   ],
   "terminal": [
