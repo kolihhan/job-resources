@@ -1,0 +1,53 @@
+name: NTU Official Research Role Liveness Pilot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_ntu_research_live.py'
+      - '.github/workflows/ntu-research-live-pilot.yml'
+permissions:
+  contents: read
+concurrency:
+  group: ntu-official-research-pilot
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Compile read-only source probe
+        run: python -m py_compile scripts/probe_ntu_research_live.py
+      - name: Check live Workday official job IDs and search cursors
+        run: python scripts/probe_ntu_research_live.py --output artifacts/ntu-research-live.json
+      - name: Summarize site evidence
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          v=json.loads(Path('artifacts/ntu-research-live.json').read_text())
+          lines=['# NTU official Workday research job probe','',
+                 f"State: {v.get('state')}; site: {v.get('site')}",'',
+                 '| Requisition | Search observed | Official detail status |',
+                 '|---|---|---|']
+          for x in v.get('liveness',[]):
+              lines.append(f"| {x['id']} | {x['listed_in_bounded_search']} | {x['state']} |")
+          lines+=['',f"Unique official search listing paths: {len(v['candidates'])}.",
+                  'An absent ID from bounded keyword pages is not proof of closure.',
+                  'No application or contact actions were performed.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('\n'.join(lines)+'\n')
+          print(json.dumps({'state':v.get('state'),'list_rows':len(v['candidates']),
+                            'liveness':[{k:r[k] for k in ('id','state')} for r in v.get('liveness',[])]}))
+          PY
+      - name: Preserve source evidence even if unavailable
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ntu-official-research-live
+          path: artifacts/
+          retention-days: 14
