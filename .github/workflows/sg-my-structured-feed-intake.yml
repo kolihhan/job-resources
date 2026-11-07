@@ -1,6 +1,9 @@
 name: SG MY Structured Feed Intake
 on:
   workflow_dispatch:
+  schedule:
+    # 10:40 and 22:40 Malaysia time; bounded public API, not high-rate scraping.
+    - cron: '40 2,14 * * *'
   push:
     paths:
       - 'scripts/collect_devglobal_source.py'
