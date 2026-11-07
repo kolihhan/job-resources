@@ -1,0 +1,68 @@
+name: Public Platform Feasibility
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_platform_feasibility.py'
+      - 'tests/test_platform_feasibility.py'
+      - '.github/workflows/platform-feasibility.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-platform-feasibility
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Verify strict per-page evidence requirements
+        run: python -m unittest discover -s tests -p 'test_platform_feasibility.py' -v
+
+      - name: Fetch bounded public platform searches from actual GitHub runner
+        run: |
+          python scripts/probe_platform_feasibility.py --output artifacts/platform-feasibility.json
+
+      - name: Write factual feasibility summary
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          report = json.loads(Path('artifacts/platform-feasibility.json').read_text(encoding='utf-8'))
+          lines = ['# Public platform accessibility from GitHub Actions (pilot)',
+                   '', 'HTTP 200 alone does not count as a successfully scanned job board.',
+                   '', '| Market | Platform | HTTP page 1/2 | Exact role IDs | New IDs page 2 | Coverage |',
+                   '|---|---|---|---:|---:|---|']
+          for x in report['results']:
+              statuses = '/'.join(str(p.get('http_status') or p['state']) for p in x['page_probes'])
+              lines.append(f"| {x['market']} | {x['id']} | {statuses} | {x['all_unique_job_identities']} | {x['page2_new_identifiable_jobs']} | {x['coverage']} |")
+          total = sum(x['all_unique_job_identities'] for x in report['results'])
+          proven = sum(x['coverage']=='TWO_PAGES_WITH_DISTINCT_ROLE_IDS' for x in report['results'])
+          lines += ['', f"Observed platform-local identities, BEFORE cross-platform dedupe: **{total}**.",
+                    f"Sources with evidence of two distinct result pages: **{proven} / {len(report['results'])}**.",
+                    '', 'Sources with no native IDs require separate search-index or employer ATS fallback and durable coverage debt.',
+                    'No login, proxy, CAPTCHA bypass or application was attempted.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write('\n'.join(lines) + '\n')
+          print(json.dumps({'platforms_probed':len(report['results']), 'two_distinct_pages':proven, 'observed_source_local_ids':total}))
+          PY
+
+      - name: Preserve results even for inaccessible sources
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: platform-feasibility
+          path: artifacts/
+          retention-days: 14
