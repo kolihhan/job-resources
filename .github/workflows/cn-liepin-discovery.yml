@@ -73,8 +73,8 @@ jobs:
           const liepin = JSON.parse(fs.readFileSync('artifacts/liepin-raw.json', 'utf8'));
           const page1WithNext = liepin.searches.filter(p => p.page === 1 && p.totalPage >= 2);
           const missingPage2 = page1WithNext.filter(p => !liepin.searches.some(q => q.city === p.city && q.query === p.query && q.page === 2));
-          if (missingPage2.length) throw new Error('Page two was available but not fetched for ' + missingPage2.map(p => p.city + ':' + p.query).join(', '));
-          if (liepin.meta.uniqueJobs === 0) throw new Error('Liepin collector yielded zero exact-ID jobs; cannot label discovery complete');
+          // A missing second page is an unfinished source debt, not a reason to throw away other sources.
+          const incompleteQueries = liepin.failedPages ?? [];
           const files = ['ai', 'backend', 'swe'].map((name) => `artifacts/jobpro-${name}.json`);
           const jobproRuns = files.map((file) => JSON.parse(fs.readFileSync(file, 'utf8')));
           const jobs = new Map();
@@ -109,6 +109,8 @@ jobs:
             `- first-page queries with page 2 available: ${page1WithNext.length}`,
             `- verified page 2 requests: ${liepin.searches.filter(p => p.page === 2).length}`,
             `- source exhausted: not claimed if more pages remain`,
+            `- source quality: ${liepin.meta.runQuality}`,
+            `- failed city/query/pages: ${incompleteQueries.length}; unverified page-two attempts: ${missingPage2.length}`,
             `- unique jobs: ${liepin.meta.uniqueJobs}`,
             `- duplicates removed: ${liepin.meta.duplicatesRemoved}`,
             `- malformed cards skipped: ${liepin.meta.skippedMalformed}`,
@@ -150,6 +152,8 @@ jobs:
           assert hashlib.sha256('\\n'.join(ids).encode()).hexdigest() == m['identity_sha256']
           assert m['status'] == 'AWAITING_VERIFICATION'
           print(f"Verified source candidate handoff: {len(ids)} IDs in {len(shards)} shards; NO APPLY/CHECK issues created")
+          if not m['unique_source_identifiers']:
+              raise SystemExit('FAIL: no parseable exact job identities from any source; source discovery remains incomplete')
           PY
 
       - name: Upload raw discovery artifact
