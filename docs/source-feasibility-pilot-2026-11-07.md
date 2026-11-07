@@ -42,3 +42,16 @@ The CN workflow builds `cn-source-manifest.json` plus 25-row `cn-source-candidat
 **Remaining gap:** this ephemeral artifact is a verified *producer handoff*, not a durable consumed queue. No scout may advance a source-consumption watermark on artifact creation alone. Before full rollout, implement minimal producer/consumer acknowledgement in existing market-owned discovery state: `run_id`, artifact hash, candidate count, last consumed ID or offset, pending count, and expiry; require actual successful handoff/terminal disposition per candidate. Do not create a second human application tracker. The receiver must read manifest-listed shards and perform Issue-history dedupe with read-back, retry/error receipts and metrics, rather than promise to process them in a prompt.
 
 **Acceptance gates:** nonzero exact role identity (or truthful BLOCKED); page two or proven exhaustion where available; bounded failures with source evidence; artifact and manifest count/hash reconciliation; consumer acknowledgement before DONE; and a real verified APPLY/CHECK increase (or explicit no eligible survivors after actual JDs). Workflow success or number of attempted sites alone does not satisfy these gates.
+
+## Follow-up CN production trial — verified
+
+Run: https://github.com/kolihhan/job-resources/actions/runs/42348597735
+
+- The previously monolithic 36-request collection was replaced by a deterministic nine-slot rotation: one city, two query families, up to two pages each per execution. The schedule runs every three hours; a complete query-family rotation requires nine *successful* slots, not just nine workflow invocations.
+- This run obtained **162 distinct Liepin jobs** from Shanghai Agent/Python backend, with two actual pages for each query. Each query reported 10 total pages: **pagination coverage remains incomplete**.
+- The official-company adapter produced **1,263** unique source jobs, with **11 failed adapter calls**. It is a separate source family with partial failures; it cannot stand in for full job liveness/eligibility.
+- Together the source collections yielded **1,425 unique source identities** (before exact GitHub Issue-history checks).
+- The candidate handoff emitted **1,176 metadata candidates in 48 bounded 25-row shards**, with **70 known URL hints**. The manifest and all shards passed identity count/uniqueness/SHA-256 reconciliation.
+- Raw job observations remain available in the expiring 30-day GitHub Actions artifact; the handoff is marked **AWAITING_VERIFICATION**. No full-JD candidate promotion or AI consumer acknowledgement occurred. **This must not be reported as 1,176 new APPLY opportunities.**
+
+**Immediate downstream work:** Consume shards through a deterministic, durable consumer offset, prioritizing North-Star signals and full exact-identity dedupe, then authoritative JD and visa/application-route checks. Writing the manifest is **producer completion only**; do not mark the discovery-to-APPLY loop completed before the consumer has persisted verified outcomes. A 48-shard artifact is not an acceptable human-facing queue.
