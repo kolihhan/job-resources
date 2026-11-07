@@ -1,0 +1,44 @@
+name: MY Gen Digital First-Party AI Source Pilot
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_gen_digital_ashby.py'
+      - 'tests/test_gen_digital_ashby.py'
+      - '.github/workflows/my-gen-digital-source-pilot.yml'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Test exact first-party source identity and market
+        run: python -m unittest discover -s tests -p 'test_gen_digital_ashby.py' -v
+      - name: Read actual Gen Digital MoneyLion careers API
+        run: python scripts/probe_gen_digital_ashby.py --out artifacts/my-gen-digital-ashby.json
+      - name: Record successful fetch and precise source yield
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          r=json.loads(Path('artifacts/my-gen-digital-ashby.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('# Gen Digital / MoneyLion MY Ashby source\n\n')
+              f.write(f"Status: **{r['status']}**. Total employer board: **{r['total_listed']}**. "
+                      f"MY title-relevant roles before history dedupe: **{len(r['items'])}**.\n\n")
+              for x in r['items'][:20]:
+                  f.write(f"- {x['title']}, {x['location']}: {x['url']}\n")
+              f.write('\nNo source observation is an APPLY/eligibility decision.\n')
+          print(json.dumps({'status':r['status'],'observed':r['total_listed'],'my_ai_roles':len(r['items'])}))
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-gen-digital-source-pilot
+          path: artifacts/my-gen-digital-ashby.json
+          retention-days: 14
