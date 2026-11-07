@@ -41,7 +41,7 @@ def get_json(url:str,payload:dict|None=None) -> dict:
     if not isinstance(obj,dict):raise ValueError("not JSON object")
     return obj
 
-def source_scan(fetch=get_json, pause=True) -> dict:
+def source_scan(fetch=get_json, pause=True, known_reqs=frozenset()) -> dict:
     observations={}
     probes=[]
     for query in QUERIES:
@@ -80,7 +80,8 @@ def source_scan(fetch=get_json, pause=True) -> dict:
         raise RuntimeError("No NTU list API page succeeded. Source not scanned; do not claim zero vacancies.")
     items=[]
     fail=[]
-    chosen=list(observations.values())
+    chosen=[r for r in observations.values() if r["id"] not in known_reqs]
+    exact_known_count=len(observations)-len(chosen)
     for role in chosen[:MAX_DETAILS]:
         try:
             detail=fetch(ROOT+role["externalPath"],None)
@@ -123,6 +124,7 @@ def source_scan(fetch=get_json, pause=True) -> dict:
         "observed_at":datetime.now(timezone.utc).isoformat(),
         "coverage":"BOUNDED_QUERY_EXHAUSTED" if complete else "PARTIAL_COVERAGE",
         "title_candidates":len(chosen),
+        "strong_history_id_suppressed":exact_known_count,
         "detail_budget":MAX_DETAILS,
         "details_attempted":min(MAX_DETAILS,len(chosen)),
         "details_failed":fail,
@@ -133,8 +135,17 @@ def source_scan(fetch=get_json, pause=True) -> dict:
 if __name__=="__main__":
     ap=argparse.ArgumentParser()
     ap.add_argument("--output",type=Path,required=True)
+    ap.add_argument("--known-index",type=Path)
     args=ap.parse_args()
-    r=source_scan()
+    known_ids=set()
+    if args.known_index and args.known_index.exists():
+        known=json.loads(args.known_index.read_text(encoding="utf-8"))
+        for url in known.get("strong",{}).get("urls",[]):
+            # Only the unique employer requisition is a strong exclusion;
+            # company or title similarity alone must never suppress a role.
+            if "ntu.wd3.myworkdayjobs.com" in str(url):
+                known_ids.update(re.findall(r"R\d{8}",str(url)))
+    r=source_scan(known_reqs=known_ids)
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(r,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print(json.dumps({"source":r["source"],"coverage":r["coverage"],
