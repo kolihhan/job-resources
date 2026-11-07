@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "source": "ntu:official-cxs:SG",
+  "observed_at": "2026-11-07T09:35:17.783986+00:00",
+  "next_offsets": {
+    "LLM": 0,
+    "agent": 0
+  },
+  "run_quality": "PARTIAL_COVERAGE",
+  "pages": [
+    {
+      "query": "LLM",
+      "offset": 0,
+      "rows": 20,
+      "state": "LIST_OBTAINED"
+    },
+    {
+      "query": "LLM",
+      "offset": 20,
+      "rows": 13,
+      "state": "LIST_OBTAINED"
+    },
+    {
+      "query": "agent",
+      "offset": 0,
+      "rows": 20,
+      "state": "LIST_OBTAINED"
+    },
+    {
+      "query": "agent",
+      "offset": 20,
+      "rows": 20,
+      "state": "LIST_OBTAINED"
+    },
+    {
+      "query": "agent",
+      "offset": 40,
+      "rows": 6,
+      "state": "LIST_OBTAINED"
+    }
+  ],
+  "source_role_ids_in_this_run": 23,
+  "strong_history_id_suppressed": 7,
+  "failed_details": 0
+}
