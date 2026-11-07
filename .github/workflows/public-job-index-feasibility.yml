@@ -1,0 +1,52 @@
+name: Public Job Index Feasibility
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_public_job_index.py'
+      - 'tests/test_public_job_index.py'
+      - '.github/workflows/public-job-index-feasibility.yml'
+permissions:
+  contents: read
+concurrency:
+  group: public-job-index-pilot
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Test strict exact-role URL parser
+        run: python -m unittest discover -s tests -p 'test_public_job_index.py' -v
+      - name: Probe public indexing endpoints on actual GitHub runner
+        run: python scripts/probe_public_job_index.py --output artifacts/public-job-index.json
+      - name: Report measured source access, not imagined coverage
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          data=json.loads(Path('artifacts/public-job-index.json').read_text())
+          entries=data['results']
+          lines=['# Public platform search-index feasibility','',
+                 'Search hit count is NOT a verified live job count.','',
+                 '| Market | Platform | Provider | State | Exact job identities |',
+                 '|---|---|---|---|---:|']
+          for x in entries:
+              lines.append(f"| {x['market']} | {x['platform']} | {x['provider']} | {x['state']} | {len(x['ids'])} |")
+          n=sum(len(x['ids']) for x in entries)
+          lines+=['',f"Total source observations: {n} (before across-query dedupe)."]
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f: f.write('\n'.join(lines)+'\n')
+          print(json.dumps({'observations':n,'providers_success':sum(bool(x['ids']) for x in entries)}))
+          if not n:
+              raise SystemExit('No verified exact platform role links: public-index collection is NOT deployable')
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-job-index-pilot
+          path: artifacts/
+          retention-days: 14
