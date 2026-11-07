@@ -1,0 +1,88 @@
+name: MY TOP Conservative First-Party JD Consumer
+on:
+  workflow_dispatch:
+  schedule:
+    # 12:15 and 00:15 MYT, after MY official source collection.
+    - cron: '15 4,16 * * *'
+  push:
+    paths:
+      - 'scripts/consume_my_ashby_queue.py'
+      - 'tests/test_consume_my_ashby_queue.py'
+      - '.github/workflows/my-conservative-consumer.yml'
+permissions:
+  contents: write
+  issues: read
+concurrency:
+  group: platform-index-queue
+  cancel-in-progress: false
+jobs:
+  consume:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Verify first-party JD and Issue acknowledgement contracts
+        run: |
+          python -m unittest discover -s tests -p 'test_consume_my_ashby_queue.py' -v
+          python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
+      - name: Process bounded MY official candidates and persist state
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/consume_my_ashby_queue.py --state discovery-state/platform-index-my.json --output artifacts/my-consumer.json --limit 12
+            git add discovery-state/platform-index-my.json
+            if git diff --cached --quiet; then
+              echo "No MY candidate review due; no heartbeat commit."
+              exit 0
+            fi
+            git commit -m "chore: persist MY official JD verification without auto-apply [skip ci]"
+            if git push origin HEAD:main; then
+              git fetch origin main
+              python - <<'PY'
+          import subprocess,json
+          s=json.loads(subprocess.check_output(["git","show","origin/main:discovery-state/platform-index-my.json"]))
+          assert s['next_unacknowledged_seq']==min([x['seq'] for x in s['pending']],default=s['next_seq'])
+          print('MY queue live readback',len(s['pending']),'pending',len(s['terminal']),'terminal')
+          PY
+              exit 0
+            fi
+            echo "Concurrent queue write; retry latest main"
+          done
+          exit 1
+      - name: Report actual MY source review health
+        if: always()
+        run: |
+          python - <<'PY'
+          import os,json
+          from pathlib import Path
+          s=json.loads(Path('discovery-state/platform-index-my.json').read_text())
+          p=Path('artifacts/my-consumer.json')
+          r=json.loads(p.read_text()) if p.exists() else {}
+          ready=[x for x in s['pending'] if x.get('consumer_review',{}).get('stage')=='FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW']
+          lines=['# MY official first-party AI/ML consumer','',
+                 f"Pending candidates: {len(s['pending'])}; official JD verified waiting for substantive fit: {len(ready)}.",
+                 f"Historical Issue confirmations this run: {r.get('issue_ack','unknown')}.",
+                 f"Oldest pending source seq: {s['next_unacknowledged_seq']}.",
+                 '', '## Official JD review handoff']
+          lines.extend('- '+x['title']+': '+x['url'] for x in ready[:12])
+          lines+=['','Source-listed is not eligibility or submission permission.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('\n'.join(lines)+'\n')
+          print(json.dumps({'pending':len(s['pending']),'review_ready':len(ready),'reported':r.get('considered',0)}))
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-consumer-evidence
+          path: artifacts/my-consumer.json
+          retention-days: 14
