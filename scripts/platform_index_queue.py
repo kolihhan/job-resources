@@ -175,11 +175,12 @@ def verify_issue_readback(issue_url: str,candidate_url: str,token: str) -> bool:
     # Accept only the canonical exact requisition declared as a field AND present
     # in the Issue title, never incidental references to sibling requisitions.
     if host=="ntu.wd3.myworkdayjobs.com":
-        source_req=re.search(r"_(R\\d{8})(?:-\\d+)?$",urlparse(candidate_url).path)
+        source_req=re.search(r"_(R\d{8})(?:-\d+)?$",urlparse(candidate_url).path)
         if source_req:
             reqid=source_req.group(1)
             title=str(issue.get("title") or "")
-            declared=re.search(r"^\\s*[-*]\\s*(?:Requisition|Req\\s*ID|Exact\\s*requisition)\\s*:\\s*\\x60?"+re.escape(reqid)+r"\\x60?\\b",
+            declared=re.search(
+                r"^\s*[-*]\s*(?:Requisition|Req\s*ID|Exact\s*requisition)\s*:\s*`?"+re.escape(reqid)+r"`?(?:\s|$)",
                 body,re.M|re.I)
             if reqid in title and declared:
                 return True
