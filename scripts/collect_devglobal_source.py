@@ -43,7 +43,7 @@ def parse_roles(data,market):
         if not isinstance(j,dict):continue
         jid=str(j.get("id") or "").strip()
         title=str(j.get("title") or "").strip()
-        company=j.get("companyName") or j.get("company") or j.get("organisation") or ""
+        company=j.get("companyName") or j.get("company") or j.get("organisation") or j.get("organization") or ""
         if isinstance(company,dict):company=company.get("name","")
         location=str(j.get("location") or j.get("city") or "")
         original=j.get("url") or j.get("link") or ""
