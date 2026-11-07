@@ -73,7 +73,7 @@ jobs:
       - name: Build bounded market review batches
         run: |
           python scripts/build_freehire_review_queue.py \
-            --batch-size 100 \
+            --batch-size 200 \
             --shard-size 25 \
             --max-shard-bytes 8000
 
