@@ -24,8 +24,8 @@ SOURCES = [
 ]
 MARKET_TERMS = {
     "SG": ("singapore",),
-    "MY": ("malaysia", "kuala lumpur", "penang", "selangor", "cyberjaya", "johor"),
-    "CN": ("china", "shenzhen", "beijing", "shanghai", "hangzhou", "guangzhou", "chengdu", "北京", "上海", "深圳", "杭州", "广州", "成都"),
+    "MY": ("malaysia", "kuala lumpur", "penang", "selangor", "cyberjaya", "johor", "petaling jaya", "puchong", "subang", "georgetown", "bayan lepas"),
+    "CN": ("china", "shenzhen", "beijing", "shanghai", "hangzhou", "guangzhou", "chengdu", "suzhou", "nanjing", "北京", "上海", "深圳", "杭州", "广州", "成都", "苏州", "南京"),
 }
 MAX_BYTES = 7_000_000
 PAGE_SIZE = 50
@@ -74,7 +74,7 @@ def parse_page(kind: str, payload: object) -> tuple[list[dict], int | None]:
         if not isinstance(r, dict):
             continue
         j_id = r.get("id")
-        title = r.get("text") if kind == "lever" else r.get("title") if kind in ("greenhouse", "smartrecruiters") else r.get("title")
+        title = r.get("text") if kind == "lever" else (r.get("name") or r.get("title")) if kind == "smartrecruiters" else r.get("title")
         if not j_id or not isinstance(title, str) or not title.strip():
             continue
         if kind == "lever":
@@ -90,7 +90,7 @@ def parse_page(kind: str, payload: object) -> tuple[list[dict], int | None]:
             loc = (r.get("location") or {}).get("city", "")
             country = (r.get("location") or {}).get("country", "")
             loc = f"{loc} {country}".strip()
-            url = f"https://jobs.smartrecruiters.com/{r.get('company', {}).get('identifier', '')}/{j_id}"
+            url = f"https://jobs.smartrecruiters.com/{(r.get('company') or {}).get('identifier', '')}/{j_id}"
         if not isinstance(loc, str):
             loc = str(loc or "")
         if not isinstance(url, str):
