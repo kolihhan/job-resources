@@ -75,6 +75,17 @@ class IndexQueueTests(unittest.TestCase):
                           "https://sg.jobstreet.com/job/12345678","token")
 
 
+    def test_idempotent_feed_updates_blank_company_only(self):
+        s=q.new_state("SG")
+        source={"source":"devglobal:public-api:SG","items":[{"market":"SG","url":"https://devglobaljobs.com/jobs/detail/174081606","title":"Applied AI Engineer, Codex","company":""}]}
+        s,a=q.ingest(s,{},source)
+        source["items"][0]["company"]="OpenAI"
+        s,b=q.ingest(s,{},source)
+        self.assertEqual(len(s["pending"]),1)
+        self.assertEqual(s["pending"][0]["company"],"OpenAI")
+        self.assertEqual(b["already_seen"],1)
+        self.assertEqual(s["pending"][0]["seq"],1)
+
     def test_devglobal_feed_urls_are_explicitly_separate_from_native_board(self):
         self.assertEqual(q.canonical("https://devglobaljobs.com/jobs/detail/174081606?ref=api","SG"),
                          "https://devglobaljobs.com/jobs/detail/174081606")
