@@ -1,0 +1,101 @@
+name: SG Conservative Queue Consumer
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 3,9,15,21 * * *'
+  push:
+    paths:
+      - 'scripts/consume_platform_queue.py'
+      - 'tests/test_consume_platform_queue.py'
+      - '.github/workflows/sg-conservative-consumer.yml'
+permissions:
+  contents: write
+  issues: read
+concurrency:
+  group: platform-index-queue
+  cancel-in-progress: false
+jobs:
+  consume:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Test exact-source identity and fail-closed consumer
+        run: |
+          python -m unittest discover -s tests -p 'test_consume_platform_queue.py' -v
+          python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
+      - name: Reconcile official JDs and exact historical Issues
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/consume_platform_queue.py --state discovery-state/platform-index-sg.json --output artifacts/sg-consumer.json --limit 12
+            git add discovery-state/platform-index-sg.json
+            if git diff --cached --quiet; then
+              echo "No candidate review due; no heartbeat commit."
+              exit 0
+            fi
+            git commit -m "chore: reconcile verified SG consumer state [skip ci]"
+            if git push origin HEAD:main; then
+              git fetch origin main
+              python - <<'PY'
+          import json,subprocess
+          s=json.loads(subprocess.check_output(['git','show','origin/main:discovery-state/platform-index-sg.json']))
+          assert s['next_unacknowledged_seq']==min([x['seq'] for x in s['pending']],default=s['next_seq'])
+          print('Confirmed live queue',len(s['pending']),'pending',len(s['terminal']),'terminal')
+          PY
+              exit 0
+            fi
+            echo "Concurrent queue update; retrying from current origin"
+          done
+          echo "Queue persistence failed; candidate state not acknowledged"
+          exit 1
+      - name: Show actual health and review-ready workload
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          s=json.loads(Path('discovery-state/platform-index-sg.json').read_text())
+          rfile=Path('artifacts/sg-consumer.json')
+          r=json.loads(rfile.read_text()) if rfile.exists() else {}
+          pending=s['pending']
+          ready=[p for p in pending if p.get('consumer_review',{}).get('stage')=='FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW']
+          untouched=[p for p in pending if not p.get('consumer_review')]
+          retry=[p for p in pending if p.get('consumer_review',{}).get('stage')=='FETCH_OR_IDENTITY_RETRY']
+          lines=['# SG Consumer operational health','',
+                 '| Metric | Count |','|---|---:|',
+                 f"| Pending exact source IDs | {len(pending)} |",
+                 f"| Official JD verified; fit assessment outstanding | {len(ready)} |",
+                 f"| Not yet inspected | {len(untouched)} |",
+                 f"| Retrieval/identity retries | {len(retry)} |",
+                 f"| Confirmed Issue acknowledgements this run | {r.get('issue_ack',0)} |",
+                 f"| Employer-closed exact IDs this run | {r.get('closed_by_employer',0)} |",
+                 f"| Errors this run | {r.get('errors',0)} |",
+                 f"| Oldest unacknowledged seq | {s['next_unacknowledged_seq']} |",
+                 '', '## Highest-signal first-party reviews', '']
+          ready.sort(key=lambda p:(-len(p['consumer_review'].get('signals',[])),p['seq']))
+          for p in ready[:8]:
+              z=p['consumer_review']
+              lines.append(f"- Seq {p['seq']} {p['title']}: {','.join(z.get('signals',[]))}; {p['url']}")
+          lines+=['','Official JD verified is NOT user-fit or application authorization.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('\n'.join(lines)+'\n')
+          print(json.dumps({'pending':len(pending),'ready_for_review':len(ready),
+             'uninspected':len(untouched),'source_errors':len(retry)}))
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sg-consumer-evidence
+          path: artifacts/sg-consumer.json
+          retention-days: 14
