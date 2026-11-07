@@ -7,6 +7,9 @@ on:
       - 'tests/test_known_role_index.py'
       - 'tests/test_filter_freehire_coldstart.py'
       - 'tests/test_freehire_review_throughput.py'
+      - 'tests/test_scout_metrics_completion.py'
+      - 'scripts/validate_scout_metrics.py'
+      - 'scripts/validate_scout_state.py'
       - 'scripts/build_known_role_index.py'
       - 'scripts/filter_freehire_coldstart.py'
       - 'scripts/build_freehire_review_queue.py'
@@ -36,6 +39,9 @@ jobs:
 
       - name: Run derived-state tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Validate scout state schema
+        run: python scripts/validate_scout_state.py --self-test && python scripts/validate_scout_state.py
 
       - name: Build index from all GitHub Issues
         env:
