@@ -1,0 +1,38 @@
+[
+  {
+    "key": "sg:85e74442f3b6b672eeea",
+    "action": "HARD_REJECTED",
+    "evidence_url": "https://openai.com/careers/applied-ai-engineer-codex-singapore/",
+    "reason": "Current Singapore employer JD explicitly requires 5+ years of technical consulting/post-sales/solutions architecture or similar direct customer experience, as well as leading enterprise workshops; early-career paid backend plus academic LLM tools does not establish this floor."
+  },
+  {
+    "key": "sg:cabbed8966fb0ff49b46",
+    "action": "HARD_REJECTED",
+    "evidence_url": "https://openai.com/careers/ai-support-engineer-singapore-%28korean-speaking%29-singapore/",
+    "reason": "First-party Singapore role requires 8+ years User Operations/Support Engineering and fluent bilingual Korean-English; neither the professional experience floor nor Korean-language requirement is supported by user profile."
+  },
+  {
+    "key": "sg:546624b9cb68de239296",
+    "action": "HARD_REJECTED",
+    "evidence_url": "https://openai.com/careers/ai-support-engineer-singapore-%28weekend-shift%29-singapore/",
+    "reason": "Employer first-party Support Delivery JD requires 8+ years in operations, engineering or technical support and scheduled weekend on-call customer service. It is a mature technical support role outside the 0–3 YOE AI engineering/research target."
+  },
+  {
+    "key": "sg:7862e79d958acf3da826",
+    "action": "HARD_REJECTED",
+    "evidence_url": "https://openai.com/careers/applied-ai-engineer-startups-%28mandarin-speaking%29-singapore/",
+    "reason": "Employer first-party Singapore Startups Applied AI Engineer role explicitly specifies 5+ years as software or ML engineer, plus strategic customer technical leadership; not the early-career target and no equivalent professional tenure verified."
+  },
+  {
+    "key": "sg:63f1393d65db98f5e86e",
+    "action": "HARD_REJECTED",
+    "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002641101",
+    "reason": "Employer official Binance Accelerator Program Applied AI Agent Engineer is a Tech Seeds 2026 six-month full-time internship requiring an eligible student or recent graduate cohort; non-permanent internship fails the repo's ordinary SG-ENG permanent-employment gate, not a Research Engineer exception."
+  },
+  {
+    "key": "sg:2ba1c9f5bfb5b6129f21",
+    "action": "HARD_REJECTED",
+    "evidence_url": "https://openai.com/careers/applied-ai-engineer-cyber-singapore/",
+    "reason": "Singapore employer first-party specialized cyber Applied AI role demands 5+ years customer-facing security consulting/architecture plus deep practitioner cybersecurity domain expertise; user has neither demonstrated specialized enterprise cyber tenure nor that senior customer advisory experience."
+  }
+]
