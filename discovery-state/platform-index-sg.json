@@ -29,23 +29,26 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Agent Development Engineer",
       "url": "https://www.linkedin.com/jobs/view/4456087297"
-    },
+    }
+  ],
+  "terminal": [
     {
       "company": "Tech Aalto",
+      "evidence_url": "https://sg.jobstreet.com/job/95566693",
       "first_seen_at": "2026-11-07T07:23:19.587374Z",
       "key": "sg:b80ab024388134917a64",
       "last_error": null,
       "market": "SG",
       "platform": "JobStreet",
       "query": "Singapore AI Engineer LLM",
+      "reason": "Exact JobStreet JD states five years of hands-on ML/AI delivery experience, above the early-career 0–3 YOE target and 2–4 stretch range. No senior-hire exception established.",
       "retries": 0,
       "seq": 2,
       "source": "public-web-index-manual-pilot-2026-11-07",
-      "state": "UNVERIFIED_INDEX",
+      "state": "HARD_REJECTED",
       "title": "AI / ML Engineer",
       "url": "https://sg.jobstreet.com/job/95566693"
     }
   ],
-  "terminal": [],
   "version": 1
 }

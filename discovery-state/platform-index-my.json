@@ -29,23 +29,26 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer (GenAI/RAG Systems)",
       "url": "https://malaysia.indeed.com/viewjob?jk=3375a1020f56547c"
-    },
+    }
+  ],
+  "terminal": [
     {
       "company": "Coca-Cola Beverages Singapore, Malaysia & Brunei",
+      "evidence_url": "https://my.linkedin.com/jobs/view/ai-engineer-at-coca-cola-beverages-singapore-malaysia-brunei-4474680448",
       "first_seen_at": "2026-11-07T07:23:19.668005Z",
       "key": "my:58469b7bc76ae5f267d0",
       "last_error": null,
       "market": "MY",
       "platform": "LinkedIn",
       "query": "Malaysia Agentic AI Engineer",
+      "reason": "Exact employer-authored JD requires approximately 5–7 years of software/AI engineering plus at least 2–3 years delivering GenAI, RAG or Agent systems in production; not an early-career fit. Distinct from applied-to junior role.",
       "retries": 0,
       "seq": 2,
       "source": "public-web-index-manual-pilot-2026-11-07",
-      "state": "UNVERIFIED_INDEX",
+      "state": "HARD_REJECTED",
       "title": "AI Engineer",
       "url": "https://www.linkedin.com/jobs/view/4474680448"
     }
   ],
-  "terminal": [],
   "version": 1
 }
