@@ -59,12 +59,12 @@
     {
       "platform": "Hiredly",
       "query_family": "AI backend / platform / ML engineering",
-      "last_attempt_at": "2026-11-07T13:24:07+08:00",
+      "last_attempt_at": "2026-11-07T14:22:55+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 3,
-      "reason": "Native AI-Engineering page returns shell without job cards; page=2 inaccessible. Search-index fallback identified Tapway/NTT DATA/Hiredly X but no native pagination or exhaustion.",
-      "next_probe": "Obtain Hiredly live API/cursor for AI-Engineering page 1 and 2; otherwise compare employer ATS and independent exact-role pages"
+      "reason": "Hiredly AI category native current open shell, page=2 inaccessible. Independent Hiredly IT directory lists named jobs and three exact JD pages checked, but no category-native two-page/exhaustion evidence.",
+      "next_probe": "Recover Hiredly category API/page 1+2 or independent ATS exact role coverage; follow Deloitte graduate req from official Deloitte SEA site"
     }
   ]
 }
