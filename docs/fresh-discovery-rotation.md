@@ -39,6 +39,18 @@ Platform rules:
 - prioritize unique early-career/research-aligned exact job identities, not advertised search-result totals.
 
 
+### Mandatory source-depth and unfinished-work contract
+
+**One search page or a few indexed snippets is not a completed source scan.** A platform attempt is a checkpoint, never proof of coverage. Each selected source should first try a current result set and **at least the next page/cursor** when the source actually exposes pagination (continue while useful new identities appear, up to a bounded three-page probe). Log the first and next page separately, with actual exact-role identifiers or direct URLs and the source's end-of-results signal if available. A search-result headline, a platform-advertised total, or a homepage is **not** an identifiable job row.
+
+When native pagination is inaccessible, explicitly log `native_pages_read: 0` and recover via at least **two independent source paths** where possible (employer careers/ATS API, alternative native job pages, indexed exact-role detail pages, PI/team direct notices). Distinguish original-platform verified rows, search-index fallback rows, and employer-direct rows. Never describe indexed snippets as "native pages scanned". If these probes cannot produce a credible cross-page sample or verified exhaustion, mark this source `UNDERCOVERED` rather than reporting it searched comprehensively.
+
+The roughly 20 unique identifiable rows per platform is a **coverage diagnostic**, not a reason to fabricate hits or waste full-JD reads. Below-target scans require evidence of source exhaustion or a durable coverage debt, never an unsupported `DONE`. Do not increase the number of platforms at the expense of reading page 2 or following exact job details. Four attempted platform families are a trial ceiling; a substantial multi-page, evidence-backed pass is better than four token one-page attempts.
+
+**Durable coverage debt:** `discovery-state/fresh-<market>.json` owns an additive `coverage_debt` array (not GitHub Issues, not a second job queue). Each debt records `platform`, `query_family`, `last_attempt_at`, `native_pages_read`, `native_unique_rows`, `fallback_unique_rows`, `reason`, and `next_probe` (exact next page/cursor, second source, or employer ATS path). Keep debts distinct by platform + query family. Each new run must attempt at least one previous high-value debt before declaring the current rotation handled, unless access/tooling is genuinely unavailable; in that case preserve the debt and report the blocker. Clear only when a real multi-page/exhaustion check or independent substitute establishes adequate coverage. Bound the array to current actionable gaps without silently erasing unresolved relevant gaps; coalesce redundant histories for the same platform/query.
+
+Rotation counters may still move past an inaccessible source to avoid a permanent deadlock, but **the unresolved coverage debt must not disappear**. The run is `PARTIAL_COVERAGE` while material debts or unprocessed required phases remain. Do not use "done", "finished market scan", "no more jobs", or "scanned the market" for a partial run. Say exactly what was and was not inspected. If Phase B FreeHire is untouched, record `phase_b_completed: false`; even with a fresh-platform pass, the full scout cycle is unfinished.
+
 ### Coverage recovery and honest completion
 
 The expanded 4-platform / 2-owner / 3-query / (SG) 2-lab sweep is an initial throughput experiment, **not** proven optimal. Do not spend expensive deep-verification budget just to satisfy the larger source count. Use metadata-first search, all-Issue-history dedupe, and targeted first-party checks. If execution limits prevent all buckets, report PARTIAL_COVERAGE and persist only attempts actually made; never advance an unattempted bucket.
@@ -52,7 +64,7 @@ For each selected platform:
 1. Count only distinct, identifiable job rows actually inspected. An unreachable page, blank results, or an index hit with no exact role identity counts **zero**.
 2. When a platform yields **zero rows** or substantially misses its roughly 20-row target, perform **one bounded alternate-source gap pass in the same run**: indexed/site-specific exact-role queries, official ATS/company career search, or PI/lab postings appropriate to that platform and query bucket. Clearly distinguish alternate-source rows from native rows; do not double count across search queries or source families.
 3. Re-anchor promising new signals to authoritative exact-role JD and usable application route. If the official page is JS-only, try another employer-published route or faithful full-JD reproduction once; record the unresolved blocker rather than claiming verification.
-4. If coverage remains weak, set run_quality=PARTIAL_COVERAGE and record coverage_gaps/fallback_sources in the run metrics. Zero new APPLY/CHECK then means **no verified survivors in the limited slice**, not no new roles on the market. The next run still rotates normally; revisit a failed source through its next rotation or high-value targeted gap pass.
+4. If coverage remains weak, set run_quality=PARTIAL_COVERAGE, add/update the same-platform/query `coverage_debt` with the actual next probe, and record coverage_gaps/fallback_sources in the run metrics. Zero new APPLY/CHECK then means **no verified survivors in the limited slice**, not no new roles on the market. The next run still rotates normally **and must work a previous debt before claiming completion**; do not reset the search to page one and repeat identical snippets.
 
 **SG research recall:** Every SG run also performs a bounded current RA/RE/Research Officer lab/official-portal sweep in its research bucket, including current NUS/NTU/A*STAR requisitions or PI-managed postings. Use role IDs and posted dates to find genuinely new opportunities, not just static lab homepages. Check all-Issue history before deep work; do not let unrelated university/research roles crowd out knowledge-enhanced LLM, Agent, NLP and evaluation research.
 
@@ -161,7 +173,7 @@ After Phase A:
 - advance `next_query_bucket` by query families actually attempted (target 3), modulo its count;
 - SG advances `next_research_bucket` by lab buckets actually attempted (target 2), modulo 5;
 - write `last_completed_at`, last attempted buckets/platforms, and increment `run_counter`. Preserve the existing fresh-state field types/validator contract (the legacy `last_*_bucket` fields may remain a single string). Capture all attempted buckets in the run metrics;
-- read back the state before reporting success.
+- read back the state before reporting success; verify any new/unresolved `coverage_debt` entries were preserved and that a claimed resolved debt has page/exhaustion/independent-source evidence.
 
 ## Health criterion
 
@@ -169,5 +181,5 @@ Healthy fresh discovery means:
 
 - the four-platform, two-owner, three-query and (SG) two-research-bucket rotations are attempted, with truthful partial-coverage accounting;
 - owner/query/research buckets continue rotating;
-- FreeHire runs independently under its canonical contract;
+- FreeHire runs independently under its canonical contract and any unprocessed Phase B is explicitly marked incomplete;
 - verified survivors reach APPLY/CHECK when found.
