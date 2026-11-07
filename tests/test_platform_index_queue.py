@@ -70,7 +70,7 @@ class IndexQueueTests(unittest.TestCase):
             self.assertTrue(q.verify_issue_readback("https://github.com/kolihhan/job-resources/issues/123",
                           "https://sg.jobstreet.com/job/12345678","token"))
         with patch.object(q,"urlopen",return_value=Response(b'{"number":123,"body":"unrelated listing"}')):
-            with self.assertRaisesRegex(ValueError,"exact platform identity"):
+            with self.assertRaisesRegex(ValueError,"exact source identity"):
                 q.verify_issue_readback("https://github.com/kolihhan/job-resources/issues/123",
                           "https://sg.jobstreet.com/job/12345678","token")
 
