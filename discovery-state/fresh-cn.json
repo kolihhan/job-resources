@@ -19,12 +19,12 @@
     {
       "platform": "前程无忧 / 51job",
       "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
-      "last_attempt_at": "2026-11-07T10:09:22+08:00",
+      "last_attempt_at": "2026-11-08T00:06:19+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 0 inspected/exact-role rows",
-      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+      "fallback_unique_rows": 3,
+      "reason": "Native 51job pagination unavailable; 51job editorial index was not a native results page. Three identifiable Nowcoder exact job IDs inspected as independent fallback (463595, 466220, 458229); all cohort-blocked or past deadline. Still no second independent ATS route or native page-2 evidence.",
+      "next_probe": "Try native 51job search page 1 and 2 with recorded job IDs; if blocked, add employer ATS exact-role search independent of Nowcoder and 51job editorial index."
     },
     {
       "platform": "脉脉 / team-direct recruiting signals",
