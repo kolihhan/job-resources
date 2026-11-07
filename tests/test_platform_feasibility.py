@@ -18,7 +18,7 @@ class PlatformProbeTests(unittest.TestCase):
         def get(url):
             n = "1" if "page=1" in url else "2"
             return {"state": "HTML_FETCHED", "http_status": 200,
-                    "html": f'<html><title>Results</title><a href="/job/1234567{n}?utm=test">AI role</a></html>',
+                    "html": f'<html><title>AI Engineer Jobs</title><a href="/job/1234567{n}?utm=test">AI role</a></html>',
                     "final_url": url}
         spec = {"id": "MY_JOBSTREET", "market": "MY", "host": "jobstreet.com",
                 "urls": ["https://my.jobstreet.com/ai-engineer-jobs?page=1",
@@ -27,6 +27,22 @@ class PlatformProbeTests(unittest.TestCase):
         self.assertEqual(result["coverage"], "TWO_PAGES_WITH_DISTINCT_ROLE_IDS")
         self.assertEqual(result["all_unique_job_identities"], 2)
         self.assertEqual(result["page2_new_identifiable_jobs"], 1)
+
+    def test_generic_title_and_one_new_job_is_not_proven_search_coverage(self):
+        m = load()
+        def generic(url):
+            n = 0 if "page=1" in url else 1
+            refs = "".join(f'<a href="/jobdetail/CC1000J{i}.htm">job</a>' for i in range(n, n + 20))
+            return {"state": "HTML_FETCHED", "http_status": 200, "final_url": url,
+                    "html": '<title>热门职位招聘</title>' + refs}
+        spec = {"id": "CN_ZHAOPIN", "market": "CN", "host": "zhaopin.com",
+                "urls": ["https://sou.zhaopin.com/?kw=LLM&page=1",
+                         "https://sou.zhaopin.com/?kw=LLM&page=2"]}
+        r = m.probe_platform(spec, generic)
+        self.assertEqual(r["all_unique_job_identities"], 21)
+        self.assertEqual(r["page2_new_identifiable_jobs"], 1)
+        self.assertFalse(r["query_scope_verified"])
+        self.assertEqual(r["coverage"], "ROLE_LINKS_BUT_QUERY_OR_PAGE_2_UNVERIFIED")
 
     def test_js_shell_is_not_a_job(self):
         m = load()
@@ -60,7 +76,7 @@ class PlatformProbeTests(unittest.TestCase):
             return {"state": "HTML_FETCHED", "http_status": 200,
                     "final_url": url, "html": '<a href="/job/12345678">same</a>'}
         r = m.probe_platform(m.PLATFORMS[1], dup)
-        self.assertEqual(r["coverage"], "ROLE_LINKS_BUT_NEXT_PAGE_UNPROVEN")
+        self.assertEqual(r["coverage"], "ROLE_LINKS_BUT_QUERY_OR_PAGE_2_UNVERIFIED")
         self.assertEqual(r["page2_new_identifiable_jobs"], 0)
 
 
