@@ -419,6 +419,23 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T19:28:10.711164Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 1785,
+        "jd_sha256": "174157e79dbdfe3db1e672329b922dc12c1339543497c2cad5a4291113f8895b",
+        "job_description_excerpt": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026175",
+        "review_flags": [],
+        "signals": [
+          "agent",
+          "knowledge"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297980Z",
       "key": "sg:b38bd9861c103908e0d7",
       "last_error": null,
@@ -434,6 +451,24 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T19:28:10.711164Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 2504,
+        "jd_sha256": "636038f32d382812a769e74114b02af579b49df10a1c823b429debdb8ed56596",
+        "job_description_excerpt": "We are part of EEE at NTU. One of our primary research focuses is on embodied AI that involves VLA adaptation, data collection, benchmarking, and beyond. School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Te",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026033",
+        "review_flags": [],
+        "signals": [
+          "llm",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.298001Z",
       "key": "sg:1ffb333eec37ff2ffb77",
       "last_error": null,
@@ -449,6 +484,22 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T19:28:10.711164Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 1854,
+        "jd_sha256": "622b24a1a9309852f1aeb9d21bee22c22ff91f40c231df7ac8057e1fd3805b92",
+        "job_description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergradua",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025701",
+        "review_flags": [],
+        "signals": [
+          "agent"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.298022Z",
       "key": "sg:2b354ca4d91421db4a69",
       "last_error": null,
@@ -464,6 +515,25 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T19:28:10.711164Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 5456,
+        "jd_sha256": "28c9d8cd91f3b08c02ca6066e907ef5732b3cadaf501c59e08c2c44382907a55",
+        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025584",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.298043Z",
       "key": "sg:a483f7475ffb914f8d31",
       "last_error": null,
@@ -479,6 +549,25 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T19:28:10.711164Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 2839,
+        "jd_sha256": "675faef4f0bb09f7e697f9150a2850339add94b94babe06c11ab0004a62857e5",
+        "job_description_excerpt": "EOS is a University Research Institute at Nanyang Technological University that conducts fundamental research on earthquakes, volcanic eruptions, tsunamis, and climate change in and around Southeast Asia, towards safer and more sustainable societies.",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00024254",
+        "review_flags": [],
+        "signals": [
+          "llm",
+          "agent",
+          "evaluation",
+          "nlp"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.298065Z",
       "key": "sg:42beb2d215caca540b5c",
       "last_error": null,
@@ -494,6 +583,24 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T19:28:10.711164Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 1115,
+        "jd_sha256": "0f1dc780825bff72de3c1c99a21a4e33ef952add1b7ba16afeff98a6b2011021",
+        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) invites applications for the position of Research Associate. Key Responsibilities: Work on human-like traffic simulation, with the focus of modeling traffic behaviors from large-scale real-world ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00015865",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "agent"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:42:37.324776Z",
       "key": "sg:70c70a73cae75f4152ff",
       "last_error": null,
