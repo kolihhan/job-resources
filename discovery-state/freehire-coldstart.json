@@ -103,37 +103,6 @@
     {
       "ai_score": 17,
       "ai_signals": [
-        "title:llm",
-        "title:ai",
-        "title:agent",
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "company": "IT CONSULTANCY & SERVICES PTE LTD",
-      "created_at": "2026-10-28T08:30:19Z",
-      "description_excerpt": "<p><strong>Job Responsibilities:</strong></p><ul><li>Design, develop, and improve LLM-based applications, RAG systems, AI assistants, and agentic AI solutions for product and enterprise use cases. </li><li>Develop proactive and interactive AI agents that can understand user requests, retrieve information, use tools, execute workflows, and interact through text or voice. </li><li>Build and optimize core capabilities such as document ingestion, information retrieval, prompting, tool calling, agent orchestration, memory, and human-in-the-loop control. </li><li>Integrate AI agents with devices, in",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": ":61ea0e82d429ce3903bae63c60354c9e",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/ai-engineer-llm-ai-agent-it-consultancy-services-pte-ltd-xxphiymr",
-      "identity": "ai-engineer-llm-ai-agent-it-consultancy-services-pte-ltd-xxphiymr",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "ai-engineer-llm-ai-agent-it-consultancy-services-pte-ltd-xxphiymr",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/61ea0e82d429ce3903bae63c60354c9e?utm_source=freehire.me",
-      "title": "AI Engineer - LLM & AI Agent"
-    },
-    {
-      "ai_score": 17,
-      "ai_signals": [
         "title:genai",
         "title:ai",
         "title:ml",
@@ -71853,8 +71822,8 @@
       "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-07T10:43:12.773405Z",
-  "known_exact_count": 36,
+  "generated_at": "2026-11-07T16:39:25.849225Z",
+  "known_exact_count": 37,
   "machine_candidate_counts": {
     "CN": 797,
     "MY": 303,
@@ -71879,10 +71848,10 @@
       "unseen": 287
     },
     "SG": {
-      "known_exact": 17,
+      "known_exact": 18,
       "source": 1559,
       "suspected_known": 24,
-      "unseen": 1518
+      "unseen": 1517
     }
   },
   "raw_counts": {
@@ -71890,7 +71859,7 @@
     "MY": 4830,
     "SG": 14597
   },
-  "review_count": 2623,
+  "review_count": 2622,
   "source_count": 2659,
   "source_generated_at": "2026-11-06T23:29:21.069922Z",
   "suspected_known_count": 51,
@@ -71899,6 +71868,6 @@
     "MY": 722,
     "SG": 2393
   },
-  "unseen_count": 2572,
+  "unseen_count": 2571,
   "version": 1
 }
