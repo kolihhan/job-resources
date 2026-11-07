@@ -86,6 +86,15 @@ class IndexQueueTests(unittest.TestCase):
         self.assertEqual(b["already_seen"],1)
         self.assertEqual(s["pending"][0]["seq"],1)
 
+    def test_ntu_first_party_cxs_requisition_links_are_normalized(self):
+        a="https://ntu.wd3.myworkdayjobs.com/en-US/careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Trust-Technologies-_R00026164-1"
+        b="https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Trust-Technologies-_R00026164-1"
+        # Valid first-party Workday URL is an actual clickable job link, not
+        # a synthetic source key or misleading title-only company match.
+        self.assertEqual(q.canonical(a,"SG"),q.canonical(b,"SG"))
+        self.assertIsNone(q.canonical(a,"MY"))
+        self.assertIsNone(q.canonical("https://example.com/job/x_R00026164-1","SG"))
+
     def test_devglobal_feed_urls_are_explicitly_separate_from_native_board(self):
         self.assertEqual(q.canonical("https://devglobaljobs.com/jobs/detail/174081606?ref=api","SG"),
                          "https://devglobaljobs.com/jobs/detail/174081606")
