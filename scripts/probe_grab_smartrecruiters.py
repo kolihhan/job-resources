@@ -102,12 +102,33 @@ def scan_market(market,get=fetch,pause=True):
             errors.append({"job_id":row["source_id"],"error":type(ex).__name__+": "+str(ex)[:110]})
         if pause:time.sleep(0.2)
     unexamined=max(0,len(found)-MAX_DETAIL_PER_MARKET)
-    bounded_end=bool(pages and pages[-1]["response_count"]<PAGE and not errors and unexamined==0)
+    bounded_end=bool(pages and len(found)>0 and pages[-1]["response_count"]<PAGE and not errors and unexamined==0)
     return {"market":market,"status":"BOUNDED_SOURCE_END" if bounded_end else "PARTIAL_OR_UNAVAILABLE",
         "source":"grab:official-smartrecruiters:"+market,
         "pages":pages,"errors":errors,"observed_title_location_ids":len(found),
         "detail_verified":len(verified),"unverified_detail_budget":unexamined,
         "items":verified}
+
+def endpoint_diagnostics(get=fetch):
+    # A source returning 200 + zero rows is not proof the company has no jobs.
+    # Probe both public company-identifier case forms without any country filter.
+    probes=[]
+    for slug in ("Grab","grab"):
+        for country in ("", "MY", "SG"):
+            u=f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=20&offset=0"
+            if country:
+                u+="&country="+country
+            try:
+                j=get(u)
+                x=records(j)
+                probes.append({"slug":slug,"country":country or "UNFILTERED",
+                               "rows":len(x),"totalFound":j.get("totalFound"),
+                               "sample_country":[location_country(r.get("location")) for r in x[:4] if isinstance(r,dict)]})
+            except Exception as e:
+                probes.append({"slug":slug,"country":country or "UNFILTERED",
+                               "error":type(e).__name__+": "+str(e)[:130]})
+    return probes
+
 
 def main():
     ap=argparse.ArgumentParser()
@@ -116,6 +137,9 @@ def main():
     data={"observed_at":datetime.now(timezone.utc).isoformat(),
           "provenance":"Grab first-party SmartRecruiters public Posting API",
           "results":[scan_market(m) for m in COUNTRIES]}
+    if sum(r["detail_verified"] for r in data["results"]) == 0:
+        data["endpoint_diagnostics"]=endpoint_diagnostics()
+        print("ENDPOINT_DIAGNOSTICS",json.dumps(data["endpoint_diagnostics"]),flush=True)
     args.out.parent.mkdir(parents=True,exist_ok=True)
     args.out.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     for r in data["results"]:
