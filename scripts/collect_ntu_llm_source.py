@@ -124,7 +124,9 @@ def source_scan(fetch=get_json, pause=True, known_reqs=frozenset(), start_offset
         except Exception as e:
             fail.append({"id":role["id"],"error":type(e).__name__+":"+str(e)[:160]})
         if pause:time.sleep(0.3)
-    incomplete_queries=[q for q in QUERIES if next_offsets[q]!=0]
+    incomplete_queries=[q for q in QUERIES
+        if next_offsets[q]!=0 or any(
+            p["query"]==q and p["state"]=="SOURCE_FETCH_FAILED" for p in probes)]
     complete=(not incomplete_queries and not fail and len(chosen)<=MAX_DETAILS)
     return {
         "source":"ntu:official-cxs:SG",
