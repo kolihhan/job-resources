@@ -17,6 +17,25 @@
   "pending": [
     {
       "company": "Gen Digital / MoneyLion",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:20:14.884869Z",
+        "employment_time_type": "FullTime",
+        "jd_chars": 4913,
+        "jd_sha256": "c28b7d6d738c027ccb2f8096a44a70deff5557475dcd4bbd64931d7545672b27",
+        "job_description_excerpt": "About Gen: Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for the firs",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "public_employer_board_listed": true,
+        "req_id": "2f170362-7e3b-48a2-956e-1bac730a7d1d",
+        "review_flags": [
+          "security_specialism"
+        ],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "Gen Digital first-party Ashby",
+        "source_verified_can_apply": "NOT_ASSERTED_BY_ASHBY_FEED",
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T11:16:43.391174Z",
       "key": "my:f297320beeba59bdfe62",
       "last_error": null,
@@ -32,6 +51,27 @@
     },
     {
       "company": "Gen Digital / MoneyLion",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:20:14.884869Z",
+        "employment_time_type": "FullTime",
+        "jd_chars": 5172,
+        "jd_sha256": "c138d455b3c7cd450cdaaf783245e8f845b4f5595e58dffd2b6b60bb9741b7f3",
+        "job_description_excerpt": "About Gen Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for the first",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "public_employer_board_listed": true,
+        "req_id": "c35bae67-de6c-45b7-b116-4c30a8c6ac73",
+        "review_flags": [
+          "security_specialism"
+        ],
+        "signals": [
+          "rag",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "Gen Digital first-party Ashby",
+        "source_verified_can_apply": "NOT_ASSERTED_BY_ASHBY_FEED",
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T11:16:43.391214Z",
       "key": "my:9c0b268e8be6b0da1404",
       "last_error": null,
