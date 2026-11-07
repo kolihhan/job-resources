@@ -1,0 +1,51 @@
+name: SG MY Public Feed Source Pilot
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_sg_my_public_feeds.py'
+      - 'tests/test_sg_my_public_feeds.py'
+      - '.github/workflows/sg-my-feed-source-pilot.yml'
+permissions:
+  contents: read
+concurrency:
+  group: sg-my-feed-source-pilot
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Unit test public API parsing
+        run: python -m unittest discover -s tests -p 'test_sg_my_public_feeds.py' -v
+      - name: Probe official documented feeds from GitHub runner
+        run: python scripts/probe_sg_my_public_feeds.py --output artifacts/sg-my-public-feeds.json
+      - name: Report observations without claiming eligible jobs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,os
+          data=json.loads(Path('artifacts/sg-my-public-feeds.json').read_text())
+          lines=['# SG/MY Structured Public Job Feeds','',
+                 'These are aggregator source observations, not JobStreet/LinkedIn native coverage.','',
+                 '| Provider | Market | Search | State | Exact URL rows | Relevant title rows |',
+                 '|---|---|---|---|---:|---:|']
+          for r in data['queries']:
+              lines.append(f"| {r['provider']} | {r['market_filter']} | {r['term']} | {r['state']} | {r['with_exact_urls']} | {r['relevant_titles']} |")
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('\n'.join(lines)+'\n')
+          n=sum(r['with_exact_urls'] for r in data['queries'])
+          good=sum(r['relevant_titles'] for r in data['queries'])
+          print(json.dumps({'rows_with_urls_before_dedupe':n,'relevant_title_rows_before_dedupe':good}))
+          if good==0:
+              raise SystemExit('Not an operational SG/MY AI feed: zero relevant exact-role observations')
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sg-my-public-feeds
+          path: artifacts/
+          retention-days: 14
