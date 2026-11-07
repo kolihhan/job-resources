@@ -87,8 +87,8 @@ Use the expanded **25 substantive JD reads / 15 due retries** trial limit. Count
 ## 2. Current batch
 
 1. Read `discovery-state/freehire-batch-<market>.json`.
-2. Read every manifest-listed shard in order.
-3. Reconcile manifest/shard counts and process candidates in ascending `candidate_seq`.
+2. Read every manifest-listed shard **in bounded groups of at most 8 files per tool-call batch**, in manifest order; an expanded 200-candidate batch may contain 24 or more shards. Never submit a single oversized connector call for all shards, and never assume a fixed shard count.
+3. Reconcile manifest/shard counts and process candidates in ascending `candidate_seq`. Preserve the candidate order and all previously recorded decisions across tool-call groups. If a tool limit interrupts reading, mark PARTIAL_COVERAGE, keep the cursor unchanged past unread candidates, and recover on the next cycle; do not pretend the manifest was exhausted.
 4. If a shard is missing, truncated, unreadable, or count-mismatched, do not advance past unread data.
 
 For each candidate:
