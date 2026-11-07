@@ -12,6 +12,14 @@ Append exactly one compact JSON object per completed run to:
 
 Use Asia/Kuala_Lumpur date boundaries. Legacy monthly files are read-only.
 
+## Non-negotiable completion gate
+
+A scout run that inspects a single page/snippet set, cannot obtain page two or an evidenced exhaustion signal, or skips current FreeHire due/batch processing **must not be called DONE**. It may write a truthful partial-run metrics row, but the user-facing report must say `INCOMPLETE / PARTIAL_COVERAGE` with the exact next step and unfinished counts. Source attempts are not market coverage. A zero-new-role result without inspectable evidence is **UNKNOWN**, never "no jobs".
+
+For each attempted platform, include `source_probes` entries with the source path, query/topic, pagination page/cursor or explicit unavailability, distinct exact role identifiers/URLs (bounded sample), total unique rows from that page, and whether end-of-results is proven. Separate native rows from indexed/ATS fallback rows; indexed search hits are not platform-native pagination. If a source is undercovered, the matching entry in market-owned `fresh-<market>.json:coverage_debt` must identify a next probe. A run must document at least one previous debt attempted or explain why it was blocked.
+
+Set `phase_a_completed` and `phase_b_completed` booleans in each metrics record. `COMPLETE` is permitted **only** if both are true, current required source attempts and durable handoffs are evidenced, current sources have real page/exhaustion/substitute evidence, and there is no material unworked coverage debt. Otherwise `PARTIAL_COVERAGE` (or `BLOCKED_STATE` if state integrity failed). A metrics row recording an incomplete run is an honest checkpoint, **not an achievement or completion receipt**. Before persisting, validate these rules using `scripts/validate_scout_metrics.py` when executable; without Python do the equivalent explicit invariant checks. Never mark COMPLETE merely because the metrics JSON was appended.
+
 ## Required evidence
 
 Every run should preserve enough evidence to answer:
@@ -100,11 +108,13 @@ A false-negative audit survivor may also increment normal survivor/APPLY/CHECK f
 
 For new records, also report:
 
-- run_quality: COMPLETE or PARTIAL_COVERAGE or BLOCKED_STATE. This is **not** inferred from the number of new Issues. COMPLETE requires the scheduled source attempts, bounded alternate-source recovery for weak/zero-row attempts, all mandatory durable handoffs, and read-back validation. It does not promise market exhaustiveness.
+- run_quality: COMPLETE or PARTIAL_COVERAGE or BLOCKED_STATE. This is **not** inferred from the number of new Issues. COMPLETE requires separately verified deep source coverage (multiple pages or proved exhausted/independent substitutes), mandatory source attempts, both A/B phases, all durable handoffs and read-back validation. A 0-row or 1-page pass is a partial checkpoint, not completion.
 - coverage_gaps: concrete blocked/weak sources and their actual inspected rows, not a generic statement of no listings.
 - fallback_sources: source families used to compensate for blocked native pages, with separately counted rows (avoid duplicates).
 - retry_new_evidence: number of retries that yielded a new substantive JD, route, or eligibility fact; distinguish from attempts/reschedules.
-- fresh_bucket_coverage: the attempted owner/query/research bucket names and the exact number of unique roles found per attempted platform (additive optional fields; do not change required schema without updating validators).
+- fresh_bucket_coverage: attempted owner/query/research bucket names and exact unique roles per attempted platform. Include `source_probes` with inspected page/cursor/URL and sampled exact job identities. Do not infer coverage from hit totals.
+- coverage_debt_remaining: count of material persisted `fresh-<market>.json:coverage_debt` entries after run and which older entry was investigated; a nonzero value prevents COMPLETE when a relevant required scope is still unworked.
+- phase_a_completed / phase_b_completed: mandatory booleans for new records; the second must only be true if FreeHire manifest/retry obligations were actually dispositioned, or a proven empty queue was reconciled. Do not treat an unattempted batch as empty.
 - retry_no_progress: due retries that still produced no new substantive evidence (optional additive field); report separately from newly deferred candidates and retry_new_evidence.
 - budget_pressure: whether the expanded candidate/JD ceilings, unread backlog or runtime constraints caused any PARTIAL_COVERAGE or budget deferral.
 - recall_spotcheck (daily review, not every hourly run): independent fresh roles sampled, matches in all Issue history, verified missed eligible roles, and root cause. Small samples indicate **possible** false negatives, not a statistically valid market recall estimate.
@@ -117,7 +127,7 @@ Human-facing summaries should include both throughput and recall evidence, for e
 
 `FreeHire: 200 candidates / 138 cheap rejects / 25 normal JD reads / reject audit 5 with 0 false negatives / 4 survivors / cursor 100→300.`
 
-Do not describe a filter as "good" merely because it rejects many candidates. Repeated reject-audit evidence is required before tightening it further.
+Do not say "scout done" or "no jobs" when the record is PARTIAL_COVERAGE; report exactly which page/query/role count was verified and what remains. Do not describe a filter as "good" merely because it rejects many candidates. Repeated reject-audit evidence is required before tightening it further.
 
 ## Failure handling
 
