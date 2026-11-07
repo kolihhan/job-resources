@@ -1,0 +1,46 @@
+name: MY First-Party Junior GenAI Role Verification
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_my_firstparty_genai.py'
+      - '.github/workflows/my-firstparty-genai-pilot.yml'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Compile read-only direct first-party verification
+        run: python -m py_compile scripts/probe_my_firstparty_genai.py
+      - name: Verify current Intel and Accenture AI requisitions
+        run: python scripts/probe_my_firstparty_genai.py --output artifacts/my-firstparty-genai.json
+      - name: Summarize verified role and job tenure evidence
+        run: |
+          python - <<'PY'
+          import json,os,re
+          from pathlib import Path
+          r=json.loads(Path('artifacts/my-firstparty-genai.json').read_text())
+          lines=['# Malaysia official GenAI roles verified by Workday CXS','',
+                 '| Requisition | State | Can Apply | JD characters |',
+                 '|---|---|---|---:|']
+          for x in r['results']:
+              lines.append(f"| {x['req']} | {x['state']} | {x.get('canApply')} | {x.get('description_chars',0)} |")
+              if x.get('jobDescription'):
+                  excerpt=re.findall(r'.{0,140}(?:contract|permanent|job type|years of experience|fresh graduate).{0,220}',
+                      re.sub('<[^>]+>',' ',x['jobDescription']),flags=re.I)
+                  print(json.dumps({'req':x['req'],'employment_mentions':excerpt[:6]},ensure_ascii=False))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('\n'.join(lines)+'\n')
+          PY
+      - name: Save employer source evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-firstparty-genai
+          path: artifacts/
+          retention-days: 7
