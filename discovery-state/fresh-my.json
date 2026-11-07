@@ -39,12 +39,12 @@
     {
       "platform": "JobStreet Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T12:19:26+08:00",
+      "last_attempt_at": "2026-11-07T13:24:07+08:00",
       "native_pages_read": 1,
       "native_unique_rows": 30,
       "fallback_unique_rows": 4,
-      "reason": "Current ML-engineer search page 1 exposed 30 identifiable cards; page 2 click returned stale August cached snapshot, not same current result set. No valid contemporaneous page 2.",
-      "next_probe": "Refresh same JobStreet query page 2 using live native pagination and compare exact job IDs/page keys"
+      "reason": "Current indexed machine-learning-engineer listing contains identifiable jobs, but page=2 direct URL inaccessible; prior 30 native cards remain previous-run evidence, not newly read pages.",
+      "next_probe": "Use live JobStreet pagination click/current page 2 with matching job IDs, or alternative indexed exact-role/ATS cross-check"
     },
     {
       "platform": "Indeed Malaysia",
@@ -59,12 +59,12 @@
     {
       "platform": "Hiredly",
       "query_family": "AI backend / platform / ML engineering",
-      "last_attempt_at": "2026-11-07T12:19:26+08:00",
+      "last_attempt_at": "2026-11-07T13:24:07+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 3,
-      "reason": "Native Hiredly /jobs returned category shell without job cards; /jobs?page=2 inaccessible. Independent Hiredly exact-role page (Tapway #380 historical SKIP) and employer/JobStreet alternative examined; breadth still unproven.",
-      "next_probe": "Hiredly searchable native results page/cursor via supported API or two independently paginated role feeds"
+      "reason": "Native AI-Engineering page returns shell without job cards; page=2 inaccessible. Search-index fallback identified Tapway/NTT DATA/Hiredly X but no native pagination or exhaustion.",
+      "next_probe": "Obtain Hiredly live API/cursor for AI-Engineering page 1 and 2; otherwise compare employer ATS and independent exact-role pages"
     }
   ]
 }
