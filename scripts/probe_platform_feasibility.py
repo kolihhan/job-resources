@@ -143,7 +143,8 @@ def fetch_html(url: str) -> dict:
 def probe_platform(spec: dict, fetch=fetch_html) -> dict:
     result = {"id": spec["id"], "market": spec["market"], "host": spec["host"],
               "page_probes": [], "all_unique_job_identities": 0,
-              "page2_new_identifiable_jobs": 0, "coverage": "NOT_PROVEN"}
+              "page2_new_identifiable_jobs": 0, "page2_novelty_ratio": 0,
+              "query_scope_verified": False, "coverage": "NOT_PROVEN"}
     per_page = []
     for n, url in enumerate(spec["urls"], start=1):
         outcome = fetch(url)
@@ -165,10 +166,19 @@ def probe_platform(spec: dict, fetch=fetch_html) -> dict:
     result["all_unique_job_identities"] = len(set().union(*per_page))
     if len(per_page) == 2:
         result["page2_new_identifiable_jobs"] = len(per_page[1] - per_page[0])
-    if result["page2_new_identifiable_jobs"] > 0:
+        result["page2_novelty_ratio"] = round(result["page2_new_identifiable_jobs"] / max(1, len(per_page[1])), 3)
+    topic_terms = spec.get("topic_terms") or (["大模型", "llm"] if spec["market"] == "CN" else ["ai", "artificial intelligence"])
+    result["query_scope_verified"] = any(
+        any(term.lower() in p["title"].lower() for term in topic_terms)
+        for p in result["page_probes"] if p["state"] == "HTML_FETCHED"
+    )
+    # A nominal page-2 response that repeats 19/20 IDs, or a generic
+    # "popular jobs" page that ignores the query, is NOT a search coverage win.
+    if (len(per_page) == 2 and result["query_scope_verified"]
+            and result["page2_new_identifiable_jobs"] >= max(2, (len(per_page[1]) + 3) // 4)):
         result["coverage"] = "TWO_PAGES_WITH_DISTINCT_ROLE_IDS"
     elif result["all_unique_job_identities"] > 0:
-        result["coverage"] = "ROLE_LINKS_BUT_NEXT_PAGE_UNPROVEN"
+        result["coverage"] = "ROLE_LINKS_BUT_QUERY_OR_PAGE_2_UNVERIFIED"
     elif any(p["state"] == "BLOCKED_HTTP" for p in result["page_probes"]):
         result["coverage"] = "BLOCKED_FROM_RUNNER"
     else:
