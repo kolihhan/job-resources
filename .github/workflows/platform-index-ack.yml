@@ -44,13 +44,15 @@ jobs:
               path=Path(f'discovery-state/platform-index-{market}.json')
               state=json.loads(path.read_text())
               for fixture in sorted(Path('tests/fixtures').glob(f'platform-ack-{market}-2026-11-07*.json')):
-                  receipt=json.loads(fixture.read_text())
-                  terminal=next((x for x in state['terminal'] if x['key']==receipt['key']),None)
-                  if terminal:
-                      assert terminal['state']==receipt['action'] and terminal.get('evidence_url')==receipt['evidence_url'], 'conflicting acknowledgement'
-                  else:
-                      state=ack(state,receipt)
-                      atomic_write(path,state)
+                  payload=json.loads(fixture.read_text())
+                  receipts=payload if isinstance(payload,list) else [payload]
+                  for receipt in receipts:
+                      terminal=next((x for x in state['terminal'] if x['key']==receipt['key']),None)
+                      if terminal:
+                          assert terminal['state']==receipt['action'] and terminal.get('evidence_url')==receipt['evidence_url'], 'conflicting acknowledgement'
+                      else:
+                          state=ack(state,receipt)
+                          atomic_write(path,state)
               validate_state(state,market.upper())
               print(f"ACK {market.upper()} pending={len(state['pending'])} terminal={len(state['terminal'])} cursor={state['next_unacknowledged_seq']}")
           PY
