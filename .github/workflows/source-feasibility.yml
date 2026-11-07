@@ -1,0 +1,97 @@
+name: Source Feasibility Pilot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_source_feasibility.py'
+      - 'tests/test_source_feasibility.py'
+      - '.github/workflows/source-feasibility.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: source-feasibility-pilot
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Set up Node for existing Liepin adapter
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Test feasibility parser and blocked-source behavior
+        run: python -m unittest discover -s tests -p 'test_source_feasibility.py' -v
+
+      - name: Probe two Liepin pages through existing collector
+        shell: bash
+        run: |
+          mkdir -p artifacts
+          if node scripts/liepin_discovery.mjs \
+            --city 深圳 \
+            --query 大模型 \
+            --pages 2 \
+            --days 0 \
+            --output artifacts/liepin-feasibility.json \
+            > artifacts/liepin-run.log 2>&1; then
+            printf 'COLLECTOR_OK\n' > artifacts/liepin-status.txt
+          else
+            printf 'COLLECTOR_FAILED\n' > artifacts/liepin-status.txt
+            tail -c 400 artifacts/liepin-run.log >> artifacts/liepin-status.txt
+          fi
+
+      - name: Probe read-only public ATS list, details and pagination
+        run: |
+          python scripts/probe_source_feasibility.py \
+            --liepin-json artifacts/liepin-feasibility.json \
+            --liepin-status artifacts/liepin-status.txt \
+            --output artifacts/source-feasibility.json
+
+      - name: Evaluate real returned job identities (not just workflow exit status)
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          report = json.loads(Path('artifacts/source-feasibility.json').read_text())
+          sources = report['sources']
+          usable = [s for s in sources if s.get('list_unique_jobs', 0) > 0]
+          market_counts = {market: sum(s.get('market_matches', {}).get(market, 0) for s in sources) for market in ('SG', 'MY', 'CN')}
+          lines = [
+              '# GitHub-hosted source feasibility (pilot)',
+              '',
+              '| Source | State | Unique IDs in sampled pages | Detail | Pagination |',
+              '| --- | --- | ---: | --- | --- |',
+          ]
+          for s in sources:
+              lines.append(f"| {s['id']} | {s['state']} | {s.get('list_unique_jobs', 0)} | {s.get('detail','n/a')} | {s.get('pagination','n/a')} |")
+          lines += ['', f"**Locally recognizable region mentions (not unique across sources):** {market_counts}",
+                    '', 'A completed workflow alone does not prove job eligibility, full market coverage, or an application-ready role.',
+                    'Raw structured report and bounded samples are in the uploaded artifact.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write('\n'.join(lines) + '\n')
+          print(json.dumps({'sources_with_real_job_ids': len(usable), 'market_matches': market_counts}))
+          if not usable:
+              raise SystemExit('FAIL: all public sources failed or returned zero parseable exact jobs')
+          PY
+
+      - name: Publish independent feasibility evidence, even on failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-feasibility
+          path: artifacts/
+          retention-days: 7
