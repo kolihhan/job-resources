@@ -22,22 +22,28 @@ Opportunity/application state remains only in GitHub Issues.
 
 Every run attempts:
 
-1. one official/canonical owner bucket;
-2. the next **two individual platforms** in the market sweep;
-3. one query-family bucket;
-4. SG additionally one current research/lab bucket.
+1. the next **two official/canonical owner buckets** (distinct groups);
+2. the next **four individual platforms** in the market sweep;
+3. the next **three query-family buckets** (distinct semantic families, not three paraphrases of one search);
+4. SG additionally the next **two current research/lab buckets**.
 
 Platform rules:
 
 - start at `next_platform_index`;
-- attempt two consecutive platforms in listed order;
+- attempt four consecutive platforms in listed order (wrapping around the market list);
 - do not repeat a platform until the sweep cycles through the others;
-- bounded failed/weak searches still count as attempts and must be recorded honestly;
+- bounded failed/weak searches still count as attempts and must be recorded honestly, but never count as successful coverage;
 - persist/read back fresh state after attempts;
 - prefer fresh-head/delta semantics where supported.
+- search each selected query family across the chosen platforms with bounded metadata-first discovery; do not multiply expensive full-JD reads by the platform × query cross-product.
+- prioritize unique early-career/research-aligned exact job identities, not advertised search-result totals.
 
 
 ### Coverage recovery and honest completion
+
+The expanded 4-platform / 2-owner / 3-query / (SG) 2-lab sweep is an initial throughput experiment, **not** proven optimal. Do not spend expensive deep-verification budget just to satisfy the larger source count. Use metadata-first search, all-Issue-history dedupe, and targeted first-party checks. If execution limits prevent all buckets, report PARTIAL_COVERAGE and persist only attempts actually made; never advance an unattempted bucket.
+
+For any run report the attempted platform identities, rows inspected per platform, distinct net-new identities, unique duplicates, cheap rejects, authoritative full-JD reads, new durable APPLY/CHECK survivors, fallbacks and failure reasons. Count source-family overlaps only once in global unique counts. A high platform attempt count alone is not proof of recall.
 
 The rotation counts **attempts**, not successful market coverage. Continue advancing the platform index after a bounded attempt (to avoid getting stuck on a blocked site), but never label a low-coverage run as a healthy complete search.
 
@@ -52,7 +58,7 @@ For each selected platform:
 
 **CN access fallback:** BOSS/51job/脉脉 inaccessible does not mean no vacancies. Use bounded search-index/native alternatives (including 牛客, employer social recruiting and lab/PI direct postings), and preserve the unverified source as a coverage gap.
 
-With two platforms per hourly run, SG/MY complete five-platform sweeps within at most three successful runs; CN completes seven platforms within at most four.
+With four platforms per hourly run, SG/MY cover their five-platform sets within at most two fully attempted runs; CN covers seven platforms within at most two fully attempted runs. Platform attempts are not proof that readable job rows were obtained.
 
 ### Phase B — FreeHire triage
 
@@ -149,18 +155,19 @@ The research-direct family is bounded: prioritize current RA/RE/Research Associa
 
 After Phase A:
 
-- advance `next_platform_index` by attempted platforms, wrapping modulo platform count;
+- advance `next_platform_index` by the number of platforms actually attempted (target 4), wrapping modulo platform count;
 - increment `platform_cycle` on wrap;
-- increment owner/query buckets modulo their counts;
-- SG increments research bucket modulo 5;
-- write `last_completed_at`, last attempted buckets/platforms, and increment `run_counter`;
+- advance `next_owner_bucket` by official-owner buckets actually attempted (target 2), modulo its count;
+- advance `next_query_bucket` by query families actually attempted (target 3), modulo its count;
+- SG advances `next_research_bucket` by lab buckets actually attempted (target 2), modulo 5;
+- write `last_completed_at`, last attempted buckets/platforms, and increment `run_counter`. Preserve the existing fresh-state field types/validator contract (the legacy `last_*_bucket` fields may remain a single string). Capture all attempted buckets in the run metrics;
 - read back the state before reporting success.
 
 ## Health criterion
 
 Healthy fresh discovery means:
 
-- platform rotations complete without favorite-source loops;
+- the four-platform, two-owner, three-query and (SG) two-research-bucket rotations are attempted, with truthful partial-coverage accounting;
 - owner/query/research buckets continue rotating;
 - FreeHire runs independently under its canonical contract;
 - verified survivors reach APPLY/CHECK when found.
