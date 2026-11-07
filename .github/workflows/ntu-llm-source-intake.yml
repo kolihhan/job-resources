@@ -34,10 +34,26 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_collect_ntu_llm_source.py' -v
           python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
+      - name: Refresh exact all-Issue history (not stale committed snapshot)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/build_known_role_index.py \
+            --repository kolihhan/job-resources \
+            --output /tmp/known-role-index.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          current=json.loads(Path('/tmp/known-role-index.json').read_text())
+          cached=json.loads(Path('discovery-state/known-role-index.json').read_text())
+          assert current['issue_count'] >= cached['issue_count'], 'live issue index unexpectedly incomplete'
+          assert current['issue_count'] > 0
+          print('Live all-history role index:',current['issue_count'],'issues')
+          PY
       - name: Scan bounded official NTU LLM/agent searches and verify exact-role Apply
         run: |
           python scripts/collect_ntu_llm_source.py \
-            --known-index discovery-state/known-role-index.json \
+            --known-index /tmp/known-role-index.json \
             --cursor-state discovery-state/ntu-workday-source.json \
             --output artifacts/ntu-llm-source.json
       - name: Validate source identity and no false eligibility claim
@@ -70,7 +86,7 @@ jobs:
             python scripts/platform_index_queue.py ingest \
               --market SG \
               --input artifacts/ntu-llm-source.json \
-              --known discovery-state/known-role-index.json \
+              --known /tmp/known-role-index.json \
               --state discovery-state/platform-index-sg.json
             python - <<'PY'
           from pathlib import Path
