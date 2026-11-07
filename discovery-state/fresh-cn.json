@@ -14,5 +14,87 @@
     "前程无忧 / 51job"
   ],
   "last_owner_bucket": 2,
-  "last_query_bucket": 4
+  "last_query_bucket": 4,
+  "coverage_debt": [
+    {
+      "platform": "前程无忧 / 51job",
+      "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
+      "last_attempt_at": "2026-11-07T10:09:22+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 0 inspected/exact-role rows",
+      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+    },
+    {
+      "platform": "脉脉 / team-direct",
+      "query_family": "Agent / 智能体 / planning / memory / tool use",
+      "last_attempt_at": "2026-11-07T08:06:20+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 0 inspected/exact-role rows",
+      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+    },
+    {
+      "platform": "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals",
+      "query_family": "RAG / 知识库 / 知识图谱 / NL2SQL / Data Agent",
+      "last_attempt_at": "2026-11-07T09:09:00+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 2 inspected/exact-role rows",
+      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+    },
+    {
+      "platform": "BOSS直聘",
+      "query_family": "RAG / 知识库 / 知识图谱 / NL2SQL / Data Agent",
+      "last_attempt_at": "2026-11-07T09:09:00+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 0 inspected/exact-role rows",
+      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+    },
+    {
+      "platform": "牛客招聘",
+      "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
+      "last_attempt_at": "2026-11-07T10:09:22+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 7 inspected/exact-role rows",
+      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+    },
+    {
+      "platform": "猎聘",
+      "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
+      "last_attempt_at": "2026-11-07T10:09:22+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 2 inspected/exact-role rows",
+      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+    },
+    {
+      "platform": "智联招聘",
+      "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
+      "last_attempt_at": "2026-11-07T10:09:22+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 5 inspected/exact-role rows",
+      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+    },
+    {
+      "platform": "脉脉 / team-direct recruiting signals",
+      "query_family": "NLP / 检索 / 搜索 / ranking",
+      "last_attempt_at": "2026-11-07T04:05:38+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 0 inspected/exact-role rows",
+      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+    }
+  ]
 }
