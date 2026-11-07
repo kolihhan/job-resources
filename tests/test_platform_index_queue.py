@@ -37,7 +37,7 @@ class IndexQueueTests(unittest.TestCase):
             q.ack(s,{"key":key,"action":"HARD_REJECTED"})
         s=q.ack(s,{"key":key,"action":"RETRY","reason":"authoritative employer JD page temporarily unavailable"})
         self.assertEqual(s["next_unacknowledged_seq"],1)
-        s=q.ack(s,{"key":key,"action":"HARD_REJECTED","evidence_url":"https://sg.jobstreet.com/job/95566693"})
+        s=q.ack(s,{"key":key,"action":"HARD_REJECTED","evidence_url":"https://sg.jobstreet.com/job/95566693","reason":"JD explicitly requires five years experience"})
         self.assertEqual(s["next_unacknowledged_seq"],2)
         self.assertEqual(len(s["pending"]),0)
         q.validate_state(s,"SG")
@@ -50,6 +50,30 @@ class IndexQueueTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"readback"):
             q.ack(s,{"key":key,"action":"ISSUE_VERIFIED","evidence_url":"https://my.jobstreet.com/job/98765432",
                       "issue_url":"https://github.com/kolihhan/job-resources/issues/1234"})
+    def test_duplicate_claim_needs_actual_issue_proof(self):
+        s=q.new_state("SG")
+        s,_=q.ingest(s,{},{"source":"index-test","items":[{"url":"https://sg.jobstreet.com/job/12345678"}]})
+        k=s["pending"][0]["key"]
+        with self.assertRaisesRegex(ValueError,"Issue URL"):
+            q.ack(s,{"key":k,"action":"DUPLICATE_CONFIRMED","evidence_url":"https://sg.jobstreet.com/job/12345678"})
+        with self.assertRaisesRegex(ValueError,"readback"):
+            q.ack(s,{"key":k,"action":"DUPLICATE_CONFIRMED","issue_url":"https://github.com/kolihhan/job-resources/issues/175",
+                     "evidence_url":"https://sg.jobstreet.com/job/12345678"})
+
+    def test_readback_checks_issue_body_canonical_identity(self):
+        import io
+        from unittest.mock import patch
+        class Response(io.BytesIO):
+            pass
+        issue={"number":123,"body":"exact source https://sg.jobstreet.com/job/12345678?tracking=x"}
+        with patch.object(q,"urlopen",return_value=Response(__import__("json").dumps(issue).encode())):
+            self.assertTrue(q.verify_issue_readback("https://github.com/kolihhan/job-resources/issues/123",
+                          "https://sg.jobstreet.com/job/12345678","token"))
+        with patch.object(q,"urlopen",return_value=Response(b'{"number":123,"body":"unrelated listing"}')):
+            with self.assertRaisesRegex(ValueError,"exact platform identity"):
+                q.verify_issue_readback("https://github.com/kolihhan/job-resources/issues/123",
+                          "https://sg.jobstreet.com/job/12345678","token")
+
     def test_invalid_queue_is_fail_closed(self):
         s=q.new_state("MY")
         s["next_unacknowledged_seq"]=99
