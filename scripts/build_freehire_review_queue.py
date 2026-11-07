@@ -9,7 +9,7 @@ from pathlib import Path
 import tempfile
 
 _MARKETS = ("SG", "CN", "MY")
-_DEFAULT_BATCH_SIZE = 100
+_DEFAULT_BATCH_SIZE = 200
 _DEFAULT_SHARD_SIZE = 25  # record-count ceiling; byte budget is the safety boundary
 _DEFAULT_MAX_SHARD_BYTES = 8_000
 _TRANSPORT_FIELDS = (
