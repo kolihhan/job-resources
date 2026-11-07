@@ -17,6 +17,11 @@
   "pending": [
     {
       "company": "Binance",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "first_seen_at": "2026-11-07T08:31:24.434392Z",
       "key": "sg:d907f3997e23c42e176b",
       "last_error": null,
@@ -32,6 +37,26 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 2663,
+        "jd_sha256": "143d6e3043fffd9bb6a186cd1c26c677ba013ae84c1bcedd3478996b3eced639",
+        "job_description_excerpt": "The National Institute of Education invites suitable applications for the position of Research Assistant on a 12-month contract at the English Language and Literature (ELL) Department . Project Title: Enhancing Teacher–AI Collaboration with ALMA (AI ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026258",
+        "review_flags": [
+          "fixed_term_mentioned"
+        ],
+        "signals": [
+          "llm",
+          "evaluation",
+          "nlp"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297605Z",
       "key": "sg:5abe357872d8f208f4cc",
       "last_error": null,
@@ -47,6 +72,27 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 3542,
+        "jd_sha256": "e950c7f0817628f994dac54ad559e43e8ceda2b8621fef71a8d119e3ec099c87",
+        "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026160",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm",
+          "rag",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297655Z",
       "key": "sg:9bdab79eb7dae50181d4",
       "last_error": null,
@@ -62,6 +108,27 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 3542,
+        "jd_sha256": "e950c7f0817628f994dac54ad559e43e8ceda2b8621fef71a8d119e3ec099c87",
+        "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026159",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm",
+          "rag",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297678Z",
       "key": "sg:39d58582af448f9f734b",
       "last_error": null,
@@ -77,6 +144,26 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 4296,
+        "jd_sha256": "16c0bf8104228413009ac3433786dc7106191267e9ef75ea0cb09a64107b37cd",
+        "job_description_excerpt": "AISG is a national initiative driven by the Ministry of Digital Development and Information (MDDI), the Infocomm Media Development Authority (IMDA), and the National Research Foundation, Singapore (NRF). AISG brings together Singapore-based research ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026131",
+        "review_flags": [],
+        "signals": [
+          "llm",
+          "rag",
+          "agent",
+          "evaluation",
+          "nlp"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297729Z",
       "key": "sg:9adae2e27f47137c93cf",
       "last_error": null,
@@ -92,6 +179,26 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 2822,
+        "jd_sha256": "67bb2128d29d72b6aad3280989a6815d9d2ffca57c9218b106274b4fab2be9c5",
+        "job_description_excerpt": "AI Singapore (AISG) is a national initiative driven by the Ministry of Digital Development and Information (MDDI), the Infocomm Media Development Authority (IMDA), and the National Research Foundation, Singapore (NRF). AISG brings together Singapore-",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025566",
+        "review_flags": [
+          "experience_years_mentioned"
+        ],
+        "signals": [
+          "llm",
+          "rag",
+          "nlp"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297756Z",
       "key": "sg:3ab00adcda341a422654",
       "last_error": null,
@@ -107,6 +214,26 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 4791,
+        "jd_sha256": "571b9c418d9fe9b097b0f0ce4e4b5ae3b6408025391c7a500d26c44b9577c38d",
+        "job_description_excerpt": "Nanyang Technological University, Singapore (NTU Singapore) is a world-class, research-intensive public university dedicated to providing a transformative education, advancing research, and nurturing global leaders. Driven by innovation, excellence, ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026097",
+        "review_flags": [
+          "experience_years_mentioned"
+        ],
+        "signals": [
+          "llm",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297822Z",
       "key": "sg:c8ad24df80935ab6bb38",
       "last_error": null,
@@ -122,6 +249,25 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 3037,
+        "jd_sha256": "d442c1247179c1c70778b24344b74e3f7a98444b9daaf2a51590fe60365232ba",
+        "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025936",
+        "review_flags": [],
+        "signals": [
+          "llm",
+          "rag",
+          "evaluation",
+          "nlp"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297867Z",
       "key": "sg:e68e9e91029f06cde5f0",
       "last_error": null,
@@ -137,6 +283,27 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 3780,
+        "jd_sha256": "81d5c192eacc7d468b8492f28896691e0b4ce1b3f01171bbdee38694c497c54c",
+        "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025908",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm",
+          "rag",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297888Z",
       "key": "sg:3299497298633ccf3e71",
       "last_error": null,
@@ -152,6 +319,24 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 5724,
+        "jd_sha256": "d89292c9be422949c53e5966fb8f61a4ae27d3931b06d9edebdf0da1756e34c4",
+        "job_description_excerpt": "The Lee Kong Chian School of Medicine (LKCMedicine) trains doctors who put patients at the centre of their exemplary care. The School, which offers both undergraduate and graduate programmes, is named after local philanthropist Tan Sri Dato Lee Kong ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025063",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297910Z",
       "key": "sg:35c35696a2456b231d06",
       "last_error": null,
@@ -167,6 +352,26 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 2437,
+        "jd_sha256": "11b38d8bd48dfd94ea5706ac120dea84d2364d08b0a13a1498e619c315e76533",
+        "job_description_excerpt": "The School of Civil and Environmental Engineering (CEE) at NTU, established in 1981, aims to be a world-leading school in sustainability and the built environment, addressing urbanisation and climate change through research and innovation. Do you wan",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026269",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297935Z",
       "key": "sg:11090702a92216552c11",
       "last_error": null,
@@ -182,6 +387,23 @@
     },
     {
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-07T11:03:03.936646Z",
+        "employment_time_type": "Full time",
+        "jd_chars": 1783,
+        "jd_sha256": "c56b4456fcfcc4fd232365979c9a51f74baa3f50cb2159bd30a3e5f1bb824c86",
+        "job_description_excerpt": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026239",
+        "review_flags": [],
+        "signals": [
+          "agent",
+          "knowledge"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297956Z",
       "key": "sg:ab55e07fe91cf4122048",
       "last_error": null,
