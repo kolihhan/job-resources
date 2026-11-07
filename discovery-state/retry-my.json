@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-07T10:24:00+08:00",
+  "updated_at": "2026-11-08T01:19:03+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -90,17 +90,6 @@
       "reason_code": "verification_pending",
       "attempts": 14,
       "next_retry_at": "2026-11-07T22:25:00+08:00"
-    },
-    {
-      "role_key": "freehire:genai-data-semantic-engineer-rag-ai-solutions-lavu-tech-solutions-sdn-bhd-ggftk6cd",
-      "candidate_seq": 2852,
-      "reason_code": "verification_pending",
-      "attempts": 8,
-      "next_retry_at": "2026-11-07T22:25:00+08:00",
-      "company": "Lavu Tech Solutions Sdn Bhd",
-      "title": "GenAI Data & Semantic Engineer: RAG & AI Solutions",
-      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26986207__7112?utm_campaign=publisher&utm_medium=api&geoID=1144&utm_source=freehire.me",
-      "detail": "2026-11-05T10:20:44+08:00: Batch v3 cheap screen survived; full destination-quality, employer-controlled exact route, employment/eligibility and targeted Gmail gates not completed. Preserve.  2026-11-05T14:24+08:00: Lavu semantic RAG role from WhatJobs; no employer-controlled exact-role route confirmed, MY TOP quality unknown. 2026-11-05T19:15+08:00: Targeted exact title search did not establish employer-controlled Lavu semantic-RAG requisition; generic Lavu Gen AI listings are not exact-identity evidence. 2026-11-06 13:24 MYT: Expertini full-JD reproduction shows RAG/semantic-modeling Penang role; employer-owned exact route and destination-quality unverified. 2026-11-06 15:19 MYT: Full JD indicates 7+ years engineering experience; strong seniority mismatch; employer-owned route unverified. 2026-11-06 17:18 MYT: No new decisive exact-role/eligibility evidence this cycle; existing verification blocker remains. 2026-11-06 20:18 MYT: Lavu semantic/RAG role best-available JD indicates 7+ years, unrealistic; exact authoritative identity still unresolved. 2026-11-06 22:24 MYT: No new substantive authoritative exact-role evidence found in bounded alternate employer/ATS/indexed check; retained prior blocker, no repeated broken URL open. retry_new_evidence=no; alternate_source=employer/ATS indexed search; next retry >=24h."
     },
     {
       "role_key": "freehire:data-ai-engineer-entry-level-techstreet-qcjw7zt2",
