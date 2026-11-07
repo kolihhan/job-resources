@@ -53,6 +53,12 @@ def canonical(url: str,market: str) -> str | None:
         match=re.fullmatch(r"/jobs/detail/(\d{5,15})/?",p.path)
         if match:
             return "https://devglobaljobs.com/jobs/detail/"+match.group(1)
+    if market=="MY" and p.scheme=="https" and p.hostname=="jobs.ashbyhq.com":
+        # First-party Gen Digital Ashby role UUID. Do not infer company, fit
+        # or open status from title similarity with another Ashby requisition.
+        m=re.fullmatch(r"/gen-digital/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/?",p.path,re.I)
+        if m:
+            return "https://jobs.ashbyhq.com/gen-digital/"+m.group(1).lower()
     if market=="SG" and p.scheme=="https" and p.hostname=="ntu.wd3.myworkdayjobs.com":
         # Canonical employer-controlled Workday URL: normalize locale/site
         # spelling but retain its exact requisition's navigable job path.
