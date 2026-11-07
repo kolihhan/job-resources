@@ -142,7 +142,7 @@ class ConsumerTests(unittest.TestCase):
 
     def test_issue_pagination_and_fail_closed_page_cap(self):
         def get(url, token):
-            if "page=1" in url:
+            if url.endswith("page=1"):
                 return [{"number": i, "title": f"position {i}"} for i in range(100)]
             return [{"number": 101, "title": "position 101"}]
         history = consumer.full_issue_history("token", get=get)
