@@ -1,0 +1,80 @@
+name: SG-MY Platform Index Acknowledgement Pilot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tests/fixtures/platform-ack-*.json'
+      - '.github/workflows/platform-index-ack.yml'
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: platform-index-queue
+  cancel-in-progress: false
+
+jobs:
+  ack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Test fail-closed acknowledgement and source identity
+        run: python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
+      - name: Apply independently evidenced hard-gate receipts and preserve all other pending candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          from platform_index_queue import ack, atomic_write, validate_state
+          for market in ('sg','my'):
+              path=Path(f'discovery-state/platform-index-{market}.json')
+              state=json.loads(path.read_text())
+              receipt=json.loads(Path(f'tests/fixtures/platform-ack-{market}-2026-11-07.json').read_text())
+              terminal=next((x for x in state['terminal'] if x['key']==receipt['key']),None)
+              if terminal:
+                  assert terminal['state']==receipt['action'] and terminal.get('evidence_url')==receipt['evidence_url'], 'conflicting acknowledgement'
+              else:
+                  state=ack(state,receipt)
+                  atomic_write(path,state)
+              validate_state(state,market.upper())
+              print(f"ACK {market.upper()} pending={len(state['pending'])} terminal={len(state['terminal'])} cursor={state['next_unacknowledged_seq']}")
+          PY
+            git add discovery-state/platform-index-sg.json discovery-state/platform-index-my.json
+            if git diff --cached --quiet; then
+              echo "Receipts already applied exactly; no state mutation."
+              exit 0
+            fi
+            git commit -m "chore: close JD-verified hard rejects without losing pending jobs [skip ci]"
+            if git push origin HEAD:main; then
+              echo "Persisted evidence-backed receipts."
+              exit 0
+            fi
+            echo "Optimistic retry ${attempt}/3 after concurrent state update."
+          done
+          exit 1
+      - name: Confirm live state on origin
+        run: |
+          git fetch origin main
+          python - <<'PY'
+          import json,subprocess
+          for market in ('sg','my'):
+              data=subprocess.check_output(['git','show',f'origin/main:discovery-state/platform-index-{market}.json'])
+              s=json.loads(data)
+              assert len(s['pending'])==1 and len(s['terminal'])==1
+              assert s['pending'][0]['seq']==1 and s['next_unacknowledged_seq']==1
+              print(f"{market}: one pending exact-role review remains, one evidence-backed hard reject persisted")
+          PY
