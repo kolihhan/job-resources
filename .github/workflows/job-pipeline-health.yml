@@ -1,0 +1,38 @@
+name: Job Discovery Pipeline Health
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily 20:05 MYT, after most scout and source cycles.
+    - cron: '5 12 * * *'
+  push:
+    paths:
+      - 'scripts/report_job_pipeline_health.py'
+      - 'tests/test_job_pipeline_health.py'
+      - '.github/workflows/job-pipeline-health.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Verify honest backlog and scheduled-run counters
+        run: python -m unittest discover -s tests -p 'test_job_pipeline_health.py' -v
+      - name: Read real repo queue state and recent GitHub Action outcomes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/report_job_pipeline_health.py --repo . --out artifacts/pipeline-health.json --summary artifacts/pipeline-health.md
+      - name: Publish inspectable GitHub Actions health summary
+        run: cat artifacts/pipeline-health.md >> "$GITHUB_STEP_SUMMARY"
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-health
+          path: artifacts/pipeline-health*
+          retention-days: 14
