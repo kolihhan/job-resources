@@ -49,18 +49,18 @@ These files are machine-efficiency state, not a second opportunity tracker.
 
 Per market run:
 
-- process up to **10 due retries** first;
-- cheap-screen up to **100** current batch candidates;
-- perform at most **15 normal substantive full-JD reads** for plausible candidates;
+- process up to **15 due retries**, prioritizing actionable new evidence and `budget_deferred` candidates;
+- cheap-screen up to **200** current batch candidates;
+- perform at most **25 normal substantive full-JD reads** for plausible candidates;
 - audit up to **5 cheap rejects** with independent full-JD reads to estimate false-negative risk.
 
-The reject-audit reads are separate from the 15 normal deep-read budget because they measure the cheap filter rather than serve candidate promotion.
+The reject-audit reads are separate from the 25 normal deep-read budget because they measure the cheap filter rather than serve candidate promotion.
 
-If more than 15 plausible candidates survive the cheap gate, preserve every extra candidate as a durable `budget_deferred` retry receipt. Never silently skip it and never freeze later candidates merely because the deep-read budget is exhausted.
+If more than 25 plausible candidates survive the cheap gate, preserve every extra candidate as a durable `budget_deferred` retry receipt. Never silently skip it and never freeze later candidates merely because the deep-read budget is exhausted.
 
 ## 1. Due retries
 
-Process up to 10 receipts whose `next_retry_at` is due, oldest first. `budget_deferred` is normal backlog work, not an infrastructure failure.
+Process up to 15 receipts whose `next_retry_at` is due. Prioritize `budget_deferred` (especially previously unread), changed authoritative evidence, impending deadlines, and high North-Star relevance before old repeatedly blocked receipts. Reserve at least 10 of the 15 slots for those actionable categories when that many are due; at most 5 slots should go to repeated no-new-evidence cases. An inaccessible old source is not automatically higher priority merely because its receipt is oldest. `budget_deferred` is normal backlog work, not an infrastructure failure.
 
 Resolve/remove a receipt when the role becomes an exact historical duplicate, reaches a terminal disposition, or a verified APPLY/CHECK Issue is created and read back.
 
@@ -82,7 +82,7 @@ Interpret evidence conservatively:
 - Separately confirm (1) exact requisition identity, (2) current vacancy, (3) **full JD and hard requirements**, (4) appropriate contract/work authorization, and (5) real application route. For an explicit hard mismatch in a current full JD, make the normal terminal decision; do not indefinitely retry that candidate as an "unreadable JD".
 - The helper is a preflight aid, not an independent candidate database; do not write its JSONL output as a second inbox. Only canonical GitHub Issues, terminal dispositions and existing retry/cursor state may hold decisions.
 
-Retain the existing **15 substantive JD reads / 10 due retries** limit. Count a true alternate-source substantive JD as evidence; do not count a 200/302 response, another mirrored snippet, or a retry increment as progress.
+Use the expanded **25 substantive JD reads / 15 due retries** trial limit. Count a true alternate-source substantive JD as evidence; do not count a 200/302 response, another mirrored snippet, or a retry increment as progress.
 
 ## 2. Current batch
 
@@ -96,7 +96,7 @@ For each candidate:
 1. exact all-Issue-history dedupe before expensive work;
 2. explicitly resolve `known_status=suspected_known` rather than auto-dropping it;
 3. apply only high-confidence cheap hard screens from `RULES.md` using compact metadata/signals/known campaign evidence;
-4. open the authoritative or best available full JD for candidates that survive, subject to the 15 normal deep-read budget;
+4. open the authoritative or best available full JD for candidates that survive, subject to the 25 normal deep-read budget;
 5. verify liveness, eligibility, cohort/degree/seniority/stack, employment type, work authorization constraints, and usable route;
 6. run targeted Gmail dedupe only for serious survivors;
 7. create/read back only a new verified APPLY/CHECK Issue.
@@ -134,8 +134,9 @@ A persisted retry is not proof of progress. For each due receipt, retain the sta
 
 - First failed authoritative open: try the employer careers/ATS search by exact requisition ID or exact title/location; use one faithful full-JD reproduction if needed.
 - On a repeated same-blocker retry, do **not** consume another deep-read slot re-opening exactly the same failed URL without new evidence. Switch to another source, employer contact/route discovery (read-only), or defer the record with an explicit source-specific blocker.
-- After three attempts with no new substantive evidence, use a longer retry interval (at least 24 hours) unless a published closing date or exceptional GOLD research signal makes immediate alternate-route investigation worthwhile. Preserve the receipt; never silently drop an eligible unknown.
-- Prioritize due retries with **new evidence, upcoming deadlines, or high North-Star content**, then oldest receipts among otherwise comparable candidates. Keep the existing per-run retry limit. Avoid spending the whole verification budget repeatedly on inert aggregator mirrors.
+- After three attempts with no new substantive evidence, use a longer retry interval (at least 24 hours) unless a published closing date or exceptional GOLD research signal makes immediate alternate-route investigation worthwhile. After five **no-progress** attempts, require at least 72 hours between routine retries and a materially different verification path or new source signal before spending another substantive deep-read slot. Keep all unverified roles safely receipted; do not auto-reject an eligible unknown or repeatedly research the same broken page.
+- For legacy high-attempt receipts, inspect the stored history: if no new substantive evidence or alternate source exists, reschedule rather than reopening the same page. Do not rewrite the entire historical backlog merely to apply this policy.
+- Prioritize due retries with **new evidence, upcoming deadlines, or high North-Star content**, then oldest receipts among otherwise comparable candidates. Keep the 15-slot cap; avoid starving new discovery to exhaust an inert backlog. Avoid spending the whole verification budget repeatedly on inert aggregator mirrors.
 
 Every retry records whether **new substantive evidence** was obtained (yes/no) and the alternate source attempted. Do not mark a verification completed merely because the URL was opened, the attempt counter increased, or a new next_retry_at was saved. Deduped/terminal/verified candidates still exit through the existing normal gates.
 
@@ -161,6 +162,10 @@ Persist/read back cursor and retry state before claiming completion.
 ## Fresh discovery remains independent
 
 FreeHire is Tier-3 radar and never satisfies fresh-platform obligations. SG/MY/CN continue their market rotations in `docs/fresh-discovery-rotation.md`.
+
+## Throughput and recall evaluation
+
+These larger limits are trial ceilings, not targets or guaranteed improvements. In the existing scout run metrics record, report actual cheap-screen count, normal substantive reads, retry cases by new evidence vs repeated no-progress, deferred backlog, platform overlap/dedupe, discovered unique new identities, and final durable APPLY/CHECK handoffs. Track budget exhaustion, timeouts, and PARTIAL_COVERAGE. Compare at least SG and MY or a later independent run before treating the trial as an improvement. If tools/runtime are exhausted, stop truthfully, preserve all unresolved candidates through durable receipts, and never mark unfinished exploration complete.
 
 ## Validation principle
 
