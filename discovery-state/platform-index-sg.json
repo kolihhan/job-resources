@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-07T08:33:14.127733Z",
+    "at": "2026-11-07T08:33:38.477667Z",
     "source": "devglobal:public-api:SG",
     "stats": {
       "already_seen": 9,
@@ -16,7 +16,7 @@
   "next_unacknowledged_seq": 3,
   "pending": [
     {
-      "company": "",
+      "company": "OpenAI",
       "first_seen_at": "2026-11-07T08:31:24.434318Z",
       "key": "sg:85e74442f3b6b672eeea",
       "last_error": null,
@@ -31,7 +31,7 @@
       "url": "https://devglobaljobs.com/jobs/detail/174081606"
     },
     {
-      "company": "",
+      "company": "OpenAI",
       "first_seen_at": "2026-11-07T08:31:24.434355Z",
       "key": "sg:cabbed8966fb0ff49b46",
       "last_error": null,
@@ -46,7 +46,7 @@
       "url": "https://devglobaljobs.com/jobs/detail/171684071"
     },
     {
-      "company": "",
+      "company": "OpenAI",
       "first_seen_at": "2026-11-07T08:31:24.434376Z",
       "key": "sg:546624b9cb68de239296",
       "last_error": null,
@@ -61,7 +61,7 @@
       "url": "https://devglobaljobs.com/jobs/detail/170698259"
     },
     {
-      "company": "",
+      "company": "Binance",
       "first_seen_at": "2026-11-07T08:31:24.434392Z",
       "key": "sg:d907f3997e23c42e176b",
       "last_error": null,
@@ -76,7 +76,7 @@
       "url": "https://devglobaljobs.com/jobs/detail/168411325"
     },
     {
-      "company": "",
+      "company": "OpenAI",
       "first_seen_at": "2026-11-07T08:31:24.434408Z",
       "key": "sg:eaa7212c015797eae5f5",
       "last_error": null,
@@ -91,7 +91,7 @@
       "url": "https://devglobaljobs.com/jobs/detail/166309274"
     },
     {
-      "company": "",
+      "company": "OpenAI",
       "first_seen_at": "2026-11-07T08:31:24.434423Z",
       "key": "sg:7862e79d958acf3da826",
       "last_error": null,
@@ -106,7 +106,7 @@
       "url": "https://devglobaljobs.com/jobs/detail/165413145"
     },
     {
-      "company": "",
+      "company": "OpenAI",
       "first_seen_at": "2026-11-07T08:31:24.434438Z",
       "key": "sg:609f6c89ed878642f7eb",
       "last_error": null,
@@ -121,7 +121,7 @@
       "url": "https://devglobaljobs.com/jobs/detail/163751342"
     },
     {
-      "company": "",
+      "company": "Binance",
       "first_seen_at": "2026-11-07T08:31:24.434452Z",
       "key": "sg:63f1393d65db98f5e86e",
       "last_error": null,
@@ -136,7 +136,7 @@
       "url": "https://devglobaljobs.com/jobs/detail/162640357"
     },
     {
-      "company": "",
+      "company": "OpenAI",
       "first_seen_at": "2026-11-07T08:31:24.434466Z",
       "key": "sg:2ba1c9f5bfb5b6129f21",
       "last_error": null,
