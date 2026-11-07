@@ -2,19 +2,19 @@
   "version": 2,
   "market": "MY",
   "platform_cycle": 52,
-  "next_platform_index": 0,
-  "next_owner_bucket": 1,
-  "next_query_bucket": 3,
-  "run_counter": 111,
-  "last_completed_at": "2026-11-08T00:17:49+08:00",
+  "next_platform_index": 4,
+  "next_owner_bucket": 3,
+  "next_query_bucket": 1,
+  "run_counter": 112,
+  "last_completed_at": "2026-11-08T01:19:03+08:00",
   "last_platforms": [
+    "LinkedIn Jobs Malaysia",
     "JobStreet Malaysia",
     "Indeed Malaysia",
-    "Hiredly",
-    "recruiter / team / direct hiring posts"
+    "Hiredly"
   ],
-  "last_owner_bucket": "MIMOS / strong university-industry research labs / other recurring destination-quality owners; Sea / Shopee / Grab",
-  "last_query_bucket": "AI backend / platform / ML engineering",
+  "last_owner_bucket": "Gen Digital / MoneyLion; AEON Bank / GXBank",
+  "last_query_bucket": "destination-quality backend / data / cloud / SRE / SDET; destination-quality full-stack / product engineering with material AI signal; Agent / LLM / RAG / GenAI",
   "coverage_debt": [
     {
       "platform": "recruiter / team / direct hiring posts",
@@ -29,32 +29,42 @@
     {
       "platform": "LinkedIn Jobs Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T22:16:44+08:00",
+      "last_attempt_at": "2026-11-08T01:19:03+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only | 21:22 cycle: indexed/detail fallback inspected; native page 1+2 not verified, debt remains | 22:16 cycle: native page 1+2 unavailable; independent indexed/ATS fallback did not establish platform breadth",
+      "reason": "No native page-two or exhaustion evidence; indexed fallback only | 21:22 cycle: indexed/detail fallback inspected; native page 1+2 not verified, debt remains | 22:16 cycle: native page 1+2 unavailable; independent indexed/ATS fallback did not establish platform breadth | 01:19 cycle: native first/second page inaccessible; indexed and employer-direct fallback insufficient to prove breadth",
       "next_probe": "LinkedIn native job list page/cursor 1 and 2; current exact roles through employer ATS"
     },
     {
       "platform": "Indeed Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T22:16:44+08:00",
+      "last_attempt_at": "2026-11-08T01:19:03+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "No native page-two or exhaustion evidence; indexed fallback only | 22:16 cycle: native page 1+2 unavailable; independent indexed/ATS fallback did not establish platform breadth",
+      "reason": "No native page-two or exhaustion evidence; indexed fallback only | 22:16 cycle: native page 1+2 unavailable; independent indexed/ATS fallback did not establish platform breadth | 01:19 cycle: native first/second page inaccessible; indexed and employer-direct fallback insufficient to prove breadth",
       "next_probe": "Indeed native search start=0 and start=10 via supported browser, then official ATS"
     },
     {
       "platform": "Hiredly",
       "query_family": "AI backend / platform / ML engineering",
-      "last_attempt_at": "2026-11-07T22:16:44+08:00",
+      "last_attempt_at": "2026-11-08T01:19:03+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 2,
-      "reason": "Hiredly native search still only accessible as shell; independently inspected Hiredly X AI Engineer and Grab senior ML JD, no native page 1+2 coverage. Prior debt preserved. | 21:22 cycle: indexed/detail fallback inspected; native page 1+2 not verified, debt remains | 22:16 cycle: native page 1+2 unavailable; independent indexed/ATS fallback did not establish platform breadth",
+      "reason": "Hiredly native search still only accessible as shell; independently inspected Hiredly X AI Engineer and Grab senior ML JD, no native page 1+2 coverage. Prior debt preserved. | 21:22 cycle: indexed/detail fallback inspected; native page 1+2 not verified, debt remains | 22:16 cycle: native page 1+2 unavailable; independent indexed/ATS fallback did not establish platform breadth | 01:19 cycle: native first/second page inaccessible; indexed and employer-direct fallback insufficient to prove breadth",
       "next_probe": "Hiredly native API category pagination pages 1/2; compare current Tapway/NTT DATA IDs against Issues"
+    },
+    {
+      "platform": "JobStreet Malaysia",
+      "query_family": "destination-quality backend / data / cloud / SRE / SDET",
+      "last_attempt_at": "2026-11-08T01:19:03+08:00",
+      "native_pages_read": 0,
+      "native_unique_rows": 0,
+      "fallback_unique_rows": 0,
+      "reason": "01:19 cycle: requested native page 1 and 2 returned inaccessible; search-index category results did not provide source page keys or exact role IDs",
+      "next_probe": "Retry native page/cursor 1 and 2 through supported browser; collect exact job IDs and compare official ATS"
     }
   ]
 }
