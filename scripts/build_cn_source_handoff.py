@@ -17,7 +17,7 @@ from urllib.parse import urlsplit, urlunsplit
 SIGNALS = re.compile(
     r"AI|LLM|RAG|Agent|NLP|MCP|Python|ML|大模型|智能体|机器学习|深度学习|生成式|"
     r"人工智能|算法|检索|搜索|语音|推理|模型|知识图谱|数据科学|后端|软件工程|软件开发|"
-    r"机器视觉|计算机视觉|多模态|推荐系统|数据平台|云原生|Backend",
+    r"机器视觉|计算机视觉|多模态|推荐系统|数据平台|云原生|Backend|Research|研究|科研|研发",
     re.I,
 )
 SHARD_SIZE = 25
