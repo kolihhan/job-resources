@@ -44,7 +44,7 @@ jobs:
             --query Python后端 \
             --query 后端开发 \
             --query 软件工程师 \
-            --pages 1 \
+            --pages 2 \
             --days 0 \
             --output artifacts/liepin-raw.json
 
@@ -55,7 +55,7 @@ jobs:
             query="${spec#*:}"
             if ! npx -y @ha7ch/job-pro@1.2.1 find "$query" \
               --scope all \
-              --limit 5 \
+              --limit 20 \
               --timeout 12000 \
               --compact > "artifacts/jobpro-${name}.json"; then
               printf '{"ok":false,"keyword":"%s","results":[],"failed":[{"company":"job-pro","message":"command failed"}]}' "$query" > "artifacts/jobpro-${name}.json"
@@ -67,6 +67,10 @@ jobs:
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
           const liepin = JSON.parse(fs.readFileSync('artifacts/liepin-raw.json', 'utf8'));
+          const page1WithNext = liepin.searches.filter(p => p.page === 1 && p.totalPage >= 2);
+          const missingPage2 = page1WithNext.filter(p => !liepin.searches.some(q => q.city === p.city && q.query === p.query && q.page === 2));
+          if (missingPage2.length) throw new Error('Page two was available but not fetched for ' + missingPage2.map(p => p.city + ':' + p.query).join(', '));
+          if (liepin.meta.uniqueJobs === 0) throw new Error('Liepin collector yielded zero exact-ID jobs; cannot label discovery complete');
           const files = ['ai', 'backend', 'swe'].map((name) => `artifacts/jobpro-${name}.json`);
           const jobproRuns = files.map((file) => JSON.parse(fs.readFileSync(file, 'utf8')));
           const jobs = new Map();
@@ -98,6 +102,9 @@ jobs:
             '',
             '## Liepin',
             `- searches: ${liepin.meta.searchCount}`,
+            `- first-page queries with page 2 available: ${page1WithNext.length}`,
+            `- verified page 2 requests: ${liepin.searches.filter(p => p.page === 2).length}`,
+            `- source exhausted: not claimed if more pages remain`,
             `- unique jobs: ${liepin.meta.uniqueJobs}`,
             `- duplicates removed: ${liepin.meta.duplicatesRemoved}`,
             `- malformed cards skipped: ${liepin.meta.skippedMalformed}`,
@@ -116,4 +123,4 @@ jobs:
         with:
           name: cn-raw-${{ github.run_id }}
           path: artifacts/
-          retention-days: 7
+          retention-days: 30
