@@ -149,7 +149,7 @@ jobs:
           ids = [r['source_key'] for r in rows]
           assert len(rows) == m['candidate_count']
           assert len(ids) == len(set(ids))
-          assert hashlib.sha256('\\n'.join(ids).encode()).hexdigest() == m['identity_sha256']
+          assert hashlib.sha256('\n'.join(ids).encode()).hexdigest() == m['identity_sha256']
           assert m['status'] == 'AWAITING_VERIFICATION'
           print(f"Verified source candidate handoff: {len(ids)} IDs in {len(shards)} shards; NO APPLY/CHECK issues created")
           if not m['unique_source_identifiers']:
