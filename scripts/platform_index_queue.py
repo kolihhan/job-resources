@@ -19,6 +19,7 @@ from pathlib import Path
 import re
 import tempfile
 from urllib.parse import urlparse
+from urllib.request import Request, urlopen
 
 try:
     from probe_public_job_index import candidate_url
@@ -123,7 +124,28 @@ def ingest(state: dict,index: dict,payload: dict) -> tuple[dict,dict]:
     validate_state(state,market)
     return state,stats
 
-def ack(state: dict,receipt: dict) -> dict:
+def verify_issue_readback(issue_url: str,candidate_url: str,token: str) -> bool:
+    # A self-reported boolean is not evidence; verify the live GitHub Issue.
+    m=re.fullmatch(r"https://github.com/kolihhan/job-resources/issues/(\d+)",issue_url or "")
+    if not m:
+        raise ValueError("invalid Issue URL")
+    if not token:
+        raise ValueError("GITHUB_TOKEN required for actual Issue readback")
+    req=Request("https://api.github.com/repos/kolihhan/job-resources/issues/"+m.group(1),
+       headers={"Accept":"application/vnd.github+json","Authorization":"Bearer "+token,
+                "User-Agent":"job-resources-platform-index-ack/1.0"})
+    with urlopen(req,timeout=15) as response:
+        issue=json.loads(response.read(1_000_000))
+    if not isinstance(issue,dict) or issue.get("number")!=int(m.group(1)) or "pull_request" in issue:
+        raise ValueError("GitHub Issue readback mismatch")
+    body=str(issue.get("body") or "")
+    found=re.findall(r"https?://[^\s<>\])]+",body)
+    market="SG" if "sg." in candidate_url else "MY"
+    if candidate_url not in {canonical(u.strip('.,'),market) for u in found}:
+        raise ValueError("Issue body does not reference this exact platform identity")
+    return True
+
+def ack(state: dict,receipt: dict,issue_proven: bool=False) -> dict:
     validate_state(state,state["market"])
     if not isinstance(receipt,dict):raise ValueError("invalid receipt")
     key=receipt.get("key")
@@ -144,8 +166,8 @@ def ack(state: dict,receipt: dict) -> dict:
             issue=receipt.get("issue_url")
             if not isinstance(issue,str) or not re.fullmatch(r"https://github.com/kolihhan/job-resources/issues/\d+",issue):
                 raise ValueError("ISSUE_VERIFIED requires the canonical GitHub Issue URL")
-            if receipt.get("issue_readback") is not True:
-                raise ValueError("ISSUE_VERIFIED requires a verified readback receipt")
+            if not issue_proven:
+                raise ValueError("ISSUE_VERIFIED requires a verified live GitHub Issue readback")
             row["issue_url"]=issue
         row["evidence_url"]=proof
         row["state"]=action
@@ -189,7 +211,13 @@ def main():
         print(json.dumps({"market":state["market"],"cursor":state["next_unacknowledged_seq"],
            "pending_total":len(state["pending"]),"items":state["pending"][:max(0,min(100,args.limit))]},ensure_ascii=False,indent=2))
     elif args.cmd=="ack":
-        state=ack(state,json.loads(args.receipt.read_text()))
+        receipt=json.loads(args.receipt.read_text())
+        proven=False
+        if receipt.get("action")=="ISSUE_VERIFIED":
+            candidate=next((x for x in state["pending"] if x["key"]==receipt.get("key")),None)
+            if not candidate:raise ValueError("unknown pending Issue acknowledgement")
+            proven=verify_issue_readback(receipt.get("issue_url"),candidate["url"],os.environ.get("GITHUB_TOKEN",""))
+        state=ack(state,receipt,issue_proven=proven)
         atomic_write(args.state,state)
         print(json.dumps({"pending":len(state["pending"]),"cursor":state["next_unacknowledged_seq"]}))
     else:
