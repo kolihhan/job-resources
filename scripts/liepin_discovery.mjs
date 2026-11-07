@@ -274,22 +274,35 @@ export async function runDiscovery(options) {
   let totalSkipped = 0;
   let totalOld = 0;
   let totalNoDate = 0;
+  const failedPages = [];
+  let completedQueryCount = 0;
 
   for (const city of options.cities) {
     const cityCode = resolveCity(city);
     if (!cityCode) throw new Error(`Unsupported city: ${city}`);
     for (const query of options.queries) {
+      let queryCompleted = false;
       for (let page = 1; page <= options.pages; page += 1) {
-        const payload = await fetchSearch(buildSearchBody({ query, cityCode, page }));
-        const parsed = parseSearchResponse(payload);
+        let parsed;
+        try {
+          const payload = await fetchSearch(buildSearchBody({ query, cityCode, page }));
+          parsed = parseSearchResponse(payload);
+        } catch (error) {
+          failedPages.push({ city, query, page, reason: String(error?.message ?? error).slice(0, 180) });
+          break; // Preserve prior successful pages and continue with the next query.
+        }
         const recent = filterRecent(parsed.jobs, options.days);
         totalSkipped += parsed.skipped;
         totalOld += recent.droppedTooOld;
         totalNoDate += recent.droppedNoDate;
         allJobs.push(...recent.jobs);
         searches.push({ city, cityCode, query, page, count: recent.jobs.length, totalPage: parsed.totalPage, skipped: parsed.skipped });
-        if (page >= parsed.totalPage) break;
+        if (page >= parsed.totalPage || page >= options.pages) {
+          queryCompleted = true;
+          break;
+        }
       }
+      if (queryCompleted) completedQueryCount += 1;
     }
   }
 
@@ -306,7 +319,12 @@ export async function runDiscovery(options) {
       skippedMalformed: totalSkipped,
       droppedTooOld: totalOld,
       droppedNoDate: totalNoDate,
+      requestedQueryCount: options.cities.length * options.queries.length,
+      completedQueryCount,
+      failedPageCount: failedPages.length,
+      runQuality: failedPages.length ? 'PARTIAL_COVERAGE' : 'SOURCE_SAMPLE_COMPLETED',
     },
+    failedPages,
     searches,
     jobs: deduped,
   };
