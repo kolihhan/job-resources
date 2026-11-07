@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'tests/fixtures/platform-ack-*.json'
+      - 'tests/test_platform_index_queue.py'
       - '.github/workflows/platform-index-ack.yml'
 
 permissions:
