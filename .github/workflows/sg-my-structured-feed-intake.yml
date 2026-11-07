@@ -1,0 +1,114 @@
+name: SG MY Structured Feed Intake
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/collect_devglobal_source.py'
+      - 'tests/test_collect_devglobal_source.py'
+      - 'scripts/platform_index_queue.py'
+      - 'tests/test_platform_index_queue.py'
+      - '.github/workflows/sg-my-structured-feed-intake.yml'
+permissions:
+  contents: write
+  issues: read
+concurrency:
+  group: platform-index-queue
+  cancel-in-progress: false
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Unit tests (source scope, identity, continuation)
+        run: |
+          python -m unittest discover -s tests -p 'test_collect_devglobal_source.py' -v
+          python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
+      - name: Read official public API for SG and MY
+        run: python scripts/collect_devglobal_source.py --out-dir artifacts/
+      - name: Validate actual source observations
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for market in ('sg','my'):
+              s=json.loads(Path(f'artifacts/devglobal-{market}-candidates.json').read_text())
+              assert s['source']=='devglobal:public-api:'+market.upper()
+              assert len({item['url'] for item in s['items']})==len(s['items'])
+              for item in s['items']:
+                  assert item['market']==market.upper()
+                  assert item['url'].startswith('https://devglobaljobs.com/jobs/detail/')
+                  assert item['exact_jd_unverified'] is True
+              print(market,'real title/location candidate IDs',len(s['items']),
+                    'source coverage',s['coverage'],'failed pages',len(s['failed_pages']))
+          PY
+      - name: Publish real new source observations to existing machine queues
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/platform_index_queue.py ingest \
+              --market SG --input artifacts/devglobal-sg-candidates.json \
+              --known discovery-state/known-role-index.json \
+              --state discovery-state/platform-index-sg.json
+            python scripts/platform_index_queue.py ingest \
+              --market MY --input artifacts/devglobal-my-candidates.json \
+              --known discovery-state/known-role-index.json \
+              --state discovery-state/platform-index-my.json
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          for market in ('sg','my'):
+              s=json.loads(Path(f'discovery-state/platform-index-{market}.json').read_text())
+              feed=json.loads(Path(f'artifacts/devglobal-{market}-candidates.json').read_text())
+              queued={x['url'] for x in s['pending']+s['terminal']}
+              assert all(r['url'] in queued for r in feed['items']),'a source candidate was lost'
+              assert s['next_unacknowledged_seq']==min([r['seq'] for r in s['pending']],default=s['next_seq'])
+              print('VERIFIED',market,'source items',len(feed['items']),'pending',len(s['pending']))
+          PY
+            git add discovery-state/platform-index-sg.json discovery-state/platform-index-my.json
+            if git diff --cached --quiet; then
+              echo 'All source IDs already accounted for; no changes.'
+              exit 0
+            fi
+            git commit -m 'chore: ingest SG MY public feed source identities [skip ci]'
+            if git push origin HEAD:main; then
+              echo 'Persisted source records to canonical machine queue.'
+              exit 0
+            fi
+            echo "Retrying concurrent write attempt ${attempt}/3"
+          done
+          echo 'Queue state push failed after optimistic retries'
+          exit 1
+      - name: Cite data source and report source health
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          lines=['# SG / MY Structured Feed Intake','',
+            'Powered by Dev Global Jobs: https://devglobaljobs.com',
+            'Public aggregator feed, NOT native JobStreet/LinkedIn or full market coverage.','',
+            '| Market | Source IDs after title/location gate | Coverage | Failures |',
+            '|---|---:|---|---:|']
+          for market in ('sg','my'):
+              f=Path(f'artifacts/devglobal-{market}-candidates.json')
+              if f.exists():
+                  s=json.loads(f.read_text())
+                  lines.append(f"| {market.upper()} | {len(s['items'])} | {s['coverage']} | {len(s['failed_pages'])} |")
+          lines+=['','No applicant actions. Roles require first-party JD, historical dedupe, seniority and source-route verification before Issue promotion.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('\n'.join(lines)+'\n')
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sg-my-structured-feed
+          path: artifacts/
+          retention-days: 14
