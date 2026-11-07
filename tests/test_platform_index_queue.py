@@ -91,7 +91,8 @@ class IndexQueueTests(unittest.TestCase):
         b="https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Trust-Technologies-_R00026164-1"
         # Valid first-party Workday URL is an actual clickable job link, not
         # a synthetic source key or misleading title-only company match.
-        self.assertEqual(q.canonical(a,"SG"),q.canonical(b,"SG"))
+        self.assertEqual(q.canonical(a,"SG"),b)
+        self.assertEqual(q.canonical(b,"SG"),b)
         self.assertIsNone(q.canonical(a,"MY"))
         self.assertIsNone(q.canonical("https://example.com/job/x_R00026164-1","SG"))
 
