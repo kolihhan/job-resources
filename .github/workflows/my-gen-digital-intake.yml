@@ -1,0 +1,99 @@
+name: MY TOP Gen Digital Official Source Intake
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily 11:35 MYT, bounded official employer board.
+    - cron: '35 3 * * *'
+  push:
+    paths:
+      - 'scripts/collect_gen_digital_my.py'
+      - 'tests/test_collect_gen_digital_my.py'
+      - '.github/workflows/my-gen-digital-intake.yml'
+permissions:
+  contents: write
+  issues: read
+concurrency:
+  group: platform-index-queue
+  cancel-in-progress: false
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Verify precise first-party intake and persistent identity
+        run: |
+          python -m unittest discover -s tests -p 'test_collect_gen_digital_my.py' -v
+          python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
+      - name: Read current Gen Digital official careers board
+        run: python scripts/collect_gen_digital_my.py --out-dir artifacts/
+      - name: Persist early-career source candidates in existing MY queue
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/platform_index_queue.py ingest --market MY --input artifacts/gen-digital-my-candidates.json --known discovery-state/known-role-index.json --state discovery-state/platform-index-my.json
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          c=json.loads(Path('artifacts/gen-digital-my-candidates.json').read_text())
+          s=json.loads(Path('discovery-state/platform-index-my.json').read_text())
+          all_urls={r['url'] for r in s['pending']+s['terminal']}
+          assert all(j['url'] in all_urls for j in c['items']), 'one source role silently lost'
+          assert s['next_unacknowledged_seq']==min([x['seq'] for x in s['pending']],default=s['next_seq'])
+          print('Confirmed source handoff',len(c['items']),'MY TOP title signals',
+                len(s['pending']),'queue pending',len(s['terminal']),'terminal')
+          PY
+            git add discovery-state/platform-index-my.json
+            if git diff --cached --quiet; then
+              echo "Source roles already recorded; no heartbeat."
+              exit 0
+            fi
+            git commit -m "chore: persist MY TOP MoneyLion first-party source IDs [skip ci]"
+            if git push origin HEAD:main; then
+              git fetch origin main
+              git show origin/main:discovery-state/platform-index-my.json > /tmp/my-queue-readback.json
+              python - <<'PY'
+          import json
+          s=json.load(open('/tmp/my-queue-readback.json'))
+          assert s['market']=='MY'
+          assert s['next_unacknowledged_seq']==min([x['seq'] for x in s['pending']],default=s['next_seq'])
+          print('Readback verified',len(s['pending']),'pending MY role IDs')
+          PY
+              exit 0
+            fi
+            echo "Concurrent queue write; retrying latest origin"
+          done
+          exit 1
+      - name: Report source health
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path('artifacts/gen-digital-my-candidates.json')
+          if not p.exists():
+              print('Source not fetched; no zero-coverage claim')
+              raise SystemExit(0)
+          r=json.loads(p.read_text())
+          lines=['# Gen Digital / MoneyLion — MY first-party source','',
+                 'Official employer Ashby board. No application, employer contact, or new APPLY from source alone.','',
+                 f"All employer listings: {r['source_observed_total']}; MY AI/ML titles: {r['source_technical_my']};",
+                 f"mature title deferrals: {len(r['mature_title_not_enqueued'])}; early-career source identities handed off: {len(r['items'])}.",
+                 '']
+          lines += ['- '+x['title']+': '+x['url'] for x in r['items']]
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('\n'.join(lines)+'\n')
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-gen-digital-source-intake
+          path: artifacts/
+          retention-days: 14
