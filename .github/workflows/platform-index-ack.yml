@@ -43,13 +43,14 @@ jobs:
           for market in ('sg','my'):
               path=Path(f'discovery-state/platform-index-{market}.json')
               state=json.loads(path.read_text())
-              receipt=json.loads(Path(f'tests/fixtures/platform-ack-{market}-2026-11-07.json').read_text())
-              terminal=next((x for x in state['terminal'] if x['key']==receipt['key']),None)
-              if terminal:
-                  assert terminal['state']==receipt['action'] and terminal.get('evidence_url')==receipt['evidence_url'], 'conflicting acknowledgement'
-              else:
-                  state=ack(state,receipt)
-                  atomic_write(path,state)
+              for fixture in sorted(Path('tests/fixtures').glob(f'platform-ack-{market}-2026-11-07*.json')):
+                  receipt=json.loads(fixture.read_text())
+                  terminal=next((x for x in state['terminal'] if x['key']==receipt['key']),None)
+                  if terminal:
+                      assert terminal['state']==receipt['action'] and terminal.get('evidence_url')==receipt['evidence_url'], 'conflicting acknowledgement'
+                  else:
+                      state=ack(state,receipt)
+                      atomic_write(path,state)
               validate_state(state,market.upper())
               print(f"ACK {market.upper()} pending={len(state['pending'])} terminal={len(state['terminal'])} cursor={state['next_unacknowledged_seq']}")
           PY
@@ -74,7 +75,9 @@ jobs:
           for market in ('sg','my'):
               data=subprocess.check_output(['git','show',f'origin/main:discovery-state/platform-index-{market}.json'])
               s=json.loads(data)
-              assert len(s['pending'])==1 and len(s['terminal'])==1
-              assert s['pending'][0]['seq']==1 and s['next_unacknowledged_seq']==1
-              print(f"{market}: one pending exact-role review remains, one evidence-backed hard reject persisted")
+              # Initial two observed candidates per market must now have documented terminal dispositions.
+              # Later source-ingestion additions are allowed to remain pending.
+              assert all(any(x['seq']==n for x in s['terminal']) for n in (1,2))
+              assert s['next_unacknowledged_seq']==min([x['seq'] for x in s['pending']],default=s['next_seq'])
+              print(f"{market}: initial two candidates have evidence-backed terminal receipts; pending={len(s['pending'])}")
           PY
