@@ -39,12 +39,12 @@
     {
       "platform": "JobStreet Malaysia",
       "query_family": "Agent / LLM / RAG / GenAI",
-      "last_attempt_at": "2026-11-07T13:24:07+08:00",
+      "last_attempt_at": "2026-11-07T20:17:11+08:00",
       "native_pages_read": 1,
-      "native_unique_rows": 30,
-      "fallback_unique_rows": 4,
-      "reason": "Current indexed machine-learning-engineer listing contains identifiable jobs, but page=2 direct URL inaccessible; prior 30 native cards remain previous-run evidence, not newly read pages.",
-      "next_probe": "Use live JobStreet pagination click/current page 2 with matching job IDs, or alternative indexed exact-role/ATS cross-check"
+      "native_unique_rows": 20,
+      "fallback_unique_rows": 0,
+      "reason": "Current JobStreet MY AI Engineer native page 1 read with 20+ identifiable cards; exact JD pages 95718055, 95678759, 95722207 read. Native page=2 returned inaccessible; cannot claim breadth or exhaustion.",
+      "next_probe": "Obtain JobStreet live page 2 cursor with exact job IDs; independently verify techstreet/INFRA365 employer quality and official route."
     },
     {
       "platform": "Indeed Malaysia",
