@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T20:00:00+08:00",
+  "updated_at": "2026-11-08T21:15:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3657,6 +3657,71 @@
       "missing_evidence": "Exact NTU Workday requisition, current vacancy, hard 2-4 years production data-platform/IaC/Kubernetes requirements and usable route",
       "next_probe": "Search NTU Workday official CXS by exact title, then compare employer requisition; avoid WhatJobs mirror",
       "jd_evidence": "Independent reproduced JD: primarily AWS data architecture, IAM, EMR, Spark and Terraform for LLM training/evaluation/RAG; 2-4 years platform engineering"
+    },
+    {
+      "candidate_seq": 821,
+      "company": "Temasek International Pte. Ltd.",
+      "title": "Senior AI Data Platform Engineer | RAG & Governance",
+      "role_key": "freehire:senior-ai-data-platform-engineer-rag-governance-temasek-international-pte-ltd-suiamwh7",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__89280014__7119",
+      "reason_code": "seniority_and_ai_platform_scope_unverified",
+      "missing_evidence": "Employer exact req, full JD mandatory years and RAG technical ownership; SG work-pass route",
+      "next_probe": "Temasek official careers exact title / independent req 89280014",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T21:15:00+08:00",
+      "new_substantive_evidence": false
+    },
+    {
+      "candidate_seq": 822,
+      "company": "Shopee",
+      "title": "AI Data Engineer , Marketplace Intelligence & Data (2027 Graduate)",
+      "role_key": "freehire:ai-data-engineer-marketplace-intelligence-data-2027-graduate-shopee-oruvlzi5",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88794805__7119",
+      "reason_code": "graduate_2027_cohort_and_exact_jd_unverified",
+      "missing_evidence": "Official Shopee req and 2026 MSc eligibility for 2027 intake; real AI engineering scope and SG work-pass",
+      "next_probe": "Shopee official campus careers exact role",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T21:15:00+08:00",
+      "new_substantive_evidence": false
+    },
+    {
+      "candidate_seq": 823,
+      "company": "Shopee",
+      "title": "AI Data Engineer – Marketplace Intelligence & Data",
+      "role_key": "freehire:ai-data-engineer-marketplace-intelligence-data-shopee-oa27sted",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88830334__7119",
+      "reason_code": "exact_jd_ai_core_and_identity_unverified",
+      "missing_evidence": "Official req and distinction from 2027 graduate variant, full AI/data duties, experience and SG pass",
+      "next_probe": "Shopee official careers and exact role ID 88830334",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T21:15:00+08:00",
+      "new_substantive_evidence": false
+    },
+    {
+      "candidate_seq": 824,
+      "company": "Ellis Technologies, Inc.",
+      "title": "Backend Engineer (AI Application) - TikTok Local Service (Singapore)",
+      "role_key": "freehire:backend-engineer-ai-application-tiktok-local-service-singapore-ellis-technologies-inc-s2bb67ju",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88059216__7119",
+      "reason_code": "official_tiktok_jd_verified_identity_eligibility_unresolved",
+      "missing_evidence": "Official TikTok A223119 mapped to FreeHire source; mandatory cloud-native/Docker/Kubernetes experience, EP/S Pass, targeted Gmail and exact all-history URL",
+      "next_probe": "TikTok official job A223119 https://lifeattiktok.com/search/7529474348652382472",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T21:15:00+08:00",
+      "new_substantive_evidence": true
+    },
+    {
+      "candidate_seq": 825,
+      "company": "Shopee",
+      "title": "Backend Engineer – Promotions Platform & AI",
+      "role_key": "freehire:backend-engineer-promotions-platform-ai-shopee-t47fjob4",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88989373__7119",
+      "reason_code": "exact_jd_substantive_ai_ownership_unverified",
+      "missing_evidence": "Official Shopee req, determine actual LLM/AI backend vs promotions CRUD, hard YOE and pass route",
+      "next_probe": "Shopee official careers exact title / independent ID 88989373",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T21:15:00+08:00",
+      "new_substantive_evidence": false
     }
   ]
 }
