@@ -77,6 +77,27 @@
       "ai_signals": [
         "title:ai"
       ],
+      "candidate_seq": 2238,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7582263402347956485",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen; Beijing",
+      "market": "CN",
+      "posted_at": "2025-12-10T16:19:07Z",
+      "public_slug": "mo-xing-gong-cheng-ji-zhu-zhuan-jia-ai-infra-jian-ying-capcut-bytedance-gojkasmb",
+      "role_key": "freehire:mo-xing-gong-cheng-ji-zhu-zhuan-jia-ai-infra-jian-ying-capcut-bytedance-gojkasmb",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7582263402347956485/detail?utm_source=freehire.me",
+      "title": "模型工程技术专家（AI Infra） - 剪映CapCut"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
       "candidate_seq": 2239,
       "company": "Autoliv",
       "employment_type": null,
@@ -160,37 +181,14 @@
       "source": "eightfold",
       "source_url": "https://careers.qualcomm.com/careers/job/446714829336?utm_source=freehire.me",
       "title": "Gaming AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:data_science",
-        "jd:machine_learning",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 2243,
-      "company": "Mercedes-Benz Group AG",
-      "employment_type": null,
-      "external_id": "stgdaimler.taleo.net/ex:MER0003TJ8",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China (Mainland)-Beijing-Beijing",
-      "market": "CN",
-      "posted_at": "2025-10-11T00:00:00Z",
-      "public_slug": "business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw",
-      "role_key": "freehire:business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw",
-      "source": "taleo",
-      "source_url": "https://stgdaimler.taleo.net/careersection/ex/jobdetail.ftl?job=MER0003TJ8&lang=en&utm_source=freehire.me",
-      "title": "Business Intelligence (Data Scientist)  商务智能 (数据科学家)"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "CN",
-  "max_candidate_seq": 2243,
+  "max_candidate_seq": 2242,
   "min_candidate_seq": 2235,
   "shard_index": 22,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

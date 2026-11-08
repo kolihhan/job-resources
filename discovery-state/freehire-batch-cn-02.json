@@ -114,30 +114,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2059,
-      "company": "NVIDIA",
-      "employment_type": null,
-      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-Data-Infrastructure-Engineer--AI-Performance_JR2022970",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-08-19T00:00:00Z",
-      "public_slug": "senior-data-infrastructure-engineer-ai-performance-nvidia-oye5xlhi",
-      "role_key": "freehire:senior-data-infrastructure-engineer-ai-performance-nvidia-oye5xlhi",
-      "source": "workday",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Data-Infrastructure-Engineer--AI-Performance_JR2022970?utm_source=freehire.me",
-      "title": "Senior Data Infrastructure Engineer, AI Performance"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 2060,
       "company": "ByteDance",
       "employment_type": null,
@@ -198,14 +174,37 @@
       "source": "meituan",
       "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697268474&utm_source=freehire.me",
       "title": "广告算法工程师"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2063,
+      "company": "Suanmiao Technology",
+      "employment_type": null,
+      "external_id": "sunmmio1104.jobs.feishu.cn:7674886872305387826",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-08-17T06:42:35Z",
+      "public_slug": "ai-yuan-sheng-gao-ji-quan-zhan-gong-cheng-shi-suanmiao-technology-fhoyeguh",
+      "role_key": "freehire:ai-yuan-sheng-gao-ji-quan-zhan-gong-cheng-shi-suanmiao-technology-fhoyeguh",
+      "source": "feishujobs",
+      "source_url": "https://sunmmio1104.jobs.feishu.cn/index/position/7674886872305387826/detail?utm_source=freehire.me",
+      "title": "AI 原生高级全栈工程师​"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "CN",
-  "max_candidate_seq": 2062,
+  "max_candidate_seq": 2063,
   "min_candidate_seq": 2053,
   "shard_index": 2,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

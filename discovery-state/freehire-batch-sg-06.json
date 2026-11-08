@@ -5,77 +5,6 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 808,
-      "company": "The GMP Group",
-      "employment_type": null,
-      "external_id": "gmp-group-2:63R9X8Y5",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-08-17T23:27:59Z",
-      "public_slug": "backend-engineer-ai-agent-systems-the-gmp-group-6hrtxiz5",
-      "role_key": "freehire:backend-engineer-ai-agent-systems-the-gmp-group-6hrtxiz5",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/gmp-group-2/job/63R9X8Y5?utm_source=freehire.me",
-      "title": "Backend Engineer, AI (Agent Systems)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "jd:llm",
-        "jd:genai",
-        "jd:agent",
-        "jd:rag",
-        "jd:retrieval"
-      ],
-      "candidate_seq": 809,
-      "company": "FPT Asia Pacific Pte Ltd",
-      "employment_type": null,
-      "external_id": "fpt-asia-pacific-pte-ltd:4RV95757",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-17T22:52:03Z",
-      "public_slug": "g60-full-stack-engineer-fpt-asia-pacific-pte-ltd-pfcgecyg",
-      "role_key": "freehire:g60-full-stack-engineer-fpt-asia-pacific-pte-ltd-pfcgecyg",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/fpt-asia-pacific-pte-ltd/job/4RV95757?utm_source=freehire.me",
-      "title": "G60 - Full Stack Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:machine_learning",
-        "jd:pytorch",
-        "jd:tensorflow"
-      ],
-      "candidate_seq": 810,
-      "company": "Focal Search Pte Ltd",
-      "employment_type": null,
-      "external_id": "career-focal:L8W8WY43",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-17T22:26:41Z",
-      "public_slug": "data-scientist-focal-search-pte-ltd-5mvkgqn2",
-      "role_key": "freehire:data-scientist-focal-search-pte-ltd-5mvkgqn2",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/career-focal/job/L8W8WY43?utm_source=freehire.me",
-      "title": "Data Scientist"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
         "jd:agent"
       ],
       "candidate_seq": 811,
@@ -186,14 +115,80 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88826094__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Full Stack Engineer / Software Engineer (AI Products / Golang / Growth Platform)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 816,
+      "company": "NAS EDUCATION PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:88893019",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-14T18:39:35Z",
+      "public_slug": "ai-full-stack-engineer-nas-education-pte-ltd-zdpbupqm",
+      "role_key": "freehire:ai-full-stack-engineer-nas-education-pte-ltd-zdpbupqm",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88893019__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Full-Stack Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 818,
+      "company": "GOLDTECH RESOURCES PTE LTD",
+      "employment_type": null,
+      "external_id": "devops engineer:89599981",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-11T10:41:01Z",
+      "public_slug": "cloud-scale-ai-platform-devops-engineer-goldtech-resources-pte-ltd-fueznatm",
+      "role_key": "freehire:cloud-scale-ai-platform-devops-engineer-goldtech-resources-pte-ltd-fueznatm",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__89599981__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Cloud-Scale AI Platform DevOps Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 819,
+      "company": "GOLDTECH RESOURCES PTE LTD",
+      "employment_type": null,
+      "external_id": "devops engineer:89600204",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-11T10:40:59Z",
+      "public_slug": "devops-engineer-ai-platform-devops-engineer-goldtech-resources-pte-ltd-gz7fhf3i",
+      "role_key": "freehire:devops-engineer-ai-platform-devops-engineer-goldtech-resources-pte-ltd-gz7fhf3i",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__89600204__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "DevOps Engineer (AI Platform)DevOps Engineer"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 815,
-  "min_candidate_seq": 808,
+  "max_candidate_seq": 819,
+  "min_candidate_seq": 811,
   "shard_index": 6,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

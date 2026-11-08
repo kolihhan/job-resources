@@ -4,72 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:agent"
-      ],
-      "candidate_seq": 2153,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7654560536566991157",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-06-23T12:04:39Z",
-      "public_slug": "agentic-recsyssuan-fa-gong-cheng-shi-dou-yin-bytedance-huszpnxf",
-      "role_key": "freehire:agentic-recsyssuan-fa-gong-cheng-shi-dou-yin-bytedance-huszpnxf",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7654560536566991157/detail?utm_source=freehire.me",
-      "title": "Agentic RecSys算法工程师 - 抖音"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:rag",
-        "jd:nlp",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 2154,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7654101291762157877",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-06-22T06:22:31Z",
-      "public_slug": "guo-ji-shang-ye-hua-duo-mo-tai-suan-fa-gong-cheng-shi-shang-ye-hua-shu-ju-bytedance-5ko4k75i",
-      "role_key": "freehire:guo-ji-shang-ye-hua-duo-mo-tai-suan-fa-gong-cheng-shi-shang-ye-hua-shu-ju-bytedance-5ko4k75i",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7654101291762157877/detail?utm_source=freehire.me",
-      "title": "国际商业化多模态算法工程师-商业化数据"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2155,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7652618700759288117",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-06-18T06:29:50Z",
-      "public_slug": "ai-agentkai-fa-shi-xi-sheng-tiktoksou-suo-bytedance-tpbmemel",
-      "role_key": "freehire:ai-agentkai-fa-shi-xi-sheng-tiktoksou-suo-bytedance-tpbmemel",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7652618700759288117/detail?utm_source=freehire.me",
-      "title": "AI Agent开发实习生-TikTok搜索"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ai"
       ],
       "candidate_seq": 2156,
@@ -174,14 +108,77 @@
       "source": "meituan",
       "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4531099128&utm_source=freehire.me",
       "title": "【北斗】大模型算法工程师—生成式搜推广告算法"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2161,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7646992907259758853",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-06-03T02:38:07Z",
+      "public_slug": "ai-agentying-yong-quan-zhan-yan-fa-gong-cheng-shi-gong-hui-fang-xiang-tiktokzhi-bo-bytedance-ka7ziyqc",
+      "role_key": "freehire:ai-agentying-yong-quan-zhan-yan-fa-gong-cheng-shi-gong-hui-fang-xiang-tiktokzhi-bo-bytedance-ka7ziyqc",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7646992907259758853/detail?utm_source=freehire.me",
+      "title": "AI Agent应用全栈研发工程师（公会方向） - TikTok直播"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:nlp"
+      ],
+      "candidate_seq": 2162,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7646788601900583221",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-06-02T13:27:20Z",
+      "public_slug": "cv-nlp-duo-mo-tai-suan-fa-gong-cheng-shi-guo-ji-dian-shang-bytedance-nreqpeho",
+      "role_key": "freehire:cv-nlp-duo-mo-tai-suan-fa-gong-cheng-shi-guo-ji-dian-shang-bytedance-nreqpeho",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7646788601900583221/detail?utm_source=freehire.me",
+      "title": "CV/NLP/多模态算法工程师-国际电商"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2163,
+      "company": "RayNeo",
+      "employment_type": null,
+      "external_id": "leiniao-ibg.jobs.feishu.cn:7646311682856093958",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-06-01T06:37:08Z",
+      "public_slug": "ying-xiang-suan-fa-gong-cheng-shi-ai-ar-yan-jing-fang-xiang-rayneo-ymetx4pd",
+      "role_key": "freehire:ying-xiang-suan-fa-gong-cheng-shi-ai-ar-yan-jing-fang-xiang-rayneo-ymetx4pd",
+      "source": "feishujobs",
+      "source_url": "https://leiniao-ibg.jobs.feishu.cn/index/position/7646311682856093958/detail?utm_source=freehire.me",
+      "title": "影像算法工程师 (AI/AR 眼镜方向)"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "CN",
-  "max_candidate_seq": 2160,
-  "min_candidate_seq": 2153,
+  "max_candidate_seq": 2163,
+  "min_candidate_seq": 2156,
   "shard_index": 13,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

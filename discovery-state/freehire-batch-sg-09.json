@@ -4,71 +4,6 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ml",
-        "jd:deep_learning"
-      ],
-      "candidate_seq": 835,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6290:93558344",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-26T02:11:42Z",
-      "public_slug": "machine-learning-engineer-location-product-tiktok-yowlssmt",
-      "role_key": "freehire:machine-learning-engineer-location-product-tiktok-yowlssmt",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93558344?utm_source=freehire.me",
-      "title": "Machine Learning Engineer - Location Product"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 836,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6294:93558337",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-26T02:11:20Z",
-      "public_slug": "machine-learning-engineer-live-recommendation-singapore-tiktok-7fc3ml6g",
-      "role_key": "freehire:machine-learning-engineer-live-recommendation-singapore-tiktok-7fc3ml6g",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93558337?utm_source=freehire.me",
-      "title": "Machine Learning Engineer, LIVE Recommendation - Singapore"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:llm"
-      ],
-      "candidate_seq": 837,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7664493475353954613",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-20T06:30:01Z",
-      "public_slug": "llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
-      "role_key": "freehire:llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7664493475353954613/detail?utm_source=freehire.me",
-      "title": "LLM System Backend Engineer Graduate (AML Ark) - 2027 Start"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
         "title:llm"
       ],
       "candidate_seq": 838,
@@ -203,14 +138,79 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/95487811?utm_source=freehire.me",
       "title": "Full Stack Developer (AI-Enabled)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:llm"
+      ],
+      "candidate_seq": 844,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "6294:92900470",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-06-23T16:03:46Z",
+      "public_slug": "llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
+      "role_key": "freehire:llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/92900470?utm_source=freehire.me",
+      "title": "LLM Evaluation Product Operations Specialist – TikTok"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 845,
+      "company": "Fuku",
+      "employment_type": null,
+      "external_id": "fuku:EFA54F9658",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-06-11T00:00:00Z",
+      "public_slug": "ai-developer-fuku-ysqpbmls",
+      "role_key": "freehire:ai-developer-fuku-ysqpbmls",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/EFA54F9658?utm_source=freehire.me",
+      "title": "AI Developer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 846,
+      "company": "Technopals Pte.Ltd.",
+      "employment_type": null,
+      "external_id": "technopals.zohorecruit.com:363745000022725010",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Raffles, Singapore",
+      "market": "SG",
+      "posted_at": "2026-06-04T00:00:00Z",
+      "public_slug": "ml-engineer-technopals-zohorecruit-com-qlcyfbxs",
+      "role_key": "freehire:ml-engineer-technopals-zohorecruit-com-qlcyfbxs",
+      "source": "zohorecruit",
+      "source_url": "https://technopals.zohorecruit.com/jobs/Careers/363745000022725010?utm_source=freehire.me",
+      "title": "ML Engineer"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 843,
-  "min_candidate_seq": 835,
+  "max_candidate_seq": 846,
+  "min_candidate_seq": 838,
   "shard_index": 9,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

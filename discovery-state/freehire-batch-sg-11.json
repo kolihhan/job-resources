@@ -4,50 +4,6 @@
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 854,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7621591115837786373",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-03-26T15:46:08Z",
-      "public_slug": "machine-learning-engineer-global-e-commerce-eta-pricing-conversion-bytedance-7ji56itc",
-      "role_key": "freehire:machine-learning-engineer-global-e-commerce-eta-pricing-conversion-bytedance-7ji56itc",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7621591115837786373/detail?utm_source=freehire.me",
-      "title": "Machine Learning Engineer, Global E-Commerce (ETA, Pricing & Conversion)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 855,
-      "company": "Fuku",
-      "employment_type": null,
-      "external_id": "fuku:C6B0981CCB",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-03-26T00:00:00Z",
-      "public_slug": "ai-engineer-fuku-oncspdx5",
-      "role_key": "freehire:ai-engineer-fuku-oncspdx5",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/C6B0981CCB?utm_source=freehire.me",
-      "title": "Ai engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
         "jd:llm",
         "jd:genai",
         "jd:agent",
@@ -201,14 +157,58 @@
       "source": "ashby",
       "source_url": "https://jobs.ashbyhq.com/cognition/811c3f5a-b26d-4162-b49b-93890a91794d?utm_source=freehire.me",
       "title": "Applied AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:agent",
+        "jd:agent"
+      ],
+      "candidate_seq": 863,
+      "company": "Simular",
+      "employment_type": null,
+      "external_id": "Simular:948adf55-b791-46d2-a9bd-d229fb69e11b",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2025-10-13T08:17:44Z",
+      "public_slug": "software-engineer-agentic-applications-simular-qjmu4sgq",
+      "role_key": "freehire:software-engineer-agentic-applications-simular-qjmu4sgq",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/Simular/948adf55-b791-46d2-a9bd-d229fb69e11b?utm_source=freehire.me",
+      "title": "Software Engineer, Agentic Applications"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 864,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7536106306949761288",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2025-08-08T07:03:28Z",
+      "public_slug": "ai-engineer-aeolus-data-platform-bytedance-gjamxmic",
+      "role_key": "freehire:ai-engineer-aeolus-data-platform-bytedance-gjamxmic",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7536106306949761288/detail?utm_source=freehire.me",
+      "title": "AI Engineer (Aeolus) - Data Platform"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 862,
-  "min_candidate_seq": 854,
+  "max_candidate_seq": 864,
+  "min_candidate_seq": 856,
   "shard_index": 11,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

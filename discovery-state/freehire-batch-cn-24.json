@@ -6,6 +6,27 @@
       "ai_signals": [
         "title:ai"
       ],
+      "candidate_seq": 2251,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7497078826712058130",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2025-04-25T02:57:47Z",
+      "public_slug": "ai-codingsuan-fa-gong-cheng-shi-zhuan-jia-dev-infra-bytedance-wdod63h7",
+      "role_key": "freehire:ai-codingsuan-fa-gong-cheng-shi-zhuan-jia-dev-infra-bytedance-wdod63h7",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7497078826712058130/detail?utm_source=freehire.me",
+      "title": "AI Coding算法工程师/专家-Dev Infra"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
       "candidate_seq": 2252,
       "company": "Moonshot AI",
       "employment_type": null,
@@ -93,58 +114,37 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "jd:llm",
-        "jd:nlp",
-        "jd:tensorflow",
-        "jd:fine_tuning"
+        "jd:machine_learning",
+        "jd:retrieval",
+        "jd:model_training",
+        "jd:vector_db"
       ],
-      "candidate_seq": 2257,
-      "company": "ByteDance",
+      "candidate_seq": 2256,
+      "company": "Bosch Group",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7460073798487886087",
-      "flags": [],
+      "external_id": "boschgroup:744000038186515",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing; Shanghai",
+      "location": "Hong Kong, Hong Kong, cn",
       "market": "CN",
-      "posted_at": "2025-01-15T09:39:15Z",
-      "public_slug": "aiying-yong-suan-fa-gong-cheng-shi-ju-liang-aigong-zuo-tai-bytedance-7zvzohnm",
-      "role_key": "freehire:aiying-yong-suan-fa-gong-cheng-shi-ju-liang-aigong-zuo-tai-bytedance-7zvzohnm",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7460073798487886087/detail?utm_source=freehire.me",
-      "title": "AI应用算法工程师-巨量AI工作台"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:rag",
-        "jd:pytorch",
-        "jd:transformer",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 2259,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7447767919717058823",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2024-12-13T05:55:36Z",
-      "public_slug": "da-mo-xing-suan-fa-zhuan-jia-dev-aifang-xiang-aime-bytedance-btzeqy3y",
-      "role_key": "freehire:da-mo-xing-suan-fa-zhuan-jia-dev-aifang-xiang-aime-bytedance-btzeqy3y",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7447767919717058823/detail?utm_source=freehire.me",
-      "title": "大模型算法专家（Dev AI方向）-Aime"
+      "posted_at": "2025-01-23T03:39:45Z",
+      "public_slug": "senior-software-developer-data-engineer-m-bdo4-pu-bosch-group-f2pbuhy2",
+      "role_key": "freehire:senior-software-developer-data-engineer-m-bdo4-pu-bosch-group-f2pbuhy2",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000038186515-senior-software-developer-data-engineer-m-bdo4-pu?utm_source=freehire.me",
+      "title": "Senior Software Developer (Data Engineer) - M/BDO4-PU"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "CN",
-  "max_candidate_seq": 2259,
-  "min_candidate_seq": 2252,
+  "max_candidate_seq": 2256,
+  "min_candidate_seq": 2251,
   "shard_index": 24,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

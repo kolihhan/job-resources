@@ -1,74 +1,6 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 921,
-      "company": "COGNIZANT TECHNOLOGY SOLUTIONS ASIA PACIFIC PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:94381322",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T16:41:54Z",
-      "public_slug": "java-full-stack-engineer-aws-microservices-ai-tools-cognizant-technology-solutions-asia-pacific-pte-ltd-hqy5cfmb",
-      "role_key": "freehire:java-full-stack-engineer-aws-microservices-ai-tools-cognizant-technology-solutions-asia-pacific-pte-ltd-hqy5cfmb",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94381322__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Java Full-Stack Engineer | AWS, Microservices & AI Tools"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 922,
-      "company": "SearchElect Pte Ltd",
-      "employment_type": null,
-      "external_id": "backend developer:94381281",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T16:41:54Z",
-      "public_slug": "sr-backend-engineer-python-django-with-ai-agents-remote-searchelect-pte-ltd-hjxbgkyl",
-      "role_key": "freehire:sr-backend-engineer-python-django-with-ai-agents-remote-searchelect-pte-ltd-hjxbgkyl",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94381281__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Sr Backend Engineer (Python/Django) with AI Agents — Remote"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 923,
-      "company": "Astek Group",
-      "employment_type": null,
-      "external_id": "full stack developer:94380261",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T16:41:53Z",
-      "public_slug": "senior-full-stack-engineer-go-react-ts-ai-tools-astek-group-kscv462b",
-      "role_key": "freehire:senior-full-stack-engineer-go-react-ts-ai-tools-astek-group-kscv462b",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380261__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer - Go/React/TS, AI Tools"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -187,14 +119,98 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94304228__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
       "title": "Senior Data Engineer: Real‑Time Lakehouse & AI Data"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 929,
+      "company": "OCBC Bank",
+      "employment_type": null,
+      "external_id": "data engineer:94264815",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T12:42:03Z",
+      "public_slug": "avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-gllnl2kq",
+      "role_key": "freehire:avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-gllnl2kq",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94264815__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "AVP Data Engineer - Enterprise Data & AI Platforms"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 930,
+      "company": "OCBC Bank",
+      "employment_type": null,
+      "external_id": "6290:95586970",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T09:00:00Z",
+      "public_slug": "mgr-ai-engineer-group-audit-ocbc-bank-wwgjqq6m",
+      "role_key": "freehire:mgr-ai-engineer-group-audit-ocbc-bank-wwgjqq6m",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95586970?utm_source=freehire.me",
+      "title": "MGR, AI Engineer, Group Audit"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 931,
+      "company": "PEOPLESEARCH PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":3acd785ff4480086bf6e8fa3d2d326e7",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "full-stack-ai-engineer-peoplesearch-pte-ltd-oynr3jo5",
+      "role_key": "freehire:full-stack-ai-engineer-peoplesearch-pte-ltd-oynr3jo5",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/3acd785ff4480086bf6e8fa3d2d326e7?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 932,
+      "company": "HRNET VENTURES PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":7ad65f6c8eedb01bcad161bebdd85fb1",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "full-stack-ai-engineer-hrnet-ventures-pte-ltd-bno3juac",
+      "role_key": "freehire:full-stack-ai-engineer-hrnet-ventures-pte-ltd-bno3juac",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/7ad65f6c8eedb01bcad161bebdd85fb1?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 928,
-  "min_candidate_seq": 921,
+  "max_candidate_seq": 932,
+  "min_candidate_seq": 924,
   "shard_index": 19,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

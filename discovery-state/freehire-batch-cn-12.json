@@ -4,114 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2140,
-      "company": "Qualcomm",
-      "employment_type": null,
-      "external_id": "qualcomm.eightfold.ai/qualcomm.com:446718850626",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai, China",
-      "market": "CN",
-      "posted_at": "2026-07-10T00:00:00Z",
-      "public_slug": "ai-infrastructure-software-engineer-qualcomm-m2jnomv6",
-      "role_key": "freehire:ai-infrastructure-software-engineer-qualcomm-m2jnomv6",
-      "source": "eightfold",
-      "source_url": "https://careers.qualcomm.com/careers/job/446718850626?utm_source=freehire.me",
-      "title": "AI Infrastructure Software Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2143,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7659671512325638405",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-07-07T06:37:39Z",
-      "public_slug": "rong-qi-yun-xing-shi-ji-zhu-zhuan-jia-ai-infra-yun-yuan-sheng-fang-xiang-ji-chu-ji-zhu-bytedance-rbo6gvbe",
-      "role_key": "freehire:rong-qi-yun-xing-shi-ji-zhu-zhuan-jia-ai-infra-yun-yuan-sheng-fang-xiang-ji-chu-ji-zhu-bytedance-rbo6gvbe",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7659671512325638405/detail?utm_source=freehire.me",
-      "title": "容器运行时技术专家（AI Infra/云原生方向）-基础技术"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:nlp",
-        "jd:pytorch",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 2144,
-      "company": "Momenta",
-      "employment_type": null,
-      "external_id": "momenta.jobs.feishu.cn:7659299651862546724",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-07-06T06:57:53Z",
-      "public_slug": "duo-mo-tai-shu-ju-suan-fa-momenta-dptbf6db",
-      "role_key": "freehire:duo-mo-tai-shu-ju-suan-fa-momenta-dptbf6db",
-      "source": "feishujobs",
-      "source_url": "https://momenta.jobs.feishu.cn/index/position/7659299651862546724/detail?utm_source=freehire.me",
-      "title": "多模态数据算法"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 2145,
-      "company": "Qualcomm",
-      "employment_type": null,
-      "external_id": "qualcomm.eightfold.ai/qualcomm.com:446719463617",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Guangdong, China",
-      "market": "CN",
-      "posted_at": "2026-07-03T00:00:00Z",
-      "public_slug": "machine-learning-engineer-qualcomm-xpphkshf",
-      "role_key": "freehire:machine-learning-engineer-qualcomm-xpphkshf",
-      "source": "eightfold",
-      "source_url": "https://careers.qualcomm.com/careers/job/446719463617?utm_source=freehire.me",
-      "title": "Machine Learning Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2146,
-      "company": "Vivix AI",
-      "employment_type": null,
-      "external_id": "vivix-ai.jobs.feishu.cn:7657835897480907071",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen",
-      "market": "CN",
-      "posted_at": "2026-07-02T08:20:21Z",
-      "public_slug": "ai-quan-zhan-yan-fa-gong-cheng-shi-yong-hu-zeng-chang-fang-xiang-vivix-ai-v6anbucm",
-      "role_key": "freehire:ai-quan-zhan-yan-fa-gong-cheng-shi-yong-hu-zeng-chang-fang-xiang-vivix-ai-v6anbucm",
-      "source": "feishujobs",
-      "source_url": "https://vivix-ai.jobs.feishu.cn/index/position/7657835897480907071/detail?utm_source=freehire.me",
-      "title": "AI 全栈研发工程师（用户增长方向）"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "jd:llm",
         "jd:agent",
         "jd:rag",
@@ -138,6 +30,27 @@
       "ai_signals": [
         "title:ai"
       ],
+      "candidate_seq": 2148,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200670615",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-07-01T07:06:15Z",
+      "public_slug": "full-stack-ai-engineer-apple-um4dp4e6",
+      "role_key": "freehire:full-stack-ai-engineer-apple-um4dp4e6",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200670615/full-stack-ai-engineer?utm_source=freehire.me",
+      "title": "Full-Stack AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
       "candidate_seq": 2149,
       "company": "Waterdrop Inc.",
       "employment_type": null,
@@ -153,6 +66,27 @@
       "source": "feishujobs",
       "source_url": "https://wdh.jobs.feishu.cn/index/position/7657439306600237318/detail?utm_source=freehire.me",
       "title": "AI Agent安全专家（信息安全/AI治理方向）"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2150,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7657154058897082629",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-06-30T11:48:52Z",
+      "public_slug": "ai-agentying-yong-kai-fa-gong-cheng-shi-tiktokyong-hu-zeng-chang-bytedance-eliurvio",
+      "role_key": "freehire:ai-agentying-yong-kai-fa-gong-cheng-shi-tiktokyong-hu-zeng-chang-bytedance-eliurvio",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7657154058897082629/detail?utm_source=freehire.me",
+      "title": "AI Agent应用开发工程师-TikTok用户增长"
     },
     {
       "ai_score": 4,
@@ -203,14 +137,80 @@
       "source": "mokahr",
       "source_url": "https://app.mokahr.com/social-recruitment/geely/102042?utm_source=freehire.me#/job/5c6764de-1a33-4fb7-b354-7cf2a720b310",
       "title": "资深算法工程师"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:agent"
+      ],
+      "candidate_seq": 2153,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7654560536566991157",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-06-23T12:04:39Z",
+      "public_slug": "agentic-recsyssuan-fa-gong-cheng-shi-dou-yin-bytedance-huszpnxf",
+      "role_key": "freehire:agentic-recsyssuan-fa-gong-cheng-shi-dou-yin-bytedance-huszpnxf",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7654560536566991157/detail?utm_source=freehire.me",
+      "title": "Agentic RecSys算法工程师 - 抖音"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:rag",
+        "jd:nlp",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2154,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7654101291762157877",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-06-22T06:22:31Z",
+      "public_slug": "guo-ji-shang-ye-hua-duo-mo-tai-suan-fa-gong-cheng-shi-shang-ye-hua-shu-ju-bytedance-5ko4k75i",
+      "role_key": "freehire:guo-ji-shang-ye-hua-duo-mo-tai-suan-fa-gong-cheng-shi-shang-ye-hua-shu-ju-bytedance-5ko4k75i",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7654101291762157877/detail?utm_source=freehire.me",
+      "title": "国际商业化多模态算法工程师-商业化数据"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2155,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7652618700759288117",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-06-18T06:29:50Z",
+      "public_slug": "ai-agentkai-fa-shi-xi-sheng-tiktoksou-suo-bytedance-tpbmemel",
+      "role_key": "freehire:ai-agentkai-fa-shi-xi-sheng-tiktoksou-suo-bytedance-tpbmemel",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7652618700759288117/detail?utm_source=freehire.me",
+      "title": "AI Agent开发实习生-TikTok搜索"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "CN",
-  "max_candidate_seq": 2152,
-  "min_candidate_seq": 2140,
+  "max_candidate_seq": 2155,
+  "min_candidate_seq": 2147,
   "shard_index": 12,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

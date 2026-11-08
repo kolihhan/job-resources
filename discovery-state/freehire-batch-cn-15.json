@@ -6,48 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2172,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7641507023482898693",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen",
-      "market": "CN",
-      "posted_at": "2026-05-19T07:51:48Z",
-      "public_slug": "hua-xue-fan-ying-duo-chi-du-suan-fa-yan-jiu-yuan-ai-for-science-bytedance-eyaeoltl",
-      "role_key": "freehire:hua-xue-fan-ying-duo-chi-du-suan-fa-yan-jiu-yuan-ai-for-science-bytedance-eyaeoltl",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7641507023482898693/detail?utm_source=freehire.me",
-      "title": "化学反应多尺度算法研究员-AI for Science"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2173,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7641232940957829429",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2026-05-18T14:09:03Z",
-      "public_slug": "ai-agentyun-xing-huan-jing-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-h4h5x724",
-      "role_key": "freehire:ai-agentyun-xing-huan-jing-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-h4h5x724",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7641232940957829429/detail?utm_source=freehire.me",
-      "title": "AI Agent运行环境工程师-开发者服务"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 2174,
       "company": "众擎机器人",
       "employment_type": null,
@@ -192,14 +150,56 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/campus/position/7633862453017790725/detail?utm_source=freehire.me",
       "title": "AI Agent开发实习生-App Infra"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2181,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7633861459913476357",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-04-28T17:26:50Z",
+      "public_slug": "ai-agentkai-fa-shi-xi-sheng-app-infra-bytedance-wgmfv4vf",
+      "role_key": "freehire:ai-agentkai-fa-shi-xi-sheng-app-infra-bytedance-wgmfv4vf",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7633861459913476357/detail?utm_source=freehire.me",
+      "title": "AI Agent开发实习生-App Infra"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2182,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7633832823080716549",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-04-28T15:30:09Z",
+      "public_slug": "ai-agentyan-fa-jia-gou-shi-gao-ke-yong-chan-pin-yan-fa-he-gong-cheng-jia-gou-bytedance-ruaoyqnh",
+      "role_key": "freehire:ai-agentyan-fa-jia-gou-shi-gao-ke-yong-chan-pin-yan-fa-he-gong-cheng-jia-gou-bytedance-ruaoyqnh",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7633832823080716549/detail?utm_source=freehire.me",
+      "title": "AI Agent研发架构师（高可用）-产品研发和工程架构"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "CN",
-  "max_candidate_seq": 2180,
-  "min_candidate_seq": 2172,
+  "max_candidate_seq": 2182,
+  "min_candidate_seq": 2174,
   "shard_index": 15,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

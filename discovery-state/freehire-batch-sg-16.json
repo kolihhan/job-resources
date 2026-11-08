@@ -4,52 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 896,
-      "company": "ZHONG QI FUTURE (SINGAPORE) PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":7f37f86b2047615d90f01fb8c30e8cb1",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-31T00:00:00Z",
-      "public_slug": "devsecops-ml-ops-engineer-zhong-qi-future-singapore-pte-ltd-46vgm5rw",
-      "role_key": "freehire:devsecops-ml-ops-engineer-zhong-qi-future-singapore-pte-ltd-46vgm5rw",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/7f37f86b2047615d90f01fb8c30e8cb1?utm_source=freehire.me",
-      "title": "DevSecOps / ML Ops Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 897,
-      "company": "Cubist Systematic Strategies",
-      "employment_type": null,
-      "external_id": "point72:8630027002",
-      "flags": [
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-05T19:17:39Z",
-      "public_slug": "ai-product-analyst-market-intelligence-singapore-cubist-systematic-strategies-5ag34qow",
-      "role_key": "freehire:ai-product-analyst-market-intelligence-singapore-cubist-systematic-strategies-5ag34qow",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/point72/jobs/8630027002?gh_jid=8630027002&utm_source=freehire.me",
-      "title": "AI Product Analyst, Market Intelligence, Singapore"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ai"
       ],
       "candidate_seq": 898,
@@ -181,14 +135,61 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036328__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior AI-Driven Apps Developer – Frontend/Full-Stack"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 904,
+      "company": "Binance",
+      "employment_type": null,
+      "external_id": "binance:5002575101",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hong Kong; Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-06T07:34:22Z",
+      "public_slug": "pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
+      "role_key": "freehire:pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101?utm_source=freehire.me",
+      "title": "Pioneer Talent Program - Applied Data Scientist"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 905,
+      "company": "Binance",
+      "employment_type": null,
+      "external_id": "binance:5002721101",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hong Kong; Singapore; Taiwan",
+      "market": "SG",
+      "posted_at": "2026-11-05T10:11:53Z",
+      "public_slug": "senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
+      "role_key": "freehire:senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002721101?utm_source=freehire.me",
+      "title": "Senior AI Agents Backend Engineer – Golang (APAC Remote)"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 903,
-  "min_candidate_seq": 896,
+  "max_candidate_seq": 905,
+  "min_candidate_seq": 898,
   "shard_index": 16,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

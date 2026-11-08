@@ -4,53 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:agent"
-      ],
-      "candidate_seq": 904,
-      "company": "Binance",
-      "employment_type": null,
-      "external_id": "binance:5002575101",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hong Kong; Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-06T07:34:22Z",
-      "public_slug": "pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
-      "role_key": "freehire:pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101?utm_source=freehire.me",
-      "title": "Pioneer Talent Program - Applied Data Scientist"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 905,
-      "company": "Binance",
-      "employment_type": null,
-      "external_id": "binance:5002721101",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hong Kong; Singapore; Taiwan",
-      "market": "SG",
-      "posted_at": "2026-11-05T10:11:53Z",
-      "public_slug": "senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
-      "role_key": "freehire:senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002721101?utm_source=freehire.me",
-      "title": "Senior AI Agents Backend Engineer – Golang (APAC Remote)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ai"
       ],
       "candidate_seq": 906,
@@ -183,10 +136,31 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 912,
-      "company": "OCBC Bank",
+      "candidate_seq": 913,
+      "company": "SEVEN 365 PTE. LTD.",
       "employment_type": null,
-      "external_id": "6290:95604177",
+      "external_id": ":b18190331847340f186c4ade90556034",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T00:00:00Z",
+      "public_slug": "ai-software-developer-seven-365-pte-ltd-ps7grkeu",
+      "role_key": "freehire:ai-software-developer-seven-365-pte-ltd-ps7grkeu",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/b18190331847340f186c4ade90556034?utm_source=freehire.me",
+      "title": "AI Software Developer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 914,
+      "company": "ocbc",
+      "employment_type": null,
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/Senior-AI-Engineer_JR00012242",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -194,22 +168,45 @@
       ],
       "known_match_basis": null,
       "known_status": "unseen",
+      "location": "OCBC Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T00:00:00Z",
+      "public_slug": "senior-ai-engineer-ocbc-xxadv3dp",
+      "role_key": "freehire:senior-ai-engineer-ocbc-xxadv3dp",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/Senior-AI-Engineer_JR00012242?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 915,
+      "company": "HYPERSCAL SOLUTIONS PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":1cf084c7b70da4bddffeedcec8a3822b",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T03:00:00Z",
-      "public_slug": "senior-ai-engineer-ocbc-bank-57u5ozdt",
-      "role_key": "freehire:senior-ai-engineer-ocbc-bank-57u5ozdt",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95604177?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
+      "posted_at": "2026-10-30T00:00:00Z",
+      "public_slug": "ai-engineer-office-of-integrated-information-technology-services-hyperscal-solutions-pte-ltd-4c2tlmky",
+      "role_key": "freehire:ai-engineer-office-of-integrated-information-technology-services-hyperscal-solutions-pte-ltd-4c2tlmky",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/1cf084c7b70da4bddffeedcec8a3822b?utm_source=freehire.me",
+      "title": "AI Engineer, Office of Integrated Information Technology Services "
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 912,
-  "min_candidate_seq": 904,
+  "max_candidate_seq": 915,
+  "min_candidate_seq": 906,
   "shard_index": 17,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

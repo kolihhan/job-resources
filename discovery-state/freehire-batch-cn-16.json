@@ -6,48 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2181,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7633861459913476357",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-04-28T17:26:50Z",
-      "public_slug": "ai-agentkai-fa-shi-xi-sheng-app-infra-bytedance-wgmfv4vf",
-      "role_key": "freehire:ai-agentkai-fa-shi-xi-sheng-app-infra-bytedance-wgmfv4vf",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7633861459913476357/detail?utm_source=freehire.me",
-      "title": "AI Agent开发实习生-App Infra"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2182,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7633832823080716549",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-04-28T15:30:09Z",
-      "public_slug": "ai-agentyan-fa-jia-gou-shi-gao-ke-yong-chan-pin-yan-fa-he-gong-cheng-jia-gou-bytedance-ruaoyqnh",
-      "role_key": "freehire:ai-agentyan-fa-jia-gou-shi-gao-ke-yong-chan-pin-yan-fa-he-gong-cheng-jia-gou-bytedance-ruaoyqnh",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7633832823080716549/detail?utm_source=freehire.me",
-      "title": "AI Agent研发架构师（高可用）-产品研发和工程架构"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 2183,
       "company": "ByteDance",
       "employment_type": null,
@@ -63,6 +21,27 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7633829527450601781/detail?utm_source=freehire.me",
       "title": "Agent自进化算法工程师-AI Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2184,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7633459021907167493",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-04-27T15:22:45Z",
+      "public_slug": "agentjia-gou-yan-fa-gong-cheng-shi-zhuan-jia-ai-platform-bytedance-v5lg4o5y",
+      "role_key": "freehire:agentjia-gou-yan-fa-gong-cheng-shi-zhuan-jia-ai-platform-bytedance-v5lg4o5y",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7633459021907167493/detail?utm_source=freehire.me",
+      "title": "Agent架构研发工程师/专家-AI Platform"
     },
     {
       "ai_score": 4,
@@ -171,14 +150,35 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7631585460927416581/detail?utm_source=freehire.me",
       "title": "AI Agent研发工程师/专家（智能发布方向）-Dev Infra"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2190,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7631583632509995269",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-04-22T14:11:09Z",
+      "public_slug": "ai-agentyan-fa-gong-cheng-shi-zhuan-jia-zhi-neng-fa-bu-fang-xiang-dev-infra-bytedance-wf3gi2fk",
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-zhuan-jia-zhi-neng-fa-bu-fang-xiang-dev-infra-bytedance-wf3gi2fk",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7631583632509995269/detail?utm_source=freehire.me",
+      "title": "AI Agent研发工程师/专家（智能发布方向） - 质量技术"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "CN",
-  "max_candidate_seq": 2189,
-  "min_candidate_seq": 2181,
+  "max_candidate_seq": 2190,
+  "min_candidate_seq": 2183,
   "shard_index": 16,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

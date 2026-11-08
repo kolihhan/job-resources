@@ -6,27 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2190,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7631583632509995269",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-04-22T14:11:09Z",
-      "public_slug": "ai-agentyan-fa-gong-cheng-shi-zhuan-jia-zhi-neng-fa-bu-fang-xiang-dev-infra-bytedance-wf3gi2fk",
-      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-zhuan-jia-zhi-neng-fa-bu-fang-xiang-dev-infra-bytedance-wf3gi2fk",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7631583632509995269/detail?utm_source=freehire.me",
-      "title": "AI Agent研发工程师/专家（智能发布方向） - 质量技术"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 2191,
       "company": "Meituan",
       "employment_type": null,
@@ -111,27 +90,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2195,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7629333144656693509",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shanghai; Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-04-16T12:29:08Z",
-      "public_slug": "ji-yu-da-xi-tong-da-suan-li-de-chao-da-gui-mo-tui-jian-mo-xing-jian-mo-ai-infra-data-aml-bytedance-wz3ms6tl",
-      "role_key": "freehire:ji-yu-da-xi-tong-da-suan-li-de-chao-da-gui-mo-tui-jian-mo-xing-jian-mo-ai-infra-data-aml-bytedance-wz3ms6tl",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7629333144656693509/detail?utm_source=freehire.me",
-      "title": "基于大系统大算力的超大规模推荐模型建模（AI Infra） - Data AML"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "jd:nlp",
         "jd:pytorch",
         "jd:tensorflow",
@@ -173,14 +131,56 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/campus/position/7628619894381136133/detail?utm_source=freehire.me",
       "title": "【实习】面向复杂软件工程项目的Agentic AI Coding关键技术研究-TRAE"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2198,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7628617750193162549",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-04-14T14:14:01Z",
+      "public_slug": "mian-xiang-fu-za-ruan-jian-gong-cheng-xiang-mu-de-agentic-ai-codingguan-jian-ji-zhu-yan-jiu-trae-bytedance-bnjrdnti",
+      "role_key": "freehire:mian-xiang-fu-za-ruan-jian-gong-cheng-xiang-mu-de-agentic-ai-codingguan-jian-ji-zhu-yan-jiu-trae-bytedance-bnjrdnti",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7628617750193162549/detail?utm_source=freehire.me",
+      "title": "面向复杂软件工程项目的Agentic AI Coding关键技术研究-TRAE"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2199,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7627016059124631813",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-04-10T06:38:49Z",
+      "public_slug": "hou-duan-kai-fa-shi-xi-sheng-commercial-ai-bytedance-6vvlv42r",
+      "role_key": "freehire:hou-duan-kai-fa-shi-xi-sheng-commercial-ai-bytedance-6vvlv42r",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7627016059124631813/detail?utm_source=freehire.me",
+      "title": "后端开发实习生-Commercial AI"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "CN",
-  "max_candidate_seq": 2197,
-  "min_candidate_seq": 2190,
+  "max_candidate_seq": 2199,
+  "min_candidate_seq": 2191,
   "shard_index": 17,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

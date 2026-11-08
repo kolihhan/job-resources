@@ -1,71 +1,6 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:llm"
-      ],
-      "candidate_seq": 844,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6294:92900470",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-06-23T16:03:46Z",
-      "public_slug": "llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
-      "role_key": "freehire:llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/92900470?utm_source=freehire.me",
-      "title": "LLM Evaluation Product Operations Specialist – TikTok"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 845,
-      "company": "Fuku",
-      "employment_type": null,
-      "external_id": "fuku:EFA54F9658",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-06-11T00:00:00Z",
-      "public_slug": "ai-developer-fuku-ysqpbmls",
-      "role_key": "freehire:ai-developer-fuku-ysqpbmls",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/EFA54F9658?utm_source=freehire.me",
-      "title": "AI Developer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 846,
-      "company": "Technopals Pte.Ltd.",
-      "employment_type": null,
-      "external_id": "technopals.zohorecruit.com:363745000022725010",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Raffles, Singapore",
-      "market": "SG",
-      "posted_at": "2026-06-04T00:00:00Z",
-      "public_slug": "ml-engineer-technopals-zohorecruit-com-qlcyfbxs",
-      "role_key": "freehire:ml-engineer-technopals-zohorecruit-com-qlcyfbxs",
-      "source": "zohorecruit",
-      "source_url": "https://technopals.zohorecruit.com/jobs/Careers/363745000022725010?utm_source=freehire.me",
-      "title": "ML Engineer"
-    },
     {
       "ai_score": 5,
       "ai_signals": [
@@ -206,14 +141,58 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7624545551952251141/detail?utm_source=freehire.me",
       "title": "Machine Learning Engineer (Recommendation) - Global E-Commerce"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 854,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7621591115837786373",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-03-26T15:46:08Z",
+      "public_slug": "machine-learning-engineer-global-e-commerce-eta-pricing-conversion-bytedance-7ji56itc",
+      "role_key": "freehire:machine-learning-engineer-global-e-commerce-eta-pricing-conversion-bytedance-7ji56itc",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7621591115837786373/detail?utm_source=freehire.me",
+      "title": "Machine Learning Engineer, Global E-Commerce (ETA, Pricing & Conversion)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 855,
+      "company": "Fuku",
+      "employment_type": null,
+      "external_id": "fuku:C6B0981CCB",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-03-26T00:00:00Z",
+      "public_slug": "ai-engineer-fuku-oncspdx5",
+      "role_key": "freehire:ai-engineer-fuku-oncspdx5",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/C6B0981CCB?utm_source=freehire.me",
+      "title": "Ai engineer"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 853,
-  "min_candidate_seq": 844,
+  "max_candidate_seq": 855,
+  "min_candidate_seq": 848,
   "shard_index": 10,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

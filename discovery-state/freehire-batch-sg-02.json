@@ -125,28 +125,6 @@
         "title:ai",
         "jd:llm"
       ],
-      "candidate_seq": 779,
-      "company": "Space Executive",
-      "employment_type": null,
-      "external_id": "data engineer:92134258",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-24T11:58:39Z",
-      "public_slug": "end-to-end-data-platform-engineer-ai-driven-space-executive-pjegpkkg",
-      "role_key": "freehire:end-to-end-data-platform-engineer-ai-driven-space-executive-pjegpkkg",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92134258__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "End-to-End Data Platform Engineer - AI-Driven"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
       "candidate_seq": 780,
       "company": "TikTok",
       "employment_type": null,
@@ -191,14 +169,39 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92054486__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Data Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 782,
+      "company": "FREEFLO",
+      "employment_type": null,
+      "external_id": "backend developer:92055782",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-23T12:15:22Z",
+      "public_slug": "senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
+      "role_key": "freehire:senior-ai-backend-engineer-python-serverless-internsg-ejekyodu",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92055782__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Backend Engineer — Python & Serverless"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 781,
+  "max_candidate_seq": 782,
   "min_candidate_seq": 773,
   "shard_index": 2,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

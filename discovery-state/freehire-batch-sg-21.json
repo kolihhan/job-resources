@@ -6,73 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 938,
-      "company": "Internetwork Expert",
-      "employment_type": null,
-      "external_id": "full stack developer:94227030",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T14:41:00Z",
-      "public_slug": "ai-driven-full-stack-engineer-build-practical-ai-apps-internetwork-expert-m2d6rrvk",
-      "role_key": "freehire:ai-driven-full-stack-engineer-build-practical-ai-apps-internetwork-expert-m2d6rrvk",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94227030__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full-Stack Engineer | Build Practical AI Apps"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 939,
-      "company": "Incube8",
-      "employment_type": null,
-      "external_id": "devops engineer:94226234",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T14:40:24Z",
-      "public_slug": "aws-devops-engineer-ai-driven-infra-hybrid-role-incube8-g5qzc6w4",
-      "role_key": "freehire:aws-devops-engineer-ai-driven-infra-hybrid-role-incube8-g5qzc6w4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94226234__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AWS DevOps Engineer — AI-Driven Infra, Hybrid Role"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 940,
-      "company": "BASE CAMP DIGITAL PTE. LTD.",
-      "employment_type": null,
-      "external_id": "6290:95551779",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T05:27:26Z",
-      "public_slug": "senior-ai-engineer-base-camp-digital-pte-ltd-pgpejf25",
-      "role_key": "freehire:senior-ai-engineer-base-camp-digital-pte-ltd-pgpejf25",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95551779?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 941,
       "company": "Firmus Technologies ",
       "employment_type": "full_time",
@@ -185,14 +118,77 @@
       "source": "mycareersfuture",
       "source_url": "https://www.mycareersfuture.gov.sg/job/982b34d93f249f9d0dde49d240d7022f?utm_source=freehire.me",
       "title": "Full Stack Developer - AI & E-Commerce architecture experience"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 947,
+      "company": "PIPO RESOURCE (SG) PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":a683cc5586b02824b7e313011ebeda13",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-28T00:00:00Z",
+      "public_slug": "machine-learning-engineer-payment-risk-global-payment-singapore-pipo-resource-sg-pte-ltd-glxdexni",
+      "role_key": "freehire:machine-learning-engineer-payment-risk-global-payment-singapore-pipo-resource-sg-pte-ltd-glxdexni",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/a683cc5586b02824b7e313011ebeda13?utm_source=freehire.me",
+      "title": "Machine Learning Engineer (Payment & Risk) - Global Payment - Singapore"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 948,
+      "company": "NTT SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":30ea92390d0c2541d726b3c43e5b4a01",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-28T00:00:00Z",
+      "public_slug": "ict-infrastructure-engineer-ai-infrastructure-ntt-singapore-pte-ltd-6wlrnwwb",
+      "role_key": "freehire:ict-infrastructure-engineer-ai-infrastructure-ntt-singapore-pte-ltd-6wlrnwwb",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/30ea92390d0c2541d726b3c43e5b4a01?utm_source=freehire.me",
+      "title": "ICT Infrastructure Engineer (AI Infrastructure)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 949,
+      "company": "NETWEB PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":5150ee17a64b9bf0179ff8719c94e2cd",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-28T00:00:00Z",
+      "public_slug": "pre-sales-engineer-ai-hpc-cloud-infrastructure-netweb-pte-ltd-3673652g",
+      "role_key": "freehire:pre-sales-engineer-ai-hpc-cloud-infrastructure-netweb-pte-ltd-3673652g",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/5150ee17a64b9bf0179ff8719c94e2cd?utm_source=freehire.me",
+      "title": "Pre-Sales Engineer ( AI, HPC, Cloud Infrastructure )"
     }
   ],
-  "generated_at": "2026-11-07T20:33:45.846299Z",
+  "generated_at": "2026-11-08T00:00:34.110280Z",
   "market": "SG",
-  "max_candidate_seq": 946,
-  "min_candidate_seq": 938,
+  "max_candidate_seq": 949,
+  "min_candidate_seq": 941,
   "shard_index": 21,
-  "source_generated_at": "2026-11-06T23:29:21.069922Z",
+  "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }
