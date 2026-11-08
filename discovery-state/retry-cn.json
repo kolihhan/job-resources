@@ -2223,6 +2223,90 @@
       "source_url": "https://jobs.bytedance.com/campus/position/7667097616880404741/detail?utm_source=freehire.me",
       "external_id": "jobs.bytedance.com:7667097616880404741",
       "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-app-infra-bytedance-yypct4yz",
+      "candidate_seq": 2122,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T18:14:34+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师 - App Infra",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667090834170972421/detail",
+      "last_alternate_source_attempted": "official exact requisition indexed search; no full matching employer JD",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:guo-ji-hua-yan-gao-suan-fa-gong-cheng-shi-tui-jian-da-mo-xing-commercial-ai-bytedance-qr7shror",
+      "candidate_seq": 2123,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T18:14:34+08:00",
+      "company": "ByteDance",
+      "title": "国际化广告算法工程师（推荐大模型） - Commercial AI",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667090841039948085/detail",
+      "last_alternate_source_attempted": "official exact requisition indexed search; no full matching employer JD",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:yan-gao-mo-xing-suan-fa-gong-cheng-shi-commercial-ai-bytedance-uynmyc7w",
+      "candidate_seq": 2124,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T18:14:34+08:00",
+      "company": "ByteDance",
+      "title": "广告模型算法工程师 - Commercial AI",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667090366638295349/detail",
+      "last_alternate_source_attempted": "official exact requisition indexed search; no full matching employer JD",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-zhi-liang-fang-xiang-tiktok-shop-bytedance-tzeprqn2",
+      "candidate_seq": 2125,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T18:14:34+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（质量方向） - TikTok Shop",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667050433923287301/detail",
+      "last_alternate_source_attempted": "official exact requisition indexed search; no full matching employer JD",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-codingda-mo-xing-suan-fa-gong-cheng-shi-tiktokyan-fa-bytedance-lv7ns2wt",
+      "candidate_seq": 2126,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T18:14:34+08:00",
+      "company": "ByteDance",
+      "title": "AI Coding大模型算法工程师 - TikTok研发",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667045458893605125/detail",
+      "last_alternate_source_attempted": "official exact requisition indexed search; no full matching employer JD",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-fan-qie-xiao-shuo-hong-guo-duan-ju-fan-qie-chang-ting-bytedance-36hdn34c",
+      "candidate_seq": 2127,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T18:14:34+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent研发工程师 - 番茄小说/红果短剧/番茄畅听",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667030890266380549/detail",
+      "last_alternate_source_attempted": "official exact requisition indexed search; no full matching employer JD",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:hou-duan-kai-fa-gong-cheng-shi-ai-infra-tiktokyan-fa-bytedance-3cjbwsf2",
+      "candidate_seq": 2128,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T18:14:34+08:00",
+      "company": "ByteDance",
+      "title": "后端开发工程师（AI Infra） - TikTok研发",
+      "source_url": "https://jobs.bytedance.com/campus/position/7665997962810165509/detail",
+      "last_alternate_source_attempted": "official exact requisition indexed search; no full matching employer JD",
+      "last_retry_new_evidence": false
     }
   ]
 }
