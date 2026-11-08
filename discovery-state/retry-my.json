@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-08T09:18:10+08:00",
+  "updated_at": "2026-11-08T12:21:15+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -262,17 +262,6 @@
       "company": "Counterpunch A Virtuos Studio",
       "title": "Machine Learning Engineer - AI Agent Platform",
       "source_url": "https://my.jobstreet.com/job/95753857?utm_source=freehire.me",
-      "reason_code": "verification_pending",
-      "attempts": 0,
-      "next_retry_at": "2026-11-08T12:20:00+08:00",
-      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no."
-    },
-    {
-      "role_key": "freehire:ai-automation-software-engineer-digitalbee-zrkn7ft5",
-      "candidate_seq": 3050,
-      "company": "Digitalbee",
-      "title": "AI Automation Software Engineer",
-      "source_url": "https://my.jobstreet.com/job/95731931?utm_source=freehire.me",
       "reason_code": "verification_pending",
       "attempts": 0,
       "next_retry_at": "2026-11-08T12:20:00+08:00",
