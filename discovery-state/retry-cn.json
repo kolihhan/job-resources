@@ -2717,6 +2717,50 @@
       "reason_code": "campus_cohort_and_authoritative_jd_unverified",
       "attempts": 1,
       "next_retry_at": "2026-11-12T02:10:00+08:00"
+    },
+    {
+      "candidate_seq": 2202,
+      "role_key": "freehire:bytedance:7624090797788711221",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（国际商业化增长） - 国际化广告CRM与交易平台",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7624090797788711221/detail",
+      "reason_code": "authoritative_jd_liveness_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T03:10:00+08:00",
+      "last_retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 2203,
+      "role_key": "freehire:bytedance:7624039934207707445",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师-抖音（杭州）",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7624039934207707445/detail",
+      "reason_code": "authoritative_jd_liveness_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T03:10:00+08:00",
+      "last_retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 2204,
+      "role_key": "freehire:bytedance:7624040260628531509",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师-抖音（上海）",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7624040260628531509/detail",
+      "reason_code": "authoritative_jd_liveness_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T03:10:00+08:00",
+      "last_retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 2205,
+      "role_key": "freehire:bytedance:7623574153109489973",
+      "company": "ByteDance",
+      "title": "AI产品研发工程师-AI Platform",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7623574153109489973/detail",
+      "reason_code": "authoritative_jd_liveness_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T03:10:00+08:00",
+      "last_retry_new_evidence": false
     }
   ]
 }
