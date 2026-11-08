@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T01:25:00+08:00",
+  "updated_at": "2026-11-09T02:10:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3882,6 +3882,66 @@
       "next_probe": "ByteDance exact requisition 7536106306949761288 via official careers alternate/indexed employer JD",
       "attempts": 0,
       "next_retry_at": "2026-11-10T02:00:00+08:00"
+    },
+    {
+      "candidate_seq": 866,
+      "role_key": "freehire:software-engineer-ai-infrastructure-bytedance-cne47cor",
+      "company": "ByteDance",
+      "title": "Software Engineer, AI Infrastructure",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7509699437339691282/detail",
+      "reason_code": "exact_official_jd_or_eligibility_unverified",
+      "missing_evidence": "Official full JD, AI ownership, minimum experience, current liveness and SG work-pass feasibility",
+      "next_probe": "ByteDance official requisition 7509699437339691282",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T02:15:00+08:00"
+    },
+    {
+      "candidate_seq": 867,
+      "role_key": "freehire:ai-software-engineer-razer-wbeo63fo",
+      "company": "Razer",
+      "title": "AI Software Engineer",
+      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/AI-Software-Engineer_JR2025005483-1",
+      "reason_code": "exact_official_jd_or_eligibility_unverified",
+      "missing_evidence": "Current full JD, role liveness, actual AI responsibilities, required experience and work-pass route",
+      "next_probe": "Razer Workday JR2025005483-1",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T02:15:00+08:00"
+    },
+    {
+      "candidate_seq": 868,
+      "role_key": "freehire:backend-engineer-applied-machine-learning-engine-efficiency-tool-bytedance-nuccjm3z",
+      "company": "ByteDance",
+      "title": "Backend Engineer, Applied Machine Learning Engine (Efficiency Tool)",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7447706774636939528/detail",
+      "reason_code": "exact_official_jd_or_eligibility_unverified",
+      "missing_evidence": "Current official JD, substantive ML engineering work, seniority and SG eligibility",
+      "next_probe": "ByteDance exact position 7447706774636939528",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T02:15:00+08:00"
+    },
+    {
+      "candidate_seq": 870,
+      "role_key": "freehire:python-engineer-fintech-ml-data-pipelines-remote-hunter-bond-3bjksh3q",
+      "company": "Hunter Bond",
+      "title": "Python Engineer - FinTech ML & Data Pipelines | Remote",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94709800__7119",
+      "reason_code": "exact_official_jd_or_eligibility_unverified",
+      "missing_evidence": "Actual employer and direct application route, exact full JD, ML ownership, SG location and work authorization",
+      "next_probe": "Resolve Hunter Bond original client vacancy from WhatJobs 94709800",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T02:15:00+08:00"
+    },
+    {
+      "candidate_seq": 872,
+      "role_key": "freehire:ai-driven-full-stack-engineer-for-intelligent-data-nexadept-b5rtxr57",
+      "company": "NEXadept",
+      "title": "AI-Driven Full Stack Engineer for Intelligent Data",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94710310__7119",
+      "reason_code": "exact_official_jd_or_eligibility_unverified",
+      "missing_evidence": "Exact employer JD, genuine LLM/AI ownership, experience requirements, non-MCF route and SG sponsorship",
+      "next_probe": "Find NEXadept official vacancy behind WhatJobs 94710310",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T02:15:00+08:00"
     }
   ]
 }
