@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T04:05:00+08:00",
+  "updated_at": "2026-11-09T05:15:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4030,6 +4030,39 @@
       "attempts": 0,
       "next_retry_at": "2026-11-10T04:05:00+08:00",
       "evidence_note": "WhatJobs mirror only; official employer requisition/full JD, LLM ownership, SG work-pass and non-MCF application route unverified"
+    },
+    {
+      "candidate_seq": 889,
+      "role_key": "freehire:ai-native-full-stack-engineer-for-real-time-3d-dashboards-vizzio-technologies-pte-ltd-hpum3juf",
+      "company": "VIZZIO TECHNOLOGIES PTE. LTD.",
+      "title": "AI-Native Full Stack Engineer for Real-Time 3D Dashboards",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637842__7119",
+      "evidence_note": "WhatJobs only; verify employer exact JD, whether AI model/agent work rather than 3D UI, professional YOE, SG work-pass and non-MCF route",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T05:15:00+08:00"
+    },
+    {
+      "candidate_seq": 890,
+      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-iljqery7",
+      "company": "HELIUS TECHNOLOGIES PTE. LTD.",
+      "title": "Full Stack Developer - AI and Cloud-Native Applications",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638470__7119",
+      "evidence_note": "WhatJobs only; verify end-client/employer, substantive AI backend/LLM responsibilities, YOE, sponsorship and employer application route",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T05:15:00+08:00"
+    },
+    {
+      "candidate_seq": 893,
+      "role_key": "freehire:software-engineer-ai-driven-enterprise-data-tech-centre-for-strategic-infocomm-technologies-rdif4mjd",
+      "company": "Centre for Strategic Infocomm Technologies",
+      "title": "Software Engineer - AI-Driven Enterprise Data Tech",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536496__7119",
+      "evidence_note": "WhatJobs only; check official CSIT requisition/full JD, actual AI ownership and possible SG citizenship/security-clearance eligibility before promotion",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T05:15:00+08:00"
     }
   ]
 }
