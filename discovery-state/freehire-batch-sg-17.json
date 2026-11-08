@@ -1,210 +1,192 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 906,
-      "company": "CoreWeave APAC",
+      "candidate_seq": 967,
+      "company": "Ntu",
       "employment_type": null,
-      "external_id": "coreweaveapac:4703122006",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-04T23:33:14Z",
-      "public_slug": "senior-software-engineer-ai-workload-orchestration-coreweave-apac-4n52elp3",
-      "role_key": "freehire:senior-software-engineer-ai-workload-orchestration-coreweave-apac-4n52elp3",
-      "source": "greenhouse",
-      "source_url": "https://coreweave.com/careers/apac?gh_jid=4703122006&utm_source=freehire.me",
-      "title": "Senior Software Engineer- AI Workload Orchestration"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 907,
-      "company": "DRW",
-      "employment_type": null,
-      "external_id": "drweng:7276024",
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "London, Singapore",
+      "location": "NTU Main Campus, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T13:32:31Z",
-      "public_slug": "quantitative-researcher-machine-learning-drw-6ty6i4fu",
-      "role_key": "freehire:quantitative-researcher-machine-learning-drw-6ty6i4fu",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/drweng/jobs/7276024?utm_source=freehire.me",
-      "title": "Quantitative Researcher - Machine Learning"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 908,
-      "company": "ActAI",
-      "employment_type": null,
-      "external_id": "backend developer:590076868",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "London, United Kingdom",
-      "market": "SG",
-      "posted_at": "2026-10-30T10:48:12Z",
-      "public_slug": "backend-engineer-ai-agent-systems-actai-g6qaifv3",
-      "role_key": "freehire:backend-engineer-ai-agent-systems-actai-g6qaifv3",
-      "source": "whatjobs-uk",
-      "source_url": "https://uk.whatjobs.com/pub_api__cpl__590076868__7082?utm_campaign=publisher&utm_medium=api&geoID=33&utm_source=freehire.me",
-      "title": "Backend Engineer, AI (Agent Systems)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 909,
-      "company": "01 Computer System",
-      "employment_type": "full_time",
-      "external_id": "6296:95608967",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-30T09:42:19Z",
-      "public_slug": "presales-consultant-audio-visual-cybersecurity-ai-01-computer-system-h2q3wepv",
-      "role_key": "freehire:presales-consultant-audio-visual-cybersecurity-ai-01-computer-system-h2q3wepv",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95608967?utm_source=freehire.me",
-      "title": "Presales Consultant (Audio Visual , Cybersecurity, AI)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 910,
-      "company": "Reolink",
-      "employment_type": null,
-      "external_id": "reolink:4473705009",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T09:30:35Z",
-      "public_slug": "machine-learning-engineer-audio-speech-acoustics-sound-reolink-bekvly7o",
-      "role_key": "freehire:machine-learning-engineer-audio-speech-acoustics-sound-reolink-bekvly7o",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/reolink/jobs/4473705009?utm_source=freehire.me",
-      "title": "Machine Learning Engineer | Audio, Speech, Acoustics & Sound"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 911,
-      "company": "Thunes",
-      "employment_type": null,
-      "external_id": "thunes:7594336003",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Central, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T08:30:23Z",
-      "public_slug": "ai-engineer-thunes-4kegzkfb",
-      "role_key": "freehire:ai-engineer-thunes-4kegzkfb",
-      "source": "greenhouse",
-      "source_url": "https://www.thunes.com/jobs/7594336003?gh_jid=7594336003&utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 913,
-      "company": "SEVEN 365 PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":b18190331847340f186c4ade90556034",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "ai-software-developer-seven-365-pte-ltd-ps7grkeu",
-      "role_key": "freehire:ai-software-developer-seven-365-pte-ltd-ps7grkeu",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/b18190331847340f186c4ade90556034?utm_source=freehire.me",
-      "title": "AI Software Developer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 914,
-      "company": "ocbc",
-      "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/Senior-AI-Engineer_JR00012242",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "OCBC Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "senior-ai-engineer-ocbc-xxadv3dp",
-      "role_key": "freehire:senior-ai-engineer-ocbc-xxadv3dp",
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "ai-engineer-aiap-ntu-nxuqh6c4",
+      "role_key": "freehire:ai-engineer-aiap-ntu-nxuqh6c4",
       "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/Senior-AI-Engineer_JR00012242?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131?utm_source=freehire.me",
+      "title": "AI Engineer (AIAP)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 915,
-      "company": "HYPERSCAL SOLUTIONS PTE. LTD.",
+      "candidate_seq": 968,
+      "company": "NTT SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": ":1cf084c7b70da4bddffeedcec8a3822b",
+      "external_id": ":8abae3077282122f2781d9399763771b",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "windows-ict-infrastructure-engineer-ai-technical-automation-ntt-singapore-pte-ltd-qd54cfbb",
+      "role_key": "freehire:windows-ict-infrastructure-engineer-ai-technical-automation-ntt-singapore-pte-ltd-qd54cfbb",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/8abae3077282122f2781d9399763771b?utm_source=freehire.me",
+      "title": "Windows ICT Infrastructure Engineer (AI & Technical Automation)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 969,
+      "company": "dbs",
+      "employment_type": "full_time",
+      "external_id": "dbs.wd3.myworkdayjobs.com/dbs_careers:/job/Singapore---East/AVP--Platform---AI-Infrastructure-Engineer--Group-Infrastructure---Cloud--Group-Technology_WD90104",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore - East",
+      "market": "SG",
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "avp-platform-ai-infrastructure-engineer-group-infrastructure-cloud-group-technology-dbs-cte5hl33",
+      "role_key": "freehire:avp-platform-ai-infrastructure-engineer-group-infrastructure-cloud-group-technology-dbs-cte5hl33",
+      "source": "workday",
+      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Singapore---East/AVP--Platform---AI-Infrastructure-Engineer--Group-Infrastructure---Cloud--Group-Technology_WD90104?utm_source=freehire.me",
+      "title": "AVP, Platform & AI Infrastructure Engineer, Group Infrastructure & Cloud, Group Technology"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 970,
+      "company": "Workato",
+      "employment_type": null,
+      "external_id": "workato:8288630002",
       "flags": [
-        "experience_5_plus_hint"
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint",
+        "visa_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T00:00:00Z",
-      "public_slug": "ai-engineer-office-of-integrated-information-technology-services-hyperscal-solutions-pte-ltd-4c2tlmky",
-      "role_key": "freehire:ai-engineer-office-of-integrated-information-technology-services-hyperscal-solutions-pte-ltd-4c2tlmky",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/1cf084c7b70da4bddffeedcec8a3822b?utm_source=freehire.me",
-      "title": "AI Engineer, Office of Integrated Information Technology Services "
+      "posted_at": "2026-10-26T23:28:32Z",
+      "public_slug": "senior-infrastructure-engineer-ai-lab-workato-y6nxxkjs",
+      "role_key": "freehire:senior-infrastructure-engineer-ai-lab-workato-y6nxxkjs",
+      "source": "greenhouse",
+      "source_url": "https://www.workato.com/careers?gh_jid=8288630002&utm_source=freehire.me#open-roles",
+      "title": "Senior Infrastructure Engineer (AI Lab)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 971,
+      "company": "Microsoft",
+      "employment_type": null,
+      "external_id": "apply.careers.microsoft.com/microsoft.com:1970393557045658",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Thailand, Bangkok, Bangkok",
+      "market": "SG",
+      "posted_at": "2026-10-26T16:00:00Z",
+      "public_slug": "solution-engineer-ai-workforce-solution-microsoft-cza6bcf4",
+      "role_key": "freehire:solution-engineer-ai-workforce-solution-microsoft-cza6bcf4",
+      "source": "eightfold",
+      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557045658?utm_source=freehire.me",
+      "title": "Solution Engineer - AI Workforce Solution"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 972,
+      "company": "Menarini Group",
+      "employment_type": null,
+      "external_id": "data engineer:94062368",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T15:02:35Z",
+      "public_slug": "apac-regional-data-ai-engineer-growth-insights-menarini-group-hqkkhujq",
+      "role_key": "freehire:apac-regional-data-ai-engineer-growth-insights-menarini-group-hqkkhujq",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94062368__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "APAC Regional Data & AI Engineer — Growth & Insights"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 973,
+      "company": "Menarini Group",
+      "employment_type": null,
+      "external_id": "data engineer:94061523",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T15:02:33Z",
+      "public_slug": "senior-regional-data-ai-engineer-menarini-group-bijcuzzu",
+      "role_key": "freehire:senior-regional-data-ai-engineer-menarini-group-bijcuzzu",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061523__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Regional Data & AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 974,
+      "company": "Land Transport Authority (LTA) Singapore",
+      "employment_type": null,
+      "external_id": "data engineer:94061167",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T15:02:29Z",
+      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-lta-singapore-i5y3g5st",
+      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-lta-singapore-i5y3g5st",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061167__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
     }
   ],
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "SG",
-  "max_candidate_seq": 915,
-  "min_candidate_seq": 906,
+  "max_candidate_seq": 974,
+  "min_candidate_seq": 967,
   "shard_index": 17,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

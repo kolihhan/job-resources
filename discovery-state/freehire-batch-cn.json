@@ -1,13 +1,13 @@
 {
   "batch_size": 200,
-  "candidate_count": 200,
-  "cursor_before": 2076,
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "candidate_count": 182,
+  "cursor_before": 2155,
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "CN",
-  "max_candidate_seq": 2281,
+  "max_candidate_seq": 3047,
   "max_shard_bytes": 8000,
-  "remaining_after_batch": 58,
-  "shard_count": 24,
+  "remaining_after_batch": 0,
+  "shard_count": 23,
   "shard_size": 25,
   "shards": [
     "freehire-batch-cn-01.json",
@@ -32,8 +32,7 @@
     "freehire-batch-cn-20.json",
     "freehire-batch-cn-21.json",
     "freehire-batch-cn-22.json",
-    "freehire-batch-cn-23.json",
-    "freehire-batch-cn-24.json"
+    "freehire-batch-cn-23.json"
   ],
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

@@ -2,15 +2,100 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:rag"
+        "title:ml"
       ],
-      "candidate_seq": 821,
-      "company": "Temasek International Pte. Ltd.",
+      "candidate_seq": 881,
+      "company": "TIKTOK PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:89280014",
+      "external_id": ":994a4c19fa9e0aa5ded895262b0b3f5f",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-02T00:00:00Z",
+      "public_slug": "machine-learning-engineer-graduate-global-e-commerce-recommendation-2027-start-tiktok-pte-ltd-apk7pnl3",
+      "role_key": "freehire:machine-learning-engineer-graduate-global-e-commerce-recommendation-2027-start-tiktok-pte-ltd-apk7pnl3",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/994a4c19fa9e0aa5ded895262b0b3f5f?utm_source=freehire.me",
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, Recommendation) - 2027 Start"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 882,
+      "company": "TIKTOK PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":29441ec9f786857356275a1c5053abd6",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-02T00:00:00Z",
+      "public_slug": "machine-learning-engineer-graduate-global-e-commerce-user-growth-2027-tiktok-pte-ltd-xj7osan2",
+      "role_key": "freehire:machine-learning-engineer-graduate-global-e-commerce-user-growth-2027-tiktok-pte-ltd-xj7osan2",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/29441ec9f786857356275a1c5053abd6?utm_source=freehire.me",
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, User Growth) - 2027"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 883,
+      "company": "TIKTOK PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":c84a8a878cbfe95f9d7c6810108de74a",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-02T00:00:00Z",
+      "public_slug": "machine-learning-engineer-graduate-global-e-commerce-platform-governance-2027-start-tiktok-pte-ltd-cp56sx5c",
+      "role_key": "freehire:machine-learning-engineer-graduate-global-e-commerce-platform-governance-2027-start-tiktok-pte-ltd-cp56sx5c",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/c84a8a878cbfe95f9d7c6810108de74a?utm_source=freehire.me",
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, Platform Governance) - 2027 Start"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 884,
+      "company": "Microsoft",
+      "employment_type": null,
+      "external_id": "apply.careers.microsoft.com/microsoft.com:1970393557022912",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-01T16:00:00Z",
+      "public_slug": "solution-engineer-cloud-ai-microsoft-7gvhfnah",
+      "role_key": "freehire:solution-engineer-cloud-ai-microsoft-7gvhfnah",
+      "source": "eightfold",
+      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557022912?utm_source=freehire.me",
+      "title": "Solution Engineer -Cloud & AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 885,
+      "company": "China, Beijing Branch",
+      "employment_type": null,
+      "external_id": "data engineer:94636498",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -19,175 +104,88 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-10T14:42:23Z",
-      "public_slug": "senior-ai-data-platform-engineer-rag-governance-temasek-international-pte-ltd-suiamwh7",
-      "role_key": "freehire:senior-ai-data-platform-engineer-rag-governance-temasek-international-pte-ltd-suiamwh7",
+      "posted_at": "2026-11-01T14:39:21Z",
+      "public_slug": "senior-cloud-engineer-data-ai-platform-on-gcp-china-beijing-branch-nki3ykpt",
+      "role_key": "freehire:senior-cloud-engineer-data-ai-platform-on-gcp-china-beijing-branch-nki3ykpt",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__89280014__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Data Platform Engineer | RAG & Governance"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94636498__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Cloud Engineer, Data & AI Platform on GCP"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:computer_vision"
+        "title:ai"
       ],
-      "candidate_seq": 822,
-      "company": "Shopee",
+      "candidate_seq": 886,
+      "company": "MENARINI Group",
       "employment_type": null,
-      "external_id": "data engineer:88794805",
+      "external_id": "data engineer:94638456",
       "flags": [
-        "visa_hint"
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-10T14:42:17Z",
-      "public_slug": "ai-data-engineer-marketplace-intelligence-data-2027-graduate-shopee-oruvlzi5",
-      "role_key": "freehire:ai-data-engineer-marketplace-intelligence-data-2027-graduate-shopee-oruvlzi5",
+      "posted_at": "2026-11-01T10:41:21Z",
+      "public_slug": "senior-apac-data-ai-engineer-for-growth-insights-menarini-group-jj73x2nk",
+      "role_key": "freehire:senior-apac-data-ai-engineer-for-growth-insights-menarini-group-jj73x2nk",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88794805__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Data Engineer , Marketplace Intelligence & Data (2027 Graduate)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638456__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior APAC Data & AI Engineer for Growth & Insights"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:multimodal"
+        "title:ai"
       ],
-      "candidate_seq": 823,
-      "company": "Shopee",
+      "candidate_seq": 887,
+      "company": "Statusneo Technology Consulting Private Limited",
       "employment_type": null,
-      "external_id": "data engineer:88830334",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-10T14:42:15Z",
-      "public_slug": "ai-data-engineer-marketplace-intelligence-data-shopee-oa27sted",
-      "role_key": "freehire:ai-data-engineer-marketplace-intelligence-data-shopee-oa27sted",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88830334__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Data Engineer – Marketplace Intelligence & Data"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 824,
-      "company": "Ellis Technologies, Inc.",
-      "employment_type": null,
-      "external_id": "backend developer:88059216",
+      "external_id": "full stack developer:94637130",
       "flags": [
-        "visa_hint"
+        "senior_title_hint",
+        "seniority_hint",
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-10T14:42:07Z",
-      "public_slug": "backend-engineer-ai-application-tiktok-local-service-singapore-ellis-technologies-inc-s2bb67ju",
-      "role_key": "freehire:backend-engineer-ai-application-tiktok-local-service-singapore-ellis-technologies-inc-s2bb67ju",
+      "posted_at": "2026-11-01T10:41:06Z",
+      "public_slug": "senior-full-stack-engineer-ai-orchestration-ux-statusneo-technology-consulting-private-limited-dkuldwdg",
+      "role_key": "freehire:senior-full-stack-engineer-ai-orchestration-ux-statusneo-technology-consulting-private-limited-dkuldwdg",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88059216__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer (AI Application) - TikTok Local Service (Singapore)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637130__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer: AI Orchestration & UX"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 825,
-      "company": "Shopee",
+      "candidate_seq": 888,
+      "company": "POLYTRON.AI PTE. LTD.",
       "employment_type": null,
-      "external_id": "backend developer:88989373",
+      "external_id": "full stack developer:94637681",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-10T14:42:05Z",
-      "public_slug": "backend-engineer-promotions-platform-ai-shopee-t47fjob4",
-      "role_key": "freehire:backend-engineer-promotions-platform-ai-shopee-t47fjob4",
+      "posted_at": "2026-11-01T10:40:50Z",
+      "public_slug": "ai-native-full-stack-engineer-3d-dashboards-geospatial-polytron-ai-pte-ltd-5vsdatyv",
+      "role_key": "freehire:ai-native-full-stack-engineer-3d-dashboards-geospatial-polytron-ai-pte-ltd-5vsdatyv",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88989373__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer – Promotions Platform & AI"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 826,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6294:93816057",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-06T12:25:19Z",
-      "public_slug": "machine-learning-engineer-graduate-recommendation-2027-start-phd-tiktok-altem4ho",
-      "role_key": "freehire:machine-learning-engineer-graduate-recommendation-2027-start-phd-tiktok-altem4ho",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93816057?utm_source=freehire.me",
-      "title": "Machine Learning Engineer Graduate (Recommendation) - 2027 Start (PhD)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:llm"
-      ],
-      "candidate_seq": 827,
-      "company": "Dimensions HRD Consultants",
-      "employment_type": null,
-      "external_id": "21:1721515",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-05T06:35:44Z",
-      "public_slug": "legal-counsel-metals-trading-llb-llm-dimensions-hrd-consultants-c7qhkxlj",
-      "role_key": "freehire:legal-counsel-metals-trading-llb-llm-dimensions-hrd-consultants-c7qhkxlj",
-      "source": "iimjobs",
-      "source_url": "https://www.iimjobs.com/j/legal-counsel-metals-trading-llb-llm-1721515?utm_source=freehire.me",
-      "title": "Legal Counsel - Metals Trading - LLB/LLM"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 828,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6290:93760168",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-04T11:31:59Z",
-      "public_slug": "machine-learning-ops-engineer-graduate-ads-infra-2027-start-tiktok-hvy2jrgk",
-      "role_key": "freehire:machine-learning-ops-engineer-graduate-ads-infra-2027-start-tiktok-hvy2jrgk",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93760168?utm_source=freehire.me",
-      "title": "Machine Learning Ops Engineer Graduate (Ads Infra) - 2027 Start"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637681__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Native Full Stack Engineer — 3D Dashboards & Geospatial"
     }
   ],
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "SG",
-  "max_candidate_seq": 828,
-  "min_candidate_seq": 821,
+  "max_candidate_seq": 888,
+  "min_candidate_seq": 881,
   "shard_index": 7,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

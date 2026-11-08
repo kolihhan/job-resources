@@ -5,12 +5,12 @@
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
-        "jd:model_training"
+        "jd:agent"
       ],
-      "candidate_seq": 783,
-      "company": "Shopee",
+      "candidate_seq": 848,
+      "company": "Workato",
       "employment_type": null,
-      "external_id": "backend developer:92056599",
+      "external_id": ":019e8529-d932-7c71-9d6b-51fd98e6cf0a",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -19,84 +19,150 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-23T12:15:16Z",
-      "public_slug": "senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
-      "role_key": "freehire:senior-backend-engineer-ai-driven-anti-fraud-platform-shopee-7jeqvm5w",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92056599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer - AI-Driven Anti-Fraud Platform"
+      "posted_at": "2026-06-01T21:49:33Z",
+      "public_slug": "senior-go-engineer-ai-lab-workato-2skiaziq",
+      "role_key": "freehire:senior-go-engineer-ai-lab-workato-2skiaziq",
+      "source": "4dayweek",
+      "source_url": "https://4dayweek.io/job/senior-go-engineer-ai-lab-at-workato-1e70a1cf?utm_source=freehire.me",
+      "title": "Senior Go Engineer (AI Lab)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:genai"
+        "title:agent",
+        "jd:llm"
       ],
-      "candidate_seq": 785,
-      "company": "GlobalFoundries",
+      "candidate_seq": 849,
+      "company": "Arta Finance",
       "employment_type": null,
-      "external_id": "globalfoundries.eightfold.ai/globalfoundries.com:563980770601252",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-23T00:00:00Z",
-      "public_slug": "software-engineer-ai-applications-globalfoundries-qb5rviok",
-      "role_key": "freehire:software-engineer-ai-applications-globalfoundries-qb5rviok",
-      "source": "eightfold",
-      "source_url": "https://careers.gf.com/careers/job/563980770601252?utm_source=freehire.me",
-      "title": "Software Engineer (AI Applications)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:agent"
-      ],
-      "candidate_seq": 786,
-      "company": "Nicoll Curtin",
-      "employment_type": "full_time",
-      "external_id": "6294:94782186",
+      "external_id": "artafinance:3d51dca2-505a-4db5-a705-7d793f7a418b",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-09-21T18:38:03Z",
-      "public_slug": "machine-learning-engineer-mid-senior-nicoll-curtin-6nw4xw3u",
-      "role_key": "freehire:machine-learning-engineer-mid-senior-nicoll-curtin-6nw4xw3u",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94782186?utm_source=freehire.me",
-      "title": "Machine Learning Engineer (Mid-Senior)"
+      "posted_at": "2026-05-26T23:08:16Z",
+      "public_slug": "backend-systems-agentic-engineer-sg-artafinance-6htetq42",
+      "role_key": "freehire:backend-systems-agentic-engineer-sg-artafinance-6htetq42",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/artafinance/3d51dca2-505a-4db5-a705-7d793f7a418b?utm_source=freehire.me",
+      "title": "Backend / Systems Agentic Engineer (SG)"
     },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:genai"
       ],
-      "candidate_seq": 787,
-      "company": "Tencent",
+      "candidate_seq": 850,
+      "company": "ncs3",
       "employment_type": null,
-      "external_id": "tencent.wd1.myworkdayjobs.com/Tencent_Careers:/job/Singapore-CapitaSky/Tencent-Cloud---Senior-Pre-sales-Solution-Architect--GenAI---Cloud---Singapore_R107962",
+      "external_id": "ncs3:6000000001102410",
       "flags": [
         "senior_title_hint",
-        "experience_5_plus_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore-CapitaSky",
+      "location": "Singapore, sg",
       "market": "SG",
-      "posted_at": "2026-09-21T00:00:00Z",
-      "public_slug": "tencent-cloud-senior-pre-sales-solution-architect-genai-cloud-singapore-tencent-ltdtneov",
-      "role_key": "freehire:tencent-cloud-senior-pre-sales-solution-architect-genai-cloud-singapore-tencent-ltdtneov",
-      "source": "workday",
-      "source_url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Tencent-Cloud---Senior-Pre-sales-Solution-Architect--GenAI---Cloud---Singapore_R107962?utm_source=freehire.me",
-      "title": "Tencent Cloud - Senior Pre-sales Solution Architect (GenAI & Cloud) -Singapore"
+      "posted_at": "2026-05-25T07:15:59Z",
+      "public_slug": "senior-genai-engineer-ncs3-yn5njjkv",
+      "role_key": "freehire:senior-genai-engineer-ncs3-yn5njjkv",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001102410-senior-genai-engineer?utm_source=freehire.me",
+      "title": "Senior GenAI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 851,
+      "company": "ncs3",
+      "employment_type": null,
+      "external_id": "ncs3:6000000001027452",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-04-27T09:16:11Z",
+      "public_slug": "senior-ai-engineer-contact-centre-ncs3-27p2civc",
+      "role_key": "freehire:senior-ai-engineer-contact-centre-ncs3-27p2civc",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001027452-senior-ai-engineer-contact-centre-?utm_source=freehire.me",
+      "title": "Senior AI Engineer (Contact Centre)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:llm"
+      ],
+      "candidate_seq": 852,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7630869633486358789",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-04-20T15:54:18Z",
+      "public_slug": "mian-xiang-guo-ji-dian-shang-chang-jing-de-da-mo-xing-ying-yong-guo-ji-dian-shang-xin-jia-po-llm-applications-for-international-e-commerce-scenarios-global-e-commerce-singapore-bytedance-4n47aobm",
+      "role_key": "freehire:mian-xiang-guo-ji-dian-shang-chang-jing-de-da-mo-xing-ying-yong-guo-ji-dian-shang-xin-jia-po-llm-applications-for-international-e-commerce-scenarios-global-e-commerce-singapore-bytedance-4n47aobm",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7630869633486358789/detail?utm_source=freehire.me",
+      "title": "面向国际电商场景的大模型应用-国际电商（新加坡）LLM Applications for International E-commerce Scenarios-Global E-Commerce (Singapore)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 853,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7624545551952251141",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-04-03T14:50:51Z",
+      "public_slug": "machine-learning-engineer-recommendation-global-e-commerce-bytedance-nxq4oeyw",
+      "role_key": "freehire:machine-learning-engineer-recommendation-global-e-commerce-bytedance-nxq4oeyw",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7624545551952251141/detail?utm_source=freehire.me",
+      "title": "Machine Learning Engineer (Recommendation) - Global E-Commerce"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 854,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7621591115837786373",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-03-26T15:46:08Z",
+      "public_slug": "machine-learning-engineer-global-e-commerce-eta-pricing-conversion-bytedance-7ji56itc",
+      "role_key": "freehire:machine-learning-engineer-global-e-commerce-eta-pricing-conversion-bytedance-7ji56itc",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7621591115837786373/detail?utm_source=freehire.me",
+      "title": "Machine Learning Engineer, Global E-Commerce (ETA, Pricing & Conversion)"
     },
     {
       "ai_score": 5,
@@ -104,99 +170,27 @@
         "title:ai",
         "jd:machine_learning"
       ],
-      "candidate_seq": 788,
-      "company": "PSA Singapore",
+      "candidate_seq": 855,
+      "company": "Fuku",
       "employment_type": null,
-      "external_id": "data engineer:91862065",
+      "external_id": "fuku:C6B0981CCB",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore, Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-19T18:18:02Z",
-      "public_slug": "azure-data-engineer-for-analytics-ai-platform-psa-singapore-7ouk3u5m",
-      "role_key": "freehire:azure-data-engineer-for-analytics-ai-platform-psa-singapore-7ouk3u5m",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91862065__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Azure Data Engineer for Analytics & AI Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 789,
-      "company": "Land Transport Authority",
-      "employment_type": null,
-      "external_id": "full stack developer:91844593",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-19T10:15:23Z",
-      "public_slug": "senior-full-stack-engineer-gis-ai-build-geospatial-ai-mvps-land-transport-authority-es4aesgj",
-      "role_key": "freehire:senior-full-stack-engineer-gis-ai-build-geospatial-ai-mvps-land-transport-authority-es4aesgj",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91844593__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer (GIS/AI) — Build Geospatial AI MVPs"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 790,
-      "company": "OneTeamAnywhere",
-      "employment_type": null,
-      "external_id": "ota:7X568683",
-      "flags": [
-        "agency_or_outstaff_hint",
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-16T06:29:45Z",
-      "public_slug": "ai-engineer-at-global-sourcing-company-remote-asia-based-only-oneteamanywhere-yndvbgrg",
-      "role_key": "freehire:ai-engineer-at-global-sourcing-company-remote-asia-based-only-oneteamanywhere-yndvbgrg",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/ota/job/7X568683?utm_source=freehire.me",
-      "title": "AI Engineer at Global Sourcing Company (Remote, Asia-based only)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:nlp"
-      ],
-      "candidate_seq": 791,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "data engineer:90422679",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T17:00:00Z",
-      "public_slug": "graduate-big-data-engineer-scalable-systems-ml-tiktok-z6inkkiy",
-      "role_key": "freehire:graduate-big-data-engineer-scalable-systems-ml-tiktok-z6inkkiy",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90422679__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Graduate Big Data Engineer - Scalable Systems & ML"
+      "posted_at": "2026-03-26T00:00:00Z",
+      "public_slug": "ai-engineer-fuku-oncspdx5",
+      "role_key": "freehire:ai-engineer-fuku-oncspdx5",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/C6B0981CCB?utm_source=freehire.me",
+      "title": "Ai engineer"
     }
   ],
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "SG",
-  "max_candidate_seq": 791,
-  "min_candidate_seq": 783,
+  "max_candidate_seq": 855,
+  "min_candidate_seq": 848,
   "shard_index": 3,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

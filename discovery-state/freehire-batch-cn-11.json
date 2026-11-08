@@ -1,204 +1,191 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:deep_learning"
+        "title:data_science",
+        "jd:machine_learning",
+        "jd:deep_learning"
       ],
-      "candidate_seq": 2164,
-      "company": "NVIDIA",
+      "candidate_seq": 2243,
+      "company": "Mercedes-Benz Group AG",
       "employment_type": null,
-      "external_id": "nvidia.eightfold.ai/nvidia.com:893395294479",
+      "external_id": "stgdaimler.taleo.net/ex:MER0003TJ8",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China, Shanghai",
+      "location": "China (Mainland)-Beijing-Beijing",
       "market": "CN",
-      "posted_at": "2026-05-28T00:00:00Z",
-      "public_slug": "deep-learning-performance-architect-cutlass-dsl-testing-nvidia-uavzaa42",
-      "role_key": "freehire:deep-learning-performance-architect-cutlass-dsl-testing-nvidia-uavzaa42",
-      "source": "eightfold",
-      "source_url": "https://jobs.nvidia.com/careers/job/893395294479?utm_source=freehire.me",
-      "title": "Deep Learning Performance Architect, CUTLASS DSL Testing"
+      "posted_at": "2025-10-11T00:00:00Z",
+      "public_slug": "business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw",
+      "role_key": "freehire:business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw",
+      "source": "taleo",
+      "source_url": "https://stgdaimler.taleo.net/careersection/ex/jobdetail.ftl?job=MER0003TJ8&lang=en&utm_source=freehire.me",
+      "title": "Business Intelligence (Data Scientist)  商务智能 (数据科学家)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2165,
+      "candidate_seq": 2244,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7644505471581849909",
-      "flags": [],
+      "external_id": "jobs.bytedance.com:7545051719739115783",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2025-09-01T09:37:59Z",
+      "public_slug": "hou-duan-zi-shen-hou-duan-yan-fa-gong-cheng-shi-ai-agentfang-xiang-tiktok-shop-bytedance-ar63i2k7",
+      "role_key": "freehire:hou-duan-zi-shen-hou-duan-yan-fa-gong-cheng-shi-ai-agentfang-xiang-tiktok-shop-bytedance-ar63i2k7",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7545051719739115783/detail?utm_source=freehire.me",
+      "title": "后端/资深后端研发工程师（AI Agent方向）-TikTok Shop"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2245,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7542790815534385426",
+      "flags": [
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Beijing",
       "market": "CN",
-      "posted_at": "2026-05-27T09:45:33Z",
-      "public_slug": "ai-agentyan-fa-gong-cheng-shi-zhi-shi-ku-fang-xiang-dev-infra-bytedance-on2rerll",
-      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-zhi-shi-ku-fang-xiang-dev-infra-bytedance-on2rerll",
+      "posted_at": "2025-08-26T07:22:07Z",
+      "public_slug": "ai-agentgao-ji-yan-fa-gong-cheng-shi-jian-ying-yong-hu-zeng-chang-bytedance-dnargs7y",
+      "role_key": "freehire:ai-agentgao-ji-yan-fa-gong-cheng-shi-jian-ying-yong-hu-zeng-chang-bytedance-dnargs7y",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7644505471581849909/detail?utm_source=freehire.me",
-      "title": "AI Agent研发工程师（知识库方向）-Dev Infra"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7542790815534385426/detail?utm_source=freehire.me",
+      "title": "AI Agent高级研发工程师-剪映用户增长"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:agent"
       ],
-      "candidate_seq": 2166,
+      "candidate_seq": 2246,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7644478185666038069",
+      "external_id": "jobs.bytedance.com:7532326888821459207",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Shanghai",
       "market": "CN",
-      "posted_at": "2026-05-27T08:00:32Z",
-      "public_slug": "ai-agentkai-fa-gong-cheng-shi-androidfang-xiang-tiktokyong-hu-zeng-chang-bytedance-fo5crvhd",
-      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-androidfang-xiang-tiktokyong-hu-zeng-chang-bytedance-fo5crvhd",
+      "posted_at": "2025-07-29T02:43:46Z",
+      "public_slug": "da-mo-xing-ping-tai-yan-fa-agentic-infra-tiktoknei-rong-an-quan-ping-tai-bytedance-uw3nrsid",
+      "role_key": "freehire:da-mo-xing-ping-tai-yan-fa-agentic-infra-tiktoknei-rong-an-quan-ping-tai-bytedance-uw3nrsid",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7644478185666038069/detail?utm_source=freehire.me",
-      "title": "AI Agent开发工程师（Android方向）-TikTok用户增长"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7532326888821459207/detail?utm_source=freehire.me",
+      "title": "大模型平台研发（Agentic Infra） - TikTok内容安全平台"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "jd:llm",
+        "jd:nlp",
+        "jd:fine_tuning",
+        "jd:vector_db"
       ],
-      "candidate_seq": 2168,
-      "company": "Qualcomm",
-      "employment_type": null,
-      "external_id": "qualcomm.eightfold.ai/qualcomm.com:446716195744",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai, China",
-      "market": "CN",
-      "posted_at": "2026-05-25T00:00:00Z",
-      "public_slug": "ai-solution-software-engineer-qualcomm-2vtxxk5o",
-      "role_key": "freehire:ai-solution-software-engineer-qualcomm-2vtxxk5o",
-      "source": "eightfold",
-      "source_url": "https://careers.qualcomm.com/careers/job/446716195744?utm_source=freehire.me",
-      "title": "AI Solution Software Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2169,
-      "company": "NVIDIA",
-      "employment_type": null,
-      "external_id": "nvidia.eightfold.ai/nvidia.com:893395041731",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-05-25T00:00:00Z",
-      "public_slug": "applied-ai-engineer-silicon-co-design-group-nvidia-bg2czwis",
-      "role_key": "freehire:applied-ai-engineer-silicon-co-design-group-nvidia-bg2czwis",
-      "source": "eightfold",
-      "source_url": "https://jobs.nvidia.com/careers/job/893395041731?utm_source=freehire.me",
-      "title": "Applied AI Engineer - Silicon Co-Design Group"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2170,
-      "company": "Meituan",
-      "employment_type": null,
-      "external_id": ":4419842142",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-05-20T07:46:08Z",
-      "public_slug": "keeta-ji-zhu-ai-quan-zhan-kai-fa-zhuan-jia-meituan-6tjrqvob",
-      "role_key": "freehire:keeta-ji-zhu-ai-quan-zhan-kai-fa-zhuan-jia-meituan-6tjrqvob",
-      "source": "meituan",
-      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4419842142&utm_source=freehire.me",
-      "title": "Keeta 技术 - AI 全栈开发专家"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2171,
-      "company": "NVIDIA",
-      "employment_type": null,
-      "external_id": "nvidia.eightfold.ai/nvidia.com:893382949150",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-05-20T00:00:00Z",
-      "public_slug": "senior-system-software-engineer-ai-performance-and-efficiency-tools-nvidia-n5efm3uz",
-      "role_key": "freehire:senior-system-software-engineer-ai-performance-and-efficiency-tools-nvidia-n5efm3uz",
-      "source": "eightfold",
-      "source_url": "https://jobs.nvidia.com/careers/job/893382949150?utm_source=freehire.me",
-      "title": "Senior System Software Engineer - AI Performance and Efficiency Tools"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2172,
+      "candidate_seq": 2247,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7641507023482898693",
+      "external_id": "jobs.bytedance.com:7509537768427768072",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen; Beijing; Shanghai",
+      "market": "CN",
+      "posted_at": "2025-05-28T16:44:36Z",
+      "public_slug": "duo-mo-tai-suan-fa-gong-cheng-shi-dou-yin-ping-lun-bytedance-p5zsxr5y",
+      "role_key": "freehire:duo-mo-tai-suan-fa-gong-cheng-shi-dou-yin-ping-lun-bytedance-p5zsxr5y",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7509537768427768072/detail?utm_source=freehire.me",
+      "title": "多模态算法工程师 - 抖音安全与生态"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:pytorch",
+        "jd:tensorflow",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 2248,
+      "company": "广州星际悦动股份有限公司",
+      "employment_type": null,
+      "external_id": "nor7qsazs0.jobs.feishu.cn:7509031507424921910",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Shenzhen",
       "market": "CN",
-      "posted_at": "2026-05-19T07:51:48Z",
-      "public_slug": "hua-xue-fan-ying-duo-chi-du-suan-fa-yan-jiu-yuan-ai-for-science-bytedance-eyaeoltl",
-      "role_key": "freehire:hua-xue-fan-ying-duo-chi-du-suan-fa-yan-jiu-yuan-ai-for-science-bytedance-eyaeoltl",
+      "posted_at": "2025-05-27T07:58:40Z",
+      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-xing-ji-zhi-wai-yan-zhou-xing-ji-yue-dong-gu-fen-you-xian-gong-si-fcajkrza",
+      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-xing-ji-zhi-wai-yan-zhou-xing-ji-yue-dong-gu-fen-you-xian-gong-si-fcajkrza",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7641507023482898693/detail?utm_source=freehire.me",
-      "title": "化学反应多尺度算法研究员-AI for Science"
+      "source_url": "https://nor7qsazs0.jobs.feishu.cn/index/position/7509031507424921910/detail?utm_source=freehire.me",
+      "title": "大模型算法工程师（星际之外）"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 2173,
+      "candidate_seq": 2249,
       "company": "ByteDance",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7641232940957829429",
+      "external_id": "jobs.bytedance.com:7503865965844662546",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Shanghai",
+      "location": "Hangzhou",
       "market": "CN",
-      "posted_at": "2026-05-18T14:09:03Z",
-      "public_slug": "ai-agentyun-xing-huan-jing-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-h4h5x724",
-      "role_key": "freehire:ai-agentyun-xing-huan-jing-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-h4h5x724",
+      "posted_at": "2025-05-13T09:57:36Z",
+      "public_slug": "ai-agentyan-fa-gong-cheng-shi-dou-yin-bytedance-a46hnsse",
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-dou-yin-bytedance-a46hnsse",
       "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7641232940957829429/detail?utm_source=freehire.me",
-      "title": "AI Agent运行环境工程师-开发者服务"
+      "source_url": "https://jobs.bytedance.com/experienced/position/7503865965844662546/detail?utm_source=freehire.me",
+      "title": "AI Agent研发工程师-抖音"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2250,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7503866724518709511",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai; Hangzhou",
+      "market": "CN",
+      "posted_at": "2025-05-13T09:55:51Z",
+      "public_slug": "ai-agentyan-fa-gong-cheng-shi-dou-yin-aichuang-zao-dou-yin-yan-fa-bytedance-po33kkrb",
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-dou-yin-aichuang-zao-dou-yin-yan-fa-bytedance-po33kkrb",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7503866724518709511/detail?utm_source=freehire.me",
+      "title": "AI Agent研发工程师（抖音AI创造） - 抖音研发"
     }
   ],
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "CN",
-  "max_candidate_seq": 2173,
-  "min_candidate_seq": 2164,
+  "max_candidate_seq": 2250,
+  "min_candidate_seq": 2243,
   "shard_index": 11,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

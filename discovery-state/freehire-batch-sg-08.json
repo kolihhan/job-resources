@@ -1,219 +1,186 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:ai"
       ],
-      "candidate_seq": 829,
-      "company": "ByteDance",
+      "candidate_seq": 889,
+      "company": "VIZZIO TECHNOLOGIES PTE. LTD.",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7669791940490168629",
+      "external_id": "full stack developer:94637842",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "San Jose",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-03T13:10:21Z",
-      "public_slug": "machine-learning-backend-engineer-graduate-aml-mldev-2027-start-bytedance-3bruzrhs",
-      "role_key": "freehire:machine-learning-backend-engineer-graduate-aml-mldev-2027-start-bytedance-3bruzrhs",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7669791940490168629/detail?utm_source=freehire.me",
-      "title": "Machine Learning Backend Engineer Graduate (AML MLDev) - 2027 Start"
+      "posted_at": "2026-11-01T10:40:50Z",
+      "public_slug": "ai-native-full-stack-engineer-for-real-time-3d-dashboards-vizzio-technologies-pte-ltd-hpum3juf",
+      "role_key": "freehire:ai-native-full-stack-engineer-for-real-time-3d-dashboards-vizzio-technologies-pte-ltd-hpum3juf",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637842__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Native Full Stack Engineer for Real-Time 3D Dashboards"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 830,
-      "company": "Ntu",
+      "candidate_seq": 890,
+      "company": "HELIUS TECHNOLOGIES PTE. LTD.",
       "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373",
-      "flags": [
-        "visa_hint"
-      ],
+      "external_id": "full stack developer:94638470",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-07-30T00:00:00Z",
-      "public_slug": "ai-engineer-data-infra-ntu-3pjfzlpo",
-      "role_key": "freehire:ai-engineer-data-infra-ntu-3pjfzlpo",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373?utm_source=freehire.me",
-      "title": "AI Engineer, Data Infra"
+      "posted_at": "2026-11-01T10:40:41Z",
+      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-iljqery7",
+      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-iljqery7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638470__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Developer - AI and Cloud-Native Applications"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:multimodal"
+        "title:ai"
       ],
-      "candidate_seq": 831,
-      "company": "Ntu",
+      "candidate_seq": 891,
+      "company": "Deel",
       "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Full-Stack_R00024983",
-      "flags": [
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-28T00:00:00Z",
-      "public_slug": "ai-engineer-full-stack-ntu-nncjexoc",
-      "role_key": "freehire:ai-engineer-full-stack-ntu-nncjexoc",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Full-Stack_R00024983?utm_source=freehire.me",
-      "title": "AI Engineer, Full Stack"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 832,
-      "company": "Ntu",
-      "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Evaluation-_R00024988",
-      "flags": [
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-28T00:00:00Z",
-      "public_slug": "ai-engineer-evaluation-ntu-7om5ms6e",
-      "role_key": "freehire:ai-engineer-evaluation-ntu-7om5ms6e",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Evaluation-_R00024988?utm_source=freehire.me",
-      "title": "AI Engineer (Evaluation)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 833,
-      "company": "Avomind",
-      "employment_type": null,
-      "external_id": "avomind:FB677415D2",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-27T00:00:00Z",
-      "public_slug": "vp-of-research-machine-learning-avomind-y4ftvhr4",
-      "role_key": "freehire:vp-of-research-machine-learning-avomind-y4ftvhr4",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/FB677415D2?utm_source=freehire.me",
-      "title": "VP of Research (Machine Learning)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 834,
-      "company": "Avomind",
-      "employment_type": null,
-      "external_id": "avomind:6291637A4F",
+      "external_id": "data engineer:92790550",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-07-27T00:00:00Z",
-      "public_slug": "senior-machine-learning-engineer-avomind-nnqh7gfo",
-      "role_key": "freehire:senior-machine-learning-engineer-avomind-nnqh7gfo",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/6291637A4F?utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer"
+      "posted_at": "2026-11-01T08:39:45Z",
+      "public_slug": "senior-data-platform-engineer-scalable-analytics-ai-deel-vj4abgxs",
+      "role_key": "freehire:senior-data-platform-engineer-scalable-analytics-ai-deel-vj4abgxs",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92790550__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Platform Engineer: Scalable Analytics & AI"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:deep_learning"
+        "title:ai"
       ],
-      "candidate_seq": 835,
-      "company": "TikTok",
+      "candidate_seq": 892,
+      "company": "FONTES SINGAPORE PRIVATE LIMITED",
       "employment_type": null,
-      "external_id": "6290:93558344",
+      "external_id": ":507cf41586d8f63087c298d6eb554858",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-07-26T02:11:42Z",
-      "public_slug": "machine-learning-engineer-location-product-tiktok-yowlssmt",
-      "role_key": "freehire:machine-learning-engineer-location-product-tiktok-yowlssmt",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93558344?utm_source=freehire.me",
-      "title": "Machine Learning Engineer - Location Product"
+      "posted_at": "2026-11-01T00:00:00Z",
+      "public_slug": "embedded-ai-engineer-fontes-singapore-private-limited-ombezow5",
+      "role_key": "freehire:embedded-ai-engineer-fontes-singapore-private-limited-ombezow5",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/507cf41586d8f63087c298d6eb554858?utm_source=freehire.me",
+      "title": "Embedded AI Engineer"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:ai"
       ],
-      "candidate_seq": 836,
-      "company": "TikTok",
+      "candidate_seq": 893,
+      "company": "Centre for Strategic Infocomm Technologies",
       "employment_type": null,
-      "external_id": "6294:93558337",
+      "external_id": "data engineer:94536496",
       "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T14:39:12Z",
+      "public_slug": "software-engineer-ai-driven-enterprise-data-tech-centre-for-strategic-infocomm-technologies-rdif4mjd",
+      "role_key": "freehire:software-engineer-ai-driven-enterprise-data-tech-centre-for-strategic-infocomm-technologies-rdif4mjd",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536496__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software Engineer - AI-Driven Enterprise Data Tech"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 894,
+      "company": "INCUBE8 PTE. LTD.",
+      "employment_type": null,
+      "external_id": "devops engineer:94535046",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-31T12:39:49Z",
+      "public_slug": "ai-driven-aws-devops-engineer-hybrid-terraform-incube8-pte-ltd-eukfdirt",
+      "role_key": "freehire:ai-driven-aws-devops-engineer-hybrid-terraform-incube8-pte-ltd-eukfdirt",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94535046__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven AWS DevOps Engineer | Hybrid & Terraform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 896,
+      "company": "ZHONG QI FUTURE (SINGAPORE) PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":7f37f86b2047615d90f01fb8c30e8cb1",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-07-26T02:11:20Z",
-      "public_slug": "machine-learning-engineer-live-recommendation-singapore-tiktok-7fc3ml6g",
-      "role_key": "freehire:machine-learning-engineer-live-recommendation-singapore-tiktok-7fc3ml6g",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93558337?utm_source=freehire.me",
-      "title": "Machine Learning Engineer, LIVE Recommendation - Singapore"
+      "posted_at": "2026-10-31T00:00:00Z",
+      "public_slug": "devsecops-ml-ops-engineer-zhong-qi-future-singapore-pte-ltd-46vgm5rw",
+      "role_key": "freehire:devsecops-ml-ops-engineer-zhong-qi-future-singapore-pte-ltd-46vgm5rw",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/7f37f86b2047615d90f01fb8c30e8cb1?utm_source=freehire.me",
+      "title": "DevSecOps / ML Ops Engineer"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:llm"
+        "title:ai"
       ],
-      "candidate_seq": 837,
-      "company": "ByteDance",
+      "candidate_seq": 897,
+      "company": "Cubist Systematic Strategies",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7664493475353954613",
-      "flags": [],
+      "external_id": "point72:8630027002",
+      "flags": [
+        "visa_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-07-20T06:30:01Z",
-      "public_slug": "llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
-      "role_key": "freehire:llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7664493475353954613/detail?utm_source=freehire.me",
-      "title": "LLM System Backend Engineer Graduate (AML Ark) - 2027 Start"
+      "posted_at": "2026-11-05T19:17:39Z",
+      "public_slug": "ai-product-analyst-market-intelligence-singapore-cubist-systematic-strategies-5ag34qow",
+      "role_key": "freehire:ai-product-analyst-market-intelligence-singapore-cubist-systematic-strategies-5ag34qow",
+      "source": "greenhouse",
+      "source_url": "https://boards.greenhouse.io/point72/jobs/8630027002?gh_jid=8630027002&utm_source=freehire.me",
+      "title": "AI Product Analyst, Market Intelligence, Singapore"
     }
   ],
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "SG",
-  "max_candidate_seq": 837,
-  "min_candidate_seq": 829,
+  "max_candidate_seq": 897,
+  "min_candidate_seq": 889,
   "shard_index": 8,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

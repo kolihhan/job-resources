@@ -1,15 +1,78 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 898,
-      "company": "Helius Technologies Pte Ltd.",
+      "candidate_seq": 958,
+      "company": "NCS Group",
       "employment_type": null,
-      "external_id": "full stack developer:94513844",
+      "external_id": "6297:95529149",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-27T09:03:51Z",
+      "public_slug": "ai-systems-engineer-infra-cyber-ncs-group-btc3yasq",
+      "role_key": "freehire:ai-systems-engineer-infra-cyber-ncs-group-btc3yasq",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95529149?utm_source=freehire.me",
+      "title": "AI Systems Engineer (Infra Cyber)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 959,
+      "company": "ncs3",
+      "employment_type": null,
+      "external_id": "ncs3:6000000001526033",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-10-27T09:03:51Z",
+      "public_slug": "ai-systems-engineer-infra-cyber-ncs3-xrxvqdyx",
+      "role_key": "freehire:ai-systems-engineer-infra-cyber-ncs3-xrxvqdyx",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001526033-ai-systems-engineer-infra-cyber-?utm_source=freehire.me",
+      "title": "AI Systems Engineer (Infra Cyber)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 960,
+      "company": "NAS Education",
+      "employment_type": null,
+      "external_id": "6290:95530420",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "West Region",
+      "market": "SG",
+      "posted_at": "2026-10-27T08:37:23Z",
+      "public_slug": "ai-product-engineer-fullstack-nas-education-tnxdzzfs",
+      "role_key": "freehire:ai-product-engineer-fullstack-nas-education-tnxdzzfs",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95530420?utm_source=freehire.me",
+      "title": "AI Product Engineer (Fullstack)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 961,
+      "company": "Temus",
+      "employment_type": null,
+      "external_id": "temus:5233697008",
       "flags": [
         "agency_or_outstaff_hint"
       ],
@@ -17,177 +80,129 @@
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T20:40:49Z",
-      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-27kkdix7",
-      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-27kkdix7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94513844__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Full Stack Developer AI and Cloud-Native Applications"
+      "posted_at": "2026-10-27T08:14:59Z",
+      "public_slug": "ai-engineer-temus-guabri3i",
+      "role_key": "freehire:ai-engineer-temus-guabri3i",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/temus/jobs/5233697008?utm_source=freehire.me",
+      "title": "AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 899,
-      "company": "ActAI",
+      "candidate_seq": 962,
+      "company": "Gramian Consulting Group",
       "employment_type": null,
-      "external_id": "backend developer:94516078",
+      "external_id": "6287:95525597",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-27T07:37:14Z",
+      "public_slug": "rust-backend-architect-ai-training-projects-gramian-consulting-group-yxo4qt7s",
+      "role_key": "freehire:rust-backend-architect-ai-training-projects-gramian-consulting-group-yxo4qt7s",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95525597?utm_source=freehire.me",
+      "title": "Rust Backend Architect - AI Training Projects"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 963,
+      "company": "DADACONSULTANTS PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":03fb427f94825f00334f4aee68e1a21a",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T20:40:44Z",
-      "public_slug": "ai-backend-engineer-low-latency-scalable-inference-actai-6st7tway",
-      "role_key": "freehire:ai-backend-engineer-low-latency-scalable-inference-actai-6st7tway",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94516078__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "AI Backend Engineer — Low-Latency, Scalable Inference"
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "amr-robotics-software-engineer-leading-ai-solutions-firm-amr-smart-retail-ros-agv-dadaconsultants-pte-ltd-hsv4mny3",
+      "role_key": "freehire:amr-robotics-software-engineer-leading-ai-solutions-firm-amr-smart-retail-ros-agv-dadaconsultants-pte-ltd-hsv4mny3",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/03fb427f94825f00334f4aee68e1a21a?utm_source=freehire.me",
+      "title": "AMR Robotics Software Engineer - Leading AI solutions firm (AMR/Smart retail/ROS/AGV)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 900,
-      "company": "Public Service Division",
+      "candidate_seq": 964,
+      "company": "TIKTOK PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:94383119",
+      "external_id": ":dc6dfe9bef00863558c995845c72828b",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T16:40:23Z",
-      "public_slug": "analytics-engineer-learning-tech-ai-public-service-division-pwcfiyh3",
-      "role_key": "freehire:analytics-engineer-learning-tech-ai-public-service-division-pwcfiyh3",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94383119__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Analytics Engineer: Learning Tech & AI"
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "fullstack-software-engineer-ai-engineering-tiktok-live-revenue-tiktok-global-live-tiktok-pte-ltd-5mo2ovsv",
+      "role_key": "freehire:fullstack-software-engineer-ai-engineering-tiktok-live-revenue-tiktok-global-live-tiktok-pte-ltd-5mo2ovsv",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/dc6dfe9bef00863558c995845c72828b?utm_source=freehire.me",
+      "title": "Fullstack Software Engineer (AI Engineering) - TikTok Live Revenue - TikTok Global Live"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 901,
-      "company": "LE0010 Relativity Global Singapore Pte. Ltd.",
+      "candidate_seq": 965,
+      "company": "Micron",
       "employment_type": null,
-      "external_id": "data engineer:93531835",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-30T16:40:23Z",
-      "public_slug": "remote-apac-sales-engineer-legal-ai-data-solutions-le0010-relativity-global-singapore-pte-ltd-uibarsr5",
-      "role_key": "freehire:remote-apac-sales-engineer-legal-ai-data-solutions-le0010-relativity-global-singapore-pte-ltd-uibarsr5",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531835__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Remote APAC Sales Engineer: Legal AI & Data Solutions"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 902,
-      "company": "PropNex Realty Pte Ltd",
-      "employment_type": null,
-      "external_id": "frontend developer:94031563",
+      "external_id": "careers.micron.com/micron.com:45138236",
       "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T16:39:10Z",
-      "public_slug": "senior-php-laravel-developer-enterprise-web-apps-ai-tools-propnex-realty-pte-ltd-ojuynwk4",
-      "role_key": "freehire:senior-php-laravel-developer-enterprise-web-apps-ai-tools-propnex-realty-pte-ltd-ojuynwk4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031563__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior PHP/Laravel Developer — Enterprise Web Apps & AI Tools"
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "sr-ai-engineer-smai-micron-gx42rql2",
+      "role_key": "freehire:sr-ai-engineer-smai-micron-gx42rql2",
+      "source": "eightfold",
+      "source_url": "https://careers.micron.com/careers/job/45138236?utm_source=freehire.me",
+      "title": "Sr AI Engineer, SMAI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 903,
-      "company": "VOCALBEATS.AI PTE. LTD.",
+      "candidate_seq": 966,
+      "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
       "employment_type": null,
-      "external_id": "frontend developer:94036328",
+      "external_id": ":3b74529261c8ac7e96c94fdebac91c58",
       "flags": [
-        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-30T16:39:10Z",
-      "public_slug": "senior-ai-driven-apps-developer-frontend-full-stack-vocalbeats-ai-pte-ltd-bhw3tpn5",
-      "role_key": "freehire:senior-ai-driven-apps-developer-frontend-full-stack-vocalbeats-ai-pte-ltd-bhw3tpn5",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036328__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI-Driven Apps Developer – Frontend/Full-Stack"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:agent"
-      ],
-      "candidate_seq": 904,
-      "company": "Binance",
-      "employment_type": null,
-      "external_id": "binance:5002575101",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hong Kong; Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-06T07:34:22Z",
-      "public_slug": "pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
-      "role_key": "freehire:pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101?utm_source=freehire.me",
-      "title": "Pioneer Talent Program - Applied Data Scientist"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 905,
-      "company": "Binance",
-      "employment_type": null,
-      "external_id": "binance:5002721101",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hong Kong; Singapore; Taiwan",
-      "market": "SG",
-      "posted_at": "2026-11-05T10:11:53Z",
-      "public_slug": "senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
-      "role_key": "freehire:senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002721101?utm_source=freehire.me",
-      "title": "Senior AI Agents Backend Engineer – Golang (APAC Remote)"
+      "posted_at": "2026-10-27T00:00:00Z",
+      "public_slug": "sr-ai-engineer-smai-micron-semiconductor-asia-operations-pte-ltd-nloggtq4",
+      "role_key": "freehire:sr-ai-engineer-smai-micron-semiconductor-asia-operations-pte-ltd-nloggtq4",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/3b74529261c8ac7e96c94fdebac91c58?utm_source=freehire.me",
+      "title": "Sr AI Engineer, SMAI"
     }
   ],
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "SG",
-  "max_candidate_seq": 905,
-  "min_candidate_seq": 898,
+  "max_candidate_seq": 966,
+  "min_candidate_seq": 958,
   "shard_index": 16,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

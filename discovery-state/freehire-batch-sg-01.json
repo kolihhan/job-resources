@@ -1,49 +1,51 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 754,
-      "company": "Kredivo Group",
-      "employment_type": null,
-      "external_id": "kredivo-group:08e00a3e1492",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-05T04:28:05Z",
-      "public_slug": "software-engineer-ai-kredivo-group-bsncssyk",
-      "role_key": "freehire:software-engineer-ai-kredivo-group-bsncssyk",
-      "source": "breezy",
-      "source_url": "https://kredivo-group.breezy.hr/p/08e00a3e1492-software-engineer-ai?utm_source=freehire.me",
-      "title": "Software Engineer - AI"
-    },
     {
       "ai_score": 5,
       "ai_signals": [
         "title:ml",
         "jd:machine_learning"
       ],
-      "candidate_seq": 755,
+      "candidate_seq": 829,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7669791940490168629",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "San Jose",
+      "market": "SG",
+      "posted_at": "2026-08-03T13:10:21Z",
+      "public_slug": "machine-learning-backend-engineer-graduate-aml-mldev-2027-start-bytedance-3bruzrhs",
+      "role_key": "freehire:machine-learning-backend-engineer-graduate-aml-mldev-2027-start-bytedance-3bruzrhs",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7669791940490168629/detail?utm_source=freehire.me",
+      "title": "Machine Learning Backend Engineer Graduate (AML MLDev) - 2027 Start"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 830,
       "company": "Ntu",
       "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/Research-Fellow--Econometrics-and-Machine-Learning-_R00025939",
-      "flags": [],
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373",
+      "flags": [
+        "visa_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "NTU Main Campus, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-05T00:00:00Z",
-      "public_slug": "research-fellow-econometrics-and-machine-learning-ntu-ff45thqk",
-      "role_key": "freehire:research-fellow-econometrics-and-machine-learning-ntu-ff45thqk",
+      "posted_at": "2026-07-30T00:00:00Z",
+      "public_slug": "ai-engineer-data-infra-ntu-3pjfzlpo",
+      "role_key": "freehire:ai-engineer-data-infra-ntu-3pjfzlpo",
       "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Econometrics-and-Machine-Learning-_R00025939?utm_source=freehire.me",
-      "title": "Research Fellow (Econometrics and Machine Learning)"
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Data-Infra_R00025373?utm_source=freehire.me",
+      "title": "AI Engineer, Data Infra"
     },
     {
       "ai_score": 5,
@@ -51,141 +53,167 @@
         "title:ai",
         "jd:multimodal"
       ],
-      "candidate_seq": 765,
-      "company": "CLIPLY PTE. LTD.",
+      "candidate_seq": 831,
+      "company": "Ntu",
       "employment_type": null,
-      "external_id": "full stack developer:92682433",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-04T01:57:56Z",
-      "public_slug": "founding-full-stack-engineer-video-ai-multimodal-platform-cliply-pte-ltd-pthxsvhn",
-      "role_key": "freehire:founding-full-stack-engineer-video-ai-multimodal-platform-cliply-pte-ltd-pthxsvhn",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92682433__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Founding Full-Stack Engineer - Video AI & Multimodal Platform"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:nlp"
-      ],
-      "candidate_seq": 767,
-      "company": "V2EX",
-      "employment_type": null,
-      "external_id": "data engineer:92664570",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-03T09:58:24Z",
-      "public_slug": "ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-zip76ces",
-      "role_key": "freehire:ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-zip76ces",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92664570__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI 大模型明星项目|诚聘 Data Engineer & Web Scraping Engineer(新加坡|可办签证 | 代发)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:genai"
-      ],
-      "candidate_seq": 768,
-      "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:92662521",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-03T09:58:22Z",
-      "public_slug": "frontend-data-engineer-labor-productivity-ai-enablement-micron-semiconductor-asia-operations-pte-ltd-wmrpcn7n",
-      "role_key": "freehire:frontend-data-engineer-labor-productivity-ai-enablement-micron-semiconductor-asia-operations-pte-ltd-wmrpcn7n",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92662521__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Frontend Data Engineer, Labor Productivity & AI Enablement"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 769,
-      "company": "0123 DIGITAL PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:92663275",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-03T09:58:07Z",
-      "public_slug": "remote-full-stack-engineer-ai-agents-enterprise-apps-0123-digital-pte-ltd-c5d7zzms",
-      "role_key": "freehire:remote-full-stack-engineer-ai-agents-enterprise-apps-0123-digital-pte-ltd-c5d7zzms",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92663275__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Remote Full Stack Engineer - AI Agents & Enterprise Apps"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:nlp"
-      ],
-      "candidate_seq": 770,
-      "company": "V2EX",
-      "employment_type": null,
-      "external_id": "data engineer:92647419",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-02T23:58:32Z",
-      "public_slug": "ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-26a35ivn",
-      "role_key": "freehire:ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-26a35ivn",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92647419__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI 大模型明星项目|诚聘 Data Engineer & Web Scraping Engineer(新加坡|可办签证 | 代发)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:agent",
-        "jd:agent"
-      ],
-      "candidate_seq": 772,
-      "company": "Newbridge",
-      "employment_type": "full_time",
-      "external_id": "newbridge-:6369963R",
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Full-Stack_R00024983",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-28T00:00:00Z",
+      "public_slug": "ai-engineer-full-stack-ntu-nncjexoc",
+      "role_key": "freehire:ai-engineer-full-stack-ntu-nncjexoc",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Full-Stack_R00024983?utm_source=freehire.me",
+      "title": "AI Engineer, Full Stack"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:multimodal"
+      ],
+      "candidate_seq": 832,
+      "company": "Ntu",
+      "employment_type": null,
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Evaluation-_R00024988",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-28T00:00:00Z",
+      "public_slug": "ai-engineer-evaluation-ntu-7om5ms6e",
+      "role_key": "freehire:ai-engineer-evaluation-ntu-7om5ms6e",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Evaluation-_R00024988?utm_source=freehire.me",
+      "title": "AI Engineer (Evaluation)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 833,
+      "company": "Avomind",
+      "employment_type": null,
+      "external_id": "avomind:FB677415D2",
+      "flags": [
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-01T13:38:28Z",
-      "public_slug": "senior-forward-deployed-engineer-agentic-development-lifecycle-newbridge-f3xgvrwr",
-      "role_key": "freehire:senior-forward-deployed-engineer-agentic-development-lifecycle-newbridge-f3xgvrwr",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/newbridge-/job/6369963R?utm_source=freehire.me",
-      "title": "Senior Forward Deployed Engineer - Agentic Development Lifecycle"
+      "posted_at": "2026-07-27T00:00:00Z",
+      "public_slug": "vp-of-research-machine-learning-avomind-y4ftvhr4",
+      "role_key": "freehire:vp-of-research-machine-learning-avomind-y4ftvhr4",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/FB677415D2?utm_source=freehire.me",
+      "title": "VP of Research (Machine Learning)"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 834,
+      "company": "Avomind",
+      "employment_type": null,
+      "external_id": "avomind:6291637A4F",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-27T00:00:00Z",
+      "public_slug": "senior-machine-learning-engineer-avomind-nnqh7gfo",
+      "role_key": "freehire:senior-machine-learning-engineer-avomind-nnqh7gfo",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/6291637A4F?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 835,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "6290:93558344",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-26T02:11:42Z",
+      "public_slug": "machine-learning-engineer-location-product-tiktok-yowlssmt",
+      "role_key": "freehire:machine-learning-engineer-location-product-tiktok-yowlssmt",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/93558344?utm_source=freehire.me",
+      "title": "Machine Learning Engineer - Location Product"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 836,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "6294:93558337",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-26T02:11:20Z",
+      "public_slug": "machine-learning-engineer-live-recommendation-singapore-tiktok-7fc3ml6g",
+      "role_key": "freehire:machine-learning-engineer-live-recommendation-singapore-tiktok-7fc3ml6g",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/93558337?utm_source=freehire.me",
+      "title": "Machine Learning Engineer, LIVE Recommendation - Singapore"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:llm"
+      ],
+      "candidate_seq": 837,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7664493475353954613",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-20T06:30:01Z",
+      "public_slug": "llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
+      "role_key": "freehire:llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/campus/position/7664493475353954613/detail?utm_source=freehire.me",
+      "title": "LLM System Backend Engineer Graduate (AML Ark) - 2027 Start"
     }
   ],
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "SG",
-  "max_candidate_seq": 772,
-  "min_candidate_seq": 754,
+  "max_candidate_seq": 837,
+  "min_candidate_seq": 829,
   "shard_index": 1,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

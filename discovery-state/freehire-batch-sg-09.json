@@ -1,15 +1,101 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:llm"
+        "title:ai"
       ],
-      "candidate_seq": 838,
-      "company": "bitdeer",
+      "candidate_seq": 898,
+      "company": "Helius Technologies Pte Ltd.",
       "employment_type": null,
-      "external_id": "bitdeer:fa503f83da0a",
+      "external_id": "full stack developer:94513844",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T20:40:49Z",
+      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-27kkdix7",
+      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-27kkdix7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94513844__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Full Stack Developer AI and Cloud-Native Applications"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 899,
+      "company": "ActAI",
+      "employment_type": null,
+      "external_id": "backend developer:94516078",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T20:40:44Z",
+      "public_slug": "ai-backend-engineer-low-latency-scalable-inference-actai-6st7tway",
+      "role_key": "freehire:ai-backend-engineer-low-latency-scalable-inference-actai-6st7tway",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94516078__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "AI Backend Engineer — Low-Latency, Scalable Inference"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 900,
+      "company": "Public Service Division",
+      "employment_type": null,
+      "external_id": "data engineer:94383119",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T16:40:23Z",
+      "public_slug": "analytics-engineer-learning-tech-ai-public-service-division-pwcfiyh3",
+      "role_key": "freehire:analytics-engineer-learning-tech-ai-public-service-division-pwcfiyh3",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94383119__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Analytics Engineer: Learning Tech & AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 901,
+      "company": "LE0010 Relativity Global Singapore Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:93531835",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T16:40:23Z",
+      "public_slug": "remote-apac-sales-engineer-legal-ai-data-solutions-le0010-relativity-global-singapore-pte-ltd-uibarsr5",
+      "role_key": "freehire:remote-apac-sales-engineer-legal-ai-data-solutions-le0010-relativity-global-singapore-pte-ltd-uibarsr5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531835__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Remote APAC Sales Engineer: Legal AI & Data Solutions"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 902,
+      "company": "PropNex Realty Pte Ltd",
+      "employment_type": null,
+      "external_id": "frontend developer:94031563",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -19,196 +105,89 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-04T07:47:34Z",
-      "public_slug": "senior-llm-inference-performance-evaluation-engineer-bitdeer-bf4k22pz",
-      "role_key": "freehire:senior-llm-inference-performance-evaluation-engineer-bitdeer-bf4k22pz",
-      "source": "breezy",
-      "source_url": "https://bitdeer.breezy.hr/p/fa503f83da0a-senior-llm-inference-performance-evaluation-engineer?utm_source=freehire.me",
-      "title": "Senior LLM Inference Performance & Evaluation Engineer"
+      "posted_at": "2026-10-30T16:39:10Z",
+      "public_slug": "senior-php-laravel-developer-enterprise-web-apps-ai-tools-propnex-realty-pte-ltd-ojuynwk4",
+      "role_key": "freehire:senior-php-laravel-developer-enterprise-web-apps-ai-tools-propnex-realty-pte-ltd-ojuynwk4",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031563__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior PHP/Laravel Developer — Enterprise Web Apps & AI Tools"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:ai"
       ],
-      "candidate_seq": 839,
-      "company": "ByteDance",
+      "candidate_seq": 903,
+      "company": "VOCALBEATS.AI PTE. LTD.",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7663394302727538949",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-17T07:24:47Z",
-      "public_slug": "backend-applied-machine-learning-engineer-graduate-aml-efficiency-tool-2027-start-bytedance-azdczpbg",
-      "role_key": "freehire:backend-applied-machine-learning-engineer-graduate-aml-efficiency-tool-2027-start-bytedance-azdczpbg",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/campus/position/7663394302727538949/detail?utm_source=freehire.me",
-      "title": "Backend Applied Machine Learning Engineer Graduate (AML Efficiency Tool) - 2027 Start"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 840,
-      "company": "sim",
-      "employment_type": null,
-      "external_id": "sim.wd3.myworkdayjobs.com/external:/job/Clementi-Campus/Associate-Lecturer---Machine-Learning--HE1-_JR101301",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Clementi Campus",
-      "market": "SG",
-      "posted_at": "2026-07-15T00:00:00Z",
-      "public_slug": "associate-lecturer-machine-learning-he1-sim-koezypeg",
-      "role_key": "freehire:associate-lecturer-machine-learning-he1-sim-koezypeg",
-      "source": "workday",
-      "source_url": "https://sim.wd3.myworkdayjobs.com/External/job/Clementi-Campus/Associate-Lecturer---Machine-Learning--HE1-_JR101301?utm_source=freehire.me",
-      "title": "Associate Lecturer - Machine Learning (HE1)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:agent"
-      ],
-      "candidate_seq": 841,
-      "company": "OpenAI",
-      "employment_type": null,
-      "external_id": "openai:29f15e50-1611-4256-afad-03b7df0b7aa7",
+      "external_id": "frontend developer:94036328",
       "flags": [
-        "experience_5_plus_hint",
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-07-08T16:58:31Z",
-      "public_slug": "applied-ai-engineer-cyber-openai-yi2qen2p",
-      "role_key": "freehire:applied-ai-engineer-cyber-openai-yi2qen2p",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7?utm_source=freehire.me",
-      "title": "Applied AI Engineer, Cyber"
+      "posted_at": "2026-10-30T16:39:10Z",
+      "public_slug": "senior-ai-driven-apps-developer-frontend-full-stack-vocalbeats-ai-pte-ltd-bhw3tpn5",
+      "role_key": "freehire:senior-ai-driven-apps-developer-frontend-full-stack-vocalbeats-ai-pte-ltd-bhw3tpn5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036328__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI-Driven Apps Developer – Frontend/Full-Stack"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
+        "title:data_science",
+        "jd:llm",
+        "jd:agent"
       ],
-      "candidate_seq": 842,
-      "company": "Julius Baer",
+      "candidate_seq": 904,
+      "company": "Binance",
       "employment_type": null,
-      "external_id": "juliusbaer.wd3.myworkdayjobs.com/External:/job/Singapore/Machine-Learning-Engineer_r-18856-1",
+      "external_id": "binance:5002575101",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Hong Kong; Singapore",
       "market": "SG",
-      "posted_at": "2026-07-06T00:00:00Z",
-      "public_slug": "machine-learning-engineer-julius-baer-eimo66gl",
-      "role_key": "freehire:machine-learning-engineer-julius-baer-eimo66gl",
-      "source": "workday",
-      "source_url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Singapore/Machine-Learning-Engineer_r-18856-1?utm_source=freehire.me",
-      "title": "Machine Learning Engineer"
+      "posted_at": "2026-11-06T07:34:22Z",
+      "public_slug": "pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
+      "role_key": "freehire:pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101?utm_source=freehire.me",
+      "title": "Pioneer Talent Program - Applied Data Scientist"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 843,
-      "company": "Phillip Securities",
+      "candidate_seq": 905,
+      "company": "Binance",
       "employment_type": null,
-      "external_id": "6290:95487811",
-      "flags": [],
+      "external_id": "binance:5002721101",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Hong Kong; Singapore; Taiwan",
       "market": "SG",
-      "posted_at": "2026-06-26T10:15:38Z",
-      "public_slug": "full-stack-developer-ai-enabled-phillip-securities-dp63vgm2",
-      "role_key": "freehire:full-stack-developer-ai-enabled-phillip-securities-dp63vgm2",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95487811?utm_source=freehire.me",
-      "title": "Full Stack Developer (AI-Enabled)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:llm"
-      ],
-      "candidate_seq": 844,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "6294:92900470",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-06-23T16:03:46Z",
-      "public_slug": "llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
-      "role_key": "freehire:llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/92900470?utm_source=freehire.me",
-      "title": "LLM Evaluation Product Operations Specialist – TikTok"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 845,
-      "company": "Fuku",
-      "employment_type": null,
-      "external_id": "fuku:EFA54F9658",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-06-11T00:00:00Z",
-      "public_slug": "ai-developer-fuku-ysqpbmls",
-      "role_key": "freehire:ai-developer-fuku-ysqpbmls",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/EFA54F9658?utm_source=freehire.me",
-      "title": "AI Developer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 846,
-      "company": "Technopals Pte.Ltd.",
-      "employment_type": null,
-      "external_id": "technopals.zohorecruit.com:363745000022725010",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Raffles, Singapore",
-      "market": "SG",
-      "posted_at": "2026-06-04T00:00:00Z",
-      "public_slug": "ml-engineer-technopals-zohorecruit-com-qlcyfbxs",
-      "role_key": "freehire:ml-engineer-technopals-zohorecruit-com-qlcyfbxs",
-      "source": "zohorecruit",
-      "source_url": "https://technopals.zohorecruit.com/jobs/Careers/363745000022725010?utm_source=freehire.me",
-      "title": "ML Engineer"
+      "posted_at": "2026-11-05T10:11:53Z",
+      "public_slug": "senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
+      "role_key": "freehire:senior-backend-engineer-ai-agents-golang-binance-ppljjjvm",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002721101?utm_source=freehire.me",
+      "title": "Senior AI Agents Backend Engineer – Golang (APAC Remote)"
     }
   ],
-  "generated_at": "2026-11-08T06:44:56.050141Z",
+  "generated_at": "2026-11-08T13:54:24.144774Z",
   "market": "SG",
-  "max_candidate_seq": 846,
-  "min_candidate_seq": 838,
+  "max_candidate_seq": 905,
+  "min_candidate_seq": 898,
   "shard_index": 9,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
