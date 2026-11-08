@@ -2761,6 +2761,61 @@
       "attempts": 1,
       "next_retry_at": "2026-11-10T03:10:00+08:00",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:quan-zhan-ji-ke-gong-cheng-shi-ai-native-fang-xiang-moonshot-ai-omwmmnat",
+      "candidate_seq": 2209,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T04:10:00+08:00",
+      "company": "Moonshot AI",
+      "title": "全栈极客工程师（AI-Native 方向）",
+      "source_url": "https://app.mokahr.com/social-recruitment/moonshot/148506?utm_source=freehire.me#/job/750e5cb2-e24c-4338-a087-ea5c9c37bf6d",
+      "blocker": "Exact current full employer JD, live application route, graduation/experience and foreign work permit not yet verified"
+    },
+    {
+      "role_key": "freehire:suan-fa-gong-cheng-shi-ai-amec-5n3nzdhs",
+      "candidate_seq": 2210,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T04:10:00+08:00",
+      "company": "AMEC",
+      "title": "算法工程师（AI）",
+      "source_url": "https://app.mokahr.com/social-recruitment/amec/28371?utm_source=freehire.me#/job/6717593f-2dbe-476a-a1e1-89587735ae5e",
+      "blocker": "Exact current full employer JD, live application route, graduation/experience and foreign work permit not yet verified"
+    },
+    {
+      "role_key": "freehire:ai-agentying-yong-kai-fa-gong-cheng-shi-jia-gou-shi-huo-shan-yin-qing-bytedance-52jkkta2",
+      "candidate_seq": 2211,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T04:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent应用开发工程师/架构师-火山引擎",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7616302352991750453/detail?utm_source=freehire.me",
+      "blocker": "Exact current full employer JD, live application route, graduation/experience and foreign work permit not yet verified"
+    },
+    {
+      "role_key": "freehire:ai-codingyan-fa-gong-cheng-shi-dou-yin-ai-bytedance-p6yj24sj",
+      "candidate_seq": 2213,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T04:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Coding研发工程师 - 抖音AI",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7615813108715538741/detail?utm_source=freehire.me",
+      "blocker": "Exact current full employer JD, live application route, graduation/experience and foreign work permit not yet verified"
+    },
+    {
+      "role_key": "freehire:aiying-yong-kai-fa-gong-cheng-shi-ai-tong-yong-chang-jing-ji-tuan-xin-xi-xi-tong-bytedance-ooo7pc65",
+      "candidate_seq": 2214,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T04:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI应用开发工程师（AI-通用场景）-集团信息系统",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7615576755075778869/detail?utm_source=freehire.me",
+      "blocker": "Exact current full employer JD, live application route, graduation/experience and foreign work permit not yet verified"
     }
   ]
 }
