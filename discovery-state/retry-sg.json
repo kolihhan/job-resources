@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T14:30:00+08:00",
+  "updated_at": "2026-11-08T16:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3434,6 +3434,71 @@
       "last_alternate_source_attempted": "V2EX original posting Apr 2026 and seq 767 metadata",
       "last_retry_new_evidence": true,
       "last_evidence_note": "V2EX post same title as seq 767, with distinct aggregator ID; only suspected same campaign. Original posting Apr 2026 and employer identity still missing; do not promote or auto-dedupe by title."
+    },
+    {
+      "candidate_seq": 773,
+      "role_key": "freehire:ai-engineer-simplifynext-js5dsv5t",
+      "company": "SimplifyNext",
+      "title": "AI Engineer",
+      "source_url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007",
+      "reason_code": "needs_authoritative_identity_eligibility_route",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T16:05:00+08:00",
+      "last_alternate_source": "2026-11-08 exact-role Issue search and indexed/official JD check",
+      "last_new_substantive_evidence": true,
+      "missing_decisive_evidence": "exact JD verified; production Docker/Kubernetes and cloud deployment evidence vs candidate uncertain; verify eligibility and SG pass/route; no exact Issue"
+    },
+    {
+      "candidate_seq": 774,
+      "role_key": "freehire:ai-engineer-graduate-simplifynext-3bjkro7c",
+      "company": "SimplifyNext",
+      "title": "AI Engineer (Graduate)",
+      "source_url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007",
+      "reason_code": "needs_authoritative_identity_eligibility_route",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T16:05:00+08:00",
+      "last_alternate_source": "2026-11-08 exact-role Issue search and indexed/official JD check",
+      "last_new_substantive_evidence": false,
+      "missing_decisive_evidence": "historical rejected Issue #96 same employer/title; need original employer req ID or materially distinct hiring cycle before considering new application"
+    },
+    {
+      "candidate_seq": 776,
+      "role_key": "freehire:ai-driven-full-stack-engineer-for-digital-assets-phillipcapital-bn2cpyqn",
+      "company": "PhillipCapital",
+      "title": "AI-Driven Full Stack Engineer for Digital Assets",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440256__7119",
+      "reason_code": "needs_authoritative_identity_eligibility_route",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T16:05:00+08:00",
+      "last_alternate_source": "2026-11-08 exact-role Issue search and indexed/official JD check",
+      "last_new_substantive_evidence": false,
+      "missing_decisive_evidence": "need employer exact JD and direct application route; historical PhillipCapital Issue #483 is different title, not exact duplicate"
+    },
+    {
+      "candidate_seq": 777,
+      "role_key": "freehire:full-stack-developer-ai-enabled-phillipcapital-t3yxhuvi",
+      "company": "PhillipCapital",
+      "title": "Full Stack Developer (AI-Enabled)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92442062__7119",
+      "reason_code": "needs_authoritative_identity_eligibility_route",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T16:05:00+08:00",
+      "last_alternate_source": "2026-11-08 exact-role Issue search and indexed/official JD check",
+      "last_new_substantive_evidence": false,
+      "missing_decisive_evidence": "need employer exact JD and direct route; title overlap with historical PhillipCapital AI Engineer #483 insufficient for exact merge"
+    },
+    {
+      "candidate_seq": 780,
+      "role_key": "freehire:backend-engineer-ai-application-tiktok-local-service-singapore-tiktok-gkcqmcuh",
+      "company": "TikTok",
+      "title": "Backend Engineer (AI Application) - TikTok Local Service (Singapore)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92135040__7119",
+      "reason_code": "needs_authoritative_identity_eligibility_route",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T16:05:00+08:00",
+      "last_alternate_source": "2026-11-08 exact-role Issue search and indexed/official JD check",
+      "last_new_substantive_evidence": true,
+      "missing_decisive_evidence": "faithful full LinkedIn JD found; need employer requisition, current official vacancy, exact route and work-pass assessment; prior TikTok AI roles are different titles/teams"
     }
   ]
 }
