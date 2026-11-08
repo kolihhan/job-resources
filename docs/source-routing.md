@@ -6,7 +6,7 @@ This is a focused execution supplement to `RULES.md` section 15. `RULES.md` rema
 
 Increase **unique high-quality job recall per unit of scout work** by making sources complementary instead of repeatedly discovering the same employer/role through several boards.
 
-Across source families, prioritize `PROFILE.md`'s LLM/NLP research archetypes through **bounded rotation**: retrieval/ranking + LLM/memory, KG + LLM, knowledge-enhanced language understanding, agent tool use/reasoning/planning/evaluation, and RA/RO/RE/Applied Scientist + LLM/NLP. Context/dialogue queries must directly target NLP/language-model research; rotate subsets, not every family each run. Employer ownership is a discovery-efficiency rule, not a prestige ranking. Malaysia's broader SWE pass remains a bounded secondary option under `docs/my-swe-scope.md`; preserve the market gap floors without letting generic roles crowd out the North Star.
+Across source families, give **equal first-class discovery coverage to substantive engineering and research** under `PROFILE.md`: Applied AI/AI Software/AI Backend, LLM/RAG/retrieval/search/ranking, Agent tool use/memory/harness/evaluation, ML engineering, and MSc-compatible RA/RE/Applied Scientist work. Do not let lab/PI searching systematically displace fresh employer AI engineering ATS roles. Context/dialogue queries must directly target NLP/language-model research; rotate subsets, not every family each run. Employer ownership is a discovery-efficiency rule, not a prestige ranking. Malaysia's broader SWE pass remains a bounded secondary option under `docs/my-swe-scope.md`; preserve the market gap floors without letting generic roles crowd out the North Star.
 
 The default should be:
 
@@ -221,9 +221,9 @@ Rules:
 
 ## 8. Hourly scout order
 
-Within each market's existing bounded budget:
+Within each market's existing bounded budget, **start with current official role identities and finish promising net-new candidates before spending the run on radar backlog**:
 
-1. **Owned first-party delta** — rotate through canonical owners / official target-company sources.
+1. **Owned first-party delta** — rotate through canonical owners / official target-company sources, covering both engineering ATS owners and research hiring sources. Use current vacancies/IDs rather than static homepages.
 2. **Native/direct fresh head** — search for unknown employers, platform-exclusive roles, recruiter reach, and real gaps; cheap-suppress routine duplicates for owned employers.
 3. **Radar fresh head / gap recovery** — prioritize unknown employers and missing coverage; do not re-deep-research owned-company roles without a gap signal.
 4. For research battlefields, use the bounded lab-source gap pass described above when the current rotation reaches a research institution/lab; once an exact requisition or verified PI-managed opening is found, return to canonical verification rather than continuing lab-page browsing.
@@ -241,7 +241,7 @@ Do not optimize raw source count.
 
 The intended improvements are:
 
-- more **unique** serious roles found per run;
+- more **unique, verified net-new APPLY/CHECK-ready** serious roles found per run, with APPLY and CHECK counted separately (zero is valid when evidence is insufficient);
 - higher first-party coverage for recurring/core employers;
 - fewer full-JD reads for roles already visible elsewhere;
 - fewer repeated cross-source duplicates reaching deep verification;
