@@ -2,17 +2,16 @@
   "version": 2,
   "market": "CN",
   "platform_cycle": 34,
-  "next_platform_index": 5,
-  "next_owner_bucket": 2,
-  "next_query_bucket": 2,
-  "run_counter": 115,
-  "last_completed_at": "2026-11-08T20:10:00+08:00",
+  "next_platform_index": 6,
+  "next_owner_bucket": 3,
+  "next_query_bucket": 3,
+  "run_counter": 116,
+  "last_completed_at": "2026-11-09T01:10:00+08:00",
   "last_platforms": [
-    "智联招聘",
-    "前程无忧 / 51job"
+    "脉脉 / team-direct recruiting signals (indexed only; native pagination unverified)"
   ],
-  "last_owner_bucket": "ByteDance / Baidu",
-  "last_query_bucket": "RAG / 知识库 / 知识图谱 / NL2SQL / Data Agent",
+  "last_owner_bucket": "Huawei / Meituan",
+  "last_query_bucket": "大模型评测 / Agent评测 / AI质量 / reliability",
   "coverage_debt": [
     {
       "platform": "前程无忧 / 51job",
@@ -27,12 +26,12 @@
     {
       "platform": "脉脉 / team-direct recruiting signals",
       "query_family": "NLP / 检索 / 搜索 / ranking",
-      "last_attempt_at": "2026-11-08T05:10:32+08:00",
+      "last_attempt_at": "2026-11-09T01:10:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 0 inspected/exact-role rows; 2026-11-08 05:10 fallback probe attempted; native page 2 not verified",
-      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+      "fallback_unique_rows": 3,
+      "reason": "Indexed employer/recruiter pages inspected: MemOS 1–3y AI full-stack and agent evaluation, DeepSeek Agent full-stack, anonymous recruiter agent listing; native pages 1/2 not verified and employer-owned exact requisition IDs absent.",
+      "next_probe": "Resolve MemOS full-stack and DeepSeek Agent full-stack to employer-owned exact IDs/ATS and foreign-hire route; native pages 1 and 2 still owed."
     },
     {
       "platform": "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals",
