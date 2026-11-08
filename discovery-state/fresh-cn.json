@@ -19,12 +19,12 @@
     {
       "platform": "前程无忧 / 51job",
       "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
-      "last_attempt_at": "2026-11-08T05:10:32+08:00",
+      "last_attempt_at": "2026-11-08T10:10:23+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 3,
-      "reason": "Native page 1/2 unavailable; indexed 51job page showed two identifiable listings in unrelated city/category, not a broad AI role search; Nowcoder independent detail fallback checked. Employer ATS breadth still unverified.",
-      "next_probe": "51job AI Agent native search page 1+2 and independent employer ATS requisition search"
+      "reason": "Native page 1/2 unavailable; indexed 51job page showed two identifiable listings in unrelated city/category, not a broad AI role search; Nowcoder independent detail fallback checked. Employer ATS breadth still unverified. 10:10 independent Nowcoder exact-role 466220 full JD checked: 2027-only, rejected; no native page coverage gained.",
+      "next_probe": "51job native AI Agent search pages 1+2, then official ATS distinct exact-role requisitions; Nowcoder 466220 is 2027-only"
     },
     {
       "platform": "脉脉 / team-direct recruiting signals",
