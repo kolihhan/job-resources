@@ -77,12 +77,12 @@
     {
       "platform": "智联招聘",
       "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
-      "last_attempt_at": "2026-11-07T10:09:22+08:00",
+      "last_attempt_at": "2026-11-08T19:10:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
-      "fallback_unique_rows": 0,
-      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 5 inspected/exact-role rows",
-      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+      "fallback_unique_rows": 5,
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 5 inspected/exact-role rows; 19:10 independent exact-role zhaopin JD URLs inspected: China Mobile J10043, Huawei 2026 AI SWE, Beijing Juheda RAG Agent, Launch Tech 3+yr hard reject, recruiter 3+yr hard reject. Native search page1/2 not verified, foreign-hire unresolved.",
+      "next_probe": "Open native search page 1+2 for AI Agent/RAG; verify China Mobile J10043 and Huawei 2026 AI SWE via employer careers, campaign eligibility, foreign work permit, application route"
     }
   ]
 }
