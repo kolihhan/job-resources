@@ -2,27 +2,27 @@
   "version": 2,
   "market": "CN",
   "platform_cycle": 34,
-  "next_platform_index": 3,
-  "next_owner_bucket": 1,
-  "next_query_bucket": 1,
-  "run_counter": 114,
-  "last_completed_at": "2026-11-08T17:10:00+08:00",
+  "next_platform_index": 5,
+  "next_owner_bucket": 2,
+  "next_query_bucket": 2,
+  "run_counter": 115,
+  "last_completed_at": "2026-11-08T20:10:00+08:00",
   "last_platforms": [
-    "牛客招聘",
-    "猎聘"
+    "智联招聘",
+    "前程无忧 / 51job"
   ],
-  "last_owner_bucket": 0,
-  "last_query_bucket": 0,
+  "last_owner_bucket": "ByteDance / Baidu",
+  "last_query_bucket": "RAG / 知识库 / 知识图谱 / NL2SQL / Data Agent",
   "coverage_debt": [
     {
       "platform": "前程无忧 / 51job",
       "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
-      "last_attempt_at": "2026-11-08T17:10:00+08:00",
+      "last_attempt_at": "2026-11-08T20:10:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 3,
-      "reason": "Native page 1/2 unavailable; indexed 51job page showed two identifiable listings in unrelated city/category, not a broad AI role search; Nowcoder independent detail fallback checked. Employer ATS breadth still unverified. 10:10 independent Nowcoder exact-role 466220 full JD checked: 2027-only, rejected; no native page coverage gained.; 17:10 51job indexed listings/official 51job-hosted employer posts probed; native page1/2 unavailable, no verified breadth or eligible new exact role.",
-      "next_probe": "51job native AI Agent search pages 1+2, then official ATS distinct exact-role requisitions; Nowcoder 466220 is 2027-only"
+      "reason": "Indexed site-specific RAG/Agent search attempted, zero inspectable exact 51job role IDs; native page 1/2 unavailable.",
+      "next_probe": "51job native page 1 and 2 with exact RAG/Agent query or independent employer ATS and Nowcoder exact role IDs"
     },
     {
       "platform": "脉脉 / team-direct recruiting signals",
@@ -77,12 +77,12 @@
     {
       "platform": "智联招聘",
       "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
-      "last_attempt_at": "2026-11-08T19:10:00+08:00",
+      "last_attempt_at": "2026-11-08T20:10:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
-      "fallback_unique_rows": 5,
-      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 5 inspected/exact-role rows; 19:10 independent exact-role zhaopin JD URLs inspected: China Mobile J10043, Huawei 2026 AI SWE, Beijing Juheda RAG Agent, Launch Tech 3+yr hard reject, recruiter 3+yr hard reject. Native search page1/2 not verified, foreign-hire unresolved.",
-      "next_probe": "Open native search page 1+2 for AI Agent/RAG; verify China Mobile J10043 and Huawei 2026 AI SWE via employer careers, campaign eligibility, foreign work permit, application route"
+      "fallback_unique_rows": 6,
+      "reason": "Native page 1/2 not verified; six exact-role indexed JD URLs examined (AI application, Agent coding, Lenovo outsourced Agent, Shanghai AI Lab and hard mismatch); no breadth proof.",
+      "next_probe": "Native page 1 and page 2 for RAG/Agent, plus employer careers for Shanghai AI Lab requisition CCL1384980490J40945728304 and foreign-hire route"
     }
   ]
 }
