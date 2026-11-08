@@ -1971,6 +1971,32 @@
       "last_alternate_source_attempted": "exact requisition/title indexed search",
       "last_retry_new_evidence": false,
       "last_evidence_note": "Metadata flags RAG, PyTorch, fine-tuning despite generic ads title; preserve until full JD proves fit or mismatch; exact GitHub Issue ID search no hits"
+    },
+    {
+      "candidate_seq": 2072,
+      "role_key": "freehire:jiao-yi-xi-tong-ping-tai-bu-shang-pin-gong-gei-ai-agentkai-fa-gong-cheng-shi-meituan-ozsddnzb",
+      "company": "Meituan",
+      "title": "交易系统平台部-商品供给-AI Agent开发工程师",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4670122291",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T14:12:00+08:00",
+      "last_alternate_source_attempted": "exact requisition indexed employer-JD reproduction",
+      "last_retry_new_evidence": false,
+      "last_evidence_note": "Exact matching employer-authored full JD and live vacancy not confirmed"
+    },
+    {
+      "candidate_seq": 2076,
+      "role_key": "freehire:wei-xin-xiao-wei-da-mo-xing-suan-fa-yan-jiu-yuan-harnesshe-ban-yu-ji-yi-fang-xiang-tencent-oogic5b3",
+      "company": "Tencent",
+      "title": "微信小微-大模型算法研究员-Harness合版与记忆方向",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2084242272450424832",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T14:12:00+08:00",
+      "last_alternate_source_attempted": "exact requisition indexed employer-JD reproduction",
+      "last_retry_new_evidence": true,
+      "last_evidence_note": "Exact matching full JD reproduced; official live vacancy and foreign-work-permit route not confirmed"
     }
   ]
 }
