@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T07:15:00+08:00",
+  "updated_at": "2026-11-09T08:00:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4129,6 +4129,28 @@
       "reason_code": "exact_official_identity_or_eligibility_unverified",
       "attempts": 0,
       "next_retry_at": "2026-11-10T07:15:00+08:00"
+    },
+    {
+      "candidate_seq": 917,
+      "role_key": "freehire:global-e-commerce-platform-engineer-data-ai-powered-tiktok-pte-ltd-cmevcw52",
+      "company": "TikTok Pte. Ltd.",
+      "title": "Global E-Commerce Platform Engineer: Data & AI Powered",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94382143__7119",
+      "reason_code": "exact_official_jd_and_route_unverified",
+      "evidence_note": "WhatJobs metadata only; verify actual TikTok official requisition, substantive ML/AI engineering ownership versus e-commerce data platform, experience/cohort, SG work pass and direct application route.",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T08:00:00+08:00"
+    },
+    {
+      "candidate_seq": 920,
+      "role_key": "freehire:backend-engineer-build-scalable-systems-ml-ready-apps-sembly-qi3gyjp6",
+      "company": "Sembly",
+      "title": "Backend Engineer: Build Scalable Systems & ML-Ready Apps",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94381597__7119",
+      "reason_code": "exact_official_jd_and_route_unverified",
+      "evidence_note": "WhatJobs metadata only; verify employer identity and exact authoritative JD, whether ML-ready means substantive AI system ownership, realistic 0–3 YOE, SG pass and direct application route.",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T08:00:00+08:00"
     }
   ]
 }
