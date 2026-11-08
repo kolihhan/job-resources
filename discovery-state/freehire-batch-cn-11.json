@@ -2,64 +2,14 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 6,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ml",
-        "jd:machine_learning",
-        "jd:multimodal"
+        "title:ai"
       ],
-      "candidate_seq": 2628,
-      "company": "Unity",
-      "employment_type": null,
-      "external_id": "unitytech.wd1.myworkdayjobs.com/Unity:/job/Beijing-China/Senior-Machine-Learning-Engineer--Content-Understanding---Moderation_JOBREQ-2616594",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing, China",
-      "market": "CN",
-      "posted_at": "2026-09-15T00:00:00Z",
-      "public_slug": "senior-machine-learning-engineer-content-understanding-moderation-unity-qsru3vjl",
-      "role_key": "freehire:senior-machine-learning-engineer-content-understanding-moderation-unity-qsru3vjl",
-      "source": "workday",
-      "source_url": "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Beijing-China/Senior-Machine-Learning-Engineer--Content-Understanding---Moderation_JOBREQ-2616594?utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer, Content Understanding & Moderation"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:rag",
-        "jd:tensorflow"
-      ],
-      "candidate_seq": 2629,
-      "company": "Bosch Group",
-      "employment_type": null,
-      "external_id": "boschgroup:744000147869701",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Suzhou, Jiangsu, cn",
-      "market": "CN",
-      "posted_at": "2026-09-07T08:53:40Z",
-      "public_slug": "gong-ye-ai-shu-ju-ke-xue-jia-vm-bosch-group-6zircecg",
-      "role_key": "freehire:gong-ye-ai-shu-ju-ke-xue-jia-vm-bosch-group-6zircecg",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000147869701--ai-vm?utm_source=freehire.me",
-      "title": "工业 AI 数据科学家_VM"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:evaluation"
-      ],
-      "candidate_seq": 2630,
+      "candidate_seq": 2938,
       "company": "NVIDIA",
-      "employment_type": null,
-      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-AI-Model-Test-Developer--SDET_JR2025044",
+      "employment_type": "full_time",
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-Software-Engineer---AI-Networking_JR2029073",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -69,120 +19,138 @@
       "known_status": "unseen",
       "location": "China, Shanghai",
       "market": "CN",
-      "posted_at": "2026-09-07T00:00:00Z",
-      "public_slug": "senior-ai-model-test-developer-sdet-nvidia-ygl2rryo",
-      "role_key": "freehire:senior-ai-model-test-developer-sdet-nvidia-ygl2rryo",
+      "posted_at": "2026-11-04T00:00:00Z",
+      "public_slug": "senior-software-engineer-ai-networking-nvidia-ccnw45zy",
+      "role_key": "freehire:senior-software-engineer-ai-networking-nvidia-ccnw45zy",
       "source": "workday",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-AI-Model-Test-Developer--SDET_JR2025044?utm_source=freehire.me",
-      "title": "Senior AI Model Test Developer, SDET"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:deep_learning",
-        "jd:nlp"
-      ],
-      "candidate_seq": 2631,
-      "company": "RELX",
-      "employment_type": null,
-      "external_id": "relx.wd3.myworkdayjobs.com/relx:/job/Shanghai_Tianshan/Senior-Data-Scientist-III_R113309-1",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai_Tianshan",
-      "market": "CN",
-      "posted_at": "2026-06-15T00:00:00Z",
-      "public_slug": "senior-data-scientist-iii-relx-wqshqzu2",
-      "role_key": "freehire:senior-data-scientist-iii-relx-wqshqzu2",
-      "source": "workday",
-      "source_url": "https://relx.wd3.myworkdayjobs.com/relx/job/Shanghai_Tianshan/Senior-Data-Scientist-III_R113309-1?utm_source=freehire.me",
-      "title": "Senior Data Scientist III"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 2632,
-      "company": "Zoom",
-      "employment_type": null,
-      "external_id": "zoom.wd5.myworkdayjobs.com/cn:/job/Hangzhou-CHN/AI-Engineer_R18967",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou (CHN)",
-      "market": "CN",
-      "posted_at": "2026-04-09T00:00:00Z",
-      "public_slug": "ai-engineer-zoom-l3avmriv",
-      "role_key": "freehire:ai-engineer-zoom-l3avmriv",
-      "source": "workday",
-      "source_url": "https://zoom.wd5.myworkdayjobs.com/cn/job/Hangzhou-CHN/AI-Engineer_R18967?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:llm"
-      ],
-      "candidate_seq": 2633,
-      "company": "Zoom",
-      "employment_type": null,
-      "external_id": "zoom.wd5.myworkdayjobs.com/cn:/job/Hangzhou-CHN/Machine-Learning-Engineer_R18252-1",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou (CHN)",
-      "market": "CN",
-      "posted_at": "2026-01-23T00:00:00Z",
-      "public_slug": "machine-learning-engineer-zoom-3jtczagt",
-      "role_key": "freehire:machine-learning-engineer-zoom-3jtczagt",
-      "source": "workday",
-      "source_url": "https://zoom.wd5.myworkdayjobs.com/cn/job/Hangzhou-CHN/Machine-Learning-Engineer_R18252-1?utm_source=freehire.me",
-      "title": "Machine Learning Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:machine_learning",
-        "jd:nlp"
-      ],
-      "candidate_seq": 2634,
-      "company": "RELX",
-      "employment_type": null,
-      "external_id": "relx.wd3.myworkdayjobs.com/relx:/job/Shanghai_Tianshan/Senior-Data-Scientist-I_R101037-1",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai_Tianshan",
-      "market": "CN",
-      "posted_at": "2025-09-12T00:00:00Z",
-      "public_slug": "senior-data-scientist-i-relx-qlmqejc6",
-      "role_key": "freehire:senior-data-scientist-i-relx-qlmqejc6",
-      "source": "workday",
-      "source_url": "https://relx.wd3.myworkdayjobs.com/relx/job/Shanghai_Tianshan/Senior-Data-Scientist-I_R101037-1?utm_source=freehire.me",
-      "title": "Senior Data Scientist I"
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer---AI-Networking_JR2029073?utm_source=freehire.me",
+      "title": "Senior Software Engineer - AI Networking"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ml"
+        "title:agent"
       ],
-      "candidate_seq": 2635,
-      "company": "SoundHound AI",
+      "candidate_seq": 2939,
+      "company": "Caterpillar Inc.",
       "employment_type": "full_time",
-      "external_id": ":pqekn89tt3",
+      "external_id": "cat.wd5.myworkdayjobs.com/CaterpillarCareers:/job/Wuxi-Jiangsu/Autonomy-Operation-Agent-Engineer_R0000403253",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Wuxi, Jiangsu",
+      "market": "CN",
+      "posted_at": "2026-11-04T00:00:00Z",
+      "public_slug": "autonomy-operation-agent-engineer-caterpillar-inc-dzyjhvni",
+      "role_key": "freehire:autonomy-operation-agent-engineer-caterpillar-inc-dzyjhvni",
+      "source": "workday",
+      "source_url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Wuxi-Jiangsu/Autonomy-Operation-Agent-Engineer_R0000403253?utm_source=freehire.me",
+      "title": "Autonomy Operation Agent Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2940,
+      "company": "Caterpillar Inc.",
+      "employment_type": "full_time",
+      "external_id": "cat.wd5.myworkdayjobs.com/CaterpillarCareers:/job/Wuxi-Jiangsu/AI-Platform-Engineer_R0000403201",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Wuxi, Jiangsu",
+      "market": "CN",
+      "posted_at": "2026-11-04T00:00:00Z",
+      "public_slug": "ai-platform-engineer-caterpillar-inc-s67zdxhq",
+      "role_key": "freehire:ai-platform-engineer-caterpillar-inc-s67zdxhq",
+      "source": "workday",
+      "source_url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Wuxi-Jiangsu/AI-Platform-Engineer_R0000403201?utm_source=freehire.me",
+      "title": "AI Platform Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2941,
+      "company": "Kaon",
+      "employment_type": null,
+      "external_id": "kaonai.jobs.feishu.cn:7703468673348913450",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-11-02T07:17:54Z",
+      "public_slug": "ai-platform-gong-cheng-shi-kaon-zysmld3s",
+      "role_key": "freehire:ai-platform-gong-cheng-shi-kaon-zysmld3s",
+      "source": "feishujobs",
+      "source_url": "https://kaonai.jobs.feishu.cn/index/position/7703468673348913450/detail?utm_source=freehire.me",
+      "title": "AI Platform 工程师"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2942,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7350493973025163570",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Hangzhou; Shanghai",
+      "market": "CN",
+      "posted_at": "2024-03-26T02:30:51Z",
+      "public_slug": "gao-ji-hou-duan-yan-fa-gong-cheng-shi-dou-bao-bytedance-oks647o7",
+      "role_key": "freehire:gao-ji-hou-duan-yan-fa-gong-cheng-shi-dou-bao-bytedance-oks647o7",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7350493973025163570/detail?utm_source=freehire.me",
+      "title": "AI Agent工程师-豆包"
+    },
+    {
+      "ai_score": 14,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "jd:llm",
+        "jd:genai",
+        "jd:machine_learning",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 2987,
+      "company": "Capco",
+      "employment_type": "full_time",
+      "external_id": "capco:8358340",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China - Hong Kong",
+      "market": "CN",
+      "posted_at": "2026-11-06T08:45:01Z",
+      "public_slug": "ai-ml-engineer-banking-capco-eyg3ekws",
+      "role_key": "freehire:ai-ml-engineer-banking-capco-eyg3ekws",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/capco/jobs/8358340?utm_source=freehire.me",
+      "title": "AI & ML Engineer | Banking "
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:genai",
+        "jd:agent"
+      ],
+      "candidate_seq": 2990,
+      "company": "Kong",
+      "employment_type": "full_time",
+      "external_id": "kong:9421a36c-6210-4208-af77-69bd895dad14",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -190,22 +158,43 @@
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "",
+      "location": "Shanghai, China",
       "market": "CN",
-      "posted_at": "2026-10-08T12:29:16Z",
-      "public_slug": "senior-machine-learning-engineer-auto-soundhound-ai-p65u4n5d",
-      "role_key": "freehire:senior-machine-learning-engineer-auto-soundhound-ai-p65u4n5d",
-      "source": "arc",
-      "source_url": "https://arc.dev/remote-jobs/j/soundhound-ai-senior-machine-learning-engineer-auto-pqekn89tt3?utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer, Auto+"
+      "posted_at": "2026-10-23T06:32:30Z",
+      "public_slug": "senior-software-engineer-ai-gateway-shanghai-kong-du3lvvcq",
+      "role_key": "freehire:senior-software-engineer-ai-gateway-shanghai-kong-du3lvvcq",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/kong/9421a36c-6210-4208-af77-69bd895dad14?utm_source=freehire.me",
+      "title": "Senior Software Engineer, AI Gateway - Shanghai"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2992,
+      "company": "DXC Technology",
+      "employment_type": "full_time",
+      "external_id": "dxctechnology.wd1.myworkdayjobs.com/dxcjobs:/job/CHN---SHANGHAI/AI-engineer_51589744",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "CHN - SHANGHAI",
+      "market": "CN",
+      "posted_at": "2026-11-06T00:00:00Z",
+      "public_slug": "ai-engineer-dxc-technology-hi5ieno7",
+      "role_key": "freehire:ai-engineer-dxc-technology-hi5ieno7",
+      "source": "workday",
+      "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/CHN---SHANGHAI/AI-engineer_51589744?utm_source=freehire.me",
+      "title": "AI engineer"
     }
   ],
-  "generated_at": "2026-11-08T19:11:37.194894Z",
+  "generated_at": "2026-11-08T23:11:50.606593Z",
   "market": "CN",
-  "max_candidate_seq": 2635,
-  "min_candidate_seq": 2628,
+  "max_candidate_seq": 2992,
+  "min_candidate_seq": 2938,
   "shard_index": 11,
-  "source_generated_at": "2026-11-07T22:15:23.507158Z",
+  "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

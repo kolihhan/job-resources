@@ -1,201 +1,217 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 993,
-      "company": "Seoulstart",
+      "candidate_seq": 1026,
+      "company": "GVT Government Technology Agency",
       "employment_type": null,
-      "external_id": "data engineer:93955601",
+      "external_id": "data engineer:93973016",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T16:40:12Z",
-      "public_slug": "senior-forward-deployed-engineer-data-ai-apps-seoulstart-45sxw6im",
-      "role_key": "freehire:senior-forward-deployed-engineer-data-ai-apps-seoulstart-45sxw6im",
+      "posted_at": "2026-10-23T17:59:59Z",
+      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
+      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93955601__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Forward-Deployed Engineer: Data & AI Apps"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93973016__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 994,
-      "company": "SNOWFLAKE COMPUTING SINGAPORE PTE. LTD.",
+      "candidate_seq": 1031,
+      "company": "Nanyang Technological University",
       "employment_type": null,
-      "external_id": "data engineer:94034007",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T16:40:12Z",
-      "public_slug": "senior-public-sector-data-ai-solutions-engineer-snowflake-computing-singapore-pte-ltd-yhjkdaym",
-      "role_key": "freehire:senior-public-sector-data-ai-solutions-engineer-snowflake-computing-singapore-pte-ltd-yhjkdaym",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034007__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Public Sector Data & AI Solutions Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 995,
-      "company": "Argyll Scott",
-      "employment_type": null,
-      "external_id": "data engineer:94036734",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T16:40:12Z",
-      "public_slug": "cloud-data-ai-platform-engineer-azure-databricks-argyll-scott-jpcyjeqr",
-      "role_key": "freehire:cloud-data-ai-platform-engineer-azure-databricks-argyll-scott-jpcyjeqr",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036734__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Cloud Data & AI Platform Engineer (Azure & Databricks)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 996,
-      "company": "Argyll Scott",
-      "employment_type": null,
-      "external_id": "data engineer:94030601",
-      "flags": [
-        "experience_5_plus_hint",
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:22Z",
-      "public_slug": "cloud-data-ai-platform-engineer-azure-argyll-scott-fdqhik5p",
-      "role_key": "freehire:cloud-data-ai-platform-engineer-azure-argyll-scott-fdqhik5p",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030601__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Cloud Data & AI Platform Engineer (Azure)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 997,
-      "company": "Secretlab",
-      "employment_type": null,
-      "external_id": "data engineer:94034423",
+      "external_id": "6290:95469345",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "North Region",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:17Z",
-      "public_slug": "data-ai-engineer-build-ai-native-data-pipelines-secretlab-ybuwxw6i",
-      "role_key": "freehire:data-ai-engineer-build-ai-native-data-pipelines-secretlab-ybuwxw6i",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034423__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data & AI Engineer: Build AI-Native Data Pipelines"
+      "posted_at": "2026-10-23T13:48:31Z",
+      "public_slug": "ai-engineer-dev-ops-nanyang-technological-university-gmlx7h5x",
+      "role_key": "freehire:ai-engineer-dev-ops-nanyang-technological-university-gmlx7h5x",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95469345?utm_source=freehire.me",
+      "title": "AI Engineer, Dev Ops"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 998,
-      "company": "Straive",
+      "candidate_seq": 1033,
+      "company": "Micron Semiconductors",
       "employment_type": null,
-      "external_id": "data engineer:94031675",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": "6290:95468494",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:17Z",
-      "public_slug": "senior-cloud-data-ai-engineer-straive-ky2wwwhn",
-      "role_key": "freehire:senior-cloud-data-ai-engineer-straive-ky2wwwhn",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031675__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Cloud Data & AI Engineer"
+      "posted_at": "2026-10-23T12:11:02Z",
+      "public_slug": "ai-engineer-micron-semiconductors-55cs736q",
+      "role_key": "freehire:ai-engineer-micron-semiconductors-55cs736q",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95468494?utm_source=freehire.me",
+      "title": "AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 999,
-      "company": "Land Transport Authority",
+      "candidate_seq": 1034,
+      "company": "Micron Semiconductors",
       "employment_type": null,
-      "external_id": "data engineer:94033839",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": "6290:95468483",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:13Z",
-      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-jhdu2psm",
-      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-jhdu2psm",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033839__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
+      "posted_at": "2026-10-23T12:09:49Z",
+      "public_slug": "ai-engineer-smai-micron-semiconductors-rlcf6oav",
+      "role_key": "freehire:ai-engineer-smai-micron-semiconductors-rlcf6oav",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95468483?utm_source=freehire.me",
+      "title": "AI Engineer, SMAI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1000,
-      "company": "Public Service Division",
+      "candidate_seq": 1040,
+      "company": "OCBC Bank",
       "employment_type": null,
-      "external_id": "data engineer:94034249",
+      "external_id": "6283:95470195",
       "flags": [
-        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T07:30:00Z",
+      "public_slug": "vp-ai-and-data-analyst-ocbc-bank-vy6b5xov",
+      "role_key": "freehire:vp-ai-and-data-analyst-ocbc-bank-vy6b5xov",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95470195?utm_source=freehire.me",
+      "title": "VP, AI and Data Analyst"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1041,
+      "company": "Micron Semiconductors",
+      "employment_type": null,
+      "external_id": "6283:95462297",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T07:15:44Z",
+      "public_slug": "sr-ai-engineer-smai-micron-semiconductors-zhqej7hy",
+      "role_key": "freehire:sr-ai-engineer-smai-micron-semiconductors-zhqej7hy",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95462297?utm_source=freehire.me",
+      "title": "Sr AI Engineer, SMAI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1042,
+      "company": "Plaud",
+      "employment_type": "full_time",
+      "external_id": "plaud:57a36c66-11ae-4e86-9587-987bfaac7fd8",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T07:06:27Z",
+      "public_slug": "machine-learning-engineer-speech-audio-singapore-plaud-flksxegs",
+      "role_key": "freehire:machine-learning-engineer-speech-audio-singapore-plaud-flksxegs",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/Plaud/57a36c66-11ae-4e86-9587-987bfaac7fd8?utm_source=freehire.me",
+      "title": "Machine Learning Engineer (Speech/Audio) - Singapore"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 1043,
+      "company": "MAESTRO HUMAN RESOURCE PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":0b86bb01754cf7284c46b2de02b573b7",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T00:00:00Z",
+      "public_slug": "full-stack-developer-amk-maestro-human-resource-pte-ltd-j7olggcl",
+      "role_key": "freehire:full-stack-developer-amk-maestro-human-resource-pte-ltd-j7olggcl",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/0b86bb01754cf7284c46b2de02b573b7?utm_source=freehire.me",
+      "title": "Full-Stack Developer (AMK)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1044,
+      "company": "Micron",
+      "employment_type": null,
+      "external_id": "careers.micron.com/micron.com:43785707",
+      "flags": [
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:13Z",
-      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-public-service-division-ryrph4j3",
-      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-public-service-division-ryrph4j3",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034249__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
+      "posted_at": "2026-10-23T00:00:00Z",
+      "public_slug": "sr-ai-engineer-smai-micron-qnnzckwk",
+      "role_key": "freehire:sr-ai-engineer-smai-micron-qnnzckwk",
+      "source": "eightfold",
+      "source_url": "https://careers.micron.com/careers/job/43785707?utm_source=freehire.me",
+      "title": "Sr AI Engineer, SMAI"
     }
   ],
-  "generated_at": "2026-11-08T19:11:37.194894Z",
+  "generated_at": "2026-11-08T23:11:50.606593Z",
   "market": "SG",
-  "max_candidate_seq": 1000,
-  "min_candidate_seq": 993,
+  "max_candidate_seq": 1044,
+  "min_candidate_seq": 1026,
   "shard_index": 14,
-  "source_generated_at": "2026-11-07T22:15:23.507158Z",
+  "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

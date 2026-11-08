@@ -4,172 +4,33 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:agent"
       ],
-      "candidate_seq": 1017,
-      "company": "PERSOL SINGAPORE PTE. LTD.",
+      "candidate_seq": 1067,
+      "company": "Baiwu (HK) International Limited",
       "employment_type": null,
-      "external_id": "devops engineer:94033262",
+      "external_id": "6283:95409074",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Central Region",
       "market": "SG",
-      "posted_at": "2026-10-25T12:40:25Z",
-      "public_slug": "ai-powered-devops-engineer-ci-cd-observability-persol-singapore-pte-ltd-3y6b67ry",
-      "role_key": "freehire:ai-powered-devops-engineer-ci-cd-observability-persol-singapore-pte-ltd-3y6b67ry",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033262__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered DevOps Engineer: CI/CD & Observability"
+      "posted_at": "2026-10-21T07:45:43Z",
+      "public_slug": "junior-it-business-analyst-qa-agile-delivery-agentic-management-r10483-baiwu-hk-international-limited-ltygk355",
+      "role_key": "freehire:junior-it-business-analyst-qa-agile-delivery-agentic-management-r10483-baiwu-hk-international-limited-ltygk355",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95409074?utm_source=freehire.me",
+      "title": "Junior IT Business Analyst (QA/ Agile Delivery/ Agentic management)(R10483)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1018,
-      "company": "Helius Technologies",
+      "candidate_seq": 1068,
+      "company": "GovTech ",
       "employment_type": null,
-      "external_id": "backend developer:94031632",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:40:22Z",
-      "public_slug": "senior-backend-developer-ai-ops-automation-banking-helius-technologies-fh4t7hes",
-      "role_key": "freehire:senior-backend-developer-ai-ops-automation-banking-helius-technologies-fh4t7hes",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031632__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Developer - AI Ops & Automation (Banking)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1019,
-      "company": "ST ENGINEERING MANAGEMENT SERVICES PTE. LTD.",
-      "employment_type": null,
-      "external_id": "java developer:94036343",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:40:14Z",
-      "public_slug": "senior-java-engineer-ai-cloud-native-platforms-st-engineering-management-services-pte-ltd-4inizzb4",
-      "role_key": "freehire:senior-java-engineer-ai-cloud-native-platforms-st-engineering-management-services-pte-ltd-4inizzb4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036343__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Java Engineer - AI & Cloud-Native Platforms"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1020,
-      "company": "CYBERLABS AI PTE. LTD.",
-      "employment_type": null,
-      "external_id": "react developer:94022814",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:40:08Z",
-      "public_slug": "ai-driven-full-stack-developer-react-python-cyberlabs-ai-pte-ltd-hpptonxq",
-      "role_key": "freehire:ai-driven-full-stack-developer-react-python-cyberlabs-ai-pte-ltd-hpptonxq",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94022814__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full-Stack Developer (React/Python)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1021,
-      "company": "ByteDance (old)",
-      "employment_type": null,
-      "external_id": "backend developer:93160448",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-24T18:03:19Z",
-      "public_slug": "backend-engineer-machine-learning-storage-infra-singapore-technology-backend-singapore-regular-bytedance-old-bzlzrpml",
-      "role_key": "freehire:backend-engineer-machine-learning-storage-infra-singapore-technology-backend-singapore-regular-bytedance-old-bzlzrpml",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93160448__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer - Machine Learning Storage Infra (Singapore) Technology - Backend Singapore Regular"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1022,
-      "company": "SAP",
-      "employment_type": "full_time",
-      "external_id": "careers.sap.com:1452975433",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, SG, 117440",
-      "market": "SG",
-      "posted_at": "2026-10-24T00:00:00Z",
-      "public_slug": "forward-deployed-senior-ai-engineer-careers-sap-com-4huciret",
-      "role_key": "freehire:forward-deployed-senior-ai-engineer-careers-sap-com-4huciret",
-      "source": "successfactors",
-      "source_url": "https://careers.sap.com/job/Singapore-Forward-Deployed-Senior-AI-Engineer-117440/1452975433/?utm_source=freehire.me",
-      "title": "Forward Deployed Senior AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1023,
-      "company": "Singtel",
-      "employment_type": null,
-      "external_id": "groupcareers.singtel.com:1327769266",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-24T00:00:00Z",
-      "public_slug": "senior-ai-data-engineer-aida-singtel-qgitp5p7",
-      "role_key": "freehire:senior-ai-data-engineer-aida-singtel-qgitp5p7",
-      "source": "successfactors",
-      "source_url": "https://groupcareers.singtel.com/job/Senior-AI-Data-Engineer-AIDA-Sing/1327769266/?utm_source=freehire.me",
-      "title": "Senior AI Data Engineer #AIDA"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1026,
-      "company": "GVT Government Technology Agency",
-      "employment_type": null,
-      "external_id": "data engineer:93973016",
+      "external_id": "govtech:4004456201",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -178,20 +39,153 @@
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-23T17:59:59Z",
-      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
-      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
+      "posted_at": "2026-11-03T02:38:57Z",
+      "public_slug": "software-engineer-senior-software-engineer-ai-products-platform-ministry-of-education-govtech-23z7s7d4",
+      "role_key": "freehire:software-engineer-senior-software-engineer-ai-products-platform-ministry-of-education-govtech-23z7s7d4",
+      "source": "greenhouse",
+      "source_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4004456201?gh_jid=4004456201&utm_source=freehire.me",
+      "title": " Software Engineer / Senior Software Engineer, AI Products & Platform, Ministry of Education "
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1069,
+      "company": "GovTech ",
+      "employment_type": null,
+      "external_id": "govtech:4005722201",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-21T06:35:58Z",
+      "public_slug": "senior-software-engineer-ai-programme-govtech-36qdgpng",
+      "role_key": "freehire:senior-software-engineer-ai-programme-govtech-36qdgpng",
+      "source": "greenhouse",
+      "source_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4005722201?gh_jid=4005722201&utm_source=freehire.me",
+      "title": "Senior/ Software Engineer, AI Programme"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1070,
+      "company": "HELIUS TECHNOLOGIES PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":6c6e006f9217856b507a5a0722806fc6",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-21T00:00:00Z",
+      "public_slug": "senior-technical-consultant-backend-ai-ops-automation-helius-technologies-pte-ltd-qnv4eteo",
+      "role_key": "freehire:senior-technical-consultant-backend-ai-ops-automation-helius-technologies-pte-ltd-qnv4eteo",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/6c6e006f9217856b507a5a0722806fc6?utm_source=freehire.me",
+      "title": "Senior Technical Consultant — Backend, AI Ops & Automation"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1071,
+      "company": "ALLINTON ENGINEERING & TRADING PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":1c748daec360feb9f0007d8efbbd7b40",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-21T00:00:00Z",
+      "public_slug": "ai-engineer-allinton-engineering-trading-pte-ltd-iazd3qu6",
+      "role_key": "freehire:ai-engineer-allinton-engineering-trading-pte-ltd-iazd3qu6",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/1c748daec360feb9f0007d8efbbd7b40?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1072,
+      "company": "ARYAN SOLUTIONS PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":f1f63970ca85b067d2cf11a91fe63a01",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-21T00:00:00Z",
+      "public_slug": "forward-deployed-engineer-ai-platform-solutions-aryan-solutions-pte-ltd-zypshtg6",
+      "role_key": "freehire:forward-deployed-engineer-ai-platform-solutions-aryan-solutions-pte-ltd-zypshtg6",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/f1f63970ca85b067d2cf11a91fe63a01?utm_source=freehire.me",
+      "title": "Forward Deployed Engineer – AI Platform & Solutions"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1080,
+      "company": "AI Lab Technologies Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "full stack developer:93826947",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-20T21:13:30Z",
+      "public_slug": "ai-full-stack-engineer-freshers-welcome-real-world-ai-ai-lab-technologies-pte-ltd-6rospler",
+      "role_key": "freehire:ai-full-stack-engineer-freshers-welcome-real-world-ai-ai-lab-technologies-pte-ltd-6rospler",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93973016__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93826947__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Full-Stack Engineer — Freshers Welcome, Real-World AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1085,
+      "company": "VAST Data",
+      "employment_type": null,
+      "external_id": "vastdata/43.001:91.475",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Tel Aviv-Yafo, Tel Aviv District",
+      "market": "SG",
+      "posted_at": "2026-10-20T09:18:11Z",
+      "public_slug": "network-engineer-ai-infrastructure-rdma-storage-vast-data-uxfryiuq",
+      "role_key": "freehire:network-engineer-ai-infrastructure-rdma-storage-vast-data-uxfryiuq",
+      "source": "comeet",
+      "source_url": "https://www.comeet.com/jobs/vastdata/43.001/network-engineer---ai-infrastructure-rdma--storage/91.475?utm_source=freehire.me",
+      "title": "Network Engineer - AI Infrastructure, RDMA & Storage"
     }
   ],
-  "generated_at": "2026-11-08T19:11:37.194894Z",
+  "generated_at": "2026-11-08T23:11:50.606593Z",
   "market": "SG",
-  "max_candidate_seq": 1026,
-  "min_candidate_seq": 1017,
+  "max_candidate_seq": 1085,
+  "min_candidate_seq": 1067,
   "shard_index": 17,
-  "source_generated_at": "2026-11-07T22:15:23.507158Z",
+  "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

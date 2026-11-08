@@ -1,57 +1,15 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 889,
-      "company": "VIZZIO TECHNOLOGIES PTE. LTD.",
+      "candidate_seq": 924,
+      "company": "virtuos holdings pte. ltd.",
       "employment_type": null,
-      "external_id": "full stack developer:94637842",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:50Z",
-      "public_slug": "ai-native-full-stack-engineer-for-real-time-3d-dashboards-vizzio-technologies-pte-ltd-hpum3juf",
-      "role_key": "freehire:ai-native-full-stack-engineer-for-real-time-3d-dashboards-vizzio-technologies-pte-ltd-hpum3juf",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637842__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Native Full Stack Engineer for Real-Time 3D Dashboards"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 890,
-      "company": "HELIUS TECHNOLOGIES PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:94638470",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T10:40:41Z",
-      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-iljqery7",
-      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-iljqery7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94638470__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Developer - AI and Cloud-Native Applications"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 891,
-      "company": "Deel",
-      "employment_type": null,
-      "external_id": "data engineer:92790550",
+      "external_id": "backend developer:94380568",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -60,129 +18,199 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-01T08:39:45Z",
-      "public_slug": "senior-data-platform-engineer-scalable-analytics-ai-deel-vj4abgxs",
-      "role_key": "freehire:senior-data-platform-engineer-scalable-analytics-ai-deel-vj4abgxs",
+      "posted_at": "2026-10-29T16:41:37Z",
+      "public_slug": "senior-ai-driven-backend-engineer-virtuos-holdings-pte-ltd-stu3plus",
+      "role_key": "freehire:senior-ai-driven-backend-engineer-virtuos-holdings-pte-ltd-stu3plus",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92790550__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Platform Engineer: Scalable Analytics & AI"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380568__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI-Driven Backend Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 892,
-      "company": "FONTES SINGAPORE PRIVATE LIMITED",
+      "candidate_seq": 925,
+      "company": "Synthires",
       "employment_type": null,
-      "external_id": ":507cf41586d8f63087c298d6eb554858",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-01T00:00:00Z",
-      "public_slug": "embedded-ai-engineer-fontes-singapore-private-limited-ombezow5",
-      "role_key": "freehire:embedded-ai-engineer-fontes-singapore-private-limited-ombezow5",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/507cf41586d8f63087c298d6eb554858?utm_source=freehire.me",
-      "title": "Embedded AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
+      "external_id": "backend developer:94383740",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
       ],
-      "candidate_seq": 893,
-      "company": "Centre for Strategic Infocomm Technologies",
-      "employment_type": null,
-      "external_id": "data engineer:94536496",
-      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T14:39:12Z",
-      "public_slug": "software-engineer-ai-driven-enterprise-data-tech-centre-for-strategic-infocomm-technologies-rdif4mjd",
-      "role_key": "freehire:software-engineer-ai-driven-enterprise-data-tech-centre-for-strategic-infocomm-technologies-rdif4mjd",
+      "posted_at": "2026-10-29T16:41:37Z",
+      "public_slug": "senior-backend-engineer-for-ai-coding-tasks-testing-synthires-5c7q2cmo",
+      "role_key": "freehire:senior-backend-engineer-for-ai-coding-tasks-testing-synthires-5c7q2cmo",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94536496__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Software Engineer - AI-Driven Enterprise Data Tech"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94383740__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer for AI Coding Tasks & Testing"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 894,
-      "company": "INCUBE8 PTE. LTD.",
+      "candidate_seq": 926,
+      "company": "ScienTec Consulting Pte. Ltd.",
       "employment_type": null,
-      "external_id": "devops engineer:94535046",
-      "flags": [],
+      "external_id": "backend developer:94380592",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T12:39:49Z",
-      "public_slug": "ai-driven-aws-devops-engineer-hybrid-terraform-incube8-pte-ltd-eukfdirt",
-      "role_key": "freehire:ai-driven-aws-devops-engineer-hybrid-terraform-incube8-pte-ltd-eukfdirt",
+      "posted_at": "2026-10-29T16:41:33Z",
+      "public_slug": "senior-backend-engineer-python-ai-apis-scientec-consulting-pte-ltd-i25ffrxx",
+      "role_key": "freehire:senior-backend-engineer-python-ai-apis-scientec-consulting-pte-ltd-i25ffrxx",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94535046__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven AWS DevOps Engineer | Hybrid & Terraform"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380592__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer - Python & AI APIs"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ml"
       ],
-      "candidate_seq": 896,
-      "company": "ZHONG QI FUTURE (SINGAPORE) PTE. LTD.",
+      "candidate_seq": 927,
+      "company": "Keysight Technologies Singapore (Sales) Pte. Ltd....-",
       "employment_type": null,
-      "external_id": ":7f37f86b2047615d90f01fb8c30e8cb1",
+      "external_id": "6290:95585447",
       "flags": [
-        "agency_or_outstaff_hint"
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-31T00:00:00Z",
-      "public_slug": "devsecops-ml-ops-engineer-zhong-qi-future-singapore-pte-ltd-46vgm5rw",
-      "role_key": "freehire:devsecops-ml-ops-engineer-zhong-qi-future-singapore-pte-ltd-46vgm5rw",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/7f37f86b2047615d90f01fb8c30e8cb1?utm_source=freehire.me",
-      "title": "DevSecOps / ML Ops Engineer"
+      "posted_at": "2026-10-29T12:51:28Z",
+      "public_slug": "machine-learning-engineer-keysight-technologies-singapore-sales-pte-ltd-7agdoows",
+      "role_key": "freehire:machine-learning-engineer-keysight-technologies-singapore-sales-pte-ltd-7agdoows",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95585447?utm_source=freehire.me",
+      "title": "Machine Learning Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 897,
-      "company": "Cubist Systematic Strategies",
+      "candidate_seq": 928,
+      "company": "1011 United Overseas Bank Ltd",
       "employment_type": null,
-      "external_id": "point72:8630027002",
+      "external_id": "data engineer:94304228",
       "flags": [
-        "visa_hint"
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-11-05T19:17:39Z",
-      "public_slug": "ai-product-analyst-market-intelligence-singapore-cubist-systematic-strategies-5ag34qow",
-      "role_key": "freehire:ai-product-analyst-market-intelligence-singapore-cubist-systematic-strategies-5ag34qow",
-      "source": "greenhouse",
-      "source_url": "https://boards.greenhouse.io/point72/jobs/8630027002?gh_jid=8630027002&utm_source=freehire.me",
-      "title": "AI Product Analyst, Market Intelligence, Singapore"
+      "posted_at": "2026-10-29T12:42:20Z",
+      "public_slug": "senior-data-engineer-real-time-lakehouse-ai-data-1011-united-overseas-bank-ltd-eadydwit",
+      "role_key": "freehire:senior-data-engineer-real-time-lakehouse-ai-data-1011-united-overseas-bank-ltd-eadydwit",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94304228__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Senior Data Engineer: Real‑Time Lakehouse & AI Data"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 929,
+      "company": "OCBC Bank",
+      "employment_type": null,
+      "external_id": "data engineer:94264815",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T12:42:03Z",
+      "public_slug": "avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-gllnl2kq",
+      "role_key": "freehire:avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-gllnl2kq",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94264815__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "AVP Data Engineer - Enterprise Data & AI Platforms"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 930,
+      "company": "OCBC Bank",
+      "employment_type": null,
+      "external_id": "6290:95586970",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T09:00:00Z",
+      "public_slug": "mgr-ai-engineer-group-audit-ocbc-bank-wwgjqq6m",
+      "role_key": "freehire:mgr-ai-engineer-group-audit-ocbc-bank-wwgjqq6m",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95586970?utm_source=freehire.me",
+      "title": "MGR, AI Engineer, Group Audit"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 931,
+      "company": "PEOPLESEARCH PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":3acd785ff4480086bf6e8fa3d2d326e7",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "full-stack-ai-engineer-peoplesearch-pte-ltd-oynr3jo5",
+      "role_key": "freehire:full-stack-ai-engineer-peoplesearch-pte-ltd-oynr3jo5",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/3acd785ff4480086bf6e8fa3d2d326e7?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 932,
+      "company": "HRNET VENTURES PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":7ad65f6c8eedb01bcad161bebdd85fb1",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T00:00:00Z",
+      "public_slug": "full-stack-ai-engineer-hrnet-ventures-pte-ltd-bno3juac",
+      "role_key": "freehire:full-stack-ai-engineer-hrnet-ventures-pte-ltd-bno3juac",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/7ad65f6c8eedb01bcad161bebdd85fb1?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
     }
   ],
-  "generated_at": "2026-11-08T19:11:37.194894Z",
+  "generated_at": "2026-11-08T23:11:50.606593Z",
   "market": "SG",
-  "max_candidate_seq": 897,
-  "min_candidate_seq": 889,
+  "max_candidate_seq": 932,
+  "min_candidate_seq": 924,
   "shard_index": 2,
-  "source_generated_at": "2026-11-07T22:15:23.507158Z",
+  "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

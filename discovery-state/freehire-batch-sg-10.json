@@ -1,210 +1,197 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 958,
-      "company": "NCS Group",
+      "candidate_seq": 991,
+      "company": "Actelligent",
       "employment_type": null,
-      "external_id": "6297:95529149",
+      "external_id": "data engineer:93999589",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T09:03:51Z",
-      "public_slug": "ai-systems-engineer-infra-cyber-ncs-group-btc3yasq",
-      "role_key": "freehire:ai-systems-engineer-infra-cyber-ncs-group-btc3yasq",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95529149?utm_source=freehire.me",
-      "title": "AI Systems Engineer (Infra Cyber)"
+      "posted_at": "2026-10-25T16:40:14Z",
+      "public_slug": "fintech-systems-engineer-ai-infra-data-pipelines-actelligent-uuu6s3pt",
+      "role_key": "freehire:fintech-systems-engineer-ai-infra-data-pipelines-actelligent-uuu6s3pt",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93999589__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "FinTech Systems Engineer: AI Infra & Data Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 959,
-      "company": "ncs3",
+      "candidate_seq": 992,
+      "company": "ARGYLL SCOTT CONSULTING PTE. LTD.",
       "employment_type": null,
-      "external_id": "ncs3:6000000001526033",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-27T09:03:51Z",
-      "public_slug": "ai-systems-engineer-infra-cyber-ncs3-xrxvqdyx",
-      "role_key": "freehire:ai-systems-engineer-infra-cyber-ncs3-xrxvqdyx",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001526033-ai-systems-engineer-infra-cyber-?utm_source=freehire.me",
-      "title": "AI Systems Engineer (Infra Cyber)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 960,
-      "company": "NAS Education",
-      "employment_type": null,
-      "external_id": "6290:95530420",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "West Region",
-      "market": "SG",
-      "posted_at": "2026-10-27T08:37:23Z",
-      "public_slug": "ai-product-engineer-fullstack-nas-education-tnxdzzfs",
-      "role_key": "freehire:ai-product-engineer-fullstack-nas-education-tnxdzzfs",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95530420?utm_source=freehire.me",
-      "title": "AI Product Engineer (Fullstack)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 961,
-      "company": "Temus",
-      "employment_type": null,
-      "external_id": "temus:5233697008",
+      "external_id": "data engineer:94033997",
       "flags": [
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T08:14:59Z",
-      "public_slug": "ai-engineer-temus-guabri3i",
-      "role_key": "freehire:ai-engineer-temus-guabri3i",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/temus/jobs/5233697008?utm_source=freehire.me",
-      "title": "AI Engineer"
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "azure-data-ai-platform-engineer-build-scalable-pipelines-argyll-scott-consulting-pte-ltd-bfm6sy4v",
+      "role_key": "freehire:azure-data-ai-platform-engineer-build-scalable-pipelines-argyll-scott-consulting-pte-ltd-bfm6sy4v",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033997__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Azure Data & AI Platform Engineer — Build Scalable Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 962,
-      "company": "Gramian Consulting Group",
+      "candidate_seq": 993,
+      "company": "Seoulstart",
       "employment_type": null,
-      "external_id": "6287:95525597",
+      "external_id": "data engineer:93955601",
       "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-27T07:37:14Z",
-      "public_slug": "rust-backend-architect-ai-training-projects-gramian-consulting-group-yxo4qt7s",
-      "role_key": "freehire:rust-backend-architect-ai-training-projects-gramian-consulting-group-yxo4qt7s",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95525597?utm_source=freehire.me",
-      "title": "Rust Backend Architect - AI Training Projects"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 963,
-      "company": "DADACONSULTANTS PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":03fb427f94825f00334f4aee68e1a21a",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "amr-robotics-software-engineer-leading-ai-solutions-firm-amr-smart-retail-ros-agv-dadaconsultants-pte-ltd-hsv4mny3",
-      "role_key": "freehire:amr-robotics-software-engineer-leading-ai-solutions-firm-amr-smart-retail-ros-agv-dadaconsultants-pte-ltd-hsv4mny3",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/03fb427f94825f00334f4aee68e1a21a?utm_source=freehire.me",
-      "title": "AMR Robotics Software Engineer - Leading AI solutions firm (AMR/Smart retail/ROS/AGV)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 964,
-      "company": "TIKTOK PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":dc6dfe9bef00863558c995845c72828b",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "fullstack-software-engineer-ai-engineering-tiktok-live-revenue-tiktok-global-live-tiktok-pte-ltd-5mo2ovsv",
-      "role_key": "freehire:fullstack-software-engineer-ai-engineering-tiktok-live-revenue-tiktok-global-live-tiktok-pte-ltd-5mo2ovsv",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/dc6dfe9bef00863558c995845c72828b?utm_source=freehire.me",
-      "title": "Fullstack Software Engineer (AI Engineering) - TikTok Live Revenue - TikTok Global Live"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 965,
-      "company": "Micron",
-      "employment_type": null,
-      "external_id": "careers.micron.com/micron.com:45138236",
-      "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "sr-ai-engineer-smai-micron-gx42rql2",
-      "role_key": "freehire:sr-ai-engineer-smai-micron-gx42rql2",
-      "source": "eightfold",
-      "source_url": "https://careers.micron.com/careers/job/45138236?utm_source=freehire.me",
-      "title": "Sr AI Engineer, SMAI"
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "senior-forward-deployed-engineer-data-ai-apps-seoulstart-45sxw6im",
+      "role_key": "freehire:senior-forward-deployed-engineer-data-ai-apps-seoulstart-45sxw6im",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93955601__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Forward-Deployed Engineer: Data & AI Apps"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 966,
-      "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
+      "candidate_seq": 994,
+      "company": "SNOWFLAKE COMPUTING SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": ":3b74529261c8ac7e96c94fdebac91c58",
+      "external_id": "data engineer:94034007",
       "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "sr-ai-engineer-smai-micron-semiconductor-asia-operations-pte-ltd-nloggtq4",
-      "role_key": "freehire:sr-ai-engineer-smai-micron-semiconductor-asia-operations-pte-ltd-nloggtq4",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/3b74529261c8ac7e96c94fdebac91c58?utm_source=freehire.me",
-      "title": "Sr AI Engineer, SMAI"
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "senior-public-sector-data-ai-solutions-engineer-snowflake-computing-singapore-pte-ltd-yhjkdaym",
+      "role_key": "freehire:senior-public-sector-data-ai-solutions-engineer-snowflake-computing-singapore-pte-ltd-yhjkdaym",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034007__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Public Sector Data & AI Solutions Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 995,
+      "company": "Argyll Scott",
+      "employment_type": null,
+      "external_id": "data engineer:94036734",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "cloud-data-ai-platform-engineer-azure-databricks-argyll-scott-jpcyjeqr",
+      "role_key": "freehire:cloud-data-ai-platform-engineer-azure-databricks-argyll-scott-jpcyjeqr",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036734__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Cloud Data & AI Platform Engineer (Azure & Databricks)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 996,
+      "company": "Argyll Scott",
+      "employment_type": null,
+      "external_id": "data engineer:94030601",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T12:41:22Z",
+      "public_slug": "cloud-data-ai-platform-engineer-azure-argyll-scott-fdqhik5p",
+      "role_key": "freehire:cloud-data-ai-platform-engineer-azure-argyll-scott-fdqhik5p",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030601__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Cloud Data & AI Platform Engineer (Azure)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 997,
+      "company": "Secretlab",
+      "employment_type": null,
+      "external_id": "data engineer:94034423",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T12:41:17Z",
+      "public_slug": "data-ai-engineer-build-ai-native-data-pipelines-secretlab-ybuwxw6i",
+      "role_key": "freehire:data-ai-engineer-build-ai-native-data-pipelines-secretlab-ybuwxw6i",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034423__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data & AI Engineer: Build AI-Native Data Pipelines"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 998,
+      "company": "Straive",
+      "employment_type": null,
+      "external_id": "data engineer:94031675",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T12:41:17Z",
+      "public_slug": "senior-cloud-data-ai-engineer-straive-ky2wwwhn",
+      "role_key": "freehire:senior-cloud-data-ai-engineer-straive-ky2wwwhn",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031675__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Cloud Data & AI Engineer"
     }
   ],
-  "generated_at": "2026-11-08T19:11:37.194894Z",
+  "generated_at": "2026-11-08T23:11:50.606593Z",
   "market": "SG",
-  "max_candidate_seq": 966,
-  "min_candidate_seq": 958,
+  "max_candidate_seq": 998,
+  "min_candidate_seq": 991,
   "shard_index": 10,
-  "source_generated_at": "2026-11-07T22:15:23.507158Z",
+  "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

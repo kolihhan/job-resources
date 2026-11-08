@@ -6,54 +6,53 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1137,
-      "company": "Energy Market Authority",
+      "candidate_seq": 1178,
+      "company": "UIC Asian Computer Services Pte Ltd",
       "employment_type": null,
-      "external_id": "6290:95316938",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
+      "external_id": "6290:95245670",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "West Region",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-16T07:40:40Z",
-      "public_slug": "ai-solutions-engineer-energy-market-authority-gucoxzjd",
-      "role_key": "freehire:ai-solutions-engineer-energy-market-authority-gucoxzjd",
+      "posted_at": "2026-10-13T06:53:35Z",
+      "public_slug": "ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
+      "role_key": "freehire:ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95316938?utm_source=freehire.me",
-      "title": "AI Solutions Engineer"
+      "source_url": "https://sg.jobstreet.com/job/95245670?utm_source=freehire.me",
+      "title": "AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1138,
-      "company": "F5 Networks",
+      "candidate_seq": 1179,
+      "company": "UParcel",
       "employment_type": null,
-      "external_id": "6296:95323569",
+      "external_id": "6290:95242605",
       "flags": [
-        "experience_5_plus_hint"
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Central Region",
+      "location": "North-East Region",
       "market": "SG",
-      "posted_at": "2026-10-16T06:33:58Z",
-      "public_slug": "forward-deployed-engineer-ai-security-f5-networks-kpldvo6l",
-      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-networks-kpldvo6l",
+      "posted_at": "2026-10-13T02:23:00Z",
+      "public_slug": "senior-ai-and-software-engineer-uparcel-v4xjvdkz",
+      "role_key": "freehire:senior-ai-and-software-engineer-uparcel-v4xjvdkz",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95323569?utm_source=freehire.me",
-      "title": "Forward Deployed Engineer-AI Security"
+      "source_url": "https://sg.jobstreet.com/job/95242605?utm_source=freehire.me",
+      "title": "Senior AI and Software Engineer"
     }
   ],
-  "generated_at": "2026-11-08T19:11:37.194894Z",
+  "generated_at": "2026-11-08T23:11:50.606593Z",
   "market": "SG",
-  "max_candidate_seq": 1138,
-  "min_candidate_seq": 1137,
+  "max_candidate_seq": 1179,
+  "min_candidate_seq": 1178,
   "shard_index": 25,
-  "source_generated_at": "2026-11-07T22:15:23.507158Z",
+  "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }
