@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T18:15:00+08:00",
+  "updated_at": "2026-11-08T19:10:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3595,6 +3595,43 @@
       "missing_evidence": "Find exact employer-authored HDB role/requisition and complete JD; establish whether GenAI is core work, mandatory Singapore public-service nationality requirements and usable non-MCF route",
       "next_retry_at": "2026-11-09T18:15:00+08:00",
       "attempts": 0
+    },
+    {
+      "candidate_seq": 802,
+      "role_key": "freehire:platform-engineer-machine-learning-cygnify-qht5a6ju",
+      "company": "cygnify",
+      "title": "Platform Engineer (Machine Learning)",
+      "source_url": "https://jobs.ashbyhq.com/cygnify/e8781236-94d2-4f3e-8411-1c761d96f3e6",
+      "reason_code": "official_ashby_404_exact_jd_and_liveness_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T19:10:00+08:00",
+      "missing_evidence": "Employer-authored substantive JD, current requisition and SG sponsorship; Ashby direct URL 404",
+      "next_probe": "Search cygnify official careers/Ashby public job board and exact UUID through independent indexed role detail"
+    },
+    {
+      "candidate_seq": 804,
+      "role_key": "freehire:full-stack-developer-ai-cygnify-7d5jysws",
+      "company": "cygnify",
+      "title": "Full Stack Developer (AI)",
+      "source_url": "https://jobs.ashbyhq.com/cygnify/8b4caac6-95d5-4964-b5c5-1eef092af1c9",
+      "reason_code": "official_ashby_js_shell_no_substantive_jd",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T19:10:00+08:00",
+      "missing_evidence": "Exact full JD, AI technical ownership, liveness and SG work-pass feasibility",
+      "next_probe": "Ashby public posting JSON or employer canonical careers page using UUID"
+    },
+    {
+      "candidate_seq": 808,
+      "role_key": "freehire:backend-engineer-ai-agent-systems-the-gmp-group-6hrtxiz5",
+      "company": "The GMP Group",
+      "title": "Backend Engineer, AI (Agent Systems)",
+      "source_url": "https://www.careers-page.com/gmp-group-2/job/63R9X8Y5",
+      "reason_code": "substantive_recruiter_jd_verified_eligibility_and_route_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T19:10:00+08:00",
+      "missing_evidence": "Recruiter employer identity, role SG location, visa sponsorship/EP or S Pass and targeted Gmail dedupe; application route through recruiter exists",
+      "next_probe": "Verify GMP reference 63R9X8Y5 on gmprecruit.com and employer/visa requirements before CHECK promotion",
+      "jd_evidence": "GMP Manatal full JD: production AI inference/orchestration, LLM/RAG/agents, Python/Node.js, SQL, Docker/Kubernetes; no explicit minimum YOE"
     }
   ]
 }
