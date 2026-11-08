@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T21:15:00+08:00",
+  "updated_at": "2026-11-08T22:03:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3722,6 +3722,28 @@
       "attempts": 0,
       "next_retry_at": "2026-11-09T21:15:00+08:00",
       "new_substantive_evidence": false
+    },
+    {
+      "candidate_seq": 831,
+      "role_key": "freehire:ai-engineer-full-stack-ntu-nncjexoc",
+      "company": "NTU / AI Singapore",
+      "title": "AI Engineer, Full Stack",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Full-Stack_R00024983",
+      "reason_code": "official_jd_verified_eligibility_and_gmail_route_gate_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T22:10:00+08:00",
+      "evidence_note": "Official R00024983: evaluation/annotation tooling, multimodal data platform, 2-3 years full-stack, AWS/GCP deployment; no exact-ID Issue. Need work-pass and targeted Gmail dedupe."
+    },
+    {
+      "candidate_seq": 837,
+      "role_key": "freehire:llm-system-backend-engineer-graduate-aml-ark-2027-start-bytedance-sm5aralv",
+      "company": "ByteDance",
+      "title": "LLM System Backend Engineer Graduate (AML Ark) - 2027 Start",
+      "source_url": "https://jobs.bytedance.com/campus/position/7664493475353954613/detail",
+      "reason_code": "official_campus_cohort_and_jd_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T22:10:00+08:00",
+      "evidence_note": "Exact campus job 7664493475353954613, Singapore metadata; official detail inaccessible; 2026 MSc graduate eligibility for 2027 campaign unknown."
     }
   ]
 }
