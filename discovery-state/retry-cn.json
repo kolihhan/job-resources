@@ -2307,6 +2307,18 @@
       "source_url": "https://jobs.bytedance.com/campus/position/7665997962810165509/detail",
       "last_alternate_source_attempted": "official exact requisition indexed search; no full matching employer JD",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentqian-duan-kai-fa-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-5jjeq52w",
+      "candidate_seq": 2121,
+      "reason_code": "suspected_known_identity_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T18:14:34+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent前端开发工程师 - 开发者服务",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667096475969407285/detail",
+      "prior_issue_title": "[SKIP][CN] ByteDance — AI Agent前端开发工程师-开发者服务",
+      "evidence_needed": "Compare old Issue exact req ID/URL against 7667096475969407285; title match alone is not exact dedupe"
     }
   ]
 }
