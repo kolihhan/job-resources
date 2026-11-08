@@ -1945,6 +1945,19 @@
       "external_id": "jobs.bytedance.com:7680196825143773493",
       "last_alternate_source_attempted": "2026-11-08 exact requisition indexed search and official careers source",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-chuang-xin-zhong-tai-shu-ju-bp-bytedance-mhae4vkj",
+      "candidate_seq": 2060,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T13:13:23+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（创新&中台） - 数据BP",
+      "source_url": "https://jobs.bytedance.com/campus/position/7675348782494189877/detail",
+      "last_alternate_source_attempted": "exact requisition and employer-title indexed search; adjacent front-end job 7675629237999601925 is distinct and closed",
+      "last_retry_new_evidence": false,
+      "last_evidence_note": "Exact historical GitHub Issue ID/title searches returned no hits; exact employer JD, 2026 cohort and foreign work permit not verified"
     }
   ]
 }
