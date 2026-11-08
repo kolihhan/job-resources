@@ -1,209 +1,35 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 1,
   "candidates": [
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 2628,
-      "company": "Unity",
-      "employment_type": null,
-      "external_id": "unitytech.wd1.myworkdayjobs.com/Unity:/job/Beijing-China/Senior-Machine-Learning-Engineer--Content-Understanding---Moderation_JOBREQ-2616594",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing, China",
-      "market": "CN",
-      "posted_at": "2026-09-15T00:00:00Z",
-      "public_slug": "senior-machine-learning-engineer-content-understanding-moderation-unity-qsru3vjl",
-      "role_key": "freehire:senior-machine-learning-engineer-content-understanding-moderation-unity-qsru3vjl",
-      "source": "workday",
-      "source_url": "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Beijing-China/Senior-Machine-Learning-Engineer--Content-Understanding---Moderation_JOBREQ-2616594?utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer, Content Understanding & Moderation"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:rag",
-        "jd:tensorflow"
-      ],
-      "candidate_seq": 2629,
-      "company": "Bosch Group",
-      "employment_type": null,
-      "external_id": "boschgroup:744000147869701",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Suzhou, Jiangsu, cn",
-      "market": "CN",
-      "posted_at": "2026-09-07T08:53:40Z",
-      "public_slug": "gong-ye-ai-shu-ju-ke-xue-jia-vm-bosch-group-6zircecg",
-      "role_key": "freehire:gong-ye-ai-shu-ju-ke-xue-jia-vm-bosch-group-6zircecg",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000147869701--ai-vm?utm_source=freehire.me",
-      "title": "工业 AI 数据科学家_VM"
-    },
     {
       "ai_score": 5,
       "ai_signals": [
-        "title:ai",
-        "jd:evaluation"
+        "title:deep_learning",
+        "jd:deep_learning"
       ],
-      "candidate_seq": 2630,
+      "candidate_seq": 3047,
       "company": "NVIDIA",
       "employment_type": null,
-      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-AI-Model-Test-Developer--SDET_JR2025044",
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Deep-Learning-Compiler-CI-Infrastructure-Engineer_JR2020326",
       "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "China, Shanghai",
       "market": "CN",
-      "posted_at": "2026-09-07T00:00:00Z",
-      "public_slug": "senior-ai-model-test-developer-sdet-nvidia-ygl2rryo",
-      "role_key": "freehire:senior-ai-model-test-developer-sdet-nvidia-ygl2rryo",
+      "posted_at": "2026-06-29T00:00:00Z",
+      "public_slug": "deep-learning-compiler-ci-infrastructure-engineer-nvidia-2dgsouko",
+      "role_key": "freehire:deep-learning-compiler-ci-infrastructure-engineer-nvidia-2dgsouko",
       "source": "workday",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-AI-Model-Test-Developer--SDET_JR2025044?utm_source=freehire.me",
-      "title": "Senior AI Model Test Developer, SDET"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:deep_learning",
-        "jd:nlp"
-      ],
-      "candidate_seq": 2631,
-      "company": "RELX",
-      "employment_type": null,
-      "external_id": "relx.wd3.myworkdayjobs.com/relx:/job/Shanghai_Tianshan/Senior-Data-Scientist-III_R113309-1",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai_Tianshan",
-      "market": "CN",
-      "posted_at": "2026-06-15T00:00:00Z",
-      "public_slug": "senior-data-scientist-iii-relx-wqshqzu2",
-      "role_key": "freehire:senior-data-scientist-iii-relx-wqshqzu2",
-      "source": "workday",
-      "source_url": "https://relx.wd3.myworkdayjobs.com/relx/job/Shanghai_Tianshan/Senior-Data-Scientist-III_R113309-1?utm_source=freehire.me",
-      "title": "Senior Data Scientist III"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 2632,
-      "company": "Zoom",
-      "employment_type": null,
-      "external_id": "zoom.wd5.myworkdayjobs.com/cn:/job/Hangzhou-CHN/AI-Engineer_R18967",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou (CHN)",
-      "market": "CN",
-      "posted_at": "2026-04-09T00:00:00Z",
-      "public_slug": "ai-engineer-zoom-l3avmriv",
-      "role_key": "freehire:ai-engineer-zoom-l3avmriv",
-      "source": "workday",
-      "source_url": "https://zoom.wd5.myworkdayjobs.com/cn/job/Hangzhou-CHN/AI-Engineer_R18967?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:llm"
-      ],
-      "candidate_seq": 2633,
-      "company": "Zoom",
-      "employment_type": null,
-      "external_id": "zoom.wd5.myworkdayjobs.com/cn:/job/Hangzhou-CHN/Machine-Learning-Engineer_R18252-1",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou (CHN)",
-      "market": "CN",
-      "posted_at": "2026-01-23T00:00:00Z",
-      "public_slug": "machine-learning-engineer-zoom-3jtczagt",
-      "role_key": "freehire:machine-learning-engineer-zoom-3jtczagt",
-      "source": "workday",
-      "source_url": "https://zoom.wd5.myworkdayjobs.com/cn/job/Hangzhou-CHN/Machine-Learning-Engineer_R18252-1?utm_source=freehire.me",
-      "title": "Machine Learning Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:machine_learning",
-        "jd:nlp"
-      ],
-      "candidate_seq": 2634,
-      "company": "RELX",
-      "employment_type": null,
-      "external_id": "relx.wd3.myworkdayjobs.com/relx:/job/Shanghai_Tianshan/Senior-Data-Scientist-I_R101037-1",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai_Tianshan",
-      "market": "CN",
-      "posted_at": "2025-09-12T00:00:00Z",
-      "public_slug": "senior-data-scientist-i-relx-qlmqejc6",
-      "role_key": "freehire:senior-data-scientist-i-relx-qlmqejc6",
-      "source": "workday",
-      "source_url": "https://relx.wd3.myworkdayjobs.com/relx/job/Shanghai_Tianshan/Senior-Data-Scientist-I_R101037-1?utm_source=freehire.me",
-      "title": "Senior Data Scientist I"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 2635,
-      "company": "SoundHound AI",
-      "employment_type": "full_time",
-      "external_id": ":pqekn89tt3",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "CN",
-      "posted_at": "2026-10-08T12:29:16Z",
-      "public_slug": "senior-machine-learning-engineer-auto-soundhound-ai-p65u4n5d",
-      "role_key": "freehire:senior-machine-learning-engineer-auto-soundhound-ai-p65u4n5d",
-      "source": "arc",
-      "source_url": "https://arc.dev/remote-jobs/j/soundhound-ai-senior-machine-learning-engineer-auto-pqekn89tt3?utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer, Auto+"
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Compiler-CI-Infrastructure-Engineer_JR2020326?utm_source=freehire.me",
+      "title": "Deep Learning Compiler CI/Infrastructure Engineer"
     }
   ],
-  "generated_at": "2026-11-08T13:54:24.144774Z",
+  "generated_at": "2026-11-08T19:11:37.194894Z",
   "market": "CN",
-  "max_candidate_seq": 2635,
-  "min_candidate_seq": 2628,
+  "max_candidate_seq": 3047,
+  "min_candidate_seq": 3047,
   "shard_index": 17,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

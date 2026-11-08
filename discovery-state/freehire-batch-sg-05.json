@@ -2,15 +2,56 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:llm"
+        "title:ai"
       ],
-      "candidate_seq": 865,
-      "company": "csit",
+      "candidate_seq": 916,
+      "company": "AJENTIK AI PTE. LTD.",
       "employment_type": null,
-      "external_id": "csit:e1075ce5-860a-4241-bc8e-a369e0cf9fe2",
+      "external_id": ":540cfdaeb8ce572b5feea4d4a9454e81",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-30T00:00:00Z",
+      "public_slug": "ai-engineer-ajentik-ai-pte-ltd-k3ixgzom",
+      "role_key": "freehire:ai-engineer-ajentik-ai-pte-ltd-k3ixgzom",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/540cfdaeb8ce572b5feea4d4a9454e81?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 917,
+      "company": "TikTok Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:94382143",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T16:42:28Z",
+      "public_slug": "global-e-commerce-platform-engineer-data-ai-powered-tiktok-pte-ltd-cmevcw52",
+      "role_key": "freehire:global-e-commerce-platform-engineer-data-ai-powered-tiktok-pte-ltd-cmevcw52",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94382143__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Global E-Commerce Platform Engineer: Data & AI Powered"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 918,
+      "company": "Menarini Biotech S.r.l.",
+      "employment_type": null,
+      "external_id": "data engineer:94379710",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -19,171 +60,128 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2025-07-25T08:05:47Z",
-      "public_slug": "senior-software-engineer-ai-engineering-csit-ntpzztvb",
-      "role_key": "freehire:senior-software-engineer-ai-engineering-csit-ntpzztvb",
-      "source": "lever",
-      "source_url": "https://jobs.lever.co/csit/e1075ce5-860a-4241-bc8e-a369e0cf9fe2?utm_source=freehire.me",
-      "title": "Senior Software Engineer (AI Engineering)"
+      "posted_at": "2026-10-29T16:42:19Z",
+      "public_slug": "apac-senior-data-ai-engineer-data-platforms-ai-models-menarini-biotech-s-r-l-revliumx",
+      "role_key": "freehire:apac-senior-data-ai-engineer-data-platforms-ai-models-menarini-biotech-s-r-l-revliumx",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94379710__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "APAC Senior Data & AI Engineer - Data Platforms & AI Models"
     },
     {
-      "ai_score": 5,
+      "ai_score": 4,
       "ai_signals": [
-        "title:ai",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 866,
-      "company": "ByteDance",
+      "candidate_seq": 919,
+      "company": "PHAIDON INTERNATIONAL (SINGAPORE) PTE. LTD.",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7509699437339691282",
+      "external_id": "data engineer:94384343",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2025-05-29T03:18:44Z",
-      "public_slug": "software-engineer-ai-infrastructure-bytedance-cne47cor",
-      "role_key": "freehire:software-engineer-ai-infrastructure-bytedance-cne47cor",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7509699437339691282/detail?utm_source=freehire.me",
-      "title": "Software Engineer, AI Infrastructure"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 867,
-      "company": "Razer",
-      "employment_type": null,
-      "external_id": "razer.wd3.myworkdayjobs.com/Careers:/job/Singapore/AI-Software-Engineer_JR2025005483-1",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2025-04-22T00:00:00Z",
-      "public_slug": "ai-software-engineer-razer-wbeo63fo",
-      "role_key": "freehire:ai-software-engineer-razer-wbeo63fo",
-      "source": "workday",
-      "source_url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/AI-Software-Engineer_JR2025005483-1?utm_source=freehire.me",
-      "title": "AI Software Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 868,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7447706774636939528",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2024-12-13T01:46:08Z",
-      "public_slug": "backend-engineer-applied-machine-learning-engine-efficiency-tool-bytedance-nuccjm3z",
-      "role_key": "freehire:backend-engineer-applied-machine-learning-engine-efficiency-tool-bytedance-nuccjm3z",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7447706774636939528/detail?utm_source=freehire.me",
-      "title": "Backend Engineer, Applied Machine Learning Engine (Efficiency Tool)"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 869,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7229162198592014647",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2023-05-09T02:52:29Z",
-      "public_slug": "software-engineer-in-machine-learning-infra-tiktok-recommendation-architecture-bytedance-fulwm5ps",
-      "role_key": "freehire:software-engineer-in-machine-learning-infra-tiktok-recommendation-architecture-bytedance-fulwm5ps",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7229162198592014647/detail?utm_source=freehire.me",
-      "title": "Software Engineer in Machine Learning Infra - TikTok Recommendation Architecture"
+      "posted_at": "2026-10-29T16:42:02Z",
+      "public_slug": "data-engineer-azure-databricks-etl-ai-pipelines-phaidon-international-singapore-pte-ltd-37antc3r",
+      "role_key": "freehire:data-engineer-azure-databricks-etl-ai-pipelines-phaidon-international-singapore-pte-ltd-37antc3r",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94384343__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Engineer – Azure, Databricks, ETL & AI Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ml"
       ],
-      "candidate_seq": 870,
-      "company": "Hunter Bond",
+      "candidate_seq": 920,
+      "company": "Sembly",
       "employment_type": null,
-      "external_id": "data engineer:94709800",
+      "external_id": "backend developer:94381597",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-02T14:42:47Z",
-      "public_slug": "python-engineer-fintech-ml-data-pipelines-remote-hunter-bond-3bjksh3q",
-      "role_key": "freehire:python-engineer-fintech-ml-data-pipelines-remote-hunter-bond-3bjksh3q",
+      "posted_at": "2026-10-29T16:41:55Z",
+      "public_slug": "backend-engineer-build-scalable-systems-ml-ready-apps-sembly-qi3gyjp6",
+      "role_key": "freehire:backend-engineer-build-scalable-systems-ml-ready-apps-sembly-qi3gyjp6",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94709800__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Python Engineer - FinTech ML & Data Pipelines | Remote"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94381597__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer: Build Scalable Systems & ML-Ready Apps"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 871,
-      "company": "KYNDRYL (SINGAPORE) PTE. LTD.",
+      "candidate_seq": 921,
+      "company": "COGNIZANT TECHNOLOGY SOLUTIONS ASIA PACIFIC PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:94708302",
+      "external_id": "full stack developer:94381322",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-29T16:41:54Z",
+      "public_slug": "java-full-stack-engineer-aws-microservices-ai-tools-cognizant-technology-solutions-asia-pacific-pte-ltd-hqy5cfmb",
+      "role_key": "freehire:java-full-stack-engineer-aws-microservices-ai-tools-cognizant-technology-solutions-asia-pacific-pte-ltd-hqy5cfmb",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94381322__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Java Full-Stack Engineer | AWS, Microservices & AI Tools"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 922,
+      "company": "SearchElect Pte Ltd",
+      "employment_type": null,
+      "external_id": "backend developer:94381281",
       "flags": [
-        "agency_or_outstaff_hint"
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-02T14:42:38Z",
-      "public_slug": "databricks-data-engineer-cloud-platform-ai-insights-kyndryl-singapore-pte-ltd-kwgxhyql",
-      "role_key": "freehire:databricks-data-engineer-cloud-platform-ai-insights-kyndryl-singapore-pte-ltd-kwgxhyql",
+      "posted_at": "2026-10-29T16:41:54Z",
+      "public_slug": "sr-backend-engineer-python-django-with-ai-agents-remote-searchelect-pte-ltd-hjxbgkyl",
+      "role_key": "freehire:sr-backend-engineer-python-django-with-ai-agents-remote-searchelect-pte-ltd-hjxbgkyl",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94708302__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Databricks Data Engineer - Cloud Platform & AI Insights"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94381281__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Sr Backend Engineer (Python/Django) with AI Agents — Remote"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 872,
-      "company": "NEXadept",
+      "candidate_seq": 923,
+      "company": "Astek Group",
       "employment_type": null,
-      "external_id": "full stack developer:94710310",
-      "flags": [],
+      "external_id": "full stack developer:94380261",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-02T14:42:17Z",
-      "public_slug": "ai-driven-full-stack-engineer-for-intelligent-data-nexadept-b5rtxr57",
-      "role_key": "freehire:ai-driven-full-stack-engineer-for-intelligent-data-nexadept-b5rtxr57",
+      "posted_at": "2026-10-29T16:41:53Z",
+      "public_slug": "senior-full-stack-engineer-go-react-ts-ai-tools-astek-group-kscv462b",
+      "role_key": "freehire:senior-full-stack-engineer-go-react-ts-ai-tools-astek-group-kscv462b",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94710310__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full Stack Engineer for Intelligent Data"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94380261__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer - Go/React/TS, AI Tools"
     }
   ],
-  "generated_at": "2026-11-08T13:54:24.144774Z",
+  "generated_at": "2026-11-08T19:11:37.194894Z",
   "market": "SG",
-  "max_candidate_seq": 872,
-  "min_candidate_seq": 865,
+  "max_candidate_seq": 923,
+  "min_candidate_seq": 916,
   "shard_index": 5,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

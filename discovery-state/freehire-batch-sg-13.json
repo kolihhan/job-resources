@@ -6,181 +6,185 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 933,
-      "company": "ocbc",
+      "candidate_seq": 985,
+      "company": "Micron Technology",
       "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/MGR--AI-Engineer--Group-Audit_JR00012237-1",
-      "flags": [],
+      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/Fab-10W-Singapore/Sr-AI-Engineer--SMAI_JR115971",
+      "flags": [
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "OCBC Singapore",
+      "location": "Fab 10W, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "mgr-ai-engineer-group-audit-ocbc-onptk7ax",
-      "role_key": "freehire:mgr-ai-engineer-group-audit-ocbc-onptk7ax",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "sr-ai-engineer-smai-micron-technology-7oge7wtk",
+      "role_key": "freehire:sr-ai-engineer-smai-micron-technology-7oge7wtk",
       "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/MGR--AI-Engineer--Group-Audit_JR00012237-1?utm_source=freehire.me",
-      "title": "MGR, AI Engineer, Group Audit"
+      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/Sr-AI-Engineer--SMAI_JR115971?utm_source=freehire.me",
+      "title": "Sr AI Engineer, SMAI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ml"
       ],
-      "candidate_seq": 934,
+      "candidate_seq": 986,
       "company": "SEAGATE SINGAPORE INTERNATIONAL HEADQUARTERS PTE. LTD.",
       "employment_type": null,
-      "external_id": ":05c0c88ce33792f6c7ca22701a3e3c9e",
-      "flags": [],
+      "external_id": ":cf1667095f7e78308b1bb4e6ac576c34",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "engineer-ii-machine-learning-seagate-singapore-international-headquarters-pte-ltd-wvd3aoyi",
-      "role_key": "freehire:engineer-ii-machine-learning-seagate-singapore-international-headquarters-pte-ltd-wvd3aoyi",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "senior-engineer-machine-learning-seagate-singapore-international-headquarters-pte-ltd-eiifocq5",
+      "role_key": "freehire:senior-engineer-machine-learning-seagate-singapore-international-headquarters-pte-ltd-eiifocq5",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/05c0c88ce33792f6c7ca22701a3e3c9e?utm_source=freehire.me",
-      "title": "Engineer II, Machine Learning"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/cf1667095f7e78308b1bb4e6ac576c34?utm_source=freehire.me",
+      "title": "Senior Engineer, Machine Learning"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 935,
+      "candidate_seq": 987,
+      "company": "NTUC LEARNINGHUB PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":91fa5f4b61c24989579db354946d2cd2",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "course-developer-for-cybersecurity-ai-technologies-using-python-in-advanced-manufacturing-ntuc-learninghub-pte-ltd-obrn2zmy",
+      "role_key": "freehire:course-developer-for-cybersecurity-ai-technologies-using-python-in-advanced-manufacturing-ntuc-learninghub-pte-ltd-obrn2zmy",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/91fa5f4b61c24989579db354946d2cd2?utm_source=freehire.me",
+      "title": "Course Developer for Cybersecurity & AI Technologies using Python in Advanced Manufacturing"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 988,
       "company": "DADACONSULTANTS PTE. LTD.",
       "employment_type": null,
-      "external_id": ":b3105e0b23018b02a69ed32bb9764c22",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-29T00:00:00Z",
-      "public_slug": "ict-infrastructure-engineer-ai-platform-financial-regulatory-sector-dadaconsultants-pte-ltd-ts5lrjks",
-      "role_key": "freehire:ict-infrastructure-engineer-ai-platform-financial-regulatory-sector-dadaconsultants-pte-ltd-ts5lrjks",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/b3105e0b23018b02a69ed32bb9764c22?utm_source=freehire.me",
-      "title": "ICT Infrastructure Engineer (AI Platform) – Financial Regulatory Sector"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 936,
-      "company": "Motional",
-      "employment_type": null,
-      "external_id": "motional:7834591003",
+      "external_id": "full stack developer:94050849",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Central, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T17:36:44Z",
-      "public_slug": "senior-machine-learning-engineer-perception-motional-6absfy2p",
-      "role_key": "freehire:senior-machine-learning-engineer-perception-motional-6absfy2p",
-      "source": "greenhouse",
-      "source_url": "https://motional.com/open-positions/?gh_jid=7834591003&utm_source=freehire.me#/7834591003",
-      "title": "Senior Machine Learning Engineer - Perception"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 937,
-      "company": "OCBC Group",
-      "employment_type": null,
-      "external_id": "data engineer:94300262",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T14:41:19Z",
-      "public_slug": "enterprise-data-ai-platform-engineer-ocbc-group-wo7d4ee3",
-      "role_key": "freehire:enterprise-data-ai-platform-engineer-ocbc-group-wo7d4ee3",
+      "posted_at": "2026-10-25T20:39:12Z",
+      "public_slug": "full-stack-engineer-ai-native-products-fintech-enterprise-solutions-multiple-opportunities-dadaconsultants-pte-ltd-xjrp65ac",
+      "role_key": "freehire:full-stack-engineer-ai-native-products-fintech-enterprise-solutions-multiple-opportunities-dadaconsultants-pte-ltd-xjrp65ac",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94300262__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Enterprise Data & AI Platform Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94050849__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer (AI-Native Products / FinTech / Enterprise Solutions, Multiple Opportunities!)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 938,
-      "company": "Internetwork Expert",
+      "candidate_seq": 989,
+      "company": "Rakuten Asia Pte Ltd",
       "employment_type": null,
-      "external_id": "full stack developer:94227030",
+      "external_id": "full stack developer:94050712",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T14:41:00Z",
-      "public_slug": "ai-driven-full-stack-engineer-build-practical-ai-apps-internetwork-expert-m2d6rrvk",
-      "role_key": "freehire:ai-driven-full-stack-engineer-build-practical-ai-apps-internetwork-expert-m2d6rrvk",
+      "posted_at": "2026-10-25T20:39:01Z",
+      "public_slug": "ai-driven-full-stack-engineer-java-spring-react-rakuten-asia-pte-ltd-mnu3vn6t",
+      "role_key": "freehire:ai-driven-full-stack-engineer-java-spring-react-rakuten-asia-pte-ltd-mnu3vn6t",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94227030__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full-Stack Engineer | Build Practical AI Apps"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94050712__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Full-Stack Engineer — Java/Spring + React"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 939,
-      "company": "Incube8",
+      "candidate_seq": 990,
+      "company": "DADACONSULTANTS PTE. LTD.",
       "employment_type": null,
-      "external_id": "devops engineer:94226234",
+      "external_id": "full stack developer:94051574",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T20:39:01Z",
+      "public_slug": "full-stack-engineer-ai-powered-fintech-enterprise-dadaconsultants-pte-ltd-go4jgxo7",
+      "role_key": "freehire:full-stack-engineer-ai-powered-fintech-enterprise-dadaconsultants-pte-ltd-go4jgxo7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94051574__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer: AI-Powered FinTech & Enterprise"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 991,
+      "company": "Actelligent",
+      "employment_type": null,
+      "external_id": "data engineer:93999589",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T14:40:24Z",
-      "public_slug": "aws-devops-engineer-ai-driven-infra-hybrid-role-incube8-g5qzc6w4",
-      "role_key": "freehire:aws-devops-engineer-ai-driven-infra-hybrid-role-incube8-g5qzc6w4",
+      "posted_at": "2026-10-25T16:40:14Z",
+      "public_slug": "fintech-systems-engineer-ai-infra-data-pipelines-actelligent-uuu6s3pt",
+      "role_key": "freehire:fintech-systems-engineer-ai-infra-data-pipelines-actelligent-uuu6s3pt",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94226234__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AWS DevOps Engineer — AI-Driven Infra, Hybrid Role"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93999589__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "FinTech Systems Engineer: AI Infra & Data Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 940,
-      "company": "BASE CAMP DIGITAL PTE. LTD.",
+      "candidate_seq": 992,
+      "company": "ARGYLL SCOTT CONSULTING PTE. LTD.",
       "employment_type": null,
-      "external_id": "6290:95551779",
+      "external_id": "data engineer:94033997",
       "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T05:27:26Z",
-      "public_slug": "senior-ai-engineer-base-camp-digital-pte-ltd-pgpejf25",
-      "role_key": "freehire:senior-ai-engineer-base-camp-digital-pte-ltd-pgpejf25",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95551779?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "azure-data-ai-platform-engineer-build-scalable-pipelines-argyll-scott-consulting-pte-ltd-bfm6sy4v",
+      "role_key": "freehire:azure-data-ai-platform-engineer-build-scalable-pipelines-argyll-scott-consulting-pte-ltd-bfm6sy4v",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033997__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Azure Data & AI Platform Engineer — Build Scalable Pipelines"
     }
   ],
-  "generated_at": "2026-11-08T13:54:24.144774Z",
+  "generated_at": "2026-11-08T19:11:37.194894Z",
   "market": "SG",
-  "max_candidate_seq": 940,
-  "min_candidate_seq": 933,
+  "max_candidate_seq": 992,
+  "min_candidate_seq": 985,
   "shard_index": 13,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

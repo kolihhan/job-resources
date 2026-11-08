@@ -1,191 +1,203 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1001,
-      "company": "Land Transport Authority",
+      "candidate_seq": 1069,
+      "company": "GovTech ",
       "employment_type": null,
-      "external_id": "data engineer:94033937",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:10Z",
-      "public_slug": "transport-ai-data-engineer-real-time-pipelines-governance-land-transport-authority-jhgl63kb",
-      "role_key": "freehire:transport-ai-data-engineer-real-time-pipelines-governance-land-transport-authority-jhgl63kb",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033937__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Transport AI Data Engineer: Real-Time Pipelines & Governance"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1002,
-      "company": "Public Service Division",
-      "employment_type": null,
-      "external_id": "data engineer:94034504",
+      "external_id": "govtech:4005722201",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:09Z",
-      "public_slug": "senior-data-engineer-transport-ai-platform-public-service-division-a5v4qxfo",
-      "role_key": "freehire:senior-data-engineer-transport-ai-platform-public-service-division-a5v4qxfo",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034504__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer — Transport AI Platform"
+      "posted_at": "2026-10-21T06:35:58Z",
+      "public_slug": "senior-software-engineer-ai-programme-govtech-36qdgpng",
+      "role_key": "freehire:senior-software-engineer-ai-programme-govtech-36qdgpng",
+      "source": "greenhouse",
+      "source_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4005722201?gh_jid=4005722201&utm_source=freehire.me",
+      "title": "Senior/ Software Engineer, AI Programme"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1003,
-      "company": "Senoko Energy Pte Ltd",
+      "candidate_seq": 1080,
+      "company": "AI Lab Technologies Pte. Ltd.",
       "employment_type": null,
-      "external_id": "data engineer:94036459",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:09Z",
-      "public_slug": "senior-data-engineer-digitalization-ai-automation-senoko-energy-pte-ltd-z7ygde2k",
-      "role_key": "freehire:senior-data-engineer-digitalization-ai-automation-senoko-energy-pte-ltd-z7ygde2k",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036459__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer: Digitalization & AI Automation"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1004,
-      "company": "UIC Asian Computer Services",
-      "employment_type": null,
-      "external_id": "full stack developer:94038336",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:08Z",
-      "public_slug": "full-stack-ai-developer-uic-asian-computer-services-7enonkg4",
-      "role_key": "freehire:full-stack-ai-developer-uic-asian-computer-services-7enonkg4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94038336__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack AI Developer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1005,
-      "company": "foodpanda",
-      "employment_type": null,
-      "external_id": "full stack developer:94021646",
+      "external_id": "full stack developer:93826947",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:07Z",
-      "public_slug": "junior-fullstack-engineer-global-platform-ai-learning-foodpanda-mafzuwhb",
-      "role_key": "freehire:junior-fullstack-engineer-global-platform-ai-learning-foodpanda-mafzuwhb",
+      "posted_at": "2026-10-20T21:13:30Z",
+      "public_slug": "ai-full-stack-engineer-freshers-welcome-real-world-ai-ai-lab-technologies-pte-ltd-6rospler",
+      "role_key": "freehire:ai-full-stack-engineer-freshers-welcome-real-world-ai-ai-lab-technologies-pte-ltd-6rospler",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94021646__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Junior Fullstack Engineer – Global Platform, AI Learning"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93826947__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Full-Stack Engineer — Freshers Welcome, Real-World AI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1006,
-      "company": "JOBSTER PRIVATE LTD.",
+      "candidate_seq": 1085,
+      "company": "VAST Data",
       "employment_type": null,
-      "external_id": "full stack developer:94034730",
+      "external_id": "vastdata/43.001:91.475",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Tel Aviv-Yafo, Tel Aviv District",
+      "market": "SG",
+      "posted_at": "2026-10-20T09:18:11Z",
+      "public_slug": "network-engineer-ai-infrastructure-rdma-storage-vast-data-uxfryiuq",
+      "role_key": "freehire:network-engineer-ai-infrastructure-rdma-storage-vast-data-uxfryiuq",
+      "source": "comeet",
+      "source_url": "https://www.comeet.com/jobs/vastdata/43.001/network-engineer---ai-infrastructure-rdma--storage/91.475?utm_source=freehire.me",
+      "title": "Network Engineer - AI Infrastructure, RDMA & Storage"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1086,
+      "company": "ACE-Learning",
+      "employment_type": null,
+      "external_id": "6287:95379349",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-20T06:29:28Z",
+      "public_slug": "software-engineer-full-stack-ai-ace-learning-msxga4yt",
+      "role_key": "freehire:software-engineer-full-stack-ai-ace-learning-msxga4yt",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95379349?utm_source=freehire.me",
+      "title": "Software Engineer (Full Stack & AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1088,
+      "company": "Micron",
+      "employment_type": null,
+      "external_id": "data engineer:93581167",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:03Z",
-      "public_slug": "full-stack-engineer-ai-assisted-cloud-native-gov-grade-jobster-private-ltd-yzpt5f4d",
-      "role_key": "freehire:full-stack-engineer-ai-assisted-cloud-native-gov-grade-jobster-private-ltd-yzpt5f4d",
+      "posted_at": "2026-10-20T05:11:37Z",
+      "public_slug": "nand-reliability-ai-engineer-data-cloud-micron-lqwgxblt",
+      "role_key": "freehire:nand-reliability-ai-engineer-data-cloud-micron-lqwgxblt",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034730__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer | AI-Assisted, Cloud-Native & Gov-Grade"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93581167__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "NAND Reliability AI Engineer: Data & Cloud"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1007,
-      "company": "ELEVATING STUDIO PTE. LTD.",
+      "candidate_seq": 1092,
+      "company": "INTUIT RECRUITMENT PTE. LTD.",
       "employment_type": null,
-      "external_id": "full stack developer:94029440",
+      "external_id": "full stack developer:93607206",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:02Z",
-      "public_slug": "full-stack-engineer-ai-assisted-dev-cloud-elevating-studio-pte-ltd-wt4ggtyt",
-      "role_key": "freehire:full-stack-engineer-ai-assisted-dev-cloud-elevating-studio-pte-ltd-wt4ggtyt",
+      "posted_at": "2026-10-20T05:09:47Z",
+      "public_slug": "full-stack-engineer-ai-compliance-automation-intuit-recruitment-pte-ltd-4qaq5mfy",
+      "role_key": "freehire:full-stack-engineer-ai-compliance-automation-intuit-recruitment-pte-ltd-4qaq5mfy",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94029440__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer - AI-Assisted Dev & Cloud"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93607206__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Engineer — AI & Compliance Automation"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1008,
-      "company": "VISEO ASIA",
+      "candidate_seq": 1100,
+      "company": "Illumina Singapore Pte Ltd",
       "employment_type": null,
-      "external_id": "full stack developer:94031742",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
+      "external_id": "data engineer:92665342",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:00Z",
-      "public_slug": "senior-full-stack-engineer-ai-driven-gtn-grids-viseo-asia-wrvte3o3",
-      "role_key": "freehire:senior-full-stack-engineer-ai-driven-gtn-grids-viseo-asia-wrvte3o3",
+      "posted_at": "2026-10-19T17:44:42Z",
+      "public_slug": "manufacturing-systems-engineer-ai-driven-data-apps-illumina-singapore-pte-ltd-lochz47a",
+      "role_key": "freehire:manufacturing-systems-engineer-ai-driven-data-apps-illumina-singapore-pte-ltd-lochz47a",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031742__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: AI-Driven GTN Grids"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92665342__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Manufacturing Systems Engineer: AI-Driven Data & Apps"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1101,
+      "company": "Cortex AI",
+      "employment_type": null,
+      "external_id": "data engineer:93492746",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-19T17:44:15Z",
+      "public_slug": "software-engineer-robotics-data-ml-tools-cortex-ai-uqc4rac2",
+      "role_key": "freehire:software-engineer-robotics-data-ml-tools-cortex-ai-uqc4rac2",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93492746__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software Engineer – Robotics Data & ML Tools"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1104,
+      "company": "ncs3",
+      "employment_type": null,
+      "external_id": "ncs3:6000000001500583",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-10-19T05:48:59Z",
+      "public_slug": "software-engineer-java-ai-preferred-ncs3-aglkss33",
+      "role_key": "freehire:software-engineer-java-ai-preferred-ncs3-aglkss33",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001500583-software-engineer-java-ai-preferred-?utm_source=freehire.me",
+      "title": "Software Engineer (Java & AI Preferred)"
     }
   ],
-  "generated_at": "2026-11-08T13:54:24.144774Z",
+  "generated_at": "2026-11-08T19:11:37.194894Z",
   "market": "SG",
-  "max_candidate_seq": 1008,
-  "min_candidate_seq": 1001,
+  "max_candidate_seq": 1104,
+  "min_candidate_seq": 1069,
   "shard_index": 21,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

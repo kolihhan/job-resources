@@ -6,187 +6,190 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 967,
-      "company": "Ntu",
+      "candidate_seq": 1017,
+      "company": "PERSOL SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131",
+      "external_id": "devops engineer:94033262",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "ai-engineer-aiap-ntu-nxuqh6c4",
-      "role_key": "freehire:ai-engineer-aiap-ntu-nxuqh6c4",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131?utm_source=freehire.me",
-      "title": "AI Engineer (AIAP)"
+      "posted_at": "2026-10-25T12:40:25Z",
+      "public_slug": "ai-powered-devops-engineer-ci-cd-observability-persol-singapore-pte-ltd-3y6b67ry",
+      "role_key": "freehire:ai-powered-devops-engineer-ci-cd-observability-persol-singapore-pte-ltd-3y6b67ry",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033262__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered DevOps Engineer: CI/CD & Observability"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 968,
-      "company": "NTT SINGAPORE PTE. LTD.",
+      "candidate_seq": 1018,
+      "company": "Helius Technologies",
       "employment_type": null,
-      "external_id": ":8abae3077282122f2781d9399763771b",
-      "flags": [],
+      "external_id": "backend developer:94031632",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "windows-ict-infrastructure-engineer-ai-technical-automation-ntt-singapore-pte-ltd-qd54cfbb",
-      "role_key": "freehire:windows-ict-infrastructure-engineer-ai-technical-automation-ntt-singapore-pte-ltd-qd54cfbb",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/8abae3077282122f2781d9399763771b?utm_source=freehire.me",
-      "title": "Windows ICT Infrastructure Engineer (AI & Technical Automation)"
+      "posted_at": "2026-10-25T12:40:22Z",
+      "public_slug": "senior-backend-developer-ai-ops-automation-banking-helius-technologies-fh4t7hes",
+      "role_key": "freehire:senior-backend-developer-ai-ops-automation-banking-helius-technologies-fh4t7hes",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031632__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Developer - AI Ops & Automation (Banking)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 969,
-      "company": "dbs",
+      "candidate_seq": 1019,
+      "company": "ST ENGINEERING MANAGEMENT SERVICES PTE. LTD.",
+      "employment_type": null,
+      "external_id": "java developer:94036343",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T12:40:14Z",
+      "public_slug": "senior-java-engineer-ai-cloud-native-platforms-st-engineering-management-services-pte-ltd-4inizzb4",
+      "role_key": "freehire:senior-java-engineer-ai-cloud-native-platforms-st-engineering-management-services-pte-ltd-4inizzb4",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036343__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Java Engineer - AI & Cloud-Native Platforms"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1020,
+      "company": "CYBERLABS AI PTE. LTD.",
+      "employment_type": null,
+      "external_id": "react developer:94022814",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T12:40:08Z",
+      "public_slug": "ai-driven-full-stack-developer-react-python-cyberlabs-ai-pte-ltd-hpptonxq",
+      "role_key": "freehire:ai-driven-full-stack-developer-react-python-cyberlabs-ai-pte-ltd-hpptonxq",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94022814__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Full-Stack Developer (React/Python)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1021,
+      "company": "ByteDance (old)",
+      "employment_type": null,
+      "external_id": "backend developer:93160448",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-24T18:03:19Z",
+      "public_slug": "backend-engineer-machine-learning-storage-infra-singapore-technology-backend-singapore-regular-bytedance-old-bzlzrpml",
+      "role_key": "freehire:backend-engineer-machine-learning-storage-infra-singapore-technology-backend-singapore-regular-bytedance-old-bzlzrpml",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93160448__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer - Machine Learning Storage Infra (Singapore) Technology - Backend Singapore Regular"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1022,
+      "company": "SAP",
       "employment_type": "full_time",
-      "external_id": "dbs.wd3.myworkdayjobs.com/dbs_careers:/job/Singapore---East/AVP--Platform---AI-Infrastructure-Engineer--Group-Infrastructure---Cloud--Group-Technology_WD90104",
-      "flags": [],
+      "external_id": "careers.sap.com:1452975433",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore - East",
+      "location": "Singapore, SG, 117440",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "avp-platform-ai-infrastructure-engineer-group-infrastructure-cloud-group-technology-dbs-cte5hl33",
-      "role_key": "freehire:avp-platform-ai-infrastructure-engineer-group-infrastructure-cloud-group-technology-dbs-cte5hl33",
-      "source": "workday",
-      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Singapore---East/AVP--Platform---AI-Infrastructure-Engineer--Group-Infrastructure---Cloud--Group-Technology_WD90104?utm_source=freehire.me",
-      "title": "AVP, Platform & AI Infrastructure Engineer, Group Infrastructure & Cloud, Group Technology"
+      "posted_at": "2026-10-24T00:00:00Z",
+      "public_slug": "forward-deployed-senior-ai-engineer-careers-sap-com-4huciret",
+      "role_key": "freehire:forward-deployed-senior-ai-engineer-careers-sap-com-4huciret",
+      "source": "successfactors",
+      "source_url": "https://careers.sap.com/job/Singapore-Forward-Deployed-Senior-AI-Engineer-117440/1452975433/?utm_source=freehire.me",
+      "title": "Forward Deployed Senior AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 970,
-      "company": "Workato",
+      "candidate_seq": 1023,
+      "company": "Singtel",
       "employment_type": null,
-      "external_id": "workato:8288630002",
+      "external_id": "groupcareers.singtel.com:1327769266",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
-        "seniority_hint",
-        "visa_hint"
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-24T00:00:00Z",
+      "public_slug": "senior-ai-data-engineer-aida-singtel-qgitp5p7",
+      "role_key": "freehire:senior-ai-data-engineer-aida-singtel-qgitp5p7",
+      "source": "successfactors",
+      "source_url": "https://groupcareers.singtel.com/job/Senior-AI-Data-Engineer-AIDA-Sing/1327769266/?utm_source=freehire.me",
+      "title": "Senior AI Data Engineer #AIDA"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1026,
+      "company": "GVT Government Technology Agency",
+      "employment_type": null,
+      "external_id": "data engineer:93973016",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-26T23:28:32Z",
-      "public_slug": "senior-infrastructure-engineer-ai-lab-workato-y6nxxkjs",
-      "role_key": "freehire:senior-infrastructure-engineer-ai-lab-workato-y6nxxkjs",
-      "source": "greenhouse",
-      "source_url": "https://www.workato.com/careers?gh_jid=8288630002&utm_source=freehire.me#open-roles",
-      "title": "Senior Infrastructure Engineer (AI Lab)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 971,
-      "company": "Microsoft",
-      "employment_type": null,
-      "external_id": "apply.careers.microsoft.com/microsoft.com:1970393557045658",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Thailand, Bangkok, Bangkok",
-      "market": "SG",
-      "posted_at": "2026-10-26T16:00:00Z",
-      "public_slug": "solution-engineer-ai-workforce-solution-microsoft-cza6bcf4",
-      "role_key": "freehire:solution-engineer-ai-workforce-solution-microsoft-cza6bcf4",
-      "source": "eightfold",
-      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557045658?utm_source=freehire.me",
-      "title": "Solution Engineer - AI Workforce Solution"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 972,
-      "company": "Menarini Group",
-      "employment_type": null,
-      "external_id": "data engineer:94062368",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T15:02:35Z",
-      "public_slug": "apac-regional-data-ai-engineer-growth-insights-menarini-group-hqkkhujq",
-      "role_key": "freehire:apac-regional-data-ai-engineer-growth-insights-menarini-group-hqkkhujq",
+      "posted_at": "2026-10-23T17:59:59Z",
+      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
+      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94062368__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "APAC Regional Data & AI Engineer — Growth & Insights"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 973,
-      "company": "Menarini Group",
-      "employment_type": null,
-      "external_id": "data engineer:94061523",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T15:02:33Z",
-      "public_slug": "senior-regional-data-ai-engineer-menarini-group-bijcuzzu",
-      "role_key": "freehire:senior-regional-data-ai-engineer-menarini-group-bijcuzzu",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061523__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Regional Data & AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 974,
-      "company": "Land Transport Authority (LTA) Singapore",
-      "employment_type": null,
-      "external_id": "data engineer:94061167",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T15:02:29Z",
-      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-lta-singapore-i5y3g5st",
-      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-lta-singapore-i5y3g5st",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061167__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93973016__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
       "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
     }
   ],
-  "generated_at": "2026-11-08T13:54:24.144774Z",
+  "generated_at": "2026-11-08T19:11:37.194894Z",
   "market": "SG",
-  "max_candidate_seq": 974,
-  "min_candidate_seq": 967,
+  "max_candidate_seq": 1026,
+  "min_candidate_seq": 1017,
   "shard_index": 17,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",

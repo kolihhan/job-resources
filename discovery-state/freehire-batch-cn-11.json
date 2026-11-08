@@ -2,190 +2,208 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 4,
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ml",
+        "jd:machine_learning",
+        "jd:multimodal"
+      ],
+      "candidate_seq": 2628,
+      "company": "Unity",
+      "employment_type": null,
+      "external_id": "unitytech.wd1.myworkdayjobs.com/Unity:/job/Beijing-China/Senior-Machine-Learning-Engineer--Content-Understanding---Moderation_JOBREQ-2616594",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, China",
+      "market": "CN",
+      "posted_at": "2026-09-15T00:00:00Z",
+      "public_slug": "senior-machine-learning-engineer-content-understanding-moderation-unity-qsru3vjl",
+      "role_key": "freehire:senior-machine-learning-engineer-content-understanding-moderation-unity-qsru3vjl",
+      "source": "workday",
+      "source_url": "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Beijing-China/Senior-Machine-Learning-Engineer--Content-Understanding---Moderation_JOBREQ-2616594?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer, Content Understanding & Moderation"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 2629,
+      "company": "Bosch Group",
+      "employment_type": null,
+      "external_id": "boschgroup:744000147869701",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Suzhou, Jiangsu, cn",
+      "market": "CN",
+      "posted_at": "2026-09-07T08:53:40Z",
+      "public_slug": "gong-ye-ai-shu-ju-ke-xue-jia-vm-bosch-group-6zircecg",
+      "role_key": "freehire:gong-ye-ai-shu-ju-ke-xue-jia-vm-bosch-group-6zircecg",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000147869701--ai-vm?utm_source=freehire.me",
+      "title": "工业 AI 数据科学家_VM"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:evaluation"
+      ],
+      "candidate_seq": 2630,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-AI-Model-Test-Developer--SDET_JR2025044",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-09-07T00:00:00Z",
+      "public_slug": "senior-ai-model-test-developer-sdet-nvidia-ygl2rryo",
+      "role_key": "freehire:senior-ai-model-test-developer-sdet-nvidia-ygl2rryo",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-AI-Model-Test-Developer--SDET_JR2025044?utm_source=freehire.me",
+      "title": "Senior AI Model Test Developer, SDET"
+    },
+    {
+      "ai_score": 5,
       "ai_signals": [
         "title:data_science",
+        "jd:llm",
+        "jd:deep_learning",
+        "jd:nlp"
+      ],
+      "candidate_seq": 2631,
+      "company": "RELX",
+      "employment_type": null,
+      "external_id": "relx.wd3.myworkdayjobs.com/relx:/job/Shanghai_Tianshan/Senior-Data-Scientist-III_R113309-1",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai_Tianshan",
+      "market": "CN",
+      "posted_at": "2026-06-15T00:00:00Z",
+      "public_slug": "senior-data-scientist-iii-relx-wqshqzu2",
+      "role_key": "freehire:senior-data-scientist-iii-relx-wqshqzu2",
+      "source": "workday",
+      "source_url": "https://relx.wd3.myworkdayjobs.com/relx/job/Shanghai_Tianshan/Senior-Data-Scientist-III_R113309-1?utm_source=freehire.me",
+      "title": "Senior Data Scientist III"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 2632,
+      "company": "Zoom",
+      "employment_type": null,
+      "external_id": "zoom.wd5.myworkdayjobs.com/cn:/job/Hangzhou-CHN/AI-Engineer_R18967",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou (CHN)",
+      "market": "CN",
+      "posted_at": "2026-04-09T00:00:00Z",
+      "public_slug": "ai-engineer-zoom-l3avmriv",
+      "role_key": "freehire:ai-engineer-zoom-l3avmriv",
+      "source": "workday",
+      "source_url": "https://zoom.wd5.myworkdayjobs.com/cn/job/Hangzhou-CHN/AI-Engineer_R18967?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:llm"
+      ],
+      "candidate_seq": 2633,
+      "company": "Zoom",
+      "employment_type": null,
+      "external_id": "zoom.wd5.myworkdayjobs.com/cn:/job/Hangzhou-CHN/Machine-Learning-Engineer_R18252-1",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou (CHN)",
+      "market": "CN",
+      "posted_at": "2026-01-23T00:00:00Z",
+      "public_slug": "machine-learning-engineer-zoom-3jtczagt",
+      "role_key": "freehire:machine-learning-engineer-zoom-3jtczagt",
+      "source": "workday",
+      "source_url": "https://zoom.wd5.myworkdayjobs.com/cn/job/Hangzhou-CHN/Machine-Learning-Engineer_R18252-1?utm_source=freehire.me",
+      "title": "Machine Learning Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
         "jd:machine_learning",
-        "jd:deep_learning"
+        "jd:nlp"
       ],
-      "candidate_seq": 2243,
-      "company": "Mercedes-Benz Group AG",
+      "candidate_seq": 2634,
+      "company": "RELX",
       "employment_type": null,
-      "external_id": "stgdaimler.taleo.net/ex:MER0003TJ8",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China (Mainland)-Beijing-Beijing",
-      "market": "CN",
-      "posted_at": "2025-10-11T00:00:00Z",
-      "public_slug": "business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw",
-      "role_key": "freehire:business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw",
-      "source": "taleo",
-      "source_url": "https://stgdaimler.taleo.net/careersection/ex/jobdetail.ftl?job=MER0003TJ8&lang=en&utm_source=freehire.me",
-      "title": "Business Intelligence (Data Scientist)  商务智能 (数据科学家)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2244,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7545051719739115783",
+      "external_id": "relx.wd3.myworkdayjobs.com/relx:/job/Shanghai_Tianshan/Senior-Data-Scientist-I_R101037-1",
       "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Hangzhou",
+      "location": "Shanghai_Tianshan",
       "market": "CN",
-      "posted_at": "2025-09-01T09:37:59Z",
-      "public_slug": "hou-duan-zi-shen-hou-duan-yan-fa-gong-cheng-shi-ai-agentfang-xiang-tiktok-shop-bytedance-ar63i2k7",
-      "role_key": "freehire:hou-duan-zi-shen-hou-duan-yan-fa-gong-cheng-shi-ai-agentfang-xiang-tiktok-shop-bytedance-ar63i2k7",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7545051719739115783/detail?utm_source=freehire.me",
-      "title": "后端/资深后端研发工程师（AI Agent方向）-TikTok Shop"
+      "posted_at": "2025-09-12T00:00:00Z",
+      "public_slug": "senior-data-scientist-i-relx-qlmqejc6",
+      "role_key": "freehire:senior-data-scientist-i-relx-qlmqejc6",
+      "source": "workday",
+      "source_url": "https://relx.wd3.myworkdayjobs.com/relx/job/Shanghai_Tianshan/Senior-Data-Scientist-I_R101037-1?utm_source=freehire.me",
+      "title": "Senior Data Scientist I"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:ml"
       ],
-      "candidate_seq": 2245,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7542790815534385426",
+      "candidate_seq": 2635,
+      "company": "SoundHound AI",
+      "employment_type": "full_time",
+      "external_id": ":pqekn89tt3",
       "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing",
+      "location": "",
       "market": "CN",
-      "posted_at": "2025-08-26T07:22:07Z",
-      "public_slug": "ai-agentgao-ji-yan-fa-gong-cheng-shi-jian-ying-yong-hu-zeng-chang-bytedance-dnargs7y",
-      "role_key": "freehire:ai-agentgao-ji-yan-fa-gong-cheng-shi-jian-ying-yong-hu-zeng-chang-bytedance-dnargs7y",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7542790815534385426/detail?utm_source=freehire.me",
-      "title": "AI Agent高级研发工程师-剪映用户增长"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:agent"
-      ],
-      "candidate_seq": 2246,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7532326888821459207",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2025-07-29T02:43:46Z",
-      "public_slug": "da-mo-xing-ping-tai-yan-fa-agentic-infra-tiktoknei-rong-an-quan-ping-tai-bytedance-uw3nrsid",
-      "role_key": "freehire:da-mo-xing-ping-tai-yan-fa-agentic-infra-tiktoknei-rong-an-quan-ping-tai-bytedance-uw3nrsid",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7532326888821459207/detail?utm_source=freehire.me",
-      "title": "大模型平台研发（Agentic Infra） - TikTok内容安全平台"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:nlp",
-        "jd:fine_tuning",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 2247,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7509537768427768072",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen; Beijing; Shanghai",
-      "market": "CN",
-      "posted_at": "2025-05-28T16:44:36Z",
-      "public_slug": "duo-mo-tai-suan-fa-gong-cheng-shi-dou-yin-ping-lun-bytedance-p5zsxr5y",
-      "role_key": "freehire:duo-mo-tai-suan-fa-gong-cheng-shi-dou-yin-ping-lun-bytedance-p5zsxr5y",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7509537768427768072/detail?utm_source=freehire.me",
-      "title": "多模态算法工程师 - 抖音安全与生态"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:pytorch",
-        "jd:tensorflow",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 2248,
-      "company": "广州星际悦动股份有限公司",
-      "employment_type": null,
-      "external_id": "nor7qsazs0.jobs.feishu.cn:7509031507424921910",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen",
-      "market": "CN",
-      "posted_at": "2025-05-27T07:58:40Z",
-      "public_slug": "da-mo-xing-suan-fa-gong-cheng-shi-xing-ji-zhi-wai-yan-zhou-xing-ji-yue-dong-gu-fen-you-xian-gong-si-fcajkrza",
-      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-xing-ji-zhi-wai-yan-zhou-xing-ji-yue-dong-gu-fen-you-xian-gong-si-fcajkrza",
-      "source": "feishujobs",
-      "source_url": "https://nor7qsazs0.jobs.feishu.cn/index/position/7509031507424921910/detail?utm_source=freehire.me",
-      "title": "大模型算法工程师（星际之外）"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2249,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7503865965844662546",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2025-05-13T09:57:36Z",
-      "public_slug": "ai-agentyan-fa-gong-cheng-shi-dou-yin-bytedance-a46hnsse",
-      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-dou-yin-bytedance-a46hnsse",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7503865965844662546/detail?utm_source=freehire.me",
-      "title": "AI Agent研发工程师-抖音"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2250,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7503866724518709511",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shanghai; Hangzhou",
-      "market": "CN",
-      "posted_at": "2025-05-13T09:55:51Z",
-      "public_slug": "ai-agentyan-fa-gong-cheng-shi-dou-yin-aichuang-zao-dou-yin-yan-fa-bytedance-po33kkrb",
-      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-dou-yin-aichuang-zao-dou-yin-yan-fa-bytedance-po33kkrb",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7503866724518709511/detail?utm_source=freehire.me",
-      "title": "AI Agent研发工程师（抖音AI创造） - 抖音研发"
+      "posted_at": "2026-10-08T12:29:16Z",
+      "public_slug": "senior-machine-learning-engineer-auto-soundhound-ai-p65u4n5d",
+      "role_key": "freehire:senior-machine-learning-engineer-auto-soundhound-ai-p65u4n5d",
+      "source": "arc",
+      "source_url": "https://arc.dev/remote-jobs/j/soundhound-ai-senior-machine-learning-engineer-auto-pqekn89tt3?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer, Auto+"
     }
   ],
-  "generated_at": "2026-11-08T13:54:24.144774Z",
+  "generated_at": "2026-11-08T19:11:37.194894Z",
   "market": "CN",
-  "max_candidate_seq": 2250,
-  "min_candidate_seq": 2243,
+  "max_candidate_seq": 2635,
+  "min_candidate_seq": 2628,
   "shard_index": 11,
   "source_generated_at": "2026-11-07T22:15:23.507158Z",
   "transport": "compact_metadata_byte_bounded_v1",
