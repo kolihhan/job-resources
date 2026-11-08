@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T18:10:00+08:00",
+  "updated_at": "2026-11-08T18:15:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3583,6 +3583,17 @@
       "reason_code": "official_jd_verified_fit_and_workpass_unresolved",
       "missing_evidence": "Official JD includes agentic AI but also manufacturing predictive solutions; establish primary weekly content, mandatory experience, SG EP/S Pass support and targeted Gmail before promotion; cross-source identity with 44436036",
       "next_retry_at": "2026-11-09T18:10:00+08:00",
+      "attempts": 0
+    },
+    {
+      "candidate_seq": 797,
+      "role_key": "freehire:full-stack-engineer-cloud-native-genai-driven-delivery-housing-development-board-o3hdgfan",
+      "company": "Housing & Development Board",
+      "title": "Full-Stack Engineer — Cloud-Native, GenAI-Driven Delivery",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90635738__7119",
+      "reason_code": "radar_only_ai_core_and_sg_eligibility_unverified",
+      "missing_evidence": "Find exact employer-authored HDB role/requisition and complete JD; establish whether GenAI is core work, mandatory Singapore public-service nationality requirements and usable non-MCF route",
+      "next_retry_at": "2026-11-09T18:15:00+08:00",
       "attempts": 0
     }
   ]
