@@ -2036,6 +2036,97 @@
       "last_alternate_source_attempted": "independent exact-role indexed search",
       "last_retry_new_evidence": false,
       "last_evidence_note": "Exact req ID and normalized title GitHub Issue searches found no match; official full JD, 2026 cohort eligibility, liveness and foreign-hire not established. Preserve plausible Agent role."
+    },
+    {
+      "role_key": "freehire:agentshu-ju-ping-ce-gong-cheng-shi-ai-platform-bytedance-hzhwtiyo",
+      "candidate_seq": 2104,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T16:10:00+08:00",
+      "company": "ByteDance",
+      "title": "Agent数据&评测工程师 - AI Platform",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667950077989980469/detail",
+      "last_evidence_note": "Exact ID GitHub history searched; employer-authored full JD/current vacancy/2026 cohort/foreign work permit not verified; do not promote.",
+      "last_alternate_source_attempted": "indexed exact-role official URL search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:agentzi-jin-hua-suan-fa-gong-cheng-shi-ai-platform-bytedance-n4aqqyo2",
+      "candidate_seq": 2105,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T16:10:00+08:00",
+      "company": "ByteDance",
+      "title": "Agent自进化算法工程师 - AI Platform",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667888717122963765/detail",
+      "last_evidence_note": "Exact ID GitHub history searched; employer-authored full JD/current vacancy/2026 cohort/foreign work permit not verified; do not promote.",
+      "last_alternate_source_attempted": "indexed exact-role official URL search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:da-mo-xing-ying-yong-kai-fa-gong-cheng-shi-ai-codingfang-xiang-ai-platform-bytedance-hfoi5t2t",
+      "candidate_seq": 2106,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T16:10:00+08:00",
+      "company": "ByteDance",
+      "title": "大模型应用开发工程师（AI Coding方向） - AI Platform",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667887564768643333/detail",
+      "last_evidence_note": "Exact ID GitHub history searched; employer-authored full JD/current vacancy/2026 cohort/foreign work permit not verified; do not promote.",
+      "last_alternate_source_attempted": "indexed exact-role official URL search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:agentkai-fa-gong-cheng-shi-ai-platform-bytedance-ypfu3phg",
+      "candidate_seq": 2108,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T16:10:00+08:00",
+      "company": "ByteDance",
+      "title": "Agent开发工程师 - AI Platform",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667885791859837237/detail",
+      "last_evidence_note": "Exact ID GitHub history searched; employer-authored full JD/current vacancy/2026 cohort/foreign work permit not verified; do not promote.",
+      "last_alternate_source_attempted": "indexed exact-role official URL search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-apm-bytedance-psmrfhjf",
+      "candidate_seq": 2109,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T16:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师 - APM",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667877734431492357/detail",
+      "last_evidence_note": "Exact ID GitHub history searched; employer-authored full JD/current vacancy/2026 cohort/foreign work permit not verified; do not promote.",
+      "last_alternate_source_attempted": "indexed exact-role official URL search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:software-engineer-data-solutions-is-t-ai-data-platforms-apple-oepeeexp",
+      "candidate_seq": 2110,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T16:10:00+08:00",
+      "company": "Apple",
+      "title": "Software Engineer (Data Solutions), IS&T Ai & Data Platforms",
+      "source_url": "https://jobs.apple.com/en-us/details/200674584/software-engineer-data-solutions-is-t-ai-data-platforms",
+      "last_evidence_note": "Exact ID GitHub history searched; employer-authored full JD/current vacancy/2026 cohort/foreign work permit not verified; do not promote.",
+      "last_alternate_source_attempted": "indexed exact-role official URL search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:sou-suo-da-mo-xing-suan-fa-gong-cheng-shi-tiktok-shop-bytedance-ql6ozfvz",
+      "candidate_seq": 2111,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T16:10:00+08:00",
+      "company": "ByteDance",
+      "title": "搜索大模型算法工程师 - TikTok Shop",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667580407949216053/detail",
+      "last_evidence_note": "Exact ID GitHub history searched; employer-authored full JD/current vacancy/2026 cohort/foreign work permit not verified; do not promote.",
+      "last_alternate_source_attempted": "indexed exact-role official URL search",
+      "last_retry_new_evidence": false
     }
   ]
 }
