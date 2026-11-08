@@ -20,18 +20,19 @@ Opportunity/application state remains only in GitHub Issues.
 
 ### Phase A — fresh discovery
 
-Every run attempts:
+Every run prioritizes **completed, useful candidate decisions** over a wide but superficial source-attempt count:
 
-1. the next **two official/canonical owner buckets** (distinct groups);
-2. the next **four individual platforms** in the market sweep;
-3. the next **three query-family buckets** (distinct semantic families, not three paraphrases of one search);
-4. SG additionally the next **two current research/lab buckets**.
+1. Resume at least **one unresolved high-value coverage debt** with a concrete next probe.
+2. Attempt the next **two individual platforms** in rotation with real page/cursor depth; four platforms is a **ceiling** when time and verification budget allow, not a mandatory minimum.
+3. Attempt the next **one official/canonical owner bucket** and **one distinct query-family bucket**; expand to two owners/three queries only after the selected source rows and promising job identities have been processed.
+4. SG also attempts **one current research/lab bucket**, expandable to two when useful.
 
 Platform rules:
 
-- start at `next_platform_index`;
-- attempt four consecutive platforms in listed order (wrapping around the market list);
-- do not repeat a platform until the sweep cycles through the others;
+- start at `next_platform_index` and rotate by only the platforms actually attempted;
+- do not repeat a platform until the sweep cycles through the others, apart from explicit coverage-debt recovery;
+- process new exact job identities through the cheap gate and, for serious leads, actual JD verification **before** spending the rest of the run on more metadata searches;
+- two platforms per hour cover the SG/MY five-source set in at most three *attempted* cycles and the CN seven-source set in at most four; none of these attempt counts proves adequate coverage;
 - bounded failed/weak searches still count as attempts and must be recorded honestly, but never count as successful coverage;
 - persist/read back fresh state after attempts;
 - prefer fresh-head/delta semantics where supported.
@@ -53,7 +54,7 @@ Rotation counters may still move past an inaccessible source to avoid a permanen
 
 ### Coverage recovery and honest completion
 
-The expanded 4-platform / 2-owner / 3-query / (SG) 2-lab sweep is an initial throughput experiment, **not** proven optimal. Do not spend expensive deep-verification budget just to satisfy the larger source count. Use metadata-first search, all-Issue-history dedupe, and targeted first-party checks. If execution limits prevent all buckets, report PARTIAL_COVERAGE and persist only attempts actually made; never advance an unattempted bucket.
+The earlier 4-platform / 2-owner / 3-query / (SG) 2-lab sweep was a throughput trial that repeatedly ended before candidate verification. Prefer **two deeper platforms + one owner + one query + one SG lab**, expanding only after candidate decisions and durable state handoff. Do not spend verification budget just to inflate source-attempt counts. Use metadata-first search, all-Issue-history dedupe, and targeted first-party checks. If execution limits prevent all buckets, report PARTIAL_COVERAGE and persist only attempts actually made; never advance an unattempted bucket.
 
 For any run report the attempted platform identities, rows inspected per platform, distinct net-new identities, unique duplicates, cheap rejects, authoritative full-JD reads, new durable APPLY/CHECK survivors, fallbacks and failure reasons. Count source-family overlaps only once in global unique counts. A high platform attempt count alone is not proof of recall.
 
@@ -70,7 +71,7 @@ For each selected platform:
 
 **CN access fallback:** BOSS/51job/脉脉 inaccessible does not mean no vacancies. Use bounded search-index/native alternatives (including 牛客, employer social recruiting and lab/PI direct postings), and preserve the unverified source as a coverage gap.
 
-With four platforms per hourly run, SG/MY cover their five-platform sets within at most two fully attempted runs; CN covers seven platforms within at most two fully attempted runs. Platform attempts are not proof that readable job rows were obtained.
+With two deep platform attempts per hourly run, SG/MY rotate through five platform families in at most three attempted cycles, CN through seven in at most four attempted cycles. Platform attempts are not proof that readable job rows were obtained; preserve coverage debt until supported by actual page/cursor/alternate-source evidence.
 
 ### Phase B — FreeHire triage
 
@@ -167,11 +168,11 @@ The research-direct family is bounded: prioritize current RA/RE/Research Associa
 
 After Phase A:
 
-- advance `next_platform_index` by the number of platforms actually attempted (target 4), wrapping modulo platform count;
+- advance `next_platform_index` by the number of platforms actually attempted (default 2, ceiling 4), wrapping modulo platform count;
 - increment `platform_cycle` on wrap;
-- advance `next_owner_bucket` by official-owner buckets actually attempted (target 2), modulo its count;
-- advance `next_query_bucket` by query families actually attempted (target 3), modulo its count;
-- SG advances `next_research_bucket` by lab buckets actually attempted (target 2), modulo 5;
+- advance `next_owner_bucket` by official-owner buckets actually attempted (default 1, ceiling 2), modulo its count;
+- advance `next_query_bucket` by query families actually attempted (default 1, ceiling 3), modulo its count;
+- SG advances `next_research_bucket` by lab buckets actually attempted (default 1, ceiling 2), modulo 5;
 - write `last_completed_at`, last attempted buckets/platforms, and increment `run_counter`. Preserve the existing fresh-state field types/validator contract (the legacy `last_*_bucket` fields may remain a single string). Capture all attempted buckets in the run metrics;
 - read back the state before reporting success; verify any new/unresolved `coverage_debt` entries were preserved and that a claimed resolved debt has page/exhaustion/independent-source evidence.
 
@@ -179,7 +180,7 @@ After Phase A:
 
 Healthy fresh discovery means:
 
-- the four-platform, two-owner, three-query and (SG) two-research-bucket rotations are attempted, with truthful partial-coverage accounting;
+- at least one existing coverage debt and the selected deep platform/owner/query/(SG) lab rotations are attempted, with truthful partial-coverage accounting and real role IDs/pages;
 - owner/query/research buckets continue rotating;
 - FreeHire runs independently under its canonical contract and any unprocessed Phase B is explicitly marked incomplete;
 - verified survivors reach APPLY/CHECK when found.
