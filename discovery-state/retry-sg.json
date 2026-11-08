@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T19:10:00+08:00",
+  "updated_at": "2026-11-08T20:00:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3632,6 +3632,31 @@
       "missing_evidence": "Recruiter employer identity, role SG location, visa sponsorship/EP or S Pass and targeted Gmail dedupe; application route through recruiter exists",
       "next_probe": "Verify GMP reference 63R9X8Y5 on gmprecruit.com and employer/visa requirements before CHECK promotion",
       "jd_evidence": "GMP Manatal full JD: production AI inference/orchestration, LLM/RAG/agents, Python/Node.js, SQL, Docker/Kubernetes; no explicit minimum YOE"
+    },
+    {
+      "candidate_seq": 812,
+      "role_key": "freehire:senior-machine-learning-engineer-krisvconsulting-services-pte-ltd-m2va6bs2",
+      "company": "Krisvconsulting Services Pte Ltd",
+      "title": "Senior Machine Learning Engineer",
+      "source_url": "https://www.careers-page.com/krisvconsulting-services-pte-ltd/job/X943YV8Y",
+      "reason_code": "authoritative_jd_inaccessible_seniority_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T20:10:00+08:00",
+      "missing_evidence": "Exact full employer/recruiter JD and mandatory years, technical scope, employment type, SG work-pass route",
+      "next_probe": "Manatal employer jobs API or independent exact requisition X943YV8Y index; do not repeat inaccessible page"
+    },
+    {
+      "candidate_seq": 814,
+      "role_key": "freehire:ai-engineer-data-infra-nanyang-technological-university-singapore-qlt6mkid",
+      "company": "Nanyang Technological University Singapore",
+      "title": "AI Engineer, Data Infra",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88988993__7119",
+      "reason_code": "independent_full_jd_data_platform_fit_and_official_identity_unresolved",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T20:10:00+08:00",
+      "missing_evidence": "Exact NTU Workday requisition, current vacancy, hard 2-4 years production data-platform/IaC/Kubernetes requirements and usable route",
+      "next_probe": "Search NTU Workday official CXS by exact title, then compare employer requisition; avoid WhatJobs mirror",
+      "jd_evidence": "Independent reproduced JD: primarily AWS data architecture, IAM, EMR, Spark and Terraform for LLM training/evaluation/RAG; 2-4 years platform engineering"
     }
   ]
 }
