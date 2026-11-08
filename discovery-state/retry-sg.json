@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T22:03:00+08:00",
+  "updated_at": "2026-11-08T23:15:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3744,6 +3744,72 @@
       "attempts": 1,
       "next_retry_at": "2026-11-09T22:10:00+08:00",
       "evidence_note": "Exact campus job 7664493475353954613, Singapore metadata; official detail inaccessible; 2026 MSc graduate eligibility for 2027 campaign unknown."
+    },
+    {
+      "candidate_seq": 839,
+      "role_key": "freehire:backend-applied-machine-learning-engineer-graduate-aml-efficiency-tool-2027-start-bytedance-azdczpbg",
+      "reason_code": "exact_identity_checked_authoritative_jd_or_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "ByteDance",
+      "title": "Backend Applied Machine Learning Engineer Graduate (AML Efficiency Tool) - 2027 Start",
+      "source_url": "https://jobs.bytedance.com/campus/position/7663394302727538949/detail?utm_source=freehire.me",
+      "missing_evidence": "official campus full JD, 2027 graduate cohort eligibility, live apply route"
+    },
+    {
+      "candidate_seq": 842,
+      "role_key": "freehire:machine-learning-engineer-julius-baer-eimo66gl",
+      "reason_code": "exact_identity_checked_authoritative_jd_or_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "Julius Baer",
+      "title": "Machine Learning Engineer",
+      "source_url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Singapore/Machine-Learning-Engineer_r-18856-1?utm_source=freehire.me",
+      "missing_evidence": "official exact Workday JD, current opening and role AI/ML ownership"
+    },
+    {
+      "candidate_seq": 843,
+      "role_key": "freehire:full-stack-developer-ai-enabled-phillip-securities-dp63vgm2",
+      "reason_code": "exact_identity_checked_authoritative_jd_or_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "Phillip Securities",
+      "title": "Full Stack Developer (AI-Enabled)",
+      "source_url": "https://sg.jobstreet.com/job/95487811?utm_source=freehire.me",
+      "missing_evidence": "official employer requisition, substantive JD and non-MCF application route"
+    },
+    {
+      "candidate_seq": 844,
+      "role_key": "freehire:llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
+      "reason_code": "exact_identity_checked_authoritative_jd_or_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "TikTok",
+      "title": "LLM Evaluation Product Operations Specialist – TikTok",
+      "source_url": "https://sg.jobstreet.com/job/92900470?utm_source=freehire.me",
+      "missing_evidence": "exact JD technical evaluation vs operations, role liveness and employer route"
+    },
+    {
+      "candidate_seq": 845,
+      "role_key": "freehire:ai-developer-fuku-ysqpbmls",
+      "reason_code": "exact_identity_checked_authoritative_jd_or_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "Fuku",
+      "title": "AI Developer",
+      "source_url": "https://apply.workable.com/j/EFA54F9658?utm_source=freehire.me",
+      "missing_evidence": "Workable substantive JD, current liveness and seniority"
+    },
+    {
+      "candidate_seq": 846,
+      "role_key": "freehire:ml-engineer-technopals-zohorecruit-com-qlcyfbxs",
+      "reason_code": "exact_identity_checked_authoritative_jd_or_eligibility_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "Technopals Pte.Ltd.",
+      "title": "ML Engineer",
+      "source_url": "https://technopals.zohorecruit.com/jobs/Careers/363745000022725010?utm_source=freehire.me",
+      "missing_evidence": "official Zoho JD, actual ML scope and employment eligibility"
     }
   ]
 }
