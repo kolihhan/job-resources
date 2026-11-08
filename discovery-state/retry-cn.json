@@ -1958,6 +1958,19 @@
       "last_alternate_source_attempted": "exact requisition and employer-title indexed search; adjacent front-end job 7675629237999601925 is distinct and closed",
       "last_retry_new_evidence": false,
       "last_evidence_note": "Exact historical GitHub Issue ID/title searches returned no hits; exact employer JD, 2026 cohort and foreign work permit not verified"
+    },
+    {
+      "role_key": "freehire:yan-gao-suan-fa-gong-cheng-shi-meituan-2hh5hvoy",
+      "candidate_seq": 2062,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T13:13:23+08:00",
+      "company": "Meituan",
+      "title": "广告算法工程师",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697268474",
+      "last_alternate_source_attempted": "exact requisition/title indexed search",
+      "last_retry_new_evidence": false,
+      "last_evidence_note": "Metadata flags RAG, PyTorch, fine-tuning despite generic ads title; preserve until full JD proves fit or mismatch; exact GitHub Issue ID search no hits"
     }
   ]
 }
