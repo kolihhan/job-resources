@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T23:15:00+08:00",
+  "updated_at": "2026-11-09T00:30:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3810,6 +3810,42 @@
       "title": "ML Engineer",
       "source_url": "https://technopals.zohorecruit.com/jobs/Careers/363745000022725010?utm_source=freehire.me",
       "missing_evidence": "official Zoho JD, actual ML scope and employment eligibility"
+    },
+    {
+      "candidate_seq": 851,
+      "role_key": "freehire:senior-ai-engineer-contact-centre-ncs3-27p2civc",
+      "company": "NCS",
+      "title": "Senior AI Engineer (Contact Centre)",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001027452-senior-ai-engineer-contact-centre-",
+      "reason_code": "official_jd_requirements_unverified",
+      "missing_evidence": "Exact official substantive JD and mandatory seniority; official page inaccessible",
+      "next_probe": "SmartRecruiters posting API by ID 6000000001027452 or indexed exact employer JD",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T00:30:00+08:00"
+    },
+    {
+      "candidate_seq": 852,
+      "role_key": "freehire:mian-xiang-guo-ji-dian-shang-chang-jing-de-da-mo-xing-ying-yong-guo-ji-dian-shang-xin-jia-po-llm-applications-for-international-e-commerce-scenarios-global-e-commerce-singapore-bytedance-4n47aobm",
+      "company": "ByteDance",
+      "title": "LLM Applications for International E-commerce Scenarios (Singapore)",
+      "source_url": "https://jobs.bytedance.com/campus/position/7630869633486358789/detail",
+      "reason_code": "campus_cohort_and_official_jd_unverified",
+      "missing_evidence": "Official full JD, 2026 MSc campus eligibility and foreign work pass route",
+      "next_probe": "ByteDance campus exact position 7630869633486358789 and 2026 graduate campaign requirements",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T00:30:00+08:00"
+    },
+    {
+      "candidate_seq": 855,
+      "role_key": "freehire:ai-engineer-fuku-oncspdx5",
+      "company": "Fuku",
+      "title": "AI engineer",
+      "source_url": "https://apply.workable.com/j/C6B0981CCB",
+      "reason_code": "official_jd_inaccessible",
+      "missing_evidence": "Substantive exact employer JD, liveness, AI ownership and employment terms",
+      "next_probe": "Workable public jobs API or Fuku employer careers exact C6B0981CCB",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T00:30:00+08:00"
     }
   ]
 }
