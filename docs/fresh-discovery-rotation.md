@@ -4,7 +4,7 @@ Focused execution supplement to `README.md`, `RULES.md`, and `docs/source-routin
 
 ## Goal
 
-Fresh discovery must cover the relevant platform set instead of repeatedly choosing the easiest source. Fresh discovery and FreeHire triage are independent phases so neither starves the other.
+Fresh discovery must cover the relevant platform set instead of repeatedly choosing the easiest source. **Substantive engineering and research both get top-priority fresh ATS/official source coverage**, rather than research-lab visits consuming the engineering search budget. Fresh discovery and FreeHire triage are independent phases so neither starves the other.
 
 **Canonical FreeHire throughput/retry/transport rules live only in `docs/freehire-triage-consumption.md`. Do not restate or override those numbers here.**
 
@@ -22,10 +22,10 @@ Opportunity/application state remains only in GitHub Issues.
 
 Every run prioritizes **completed, useful candidate decisions** over a wide but superficial source-attempt count:
 
-1. Resume at least **one unresolved high-value coverage debt** with a concrete next probe.
-2. Attempt the next **two individual platforms** in rotation with real page/cursor depth; four platforms is a **ceiling** when time and verification budget allow, not a mandatory minimum.
-3. Attempt the next **one official/canonical owner bucket** and **one distinct query-family bucket**; expand to two owners/three queries only after the selected source rows and promising job identities have been processed.
-4. SG also attempts **one current research/lab bucket**, expandable to two when useful.
+1. **Start with the next current official employer/ATS owner bucket and one distinct query-family bucket**; get exact current role IDs, not just the company homepage. Explicitly include engineering career/ATS searches, not only academic RA/RE. Expand to two owners/three queries only after seriously promising identities receive disposition.
+2. Resume at least **one unresolved high-value coverage debt** with a concrete next probe, prioritizing debts exposing NEW exact employer roles; do not revisit old failed URLs without a materially different path.
+3. Attempt the next **two individual platforms** in rotation with real page/cursor depth; four platforms is a **ceiling** when time and verification budget allow, not a mandatory minimum. Process good fresh exact roles before the next platform.
+4. SG also attempts **one current research/lab bucket**, expandable to two when useful; this complements rather than replaces the official engineering ATS probe.
 
 Platform rules:
 
@@ -37,7 +37,7 @@ Platform rules:
 - persist/read back fresh state after attempts;
 - prefer fresh-head/delta semantics where supported.
 - search each selected query family across the chosen platforms with bounded metadata-first discovery; do not multiply expensive full-JD reads by the platform × query cross-product.
-- prioritize unique early-career/research-aligned exact job identities, not advertised search-result totals.
+- prioritize unique early-career **AI engineering OR research** exact job identities, not advertised search-result totals.
 
 
 ### Mandatory source-depth and unfinished-work contract
@@ -67,7 +67,7 @@ For each selected platform:
 3. Re-anchor promising new signals to authoritative exact-role JD and usable application route. If the official page is JS-only, try another employer-published route or faithful full-JD reproduction once; record the unresolved blocker rather than claiming verification.
 4. If coverage remains weak, set run_quality=PARTIAL_COVERAGE, add/update the same-platform/query `coverage_debt` with the actual next probe, and record coverage_gaps/fallback_sources in the run metrics. Zero new APPLY/CHECK then means **no verified survivors in the limited slice**, not no new roles on the market. The next run still rotates normally **and must work a previous debt before claiming completion**; do not reset the search to page one and repeat identical snippets.
 
-**SG research recall:** Every SG run also performs a bounded current RA/RE/Research Officer lab/official-portal sweep in its research bucket, including current NUS/NTU/A*STAR requisitions or PI-managed postings. Use role IDs and posted dates to find genuinely new opportunities, not just static lab homepages. Check all-Issue history before deep work; do not let unrelated university/research roles crowd out knowledge-enhanced LLM, Agent, NLP and evaluation research.
+**SG research recall:** Every SG run also performs a bounded current RA/RE/Research Officer lab/official-portal sweep in its research bucket **without replacing the current engineering employer-ATS probe**, including current NUS/NTU/A*STAR requisitions or PI-managed postings. Use role IDs and posted dates to find genuinely new opportunities, not just static lab homepages. Check all-Issue history before deep work; do not let unrelated university/research roles crowd out knowledge-enhanced LLM, Agent, NLP and evaluation research.
 
 **CN access fallback:** BOSS/51job/脉脉 inaccessible does not mean no vacancies. Use bounded search-index/native alternatives (including 牛客, employer social recruiting and lab/PI direct postings), and preserve the unverified source as a coverage gap.
 
@@ -183,4 +183,4 @@ Healthy fresh discovery means:
 - at least one existing coverage debt and the selected deep platform/owner/query/(SG) lab rotations are attempted, with truthful partial-coverage accounting and real role IDs/pages;
 - owner/query/research buckets continue rotating;
 - FreeHire runs independently under its canonical contract and any unprocessed Phase B is explicitly marked incomplete;
-- verified survivors reach APPLY/CHECK when found.
+- verified survivors in **either engineering or research** reach APPLY/CHECK when found; measure actual new eligible unique Issues (APPLY and CHECK separately), not cursor/receipt counts.
