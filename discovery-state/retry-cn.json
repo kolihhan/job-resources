@@ -2576,6 +2576,39 @@
       "blocker": "Agent runtime engineering potentially strong; official JD and foreign-hire feasibility unknown",
       "last_alternate_source_attempted": "exact GitHub all-history ID and independent indexed exact-role search",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-infraping-tai-kai-fa-gong-cheng-shi-zhong-qing-ji-qi-ren-deinhh6g",
+      "candidate_seq": 2174,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "众擎机器人",
+      "title": "AI infra平台开发工程师",
+      "source_url": "https://dx3a2bminsq.jobs.feishu.cn/index/position/7640309234824087827/detail",
+      "last_evidence_note": "Exact GitHub Issue ID search negative; employer full JD, current liveness, eligibility and foreign-hire unresolved."
+    },
+    {
+      "role_key": "freehire:ai-agenthou-duan-kai-fa-gong-cheng-shi-data-aml-zhi-neng-nei-rong-bytedance-uykpy32u",
+      "candidate_seq": 2175,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent后端开发工程师-Data AML（智能内容）",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7639972986616400133/detail",
+      "last_evidence_note": "Exact GitHub Issue ID search negative; employer full JD, current liveness, eligibility and foreign-hire unresolved."
+    },
+    {
+      "role_key": "freehire:ai-agentsuan-fa-gong-cheng-shi-guo-ji-dian-shang-lian-meng-bytedance-tuxoyaio",
+      "candidate_seq": 2178,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T00:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent算法工程师-国际电商联盟",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7637433770217261317/detail",
+      "last_evidence_note": "Exact GitHub Issue ID search negative; employer full JD, current liveness, eligibility and foreign-hire unresolved."
     }
   ]
 }
