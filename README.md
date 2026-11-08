@@ -4,13 +4,13 @@ Private operating inbox for the current search.
 
 ## North star
 
-Prioritize **LLM/NLP research-oriented work** in knowledge-enhanced language models and agentic LLMs, then substantial applied LLM engineering. `PROFILE.md` defines content tiers and evidence; `RULES.md` governs eligibility and execution.
+Prioritize **two equal North-Star tracks**: (1) substantive NLP/LLM/Agent research and (2) hands-on AI engineering that builds and owns meaningful LLM, RAG/retrieval, Agent/tool, evaluation or AI-native backend/platform systems. Neither track is a fallback for the other. `PROFILE.md` defines quality/content tiers and evidence; `RULES.md` governs eligibility and execution.
 
 Do not optimize raw application count, callback count, Issue count, interview count, or discovery volume in isolation.
 
 Active markets: **Singapore + Mainland China + Malaysia**. Hong Kong is paused.
 
-Rank by content first. GOLD academic and industrial research share a tier; fixed-term GOLD academic work retains priority subject to `RULES.md` section 5 quality/terms checks.
+Rank by actual weekly work and role quality, **not research vs engineering titles**. GOLD research and GOLD substantive AI engineering share a tier. Fixed-term GOLD academic work remains eligible subject to `RULES.md` section 5 quality/terms checks.
 
 ## Six battlefields
 
@@ -113,7 +113,7 @@ Target lists prioritize search effort, not eligibility. An excellent exact role 
 - Recruiting Signal Watch — hourly over both Gmail accounts; substantive lifecycle signals update the canonical Issue and preserve `Furthest stage`.
 - AI Job Deep Fit Review — **daily**; first deep-reviews a bounded set of existing APPLY/CHECK Issues against exact JDs, hard eligibility, truthful candidate evidence and counterarguments under `RULES.md` section 7; then does a compact six-battlefield strategy/execution review under section 17. It updates only compact evidence in existing Issues (and bounded `PROFILE.md` adaptive memory if warranted), never submits applications, creates a parallel tracker, or adds raw job discovery work.
 
-Hourly scouts execute two independent discovery phases: the normal first-party/native fresh-platform rotation, then FreeHire triage/retry under the canonical FreeHire contract. They may search/verify/dedupe, create a **new verified APPLY/CHECK Issue**, and update only their market-owned compact discovery cursor/retry/cache state. They do not submit applications, contact employers, modify Gmail, or automatically modify/close/reopen existing opportunity Issues.
+Hourly scouts execute two independent discovery phases: **current first-party/ATS and native fresh-market discovery first**, then bounded FreeHire triage/retry under the canonical FreeHire contract. Only the already-defined verified stall-recovery exception allows a short FreeHire checkpoint first; immediately resume fresh search afterwards. They may search/verify/dedupe, create a **new verified APPLY/CHECK Issue**, and update only their market-owned compact discovery cursor/retry/cache state. They do not submit applications, contact employers, modify Gmail, or automatically modify/close/reopen existing opportunity Issues.
 
 Scheduler runtime health comes from the automation system. `DISCOVERY_STATE.md` stores `last_state_change_at`, not a heartbeat; a successful no-change run should not create a commit.
 
