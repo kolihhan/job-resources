@@ -2428,6 +2428,42 @@
       "source_url": "https://vivix-ai.jobs.feishu.cn/index/position/7657835897480907071/detail",
       "last_alternate_source_attempted": "exact employer title/requisition indexed search",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:aiying-yong-kai-fa-gong-cheng-shi-trip-com-group-jwvnu4fb",
+      "candidate_seq": 2147,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T21:10:00+08:00",
+      "company": "Trip.com Group",
+      "title": "AI应用开发工程师",
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415#/job/e5a11137-5296-4af6-bd15-ac4e36ba619a",
+      "last_alternate_source_attempted": "2026-11-08 exact employer requisition search; official direct page inaccessible",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentying-yong-kai-fa-gong-cheng-shi-tiktokyong-hu-zeng-chang-bytedance-eliurvio",
+      "candidate_seq": 2150,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T21:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent应用开发工程师-TikTok用户增长",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7657154058897082629/detail",
+      "last_alternate_source_attempted": "2026-11-08 exact employer requisition search; official direct page inaccessible",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:agentic-recsyssuan-fa-gong-cheng-shi-dou-yin-bytedance-huszpnxf",
+      "candidate_seq": 2153,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T21:10:00+08:00",
+      "company": "ByteDance",
+      "title": "Agentic RecSys算法工程师 - 抖音",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7654560536566991157/detail",
+      "last_alternate_source_attempted": "2026-11-08 exact employer requisition search; official direct page inaccessible",
+      "last_retry_new_evidence": false
     }
   ]
 }
