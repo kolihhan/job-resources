@@ -2127,6 +2127,102 @@
       "last_evidence_note": "Exact ID GitHub history searched; employer-authored full JD/current vacancy/2026 cohort/foreign work permit not verified; do not promote.",
       "last_alternate_source_attempted": "indexed exact-role official URL search",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-kai-fa-tao-jian-fang-xiang-shu-ju-ping-tai-bytedance-qvpbo4wq",
+      "candidate_seq": 2113,
+      "reason_code": "official_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T17:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（开发套件方向） - 数据平台",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667538136535140613/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7667538136535140613",
+      "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-shu-ju-zhi-shi-fang-xiang-shu-ju-ping-tai-bytedance-yatwbzz2",
+      "candidate_seq": 2114,
+      "reason_code": "official_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T17:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（数据知识方向） - 数据平台",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667531539372443909/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7667531539372443909",
+      "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-an-quan-yu-he-gui-jian-ying-capcut-bytedance-hm7mxfpv",
+      "candidate_seq": 2115,
+      "reason_code": "official_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T17:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（安全与合规） - 剪映CapCut",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667530064128444725/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7667530064128444725",
+      "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-guo-ji-hua-fang-xiang-shu-ju-bp-bytedance-fkojvpc3",
+      "candidate_seq": 2116,
+      "reason_code": "official_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T17:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（国际化方向） - 数据BP",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667163020699257141/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7667163020699257141",
+      "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-dou-yin-yan-fa-bytedance-2phphtgl",
+      "candidate_seq": 2117,
+      "reason_code": "official_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T17:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师 - 抖音研发",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667108919110519093/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7667108919110519093",
+      "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
+    },
+    {
+      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-ai-agentfang-xiang-tiktokyan-fa-bytedance-7o7adsvz",
+      "candidate_seq": 2118,
+      "reason_code": "official_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T17:10:00+08:00",
+      "company": "ByteDance",
+      "title": "大模型算法工程师（AI Agent方向） - TikTok研发",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667106441702197557/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7667106441702197557",
+      "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
+    },
+    {
+      "role_key": "freehire:ai-agentfu-wu-duan-yan-fa-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-4jk27io2",
+      "candidate_seq": 2119,
+      "reason_code": "official_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T17:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent服务端研发工程师 - 开发者服务",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667098583514024245/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7667098583514024245",
+      "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
+    },
+    {
+      "role_key": "freehire:ai-agentyi-dong-duan-yan-fa-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-uoni4bqw",
+      "candidate_seq": 2120,
+      "reason_code": "official_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T17:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent移动端研发工程师 - 开发者服务",
+      "source_url": "https://jobs.bytedance.com/campus/position/7667097616880404741/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7667097616880404741",
+      "last_evidence_note": "Exact req ID and title searched in all GitHub Issues; no exact match. Official full JD, cohort, liveness, foreign-hire and usable route unverified; do not promote."
     }
   ]
 }
