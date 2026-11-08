@@ -1997,6 +1997,45 @@
       "last_alternate_source_attempted": "exact requisition indexed employer-JD reproduction",
       "last_retry_new_evidence": true,
       "last_evidence_note": "Exact matching full JD reproduced; official live vacancy and foreign-work-permit route not confirmed"
+    },
+    {
+      "candidate_seq": 2079,
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-zhong-guo-jiao-yi-yu-yan-gao-bytedance-f3f6ds7z",
+      "company": "ByteDance",
+      "title": "AI Agent研发工程师 - 中国交易与广告",
+      "source_url": "https://jobs.bytedance.com/campus/position/7669651173607278901/detail",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T15:14:25+08:00",
+      "last_alternate_source_attempted": "independent exact-role indexed search",
+      "last_retry_new_evidence": false,
+      "last_evidence_note": "Exact req ID and normalized title GitHub Issue searches found no match; official full JD, 2026 cohort eligibility, liveness and foreign-hire not established. Preserve plausible Agent role."
+    },
+    {
+      "candidate_seq": 2083,
+      "role_key": "freehire:da-mo-xing-ping-tai-yan-fa-gong-cheng-shi-agentic-infra-tiktoknei-rong-an-quan-ping-tai-bytedance-wblvt6gb",
+      "company": "ByteDance",
+      "title": "大模型平台研发工程师（Agentic Infra） - TikTok内容安全平台",
+      "source_url": "https://jobs.bytedance.com/campus/position/7669272212160547077/detail",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T15:14:25+08:00",
+      "last_alternate_source_attempted": "independent exact-role indexed search",
+      "last_retry_new_evidence": false,
+      "last_evidence_note": "Exact req ID and normalized title GitHub Issue searches found no match; official full JD, 2026 cohort eligibility, liveness and foreign-hire not established. Preserve plausible Agent role."
+    },
+    {
+      "candidate_seq": 2084,
+      "role_key": "freehire:da-mo-xing-ying-yong-suan-fa-gong-cheng-shi-ai-agentfang-xiang-commercial-ai-bytedance-ybxdvgyf",
+      "company": "ByteDance",
+      "title": "大模型应用算法工程师（AI Agent方向） - 巨量AI工作台",
+      "source_url": "https://jobs.bytedance.com/campus/position/7668698983221119237/detail",
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T15:14:25+08:00",
+      "last_alternate_source_attempted": "independent exact-role indexed search",
+      "last_retry_new_evidence": false,
+      "last_evidence_note": "Exact req ID and normalized title GitHub Issue searches found no match; official full JD, 2026 cohort eligibility, liveness and foreign-hire not established. Preserve plausible Agent role."
     }
   ]
 }
