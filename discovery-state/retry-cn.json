@@ -1893,6 +1893,58 @@
       "attempts": 0,
       "next_retry_at": "2026-11-09T11:10:00+08:00",
       "notes": "2026-11-08 metadata screened; exact ID issue search no match. Requires employer-authored substantive JD, liveness, seniority, work permit and usable route; do not retry same JS URL without alternate official/index evidence."
+    },
+    {
+      "role_key": "freehire:da-mo-xing-suan-fa-gong-cheng-shi-dong-che-di-mjtgfmb6",
+      "candidate_seq": 2053,
+      "reason_code": "authoritative_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T12:10:00+08:00",
+      "company": "懂车帝",
+      "title": "大模型算法工程师",
+      "source_url": "https://dcar.jobs.feishu.cn/index/position/7682797316910762266/detail?utm_source=freehire.me",
+      "external_id": "dcar.jobs.feishu.cn:7682797316910762266",
+      "last_alternate_source_attempted": "2026-11-08 exact requisition indexed search and official careers source",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-an-quan-ping-tai-yan-fa-gong-cheng-shi-zeentra-fqpgv3pc",
+      "candidate_seq": 2054,
+      "reason_code": "security_platform_field_fit_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T12:10:00+08:00",
+      "company": "Zeentra",
+      "title": "AI 安全平台研发工程师",
+      "source_url": "https://acnc6zeentra.jobs.feishu.cn/index/position/7682634319332378918/detail?utm_source=freehire.me",
+      "external_id": "acnc6zeentra.jobs.feishu.cn:7682634319332378918",
+      "last_alternate_source_attempted": "2026-11-08 exact requisition indexed search and official careers source",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-huo-shan-fang-zhou-bytedance-zsxfqzl3",
+      "candidate_seq": 2055,
+      "reason_code": "authoritative_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T12:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent研发工程师 - 火山方舟",
+      "source_url": "https://jobs.bytedance.com/campus/position/7680919763589417269/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7680919763589417269",
+      "last_alternate_source_attempted": "2026-11-08 exact requisition indexed search and official careers source",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:agentkai-fa-gong-cheng-shi-ai-ji-chu-neng-li-ji-tuan-xin-xi-xi-tong-bytedance-gqmn6mgh",
+      "candidate_seq": 2056,
+      "reason_code": "authoritative_full_jd_liveness_cohort_foreign_hire_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T12:10:00+08:00",
+      "company": "ByteDance",
+      "title": "Agent开发工程师（AI-基础能力） - 集团信息系统",
+      "source_url": "https://jobs.bytedance.com/campus/position/7680196825143773493/detail?utm_source=freehire.me",
+      "external_id": "jobs.bytedance.com:7680196825143773493",
+      "last_alternate_source_attempted": "2026-11-08 exact requisition indexed search and official careers source",
+      "last_retry_new_evidence": false
     }
   ]
 }
