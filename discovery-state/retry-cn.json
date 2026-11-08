@@ -2319,6 +2319,42 @@
       "source_url": "https://jobs.bytedance.com/campus/position/7667096475969407285/detail",
       "prior_issue_title": "[SKIP][CN] ByteDance — AI Agent前端开发工程师-开发者服务",
       "evidence_needed": "Compare old Issue exact req ID/URL against 7667096475969407285; title match alone is not exact dedupe"
+    },
+    {
+      "role_key": "freehire:ai-agentgong-cheng-shi-dou-bao-bytedance-j7t4kj3l",
+      "candidate_seq": 2134,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T19:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent工程师 - 豆包",
+      "source_url": "https://jobs.bytedance.com/campus/position/7665235491532736773/detail",
+      "last_alternate_source_attempted": "Alion exact-title full-JD reproduction; employer exact requisition/liveness/2026 cohort/foreign hire not confirmed",
+      "last_retry_new_evidence": true
+    },
+    {
+      "role_key": "freehire:ai-ce-shi-kai-fa-gong-cheng-shi-zhipu-ai-e2xcrdbw",
+      "candidate_seq": 2136,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T19:10:00+08:00",
+      "company": "Zhipu AI",
+      "title": "AI 测试开发工程师",
+      "source_url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/516128e1-bfeb-41eb-a847-8c1147a7cc10",
+      "last_alternate_source_attempted": "WatchJobs exact role full JD; employer source, liveness and foreign hire not confirmed",
+      "last_retry_new_evidence": true
+    },
+    {
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-jing-ying-ping-tai-fang-xiang-aisuan-li-ji-chu-she-shi-bytedance-o3exk6aa",
+      "candidate_seq": 2137,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T19:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI agent研发工程师（经营平台方向） - AI算力基础设施",
+      "source_url": "https://jobs.bytedance.com/campus/position/7664986569519008053/detail",
+      "last_alternate_source_attempted": "exact requisition indexed search, no matching full employer JD",
+      "last_retry_new_evidence": false
     }
   ]
 }
