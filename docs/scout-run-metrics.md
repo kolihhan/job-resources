@@ -20,6 +20,15 @@ For each attempted platform, include `source_probes` entries with the source pat
 
 Set `phase_a_completed` and `phase_b_completed` booleans in each metrics record. `COMPLETE` is permitted **only** if both are true, current required source attempts and durable handoffs are evidenced, current sources have real page/exhaustion/substitute evidence, and there is no material unworked coverage debt. Otherwise `PARTIAL_COVERAGE` (or `BLOCKED_STATE` if state integrity failed). A metrics row recording an incomplete run is an honest checkpoint, **not an achievement or completion receipt**. Before persisting, validate these rules using `scripts/validate_scout_metrics.py` when executable; without Python do the equivalent explicit invariant checks. Never mark COMPLETE merely because the metrics JSON was appended.
 
+## Outcome-first discovery yield (no new tracker)
+
+**Primary discovery outcome:** count the number of **distinct net-new, verified GitHub Issues created this run**, split into status:apply (route and every hard gate checked) and status:check (liveness confirmed, exactly one material blocker). A discovered URL, candidate metadata row, old already-applied WAIT, retroactively moved cursor, retry receipt, cached reject or historical Issue is **not** a new viable opportunity. Deduplicate across fresh/FreeHire and multiple sources by final GitHub Issue URL/ID; an issue may count exactly once, in the phase that created it.
+
+Retain existing `fresh_totals.apply_created/check_created` and `freehire_triage.apply_created/check_created` fields; **do not alter required JSON schema**. In the human-facing recap compute and show the unique cross-phase APPLY and CHECK total from verified new Issue IDs/URLs and say `0` when no new viable jobs were created. Break down by engineering vs research based on actual duties where evidence exists, not titles alone; preserve counts as unknown when verification did not happen.
+
+**Leading diagnostics rather than success metrics:** number of distinct NEW official employer/ATS requisition IDs actually identified, employer-authored full JDs checked, verified unique eligible-but-unpromoted candidate blockers, exact all-Issue duplicates, hard eligibility rejects, native/ATS freshness coverage and meaningful due-retry resolution with new evidence. A 200-candidate manifest or a large retry count proves backlog, not market opportunity yield. Attempted official-source pages and Phase A completion remain separate from FreeHire backlog completion.
+
+**Evaluation discipline:** before saying a revised discovery strategy works, compare at least two independent subsequent runs or source/market rotations, including a zero-survivor case and a sample of rejected/undercovered engineering AND research roles. If issues rose only because CHECK standards were weakened, more duplicates were created, or old applied roles were re-presented, reject the claimed improvement. Do not fabricate a per-hour Issue quota, callback probability, or baseline from historical partial metrics.
 ## Required evidence
 
 Every run should preserve enough evidence to answer:
