@@ -75,7 +75,7 @@ With two deep platform attempts per hourly run, SG/MY rotate through five platfo
 
 ### Phase B — FreeHire triage
 
-Execute **only** `docs/freehire-triage-consumption.md` after Phase A. The old raw-sequence recovery document is historical/audit only and is not an active hourly obligation.
+Execute **only** `docs/freehire-triage-consumption.md`. Normally run after Phase A. **Stall recovery exception:** when the canonical FreeHire doc identifies consecutive unpersisted SG/CN/MY candidate research, complete a validated first-shard checkpoint **before** broad Phase A discovery; only then work a bounded official-source/debt probe. If time is insufficient for the usual two-platform/owner/query rotation, preserve unattempted counters and report `PARTIAL_COVERAGE`, rather than repeating the same uncommitted candidate research next hour. Do not claim Phase A completed. A market with no unconsumed FreeHire prefix should instead favor fresh current roles and evidence-bearing due retries. The old raw-sequence recovery document is historical/audit only and is not an active hourly obligation.
 
 ## SG platform sweep
 
