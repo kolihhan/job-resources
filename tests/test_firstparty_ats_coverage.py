@@ -38,6 +38,11 @@ class FirstPartyATSTests(unittest.TestCase):
     def test_generic_backend_without_AI_rejected(self):
         self.assertIsNone(role("MY","Bjak","ashby","bjakcareer",ID,
             "Backend Engineer","Kuala Lumpur","Build ordinary REST APIs and databases."))
+    def test_ai_in_sales_title_is_not_engineering(self):
+        self.assertIsNone(role("SG","Stripe","greenhouse","stripe","8349481",
+            "Account Executive - Startups & AI","Singapore",
+            "Sell AI payment products to startups."))
+
     def test_senior_title_is_flag_only(self):
         x=role("SG","NCS","smartrecruiters","NCS3","6000000001234567",
                "Senior AI Engineer","Singapore","Build AI agents and RAG evaluation")
