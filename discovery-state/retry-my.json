@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-08T15:10:25+08:00",
+  "updated_at": "2026-11-08T15:17:19+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -266,9 +266,9 @@
       "title": "Mid-Level Automation & AI Developer",
       "source_url": "https://my.jobstreet.com/job/95707049?utm_source=freehire.me",
       "reason_code": "verification_pending",
-      "attempts": 0,
-      "next_retry_at": "2026-11-08T12:20:00+08:00",
-      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no."
+      "attempts": 1,
+      "next_retry_at": "2026-11-11T15:20:00+08:00",
+      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no. 2026-11-08 15:17 MYT: NEW independent full JD on FreeHire (https://freehire.me/jobs/mid-level-automation-ai-developer-quanton-asia-sdn-bhd-75c6last) explicitly requires 3–6 years hands-on UiPath AND Automation Anywhere; AI agents only a learning/bonus component. Native JobStreet company listing corroborates current full-time hybrid RM7k–8k (https://my.jobstreet.com/Quanton-Asia-Sdn-Bhd-jobs); direct exact JobStreet #95707049 page inaccessible. All-history GitHub company-title search found no Issue. This is strong negative fit evidence but third-party JD is not sufficiently employer-authoritative for terminal disposition; preserve pending, request employer exact JD; do not retry old URL without new evidence. retry_new_evidence=yes; backoff >=72h."
     },
     {
       "role_key": "freehire:senior-ai-data-centre-network-security-engineer-neuron-solutions-sdn-bhd-v5uptlyj",
