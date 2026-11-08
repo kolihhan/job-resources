@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T03:10:00+08:00",
+  "updated_at": "2026-11-09T04:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3986,6 +3986,50 @@
       "attempts": 0,
       "next_retry_at": "2026-11-10T03:10:00+08:00",
       "evidence_note": "2027 graduate cohort eligibility, official TikTok requisition and non-MCF route unverified"
+    },
+    {
+      "candidate_seq": 881,
+      "role_key": "freehire:machine-learning-engineer-graduate-global-e-commerce-recommendation-2027-start-tiktok-pte-ltd-apk7pnl3",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, Recommendation) - 2027 Start",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/994a4c19fa9e0aa5ded895262b0b3f5f?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T04:05:00+08:00",
+      "evidence_note": "MCF-only listing; exact TikTok employer requisition/full JD, 2027 graduate cohort eligibility, SG work-pass and non-MCF application route unverified"
+    },
+    {
+      "candidate_seq": 882,
+      "role_key": "freehire:machine-learning-engineer-graduate-global-e-commerce-user-growth-2027-tiktok-pte-ltd-xj7osan2",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, User Growth) - 2027",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/29441ec9f786857356275a1c5053abd6?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T04:05:00+08:00",
+      "evidence_note": "MCF-only listing; exact TikTok employer requisition/full JD, 2027 graduate cohort eligibility, SG work-pass and non-MCF application route unverified"
+    },
+    {
+      "candidate_seq": 883,
+      "role_key": "freehire:machine-learning-engineer-graduate-global-e-commerce-platform-governance-2027-start-tiktok-pte-ltd-cp56sx5c",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, Platform Governance) - 2027 Start",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/c84a8a878cbfe95f9d7c6810108de74a?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T04:05:00+08:00",
+      "evidence_note": "MCF-only listing; exact TikTok employer requisition/full JD, 2027 graduate cohort eligibility, SG work-pass and non-MCF application route unverified"
+    },
+    {
+      "candidate_seq": 888,
+      "role_key": "freehire:ai-native-full-stack-engineer-3d-dashboards-geospatial-polytron-ai-pte-ltd-5vsdatyv",
+      "company": "POLYTRON.AI PTE. LTD.",
+      "title": "AI-Native Full Stack Engineer — 3D Dashboards & Geospatial",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94637681__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T04:05:00+08:00",
+      "evidence_note": "WhatJobs mirror only; official employer requisition/full JD, LLM ownership, SG work-pass and non-MCF application route unverified"
     }
   ]
 }
