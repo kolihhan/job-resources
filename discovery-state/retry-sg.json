@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T02:10:00+08:00",
+  "updated_at": "2026-11-09T03:10:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3942,6 +3942,50 @@
       "next_probe": "Find NEXadept official vacancy behind WhatJobs 94710310",
       "attempts": 0,
       "next_retry_at": "2026-11-10T02:15:00+08:00"
+    },
+    {
+      "candidate_seq": 873,
+      "role_key": "freehire:full-stack-engineer-ai-coding-nexadept-ncxrqmot",
+      "company": "NEXadept",
+      "title": "Full Stack Engineer - AI Coding",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94710355__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T03:10:00+08:00",
+      "evidence_note": "Third-party listing only; exact official employer requisition, substantive AI ownership, early-career requirements and non-MCF route missing"
+    },
+    {
+      "candidate_seq": 876,
+      "role_key": "freehire:full-stack-engineer-react-python-for-ai-apps-hybrid-intuit-recruitment-pte-ltd-pjuxtv2c",
+      "company": "INTUIT RECRUITMENT PTE. LTD.",
+      "title": "Full-Stack Engineer: React + Python for AI Apps (Hybrid)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94670238__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T03:10:00+08:00",
+      "evidence_note": "Third-party listing only; exact official employer requisition, substantive AI ownership, early-career requirements and non-MCF route missing"
+    },
+    {
+      "candidate_seq": 877,
+      "role_key": "freehire:full-stack-developer-ai-driven-edgetech-china-beijing-branch-jdm6opdk",
+      "company": "China, Beijing Branch",
+      "title": "Full-Stack Developer – AI-Driven EdgeTech",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94668707__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T03:10:00+08:00",
+      "evidence_note": "Third-party listing only; exact official employer requisition, substantive AI ownership, early-career requirements and non-MCF route missing"
+    },
+    {
+      "candidate_seq": 880,
+      "role_key": "freehire:machine-learning-engineer-graduate-global-e-commerce-search-2027-start-tiktok-pte-ltd-6rkxgxps",
+      "company": "TIKTOK PTE. LTD.",
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, Search) - 2027 Start",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/f7a5441c2f5bda3441375e992fa7a947?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T03:10:00+08:00",
+      "evidence_note": "2027 graduate cohort eligibility, official TikTok requisition and non-MCF route unverified"
     }
   ]
 }
