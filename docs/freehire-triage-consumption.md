@@ -84,12 +84,14 @@ Interpret evidence conservatively:
 
 Use the expanded **25 substantive JD reads / 15 due retries** trial limit. Count a true alternate-source substantive JD as evidence; do not count a 200/302 response, another mirrored snippet, or a retry increment as progress.
 
-## 2. Current batch
+## 2. Current batch — resumable contiguous-prefix processing
 
-1. Read `discovery-state/freehire-batch-<market>.json`.
-2. Read every manifest-listed shard **in bounded groups of at most 8 files per tool-call batch**, in manifest order; an expanded 200-candidate batch may contain 24 or more shards. Never submit a single oversized connector call for all shards, and never assume a fixed shard count.
-3. Reconcile manifest/shard counts and process candidates in ascending `candidate_seq`. Preserve the candidate order and all previously recorded decisions across tool-call groups. If a tool limit interrupts reading, mark PARTIAL_COVERAGE, keep the cursor unchanged past unread candidates, and recover on the next cycle; do not pretend the manifest was exhausted.
-4. If a shard is missing, truncated, unreadable, or count-mismatched, do not advance past unread data.
+1. Read `discovery-state/freehire-batch-<market>.json` and the market triage/retry cursors. Identify the **first candidate not terminally handled, durably receipted or already handed off**. Do not repeatedly read already-consumed shards merely to recreate an aggregate count.
+2. Read the manifest-listed shards containing the **next contiguous unhandled candidate prefix** in manifest order, in batches of at most 8 files per connector call. Verify each read shard's identity, count and candidate sequence. **Process that prefix immediately** through exact Issue-history dedupe, cheap hard screens and a bounded selection of substantive JDs; do not defer all candidate decisions until after all 24+ shards are fetched.
+3. As candidate decisions accumulate, persist terminal dispositions, verified Issue handoffs and required `budget_deferred`/unverified retry receipts with read-back. Advance the triage cursor **only through a fully resolved or durably receipted contiguous prefix**; validate the cursor and retry file independently before claiming progress. An incomplete last shard must not be marked consumed.
+4. After a validated checkpoint, continue with the next unread shard/prefix only if tool/runtime capacity remains. The **200 cheap screens / 25 normal JD reads / 15 due retries / 5 reject audits are ceilings, not preconditions to getting useful work done**. Prioritize finishing at least one substantive eligible-candidate decision and a meaningful contiguous prefix over reading a whole manifest without dispositions.
+5. Only when **all manifest-listed shards** have been read, counts reconciled, and every candidate terminally handled/durably receipted may the run claim the full batch reconciled/consumed. Otherwise record the actual shards/candidates processed, prefix cursor, remaining batch size and PARTIAL_COVERAGE; never call the batch empty/exhausted or imply missing shards were processed.
+6. If a shard is missing, truncated, unreadable, mismatched or the state write fails, do not advance past unread/unpersisted candidates. Preserve the blocker and resume from the last validated cursor next run. Never guess forward.
 
 For each candidate:
 
