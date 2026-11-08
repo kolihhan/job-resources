@@ -1,0 +1,53 @@
+name: Independent First-party ATS Coverage Pilot
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_firstparty_ats_coverage.py'
+      - 'tests/test_firstparty_ats_coverage.py'
+      - '.github/workflows/firstparty-ats-coverage-pilot.yml'
+permissions:
+  contents: read
+concurrency:
+  group: ats-coverage-research-pilot
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Run offline regression tests before calling live sources
+        run: python -m unittest discover -s tests -p 'test_firstparty_ats_coverage.py' -v
+      - name: Query only four bounded public employer ATS boards
+        run: python scripts/probe_firstparty_ats_coverage.py --output artifacts/ats-coverage-pilot.json
+      - name: Explain observed source coverage, not claimed market coverage
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path('artifacts/ats-coverage-pilot.json')
+          lines=['# First-party ATS Coverage Pilot','',
+            'Read-only. No application, recruiter contact, Issue creation or queue mutation.',
+            'Source-specific public-job observations do NOT establish market completeness, candidate eligibility, or net-new APPLY/CHECK.','']
+          if p.exists():
+              d=json.loads(p.read_text())
+              lines+=['| Market | Employer / provider | Source status | Public roles read | Local technical-title signals | JD-probed candidates |','|---|---|---|---:|---:|---:|']
+              for s in d['sources']:
+                  lines.append(f"| {s['market']} | {s['company']} / {s['provider']} | {s['status']} | {s.get('source_rows','?')} | {s.get('local_title_signals','?')} | {len(s['items'])} |")
+                  if s['errors']:lines.append('- '+s['company']+' errors: '+str(s['errors'][:2]))
+          else:
+              lines.append('Probe did not produce an artifact; no zero-role claim.')
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('\n'.join(lines)+'\n')
+          PY
+      - name: Upload bounded raw evidence for independent review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: firstparty-ats-coverage
+          path: artifacts/ats-coverage-pilot.json
+          retention-days: 14
