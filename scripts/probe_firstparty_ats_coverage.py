@@ -18,7 +18,8 @@ SIGNAL=re.compile(r"\b(?:LLM|RAG|NLP|GenAI|AI|ML|MLOps|agentic|agents?|retrieval
 TITLE=re.compile(r"\b(?:AI|ML|NLP|LLM|RAG|MLOps|agentic|agents?|machine learning|artificial intelligence|research engineer|applied scientist)\b",re.I)
 ENGINEERING=re.compile(r"(?:software|backend|back.end|full.stack|platform|data)\s+(?:engineer|developer)|fullstack",re.I)
 SENIOR=re.compile(r"\b(?:senior|lead|staff|principal|manager|director|head|architect)\b",re.I)
-MAX_BYTES=8_000_000
+NONTECH=re.compile(r"\b(?:account executive|sales representative|account manager|business development|sales director|sales manager)\b",re.I)
+MAX_BYTES=24_000_000  # First Bjak Ashby trial exceeded 8MB; bounded 24MB diagnostic retry.
 
 def fetch_json(url):
     req=Request(url,headers={"User-Agent":"JobResourcesReadOnlyATSFeasibility/1.0","Accept":"application/json"})
@@ -59,11 +60,13 @@ def role(market,company,provider,board,id_,title,location,jd):
     full=unescape(re.sub(r"<[^>]+>"," ",jd))
     keywords=set(m.group(0).lower() for m in SIGNAL.finditer(full))
     direct=bool(TITLE.search(title))
+    if NONTECH.search(title):return None  # An 'AI' customer/account role is not AI engineering.
     if not direct and not (ENGINEERING.search(title) and len(keywords)>=2):return None
     return {"market":market,"company":company,"ats":provider,"board":board,
         "source_id":jobid,"title":title[:180],"location":str(location)[:140],"url":url,
         "jd_chars":len(full),"jd_verified":bool(full),
         "senior_title_flag":bool(SENIOR.search(title)),
+        "jd_ai_signal_count":len(keywords),
         "signal":"ai_title" if direct else "generic_engineering_with_AI_JD"}
 
 def probe(source,get=fetch_json,pace=False,max_details=12):
@@ -139,7 +142,8 @@ def probe(source,get=fetch_json,pace=False,max_details=12):
         if x:out["items"].append(x)
         if pace:time.sleep(.2)
     out["details_deferred"]=max(0,len(plausible)-max_details)
-    out["status"]="BOUNDED_SOURCE_END" if out["end_proven"] and not out["errors"] and not out["details_deferred"] else "PARTIAL_COVERAGE"
+    out["jd_unverified_candidates"]=sum(not x["jd_verified"] for x in out["items"])
+    out["status"]="BOUNDED_SOURCE_END" if out["end_proven"] and not out["errors"] and not out["details_deferred"] and not out["jd_unverified_candidates"] else "PARTIAL_COVERAGE"
     return out
 
 def main():
