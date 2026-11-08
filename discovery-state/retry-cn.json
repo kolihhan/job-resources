@@ -2464,6 +2464,62 @@
       "source_url": "https://jobs.bytedance.com/experienced/position/7654560536566991157/detail",
       "last_alternate_source_attempted": "2026-11-08 exact employer requisition search; official direct page inaccessible",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2156",
+      "candidate_seq": 2156,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T22:15:00+08:00",
+      "company": "ByteDance",
+      "title": "Agent算法工程师 - AI for Science",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7652018320556689717/detail",
+      "exact_job_id": "7652018320556689717",
+      "blocker": "AI for Science domain requirements unverified",
+      "last_alternate_source_attempted": "GitHub exact-ID history search and indexed exact-role search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2160",
+      "candidate_seq": 2160,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T22:15:00+08:00",
+      "company": "Meituan",
+      "title": "【北斗】大模型算法工程师—生成式搜推广告算法",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4531099128",
+      "exact_job_id": "4531099128",
+      "blocker": "LLM/search/ranking relevant; official JD and seniority unknown",
+      "last_alternate_source_attempted": "GitHub exact-ID history search and indexed exact-role search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2161",
+      "candidate_seq": 2161,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T22:15:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent应用全栈研发工程师（公会方向） - TikTok直播",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7646992907259758853/detail",
+      "exact_job_id": "7646992907259758853",
+      "blocker": "Agent/full-stack potentially strong; exact official JD inaccessible",
+      "last_alternate_source_attempted": "GitHub exact-ID history search and indexed exact-role search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2162",
+      "candidate_seq": 2162,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T22:15:00+08:00",
+      "company": "ByteDance",
+      "title": "CV/NLP/多模态算法工程师-国际电商",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7646788601900583221/detail",
+      "exact_job_id": "7646788601900583221",
+      "blocker": "NLP content vs CV-heavy work unknown",
+      "last_alternate_source_attempted": "GitHub exact-ID history search and indexed exact-role search",
+      "last_retry_new_evidence": false
     }
   ]
 }
