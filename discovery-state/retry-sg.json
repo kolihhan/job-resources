@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T16:05:00+08:00",
+  "updated_at": "2026-11-08T17:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3499,6 +3499,58 @@
       "last_alternate_source": "2026-11-08 exact-role Issue search and indexed/official JD check",
       "last_new_substantive_evidence": true,
       "missing_decisive_evidence": "faithful full LinkedIn JD found; need employer requisition, current official vacancy, exact route and work-pass assessment; prior TikTok AI roles are different titles/teams"
+    },
+    {
+      "candidate_seq": 785,
+      "role_key": "freehire:software-engineer-ai-applications-globalfoundries-qb5rviok",
+      "company": "GlobalFoundries",
+      "title": "Software Engineer (AI Applications)",
+      "source_url": "https://careers.gf.com/careers/job/563980770601252",
+      "reason_code": "suspected_prior_application_identity_unresolved",
+      "missing_evidence": "Compare exact employer requisition JR ID for this Eightfold position against already-applied WAIT Issue #7; do not repeat application.",
+      "next_source": "GlobalFoundries exact ATS requisition / historical application confirmation",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T17:05:00+08:00",
+      "new_substantive_evidence": false
+    },
+    {
+      "candidate_seq": 786,
+      "role_key": "freehire:machine-learning-engineer-mid-senior-nicoll-curtin-6nw4xw3u",
+      "company": "Nicoll Curtin",
+      "title": "Machine Learning Engineer (Mid-Senior)",
+      "source_url": "https://sg.jobstreet.com/job/94782186",
+      "reason_code": "exact_jd_seniority_and_ai_core_unverified",
+      "missing_evidence": "Employer/recruiter full JD, exact required years, agent/LLM core and sponsorship.",
+      "next_source": "Nicoll Curtin exact JobStreet 94782186 / recruiter vacancy",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T17:05:00+08:00",
+      "new_substantive_evidence": false
+    },
+    {
+      "candidate_seq": 790,
+      "role_key": "freehire:ai-engineer-at-global-sourcing-company-remote-asia-based-only-oneteamanywhere-yndvbgrg",
+      "company": "OneTeamAnywhere",
+      "title": "AI Engineer at Global Sourcing Company (Remote, Asia-based only)",
+      "source_url": "https://www.careers-page.com/ota/job/7X568683",
+      "reason_code": "remote_eligibility_employer_and_jd_unverified",
+      "missing_evidence": "Exact client/employer JD, Malaysia/SG eligibility, employment arrangement, agent/LLM substance.",
+      "next_source": "OneTeamAnywhere Manatal requisition 7X568683",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T17:05:00+08:00",
+      "new_substantive_evidence": false
+    },
+    {
+      "candidate_seq": 791,
+      "role_key": "freehire:graduate-big-data-engineer-scalable-systems-ml-tiktok-z6inkkiy",
+      "company": "TikTok",
+      "title": "Graduate Big Data Engineer - Scalable Systems & ML",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90422679__7119",
+      "reason_code": "graduate_campaign_exact_jd_route_unverified",
+      "missing_evidence": "Official TikTok requisition, graduate cohort window, ML/NLP relevance, foreign graduate eligibility and active application route.",
+      "next_source": "TikTok/ByteDance official careers exact graduate title Singapore",
+      "attempts": 0,
+      "next_retry_at": "2026-11-09T17:05:00+08:00",
+      "new_substantive_evidence": false
     }
   ]
 }
