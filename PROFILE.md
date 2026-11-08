@@ -12,27 +12,27 @@
 
 ## North star
 
-Seek **LLM/NLP research-oriented work**. Judge actual weekly research/development, not title, logo or employment term; use qualitative tiers, never scores or invented callback probabilities.
+Seek **substantive LLM/NLP/Agent research OR substantial hands-on AI engineering**. They are equally valid top-priority outcomes when actual weekly responsibilities and career growth are comparable. Judge real research/engineering work, not title, logo or employment term; use qualitative tiers, never scores or invented callback probabilities.
 
 - **Knowledge-enhanced LLM / NLP:** retrieval/reranking/RAG, grounding, knowledge utilization, KG + LLM and LLM memory; context/dialogue reasoning counts only when directly tied to NLP, language models, knowledge-enhanced language understanding or LLM reasoning.
 - **Agentic LLM:** agents, tool learning/use, reasoning/planning, memory, LLM/agent evaluation, benchmarks, reliability and coding-agent research.
-- **GOLD:** LLM/NLP is the core object of substantive research in either direction above; isolated keywords, ordinary dialogue/GNN work or an RA title do not qualify.
+- **GOLD — two equal routes:** (A) substantive LLM/NLP/Agent research in the knowledge-enhanced or agentic directions above; **OR** (B) substantial engineering ownership of real LLM/Agent/RAG/retrieval/search/evaluation systems, such as agent runtimes/tool use/memory, retrieval and ranking, benchmark/evaluation infrastructure, reliable AI backends or AI-native products. The engineer must design, build, debug, measure or operate the AI system itself—not merely call an LLM API or bolt a chatbot onto CRUD. Either route can be GOLD if employer-authored responsibilities demonstrate enough depth; research titles and prestige are not automatic GOLD.
 - **Content evidence:** quote specific employer-authored exact-role JD wording proving the work's core. Official careers/lab posts or faithful full LinkedIn/Indeed JD reproductions qualify; snippets, aggregator rewrites, AI summaries and title inference do not. Insufficient wording means UNKNOWN.
-- **Research carriers:** academic RA/Research Assistant/Associate/Officer/Engineer and industrial Research/ML/NLP/Algorithm Engineer/Applied Scientist share GOLD. Content first; equal content fit favors academia for mentorship, experiment depth, research ownership and portable outputs.
-- **ACCEPTABLE ADJACENT:** substantial applied LLM engineering in production RAG/retrieval/knowledge, agent runtime/tool systems or evaluation pipelines. API calls, prompt chains, framework wrapping, generic chatbots/automation and CRUD + LLM alone do not qualify.
+- **Role carriers:** academic RA/Research Assistant/Associate/Officer/Engineer, industrial Research/Applied Scientist, and Applied AI/AI Software/AI Backend/ML/NLP/RAG/Agent/Coding-Agent/Evaluation Engineers can all carry GOLD. Compare exact duties, technical ownership, peers/mentorship, portable skills and outcomes. Do **not** rank an RA above an equally strong engineer solely because it is research; a stronger evidenced mentor/project/team may break a genuine same-tier tie.
+- **ACCEPTABLE ADJACENT:** meaningful but less central AI work: implementing/integrating real AI capabilities within an otherwise broader product, or supporting genuine LLM/ML systems with well-scoped backend/platform/evaluation work, where core AI technical ownership or quality evidence does not reach GOLD. API calls, prompt chains, framework wrapping, generic chatbots/automation and CRUD + LLM alone do not qualify.
 - **DEPRIORITIZE:** generic SWE/backend, DS/BI/analytics, QA, firmware, DevOps, unrelated ML/CV, pure CUDA/inference/infrastructure and shallow AI wrappers are fallback only; permanent/easy/local/prestige never lift them above the first two tiers. Classify SWE titles by actual content.
 - **Order:** content tier/fit → realistic hard eligibility → execution. Only within the same tier and equal content fit may work rights, graduate friendliness, friction, urgency, permanent status, prestige or evidenced compensation/WLB break ties. Already applied belongs to lifecycle/dedupe, never ranking.
 - **Employment/source:** GOLD academic RA/RO/RE fixed-term status never lowers execution priority; retain `RULES.md` §5 quality/terms checks and TERM_UNKNOWN eligibility. Canonical URL, liveness and usable route are separate verification questions under `RULES.md` / `docs/source-routing.md`, not GOLD content gates.
 
 ## Positioning
 
-Early-career engineer targeting **knowledge-enhanced NLP/LLM and agentic systems**, with software/backend production experience plus applied-AI/NLP research and project evidence.
+Early-career engineer targeting **substantive Applied AI/LLM/RAG/Agent engineering and NLP/LLM/Agent research**, with software/backend production experience plus applied-AI/NLP research and project evidence.
 
 The truthful positioning is stronger than “fresh graduate trying AI”:
 
 > Software/backend engineer with MSc contextual-NLP/graph/knowledge research and separate hands-on LLM/RAG/Agent/retrieval/evaluation projects, targeting realistic NLP/LLM research engineering and applied LLM roles.
 
-Target titles are discovery hints, interpreted through the North-Star work priorities above. Typical families include LLM/NLP Research Engineer, RAG/Knowledge Engineer, Knowledge-Augmented LLM Engineer, Retrieval/Search Engineer, Agent Research Engineer, and MSc-compatible Research Associate/Research Officer/Applied Scientist roles in NLP/LLM/Agents. Existing broader eligible families include:
+Target titles are discovery hints, interpreted through the North-Star work priorities above. Typical families include AI/LLM/Agent/AI Backend/AI Software Engineer, Coding-Agent/Harness Engineer, RAG/Knowledge Engineer, Retrieval/Search Engineer, LLM/NLP Research Engineer, Agent Research Engineer, and MSc-compatible Research Associate/Research Officer/Applied Scientist roles in NLP/LLM/Agents. Existing broader eligible families include:
 
 - Applied AI / AI Application Engineer / Generative AI Engineer
 - LLM / RAG / Agent / Coding Agent / Agent Harness Engineer
@@ -44,7 +44,7 @@ Target titles are discovery hints, interpreted through the North-Star work prior
 
 For SG/CN, a generic title such as `Software Engineer`, `Backend Engineer`, `Full-stack Engineer` or `QA/SDET` survives only when actual team/product/JD work is materially AI-related; AI-assisted coding alone does not prove North-Star work. For MY, `docs/my-swe-scope.md` preserves broader destination-quality SWE eligibility as a secondary option. In every market, capability to perform a generic role is not enough to make it a high priority.
 
-Research is explicitly acceptable. Do not reject a role just because it is research-oriented. Evaluate the real requirements:
+Research and engineering are explicitly equally acceptable. Do not reject a role for being research-oriented or engineering-oriented. Evaluate the real requirements:
 
 - MSc-compatible research/research-engineering roles are active;
 - publication or research experience may be a stretch signal, not automatically fatal unless clearly mandatory;
