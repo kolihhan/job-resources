@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T05:15:00+08:00",
+  "updated_at": "2026-11-09T06:00:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4063,6 +4063,50 @@
       "reason_code": "exact_employer_jd_and_sg_eligibility_unverified",
       "attempts": 0,
       "next_retry_at": "2026-11-10T05:15:00+08:00"
+    },
+    {
+      "candidate_seq": 898,
+      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-pte-ltd-27kkdix7",
+      "company": "Helius Technologies Pte Ltd.",
+      "title": "Full Stack Developer AI and Cloud-Native Applications",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94513844__7119",
+      "evidence_note": "Recruiter/WhatJobs identity only; employer requisition, exact full JD, AI ownership, non-MCF application route and SG work pass unverified",
+      "reason_code": "exact_official_identity_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T06:10:00+08:00"
+    },
+    {
+      "candidate_seq": 899,
+      "role_key": "freehire:ai-backend-engineer-low-latency-scalable-inference-actai-6st7tway",
+      "company": "ActAI",
+      "title": "AI Backend Engineer — Low-Latency, Scalable Inference",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94516078__7119",
+      "evidence_note": "Independent LinkedIn/Jobstore JD describes production inference and backend; need first-party ActAI exact role/current apply route, YOE and sponsorship confirmation",
+      "reason_code": "exact_official_identity_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T06:10:00+08:00"
+    },
+    {
+      "candidate_seq": 900,
+      "role_key": "freehire:analytics-engineer-learning-tech-ai-public-service-division-pwcfiyh3",
+      "company": "Public Service Division",
+      "title": "Analytics Engineer: Learning Tech & AI",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94383119__7119",
+      "evidence_note": "Need official Careers@Gov exact JD and mandatory Singapore citizenship/clearance eligibility, plus substantive AI engineering ownership",
+      "reason_code": "exact_official_identity_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T06:10:00+08:00"
+    },
+    {
+      "candidate_seq": 904,
+      "role_key": "freehire:pioneer-talent-program-applied-data-scientist-binance-hiafkzp7",
+      "company": "Binance",
+      "title": "Pioneer Talent Program - Applied Data Scientist",
+      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101",
+      "evidence_note": "Exact feed ID 5002575101 not verified live; separate official 5002729101 is live with 0–5 YOE and agent evaluation; verify whether same role or distinct req, program eligibility and prior application history before any promotion",
+      "reason_code": "exact_official_identity_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T06:10:00+08:00"
     }
   ]
 }
