@@ -2355,6 +2355,79 @@
       "source_url": "https://jobs.bytedance.com/campus/position/7664986569519008053/detail",
       "last_alternate_source_attempted": "exact requisition indexed search, no matching full employer JD",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-dou-yin-fu-wu-jia-gou-dou-yin-yan-fa-bytedance-vpcb6lvt",
+      "candidate_seq": 2138,
+      "reason_code": "suspected_historical_title_match_exact_req_distinct_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T20:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（抖音服务架构） - 抖音研发",
+      "source_url": "https://jobs.bytedance.com/campus/position/7664603957314226485/detail",
+      "last_alternate_source_attempted": "exact employer title/requisition indexed search",
+      "last_retry_new_evidence": false,
+      "suspected_prior_issue": "[WAIT][CN] 字节跳动 — AI Agent开发工程师-抖音（深圳）; exact requisition differs/unknown"
+    },
+    {
+      "role_key": "freehire:tan-suo-zhe-ai-mlmo-xing-suan-fa-ying-yong-kai-fa-gong-cheng-shi-xpeng-rnqvsmgu",
+      "candidate_seq": 2139,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T20:10:00+08:00",
+      "company": "XPeng",
+      "title": "【探索者】AI/ML模型算法应用开发工程师",
+      "source_url": "https://xiaopeng.jobs.feishu.cn/index/position/7662700668243036454/detail",
+      "last_alternate_source_attempted": "exact employer title/requisition indexed search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-infrastructure-software-engineer-qualcomm-m2jnomv6",
+      "candidate_seq": 2140,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T20:10:00+08:00",
+      "company": "Qualcomm",
+      "title": "AI Infrastructure Software Engineer",
+      "source_url": "https://careers.qualcomm.com/careers/job/446718850626",
+      "last_alternate_source_attempted": "exact Qualcomm req indexed search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:duo-mo-tai-shu-ju-suan-fa-momenta-dptbf6db",
+      "candidate_seq": 2144,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T20:10:00+08:00",
+      "company": "Momenta",
+      "title": "多模态数据算法",
+      "source_url": "https://momenta.jobs.feishu.cn/index/position/7659299651862546724/detail",
+      "last_alternate_source_attempted": "exact employer title/requisition indexed search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:machine-learning-engineer-qualcomm-xpphkshf",
+      "candidate_seq": 2145,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T20:10:00+08:00",
+      "company": "Qualcomm",
+      "title": "Machine Learning Engineer",
+      "source_url": "https://careers.qualcomm.com/careers/job/446719463617",
+      "last_alternate_source_attempted": "exact Qualcomm req indexed search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-quan-zhan-yan-fa-gong-cheng-shi-yong-hu-zeng-chang-fang-xiang-vivix-ai-v6anbucm",
+      "candidate_seq": 2146,
+      "reason_code": "authoritative_jd_liveness_foreign_hire_unverified",
+      "attempts": 1,
+      "next_retry_at": "2026-11-09T20:10:00+08:00",
+      "company": "Vivix AI",
+      "title": "AI 全栈研发工程师（用户增长方向）",
+      "source_url": "https://vivix-ai.jobs.feishu.cn/index/position/7657835897480907071/detail",
+      "last_alternate_source_attempted": "exact employer title/requisition indexed search",
+      "last_retry_new_evidence": false
     }
   ]
 }
