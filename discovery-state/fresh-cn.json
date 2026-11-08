@@ -1,20 +1,18 @@
 {
   "version": 2,
   "market": "CN",
-  "platform_cycle": 33,
-  "next_platform_index": 6,
-  "next_owner_bucket": 5,
-  "next_query_bucket": 5,
-  "run_counter": 112,
-  "last_completed_at": "2026-11-08T06:07:24+08:00",
+  "platform_cycle": 34,
+  "next_platform_index": 1,
+  "next_owner_bucket": 0,
+  "next_query_bucket": 0,
+  "run_counter": 113,
+  "last_completed_at": "2026-11-08T11:06:15+08:00",
   "last_platforms": [
-    "猎聘",
-    "智联招聘",
-    "前程无忧 / 51job",
-    "脉脉 / team-direct recruiting signals"
+    "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals",
+    "BOSS直聘"
   ],
-  "last_owner_bucket": 4,
-  "last_query_bucket": 4,
+  "last_owner_bucket": 5,
+  "last_query_bucket": 5,
   "coverage_debt": [
     {
       "platform": "前程无忧 / 51job",
@@ -39,22 +37,22 @@
     {
       "platform": "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals",
       "query_family": "RAG / 知识库 / 知识图谱 / NL2SQL / Data Agent",
-      "last_attempt_at": "2026-11-08T05:10:32+08:00",
+      "last_attempt_at": "2026-11-08T11:06:15+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 2 inspected/exact-role rows; 2026-11-08 05:10 fallback probe attempted; native page 2 not verified",
-      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 2 inspected/exact-role rows; 2026-11-08 05:10 fallback probe attempted; native page 2 not verified; 11:06 indexed/official-query fallback attempted, native page 1/2 unavailable; no verified new employer-owned exact JD",
+      "next_probe": "Try native page 1+2 with authenticated native access; alternatively exact employer ATS job IDs and second independent role detail."
     },
     {
       "platform": "BOSS直聘",
       "query_family": "RAG / 知识库 / 知识图谱 / NL2SQL / Data Agent",
-      "last_attempt_at": "2026-11-08T05:10:32+08:00",
+      "last_attempt_at": "2026-11-08T11:06:15+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 0 inspected/exact-role rows; 2026-11-08 05:10 fallback probe attempted; native page 2 not verified",
-      "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 0 inspected/exact-role rows; 2026-11-08 05:10 fallback probe attempted; native page 2 not verified; 11:06 indexed/official-query fallback attempted, native page 1/2 unavailable; no verified new employer-owned exact JD",
+      "next_probe": "Try native page 1+2 with authenticated native access; alternatively exact employer ATS job IDs and second independent role detail."
     },
     {
       "platform": "牛客招聘",
