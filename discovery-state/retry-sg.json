@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T06:00:00+08:00",
+  "updated_at": "2026-11-09T07:15:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4107,6 +4107,28 @@
       "reason_code": "exact_official_identity_or_eligibility_unverified",
       "attempts": 0,
       "next_retry_at": "2026-11-10T06:10:00+08:00"
+    },
+    {
+      "candidate_seq": 910,
+      "role_key": "freehire:machine-learning-engineer-audio-speech-acoustics-sound-reolink-bekvly7o",
+      "company": "Reolink",
+      "title": "Machine Learning Engineer | Audio, Speech, Acoustics & Sound",
+      "source_url": "https://job-boards.greenhouse.io/reolink/jobs/4473705009",
+      "evidence_note": "Exact Greenhouse requisition 4473705009; need full official JD, audio/speech specialization hard requirements, current SG application route and employer-supported pass. Distinct from PhD-only agent role 4448320009.",
+      "reason_code": "exact_official_identity_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T07:15:00+08:00"
+    },
+    {
+      "candidate_seq": 911,
+      "role_key": "freehire:ai-engineer-thunes-4kegzkfb",
+      "company": "Thunes",
+      "title": "AI Engineer",
+      "source_url": "https://www.thunes.com/jobs/7594336003?gh_jid=7594336003",
+      "evidence_note": "Official Thunes page redirects to generic vacancies and displays no exact JD; need confirm req 7594336003 still open and obtain authoritative AI duties, eligibility, non-MCF route and SG sponsorship.",
+      "reason_code": "exact_official_identity_or_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T07:15:00+08:00"
     }
   ]
 }
