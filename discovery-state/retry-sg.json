@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-08T17:05:00+08:00",
+  "updated_at": "2026-11-08T18:10:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3551,6 +3551,39 @@
       "attempts": 0,
       "next_retry_at": "2026-11-09T17:05:00+08:00",
       "new_substantive_evidence": false
+    },
+    {
+      "candidate_seq": 792,
+      "role_key": "freehire:ai-data-engineer-cb316e90-dff0-482d-84cc-2f99849ec539-19000101-000001-2553xag6",
+      "company": "ASTM International",
+      "title": "AI & Data Engineer",
+      "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=cb316e90-dff0-482d-84cc-2f99849ec539&ccId=19000101_000001&jobId=274390604278_1&lang=en_US",
+      "reason_code": "suspected_prior_wait_issue_397_exact_adp_requisition_unresolved",
+      "missing_evidence": "Prove ADP jobId 274390604278_1 distinct from prior LinkedIn 4463629421 / Issue #397; official current vacancy and route",
+      "next_retry_at": "2026-11-09T18:10:00+08:00",
+      "attempts": 0
+    },
+    {
+      "candidate_seq": 794,
+      "role_key": "freehire:data-scientist-micron-w5e2hsgk",
+      "company": "Micron",
+      "title": "Data Scientist",
+      "source_url": "https://careers.micron.com/careers/job/44436036",
+      "reason_code": "official_exact_identity_and_role_fit_unresolved",
+      "missing_evidence": "Resolve Eightfold 44436036 to employer requisition and compare JR111151, JR106408 and historical Issues; check actual AI vs manufacturing workload and work pass",
+      "next_retry_at": "2026-11-09T18:10:00+08:00",
+      "attempts": 0
+    },
+    {
+      "candidate_seq": 795,
+      "role_key": "freehire:data-scientist-micron-technology-zooyzqun",
+      "company": "Micron Technology",
+      "title": "Data Scientist",
+      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Data-Scientist_JR111151",
+      "reason_code": "official_jd_verified_fit_and_workpass_unresolved",
+      "missing_evidence": "Official JD includes agentic AI but also manufacturing predictive solutions; establish primary weekly content, mandatory experience, SG EP/S Pass support and targeted Gmail before promotion; cross-source identity with 44436036",
+      "next_retry_at": "2026-11-09T18:10:00+08:00",
+      "attempts": 0
     }
   ]
 }
