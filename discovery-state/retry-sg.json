@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-07T08:05:00+08:00",
+  "updated_at": "2026-11-08T14:30:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3382,6 +3382,58 @@
       "attempts": 0,
       "next_retry_at": "2026-11-08T00:00:04+08:00",
       "retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 765,
+      "role_key": "freehire:founding-full-stack-engineer-video-ai-multimodal-platform-cliply-pte-ltd-pthxsvhn",
+      "company": "CLIPLY PTE. LTD.",
+      "title": "Founding Full-Stack Engineer - Video AI & Multimodal Platform",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92682433__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "first_party_employer_identity_or_authoritative_full_jd_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T12:00:00+08:00",
+      "last_alternate_source_attempted": "ClicksJobs exact role reproduction; original source is aggregator",
+      "last_retry_new_evidence": true,
+      "last_evidence_note": "Indexed CLIPLY founding fullstack/video AI role describes AI integration, not yet verified employer-controlled job ID or realistic SG/role fit. Search employer exact role and verify tech research scope before promotion."
+    },
+    {
+      "candidate_seq": 767,
+      "role_key": "freehire:ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-zip76ces",
+      "company": "V2EX",
+      "title": "AI 大模型明星项目|诚聘 Data Engineer & Web Scraping Engineer(新加坡|可办签证 | 代发)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92664570__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "repost_identity_and_employer_authority_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T12:00:00+08:00",
+      "last_alternate_source_attempted": "V2EX original posting Apr 2026 + source URL identity",
+      "last_retry_new_evidence": true,
+      "last_evidence_note": "V2EX Apr 2026 posting appears re-posted through aggregator as Oct vacancy; actual hiring employer and current liveness not evidenced. Role explicitly wants 2-3 years specialised LLM/NLP data work. Related candidate seq 770 may be same original campaign; weak identity only."
+    },
+    {
+      "candidate_seq": 768,
+      "role_key": "freehire:frontend-data-engineer-labor-productivity-ai-enablement-micron-semiconductor-asia-operations-pte-ltd-wmrpcn7n",
+      "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
+      "title": "Frontend Data Engineer, Labor Productivity & AI Enablement",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92662521__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "micron_existing_wait_issue_suspected_identity_not_proven",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T12:00:00+08:00",
+      "last_alternate_source_attempted": "Micron title indexed reproduction and existing Issue #271",
+      "last_retry_new_evidence": true,
+      "last_evidence_note": "Micron front-end labor productivity GenAI program/automation scope appears different from core NLP/Agent; historical WAIT Issue #271 has similar area but exact employer req identity is UNKNOWN. Verify official requisition before any new Issue or dismissal."
+    },
+    {
+      "candidate_seq": 770,
+      "role_key": "freehire:ai-da-mo-xing-ming-xing-xiang-mu-cheng-pin-data-engineer-web-scraping-engineer-xin-jia-po-ke-ban-qian-zheng-dai-fa-v2ex-26a35ivn",
+      "company": "V2EX",
+      "title": "AI 大模型明星项目|诚聘 Data Engineer & Web Scraping Engineer(新加坡|可办签证 | 代发)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92647419__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "reason_code": "repost_identity_and_employer_authority_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T12:00:00+08:00",
+      "last_alternate_source_attempted": "V2EX original posting Apr 2026 and seq 767 metadata",
+      "last_retry_new_evidence": true,
+      "last_evidence_note": "V2EX post same title as seq 767, with distinct aggregator ID; only suspected same campaign. Original posting Apr 2026 and employer identity still missing; do not promote or auto-dedupe by title."
     }
   ]
 }
