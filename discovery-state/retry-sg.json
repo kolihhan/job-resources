@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T00:30:00+08:00",
+  "updated_at": "2026-11-09T01:25:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -3846,6 +3846,42 @@
       "next_probe": "Workable public jobs API or Fuku employer careers exact C6B0981CCB",
       "attempts": 0,
       "next_retry_at": "2026-11-10T00:30:00+08:00"
+    },
+    {
+      "candidate_seq": 856,
+      "role_key": "freehire:g60-full-stack-engineer-fpt-software-pperbkq4",
+      "company": "FPT Software",
+      "title": "G60 - Full Stack Engineer",
+      "source_url": "https://sg.jobstreet.com/job/90999279",
+      "reason_code": "substantive_jd_verified_experience_and_route_uncertain",
+      "missing_evidence": "Employer-authored canonical vacancy and SG sponsorship; 3–5 professional YOE requirement versus part-time development background",
+      "next_probe": "FPT official careers exact G60 title and employer work-pass policy",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T02:00:00+08:00"
+    },
+    {
+      "candidate_seq": 860,
+      "role_key": "freehire:founding-ai-engineer-apac-speech-recognition-toku-ltd-m6rjtzyj",
+      "company": "Toku Ltd",
+      "title": "Founding AI Engineer - APAC Speech Recognition",
+      "source_url": "https://careers.toku.co/o/founding-ai-engineer-apac-speech-recognition",
+      "reason_code": "official_jd_verified_domain_and_work_pass_eligibility_uncertain",
+      "missing_evidence": "Speech recognition/model training experience versus mandatory speech-processing understanding, SG work-pass sponsorship, targeted Gmail application history",
+      "next_probe": "Assess speech ML projects against exact Toku JD; confirm employer sponsorship and historical application before promotion",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T02:00:00+08:00"
+    },
+    {
+      "candidate_seq": 864,
+      "role_key": "freehire:ai-engineer-aeolus-data-platform-bytedance-gjamxmic",
+      "company": "ByteDance",
+      "title": "AI Engineer (Aeolus) - Data Platform",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7536106306949761288/detail",
+      "reason_code": "official_jd_inaccessible",
+      "missing_evidence": "Current exact official JD, substantive AI versus data platform scope, mandatory YOE, SG visa route",
+      "next_probe": "ByteDance exact requisition 7536106306949761288 via official careers alternate/indexed employer JD",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T02:00:00+08:00"
     }
   ]
 }
