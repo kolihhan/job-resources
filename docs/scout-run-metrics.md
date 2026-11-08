@@ -14,7 +14,7 @@ Use Asia/Kuala_Lumpur date boundaries. Legacy monthly files are read-only.
 
 ## Non-negotiable completion gate
 
-A scout run that inspects a single page/snippet set, cannot obtain page two or an evidenced exhaustion signal, or skips current FreeHire due/batch processing **must not be called DONE**. It may write a truthful partial-run metrics row, but the user-facing report must say `INCOMPLETE / PARTIAL_COVERAGE` with the exact next step and unfinished counts. Source attempts are not market coverage. A zero-new-role result without inspectable evidence is **UNKNOWN**, never "no jobs".
+A scout run that inspects a single page/snippet set, cannot obtain page two or an evidenced exhaustion signal, or leaves FreeHire manifest/due retries partly unprocessed **must not be called DONE**. It may write a truthful partial-run metrics row containing **verified prefix progress** (actual candidates dispositioned, next untouched sequence, committed receipts, next shard) but the user-facing report must say `INCOMPLETE / PARTIAL_COVERAGE` with the exact next step and unfinished counts. Source attempts are not market coverage. A zero-new-role result without inspectable evidence is **UNKNOWN**, never "no jobs".
 
 For each attempted platform, include `source_probes` entries with the source path, query/topic, pagination page/cursor or explicit unavailability, distinct exact role identifiers/URLs (bounded sample), total unique rows from that page, and whether end-of-results is proven. Separate native rows from indexed/ATS fallback rows; indexed search hits are not platform-native pagination. If a source is undercovered, the matching entry in market-owned `fresh-<market>.json:coverage_debt` must identify a next probe. A run must document at least one previous debt attempted or explain why it was blocked.
 
@@ -91,7 +91,7 @@ Fresh phase:
 
 FreeHire phase:
 
-- `batch_candidates`: compact metadata candidates actually processed from the reconciled manifest/shards.
+- `batch_candidates`: compact metadata candidates **actually screened/processed from verified shard(s)**, not the manifest's advertised total; a complete batch also requires all manifest-listed shards and aggregate counts reconciled. On partial-prefix runs report shards read and unprocessed candidate count separately.
 - `strong_known_duplicates`: exact historical identity suppressions.
 - `weak_suspected_checked`: weak company/title suspicions explicitly resolved; weak identity never auto-drops.
 - `cheap_hard_rejects`: terminal cheap rejects before normal deep verification.
@@ -114,7 +114,7 @@ For new records, also report:
 - retry_new_evidence: number of retries that yielded a new substantive JD, route, or eligibility fact; distinguish from attempts/reschedules.
 - fresh_bucket_coverage: attempted owner/query/research bucket names and exact unique roles per attempted platform. Include `source_probes` with inspected page/cursor/URL and sampled exact job identities. Do not infer coverage from hit totals.
 - coverage_debt_remaining: count of material persisted `fresh-<market>.json:coverage_debt` entries after run and which older entry was investigated; a nonzero value prevents COMPLETE when a relevant required scope is still unworked.
-- phase_a_completed / phase_b_completed: mandatory booleans for new records; the second must only be true if FreeHire manifest/retry obligations were actually dispositioned, or a proven empty queue was reconciled. Do not treat an unattempted batch as empty.
+- phase_a_completed / phase_b_completed: mandatory booleans for new records. `phase_b_completed` is **false** if any manifest-listed shard or due retry obligation remains unresolved; a verified contiguous-prefix cursor advance is real partial progress, not full-batch completion. Do not treat an unattempted batch as empty.
 - retry_no_progress: due retries that still produced no new substantive evidence (optional additive field); report separately from newly deferred candidates and retry_new_evidence.
 - budget_pressure: whether the expanded candidate/JD ceilings, unread backlog or runtime constraints caused any PARTIAL_COVERAGE or budget deferral.
 - recall_spotcheck (daily review, not every hourly run): independent fresh roles sampled, matches in all Issue history, verified missed eligible roles, and root cause. Small samples indicate **possible** false negatives, not a statistically valid market recall estimate.
