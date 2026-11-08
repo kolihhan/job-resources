@@ -2,26 +2,26 @@
   "version": 2,
   "market": "CN",
   "platform_cycle": 34,
-  "next_platform_index": 1,
-  "next_owner_bucket": 0,
-  "next_query_bucket": 0,
-  "run_counter": 113,
-  "last_completed_at": "2026-11-08T11:06:15+08:00",
+  "next_platform_index": 3,
+  "next_owner_bucket": 1,
+  "next_query_bucket": 1,
+  "run_counter": 114,
+  "last_completed_at": "2026-11-08T17:10:00+08:00",
   "last_platforms": [
-    "高校 / 实验室 / 研究院 / PI / research-direct recruiting signals",
-    "BOSS直聘"
+    "牛客招聘",
+    "猎聘"
   ],
-  "last_owner_bucket": 5,
-  "last_query_bucket": 5,
+  "last_owner_bucket": 0,
+  "last_query_bucket": 0,
   "coverage_debt": [
     {
       "platform": "前程无忧 / 51job",
       "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
-      "last_attempt_at": "2026-11-08T10:10:23+08:00",
+      "last_attempt_at": "2026-11-08T17:10:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 3,
-      "reason": "Native page 1/2 unavailable; indexed 51job page showed two identifiable listings in unrelated city/category, not a broad AI role search; Nowcoder independent detail fallback checked. Employer ATS breadth still unverified. 10:10 independent Nowcoder exact-role 466220 full JD checked: 2027-only, rejected; no native page coverage gained.",
+      "reason": "Native page 1/2 unavailable; indexed 51job page showed two identifiable listings in unrelated city/category, not a broad AI role search; Nowcoder independent detail fallback checked. Employer ATS breadth still unverified. 10:10 independent Nowcoder exact-role 466220 full JD checked: 2027-only, rejected; no native page coverage gained.; 17:10 51job indexed listings/official 51job-hosted employer posts probed; native page1/2 unavailable, no verified breadth or eligible new exact role.",
       "next_probe": "51job native AI Agent search pages 1+2, then official ATS distinct exact-role requisitions; Nowcoder 466220 is 2027-only"
     },
     {
@@ -57,21 +57,21 @@
     {
       "platform": "牛客招聘",
       "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
-      "last_attempt_at": "2026-11-08T05:10:32+08:00",
+      "last_attempt_at": "2026-11-08T17:10:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 7 inspected/exact-role rows; 2026-11-08 05:10 fallback probe attempted; native page 2 not verified",
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 7 inspected/exact-role rows; 2026-11-08 05:10 fallback probe attempted; native page 2 not verified; 17:10 native search page1/2 inaccessible; independent indexed exact JD fallback checked, no comprehensive native coverage.",
       "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
     },
     {
       "platform": "猎聘",
       "query_family": "大模型评测 / Agent评测 / AI质量 / reliability; NLP / 检索 / 搜索 / ranking; AI后端 / 大模型平台 / 推理 / AI systems",
-      "last_attempt_at": "2026-11-07T10:09:22+08:00",
+      "last_attempt_at": "2026-11-08T17:10:00+08:00",
       "native_pages_read": 0,
       "native_unique_rows": 0,
       "fallback_unique_rows": 0,
-      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 2 inspected/exact-role rows",
+      "reason": "No verified page-2 or end-of-results evidence; latest log recorded 2 inspected/exact-role rows; 17:10 native search page1/2 inaccessible; independent indexed exact JD fallback checked, no comprehensive native coverage.",
       "next_probe": "Attempt page 2/cursor and record job IDs; if native blocked, verify two distinct ATS/native-index fallback sources"
     },
     {
