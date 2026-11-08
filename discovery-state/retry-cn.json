@@ -2520,6 +2520,62 @@
       "blocker": "NLP content vs CV-heavy work unknown",
       "last_alternate_source_attempted": "GitHub exact-ID history search and indexed exact-role search",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2165",
+      "candidate_seq": 2165,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T23:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent研发工程师（知识库方向）-Dev Infra",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7644505471581849909/detail",
+      "exact_job_id": "7644505471581849909",
+      "blocker": "High-value knowledge-base Agent engineering; official full JD, liveness, experience and foreign work permit unverified",
+      "last_alternate_source_attempted": "exact GitHub all-history ID and independent indexed exact-role search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2168",
+      "candidate_seq": 2168,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T23:10:00+08:00",
+      "company": "Qualcomm",
+      "title": "AI Solution Software Engineer",
+      "source_url": "https://careers.qualcomm.com/careers/job/446716195744",
+      "exact_job_id": "446716195744",
+      "blocker": "AI solution scope and full employer JD unverified",
+      "last_alternate_source_attempted": "exact GitHub all-history ID and independent indexed exact-role search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2169",
+      "candidate_seq": 2169,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T23:10:00+08:00",
+      "company": "NVIDIA",
+      "title": "Applied AI Engineer - Silicon Co-Design Group",
+      "source_url": "https://jobs.nvidia.com/careers/job/893395041731",
+      "exact_job_id": "893395041731",
+      "blocker": "May be silicon-domain specialist; substantive JD and eligibility unknown",
+      "last_alternate_source_attempted": "exact GitHub all-history ID and independent indexed exact-role search",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2173",
+      "candidate_seq": 2173,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T23:10:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent运行环境工程师-开发者服务",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7641232940957829429/detail",
+      "exact_job_id": "7641232940957829429",
+      "blocker": "Agent runtime engineering potentially strong; official JD and foreign-hire feasibility unknown",
+      "last_alternate_source_attempted": "exact GitHub all-history ID and independent indexed exact-role search",
+      "last_retry_new_evidence": false
     }
   ]
 }
