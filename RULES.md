@@ -4,9 +4,9 @@
 
 Maximize the probability of a **high-quality accepted outcome toward knowledge-enhanced NLP/LLM and agentic systems**. `PROFILE.md` defines the canonical North-Star archetypes and GOLD / ACCEPTABLE ADJACENT / DEPRIORITIZE work priorities; apply them across all six battlefields. Eligibility for a broader role does not establish execution priority.
 
-Rank actual weekly work using `PROFILE.md`'s content tiers. Reject hard-ineligible roles at any tier; compare execution factors only within the same tier and equal content fit. GOLD academic RA/RO/RE is not penalized for fixed-term status; section 5 retains research-quality and employment-terms checks.
+Rank actual weekly work using `PROFILE.md`'s content tiers. **Research and substantial AI engineering are equal GOLD routes**; no research-title or lab-first bias may demote an equally strong AI Engineer/AI Backend/ML/Agent role solely for being implementation-oriented. Reject hard-ineligible roles at any tier; compare execution factors only within the same tier and equal content fit. GOLD academic RA/RO/RE is not penalized for fixed-term status; section 5 retains research-quality and employment-terms checks.
 
-Do not optimize raw application count, Issue count, callback count, interview count, or discovery volume in isolation. Those are funnel signals only.
+Do not optimize raw application count, Issue count, callback count, interview count, or discovery volume in isolation. Those are funnel signals only. **Prioritize net-new, deduplicated, verified, realistic APPLY/CHECK opportunities (count APPLY and CHECK separately); record hard rejections and missing evidence rather than inflate opportunity counts.**
 
 Active battlefields:
 
@@ -443,6 +443,15 @@ The source hierarchy is about **where to look first**, not which employers are a
 
 Tier 3 is discovery only. It must resolve to authoritative/current exact-role evidence before promotion. Do not spend broad-sweep effort on Tier 3 while obvious Tier-1 target-company coverage is still missing.
 
+### Fresh-first discovery and source-yield rule
+
+Each SG/CN/MY Scout normally **starts with current fresh official employer/ATS vacancies or direct native hiring signals**, not old FreeHire shards or the oldest retry receipts. Prioritize BOTH GOLD engineering (Applied AI, LLM/RAG/Agent, AI backend/software/platform, retrieval/search, coding agents, evaluation) and GOLD research (RA/RE/Applied Scientist); neither lane is secondary simply for its title. Confirm first-party **exact requisition identity and current opening** before spending time on long job-board snippets. Attempt a bounded broad/native gap slice as well as rotating official owners so current roles at unwatched employers can surface.
+
+After a serious net-new plausible candidate appears, **stop collecting metadata long enough to finish the exact employer-authored JD, hard eligibility, liveness, usable application route, all-Issue-history/Gmail dedupe, and durable APPLY/CHECK handoff**. This does not waive the evidence gates in sections 12–14. CHECK still requires verified liveness and exactly one material blocker. With multiple unresolved blockers, preserve a specific retry/coverage debt and decisive next probe rather than manufacturing an Issue.
+
+FreeHire Tier-3 triage and retries remain **bounded, independent recovery**, not the sole measure of discovery. A **verified stalled-cursor recovery exception** may commit one contiguous shard first; then spend remaining budget on fresh current opportunities rather than consuming another shard or mass-retrying old URLs. If time or access prevents both phases, record the exact untouched work and PARTIAL_COVERAGE. There is no Issue quota, and no license to relax experience, cohort, job quality, employment, work-authorization or source-evidence gates merely to raise counts.
+
+**Evaluation:** use existing scout metrics and daily strategy review to compare unique verified NEW APPLY and unique verified NEW CHECK separately, official/direct versus radar yield, substantive JDs, rejection reasons, unresolved eligibility/route blockers and repeated no-new-evidence retries. A cursor advance, retry receipt or new metadata row is not a newly viable job. Attribute any improvement only after independent later runs/markets support it; do not create a parallel tracker.
 ### Bounded target rotation
 
 Do not full-sweep every target employer every hour. Each hourly scout should inspect a bounded subset of first-party targets plus source-native deltas/fresh heads, rotating across the core watch universe. Prefer sources exposing reliable updated/posted filters or requisition feeds. Repeatedly reloading unchanged career homepages is not useful work.
@@ -540,7 +549,7 @@ Evaluate each battlefield using the real funnel:
 
 `application → meaningful human/recruiter response → OA/challenge → interview → later round → offer`
 
-Also compare **source yield**, not just market yield: first-party/direct, native/direct platform, and radar/aggregator should be judged by how many serious survivors and meaningful recruiting progressions they produce. Source-yield conclusions require actual `Discovery source` and `Application route` evidence; do not infer the source from company or Issue age.
+Also compare **source yield**, not just market yield: first-party/direct, native/direct platform, and radar/aggregator should be judged by how many **unique, verifiably NEW APPLY/CHECK opportunities**, serious survivors and meaningful recruiting progressions they produce. Count APPLY and CHECK separately and note eligibility/route blockers; a cursor advance or retry receipt is never itself a new viable job. Source-yield conclusions require actual `Discovery source` and `Application route` evidence; do not infer the source from company or Issue age.
 
 Automated receipts are not meaningful progression. WAIT counts are not clean application denominators. Do not penalize an unexecuted APPLY, a recent application that has not had a reasonable chance to progress, or silence alone. Do not reward a market/source merely because it received more applications or because local work authorization is easier.
 
