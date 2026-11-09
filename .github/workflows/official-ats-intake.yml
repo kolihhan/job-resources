@@ -7,6 +7,8 @@ on:
       - scripts/intake_official_ats.py
       - scripts/platform_index_queue.py
       - tests/test_intake_official_ats.py
+      - scripts/report_job_pipeline_health.py
+      - tests/test_job_pipeline_health.py
       - .github/workflows/official-ats-intake.yml
   schedule:
     # 38 minutes after upstream public ATS producer UTC :37.
