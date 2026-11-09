@@ -83,44 +83,6 @@
         "jd_sha256": "e950c7f0817628f994dac54ad559e43e8ceda2b8621fef71a8d119e3ec099c87",
         "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
         "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00026160",
-        "review_flags": [
-          "domain_specific"
-        ],
-        "signals": [
-          "llm",
-          "rag",
-          "agent",
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.297655Z",
-      "key": "sg:9bdab79eb7dae50181d4",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 16,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer II (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026160"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T10:11:50.566363Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to create a trusted digital environment for its people and businesses by providing businesses and consumers with greater assurance and confidence as they digitalize. We are looking for a Research Engineer to build LLM-powered AI agents that automate and improve insurance workflows such as underwriting, claims, policy servicing, risk assessment and customer engagement. You will create autonomous and multi-agent systems that read insurance documents, apply policy rules, support human decision-making and execute end-to-end processes safely. Your work will directly strengthen operational efficiency, customer experience, compliance and responsible AI adoption across the insurance value chain. Key Responsibilities: Translate fluently between business and technical contexts, helping stakeholders, engineers and insurance partners understand complex AI, LLM and agentic AI concepts. Conduct research on LLM-powered AI agents and multi-agent systems, translating algorithms, tools and frameworks into working prototypes that demonstrate how research outputs can be productised into new insurance capabilities. Collaborate with Centre researchers to design and develop production-oriented system implementations, supporting key insurance workflows such as underwriting, claims, policy servicing and risk assessment. Design and build agent tools, evaluation frameworks and demonstration environments that enable technology transfer to research partners and showcase the value of LLM-based agentic AI in insurance. Produce and maintain technical documentation, presentations and research papers on AI agent design, evaluation, guardrails and trust mechanisms, helping raise organisational capability in responsible AI and trust technologies for insurance applications. Engage global partners and researchers to track emerging trends in LLMs, agentic AI and InsurTech, and help strengthen Singapore’s thought leadership in trustworthy AI agent systems for the insurance sector. Job Requirements: Master’s degree in Computer Science, Artificial Intelligence, Data Science, Software Engineering, or a related discipline; prior research or engineering experience in LLMs and AI agents is preferred. Ability to translate fluently between business and technical contexts, helping stakeholders, engineers and insurance partners understand complex AI, LLM and agentic AI concepts. Strong hands-on experience with large language models, prompt engineering, retrieval-augmented generation, agent frameworks and multi-agent system design. Proficiency in Python and common AI/ML tools and frameworks, with experience building production-grade AI applications, APIs, evaluation pipelines and agent orchestration systems. Solid understanding of AI safety, guardrails, model evaluation, monitoring, data privacy, explainability and responsible AI practices in regulated environments. Good knowledge of system platform development, database technologies and software engineering best practices. Experience in insurance, financial services or other regulated domains is preferred, particularly familiarity with applying LLM-based AI agents to underwriting, claims, policy servicing, risk assessment and customer engagement workflows. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 3542,
-        "jd_sha256": "e950c7f0817628f994dac54ad559e43e8ceda2b8621fef71a8d119e3ec099c87",
-        "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
         "req_id": "R00026159",
         "review_flags": [
           "domain_specific"
@@ -942,6 +904,46 @@
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow-Research-Associate--Developing-AI-enabled-software-for-nature-positive-business-transformation-in-ASEAN-_R00024254-1",
       "issue_url": "https://github.com/kolihhan/job-resources/issues/885",
       "evidence_url": "https://github.com/kolihhan/job-resources/issues/885"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T10:11:50.566363Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to create a trusted digital environment for its people and businesses by providing businesses and consumers with greater assurance and confidence as they digitalize. We are looking for a Research Engineer to build LLM-powered AI agents that automate and improve insurance workflows such as underwriting, claims, policy servicing, risk assessment and customer engagement. You will create autonomous and multi-agent systems that read insurance documents, apply policy rules, support human decision-making and execute end-to-end processes safely. Your work will directly strengthen operational efficiency, customer experience, compliance and responsible AI adoption across the insurance value chain. Key Responsibilities: Translate fluently between business and technical contexts, helping stakeholders, engineers and insurance partners understand complex AI, LLM and agentic AI concepts. Conduct research on LLM-powered AI agents and multi-agent systems, translating algorithms, tools and frameworks into working prototypes that demonstrate how research outputs can be productised into new insurance capabilities. Collaborate with Centre researchers to design and develop production-oriented system implementations, supporting key insurance workflows such as underwriting, claims, policy servicing and risk assessment. Design and build agent tools, evaluation frameworks and demonstration environments that enable technology transfer to research partners and showcase the value of LLM-based agentic AI in insurance. Produce and maintain technical documentation, presentations and research papers on AI agent design, evaluation, guardrails and trust mechanisms, helping raise organisational capability in responsible AI and trust technologies for insurance applications. Engage global partners and researchers to track emerging trends in LLMs, agentic AI and InsurTech, and help strengthen Singapore’s thought leadership in trustworthy AI agent systems for the insurance sector. Job Requirements: Master’s degree in Computer Science, Artificial Intelligence, Data Science, Software Engineering, or a related discipline; prior research or engineering experience in LLMs and AI agents is preferred. Ability to translate fluently between business and technical contexts, helping stakeholders, engineers and insurance partners understand complex AI, LLM and agentic AI concepts. Strong hands-on experience with large language models, prompt engineering, retrieval-augmented generation, agent frameworks and multi-agent system design. Proficiency in Python and common AI/ML tools and frameworks, with experience building production-grade AI applications, APIs, evaluation pipelines and agent orchestration systems. Solid understanding of AI safety, guardrails, model evaluation, monitoring, data privacy, explainability and responsible AI practices in regulated environments. Good knowledge of system platform development, database technologies and software engineering best practices. Experience in insurance, financial services or other regulated domains is preferred, particularly familiarity with applying LLM-based AI agents to underwriting, claims, policy servicing, risk assessment and customer engagement workflows. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 3542,
+        "jd_sha256": "e950c7f0817628f994dac54ad559e43e8ceda2b8621fef71a8d119e3ec099c87",
+        "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026160",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm",
+          "rag",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.297655Z",
+      "key": "sg:9bdab79eb7dae50181d4",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 16,
+      "source": "ntu:official-cxs:SG",
+      "state": "ISSUE_VERIFIED",
+      "title": "Research Engineer II (Trust Technologies)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026160",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/886",
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/886"
     }
   ],
   "version": 1
