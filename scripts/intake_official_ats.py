@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+"""Durably hand off bounded *unverified* official ATS leads to existing queues.
+
+No new opportunity tracker and no automatic APPLY/CHECK/WAIT. The producer is
+freehirefetch's first-party employer-board JSON, never its FreeHire aggregator.
+GitHub Issues and Gmail remain the only authoritative applicant lifecycle.
+"""
+from __future__ import annotations
+
+import argparse
+from collections import Counter
+import json
+from pathlib import Path
+import re
+
+from build_review_dispatch import classify_track, normalized_company, allowed_ats_url
+from platform_index_queue import (MARKETS, atomic_write, canonical, ingest,
+                                  known_urls, new_state, validate_state)
+
+MATURE = re.compile(r"\b(?:senior|staff|principal|lead|head|manager|director|architect|intern)\b"
+                    r"|资深|高级|实习", re.I)
+TECH = re.compile(r"\b(?:AI|LLM|RAG|NLP|GenAI|agent|machine learning|"
+                  r"applied scientist|research|data scientist|ML|retrieval|"
+                  r"software|backend|platform|algorithm)\b|智能体|算法|大模型|检索|研究", re.I)
+ALLOWED_EVIDENCE = {"full_jd", "partial_jd", "listing_only"}
+
+
+def priority(row):
+    title = row["title"]
+    weak = not TECH.search(title)
+    is_mature = bool(MATURE.search(title))
+    secondary = row.get("lane") == "MY_SWE_SECONDARY"
+    evidence_rank = {"full_jd": 0, "partial_jd": 1, "listing_only": 2}
+    return (int(is_mature), int(secondary), int(weak),
+            evidence_rank.get(row.get("evidence"), 3),
+            {"HIGH": 0, "MEDIUM": 1, "LOW": 2}.get(row.get("triage_priority"), 3),
+            row["company"].lower(), row["url"])
+
+
+def candidate(row, market):
+    if not isinstance(row, dict) or row.get("market") != market:
+        return None
+    if not all(isinstance(row.get(k), str) and row[k].strip()
+               for k in ("company", "title", "url", "key", "job_id")):
+        return None
+    if row.get("evidence") not in ALLOWED_EVIDENCE or not allowed_ats_url(row["url"]):
+        return None
+    url = canonical(row["url"], market)
+    if not url:
+        return None
+    # The upstream public snapshot is only allowed to supply employer ATS URLs.
+    return {**row, "url": url}
+
+
+def choose(rows, limit, company_cap):
+    """Fair source sampling, not fit judgment. Unused capacity stays honest."""
+    if limit < 1 or company_cap < 1:
+        raise ValueError("limit and company_cap must be positive")
+    ordered = sorted(rows, key=priority)
+    chosen = []
+    picked = set()
+    per_company = Counter()
+
+    def pick(track, until):
+        for row in ordered:
+            if len(chosen) >= limit or sum(x["_track"] == track for x in chosen) >= until:
+                return
+            company = normalized_company(row["company"])
+            if row["url"] in picked or per_company[company] >= company_cap or row["_track"] != track:
+                continue
+            chosen.append(row)
+            picked.add(row["url"])
+            per_company[company] += 1
+
+    # Reserve space for both tracks where each has candidates, then borrow
+    # available seats; do not reclassify research as an engineering fallback.
+    reserve = min(3, limit // 2)
+    for track in ("ENG", "RES"):
+        pick(track, reserve)
+    for row in ordered:
+        if len(chosen) >= limit:
+            break
+        company = normalized_company(row["company"])
+        if row["url"] not in picked and per_company[company] < company_cap:
+            chosen.append(row)
+            picked.add(row["url"])
+            per_company[company] += 1
+    return chosen
+
+
+def process_market(market, snapshot, state, known, *, limit=12, company_cap=3):
+    validate_state(state, market)
+    if snapshot is None:
+        return state, {"market": market, "source": "UNAVAILABLE",
+                       "observed": None, "selected": 0, "created": 0,
+                       "pending_after": len(state["pending"]),
+                       "coverage_gaps": ["ATS_SNAPSHOT_MISSING_NOT_ZERO_JOBS"]}
+
+    if snapshot.get("market") != market or not isinstance(snapshot.get("jobs"), list):
+        raise ValueError("ATS snapshot contract mismatch: " + market)
+
+    seen = {r["url"] for r in state["pending"]+state["terminal"]}
+    known_exact = known_urls(known, market)
+    wait_employers = set(known.get("weak", {}).get("wait_employers", []))
+    rows, invalid, old, history = {}, 0, 0, 0
+    for raw in snapshot["jobs"]:
+        item = candidate(raw, market)
+        if item is None:
+            invalid += 1
+            continue
+        if item["url"] in seen:
+            old += 1
+            continue
+        if item["url"] in known_exact:
+            history += 1
+            continue
+        # Exact canonical role identity, not vendor source/key text.
+        item["_track"] = classify_track(item["title"])
+        rows[item["url"]] = item
+
+    selected = choose(list(rows.values()), limit, company_cap)
+    payload = {"source": f"freehirefetch:official-ats:{market}", "items": []}
+    for row in selected:
+        payload["items"].append({
+            "market": market,
+            "platform": str(row.get("ats", "ATS")) + " official ATS",
+            "url": row["url"], "title": row["title"], "company": row["company"],
+            "query": row.get("location") or "",
+            "ats_key": row["key"], "source_job_id": row["job_id"],
+            "source_evidence": row["evidence"],
+            "description_excerpt": row.get("description_excerpt") or "",
+            "prior_wait_employer_hint": normalized_company(row["company"]) in wait_employers,
+        })
+    if selected:
+        state, stats = ingest(state, known, payload)
+        if stats["new_pending"] != len(selected):
+            raise ValueError("partial verified intake; expected selected exact IDs")
+    else:
+        stats = {"new_pending": 0}
+    return state, {
+        "market": market, "source": "AVAILABLE",
+        "observed": len(snapshot["jobs"]), "bad_rows": invalid,
+        "already_in_source_queue": old, "known_exact_history": history,
+        "unhandled_exact_ids": len(rows), "selected": len(selected),
+        "selected_by_track_hint": {
+            t: sum(row["_track"] == t for row in selected)
+            for t in ("ENG", "RES")},
+        "employers_selected": len({normalized_company(row["company"]) for row in selected}),
+        "prior_wait_employer_hints": sum(normalized_company(row["company"]) in wait_employers
+                                         for row in selected),
+        "created": stats["new_pending"], "pending_after": len(state["pending"]),
+        "coverage_gaps": (
+            ["NO_RESEARCH_ROLES_IN_OBSERVED_SOURCE"] if
+            not any(row["_track"] == "RES" for row in rows.values()) else []
+        ),
+    }
+
+
+def run(root, snapshot_dir, known, *, limit=12, company_cap=3):
+    report = {
+        "mode": "UNVERIFIED_ATS_SOURCE_QUEUE_ONLY_NO_APPLY",
+        "markets": {},
+        "limits": [
+            "Official ATS listing not proof of current live apply flow or eligible candidate.",
+            "Existing Issues/Gmail may contain sibling or generic application receipts.",
+            "No ATS snapshot means source unavailable, NEVER an empty market.",
+            "Queue entries require full JD, eligibility, route, and readback before APPLY/CHECK.",
+        ],
+    }
+    for market in ("SG", "MY", "CN"):
+        src = snapshot_dir / (market + ".json")
+        snapshot = json.loads(src.read_text()) if src.is_file() else None
+        dest = root / "discovery-state" / f"platform-index-{market.lower()}.json"
+        state = json.loads(dest.read_text()) if dest.is_file() else new_state(market)
+        original = json.dumps(state, sort_keys=True)
+        next_state, stats = process_market(
+            market, snapshot, state, known, limit=limit, company_cap=company_cap)
+        if json.dumps(next_state, sort_keys=True) != original:
+            atomic_write(dest, next_state)
+        report["markets"][market] = stats
+    return report
+
+
+def markdown(report):
+    lines = [
+        "# Official ATS → durable source queue intake (not APPLY)",
+        "",
+        "| Market | Feed | Rows | Unhandled IDs | New queued | ENG hints | RES hints | Employers | Pending |",
+        "|---|---|---:|---:|---:|---:|---:|---:|---:|",
+    ]
+    for market, d in report["markets"].items():
+        val = lambda k: str(d.get(k)) if d.get(k) is not None else "unknown"
+        by = d.get("selected_by_track_hint") or {}
+        lines.append(f"| {market} | {d['source']} | {val('observed')} | "
+                     f"{val('unhandled_exact_ids')} | {d['created']} | "
+                     f"{by.get('ENG', 0)} | {by.get('RES', 0)} | "
+                     f"{d.get('employers_selected', 0)} | {d['pending_after']} |")
+    lines += ["", "## Coverage debt", ""]
+    for market, d in report["markets"].items():
+        for gap in d.get("coverage_gaps", []):
+            lines.append(f"- {market}: {gap}")
+    lines += ["", "## Invariants", ""]
+    lines += ["- " + x for x in report["limits"]]
+    return "\n".join(lines)+"\n"
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--repo", type=Path, default=Path("."))
+    p.add_argument("--snapshots", type=Path, required=True)
+    p.add_argument("--limit", type=int, default=12)
+    p.add_argument("--company-cap", type=int, default=3)
+    p.add_argument("--report", type=Path, required=True)
+    args = p.parse_args()
+    known = json.loads((args.repo/"discovery-state"/"known-role-index.json").read_text())
+    report = run(args.repo, args.snapshots, known, limit=args.limit,
+                 company_cap=args.company_cap)
+    args.report.parent.mkdir(parents=True, exist_ok=True)
+    args.report.write_text(json.dumps(report, indent=2)+"\n")
+    print(markdown(report))
+    if all(v["source"] == "UNAVAILABLE" for v in report["markets"].values()):
+        raise SystemExit("All first-party ATS sources unavailable; no zero-market claim")
+
+
+if __name__ == "__main__":
+    main()
