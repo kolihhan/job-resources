@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-09T16:57:20.661795Z",
-    "source": "public-web-index-manual-pilot-2026-11-07",
+    "at": "2026-11-09T23:33:47.837905Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 2,
+      "already_seen": 9,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
       "new_pending": 0,
-      "observed": 2
+      "observed": 9
     }
   },
   "market": "SG",
@@ -1398,12 +1398,14 @@
       "ats_key": "capco|greenhouse|8248788",
       "company": "Capco",
       "description_excerpt": "<p><strong>Capco</strong></p> <p>Capco is a leading global technology and management consultancy that excels in driving digital transformation within the financial services and insurance sectors. With an unwavering commitment to delivering ",
+      "evidence_url": "https://job-boards.greenhouse.io/capco/jobs/8248788",
       "first_seen_at": "2026-11-09T15:02:24.825425Z",
       "key": "sg:4a894532d68cd5056611",
       "last_error": null,
       "market": "SG",
       "platform": "greenhouse official ATS",
       "query": "Singapore",
+      "reason": "Employer-authored Capco AI Engineer Greenhouse JD explicitly restricts applicants to Singapore citizens/PR and states no Employment Pass sponsorship. Malaysian citizen requiring employer-supported EP/S Pass is ineligible. Official exact role: https://job-boards.greenhouse.io/capco/jobs/8248788. Reviewed 2026-11-10.",
       "retries": 0,
       "seq": 46,
       "source": "freehirefetch:official-ats:SG",
@@ -1411,20 +1413,20 @@
       "source_job_id": "8248788",
       "state": "HARD_REJECTED",
       "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8248788",
-      "reason": "Employer-authored Capco AI Engineer Greenhouse JD explicitly restricts applicants to Singapore citizens/PR and states no Employment Pass sponsorship. Malaysian citizen requiring employer-supported EP/S Pass is ineligible. Official exact role: https://job-boards.greenhouse.io/capco/jobs/8248788. Reviewed 2026-11-10.",
-      "evidence_url": "https://job-boards.greenhouse.io/capco/jobs/8248788"
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8248788"
     },
     {
       "ats_key": "openai|ashby|02ec1893-17df-420c-8d19-48eca8edd884",
       "company": "OpenAI",
       "description_excerpt": "About the team The Applied AI Engineering (Codex) team helps customers adopt OpenAI's coding tools throughout their software development lifecycle. We act as trusted technical partners, guiding engineering teams as they integrate Codex into",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/02ec1893-17df-420c-8d19-48eca8edd884",
       "first_seen_at": "2026-11-09T16:44:38.947314Z",
       "key": "sg:09237bce9ab12b8d4eb6",
       "last_error": null,
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
+      "reason": "Official OpenAI Codex Applied AI Engineer Singapore JD explicitly requires 5+ years technical consulting/post-sales/solutions architecture directly with customers, plus Mandarin and workshop leadership. Candidate has 0 full-time YOE and no equivalent 5+ years client-facing technical consulting. Verified 2026-11-10.",
       "retries": 0,
       "seq": 64,
       "source": "freehirefetch:official-ats:SG",
@@ -1433,14 +1435,13 @@
       "source_listing_url": "",
       "state": "HARD_REJECTED",
       "title": "Applied AI Engineer, Codex",
-      "url": "https://jobs.ashbyhq.com/openai/02ec1893-17df-420c-8d19-48eca8edd884",
-      "reason": "Official OpenAI Codex Applied AI Engineer Singapore JD explicitly requires 5+ years technical consulting/post-sales/solutions architecture directly with customers, plus Mandarin and workshop leadership. Candidate has 0 full-time YOE and no equivalent 5+ years client-facing technical consulting. Verified 2026-11-10.",
-      "evidence_url": "https://jobs.ashbyhq.com/openai/02ec1893-17df-420c-8d19-48eca8edd884"
+      "url": "https://jobs.ashbyhq.com/openai/02ec1893-17df-420c-8d19-48eca8edd884"
     },
     {
       "ats_key": "ncs3|smartrecruiters|6000000001339954",
       "company": "NCS",
       "description_excerpt": "This role is an AI/LLM Engineer focused on prompt engineering, model integration, evaluation, and production quality within NCS AI Central’s Forward Deployed Engineering model. This role helps take GenAI solutions from POC/POV to production",
+      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001339954",
       "first_seen_at": "2026-11-09T15:11:31.005166Z",
       "key": "sg:8e34cb930f3f659fb5ce",
       "last_error": null,
@@ -1448,6 +1449,7 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "Official NCS AI/LLM Specialist Singapore JD specifies 3+ years hands-on LLM integration, prompt engineering and evaluation across production applications. Candidate has separate academic/personal LLM work and paid conventional web engineering, not 3+ professional LLM experience. Verified 2026-11-10.",
       "retries": 0,
       "seq": 60,
       "source": "freehirefetch:official-ats:SG",
@@ -1455,14 +1457,18 @@
       "source_job_id": "6000000001339954",
       "state": "HARD_REJECTED",
       "title": "#EG AI / LLM Specialist",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001339954",
-      "reason": "Official NCS AI/LLM Specialist Singapore JD specifies 3+ years hands-on LLM integration, prompt engineering and evaluation across production applications. Candidate has separate academic/personal LLM work and paid conventional web engineering, not 3+ professional LLM experience. Verified 2026-11-10.",
-      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001339954"
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001339954"
     },
     {
       "ats_key": "clera|ashby|2b838de1-5cee-4be9-8f4d-2a0ce96169dd",
       "company": "Clera",
       "description_excerpt": "ABOUT THE ROLE Join a small engineering team at an early-stage AI infrastructure company focused on reinforcement learning and AI evaluation. You will tackle urgent, ambiguous technical challenges for AI research organizations and data part",
+      "disposition": {
+        "checked_at": "2026-11-10T06:04:46+08:00",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/268",
+        "note": "Existing user decision and exact employer/title history; no new application authorized.",
+        "reason": "EXACT_HISTORICAL_USER_SKIP"
+      },
       "first_seen_at": "2026-11-09T15:02:24.825338Z",
       "key": "sg:fa2d112745100884e53d",
       "last_error": null,
@@ -1476,18 +1482,18 @@
       "source_job_id": "2b838de1-5cee-4be9-8f4d-2a0ce96169dd",
       "state": "HARD_REJECTED",
       "title": "Forward Deployed Research Engineer",
-      "url": "https://jobs.ashbyhq.com/Clera/2b838de1-5cee-4be9-8f4d-2a0ce96169dd",
-      "disposition": {
-        "reason": "EXACT_HISTORICAL_USER_SKIP",
-        "issue_url": "https://github.com/kolihhan/job-resources/issues/268",
-        "checked_at": "2026-11-10T06:04:46+08:00",
-        "note": "Existing user decision and exact employer/title history; no new application authorized."
-      }
+      "url": "https://jobs.ashbyhq.com/Clera/2b838de1-5cee-4be9-8f4d-2a0ce96169dd"
     },
     {
       "ats_key": "clera|ashby|4955b2ea-95c2-4a78-bacf-02abd3b994e6",
       "company": "Clera",
       "description_excerpt": "ABOUT THE ROLE Join a small engineering team building synthetic data systems for AI agents. You will turn real-world professional workflows into scalable training tasks, helping improve how models learn and perform across practical domains.",
+      "disposition": {
+        "checked_at": "2026-11-10T06:04:46+08:00",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/282",
+        "note": "Existing user decision and exact employer/title history; no new application authorized.",
+        "reason": "EXACT_HISTORICAL_USER_SKIP"
+      },
       "first_seen_at": "2026-11-09T15:02:24.825354Z",
       "key": "sg:f390e49581344e5ec800",
       "last_error": null,
@@ -1501,13 +1507,7 @@
       "source_job_id": "4955b2ea-95c2-4a78-bacf-02abd3b994e6",
       "state": "HARD_REJECTED",
       "title": "Research Engineer, Synthetic Data",
-      "url": "https://jobs.ashbyhq.com/Clera/4955b2ea-95c2-4a78-bacf-02abd3b994e6",
-      "disposition": {
-        "reason": "EXACT_HISTORICAL_USER_SKIP",
-        "issue_url": "https://github.com/kolihhan/job-resources/issues/282",
-        "checked_at": "2026-11-10T06:04:46+08:00",
-        "note": "Existing user decision and exact employer/title history; no new application authorized."
-      }
+      "url": "https://jobs.ashbyhq.com/Clera/4955b2ea-95c2-4a78-bacf-02abd3b994e6"
     },
     {
       "company": "Nanyang Technological University",
@@ -1533,20 +1533,20 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIEH-_R00025566",
       "first_seen_at": "2026-11-07T09:35:18.297756Z",
       "key": "sg:3ab00adcda341a422654",
       "last_error": null,
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
+      "reason": "NTU AI Engineer (AIEH) first-party full JD archived 2026-11-09 explicitly requires degree plus at least 4 years work experience and expert Python/cloud ML delivery; candidate is early-career with part-time conventional web engineering, not demonstrated 4+ years qualifying AI engineering. Exact requisition GitHub all-state search 2026-11-10 returned no issue. Not eligible under RULES section 4.",
       "retries": 0,
       "seq": 20,
       "source": "ntu:official-cxs:SG",
       "state": "HARD_REJECTED",
       "title": "AI Engineer (AIEH)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIEH-_R00025566",
-      "reason": "NTU AI Engineer (AIEH) first-party full JD archived 2026-11-09 explicitly requires degree plus at least 4 years work experience and expert Python/cloud ML delivery; candidate is early-career with part-time conventional web engineering, not demonstrated 4+ years qualifying AI engineering. Exact requisition GitHub all-state search 2026-11-10 returned no issue. Not eligible under RULES section 4.",
-      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIEH-_R00025566"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIEH-_R00025566"
     }
   ],
   "version": 1
