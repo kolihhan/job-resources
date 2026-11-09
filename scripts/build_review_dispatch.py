@@ -105,17 +105,22 @@ def _candidate_official(row, market, now):
         return None
     rev = row.get("consumer_review") or {}
     stage = rev.get("stage")
-    if stage != "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW":
+    verified = stage == "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+    # The previously built dispatcher silently ignored the durable
+    # UNVERIFIED_INDEX queue: newly discovered API jobs were never reviewed.
+    if not verified and row.get("state") != "UNVERIFIED_INDEX":
         return None
     url = normalized_url(row.get("url"))
     if not url or not row.get("title") or not isinstance(row.get("seq"), int):
         return None
     track = classify_track(row["title"])
-    status = official_status(rev, now)
+    status = (official_status(rev, now) if verified else
+              "UNVERIFIED_INDEX_NEEDS_EXACT_EMPLOYER_JD_AND_FIT")
     return {
         "market": market, "track_hint": track, "title": row["title"],
         "company": str(row.get("company") or "UNKNOWN"), "url": url,
-        "origin": "official_queue", "source": row.get("source"),
+        "origin": "official_queue" if verified else "durable_queue",
+        "source": row.get("source"),
         "queue_seq": row["seq"], "queue_key": row.get("key"),
         "status": status, "title_maturity_flag": bool(MATURE.search(row["title"])),
         "review_flags": rev.get("review_flags", []),
@@ -254,7 +259,9 @@ def build_dispatch(states, feeds, known_index, *, now=None,
             row = _candidate_official(source, market, now)
             if row is None:
                 continue
-            ready += 1
+            ready += int(row["status"] in (
+                "JD_VERIFIED_FIT_REVIEW_DUE", "JD_INCOMPLETE_FETCH_DUE",
+                "JD_STALE_REVERIFY_DUE"))
             current += int(row["status"] == "JD_VERIFIED_FIT_REVIEW_DUE")
             by_url[row["url"]] = row
         suppressed = 0
