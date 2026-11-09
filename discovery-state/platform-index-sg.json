@@ -301,44 +301,6 @@
         "checked_at": "2026-11-09T10:11:50.566363Z",
         "employment_time_type": "Full time",
         "full_jd_complete": true,
-        "full_jd_text": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to create a trusted digital environment for its people and businesses by providing businesses and consumers with greater assurance and confidence as they digitalize. We are looking for a Research Engineer to design, development and deployment of LLM-powered AI agents that transform core insurance workflows, including underwriting, claims, policy servicing, risk assessment and customer engagement. The role will build autonomous and multi-agent systems capable of interpreting insurance documents, applying policy rules, supporting decision-making and executing end-to-end processes, while ensuring reliability, compliance and human oversight. By combining large language models, agentic AI frameworks and insuranc domain knowledge, this position will help the business improve operational efficiency, decision quality, customer experience and responsible AI adoption across the insurance value chain. Key Responsibilities: Ability to code-switch effortlessly between talking business and talking tech, and can help stakeholders, engineers, and businesses easily understand complex AI and LLM research concepts Conduct research into LLM-powered AI agents and multi-agent systems – translating algorithms, tools, and frameworks into working prototypes that can explain how research outputs can be productised into new insurance capabilities. Work closely with Centre's researchers to design and develop system implementation work from research into the product, supporting key insurance workflows such as underwriting, claims, policy servicing and risk assessment. Design and build working agent tools and evaluation frameworks that can support the technology transfer of new AI capabilities to research partners and can be used to showcase the value of LLM-based agentic AI in insurance. Write and maintain technical documentation, presentations, and papers on AI agent design, evaluation, guardrails and trust mechanisms, helping to educate and raise the overall competency in responsible AI and trust technologies for insurance applications. Engage global partners and researchers to understand latest trends in LLMs, agentic AI and insurance technology, and advance Singapore's mindshare in trustworthy AI agent systems for the insurance sector. Job Requirements: Bachelor’s or Master’s degree in Computer Science, Artificial Intelligence, Data Science, Software Engineering or a related discipline; Relevant LLM or AI agent research experience is preferred. Ability to code-switch effortlessly between talking business and talking tech, and can help stakeholders, engineers, and businesses easily understand complex AI and LLM research concepts Strong hands-on experience with large language models, prompt engineering, retrieval-augmented generation, agent frameworks and multi-agent system design Proficiency in Python and common AI/ML tools and frameworks, with experience building production-grade AI applications, APIs, evaluation pipelines or agent orchestration systems Solid understanding of AI safety, guardrails, model evaluation, monitoring, data privacy, explainability and responsible AI practices in regulated environments Good knowledge of system platform development, database technologies, and software engineering best practices Experience in insurance, financial services or other regulated domains is preferred, including familiarity with underwriting, claims, policy servicing, risk assessment or customer engagement workflows We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 3780,
-        "jd_sha256": "81d5c192eacc7d468b8492f28896691e0b4ce1b3f01171bbdee38694c497c54c",
-        "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00025908",
-        "review_flags": [
-          "domain_specific"
-        ],
-        "signals": [
-          "llm",
-          "rag",
-          "agent",
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.297888Z",
-      "key": "sg:3299497298633ccf3e71",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 26,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer I (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Trust-Technologies-_R00025908"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T10:11:50.566363Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
         "full_jd_text": "The Lee Kong Chian School of Medicine (LKCMedicine) trains doctors who put patients at the centre of their exemplary care. The School, which offers both undergraduate and graduate programmes, is named after local philanthropist Tan Sri Dato Lee Kong Chian. Established in 2010 by Nanyang Technological University, Singapore, in partnership with Imperial College London, LKCMedicine aims to be a model for innovative medical education and a centre for transformative research. The School’s primary clinical partner is the National Healthcare Group, a leader in public healthcare recognised for the quality of its medical expertise, facilities and teaching. The School is transitioning to an NTU medical school ahead of the 2028 successful conclusion of the NTU-Imperial partnership to set up a Joint Medical School. In August 2024, we welcomed our first intake of the NTU MBBS programme, that has been recently enhanced to include themes like precision medicine and Artificial Intelligence (AI) in healthcare, with an expanded scope in the medical humanities. Graduates from the five-year undergraduate medical degree programme will have a strong understanding of the scientific basis of medicine, with an emphasis on technology, data science and the humanities. The MVAIT Lab at LKCMed seeks to hire a Research Associate (RA) who will play a role in pioneering research on medical image processing, medical visual technology and LLM, and the interface of AI algorithms with surgical robotics. The RA will design and implement cutting-edge algorithms and also be actively involved in the development AI tools tailored for different medical domains. These are efforts to bridge the gap between advanced computational framework and practical medical use cases. The tools and framework developed by the RA will be meticulously adapted to meet the needs of clinicians, radiologists, and biologists, assisting them in their daily tasks and pioneering research. Ultimately, this position plays a pivotal role in LKCMed's overarching mission to leverage technology to enhance healthcare outcomes and propel the institution to the forefront of medical advancements. Key Responsibilities: Design and implement AI algorithm models to analyze multimodal medical datasets (including MRI, CT, X-ray, OCT, and ultrasound images) for high-precision medical organ segmentation, 3D modeling research, and intelligent diagnosis. Explore and develop the application of large-scale pre-trained models in medical scenarios, including but not limited to intelligent consultation systems based on large language models and disease management systems utilizing multi-modal large model technologies. Develop, test, and optimize AI software systems for various medical tasks, ensuring their applicability and accuracy in real-world medical environments. Utilize data storage technologies to manage multimodal medical data securely and efficiently, ensuring data privacy while providing high storage capacity to accelerate AI model training and inference. Enhance the visualization capabilities of AI software system outputs using VR/AR equipment and 3D visualization technologies, aiding clinical observations and assisting interns in training and rapid learning. Collaborate with the team to systematically complete research and development tasks, assisting in the development of AI-assisted robotic solutions for surgical procedures, including pre-operative planning and intra-operative guidance. Ensure that all research activities adhere to ethical guidelines and patient data privacy regulations. Stay updated on the latest advancements in medical imaging, image processing, robotics, and large language models, ensuring that the research remains at the forefront of the field. Collaborate with external researchers and interdisciplinary teams (including medical professionals, AI experts, and research professors) to ensure the necessity, professionalism, rationality, and practicality of the research. Write research proposals, grant applications, and contribute to the team's strategic research direction. Mentor and train junior researchers, students, and interns, ensuring they possess the necessary skills and knowledge to contribute effectively to the research. Competencies and Qualification Requirements: Master degree in Computer Engineering, Computer Science, or a related field from a prestigious institution. Extensive experience in deep learning, AI, computer vision, 3D reconstruction algorithms, and large-scale Pre-trained Models. A solid research foundation and engineering experience in the AI medical field, proficient in programming languages and frameworks such as Python, C++, Pytorch, Tensorflow, Opencv, and COLMAP. Experience in software system engineering, capable of designing a well-structured system architecture to support the implementation of AI medical software. Proficiency in SQL and other data storage technologies, able to apply them flexibly and effectively in the AI medical field, ensuring data storage performance and security. Experience analyzing and interpreting medical imaging datasets, particularly ophthalmic imaging data, with an understanding of the nuances and peculiarities of such datasets. A deep understanding of ethical considerations, patient data privacy regulations, and other compliance-related aspects of medical research. Ability to collaborate with interdisciplinary teams, including medical professionals, AI experts, and research professors. Proactive and self-driven, capable of developing and managing multiple tasks and projects simultaneously. Excellent written and verbal communication skills in English; proficiency in additional languages is a plus. Hiring Institution: LKC",
         "jd_chars": 5724,
         "jd_sha256": "d89292c9be422949c53e5966fb8f61a4ae27d3931b06d9edebdf0da1756e34c4",
@@ -928,6 +890,46 @@
       "state": "HARD_REJECTED",
       "title": "Applied AI Engineer",
       "url": "https://devglobaljobs.com/jobs/detail/163751342"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T10:11:50.566363Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to create a trusted digital environment for its people and businesses by providing businesses and consumers with greater assurance and confidence as they digitalize. We are looking for a Research Engineer to design, development and deployment of LLM-powered AI agents that transform core insurance workflows, including underwriting, claims, policy servicing, risk assessment and customer engagement. The role will build autonomous and multi-agent systems capable of interpreting insurance documents, applying policy rules, supporting decision-making and executing end-to-end processes, while ensuring reliability, compliance and human oversight. By combining large language models, agentic AI frameworks and insuranc domain knowledge, this position will help the business improve operational efficiency, decision quality, customer experience and responsible AI adoption across the insurance value chain. Key Responsibilities: Ability to code-switch effortlessly between talking business and talking tech, and can help stakeholders, engineers, and businesses easily understand complex AI and LLM research concepts Conduct research into LLM-powered AI agents and multi-agent systems – translating algorithms, tools, and frameworks into working prototypes that can explain how research outputs can be productised into new insurance capabilities. Work closely with Centre's researchers to design and develop system implementation work from research into the product, supporting key insurance workflows such as underwriting, claims, policy servicing and risk assessment. Design and build working agent tools and evaluation frameworks that can support the technology transfer of new AI capabilities to research partners and can be used to showcase the value of LLM-based agentic AI in insurance. Write and maintain technical documentation, presentations, and papers on AI agent design, evaluation, guardrails and trust mechanisms, helping to educate and raise the overall competency in responsible AI and trust technologies for insurance applications. Engage global partners and researchers to understand latest trends in LLMs, agentic AI and insurance technology, and advance Singapore's mindshare in trustworthy AI agent systems for the insurance sector. Job Requirements: Bachelor’s or Master’s degree in Computer Science, Artificial Intelligence, Data Science, Software Engineering or a related discipline; Relevant LLM or AI agent research experience is preferred. Ability to code-switch effortlessly between talking business and talking tech, and can help stakeholders, engineers, and businesses easily understand complex AI and LLM research concepts Strong hands-on experience with large language models, prompt engineering, retrieval-augmented generation, agent frameworks and multi-agent system design Proficiency in Python and common AI/ML tools and frameworks, with experience building production-grade AI applications, APIs, evaluation pipelines or agent orchestration systems Solid understanding of AI safety, guardrails, model evaluation, monitoring, data privacy, explainability and responsible AI practices in regulated environments Good knowledge of system platform development, database technologies, and software engineering best practices Experience in insurance, financial services or other regulated domains is preferred, including familiarity with underwriting, claims, policy servicing, risk assessment or customer engagement workflows We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 3780,
+        "jd_sha256": "81d5c192eacc7d468b8492f28896691e0b4ce1b3f01171bbdee38694c497c54c",
+        "job_description_excerpt": "Nanyang Technological University’s National Centre for Research in Digital Trust (DTC) is a Trust Technology Research Centre to execute a national program to help put Singapore into a strong trust hub. The key objective is to support efforts to creat",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025908",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm",
+          "rag",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.297888Z",
+      "key": "sg:3299497298633ccf3e71",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 26,
+      "source": "ntu:official-cxs:SG",
+      "state": "ISSUE_VERIFIED",
+      "title": "Research Engineer I (Trust Technologies)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Trust-Technologies-_R00025908",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/882",
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/882"
     }
   ],
   "version": 1
