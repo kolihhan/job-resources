@@ -208,25 +208,6 @@
       "url": "https://jobs.ashbyhq.com/gen-digital/cf481e28-f073-4b13-93e3-c8222642ed29"
     },
     {
-      "ats_key": "neweratech|greenhouse|8890964002",
-      "company": "New Era Technology",
-      "description_excerpt": "<div class=\"content-intro\"><p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"> </p> <p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Join New Era Technology, where People First i",
-      "first_seen_at": "2026-11-09T15:02:24.841237Z",
-      "key": "my:525184365bddabea483e",
-      "last_error": null,
-      "market": "MY",
-      "platform": "greenhouse official ATS",
-      "query": "Kuala Lumpur, Malaysia",
-      "retries": 0,
-      "seq": 15,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "8890964002",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Devops/Digital Engineer",
-      "url": "https://job-boards.greenhouse.io/neweratech/jobs/8890964002"
-    },
-    {
       "ats_key": "neweratech|greenhouse|8829792002",
       "company": "New Era Technology",
       "description_excerpt": "<div class=\"content-intro\"><p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"> </p> <p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Join New Era Technology, where People First i",
@@ -979,6 +960,28 @@
       "disposition_reason": "Same NielsenIQ official SmartRecruiters requisition 744000157096979 already terminal seq 13; duplicate source alias, not new opportunity.",
       "disposition_evidence": "https://jobs.smartrecruiters.com/NielsenIQ/744000157096979",
       "reviewed_at": "2026-11-10T05:20:00+08:00"
+    },
+    {
+      "ats_key": "neweratech|greenhouse|8890964002",
+      "company": "New Era Technology",
+      "description_excerpt": "<div class=\"content-intro\"><p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"> </p> <p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Join New Era Technology, where People First i",
+      "first_seen_at": "2026-11-09T15:02:24.841237Z",
+      "key": "my:525184365bddabea483e",
+      "last_error": null,
+      "market": "MY",
+      "platform": "greenhouse official ATS",
+      "query": "Kuala Lumpur, Malaysia",
+      "retries": 0,
+      "seq": 15,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "8890964002",
+      "state": "HARD_REJECTED",
+      "title": "Devops/Digital Engineer",
+      "url": "https://job-boards.greenhouse.io/neweratech/jobs/8890964002",
+      "reason": "Employer Greenhouse exact req 8890964002 verified 2026-11-10: 12-month extendable client-deployment contract (ordinary MY-ENG nonpermanent blocked); mandatory 4+ years hands-on AWS; role mostly cloud security/BAU with GenAI integration rather than substantial agent/LLM ownership.",
+      "evidence_url": "https://job-boards.greenhouse.io/neweratech/jobs/8890964002",
+      "reviewed_at": "2026-11-10T06:24:19+08:00"
     }
   ],
   "version": 1
