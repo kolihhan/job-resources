@@ -3270,6 +3270,18 @@
       "source_url": "https://jobs.bytedance.com/experienced/position/6704578994936744200/detail",
       "last_alternate_source_attempted": "2026-11-09 exact employer requisition all-history Issue gate: no exact match; historic posting 2019-2022, current employer JD and live application unverified",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:2027-fresh-grad-hire-ai-agent-engineer-moomoo-7oazy6n6",
+      "candidate_seq": 2622,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T17:10:00+08:00",
+      "company": "moomoo",
+      "title": "2027 Fresh Grad Hire - AI Agent Engineer",
+      "source_url": "https://apply.workable.com/j/6DFF218F5E",
+      "last_alternate_source_attempted": "2026-11-09 exact employer ID all-history GitHub Issue search: no match; Workable exact page inaccessible; 2027 cohort eligibility for Malaysian 2026 MSc and CN work location unverified",
+      "last_retry_new_evidence": false
     }
   ]
 }
