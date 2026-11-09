@@ -146,6 +146,11 @@ def due(row: dict, now: datetime) -> bool:
     review = row.get("consumer_review")
     if not review:
         return True
+    # One-time migration: previously verified public JDs stored only excerpts.
+    # Refresh those before the normal 48h TTL so downstream fit review can run.
+    if (review.get("stage") == "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+            and "full_jd_complete" not in review):
+        return True
     checked = review.get("checked_at")
     if not checked:
         return True
