@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-09T13:24:41+08:00",
+  "updated_at": "2026-11-09T17:22:37+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -220,12 +220,13 @@
       "role_key": "freehire:full-stack-engineer-backend-mobile-ai-solutions-seg-international-bhd-kvs5cpmr",
       "candidate_seq": 2949,
       "reason_code": "verification_pending",
-      "attempts": 4,
-      "next_retry_at": "2026-11-07T22:25:00+08:00",
+      "attempts": 5,
+      "next_retry_at": "2026-11-12T17:25:00+08:00",
       "company": "SEG International Bhd",
       "title": "Full Stack Engineer (Backend, Mobile & AI Solutions)",
       "source_url": "https://my.jobstreet.com/job/95653803?utm_source=freehire.me",
-      "detail": "2026-11-06 12:17 MYT: Exact external ID searched across all GitHub Issue history: no exact hit. Current compact metadata reconciled. Exact JobStreet/Oracle full role pages inaccessible or not fully verifiable in this run; retain for authoritative JD, MY destination-quality, employment, liveness, route and targeted Gmail verification. Senior/5+ hints are not treated as confirmed hard requirements. 2026-11-06 16:22 MYT: Rechecked indexed official/native evidence. SEG JobStreet full-time RM6k-7.5k listing confirmed; healthcare full-stack, MY-TOP quality and exact JD/route not established. Preserve verification_pending; no employer contact. 2026-11-06 19:15 MYT: Exact native JobStreet 95653803 direct access failed; no authoritative complete JD or evidence of destination-quality engineering peers/regular employment. Preserve verification_pending, do not promote. 2026-11-06 22:24 MYT: No new substantive authoritative exact-role evidence found in bounded alternate employer/ATS/indexed check; retained prior blocker, no repeated broken URL open. retry_new_evidence=no; alternate_source=employer/ATS indexed search; next retry >=24h."
+      "detail": "2026-11-06 12:17 MYT: Exact external ID searched across all GitHub Issue history: no exact hit. Current compact metadata reconciled. Exact JobStreet/Oracle full role pages inaccessible or not fully verifiable in this run; retain for authoritative JD, MY destination-quality, employment, liveness, route and targeted Gmail verification. Senior/5+ hints are not treated as confirmed hard requirements. 2026-11-06 16:22 MYT: Rechecked indexed official/native evidence. SEG JobStreet full-time RM6k-7.5k listing confirmed; healthcare full-stack, MY-TOP quality and exact JD/route not established. Preserve verification_pending; no employer contact. 2026-11-06 19:15 MYT: Exact native JobStreet 95653803 direct access failed; no authoritative complete JD or evidence of destination-quality engineering peers/regular employment. Preserve verification_pending, do not promote. 2026-11-06 22:24 MYT: No new substantive authoritative exact-role evidence found in bounded alternate employer/ATS/indexed check; retained prior blocker, no repeated broken URL open. retry_new_evidence=no; alternate_source=employer/ATS indexed search; next retry >=24h. 2026-11-09 17:22 MYT: Fresh native JobStreet employer listing confirms exact Full Stack Engineer (Backend, Mobile & AI Solutions), Kota Damansara, full-time, RM6,000–7,500; indexed role remains visible. Independent current source: https://my.jobstreet.com/seg-international-bhd-jobs . Full authoritative JD, direct role liveness and MY-TOP technical peers remain unverified; no promotion. New source evidence is listing-only, not JD verification.",
+      "retry_escalation": ">=5 attempts; 72h backoff after fresh listing-only evidence, resume early only on complete official JD or new substantive eligibility/route evidence."
     },
     {
       "candidate_seq": 2993,
@@ -256,9 +257,9 @@
       "title": "Full Stack Engineer - AI-Powered, End-to-End Ownership",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26991112__7112",
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-08T10:24:00+08:00",
-      "detail": "No verified exact employer full JD and destination-quality gates; next use alternate official ATS exact role; retry_new_evidence=no"
+      "attempts": 2,
+      "next_retry_at": "2026-11-12T17:25:00+08:00",
+      "detail": "No verified exact employer full JD and destination-quality gates; next use alternate official ATS exact role; retry_new_evidence=no 2026-11-09 17:22 MYT: Independent FreeHire full-JD reproduction https://freehire.me/jobs/full-stack-software-engineer-all-levels-remote-interview-inc-ycguqoad states KL office, AI-powered technical hiring products, founder-led TypeScript/Node/React development and full-time. Contradictory third-party contract classification https://my.trabajo.org/job-2267-0c060b7db480c5c9dfe9f92a93bfd8f3 . Employer-controlled current exact application route, permanent terms and MY destination-quality engineering peers remain unverified. No promotion."
     },
     {
       "candidate_seq": 2997,
