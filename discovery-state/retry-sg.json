@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T22:10:00+08:00",
+  "updated_at": "2026-11-09T23:15:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4605,6 +4605,30 @@
       "attempts": 0,
       "next_retry_at": "2026-11-11T22:10:00+08:00",
       "evidence_note": "Exact MCF identity found, no verified employer direct application route; 5+ experience hint requires authoritative JD; do not promote."
+    },
+    {
+      "candidate_seq": 1060,
+      "role_key": "freehire:full-stack-developer-ai-enabled-eps-computer-systems-pte-ltd-r54ovs3c",
+      "company": "eps computer systems pte ltd",
+      "title": "Full Stack Developer (AI-Enabled)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93793923__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T23:15:00+08:00",
+      "missing_evidence": "Official employer requisition and full JD, substantive AI ownership, 0–3 YOE, non-MCF route and SG work pass",
+      "next_source": "Employer official ATS exact-role search, not WhatJobs/JobStreet snippet"
+    },
+    {
+      "candidate_seq": 1064,
+      "role_key": "freehire:data-engineer-ai-integration-specialist-persol-p5q3pu2v",
+      "company": "PERSOL",
+      "title": "Data Engineer, AI Integration Specialist",
+      "source_url": "https://sg.jobstreet.com/job/95412222?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T23:15:00+08:00",
+      "missing_evidence": "Official employer requisition and full JD, substantive AI ownership, 0–3 YOE, non-MCF route and SG work pass",
+      "next_source": "Employer official ATS exact-role search, not WhatJobs/JobStreet snippet"
     }
   ]
 }
