@@ -30,6 +30,22 @@ Rank by actual weekly work and role quality, **not research vs engineering title
 
 **Acceptance gate:** a GitHub Action successfully ingests nonduplicate public IDs into existing markets; hourly scouts turn actual high-fit ones into verified issues or evidence-backed dispositions and ACK their keys; the morning report links *every* currently valid unsubmitted APPLY. Source-only throughput and healthy tests do not pass this gate.
 
+## Platform coverage is mandatory — API does NOT equal platform recall
+
+**Discovery target = MY / SG / CN hiring platforms and employer research sources**, not only whatever company boards a free API happens to index. FreeHire / AI Dev Jobs are **suppliers / partial proxies**, not proof that LinkedIn, JobStreet, BOSS, 牛客 or any other named platform was searched end-to-end.
+
+| Market | Mandatory complementary discovery families | Caveat / gap |
+|---|---|---|
+| **MY** | JobStreet, LinkedIn Jobs, Indeed, Hiredly, strong employers' official ATS/careers, high-quality lab/MIMOS/university sources | MY TOP / destination-quality screen remains mandatory; API aliases are not native-platform coverage |
+| **SG** | LinkedIn Jobs, JobStreet, Indeed, MyCareersFuture (discovery only), employer ATS, **NUS / NTU / A*STAR / SMU / SUTD + lab/PI** | MCF-only has no usable application route for this Malaysian candidate; seek official/employer alternative |
+| **CN** | **BOSS直聘, 牛客, 猎聘, 智联, 前程无忧/51job**, direct employer/Feishu/Moka/Beisen ATS, targeted labs/PI or recruiter channels | FreeHire/foreign ATS have weak native CN coverage; foreign work-permit and cohort eligibility need verification |
+
+**Execution:** current pending-queue conversion stays primary, **but each market Scout must also finish a bounded platform-gap rotation every run** per `docs/source-routing.md` §6: MY/SG ≥1 relevant broad family; CN ≥2 distinct native families plus official employer rotation. A blocked page is **BLOCKED/PARTIAL_COVERAGE**, not scanned or exhausted; use available indexed exact-role discovery, official ATS, or platform-native/search connector as named substitutes, without claiming the substitute scanned the native board. No Playwright/CAPTCHA bypass, fabricated pagination or unsupported scrape.
+
+**Platform evidence on every Scout result:** `market | named platform | actual access mode (native/API-proxy/indexed/official) | query/location | exact job IDs seen | new employer/role IDs | verified JD+route | net-new APPLY/CHECK | blocked/untested depth`. Use existing source-state and scout reporting; **no second tracker**. Rotate gaps across runs rather than requiring all sites in one hour. The morning report must show uncovered/blocked **platform families separately** from API source health and real APPLY count.
+
+**Promotion gate remains unchanged:** original/native listing, aggregate API record, indexed hit and first-party ATS job can be the **same opportunity**. Deduplicate by employer requisition/official route + all-state GitHub Issues + both Gmail accounts; do not invent an employer-ID match or suppress unrelated requisitions. Only current employer-authored JD plus usable route and realistic hard eligibility produces APPLY.
+
 ## Six battlefields
 
 | Battlefield | Purpose |
