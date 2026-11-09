@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-09T15:02:24.841267Z",
+    "at": "2026-11-09T15:11:31.025493Z",
     "source": "freehirefetch:official-ats:MY",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 12,
-      "observed": 12
+      "new_pending": 4,
+      "observed": 4
     }
   },
   "market": "MY",
-  "next_seq": 18,
+  "next_seq": 22,
   "next_unacknowledged_seq": 4,
   "pending": [
     {
@@ -283,6 +283,85 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Mobile Engineer II - MoneyLion",
       "url": "https://jobs.ashbyhq.com/gen-digital/20dd7b04-1828-4b13-93be-8b395272299c"
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000119563066",
+      "company": "Grab",
+      "description_excerpt": "",
+      "first_seen_at": "2026-11-09T15:11:31.025411Z",
+      "key": "my:8a174bb5ab46b9adadd8",
+      "last_error": null,
+      "market": "MY",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Petaling Jaya, my",
+      "retries": 0,
+      "seq": 18,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "744000119563066",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Machine Learning Engineer",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000119563066"
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000132200853",
+      "company": "Grab",
+      "description_excerpt": "",
+      "first_seen_at": "2026-11-09T15:11:31.025441Z",
+      "key": "my:d6aa8603543dc7ec328f",
+      "last_error": null,
+      "market": "MY",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Petaling Jaya, my",
+      "retries": 0,
+      "seq": 19,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "744000132200853",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Machine Learning Engineer (ACE)",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000132200853"
+    },
+    {
+      "ats_key": "nielseniq|smartrecruiters|744000152160106",
+      "company": "NielsenIQ",
+      "description_excerpt": "As a Senior Data Scientist, you will play a key role in developing end-to-end analytic solutions, shaping data and algorithms to deliver accurate and robust Predictive and Prescriptive Analytics. At NIQ, we’re looking for someone to join ou",
+      "first_seen_at": "2026-11-09T15:11:31.025461Z",
+      "key": "my:4b8e692b82463326c512",
+      "last_error": null,
+      "market": "MY",
+      "platform": "smartrecruiters official ATS",
+      "query": "Kuala Lumpur, 14, my",
+      "retries": 0,
+      "seq": 20,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "744000152160106",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Data Scientist",
+      "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000152160106"
+    },
+    {
+      "ats_key": "micron|workday|/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
+      "company": "Micron",
+      "description_excerpt": "",
+      "first_seen_at": "2026-11-09T15:11:31.025487Z",
+      "key": "my:e1f7d9b9a4f71cd80491",
+      "last_error": null,
+      "market": "MY",
+      "platform": "workday official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Penang, Malaysia - Grande",
+      "retries": 0,
+      "seq": 21,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Data Scientist",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375"
     }
   ],
   "terminal": [

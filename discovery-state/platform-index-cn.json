@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-09T15:02:24.857300Z",
+    "at": "2026-11-09T15:11:31.044261Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 4,
-      "observed": 4
+      "new_pending": 3,
+      "observed": 3
     }
   },
   "market": "CN",
-  "next_seq": 5,
+  "next_seq": 8,
   "next_unacknowledged_seq": 1,
   "pending": [
     {
@@ -90,6 +90,63 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Senior Software Engineer",
       "url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30"
+    },
+    {
+      "ats_key": "bjakcareer|ashby|1815a891-6854-4ada-9cd3-178009b807d1",
+      "company": "BJAK",
+      "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
+      "first_seen_at": "2026-11-09T15:11:31.044204Z",
+      "key": "cn:a7c2ee733177cba9aa02",
+      "last_error": null,
+      "market": "CN",
+      "platform": "ashby official ATS",
+      "query": "China",
+      "retries": 0,
+      "seq": 5,
+      "source": "freehirefetch:official-ats:CN",
+      "source_evidence": "full_jd",
+      "source_job_id": "1815a891-6854-4ada-9cd3-178009b807d1",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Machine Learning Engineer, Ranking & Retrieval",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1"
+    },
+    {
+      "ats_key": "bjakcareer|ashby|49b09df5-1660-44b2-a36b-e156be707bb4",
+      "company": "BJAK",
+      "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
+      "first_seen_at": "2026-11-09T15:11:31.044234Z",
+      "key": "cn:0238f4345f6c870322be",
+      "last_error": null,
+      "market": "CN",
+      "platform": "ashby official ATS",
+      "query": "China",
+      "retries": 0,
+      "seq": 6,
+      "source": "freehirefetch:official-ats:CN",
+      "source_evidence": "full_jd",
+      "source_job_id": "49b09df5-1660-44b2-a36b-e156be707bb4",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Machine Learning Engineer, Ranking & Retrieval",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/49b09df5-1660-44b2-a36b-e156be707bb4"
+    },
+    {
+      "ats_key": "bjakcareer|ashby|5a551446-ac37-4444-b3ac-a228fafa035b",
+      "company": "BJAK",
+      "description_excerpt": "ABOUT ACTAI There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prom",
+      "first_seen_at": "2026-11-09T15:11:31.044254Z",
+      "key": "cn:620f6e84f2b0fe16b199",
+      "last_error": null,
+      "market": "CN",
+      "platform": "ashby official ATS",
+      "query": "China",
+      "retries": 0,
+      "seq": 7,
+      "source": "freehirefetch:official-ats:CN",
+      "source_evidence": "full_jd",
+      "source_job_id": "5a551446-ac37-4444-b3ac-a228fafa035b",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Backend Engineer, AI (Agent Systems)",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/5a551446-ac37-4444-b3ac-a228fafa035b"
     }
   ],
   "terminal": [],
