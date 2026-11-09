@@ -156,7 +156,9 @@ class OfficialATSIntakeTests(unittest.TestCase):
                           key="aidevboard|3",evidence="listing_only")
             fresh=job("SG",4,"Second","LLM Engineer")
             fresh["url"]="https://sg.jobstreet.com/job/95880022"
-            fresh.update(source="freehire:public-api:SG",evidence="listing_only")
+            fresh.update(source="freehire:public-api:SG",evidence="listing_only",
+                         source_platform="JobStreet",
+                         discovery_access="API_PROXY_ONLY")
             (ats/"SG.json").write_text(json.dumps({"market":"SG","jobs":[official]}))
             (api/"SG.json").write_text(json.dumps({"market":"SG","jobs":[provider,fresh]}))
             (api/"health.json").write_text(json.dumps({"SG":{
@@ -166,7 +168,10 @@ class OfficialATSIntakeTests(unittest.TestCase):
             report=run(root,ats,{"strong":{"urls":[]}},api_dir=api,limit=8)
             rows=json.loads((root/"discovery-state"/"platform-index-sg.json").read_text())["pending"]
             self.assertEqual(len(rows),2)
-            self.assertTrue(any(x["source"]=="freehire:public-api:SG" for x in rows))
+            proxy=[x for x in rows if x["source"]=="freehire:public-api:SG"]
+            self.assertEqual(len(proxy),1)
+            self.assertEqual(proxy[0]["source_platform"],"JobStreet")
+            self.assertEqual(proxy[0]["discovery_access"],"API_PROXY_ONLY")
             matched=[x for x in rows if x["url"]==official["url"]]
             self.assertEqual(len(matched),1)
             self.assertEqual(matched[0]["source"],"freehirefetch:official-ats:SG")
