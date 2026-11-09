@@ -23,6 +23,19 @@ TECH = re.compile(r"\b(?:AI|LLM|RAG|NLP|GenAI|agent|machine learning|"
                   r"applied scientist|research|data scientist|ML|retrieval|"
                   r"software|backend|platform|algorithm)\b|智能体|算法|大模型|检索|研究", re.I)
 ALLOWED_EVIDENCE = {"full_jd", "partial_jd", "listing_only"}
+# A product/team named "AI Finance Agent" does not make an iOS/frontend
+# developer an agent engineer. These are ordering hints, not hard exclusions.
+CORE_TITLE = re.compile(
+    r"\b(?:applied ai|generative ai|machine learning|llm|nlp|rag|retrieval|"
+    r"ai engineer|ai developer|research engineer|research scientist|"
+    r"applied scientist|ai research|ml engineer|agentic|agent systems)\b"
+    r"|大模型|机器学习|算法工程师|人工智能工程师", re.I)
+UI_TITLE = re.compile(r"\b(?:ios|android|mobile|frontend|front.end)\b", re.I)
+
+
+def core_title(title):
+    return bool(CORE_TITLE.search(str(title or "")))
+
 
 
 def priority(row):
@@ -30,8 +43,10 @@ def priority(row):
     weak = not TECH.search(title)
     is_mature = bool(MATURE.search(title))
     secondary = row.get("lane") == "MY_SWE_SECONDARY"
+    ui_only = bool(UI_TITLE.search(title))
+    focused = core_title(title)
     evidence_rank = {"full_jd": 0, "partial_jd": 1, "listing_only": 2}
-    return (int(is_mature), int(secondary), int(weak),
+    return (int(is_mature), int(ui_only), int(secondary), int(not focused), int(weak),
             evidence_rank.get(row.get("evidence"), 3),
             {"HIGH": 0, "MEDIUM": 1, "LOW": 2}.get(row.get("triage_priority"), 3),
             row["company"].lower(), row["url"])
@@ -52,14 +67,19 @@ def candidate(row, market):
     return {**row, "url": url}
 
 
-def choose(rows, limit, company_cap):
-    """Fair source sampling, not fit judgment. Unused capacity stays honest."""
+def choose(rows, limit, company_cap, existing_pending=()):
+    """Fair source sampling with backlog-aware employer caps, not fit judgment."""
     if limit < 1 or company_cap < 1:
         raise ValueError("limit and company_cap must be positive")
     ordered = sorted(rows, key=priority)
     chosen = []
     picked = set()
     per_company = Counter()
+    pending_by_company = Counter(normalized_company(x.get("company"))
+                                 for x in existing_pending if x.get("company"))
+    focused_pending = Counter(normalized_company(x.get("company"))
+                              for x in existing_pending
+                              if x.get("company") and core_title(x.get("title")))
 
     def pick(track, until):
         for row in ordered:
@@ -68,9 +88,20 @@ def choose(rows, limit, company_cap):
             company = normalized_company(row["company"])
             if row["url"] in picked or per_company[company] >= company_cap or row["_track"] != track:
                 continue
+            # Across cycles, cap ordinary company backlog at company_cap.
+            # Reserve up to company_cap MORE for substantive AI/Research titles
+            # if older low-quality source candidates already filled the cap.
+            if pending_by_company[company] >= company_cap:
+                if (not core_title(row["title"]) or
+                    focused_pending[company] >= company_cap or
+                    pending_by_company[company] >= company_cap * 2):
+                    continue
             chosen.append(row)
             picked.add(row["url"])
             per_company[company] += 1
+            pending_by_company[company] += 1
+            if core_title(row["title"]):
+                focused_pending[company] += 1
 
     # Reserve space for both tracks where each has candidates, then borrow
     # available seats; do not reclassify research as an engineering fallback.
@@ -81,14 +112,24 @@ def choose(rows, limit, company_cap):
         if len(chosen) >= limit:
             break
         company = normalized_company(row["company"])
-        if row["url"] not in picked and per_company[company] < company_cap:
-            chosen.append(row)
-            picked.add(row["url"])
-            per_company[company] += 1
+        if row["url"] in picked or per_company[company] >= company_cap:
+            continue
+        if pending_by_company[company] >= company_cap:
+            if (not core_title(row["title"]) or
+                focused_pending[company] >= company_cap or
+                pending_by_company[company] >= company_cap * 2):
+                continue
+        chosen.append(row)
+        picked.add(row["url"])
+        per_company[company] += 1
+        pending_by_company[company] += 1
+        if core_title(row["title"]):
+            focused_pending[company] += 1
     return chosen
 
 
-def process_market(market, snapshot, state, known, *, limit=12, company_cap=3):
+def process_market(market, snapshot, state, known, *, limit=12, company_cap=3,
+                   max_pending=45):
     validate_state(state, market)
     if snapshot is None:
         return state, {"market": market, "source": "UNAVAILABLE",
@@ -118,7 +159,9 @@ def process_market(market, snapshot, state, known, *, limit=12, company_cap=3):
         item["_track"] = classify_track(item["title"])
         rows[item["url"]] = item
 
-    selected = choose(list(rows.values()), limit, company_cap)
+    room = max(0, max_pending - len(state["pending"]))
+    selected = (choose(list(rows.values()), min(limit, room), company_cap,
+                       existing_pending=state["pending"]) if room else [])
     payload = {"source": f"freehirefetch:official-ats:{market}", "items": []}
     for row in selected:
         payload["items"].append({
@@ -149,14 +192,18 @@ def process_market(market, snapshot, state, known, *, limit=12, company_cap=3):
         "prior_wait_employer_hints": sum(normalized_company(row["company"]) in wait_employers
                                          for row in selected),
         "created": stats["new_pending"], "pending_after": len(state["pending"]),
+        "deferred_unhandled_ids": len(rows)-len(selected),
+        "source_review_capacity": room,
         "coverage_gaps": (
-            ["NO_RESEARCH_ROLES_IN_OBSERVED_SOURCE"] if
-            not any(row["_track"] == "RES" for row in rows.values()) else []
+            (["PENDING_REVIEW_BACKPRESSURE"] if room == 0 and rows else [])
+            + (["NO_RESEARCH_ROLES_IN_OBSERVED_SOURCE"] if
+               not any(row["_track"] == "RES" for row in rows.values()) else [])
         ),
     }
 
 
-def run(root, snapshot_dir, known, *, limit=12, company_cap=3):
+def run(root, snapshot_dir, known, *, limit=12, company_cap=3,
+        max_pending=45):
     report = {
         "mode": "UNVERIFIED_ATS_SOURCE_QUEUE_ONLY_NO_APPLY",
         "markets": {},
@@ -174,7 +221,8 @@ def run(root, snapshot_dir, known, *, limit=12, company_cap=3):
         state = json.loads(dest.read_text()) if dest.is_file() else new_state(market)
         original = json.dumps(state, sort_keys=True)
         next_state, stats = process_market(
-            market, snapshot, state, known, limit=limit, company_cap=company_cap)
+            market, snapshot, state, known, limit=limit, company_cap=company_cap,
+            max_pending=max_pending)
         if json.dumps(next_state, sort_keys=True) != original:
             atomic_write(dest, next_state)
         report["markets"][market] = stats
@@ -210,11 +258,12 @@ def main():
     p.add_argument("--snapshots", type=Path, required=True)
     p.add_argument("--limit", type=int, default=12)
     p.add_argument("--company-cap", type=int, default=3)
+    p.add_argument("--max-pending", type=int, default=45)
     p.add_argument("--report", type=Path, required=True)
     args = p.parse_args()
     known = json.loads((args.repo/"discovery-state"/"known-role-index.json").read_text())
     report = run(args.repo, args.snapshots, known, limit=args.limit,
-                 company_cap=args.company_cap)
+                 company_cap=args.company_cap, max_pending=args.max_pending)
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=2)+"\n")
     print(markdown(report))
