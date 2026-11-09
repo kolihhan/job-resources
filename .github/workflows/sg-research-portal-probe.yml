@@ -1,0 +1,59 @@
+name: SG Research First-Party Portal Probe
+on:
+  workflow_dispatch:
+  schedule:
+    # 10:47 Malaysia time; independent official academic-source coverage probe.
+    - cron: '47 2 * * *'
+  push:
+    paths:
+      - 'scripts/probe_sg_research_portals.py'
+      - 'tests/test_probe_sg_research_portals.py'
+      - '.github/workflows/sg-research-portal-probe.yml'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Verify official-host, exact-role and partial-coverage safety
+        run: python -m unittest discover -s tests -p 'test_probe_sg_research_portals.py' -v
+      - name: Probe four bounded official university/research listings
+        run: python scripts/probe_sg_research_portals.py --output artifacts/sg-research-portals.json
+      - name: Summarize real employer-page evidence without eligibility claims
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path("artifacts/sg-research-portals.json")
+          lines=["# SG Research official portal source probe", "",
+                 "Read-only, bounded source check. These are NOT verified APPLY jobs.", ""]
+          if not p.exists():
+              lines.append("No source artifact produced; no coverage claimed.")
+          else:
+              d=json.loads(p.read_text(encoding="utf-8"))
+              lines += ["| Source | Actual job links | Details with employer req/apply control | Coverage |",
+                        "|---|---:|---:|---|"]
+              for s in d["sources"]:
+                  lines.append(f"| {s['source']} | {s['listing_identified']} | {s['detail_verified']} | {s['status']} |")
+              lines += ["", "## Verified source role identities (not candidate fit)", ""]
+              for s in d["sources"]:
+                  for j in s["jobs"][:12]:
+                      title=j["title"].replace("|", "/").replace("[", "").replace("]", "")
+                      lines.append(f"- {s['source']}: [{title}]({j['url']}) — requisition {j['requisition']}; technical terms: {', '.join(j['technical_signals'][:8]) or 'none'}")
+              lines += ["", "No careers portal is marked exhausted without explicit pagination evidence. No Issues, applications or candidate queue mutations."]
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as output:
+              output.write("\n".join(lines)+"\n")
+          PY
+      - name: Preserve actual role identities and source failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sg-research-official-source-evidence
+          path: artifacts/sg-research-portals.json
+          retention-days: 14
