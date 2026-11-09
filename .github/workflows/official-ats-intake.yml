@@ -58,28 +58,40 @@ jobs:
               except Exception as exc:
                   print(f"ATS_SOURCE_UNAVAILABLE {market}: {type(exc).__name__}: {str(exc)[:150]}")
           PY
-      - name: Compare real public API accessibility (no secrets)
+      - name: Inspect reachable API schemas with one record per provider
         run: |
           python - <<'PY'
           import json
           from urllib.request import Request,urlopen
-          sources={
-            "activevacancies":"https://activevacancies.com/api/v1/jobs?q=AI%20Engineer&location=Singapore&limit=2",
-            "aidevboard":"https://aidevboard.com/api/v1/jobs?location=Singapore&limit=2",
-            "freehire":"https://freehire.me/api/v1/agent/jobs/search?countries=SG&limit=2",
+          from urllib.error import HTTPError
+          providers={
+            "aidevboard":"https://aidevboard.com/api/v1/jobs?location=Singapore&limit=1",
+            "freehire":"https://freehire.me/api/v1/jobs/search?countries=SG&q=ai&limit=1",
           }
-          for name,url in sources.items():
+          for name,url in providers.items():
               try:
-                  with urlopen(Request(url,headers={
-                      "Accept":"application/json","User-Agent":"JobResourcesAPIProbe/1.0"
-                  }),timeout=15) as r:
-                      raw=r.read(1800)
-                      status=r.status
-                  obj=json.loads(raw) if len(raw)<1800 else {}
-                  print("API_PROBE",name,"status",status,
-                        "keys",list(obj)[:8] if isinstance(obj,dict) else type(obj).__name__)
+                  with urlopen(Request(url,headers={"Accept":"application/json",
+                    "User-Agent":"JobResourcesAPIProbe/1.0"}),timeout=18) as r:
+                      raw=r.read(1_000_001)
+                  if len(raw)>1_000_000:raise ValueError("oversize")
+                  obj=json.loads(raw)
+                  print("API_SCHEMA",name,"root",list(obj)[:14]
+                        if isinstance(obj,dict) else type(obj).__name__)
+                  if isinstance(obj,dict):
+                      for k,v in obj.items():
+                          if isinstance(v,list):
+                              print("API_SCHEMA",name,k,"rows",len(v),
+                                    "record_fields",list(v[0])[:35] if v and isinstance(v[0],dict) else [])
+                              if v and isinstance(v[0],dict):
+                                  x=v[0]
+                                  print("API_SCHEMA",name,"example",{k:str(x[k])[:160] for k in
+                                    ("title","location","company","company_name","url","apply_url",
+                                    "applyUrl","source","id","public_slug","slug")
+                                    if k in x})
+                          elif isinstance(v,dict):
+                              print("API_SCHEMA",name,k,"object_keys",list(v)[:12])
               except Exception as e:
-                  print("API_PROBE",name,type(e).__name__,str(e)[:130])
+                  print("API_SCHEMA",name,"error",type(e).__name__,str(e)[:140])
           PY
       - name: Benchmark free cross-market API (read-only, independent of ATS)
         shell: bash
