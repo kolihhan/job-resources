@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T20:00:59+08:00",
+  "updated_at": "2026-11-09T21:15:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4510,6 +4510,90 @@
       "next_retry_at": "2026-11-10T20:15:00+08:00",
       "missing_evidence": "Exact employer requisition, substantive employer JD, actual LLM/agent ownership, experience and non-MCF application route",
       "next_source": "Employer official careers/ATS exact role search"
+    },
+    {
+      "candidate_seq": 1026,
+      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
+      "company": "GVT Government Technology Agency",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93973016__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T21:15:00+08:00",
+      "missing_evidence": "Employer canonical requisition/full JD, mandatory YOE and substantive AI work, non-MCF direct route and SG work-pass gate",
+      "next_source": "Official employer ATS exact-role verification; do not recycle aggregator snippet"
+    },
+    {
+      "candidate_seq": 1031,
+      "role_key": "freehire:ai-engineer-dev-ops-nanyang-technological-university-gmlx7h5x",
+      "company": "Nanyang Technological University",
+      "title": "AI Engineer, Dev Ops",
+      "source_url": "https://sg.jobstreet.com/job/95469345?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T21:15:00+08:00",
+      "missing_evidence": "Employer canonical requisition/full JD, mandatory YOE and substantive AI work, non-MCF direct route and SG work-pass gate",
+      "next_source": "Official employer ATS exact-role verification; do not recycle aggregator snippet"
+    },
+    {
+      "candidate_seq": 1033,
+      "role_key": "freehire:ai-engineer-micron-semiconductors-55cs736q",
+      "company": "Micron Semiconductors",
+      "title": "AI Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95468494?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T21:15:00+08:00",
+      "missing_evidence": "Employer canonical requisition/full JD, mandatory YOE and substantive AI work, non-MCF direct route and SG work-pass gate",
+      "next_source": "Official employer ATS exact-role verification; do not recycle aggregator snippet"
+    },
+    {
+      "candidate_seq": 1034,
+      "role_key": "freehire:ai-engineer-smai-micron-semiconductors-rlcf6oav",
+      "company": "Micron Semiconductors",
+      "title": "AI Engineer, SMAI",
+      "source_url": "https://sg.jobstreet.com/job/95468483?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T21:15:00+08:00",
+      "missing_evidence": "Employer canonical requisition/full JD, mandatory YOE and substantive AI work, non-MCF direct route and SG work-pass gate",
+      "next_source": "Official employer ATS exact-role verification; do not recycle aggregator snippet"
+    },
+    {
+      "candidate_seq": 1041,
+      "role_key": "freehire:sr-ai-engineer-smai-micron-semiconductors-zhqej7hy",
+      "company": "Micron Semiconductors",
+      "title": "Sr AI Engineer, SMAI",
+      "source_url": "https://sg.jobstreet.com/job/95462297?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T21:15:00+08:00",
+      "missing_evidence": "Employer canonical requisition/full JD, mandatory YOE and substantive AI work, non-MCF direct route and SG work-pass gate",
+      "next_source": "Official employer ATS exact-role verification; do not recycle aggregator snippet"
+    },
+    {
+      "candidate_seq": 1042,
+      "role_key": "freehire:machine-learning-engineer-speech-audio-singapore-plaud-flksxegs",
+      "company": "Plaud",
+      "title": "Machine Learning Engineer (Speech/Audio) - Singapore",
+      "source_url": "https://jobs.ashbyhq.com/Plaud/57a36c66-11ae-4e86-9587-987bfaac7fd8?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T21:15:00+08:00",
+      "missing_evidence": "Employer canonical requisition/full JD, mandatory YOE and substantive AI work, non-MCF direct route and SG work-pass gate",
+      "next_source": "Official employer ATS exact-role verification; do not recycle aggregator snippet"
+    },
+    {
+      "candidate_seq": 1044,
+      "role_key": "freehire:sr-ai-engineer-smai-micron-qnnzckwk",
+      "company": "Micron",
+      "title": "Sr AI Engineer, SMAI",
+      "source_url": "https://careers.micron.com/careers/job/43785707?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T21:15:00+08:00",
+      "missing_evidence": "Employer canonical requisition/full JD, mandatory YOE and substantive AI work, non-MCF direct route and SG work-pass gate",
+      "next_source": "Official employer ATS exact-role verification; do not recycle aggregator snippet"
     }
   ]
 }
