@@ -102,6 +102,9 @@ class DispatchTests(unittest.TestCase):
         self.assertEqual(result["markets"]["CN"]["bad_source_rows"],1)
         self.assertEqual(result["markets"]["MY"]["ats_snapshot_state"],"UNAVAILABLE")
         self.assertEqual(result["markets"]["MY"]["ats_rows_observed"],None)
+        self.assertIn("ATS_FEED_UNAVAILABLE",result["markets"]["MY"]["coverage_gaps"])
+        self.assertIn("NO_RESEARCH_CANDIDATES_IN_OBSERVED_SOURCES",
+                      result["markets"]["CN"]["coverage_gaps"])
 
     def test_lesser_evidence_and_mature_title_not_falsely_rejected(self):
         a=ats("SG",3,"Senior AI Engineer","Acme")
@@ -113,7 +116,7 @@ class DispatchTests(unittest.TestCase):
         self.assertTrue(next(x for x in rows if x["title"].startswith("Senior"))["title_maturity_flag"])
         self.assertEqual(next(x for x in rows if x["company"]=="Beta")["status"],
                          "NEEDS_FULL_JD_AND_LIVE_ROUTE")
-        self.assertEqual(result["markets"]["SG"]["hard_rejects_this_run"],0)
+        self.assertEqual(result["markets"]["SG"]["fit_decisions_made"],0)
 
     def test_ats_same_url_as_official_pending_never_double_counts(self):
         a=ats("SG",1,"LLM Engineer","Acme")
