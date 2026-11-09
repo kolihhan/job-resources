@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-09T04:23:00+08:00",
+  "updated_at": "2026-11-09T09:19:00+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -341,6 +341,17 @@
       "attempts": 0,
       "next_retry_at": "2026-11-08T12:20:00+08:00",
       "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no."
+    },
+    {
+      "role_key": "freehire:software-engineer-microservices-ai-hybrid-deutsche-post-cj4o75hf",
+      "candidate_seq": 3086,
+      "reason_code": "verification_pending",
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T09:20:00+08:00",
+      "company": "Deutsche Post / DHL",
+      "title": "Software Engineer - Microservices & AI (Hybrid)",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27001267__7112",
+      "detail": "2026-11-09 09:19 MYT: Exact WhatJobs external ID 27001267 not found in all GitHub Issues; title search DHL Microservices no match. This is a third-party distributor ID, NOT a verified employer requisition. No complete current employer-owned exact JD, minimum experience, employment type or direct application route; do not merge with DHL AI Platform Software Engineer CHECK #644 (different title and distributor ID). Next decisive evidence: DHL official careers exact title and employer req ID, duties, requirements and current application route. No application sent."
     }
   ]
 }
