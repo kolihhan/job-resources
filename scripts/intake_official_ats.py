@@ -129,7 +129,7 @@ def choose(rows, limit, company_cap, existing_pending=()):
 
 
 def process_market(market, snapshot, state, known, *, limit=12, company_cap=3,
-                   max_pending=45):
+                   max_pending=45, source_prefix="freehirefetch:official-ats"):
     validate_state(state, market)
     if snapshot is None:
         return state, {"market": market, "source": "UNAVAILABLE",
@@ -162,7 +162,7 @@ def process_market(market, snapshot, state, known, *, limit=12, company_cap=3,
     room = max(0, max_pending - len(state["pending"]))
     selected = (choose(list(rows.values()), min(limit, room), company_cap,
                        existing_pending=state["pending"]) if room else [])
-    payload = {"source": f"freehirefetch:official-ats:{market}", "items": []}
+    payload = {"source": f"{source_prefix}:{market}", "items": []}
     for row in selected:
         payload["items"].append({
             "market": market,
