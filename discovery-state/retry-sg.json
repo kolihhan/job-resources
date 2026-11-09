@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T08:00:00+08:00",
+  "updated_at": "2026-11-09T09:00:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4151,6 +4151,28 @@
       "evidence_note": "WhatJobs metadata only; verify employer identity and exact authoritative JD, whether ML-ready means substantive AI system ownership, realistic 0–3 YOE, SG pass and direct application route.",
       "attempts": 0,
       "next_retry_at": "2026-11-10T08:00:00+08:00"
+    },
+    {
+      "candidate_seq": 927,
+      "role_key": "freehire:machine-learning-engineer-keysight-technologies-singapore-sales-pte-ltd-7agdoows",
+      "company": "Keysight Technologies Singapore (Sales) Pte. Ltd....-",
+      "title": "Machine Learning Engineer",
+      "source_url": "https://sg.jobstreet.com/job/95585447?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_route_unverified",
+      "evidence_note": "JobStreet 95585447 is not an employer requisition. Need Keysight official exact identity/full JD; distinguish from official Keysight 55273 (4+ YOE) and 55274 (R&D AI software). Confirm ML vs domain focus, years and direct route.",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T09:00:00+08:00"
+    },
+    {
+      "candidate_seq": 930,
+      "role_key": "freehire:mgr-ai-engineer-group-audit-ocbc-bank-wwgjqq6m",
+      "company": "OCBC Bank",
+      "title": "MGR, AI Engineer, Group Audit",
+      "source_url": "https://sg.jobstreet.com/job/95586970?utm_source=freehire.me",
+      "reason_code": "exact_employer_jd_and_sg_route_unverified",
+      "evidence_note": "JobStreet 95586970 is not employer requisition. Verify OCBC exact MGR Group Audit AI job, actual LLM/agent engineering ownership vs audit analytics, required managerial experience, SG pass and direct route.",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T09:00:00+08:00"
     }
   ]
 }
