@@ -178,12 +178,14 @@ def ingest(state: dict,index: dict,payload: dict) -> tuple[dict,dict]:
         r={"key":key,"seq":state["next_seq"],"url":url,
            "market":market,"platform":str(item.get("platform") or "")[:48],
            "title":title,"company":company,"state":"UNVERIFIED_INDEX",
-           "source":payload["source"][:90],"query":str(item.get("query") or "")[:180],
+           "source":str(item.get("source") or payload["source"])[:90],
+           "query":str(item.get("query") or "")[:180],
            "first_seen_at":utcnow(),
            "last_error":None,"retries":0}
         # Preserve compact official ATS provenance and the prior-WAIT warning
         # while deliberately never claiming JD/liveness/visa verified.
-        for field in ("ats_key","source_job_id","source_evidence","description_excerpt"):
+        for field in ("ats_key","source_job_id","source_evidence",
+                      "description_excerpt","source_listing_url"):
             if isinstance(item.get(field),str):
                 r[field]=item[field][:300]
         if item.get("prior_wait_employer_hint") is True:
