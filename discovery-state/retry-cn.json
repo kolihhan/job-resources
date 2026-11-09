@@ -3352,6 +3352,78 @@
       "source_url": "https://careers.airbnb.com/positions/7716341/",
       "last_alternate_source_attempted": "2026-11-09 exact all-history GitHub Issue ID search no match; official full JD verified: RAG/Search, LLM evaluation, 2-4 years ML systems ownership; candidate has no full-time ML YOE; Mandarin essential; China foreign work authorization unresolved",
       "last_retry_new_evidence": true
+    },
+    {
+      "role_key": "freehire:ai-infrastructure-engineer-meshy-7gecwqu2",
+      "candidate_seq": 2709,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T21:12:00+08:00",
+      "company": "Meshy",
+      "title": "AI Infrastructure Engineer",
+      "source_url": "https://jobs.ashbyhq.com/meshy/de871fcf-d042-4b07-ad8e-0059d71e0933",
+      "last_alternate_source_attempted": "Meshy AI infrastructure: official Ashby JS shell; need complete employer JD, role-specific seniority and China foreign work permit. Exact all-history GitHub Issue ID search no match.",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:full-stack-engineer-ai-application-focused-china-thatgamecompany-m7ut2exz",
+      "candidate_seq": 2710,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T21:12:00+08:00",
+      "company": "Thatgamecompany",
+      "title": "Full-stack Engineer (AI application focused) - China",
+      "source_url": "https://jobs.ashbyhq.com/Thatgamecompany/d047829e-50aa-4b39-8b9a-f099b6215431",
+      "last_alternate_source_attempted": "Thatgamecompany AI application full-stack: official Ashby page inaccessible; full JD and actual application route unresolved. Exact all-history GitHub Issue ID search no match.",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:machine-learning-engineer-hpc-meshy-fxvz7m5m",
+      "candidate_seq": 2711,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T21:12:00+08:00",
+      "company": "Meshy",
+      "title": "Machine Learning Engineer – HPC",
+      "source_url": "https://jobs.ashbyhq.com/meshy/921df195-bd41-4dbf-952f-516682ef2b74",
+      "last_alternate_source_attempted": "Meshy ML HPC: official employer full JD and ML infrastructure skill/experience requirements unresolved. Exact all-history GitHub Issue ID search no match.",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:hou-duan-kai-fa-gong-cheng-shi-shang-ye-crmping-tai-bytedance-pgxsl5ru",
+      "candidate_seq": 2712,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T21:12:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent工程师-智慧CRM",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7214843276180359484/detail",
+      "last_alternate_source_attempted": "ByteDance AI Agent CRM: older employer ID; need current exact official vacancy and full JD before promotion. Exact all-history GitHub Issue ID search no match.",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:senior-ai-engineer-schneider-electric-utyxn6j3",
+      "candidate_seq": 2713,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T21:12:00+08:00",
+      "company": "Schneider Electric",
+      "title": "Senior AI Engineer",
+      "source_url": "https://careers.se.com/jobs/140882?lang=zh-cn&utm_source=freehire.me",
+      "last_alternate_source_attempted": "Schneider Senior AI Engineer: senior title alone not hard rejection; current official requirements and actual AI ownership unresolved. Exact all-history GitHub Issue ID search no match.",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-engineer-me-bosch-group-xs6zjcus",
+      "candidate_seq": 2714,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T21:12:00+08:00",
+      "company": "Bosch Group",
+      "title": "AI Engineer_ME",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000129687459-ai-engineer-me",
+      "last_alternate_source_attempted": "Bosch AI Engineer_ME: official full JD read 2026-11-09; 2 years manufacturing AI/ML development plus advanced Tableau/Power BI required; candidate experience mismatch requires eligibility determination; real application shown. Exact all-history GitHub Issue ID search no match.",
+      "last_retry_new_evidence": true
     }
   ]
 }
