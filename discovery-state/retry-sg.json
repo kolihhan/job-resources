@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T10:00:00+08:00",
+  "updated_at": "2026-11-09T12:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4207,6 +4207,28 @@
       "evidence_note": "WhatJobs-only source; verify actual employer identity, official req, AI-native engineering depth vs generic full stack, YOE, SG sponsorship and usable application route.",
       "attempts": 0,
       "next_retry_at": "2026-11-10T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 954,
+      "role_key": "freehire:full-stack-engineer-real-time-ai-prototypes-thales-group-lkslryit",
+      "company": "Thales Group",
+      "title": "Full-Stack Engineer — Real-Time AI Prototypes",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94090383__7119",
+      "reason_code": "exact_employer_requisition_full_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T12:05:00+08:00",
+      "evidence_note": "WhatJobs headline only; find employer-controlled exact requisition, substantive AI system ownership, non-MCF route and SG work-pass eligibility"
+    },
+    {
+      "candidate_seq": 955,
+      "role_key": "freehire:backend-engineer-global-e-commerce-governance-ai-tools-tiktok-rb5pcjxs",
+      "company": "TikTok",
+      "title": "Backend Engineer, Global E-Commerce Governance & AI Tools",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94089998__7119",
+      "reason_code": "exact_employer_requisition_full_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T12:05:00+08:00",
+      "evidence_note": "WhatJobs headline only; find employer-controlled exact requisition, substantive AI system ownership, non-MCF route and SG work-pass eligibility"
     }
   ]
 }
