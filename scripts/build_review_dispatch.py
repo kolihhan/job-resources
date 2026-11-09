@@ -168,8 +168,8 @@ def _sort_priority(role):
 def _choose_fair(candidates, limit, min_each_track):
     if limit < 1 or min_each_track < 0:
         raise ValueError("invalid dispatch limit / track reserve")
-    if min_each_track * 2 > limit:
-        raise ValueError("track reservation exceeds total capacity")
+    # A smaller ad-hoc batch still gets the largest feasible equal reserve.
+    min_each_track = min(min_each_track, limit // 2)
     rows = sorted(candidates, key=_sort_priority)
     selected = []
     seen = set()
