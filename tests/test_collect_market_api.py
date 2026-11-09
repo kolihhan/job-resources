@@ -59,6 +59,18 @@ class FreeJobAPIContractTests(unittest.TestCase):
         self.assertIsNone(api.normalize_aidevboard(
             dict(AIDEV,apply_url="https://evil.example/apply"),"SG"))
 
+    def test_platform_report_does_not_claim_native_platform_scan(self):
+        j=dict(FREEHIRE, url="https://sg.jobstreet.com/job/95782664?utm_source=freehire.me")
+        accepted=api.normalize_freehire(j,"SG")
+        self.assertEqual(accepted["source_platform"],"JobStreet")
+        self.assertEqual(accepted["discovery_access"],"API_PROXY_ONLY")
+        payload={m:{"jobs": []} for m in api.MARKETS}
+        payload["SG"]["jobs"]=[accepted]
+        table=api.platform_coverage(payload)
+        self.assertIn("| SG | JobStreet | 1 | 0 | API_PROXY_ONLY |",table)
+        self.assertIn("| CN | BOSS直聘 | 0 | 0 | NOT_VERIFIED_BY_THIS_ACTION |",table)
+        self.assertIn("API proxy ≠ native search",table)
+
     def test_merged_providers_dedupe_on_employer_url(self):
         result=api.collect("SG",fetch=fake_api,max_pages=2)
         self.assertEqual(len(result["jobs"]),1)
