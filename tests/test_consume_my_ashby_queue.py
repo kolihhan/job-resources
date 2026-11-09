@@ -31,6 +31,8 @@ class MYConsumerTest(unittest.TestCase):
         review=s["pending"][0]["consumer_review"]
         self.assertEqual(review["stage"],"FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW")
         self.assertEqual(review["source_verified_can_apply"],"NOT_ASSERTED_BY_ASHBY_FEED")
+        self.assertTrue(review["full_jd_complete"])
+        self.assertEqual(review["full_jd_text"],board()["jobs"][0]["descriptionPlain"])
         self.assertEqual(s["next_unacknowledged_seq"],1)
     def test_exact_source_url_live_issue_readback_acks(self):
         issue={"number":999,"title":"[CHECK][MY] Gen Digital","body":"Official role "+LINK}
