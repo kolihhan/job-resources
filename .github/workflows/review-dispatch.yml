@@ -23,6 +23,8 @@ jobs:
           python-version: '3.13'
       - name: Test fairness, source identity and no automatic fit verdicts
         run: python -m unittest discover -s tests -p 'test_build_review_dispatch.py' -v
+      - name: Verify broader repository Python regression suite
+        run: python -m unittest discover -s tests -p 'test_*.py' -q
       - name: Read bounded public official ATS snapshots
         run: |
           python - <<'PY'
