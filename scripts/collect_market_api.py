@@ -147,7 +147,8 @@ def run(out_dir, *, fetch=get_json, max_pages=2):
             json.dumps({"market": market, "jobs": result["jobs"]}, indent=2) + "\n")
         print(f"API {market}: {health[market]['coverage']} "
               f"trusted employer URLs={len(result['jobs'])} "
-              f"query failures={len(result['errors'])}")
+              f"query failures={len(result['errors'])} "
+              f"first_error={result['errors'][:1]}")
     (out_dir / "health.json").write_text(json.dumps(health, indent=2) + "\n")
     if all(health[m]["coverage"] == "UNAVAILABLE" for m in MARKETS):
         raise RuntimeError("All API markets unavailable; NOT a zero-job result")
