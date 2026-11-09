@@ -43,19 +43,26 @@ class JobHTML(HTMLParser):
         self.text = []
         self._href = None
         self._label = []
+        self._hidden = 0
 
     def handle_starttag(self, tag, attrs):
-        if tag == "a":
+        if tag in ("script", "style", "noscript"):
+            self._hidden += 1
+        if tag == "a" and not self._hidden:
             self._href = dict(attrs).get("href")
             self._label = []
 
     def handle_data(self, data):
+        if self._hidden:
+            return
         self.text.append(data)
         if self._href is not None:
             self._label.append(data)
 
     def handle_endtag(self, tag):
-        if tag == "a" and self._href is not None:
+        if tag in ("script", "style", "noscript"):
+            self._hidden = max(0, self._hidden - 1)
+        if tag == "a" and self._href is not None and not self._hidden:
             self.links.append((self._href, " ".join(self._label).strip()))
             self._href = None
             self._label = []
