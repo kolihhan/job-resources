@@ -199,7 +199,7 @@ class OfficialATSIntakeTests(unittest.TestCase):
         combined={"market":"SG","jobs":ats+api}
         out,stats=process_market("SG",combined,state,{},limit=12,max_pending=45)
         self.assertEqual(stats["created"],2)
-        self.assertTrue(any(x["source"]=="aidevboard:public-api:SG"
+        self.assertTrue(any(x.get("source")=="aidevboard:public-api:SG"
                             for x in out["pending"]))
 
     def test_run_is_replay_safe_and_does_not_create_extra_tracking_files(self):
