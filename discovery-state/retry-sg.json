@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T13:05:00+08:00",
+  "updated_at": "2026-11-09T14:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4280,6 +4280,28 @@
       "reason_code": "mcf_only_currently_find_employer_req_official_jd_and_non_mcf_route",
       "attempts": 0,
       "next_retry_at": "2026-11-10T13:10:00+08:00"
+    },
+    {
+      "candidate_seq": 972,
+      "role_key": "freehire:apac-regional-data-ai-engineer-growth-insights-menarini-group-hqkkhujq",
+      "company": "Menarini Group",
+      "title": "APAC Regional Data & AI Engineer — Growth & Insights",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94062368__7119",
+      "reason_code": "official_employer_req_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T14:05:00+08:00",
+      "evidence_note": "WhatJobs only; find exact Menarini employer JD, distinguish analytics/reporting from substantive ML/LLM system engineering, verify YOE, non-MCF route and SG pass."
+    },
+    {
+      "candidate_seq": 974,
+      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-lta-singapore-i5y3g5st",
+      "company": "Land Transport Authority (LTA) Singapore",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061167__7119",
+      "reason_code": "official_employer_req_level_ai_ownership_and_work_rights_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T14:05:00+08:00",
+      "evidence_note": "Ambiguous senior/executive title and WhatJobs-only listing; locate exact LTA Careers JD to test junior level, real AI engineering vs data ops, SG citizenship/PR restriction, and direct route."
     }
   ]
 }
