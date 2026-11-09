@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T18:25:00+08:00",
+  "updated_at": "2026-11-09T19:15:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4431,6 +4431,61 @@
       "attempts": 0,
       "next_retry_at": "2026-11-10T18:30:00+08:00",
       "missing_evidence": "Employer requisition, substantive official JD, actual LLM/Agent/AI ownership, YOE, Singapore work-pass feasibility and usable non-MCF route"
+    },
+    {
+      "candidate_seq": 1007,
+      "role_key": "freehire:full-stack-engineer-ai-assisted-dev-cloud-elevating-studio-pte-ltd-wt4ggtyt",
+      "reason_code": "official_exact_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T19:15:00+08:00",
+      "company": "ELEVATING STUDIO PTE. LTD.",
+      "title": "Full-Stack Engineer - AI-Assisted Dev & Cloud",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94029440__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "missing_evidence": "Employer canonical requisition, substantive exact JD, core LLM/Agent ownership, 0-3 YOE and usable non-MCF application route"
+    },
+    {
+      "candidate_seq": 1009,
+      "role_key": "freehire:full-stack-engineer-ai-driven-systems-mobile-apps-elevating-studio-pte-ltd-edpv6szx",
+      "reason_code": "official_exact_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T19:15:00+08:00",
+      "company": "ELEVATING STUDIO PTE. LTD.",
+      "title": "Full-Stack Engineer: AI-Driven Systems & Mobile Apps",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030325__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "missing_evidence": "Employer canonical requisition, substantive exact JD, core LLM/Agent ownership, 0-3 YOE and usable non-MCF application route"
+    },
+    {
+      "candidate_seq": 1011,
+      "role_key": "freehire:ai-driven-full-stack-engineer-angular-net-times-software-pte-ltd-6qyezzo7",
+      "reason_code": "official_exact_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T19:15:00+08:00",
+      "company": "TIMES SOFTWARE PTE LTD",
+      "title": "AI-Driven Full Stack Engineer (Angular/.NET)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94039944__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "missing_evidence": "Employer canonical requisition, substantive exact JD, core LLM/Agent ownership, 0-3 YOE and usable non-MCF application route"
+    },
+    {
+      "candidate_seq": 1012,
+      "role_key": "freehire:ai-driven-full-stack-engineer-python-angular-helius-technologies-3kf3cfeo",
+      "reason_code": "official_exact_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T19:15:00+08:00",
+      "company": "Helius Technologies",
+      "title": "AI-Driven Full Stack Engineer (Python/Angular)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036182__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "missing_evidence": "Employer canonical requisition, substantive exact JD, core LLM/Agent ownership, 0-3 YOE and usable non-MCF application route"
+    },
+    {
+      "candidate_seq": 1014,
+      "role_key": "freehire:backend-engineer-for-ai-enabled-industrial-apps-smt-technology-pte-ltd-jqne3akr",
+      "reason_code": "official_exact_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T19:15:00+08:00",
+      "company": "SMT TECHNOLOGY PTE. LTD.",
+      "title": "Backend Engineer for AI-Enabled Industrial Apps",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94035407__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "missing_evidence": "Employer canonical requisition, substantive exact JD, core LLM/Agent ownership, 0-3 YOE and usable non-MCF application route"
     }
   ]
 }
