@@ -726,25 +726,6 @@
       "url": "https://jobs.ashbyhq.com/bjakcareer/19f2dfe6-8762-41ce-9ada-281d1d814b05"
     },
     {
-      "ats_key": "capco|greenhouse|8248788",
-      "company": "Capco",
-      "description_excerpt": "<p><strong>Capco</strong></p> <p>Capco is a leading global technology and management consultancy that excels in driving digital transformation within the financial services and insurance sectors. With an unwavering commitment to delivering ",
-      "first_seen_at": "2026-11-09T15:02:24.825425Z",
-      "key": "sg:4a894532d68cd5056611",
-      "last_error": null,
-      "market": "SG",
-      "platform": "greenhouse official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 46,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "8248788",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8248788"
-    },
-    {
       "ats_key": "grab|smartrecruiters|744000139456037",
       "company": "Grab",
       "description_excerpt": "Get to know the Team The OmniCommerce team is a close-knitted team with diverse backgrounds, sharing a common purpose - to build the best products to engage our customers online and offline. The team is bonded over the passion for building ",
@@ -1527,6 +1508,27 @@
       "state": "ISSUE_VERIFIED",
       "title": "Research Engineer II (Trust Technologies)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026160"
+    },
+    {
+      "ats_key": "capco|greenhouse|8248788",
+      "company": "Capco",
+      "description_excerpt": "<p><strong>Capco</strong></p> <p>Capco is a leading global technology and management consultancy that excels in driving digital transformation within the financial services and insurance sectors. With an unwavering commitment to delivering ",
+      "first_seen_at": "2026-11-09T15:02:24.825425Z",
+      "key": "sg:4a894532d68cd5056611",
+      "last_error": null,
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 46,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "8248788",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer",
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8248788",
+      "reason": "Employer-authored Capco AI Engineer Greenhouse JD explicitly restricts applicants to Singapore citizens/PR and states no Employment Pass sponsorship. Malaysian citizen requiring employer-supported EP/S Pass is ineligible. Official exact role: https://job-boards.greenhouse.io/capco/jobs/8248788. Reviewed 2026-11-10.",
+      "evidence_url": "https://job-boards.greenhouse.io/capco/jobs/8248788"
     }
   ],
   "version": 1
