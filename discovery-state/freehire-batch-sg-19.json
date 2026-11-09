@@ -6,52 +6,35 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1280,
-      "company": "Temus",
+      "candidate_seq": 1332,
+      "company": "Singtel Group",
       "employment_type": null,
-      "external_id": "temus:5439381008",
-      "flags": [],
+      "external_id": "data engineer:91559583",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-30T02:40:22Z",
-      "public_slug": "full-stack-ai-engineer-temus-yxh2mxwl",
-      "role_key": "freehire:full-stack-ai-engineer-temus-yxh2mxwl",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/temus/jobs/5439381008?utm_source=freehire.me",
-      "title": "Full Stack AI Engineer"
+      "posted_at": "2026-09-16T11:59:26Z",
+      "public_slug": "registration-of-interest-for-aida-talent-acceleration-day-sept-2026-senior-ai-data-engineer-singtel-group-sozvp4mg",
+      "role_key": "freehire:registration-of-interest-for-aida-talent-acceleration-day-sept-2026-senior-ai-data-engineer-singtel-group-sozvp4mg",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91559583__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Registration of Interest for #AIDA Talent Acceleration Day (Sept 2026) - Senior AI Data Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1281,
-      "company": "Evonik",
+      "candidate_seq": 1333,
+      "company": "IFIS ASIA HOLDINGS PTE. LTD.",
       "employment_type": null,
-      "external_id": "evonik.wd3.myworkdayjobs.com/External_Careers:/job/Singapore---Int-Business-Park/AI-Product-Engineer-Industrial-AI_R51133",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore - Int. Business Park",
-      "market": "SG",
-      "posted_at": "2026-09-30T00:00:00Z",
-      "public_slug": "ai-product-engineer-industrial-ai-evonik-5qz7tn64",
-      "role_key": "freehire:ai-product-engineer-industrial-ai-evonik-5qz7tn64",
-      "source": "workday",
-      "source_url": "https://evonik.wd3.myworkdayjobs.com/External_Careers/job/Singapore---Int-Business-Park/AI-Product-Engineer-Industrial-AI_R51133?utm_source=freehire.me",
-      "title": "AI Product Engineer Industrial AI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1282,
-      "company": "Land Transport Authority (LTA) Singapore",
-      "employment_type": null,
-      "external_id": "data engineer:92441565",
+      "external_id": "devops engineer:91557012",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -60,125 +43,153 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-29T09:57:11Z",
-      "public_slug": "senior-data-platform-engineer-cde-ai-automation-land-transport-authority-lta-singapore-q5hycv5p",
-      "role_key": "freehire:senior-data-platform-engineer-cde-ai-automation-land-transport-authority-lta-singapore-q5hycv5p",
+      "posted_at": "2026-09-16T11:59:05Z",
+      "public_slug": "senior-full-stack-engineer-ai-cloud-devops-ifis-asia-holdings-pte-ltd-d4ifet5j",
+      "role_key": "freehire:senior-full-stack-engineer-ai-cloud-devops-ifis-asia-holdings-pte-ltd-d4ifet5j",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441565__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Platform Engineer — CDE & AI Automation"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91557012__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer - AI, Cloud & DevOps"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1283,
-      "company": "TikTok",
+      "candidate_seq": 1335,
+      "company": "ocbc",
       "employment_type": null,
-      "external_id": "backend developer:92440357",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-29T09:56:33Z",
-      "public_slug": "backend-engineer-global-live-ai-infrastructure-singapore-singapore-technology-backend-regular-tiktok-heki736v",
-      "role_key": "freehire:backend-engineer-global-live-ai-infrastructure-singapore-singapore-technology-backend-regular-tiktok-heki736v",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440357__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore Singapore Technology - Backend Regular"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1284,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "backend developer:92441685",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-29T09:56:33Z",
-      "public_slug": "backend-engineer-live-streaming-ai-driven-systems-tiktok-fs357w2j",
-      "role_key": "freehire:backend-engineer-live-streaming-ai-driven-systems-tiktok-fs357w2j",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441685__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer – Live Streaming & AI-Driven Systems"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1285,
-      "company": "Millennium Management LLC",
-      "employment_type": null,
-      "external_id": "devops engineer:92441192",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-29T09:56:32Z",
-      "public_slug": "ai-devops-engineer-automate-deployments-elevate-millennium-management-llc-az76p4dp",
-      "role_key": "freehire:ai-devops-engineer-automate-deployments-elevate-millennium-management-llc-az76p4dp",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441192__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI DevOps Engineer — Automate Deployments & Elevate"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1286,
-      "company": "Millennium Management LLC",
-      "employment_type": null,
-      "external_id": "devops engineer:92442409",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-29T09:56:31Z",
-      "public_slug": "ai-devops-engineer-millennium-management-llc-53yvq2aw",
-      "role_key": "freehire:ai-devops-engineer-millennium-management-llc-53yvq2aw",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92442409__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI DevOps Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1287,
-      "company": "Lithan",
-      "employment_type": null,
-      "external_id": "lithan.zohorecruit.com:316649000042047067",
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/MGR-AVP--AI-and-Data-Analyst_JR00011079",
       "flags": [
         "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Geylang Road, Singapore",
+      "location": "OCBC Singapore",
       "market": "SG",
-      "posted_at": "2026-09-29T00:00:00Z",
-      "public_slug": "adjunct-faculty-data-science-azure-ai-singapore-lithan-eu62zbvd",
-      "role_key": "freehire:adjunct-faculty-data-science-azure-ai-singapore-lithan-eu62zbvd",
-      "source": "zohorecruit",
-      "source_url": "https://lithan.zohorecruit.com/jobs/Careers/316649000042047067?utm_source=freehire.me",
-      "title": "Adjunct Faculty Data Science (Azure AI) - Singapore"
+      "posted_at": "2026-09-16T00:00:00Z",
+      "public_slug": "mgr-avp-ai-and-data-analyst-ocbc-7aa36hlb",
+      "role_key": "freehire:mgr-avp-ai-and-data-analyst-ocbc-7aa36hlb",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/MGR-AVP--AI-and-Data-Analyst_JR00011079?utm_source=freehire.me",
+      "title": "MGR/AVP, AI and Data Analyst"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 1336,
+      "company": "Grab",
+      "employment_type": null,
+      "external_id": "Grab:744000149524219",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-09-15T07:49:47Z",
+      "public_slug": "senior-data-scientist-consumer-experience-grab-52hduthd",
+      "role_key": "freehire:senior-data-scientist-consumer-experience-grab-52hduthd",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/Grab/744000149524219-senior-data-scientist-consumer-experience-?utm_source=freehire.me",
+      "title": "Senior Data Scientist (Consumer Experience)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1337,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "data engineer:90891196",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T23:58:57Z",
+      "public_slug": "machine-learning-engineer-data-mining-tiktok-shop-tiktok-x3gagncx",
+      "role_key": "freehire:machine-learning-engineer-data-mining-tiktok-shop-tiktok-x3gagncx",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90891196__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Machine Learning Engineer (Data Mining) - TikTok Shop"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1338,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "data engineer:90892507",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T23:58:56Z",
+      "public_slug": "e-commerce-data-mining-ml-engineer-tiktok-63he2gxj",
+      "role_key": "freehire:e-commerce-data-mining-ml-engineer-tiktok-63he2gxj",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90892507__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "E-commerce Data Mining ML Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1339,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "data engineer:90447805",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T16:02:44Z",
+      "public_slug": "ml-engineer-e-commerce-insights-data-pipelines-tiktok-memrtied",
+      "role_key": "freehire:ml-engineer-e-commerce-insights-data-pipelines-tiktok-memrtied",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90447805__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "ML Engineer - E-commerce Insights & Data Pipelines"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1340,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "data engineer:90395645",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T16:02:43Z",
+      "public_slug": "ai-native-data-platform-engineer-graduate-2027-start-tiktok-yhaaaczo",
+      "role_key": "freehire:ai-native-data-platform-engineer-graduate-2027-start-tiktok-yhaaaczo",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90395645__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Native Data Platform Engineer — Graduate (2027 Start)"
     }
   ],
-  "generated_at": "2026-11-09T13:01:36.791529Z",
+  "generated_at": "2026-11-09T22:44:37.338076Z",
   "market": "SG",
-  "max_candidate_seq": 1287,
-  "min_candidate_seq": 1280,
+  "max_candidate_seq": 1340,
+  "min_candidate_seq": 1332,
   "shard_index": 19,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

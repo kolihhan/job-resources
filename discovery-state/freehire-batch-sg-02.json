@@ -6,196 +6,187 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1045,
-      "company": "ALLEGIS GROUP SINGAPORE PRIVATE LIMITED",
+      "candidate_seq": 1108,
+      "company": "McLink",
       "employment_type": null,
-      "external_id": ":fab8f417428130d776904e7029d3183a",
-      "flags": [
-        "experience_5_plus_hint"
+      "external_id": "6296:95339665",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Paya Lebar East, East Region",
+      "market": "SG",
+      "posted_at": "2026-10-19T01:08:41Z",
+      "public_slug": "ai-business-solutions-consultant-mclink-tta7imq7",
+      "role_key": "freehire:ai-business-solutions-consultant-mclink-tta7imq7",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95339665?utm_source=freehire.me",
+      "title": "AI & Business Solutions Consultant"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
       ],
+      "candidate_seq": 1109,
+      "company": "SINGAPORE FIRST AID TRAINING CENTRE PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":bb8b90db38012bc7b1b80c55da8c95fb",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-23T00:00:00Z",
-      "public_slug": "applied-ai-product-engineer-allegis-group-singapore-private-limited-tsr736yb",
-      "role_key": "freehire:applied-ai-product-engineer-allegis-group-singapore-private-limited-tsr736yb",
+      "posted_at": "2026-10-19T00:00:00Z",
+      "public_slug": "junior-ai-developer-singapore-first-aid-training-centre-pte-ltd-bujlxcyd",
+      "role_key": "freehire:junior-ai-developer-singapore-first-aid-training-centre-pte-ltd-bujlxcyd",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/fab8f417428130d776904e7029d3183a?utm_source=freehire.me",
-      "title": "Applied AI Product Engineer"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/bb8b90db38012bc7b1b80c55da8c95fb?utm_source=freehire.me",
+      "title": "Junior AI Developer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1046,
-      "company": "ocbc",
+      "candidate_seq": 1114,
+      "company": "Devxlabs",
       "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/VP--AI-and-Data-Analyst_JR00012061",
+      "external_id": "full stack developer:93582939",
       "flags": [
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "OCBC Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-23T00:00:00Z",
-      "public_slug": "vp-ai-and-data-analyst-ocbc-clzncqwp",
-      "role_key": "freehire:vp-ai-and-data-analyst-ocbc-clzncqwp",
-      "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/VP--AI-and-Data-Analyst_JR00012061?utm_source=freehire.me",
-      "title": "VP, AI and Data Analyst"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1047,
-      "company": "MICROSOFT REGIONAL SALES PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":adcacb2bb594f65f01c274bb34b9d76b",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-23T00:00:00Z",
-      "public_slug": "solution-engineer-hub-cloud-ai-microsoft-regional-sales-pte-ltd-5tmn4px4",
-      "role_key": "freehire:solution-engineer-hub-cloud-ai-microsoft-regional-sales-pte-ltd-5tmn4px4",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/adcacb2bb594f65f01c274bb34b9d76b?utm_source=freehire.me",
-      "title": "Solution Engineer - Hub (Cloud & AI)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1049,
-      "company": "Newbridge",
-      "employment_type": null,
-      "external_id": "newbridge-:93V367VY",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-22T17:49:18Z",
-      "public_slug": "senior-ai-infrastructure-engineer-high-performance-compute-newbridge-caqweo5v",
-      "role_key": "freehire:senior-ai-infrastructure-engineer-high-performance-compute-newbridge-caqweo5v",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/newbridge-/job/93V367VY?utm_source=freehire.me",
-      "title": "Senior AI Infrastructure Engineer - High Performance Compute"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1050,
-      "company": "Microsoft",
-      "employment_type": null,
-      "external_id": "apply.careers.microsoft.com/microsoft.com:1970393557044425",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-22T16:00:00Z",
-      "public_slug": "senior-solution-engineer-hub-cloud-ai-microsoft-nn6atzwl",
-      "role_key": "freehire:senior-solution-engineer-hub-cloud-ai-microsoft-nn6atzwl",
-      "source": "eightfold",
-      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557044425?utm_source=freehire.me",
-      "title": "Senior Solution Engineer - Hub (Cloud & AI)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1051,
-      "company": "Capco",
-      "employment_type": null,
-      "external_id": "capco:8280794",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint",
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-04T18:26:49Z",
-      "public_slug": "senior-ai-product-analyst-bank-capco-ybxp3ztb",
-      "role_key": "freehire:senior-ai-product-analyst-bank-capco-ybxp3ztb",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/capco/jobs/8280794?utm_source=freehire.me",
-      "title": "Senior AI Product Analyst | Bank"
+      "posted_at": "2026-10-18T13:47:41Z",
+      "public_slug": "ai-powered-fullstack-engineer-hybrid-ownership-focus-devxlabs-6pki4kby",
+      "role_key": "freehire:ai-powered-fullstack-engineer-hybrid-ownership-focus-devxlabs-6pki4kby",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93582939__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered Fullstack Engineer - Hybrid & Ownership Focus"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1052,
-      "company": "Capco",
+      "candidate_seq": 1115,
+      "company": "LaraBench",
       "employment_type": null,
-      "external_id": "capco:8080908",
+      "external_id": "backend developer:93583992",
       "flags": [
-        "agency_or_outstaff_hint",
-        "visa_hint"
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "China - Hong Kong",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-04T18:26:31Z",
-      "public_slug": "ai-engineer-insurance-capco-dmb6gpwe",
-      "role_key": "freehire:ai-engineer-insurance-capco-dmb6gpwe",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/capco/jobs/8080908?utm_source=freehire.me",
-      "title": "AI Engineer | Insurance"
+      "posted_at": "2026-10-18T13:47:05Z",
+      "public_slug": "remote-laravel-backend-engineer-scale-ai-powered-saas-larabench-fowtk7ly",
+      "role_key": "freehire:remote-laravel-backend-engineer-scale-ai-powered-saas-larabench-fowtk7ly",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93583992__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Remote Laravel Backend Engineer - Scale AI-Powered SaaS"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1053,
-      "company": "ncs3",
+      "candidate_seq": 1116,
+      "company": "JOBSTER PRIVATE LTD.",
       "employment_type": null,
-      "external_id": "ncs3:6000000001514134",
+      "external_id": "full stack developer:93578663",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-18T13:46:52Z",
+      "public_slug": "senior-full-stack-engineer-digital-and-ai-products-1706-jobster-private-ltd-sg7fdae3",
+      "role_key": "freehire:senior-full-stack-engineer-digital-and-ai-products-1706-jobster-private-ltd-sg7fdae3",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93578663__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer (Digital and AI products) - #1706"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1117,
+      "company": "FACEBOOK SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "java developer:93579526",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, sg",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-22T07:52:30Z",
-      "public_slug": "nov-2026-jan-2027-intake-ai-software-engineer-nucleus-graduate-programme-ncs3-okpmyws2",
-      "role_key": "freehire:nov-2026-jan-2027-intake-ai-software-engineer-nucleus-graduate-programme-ncs3-okpmyws2",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001514134--nov-2026-jan-2027-intake-ai-software-engineer-nucleus-graduate-programme-?utm_source=freehire.me",
-      "title": "[Nov 2026 & Jan 2027 Intake] AI Software Engineer (Nucleus Graduate Programme)"
+      "posted_at": "2026-10-18T13:46:39Z",
+      "public_slug": "software-engineering-machine-learning-facebook-singapore-pte-ltd-wa4wzfne",
+      "role_key": "freehire:software-engineering-machine-learning-facebook-singapore-pte-ltd-wa4wzfne",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93579526__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software Engineering, Machine Learning"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1118,
+      "company": "Virtuos Career Site",
+      "employment_type": null,
+      "external_id": "backend developer:93583055",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-18T13:46:30Z",
+      "public_slug": "senior-backend-engineer-ai-cloud-services-virtuos-career-site-r4eyya4l",
+      "role_key": "freehire:senior-backend-engineer-ai-cloud-services-virtuos-career-site-r4eyya4l",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93583055__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer - AI & Cloud Services"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1119,
+      "company": "Antom",
+      "employment_type": null,
+      "external_id": "java developer:93577448",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-18T13:46:20Z",
+      "public_slug": "senior-java-engineer-build-scalable-ai-driven-payments-antom-xqva634w",
+      "role_key": "freehire:senior-java-engineer-build-scalable-ai-driven-payments-antom-xqva634w",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93577448__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Java Engineer: Build Scalable, AI-Driven Payments"
     }
   ],
-  "generated_at": "2026-11-09T13:01:36.791529Z",
+  "generated_at": "2026-11-09T22:44:37.338076Z",
   "market": "SG",
-  "max_candidate_seq": 1053,
-  "min_candidate_seq": 1045,
+  "max_candidate_seq": 1119,
+  "min_candidate_seq": 1108,
   "shard_index": 2,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

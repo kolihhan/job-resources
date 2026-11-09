@@ -1,39 +1,15 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1161,
-      "company": "Ncs",
+      "candidate_seq": 1205,
+      "company": "ScienTec Consulting Pte. Ltd.",
       "employment_type": null,
-      "external_id": "data engineer:93415634",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T21:20:27Z",
-      "public_slug": "senior-ai-data-engineer-ai-harness-iceberg-platform-ncs-tmxrwx2r",
-      "role_key": "freehire:senior-ai-data-engineer-ai-harness-iceberg-platform-ncs-tmxrwx2r",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415634__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Data Engineer — AI Harness & Iceberg Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1163,
-      "company": "NCS Pte Ltd",
-      "employment_type": null,
-      "external_id": "full stack developer:90520058",
+      "external_id": "backend developer:93113359",
       "flags": [
         "agency_or_outstaff_hint"
       ],
@@ -41,176 +17,171 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T21:20:17Z",
-      "public_slug": "gen-ai-fullstack-developer-build-ai-apps-ncs-pte-ltd-gbfcy3yj",
-      "role_key": "freehire:gen-ai-fullstack-developer-build-ai-apps-ncs-pte-ltd-gbfcy3yj",
+      "posted_at": "2026-10-10T11:18:41Z",
+      "public_slug": "backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
+      "role_key": "freehire:backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90520058__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Gen AI Fullstack Developer — Build AI Apps"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113359__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer - AI-Powered APIs & Data Pipelines (Hybrid)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1165,
-      "company": "NCS",
+      "candidate_seq": 1206,
+      "company": "Capgemini",
       "employment_type": null,
-      "external_id": "full stack developer:93429823",
+      "external_id": "careers.capgemini.com:1445530833",
       "flags": [
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "",
       "market": "SG",
-      "posted_at": "2026-10-14T21:20:11Z",
-      "public_slug": "java-full-stack-engineer-ai-preferred-ncs-jgprew3k",
-      "role_key": "freehire:java-full-stack-engineer-ai-preferred-ncs-jgprew3k",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93429823__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Java Full-Stack Engineer — AI-Preferred"
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "full-stack-engineer-data-ai-capgemini-euwhnxj5",
+      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-euwhnxj5",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Full-Stack-Engineer-%28Data-&-AI%29/1445530833/?utm_source=freehire.me",
+      "title": "Full Stack Engineer (Data & AI)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1169,
-      "company": "NCS Pte Ltd",
+      "candidate_seq": 1207,
+      "company": "Capgemini",
       "employment_type": null,
-      "external_id": "full stack developer:93415194",
+      "external_id": "careers.capgemini.com:1392728033",
       "flags": [
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "sitecore-ai-engineer-capgemini-wa5ioy3j",
+      "role_key": "freehire:sitecore-ai-engineer-capgemini-wa5ioy3j",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Sitecore-AI-Engineer/1392728033/?utm_source=freehire.me",
+      "title": "Sitecore AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1208,
+      "company": "ScienTec Consulting Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:93108321",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Punggol, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T19:19:23Z",
+      "public_slug": "ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
+      "role_key": "freehire:ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93108321__7119?utm_campaign=publisher&utm_medium=api&geoID=596&utm_source=freehire.me",
+      "title": "AI Data Engineer - Hybrid (Cybersecurity & Cloud)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1209,
+      "company": "ST ENGINEERING TRAINING & SIMULATION SYSTEMS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "react developer:93097451",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T21:20:02Z",
-      "public_slug": "ai-enabled-full-stack-developer-ncs-pte-ltd-xorq7jhh",
-      "role_key": "freehire:ai-enabled-full-stack-developer-ncs-pte-ltd-xorq7jhh",
+      "posted_at": "2026-10-09T19:18:37Z",
+      "public_slug": "full-stack-react-c-net-developer-with-ai-st-engineering-training-simulation-systems-pte-ltd-ux2pkwqw",
+      "role_key": "freehire:full-stack-react-c-net-developer-with-ai-st-engineering-training-simulation-systems-pte-ltd-ux2pkwqw",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415194__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Enabled Full Stack Developer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93097451__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack React & C#.NET Developer with AI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:ml"
       ],
-      "candidate_seq": 1170,
-      "company": "Capco (The Capital Market Company Group)",
+      "candidate_seq": 1210,
+      "company": "NEWBRIDGE ALLIANCE PTE. LTD.",
       "employment_type": null,
-      "external_id": "6283:95272483",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T20:22:17Z",
-      "public_slug": "senior-ai-product-analyst-banknew-capco-the-capital-market-company-group-n7uoywi5",
-      "role_key": "freehire:senior-ai-product-analyst-banknew-capco-the-capital-market-company-group-n7uoywi5",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95272483?utm_source=freehire.me",
-      "title": "Senior AI Product Analyst | BankNew"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1172,
-      "company": "Nigel Frank International",
-      "employment_type": null,
-      "external_id": "6290:95263812",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-14T07:17:44Z",
-      "public_slug": "senior-ai-engineer-nigel-frank-international-bpy6klrk",
-      "role_key": "freehire:senior-ai-engineer-nigel-frank-international-bpy6klrk",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95263812?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1173,
-      "company": "UIC Asian Computer Services Pte Ltd",
-      "employment_type": null,
-      "external_id": "6290:95259914",
+      "external_id": "data engineer:93076458",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T02:40:24Z",
-      "public_slug": "full-stack-ai-engineer-uic-asian-computer-services-pte-ltd-6mtuznrx",
-      "role_key": "freehire:full-stack-ai-engineer-uic-asian-computer-services-pte-ltd-6mtuznrx",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95259914?utm_source=freehire.me",
-      "title": "Full Stack AI Engineer"
+      "posted_at": "2026-10-09T11:19:36Z",
+      "public_slug": "ml-ops-data-governance-engineer-newbridge-alliance-pte-ltd-twog7y6y",
+      "role_key": "freehire:ml-ops-data-governance-engineer-newbridge-alliance-pte-ltd-twog7y6y",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93076458__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "ML Ops & Data Governance Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1174,
-      "company": "PEBBLEROAD PTE. LTD.",
+      "candidate_seq": 1211,
+      "company": "1153 Epiq Systems Singapore Pte. Ltd.",
       "employment_type": null,
-      "external_id": "6290:95259746",
+      "external_id": "backend developer:93080355",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Downtown Tanjong Pagar, Central Region",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T02:21:24Z",
-      "public_slug": "applied-ai-engineer-pebbleroad-pte-ltd-knuv6dfl",
-      "role_key": "freehire:applied-ai-engineer-pebbleroad-pte-ltd-knuv6dfl",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95259746?utm_source=freehire.me",
-      "title": "Applied AI Engineer"
+      "posted_at": "2026-10-09T11:19:15Z",
+      "public_slug": "backend-engineer-ai-platform-scale-1153-epiq-systems-singapore-pte-ltd-25hed362",
+      "role_key": "freehire:backend-engineer-ai-platform-scale-1153-epiq-systems-singapore-pte-ltd-25hed362",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93080355__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer, AI Platform & Scale"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1176,
-      "company": "ZVC SINGAPORE PTE. LTD.",
+      "candidate_seq": 1212,
+      "company": "YM GLOBAL TECHNOLOGIES PTE. LTD.",
       "employment_type": null,
-      "external_id": ":45d948a24e56221677e29eecd2a9f766",
+      "external_id": "devops engineer:93080547",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T00:00:00Z",
-      "public_slug": "audio-ai-engineer-zvc-singapore-pte-ltd-mldd2jve",
-      "role_key": "freehire:audio-ai-engineer-zvc-singapore-pte-ltd-mldd2jve",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/45d948a24e56221677e29eecd2a9f766?utm_source=freehire.me",
-      "title": "Audio AI Engineer"
+      "posted_at": "2026-10-09T11:19:09Z",
+      "public_slug": "ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
+      "role_key": "freehire:ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93080547__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered DevOps Engineer: CI/CD & Observability"
     }
   ],
-  "generated_at": "2026-11-09T13:01:36.791529Z",
+  "generated_at": "2026-11-09T22:44:37.338076Z",
   "market": "SG",
-  "max_candidate_seq": 1176,
-  "min_candidate_seq": 1161,
+  "max_candidate_seq": 1212,
+  "min_candidate_seq": 1205,
   "shard_index": 11,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

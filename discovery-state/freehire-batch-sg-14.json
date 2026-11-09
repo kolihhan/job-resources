@@ -1,191 +1,213 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1196,
-      "company": "ST ENGINEERING ADVANCED NETWORKS & SENSORS PTE. LTD.",
+      "candidate_seq": 1263,
+      "company": "Keysight Technologies Singapore (Sales) Pte. Ltd....-",
       "employment_type": null,
-      "external_id": "full stack developer:93113951",
+      "external_id": "6290:95035736",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:56Z",
-      "public_slug": "senior-full-stack-engineer-secure-web-ai-edge-st-engineering-advanced-networks-sensors-pte-ltd-zjzy4w66",
-      "role_key": "freehire:senior-full-stack-engineer-secure-web-ai-edge-st-engineering-advanced-networks-sensors-pte-ltd-zjzy4w66",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113951__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer - Secure Web & AI Edge"
+      "posted_at": "2026-10-02T20:44:35Z",
+      "public_slug": "senior-r-d-ai-software-development-engineer-keysight-technologies-singapore-sales-pte-ltd-mzqnbqam",
+      "role_key": "freehire:senior-r-d-ai-software-development-engineer-keysight-technologies-singapore-sales-pte-ltd-mzqnbqam",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95035736?utm_source=freehire.me",
+      "title": "Senior R&D AI Software Development Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1197,
-      "company": "MAS Monetary Authority of Singapore",
+      "candidate_seq": 1264,
+      "company": "Capco (The Capital Market Company Group)",
       "employment_type": null,
-      "external_id": "full stack developer:93115525",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "ai-powered-full-stack-engineer-cloud-native-mas-monetary-authority-of-singapore-yu57zy6s",
-      "role_key": "freehire:ai-powered-full-stack-engineer-cloud-native-mas-monetary-authority-of-singapore-yu57zy6s",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115525__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered Full-Stack Engineer (Cloud-Native)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1198,
-      "company": "CAPGEMINI SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93111503",
+      "external_id": "6290:95033957",
       "flags": [
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "full-stack-engineer-data-ai-capgemini-singapore-pte-ltd-7y3rbo32",
-      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-singapore-pte-ltd-7y3rbo32",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111503__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Engineer (Data & AI)"
+      "posted_at": "2026-10-02T14:04:53Z",
+      "public_slug": "ai-engineer-new-capco-the-capital-market-company-group-g7s3ahkf",
+      "role_key": "freehire:ai-engineer-new-capco-the-capital-market-company-group-g7s3ahkf",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95033957?utm_source=freehire.me",
+      "title": "AI Engineer New"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1199,
-      "company": "GVT Government Technology Agency",
+      "candidate_seq": 1267,
+      "company": "Astek",
       "employment_type": null,
-      "external_id": "full stack developer:93112180",
+      "external_id": "full stack developer:92620966",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-02T07:56:45Z",
+      "public_slug": "full-stack-engineer-ai-driven-apps-react-python-astek-clitrb6c",
+      "role_key": "freehire:full-stack-engineer-ai-driven-apps-react-python-astek-clitrb6c",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92620966__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Engineer - AI-Driven Apps (React/Python)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1274,
+      "company": "Bjak",
+      "employment_type": null,
+      "external_id": "bjakcareer:2315ed19-82f2-4cb9-965c-fdc527495a5a",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Thailand",
+      "market": "SG",
+      "posted_at": "2026-10-01T06:34:53Z",
+      "public_slug": "mobile-developer-ai-finance-agent-bjakcareer-b7tzfyfv",
+      "role_key": "freehire:mobile-developer-ai-finance-agent-bjakcareer-b7tzfyfv",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/2315ed19-82f2-4cb9-965c-fdc527495a5a?utm_source=freehire.me",
+      "title": "Mobile Developer - AI Finance Agent"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1275,
+      "company": "F5 Networks",
+      "employment_type": null,
+      "external_id": "6290:95006387",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T06:30:00Z",
+      "public_slug": "forward-deployed-engineer-ai-security-f5-networks-mtqfawct",
+      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-networks-mtqfawct",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95006387?utm_source=freehire.me",
+      "title": "Forward Deployed Engineer-AI Security"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1276,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200686563",
       "flags": [
         "senior_title_hint",
+        "experience_5_plus_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "senior-full-stack-engineer-gis-ai-innovator-gvt-government-technology-agency-yoyhh766",
-      "role_key": "freehire:senior-full-stack-engineer-gis-ai-innovator-gvt-government-technology-agency-yoyhh766",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112180__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: GIS & AI Innovator"
+      "posted_at": "2026-10-01T03:27:09Z",
+      "public_slug": "senior-ai-backend-software-engineer-digital-channel-apple-lnmg5bra",
+      "role_key": "freehire:senior-ai-backend-software-engineer-digital-channel-apple-lnmg5bra",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200686563/senior-ai-backend-software-engineer-digital-channel?utm_source=freehire.me",
+      "title": "Senior AI Backend Software Engineer, Digital Channel"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1200,
-      "company": "Helius Technologies",
+      "candidate_seq": 1277,
+      "company": "Evonik Methionine",
       "employment_type": null,
-      "external_id": "full stack developer:93116044",
+      "external_id": "6290:94991457",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T01:00:00Z",
+      "public_slug": "ai-product-engineer-industrial-ai-evonik-methionine-zfeliawc",
+      "role_key": "freehire:ai-product-engineer-industrial-ai-evonik-methionine-zfeliawc",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94991457?utm_source=freehire.me",
+      "title": "AI Product Engineer Industrial AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1278,
+      "company": "F5",
+      "employment_type": null,
+      "external_id": "ffive.wd5.myworkdayjobs.com/f5jobs:/job/Singapore-Office/Forward-Deployed-Engineer-AI-Security_RP1038989",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore Office",
+      "market": "SG",
+      "posted_at": "2026-10-01T00:00:00Z",
+      "public_slug": "forward-deployed-engineer-ai-security-f5-vtfo3ydr",
+      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-vtfo3ydr",
+      "source": "workday",
+      "source_url": "https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Singapore-Office/Forward-Deployed-Engineer-AI-Security_RP1038989?utm_source=freehire.me",
+      "title": "Forward Deployed Engineer-AI Security"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1279,
+      "company": "Neutron",
+      "employment_type": null,
+      "external_id": "backend developer:92552371",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:54Z",
-      "public_slug": "ai-driven-full-stack-engineer-cloud-native-helius-technologies-pbyq7mhj",
-      "role_key": "freehire:ai-driven-full-stack-engineer-cloud-native-helius-technologies-pbyq7mhj",
+      "posted_at": "2026-09-30T13:57:42Z",
+      "public_slug": "backend-engineer-for-ai-driven-security-platform-neutron-5jaeqeal",
+      "role_key": "freehire:backend-engineer-for-ai-driven-security-platform-neutron-5jaeqeal",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93116044__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full Stack Engineer (Cloud-Native)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1201,
-      "company": "CAPGEMINI SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93115287",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:50Z",
-      "public_slug": "data-ai-full-stack-engineer-capgemini-singapore-pte-ltd-quvwpxey",
-      "role_key": "freehire:data-ai-full-stack-engineer-capgemini-singapore-pte-ltd-quvwpxey",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115287__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data & AI Full-Stack Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1202,
-      "company": "Helius Technologies",
-      "employment_type": null,
-      "external_id": "full stack developer:93115977",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:47Z",
-      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
-      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115977__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Developer — AI and Cloud-Native Applications"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1204,
-      "company": "ScienTec Consulting Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "backend developer:93115029",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:41Z",
-      "public_slug": "ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
-      "role_key": "freehire:ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115029__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Backend Engineer: Python, Azure, REST APIs"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92552371__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer for AI-Driven Security Platform"
     }
   ],
-  "generated_at": "2026-11-09T13:01:36.791529Z",
+  "generated_at": "2026-11-09T22:44:37.338076Z",
   "market": "SG",
-  "max_candidate_seq": 1204,
-  "min_candidate_seq": 1196,
+  "max_candidate_seq": 1279,
+  "min_candidate_seq": 1263,
   "shard_index": 14,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

@@ -1,209 +1,188 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1215,
+      "candidate_seq": 1288,
+      "company": "ASTEK SINGAPORE INNOVATION TECHNOLOGY PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:92377646",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-28T11:57:52Z",
+      "public_slug": "singapore-based-ai-driven-full-stack-engineer-react-python-astek-singapore-innovation-technology-pte-ltd-6beeo5q2",
+      "role_key": "freehire:singapore-based-ai-driven-full-stack-engineer-react-python-astek-singapore-innovation-technology-pte-ltd-6beeo5q2",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92377646__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Singapore-based AI-Driven Full Stack Engineer (React/Python)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1289,
+      "company": "garena online private limited",
+      "employment_type": null,
+      "external_id": "data engineer:92238740",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-26T11:58:50Z",
+      "public_slug": "senior-data-engineer-ai-powered-etl-analytics-garena-online-private-limited-qs3gb25l",
+      "role_key": "freehire:senior-data-engineer-ai-powered-etl-analytics-garena-online-private-limited-qs3gb25l",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92238740__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer: AI-Powered ETL & Analytics"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1290,
+      "company": "JOBSTER PRIVATE LTD.",
+      "employment_type": null,
+      "external_id": "react developer:92238920",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-26T11:58:00Z",
+      "public_slug": "frontend-engineer-ai-driven-ux-react-expert-jobster-private-ltd-nftnaeel",
+      "role_key": "freehire:frontend-engineer-ai-driven-ux-react-expert-jobster-private-ltd-nftnaeel",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92238920__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Frontend Engineer: AI-Driven UX & React Expert"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1291,
       "company": "RECRUIT LYNC PTE. LTD.",
       "employment_type": null,
-      "external_id": "python developer:91517079",
+      "external_id": "data engineer:92154088",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-09T11:18:47Z",
-      "public_slug": "software-engineer-erp-ai-automation-python-recruit-lync-pte-ltd-vn4o423z",
-      "role_key": "freehire:software-engineer-erp-ai-automation-python-recruit-lync-pte-ltd-vn4o423z",
+      "posted_at": "2026-09-25T19:56:21Z",
+      "public_slug": "digital-health-data-engineer-ai-driven-pipelines-recruit-lync-pte-ltd-kue4lwi2",
+      "role_key": "freehire:digital-health-data-engineer-ai-driven-pipelines-recruit-lync-pte-ltd-kue4lwi2",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91517079__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Software Engineer - ERP & AI/Automation (Python)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92154088__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Digital Health Data Engineer: AI-Driven Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1216,
-      "company": "Codex Solutions",
+      "candidate_seq": 1294,
+      "company": "Mistral AI",
       "employment_type": null,
-      "external_id": "6287:95163041",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "One North, Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-09T03:36:06Z",
-      "public_slug": "senior-software-engineer-ai-products-codex-solutions-yh2mgjzo",
-      "role_key": "freehire:senior-software-engineer-ai-products-codex-solutions-yh2mgjzo",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95163041?utm_source=freehire.me",
-      "title": "Senior Software Engineer, AI Products"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1217,
-      "company": "ncs3",
-      "employment_type": null,
-      "external_id": "ncs3:6000000001474382",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-09T01:44:40Z",
-      "public_slug": "eg-full-stack-developer-ai-enabled-ncs3-fgwu4psy",
-      "role_key": "freehire:eg-full-stack-developer-ai-enabled-ncs3-fgwu4psy",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001474382--eg-full-stack-developer-ai-enabled-?utm_source=freehire.me",
-      "title": "#EG Full Stack Developer (AI-Enabled)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1218,
-      "company": "NCS Group",
-      "employment_type": null,
-      "external_id": "6287:95177482",
+      "external_id": "mistral.ai:d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-09T01:44:40Z",
-      "public_slug": "eg-full-stack-developer-ai-enabled-ncs-group-sk6y2a5w",
-      "role_key": "freehire:eg-full-stack-developer-ai-enabled-ncs-group-sk6y2a5w",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95177482?utm_source=freehire.me",
-      "title": "#EG Full Stack Developer (AI-Enabled)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1219,
-      "company": "UARROW PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93012079",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-08T10:37:29Z",
-      "public_slug": "senior-data-engineer-big-data-pipelines-ai-uarrow-pte-ltd-jbh3m6vr",
-      "role_key": "freehire:senior-data-engineer-big-data-pipelines-ai-uarrow-pte-ltd-jbh3m6vr",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012079__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer - Big Data Pipelines & AI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1220,
-      "company": "Airwallex",
-      "employment_type": null,
-      "external_id": "airwallex:89fccb81-c8cc-4769-be0c-9ed078e1a03b",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "SG - Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-08T06:45:55Z",
-      "public_slug": "senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
-      "role_key": "freehire:senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
+      "posted_at": "2026-09-25T13:52:58Z",
+      "public_slug": "applied-ai-engineer-robotics-mistral-ai-z4jbynna",
+      "role_key": "freehire:applied-ai-engineer-robotics-mistral-ai-z4jbynna",
       "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/airwallex/89fccb81-c8cc-4769-be0c-9ed078e1a03b?utm_source=freehire.me",
-      "title": "Senior Software Engineer, Machine Learning Platform"
+      "source_url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4?utm_source=freehire.me",
+      "title": "Applied AI Engineer, Robotics"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1225,
-      "company": "ncs3",
+      "candidate_seq": 1296,
+      "company": "Zurich Insurance Group",
       "employment_type": null,
-      "external_id": "ncs3:6000000001469268",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-07T06:50:39Z",
-      "public_slug": "eg-ai-product-engineer-ncs3-rz2achs2",
-      "role_key": "freehire:eg-ai-product-engineer-ncs3-rz2achs2",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001469268--eg-ai-product-engineer?utm_source=freehire.me",
-      "title": "#EG AI Product Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
+      "external_id": "6290:94863771",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
       ],
-      "candidate_seq": 1226,
-      "company": "NCS Group",
-      "employment_type": null,
-      "external_id": "6290:95119441",
-      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-07T06:50:39Z",
-      "public_slug": "eg-ai-product-engineer-ncs-group-htbjlbj3",
-      "role_key": "freehire:eg-ai-product-engineer-ncs-group-htbjlbj3",
+      "posted_at": "2026-09-24T12:00:00Z",
+      "public_slug": "senior-ai-engineer-zurich-insurance-group-ewh3lcnh",
+      "role_key": "freehire:senior-ai-engineer-zurich-insurance-group-ewh3lcnh",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95119441?utm_source=freehire.me",
-      "title": "#EG AI Product Engineer"
+      "source_url": "https://sg.jobstreet.com/job/94863771?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ml"
+        "title:ai"
       ],
-      "candidate_seq": 1228,
-      "company": "Strides Digital Pte. Ltd.",
+      "candidate_seq": 1297,
+      "company": "Monetary Authority of Singapore",
       "employment_type": null,
-      "external_id": "data engineer:92800423",
+      "external_id": "data engineer:92135139",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-06T17:58:30Z",
-      "public_slug": "data-analytics-engineer-ml-pipelines-insights-strides-digital-pte-ltd-vyooyzd6",
-      "role_key": "freehire:data-analytics-engineer-ml-pipelines-insights-strides-digital-pte-ltd-vyooyzd6",
+      "posted_at": "2026-09-24T11:58:29Z",
+      "public_slug": "data-engineer-econtech-policy-data-pipelines-ai-monetary-authority-of-singapore-mtowanan",
+      "role_key": "freehire:data-engineer-econtech-policy-data-pipelines-ai-monetary-authority-of-singapore-mtowanan",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92800423__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Analytics Engineer: ML Pipelines & Insights"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92135139__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Engineer, EconTech: Policy Data Pipelines & AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1298,
+      "company": "KAISHI PARTNERS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:92133348",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-24T11:58:22Z",
+      "public_slug": "full-stack-engineer-ai-shopping-personalization-kaishi-partners-pte-ltd-w4qbjt5a",
+      "role_key": "freehire:full-stack-engineer-ai-shopping-personalization-kaishi-partners-pte-ltd-w4qbjt5a",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92133348__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer: AI Shopping Personalization"
     }
   ],
-  "generated_at": "2026-11-09T13:01:36.791529Z",
+  "generated_at": "2026-11-09T22:44:37.338076Z",
   "market": "SG",
-  "max_candidate_seq": 1228,
-  "min_candidate_seq": 1215,
+  "max_candidate_seq": 1298,
+  "min_candidate_seq": 1288,
   "shard_index": 16,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
