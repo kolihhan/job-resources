@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Read-only, no-key jobs API supplement to the existing ATS feed.
+"""Free, read-only, API-first discovery for SG/MY/CN; no HTML scraping.
 
-Uses Active Vacancies' public REST API, not HTML scraping. Only employer-owned
-exact ATS links enter the established pending queue; API records are *leads*,
-never verified eligibility, applications, or permission to contact employers.
+FreeHire + AI Dev Jobs return source leads. Only exact employer ATS/native job
+URLs enter the EXISTING market queues. No automated fit verdict, Issue or apply.
 """
 from __future__ import annotations
 
@@ -11,21 +10,21 @@ import argparse
 import json
 from pathlib import Path
 import re
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 from platform_index_queue import canonical
 
-BASE = "https://activevacancies.com/api/v1/jobs"
 MARKETS = {"SG": "Singapore", "MY": "Malaysia", "CN": "China"}
-QUERIES = ("AI Engineer", "LLM", "Research Engineer", "Machine Learning Engineer")
+QUERIES = ("AI Engineer", "LLM", "Research Engineer")
 CN_EXTRA = ("大模型", "算法工程师")
 TITLE = re.compile(
     r"\b(?:AI|ML|LLM|NLP|RAG|agentic|agents?|machine learning|"
     r"applied scientist|research engineer|research assistant|"
     r"research associate|data scientist|retrieval|ranking)\b"
     r"|人工智能|大模型|智能体|算法|机器学习|检索|研究工程师", re.I)
-REGIONS = {
+LOCATIONS = {
     "SG": re.compile(r"\bsingapore\b|新加坡", re.I),
     "MY": re.compile(r"\bmalaysia\b|kuala lumpur|petaling jaya|selangor|"
                      r"penang|johor|cyberjaya|putrajaya|bayan lepas|槟城|马来西亚", re.I),
@@ -33,6 +32,7 @@ REGIONS = {
                      r"chengdu|wuhan|nanjing|suzhou|tianjin|中国|北京|上海|深圳|广州|杭州|成都|南京|武汉", re.I),
 }
 MAX_BYTES = 3_000_000
+LIMIT = 50
 
 
 def get_json(url):
@@ -45,123 +45,201 @@ def get_json(url):
     return json.loads(raw)
 
 
-def page_url(market, query, *, page=1, cursor=None, limit=50):
-    params = {"q": query, "location": MARKETS[market], "limit": limit}
-    if cursor:
-        params["after"] = cursor
-    else:
-        params["page"] = page
-    return BASE + "?" + urlencode(params)
+def canonical_apply(url, market):
+    """Strip an exact Ashby application suffix, not arbitrary URL paths."""
+    p = urlsplit(str(url or "").strip())
+    if p.scheme != "https" or not p.hostname or p.username or p.password:
+        return None
+    if p.hostname == "jobs.ashbyhq.com" and p.path.endswith("/application"):
+        path = p.path[:-len("/application")]
+        p = p._replace(path=path, query="", fragment="")
+    return canonical(urlunsplit(p), market)
 
 
-def normalize(row, market):
-    if not isinstance(row, dict):
+def normalized(title, company, url, market, *, source, key, uid, location, excerpt):
+    if not (title and company and uid and TITLE.search(title)):
         return None
-    title = str(row.get("title") or "").strip()
-    loc = str(row.get("location") or "").strip()
-    company = row.get("company") or {}
-    name = (company.get("name") if isinstance(company, dict) else company)
-    apply = str(row.get("applyUrl") or "").strip()
-    if not (title and name and TITLE.search(title) and REGIONS[market].search(loc)):
-        return None
-    # An aggregator's claim of a direct route is not enough: only a strict
-    # verified ATS URL shape is admitted. MCF and untrusted hosts fail closed.
-    exact_url = canonical(apply, market)
-    if not exact_url:
-        return None
-    if str(row.get("employmentType") or "").lower() in ("contract", "internship", "part_time"):
-        # Research exceptions are determined by Scouts, so preserve research.
-        if not re.search(r"\bresearch\b|研究", title, re.I):
-            return None
-    uid = str(row.get("id") or row.get("slug") or "").strip()
-    if not uid:
+    exact = canonical_apply(url, market)
+    if not exact:
         return None
     return {
-        "market": market, "ats": "public-api", "company": str(name)[:150],
-        "title": title[:180], "job_id": uid[:128],
-        "key": "activevacancies|" + uid[:128],
-        "url": exact_url, "location": loc[:150],
-        "source": f"activevacancies:public-api:{market}",
-        "source_listing_url": str(row.get("url") or "")[:300],
-        "evidence": "listing_only", "lane": "AI",
-        "triage_priority": "MEDIUM", "description_excerpt": "",
+        "market": market, "ats": "external-api",
+        "company": str(company)[:150], "title": str(title)[:180],
+        "job_id": str(uid)[:128], "key": str(key)[:180],
+        "url": exact, "location": str(location or "")[:150],
+        "source": source, "source_listing_url": "",
+        "evidence": "listing_only", "lane": "AI", "triage_priority": "MEDIUM",
+        "description_excerpt": str(excerpt or "")[:240],
     }
 
 
+def normalize_freehire(row, market):
+    if not isinstance(row, dict):
+        return None
+    countries = row.get("countries") or []
+    if isinstance(countries, str):
+        countries = [countries]
+    codes = {str(c).strip().upper() for c in countries}
+    aliases = {"SG": {"SG", "SINGAPORE"},
+               "MY": {"MY", "MALAYSIA"},
+               "CN": {"CN", "CHINA"}}
+    if codes and not (codes & aliases[market]):
+        return None
+    location = str(row.get("location") or "")
+    if not codes and not LOCATIONS[market].search(location):
+        return None
+    job = normalized(str(row.get("title") or ""),
+                     str(row.get("company") or ""), row.get("url"), market,
+                     source=f"freehire:public-api:{market}",
+                     uid=row.get("public_slug"), key="freehire|"+str(row.get("public_slug") or ""),
+                     location=location, excerpt=row.get("description"))
+    if job and not str(row.get("public_slug") or "").strip():
+        return None
+    return job
+
+
+def normalize_aidevboard(row, market):
+    if not isinstance(row, dict):
+        return None
+    loc = str(row.get("location") or "")
+    if not LOCATIONS[market].search(loc):
+        return None
+    if row.get("job_type") in ("contract", "part-time", "internship"):
+        if not re.search(r"\bresearch\b|研究", str(row.get("title") or ""), re.I):
+            return None
+    uid = str(row.get("id") or "")
+    if not uid:
+        return None
+    job = normalized(str(row.get("title") or ""), str(row.get("company_name") or ""),
+                     row.get("apply_url"), market,
+                     source=f"aidevboard:public-api:{market}",
+                     uid=uid, key="aidevboard|"+uid,
+                     location=loc, excerpt=row.get("description"))
+    if job:
+        job["source_listing_url"] = str(row.get("url") or "")[:300]
+    return job
+
+
+def request_page(provider, market, query, page, fetch):
+    if provider == "freehire":
+        url = "https://freehire.me/api/v1/jobs/search?" + urlencode({
+            "countries": market, "q": query, "limit": LIMIT, "offset": (page-1)*LIMIT,
+        })
+        payload = fetch(url)
+        if not isinstance(payload, dict) or not isinstance(payload.get("data"), list):
+            raise ValueError("FreeHire data[] missing")
+        meta = payload.get("meta") or {}
+        if not isinstance(meta, dict) or not isinstance(meta.get("total"), int):
+            raise ValueError("FreeHire total missing")
+        ignored = meta.get("ignored_params") or []
+        if "countries" in str(ignored).lower():
+            raise ValueError("FreeHire geography filter ignored")
+        total = meta["total"]
+        if total < 0:
+            raise ValueError("negative total")
+        start = (page-1)*LIMIT
+        rows = payload["data"]
+        if rows and start >= total:
+            raise ValueError("FreeHire page outside total")
+        # A suspicious short/empty page must not be silently called exhausted.
+        if not rows and start < total:
+            raise ValueError("FreeHire inconsistent empty page")
+        return rows, (start + len(rows) < total), normalize_freehire
+
+    url = "https://aidevboard.com/api/v1/jobs?" + urlencode({
+        "q": query, "location": MARKETS[market], "limit": LIMIT, "page": page,
+    })
+    payload = fetch(url)
+    if not isinstance(payload, dict) or not isinstance(payload.get("jobs"), list):
+        raise ValueError("AI Dev Jobs jobs[] missing")
+    if not isinstance(payload.get("has_next"), bool):
+        raise ValueError("AI Dev Jobs has_next missing")
+    if payload.get("degraded"):
+        raise ValueError("AI Dev Jobs degraded response")
+    return payload["jobs"], payload["has_next"], normalize_aidevboard
+
+
 def collect(market, *, fetch=get_json, max_pages=2):
-    """Scan named query windows; explicit truncation/failures, no invented zero."""
-    result = {"market": market, "provider": "ActiveVacancies",
-              "queries": [], "errors": [], "jobs": [],
-              "coverage": "UNAVAILABLE"}
+    if market not in MARKETS or max_pages < 1:
+        raise ValueError("unsupported market or page budget")
     jobs = {}
+    reports = {}
     queries = QUERIES + (CN_EXTRA if market == "CN" else ())
-    successes = 0
-    for query in queries:
-        cursor, previous_page_ids = None, None
-        read, truncated = 0, False
-        for page in range(1, max_pages + 1):
-            try:
-                payload = fetch(page_url(market, query, page=page, cursor=cursor))
-                if not isinstance(payload, dict) or payload.get("success") is not True:
-                    raise ValueError("API success envelope missing")
-                data = payload.get("data")
-                pager = payload.get("pagination")
-                if not isinstance(data, list) or not isinstance(pager, dict) or not isinstance(pager.get("hasNextPage"), bool):
-                    raise ValueError("API data/pagination contract changed")
-                ids = [str(v.get("id")) for v in data if isinstance(v, dict)]
-                if ids and ids == previous_page_ids:
-                    raise ValueError("repeated pagination page")
-                previous_page_ids = ids
-                successes += 1
-                read += len(data)
-                for raw in data:
-                    entry = normalize(raw, market)
-                    if entry:
-                        jobs[entry["url"]] = entry
-                more = pager["hasNextPage"]
-                cursor = pager.get("nextCursor") or None
-                if not more:
-                    break
-                if page == max_pages:
+    for provider in ("freehire", "aidevboard"):
+        successful_pages, errors, windows, seen_urls = 0, [], [], set()
+        for q in queries:
+            rows_seen, truncated = 0, False
+            for page in range(1, max_pages+1):
+                try:
+                    rows, has_next, converter = request_page(provider,market,q,page,fetch)
+                    successful_pages += 1
+                    rows_seen += len(rows)
+                    signatures = set()
+                    for row in rows:
+                        cand = converter(row,market)
+                        if cand:
+                            signatures.add(cand["url"])
+                            jobs.setdefault(cand["url"], cand)
+                            seen_urls.add(cand["url"])
+                    if page > 1 and signatures and signatures.issubset(previous_urls):
+                        raise ValueError("repeated API page")
+                    previous_urls = signatures
+                    if not has_next:
+                        break
+                    if page == max_pages:
+                        truncated = True
+                except (OSError, ValueError, TypeError, json.JSONDecodeError) as e:
+                    errors.append(f"{q}:page{page}:{type(e).__name__}:{str(e)[:110]}")
                     truncated = True
-            except (OSError, ValueError, TypeError, json.JSONDecodeError) as exc:
-                result["errors"].append(f"{query}:page{page}:{type(exc).__name__}: {str(exc)[:110]}")
+                    # Shared GitHub runner IP might already be throttled.
+                    # Do NOT retry 429 across every query window.
+                    if isinstance(e, HTTPError) and e.code == 429:
+                        windows.append({"q":q,"rows":rows_seen,"truncated":True})
+                        break
+                    break
+            else:
                 truncated = True
+            if not windows or windows[-1].get("q") != q:
+                windows.append({"q":q,"rows":rows_seen,"truncated":truncated})
+            if errors and "HTTPError:HTTP Error 429" in errors[-1]:
                 break
-        result["queries"].append({"query": query, "rows": read, "truncated": truncated})
-    result["jobs"] = sorted(jobs.values(), key=lambda x: (x["company"].lower(), x["url"]))
-    result["coverage"] = ("PARTIAL" if result["errors"] or any(q["truncated"] for q in result["queries"])
-                          else "COMPLETE") if successes else "UNAVAILABLE"
-    return result
+        reports[provider] = {
+            "status": ("UNAVAILABLE" if not successful_pages else
+                       "PARTIAL" if errors or any(w["truncated"] for w in windows)
+                       else "COMPLETE"),
+            "successful_pages": successful_pages, "accepted_exact_urls": len(seen_urls),
+            "queries": windows, "errors": errors,
+        }
+    return {"market":market,"jobs":list(jobs.values()),"providers":reports}
 
 
 def run(out_dir, *, fetch=get_json, max_pages=2):
     out_dir.mkdir(parents=True, exist_ok=True)
     health = {}
     for market in MARKETS:
-        result = collect(market, fetch=fetch, max_pages=max_pages)
-        health[market] = {key: result[key] for key in ("provider", "coverage", "queries", "errors")}
-        health[market]["accepted_exact_ats_urls"] = len(result["jobs"])
-        # Exactly one disposable snapshot/market for the unified existing intake.
+        result = collect(market,fetch=fetch,max_pages=max_pages)
+        health[market] = result["providers"]
         (out_dir / f"{market}.json").write_text(
-            json.dumps({"market": market, "jobs": result["jobs"]}, indent=2) + "\n")
-        print(f"API {market}: {health[market]['coverage']} "
-              f"trusted employer URLs={len(result['jobs'])} "
-              f"query failures={len(result['errors'])} "
-              f"first_error={result['errors'][:1]}")
-    (out_dir / "health.json").write_text(json.dumps(health, indent=2) + "\n")
-    if all(health[m]["coverage"] == "UNAVAILABLE" for m in MARKETS):
+            json.dumps({"market":market, "jobs":result["jobs"]},indent=2,ensure_ascii=False)+"\n")
+        for provider, stats in result["providers"].items():
+            print(f"API {market} {provider}: {stats['status']}, "
+                  f"trusted exact employer URLs={stats['accepted_exact_urls']}, "
+                  f"successful pages={stats['successful_pages']}, "
+                  f"first_error={stats['errors'][:1]}")
+    (out_dir / "health.json").write_text(json.dumps(health,indent=2)+"\n")
+    if all(health[m][p]["status"] == "UNAVAILABLE"
+           for m in MARKETS for p in ("freehire", "aidevboard")):
         raise RuntimeError("All API markets unavailable; NOT a zero-job result")
     return health
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--out-dir", type=Path, required=True)
-    parser.add_argument("--max-pages", type=int, choices=(1, 2, 3), default=2)
-    args = parser.parse_args()
-    run(args.out_dir, max_pages=args.max_pages)
+    p=argparse.ArgumentParser()
+    p.add_argument("--out-dir",type=Path,required=True)
+    p.add_argument("--max-pages",type=int,choices=(1,2,3),default=2)
+    args=p.parse_args()
+    run(args.out_dir,max_pages=args.max_pages)
 
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
