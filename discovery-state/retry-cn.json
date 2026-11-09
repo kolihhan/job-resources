@@ -3054,6 +3054,66 @@
       "source_url": "https://jobs.bytedance.com/experienced/position/7460073798487886087/detail?utm_source=freehire.me",
       "last_alternate_source_attempted": "exact employer requisition search; no verified employer-authored full JD",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-nrups4jp",
+      "candidate_seq": 2260,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T11:12:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent研发工程师-开发者服务",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7428873140916554010/detail?utm_source=freehire.me",
+      "last_alternate_source_attempted": "exact employer requisition all-history Issue search; employer full JD and live application route not verified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:aiying-yong-suan-fa-gong-cheng-shi-zhuan-jia-lark-ai-bytedance-rv5dy76n",
+      "candidate_seq": 2261,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T11:12:00+08:00",
+      "company": "ByteDance",
+      "title": "AI应用/算法工程师/专家-Lark AI",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7428494743140714803/detail?utm_source=freehire.me",
+      "last_alternate_source_attempted": "exact employer requisition all-history Issue search; employer full JD and live application route not verified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:cv-nlp-duo-mo-tai-suan-fa-gong-cheng-shi-guo-ji-dian-shang-ping-tai-zhi-li-bytedance-lnqwpru5",
+      "candidate_seq": 2264,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T11:12:00+08:00",
+      "company": "ByteDance",
+      "title": "CV/NLP/多模态算法工程师 - 国际电商（平台治理）",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7360584742549227785/detail?utm_source=freehire.me",
+      "last_alternate_source_attempted": "exact employer requisition all-history Issue search; employer full JD and live application route not verified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:llmsuan-fa-gong-cheng-shi-chan-pin-yan-fa-he-gong-cheng-jia-gou-shang-hai-bytedance-gycnh3oi",
+      "candidate_seq": 2266,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T11:12:00+08:00",
+      "company": "ByteDance",
+      "title": "LLM算法工程师-产品研发和工程架构（上海）",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7356453665124174118/detail?utm_source=freehire.me",
+      "last_alternate_source_attempted": "exact employer requisition all-history Issue search; employer full JD and live application route not verified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-zhi-neng-yin-qing-fang-xiang-ji-tuan-xin-xi-xi-tong-bytedance-mtms6kk4",
+      "candidate_seq": 2267,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T11:12:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（智能引擎方向）-集团信息系统",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7344931672545036582/detail?utm_source=freehire.me",
+      "last_alternate_source_attempted": "exact employer requisition all-history Issue search; employer full JD and live application route not verified",
+      "last_retry_new_evidence": false
     }
   ]
 }
