@@ -113,10 +113,10 @@ jobs:
       - name: Publish one actionable review worklist from durable queues
         run: |
           python scripts/build_review_dispatch.py \
-            --repo . --ats-dir artifacts/ats-snapshots \
+            --repo . \
             --output artifacts/review-dispatch.json \
             --summary artifacts/review-dispatch.md \
-            --limit 18 --track-reserve 5
+            --limit 40 --track-reserve 8
           cat artifacts/review-dispatch.md >> "$GITHUB_STEP_SUMMARY"
           head -n 20 artifacts/ats-intake-summary.md
       - uses: actions/upload-artifact@v4
