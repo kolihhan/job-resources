@@ -17,6 +17,8 @@ WORKFLOWS=(
  "NTU First-Party LLM Research Intake",
  "MY TOP Gen Digital Official Source Intake",
  "SG MY Structured Feed Intake",
+ "Six-Battlefield Candidate Review Dispatch",
+ "SG Research First-Party Portal Probe",
 )
 STAGES={
  "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW":"jd_verified_awaiting_fit",
@@ -53,6 +55,9 @@ def measure_queue(state,now=None):
     ingestion=parse_dt(last.get("at"))
     hours_since_ingestion=(round((now-ingestion).total_seconds()/3600,1) if ingestion else None)
     backlog=bool(p)
+    # Lifetime outcomes over this specific durable source queue, NOT a
+    # representative job-market conversion rate or an ATS-wide denominator.
+    outcomes=Counter(x.get("state","UNKNOWN") for x in state.get("terminal",[]))
     # This is a read-only worklist derived from the existing pending source rows.
     # JD text itself stays in that canonical machine state; this is not an Issue.
     review_ready=[]
@@ -81,7 +86,11 @@ def measure_queue(state,now=None):
         "high_concentration":(max(sources.values())/len(p) if backlog else None),
         "fit_review_candidates":review_ready,
         "fit_review_with_complete_jd":sum(r["full_jd_complete"] for r in review_ready),
-        "note":"Source candidate queue; pending is neither eligible APPLY nor market vacancy count."}
+        "cohort_observed_lifetime":len(p)+len(state.get("terminal",[])),
+        "issue_ack_lifetime":outcomes["ISSUE_VERIFIED"],
+        "hard_rejected_lifetime":outcomes["HARD_REJECTED"],
+        "duplicate_confirmed_lifetime":outcomes["DUPLICATE_CONFIRMED"],
+        "note":"Cohort outcomes are not a true eligibility-adjusted conversion rate; other ATS feeds are outside this queue."}
 
 def fetch_action_runs(token):
     if not token:
@@ -130,7 +139,18 @@ def summarize(data):
     for q in data["queues"]:
         lines.append(f"| {q['market']} | {q['pending']} | {q['jd_verified_awaiting_fit']} | "
                      f"{q['unreviewed']} | {q['retry_needed']} | {q['oldest_pending_age_hours']} |")
-    lines+=["","## Exact first-party roles awaiting full fit review",
+    lines+=["","## Source queue lifetime dispositions (no misleading conversion %)",
+      "",
+      "| Market | Observed IDs | Issue readback ACK | Hard rejected | Exact duplicate | Still pending |",
+      "|---|---:|---:|---:|---:|---:|"]
+    for q in data["queues"]:
+        lines.append(f"| {q['market']} | {q.get('cohort_observed_lifetime','?')} | "
+                     f"{q.get('issue_ack_lifetime','?')} | {q.get('hard_rejected_lifetime','?')} | "
+                     f"{q.get('duplicate_confirmed_lifetime','?')} | {q['pending']} |")
+    lines+=["", "Only existing SG/MY source queues, not entire ATS market coverage. "
+                  "An ACK includes APPLY/CHECK and other confirmed historical Issue states. "
+                  "Do not calculate applicant conversion, eligibility rate or interview probability.",
+            "", "## Exact first-party roles awaiting full fit review",
       "", "Official JD verification is not APPLY eligibility. A missing persisted snapshot",
       "requires a fresh official read before promotion; never decide from signals alone.",
       "", "| Market | Source role | Signals | Review flags | Complete JD in queue? |",

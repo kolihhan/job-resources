@@ -1,0 +1,69 @@
+name: Six-Battlefield Candidate Review Dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    # Four bounded read-only handoffs/day (MYT 03:50, 09:50, 15:50, 21:50).
+    # This is not a substitute for the existing hourly Scouts.
+    - cron: '50 1,7,13,19 * * *'
+  push:
+    paths:
+      - 'scripts/build_review_dispatch.py'
+      - 'tests/test_build_review_dispatch.py'
+      - '.github/workflows/review-dispatch.yml'
+permissions:
+  contents: read
+jobs:
+  review-dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Test fairness, source identity and no automatic fit verdicts
+        run: python -m unittest discover -s tests -p 'test_build_review_dispatch.py' -v
+      - name: Verify broader repository Python regression suite
+        run: python -m unittest discover -s tests -p 'test_*.py' -q
+      - name: Read bounded public official ATS snapshots
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          target=Path("artifacts/ats-snapshots")
+          target.mkdir(parents=True,exist_ok=True)
+          for market in ("SG","MY","CN"):
+              url=f"https://raw.githubusercontent.com/kolihhan/freehirefetch/main/feed/ats/markets/{market}.json"
+              try:
+                  req=Request(url,headers={"User-Agent":"JobResourcesReviewDispatch/1.0"})
+                  with urlopen(req,timeout=20) as response:
+                      data=response.read(2_000_001)
+                  if len(data)>2_000_000:
+                      raise ValueError("source exceeds 2MB")
+                  obj=json.loads(data.decode("utf-8"))
+                  if obj.get("market")!=market or not isinstance(obj.get("jobs"),list):
+                      raise ValueError("ATS market contract mismatch")
+                  (target/f"{market}.json").write_bytes(data)
+                  print(f"ATS_SOURCE_AVAILABLE {market} rows={len(obj['jobs'])}")
+              except Exception as exc:
+                  # Missing is NOT an empty job board and cannot prove zero jobs.
+                  print(f"ATS_SOURCE_UNAVAILABLE {market}: {type(exc).__name__}: {str(exc)[:100]}")
+          PY
+      - name: Build derived review orders without changing application state
+        run: |
+          python scripts/build_review_dispatch.py \
+            --repo . --ats-dir artifacts/ats-snapshots \
+            --output artifacts/review-dispatch.json \
+            --summary artifacts/review-dispatch.md \
+            --limit 10 --track-reserve 3
+      - name: Show exact source candidate handoff and coverage truth
+        run: cat artifacts/review-dispatch.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: six-battlefield-review-dispatch
+          path: |
+            artifacts/review-dispatch.json
+            artifacts/review-dispatch.md
+          retention-days: 14
