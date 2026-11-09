@@ -30,6 +30,9 @@ class HealthTests(unittest.TestCase):
         self.assertEqual(r["oldest_pending_age_hours"],24)
         self.assertAlmostEqual(r["high_concentration"],2/3)
         self.assertEqual(r["hours_since_ingestion"],3)
+        self.assertEqual(r["cohort_observed_lifetime"],4)
+        self.assertEqual(r["issue_ack_lifetime"],0)
+        self.assertEqual(r["hard_rejected_lifetime"],0)
         self.assertEqual(r["fit_review_with_complete_jd"],1)
         self.assertEqual(len(r["fit_review_candidates"]),1)
         self.assertEqual(r["fit_review_candidates"][0]["seq"],1)
@@ -54,6 +57,8 @@ class HealthTests(unittest.TestCase):
                "workflows":r})
         self.assertIn("Scheduled run seen?",s)
         self.assertIn("CN consumer is not covered",s)
+        self.assertIn("Source queue lifetime dispositions",s)
+        self.assertIn("no misleading conversion %",s)
         self.assertIn("Exact first-party roles awaiting full fit review",s)
 
     def test_report_renders_review_ready_roles_without_claiming_eligibility(self):
