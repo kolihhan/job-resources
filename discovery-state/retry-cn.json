@@ -3282,6 +3282,16 @@
       "source_url": "https://apply.workable.com/j/6DFF218F5E",
       "last_alternate_source_attempted": "2026-11-09 exact employer ID all-history GitHub Issue search: no match; Workable exact page inaccessible; 2027 cohort eligibility for Malaysian 2026 MSc and CN work location unverified",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-meituan-yfvlyd5u",
+      "candidate_seq": 2627,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 1,
+      "next_retry_at": "2026-11-10T18:10:00+08:00",
+      "company": "Meituan",
+      "title": "AI Agent开发工程师",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4119654480"
     }
   ]
 }
