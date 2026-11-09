@@ -63,6 +63,10 @@ class ConsumerTests(unittest.TestCase):
         self.assertEqual(state["pending"][0]["consumer_review"]["stage"],
                          "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW")
         self.assertIn("rag", state["pending"][0]["consumer_review"]["signals"])
+        review = state["pending"][0]["consumer_review"]
+        self.assertEqual(review["full_jd_text"], "LLM agents and RAG with evaluation")
+        self.assertTrue(review["full_jd_complete"])
+        self.assertEqual(review["jd_chars"], len(review["full_jd_text"]))
         self.assertEqual(state["next_unacknowledged_seq"], 1)
 
     def test_closed_employer_can_apply_false_requires_exact_req_match(self):
@@ -134,6 +138,27 @@ class ConsumerTests(unittest.TestCase):
                                              confirm_issue=lambda *_: True, now=NOW)
         self.assertEqual(report["errors"], 1)
         self.assertEqual(len(state["pending"]), 1)
+
+    def test_legacy_excerpt_only_verified_jd_refreshes_once_without_waiting_48h(self):
+        s = seed(ROLE)
+        s["pending"][0]["consumer_review"] = {
+            "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW",
+            "checked_at": NOW.isoformat()}
+        history = [{"number": 1, "title": "Unrelated"}]
+        state, report = consumer.run_consumer(
+            s, history, get=lambda url, token: jd(),
+            confirm_issue=lambda *_: True, now=NOW + timedelta(hours=1))
+        self.assertEqual(report["firstparty_jds_verified"], 1)
+        self.assertTrue(state["pending"][0]["consumer_review"]["full_jd_complete"])
+
+    def test_oversized_official_jd_does_not_pretend_to_be_complete(self):
+        info = {"jobReqId": "R00026164", "canApply": True,
+                "jobDescription": "<p>" + "Agent evaluation " * 2500 + "</p>"}
+        review = consumer.review_summary(info, NOW.isoformat())
+        self.assertFalse(review["full_jd_complete"])
+        self.assertIsNone(review["full_jd_text"])
+        self.assertGreater(review["jd_chars"], consumer.MAX_REVIEW_JD_CHARS)
+        self.assertEqual(review["stage"], "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW")
 
     def test_missing_full_history_fails_closed(self):
         s = seed(ROLE)

@@ -43,6 +43,9 @@ REVIEW_FLAGS = {
 }
 STALE_AFTER = timedelta(hours=48)
 MAX_ISSUE_PAGES = 30
+# A bounded, employer-public full-JD snapshot travels with the existing machine
+# candidate. No second opportunity tracker and no auto-eligibility decision.
+MAX_REVIEW_JD_CHARS = 32_000
 
 
 def http_json(url: str, token: str = "", data: dict | None = None) -> dict | list:
@@ -133,6 +136,8 @@ def review_summary(info: dict, now_iso: str) -> dict:
             "signals": signals,
             "review_flags": flags,
             "job_description_excerpt": jd[:250],
+            "full_jd_text": jd if len(jd) <= MAX_REVIEW_JD_CHARS else None,
+            "full_jd_complete": len(jd) <= MAX_REVIEW_JD_CHARS,
             "employment_time_type": info.get("timeType"),
             "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility."}
 
@@ -140,6 +145,11 @@ def review_summary(info: dict, now_iso: str) -> dict:
 def due(row: dict, now: datetime) -> bool:
     review = row.get("consumer_review")
     if not review:
+        return True
+    # One-time migration: previously verified public JDs stored only excerpts.
+    # Refresh those before the normal 48h TTL so downstream fit review can run.
+    if (review.get("stage") == "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+            and "full_jd_complete" not in review):
         return True
     checked = review.get("checked_at")
     if not checked:
