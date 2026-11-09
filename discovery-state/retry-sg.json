@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T19:15:00+08:00",
+  "updated_at": "2026-11-09T20:00:59+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4486,6 +4486,30 @@
       "title": "Backend Engineer for AI-Enabled Industrial Apps",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94035407__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "missing_evidence": "Employer canonical requisition, substantive exact JD, core LLM/Agent ownership, 0-3 YOE and usable non-MCF application route"
+    },
+    {
+      "candidate_seq": 1016,
+      "role_key": "freehire:assistant-ai-backend-engineer-hybrid-cliply-pte-ltd-72yby5w4",
+      "company": "CLIPLY PTE. LTD.",
+      "title": "Assistant AI & Backend Engineer (Hybrid)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94016445__7119",
+      "reason_code": "official_exact_jd_and_direct_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T20:15:00+08:00",
+      "missing_evidence": "Exact employer requisition, substantive employer JD, actual LLM/agent ownership, experience and non-MCF application route",
+      "next_source": "Employer official careers/ATS exact role search"
+    },
+    {
+      "candidate_seq": 1020,
+      "role_key": "freehire:ai-driven-full-stack-developer-react-python-cyberlabs-ai-pte-ltd-hpptonxq",
+      "company": "CYBERLABS AI PTE. LTD.",
+      "title": "AI-Driven Full-Stack Developer (React/Python)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94022814__7119",
+      "reason_code": "official_exact_jd_and_direct_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T20:15:00+08:00",
+      "missing_evidence": "Exact employer requisition, substantive employer JD, actual LLM/agent ownership, experience and non-MCF application route",
+      "next_source": "Employer official careers/ATS exact role search"
     }
   ]
 }
