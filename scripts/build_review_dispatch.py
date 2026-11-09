@@ -359,7 +359,8 @@ def markdown_report(report):
         for row in m["selected"]:
             title = row["title"].replace("[", "").replace("]", "").replace("|", "/")
             origin = ("existing queue #" + str(row["queue_seq"])
-                      if row["origin"] == "official_queue" else "ATS key " + row["ats_key"])
+                      if row["origin"] in ("official_queue", "durable_queue")
+                      else "ATS key " + row["ats_key"])
             mature = " — mature title: verify requirements" if row["title_maturity_flag"] else ""
             prior = (" — **PRIOR WAIT AT EMPLOYER: confirm exact submission and sibling/repost history**"
                      if row.get("prior_wait_employer_hint") else "")
