@@ -3186,6 +3186,18 @@
       "source_url": "https://jobs.bytedance.com/experienced/position/7311599105346750757/detail?utm_source=freehire.me",
       "last_alternate_source_attempted": "exact employer ID all-history Issue search for 2268,2269,2271,2272,2273; employer liveness and full JD not verified",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:agentgong-cheng-shi-ai-codingfang-xiang-zhong-guo-jiao-yi-yu-yan-gao-bytedance-cp7tlghq",
+      "candidate_seq": 2277,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T14:10:00+08:00",
+      "company": "ByteDance",
+      "title": "Agent工程师（AI Coding方向）-中国交易与广告",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7282676471176349989/detail",
+      "last_alternate_source_attempted": "2026-11-09 exact ID indexed search yielded no authoritative JD; 2023 posting age requires current liveness",
+      "last_retry_new_evidence": false
     }
   ]
 }
