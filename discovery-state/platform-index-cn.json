@@ -436,28 +436,6 @@
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383"
     },
     {
-      "ats_key": "freehire|ai-ml-engineer-qima-d6hmvlnw",
-      "company": "qima",
-      "description_excerpt": "<p><strong>The Job</strong></p><p>In this role, you will transform proof-of-concept AI/ML projects into full-scale production applications. You will leverage your software development, data and foundational AI/ML knowledge to develop robust",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.171580Z",
-      "key": "cn:8eb3dc6ebdf10e002f6c",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "query": "Shenzhen, Guangdong Province, cn",
-      "retries": 0,
-      "seq": 22,
-      "source": "freehire:public-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-ml-engineer-qima-d6hmvlnw",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI ML Engineer",
-      "url": "https://jobs.smartrecruiters.com/QIMA/744000061755525-ai-ml-engineer"
-    },
-    {
       "ats_key": "freehire|ai-engineer-zoom-l3avmriv",
       "company": "Zoom",
       "description_excerpt": "<p>我们正在寻找优秀的博士毕业生加入Zoom下一代智能协作平台开发团队。团队致力于构建多模态AI Agent开发框架和智能协作系统，深度集成于Zoom Workplace生态。通过前沿智能体技术重构会议调度、客户端、跨团队协作等场景体验，我们为博士人才提供从学术研究到产业落地的理想平台。团队技术氛围浓厚，鼓励技术创新与开源贡献，您将参与前沿Agent架构设计与复杂系统攻坚，与全球顶尖工程师协作，共同定义AI驱动的未来工作方式。</p><h2>研究与开发方向：</h2><ul",
@@ -877,6 +855,32 @@
       "url": "https://www.liepin.com/job/1980867637.shtml"
     }
   ],
-  "terminal": [],
+  "terminal": [
+    {
+      "ats_key": "freehire|ai-ml-engineer-qima-d6hmvlnw",
+      "company": "qima",
+      "description_excerpt": "<p><strong>The Job</strong></p><p>In this role, you will transform proof-of-concept AI/ML projects into full-scale production applications. You will leverage your software development, data and foundational AI/ML knowledge to develop robust",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-09T16:57:31.171580Z",
+      "key": "cn:8eb3dc6ebdf10e002f6c",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Shenzhen, Guangdong Province, cn",
+      "retries": 0,
+      "seq": 22,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-ml-engineer-qima-d6hmvlnw",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "ISSUE_VERIFIED",
+      "title": "AI ML Engineer",
+      "url": "https://jobs.smartrecruiters.com/QIMA/744000061755525-ai-ml-engineer",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/895",
+      "evidence_url": "https://jobs.smartrecruiters.com/QIMA/744000061755525-ai-ml-engineer",
+      "reason": "Full employer JD and live route verified 2026-11-10; APPLY #895 read back. Work permit support UNKNOWN permitted by CN rules; part-time paid SWE tenure not represented as full-time ML engineering."
+    }
+  ],
   "version": 1
 }
