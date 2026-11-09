@@ -330,7 +330,8 @@ def markdown_report(report):
     lines = [
         "# Six-battlefield review dispatch",
         "",
-        "Derived public-source review orders, NOT verified APPLY/CHECK vacancies. Neither track is secondary.",
+        "Durable SOURCE review orders, NOT verified APPLY/CHECK vacancies. Neither track is secondary.",
+        f"Review tasks available: {sum(len(m['selected']) for m in report['markets'].values())}; target: 100; verified unsubmitted APPLY: NOT COUNTED HERE.",
         "No existing opportunity tracker or application state was changed.",
         "",
         "| Market | ATS snapshot | ATS rows | ATS employers | Verified pending JD | Fresh complete pending JD | Select ENG | Select RES |",
@@ -394,7 +395,7 @@ def markdown_report(report):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", type=Path, default=Path("."))
-    ap.add_argument("--ats-dir", type=Path, required=True)
+    ap.add_argument("--ats-dir", type=Path)  # manual fallback; normal runs consume durable queue only
     ap.add_argument("--output", type=Path, required=True)
     ap.add_argument("--summary", type=Path, required=True)
     ap.add_argument("--limit", type=int, default=10)
@@ -406,8 +407,8 @@ def main():
         queue = args.repo / "discovery-state" / f"platform-index-{market.lower()}.json"
         if queue.exists():
             states[market] = json.loads(queue.read_text(encoding="utf-8"))
-        source = args.ats_dir / f"{market}.json"
-        if source.exists():
+        source = args.ats_dir / f"{market}.json" if args.ats_dir else None
+        if source and source.exists():
             feeds[market] = json.loads(source.read_text(encoding="utf-8"))
     known_path = args.repo / "discovery-state" / "known-role-index.json"
     known = json.loads(known_path.read_text(encoding="utf-8"))
