@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T09:00:00+08:00",
+  "updated_at": "2026-11-09T10:00:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4173,6 +4173,40 @@
       "evidence_note": "JobStreet 95586970 is not employer requisition. Verify OCBC exact MGR Group Audit AI job, actual LLM/agent engineering ownership vs audit analytics, required managerial experience, SG pass and direct route.",
       "attempts": 0,
       "next_retry_at": "2026-11-10T09:00:00+08:00"
+    },
+    {
+      "candidate_seq": 933,
+      "role_key": "freehire:mgr-ai-engineer-group-audit-ocbc-onptk7ax",
+      "company": "OCBC",
+      "title": "MGR, AI Engineer, Group Audit",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/MGR--AI-Engineer--Group-Audit_JR00012237-1",
+      "employer_req_id": "JR00012237",
+      "reason_code": "official_jd_verified_experience_and_sg_pass_unresolved",
+      "evidence_note": "Official JD confirms agent harness, MLOps, evaluations, Python SQL, 2+ years production/production-like ML GenAI required. Need evidence whether candidate's projects/part-time count, sponsorship and exact historical JobStreet 95586970 linkage. No promotion.",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 937,
+      "role_key": "freehire:enterprise-data-ai-platform-engineer-ocbc-group-wo7d4ee3",
+      "company": "OCBC Group",
+      "title": "Enterprise Data & AI Platform Engineer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94300262__7119",
+      "reason_code": "official_exact_req_and_substantive_jd_unverified",
+      "evidence_note": "WhatJobs-only source; need official OCBC requisition, complete responsibilities to distinguish data platform from AI system ownership, YOE, visa and direct route.",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T10:00:00+08:00"
+    },
+    {
+      "candidate_seq": 938,
+      "role_key": "freehire:ai-driven-full-stack-engineer-build-practical-ai-apps-internetwork-expert-m2d6rrvk",
+      "company": "Internetwork Expert",
+      "title": "AI-Driven Full-Stack Engineer | Build Practical AI Apps",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94227030__7119",
+      "reason_code": "employer_identity_official_jd_and_ai_ownership_unverified",
+      "evidence_note": "WhatJobs-only source; verify actual employer identity, official req, AI-native engineering depth vs generic full stack, YOE, SG sponsorship and usable application route.",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T10:00:00+08:00"
     }
   ]
 }
