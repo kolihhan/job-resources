@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-09T09:19:00+08:00",
+  "updated_at": "2026-11-09T10:21:00+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -228,9 +228,9 @@
       "title": "Machine Learning Engineer",
       "source_url": "https://averis.wd3.myworkdayjobs.com/Averis/job/Kuala-Lumpur/Machine-Learning-Engineer_R198668-1",
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-08T10:24:00+08:00",
-      "detail": "No verified exact employer full JD and destination-quality gates; next use alternate official ATS exact role; retry_new_evidence=no"
+      "attempts": 2,
+      "next_retry_at": "2026-11-12T10:21:00+08:00",
+      "detail": "No verified exact employer full JD and destination-quality gates; next use alternate official ATS exact role; retry_new_evidence=no 2026-11-09 10:21 MYT: Tried exact employer Workday R198668-1 as alternate official source; page inaccessible through supported reader. Exact current full JD, liveness and application form remain unverified. New source outcome recorded; no promotion; next retry after 72h minimum, earlier only on material official evidence. retry_new_evidence=no"
     },
     {
       "candidate_seq": 2995,
@@ -239,9 +239,9 @@
       "title": "Specialist Data Engineer & AI",
       "source_url": "https://jobs.infineon.com/careers/job/563808971874262",
       "reason_code": "verification_pending",
-      "attempts": 1,
-      "next_retry_at": "2026-11-08T10:24:00+08:00",
-      "detail": "No verified exact employer full JD and destination-quality gates; next use alternate official ATS exact role; retry_new_evidence=no"
+      "attempts": 2,
+      "next_retry_at": "2026-11-12T10:21:00+08:00",
+      "detail": "No verified exact employer full JD and destination-quality gates; next use alternate official ATS exact role; retry_new_evidence=no 2026-11-09 10:21 MYT: Opened exact employer Infineon Eightfold 563808971874262. Returned public careers app configuration/shell, not role-specific JD or open application state. Exact hard requirements and current liveness remain unverified. New source outcome recorded; no promotion; next retry after 72h minimum, earlier only on material official evidence. retry_new_evidence=no"
     },
     {
       "candidate_seq": 2996,
