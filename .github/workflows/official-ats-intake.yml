@@ -58,6 +58,29 @@ jobs:
               except Exception as exc:
                   print(f"ATS_SOURCE_UNAVAILABLE {market}: {type(exc).__name__}: {str(exc)[:150]}")
           PY
+      - name: Compare real public API accessibility (no secrets)
+        run: |
+          python - <<'PY'
+          import json
+          from urllib.request import Request,urlopen
+          sources={
+            "activevacancies":"https://activevacancies.com/api/v1/jobs?q=AI%20Engineer&location=Singapore&limit=2",
+            "aidevboard":"https://aidevboard.com/api/v1/jobs?location=Singapore&limit=2",
+            "freehire":"https://freehire.me/api/v1/agent/jobs/search?countries=SG&limit=2",
+          }
+          for name,url in sources.items():
+              try:
+                  with urlopen(Request(url,headers={
+                      "Accept":"application/json","User-Agent":"JobResourcesAPIProbe/1.0"
+                  }),timeout=15) as r:
+                      raw=r.read(1800)
+                      status=r.status
+                  obj=json.loads(raw) if len(raw)<1800 else {}
+                  print("API_PROBE",name,"status",status,
+                        "keys",list(obj)[:8] if isinstance(obj,dict) else type(obj).__name__)
+              except Exception as e:
+                  print("API_PROBE",name,type(e).__name__,str(e)[:130])
+          PY
       - name: Benchmark free cross-market API (read-only, independent of ATS)
         shell: bash
         run: |
