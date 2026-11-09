@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-09T19:22:27+08:00",
+  "updated_at": "2026-11-09T20:19:19+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -316,9 +316,9 @@
       "title": "Databricks Data & AI Engineer - Lakehouse & Pipelines",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26997221__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
       "reason_code": "verification_pending",
-      "attempts": 0,
-      "next_retry_at": "2026-11-08T12:20:00+08:00",
-      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no."
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T20:20:00+08:00",
+      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no. 2026-11-09 20:19 MYT: Independent Hiredly employer profile currently lists 'Data & AI Consultant – Databricks' as Full-Time in Kuala Lumpur, confirming employer-attributed native hiring family beyond FreeHire mirror; Expertini/FreeHire label 'Databricks Data & AI Engineer - Lakehouse & Pipelines' but no exact Accenture employer requisition crosswalk, authoritative full JD, specific experience gate, or direct official application route verified. Historical all-state issue query 'Accenture Databricks' yielded no exact match. Preserve pending; next check Hiredly exact job detail -> official Accenture job ID. Evidence: https://my.hiredly.com/companies/accenture-malaysia ; https://kualalumpur.my.expertini.com/job/databricks-data-ai-engineer-lakehouse-pipelines-kuala-lumpur-accenture-malaysia-386-4826928/ ."
     },
     {
       "role_key": "freehire:ai-data-engineer-717-flex-data-center-solutions-sdn-bhd-hx5lb666",
