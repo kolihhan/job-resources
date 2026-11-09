@@ -58,45 +58,11 @@ jobs:
               except Exception as exc:
                   print(f"ATS_SOURCE_UNAVAILABLE {market}: {type(exc).__name__}: {str(exc)[:150]}")
           PY
-      - name: Inspect reachable API schemas with one record per provider
-        run: |
-          python - <<'PY'
-          import json
-          from urllib.request import Request,urlopen
-          from urllib.error import HTTPError
-          providers={
-            "aidevboard":"https://aidevboard.com/api/v1/jobs?location=Singapore&limit=1",
-            "freehire":"https://freehire.me/api/v1/jobs/search?countries=SG&q=ai&limit=1",
-          }
-          for name,url in providers.items():
-              try:
-                  with urlopen(Request(url,headers={"Accept":"application/json",
-                    "User-Agent":"JobResourcesAPIProbe/1.0"}),timeout=18) as r:
-                      raw=r.read(1_000_001)
-                  if len(raw)>1_000_000:raise ValueError("oversize")
-                  obj=json.loads(raw)
-                  print("API_SCHEMA",name,"root",list(obj)[:14]
-                        if isinstance(obj,dict) else type(obj).__name__)
-                  if isinstance(obj,dict):
-                      for k,v in obj.items():
-                          if isinstance(v,list):
-                              print("API_SCHEMA",name,k,"rows",len(v),
-                                    "record_fields",list(v[0])[:35] if v and isinstance(v[0],dict) else [])
-                              if v and isinstance(v[0],dict):
-                                  x=v[0]
-                                  print("API_SCHEMA",name,"example",{k:str(x[k])[:160] for k in
-                                    ("title","location","company","company_name","url","apply_url",
-                                    "applyUrl","source","id","public_slug","slug")
-                                    if k in x})
-                          elif isinstance(v,dict):
-                              print("API_SCHEMA",name,k,"object_keys",list(v)[:12])
-              except Exception as e:
-                  print("API_SCHEMA",name,"error",type(e).__name__,str(e)[:140])
-          PY
-      - name: Benchmark free cross-market API (read-only, independent of ATS)
+      - name: Collect independent no-key job APIs for MY SG CN
         shell: bash
         run: |
-          python scripts/collect_market_api.py --out-dir artifacts/api-snapshots             --max-pages 2 || echo "::warning::Independent API unavailable; preserving official ATS intake"
+          python scripts/collect_market_api.py --out-dir artifacts/api-snapshots \
+            --max-pages 2 || echo "::warning::API providers unavailable; preserve ATS and existing queues"
       - name: Branch dry-run or publish source-only queue update on main
         shell: bash
         run: |
@@ -104,6 +70,7 @@ jobs:
           if [[ "$GITHUB_REF" != "refs/heads/main" ]]; then
             python scripts/intake_official_ats.py \
               --repo . --snapshots artifacts/ats-snapshots \
+              --api-dir artifacts/api-snapshots \
               --limit 12 --company-cap 3 \
               --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
             echo "Branch verification only: no source state pushed." >> artifacts/ats-intake-summary.md
@@ -116,6 +83,7 @@ jobs:
               git reset --hard origin/main
               python scripts/intake_official_ats.py \
                 --repo . --snapshots artifacts/ats-snapshots \
+              --api-dir artifacts/api-snapshots \
                 --limit 12 --company-cap 3 \
                 --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
               git add discovery-state/platform-index-sg.json \
