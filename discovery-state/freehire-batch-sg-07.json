@@ -6,143 +6,170 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 967,
-      "company": "Ntu",
+      "candidate_seq": 991,
+      "company": "Actelligent",
       "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131",
+      "external_id": "data engineer:93999589",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "ai-engineer-aiap-ntu-nxuqh6c4",
-      "role_key": "freehire:ai-engineer-aiap-ntu-nxuqh6c4",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131?utm_source=freehire.me",
-      "title": "AI Engineer (AIAP)"
+      "posted_at": "2026-10-25T16:40:14Z",
+      "public_slug": "fintech-systems-engineer-ai-infra-data-pipelines-actelligent-uuu6s3pt",
+      "role_key": "freehire:fintech-systems-engineer-ai-infra-data-pipelines-actelligent-uuu6s3pt",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93999589__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "FinTech Systems Engineer: AI Infra & Data Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 968,
-      "company": "NTT SINGAPORE PTE. LTD.",
+      "candidate_seq": 992,
+      "company": "ARGYLL SCOTT CONSULTING PTE. LTD.",
       "employment_type": null,
-      "external_id": ":8abae3077282122f2781d9399763771b",
-      "flags": [],
+      "external_id": "data engineer:94033997",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "windows-ict-infrastructure-engineer-ai-technical-automation-ntt-singapore-pte-ltd-qd54cfbb",
-      "role_key": "freehire:windows-ict-infrastructure-engineer-ai-technical-automation-ntt-singapore-pte-ltd-qd54cfbb",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/8abae3077282122f2781d9399763771b?utm_source=freehire.me",
-      "title": "Windows ICT Infrastructure Engineer (AI & Technical Automation)"
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "azure-data-ai-platform-engineer-build-scalable-pipelines-argyll-scott-consulting-pte-ltd-bfm6sy4v",
+      "role_key": "freehire:azure-data-ai-platform-engineer-build-scalable-pipelines-argyll-scott-consulting-pte-ltd-bfm6sy4v",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033997__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Azure Data & AI Platform Engineer — Build Scalable Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 969,
-      "company": "dbs",
-      "employment_type": "full_time",
-      "external_id": "dbs.wd3.myworkdayjobs.com/dbs_careers:/job/Singapore---East/AVP--Platform---AI-Infrastructure-Engineer--Group-Infrastructure---Cloud--Group-Technology_WD90104",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore - East",
-      "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "avp-platform-ai-infrastructure-engineer-group-infrastructure-cloud-group-technology-dbs-cte5hl33",
-      "role_key": "freehire:avp-platform-ai-infrastructure-engineer-group-infrastructure-cloud-group-technology-dbs-cte5hl33",
-      "source": "workday",
-      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Singapore---East/AVP--Platform---AI-Infrastructure-Engineer--Group-Infrastructure---Cloud--Group-Technology_WD90104?utm_source=freehire.me",
-      "title": "AVP, Platform & AI Infrastructure Engineer, Group Infrastructure & Cloud, Group Technology"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 970,
-      "company": "Workato",
+      "candidate_seq": 993,
+      "company": "Seoulstart",
       "employment_type": null,
-      "external_id": "workato:8288630002",
+      "external_id": "data engineer:93955601",
       "flags": [
         "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "senior-forward-deployed-engineer-data-ai-apps-seoulstart-45sxw6im",
+      "role_key": "freehire:senior-forward-deployed-engineer-data-ai-apps-seoulstart-45sxw6im",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93955601__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Forward-Deployed Engineer: Data & AI Apps"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 994,
+      "company": "SNOWFLAKE COMPUTING SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:94034007",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "senior-public-sector-data-ai-solutions-engineer-snowflake-computing-singapore-pte-ltd-yhjkdaym",
+      "role_key": "freehire:senior-public-sector-data-ai-solutions-engineer-snowflake-computing-singapore-pte-ltd-yhjkdaym",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034007__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Public Sector Data & AI Solutions Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 995,
+      "company": "Argyll Scott",
+      "employment_type": null,
+      "external_id": "data engineer:94036734",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T16:40:12Z",
+      "public_slug": "cloud-data-ai-platform-engineer-azure-databricks-argyll-scott-jpcyjeqr",
+      "role_key": "freehire:cloud-data-ai-platform-engineer-azure-databricks-argyll-scott-jpcyjeqr",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036734__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Cloud Data & AI Platform Engineer (Azure & Databricks)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 996,
+      "company": "Argyll Scott",
+      "employment_type": null,
+      "external_id": "data engineer:94030601",
+      "flags": [
         "experience_5_plus_hint",
-        "seniority_hint",
-        "visa_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-11-06T19:32:24Z",
-      "public_slug": "senior-infrastructure-engineer-ai-lab-workato-y6nxxkjs",
-      "role_key": "freehire:senior-infrastructure-engineer-ai-lab-workato-y6nxxkjs",
-      "source": "greenhouse",
-      "source_url": "https://www.workato.com/careers?gh_jid=8288630002&utm_source=freehire.me#open-roles",
-      "title": "Senior Infrastructure Engineer (AI Lab)"
+      "posted_at": "2026-10-25T12:41:22Z",
+      "public_slug": "cloud-data-ai-platform-engineer-azure-argyll-scott-fdqhik5p",
+      "role_key": "freehire:cloud-data-ai-platform-engineer-azure-argyll-scott-fdqhik5p",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94030601__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Cloud Data & AI Platform Engineer (Azure)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 971,
-      "company": "Microsoft",
+      "candidate_seq": 997,
+      "company": "Secretlab",
       "employment_type": null,
-      "external_id": "apply.careers.microsoft.com/microsoft.com:1970393557045658",
+      "external_id": "data engineer:94034423",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Thailand, Bangkok, Bangkok",
-      "market": "SG",
-      "posted_at": "2026-10-26T16:00:00Z",
-      "public_slug": "solution-engineer-ai-workforce-solution-microsoft-cza6bcf4",
-      "role_key": "freehire:solution-engineer-ai-workforce-solution-microsoft-cza6bcf4",
-      "source": "eightfold",
-      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557045658?utm_source=freehire.me",
-      "title": "Solution Engineer - AI Workforce Solution"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 972,
-      "company": "Menarini Group",
-      "employment_type": null,
-      "external_id": "data engineer:94062368",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-26T15:02:35Z",
-      "public_slug": "apac-regional-data-ai-engineer-growth-insights-menarini-group-hqkkhujq",
-      "role_key": "freehire:apac-regional-data-ai-engineer-growth-insights-menarini-group-hqkkhujq",
+      "posted_at": "2026-10-25T12:41:17Z",
+      "public_slug": "data-ai-engineer-build-ai-native-data-pipelines-secretlab-ybuwxw6i",
+      "role_key": "freehire:data-ai-engineer-build-ai-native-data-pipelines-secretlab-ybuwxw6i",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94062368__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "APAC Regional Data & AI Engineer — Growth & Insights"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034423__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data & AI Engineer: Build AI-Native Data Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 973,
-      "company": "Menarini Group",
+      "candidate_seq": 998,
+      "company": "Straive",
       "employment_type": null,
-      "external_id": "data engineer:94061523",
+      "external_id": "data engineer:94031675",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -151,42 +178,18 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-26T15:02:33Z",
-      "public_slug": "senior-regional-data-ai-engineer-menarini-group-bijcuzzu",
-      "role_key": "freehire:senior-regional-data-ai-engineer-menarini-group-bijcuzzu",
+      "posted_at": "2026-10-25T12:41:17Z",
+      "public_slug": "senior-cloud-data-ai-engineer-straive-ky2wwwhn",
+      "role_key": "freehire:senior-cloud-data-ai-engineer-straive-ky2wwwhn",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061523__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Regional Data & AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 974,
-      "company": "Land Transport Authority (LTA) Singapore",
-      "employment_type": null,
-      "external_id": "data engineer:94061167",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-26T15:02:29Z",
-      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-lta-singapore-i5y3g5st",
-      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-lta-singapore-i5y3g5st",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94061167__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031675__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Cloud Data & AI Engineer"
     }
   ],
-  "generated_at": "2026-11-08T23:11:50.606593Z",
+  "generated_at": "2026-11-09T03:01:54.049775Z",
   "market": "SG",
-  "max_candidate_seq": 974,
-  "min_candidate_seq": 967,
+  "max_candidate_seq": 998,
+  "min_candidate_seq": 991,
   "shard_index": 7,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

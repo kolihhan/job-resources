@@ -1,184 +1,216 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
-      "ai_score": 4,
+      "ai_score": 5,
       "ai_signals": [
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:fine_tuning"
+        "title:ai",
+        "jd:genai"
       ],
-      "candidate_seq": 2268,
-      "company": "ByteDance",
+      "candidate_seq": 2709,
+      "company": "Meshy",
       "employment_type": null,
-      "external_id": "jobs.bytedance.com:7343197419838507273",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Chengdu",
-      "market": "CN",
-      "posted_at": "2024-03-06T10:36:29Z",
-      "public_slug": "da-mo-xing-ying-yong-suan-fa-gong-cheng-shi-dou-yin-bytedance-dluy2nsp",
-      "role_key": "freehire:da-mo-xing-ying-yong-suan-fa-gong-cheng-shi-dou-yin-bytedance-dluy2nsp",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7343197419838507273/detail?utm_source=freehire.me",
-      "title": "大模型应用算法工程师-抖音"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2269,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7325339483112638771",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2024-01-18T07:41:25Z",
-      "public_slug": "ai-agentfu-wu-duan-kai-fa-gong-cheng-shi-aiguo-ji-hua-bytedance-d6to3ebk",
-      "role_key": "freehire:ai-agentfu-wu-duan-kai-fa-gong-cheng-shi-aiguo-ji-hua-bytedance-d6to3ebk",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7325339483112638771/detail?utm_source=freehire.me",
-      "title": "AI Agent服务端开发工程师-AI国际化"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2270,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7320204490174351625",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2024-01-04T11:32:52Z",
-      "public_slug": "ai-ying-yong-qian-duan-gong-cheng-shi-jia-gou-shi-shang-hai-hang-zhou-bei-jing-shen-zhen-bytedance-d3tebe26",
-      "role_key": "freehire:ai-ying-yong-qian-duan-gong-cheng-shi-jia-gou-shi-shang-hai-hang-zhou-bei-jing-shen-zhen-bytedance-d3tebe26",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7320204490174351625/detail?utm_source=freehire.me",
-      "title": "AI 应用前端工程师/架构师（上海/杭州/北京/深圳）"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2271,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7317671010504132915",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai",
-      "market": "CN",
-      "posted_at": "2023-12-28T15:48:06Z",
-      "public_slug": "ai-agentyan-fa-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-lkd7apce",
-      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-lkd7apce",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7317671010504132915/detail?utm_source=freehire.me",
-      "title": "AI Agent研发工程师-开发者服务"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2272,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7314237303576561947",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Shanghai; Hangzhou",
-      "market": "CN",
-      "posted_at": "2023-12-19T09:38:52Z",
-      "public_slug": "ai-agentshu-ju-gong-cheng-shi-dou-yin-yan-fa-bytedance-uflzhd4m",
-      "role_key": "freehire:ai-agentshu-ju-gong-cheng-shi-dou-yin-yan-fa-bytedance-uflzhd4m",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7314237303576561947/detail?utm_source=freehire.me",
-      "title": "AI Agent数据工程师 - 抖音研发"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2273,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7311599105346750757",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2023-12-12T06:59:53Z",
-      "public_slug": "ai-agentkai-fa-gong-cheng-shi-jia-gou-shi-data-bytedance-geaucamv",
-      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-jia-gou-shi-data-bytedance-geaucamv",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7311599105346750757/detail?utm_source=freehire.me",
-      "title": "AI Agent开发工程师/架构师-Data"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2274,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7306717397092174090",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Hangzhou",
-      "market": "CN",
-      "posted_at": "2023-11-29T03:19:42Z",
-      "public_slug": "ai-securityan-quan-gong-fang-gong-cheng-shi-an-quan-yu-feng-kong-bytedance-rurm7bhm",
-      "role_key": "freehire:ai-securityan-quan-gong-fang-gong-cheng-shi-an-quan-yu-feng-kong-bytedance-rurm7bhm",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7306717397092174090/detail?utm_source=freehire.me",
-      "title": "AI Security安全攻防工程师 - 安全与风控"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2275,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7305981085971335462",
+      "external_id": "meshy:de871fcf-d042-4b07-ad8e-0059d71e0933",
       "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-03-20T10:11:27Z",
+      "public_slug": "ai-infrastructure-engineer-meshy-7gecwqu2",
+      "role_key": "freehire:ai-infrastructure-engineer-meshy-7gecwqu2",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/meshy/de871fcf-d042-4b07-ad8e-0059d71e0933?utm_source=freehire.me",
+      "title": "AI Infrastructure Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 2710,
+      "company": "Thatgamecompany",
+      "employment_type": null,
+      "external_id": "Thatgamecompany:d047829e-50aa-4b39-8b9a-f099b6215431",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "China - Shanghai",
+      "market": "CN",
+      "posted_at": "2025-11-26T15:48:59Z",
+      "public_slug": "full-stack-engineer-ai-application-focused-china-thatgamecompany-m7ut2exz",
+      "role_key": "freehire:full-stack-engineer-ai-application-focused-china-thatgamecompany-m7ut2exz",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/Thatgamecompany/d047829e-50aa-4b39-8b9a-f099b6215431?utm_source=freehire.me",
+      "title": "Full-stack Engineer (AI application focused) - China"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ml",
+        "jd:genai"
+      ],
+      "candidate_seq": 2711,
+      "company": "Meshy",
+      "employment_type": null,
+      "external_id": "meshy:921df195-bd41-4dbf-952f-516682ef2b74",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2025-09-02T08:13:55Z",
+      "public_slug": "machine-learning-engineer-hpc-meshy-fxvz7m5m",
+      "role_key": "freehire:machine-learning-engineer-hpc-meshy-fxvz7m5m",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/meshy/921df195-bd41-4dbf-952f-516682ef2b74?utm_source=freehire.me",
+      "title": "Machine Learning Engineer – HPC"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 2712,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7214843276180359484",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2023-03-26T13:19:42Z",
+      "public_slug": "hou-duan-kai-fa-gong-cheng-shi-shang-ye-crmping-tai-bytedance-pgxsl5ru",
+      "role_key": "freehire:hou-duan-kai-fa-gong-cheng-shi-shang-ye-crmping-tai-bytedance-pgxsl5ru",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7214843276180359484/detail?utm_source=freehire.me",
+      "title": "AI Agent工程师-智慧CRM"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2713,
+      "company": "Schneider Electric",
+      "employment_type": null,
+      "external_id": "se.jibeapply.com:140882",
+      "flags": [
+        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Beijing; Shanghai",
+      "location": "China-Shanghai-Shanghai",
       "market": "CN",
-      "posted_at": "2023-11-27T03:40:24Z",
-      "public_slug": "gao-ji-hou-duan-yan-fa-gong-cheng-shi-jia-gou-shi-aizhi-neng-hua-fang-xiang-ai-platform-bytedance-uxhytqjb",
-      "role_key": "freehire:gao-ji-hou-duan-yan-fa-gong-cheng-shi-jia-gou-shi-aizhi-neng-hua-fang-xiang-ai-platform-bytedance-uxhytqjb",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7305981085971335462/detail?utm_source=freehire.me",
-      "title": "高级后端研发工程师/架构师（AI智能化方向） - AI Platform"
+      "posted_at": "2026-11-03T12:46:04Z",
+      "public_slug": "senior-ai-engineer-schneider-electric-utyxn6j3",
+      "role_key": "freehire:senior-ai-engineer-schneider-electric-utyxn6j3",
+      "source": "jibe",
+      "source_url": "https://careers.se.com/jobs/140882?lang=zh-cn&utm_source=freehire.me",
+      "title": "Senior AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2714,
+      "company": "Bosch Group",
+      "employment_type": null,
+      "external_id": "boschgroup:744000129687459",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Suzhou, Jiangsu, cn",
+      "market": "CN",
+      "posted_at": "2026-06-02T08:34:21Z",
+      "public_slug": "ai-engineer-me-bosch-group-xs6zjcus",
+      "role_key": "freehire:ai-engineer-me-bosch-group-xs6zjcus",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000129687459-ai-engineer-me?utm_source=freehire.me",
+      "title": "AI Engineer_ME"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2715,
+      "company": "Bosch Group",
+      "employment_type": null,
+      "external_id": "boschgroup:744000127808315",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Suzhou, Jiangsu, cn",
+      "market": "CN",
+      "posted_at": "2026-05-22T06:21:45Z",
+      "public_slug": "ai-planner-suan-fa-gong-cheng-shi-xc-bosch-group-imwndhzu",
+      "role_key": "freehire:ai-planner-suan-fa-gong-cheng-shi-xc-bosch-group-imwndhzu",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000127808315-ai-planner-xc?utm_source=freehire.me",
+      "title": "AI Planner 算法工程师_XC"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 2716,
+      "company": "Meshy",
+      "employment_type": null,
+      "external_id": "meshy:eadb780d-e44a-4063-a0ff-5c42fd27b9af",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-10-23T03:49:24Z",
+      "public_slug": "ai-product-engineer-3d-full-stack-meshy-cay4pb5t",
+      "role_key": "freehire:ai-product-engineer-3d-full-stack-meshy-cay4pb5t",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/meshy/eadb780d-e44a-4063-a0ff-5c42fd27b9af?utm_source=freehire.me",
+      "title": "AI Product Engineer (3D Full Stack)"
+    },
+    {
+      "ai_score": 7,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:rag",
+        "jd:evaluation"
+      ],
+      "candidate_seq": 2847,
+      "company": "Tencent",
+      "employment_type": null,
+      "external_id": ":2117825131211571200",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing, China",
+      "market": "CN",
+      "posted_at": "2026-11-04T00:00:00Z",
+      "public_slug": "ai-infra-sregong-cheng-shi-shen-zhen-bei-jing-tencent-fbv3ksiq",
+      "role_key": "freehire:ai-infra-sregong-cheng-shi-shen-zhen-bei-jing-tencent-fbv3ksiq",
+      "source": "tencent",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=2117825131211571200&utm_source=freehire.me",
+      "title": "AI Infra SRE工程师（深圳/北京）"
     }
   ],
-  "generated_at": "2026-11-08T23:11:50.606593Z",
+  "generated_at": "2026-11-09T03:01:54.049775Z",
   "market": "CN",
-  "max_candidate_seq": 2275,
-  "min_candidate_seq": 2268,
+  "max_candidate_seq": 2847,
+  "min_candidate_seq": 2709,
   "shard_index": 5,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

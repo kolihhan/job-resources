@@ -4,186 +4,188 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:agent"
-      ],
-      "candidate_seq": 1067,
-      "company": "Baiwu (HK) International Limited",
-      "employment_type": null,
-      "external_id": "6283:95409074",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-21T07:45:43Z",
-      "public_slug": "junior-it-business-analyst-qa-agile-delivery-agentic-management-r10483-baiwu-hk-international-limited-ltygk355",
-      "role_key": "freehire:junior-it-business-analyst-qa-agile-delivery-agentic-management-r10483-baiwu-hk-international-limited-ltygk355",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95409074?utm_source=freehire.me",
-      "title": "Junior IT Business Analyst (QA/ Agile Delivery/ Agentic management)(R10483)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1068,
-      "company": "GovTech ",
+      "candidate_seq": 1120,
+      "company": "Testing Site - JPMC",
       "employment_type": null,
-      "external_id": "govtech:4004456201",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-03T02:38:57Z",
-      "public_slug": "software-engineer-senior-software-engineer-ai-products-platform-ministry-of-education-govtech-23z7s7d4",
-      "role_key": "freehire:software-engineer-senior-software-engineer-ai-products-platform-ministry-of-education-govtech-23z7s7d4",
-      "source": "greenhouse",
-      "source_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4004456201?gh_jid=4004456201&utm_source=freehire.me",
-      "title": " Software Engineer / Senior Software Engineer, AI Products & Platform, Ministry of Education "
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1069,
-      "company": "GovTech ",
-      "employment_type": null,
-      "external_id": "govtech:4005722201",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-21T06:35:58Z",
-      "public_slug": "senior-software-engineer-ai-programme-govtech-36qdgpng",
-      "role_key": "freehire:senior-software-engineer-ai-programme-govtech-36qdgpng",
-      "source": "greenhouse",
-      "source_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4005722201?gh_jid=4005722201&utm_source=freehire.me",
-      "title": "Senior/ Software Engineer, AI Programme"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1070,
-      "company": "HELIUS TECHNOLOGIES PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":6c6e006f9217856b507a5a0722806fc6",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-21T00:00:00Z",
-      "public_slug": "senior-technical-consultant-backend-ai-ops-automation-helius-technologies-pte-ltd-qnv4eteo",
-      "role_key": "freehire:senior-technical-consultant-backend-ai-ops-automation-helius-technologies-pte-ltd-qnv4eteo",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/6c6e006f9217856b507a5a0722806fc6?utm_source=freehire.me",
-      "title": "Senior Technical Consultant — Backend, AI Ops & Automation"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1071,
-      "company": "ALLINTON ENGINEERING & TRADING PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":1c748daec360feb9f0007d8efbbd7b40",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-21T00:00:00Z",
-      "public_slug": "ai-engineer-allinton-engineering-trading-pte-ltd-iazd3qu6",
-      "role_key": "freehire:ai-engineer-allinton-engineering-trading-pte-ltd-iazd3qu6",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/1c748daec360feb9f0007d8efbbd7b40?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1072,
-      "company": "ARYAN SOLUTIONS PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":f1f63970ca85b067d2cf11a91fe63a01",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-21T00:00:00Z",
-      "public_slug": "forward-deployed-engineer-ai-platform-solutions-aryan-solutions-pte-ltd-zypshtg6",
-      "role_key": "freehire:forward-deployed-engineer-ai-platform-solutions-aryan-solutions-pte-ltd-zypshtg6",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/f1f63970ca85b067d2cf11a91fe63a01?utm_source=freehire.me",
-      "title": "Forward Deployed Engineer – AI Platform & Solutions"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1080,
-      "company": "AI Lab Technologies Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "full stack developer:93826947",
+      "external_id": "react developer:93581881",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-20T21:13:30Z",
-      "public_slug": "ai-full-stack-engineer-freshers-welcome-real-world-ai-ai-lab-technologies-pte-ltd-6rospler",
-      "role_key": "freehire:ai-full-stack-engineer-freshers-welcome-real-world-ai-ai-lab-technologies-pte-ltd-6rospler",
+      "posted_at": "2026-10-18T13:46:17Z",
+      "public_slug": "frontend-engineer-iii-react-typescript-ai-driven-ui-testing-site-jpmc-ay3silih",
+      "role_key": "freehire:frontend-engineer-iii-react-typescript-ai-driven-ui-testing-site-jpmc-ay3silih",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93826947__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Full-Stack Engineer — Freshers Welcome, Real-World AI"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93581881__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Frontend Engineer III - React/TypeScript + AI-Driven UI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1085,
-      "company": "VAST Data",
+      "candidate_seq": 1121,
+      "company": "Straive",
       "employment_type": null,
-      "external_id": "vastdata/43.001:91.475",
+      "external_id": "data engineer:93533412",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-17T13:18:15Z",
+      "public_slug": "senior-cloud-data-ai-solutions-engineer-aws-snowflake-straive-etk72rbb",
+      "role_key": "freehire:senior-cloud-data-ai-solutions-engineer-aws-snowflake-straive-etk72rbb",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533412__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Cloud Data & AI Solutions Engineer — AWS & Snowflake"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1122,
+      "company": "Infosys Compaz (iCompaz)",
+      "employment_type": null,
+      "external_id": "data engineer:93531311",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-17T13:18:14Z",
+      "public_slug": "data-business-analyst-ai-engineer-infosys-compaz-icompaz-6e4hxcuj",
+      "role_key": "freehire:data-business-analyst-ai-engineer-infosys-compaz-icompaz-6e4hxcuj",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531311__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Business Analyst & AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1125,
+      "company": "PathGen",
+      "employment_type": null,
+      "external_id": "data engineer:93534189",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Tel Aviv-Yafo, Tel Aviv District",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-20T09:18:11Z",
-      "public_slug": "network-engineer-ai-infrastructure-rdma-storage-vast-data-uxfryiuq",
-      "role_key": "freehire:network-engineer-ai-infrastructure-rdma-storage-vast-data-uxfryiuq",
-      "source": "comeet",
-      "source_url": "https://www.comeet.com/jobs/vastdata/43.001/network-engineer---ai-infrastructure-rdma--storage/91.475?utm_source=freehire.me",
-      "title": "Network Engineer - AI Infrastructure, RDMA & Storage"
+      "posted_at": "2026-10-16T13:04:43Z",
+      "public_slug": "hybrid-platform-data-engineer-for-genomics-ai-pathgen-bk6k7fiv",
+      "role_key": "freehire:hybrid-platform-data-engineer-for-genomics-ai-pathgen-bk6k7fiv",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93534189__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Hybrid Platform Data Engineer for Genomics AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1126,
+      "company": "TIKTOK PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93532022",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:40Z",
+      "public_slug": "senior-big-data-engineer-large-scale-analytics-ml-tiktok-pte-ltd-2ultnmwa",
+      "role_key": "freehire:senior-big-data-engineer-large-scale-analytics-ml-tiktok-pte-ltd-2ultnmwa",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93532022__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Big Data Engineer - Large-Scale Analytics & ML"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1128,
+      "company": "JOBSTER PRIVATE LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:93531599",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:31Z",
+      "public_slug": "full-stack-engineer-compliance-ai-driven-security-jobster-private-ltd-c3rp544h",
+      "role_key": "freehire:full-stack-engineer-compliance-ai-driven-security-jobster-private-ltd-c3rp544h",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer: Compliance & AI-Driven Security"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1129,
+      "company": "JASS TECH PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:93533643",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:31Z",
+      "public_slug": "senior-full-stack-engineer-cloud-native-ai-jass-tech-pte-ltd-cnvi4rw3",
+      "role_key": "freehire:senior-full-stack-engineer-cloud-native-ai-jass-tech-pte-ltd-cnvi4rw3",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533643__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full Stack Engineer: Cloud-Native & AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1130,
+      "company": "Centre for Strategic Infocomm Technologies",
+      "employment_type": null,
+      "external_id": "devops engineer:93531624",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:17Z",
+      "public_slug": "knowledge-management-platform-engineer-ai-devops-scale-centre-for-strategic-infocomm-technologies-hyhr2prx",
+      "role_key": "freehire:knowledge-management-platform-engineer-ai-devops-scale-centre-for-strategic-infocomm-technologies-hyhr2prx",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531624__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Knowledge Management Platform Engineer - AI, DevOps & Scale"
     }
   ],
-  "generated_at": "2026-11-08T23:11:50.606593Z",
+  "generated_at": "2026-11-09T03:01:54.049775Z",
   "market": "SG",
-  "max_candidate_seq": 1085,
-  "min_candidate_seq": 1067,
+  "max_candidate_seq": 1130,
+  "min_candidate_seq": 1120,
   "shard_index": 17,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

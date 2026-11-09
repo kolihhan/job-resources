@@ -6,12 +6,79 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1015,
-      "company": "ScienTec Consulting Pte. Ltd.",
+      "candidate_seq": 1054,
+      "company": "KARCHER ROBOTICS SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": "backend developer:94037765",
+      "external_id": ":87f8ae5a99c16f97155c2aca9acd5943",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-22T00:00:00Z",
+      "public_slug": "robotics-ai-simulation-software-engineer-karcher-robotics-singapore-pte-ltd-hrveyuki",
+      "role_key": "freehire:robotics-ai-simulation-software-engineer-karcher-robotics-singapore-pte-ltd-hrveyuki",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/87f8ae5a99c16f97155c2aca9acd5943?utm_source=freehire.me",
+      "title": "Robotics AI & Simulation Software Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1055,
+      "company": "DIGITAL PLACE VISION PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":a0619f6f405b8bb08ca35d2e8dce78ea",
       "flags": [
         "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-22T00:00:00Z",
+      "public_slug": "senior-ai-engineer-digital-place-vision-pte-ltd-ri3balnp",
+      "role_key": "freehire:senior-ai-engineer-digital-place-vision-pte-ltd-ri3balnp",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/a0619f6f405b8bb08ca35d2e8dce78ea?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1060,
+      "company": "eps computer systems pte ltd",
+      "employment_type": null,
+      "external_id": "full stack developer:93793923",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-21T18:41:09Z",
+      "public_slug": "full-stack-developer-ai-enabled-eps-computer-systems-pte-ltd-r54ovs3c",
+      "role_key": "freehire:full-stack-developer-ai-enabled-eps-computer-systems-pte-ltd-r54ovs3c",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93793923__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Full Stack Developer (AI-Enabled)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1061,
+      "company": "accenture southeast asia",
+      "employment_type": null,
+      "external_id": "data engineer:93829807",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
         "seniority_hint",
         "agency_or_outstaff_hint"
       ],
@@ -19,178 +86,110 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:40:27Z",
-      "public_slug": "senior-python-backend-engineer-ai-api-platform-hybrid-scientec-consulting-pte-ltd-qqkk5gel",
-      "role_key": "freehire:senior-python-backend-engineer-ai-api-platform-hybrid-scientec-consulting-pte-ltd-qqkk5gel",
+      "posted_at": "2026-10-21T16:43:13Z",
+      "public_slug": "senior-data-ai-presales-engineer-aws-fde-accenture-southeast-asia-r5v6z7qm",
+      "role_key": "freehire:senior-data-ai-presales-engineer-aws-fde-accenture-southeast-asia-r5v6z7qm",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94037765__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Python Backend Engineer - AI API Platform (Hybrid)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93829807__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & AI Presales Engineer - AWS FDE"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1016,
-      "company": "CLIPLY PTE. LTD.",
+      "candidate_seq": 1062,
+      "company": "Sea",
       "employment_type": null,
-      "external_id": "backend developer:94016445",
+      "external_id": "backend developer:93831090",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-21T16:39:50Z",
+      "public_slug": "senior-backend-engineer-ai-powered-scalable-apis-sea-z46nepgd",
+      "role_key": "freehire:senior-backend-engineer-ai-powered-scalable-apis-sea-z46nepgd",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93831090__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer — AI‑Powered, Scalable APIs"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1064,
+      "company": "PERSOL",
+      "employment_type": null,
+      "external_id": "6290:95412222",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Ang Mo Kio, North-East Region",
       "market": "SG",
-      "posted_at": "2026-10-25T12:40:26Z",
-      "public_slug": "assistant-ai-backend-engineer-hybrid-cliply-pte-ltd-72yby5w4",
-      "role_key": "freehire:assistant-ai-backend-engineer-hybrid-cliply-pte-ltd-72yby5w4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94016445__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Assistant AI & Backend Engineer (Hybrid)"
+      "posted_at": "2026-10-21T09:48:25Z",
+      "public_slug": "data-engineer-ai-integration-specialist-persol-p5q3pu2v",
+      "role_key": "freehire:data-engineer-ai-integration-specialist-persol-p5q3pu2v",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95412222?utm_source=freehire.me",
+      "title": "Data Engineer, AI Integration Specialist"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1017,
-      "company": "PERSOL SINGAPORE PTE. LTD.",
+      "candidate_seq": 1065,
+      "company": "Digital Place Vision Pte Ltd",
       "employment_type": null,
-      "external_id": "devops engineer:94033262",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:40:25Z",
-      "public_slug": "ai-powered-devops-engineer-ci-cd-observability-persol-singapore-pte-ltd-3y6b67ry",
-      "role_key": "freehire:ai-powered-devops-engineer-ci-cd-observability-persol-singapore-pte-ltd-3y6b67ry",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033262__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered DevOps Engineer: CI/CD & Observability"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1018,
-      "company": "Helius Technologies",
-      "employment_type": null,
-      "external_id": "backend developer:94031632",
+      "external_id": "6290:95411639",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Downtown Core, Central Region",
       "market": "SG",
-      "posted_at": "2026-10-25T12:40:22Z",
-      "public_slug": "senior-backend-developer-ai-ops-automation-banking-helius-technologies-fh4t7hes",
-      "role_key": "freehire:senior-backend-developer-ai-ops-automation-banking-helius-technologies-fh4t7hes",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94031632__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Developer - AI Ops & Automation (Banking)"
+      "posted_at": "2026-10-21T09:21:36Z",
+      "public_slug": "senior-ai-engineer-digital-place-vision-pte-ltd-jmsy2dnl",
+      "role_key": "freehire:senior-ai-engineer-digital-place-vision-pte-ltd-jmsy2dnl",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95411639?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1019,
-      "company": "ST ENGINEERING MANAGEMENT SERVICES PTE. LTD.",
+      "candidate_seq": 1066,
+      "company": "JAC Recruitment",
       "employment_type": null,
-      "external_id": "java developer:94036343",
+      "external_id": "6290:95410898",
       "flags": [
-        "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Central Region",
       "market": "SG",
-      "posted_at": "2026-10-25T12:40:14Z",
-      "public_slug": "senior-java-engineer-ai-cloud-native-platforms-st-engineering-management-services-pte-ltd-4inizzb4",
-      "role_key": "freehire:senior-java-engineer-ai-cloud-native-platforms-st-engineering-management-services-pte-ltd-4inizzb4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036343__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Java Engineer - AI & Cloud-Native Platforms"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1020,
-      "company": "CYBERLABS AI PTE. LTD.",
-      "employment_type": null,
-      "external_id": "react developer:94022814",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:40:08Z",
-      "public_slug": "ai-driven-full-stack-developer-react-python-cyberlabs-ai-pte-ltd-hpptonxq",
-      "role_key": "freehire:ai-driven-full-stack-developer-react-python-cyberlabs-ai-pte-ltd-hpptonxq",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94022814__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full-Stack Developer (React/Python)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1022,
-      "company": "SAP",
-      "employment_type": "full_time",
-      "external_id": "careers.sap.com:1452975433",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, SG, 117440",
-      "market": "SG",
-      "posted_at": "2026-10-24T00:00:00Z",
-      "public_slug": "forward-deployed-senior-ai-engineer-careers-sap-com-4huciret",
-      "role_key": "freehire:forward-deployed-senior-ai-engineer-careers-sap-com-4huciret",
-      "source": "successfactors",
-      "source_url": "https://careers.sap.com/job/Singapore-Forward-Deployed-Senior-AI-Engineer-117440/1452975433/?utm_source=freehire.me",
-      "title": "Forward Deployed Senior AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1023,
-      "company": "Singtel",
-      "employment_type": null,
-      "external_id": "groupcareers.singtel.com:1327769266",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-24T00:00:00Z",
-      "public_slug": "senior-ai-data-engineer-aida-singtel-qgitp5p7",
-      "role_key": "freehire:senior-ai-data-engineer-aida-singtel-qgitp5p7",
-      "source": "successfactors",
-      "source_url": "https://groupcareers.singtel.com/job/Senior-AI-Data-Engineer-AIDA-Sing/1327769266/?utm_source=freehire.me",
-      "title": "Senior AI Data Engineer #AIDA"
+      "posted_at": "2026-10-21T08:54:07Z",
+      "public_slug": "chief-technology-officer-saas-ai-innovation-jac-recruitment-phzqujyk",
+      "role_key": "freehire:chief-technology-officer-saas-ai-innovation-jac-recruitment-phzqujyk",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95410898?utm_source=freehire.me",
+      "title": "Chief Technology Officer (SaaS & AI Innovation)"
     }
   ],
-  "generated_at": "2026-11-08T23:11:50.606593Z",
+  "generated_at": "2026-11-09T03:01:54.049775Z",
   "market": "SG",
-  "max_candidate_seq": 1023,
-  "min_candidate_seq": 1015,
+  "max_candidate_seq": 1066,
+  "min_candidate_seq": 1054,
   "shard_index": 13,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

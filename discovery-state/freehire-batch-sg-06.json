@@ -1,113 +1,25 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 958,
-      "company": "NCS Group",
+      "candidate_seq": 983,
+      "company": "Gramian",
       "employment_type": null,
-      "external_id": "6297:95529149",
+      "external_id": "gramian:237EDE85B9",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "India; Australia; Japan; Singapore; Philippines; New Zealand",
       "market": "SG",
-      "posted_at": "2026-10-27T09:03:51Z",
-      "public_slug": "ai-systems-engineer-infra-cyber-ncs-group-btc3yasq",
-      "role_key": "freehire:ai-systems-engineer-infra-cyber-ncs-group-btc3yasq",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95529149?utm_source=freehire.me",
-      "title": "AI Systems Engineer (Infra Cyber)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 959,
-      "company": "ncs3",
-      "employment_type": null,
-      "external_id": "ncs3:6000000001526033",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-27T09:03:51Z",
-      "public_slug": "ai-systems-engineer-infra-cyber-ncs3-xrxvqdyx",
-      "role_key": "freehire:ai-systems-engineer-infra-cyber-ncs3-xrxvqdyx",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001526033-ai-systems-engineer-infra-cyber-?utm_source=freehire.me",
-      "title": "AI Systems Engineer (Infra Cyber)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 960,
-      "company": "NAS Education",
-      "employment_type": null,
-      "external_id": "6290:95530420",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "West Region",
-      "market": "SG",
-      "posted_at": "2026-10-27T08:37:23Z",
-      "public_slug": "ai-product-engineer-fullstack-nas-education-tnxdzzfs",
-      "role_key": "freehire:ai-product-engineer-fullstack-nas-education-tnxdzzfs",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95530420?utm_source=freehire.me",
-      "title": "AI Product Engineer (Fullstack)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 961,
-      "company": "Temus",
-      "employment_type": null,
-      "external_id": "temus:5233697008",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-27T08:14:59Z",
-      "public_slug": "ai-engineer-temus-guabri3i",
-      "role_key": "freehire:ai-engineer-temus-guabri3i",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/temus/jobs/5233697008?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 962,
-      "company": "Gramian Consulting Group",
-      "employment_type": null,
-      "external_id": "6287:95525597",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-27T07:37:14Z",
-      "public_slug": "rust-backend-architect-ai-training-projects-gramian-consulting-group-yxo4qt7s",
-      "role_key": "freehire:rust-backend-architect-ai-training-projects-gramian-consulting-group-yxo4qt7s",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95525597?utm_source=freehire.me",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "rust-backend-architect-ai-training-projects-gramian-7uiklimm",
+      "role_key": "freehire:rust-backend-architect-ai-training-projects-gramian-7uiklimm",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/237EDE85B9?utm_source=freehire.me",
       "title": "Rust Backend Architect - AI Training Projects"
     },
     {
@@ -115,94 +27,166 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 963,
-      "company": "DADACONSULTANTS PTE. LTD.",
+      "candidate_seq": 984,
+      "company": "PALO IT SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": ":03fb427f94825f00334f4aee68e1a21a",
-      "flags": [],
+      "external_id": ":686dbfde45f53cf94314782eedba748a",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "amr-robotics-software-engineer-leading-ai-solutions-firm-amr-smart-retail-ros-agv-dadaconsultants-pte-ltd-hsv4mny3",
-      "role_key": "freehire:amr-robotics-software-engineer-leading-ai-solutions-firm-amr-smart-retail-ros-agv-dadaconsultants-pte-ltd-hsv4mny3",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "senior-fullstack-software-engineer-with-ai-tools-experience-palo-it-singapore-pte-ltd-wzjce7tp",
+      "role_key": "freehire:senior-fullstack-software-engineer-with-ai-tools-experience-palo-it-singapore-pte-ltd-wzjce7tp",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/03fb427f94825f00334f4aee68e1a21a?utm_source=freehire.me",
-      "title": "AMR Robotics Software Engineer - Leading AI solutions firm (AMR/Smart retail/ROS/AGV)"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/686dbfde45f53cf94314782eedba748a?utm_source=freehire.me",
+      "title": "Senior Fullstack Software Engineer (With AI Tools Experience)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 964,
-      "company": "TIKTOK PTE. LTD.",
+      "candidate_seq": 985,
+      "company": "Micron Technology",
       "employment_type": null,
-      "external_id": ":dc6dfe9bef00863558c995845c72828b",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "fullstack-software-engineer-ai-engineering-tiktok-live-revenue-tiktok-global-live-tiktok-pte-ltd-5mo2ovsv",
-      "role_key": "freehire:fullstack-software-engineer-ai-engineering-tiktok-live-revenue-tiktok-global-live-tiktok-pte-ltd-5mo2ovsv",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/dc6dfe9bef00863558c995845c72828b?utm_source=freehire.me",
-      "title": "Fullstack Software Engineer (AI Engineering) - TikTok Live Revenue - TikTok Global Live"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 965,
-      "company": "Micron",
-      "employment_type": null,
-      "external_id": "careers.micron.com/micron.com:45138236",
+      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/Fab-10W-Singapore/Sr-AI-Engineer--SMAI_JR115971",
       "flags": [
         "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Fab 10W, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "sr-ai-engineer-smai-micron-technology-7oge7wtk",
+      "role_key": "freehire:sr-ai-engineer-smai-micron-technology-7oge7wtk",
+      "source": "workday",
+      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/Sr-AI-Engineer--SMAI_JR115971?utm_source=freehire.me",
+      "title": "Sr AI Engineer, SMAI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 986,
+      "company": "SEAGATE SINGAPORE INTERNATIONAL HEADQUARTERS PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":cf1667095f7e78308b1bb4e6ac576c34",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "senior-engineer-machine-learning-seagate-singapore-international-headquarters-pte-ltd-eiifocq5",
+      "role_key": "freehire:senior-engineer-machine-learning-seagate-singapore-international-headquarters-pte-ltd-eiifocq5",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/cf1667095f7e78308b1bb4e6ac576c34?utm_source=freehire.me",
+      "title": "Senior Engineer, Machine Learning"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 987,
+      "company": "NTUC LEARNINGHUB PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":91fa5f4b61c24989579db354946d2cd2",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-26T00:00:00Z",
+      "public_slug": "course-developer-for-cybersecurity-ai-technologies-using-python-in-advanced-manufacturing-ntuc-learninghub-pte-ltd-obrn2zmy",
+      "role_key": "freehire:course-developer-for-cybersecurity-ai-technologies-using-python-in-advanced-manufacturing-ntuc-learninghub-pte-ltd-obrn2zmy",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/91fa5f4b61c24989579db354946d2cd2?utm_source=freehire.me",
+      "title": "Course Developer for Cybersecurity & AI Technologies using Python in Advanced Manufacturing"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 988,
+      "company": "DADACONSULTANTS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:94050849",
+      "flags": [
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "sr-ai-engineer-smai-micron-gx42rql2",
-      "role_key": "freehire:sr-ai-engineer-smai-micron-gx42rql2",
-      "source": "eightfold",
-      "source_url": "https://careers.micron.com/careers/job/45138236?utm_source=freehire.me",
-      "title": "Sr AI Engineer, SMAI"
+      "posted_at": "2026-10-25T20:39:12Z",
+      "public_slug": "full-stack-engineer-ai-native-products-fintech-enterprise-solutions-multiple-opportunities-dadaconsultants-pte-ltd-xjrp65ac",
+      "role_key": "freehire:full-stack-engineer-ai-native-products-fintech-enterprise-solutions-multiple-opportunities-dadaconsultants-pte-ltd-xjrp65ac",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94050849__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer (AI-Native Products / FinTech / Enterprise Solutions, Multiple Opportunities!)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 966,
-      "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
+      "candidate_seq": 989,
+      "company": "Rakuten Asia Pte Ltd",
       "employment_type": null,
-      "external_id": ":3b74529261c8ac7e96c94fdebac91c58",
+      "external_id": "full stack developer:94050712",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-25T20:39:01Z",
+      "public_slug": "ai-driven-full-stack-engineer-java-spring-react-rakuten-asia-pte-ltd-mnu3vn6t",
+      "role_key": "freehire:ai-driven-full-stack-engineer-java-spring-react-rakuten-asia-pte-ltd-mnu3vn6t",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94050712__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Full-Stack Engineer — Java/Spring + React"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 990,
+      "company": "DADACONSULTANTS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:94051574",
       "flags": [
-        "seniority_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-27T00:00:00Z",
-      "public_slug": "sr-ai-engineer-smai-micron-semiconductor-asia-operations-pte-ltd-nloggtq4",
-      "role_key": "freehire:sr-ai-engineer-smai-micron-semiconductor-asia-operations-pte-ltd-nloggtq4",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/3b74529261c8ac7e96c94fdebac91c58?utm_source=freehire.me",
-      "title": "Sr AI Engineer, SMAI"
+      "posted_at": "2026-10-25T20:39:01Z",
+      "public_slug": "full-stack-engineer-ai-powered-fintech-enterprise-dadaconsultants-pte-ltd-go4jgxo7",
+      "role_key": "freehire:full-stack-engineer-ai-powered-fintech-enterprise-dadaconsultants-pte-ltd-go4jgxo7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94051574__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer: AI-Powered FinTech & Enterprise"
     }
   ],
-  "generated_at": "2026-11-08T23:11:50.606593Z",
+  "generated_at": "2026-11-09T03:01:54.049775Z",
   "market": "SG",
-  "max_candidate_seq": 966,
-  "min_candidate_seq": 958,
+  "max_candidate_seq": 990,
+  "min_candidate_seq": 983,
   "shard_index": 6,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

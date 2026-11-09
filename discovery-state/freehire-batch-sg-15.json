@@ -1,201 +1,202 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1045,
-      "company": "ALLEGIS GROUP SINGAPORE PRIVATE LIMITED",
+      "candidate_seq": 1086,
+      "company": "ACE-Learning",
       "employment_type": null,
-      "external_id": ":fab8f417428130d776904e7029d3183a",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
+      "external_id": "6287:95379349",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-23T00:00:00Z",
-      "public_slug": "applied-ai-product-engineer-allegis-group-singapore-private-limited-tsr736yb",
-      "role_key": "freehire:applied-ai-product-engineer-allegis-group-singapore-private-limited-tsr736yb",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/fab8f417428130d776904e7029d3183a?utm_source=freehire.me",
-      "title": "Applied AI Product Engineer"
+      "posted_at": "2026-10-20T06:29:28Z",
+      "public_slug": "software-engineer-full-stack-ai-ace-learning-msxga4yt",
+      "role_key": "freehire:software-engineer-full-stack-ai-ace-learning-msxga4yt",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95379349?utm_source=freehire.me",
+      "title": "Software Engineer (Full Stack & AI)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1046,
-      "company": "ocbc",
+      "candidate_seq": 1088,
+      "company": "Micron",
       "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/VP--AI-and-Data-Analyst_JR00012061",
-      "flags": [
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
+      "external_id": "data engineer:93581167",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "OCBC Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-23T00:00:00Z",
-      "public_slug": "vp-ai-and-data-analyst-ocbc-clzncqwp",
-      "role_key": "freehire:vp-ai-and-data-analyst-ocbc-clzncqwp",
-      "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/VP--AI-and-Data-Analyst_JR00012061?utm_source=freehire.me",
-      "title": "VP, AI and Data Analyst"
+      "posted_at": "2026-10-20T05:11:37Z",
+      "public_slug": "nand-reliability-ai-engineer-data-cloud-micron-lqwgxblt",
+      "role_key": "freehire:nand-reliability-ai-engineer-data-cloud-micron-lqwgxblt",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93581167__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "NAND Reliability AI Engineer: Data & Cloud"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1047,
-      "company": "MICROSOFT REGIONAL SALES PTE. LTD.",
+      "candidate_seq": 1092,
+      "company": "INTUIT RECRUITMENT PTE. LTD.",
       "employment_type": null,
-      "external_id": ":adcacb2bb594f65f01c274bb34b9d76b",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
+      "external_id": "full stack developer:93607206",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-23T00:00:00Z",
-      "public_slug": "solution-engineer-hub-cloud-ai-microsoft-regional-sales-pte-ltd-5tmn4px4",
-      "role_key": "freehire:solution-engineer-hub-cloud-ai-microsoft-regional-sales-pte-ltd-5tmn4px4",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/adcacb2bb594f65f01c274bb34b9d76b?utm_source=freehire.me",
-      "title": "Solution Engineer - Hub (Cloud & AI)"
+      "posted_at": "2026-10-20T05:09:47Z",
+      "public_slug": "full-stack-engineer-ai-compliance-automation-intuit-recruitment-pte-ltd-4qaq5mfy",
+      "role_key": "freehire:full-stack-engineer-ai-compliance-automation-intuit-recruitment-pte-ltd-4qaq5mfy",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93607206__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Engineer — AI & Compliance Automation"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1049,
-      "company": "Newbridge",
+      "candidate_seq": 1100,
+      "company": "Illumina Singapore Pte Ltd",
       "employment_type": null,
-      "external_id": "newbridge-:93V367VY",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": "data engineer:92665342",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-22T17:49:18Z",
-      "public_slug": "senior-ai-infrastructure-engineer-high-performance-compute-newbridge-caqweo5v",
-      "role_key": "freehire:senior-ai-infrastructure-engineer-high-performance-compute-newbridge-caqweo5v",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/newbridge-/job/93V367VY?utm_source=freehire.me",
-      "title": "Senior AI Infrastructure Engineer - High Performance Compute"
+      "posted_at": "2026-10-19T17:44:42Z",
+      "public_slug": "manufacturing-systems-engineer-ai-driven-data-apps-illumina-singapore-pte-ltd-lochz47a",
+      "role_key": "freehire:manufacturing-systems-engineer-ai-driven-data-apps-illumina-singapore-pte-ltd-lochz47a",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92665342__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Manufacturing Systems Engineer: AI-Driven Data & Apps"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:ml"
       ],
-      "candidate_seq": 1050,
-      "company": "Microsoft",
+      "candidate_seq": 1101,
+      "company": "Cortex AI",
       "employment_type": null,
-      "external_id": "apply.careers.microsoft.com/microsoft.com:1970393557044425",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
+      "external_id": "data engineer:93492746",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-22T16:00:00Z",
-      "public_slug": "senior-solution-engineer-hub-cloud-ai-microsoft-nn6atzwl",
-      "role_key": "freehire:senior-solution-engineer-hub-cloud-ai-microsoft-nn6atzwl",
-      "source": "eightfold",
-      "source_url": "https://apply.careers.microsoft.com/careers/job/1970393557044425?utm_source=freehire.me",
-      "title": "Senior Solution Engineer - Hub (Cloud & AI)"
+      "posted_at": "2026-10-19T17:44:15Z",
+      "public_slug": "software-engineer-robotics-data-ml-tools-cortex-ai-uqc4rac2",
+      "role_key": "freehire:software-engineer-robotics-data-ml-tools-cortex-ai-uqc4rac2",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93492746__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software Engineer – Robotics Data & ML Tools"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1051,
-      "company": "Capco",
-      "employment_type": null,
-      "external_id": "capco:8280794",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-04T18:26:49Z",
-      "public_slug": "senior-ai-product-analyst-bank-capco-ybxp3ztb",
-      "role_key": "freehire:senior-ai-product-analyst-bank-capco-ybxp3ztb",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/capco/jobs/8280794?utm_source=freehire.me",
-      "title": "Senior AI Product Analyst | Bank"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1052,
-      "company": "Capco",
-      "employment_type": null,
-      "external_id": "capco:8080908",
-      "flags": [
-        "agency_or_outstaff_hint",
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "China - Hong Kong",
-      "market": "SG",
-      "posted_at": "2026-11-04T18:26:31Z",
-      "public_slug": "ai-engineer-insurance-capco-dmb6gpwe",
-      "role_key": "freehire:ai-engineer-insurance-capco-dmb6gpwe",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/capco/jobs/8080908?utm_source=freehire.me",
-      "title": "AI Engineer | Insurance"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1053,
+      "candidate_seq": 1104,
       "company": "ncs3",
       "employment_type": null,
-      "external_id": "ncs3:6000000001514134",
+      "external_id": "ncs3:6000000001500583",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, sg",
       "market": "SG",
-      "posted_at": "2026-10-22T07:52:30Z",
-      "public_slug": "nov-2026-jan-2027-intake-ai-software-engineer-nucleus-graduate-programme-ncs3-okpmyws2",
-      "role_key": "freehire:nov-2026-jan-2027-intake-ai-software-engineer-nucleus-graduate-programme-ncs3-okpmyws2",
+      "posted_at": "2026-10-19T05:48:59Z",
+      "public_slug": "software-engineer-java-ai-preferred-ncs3-aglkss33",
+      "role_key": "freehire:software-engineer-java-ai-preferred-ncs3-aglkss33",
       "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001514134--nov-2026-jan-2027-intake-ai-software-engineer-nucleus-graduate-programme-?utm_source=freehire.me",
-      "title": "[Nov 2026 & Jan 2027 Intake] AI Software Engineer (Nucleus Graduate Programme)"
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001500583-software-engineer-java-ai-preferred-?utm_source=freehire.me",
+      "title": "Software Engineer (Java & AI Preferred)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:nlp",
+        "jd:computer_vision"
+      ],
+      "candidate_seq": 1105,
+      "company": "Carousell Group",
+      "employment_type": null,
+      "external_id": "carousellgroup:744000156227709",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-10-19T04:51:24Z",
+      "public_slug": "data-scientist-ii-carousell-group-amj3zzwj",
+      "role_key": "freehire:data-scientist-ii-carousell-group-amj3zzwj",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/CarousellGroup/744000156227709-data-scientist-ii?utm_source=freehire.me",
+      "title": "Data Scientist II"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1106,
+      "company": "Tap Growth ai",
+      "employment_type": null,
+      "external_id": "full stack developer:93591190",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-19T01:44:39Z",
+      "public_slug": "full-stack-engineer-ai-driven-web-devops-builder-tap-growth-ai-r6uqh4n4",
+      "role_key": "freehire:full-stack-engineer-ai-driven-web-devops-builder-tap-growth-ai-r6uqh4n4",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93591190__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer — AI-Driven Web & DevOps Builder"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1107,
+      "company": "Talent-Merge",
+      "employment_type": null,
+      "external_id": "full stack developer:93588177",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-19T01:44:29Z",
+      "public_slug": "full-stack-engineer-ai-driven-web-platform-builder-talent-merge-uo663pso",
+      "role_key": "freehire:full-stack-engineer-ai-driven-web-platform-builder-talent-merge-uo663pso",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93588177__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer: AI-Driven Web Platform Builder"
     }
   ],
-  "generated_at": "2026-11-08T23:11:50.606593Z",
+  "generated_at": "2026-11-09T03:01:54.049775Z",
   "market": "SG",
-  "max_candidate_seq": 1053,
-  "min_candidate_seq": 1045,
+  "max_candidate_seq": 1107,
+  "min_candidate_seq": 1086,
   "shard_index": 15,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
