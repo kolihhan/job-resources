@@ -49,6 +49,12 @@ class ResearchPortalProbeTests(unittest.TestCase):
         self.assertEqual(result["status"], "PARTIAL_COVERAGE")
         self.assertEqual(result["detail_verified"], 1)
 
+    def test_hidden_script_text_cannot_fake_apply_control(self):
+        detail = "<script>Apply now and Job Req ID: 2210</script><p>Research Associate</p>"
+        r = s.probe(("SUTD", SUTD), fetch=lambda url: LIST if url == SUTD else detail)
+        self.assertEqual(r["detail_verified"], 0)
+        self.assertEqual(r["status"], "PARTIAL_COVERAGE")
+
     def test_non_official_host_rejected(self):
         with self.assertRaisesRegex(ValueError, "non-official portal host"):
             s.fetch_html("https://thirdparty.example.com/search/")
