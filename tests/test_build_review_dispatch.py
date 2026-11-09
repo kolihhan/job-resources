@@ -37,6 +37,21 @@ class DispatchTests(unittest.TestCase):
         self.assertEqual(classify_track("Machine Learning Engineer"), "ENG")
         self.assertEqual(classify_track("Full-Stack Developer"), "ENG")
 
+    def test_new_api_pending_enters_review_instead_of_invisible_queue(self):
+        row={"market":"CN","seq":3,"key":"cn:api3","state":"UNVERIFIED_INDEX",
+             "title":"LLM Engineer","company":"Example",
+             "source":"freehire:public-api:CN",
+             "url":"https://jobs.ashbyhq.com/example/12345678-1234-1234-1234-123456789abc"}
+        output=build_dispatch({"CN":{"market":"CN","pending":[row],"terminal":[]}},
+                              {},{"strong":{"urls":[]}},now=NOW)
+        selected=output["markets"]["CN"]["selected"]
+        self.assertEqual(len(selected),1)
+        self.assertEqual(selected[0]["origin"],"durable_queue")
+        self.assertEqual(selected[0]["status"],
+                         "UNVERIFIED_INDEX_NEEDS_EXACT_EMPLOYER_JD_AND_FIT")
+        self.assertEqual(output["markets"]["CN"]["verified_waiting_fit"],0)
+        self.assertEqual(selected[0]["source"],"freehire:public-api:CN")
+
     def test_origin_and_jd_proof_distinguished_from_ats_feed(self):
         p=pending("SG", 3, "Research Engineer I")
         a=ats("SG", 1, "LLM Engineer", "A")
