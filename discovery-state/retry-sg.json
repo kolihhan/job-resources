@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T15:00:00+08:00",
+  "updated_at": "2026-11-09T16:30:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4324,6 +4324,36 @@
       "title": "AI-Enabled Full Stack Engineer: Build Modern Apps",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94060418__7119",
       "missing_decisive_evidence": "Employer exact requisition and direct route, full substantive AI JD, employment type and sponsorship"
+    },
+    {
+      "candidate_seq": 988,
+      "role_key": "freehire:full-stack-engineer-ai-native-products-fintech-enterprise-solutions-multiple-opportunities-dadaconsultants-pte-ltd-xjrp65ac",
+      "company": "DADACONSULTANTS PTE. LTD.",
+      "title": "Full-Stack Engineer (AI-Native Products / FinTech / Enterprise Solutions, Multiple Opportunities!)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94050849__7119",
+      "reason_code": "missing_exact_employer_requisition_and_substantive_ai_ownership",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T16:30:00+08:00"
+    },
+    {
+      "candidate_seq": 989,
+      "role_key": "freehire:ai-driven-full-stack-engineer-java-spring-react-rakuten-asia-pte-ltd-mnu3vn6t",
+      "company": "Rakuten Asia Pte Ltd",
+      "title": "AI-Driven Full-Stack Engineer — Java/Spring + React",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94050712__7119",
+      "reason_code": "missing_employer_official_jd_exact_req_and_ai_ownership",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T16:30:00+08:00"
+    },
+    {
+      "candidate_seq": 990,
+      "role_key": "freehire:full-stack-engineer-ai-powered-fintech-enterprise-dadaconsultants-pte-ltd-go4jgxo7",
+      "company": "DADACONSULTANTS PTE. LTD.",
+      "title": "Full-Stack Engineer: AI-Powered FinTech & Enterprise",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94051574__7119",
+      "reason_code": "missing_exact_employer_requisition_and_substantive_ai_ownership",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T16:30:00+08:00"
     }
   ]
 }
