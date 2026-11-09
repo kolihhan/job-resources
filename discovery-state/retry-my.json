@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-09T20:19:19+08:00",
+  "updated_at": "2026-11-09T21:30:00+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -353,9 +353,9 @@
       "title": "Senior Full-Stack Java Engineer — AI-Driven FinTech Cloud",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26997867__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
       "reason_code": "verification_pending",
-      "attempts": 0,
-      "next_retry_at": "2026-11-08T12:20:00+08:00",
-      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no."
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T21:30:00+08:00",
+      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no. 2026-11-09 21:30 MYT: Independent detailed Trabajo posting https://my.trabajo.org/job-2267-764bdb3b484a41e6c767076e943e4dd8 describes apparently related High Five Full Stack Java Developer at Swedish core-banking KL R&D center; requires 3-5 years relevant Java 11+/Spring, Docker/Kubernetes and banking/fintech exposure, and labels Full-time + Contract simultaneously. Exact same requisition identity vs FreeHire senior title is NOT established; employer-owned ATS/JD, permanent terms and application route remain missing. All-state GitHub issue searches for seq 3057, exact title, and High Five title returned no hits. Do not terminate or promote; next probe employer-controlled exact role and contract terms. retry_new_evidence=yes."
     },
     {
       "role_key": "freehire:software-engineer-microservices-ai-hybrid-deutsche-post-cj4o75hf",
