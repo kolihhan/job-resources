@@ -357,7 +357,7 @@ For a plausible net-new/changed survivor verify:
 5. cohort, seniority, and hard requirements;
 6. realistic candidate fit;
 7. work authorization where relevant;
-8. targeted Gmail dedupe in both accounts using exact requisition/job ID first when available;
+8. targeted Gmail dedupe in both accounts using exact requisition/job ID first when available, **plus a broad employer/ATS acknowledgement check and all-state Issue search by employer/title/team when the employer has prior recruiting history**. A missing exact-ID receipt never establishes that no earlier application exists; reconcile reposts and sibling requisitions without treating company/title similarity alone as an exact duplicate. User-confirmed already-applied status overrides speculative APPLY/CHECK and must be recorded as WAIT;
 9. exact usable application route.
 
 For campus/graduate/program hiring, verification in item 5 includes the **employer-controlled campaign/program eligibility**, not only the exact role page. If a role is year-coded or clearly attached to a named graduate campaign and the exact JD omits its graduation window, resolve that window before promotion. If campaign compatibility cannot be established and it is the only remaining material blocker, CHECK may be used; an explicit incompatible window is BLOCKED.

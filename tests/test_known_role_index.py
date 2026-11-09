@@ -49,6 +49,23 @@ class KnownRoleIndexTests(unittest.TestCase):
         self.assertIn("labco|research engineer", index["weak"]["company_title"])
         self.assertEqual(index["issue_numbers"], [10, 11])
 
+    def test_wait_employer_is_history_hint_not_hard_duplicate(self):
+        mod=self._load_module()
+        issues=[
+            {"number":479, "title":"[WAIT][MY-RES] Gen Digital / MoneyLion — Applied AI Scientist (Generative AI)",
+             "body":"User previously submitted an application"},
+            {"number":698, "title":"[APPLY][SG-ENG] NTU / AI Singapore — AI Engineer (AIAP)",
+             "body":"Not submitted"},
+            {"number":901, "title":"[WAIT][SG-RES] NTU DTC — Research Engineer II",
+             "body":"User-confirmed applied"},
+        ]
+        index=mod.build_index(issues,"2026-11-09T00:00:00Z")
+        self.assertIn("gen digital moneylion",index["weak"]["wait_employers"])
+        self.assertIn("ntu dtc",index["weak"]["wait_employers"])
+        self.assertNotIn("ntu ai singapore",index["weak"]["wait_employers"])
+        self.assertEqual(index["issue_count"],3)
+
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -85,6 +85,7 @@ def build_index(issues: list[dict], generated_at: str) -> dict:
     urls: set[str] = set()
     freehire_slugs: set[str] = set()
     weak_company_title: set[str] = set()
+    wait_employers: set[str] = set()
     issue_numbers: list[int] = []
 
     for issue in issues:
@@ -101,6 +102,10 @@ def build_index(issues: list[dict], generated_at: str) -> dict:
         weak = _weak_company_title(str(issue.get("title") or ""))
         if weak:
             weak_company_title.add(weak)
+            # WAIT includes submitted/contacted history. Preserve only the
+            # company as a cautious review hint, never a hard duplicate ID.
+            if str(issue.get("title") or "").startswith("[WAIT]"):
+                wait_employers.add(weak.split("|", 1)[0])
 
     issue_numbers.sort()
     return {
@@ -114,6 +119,7 @@ def build_index(issues: list[dict], generated_at: str) -> dict:
         },
         "weak": {
             "company_title": sorted(weak_company_title),
+            "wait_employers": sorted(wait_employers),
         },
     }
 
