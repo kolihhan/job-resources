@@ -118,6 +118,25 @@ class DispatchTests(unittest.TestCase):
                          "NEEDS_FULL_JD_AND_LIVE_ROUTE")
         self.assertEqual(result["markets"]["SG"]["fit_decisions_made"],0)
 
+    def test_previous_wait_company_flags_new_req_but_never_suppresses_it(self):
+        row=ats("MY",32,"AI Applied Scientist","Gen Digital / MoneyLion")
+        report=build_dispatch({},{"MY":{"market":"MY","jobs":[row]}},
+                              {"strong":{"urls":[]},"weak":{
+                               "wait_employers":["gen digital moneylion"]}},now=NOW)
+        selected=report["markets"]["MY"]["selected"]
+        self.assertEqual(len(selected),1)
+        self.assertTrue(selected[0]["prior_wait_employer_hint"])
+        self.assertIn("CHECK_PRIOR_SUBMISSION_HISTORY",selected[0]["review_flags"])
+        self.assertEqual(report["markets"]["MY"]["prior_wait_employer_hints"],1)
+        self.assertEqual(report["markets"]["MY"]["fit_decisions_made"],0)
+
+    def test_new_company_no_false_submitted_flag(self):
+        row=ats("MY",33,"LLM Engineer","NewStartup")
+        report=build_dispatch({},{"MY":{"market":"MY","jobs":[row]}},
+                              {"strong":{"urls":[]},"weak":{
+                               "wait_employers":["gen digital moneylion"]}},now=NOW)
+        self.assertFalse(report["markets"]["MY"]["selected"][0]["prior_wait_employer_hint"])
+
     def test_ats_same_url_as_official_pending_never_double_counts(self):
         a=ats("SG",1,"LLM Engineer","Acme")
         p=pending("SG",1,"Research Engineer I")
