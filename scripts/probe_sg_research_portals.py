@@ -110,9 +110,9 @@ def inspect_detail(role, source_host, fetch=fetch_html):
         raise ValueError("no employer application control in detail")
     return {"title": role["title"], "url": role["url"],
             "requisition": req.group(1), "job_page_verified": True,
-            "apply_control_seen": True, "jd_chars": len(data),
+            "apply_control_seen": True, "page_text_chars": len(data),
             "technical_signals": sorted(set(m.group(0).lower() for m in TECH.finditer(data))),
-            "jd_text": data[:16000], "jd_snapshot_complete": len(data) <= 16000}
+            "page_text_excerpt": data[:16000], "page_text_complete": len(data) <= 16000}
 
 
 def probe(source, fetch=fetch_html, pause=False):
