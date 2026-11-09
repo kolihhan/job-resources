@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-09T10:21:00+08:00",
+  "updated_at": "2026-11-09T13:24:41+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -121,22 +121,26 @@
       "candidate_seq": 2857,
       "reason_code": "verification_pending",
       "attempts": 7,
-      "next_retry_at": "2026-11-07T23:25:00+08:00",
+      "next_retry_at": "2026-11-12T13:25:00+08:00",
       "company": "DHL Group",
       "title": "Hybrid Java Engineer - Cloud, Microservices & AI",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26990156__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "detail": "2026-11-05T10:20:44+08:00: Batch v3 cheap screen survived; full destination-quality, employer-controlled exact route, employment/eligibility and targeted Gmail gates not completed. Preserve.  2026-11-05 15:17 MYT: DHL Java/Spring cloud-native JD corroborated by third-party full text; Java/Spring strength and exact official permanent requisition not verified. Preserve. 2026-11-05T19:15+08:00: Rechecked; no new definitive evidence. 2026-11-06 14:18 MYT: Rechecked best available indexed role evidence; no authoritative new exact-route, employment/quality or distinct requisition proof. Preserve verification_pending. 2026-11-06 17:18 MYT: No new decisive exact-role/eligibility evidence this cycle; existing verification blocker remains. 2026-11-06 21:18 MYT: Rechecked available indexed/native signals; no new authoritative evidence clearing all MY-TOP, exact-role identity, employment, eligibility and route gates. Retain verification_pending; no promotion. 2026-11-06 23:23 MYT: Bounded alternate employer/ATS/indexed exact-title verification attempted; no decisive new authoritative exact-role eligibility/route evidence. Existing blocker preserved; no repeat broken URL open. retry_new_evidence=no; next retry >=24h."
+      "detail": "2026-11-05T10:20:44+08:00: Batch v3 cheap screen survived; full destination-quality, employer-controlled exact route, employment/eligibility and targeted Gmail gates not completed. Preserve.  2026-11-05 15:17 MYT: DHL Java/Spring cloud-native JD corroborated by third-party full text; Java/Spring strength and exact official permanent requisition not verified. Preserve. 2026-11-05T19:15+08:00: Rechecked; no new definitive evidence. 2026-11-06 14:18 MYT: Rechecked best available indexed role evidence; no authoritative new exact-route, employment/quality or distinct requisition proof. Preserve verification_pending. 2026-11-06 17:18 MYT: No new decisive exact-role/eligibility evidence this cycle; existing verification blocker remains. 2026-11-06 21:18 MYT: Rechecked available indexed/native signals; no new authoritative evidence clearing all MY-TOP, exact-role identity, employment, eligibility and route gates. Retain verification_pending; no promotion. 2026-11-06 23:23 MYT: Bounded alternate employer/ATS/indexed exact-title verification attempted; no decisive new authoritative exact-role eligibility/route evidence. Existing blocker preserved; no repeat broken URL open. retry_new_evidence=no; next retry >=24h.",
+      "previous_next_retry_at": "2026-11-07T23:25:00+08:00",
+      "retry_escalation": ">=5 no-progress attempts; >=72h backoff from 2026-11-09 13:24 MYT. No new employer-authored exact-role evidence this cycle; reopen early only with new requisition, deadline, or official JD. Scheduling correction only, not JD resolution."
     },
     {
       "role_key": "freehire:full-stack-software-engineer-end-to-end-ownership-ai-tools-involve-asia-technologies-sdn-bhd-ra4ysqgo",
       "candidate_seq": 2859,
       "reason_code": "verification_pending",
       "attempts": 7,
-      "next_retry_at": "2026-11-07T23:25:00+08:00",
+      "next_retry_at": "2026-11-12T13:25:00+08:00",
       "company": "Involve Asia Technologies Sdn Bhd",
       "title": "Full‑Stack Software Engineer — End‑to‑End Ownership + AI Tools",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26989695__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
-      "detail": "2026-11-05T10:20:44+08:00: Batch v3 cheap screen survived; full destination-quality, employer-controlled exact route, employment/eligibility and targeted Gmail gates not completed. Preserve.  2026-11-05 15:17 MYT: Hiredly full JD confirms Laravel/Blade/MySQL plus Node/React, mid-sized feature ownership, full-time; AI means AI-assisted coding, not AI engineering. Destination-quality and official employer route remain unresolved. Preserve. 2026-11-05T19:15+08:00: Rechecked; no new definitive evidence. 2026-11-06 14:18 MYT: Rechecked best available indexed role evidence; no authoritative new exact-route, employment/quality or distinct requisition proof. Preserve verification_pending. 2026-11-06 17:18 MYT: No new decisive exact-role/eligibility evidence this cycle; existing verification blocker remains. 2026-11-06 21:18 MYT: Rechecked available indexed/native signals; no new authoritative evidence clearing all MY-TOP, exact-role identity, employment, eligibility and route gates. Retain verification_pending; no promotion. 2026-11-06 23:23 MYT: Bounded alternate employer/ATS/indexed exact-title verification attempted; no decisive new authoritative exact-role eligibility/route evidence. Existing blocker preserved; no repeat broken URL open. retry_new_evidence=no; next retry >=24h."
+      "detail": "2026-11-05T10:20:44+08:00: Batch v3 cheap screen survived; full destination-quality, employer-controlled exact route, employment/eligibility and targeted Gmail gates not completed. Preserve.  2026-11-05 15:17 MYT: Hiredly full JD confirms Laravel/Blade/MySQL plus Node/React, mid-sized feature ownership, full-time; AI means AI-assisted coding, not AI engineering. Destination-quality and official employer route remain unresolved. Preserve. 2026-11-05T19:15+08:00: Rechecked; no new definitive evidence. 2026-11-06 14:18 MYT: Rechecked best available indexed role evidence; no authoritative new exact-route, employment/quality or distinct requisition proof. Preserve verification_pending. 2026-11-06 17:18 MYT: No new decisive exact-role/eligibility evidence this cycle; existing verification blocker remains. 2026-11-06 21:18 MYT: Rechecked available indexed/native signals; no new authoritative evidence clearing all MY-TOP, exact-role identity, employment, eligibility and route gates. Retain verification_pending; no promotion. 2026-11-06 23:23 MYT: Bounded alternate employer/ATS/indexed exact-title verification attempted; no decisive new authoritative exact-role eligibility/route evidence. Existing blocker preserved; no repeat broken URL open. retry_new_evidence=no; next retry >=24h.",
+      "previous_next_retry_at": "2026-11-07T23:25:00+08:00",
+      "retry_escalation": ">=5 no-progress attempts; >=72h backoff from 2026-11-09 13:24 MYT. No new employer-authored exact-role evidence this cycle; reopen early only with new requisition, deadline, or official JD. Scheduling correction only, not JD resolution."
     },
     {
       "role_key": "freehire:machine-learning-engineer-moneylion-gen-digital-inc-fz6fgzwq",
@@ -167,11 +171,13 @@
       "candidate_seq": 2945,
       "reason_code": "verification_pending",
       "attempts": 5,
-      "next_retry_at": "2026-11-07T23:25:00+08:00",
+      "next_retry_at": "2026-11-12T13:25:00+08:00",
       "company": "Quanton Asia Sdn Bhd",
       "title": "Mid-Level Automation & AI Developer",
       "source_url": "https://my.jobstreet.com/job/95669292?utm_source=freehire.me",
-      "detail": "2026-11-06 12:17 MYT: Exact external ID searched across all GitHub Issue history: no exact hit. Current compact metadata reconciled. Exact JobStreet/Oracle full role pages inaccessible or not fully verifiable in this run; retain for authoritative JD, MY destination-quality, employment, liveness, route and targeted Gmail verification. Senior/5+ hints are not treated as confirmed hard requirements. 2026-11-06 16:22 MYT: Rechecked indexed official/native evidence. Quanton JobStreet listing confirms full-time RM7k-8k and enterprise agents, but destination-quality peers and substantive exact JD/route remain unverified. Preserve verification_pending; no employer contact. 2026-11-06 18:21 MYT: Quanton JobStreet employer listing current full-time hybrid RM7000-8000, agent development; exact full JD and MY TOP technical-peer quality not established. 2026-11-06 21:18 MYT: Rechecked available indexed/native signals; no new authoritative evidence clearing all MY-TOP, exact-role identity, employment, eligibility and route gates. FreeHire full JD indicates 3–6 years of mandatory UiPath and Automation Anywhere RPA; strong mismatch, but source not authoritative enough for terminal disposition. Retain verification_pending; no promotion. 2026-11-06 23:23 MYT: Bounded alternate employer/ATS/indexed exact-title verification attempted; no decisive new authoritative exact-role eligibility/route evidence. Existing blocker preserved; no repeat broken URL open. retry_new_evidence=no; next retry >=24h."
+      "detail": "2026-11-06 12:17 MYT: Exact external ID searched across all GitHub Issue history: no exact hit. Current compact metadata reconciled. Exact JobStreet/Oracle full role pages inaccessible or not fully verifiable in this run; retain for authoritative JD, MY destination-quality, employment, liveness, route and targeted Gmail verification. Senior/5+ hints are not treated as confirmed hard requirements. 2026-11-06 16:22 MYT: Rechecked indexed official/native evidence. Quanton JobStreet listing confirms full-time RM7k-8k and enterprise agents, but destination-quality peers and substantive exact JD/route remain unverified. Preserve verification_pending; no employer contact. 2026-11-06 18:21 MYT: Quanton JobStreet employer listing current full-time hybrid RM7000-8000, agent development; exact full JD and MY TOP technical-peer quality not established. 2026-11-06 21:18 MYT: Rechecked available indexed/native signals; no new authoritative evidence clearing all MY-TOP, exact-role identity, employment, eligibility and route gates. FreeHire full JD indicates 3–6 years of mandatory UiPath and Automation Anywhere RPA; strong mismatch, but source not authoritative enough for terminal disposition. Retain verification_pending; no promotion. 2026-11-06 23:23 MYT: Bounded alternate employer/ATS/indexed exact-title verification attempted; no decisive new authoritative exact-role eligibility/route evidence. Existing blocker preserved; no repeat broken URL open. retry_new_evidence=no; next retry >=24h.",
+      "previous_next_retry_at": "2026-11-07T23:25:00+08:00",
+      "retry_escalation": ">=5 no-progress attempts; >=72h backoff from 2026-11-09 13:24 MYT. No new employer-authored exact-role evidence this cycle; reopen early only with new requisition, deadline, or official JD. Scheduling correction only, not JD resolution."
     },
     {
       "role_key": "freehire:senior-ai-engineer-frontend-ai-applications-oceanstar-elite-group-of-companies-5eahu5zy",
