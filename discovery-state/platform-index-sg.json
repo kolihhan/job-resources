@@ -545,42 +545,6 @@
         "checked_at": "2026-11-09T11:41:59.933009Z",
         "employment_time_type": "Full time",
         "full_jd_complete": true,
-        "full_jd_text": "EOS is a University Research Institute at Nanyang Technological University that conducts fundamental research on earthquakes, volcanic eruptions, tsunamis, and climate change in and around Southeast Asia, towards safer and more sustainable societies. For more information on EOS please visit http://www.earthobservatory.sg . We are looking for a Research Associate or Research Fellow to conduct research on the development of AI or AI-enabled software and tools to support nature-positive business transformation in ASEAN. The research will contribute to a new venture aiming to support Southeast Asian businesses in their sustainability transition. We are looking for a motivated, entrepreneurial researcher who is not only technically strong but also passionate about developing a long-term research vision at the interface between AI and sustainability. The position offers the chance to build a new line of activity, secure follow-on funding, and establish a leadership role within a dynamic, internationally connected research ecosystem. Key Responsibilities: Review recent developments in the field of Large Language Models, agents, and world models for sustainability applications Design and develop AI or AI-enabled software and tools tailored to sustainability and nature-positive business contexts, using curated datasets on sustainability reporting in Southeast Asia. Implement, test, and benchmark tool performance using open-source frameworks and tools Collaborate with sustainability researchers, data scientists, and industry partners to ensure model relevance and usability. Develop user-facing prototypes or APIs that demonstrate the model’s practical applications in reporting, analysis, or decision support. Contribute to academic publications, open-source releases, and capacity-building activities. Job Requirements: MSc or PhD in Computer Science, Data Science, Artificial Intelligence, or a related field. Proven experience in large/small language model development or AI-enabled software development Strong programming skills in Python, and familiarity with key libraries such as PyTorch, TensorFlow, or Hugging Face Transformers. Experience with data engineering (e.g., preprocessing, annotation, pipelines). Strong analytical and problem-solving skills, with attention to reproducibility and open-source best practices. Experience or demonstrated interest in applied NLP for related contexts (e.g., finance, ESG, corporate sustainability, environmental data) EOS seeks a diverse and inclusive workforce and is committed to equality of opportunity. We welcome applications from all and recruit on the basis of merit, regardless of age, race, gender, religion, marital status, family responsibilities, or disability. We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 2839,
-        "jd_sha256": "675faef4f0bb09f7e697f9150a2850339add94b94babe06c11ab0004a62857e5",
-        "job_description_excerpt": "EOS is a University Research Institute at Nanyang Technological University that conducts fundamental research on earthquakes, volcanic eruptions, tsunamis, and climate change in and around Southeast Asia, towards safer and more sustainable societies.",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00024254",
-        "review_flags": [],
-        "signals": [
-          "llm",
-          "agent",
-          "evaluation",
-          "nlp"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.298065Z",
-      "key": "sg:42beb2d215caca540b5c",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 34,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Fellow/Research Associate (Developing AI-enabled software for nature-positive business transformation in ASEAN)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow-Research-Associate--Developing-AI-enabled-software-for-nature-positive-business-transformation-in-ASEAN-_R00024254-1"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T11:41:59.933009Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
         "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) invites applications for the position of Research Associate. Key Responsibilities: Work on human-like traffic simulation, with the focus of modeling traffic behaviors from large-scale real-world datasets. ​ The work will involve traffic scene representation, behavior modeling with common sense and prediction, generating road layouts, initializing states of traffic agents, rendering in physical simulators, and experimental validation. Job Requirements: At least have a Masters Degree in Mechanical Engineering, Robotics, Mechatronics, Automation and Control Engineering, Artificial Intelligence (AI), etc. Relevant working experience will be preferred. Strong background in autonomous driving, simulator, AI, and automation. Good communication skills and the ability to work independently and facilitate projects with minimal supervisiont Able to contribute to Journal/Conference papers with good presentation skills Able to plan and organize well and adhere to deadlines. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
         "jd_chars": 1115,
         "jd_sha256": "0f1dc780825bff72de3c1c99a21a4e33ef952add1b7ba16afeff98a6b2011021",
@@ -940,6 +904,44 @@
       "state": "ISSUE_VERIFIED",
       "title": "Research Engineer I (Trust Technologies)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Trust-Technologies-_R00025908"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T11:41:59.933009Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "EOS is a University Research Institute at Nanyang Technological University that conducts fundamental research on earthquakes, volcanic eruptions, tsunamis, and climate change in and around Southeast Asia, towards safer and more sustainable societies. For more information on EOS please visit http://www.earthobservatory.sg . We are looking for a Research Associate or Research Fellow to conduct research on the development of AI or AI-enabled software and tools to support nature-positive business transformation in ASEAN. The research will contribute to a new venture aiming to support Southeast Asian businesses in their sustainability transition. We are looking for a motivated, entrepreneurial researcher who is not only technically strong but also passionate about developing a long-term research vision at the interface between AI and sustainability. The position offers the chance to build a new line of activity, secure follow-on funding, and establish a leadership role within a dynamic, internationally connected research ecosystem. Key Responsibilities: Review recent developments in the field of Large Language Models, agents, and world models for sustainability applications Design and develop AI or AI-enabled software and tools tailored to sustainability and nature-positive business contexts, using curated datasets on sustainability reporting in Southeast Asia. Implement, test, and benchmark tool performance using open-source frameworks and tools Collaborate with sustainability researchers, data scientists, and industry partners to ensure model relevance and usability. Develop user-facing prototypes or APIs that demonstrate the model’s practical applications in reporting, analysis, or decision support. Contribute to academic publications, open-source releases, and capacity-building activities. Job Requirements: MSc or PhD in Computer Science, Data Science, Artificial Intelligence, or a related field. Proven experience in large/small language model development or AI-enabled software development Strong programming skills in Python, and familiarity with key libraries such as PyTorch, TensorFlow, or Hugging Face Transformers. Experience with data engineering (e.g., preprocessing, annotation, pipelines). Strong analytical and problem-solving skills, with attention to reproducibility and open-source best practices. Experience or demonstrated interest in applied NLP for related contexts (e.g., finance, ESG, corporate sustainability, environmental data) EOS seeks a diverse and inclusive workforce and is committed to equality of opportunity. We welcome applications from all and recruit on the basis of merit, regardless of age, race, gender, religion, marital status, family responsibilities, or disability. We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2839,
+        "jd_sha256": "675faef4f0bb09f7e697f9150a2850339add94b94babe06c11ab0004a62857e5",
+        "job_description_excerpt": "EOS is a University Research Institute at Nanyang Technological University that conducts fundamental research on earthquakes, volcanic eruptions, tsunamis, and climate change in and around Southeast Asia, towards safer and more sustainable societies.",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00024254",
+        "review_flags": [],
+        "signals": [
+          "llm",
+          "agent",
+          "evaluation",
+          "nlp"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.298065Z",
+      "key": "sg:42beb2d215caca540b5c",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 34,
+      "source": "ntu:official-cxs:SG",
+      "state": "ISSUE_VERIFIED",
+      "title": "Research Fellow/Research Associate (Developing AI-enabled software for nature-positive business transformation in ASEAN)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow-Research-Associate--Developing-AI-enabled-software-for-nature-positive-business-transformation-in-ASEAN-_R00024254-1",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/885",
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/885"
     }
   ],
   "version": 1
