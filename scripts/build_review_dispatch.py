@@ -17,6 +17,7 @@ from datetime import datetime, timedelta, timezone
 import json
 from pathlib import Path
 import re
+import unicodedata
 from urllib.parse import urlsplit, urlunsplit
 
 MARKETS = ("SG", "MY", "CN")
@@ -80,6 +81,12 @@ def allowed_ats_url(url):
 def classify_track(title):
     """Routing ONLY: research and engineering are equal GOLD paths."""
     return "RES" if RESEARCH.search(str(title or "")) else "ENG"
+
+
+def normalized_company(value):
+    """Use the same conservative company normalization as known-role-index."""
+    text = unicodedata.normalize("NFKC", str(value or "")).lower().strip()
+    return " ".join(re.sub(r"[^\w\u4e00-\u9fff]+", " ", text).split())
 
 
 def official_status(review, now):
@@ -218,6 +225,7 @@ def build_dispatch(states, feeds, known_index, *, now=None,
         normalized_url(url) for url in known_index.get("strong", {}).get("urls", [])
         if isinstance(url, str) and normalized_url(url)
     }
+    wait_employers = set(known_index.get("weak", {}).get("wait_employers", []))
     result = {
         "generated_at": now.isoformat().replace("+00:00", "Z"),
         "mode": "READ_ONLY_SOURCE_DERIVED_REVIEW_DISPATCH_NOT_APPLY",
@@ -266,6 +274,17 @@ def build_dispatch(states, feeds, known_index, *, now=None,
                 suppressed += 1
                 continue  # advisory snapshot exclusion, not fresh verified dedupe
             by_url[row["url"]] = row
+        for role in by_url.values():
+            # A new requisition may be a replacement or repost of an already
+            # submitted role. This is an advisory history check, NOT a
+            # match or suppression: distinct requisitions can be legitimate.
+            role["prior_wait_employer_hint"] = (
+                normalized_company(role["company"]) in wait_employers
+            )
+            if role["prior_wait_employer_hint"]:
+                role["review_flags"] = list(role.get("review_flags") or []) + [
+                    "CHECK_PRIOR_SUBMISSION_HISTORY"
+                ]
         selected = _choose_fair(list(by_url.values()), limit_per_market, min_each_track)
         by_track = Counter(x["track_hint"] for x in selected)
         available = Counter(x["track_hint"] for x in by_url.values())
@@ -282,6 +301,8 @@ def build_dispatch(states, feeds, known_index, *, now=None,
             "unique_review_candidates": len(by_url),
             "available_by_track_hint": {t: available[t] for t in TRACKS},
             "selected_by_track": {t: by_track[t] for t in TRACKS},
+            "prior_wait_employer_hints": sum(
+                bool(x["prior_wait_employer_hint"]) for x in selected),
             # A dispatch run performs no substantive fit or hard screening.
             "fit_decisions_made": 0,
             "coverage_gaps": (
@@ -333,13 +354,21 @@ def markdown_report(report):
             origin = ("existing queue #" + str(row["queue_seq"])
                       if row["origin"] == "official_queue" else "ATS key " + row["ats_key"])
             mature = " — mature title: verify requirements" if row["title_maturity_flag"] else ""
+            prior = (" — **PRIOR WAIT AT EMPLOYER: confirm exact submission and sibling/repost history**"
+                     if row.get("prior_wait_employer_hint") else "")
             lines.append(
                 f"- **{row['track_hint']}** [{title}]({row['url']}) ({row['company']}); "
-                f"{origin}; **{row['status']}**{mature}"
+                f"{origin}; **{row['status']}**{mature}{prior}"
             )
         lines.append("")
     lines += [
         "## Promotion gate",
+        "",
+        "MANDATORY: before creating a new APPLY/CHECK, reconcile prior WAIT/APPLY/ACTION at the "
+        "same employer, including alternate requisitions, reposts and generic acknowledgements. "
+        "An exact-ID Gmail miss does not prove that the candidate never applied. "
+        "User-confirmed applied means WAIT, not a new APPLY. A company-level WAIT hint never "
+        "proves that a distinct requisition is a duplicate.",
         "",
         "Review exact employer JD and current route; verify substantive work, hard qualifications,",
         "employment terms, SG/CN work-pass exclusions, campaign/cohort rules, all-state GitHub Issues,",
