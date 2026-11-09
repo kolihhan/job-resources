@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - scripts/intake_official_ats.py
+      - scripts/collect_market_api.py
+      - tests/test_collect_market_api.py
       - scripts/platform_index_queue.py
       - tests/test_intake_official_ats.py
       - scripts/report_job_pipeline_health.py
@@ -56,6 +58,10 @@ jobs:
               except Exception as exc:
                   print(f"ATS_SOURCE_UNAVAILABLE {market}: {type(exc).__name__}: {str(exc)[:150]}")
           PY
+      - name: Benchmark free cross-market API (read-only, independent of ATS)
+        shell: bash
+        run: |
+          python scripts/collect_market_api.py --out-dir artifacts/api-snapshots             --max-pages 2 || echo "::warning::Independent API unavailable; preserving official ATS intake"
       - name: Branch dry-run or publish source-only queue update on main
         shell: bash
         run: |
@@ -106,4 +112,5 @@ jobs:
           path: |
             artifacts/ats-intake-report.json
             artifacts/ats-intake-summary.md
+            artifacts/api-snapshots/health.json
           retention-days: 14
