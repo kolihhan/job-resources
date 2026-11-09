@@ -6,54 +6,52 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1141,
-      "company": "TECHCOM SOLUTIONS (SINGAPORE) PTE. LTD.",
+      "candidate_seq": 1280,
+      "company": "Temus",
       "employment_type": null,
-      "external_id": "python developer:93509017",
+      "external_id": "temus:5439381008",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-15T21:18:37Z",
-      "public_slug": "full-stack-python-developer-ai-driven-security-techcom-solutions-singapore-pte-ltd-sm4gsl2j",
-      "role_key": "freehire:full-stack-python-developer-ai-driven-security-techcom-solutions-singapore-pte-ltd-sm4gsl2j",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93509017__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Python Developer – AI-Driven Security"
+      "posted_at": "2026-09-30T02:40:22Z",
+      "public_slug": "full-stack-ai-engineer-temus-yxh2mxwl",
+      "role_key": "freehire:full-stack-ai-engineer-temus-yxh2mxwl",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/temus/jobs/5439381008?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1142,
-      "company": "INFOSYS COMPAZ PTE. LTD.",
+      "candidate_seq": 1281,
+      "company": "Evonik",
       "employment_type": null,
-      "external_id": "data engineer:93490682",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
+      "external_id": "evonik.wd3.myworkdayjobs.com/External_Careers:/job/Singapore---Int-Business-Park/AI-Product-Engineer-Industrial-AI_R51133",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore - Int. Business Park",
       "market": "SG",
-      "posted_at": "2026-10-15T11:20:14Z",
-      "public_slug": "snowflake-data-ai-engineer-pipelines-cortex-ai-infosys-compaz-pte-ltd-jq2lr2nu",
-      "role_key": "freehire:snowflake-data-ai-engineer-pipelines-cortex-ai-infosys-compaz-pte-ltd-jq2lr2nu",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490682__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Snowflake Data & AI Engineer: Pipelines & Cortex AI"
+      "posted_at": "2026-09-30T00:00:00Z",
+      "public_slug": "ai-product-engineer-industrial-ai-evonik-5qz7tn64",
+      "role_key": "freehire:ai-product-engineer-industrial-ai-evonik-5qz7tn64",
+      "source": "workday",
+      "source_url": "https://evonik.wd3.myworkdayjobs.com/External_Careers/job/Singapore---Int-Business-Park/AI-Product-Engineer-Industrial-AI_R51133?utm_source=freehire.me",
+      "title": "AI Product Engineer Industrial AI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1143,
-      "company": "Shell Singapore Pte Ltd",
+      "candidate_seq": 1282,
+      "company": "Land Transport Authority (LTA) Singapore",
       "employment_type": null,
-      "external_id": "data engineer:93491414",
+      "external_id": "data engineer:92441565",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -62,132 +60,125 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-15T11:20:12Z",
-      "public_slug": "senior-data-platform-engineer-ai-cloud-remote-shell-singapore-pte-ltd-jnrcr4wn",
-      "role_key": "freehire:senior-data-platform-engineer-ai-cloud-remote-shell-singapore-pte-ltd-jnrcr4wn",
+      "posted_at": "2026-09-29T09:57:11Z",
+      "public_slug": "senior-data-platform-engineer-cde-ai-automation-land-transport-authority-lta-singapore-q5hycv5p",
+      "role_key": "freehire:senior-data-platform-engineer-cde-ai-automation-land-transport-authority-lta-singapore-q5hycv5p",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93491414__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Platform Engineer — AI, Cloud, Remote"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441565__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Platform Engineer — CDE & AI Automation"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1145,
-      "company": "QUESS SELECTION & SERVICES PTE. LTD.",
+      "candidate_seq": 1283,
+      "company": "TikTok",
       "employment_type": null,
-      "external_id": "data engineer:93489089",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T11:20:09Z",
-      "public_slug": "senior-cloud-data-engineer-pipelines-ai-lakehouse-quess-selection-services-pte-ltd-4wgaqis6",
-      "role_key": "freehire:senior-cloud-data-engineer-pipelines-ai-lakehouse-quess-selection-services-pte-ltd-4wgaqis6",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93489089__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Cloud Data Engineer: Pipelines, AI & Lakehouse"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1146,
-      "company": "KOPI RECRUIT PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93490982",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T11:20:01Z",
-      "public_slug": "senior-data-engineer-ai-driven-data-pipelines-insights-kopi-recruit-pte-ltd-vls22rvv",
-      "role_key": "freehire:senior-data-engineer-ai-driven-data-pipelines-insights-kopi-recruit-pte-ltd-vls22rvv",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490982__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer: AI-Driven Data Pipelines & Insights"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1147,
-      "company": "TIKTOK PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93490620",
+      "external_id": "backend developer:92440357",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-15T11:19:59Z",
-      "public_slug": "big-data-engineer-scalable-ml-recommendation-infra-tiktok-pte-ltd-hvabnjbx",
-      "role_key": "freehire:big-data-engineer-scalable-ml-recommendation-infra-tiktok-pte-ltd-hvabnjbx",
+      "posted_at": "2026-09-29T09:56:33Z",
+      "public_slug": "backend-engineer-global-live-ai-infrastructure-singapore-singapore-technology-backend-regular-tiktok-heki736v",
+      "role_key": "freehire:backend-engineer-global-live-ai-infrastructure-singapore-singapore-technology-backend-regular-tiktok-heki736v",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490620__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Big Data Engineer: Scalable ML & Recommendation Infra"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440357__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore Singapore Technology - Backend Regular"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1148,
-      "company": "JOBSTER PRIVATE LTD.",
+      "candidate_seq": 1284,
+      "company": "TikTok",
       "employment_type": null,
-      "external_id": "full stack developer:93489178",
+      "external_id": "backend developer:92441685",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-15T11:19:54Z",
-      "public_slug": "full-stack-engineer-for-ai-driven-government-pilots-jobster-private-ltd-is6tv7kh",
-      "role_key": "freehire:full-stack-engineer-for-ai-driven-government-pilots-jobster-private-ltd-is6tv7kh",
+      "posted_at": "2026-09-29T09:56:33Z",
+      "public_slug": "backend-engineer-live-streaming-ai-driven-systems-tiktok-fs357w2j",
+      "role_key": "freehire:backend-engineer-live-streaming-ai-driven-systems-tiktok-fs357w2j",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93489178__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer for AI-Driven Government Pilots"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441685__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer – Live Streaming & AI-Driven Systems"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1149,
-      "company": "UIC ASIAN COMPUTER SERVICES PTE LTD",
+      "candidate_seq": 1285,
+      "company": "Millennium Management LLC",
       "employment_type": null,
-      "external_id": "full stack developer:93491629",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
+      "external_id": "devops engineer:92441192",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-15T11:19:54Z",
-      "public_slug": "enterprise-ai-full-stack-engineer-uic-asian-computer-services-pte-ltd-xfc22tfy",
-      "role_key": "freehire:enterprise-ai-full-stack-engineer-uic-asian-computer-services-pte-ltd-xfc22tfy",
+      "posted_at": "2026-09-29T09:56:32Z",
+      "public_slug": "ai-devops-engineer-automate-deployments-elevate-millennium-management-llc-az76p4dp",
+      "role_key": "freehire:ai-devops-engineer-automate-deployments-elevate-millennium-management-llc-az76p4dp",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93491629__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Enterprise AI Full-Stack Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441192__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI DevOps Engineer — Automate Deployments & Elevate"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1286,
+      "company": "Millennium Management LLC",
+      "employment_type": null,
+      "external_id": "devops engineer:92442409",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:31Z",
+      "public_slug": "ai-devops-engineer-millennium-management-llc-53yvq2aw",
+      "role_key": "freehire:ai-devops-engineer-millennium-management-llc-53yvq2aw",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92442409__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI DevOps Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1287,
+      "company": "Lithan",
+      "employment_type": null,
+      "external_id": "lithan.zohorecruit.com:316649000042047067",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Geylang Road, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T00:00:00Z",
+      "public_slug": "adjunct-faculty-data-science-azure-ai-singapore-lithan-eu62zbvd",
+      "role_key": "freehire:adjunct-faculty-data-science-azure-ai-singapore-lithan-eu62zbvd",
+      "source": "zohorecruit",
+      "source_url": "https://lithan.zohorecruit.com/jobs/Careers/316649000042047067?utm_source=freehire.me",
+      "title": "Adjunct Faculty Data Science (Azure AI) - Singapore"
     }
   ],
-  "generated_at": "2026-11-09T03:01:54.049775Z",
+  "generated_at": "2026-11-09T12:11:42.082516Z",
   "market": "SG",
-  "max_candidate_seq": 1149,
-  "min_candidate_seq": 1141,
+  "max_candidate_seq": 1287,
+  "min_candidate_seq": 1280,
   "shard_index": 19,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

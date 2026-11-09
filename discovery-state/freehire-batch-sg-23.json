@@ -4,185 +4,192 @@
     {
       "ai_score": 4,
       "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1332,
+      "company": "Singtel Group",
+      "employment_type": null,
+      "external_id": "data engineer:91559583",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-16T11:59:26Z",
+      "public_slug": "registration-of-interest-for-aida-talent-acceleration-day-sept-2026-senior-ai-data-engineer-singtel-group-sozvp4mg",
+      "role_key": "freehire:registration-of-interest-for-aida-talent-acceleration-day-sept-2026-senior-ai-data-engineer-singtel-group-sozvp4mg",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91559583__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Registration of Interest for #AIDA Talent Acceleration Day (Sept 2026) - Senior AI Data Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1333,
+      "company": "IFIS ASIA HOLDINGS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "devops engineer:91557012",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-16T11:59:05Z",
+      "public_slug": "senior-full-stack-engineer-ai-cloud-devops-ifis-asia-holdings-pte-ltd-d4ifet5j",
+      "role_key": "freehire:senior-full-stack-engineer-ai-cloud-devops-ifis-asia-holdings-pte-ltd-d4ifet5j",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91557012__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer - AI, Cloud & DevOps"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1335,
+      "company": "ocbc",
+      "employment_type": null,
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/MGR-AVP--AI-and-Data-Analyst_JR00011079",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "OCBC Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-16T00:00:00Z",
+      "public_slug": "mgr-avp-ai-and-data-analyst-ocbc-7aa36hlb",
+      "role_key": "freehire:mgr-avp-ai-and-data-analyst-ocbc-7aa36hlb",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/MGR-AVP--AI-and-Data-Analyst_JR00011079?utm_source=freehire.me",
+      "title": "MGR/AVP, AI and Data Analyst"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 1336,
+      "company": "Grab",
+      "employment_type": null,
+      "external_id": "Grab:744000149524219",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-09-15T07:49:47Z",
+      "public_slug": "senior-data-scientist-consumer-experience-grab-52hduthd",
+      "role_key": "freehire:senior-data-scientist-consumer-experience-grab-52hduthd",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/Grab/744000149524219-senior-data-scientist-consumer-experience-?utm_source=freehire.me",
+      "title": "Senior Data Scientist (Consumer Experience)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
         "title:ml"
       ],
-      "candidate_seq": 1188,
-      "company": "Epergne Solutions",
+      "candidate_seq": 1337,
+      "company": "TikTok",
       "employment_type": null,
-      "external_id": "data engineer:93159838",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-11T11:20:58Z",
-      "public_slug": "databricks-data-engineer-ml-ops-platform-modernization-epergne-solutions-5xqjexpc",
-      "role_key": "freehire:databricks-data-engineer-ml-ops-platform-modernization-epergne-solutions-5xqjexpc",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159838__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Databricks Data Engineer: ML Ops & Platform Modernization"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1189,
-      "company": "Helius Technologies",
-      "employment_type": null,
-      "external_id": "full stack developer:93159747",
+      "external_id": "data engineer:90891196",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-11T11:20:37Z",
-      "public_slug": "senior-full-stack-developer-ai-and-cloud-native-applications-helius-technologies-4mcrvv72",
-      "role_key": "freehire:senior-full-stack-developer-ai-and-cloud-native-applications-helius-technologies-4mcrvv72",
+      "posted_at": "2026-09-14T23:58:57Z",
+      "public_slug": "machine-learning-engineer-data-mining-tiktok-shop-tiktok-x3gagncx",
+      "role_key": "freehire:machine-learning-engineer-data-mining-tiktok-shop-tiktok-x3gagncx",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159747__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full Stack Developer — AI and Cloud-Native Applications"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90891196__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Machine Learning Engineer (Data Mining) - TikTok Shop"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:ml"
       ],
-      "candidate_seq": 1190,
+      "candidate_seq": 1338,
       "company": "TikTok",
       "employment_type": null,
-      "external_id": "backend developer:93158767",
+      "external_id": "data engineer:90892507",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-11T11:20:33Z",
-      "public_slug": "global-live-backend-engineer-ai-driven-infrastructure-tiktok-kxjhjr7z",
-      "role_key": "freehire:global-live-backend-engineer-ai-driven-infrastructure-tiktok-kxjhjr7z",
+      "posted_at": "2026-09-14T23:58:56Z",
+      "public_slug": "e-commerce-data-mining-ml-engineer-tiktok-63he2gxj",
+      "role_key": "freehire:e-commerce-data-mining-ml-engineer-tiktok-63he2gxj",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93158767__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Global Live Backend Engineer - AI-Driven Infrastructure"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90892507__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "E-commerce Data Mining ML Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:ml"
       ],
-      "candidate_seq": 1191,
+      "candidate_seq": 1339,
       "company": "TikTok",
       "employment_type": null,
-      "external_id": "backend developer:93161620",
+      "external_id": "data engineer:90447805",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-11T11:20:32Z",
-      "public_slug": "backend-engineer-global-live-ai-infrastructure-singapore-tiktok-4qp6ke55",
-      "role_key": "freehire:backend-engineer-global-live-ai-infrastructure-singapore-tiktok-4qp6ke55",
+      "posted_at": "2026-09-14T16:02:44Z",
+      "public_slug": "ml-engineer-e-commerce-insights-data-pipelines-tiktok-memrtied",
+      "role_key": "freehire:ml-engineer-e-commerce-insights-data-pipelines-tiktok-memrtied",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93161620__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90447805__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "ML Engineer - E-commerce Insights & Data Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1192,
+      "candidate_seq": 1340,
       "company": "TikTok",
       "employment_type": null,
-      "external_id": "backend developer:93160287",
+      "external_id": "data engineer:90395645",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-11T11:20:32Z",
-      "public_slug": "go-backend-engineer-for-speech-ai-platform-tiktok-zocscte6",
-      "role_key": "freehire:go-backend-engineer-for-speech-ai-platform-tiktok-zocscte6",
+      "posted_at": "2026-09-14T16:02:43Z",
+      "public_slug": "ai-native-data-platform-engineer-graduate-2027-start-tiktok-yhaaaczo",
+      "role_key": "freehire:ai-native-data-platform-engineer-graduate-2027-start-tiktok-yhaaaczo",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93160287__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Go Backend Engineer for Speech AI Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1193,
-      "company": "VAST DATA SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93111626",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:19:16Z",
-      "public_slug": "onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
-      "role_key": "freehire:onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111626__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Onsite AI Data Platform Engineer — Rapid Deployments"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:genai",
-        "jd:rag",
-        "jd:nlp"
-      ],
-      "candidate_seq": 1194,
-      "company": "JEET ANALYTICS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93115365",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:19:02Z",
-      "public_slug": "software-data-engineering-specialist-jeet-analytics-pte-ltd-glfakeru",
-      "role_key": "freehire:software-data-engineering-specialist-jeet-analytics-pte-ltd-glfakeru",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115365__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Software & Data Engineering Specialist"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1195,
-      "company": "DEX DIGITAL TECHNOLOGIES PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93112253",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:56Z",
-      "public_slug": "senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
-      "role_key": "freehire:senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112253__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: AI-Powered, Scalable Data Infra"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90395645__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Native Data Platform Engineer — Graduate (2027 Start)"
     }
   ],
-  "generated_at": "2026-11-09T03:01:54.049775Z",
+  "generated_at": "2026-11-09T12:11:42.082516Z",
   "market": "SG",
-  "max_candidate_seq": 1195,
-  "min_candidate_seq": 1188,
+  "max_candidate_seq": 1340,
+  "min_candidate_seq": 1332,
   "shard_index": 23,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

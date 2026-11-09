@@ -1,192 +1,215 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 941,
-      "company": "Firmus Technologies ",
-      "employment_type": "full_time",
-      "external_id": "firmus:5446110008",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-04T00:51:21Z",
-      "public_slug": "senior-ai-engineer-physics-ai-firmus-technologies-lp2pyvc7",
-      "role_key": "freehire:senior-ai-engineer-physics-ai-firmus-technologies-lp2pyvc7",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/firmus/jobs/5446110008?utm_source=freehire.me",
-      "title": "Senior AI Engineer , Physics AI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 942,
-      "company": "Firmus Technologies ",
-      "employment_type": "full_time",
-      "external_id": "firmus:5417753008",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-04T00:51:21Z",
-      "public_slug": "senior-ai-engineer-kubernetes-customised-scheduler-firmus-technologies-zxptjizx",
-      "role_key": "freehire:senior-ai-engineer-kubernetes-customised-scheduler-firmus-technologies-zxptjizx",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/firmus/jobs/5417753008?utm_source=freehire.me",
-      "title": "Senior AI Engineer (Kubernetes & Customised Scheduler)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 943,
-      "company": "Firmus Technologies ",
-      "employment_type": "full_time",
-      "external_id": "firmus:5407469008",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-04T00:51:21Z",
-      "public_slug": "senior-ai-infrastructure-engineer-observability-firmus-technologies-lmckds3b",
-      "role_key": "freehire:senior-ai-infrastructure-engineer-observability-firmus-technologies-lmckds3b",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/firmus/jobs/5407469008?utm_source=freehire.me",
-      "title": "Senior AI Infrastructure Engineer, Observability "
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 944,
-      "company": "HAYS SPECIALIST RECRUITMENT PTE. LTD.",
+      "candidate_seq": 1026,
+      "company": "GVT Government Technology Agency",
       "employment_type": null,
-      "external_id": ":1489cd2c76eed75a727cdb0d4d030d9e",
+      "external_id": "data engineer:93973016",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T17:59:59Z",
+      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
+      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-gvt-government-technology-agency-r75imbga",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93973016__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1031,
+      "company": "Nanyang Technological University",
+      "employment_type": null,
+      "external_id": "6290:95469345",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "North Region",
+      "market": "SG",
+      "posted_at": "2026-10-23T13:48:31Z",
+      "public_slug": "ai-engineer-dev-ops-nanyang-technological-university-gmlx7h5x",
+      "role_key": "freehire:ai-engineer-dev-ops-nanyang-technological-university-gmlx7h5x",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95469345?utm_source=freehire.me",
+      "title": "AI Engineer, Dev Ops"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1033,
+      "company": "Micron Semiconductors",
+      "employment_type": null,
+      "external_id": "6290:95468494",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "full-stack-solution-engineer-ai-emerging-technology-hays-specialist-recruitment-pte-ltd-anf2njty",
-      "role_key": "freehire:full-stack-solution-engineer-ai-emerging-technology-hays-specialist-recruitment-pte-ltd-anf2njty",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/1489cd2c76eed75a727cdb0d4d030d9e?utm_source=freehire.me",
-      "title": "Full Stack Solution Engineer | AI & Emerging Technology"
+      "posted_at": "2026-10-23T12:11:02Z",
+      "public_slug": "ai-engineer-micron-semiconductors-55cs736q",
+      "role_key": "freehire:ai-engineer-micron-semiconductors-55cs736q",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95468494?utm_source=freehire.me",
+      "title": "AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 946,
-      "company": "BILLIGENCE CONSULTANCY PTE. LTD.",
+      "candidate_seq": 1034,
+      "company": "Micron Semiconductors",
       "employment_type": null,
-      "external_id": ":982b34d93f249f9d0dde49d240d7022f",
+      "external_id": "6290:95468483",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T12:09:49Z",
+      "public_slug": "ai-engineer-smai-micron-semiconductors-rlcf6oav",
+      "role_key": "freehire:ai-engineer-smai-micron-semiconductors-rlcf6oav",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95468483?utm_source=freehire.me",
+      "title": "AI Engineer, SMAI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1040,
+      "company": "OCBC Bank",
+      "employment_type": null,
+      "external_id": "6283:95470195",
       "flags": [
-        "agency_or_outstaff_hint"
+        "experience_5_plus_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "full-stack-developer-ai-e-commerce-architecture-experience-billigence-consultancy-pte-ltd-u7xqwlhp",
-      "role_key": "freehire:full-stack-developer-ai-e-commerce-architecture-experience-billigence-consultancy-pte-ltd-u7xqwlhp",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/982b34d93f249f9d0dde49d240d7022f?utm_source=freehire.me",
-      "title": "Full Stack Developer - AI & E-Commerce architecture experience"
+      "posted_at": "2026-10-23T07:30:00Z",
+      "public_slug": "vp-ai-and-data-analyst-ocbc-bank-vy6b5xov",
+      "role_key": "freehire:vp-ai-and-data-analyst-ocbc-bank-vy6b5xov",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95470195?utm_source=freehire.me",
+      "title": "VP, AI and Data Analyst"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1041,
+      "company": "Micron Semiconductors",
+      "employment_type": null,
+      "external_id": "6283:95462297",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T07:15:44Z",
+      "public_slug": "sr-ai-engineer-smai-micron-semiconductors-zhqej7hy",
+      "role_key": "freehire:sr-ai-engineer-smai-micron-semiconductors-zhqej7hy",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95462297?utm_source=freehire.me",
+      "title": "Sr AI Engineer, SMAI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ml"
       ],
-      "candidate_seq": 947,
-      "company": "PIPO RESOURCE (SG) PTE. LTD.",
+      "candidate_seq": 1042,
+      "company": "Plaud",
+      "employment_type": "full_time",
+      "external_id": "plaud:57a36c66-11ae-4e86-9587-987bfaac7fd8",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-23T07:06:27Z",
+      "public_slug": "machine-learning-engineer-speech-audio-singapore-plaud-flksxegs",
+      "role_key": "freehire:machine-learning-engineer-speech-audio-singapore-plaud-flksxegs",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/Plaud/57a36c66-11ae-4e86-9587-987bfaac7fd8?utm_source=freehire.me",
+      "title": "Machine Learning Engineer (Speech/Audio) - Singapore"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 1043,
+      "company": "MAESTRO HUMAN RESOURCE PTE. LTD.",
       "employment_type": null,
-      "external_id": ":a683cc5586b02824b7e313011ebeda13",
+      "external_id": ":0b86bb01754cf7284c46b2de02b573b7",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "machine-learning-engineer-payment-risk-global-payment-singapore-pipo-resource-sg-pte-ltd-glxdexni",
-      "role_key": "freehire:machine-learning-engineer-payment-risk-global-payment-singapore-pipo-resource-sg-pte-ltd-glxdexni",
+      "posted_at": "2026-10-23T00:00:00Z",
+      "public_slug": "full-stack-developer-amk-maestro-human-resource-pte-ltd-j7olggcl",
+      "role_key": "freehire:full-stack-developer-amk-maestro-human-resource-pte-ltd-j7olggcl",
       "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/a683cc5586b02824b7e313011ebeda13?utm_source=freehire.me",
-      "title": "Machine Learning Engineer (Payment & Risk) - Global Payment - Singapore"
+      "source_url": "https://www.mycareersfuture.gov.sg/job/0b86bb01754cf7284c46b2de02b573b7?utm_source=freehire.me",
+      "title": "Full-Stack Developer (AMK)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 948,
-      "company": "NTT SINGAPORE PTE. LTD.",
+      "candidate_seq": 1044,
+      "company": "Micron",
       "employment_type": null,
-      "external_id": ":30ea92390d0c2541d726b3c43e5b4a01",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "ict-infrastructure-engineer-ai-infrastructure-ntt-singapore-pte-ltd-6wlrnwwb",
-      "role_key": "freehire:ict-infrastructure-engineer-ai-infrastructure-ntt-singapore-pte-ltd-6wlrnwwb",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/30ea92390d0c2541d726b3c43e5b4a01?utm_source=freehire.me",
-      "title": "ICT Infrastructure Engineer (AI Infrastructure)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
+      "external_id": "careers.micron.com/micron.com:43785707",
+      "flags": [
+        "seniority_hint"
       ],
-      "candidate_seq": 949,
-      "company": "NETWEB PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":5150ee17a64b9bf0179ff8719c94e2cd",
-      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-28T00:00:00Z",
-      "public_slug": "pre-sales-engineer-ai-hpc-cloud-infrastructure-netweb-pte-ltd-3673652g",
-      "role_key": "freehire:pre-sales-engineer-ai-hpc-cloud-infrastructure-netweb-pte-ltd-3673652g",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/5150ee17a64b9bf0179ff8719c94e2cd?utm_source=freehire.me",
-      "title": "Pre-Sales Engineer ( AI, HPC, Cloud Infrastructure )"
+      "posted_at": "2026-10-23T00:00:00Z",
+      "public_slug": "sr-ai-engineer-smai-micron-qnnzckwk",
+      "role_key": "freehire:sr-ai-engineer-smai-micron-qnnzckwk",
+      "source": "eightfold",
+      "source_url": "https://careers.micron.com/careers/job/43785707?utm_source=freehire.me",
+      "title": "Sr AI Engineer, SMAI"
     }
   ],
-  "generated_at": "2026-11-09T03:01:54.049775Z",
+  "generated_at": "2026-11-09T12:11:42.082516Z",
   "market": "SG",
-  "max_candidate_seq": 949,
-  "min_candidate_seq": 941,
+  "max_candidate_seq": 1044,
+  "min_candidate_seq": 1026,
   "shard_index": 1,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

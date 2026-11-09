@@ -6,100 +6,36 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1120,
-      "company": "Testing Site - JPMC",
+      "candidate_seq": 1229,
+      "company": "7600 Accenture Pte Ltd Company",
       "employment_type": null,
-      "external_id": "react developer:93581881",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-18T13:46:17Z",
-      "public_slug": "frontend-engineer-iii-react-typescript-ai-driven-ui-testing-site-jpmc-ay3silih",
-      "role_key": "freehire:frontend-engineer-iii-react-typescript-ai-driven-ui-testing-site-jpmc-ay3silih",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93581881__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Frontend Engineer III - React/TypeScript + AI-Driven UI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1121,
-      "company": "Straive",
-      "employment_type": null,
-      "external_id": "data engineer:93533412",
+      "external_id": "data engineer:92763668",
       "flags": [
         "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-17T13:18:15Z",
-      "public_slug": "senior-cloud-data-ai-solutions-engineer-aws-snowflake-straive-etk72rbb",
-      "role_key": "freehire:senior-cloud-data-ai-solutions-engineer-aws-snowflake-straive-etk72rbb",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533412__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Cloud Data & AI Solutions Engineer — AWS & Snowflake"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1122,
-      "company": "Infosys Compaz (iCompaz)",
-      "employment_type": null,
-      "external_id": "data engineer:93531311",
-      "flags": [
         "experience_5_plus_hint",
+        "seniority_hint",
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-17T13:18:14Z",
-      "public_slug": "data-business-analyst-ai-engineer-infosys-compaz-icompaz-6e4hxcuj",
-      "role_key": "freehire:data-business-analyst-ai-engineer-infosys-compaz-icompaz-6e4hxcuj",
+      "posted_at": "2026-10-06T13:58:46Z",
+      "public_slug": "senior-data-ai-presales-engineer-aws-fde-7600-accenture-pte-ltd-company-bsdsawac",
+      "role_key": "freehire:senior-data-ai-presales-engineer-aws-fde-7600-accenture-pte-ltd-company-bsdsawac",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531311__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data Business Analyst & AI Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763668__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & AI Presales Engineer - AWS FDE"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1125,
-      "company": "PathGen",
+      "candidate_seq": 1237,
+      "company": "United Overseas Bank Limited",
       "employment_type": null,
-      "external_id": "data engineer:93534189",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:43Z",
-      "public_slug": "hybrid-platform-data-engineer-for-genomics-ai-pathgen-bk6k7fiv",
-      "role_key": "freehire:hybrid-platform-data-engineer-for-genomics-ai-pathgen-bk6k7fiv",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93534189__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Hybrid Platform Data Engineer for Genomics AI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1126,
-      "company": "TIKTOK PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93532022",
+      "external_id": "data engineer:92762061",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -108,43 +44,43 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-16T13:04:40Z",
-      "public_slug": "senior-big-data-engineer-large-scale-analytics-ml-tiktok-pte-ltd-2ultnmwa",
-      "role_key": "freehire:senior-big-data-engineer-large-scale-analytics-ml-tiktok-pte-ltd-2ultnmwa",
+      "posted_at": "2026-10-05T11:56:29Z",
+      "public_slug": "senior-data-engineer-real-time-lakehouse-ai-data-1011-united-overseas-bank-ltd-354oaxuo",
+      "role_key": "freehire:senior-data-engineer-real-time-lakehouse-ai-data-1011-united-overseas-bank-ltd-354oaxuo",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93532022__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Big Data Engineer - Large-Scale Analytics & ML"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92762061__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer: Real‑Time Lakehouse & AI Data"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1128,
-      "company": "JOBSTER PRIVATE LTD.",
+      "candidate_seq": 1239,
+      "company": "SEA Singapore",
       "employment_type": null,
-      "external_id": "full stack developer:93531599",
+      "external_id": "backend developer:92763531",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-16T13:04:31Z",
-      "public_slug": "full-stack-engineer-compliance-ai-driven-security-jobster-private-ltd-c3rp544h",
-      "role_key": "freehire:full-stack-engineer-compliance-ai-driven-security-jobster-private-ltd-c3rp544h",
+      "posted_at": "2026-10-05T11:55:53Z",
+      "public_slug": "ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
+      "role_key": "freehire:ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer: Compliance & AI-Driven Security"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763531__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Backend Engineer for Scalable APIs"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1129,
-      "company": "JASS TECH PTE. LTD.",
+      "candidate_seq": 1240,
+      "company": "SEA Singapore",
       "employment_type": null,
-      "external_id": "full stack developer:93533643",
+      "external_id": "backend developer:92763558",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -153,39 +89,107 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-16T13:04:31Z",
-      "public_slug": "senior-full-stack-engineer-cloud-native-ai-jass-tech-pte-ltd-cnvi4rw3",
-      "role_key": "freehire:senior-full-stack-engineer-cloud-native-ai-jass-tech-pte-ltd-cnvi4rw3",
+      "posted_at": "2026-10-05T11:55:53Z",
+      "public_slug": "senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
+      "role_key": "freehire:senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533643__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full Stack Engineer: Cloud-Native & AI"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763558__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer, AI-Driven Product – Singapore"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1130,
-      "company": "Centre for Strategic Infocomm Technologies",
+      "candidate_seq": 1241,
+      "company": "Micron",
       "employment_type": null,
-      "external_id": "devops engineer:93531624",
+      "external_id": "careers.micron.com/micron.com:44316899",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-16T13:04:17Z",
-      "public_slug": "knowledge-management-platform-engineer-ai-devops-scale-centre-for-strategic-infocomm-technologies-hyhr2prx",
-      "role_key": "freehire:knowledge-management-platform-engineer-ai-devops-scale-centre-for-strategic-infocomm-technologies-hyhr2prx",
+      "posted_at": "2026-10-05T00:00:00Z",
+      "public_slug": "ai-engineer-micron-muyr3lzo",
+      "role_key": "freehire:ai-engineer-micron-muyr3lzo",
+      "source": "eightfold",
+      "source_url": "https://careers.micron.com/careers/job/44316899?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1245,
+      "company": "OCBC Group",
+      "employment_type": null,
+      "external_id": "data engineer:92714974",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-04T09:56:47Z",
+      "public_slug": "vp-data-engineer-cloud-native-ai-platform-leader-ocbc-bank-ojzwsi4n",
+      "role_key": "freehire:vp-data-engineer-cloud-native-ai-platform-leader-ocbc-bank-ojzwsi4n",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531624__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Knowledge Management Platform Engineer - AI, DevOps & Scale"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92714974__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "VP Data Engineer: Cloud‑Native AI Platform Leader"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1246,
+      "company": "OCBC Group",
+      "employment_type": null,
+      "external_id": "data engineer:92710706",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-04T09:56:46Z",
+      "public_slug": "avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-i2wgfbd7",
+      "role_key": "freehire:avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-i2wgfbd7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92710706__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AVP Data Engineer - Enterprise Data & AI Platforms"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1248,
+      "company": "SINGAPORE AIRLINES LIMITED",
+      "employment_type": null,
+      "external_id": "devops engineer:92711019",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-04T09:56:25Z",
+      "public_slug": "senior-software-engineer-devops-cloud-ai-delivery-singapore-airlines-limited-mktjc6xw",
+      "role_key": "freehire:senior-software-engineer-devops-cloud-ai-delivery-singapore-airlines-limited-mktjc6xw",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92711019__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Software Engineer - DevOps, Cloud & AI Delivery"
     }
   ],
-  "generated_at": "2026-11-09T03:01:54.049775Z",
+  "generated_at": "2026-11-09T12:11:42.082516Z",
   "market": "SG",
-  "max_candidate_seq": 1130,
-  "min_candidate_seq": 1120,
+  "max_candidate_seq": 1248,
+  "min_candidate_seq": 1229,
   "shard_index": 17,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

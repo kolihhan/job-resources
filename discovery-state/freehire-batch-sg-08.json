@@ -1,193 +1,207 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 999,
-      "company": "Land Transport Authority",
+      "candidate_seq": 1131,
+      "company": "Hytech",
       "employment_type": null,
-      "external_id": "data engineer:94033839",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:13Z",
-      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-jhdu2psm",
-      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-land-transport-authority-jhdu2psm",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033839__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1000,
-      "company": "Public Service Division",
-      "employment_type": null,
-      "external_id": "data engineer:94034249",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:13Z",
-      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-public-service-division-ryrph4j3",
-      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-public-service-division-ryrph4j3",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034249__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1001,
-      "company": "Land Transport Authority",
-      "employment_type": null,
-      "external_id": "data engineer:94033937",
+      "external_id": "devops engineer:93531551",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:10Z",
-      "public_slug": "transport-ai-data-engineer-real-time-pipelines-governance-land-transport-authority-jhgl63kb",
-      "role_key": "freehire:transport-ai-data-engineer-real-time-pipelines-governance-land-transport-authority-jhgl63kb",
+      "posted_at": "2026-10-16T13:04:15Z",
+      "public_slug": "ai-powered-devops-engineer-aws-kubernetes-ci-cd-hytech-rsk4xqxs",
+      "role_key": "freehire:ai-powered-devops-engineer-aws-kubernetes-ci-cd-hytech-rsk4xqxs",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033937__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Transport AI Data Engineer: Real-Time Pipelines & Governance"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered DevOps Engineer – AWS, Kubernetes, CI/CD"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1002,
-      "company": "Public Service Division",
+      "candidate_seq": 1132,
+      "company": "Sea",
       "employment_type": null,
-      "external_id": "data engineer:94034504",
+      "external_id": "backend developer:93533484",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:10Z",
+      "public_slug": "ai-powered-backend-engineer-scale-apis-impact-sea-sxxhhrht",
+      "role_key": "freehire:ai-powered-backend-engineer-scale-apis-impact-sea-sxxhhrht",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533484__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered Backend Engineer — Scale APIs & Impact"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1133,
+      "company": "NCS Group",
+      "employment_type": null,
+      "external_id": "6290:95325311",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T09:27:18Z",
+      "public_slug": "eg-fullstack-developer-ai-applications-ncs-group-hgoan3st",
+      "role_key": "freehire:eg-fullstack-developer-ai-applications-ncs-group-hgoan3st",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95325311?utm_source=freehire.me",
+      "title": "#EG Fullstack Developer – AI Applications"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1134,
+      "company": "Paves Technologies",
+      "employment_type": null,
+      "external_id": "6290:95320198",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-16T09:26:06Z",
+      "public_slug": "ai-engineer-intermediate-paves-technologies-4nvvzpxy",
+      "role_key": "freehire:ai-engineer-intermediate-paves-technologies-4nvvzpxy",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95320198?utm_source=freehire.me",
+      "title": "AI Engineer – Intermediate"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1135,
+      "company": "Monee",
+      "employment_type": null,
+      "external_id": "6283:95319385",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T08:55:18Z",
+      "public_slug": "business-intelligence-analyst-ai-credit-business-intelligence-monee-aafv6a2g",
+      "role_key": "freehire:business-intelligence-analyst-ai-credit-business-intelligence-monee-aafv6a2g",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95319385?utm_source=freehire.me",
+      "title": "Business Intelligence Analyst (AI) - Credit, Business Intelligence"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1136,
+      "company": "Monee",
+      "employment_type": null,
+      "external_id": "6283:95319442",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:09Z",
-      "public_slug": "senior-data-engineer-transport-ai-platform-public-service-division-a5v4qxfo",
-      "role_key": "freehire:senior-data-engineer-transport-ai-platform-public-service-division-a5v4qxfo",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034504__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer — Transport AI Platform"
+      "posted_at": "2026-10-16T08:55:12Z",
+      "public_slug": "senior-business-intelligence-analyst-ai-credit-business-intelligence-monee-amuh5gut",
+      "role_key": "freehire:senior-business-intelligence-analyst-ai-credit-business-intelligence-monee-amuh5gut",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95319442?utm_source=freehire.me",
+      "title": "Senior Business Intelligence Analyst (AI) – Credit, Business Intelligence"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1003,
-      "company": "Senoko Energy Pte Ltd",
+      "candidate_seq": 1137,
+      "company": "Energy Market Authority",
       "employment_type": null,
-      "external_id": "data engineer:94036459",
+      "external_id": "6290:95316938",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "West Region",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:09Z",
-      "public_slug": "senior-data-engineer-digitalization-ai-automation-senoko-energy-pte-ltd-z7ygde2k",
-      "role_key": "freehire:senior-data-engineer-digitalization-ai-automation-senoko-energy-pte-ltd-z7ygde2k",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036459__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer: Digitalization & AI Automation"
+      "posted_at": "2026-10-16T07:40:40Z",
+      "public_slug": "ai-solutions-engineer-energy-market-authority-gucoxzjd",
+      "role_key": "freehire:ai-solutions-engineer-energy-market-authority-gucoxzjd",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95316938?utm_source=freehire.me",
+      "title": "AI Solutions Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1004,
-      "company": "UIC Asian Computer Services",
+      "candidate_seq": 1138,
+      "company": "F5 Networks",
       "employment_type": null,
-      "external_id": "full stack developer:94038336",
+      "external_id": "6296:95323569",
       "flags": [
-        "agency_or_outstaff_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Central Region",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:08Z",
-      "public_slug": "full-stack-ai-developer-uic-asian-computer-services-7enonkg4",
-      "role_key": "freehire:full-stack-ai-developer-uic-asian-computer-services-7enonkg4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94038336__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack AI Developer"
+      "posted_at": "2026-10-16T06:33:58Z",
+      "public_slug": "forward-deployed-engineer-ai-security-f5-networks-kpldvo6l",
+      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-networks-kpldvo6l",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95323569?utm_source=freehire.me",
+      "title": "Forward Deployed Engineer-AI Security"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1005,
-      "company": "foodpanda",
+      "candidate_seq": 1139,
+      "company": "Io Tech Solutions Limited",
       "employment_type": null,
-      "external_id": "full stack developer:94021646",
+      "external_id": "6290:95309585",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-25T12:41:07Z",
-      "public_slug": "junior-fullstack-engineer-global-platform-ai-learning-foodpanda-mafzuwhb",
-      "role_key": "freehire:junior-fullstack-engineer-global-platform-ai-learning-foodpanda-mafzuwhb",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94021646__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Junior Fullstack Engineer – Global Platform, AI Learning"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1006,
-      "company": "JOBSTER PRIVATE LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:94034730",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-25T12:41:03Z",
-      "public_slug": "full-stack-engineer-ai-assisted-cloud-native-gov-grade-jobster-private-ltd-yzpt5f4d",
-      "role_key": "freehire:full-stack-engineer-ai-assisted-cloud-native-gov-grade-jobster-private-ltd-yzpt5f4d",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034730__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer | AI-Assisted, Cloud-Native & Gov-Grade"
+      "posted_at": "2026-10-16T04:08:57Z",
+      "public_slug": "founding-ai-engineer-full-stack-background-io-tech-solutions-limited-eohtwlej",
+      "role_key": "freehire:founding-ai-engineer-full-stack-background-io-tech-solutions-limited-eohtwlej",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95309585?utm_source=freehire.me",
+      "title": "Founding AI Engineer - Full Stack Background"
     }
   ],
-  "generated_at": "2026-11-09T03:01:54.049775Z",
+  "generated_at": "2026-11-09T12:11:42.082516Z",
   "market": "SG",
-  "max_candidate_seq": 1006,
-  "min_candidate_seq": 999,
+  "max_candidate_seq": 1139,
+  "min_candidate_seq": 1131,
   "shard_index": 8,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

@@ -4,104 +4,33 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:ml"
       ],
-      "candidate_seq": 1054,
-      "company": "KARCHER ROBOTICS SINGAPORE PTE. LTD.",
+      "candidate_seq": 1188,
+      "company": "Epergne Solutions",
       "employment_type": null,
-      "external_id": ":87f8ae5a99c16f97155c2aca9acd5943",
+      "external_id": "data engineer:93159838",
       "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-22T00:00:00Z",
-      "public_slug": "robotics-ai-simulation-software-engineer-karcher-robotics-singapore-pte-ltd-hrveyuki",
-      "role_key": "freehire:robotics-ai-simulation-software-engineer-karcher-robotics-singapore-pte-ltd-hrveyuki",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/87f8ae5a99c16f97155c2aca9acd5943?utm_source=freehire.me",
-      "title": "Robotics AI & Simulation Software Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1055,
-      "company": "DIGITAL PLACE VISION PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":a0619f6f405b8bb08ca35d2e8dce78ea",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-22T00:00:00Z",
-      "public_slug": "senior-ai-engineer-digital-place-vision-pte-ltd-ri3balnp",
-      "role_key": "freehire:senior-ai-engineer-digital-place-vision-pte-ltd-ri3balnp",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/a0619f6f405b8bb08ca35d2e8dce78ea?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1060,
-      "company": "eps computer systems pte ltd",
-      "employment_type": null,
-      "external_id": "full stack developer:93793923",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-21T18:41:09Z",
-      "public_slug": "full-stack-developer-ai-enabled-eps-computer-systems-pte-ltd-r54ovs3c",
-      "role_key": "freehire:full-stack-developer-ai-enabled-eps-computer-systems-pte-ltd-r54ovs3c",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93793923__7119?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
-      "title": "Full Stack Developer (AI-Enabled)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1061,
-      "company": "accenture southeast asia",
-      "employment_type": null,
-      "external_id": "data engineer:93829807",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-21T16:43:13Z",
-      "public_slug": "senior-data-ai-presales-engineer-aws-fde-accenture-southeast-asia-r5v6z7qm",
-      "role_key": "freehire:senior-data-ai-presales-engineer-aws-fde-accenture-southeast-asia-r5v6z7qm",
+      "posted_at": "2026-10-11T11:20:58Z",
+      "public_slug": "databricks-data-engineer-ml-ops-platform-modernization-epergne-solutions-5xqjexpc",
+      "role_key": "freehire:databricks-data-engineer-ml-ops-platform-modernization-epergne-solutions-5xqjexpc",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93829807__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data & AI Presales Engineer - AWS FDE"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159838__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Databricks Data Engineer: ML Ops & Platform Modernization"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1062,
-      "company": "Sea",
+      "candidate_seq": 1189,
+      "company": "Helius Technologies",
       "employment_type": null,
-      "external_id": "backend developer:93831090",
+      "external_id": "full stack developer:93159747",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -110,86 +39,150 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-21T16:39:50Z",
-      "public_slug": "senior-backend-engineer-ai-powered-scalable-apis-sea-z46nepgd",
-      "role_key": "freehire:senior-backend-engineer-ai-powered-scalable-apis-sea-z46nepgd",
+      "posted_at": "2026-10-11T11:20:37Z",
+      "public_slug": "senior-full-stack-developer-ai-and-cloud-native-applications-helius-technologies-4mcrvv72",
+      "role_key": "freehire:senior-full-stack-developer-ai-and-cloud-native-applications-helius-technologies-4mcrvv72",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93831090__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer — AI‑Powered, Scalable APIs"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159747__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full Stack Developer — AI and Cloud-Native Applications"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1064,
-      "company": "PERSOL",
+      "candidate_seq": 1190,
+      "company": "TikTok",
       "employment_type": null,
-      "external_id": "6290:95412222",
+      "external_id": "backend developer:93158767",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Ang Mo Kio, North-East Region",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-21T09:48:25Z",
-      "public_slug": "data-engineer-ai-integration-specialist-persol-p5q3pu2v",
-      "role_key": "freehire:data-engineer-ai-integration-specialist-persol-p5q3pu2v",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95412222?utm_source=freehire.me",
-      "title": "Data Engineer, AI Integration Specialist"
+      "posted_at": "2026-10-11T11:20:33Z",
+      "public_slug": "global-live-backend-engineer-ai-driven-infrastructure-tiktok-kxjhjr7z",
+      "role_key": "freehire:global-live-backend-engineer-ai-driven-infrastructure-tiktok-kxjhjr7z",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93158767__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Global Live Backend Engineer - AI-Driven Infrastructure"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1065,
-      "company": "Digital Place Vision Pte Ltd",
+      "candidate_seq": 1191,
+      "company": "TikTok",
       "employment_type": null,
-      "external_id": "6290:95411639",
+      "external_id": "backend developer:93161620",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T11:20:32Z",
+      "public_slug": "backend-engineer-global-live-ai-infrastructure-singapore-tiktok-4qp6ke55",
+      "role_key": "freehire:backend-engineer-global-live-ai-infrastructure-singapore-tiktok-4qp6ke55",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93161620__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1192,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "backend developer:93160287",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T11:20:32Z",
+      "public_slug": "go-backend-engineer-for-speech-ai-platform-tiktok-zocscte6",
+      "role_key": "freehire:go-backend-engineer-for-speech-ai-platform-tiktok-zocscte6",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93160287__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Go Backend Engineer for Speech AI Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1193,
+      "company": "VAST DATA SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93111626",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:19:16Z",
+      "public_slug": "onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
+      "role_key": "freehire:onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111626__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Onsite AI Data Platform Engineer — Rapid Deployments"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:genai",
+        "jd:rag",
+        "jd:nlp"
+      ],
+      "candidate_seq": 1194,
+      "company": "JEET ANALYTICS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93115365",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:19:02Z",
+      "public_slug": "software-data-engineering-specialist-jeet-analytics-pte-ltd-glfakeru",
+      "role_key": "freehire:software-data-engineering-specialist-jeet-analytics-pte-ltd-glfakeru",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115365__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software & Data Engineering Specialist"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1195,
+      "company": "DEX DIGITAL TECHNOLOGIES PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:93112253",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Downtown Core, Central Region",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-21T09:21:36Z",
-      "public_slug": "senior-ai-engineer-digital-place-vision-pte-ltd-jmsy2dnl",
-      "role_key": "freehire:senior-ai-engineer-digital-place-vision-pte-ltd-jmsy2dnl",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95411639?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1066,
-      "company": "JAC Recruitment",
-      "employment_type": null,
-      "external_id": "6290:95410898",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-21T08:54:07Z",
-      "public_slug": "chief-technology-officer-saas-ai-innovation-jac-recruitment-phzqujyk",
-      "role_key": "freehire:chief-technology-officer-saas-ai-innovation-jac-recruitment-phzqujyk",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95410898?utm_source=freehire.me",
-      "title": "Chief Technology Officer (SaaS & AI Innovation)"
+      "posted_at": "2026-10-10T11:18:56Z",
+      "public_slug": "senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
+      "role_key": "freehire:senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112253__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer: AI-Powered, Scalable Data Infra"
     }
   ],
-  "generated_at": "2026-11-09T03:01:54.049775Z",
+  "generated_at": "2026-11-09T12:11:42.082516Z",
   "market": "SG",
-  "max_candidate_seq": 1066,
-  "min_candidate_seq": 1054,
+  "max_candidate_seq": 1195,
+  "min_candidate_seq": 1188,
   "shard_index": 13,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",

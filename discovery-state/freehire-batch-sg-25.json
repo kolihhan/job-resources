@@ -1,80 +1,36 @@
 {
-  "candidate_count": 3,
+  "candidate_count": 1,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1205,
-      "company": "ScienTec Consulting Pte. Ltd.",
+      "candidate_seq": 1351,
+      "company": "Singtel Group",
       "employment_type": null,
-      "external_id": "backend developer:93113359",
+      "external_id": "data engineer:91303596",
       "flags": [
-        "agency_or_outstaff_hint"
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:41Z",
-      "public_slug": "backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
-      "role_key": "freehire:backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
+      "posted_at": "2026-09-12T09:55:08Z",
+      "public_slug": "senior-ai-data-engineer-aida-singtel-group-hyocxxka",
+      "role_key": "freehire:senior-ai-data-engineer-aida-singtel-group-hyocxxka",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113359__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer - AI-Powered APIs & Data Pipelines (Hybrid)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1206,
-      "company": "Capgemini",
-      "employment_type": null,
-      "external_id": "careers.capgemini.com:1445530833",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-10T00:00:00Z",
-      "public_slug": "full-stack-engineer-data-ai-capgemini-euwhnxj5",
-      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-euwhnxj5",
-      "source": "successfactors",
-      "source_url": "https://careers.capgemini.com/job/Singapore-Full-Stack-Engineer-%28Data-&-AI%29/1445530833/?utm_source=freehire.me",
-      "title": "Full Stack Engineer (Data & AI)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1207,
-      "company": "Capgemini",
-      "employment_type": null,
-      "external_id": "careers.capgemini.com:1392728033",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-10T00:00:00Z",
-      "public_slug": "sitecore-ai-engineer-capgemini-wa5ioy3j",
-      "role_key": "freehire:sitecore-ai-engineer-capgemini-wa5ioy3j",
-      "source": "successfactors",
-      "source_url": "https://careers.capgemini.com/job/Singapore-Sitecore-AI-Engineer/1392728033/?utm_source=freehire.me",
-      "title": "Sitecore AI Engineer"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91303596__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Data Engineer #AIDA"
     }
   ],
-  "generated_at": "2026-11-09T03:01:54.049775Z",
+  "generated_at": "2026-11-09T12:11:42.082516Z",
   "market": "SG",
-  "max_candidate_seq": 1207,
-  "min_candidate_seq": 1205,
+  "max_candidate_seq": 1351,
+  "min_candidate_seq": 1351,
   "shard_index": 25,
   "source_generated_at": "2026-11-08T22:26:42.554153Z",
   "transport": "compact_metadata_byte_bounded_v1",
