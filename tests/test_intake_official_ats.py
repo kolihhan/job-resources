@@ -167,7 +167,9 @@ class OfficialATSIntakeTests(unittest.TestCase):
             rows=json.loads((root/"discovery-state"/"platform-index-sg.json").read_text())["pending"]
             self.assertEqual(len(rows),2)
             self.assertTrue(any(x["source"]=="freehire:public-api:SG" for x in rows))
-            self.assertEqual(len([x for x in rows if x["url"]==official["url"]]),1)
+            matched=[x for x in rows if x["url"]==official["url"]]
+            self.assertEqual(len(matched),1)
+            self.assertEqual(matched[0]["source"],"freehirefetch:official-ats:SG")
             self.assertEqual(report["markets"]["SG"]["sources_present"],["ATS","API"])
 
     def test_api_unavailable_is_never_empty_market_claim(self):
