@@ -69,9 +69,13 @@ A survivor is not considered handled until its Issue create succeeds and the Iss
 
 For campus/graduate/year-coded roles, campaign/program eligibility is part of verification. If the exact JD omits the graduation window, the official campaign/program window must be checked before promotion.
 
-### Exact-ID dedupe
+### Exact-ID + cross-requisition application reconciliation
 
 When a source exposes an exact job/requisition ID, the scout searches **all GitHub Issues, including closed history**, for that ID before opening the full JD. Issue search is the gate; repository code search is not a substitute.
+
+**Negative exact-ID search is not evidence of never applied.** Before creating a new APPLY/CHECK for an employer with prior activity, also search all-state Issues by employer/title/team (including different and closed requisitions) and check both Gmail accounts for **generic employer/ATS application acknowledgements**, not only quoted job IDs. An employer may repost or clone an applied job with a new ID; conversely distinct IDs may be legitimate openings. Resolve identity rather than blindly suppressing all same-employer roles.
+
+The known-role-index `weak.wait_employers` and review-dispatch `CHECK_PRIOR_SUBMISSION_HISTORY` are **advisory hints** only, never dedupe proof. If the user confirms that the exact opportunity was already applied for, mark its Issue `[WAIT]` immediately, with **user-reported** evidence when no official receipt is available; do not report it as a new APPLY. Stop and record an unresolved application-history question rather than fabricate non-submission from empty exact-ID Gmail results.
 
 ### Source hierarchy
 
