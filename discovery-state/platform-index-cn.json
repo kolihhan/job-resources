@@ -941,28 +941,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "电源软件研发工程师",
       "url": "https://www.liepin.com/job/1986292501.shtml"
-    },
-    {
-      "ats_key": "liepin:84512575",
-      "company": "金蝶",
-      "description_excerpt": "",
-      "discovery_access": "NATIVE_API_LISTING",
-      "first_seen_at": "2026-11-09T20:51:42.470461Z",
-      "key": "cn:7b7758d8da4e009c76e0",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "query": "深圳-南山区",
-      "retries": 0,
-      "seq": 46,
-      "source": "liepin:native-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "84512575",
-      "source_listing_url": "",
-      "source_platform": "猎聘",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI后端开发（国际化）",
-      "url": "https://www.liepin.com/job/1984512575.shtml"
     }
   ],
   "terminal": [
@@ -990,6 +968,30 @@
       "state": "ISSUE_VERIFIED",
       "title": "AI ML Engineer",
       "url": "https://jobs.smartrecruiters.com/QIMA/744000061755525-ai-ml-engineer"
+    },
+    {
+      "ats_key": "liepin:84512575",
+      "company": "金蝶",
+      "description_excerpt": "",
+      "discovery_access": "NATIVE_API_LISTING",
+      "first_seen_at": "2026-11-09T20:51:42.470461Z",
+      "key": "cn:7b7758d8da4e009c76e0",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "深圳-南山区",
+      "retries": 0,
+      "seq": 46,
+      "source": "liepin:native-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "84512575",
+      "source_listing_url": "",
+      "source_platform": "猎聘",
+      "state": "HARD_REJECT",
+      "title": "AI后端开发（国际化）",
+      "url": "https://www.liepin.com/job/1984512575.shtml",
+      "reason": "2026-11-10 native Liepin employer-recruiter exact JD: requires 3+ years Java backend, Spring Boot/MyBatis, overseas project experience and ERP/finance domain. Candidate's paid Laravel/Vue work does not satisfy mandatory Java/domain stack; role actually international ERP backend, not substantive AI despite AI-branded title. https://www.liepin.com/job/1984512575.shtml",
+      "evidence_url": "https://www.liepin.com/job/1984512575.shtml"
     }
   ],
   "version": 1
