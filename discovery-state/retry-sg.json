@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T12:05:00+08:00",
+  "updated_at": "2026-11-09T13:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4240,6 +4240,46 @@
       "attempts": 0,
       "next_retry_at": "2026-11-10T12:05:00+08:00",
       "evidence_note": "Official NTU R00026131 full JD requires production LLM applications, expert Python, cloud pipelines and mentoring; verify genuine requirement fit, employer work-pass feasibility and historical applications before promotion."
+    },
+    {
+      "candidate_seq": 958,
+      "role_key": "freehire:ai-systems-engineer-infra-cyber-ncs-group-btc3yasq",
+      "company": "NCS Group",
+      "title": "AI Systems Engineer (Infra Cyber)",
+      "source_url": "https://sg.jobstreet.com/job/95529149",
+      "reason_code": "official_exact_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T13:10:00+08:00"
+    },
+    {
+      "candidate_seq": 959,
+      "role_key": "freehire:ai-systems-engineer-infra-cyber-ncs3-xrxvqdyx",
+      "company": "NCS",
+      "title": "AI Systems Engineer (Infra Cyber)",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001526033-ai-systems-engineer-infra-cyber-",
+      "reason_code": "official_full_jd_unreadable_requirements_and_visa_unknown",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T13:10:00+08:00"
+    },
+    {
+      "candidate_seq": 960,
+      "role_key": "freehire:ai-product-engineer-fullstack-nas-education-tnxdzzfs",
+      "company": "NAS Education",
+      "title": "AI Product Engineer (Fullstack)",
+      "source_url": "https://sg.jobstreet.com/job/95530420",
+      "reason_code": "employer_req_full_jd_ai_ownership_and_direct_route_missing",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T13:10:00+08:00"
+    },
+    {
+      "candidate_seq": 964,
+      "role_key": "freehire:fullstack-software-engineer-ai-engineering-tiktok-live-revenue-tiktok-global-live-tiktok-pte-ltd-5mo2ovsv",
+      "company": "TikTok",
+      "title": "Fullstack Software Engineer (AI Engineering) - TikTok Live Revenue",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/dc6dfe9bef00863558c995845c72828b",
+      "reason_code": "mcf_only_currently_find_employer_req_official_jd_and_non_mcf_route",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T13:10:00+08:00"
     }
   ]
 }
