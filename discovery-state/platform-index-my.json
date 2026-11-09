@@ -119,7 +119,9 @@
         "source_verified_can_apply": "NOT_ASSERTED_BY_ASHBY_FEED",
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/884",
       "first_seen_at": "2026-11-07T11:16:43.391214Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/884",
       "key": "my:9c0b268e8be6b0da1404",
       "last_error": null,
       "market": "MY",
@@ -130,9 +132,7 @@
       "source": "gen-digital:official-ashby:MY",
       "state": "ISSUE_VERIFIED",
       "title": "AI Applied Scientist",
-      "url": "https://jobs.ashbyhq.com/gen-digital/c35bae67-de6c-45b7-b116-4c30a8c6ac73",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/884",
-      "evidence_url": "https://github.com/kolihhan/job-resources/issues/884"
+      "url": "https://jobs.ashbyhq.com/gen-digital/c35bae67-de6c-45b7-b116-4c30a8c6ac73"
     }
   ],
   "version": 1
