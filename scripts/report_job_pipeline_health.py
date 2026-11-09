@@ -53,6 +53,22 @@ def measure_queue(state,now=None):
     ingestion=parse_dt(last.get("at"))
     hours_since_ingestion=(round((now-ingestion).total_seconds()/3600,1) if ingestion else None)
     backlog=bool(p)
+    # This is a read-only worklist derived from the existing pending source rows.
+    # JD text itself stays in that canonical machine state; this is not an Issue.
+    review_ready=[]
+    for row in p:
+        review=row.get("consumer_review") or {}
+        if review.get("stage")!="FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW":
+            continue
+        review_ready.append({
+            "seq":row["seq"],"title":row.get("title",""),"url":row.get("url",""),
+            "source":row.get("source",""),"signals":review.get("signals",[]),
+            "review_flags":review.get("review_flags",[]),
+            "checked_at":review.get("checked_at"),
+            "jd_sha256":review.get("jd_sha256"),
+            "full_jd_complete":bool(review.get("full_jd_complete")),
+        })
+    review_ready.sort(key=lambda row:row["seq"])
     return {"market":market,"pending":len(p),"terminal":len(state.get("terminal",[])),
         "cursor":state["next_unacknowledged_seq"],
         "by_source":dict(sources),"by_stage":dict(stages),
@@ -63,6 +79,8 @@ def measure_queue(state,now=None):
         "last_ingestion_at":last.get("at"),"last_ingestion_source":last.get("source"),
         "hours_since_ingestion":hours_since_ingestion,
         "high_concentration":(max(sources.values())/len(p) if backlog else None),
+        "fit_review_candidates":review_ready,
+        "fit_review_with_complete_jd":sum(r["full_jd_complete"] for r in review_ready),
         "note":"Source candidate queue; pending is neither eligible APPLY nor market vacancy count."}
 
 def fetch_action_runs(token):
@@ -112,6 +130,20 @@ def summarize(data):
     for q in data["queues"]:
         lines.append(f"| {q['market']} | {q['pending']} | {q['jd_verified_awaiting_fit']} | "
                      f"{q['unreviewed']} | {q['retry_needed']} | {q['oldest_pending_age_hours']} |")
+    lines+=["","## Exact first-party roles awaiting full fit review",
+      "", "Official JD verification is not APPLY eligibility. A missing persisted snapshot",
+      "requires a fresh official read before promotion; never decide from signals alone.",
+      "", "| Market | Source role | Signals | Review flags | Complete JD in queue? |",
+      "|---|---|---|---|---|"]
+    for q in data["queues"]:
+        for role in q.get("fit_review_candidates",[]):
+            title=str(role["title"]).replace("|", "/").replace("[", "").replace("]", "")
+            link=role["url"] if str(role["url"]).startswith("https://") else ""
+            name=f"[{title}]({link})" if link else title
+            signals=", ".join(role.get("signals") or []) or "none"
+            flags=", ".join(role.get("review_flags") or []) or "none"
+            snapshot="yes" if role["full_jd_complete"] else "no — re-fetch"
+            lines.append(f"| {q['market']} | {name} | {signals} | {flags} | {snapshot} |")
     lines+=["","## Workflow evidence",
             "","| Workflow | Latest run | Conclusion | Scheduled run seen? |",
             "|---|---|---|---|"]
