@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-09T10:18:48.114677Z",
+    "at": "2026-11-09T14:57:37.924148Z",
     "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 9,
+      "already_seen": 8,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
+      "new_pending": 1,
       "observed": 9
     }
   },
   "market": "SG",
-  "next_seq": 36,
+  "next_seq": 37,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -535,6 +535,21 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Associate (Mechanical Engineering/Robotics/Mechatronics/Automation & Control Engineering/Artificial Intelligence (AI))",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Mechanical-Engineering-Robotics-Mechatronics-Automation---Control-Engineering-Artificial-Intelligence--AI--_R00015865-1"
+    },
+    {
+      "company": "OpenAI",
+      "first_seen_at": "2026-11-09T14:57:37.924026Z",
+      "key": "sg:45d0c54fb9aa76c2090f",
+      "last_error": null,
+      "market": "SG",
+      "platform": "Dev Global Jobs (public aggregator)",
+      "query": "SG/MY AI software engineering / NLP / Agent public-feed AI",
+      "retries": 0,
+      "seq": 36,
+      "source": "devglobal:public-api:SG",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Applied AI Engineer, Cyber",
+      "url": "https://devglobaljobs.com/jobs/detail/174940464"
     }
   ],
   "terminal": [
@@ -890,7 +905,9 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/885",
       "first_seen_at": "2026-11-07T09:35:18.298065Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/885",
       "key": "sg:42beb2d215caca540b5c",
       "last_error": null,
       "market": "SG",
@@ -901,9 +918,7 @@
       "source": "ntu:official-cxs:SG",
       "state": "ISSUE_VERIFIED",
       "title": "Research Fellow/Research Associate (Developing AI-enabled software for nature-positive business transformation in ASEAN)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow-Research-Associate--Developing-AI-enabled-software-for-nature-positive-business-transformation-in-ASEAN-_R00024254-1",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/885",
-      "evidence_url": "https://github.com/kolihhan/job-resources/issues/885"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow-Research-Associate--Developing-AI-enabled-software-for-nature-positive-business-transformation-in-ASEAN-_R00024254-1"
     },
     {
       "company": "Nanyang Technological University",
@@ -930,7 +945,9 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/886",
       "first_seen_at": "2026-11-07T09:35:18.297655Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/886",
       "key": "sg:9bdab79eb7dae50181d4",
       "last_error": null,
       "market": "SG",
@@ -941,9 +958,7 @@
       "source": "ntu:official-cxs:SG",
       "state": "ISSUE_VERIFIED",
       "title": "Research Engineer II (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026160",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/886",
-      "evidence_url": "https://github.com/kolihhan/job-resources/issues/886"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026160"
     }
   ],
   "version": 1
