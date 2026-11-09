@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from build_review_dispatch import build_dispatch, allowed_ats_url, classify_track
+from build_review_dispatch import build_dispatch, allowed_ats_url, classify_track, markdown_report
 
 NOW = datetime(2026, 11, 9, 12, tzinfo=timezone.utc)
 
@@ -51,6 +51,7 @@ class DispatchTests(unittest.TestCase):
                          "UNVERIFIED_INDEX_NEEDS_EXACT_EMPLOYER_JD_AND_FIT")
         self.assertEqual(output["markets"]["CN"]["verified_waiting_fit"],0)
         self.assertEqual(selected[0]["source"],"freehire:public-api:CN")
+        self.assertIn("existing queue #3",markdown_report(output))
 
     def test_origin_and_jd_proof_distinguished_from_ats_feed(self):
         p=pending("SG", 3, "Research Engineer I")
