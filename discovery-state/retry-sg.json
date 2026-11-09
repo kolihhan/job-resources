@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T21:15:00+08:00",
+  "updated_at": "2026-11-09T22:10:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4594,6 +4594,17 @@
       "next_retry_at": "2026-11-11T21:15:00+08:00",
       "missing_evidence": "Employer canonical requisition/full JD, mandatory YOE and substantive AI work, non-MCF direct route and SG work-pass gate",
       "next_source": "Official employer ATS exact-role verification; do not recycle aggregator snippet"
+    },
+    {
+      "candidate_seq": 1045,
+      "role_key": "freehire:applied-ai-product-engineer-allegis-group-singapore-private-limited-tsr736yb",
+      "company": "ALLEGIS GROUP SINGAPORE PRIVATE LIMITED",
+      "title": "Applied AI Product Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/fab8f417428130d776904e7029d3183a",
+      "reason_code": "mcf_only_route_and_substantive_ai_jd_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T22:10:00+08:00",
+      "evidence_note": "Exact MCF identity found, no verified employer direct application route; 5+ experience hint requires authoritative JD; do not promote."
     }
   ]
 }
