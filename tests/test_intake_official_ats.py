@@ -146,6 +146,62 @@ class OfficialATSIntakeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"contract mismatch"):
             process_market("MY",{"market":"SG","jobs":[]},new_state("MY"),{})
 
+    def test_combined_api_and_ats_uses_exact_employer_identity_and_provenance(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d)
+            ats=root/"ats"; api=root/"api"
+            ats.mkdir(); api.mkdir()
+            official=job("SG",3,"Example","AI Engineer")
+            provider=dict(official,source="aidevboard:public-api:SG",
+                          key="aidevboard|3",evidence="listing_only")
+            fresh=job("SG",4,"Second","LLM Engineer")
+            fresh["url"]="https://sg.jobstreet.com/job/95880022"
+            fresh.update(source="freehire:public-api:SG",evidence="listing_only")
+            (ats/"SG.json").write_text(json.dumps({"market":"SG","jobs":[official]}))
+            (api/"SG.json").write_text(json.dumps({"market":"SG","jobs":[provider,fresh]}))
+            (api/"health.json").write_text(json.dumps({"SG":{
+                "freehire":{"status":"COMPLETE"},
+                "aidevboard":{"status":"COMPLETE"}}}))
+            (root/"discovery-state").mkdir()
+            report=run(root,ats,{"strong":{"urls":[]}},api_dir=api,limit=8)
+            rows=json.loads((root/"discovery-state"/"platform-index-sg.json").read_text())["pending"]
+            self.assertEqual(len(rows),2)
+            self.assertTrue(any(x["source"]=="freehire:public-api:SG" for x in rows))
+            matched=[x for x in rows if x["url"]==official["url"]]
+            self.assertEqual(len(matched),1)
+            self.assertEqual(matched[0]["source"],"freehirefetch:official-ats:SG")
+            self.assertEqual(report["markets"]["SG"]["sources_present"],["ATS","API"])
+
+    def test_api_unavailable_is_never_empty_market_claim(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);api=root/"api";api.mkdir()
+            (api/"SG.json").write_text(json.dumps({"market":"SG","jobs":[]}))
+            (api/"health.json").write_text(json.dumps({"SG":{
+                "freehire":{"status":"UNAVAILABLE"},
+                "aidevboard":{"status":"UNAVAILABLE"}}}))
+            report=run(root,root/"noats",{},api_dir=api)
+            self.assertEqual(report["markets"]["SG"]["source"],"UNAVAILABLE")
+            self.assertIn("API_SOURCE_UNAVAILABLE",report["markets"]["SG"]["coverage_gaps"])
+
+    def test_api_reserve_remains_visible_with_near_full_sg_backlog(self):
+        state=new_state("SG")
+        for i in range(43):
+            row={"key":f"existing:{i}","seq":i+1,"company":"Legacy",
+                 "title":"Old source","url":f"https://sg.jobstreet.com/job/{80000000+i}",
+                 "state":"UNVERIFIED_INDEX"}
+            state["pending"].append(row)
+        state["next_seq"]=44
+        state["next_unacknowledged_seq"]=1
+        ats=[job("SG",i,"Alpha","AI Engineer") for i in range(90,98)]
+        api=[dict(job("SG",99,"Bravo","Research Engineer"),
+                  source="aidevboard:public-api:SG",evidence="listing_only")]
+        from intake_official_ats import process_market
+        combined={"market":"SG","jobs":ats+api}
+        out,stats=process_market("SG",combined,state,{},limit=12,max_pending=45)
+        self.assertEqual(stats["created"],2)
+        self.assertTrue(any(x.get("source")=="aidevboard:public-api:SG"
+                            for x in out["pending"]))
+
     def test_run_is_replay_safe_and_does_not_create_extra_tracking_files(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp)

@@ -58,12 +58,13 @@ def candidate(row, market):
     if not all(isinstance(row.get(k), str) and row[k].strip()
                for k in ("company", "title", "url", "key", "job_id")):
         return None
-    if row.get("evidence") not in ALLOWED_EVIDENCE or not allowed_ats_url(row["url"]):
+    if row.get("evidence") not in ALLOWED_EVIDENCE:
         return None
     url = canonical(row["url"], market)
     if not url:
         return None
-    # The upstream public snapshot is only allowed to supply employer ATS URLs.
+    # Existing canonical() is the sole trust boundary: strict recognized
+    # employer ATS/native exact job URLs, never arbitrary aggregator pages.
     return {**row, "url": url}
 
 
@@ -157,16 +158,32 @@ def process_market(market, snapshot, state, known, *, limit=12, company_cap=3,
             continue
         # Exact canonical role identity, not vendor source/key text.
         item["_track"] = classify_track(item["title"])
-        rows[item["url"]] = item
+        rows.setdefault(item["url"], item)  # first-party record wins over API repost
 
     room = max(0, max_pending - len(state["pending"]))
-    selected = (choose(list(rows.values()), min(limit, room), company_cap,
-                       existing_pending=state["pending"]) if room else [])
+    # Reserve small space for a genuinely independent API source. Otherwise
+    # first-party snapshots always take all capacity and the new API is never
+    # evaluated against real GitHub/Gmail history by downstream Scouts.
+    api_rows = [x for x in rows.values() if ":public-api:" in str(x.get("source",""))]
+    selected = []
+    if room and api_rows:
+        selected = choose(api_rows, min(3, room, limit), company_cap,
+                          existing_pending=state["pending"])
+    if room > len(selected):
+        used = {x["url"] for x in selected}
+        taken = Counter(normalized_company(x["company"]) for x in selected)
+        remaining = [x for x in rows.values() if x["url"] not in used and
+                     taken[normalized_company(x["company"])] < company_cap]
+        selected += choose(remaining, min(limit, room)-len(selected), company_cap,
+                           existing_pending=state["pending"]+selected) if min(limit,room)>len(selected) else []
     payload = {"source": f"freehirefetch:official-ats:{market}", "items": []}
     for row in selected:
         payload["items"].append({
             "market": market,
-            "platform": str(row.get("ats", "ATS")) + " official ATS",
+            "platform": ("public jobs API (unverified)" if row.get("source")
+                         else str(row.get("ats", "ATS")) + " official ATS"),
+            "source": row.get("source") or payload["source"],
+            "source_listing_url": row.get("source_listing_url") or "",
             "url": row["url"], "title": row["title"], "company": row["company"],
             "query": row.get("location") or "",
             "ats_key": row["key"], "source_job_id": row["job_id"],
@@ -203,7 +220,7 @@ def process_market(market, snapshot, state, known, *, limit=12, company_cap=3,
 
 
 def run(root, snapshot_dir, known, *, limit=12, company_cap=3,
-        max_pending=45):
+        max_pending=45, api_dir=None):
     report = {
         "mode": "UNVERIFIED_ATS_SOURCE_QUEUE_ONLY_NO_APPLY",
         "markets": {},
@@ -214,9 +231,28 @@ def run(root, snapshot_dir, known, *, limit=12, company_cap=3,
             "Queue entries require full JD, eligibility, route, and readback before APPLY/CHECK.",
         ],
     }
+    api_health = {}
+    if api_dir and (api_dir / "health.json").is_file():
+        api_health = json.loads((api_dir / "health.json").read_text())
     for market in ("SG", "MY", "CN"):
         src = snapshot_dir / (market + ".json")
         snapshot = json.loads(src.read_text()) if src.is_file() else None
+        present = ["ATS"] if snapshot is not None else []
+        api_problem = False
+        if api_dir:
+            provider_status = api_health.get(market, {})
+            available = any(x.get("status") in ("COMPLETE", "PARTIAL")
+                            for x in provider_status.values() if isinstance(x,dict))
+            api_path = api_dir / (market + ".json")
+            if available and api_path.is_file():
+                apis = json.loads(api_path.read_text())
+                if apis.get("market")!=market or not isinstance(apis.get("jobs"),list):
+                    raise ValueError("API market contract mismatch: "+market)
+                snapshot = {"market": market,
+                            "jobs": (snapshot["jobs"] if snapshot else []) + apis["jobs"]}
+                present.append("API")
+            else:
+                api_problem = True
         dest = root / "discovery-state" / f"platform-index-{market.lower()}.json"
         state = json.loads(dest.read_text()) if dest.is_file() else new_state(market)
         original = json.dumps(state, sort_keys=True)
@@ -225,6 +261,9 @@ def run(root, snapshot_dir, known, *, limit=12, company_cap=3,
             max_pending=max_pending)
         if json.dumps(next_state, sort_keys=True) != original:
             atomic_write(dest, next_state)
+        stats["sources_present"] = present
+        if api_problem:
+            stats["coverage_gaps"].append("API_SOURCE_UNAVAILABLE")
         report["markets"][market] = stats
     return report
 
@@ -256,6 +295,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--repo", type=Path, default=Path("."))
     p.add_argument("--snapshots", type=Path, required=True)
+    p.add_argument("--api-dir", type=Path)
     p.add_argument("--limit", type=int, default=12)
     p.add_argument("--company-cap", type=int, default=3)
     p.add_argument("--max-pending", type=int, default=45)
@@ -263,7 +303,8 @@ def main():
     args = p.parse_args()
     known = json.loads((args.repo/"discovery-state"/"known-role-index.json").read_text())
     report = run(args.repo, args.snapshots, known, limit=args.limit,
-                 company_cap=args.company_cap, max_pending=args.max_pending)
+                 company_cap=args.company_cap, max_pending=args.max_pending,
+                 api_dir=args.api_dir)
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=2)+"\n")
     print(markdown(report))

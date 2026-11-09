@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from build_review_dispatch import build_dispatch, allowed_ats_url, classify_track
+from build_review_dispatch import build_dispatch, allowed_ats_url, classify_track, markdown_report
 
 NOW = datetime(2026, 11, 9, 12, tzinfo=timezone.utc)
 
@@ -36,6 +36,23 @@ class DispatchTests(unittest.TestCase):
         self.assertEqual(classify_track("AI Applied Scientist"), "RES")
         self.assertEqual(classify_track("Machine Learning Engineer"), "ENG")
         self.assertEqual(classify_track("Full-Stack Developer"), "ENG")
+
+    def test_new_api_pending_enters_review_instead_of_invisible_queue(self):
+        row={"market":"CN","seq":3,"key":"cn:api3","state":"UNVERIFIED_INDEX",
+             "title":"LLM Engineer","company":"Example",
+             "source":"freehire:public-api:CN",
+             "url":"https://jobs.ashbyhq.com/example/12345678-1234-1234-1234-123456789abc"}
+        output=build_dispatch({"CN":{"market":"CN","pending":[row],"terminal":[]}},
+                              {},{"strong":{"urls":[]}},now=NOW)
+        selected=output["markets"]["CN"]["selected"]
+        self.assertEqual(len(selected),1)
+        self.assertEqual(selected[0]["origin"],"durable_queue")
+        self.assertEqual(selected[0]["status"],
+                         "UNVERIFIED_INDEX_NEEDS_EXACT_EMPLOYER_JD_AND_FIT")
+        self.assertEqual(output["markets"]["CN"]["verified_waiting_fit"],0)
+        self.assertEqual(selected[0]["source"],"freehire:public-api:CN")
+        self.assertIn("existing queue #3",markdown_report(output))
+        self.assertIn("Review tasks available: 1",markdown_report(output))
 
     def test_origin_and_jd_proof_distinguished_from_ats_feed(self):
         p=pending("SG", 3, "Research Engineer I")

@@ -1,10 +1,8 @@
 name: Six-Battlefield Candidate Review Dispatch
 on:
   workflow_dispatch:
-  schedule:
-    # Four bounded read-only handoffs/day (MYT 03:50, 09:50, 15:50, 21:50).
-    # This is not a substitute for the existing hourly Scouts.
-    - cron: '50 1,7,13,19 * * *'
+  # Scheduled dispatch moved into Official ATS Durable Source Intake.
+  # This legacy diagnostic remains manually runnable; no second scheduled handoff.
   push:
     paths:
       - 'scripts/build_review_dispatch.py'

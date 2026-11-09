@@ -5,6 +5,10 @@ on:
   push:
     paths:
       - scripts/intake_official_ats.py
+      - scripts/build_review_dispatch.py
+      - tests/test_build_review_dispatch.py
+      - scripts/collect_market_api.py
+      - tests/test_collect_market_api.py
       - scripts/platform_index_queue.py
       - tests/test_intake_official_ats.py
       - scripts/report_job_pipeline_health.py
@@ -56,6 +60,11 @@ jobs:
               except Exception as exc:
                   print(f"ATS_SOURCE_UNAVAILABLE {market}: {type(exc).__name__}: {str(exc)[:150]}")
           PY
+      - name: Collect independent no-key job APIs for MY SG CN
+        shell: bash
+        run: |
+          python scripts/collect_market_api.py --out-dir artifacts/api-snapshots \
+            --max-pages 2 || echo "::warning::API providers unavailable; preserve ATS and existing queues"
       - name: Branch dry-run or publish source-only queue update on main
         shell: bash
         run: |
@@ -63,6 +72,7 @@ jobs:
           if [[ "$GITHUB_REF" != "refs/heads/main" ]]; then
             python scripts/intake_official_ats.py \
               --repo . --snapshots artifacts/ats-snapshots \
+              --api-dir artifacts/api-snapshots \
               --limit 12 --company-cap 3 \
               --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
             echo "Branch verification only: no source state pushed." >> artifacts/ats-intake-summary.md
@@ -75,6 +85,7 @@ jobs:
               git reset --hard origin/main
               python scripts/intake_official_ats.py \
                 --repo . --snapshots artifacts/ats-snapshots \
+              --api-dir artifacts/api-snapshots \
                 --limit 12 --company-cap 3 \
                 --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
               git add discovery-state/platform-index-sg.json \
@@ -99,6 +110,15 @@ jobs:
             fi
           fi
           cat artifacts/ats-intake-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish one actionable review worklist from durable queues
+        run: |
+          python scripts/build_review_dispatch.py \
+            --repo . \
+            --output artifacts/review-dispatch.json \
+            --summary artifacts/review-dispatch.md \
+            --limit 40 --track-reserve 8
+          cat artifacts/review-dispatch.md >> "$GITHUB_STEP_SUMMARY"
+          head -n 20 artifacts/ats-intake-summary.md
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -106,4 +126,7 @@ jobs:
           path: |
             artifacts/ats-intake-report.json
             artifacts/ats-intake-summary.md
+            artifacts/api-snapshots/health.json
+            artifacts/review-dispatch.json
+            artifacts/review-dispatch.md
           retention-days: 14

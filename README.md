@@ -74,6 +74,20 @@ Rejected, expired, duplicate, blocked, withdrawn, paused-market, direction-misma
 
 Do not encode strategy priority with `[TOP]`. Priority comes from actual content fit and current evidence.
 
+## API-first discovery — one main pipeline
+
+**One shared MY / SG / CN workflow:** `.github/workflows/official-ats-intake.yml`.
+
+`FreeHire public API` is the no-key cross-market main source; `AI Dev Jobs public API` is an independent AI/Research supplement (most useful in SG). The existing `freehirefetch` official employer ATS JSON feed remains the high-confidence fallback and JD evidence. Each uses *structured JSON endpoints*, not Playwright or custom HTML scraping.
+
+`scripts/collect_market_api.py` independently queries country-specific AI/LLM/Research windows, uses bounded real pagination and returns only **recognized exact native/ATS job URLs**; unrecognized/MCF-only routes are left out, with source failures and partial coverage explicitly recorded. The single `scripts/intake_official_ats.py` merges API and ATS leads into the **already-existing** `discovery-state/platform-index-{sg,my,cn}.json` queues with canonical URL dedupe and the existing employer/backlog caps. Provider URLs, marketing claims and API hit counts are never APPLY proof.
+
+The same Action publishes `review-dispatch.json/.md` **from the durable pending queues**, including `UNVERIFIED_INDEX` API leads (previously invisible to review). Hourly market Scouts consume that exact state, check live employer JD, work content, eligibility, all-state Issues plus **both Gmail** accounts, then create/read back a real APPLY/CHECK or evidence-backed terminal/retry receipt. No auto-submit or outreach.
+
+Source limits: FreeHire is a broad index, not complete local Chinese BOSS/牛客/PI research coverage; AI Dev Jobs has weaker MY/CN coverage, and Active Vacancies returned HTTP 429 from GitHub runners. Preserve specialized official university/native sources for gaps, but treat their workflows as secondary sources, **not separate application queues**. The old scheduled review-dispatch action is now manual diagnostic only; the unified intake owns the recurring review artifact.
+
+**Success metric:** new, live, eligible, *not previously applied* APPLY/CHECK Issues with verified employer routes, **not** API raw rows, source queue size, test counts or Issue churn. API error/partial page is coverage debt, never an empty job market.
+
 ## Source of truth
 
 - GitHub Issues = live operational opportunity state.
