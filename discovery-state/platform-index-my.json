@@ -188,25 +188,6 @@
       "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155973050"
     },
     {
-      "ats_key": "nielseniq|smartrecruiters|744000157096979",
-      "company": "NielsenIQ",
-      "description_excerpt": "As a Senior Machine Learning Engineer, you’ll play a key role in turning innovative ML research into scalable, real-world solutions that power global decision-making. At NiQ, we’re looking for someone to join our Tech & Durable Global Data ",
-      "first_seen_at": "2026-11-09T15:02:24.841212Z",
-      "key": "my:d79551e0ae7c38a214dd",
-      "last_error": null,
-      "market": "MY",
-      "platform": "smartrecruiters official ATS",
-      "query": "Kuala Lumpur, 14, my",
-      "retries": 0,
-      "seq": 13,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "744000157096979",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Machine Learning Engineer",
-      "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000157096979"
-    },
-    {
       "ats_key": "gen-digital|ashby|cf481e28-f073-4b13-93e3-c8222642ed29",
       "company": "Gen Digital / MoneyLion",
       "description_excerpt": "About the Role The Kuala Lumpur office is the technology powerhouse of MoneyLion, where we measure anything and everything and rely on data to guide our decisions: both long-term strategies and day-to-day operations. Combine that backdrop w",
@@ -445,6 +426,28 @@
       "state": "ISSUE_VERIFIED",
       "title": "AI Applied Scientist",
       "url": "https://jobs.ashbyhq.com/gen-digital/c35bae67-de6c-45b7-b116-4c30a8c6ac73"
+    },
+    {
+      "ats_key": "nielseniq|smartrecruiters|744000157096979",
+      "company": "NielsenIQ",
+      "description_excerpt": "As a Senior Machine Learning Engineer, you’ll play a key role in turning innovative ML research into scalable, real-world solutions that power global decision-making. At NiQ, we’re looking for someone to join our Tech & Durable Global Data ",
+      "first_seen_at": "2026-11-09T15:02:24.841212Z",
+      "key": "my:d79551e0ae7c38a214dd",
+      "last_error": null,
+      "market": "MY",
+      "platform": "smartrecruiters official ATS",
+      "query": "Kuala Lumpur, 14, my",
+      "retries": 0,
+      "seq": 13,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "744000157096979",
+      "state": "HARD_REJECTED",
+      "title": "Machine Learning Engineer",
+      "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000157096979",
+      "reason": "Senior Machine Learning Engineer: exact-role employer-attributed JD reproduced on LinkedIn and independent indexed listing explicitly requires 4+ years of ML software development, production ML systems and Docker/Kubernetes; candidate has 0 full-time ML engineering YOE. Current official ATS source feed still lists exact requisition; direct employer page did not render in current web check. Not eligible for MY early-career promotion.",
+      "evidence_url": "https://my.linkedin.com/jobs/view/senior-machine-learning-engineer-at-nielseniq-4407348079",
+      "reviewed_at": "2026-11-09T23:33:08+08:00"
     }
   ],
   "version": 1
