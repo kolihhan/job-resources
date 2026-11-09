@@ -3412,6 +3412,30 @@
       "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000129687459-ai-engineer-me",
       "last_alternate_source_attempted": "Bosch AI Engineer_ME: official full JD read 2026-11-09; 2 years manufacturing AI/ML development plus advanced Tableau/Power BI required; candidate experience mismatch requires eligibility determination; real application shown. Exact all-history GitHub Issue ID search no match.",
       "last_retry_new_evidence": true
+    },
+    {
+      "candidate_seq": 2930,
+      "role_key": "freehire:saasji-zhu-bu-aiquan-zhan-gong-cheng-shi-meituan-ussd6fg5",
+      "company": "Meituan",
+      "title": "SaaS技术部-AI Agent开发工程师",
+      "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4741266020",
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T23:19:54+08:00",
+      "last_alternate_source_attempted": "2026-11-09: exact all-history GitHub Issue ID negative; official full JD / foreign-hire and route not verified; retain as plausible unverified.",
+      "last_retry_new_evidence": false
+    },
+    {
+      "candidate_seq": 2931,
+      "role_key": "freehire:ai-mo-xing-bian-yi-qi-yu-suan-fa-gong-cheng-shi-xi-wang-sunrise-bqebizi6",
+      "company": "曦望 Sunrise",
+      "title": "AI 模型编译器与算法工程师",
+      "source_url": "https://bcn95a8dacj3.jobs.feishu.cn/index/position/7671130223496694079/detail",
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T23:19:54+08:00",
+      "last_alternate_source_attempted": "2026-11-09: exact all-history GitHub Issue ID negative; official full JD / foreign-hire and route not verified; retain as plausible unverified.",
+      "last_retry_new_evidence": false
     }
   ]
 }
