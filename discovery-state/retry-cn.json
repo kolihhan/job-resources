@@ -3292,6 +3292,66 @@
       "company": "Meituan",
       "title": "AI Agent开发工程师",
       "source_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4119654480"
+    },
+    {
+      "role_key": "freehire:generative-ai-3d-foundation-model-meshy-5oumpnhx",
+      "candidate_seq": 2701,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T20:10:00+08:00",
+      "company": "Meshy",
+      "title": "Generative AI - 3D Foundation Model",
+      "source_url": "https://jobs.ashbyhq.com/meshy/ceedf3f8-be1b-42b5-b593-07bacecdd739",
+      "last_alternate_source_attempted": "2026-11-09 exact all-history GitHub Issue ID search no match; official JS shell; 3D/CV lower fit; verify full JD and CN foreign work permit",
+      "last_retry_new_evidence": true
+    },
+    {
+      "role_key": "freehire:qian-wen-ban-gong-ai-agent-quan-zhan-kai-fa-gong-cheng-shi-qi-ye-ji-fang-xiang-alibaba-group-wcmt43ug",
+      "candidate_seq": 2702,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T20:10:00+08:00",
+      "company": "Alibaba Group",
+      "title": "千问办公-AI Agent 全栈开发工程师-企业级方向",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100053640015",
+      "last_alternate_source_attempted": "2026-11-09 exact all-history GitHub Issue ID search no match; official full JD, liveness, seniority and foreign-hire route missing",
+      "last_retry_new_evidence": true
+    },
+    {
+      "role_key": "freehire:machine-learning-ai-engineering-zoom-ca2sapfo",
+      "candidate_seq": 2703,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T20:10:00+08:00",
+      "company": "Zoom",
+      "title": "Machine Learning & AI Engineering",
+      "source_url": "https://zoom.wd5.myworkdayjobs.com/cn/job/Hangzhou-CHN/AI-Engineer_R19318",
+      "last_alternate_source_attempted": "2026-11-09 exact all-history GitHub Issue ID search no match; official Workday inaccessible; full JD and work authorization missing",
+      "last_retry_new_evidence": true
+    },
+    {
+      "role_key": "freehire:qian-duan-kai-fa-gong-cheng-shi-shen-zhen-trip-com-group-bffozkrr",
+      "candidate_seq": 2705,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T20:10:00+08:00",
+      "company": "Trip.com Group",
+      "title": "大前端开发工程师（Web / React Native / AI 全栈方向）（深圳）",
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415#/job/89b926b4-1f29-4f5e-b9d1-25ce5b79852d",
+      "last_alternate_source_attempted": "2026-11-09 exact all-history GitHub Issue ID search no match; AI ownership vs frontend and full JD not established",
+      "last_retry_new_evidence": true
+    },
+    {
+      "role_key": "freehire:machine-learning-engineer-assistance-engineering-airbnb-7sbtwcrn",
+      "candidate_seq": 2706,
+      "reason_code": "eligibility_or_authoritative_evidence_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T20:10:00+08:00",
+      "company": "Airbnb",
+      "title": "Machine Learning Engineer, Assistance Engineering",
+      "source_url": "https://careers.airbnb.com/positions/7716341/",
+      "last_alternate_source_attempted": "2026-11-09 exact all-history GitHub Issue ID search no match; official full JD verified: RAG/Search, LLM evaluation, 2-4 years ML systems ownership; candidate has no full-time ML YOE; Mandarin essential; China foreign work authorization unresolved",
+      "last_retry_new_evidence": true
     }
   ]
 }
