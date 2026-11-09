@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T21:15:00+08:00",
+  "updated_at": "2026-11-09T20:00:59+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4510,90 +4510,6 @@
       "next_retry_at": "2026-11-10T20:15:00+08:00",
       "missing_evidence": "Exact employer requisition, substantive employer JD, actual LLM/agent ownership, experience and non-MCF application route",
       "next_source": "Employer official careers/ATS exact role search"
-    },
-    {
-      "candidate_seq": 1161,
-      "role_key": "freehire:senior-ai-data-engineer-ai-harness-iceberg-platform-ncs-tmxrwx2r",
-      "company": "Ncs",
-      "title": "Senior AI Data Engineer — AI Harness & Iceberg Platform",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415634__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_employer_jd_and_direct_route_unverified",
-      "attempts": 0,
-      "next_retry_at": "2026-11-11T21:15:00+08:00",
-      "missing_evidence": "Exact employer requisition and full JD, mandatory YOE, actual AI/Agent ownership, SG work-pass eligibility, usable non-MCF route",
-      "next_source": "Employer official careers/ATS exact requisition; do not retry stale aggregator URL"
-    },
-    {
-      "candidate_seq": 1163,
-      "role_key": "freehire:gen-ai-fullstack-developer-build-ai-apps-ncs-pte-ltd-gbfcy3yj",
-      "company": "NCS Pte Ltd",
-      "title": "Gen AI Fullstack Developer — Build AI Apps",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90520058__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_employer_jd_and_direct_route_unverified",
-      "attempts": 0,
-      "next_retry_at": "2026-11-11T21:15:00+08:00",
-      "missing_evidence": "Exact employer requisition and full JD, mandatory YOE, actual AI/Agent ownership, SG work-pass eligibility, usable non-MCF route",
-      "next_source": "Employer official careers/ATS exact requisition; do not retry stale aggregator URL"
-    },
-    {
-      "candidate_seq": 1165,
-      "role_key": "freehire:java-full-stack-engineer-ai-preferred-ncs-jgprew3k",
-      "company": "NCS",
-      "title": "Java Full-Stack Engineer — AI-Preferred",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93429823__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_employer_jd_and_direct_route_unverified",
-      "attempts": 0,
-      "next_retry_at": "2026-11-11T21:15:00+08:00",
-      "missing_evidence": "Exact employer requisition and full JD, mandatory YOE, actual AI/Agent ownership, SG work-pass eligibility, usable non-MCF route",
-      "next_source": "Employer official careers/ATS exact requisition; do not retry stale aggregator URL"
-    },
-    {
-      "candidate_seq": 1169,
-      "role_key": "freehire:ai-enabled-full-stack-developer-ncs-pte-ltd-xorq7jhh",
-      "company": "NCS Pte Ltd",
-      "title": "AI-Enabled Full Stack Developer",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415194__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "reason_code": "exact_employer_jd_and_direct_route_unverified",
-      "attempts": 0,
-      "next_retry_at": "2026-11-11T21:15:00+08:00",
-      "missing_evidence": "Exact employer requisition and full JD, mandatory YOE, actual AI/Agent ownership, SG work-pass eligibility, usable non-MCF route",
-      "next_source": "Employer official careers/ATS exact requisition; do not retry stale aggregator URL"
-    },
-    {
-      "candidate_seq": 1170,
-      "role_key": "freehire:senior-ai-product-analyst-banknew-capco-the-capital-market-company-group-n7uoywi5",
-      "company": "Capco (The Capital Market Company Group)",
-      "title": "Senior AI Product Analyst | BankNew",
-      "source_url": "https://sg.jobstreet.com/job/95272483?utm_source=freehire.me",
-      "reason_code": "exact_employer_jd_and_direct_route_unverified",
-      "attempts": 0,
-      "next_retry_at": "2026-11-11T21:15:00+08:00",
-      "missing_evidence": "Exact employer requisition and full JD, mandatory YOE, actual AI/Agent ownership, SG work-pass eligibility, usable non-MCF route",
-      "next_source": "Employer official careers/ATS exact requisition; do not retry stale aggregator URL"
-    },
-    {
-      "candidate_seq": 1172,
-      "role_key": "freehire:senior-ai-engineer-nigel-frank-international-bpy6klrk",
-      "company": "Nigel Frank International",
-      "title": "Senior AI Engineer",
-      "source_url": "https://sg.jobstreet.com/job/95263812?utm_source=freehire.me",
-      "reason_code": "exact_employer_jd_and_direct_route_unverified",
-      "attempts": 0,
-      "next_retry_at": "2026-11-11T21:15:00+08:00",
-      "missing_evidence": "Exact employer requisition and full JD, mandatory YOE, actual AI/Agent ownership, SG work-pass eligibility, usable non-MCF route",
-      "next_source": "Employer official careers/ATS exact requisition; do not retry stale aggregator URL"
-    },
-    {
-      "candidate_seq": 1173,
-      "role_key": "freehire:full-stack-ai-engineer-uic-asian-computer-services-pte-ltd-6mtuznrx",
-      "company": "UIC Asian Computer Services Pte Ltd",
-      "title": "Full Stack AI Engineer",
-      "source_url": "https://sg.jobstreet.com/job/95259914?utm_source=freehire.me",
-      "reason_code": "exact_employer_jd_and_direct_route_unverified",
-      "attempts": 0,
-      "next_retry_at": "2026-11-11T21:15:00+08:00",
-      "missing_evidence": "Exact employer requisition and full JD, mandatory YOE, actual AI/Agent ownership, SG work-pass eligibility, usable non-MCF route",
-      "next_source": "Employer official careers/ATS exact requisition; do not retry stale aggregator URL"
     }
   ]
 }
