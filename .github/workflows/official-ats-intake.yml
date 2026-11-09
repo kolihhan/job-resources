@@ -108,6 +108,14 @@ jobs:
             fi
           fi
           cat artifacts/ats-intake-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish one actionable review worklist from durable queues
+        run: |
+          python scripts/build_review_dispatch.py \
+            --repo . --ats-dir artifacts/ats-snapshots \
+            --output artifacts/review-dispatch.json \
+            --summary artifacts/review-dispatch.md \
+            --limit 18 --track-reserve 5
+          cat artifacts/review-dispatch.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -116,4 +124,6 @@ jobs:
             artifacts/ats-intake-report.json
             artifacts/ats-intake-summary.md
             artifacts/api-snapshots/health.json
+            artifacts/review-dispatch.json
+            artifacts/review-dispatch.md
           retention-days: 14
