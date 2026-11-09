@@ -17,7 +17,8 @@ def pending(market, seq, title, company="NTU", stage="FIRST_PARTY_JD_VERIFIED_NE
             "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/Role_R0000" + str(seq).zfill(4),
             "first_seen_at":"2026-11-07T00:00:00Z",
             "consumer_review":{"stage":stage,"checked_at":checked,"full_jd_complete":complete,
-              "jd_sha256":"a" * 64, "review_flags":[],"signals":["agent"]}}
+              "jd_sha256":"a" * 64, "full_jd_text":"LLM agents evaluation",
+              "review_flags":[],"signals":["agent"]}}
 
 
 def ats(market, n, title, company, key=None, evidence="full_jd", lane="AI"):
