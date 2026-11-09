@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-09T08:38:27.796971Z",
-    "source": "ntu:official-cxs:SG",
+    "at": "2026-11-09T10:18:48.114677Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 20,
+      "already_seen": 9,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
       "new_pending": 0,
-      "observed": 20
+      "observed": 9
     }
   },
   "market": "SG",
