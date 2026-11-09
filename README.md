@@ -12,6 +12,24 @@ Active markets: **Singapore + Mainland China + Malaysia**. Hong Kong is paused.
 
 Rank by actual weekly work and role quality, **not research vs engineering titles**. GOLD research and GOLD substantive AI engineering share a tier. Fixed-term GOLD academic work remains eligible subject to `RULES.md` section 5 quality/terms checks.
 
+## PIC execution reset — outcome-first, Ponytail FULL
+
+**Purpose:** produce genuinely new, realistic, unsubmitted **ready-to-apply** opportunities, not crawl volume, source queues, dispatch reports or test counts. Current target: **up to 100 actionable open APPLY by the next morning**; never pad a shortfall, send applications, or contact employers without exact user authorization.
+
+**One path:** public API-first (FreeHire SG/MY/CN; AI Dev Jobs only where it proves incremental coverage) + existing employer ATS/university/native regional fallback → normalize company, market, employer job ID and application URL → existing `platform-index-{sg,my,cn}.json` transport → market Chat Scout reviews employer-authored JD, content/YOE/PhD/visa/cohort/employment/route and all-state Issue + both-Gmail application history → verified `[APPLY]` or one-blocker `[CHECK]` Issue → Issue readback + exact source ACK → morning queue.
+
+**Source is not verdict.** Existing queues are durable unverified transport, GitHub Issues are the ONLY applicant inbox, Gmail is recruiting/duplicate evidence; all other review dispatch or analytics are derived and disposable. A different requisition ID or empty exact-ID Gmail search never proves never applied. Employer source outage does not imply zero openings. Existing `WAIT` is already applied and cannot count as a new application.
+
+**PIC work order (in this order):**
+1. **Convert existing backlog first.** Process SG/MY/CN `platform-index` Pending with title/depth priority and employer diversity. Cheap-screen duplicates against all open + closed Issues before expensive JD read. Complete meaningful JD/route decisions; ACK only backed final outcomes, preserve honest retries. Research and hands-on Engineering are GOLD equals.
+2. **Broaden only verified incremental API sources.** Use FreeHire across SG/MY/CN, AI Dev Jobs only with independently observed eligible exact jobs, first-party employer ATS/SG universities and CN native/direct channel to cover absent markets; do not build/operate separate job databases or Playwright scrapers. Unmerged API experiment branches are NOT production until CI and real queue readback pass.
+3. **Trim duplicate production schedules.** Retain one recurring source GitHub Action, three market Scouts, hourly recruiting sync and the morning report. Keep niche official JD consumers only when they show distinct employer coverage; demote old pilots and duplicate dispatches to manual diagnostics, then remove obsolete wrappers after source/consumer parity checks.
+4. **Measure the only outcome that matters.** Per market: novel source IDs → exact historical duplicates → substantive official JD checked → hard-eligible and not previously applied → new read-back APPLY / CHECK → applicant decision. Include reason-coded rejections, blockers, employer diversity and ageing Pending; report output as real counts, never a fabricated 100.
+
+**Role constraints:** `PROFILE.md` and `RULES.md` govern. Both substantive Applied AI/LLM/Agent/RAG/AI Backend/Evaluation/ML-retrieval engineering and MSc-compatible NLP/LLM/Agent RA/RE/Applied Scientist are first-class. MY remains destination-quality TOP; high-quality MY SWE is secondary. Prefer 0–3 YOE; don't pretend project work equals professional production AI YOE. SG/CN work permits and official application routes are hard checks.
+
+**Acceptance gate:** a GitHub Action successfully ingests nonduplicate public IDs into existing markets; hourly scouts turn actual high-fit ones into verified issues or evidence-backed dispositions and ACK their keys; the morning report links *every* currently valid unsubmitted APPLY. Source-only throughput and healthy tests do not pass this gate.
+
 ## Six battlefields
 
 | Battlefield | Purpose |
