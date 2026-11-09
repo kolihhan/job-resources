@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "MY",
-  "updated_at": "2026-11-09T17:22:37+08:00",
+  "updated_at": "2026-11-09T18:24:00+08:00",
   "receipts": [
     {
       "role_key": "freehire:ai-driven-devops-engineer-cloud-kubernetes-automation-curlec-by-razorpay-6umkyj6x",
@@ -301,9 +301,11 @@
       "title": "Data Centre AI Network & Security Engineer",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26995674__7112?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "reason_code": "verification_pending",
-      "attempts": 0,
-      "next_retry_at": "2026-11-08T12:20:00+08:00",
-      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no."
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T18:25:00+08:00",
+      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no. 2026-11-09 18:24 MYT: Independent full JD reproduction identifies mandatory 5+ years network engineering, Juniper/Cisco/Arista, Fortinet, BGP, InfiniBand/RoCE; work is network/security operations rather than LLM/AI engineering. JobStreet native index confirms role is listed in Johor, but no employer-owned exact requisition found. Strong hard-mismatch evidence from reproduced employer JD; retain receipt until authoritative employer identity/terminal evidence; do not promote.",
+      "last_alternate_source": "https://my.expertini.com/job/data-centre-ai-network-security-engineer-johor-malaysia-neuron-solutions-sdn-bhd-386-4825381/",
+      "retry_escalation": ">=72h backoff; reopen only on employer-owned exact requisition, new substantive source or deadline."
     },
     {
       "role_key": "freehire:databricks-data-ai-engineer-lakehouse-pipelines-accenture-malaysia-j4zaqjxl",
@@ -323,9 +325,11 @@
       "title": "AI Data Engineer",
       "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26994837__7112?utm_campaign=publisher&utm_medium=api&geoID=1144&utm_source=freehire.me",
       "reason_code": "verification_pending",
-      "attempts": 0,
-      "next_retry_at": "2026-11-08T12:20:00+08:00",
-      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no."
+      "attempts": 1,
+      "next_retry_at": "2026-11-12T18:25:00+08:00",
+      "detail": "2026-11-08 09:18 MYT: compact metadata reviewed; exact source-ID GitHub Issues search returned no matches, title/history and full JD/eligibility/employer quality/route remain unverified. Do not promote. Next probe employer-owned exact role or substantive JobStreet JD; WhatJobs use exact employer+title+ID search. retry_new_evidence=no. 2026-11-09 18:24 MYT: Independent substantive JD reproduction explicitly calls position 'AI Data, Senior Engineer' at Axiom/Flex, Batu Kawan Penang, with mandatory 4–6 years data engineering and production ML deployment. Not a realistic 0-full-time-YOE target. No employer-controlled exact requisition/route verified, so retain receipt rather than silently terminal-cache.",
+      "last_alternate_source": "https://my.expertini.com/job/ai-data-engineer-bayan-lepas-717-flex-data-center-solutions-sdn-bhd-386-4824544/",
+      "retry_escalation": ">=72h backoff; reopen only on employer-owned exact requisition, new substantive source or deadline."
     },
     {
       "role_key": "freehire:senior-data-engineer-pipelines-platforms-ai-enablement-techstreet-malaysia-7pywgmnu",
