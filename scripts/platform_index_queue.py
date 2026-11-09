@@ -70,6 +70,15 @@ def canonical(url: str,market: str) -> str | None:
     # These are review transport identities, NEVER proof of job eligibility.
     if p.scheme=="https" and not p.username and not p.password:
         path=p.path.rstrip("/")
+        # Preserve previously proven employer/market ownership. Broad vendor
+        # URL validation must never turn an SG-only role into a MY candidate.
+        if p.hostname=="ntu.wd3.myworkdayjobs.com" and market!="SG":
+            return None
+        if p.hostname=="jobs.ashbyhq.com":
+            board_slug=(path.split("/")+[""])[1].lower()
+            owner_markets={"gen-digital": {"MY"}, "abound": {"CN"}}
+            if board_slug in owner_markets and market not in owner_markets[board_slug]:
+                return None
         if p.hostname=="jobs.ashbyhq.com":
             m=re.fullmatch(r"/([A-Za-z0-9_.-]+)/([0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12})",path)
             if m:
