@@ -89,6 +89,45 @@ class OfficialATSIntakeTests(unittest.TestCase):
         self.assertEqual(stats["selected_by_track_hint"]["RES"],2)
         self.assertEqual(len({x["company"] for x in updated["pending"]}),4)
 
+    def test_ai_product_name_does_not_outrank_applied_ai_job(self):
+        rows=[job("MY",1,"BJAK","iOS Developer - AI Finance Agent"),
+              job("MY",2,"BJAK","Mobile Engineer - AI Finance Agent"),
+              job("MY",3,"BJAK","Applied AI Engineer"),
+              job("MY",4,"BJAK","Backend Engineer - AI Finance Agent")]
+        state,stats=process_market("MY",{"market":"MY","jobs":rows},
+                                    new_state("MY"),{},limit=2,company_cap=2)
+        titles=[x["title"] for x in state["pending"]]
+        self.assertEqual(titles,["Applied AI Engineer","Backend Engineer - AI Finance Agent"])
+        self.assertEqual(stats["created"],2)
+
+    def test_existing_mobile_backlog_reserves_real_ai_engineer_capacity(self):
+        first=[job("MY",i,"BJAK","Mobile Engineer - AI Finance Agent") for i in range(1,4)]
+        state,_=process_market("MY",{"market":"MY","jobs":first},
+                               new_state("MY"),{},limit=3,company_cap=3)
+        second=first+[job("MY",4,"BJAK","Applied AI Engineer"),
+                      job("MY",5,"BJAK","AI Engineer"),
+                      job("MY",6,"BJAK","Machine Learning Engineer"),
+                      job("MY",7,"BJAK","iOS Developer - AI Finance Agent")]
+        state,stats=process_market("MY",{"market":"MY","jobs":second},
+                                   state,{},limit=12,company_cap=3)
+        self.assertEqual(stats["created"],3)
+        self.assertTrue(all(x["title"]!="iOS Developer - AI Finance Agent"
+                            for x in state["pending"]))
+        self.assertEqual(len(state["pending"]),6)
+
+    def test_review_pending_backpressure_does_not_drop_unprocessed_source(self):
+        first=[job("SG",1,"Acme","LLM Engineer"),
+               job("SG",2,"Beta","Research Engineer")]
+        state,_=process_market("SG",{"market":"SG","jobs":first},
+                               new_state("SG"),{},limit=2,max_pending=2)
+        second=first+[job("SG",3,"Gamma","AI Engineer")]
+        state,stats=process_market("SG",{"market":"SG","jobs":second},
+                                   state,{},limit=12,max_pending=2)
+        self.assertEqual(stats["created"],0)
+        self.assertEqual(stats["deferred_unhandled_ids"],1)
+        self.assertIn("PENDING_REVIEW_BACKPRESSURE",stats["coverage_gaps"])
+        self.assertEqual(len(state["pending"]),2)
+
     def test_failed_source_not_zero_and_does_not_change_queue(self):
         s=new_state("CN")
         original=json.dumps(s,sort_keys=True)
