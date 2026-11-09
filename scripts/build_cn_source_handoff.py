@@ -112,6 +112,40 @@ def build_handoff(liepin: dict, jobpro: dict, known: dict, run_id: str) -> tuple
     return manifest, shards
 
 
+# Only titles with strong AI/research signals enter the bounded recurring
+# queue; broader SWE listings remain in the lossless source artifacts.
+QUEUE_SIGNAL = re.compile(
+    r"AI|LLM|RAG|Agent|NLP|MCP|大模型|智能体|机器学习|深度学习|生成式|"
+    r"人工智能|算法|检索|知识图谱|模型评测|Research|研究|研发工程师", re.I)
+
+
+def native_queue_snapshot(shards: list[list[dict]]) -> dict:
+    """Project real Liepin IDs into the EXISTING CN source transport schema."""
+    jobs = []
+    for shard in shards:
+        for candidate in shard:
+            if (candidate.get("source") != "liepin" or
+                not candidate.get("company") or
+                not QUEUE_SIGNAL.search(candidate.get("title", ""))):
+                continue
+            jobs.append({
+                "market": "CN", "ats": "liepin-native-api",
+                "company": candidate["company"],
+                "title": candidate["title"],
+                "job_id": candidate["source_id"],
+                "key": candidate["source_key"],
+                "url": candidate["source_url"],
+                "location": candidate.get("location") or "",
+                "evidence": "listing_only", "lane": "AI",
+                "triage_priority": "HIGH",
+                "source": "liepin:native-api:CN",
+                "source_platform": "猎聘",
+                "discovery_access": "NATIVE_API_LISTING",
+                "description_excerpt": "",
+            })
+    return {"market": "CN", "jobs": jobs}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--liepin", type=Path, required=True)
@@ -129,6 +163,11 @@ def main() -> None:
         (args.output_dir / filename).write_text(json.dumps({"version": 1, "run_id": args.run_id,
                             "candidate_count": len(shard), "candidates": shard}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (args.output_dir / "cn-source-manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # Reuse the existing source queue intake instead of leaving all native
+    # platform leads stranded in short-lived CI artifacts.
+    queue_source = native_queue_snapshot(shards)
+    (args.output_dir / "cn-native-source.json").write_text(
+        json.dumps(queue_source, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: manifest[key] for key in ("run_id", "unique_source_identifiers", "candidate_count", "low_signal_rows_in_raw_artifact", "known_url_hints", "identity_sha256")}, ensure_ascii=False))
 
 
