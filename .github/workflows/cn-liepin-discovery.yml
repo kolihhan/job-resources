@@ -181,7 +181,9 @@ jobs:
           known=json.loads((root/"known-role-index.json").read_text())
           updated,stats=process_market(market,snapshot,state,known,
                                        limit=10,company_cap=2,max_pending=45)
-          if updated!=state:
+          # process_market/ingest mutate the state in place, so checking
+          # object inequality here would silently drop every new receipt.
+          if stats["created"]:
               atomic_write(state_path,updated)
           result={"native_liepin_source_rows":len(snapshot["jobs"]),
                   "queued_unverified":stats["created"],
