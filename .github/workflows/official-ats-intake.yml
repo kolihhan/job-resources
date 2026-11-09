@@ -1,0 +1,107 @@
+name: Official ATS Durable Source Intake
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/intake_official_ats.py
+      - scripts/platform_index_queue.py
+      - tests/test_intake_official_ats.py
+      - .github/workflows/official-ats-intake.yml
+  schedule:
+    # 38 minutes after upstream public ATS producer UTC :37.
+    - cron: '15 2,6,10,14,18,22 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: official-ats-intake
+  cancel-in-progress: false
+
+jobs:
+  persist-source-identities:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run whole Python regression suite
+        run: python -m unittest discover -s tests -p 'test_*.py' -q
+      - name: Download current official employer ATS market feeds
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          target=Path("artifacts/ats-snapshots")
+          target.mkdir(parents=True,exist_ok=True)
+          for market in ("SG","MY","CN"):
+              url=f"https://raw.githubusercontent.com/kolihhan/freehirefetch/main/feed/ats/markets/{market}.json"
+              try:
+                  req=Request(url,headers={"User-Agent":"JobResourcesATSIntake/1.0"})
+                  with urlopen(req,timeout=25) as res:
+                      content=res.read(3_000_001)
+                  if len(content)>3_000_000:raise ValueError("market snapshot exceeds bounded size")
+                  snap=json.loads(content)
+                  if snap.get("market") != market or not isinstance(snap.get("jobs"),list):
+                      raise ValueError("wrong market/ATS schema")
+                  (target/f"{market}.json").write_bytes(content)
+                  print(f"VALID_ATS_SOURCE {market}: {len(snap['jobs'])} unverified role identities")
+              except Exception as exc:
+                  print(f"ATS_SOURCE_UNAVAILABLE {market}: {type(exc).__name__}: {str(exc)[:150]}")
+          PY
+      - name: Branch dry-run or publish source-only queue update on main
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_REF" != "refs/heads/main" ]]; then
+            python scripts/intake_official_ats.py \
+              --repo . --snapshots artifacts/ats-snapshots \
+              --limit 12 --company-cap 3 \
+              --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
+            echo "Branch verification only: no source state pushed." >> artifacts/ats-intake-summary.md
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            committed=0
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git reset --hard origin/main
+              python scripts/intake_official_ats.py \
+                --repo . --snapshots artifacts/ats-snapshots \
+                --limit 12 --company-cap 3 \
+                --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
+              git add discovery-state/platform-index-sg.json \
+                      discovery-state/platform-index-my.json \
+                      discovery-state/platform-index-cn.json
+              if git diff --cached --quiet; then
+                echo "No new source IDs; historical metadata preserved." >> artifacts/ats-intake-summary.md
+                committed=1
+                break
+              fi
+              git commit -m "chore: durable official ATS source identities [skip ci]"
+              if git push origin HEAD:main; then
+                echo "Persisted source identities to main." >> artifacts/ats-intake-summary.md
+                committed=1
+                break
+              fi
+              echo "Concurrent update: replay source IDs on newest main (attempt $attempt/3)."
+            done
+            if [[ "$committed" != "1" ]]; then
+              echo "::error::Source state could not be persisted after 3 attempts"
+              exit 1
+            fi
+          fi
+          cat artifacts/ats-intake-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: official-ats-source-intake
+          path: |
+            artifacts/ats-intake-report.json
+            artifacts/ats-intake-summary.md
+          retention-days: 14
