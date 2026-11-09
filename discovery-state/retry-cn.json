@@ -3198,6 +3198,78 @@
       "source_url": "https://jobs.bytedance.com/experienced/position/7282676471176349989/detail",
       "last_alternate_source_attempted": "2026-11-09 exact ID indexed search yielded no authoritative JD; 2023 posting age requires current liveness",
       "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:shen-du-xue-xi-ruan-jian-gong-cheng-shi-momenta-jgmvvhs4",
+      "candidate_seq": 2278,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T16:21:00+08:00",
+      "company": "Momenta",
+      "title": "深度学习软件工程师",
+      "source_url": "https://momenta.jobs.feishu.cn/index/position/7111242795390290183/detail",
+      "last_alternate_source_attempted": "2026-11-09 exact employer requisition all-history Issue gate: no exact match; historic posting 2019-2022, current employer JD and live application unverified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-shu-ju-zhi-shi-fang-xiang-data-bytedance-rsjebxi4",
+      "candidate_seq": 2279,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T16:21:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent研发工程师（数据知识方向）-Data",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7098235099037141256/detail",
+      "last_alternate_source_attempted": "2026-11-09 exact employer requisition all-history Issue gate: no exact match; historic posting 2019-2022, current employer JD and live application unverified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentqian-duan-kai-fa-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-sb6twzje",
+      "candidate_seq": 2280,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T16:21:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent前端开发工程师-开发者服务",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7085632275303893255/detail",
+      "last_alternate_source_attempted": "2026-11-09 exact employer requisition all-history Issue gate: no exact match; historic posting 2019-2022, current employer JD and live application unverified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentqian-duan-kai-fa-gong-cheng-shi-kai-fa-zhe-fu-wu-bytedance-47uosyqm",
+      "candidate_seq": 2281,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T16:21:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent前端开发工程师-开发者服务",
+      "source_url": "https://jobs.bytedance.com/experienced/position/6946056632943053093/detail",
+      "last_alternate_source_attempted": "2026-11-09 exact employer requisition all-history Issue gate: no exact match; historic posting 2019-2022, current employer JD and live application unverified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentyan-fa-gong-cheng-shi-shu-ju-zhi-shi-fang-xiang-data-shu-ju-ping-tai-bytedance-dp33hba2",
+      "candidate_seq": 2282,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T16:21:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent研发工程师（数据知识方向/Data） - 数据平台",
+      "source_url": "https://jobs.bytedance.com/experienced/position/6704443581144238348/detail",
+      "last_alternate_source_attempted": "2026-11-09 exact employer requisition all-history Issue gate: no exact match; historic posting 2019-2022, current employer JD and live application unverified",
+      "last_retry_new_evidence": false
+    },
+    {
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-shu-ju-fang-xiang-guo-ji-hua-bytedance-65h227cq",
+      "candidate_seq": 2283,
+      "reason_code": "authoritative_source_unreadable_retry",
+      "attempts": 0,
+      "next_retry_at": "2026-11-12T16:21:00+08:00",
+      "company": "ByteDance",
+      "title": "AI Agent开发工程师（数据方向） - 国际化",
+      "source_url": "https://jobs.bytedance.com/experienced/position/6704578994936744200/detail",
+      "last_alternate_source_attempted": "2026-11-09 exact employer requisition all-history Issue gate: no exact match; historic posting 2019-2022, current employer JD and live application unverified",
+      "last_retry_new_evidence": false
     }
   ]
 }
