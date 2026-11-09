@@ -158,7 +158,7 @@ def process_market(market, snapshot, state, known, *, limit=12, company_cap=3,
             continue
         # Exact canonical role identity, not vendor source/key text.
         item["_track"] = classify_track(item["title"])
-        rows[item["url"]] = item
+        rows.setdefault(item["url"], item)  # first-party record wins over API repost
 
     room = max(0, max_pending - len(state["pending"]))
     # Reserve small space for a genuinely independent API source. Otherwise
