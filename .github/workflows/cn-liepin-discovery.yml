@@ -14,7 +14,7 @@ on:
       - ".github/workflows/cn-liepin-discovery.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: cn-discovery
@@ -155,6 +155,59 @@ jobs:
           if not m['unique_source_identifiers']:
               raise SystemExit('FAIL: no parseable exact job identities from any source; source discovery remains incomplete')
           PY
+
+      - name: Persist bounded native Liepin AI job IDs to existing CN source queue
+        if: github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          committed=0
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          sys.path.insert(0,"scripts")
+          from intake_official_ats import process_market
+          from platform_index_queue import atomic_write,new_state
+          market="CN"
+          root=Path("discovery-state")
+          state_path=root/"platform-index-cn.json"
+          snapshot=json.loads(Path("artifacts/cn-native-source.json").read_text())
+          state=json.loads(state_path.read_text()) if state_path.exists() else new_state(market)
+          known=json.loads((root/"known-role-index.json").read_text())
+          updated,stats=process_market(market,snapshot,state,known,
+                                       limit=10,company_cap=2,max_pending=45)
+          if updated!=state:
+              atomic_write(state_path,updated)
+          result={"native_liepin_source_rows":len(snapshot["jobs"]),
+                  "queued_unverified":stats["created"],
+                  "pending_after":stats["pending_after"],
+                  "deferred_unhandled":stats.get("deferred_unhandled_ids",0),
+                  "coverage_gaps":stats["coverage_gaps"]}
+          print(json.dumps(result,ensure_ascii=False))
+          with open("artifacts/cn-native-queue-result.json","w") as out:
+              json.dump(result,out,ensure_ascii=False,indent=2)
+          PY
+            git add discovery-state/platform-index-cn.json
+            if git diff --cached --quiet; then
+              echo "Native platform identities already seen, or review queue at capacity."
+              committed=1
+              break
+            fi
+            git commit -m "chore: persist CN native Liepin source IDs [skip ci]"
+            if git push origin HEAD:main; then
+              echo "CN native source IDs saved to existing source queue."
+              committed=1
+              break
+            fi
+            echo "Concurrent job queue update; replay latest state ($attempt/3)."
+          done
+          test "$committed" -eq 1
+          cat artifacts/cn-native-queue-result.json >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload raw discovery artifact
         if: always()
