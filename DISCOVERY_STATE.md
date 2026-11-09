@@ -134,7 +134,7 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
     ]
   },
   "MY": {
-    "last_state_change_at": "2026-11-08T15:06:32+08:00",
+    "last_state_change_at": "2026-11-09T09:19:00+08:00",
     "source_watermarks": {
       "freehire_event_seq": 16378
     },
@@ -147,11 +147,13 @@ All three markets are reset to the last known shared FreeHire sequence baseline 
       "jobstreet:compasia|ai engineer – gen ai, agentic ai & integration|petaling jaya",
       "jobstreet:6290:95468129",
       "jobstreet:6290:95693831",
-      "jobstreet:6290:95753857"
+      "jobstreet:6290:95753857",
+      "successfactors:careers.ricoh-ap.com:1369123466",
+      "whatjobs-my:java developer:27001544",
+      "jobstreet:6296:95756850"
     ]
   }
 }
-
 ```
 <!-- hourly-scout-state:end -->
 
