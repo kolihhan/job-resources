@@ -50,6 +50,27 @@ class SourceHandoffTests(unittest.TestCase):
         self.assertEqual(sum(len(s) for s in shards), 54)
         self.assertTrue(all(len(s) <= 25 for s in shards))
 
+    def test_native_liepin_handoff_queues_ai_identity_not_verdict(self):
+        m=load()
+        roles=[
+            {"sourceId":"1960468101","title":"大模型Agent工程师","company":"A",
+             "url":"https://www.liepin.com/job/1960468101.shtml?tracking=abc",
+             "location":"深圳","experience":"1-3年"},
+            {"sourceId":"1960468102","title":"普通后端开发","company":"B",
+             "url":"https://www.liepin.com/job/1960468102.shtml","location":"北京"},
+        ]
+        manifest,shards=m.build_handoff({"jobs":roles},{"jobs":[]},{}, "rr1")
+        snapshot=m.native_queue_snapshot(shards)
+        self.assertEqual(snapshot["market"],"CN")
+        self.assertEqual(len(snapshot["jobs"]),1)
+        row=snapshot["jobs"][0]
+        self.assertEqual(row["source_platform"],"猎聘")
+        self.assertEqual(row["discovery_access"],"NATIVE_API_LISTING")
+        self.assertEqual(row["evidence"],"listing_only")
+        self.assertNotIn("full_jd_text",row)
+        self.assertEqual(row["job_id"],"1960468101")
+        self.assertEqual(manifest["candidate_count"],2)
+
     def test_blank_identity_cannot_enter_queue(self):
         m = load()
         self.assertIsNone(m.project_liepin({"title": "AI Engineer", "url": "https://example.com"}))

@@ -8,6 +8,15 @@ q=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(q)
 
 class IndexQueueTests(unittest.TestCase):
+    def test_cn_liepin_canonical_is_exact_id_and_market_guarded(self):
+        self.assertEqual(
+            q.canonical("https://www.liepin.com/job/1960468101.shtml?utm_source=api","CN"),
+            "https://www.liepin.com/job/1960468101.shtml")
+        self.assertIsNone(q.canonical("https://www.liepin.com/job/1960468101.shtml","SG"))
+        self.assertIsNone(q.canonical("https://www.liepin.com.evil.example/job/1960468101.shtml","CN"))
+        self.assertIsNone(q.canonical("https://www.liepin.com/job/list.shtml","CN"))
+
+
     def test_ingest_strong_duplicate_and_pending(self):
         s=q.new_state("MY")
         known={"strong":{"urls":["https://my.jobstreet.com/job/12345678?utm_source=z"]},"weak":{"company_title":["acme|ai engineer"]}}

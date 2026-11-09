@@ -53,6 +53,12 @@ def canonical(url: str,market: str) -> str | None:
         match=re.fullmatch(r"/jobs/detail/(\d{5,15})/?",p.path)
         if match:
             return "https://devglobaljobs.com/jobs/detail/"+match.group(1)
+    # CN Liepin native API produces exact, platform-owned job IDs. This is
+    # an UNVERIFIED listing identity, never an employer JD or usable route.
+    if market=="CN" and p.scheme=="https" and p.hostname in {"www.liepin.com","liepin.com"} and not p.username and not p.password:
+        m=re.fullmatch(r"/job/(\d{5,16})\.shtml/?",p.path,re.I)
+        if m:
+            return "https://www.liepin.com/job/"+m.group(1)+".shtml"
     if market=="MY" and p.scheme=="https" and p.hostname=="jobs.ashbyhq.com":
         # First-party Gen Digital Ashby role UUID. Do not infer company, fit
         # or open status from title similarity with another Ashby requisition.
@@ -185,7 +191,8 @@ def ingest(state: dict,index: dict,payload: dict) -> tuple[dict,dict]:
         # Preserve compact official ATS provenance and the prior-WAIT warning
         # while deliberately never claiming JD/liveness/visa verified.
         for field in ("ats_key","source_job_id","source_evidence",
-                      "description_excerpt","source_listing_url"):
+                      "description_excerpt","source_listing_url",
+                      "source_platform","discovery_access"):
             if isinstance(item.get(field),str):
                 r[field]=item[field][:300]
         if item.get("prior_wait_employer_hint") is True:

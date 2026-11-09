@@ -56,6 +56,56 @@ def canonical_apply(url, market):
     return canonical(urlunsplit(p), market)
 
 
+def platform_family(url):
+    """Recognize the platform of the exact linked posting, never scan ownership."""
+    host = (urlsplit(str(url or "")).hostname or "").lower()
+    if host.endswith(".jobstreet.com"):
+        return "JobStreet"
+    if host == "linkedin.com" or host.endswith(".linkedin.com"):
+        return "LinkedIn"
+    if host.endswith(".indeed.com"):
+        return "Indeed"
+    if host == "my.hiredly.com":
+        return "Hiredly"
+    if host.endswith(".mycareersfuture.gov.sg"):
+        return "MyCareersFuture"
+    return "Employer ATS / other"
+
+
+# Coverage requirements from source-routing.md: these are NOT satisfied by
+# seeing a single API-proxy link on the relevant native hiring platform.
+PLATFORM_FAMILIES = {
+    "SG": ("LinkedIn", "JobStreet", "Indeed", "MyCareersFuture"),
+    "MY": ("LinkedIn", "JobStreet", "Indeed", "Hiredly"),
+    "CN": ("BOSS直聘", "牛客", "猎聘", "智联", "51job"),
+}
+
+
+def platform_coverage(results):
+    """Read-only proxy evidence, not a claim of direct/native platform search."""
+    lines = ["# Platform coverage: API proxy ≠ native search", "",
+             "Native/platform-wide scans are not performed by this Action. "
+             "All source hits below are exact role URLs found *through an API*; "
+             "a count does not establish full platform recall or current job liveness.",
+             "", "| Market | Named platform | API-proxy exact links | Native verified here | Status |",
+             "|---|---|---:|---:|---|"]
+    for market in MARKETS:
+        jobs = results[market]["jobs"]
+        for name in PLATFORM_FAMILIES[market]:
+            count = sum(x.get("source_platform") == name for x in jobs)
+            status = "API_PROXY_ONLY" if count else "NOT_VERIFIED_BY_THIS_ACTION"
+            lines.append(f"| {market} | {name} | {count} | 0 | {status} |")
+        others = sum(x.get("source_platform") == "Employer ATS / other" for x in jobs)
+        lines.append(f"| {market} | Employer ATS / other | {others} | 0 | API_PROXY_ONLY |")
+    lines.extend(["", "**Outstanding duties:** SG/MY broad-platform rotations, "
+                  "CN BOSS/牛客/猎聘/智联/51job rotations, SG university/PI research. "
+                  "Separate native-collection runs must report their own independently "
+                  "verified exact IDs; none is credited by this API report.",
+                  "",
+                  "No source row here is an eligible APPLY or permission to submit."])
+    return "\n".join(lines)+"\n"
+
+
 def normalized(title, company, url, market, *, source, key, uid, location, excerpt):
     if not (title and company and uid and TITLE.search(title)):
         return None
@@ -68,6 +118,8 @@ def normalized(title, company, url, market, *, source, key, uid, location, excer
         "job_id": str(uid)[:128], "key": str(key)[:180],
         "url": exact, "location": str(location or "")[:150],
         "source": source, "source_listing_url": "",
+        "source_platform": platform_family(exact),
+        "discovery_access": "API_PROXY_ONLY",
         "evidence": "listing_only", "lane": "AI", "triage_priority": "MEDIUM",
         "description_excerpt": str(excerpt or "")[:240],
     }
@@ -216,8 +268,10 @@ def collect(market, *, fetch=get_json, max_pages=2):
 def run(out_dir, *, fetch=get_json, max_pages=2):
     out_dir.mkdir(parents=True, exist_ok=True)
     health = {}
+    market_results = {}
     for market in MARKETS:
         result = collect(market,fetch=fetch,max_pages=max_pages)
+        market_results[market] = result
         health[market] = result["providers"]
         (out_dir / f"{market}.json").write_text(
             json.dumps({"market":market, "jobs":result["jobs"]},indent=2,ensure_ascii=False)+"\n")
@@ -227,6 +281,7 @@ def run(out_dir, *, fetch=get_json, max_pages=2):
                   f"successful pages={stats['successful_pages']}, "
                   f"first_error={stats['errors'][:1]}")
     (out_dir / "health.json").write_text(json.dumps(health,indent=2)+"\n")
+    (out_dir / "platform-coverage.md").write_text(platform_coverage(market_results))
     if all(health[m][p]["status"] == "UNAVAILABLE"
            for m in MARKETS for p in ("freehire", "aidevboard")):
         raise RuntimeError("All API markets unavailable; NOT a zero-job result")
