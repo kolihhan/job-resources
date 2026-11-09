@@ -185,7 +185,8 @@ def ingest(state: dict,index: dict,payload: dict) -> tuple[dict,dict]:
         # Preserve compact official ATS provenance and the prior-WAIT warning
         # while deliberately never claiming JD/liveness/visa verified.
         for field in ("ats_key","source_job_id","source_evidence",
-                      "description_excerpt","source_listing_url"):
+                      "description_excerpt","source_listing_url",
+                      "source_platform","discovery_access"):
             if isinstance(item.get(field),str):
                 r[field]=item[field][:300]
         if item.get("prior_wait_employer_hint") is True:
