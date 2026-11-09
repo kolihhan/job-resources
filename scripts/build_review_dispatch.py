@@ -282,7 +282,17 @@ def build_dispatch(states, feeds, known_index, *, now=None,
             "unique_review_candidates": len(by_url),
             "available_by_track_hint": {t: available[t] for t in TRACKS},
             "selected_by_track": {t: by_track[t] for t in TRACKS},
-            "hard_rejects_this_run": 0,
+            # A dispatch run performs no substantive fit or hard screening.
+            "fit_decisions_made": 0,
+            "coverage_gaps": (
+                (["NO_ENGINEERING_CANDIDATES_IN_OBSERVED_SOURCES"]
+                 if available["ENG"] == 0 else [])
+                + (["NO_RESEARCH_CANDIDATES_IN_OBSERVED_SOURCES"]
+                   if available["RES"] == 0 else [])
+                + (["ATS_FEED_UNAVAILABLE"] if feed is None else [])
+                + (["ATS_CANDIDATES_FROM_ONE_EMPLOYER_ONLY"]
+                   if feed is not None and len(companies) == 1 else [])
+            ),
             "selected": selected,
         }
     return result
@@ -307,6 +317,11 @@ def markdown_report(report):
             f"{m['current_full_jd_for_fit']} | {m['selected_by_track']['ENG']} | "
             f"{m['selected_by_track']['RES']} |"
         )
+    lines += ["", "## Source and track coverage debt", ""]
+    for market in MARKETS:
+        m = report["markets"][market]
+        for gap in m["coverage_gaps"]:
+            lines.append(f"- **{market}** {gap}. Coverage debt, NOT proof of zero vacancies.")
     lines += ["", "## Exactly what scouts should review", ""]
     for market in MARKETS:
         m = report["markets"][market]
