@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T14:05:00+08:00",
+  "updated_at": "2026-11-09T15:00:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4302,6 +4302,28 @@
       "attempts": 0,
       "next_retry_at": "2026-11-10T14:05:00+08:00",
       "evidence_note": "Ambiguous senior/executive title and WhatJobs-only listing; locate exact LTA Careers JD to test junior level, real AI engineering vs data ops, SG citizenship/PR restriction, and direct route."
+    },
+    {
+      "candidate_seq": 975,
+      "role_key": "freehire:ai-enabler-full-stack-engineer-for-ai-tools-copilots-ig-group-r3egsplx",
+      "reason_code": "official_jd_and_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T15:00:00+08:00",
+      "company": "IG Group",
+      "title": "AI Enabler: Full-Stack Engineer for AI Tools & Copilots",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94060923__7119",
+      "missing_decisive_evidence": "Employer exact requisition, full JD, core AI ownership, current direct application route and SG work-pass eligibility"
+    },
+    {
+      "candidate_seq": 978,
+      "role_key": "freehire:ai-enabled-full-stack-engineer-build-modern-apps-eps-consultants-pte-ltd-75ovrjm5",
+      "reason_code": "official_jd_and_eligibility_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T15:00:00+08:00",
+      "company": "EPS Consultants Pte Ltd",
+      "title": "AI-Enabled Full Stack Engineer: Build Modern Apps",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94060418__7119",
+      "missing_decisive_evidence": "Employer exact requisition and direct route, full substantive AI JD, employment type and sponsorship"
     }
   ]
 }
