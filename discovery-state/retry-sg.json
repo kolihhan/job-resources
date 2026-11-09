@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T16:30:00+08:00",
+  "updated_at": "2026-11-09T17:05:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4354,6 +4354,50 @@
       "reason_code": "missing_exact_employer_requisition_and_substantive_ai_ownership",
       "attempts": 0,
       "next_retry_at": "2026-11-10T16:30:00+08:00"
+    },
+    {
+      "candidate_seq": 991,
+      "role_key": "freehire:fintech-systems-engineer-ai-infra-data-pipelines-actelligent-uuu6s3pt",
+      "reason_code": "official_exact_jd_and_direct_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T18:00:00+08:00",
+      "company": "Actelligent",
+      "title": "FinTech Systems Engineer: AI Infra & Data Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93999589__7119",
+      "missing_evidence": "Exact employer requisition, authoritative substantive JD, actual AI ownership, YOE, and non-MCF direct application route"
+    },
+    {
+      "candidate_seq": 992,
+      "role_key": "freehire:azure-data-ai-platform-engineer-build-scalable-pipelines-argyll-scott-consulting-pte-ltd-bfm6sy4v",
+      "reason_code": "official_exact_jd_and_direct_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T18:00:00+08:00",
+      "company": "ARGYLL SCOTT CONSULTING PTE. LTD.",
+      "title": "Azure Data & AI Platform Engineer — Build Scalable Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94033997__7119",
+      "missing_evidence": "Exact employer requisition, authoritative substantive JD, actual AI ownership, YOE, and non-MCF direct application route"
+    },
+    {
+      "candidate_seq": 995,
+      "role_key": "freehire:cloud-data-ai-platform-engineer-azure-databricks-argyll-scott-jpcyjeqr",
+      "reason_code": "official_exact_jd_and_direct_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T18:00:00+08:00",
+      "company": "Argyll Scott",
+      "title": "Cloud Data & AI Platform Engineer (Azure & Databricks)",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94036734__7119",
+      "missing_evidence": "Exact employer requisition, authoritative substantive JD, actual AI ownership, YOE, and non-MCF direct application route"
+    },
+    {
+      "candidate_seq": 997,
+      "role_key": "freehire:data-ai-engineer-build-ai-native-data-pipelines-secretlab-ybuwxw6i",
+      "reason_code": "official_exact_jd_and_direct_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T18:00:00+08:00",
+      "company": "Secretlab",
+      "title": "Data & AI Engineer: Build AI-Native Data Pipelines",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034423__7119",
+      "missing_evidence": "Exact employer requisition, authoritative substantive JD, actual AI ownership, YOE, and non-MCF direct application route"
     }
   ]
 }
