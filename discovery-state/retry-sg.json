@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T23:15:00+08:00",
+  "updated_at": "2026-11-10T00:10:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4629,6 +4629,66 @@
       "next_retry_at": "2026-11-11T23:15:00+08:00",
       "missing_evidence": "Official employer requisition and full JD, substantive AI ownership, 0–3 YOE, non-MCF route and SG work pass",
       "next_source": "Employer official ATS exact-role search, not WhatJobs/JobStreet snippet"
+    },
+    {
+      "candidate_seq": 1068,
+      "role_key": "freehire:software-engineer-senior-software-engineer-ai-products-platform-ministry-of-education-govtech-23z7s7d4",
+      "company": "GovTech",
+      "title": "Software Engineer / Senior Software Engineer, AI Products & Platform, Ministry of Education",
+      "source_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4004456201",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T00:10:00+08:00",
+      "missing_evidence": "Full official JD, junior-track requirements, nationality/security clearance, SG EP/S Pass and open direct route",
+      "next_source": "Exact first-party employer careers/ATS verification; avoid repeating aggregator snippets"
+    },
+    {
+      "candidate_seq": 1069,
+      "role_key": "freehire:senior-software-engineer-ai-programme-govtech-36qdgpng",
+      "company": "GovTech",
+      "title": "Senior/ Software Engineer, AI Programme",
+      "source_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4005722201",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T00:10:00+08:00",
+      "missing_evidence": "Official complete JD, junior alternative vs senior floor, citizenship/security clearance, SG work pass and live route",
+      "next_source": "Exact first-party employer careers/ATS verification; avoid repeating aggregator snippets"
+    },
+    {
+      "candidate_seq": 1071,
+      "role_key": "freehire:ai-engineer-allinton-engineering-trading-pte-ltd-iazd3qu6",
+      "company": "ALLINTON ENGINEERING & TRADING PTE. LTD.",
+      "title": "AI Engineer",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/1c748daec360feb9f0007d8efbbd7b40",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T00:10:00+08:00",
+      "missing_evidence": "Employer full JD proving AI ownership, 0–3 YOE, and non-MCF application route",
+      "next_source": "Exact first-party employer careers/ATS verification; avoid repeating aggregator snippets"
+    },
+    {
+      "candidate_seq": 1072,
+      "role_key": "freehire:forward-deployed-engineer-ai-platform-solutions-aryan-solutions-pte-ltd-zypshtg6",
+      "company": "ARYAN SOLUTIONS PTE. LTD.",
+      "title": "Forward Deployed Engineer – AI Platform & Solutions",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/f1f63970ca85b067d2cf11a91fe63a01",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T00:10:00+08:00",
+      "missing_evidence": "Employer full JD, actual AI engineering scope, 0–3 YOE, non-MCF direct route and pass feasibility",
+      "next_source": "Exact first-party employer careers/ATS verification; avoid repeating aggregator snippets"
+    },
+    {
+      "candidate_seq": 1080,
+      "role_key": "freehire:ai-full-stack-engineer-freshers-welcome-real-world-ai-ai-lab-technologies-pte-ltd-6rospler",
+      "company": "AI Lab Technologies Pte. Ltd.",
+      "title": "AI Full-Stack Engineer — Freshers Welcome, Real-World AI",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93826947__7119",
+      "reason_code": "exact_employer_jd_and_route_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-11T00:10:00+08:00",
+      "missing_evidence": "Official employer identity/req, complete JD establishing substantial AI ownership, credible company and direct non-MCF application route",
+      "next_source": "Exact first-party employer careers/ATS verification; avoid repeating aggregator snippets"
     }
   ]
 }
