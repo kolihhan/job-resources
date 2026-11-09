@@ -13,7 +13,10 @@ class HealthTests(unittest.TestCase):
         q={"version":1,"market":"SG","next_unacknowledged_seq":1,
            "pending":[
              {"seq":1,"source":"ntu:official-cxs:SG","first_seen_at":"2026-11-06T12:00:00Z",
-              "consumer_review":{"stage":"FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"}},
+              "title":"Research Engineer I", "url":"https://ntu.wd3.myworkdayjobs.com/Careers/job/Test_R00026164",
+              "consumer_review":{"stage":"FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW",
+                "jd_sha256":"abc", "signals":["llm", "evaluation"],
+                "full_jd_complete":True}},
              {"seq":2,"source":"ntu:official-cxs:SG","first_seen_at":"2026-11-07T08:00:00Z"},
              {"seq":3,"source":"devglobal:public-api:SG","first_seen_at":"2026-11-07T08:00:00Z",
               "consumer_review":{"stage":"FETCH_OR_IDENTITY_RETRY"}}],
@@ -27,6 +30,9 @@ class HealthTests(unittest.TestCase):
         self.assertEqual(r["oldest_pending_age_hours"],24)
         self.assertAlmostEqual(r["high_concentration"],2/3)
         self.assertEqual(r["hours_since_ingestion"],3)
+        self.assertEqual(r["fit_review_with_complete_jd"],1)
+        self.assertEqual(len(r["fit_review_candidates"]),1)
+        self.assertEqual(r["fit_review_candidates"][0]["seq"],1)
     def test_scheduled_not_claimed_from_push_success(self):
         runs=[{"name":"SG Conservative Queue Consumer","event":"push",
             "created_at":"2026-11-07T11:00:00Z","conclusion":"success",
@@ -48,4 +54,17 @@ class HealthTests(unittest.TestCase):
                "workflows":r})
         self.assertIn("Scheduled run seen?",s)
         self.assertIn("CN consumer is not covered",s)
+        self.assertIn("Exact first-party roles awaiting full fit review",s)
+
+    def test_report_renders_review_ready_roles_without_claiming_eligibility(self):
+        report={"queues":[{"market":"SG","pending":1,"jd_verified_awaiting_fit":1,
+            "unreviewed":0,"retry_needed":0,"oldest_pending_age_hours":1,
+            "fit_review_candidates":[{"seq":4,"title":"LLM Agent Research Engineer",
+                "url":"https://ntu.wd3.myworkdayjobs.com/Careers/job/Test_R00026164",
+                "signals":["llm"],"review_flags":["experience_years_mentioned"],
+                "full_jd_complete":False}]}], "workflows":{}}
+        markdown=h.summarize(report)
+        self.assertIn("LLM Agent Research Engineer",markdown)
+        self.assertIn("no — re-fetch",markdown)
+        self.assertIn("not APPLY eligibility",markdown)
 if __name__=="__main__":unittest.main()
