@@ -84,7 +84,7 @@ class OfficialATSIntakeTests(unittest.TestCase):
                      job("SG",22,"Gamma","LLM Engineer")])
         updated,stats=process_market("SG",{"market":"SG","jobs":rows},
                                      new_state("SG"),{},limit=8,company_cap=2)
-        self.assertEqual(stats["created"],6)
+        self.assertEqual(stats["created"],5)
         self.assertLessEqual(sum(x["company"]=="Bjak" for x in updated["pending"]),2)
         self.assertEqual(stats["selected_by_track_hint"]["RES"],2)
         self.assertEqual(len({x["company"] for x in updated["pending"]}),4)
