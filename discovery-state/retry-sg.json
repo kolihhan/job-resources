@@ -1,7 +1,7 @@
 {
   "version": 1,
   "market": "SG",
-  "updated_at": "2026-11-09T17:05:00+08:00",
+  "updated_at": "2026-11-09T18:25:00+08:00",
   "receipts": [
     {
       "candidate_seq": 238,
@@ -4398,6 +4398,39 @@
       "title": "Data & AI Engineer: Build AI-Native Data Pipelines",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034423__7119",
       "missing_evidence": "Exact employer requisition, authoritative substantive JD, actual AI ownership, YOE, and non-MCF direct application route"
+    },
+    {
+      "candidate_seq": 1004,
+      "role_key": "freehire:full-stack-ai-developer-uic-asian-computer-services-7enonkg4",
+      "company": "UIC Asian Computer Services",
+      "title": "Full Stack AI Developer",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94038336__7119",
+      "reason_code": "exact_employer_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T18:30:00+08:00",
+      "missing_evidence": "Employer requisition, substantive official JD, actual LLM/Agent/AI ownership, YOE, Singapore work-pass feasibility and usable non-MCF route"
+    },
+    {
+      "candidate_seq": 1005,
+      "role_key": "freehire:junior-fullstack-engineer-global-platform-ai-learning-foodpanda-mafzuwhb",
+      "company": "foodpanda",
+      "title": "Junior Fullstack Engineer – Global Platform, AI Learning",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94021646__7119",
+      "reason_code": "exact_employer_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T18:30:00+08:00",
+      "missing_evidence": "Employer requisition, substantive official JD, actual LLM/Agent/AI ownership, YOE, Singapore work-pass feasibility and usable non-MCF route"
+    },
+    {
+      "candidate_seq": 1006,
+      "role_key": "freehire:full-stack-engineer-ai-assisted-cloud-native-gov-grade-jobster-private-ltd-yzpt5f4d",
+      "company": "JOBSTER PRIVATE LTD.",
+      "title": "Full-Stack Engineer | AI-Assisted, Cloud-Native & Gov-Grade",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__94034730__7119",
+      "reason_code": "exact_employer_jd_and_ai_ownership_unverified",
+      "attempts": 0,
+      "next_retry_at": "2026-11-10T18:30:00+08:00",
+      "missing_evidence": "Employer requisition, substantive official JD, actual LLM/Agent/AI ownership, YOE, Singapore work-pass feasibility and usable non-MCF route"
     }
   ]
 }
