@@ -52,6 +52,7 @@ class DispatchTests(unittest.TestCase):
         self.assertEqual(output["markets"]["CN"]["verified_waiting_fit"],0)
         self.assertEqual(selected[0]["source"],"freehire:public-api:CN")
         self.assertIn("existing queue #3",markdown_report(output))
+        self.assertIn("Review tasks available: 1",markdown_report(output))
 
     def test_origin_and_jd_proof_distinguished_from_ats_feed(self):
         p=pending("SG", 3, "Research Engineer I")
