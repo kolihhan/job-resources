@@ -18,6 +18,7 @@ WORKFLOWS=(
  "MY TOP Gen Digital Official Source Intake",
  "SG MY Structured Feed Intake",
  "Six-Battlefield Candidate Review Dispatch",
+ "Official ATS Durable Source Intake",
  "SG Research First-Party Portal Probe",
 )
 STAGES={
@@ -147,7 +148,7 @@ def summarize(data):
         lines.append(f"| {q['market']} | {q.get('cohort_observed_lifetime','?')} | "
                      f"{q.get('issue_ack_lifetime','?')} | {q.get('hard_rejected_lifetime','?')} | "
                      f"{q.get('duplicate_confirmed_lifetime','?')} | {q['pending']} |")
-    lines+=["", "Only existing SG/MY source queues, not entire ATS market coverage. "
+    lines+=["", "Durable SG/MY/CN source queues when present, NOT entire job-market coverage. "
                   "An ACK includes APPLY/CHECK and other confirmed historical Issue states. "
                   "Do not calculate applicant conversion, eligibility rate or interview probability.",
             "", "## Exact first-party roles awaiting full fit review",
@@ -164,6 +165,10 @@ def summarize(data):
             flags=", ".join(role.get("review_flags") or []) or "none"
             snapshot="yes" if role["full_jd_complete"] else "no — re-fetch"
             lines.append(f"| {q['market']} | {name} | {signals} | {flags} | {snapshot} |")
+    if data.get("missing_source_queues"):
+        lines += ["", "**Missing source queue telemetry:** " +
+                  ", ".join(data["missing_source_queues"]) +
+                  " (not proof of zero job vacancies)."]
     lines+=["","## Workflow evidence",
             "","| Workflow | Latest run | Conclusion | Scheduled run seen? |",
             "|---|---|---|---|"]
@@ -176,7 +181,7 @@ def summarize(data):
       "- No workflow scheduled execution is claimed just because it has a schedule definition.",
       "- Raw source IDs and queued JDs are not APPLY jobs.",
       "- Company concentration and full market recall are not established from this report.",
-      "- CN consumer is not covered by SG/MY machine queue metrics."]
+      "- Missing market queues are unavailable telemetry, not evidence of no vacancies."]
     return "\n".join(lines)+"\n"
 
 def main():
@@ -186,11 +191,16 @@ def main():
     ap.add_argument("--summary",type=Path,required=True)
     args=ap.parse_args()
     states=[]
-    for m in ("sg","my"):
+    missing=[]
+    for m in ("sg","my","cn"):
         p=args.repo/"discovery-state"/f"platform-index-{m}.json"
-        states.append(json.loads(p.read_text(encoding="utf-8")))
+        if p.is_file():
+            states.append(json.loads(p.read_text(encoding="utf-8")))
+        else:
+            missing.append(m.upper())
     now=now_utc()
     result={"observed_at":now.isoformat(),"queues":[measure_queue(s,now) for s in states],
+            "missing_source_queues":missing,
             "workflows":measure_runs(fetch_action_runs(os.environ.get("GITHUB_TOKEN","")),now)}
     args.out.parent.mkdir(parents=True,exist_ok=True)
     args.out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

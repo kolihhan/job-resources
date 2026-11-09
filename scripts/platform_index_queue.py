@@ -30,7 +30,7 @@ except ImportError:
     spec.loader.exec_module(_module)
     candidate_url=_module.candidate_url
 
-MARKETS={"SG","MY"}
+MARKETS={"SG","MY","CN"}
 TERMINAL={"HARD_REJECTED","DUPLICATE_CONFIRMED","ISSUE_VERIFIED"}
 
 def utcnow() -> str:
@@ -66,6 +66,40 @@ def canonical(url: str,market: str) -> str | None:
         if match:
             return ("https://ntu.wd3.myworkdayjobs.com/Careers/job/"
                     +match.group(1)+"/"+match.group(2))
+    # Vendor-owned exact job pages: accept only strict role-ID URL shapes.
+    # These are review transport identities, NEVER proof of job eligibility.
+    if p.scheme=="https" and not p.username and not p.password:
+        path=p.path.rstrip("/")
+        # Preserve previously proven employer/market ownership. Broad vendor
+        # URL validation must never turn an SG-only role into a MY candidate.
+        if p.hostname=="ntu.wd3.myworkdayjobs.com" and market!="SG":
+            return None
+        if p.hostname=="jobs.ashbyhq.com":
+            board_slug=(path.split("/")+[""])[1].lower()
+            owner_markets={"gen-digital": {"MY"}, "abound": {"CN"}}
+            if board_slug in owner_markets and market not in owner_markets[board_slug]:
+                return None
+        if p.hostname=="jobs.ashbyhq.com":
+            m=re.fullmatch(r"/([A-Za-z0-9_.-]+)/([0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12})",path)
+            if m:
+                return "https://jobs.ashbyhq.com/"+m.group(1)+"/"+m.group(2).lower()
+        if p.hostname in {"job-boards.greenhouse.io","job-boards.eu.greenhouse.io"}:
+            m=re.fullmatch(r"/([A-Za-z0-9_-]+)/jobs/(\d{5,12})",path)
+            if m:
+                return "https://"+p.hostname+"/"+m.group(1)+"/jobs/"+m.group(2)
+        if p.hostname=="jobs.lever.co":
+            m=re.fullmatch(r"/([A-Za-z0-9_.-]+)/([0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12})",path)
+            if m:
+                return "https://jobs.lever.co/"+m.group(1)+"/"+m.group(2).lower()
+        if p.hostname=="jobs.smartrecruiters.com":
+            m=re.fullmatch(r"/([A-Za-z0-9_-]+)/([A-Za-z0-9-]{6,90})",path)
+            if m:
+                return "https://jobs.smartrecruiters.com/"+m.group(1)+"/"+m.group(2)
+        if re.fullmatch(r"[a-z0-9-]+\.wd[0-9]+\.myworkdayjobs\.com",p.hostname or ""):
+            m=re.fullmatch(r"/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_-]+)/job/([A-Za-z0-9_-]+)/([^/]+_[A-Za-z]{1,5}\d{4,12}(?:-\d+)?)",path)
+            if m:
+                return ("https://"+p.hostname+"/"+m.group(1)+"/job/"
+                        +m.group(2)+"/"+m.group(3))
     return None
 
 def new_state(market: str) -> dict:
@@ -147,6 +181,13 @@ def ingest(state: dict,index: dict,payload: dict) -> tuple[dict,dict]:
            "source":payload["source"][:90],"query":str(item.get("query") or "")[:180],
            "first_seen_at":utcnow(),
            "last_error":None,"retries":0}
+        # Preserve compact official ATS provenance and the prior-WAIT warning
+        # while deliberately never claiming JD/liveness/visa verified.
+        for field in ("ats_key","source_job_id","source_evidence","description_excerpt"):
+            if isinstance(item.get(field),str):
+                r[field]=item[field][:300]
+        if item.get("prior_wait_employer_hint") is True:
+            r["prior_wait_employer_hint"]=True
         state["pending"].append(r)
         state["next_seq"]+=1
         existing.add(key)

@@ -56,10 +56,18 @@ class HealthTests(unittest.TestCase):
               "unreviewed":0,"retry_needed":0,"oldest_pending_age_hours":4}],
                "workflows":r})
         self.assertIn("Scheduled run seen?",s)
-        self.assertIn("CN consumer is not covered",s)
+        self.assertIn("Missing market queues",s)
         self.assertIn("Source queue lifetime dispositions",s)
         self.assertIn("no misleading conversion %",s)
         self.assertIn("Exact first-party roles awaiting full fit review",s)
+
+    def test_missing_cn_state_does_not_mean_cn_market_empty(self):
+        report={"queues":[],"missing_source_queues":["CN"],"workflows":{}}
+        text=h.summarize(report)
+        self.assertIn("Missing source queue telemetry",text)
+        self.assertIn("CN",text)
+        self.assertIn("not proof of zero job vacancies",text)
+        self.assertIn("Official ATS Durable Source Intake",h.WORKFLOWS)
 
     def test_report_renders_review_ready_roles_without_claiming_eligibility(self):
         report={"queues":[{"market":"SG","pending":1,"jd_verified_awaiting_fit":1,
