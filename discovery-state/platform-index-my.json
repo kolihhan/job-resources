@@ -13,44 +13,8 @@
   },
   "market": "MY",
   "next_seq": 70,
-  "next_unacknowledged_seq": 4,
+  "next_unacknowledged_seq": 21,
   "pending": [
-    {
-      "company": "Gen Digital / MoneyLion",
-      "consumer_review": {
-        "checked_at": "2026-11-09T10:11:30.180492Z",
-        "employment_time_type": "FullTime",
-        "full_jd_complete": true,
-        "full_jd_text": "About Gen: Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for the first digital generations, and today we deliver award-winning cybersecurity, online privacy, identity protection and financial wellness solutions to nearly 500 million users in more than 150 countries. Together, we share a collective passion and vision to protect consumers and help them grow, manage and secure their digital and financial lives. We’re always looking for smart, fearless and high-impact talent who see AI as a teammate – leveraging it to move faster and deliver meaningful results. When you’re part of Gen, you’ll have the flexibility, tools and support to do your best work and grow your career – from flexible working options and time off to competitive pay, benefits and well-being programs. At Gen, we are scrappy and relentlessly customer driven. We create room for healthy debate, experimentation and continuous learning, and we seek out people with different experiences, identities and ideas to join our team. You’ll work with people who back each other, respect each other and understand that our differences are a competitive advantage. If this sounds like you, we’d love you to be part of Gen. About the Role The Kuala Lumpur office is the technology powerhouse of MoneyLion. We pride ourselves on innovative initiatives and thrive in a fast paced and challenging environment. Join our multicultural team of visionaries and industry rebels in disrupting the traditional finance industry! We are looking for a Machine Learning Engineer who is technically proficient in programming to build machine learning systems and maintain high performing machine learning models in production. Designing machine learning systems requires that you, as the machine learning engineer, is able to frame business problems and design machine learning solutions that can effectively bring value to the company. You will prototype, implement and experiment with machine learning methods to solve business use cases. You will lead efforts to automate, architect and optimise machine learning processes and workflows. You will also help define, execute and enforce best practices for test-driven model development processes for the entire Data Science team in MoneyLion. Key Responsibilities - Able to frame and contextualize machine learning problems - Research, build and design machine learning systems and models that can solve business problems - Assess, understand and analyse data to select appropriate datasets for data modelling and testing - Identify, prototype and implement appropriate machine learning algorithms and tools to improve our products - Design, execute and monitor machine learning model experiments and metrics - Perform statistical analysis to evaluate and prove business impact of modelling improvements - Automate, architect and orchestrate machine learning processes and pipelines - Monitor, optimise and maintain machine learning solutions in production - Enrich existing machine learning libraries and model development frameworks to empower model development in MoneyLion - Work with MLOps Engineers and Data Scientists to improve systems designs and architectures - Enforce test-driven development and advocate engineering best practices to reduce technical debt in machine learning systems - Develop tools and internal libraries to facilitate model governance over the machine learning development lifecycle About You - Strong mathematical, statistical or actuarial background - Good programming knowledge and software engineering skills - Must have hands on experience in machine learning, predictive analytics and statistical modelling - Experience developing and deploying machine learning models in production. - Adept at problem solving and troubleshooting using both textbook methods and novel viewpoints - Proficient in Python and SQL - Proficient with machine learning libraries and frameworks such as scikit-learn, XGBoost, LightGBM - Preferably have experience in building machine learning systems and workflows - Preferably familiar and have experience with MLOps tools such as DVC, MLFlow, Metaflow, Seldon, BentoML - Preferably familiar and have experience with AWS, Docker, Kubernetes. - Solid communication and collaboration skills. What's Next... After you submit your application, you can expect the following steps in the recruitment process: 1. Online Technical Test 2. Take-Home Assessment 3. Interview & Discussion of Take-Home Assessment - Hiring Manager (Virtual or face-to-face) __________ Gen is an equal opportunity employer, and we’re committed to fair, inclusive practices at every stage of the candidate and employee journey. Employment decisions are based on merit, experience and business needs.",
-        "jd_chars": 4913,
-        "jd_sha256": "c28b7d6d738c027ccb2f8096a44a70deff5557475dcd4bbd64931d7545672b27",
-        "job_description_excerpt": "About Gen: Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for the firs",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "public_employer_board_listed": true,
-        "req_id": "2f170362-7e3b-48a2-956e-1bac730a7d1d",
-        "review_flags": [
-          "security_specialism"
-        ],
-        "signals": [
-          "evaluation"
-        ],
-        "source_kind": "Gen Digital first-party Ashby",
-        "source_verified_can_apply": "NOT_ASSERTED_BY_ASHBY_FEED",
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T11:16:43.391174Z",
-      "key": "my:f297320beeba59bdfe62",
-      "last_error": null,
-      "market": "MY",
-      "platform": "Gen Digital official Ashby",
-      "query": "",
-      "retries": 0,
-      "seq": 4,
-      "source": "gen-digital:official-ashby:MY",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Machine Learning Engineer - MoneyLion",
-      "url": "https://jobs.ashbyhq.com/gen-digital/2f170362-7e3b-48a2-956e-1bac730a7d1d"
-    },
     {
       "ats_key": "micron|workday|/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
       "company": "Micron",
@@ -1633,6 +1597,46 @@
       "state": "HARD_REJECTED",
       "title": "AI Solutions Engineer",
       "url": "https://job-boards.greenhouse.io/axicorpfinancialservicesptyltd/jobs/5223611007"
+    },
+    {
+      "company": "Gen Digital / MoneyLion",
+      "consumer_review": {
+        "checked_at": "2026-11-09T10:11:30.180492Z",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "About Gen: Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for the first digital generations, and today we deliver award-winning cybersecurity, online privacy, identity protection and financial wellness solutions to nearly 500 million users in more than 150 countries. Together, we share a collective passion and vision to protect consumers and help them grow, manage and secure their digital and financial lives. We’re always looking for smart, fearless and high-impact talent who see AI as a teammate – leveraging it to move faster and deliver meaningful results. When you’re part of Gen, you’ll have the flexibility, tools and support to do your best work and grow your career – from flexible working options and time off to competitive pay, benefits and well-being programs. At Gen, we are scrappy and relentlessly customer driven. We create room for healthy debate, experimentation and continuous learning, and we seek out people with different experiences, identities and ideas to join our team. You’ll work with people who back each other, respect each other and understand that our differences are a competitive advantage. If this sounds like you, we’d love you to be part of Gen. About the Role The Kuala Lumpur office is the technology powerhouse of MoneyLion. We pride ourselves on innovative initiatives and thrive in a fast paced and challenging environment. Join our multicultural team of visionaries and industry rebels in disrupting the traditional finance industry! We are looking for a Machine Learning Engineer who is technically proficient in programming to build machine learning systems and maintain high performing machine learning models in production. Designing machine learning systems requires that you, as the machine learning engineer, is able to frame business problems and design machine learning solutions that can effectively bring value to the company. You will prototype, implement and experiment with machine learning methods to solve business use cases. You will lead efforts to automate, architect and optimise machine learning processes and workflows. You will also help define, execute and enforce best practices for test-driven model development processes for the entire Data Science team in MoneyLion. Key Responsibilities - Able to frame and contextualize machine learning problems - Research, build and design machine learning systems and models that can solve business problems - Assess, understand and analyse data to select appropriate datasets for data modelling and testing - Identify, prototype and implement appropriate machine learning algorithms and tools to improve our products - Design, execute and monitor machine learning model experiments and metrics - Perform statistical analysis to evaluate and prove business impact of modelling improvements - Automate, architect and orchestrate machine learning processes and pipelines - Monitor, optimise and maintain machine learning solutions in production - Enrich existing machine learning libraries and model development frameworks to empower model development in MoneyLion - Work with MLOps Engineers and Data Scientists to improve systems designs and architectures - Enforce test-driven development and advocate engineering best practices to reduce technical debt in machine learning systems - Develop tools and internal libraries to facilitate model governance over the machine learning development lifecycle About You - Strong mathematical, statistical or actuarial background - Good programming knowledge and software engineering skills - Must have hands on experience in machine learning, predictive analytics and statistical modelling - Experience developing and deploying machine learning models in production. - Adept at problem solving and troubleshooting using both textbook methods and novel viewpoints - Proficient in Python and SQL - Proficient with machine learning libraries and frameworks such as scikit-learn, XGBoost, LightGBM - Preferably have experience in building machine learning systems and workflows - Preferably familiar and have experience with MLOps tools such as DVC, MLFlow, Metaflow, Seldon, BentoML - Preferably familiar and have experience with AWS, Docker, Kubernetes. - Solid communication and collaboration skills. What's Next... After you submit your application, you can expect the following steps in the recruitment process: 1. Online Technical Test 2. Take-Home Assessment 3. Interview & Discussion of Take-Home Assessment - Hiring Manager (Virtual or face-to-face) __________ Gen is an equal opportunity employer, and we’re committed to fair, inclusive practices at every stage of the candidate and employee journey. Employment decisions are based on merit, experience and business needs.",
+        "jd_chars": 4913,
+        "jd_sha256": "c28b7d6d738c027ccb2f8096a44a70deff5557475dcd4bbd64931d7545672b27",
+        "job_description_excerpt": "About Gen: Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for the firs",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "public_employer_board_listed": true,
+        "req_id": "2f170362-7e3b-48a2-956e-1bac730a7d1d",
+        "review_flags": [
+          "security_specialism"
+        ],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "Gen Digital first-party Ashby",
+        "source_verified_can_apply": "NOT_ASSERTED_BY_ASHBY_FEED",
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T11:16:43.391174Z",
+      "key": "my:f297320beeba59bdfe62",
+      "last_error": null,
+      "market": "MY",
+      "platform": "Gen Digital official Ashby",
+      "query": "",
+      "retries": 0,
+      "seq": 4,
+      "source": "gen-digital:official-ashby:MY",
+      "state": "HARD_REJECTED",
+      "title": "Machine Learning Engineer - MoneyLion",
+      "url": "https://jobs.ashbyhq.com/gen-digital/2f170362-7e3b-48a2-956e-1bac730a7d1d",
+      "reason": "Official MoneyLion role expressly requires practical experience developing and deploying ML models in production and statistical predictive modelling; candidate has research/course ML evaluations but no verified professional deployed predictive-ML ownership.",
+      "evidence_url": "https://jobs.ashbyhq.com/gen-digital/2f170362-7e3b-48a2-956e-1bac730a7d1d",
+      "checked_at": "2026-11-10",
+      "review_source": "official employer-authored job JD"
     }
   ],
   "version": 1
