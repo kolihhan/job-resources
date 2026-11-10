@@ -188,7 +188,7 @@ jobs:
       - name: Publish one actionable review worklist from durable queues
         run: |
           python scripts/build_review_dispatch.py \
-            --repo . \
+            --repo . --ats-dir artifacts/ats-snapshots \
             --output artifacts/review-dispatch.json \
             --summary artifacts/review-dispatch.md \
             --limit 16 --track-reserve 4
