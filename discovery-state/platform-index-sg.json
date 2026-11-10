@@ -279,30 +279,6 @@
       "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101"
     },
     {
-      "ats_key": "clera|ashby|58f6f9be-99f0-469d-9334-088f40836f9e",
-      "company": "Clera",
-      "consumer_review": {
-        "checked_at": "2026-11-09T23:48:23.778841Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "ABOUT THE ROLE Join a small, technical team at an early-stage AI evaluation company building benchmarks for frontier AI agents. You will own the design and implementation of rigorous, domain-specific evaluations that help research teams and",
-      "first_seen_at": "2026-11-09T15:02:24.825368Z",
-      "key": "sg:bf72a7178a1f46b8ff87",
-      "last_error": null,
-      "market": "SG",
-      "platform": "ashby official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 42,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "58f6f9be-99f0-469d-9334-088f40836f9e",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer, Benchmarks",
-      "url": "https://jobs.ashbyhq.com/Clera/58f6f9be-99f0-469d-9334-088f40836f9e"
-    },
-    {
       "ats_key": "bjakcareer|ashby|08e32dad-a253-4391-9e61-c7b04a4a4343",
       "company": "BJAK",
       "consumer_review": {
@@ -1753,6 +1729,35 @@
       "state": "HARD_REJECTED",
       "title": "Research Engineer, Synthetic Data",
       "url": "https://jobs.ashbyhq.com/Clera/4955b2ea-95c2-4a78-bacf-02abd3b994e6"
+    },
+    {
+      "ats_key": "clera|ashby|58f6f9be-99f0-469d-9334-088f40836f9e",
+      "company": "Clera",
+      "consumer_review": {
+        "checked_at": "2026-11-09T23:48:23.778841Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "ABOUT THE ROLE Join a small, technical team at an early-stage AI evaluation company building benchmarks for frontier AI agents. You will own the design and implementation of rigorous, domain-specific evaluations that help research teams and",
+      "first_seen_at": "2026-11-09T15:02:24.825368Z",
+      "key": "sg:bf72a7178a1f46b8ff87",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 42,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "58f6f9be-99f0-469d-9334-088f40836f9e",
+      "state": "HARD_REJECTED",
+      "title": "Research Engineer, Benchmarks",
+      "url": "https://jobs.ashbyhq.com/Clera/58f6f9be-99f0-469d-9334-088f40836f9e",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "reason": "HARD_SPECIALIST_EXPERIENCE",
+        "note": "Employer-authored Ashby full JD (2026-11-10): Research Engineer Benchmarks requires 2–4 years of research/ML engineering INCLUDING at least two years specifically building/delivering AI benchmarks, evaluation infrastructure or agent environments; proficiency in Docker/Linux and operating benchmarks. Candidate has individual AI eval/RAG/agent projects, but no demonstrated 2 years of that specialist work. Employer sponsors visa but hard specialist floor remains. https://jobs.ashbyhq.com/clera/58f6f9be-99f0-469d-9334-088f40836f9e"
+      }
     },
     {
       "ats_key": "capco|greenhouse|8248788",
