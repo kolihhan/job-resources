@@ -76,6 +76,42 @@ class DispatchTests(unittest.TestCase):
         self.assertNotIn("Employer JD evidence", md)
         self.assertEqual(selected["decision"], "NOT_MADE")
 
+    def test_capped_my_pending_cannot_hide_live_ats_review_candidates(self):
+        # Production-like MY backlog: 45 third-party API leads, no full JD.
+        # A bounded ATS snapshot is a separate review source, not a new Pending.
+        backlog = []
+        for n in range(45):
+            row = pending("MY", n + 1, "AI Engineer",
+                          company="API Lead " + str(n))
+            row["state"] = "UNVERIFIED_INDEX"
+            row["consumer_review"] = {}
+            row["url"] = f"https://my.jobstreet.com/job/{95800000 + n}"
+            backlog.append(row)
+        official = [ats("MY", 1, "AI Agent Engineer", "ProductAI"),
+                    ats("MY", 2, "Research Engineer, NLP", "AI Lab")]
+        report = build_dispatch(
+            {"MY": {"market": "MY", "pending": backlog, "terminal": []}},
+            {"MY": {"market": "MY", "jobs": official}},
+            {"strong": {"urls": []}}, now=NOW,
+            limit_per_market=2, min_each_track=1)
+        result = report["markets"]["MY"]
+        self.assertEqual(result["official_pending_total"], 45)
+        self.assertEqual(result["ats_rows_observed"], 2)
+        self.assertEqual(result["unique_review_candidates"], 47)
+        self.assertEqual(len(result["selected"]), 2)
+        self.assertEqual({x["origin"] for x in result["selected"]},
+                         {"ats_feed"})
+        self.assertEqual(result["selected_by_track"], {"ENG": 1, "RES": 1})
+        self.assertEqual(result["fit_decisions_made"], 0)
+        self.assertTrue(all(not x["full_jd_complete"]
+                            and x["decision"] == "NOT_MADE"
+                            for x in result["selected"]))
+
+    def test_production_dispatch_workflow_passes_downloaded_ats_source(self):
+        workflow = (Path(__file__).resolve().parents[1] /
+                    ".github/workflows/official-ats-intake.yml").read_text()
+        self.assertIn("--repo . --ats-dir artifacts/ats-snapshots", workflow)
+
     def test_origin_and_jd_proof_distinguished_from_ats_feed(self):
         p=pending("SG", 3, "Research Engineer I")
         a=ats("SG", 1, "LLM Engineer", "A")
