@@ -78,6 +78,7 @@ IDs rather than expanding private queues or creating another tracker.
 - **SG:** unknown EP/S Pass support may survive if no explicit prohibition;
   a role explicitly requiring candidates *already based in Singapore* is a
   location blocker for a Malaysia-based candidate.
+- **CN source migration verified 2026-11-10:** `freehirefetch` public `feed/cn-native/` now publishes 3-hourly rotating Liepin and job-pro raw batches; `job-resources` reads those batches and builds only private Issue-aware source receipts and candidate decisions. Neither producer's 164 Liepin IDs nor 1,231 candidate handoff IDs are automatically APPLY; the private 45 Pending cap still limits queue admission.
 - **CN:** native Liepin/BOSS/牛客 and academic HR/PI research coverage remains
   independently important. Foreign work-permit and campus cohort eligibility
   need verified employer policy; no forced PhD or work contract fiction.
