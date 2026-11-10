@@ -121,30 +121,6 @@
       "url": "https://jobs.ashbyhq.com/bjakcareer/4e5ef9a0-abf2-43c1-a0db-881b1e17111f"
     },
     {
-      "ats_key": "grab|smartrecruiters|744000159601623",
-      "company": "Grab",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "Get to Know the Team The People Science team, within Grab's Office of Organisational Capabilities, turns people data, research, and AI into better organisational decisions. We are building a user-centric intelligence capability that helps G",
-      "first_seen_at": "2026-11-09T15:02:24.841157Z",
-      "key": "my:e12892029bdd3a633ae1",
-      "last_error": null,
-      "market": "MY",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Petaling Jaya, my",
-      "retries": 0,
-      "seq": 9,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "744000159601623",
-      "state": "UNVERIFIED_INDEX",
-      "title": "People Research Scientist, People Analytics",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000159601623"
-    },
-    {
       "ats_key": "gen-digital|ashby|e68a4dac-ca1d-43a1-a56a-6e45da05dc88",
       "company": "Gen Digital / MoneyLion",
       "consumer_review": {
@@ -1033,6 +1009,33 @@
       "state": "HARD_REJECTED",
       "title": "Data Engineer",
       "url": "https://job-boards.greenhouse.io/neweratech/jobs/8829792002"
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000159601623",
+      "company": "Grab",
+      "consumer_review": {
+        "checked_at": "2026-11-10T00:15:07.140505Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "Get to Know the Team The People Science team, within Grab's Office of Organisational Capabilities, turns people data, research, and AI into better organisational decisions. We are building a user-centric intelligence capability that helps G",
+      "first_seen_at": "2026-11-09T15:02:24.841157Z",
+      "key": "my:e12892029bdd3a633ae1",
+      "last_error": null,
+      "market": "MY",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Petaling Jaya, my",
+      "retries": 0,
+      "seq": 9,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "744000159601623",
+      "state": "HARD_REJECTED",
+      "title": "People Research Scientist, People Analytics",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000159601623",
+      "reviewed_at": "2026-11-10T08:18:00+08:00",
+      "disposition_evidence": "https://jobs.smartrecruiters.com/Grab/744000159601623 ; https://github.com/kolihhan/freehirefetch/blob/main/feed/ats/jd/MY-006.json",
+      "disposition_reason": "Employer-authored full JD in current public ATS feed explicitly requires 5–12 years of strategic consulting/applied organisational research/decision science experience, senior-stakeholder advisory and mixed-method programme evaluation. Candidate is MSc early-career with no such mature professional background. AI-agent prototyping is only good-to-have. All-state GitHub exact ID and employer/title search found no matching Issue. Hard maturity mismatch; no APPLY/CHECK."
     }
   ],
   "version": 1
