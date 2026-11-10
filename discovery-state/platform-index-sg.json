@@ -295,74 +295,6 @@
     {
       "company": "Nanyang Technological University",
       "consumer_review": {
-        "checked_at": "2026-11-09T10:11:50.566363Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum, outstanding and impactful research, and world-renowned faculty. A hot bed of cutting-edge technology and groundbreaking research, the College aims to groom the next generation of leaders, thinkers, and innovators to thrive in the digital age. Located in the heart of Asia, NTU’s College of Computing and Data Science is an ‘exciting place to learn and grow. We welcome you to join our community of faculty, students and alumni who are shaping the future of AI, Data Science and Computing. Key Responsibilities: Set up and maintain experiment tracking and visualization. Organize and manage the lab's research data. Manage the lab's code repositories and internal knowledge base. Maintain the lab's GPU servers. Build and maintain demos of the lab's research work for internal reviews, collaborators and visitors. Build and maintain the lab website, and run the lab's social media channels such as YouTube, X, Bilibili and RedNote to share the team's work. Job Requirements: Master’s degree in Computer Science, Computer Engineering, or a related field. Solid Python skills; able to read and modify model training code. Hands-on experience with experiment tracking tools. Proficient in Linux and Git. Experienced in using AI coding agents such as Claude Code or Codex. Able to build web demos and websites. Independent and organized, and works well in a team. Excellent verbal and written communication skills. Willing to work some flexible hours. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 1783,
-        "jd_sha256": "c56b4456fcfcc4fd232365979c9a51f74baa3f50cb2159bd30a3e5f1bb824c86",
-        "job_description_excerpt": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00026239",
-        "review_flags": [],
-        "signals": [
-          "agent",
-          "knowledge"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.297956Z",
-      "key": "sg:ab55e07fe91cf4122048",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 29,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Associate (Computer Science/Computer Engineering)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Computer-Science-Computer-Engineering-_R00026239"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T10:11:50.566363Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum, outstanding and impactful research, and world-renowned faculty. A hot bed of cutting-edge technology and groundbreaking research, the College aims to groom the next generation of leaders, thinkers, and innovators to thrive in the digital age. Located in the heart of Asia, NTU’s College of Computing and Data Science is an ‘exciting place to learn and grow. We welcome you to join our community of faculty, students and alumni who are shaping the future of AI, Data Science and Computing. Job Responsibilities: Set up and maintain experiment tracking and visualization. Organize and manage the lab's research data. Manage the lab's code repositories and internal knowledge base. Maintain the lab's GPU servers. Build and maintain demos of the lab's research work for internal reviews, collaborators and visitors. Build and maintain the lab website, and run the lab's social media channels such as YouTube, X, Bilibili and RedNote to share the team's work. Job Requirements: Bachelor’s degree in Computer Science, Computer Engineering, or a related field. Solid Python skills; able to read and modify model training code. Hands-on experience with experiment tracking tools. Proficient in Linux and Git. Experienced in using AI coding agents such as Claude Code or Codex. Able to build web demos and websites. Independent and organized, and works well in a team. Excellent verbal and written communication skills. Willing to work some flexible hours. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 1785,
-        "jd_sha256": "174157e79dbdfe3db1e672329b922dc12c1339543497c2cad5a4291113f8895b",
-        "job_description_excerpt": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00026175",
-        "review_flags": [],
-        "signals": [
-          "agent",
-          "knowledge"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.297980Z",
-      "key": "sg:b38bd9861c103908e0d7",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 30,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer I (Computer Science/Computer Engineering)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Computer-Science-Computer-Engineering-_R00026175"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
         "checked_at": "2026-11-09T11:41:59.933009Z",
         "employment_time_type": "Full time",
         "full_jd_complete": true,
@@ -1607,6 +1539,76 @@
       "state": "HARD_REJECTED",
       "title": "AI Engineer (AIEH)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIEH-_R00025566"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T10:11:50.566363Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum, outstanding and impactful research, and world-renowned faculty. A hot bed of cutting-edge technology and groundbreaking research, the College aims to groom the next generation of leaders, thinkers, and innovators to thrive in the digital age. Located in the heart of Asia, NTU’s College of Computing and Data Science is an ‘exciting place to learn and grow. We welcome you to join our community of faculty, students and alumni who are shaping the future of AI, Data Science and Computing. Key Responsibilities: Set up and maintain experiment tracking and visualization. Organize and manage the lab's research data. Manage the lab's code repositories and internal knowledge base. Maintain the lab's GPU servers. Build and maintain demos of the lab's research work for internal reviews, collaborators and visitors. Build and maintain the lab website, and run the lab's social media channels such as YouTube, X, Bilibili and RedNote to share the team's work. Job Requirements: Master’s degree in Computer Science, Computer Engineering, or a related field. Solid Python skills; able to read and modify model training code. Hands-on experience with experiment tracking tools. Proficient in Linux and Git. Experienced in using AI coding agents such as Claude Code or Codex. Able to build web demos and websites. Independent and organized, and works well in a team. Excellent verbal and written communication skills. Willing to work some flexible hours. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 1783,
+        "jd_sha256": "c56b4456fcfcc4fd232365979c9a51f74baa3f50cb2159bd30a3e5f1bb824c86",
+        "job_description_excerpt": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026239",
+        "review_flags": [],
+        "signals": [
+          "agent",
+          "knowledge"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.297956Z",
+      "key": "sg:ab55e07fe91cf4122048",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 29,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Associate (Computer Science/Computer Engineering)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Computer-Science-Computer-Engineering-_R00026239",
+      "reason": "Full first-party NTU JD archived 2026-11-09 lists lab experiment tracking, research data/repositories, GPU-server maintenance, web demos, website and social-media management as primary duties. No substantive NLP/LLM/Agent research or AI-system engineering ownership established. Reject by PROFILE content-first scope, not by title or degree. Exact-ID GitHub history checked in earlier run; no new application."
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T10:11:50.566363Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum, outstanding and impactful research, and world-renowned faculty. A hot bed of cutting-edge technology and groundbreaking research, the College aims to groom the next generation of leaders, thinkers, and innovators to thrive in the digital age. Located in the heart of Asia, NTU’s College of Computing and Data Science is an ‘exciting place to learn and grow. We welcome you to join our community of faculty, students and alumni who are shaping the future of AI, Data Science and Computing. Job Responsibilities: Set up and maintain experiment tracking and visualization. Organize and manage the lab's research data. Manage the lab's code repositories and internal knowledge base. Maintain the lab's GPU servers. Build and maintain demos of the lab's research work for internal reviews, collaborators and visitors. Build and maintain the lab website, and run the lab's social media channels such as YouTube, X, Bilibili and RedNote to share the team's work. Job Requirements: Bachelor’s degree in Computer Science, Computer Engineering, or a related field. Solid Python skills; able to read and modify model training code. Hands-on experience with experiment tracking tools. Proficient in Linux and Git. Experienced in using AI coding agents such as Claude Code or Codex. Able to build web demos and websites. Independent and organized, and works well in a team. Excellent verbal and written communication skills. Willing to work some flexible hours. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 1785,
+        "jd_sha256": "174157e79dbdfe3db1e672329b922dc12c1339543497c2cad5a4291113f8895b",
+        "job_description_excerpt": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026175",
+        "review_flags": [],
+        "signals": [
+          "agent",
+          "knowledge"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.297980Z",
+      "key": "sg:b38bd9861c103908e0d7",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 30,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Engineer I (Computer Science/Computer Engineering)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Computer-Science-Computer-Engineering-_R00026175",
+      "reason": "Full first-party NTU JD archived 2026-11-09 lists lab experiment tracking, research data/repositories, GPU-server maintenance, web demos, website and social-media management as primary duties. No substantive NLP/LLM/Agent research or AI-system engineering ownership established. Reject by PROFILE content-first scope, not by title or degree. Exact-ID GitHub history checked in earlier run; no new application."
     }
   ],
   "version": 1
