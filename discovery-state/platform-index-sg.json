@@ -462,83 +462,6 @@
       "url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233"
     },
     {
-      "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
-      "company": "NTU Singapore",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:20:09.352666Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst the top engineering schools in the world. For more details, please view https://www.ntu.edu.sg/mae/research . To develop novel microfluidics tools for nanoscale bioparticles (extracellular vesicles, virus etc) detection. Key Responsibilities: Develop an automated portable microfluidics pump system and impedance analyzer for cell culture monitoring Assist in the general upkeep of laboratory needs, maintain safety protocols, risk assessments, lab audits and management of inventories Provide administrative project support including budget tracking, laboratory item purchases and new staff and students trainings Job Requirements: Bachelor’s or master’s degree in Engineering/Life Sciences with at least 2 years of research experience Sound knowledge on electrical circuit and microcontroller like Arduino, Raspberry Pi, STM32. Demonstrated knowledge, skills, and expertise in supporting various research activities including cell biology, microbiology and microscopy. Experience in extracellular vesicles/virus/microfluidics research will be an advantage. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 2143,
-        "jd_sha256": "24784f3924c5801d4ce05c947d2a62ff78ea7ad363d9ab8c65eecb6d15ae1087",
-        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00026332",
-        "review_flags": [
-          "experience_years_mentioned",
-          "domain_specific"
-        ],
-        "signals": [],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabi",
-      "first_seen_at": "2026-11-09T15:11:31.005037Z",
-      "key": "sg:c9a22da4e906d0e113a6",
-      "last_error": null,
-      "market": "SG",
-      "platform": "workday official ATS",
-      "query": "NTU Main Campus, Singapore",
-      "retries": 0,
-      "seq": 53,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer II (Engineering / Life Sciences)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332"
-    },
-    {
-      "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
-      "company": "NTU Singapore",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:20:09.352666Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst the top engineering schools in the world. For more details, please view https://www.ntu.edu.sg/mae/research . We are looking for a Research Engineer to conduct cutting-edge research and software/hardware development in robotic systems operating under uncertainty. The role will focus on designing, implementing, and experimentally validating advanced algorithms in uncertainty-aware robot perception and robust robotic manipulation, directly supporting NTU's commitment to advancing world-class robotics research and industrial innovation. Key Responsibilities: Key responsibilities of the research engineer is to contribute to the following areas. Design, implement, and benchmark algorithms in probabilistic robotics, uncertainty-aware perception, and robust robotic manipulation under real-world uncertainties. Lead the development, maintenance, and public release of clean, well-documented open-source software repositories (e.g., ROS/ROS2 packages, Python/C++ libraries). Execute software-hardware integration for robotic manipulators, sensors, and actuators to build reliable, high-performance experimental setups. Plan and execute experimental validation in laboratory and field settings; evaluate perception-action loops using multi-modal sensor data. Draft invention disclosures for patents/IP protection and write research manuscripts for top-tier robotics publications (e.g., ICRA, IROS, RSS, T-RO). Manage laboratory infrastructure, ensure compliance with workplace safety standards, and co-guide student researchers. Job Requirements: Master's degree in Robotics, Computer Science, Mechanical Engineering, Electrical Engineering, or a related discipline. Strong programming proficiency in C++ and Python, with hands-on experience in ROS/ROS2 and Linux environments. Solid theoretical foundation or practical experience in robot perception, state estimation, computer vision, or robotic manipulation under uncertainty. Experience with open-source software contributions, code versioning (Git), or patent disclosures is highly desirable. Excellent technical writing skills, proactive problem-solving mindset, and the ability to work effectively in a collaborative research team. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 3274,
-        "jd_sha256": "d3d47aa999f939dbfdfa518150ecc8988e8a9983bf301492bcf37f9f75849329",
-        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00026298",
-        "review_flags": [
-          "domain_specific"
-        ],
-        "signals": [
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabi",
-      "first_seen_at": "2026-11-09T15:11:31.005053Z",
-      "key": "sg:eb6f46df6755290c6ffe",
-      "last_error": null,
-      "market": "SG",
-      "platform": "workday official ATS",
-      "query": "NTU Main Campus, Singapore",
-      "retries": 0,
-      "seq": 54,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer II (Physical AI)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298"
-    },
-    {
       "ats_key": "bjakcareer|ashby|56f522c4-b903-45ea-bb08-952b74641b56",
       "company": "BJAK",
       "consumer_review": {
@@ -2113,6 +2036,91 @@
       "issue_url": "https://github.com/kolihhan/job-resources/issues/918",
       "evidence_url": "https://github.com/kolihhan/job-resources/issues/918",
       "reason": "NTU Talent Acquisition email on 2026-10-31 confirmed prior application for the exact role title; see Issue #918; receipt does not include numerical requisition."
+    },
+    {
+      "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
+      "company": "NTU Singapore",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:20:09.352666Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst the top engineering schools in the world. For more details, please view https://www.ntu.edu.sg/mae/research . To develop novel microfluidics tools for nanoscale bioparticles (extracellular vesicles, virus etc) detection. Key Responsibilities: Develop an automated portable microfluidics pump system and impedance analyzer for cell culture monitoring Assist in the general upkeep of laboratory needs, maintain safety protocols, risk assessments, lab audits and management of inventories Provide administrative project support including budget tracking, laboratory item purchases and new staff and students trainings Job Requirements: Bachelor’s or master’s degree in Engineering/Life Sciences with at least 2 years of research experience Sound knowledge on electrical circuit and microcontroller like Arduino, Raspberry Pi, STM32. Demonstrated knowledge, skills, and expertise in supporting various research activities including cell biology, microbiology and microscopy. Experience in extracellular vesicles/virus/microfluidics research will be an advantage. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2143,
+        "jd_sha256": "24784f3924c5801d4ce05c947d2a62ff78ea7ad363d9ab8c65eecb6d15ae1087",
+        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026332",
+        "review_flags": [
+          "experience_years_mentioned",
+          "domain_specific"
+        ],
+        "signals": [],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabi",
+      "first_seen_at": "2026-11-09T15:11:31.005037Z",
+      "key": "sg:c9a22da4e906d0e113a6",
+      "last_error": null,
+      "market": "SG",
+      "platform": "workday official ATS",
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 53,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
+      "state": "HARD_REJECTED",
+      "title": "Research Engineer II (Engineering / Life Sciences)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
+      "reason": "Official NTU JD requires hands-on microfluidics, cell biology/microbiology and electrical/microcontroller lab research, which the candidate's NLP/LLM research and software background do not satisfy.",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
+      "checked_at": "2026-11-10",
+      "review_source": "official employer-authored job JD"
+    },
+    {
+      "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
+      "company": "NTU Singapore",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:20:09.352666Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst the top engineering schools in the world. For more details, please view https://www.ntu.edu.sg/mae/research . We are looking for a Research Engineer to conduct cutting-edge research and software/hardware development in robotic systems operating under uncertainty. The role will focus on designing, implementing, and experimentally validating advanced algorithms in uncertainty-aware robot perception and robust robotic manipulation, directly supporting NTU's commitment to advancing world-class robotics research and industrial innovation. Key Responsibilities: Key responsibilities of the research engineer is to contribute to the following areas. Design, implement, and benchmark algorithms in probabilistic robotics, uncertainty-aware perception, and robust robotic manipulation under real-world uncertainties. Lead the development, maintenance, and public release of clean, well-documented open-source software repositories (e.g., ROS/ROS2 packages, Python/C++ libraries). Execute software-hardware integration for robotic manipulators, sensors, and actuators to build reliable, high-performance experimental setups. Plan and execute experimental validation in laboratory and field settings; evaluate perception-action loops using multi-modal sensor data. Draft invention disclosures for patents/IP protection and write research manuscripts for top-tier robotics publications (e.g., ICRA, IROS, RSS, T-RO). Manage laboratory infrastructure, ensure compliance with workplace safety standards, and co-guide student researchers. Job Requirements: Master's degree in Robotics, Computer Science, Mechanical Engineering, Electrical Engineering, or a related discipline. Strong programming proficiency in C++ and Python, with hands-on experience in ROS/ROS2 and Linux environments. Solid theoretical foundation or practical experience in robot perception, state estimation, computer vision, or robotic manipulation under uncertainty. Experience with open-source software contributions, code versioning (Git), or patent disclosures is highly desirable. Excellent technical writing skills, proactive problem-solving mindset, and the ability to work effectively in a collaborative research team. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 3274,
+        "jd_sha256": "d3d47aa999f939dbfdfa518150ecc8988e8a9983bf301492bcf37f9f75849329",
+        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026298",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabi",
+      "first_seen_at": "2026-11-09T15:11:31.005053Z",
+      "key": "sg:eb6f46df6755290c6ffe",
+      "last_error": null,
+      "market": "SG",
+      "platform": "workday official ATS",
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 54,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
+      "state": "HARD_REJECTED",
+      "title": "Research Engineer II (Physical AI)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
+      "reason": "Official NTU Physical AI JD requires hands-on ROS/ROS2, C++/Python robotic manipulation/perception under uncertainty and robot hardware integration; absent from candidate's verified NLP/LLM/software record.",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
+      "checked_at": "2026-11-10",
+      "review_source": "official employer-authored job JD"
     }
   ],
   "version": 1
