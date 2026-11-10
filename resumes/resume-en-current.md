@@ -47,7 +47,7 @@ Malaysia | [+60 17-424 6282](tel:+60174246282) | [lihhanko526@gmail.com](mailto:
 ## Education
 
 **National Tsing Hua University**  
-M.S. in Information Systems & Applications | GPA 4.09/4.3 | Jun 2026
+M.S. in Information Systems & Applications | GPA 3.87/4.3 · Graduation grade 4.09/4.3 | Jun 2026
 
 **Chung Hua University**  
 B.S. in Computer Science & Information Engineering | GPA 3.9/4.0 | Jun 2024
