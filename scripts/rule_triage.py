@@ -159,9 +159,17 @@ def triage(row: dict, market: str, *, now: datetime | None = None) -> dict:
                 strong_cue("EXPLICIT_PHD_REQUIREMENT_REVIEW", match)
                 break
         for match in YEARS.finditer(jd):
+            # Crucial real-data counterexample: "At least 2–5 years of
+            # experience" matched its UPPER endpoint (5 years), turning
+            # an early-career-compatible range into a false hard blocker.
+            # Never treat upper 4+/5+ as a minimum if lower end <=3.
+            left = jd[max(0, match.start() - 18):match.start()]
+            if re.search(r"(?:^|[^0-9])(?:[0-3])\s*(?:-|–|—|to)\s*$", left, re.I):
+                continue
             context = _quote(jd, match, width=260)
-            # A role must not be rejected for a bonus/familiarity or historical
-            # company tenure. Require an explicit requirement clause nearby.
+            # A role must not be rejected for bonus/familiarity, historical
+            # company tenure, or non-mandatory preferences. Even a flagged
+            # requirement is only a HUMAN REVIEW queue signal in V1.
             if (REQUIRED.search(context) and not PREFERENCE.search(context)
                     and not SOFT_OVERRIDE.search(context)):
                 strong_cue("EXPLICIT_4PLUS_EXPERIENCE_REVIEW", match)
