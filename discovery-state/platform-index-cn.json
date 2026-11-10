@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T12:37:39.970853Z",
+    "at": "2026-11-10T12:45:59.763786Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 1,
-      "observed": 1
+      "new_pending": 2,
+      "observed": 2
     }
   },
   "market": "CN",
-  "next_seq": 59,
+  "next_seq": 61,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -920,6 +920,51 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Senior Applied Data Scientist",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8269055"
+    },
+    {
+      "ats_key": "freehire|applied-ai-engineer-ai-finance-agent-bjakcareer-sukyd5ca",
+      "company": "Bjak",
+      "description_excerpt": "<p><strong>About BJAK</strong></p><p>The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.<br/><br/>Started in 2019, we built the first mobile-first, insur",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T12:45:59.763734Z",
+      "key": "cn:ad873d3f4d46b3e528bf",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Austria",
+      "retries": 0,
+      "seq": 59,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "applied-ai-engineer-ai-finance-agent-bjakcareer-sukyd5ca",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Applied AI Engineer - AI Finance Agent",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/1383bcef-dec5-41ff-b532-cd463841f866"
+    },
+    {
+      "ats_key": "freehire|ai-software-engineer-intern-intel-h6yrqr4n",
+      "company": "Intel",
+      "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><p></p><h2>Job Description: </h2><ul><li><b>AI Agent Core Framework Development and Performance Optimization</b><br/>Design, develop, and optimize AI Agent runtimes, agent kernels, and task execution frame",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T12:45:59.763776Z",
+      "key": "cn:388502bfd91cb25594fa",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "PRC, Shanghai",
+      "retries": 0,
+      "seq": 60,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-software-engineer-intern-intel-h6yrqr4n",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Software Engineer Intern",
+      "url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261"
     }
   ],
   "terminal": [
@@ -1266,6 +1311,7 @@
     },
     {
       "ats_key": "bjakcareer|ashby|09c3e540-d827-4877-92d2-7c807e3ca5c4",
+      "checked_at": "2026-11-10",
       "company": "BJAK",
       "consumer_review": {
         "checked_at": "2026-11-10T12:21:10+00:00",
@@ -1282,27 +1328,27 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/09c3e540-d827-4877-92d2-7c807e3ca5c4",
       "first_seen_at": "2026-11-09T15:02:24.857228Z",
       "key": "cn:68185e2efab05bff9b75",
       "last_error": null,
       "market": "CN",
       "platform": "ashby official ATS",
       "query": "China",
+      "reason": "Exact official posting: remote but candidates MUST already be based in China; applicant currently based in Malaysia. Mandatory native Android/Kotlin work is also outside candidate's verified background.",
       "retries": 0,
+      "review_source": "2026-11-10 full employer-controlled ATS JD",
       "seq": 1,
       "source": "freehirefetch:official-ats:CN",
       "source_evidence": "full_jd",
       "source_job_id": "09c3e540-d827-4877-92d2-7c807e3ca5c4",
       "state": "HARD_REJECTED",
       "title": "Mobile Application Developer - AI Finance Agent",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/09c3e540-d827-4877-92d2-7c807e3ca5c4",
-      "reason": "Exact official posting: remote but candidates MUST already be based in China; applicant currently based in Malaysia. Mandatory native Android/Kotlin work is also outside candidate's verified background.",
-      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/09c3e540-d827-4877-92d2-7c807e3ca5c4",
-      "checked_at": "2026-11-10",
-      "review_source": "2026-11-10 full employer-controlled ATS JD"
+      "url": "https://jobs.ashbyhq.com/bjakcareer/09c3e540-d827-4877-92d2-7c807e3ca5c4"
     },
     {
       "ats_key": "bjakcareer|ashby|0cac93ef-04d8-42c4-b698-efb4664cd91b",
+      "checked_at": "2026-11-10",
       "company": "BJAK",
       "consumer_review": {
         "checked_at": "2026-11-10T12:21:10+00:00",
@@ -1319,27 +1365,27 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/0cac93ef-04d8-42c4-b698-efb4664cd91b",
       "first_seen_at": "2026-11-09T15:02:24.857261Z",
       "key": "cn:69f094c012fb1d3ab9bd",
       "last_error": null,
       "market": "CN",
       "platform": "ashby official ATS",
       "query": "China",
+      "reason": "Exact official posting: remote but candidates MUST already be based in China; applicant currently based in Malaysia. Product-finance backend, not primarily LLM engineering.",
       "retries": 0,
+      "review_source": "2026-11-10 full employer-controlled ATS JD",
       "seq": 2,
       "source": "freehirefetch:official-ats:CN",
       "source_evidence": "full_jd",
       "source_job_id": "0cac93ef-04d8-42c4-b698-efb4664cd91b",
       "state": "HARD_REJECTED",
       "title": "Backend Software Engineer - AI Finance Agent",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/0cac93ef-04d8-42c4-b698-efb4664cd91b",
-      "reason": "Exact official posting: remote but candidates MUST already be based in China; applicant currently based in Malaysia. Product-finance backend, not primarily LLM engineering.",
-      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/0cac93ef-04d8-42c4-b698-efb4664cd91b",
-      "checked_at": "2026-11-10",
-      "review_source": "2026-11-10 full employer-controlled ATS JD"
+      "url": "https://jobs.ashbyhq.com/bjakcareer/0cac93ef-04d8-42c4-b698-efb4664cd91b"
     },
     {
       "ats_key": "bjakcareer|ashby|101d89f0-f66b-45c4-8f05-2d2a784dae1c",
+      "checked_at": "2026-11-10",
       "company": "BJAK",
       "consumer_review": {
         "checked_at": "2026-11-10T12:21:10+00:00",
@@ -1356,27 +1402,27 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/101d89f0-f66b-45c4-8f05-2d2a784dae1c",
       "first_seen_at": "2026-11-09T15:02:24.857282Z",
       "key": "cn:5cffb5c50a9d9b68a979",
       "last_error": null,
       "market": "CN",
       "platform": "ashby official ATS",
       "query": "China",
+      "reason": "Exact official posting: remote but candidates MUST already be based in China; applicant currently based in Malaysia. Mobile Android/iOS engineering stack is not a demonstrated match.",
       "retries": 0,
+      "review_source": "2026-11-10 full employer-controlled ATS JD",
       "seq": 3,
       "source": "freehirefetch:official-ats:CN",
       "source_evidence": "full_jd",
       "source_job_id": "101d89f0-f66b-45c4-8f05-2d2a784dae1c",
       "state": "HARD_REJECTED",
       "title": "Mobile Engineer - AI Finance Agent",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/101d89f0-f66b-45c4-8f05-2d2a784dae1c",
-      "reason": "Exact official posting: remote but candidates MUST already be based in China; applicant currently based in Malaysia. Mobile Android/iOS engineering stack is not a demonstrated match.",
-      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/101d89f0-f66b-45c4-8f05-2d2a784dae1c",
-      "checked_at": "2026-11-10",
-      "review_source": "2026-11-10 full employer-controlled ATS JD"
+      "url": "https://jobs.ashbyhq.com/bjakcareer/101d89f0-f66b-45c4-8f05-2d2a784dae1c"
     },
     {
       "ats_key": "bjakcareer|ashby|1815a891-6854-4ada-9cd3-178009b807d1",
+      "checked_at": "2026-11-10",
       "company": "BJAK",
       "consumer_review": {
         "checked_at": "2026-11-10T12:21:10+00:00",
@@ -1393,27 +1439,27 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1",
       "first_seen_at": "2026-11-09T15:11:31.044204Z",
       "key": "cn:a7c2ee733177cba9aa02",
       "last_error": null,
       "market": "CN",
       "platform": "ashby official ATS",
       "query": "China",
+      "reason": "Exact employer Requirements specify 3+ years of production ML engineering, including model deployment, with strong PyTorch/JAX; candidate's research RAG/QLoRA projects are not that professional ML production experience.",
       "retries": 0,
+      "review_source": "2026-11-10 full employer-controlled ATS JD",
       "seq": 5,
       "source": "freehirefetch:official-ats:CN",
       "source_evidence": "full_jd",
       "source_job_id": "1815a891-6854-4ada-9cd3-178009b807d1",
       "state": "HARD_REJECTED",
       "title": "Machine Learning Engineer, Ranking & Retrieval",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1",
-      "reason": "Exact employer Requirements specify 3+ years of production ML engineering, including model deployment, with strong PyTorch/JAX; candidate's research RAG/QLoRA projects are not that professional ML production experience.",
-      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1",
-      "checked_at": "2026-11-10",
-      "review_source": "2026-11-10 full employer-controlled ATS JD"
+      "url": "https://jobs.ashbyhq.com/bjakcareer/1815a891-6854-4ada-9cd3-178009b807d1"
     },
     {
       "ats_key": "freehire|ai-platform-engineer-0g-foundation-i5rdpx44",
+      "checked_at": "2026-11-10",
       "company": "0G Foundation",
       "consumer_review": {
         "checked_at": "2026-11-10T11:51:22.998919+00:00",
@@ -1432,13 +1478,16 @@
       },
       "description_excerpt": "<p>You will design, develop, and maintain a scalable AI platform for integrating, training, and deploying machine-learning models. You will optimize cloud infrastructure for high-performance workloads and cost effectiveness, integrate AI ca",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://jobs.ashbyhq.com/0g/f215ac30-02c2-4145-a7aa-17ed3f87ce1b",
       "first_seen_at": "2026-11-09T16:57:31.171611Z",
       "key": "cn:cb2350a6c723d8205006",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "China",
+      "reason": "Exact employer Required Qualifications include PROVEN large-scale deployed AI/ML platform ownership, major cloud platforms, and distributed/cloud-native technologies. Candidate lacks verified production platform ML ownership.",
       "retries": 0,
+      "review_source": "2026-11-10 full employer-controlled ATS JD",
       "seq": 24,
       "source": "freehire:public-api:CN",
       "source_evidence": "listing_only",
@@ -1447,11 +1496,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Platform Engineer",
-      "url": "https://jobs.ashbyhq.com/0g/f215ac30-02c2-4145-a7aa-17ed3f87ce1b",
-      "reason": "Exact employer Required Qualifications include PROVEN large-scale deployed AI/ML platform ownership, major cloud platforms, and distributed/cloud-native technologies. Candidate lacks verified production platform ML ownership.",
-      "evidence_url": "https://jobs.ashbyhq.com/0g/f215ac30-02c2-4145-a7aa-17ed3f87ce1b",
-      "checked_at": "2026-11-10",
-      "review_source": "2026-11-10 full employer-controlled ATS JD"
+      "url": "https://jobs.ashbyhq.com/0g/f215ac30-02c2-4145-a7aa-17ed3f87ce1b"
     }
   ],
   "version": 1
