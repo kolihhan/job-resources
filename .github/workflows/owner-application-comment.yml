@@ -28,7 +28,7 @@ jobs:
             const params = { owner, repo, issue_number };
             const { data: issue } = await github.rest.issues.get(params);
             if (issue.state !== 'open' || issue.pull_request) return;
-            const phase = issue.title.match(/^\\[(ACTION|APPLY|CHECK|WAIT)\\]/)?.[1]?.toLowerCase();
+            const phase = issue.title.match(/^\[(ACTION|APPLY|CHECK|WAIT)\]/)?.[1]?.toLowerCase();
             if (!phase) {
               core.info('No recognized lifecycle prefix; not altering labels.');
               return;
@@ -46,7 +46,7 @@ jobs:
             const { data: check } = await github.rest.issues.get(params);
             const actual = (check.labels || []).map(x => typeof x === 'string' ? x : x.name)
               .filter(x => /^status:/i.test(x));
-            if (check.title.match(/^\\[(ACTION|APPLY|CHECK|WAIT)\\]/)?.[1]?.toLowerCase() !== phase ||
+            if (check.title.match(/^\[(ACTION|APPLY|CHECK|WAIT)\]/)?.[1]?.toLowerCase() !== phase ||
                 actual.length !== 1 || actual[0] !== want) {
               throw new Error('Issue lifecycle label readback mismatch');
             }
