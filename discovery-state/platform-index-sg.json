@@ -337,39 +337,6 @@
       "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
     },
     {
-      "ats_key": "bjakcareer|ashby|2f788998-159e-422f-8a6e-5823801f42e4",
-      "company": "BJAK",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "ABOUT ACTAI There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting. ROLE - Build and deploy AI features using LLMs, tool calling and agent workflows - Develop prompting, context management, memory and orchestration systems for multi-step tasks - Build backend APIs and integrations that connect AI models with applications and external tools - Develop evaluations to measure task completion, response quality and system reliability - Debug model outputs, tool failures and agent behaviour using production logs and evaluation results - Improve response latency, inference costs and reliability of AI applications - Work with engineering and product teams to develop, test and release AI features REQUIREMENTS - 3+ years of software engineering or machine learning engineering experience, including building AI applications - Strong Python programming skills and experience developing production backend systems - Hands-on experience with LLM APIs, prompting, tool calling and agent workflows - Understanding of LLM capabilities, limitations, inference and context management - Experience evaluating AI outputs, debugging failures and improving model-driven workflows - Knowledge of APIs, databases, asynchronous processing and distributed systems - Experience deploying, monitoring and maintaining production applications NICE TO HAVE - Experience with RAG, embeddings, vector databases and retrieval systems - Experience with open-source models such as Llama or Qwen and inference frameworks such as vLLM - Experience with model fine-tuning using PyTorch or JAX - Experience building AI-powered consumer applications, particularly messaging or productivity products",
-        "jd_chars": 2340,
-        "jd_sha256": "10752e834375bc0ab4fa973b9099238fa3a6407993f538a833c2e90e4f2916b5",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "ABOUT ACTAI There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prom",
-      "first_seen_at": "2026-11-09T15:11:31.004999Z",
-      "key": "sg:39815a86a5ffeb238a0d",
-      "last_error": null,
-      "market": "SG",
-      "platform": "ashby official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 51,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "2f788998-159e-422f-8a6e-5823801f42e4",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Applied AI Engineer",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/2f788998-159e-422f-8a6e-5823801f42e4"
-    },
-    {
       "ats_key": "bjakcareer|ashby|56f522c4-b903-45ea-bb08-952b74641b56",
       "company": "BJAK",
       "consumer_review": {
@@ -2924,6 +2891,42 @@
         "reason_code": "NON_CORE_ADMIN_HEAVY_FIXED_TERM_RA",
         "note": "NTU NIE employer-authored full JD explicitly describes a 12-month RA contract in education/pedagogy research. Core duties are teacher participant recruitment, school/MOE liaison, scheduling, transcription, IRB and grant admin; LLM is a tool being studied, not the subject of LLM/NLP/Agent engineering. Does not pass 6-part RESEARCH_EXCEPTION substantive-work/non-admin gate."
       }
+    },
+    {
+      "ats_key": "bjakcareer|ashby|2f788998-159e-422f-8a6e-5823801f42e4",
+      "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT ACTAI There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting. ROLE - Build and deploy AI features using LLMs, tool calling and agent workflows - Develop prompting, context management, memory and orchestration systems for multi-step tasks - Build backend APIs and integrations that connect AI models with applications and external tools - Develop evaluations to measure task completion, response quality and system reliability - Debug model outputs, tool failures and agent behaviour using production logs and evaluation results - Improve response latency, inference costs and reliability of AI applications - Work with engineering and product teams to develop, test and release AI features REQUIREMENTS - 3+ years of software engineering or machine learning engineering experience, including building AI applications - Strong Python programming skills and experience developing production backend systems - Hands-on experience with LLM APIs, prompting, tool calling and agent workflows - Understanding of LLM capabilities, limitations, inference and context management - Experience evaluating AI outputs, debugging failures and improving model-driven workflows - Knowledge of APIs, databases, asynchronous processing and distributed systems - Experience deploying, monitoring and maintaining production applications NICE TO HAVE - Experience with RAG, embeddings, vector databases and retrieval systems - Experience with open-source models such as Llama or Qwen and inference frameworks such as vLLM - Experience with model fine-tuning using PyTorch or JAX - Experience building AI-powered consumer applications, particularly messaging or productivity products",
+        "jd_chars": 2340,
+        "jd_sha256": "10752e834375bc0ab4fa973b9099238fa3a6407993f538a833c2e90e4f2916b5",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "ABOUT ACTAI There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prom",
+      "first_seen_at": "2026-11-09T15:11:31.004999Z",
+      "key": "sg:39815a86a5ffeb238a0d",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 51,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "2f788998-159e-422f-8a6e-5823801f42e4",
+      "state": "ISSUE_VERIFIED",
+      "title": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/2f788998-159e-422f-8a6e-5823801f42e4",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/923",
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/2f788998-159e-422f-8a6e-5823801f42e4",
+      "reason": "New SG CHECK #923 verified on GitHub: high-fit ActAI Applied AI Engineer, exact older Bjak application identity unresolved; no submission."
     }
   ],
   "version": 1
