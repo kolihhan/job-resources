@@ -1,4 +1,4 @@
-name: CN Discovery
+name: CN Native Public Batch Consumer
 
 on:
   workflow_dispatch:
@@ -86,7 +86,7 @@ jobs:
           print('PUBLIC_CN_JOBPRO',3,'query batches; applicant matching remains private')
           PY
 
-      - name: Write run summary
+      - name: Write read-only public source handoff summary
         run: |
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
@@ -122,7 +122,7 @@ jobs:
           };
           fs.writeFileSync('artifacts/jobpro-raw.json', JSON.stringify(official, null, 2));
           const lines = [
-            '# CN Discovery',
+            '# CN Native Source Import (private review handoff)',
             '',
             '## Liepin',
             `- searches: ${liepin.meta.searchCount}`,
