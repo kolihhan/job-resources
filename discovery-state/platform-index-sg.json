@@ -113,7 +113,7 @@
       },
       "first_seen_at": "2026-11-07T09:35:18.297729Z",
       "key": "sg:9adae2e27f47137c93cf",
-      "last_error": "Exact NTU Workday R00026131 current application route and whether separate from existing AIAP APPLY R00025487 cannot be verified.",
+      "last_error": "Exact NTU R00026131 live Workday application route inaccessible; AIAP history and foreign-hire eligibility remain unconfirmed.",
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
@@ -128,6 +128,13 @@
         "status": "RETRY",
         "missing_evidence": "Exact NTU Workday R00026131 current application route and whether separate from existing AIAP APPLY R00025487 cannot be verified.",
         "source": "SG Scout exact requisition review"
+      },
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T04:01:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Exact NTU R00026131 live Workday application route inaccessible; AIAP history and foreign-hire eligibility remain unconfirmed."
       }
     },
     {
@@ -252,7 +259,7 @@
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:02:24.825322Z",
       "key": "sg:5469d3a6dd60e34aa48f",
-      "last_error": null,
+      "last_error": "Exact Binance Greenhouse 5002635101 live application page is inaccessible; stored JD alone cannot establish current application route.",
       "market": "SG",
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
@@ -264,7 +271,14 @@
       "source_job_id": "5002635101",
       "state": "UNVERIFIED_INDEX",
       "title": "LLM Applied Data Scientist (RAG/ NLP)",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101"
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T04:01:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Exact Binance Greenhouse 5002635101 live application page is inaccessible; stored JD alone cannot establish current application route."
+      }
     },
     {
       "ats_key": "micron|workday|/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
@@ -894,7 +908,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T12:45:59.689068Z",
       "key": "sg:7a417064eeb00fd21d6a",
-      "last_error": null,
+      "last_error": "Exact NTU R00026296-1 Workday application route is inaccessible; cannot verify current vacancy and employer application form.",
       "market": "SG",
       "platform": "workday official ATS",
       "query": "NTU Novena Campus, Singapore",
@@ -907,7 +921,14 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Assistant/Associate, Neuroscience and Artificial Intelligence [LKCMedicine]",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T04:01:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Exact NTU R00026296-1 Workday application route is inaccessible; cannot verify current vacancy and employer application form."
+      }
     },
     {
       "api_source_context": {
