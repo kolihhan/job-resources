@@ -54,6 +54,28 @@ class DispatchTests(unittest.TestCase):
         self.assertIn("existing queue #3",markdown_report(output))
         self.assertIn("Review tasks available: 1",markdown_report(output))
 
+    def test_unverified_api_context_provides_hints_not_employer_jd(self):
+        row = {"market": "MY", "seq": 3, "key": "my:api3",
+               "state": "UNVERIFIED_INDEX", "title": "AI Engineer",
+               "company": "Example", "source": "freehire:public-api:MY",
+               "url": "https://my.jobstreet.com/job/95800100",
+               "api_source_context": {
+                   "provenance": "UNVERIFIED_THIRD_PARTY_API",
+                   "text": "Build RAG systems and agent evaluation. "
+                           "Minimum 5 years experience preferred.",
+                   "truncated": False, "employer_verified": False}}
+        out = build_dispatch({"MY": {"market": "MY", "pending": [row],
+                                    "terminal": []}}, {},
+                             {"strong": {"urls": []}}, now=NOW)
+        selected = out["markets"]["MY"]["selected"][0]
+        self.assertEqual(selected["rule_lane"], "SOURCE_GAP")
+        self.assertFalse(selected["full_jd_complete"])
+        self.assertIn("RAG", selected["unverified_api_quote_evidence"]["ai_work"][0])
+        md = markdown_report(out)
+        self.assertIn("API text hints (UNVERIFIED", md)
+        self.assertNotIn("Employer JD evidence", md)
+        self.assertEqual(selected["decision"], "NOT_MADE")
+
     def test_origin_and_jd_proof_distinguished_from_ats_feed(self):
         p=pending("SG", 3, "Research Engineer I")
         a=ats("SG", 1, "LLM Engineer", "A")

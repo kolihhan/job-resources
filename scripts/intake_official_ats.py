@@ -23,6 +23,8 @@ TECH = re.compile(r"\b(?:AI|LLM|RAG|NLP|GenAI|agent|machine learning|"
                   r"applied scientist|research|data scientist|ML|retrieval|"
                   r"software|backend|platform|algorithm)\b|智能体|算法|大模型|检索|研究", re.I)
 ALLOWED_EVIDENCE = {"full_jd", "partial_jd", "listing_only"}
+MAX_UNVERIFIED_API_CHARS = 4000
+API_PROVENANCE = "UNVERIFIED_THIRD_PARTY_API"
 # A product/team named "AI Finance Agent" does not make an iOS/frontend
 # developer an agent engineer. These are ordering hints, not hard exclusions.
 CORE_TITLE = re.compile(
@@ -66,6 +68,47 @@ def candidate(row, market):
     # Existing canonical() is the sole trust boundary: strict recognized
     # employer ATS/native exact job URLs, never arbitrary aggregator pages.
     return {**row, "url": url}
+
+
+def unverified_api_context(item):
+    """Bounded third-party source context; NEVER a complete employer JD."""
+    if (item.get("discovery_access") != "API_PROXY_ONLY"
+            or item.get("api_description_provenance") != API_PROVENANCE
+            or ":public-api:" not in str(item.get("source") or "")):
+        return None
+    body = item.get("api_description_text")
+    if not isinstance(body, str) or not body.strip() or len(body) > MAX_UNVERIFIED_API_CHARS:
+        return None
+    return {
+        "provenance": API_PROVENANCE,
+        "text": body,
+        "truncated": item.get("api_description_truncated") is True,
+        "employer_verified": False,
+    }
+
+
+def attach_unverified_api_context(state, snapshot, market):
+    """Update only exact existing Pending source identities, never terminal/Issue data."""
+    pending = {row["url"]: row for row in state["pending"]}
+    updated = 0
+    for raw in snapshot["jobs"]:
+        item = candidate(raw, market)
+        if not item:
+            continue
+        row = pending.get(item["url"])
+        context = unverified_api_context(item)
+        if (not row or context is None
+                or row.get("source") != item.get("source")
+                or row.get("ats_key") != item["key"]
+                or row.get("source_job_id") != item["job_id"]
+                or normalized_company(row.get("company")) != normalized_company(item["company"])
+                or str(row.get("title") or "").casefold().strip()
+                   != str(item["title"]).casefold().strip()):
+            continue
+        if row.get("api_source_context") != context:
+            row["api_source_context"] = context
+            updated += 1
+    return updated
 
 
 def choose(rows, limit, company_cap, existing_pending=()):
@@ -200,8 +243,11 @@ def process_market(market, snapshot, state, known, *, limit=12, company_cap=3,
             raise ValueError("partial verified intake; expected selected exact IDs")
     else:
         stats = {"new_pending": 0}
+    context_updated = attach_unverified_api_context(state, snapshot, market)
+    validate_state(state, market)
     return state, {
         "market": market, "source": "AVAILABLE",
+        "unverified_api_context_updated": context_updated,
         "observed": len(snapshot["jobs"]), "bad_rows": invalid,
         "already_in_source_queue": old, "known_exact_history": history,
         "unhandled_exact_ids": len(rows), "selected": len(selected),
@@ -285,6 +331,11 @@ def markdown(report):
                      f"{val('unhandled_exact_ids')} | {d['created']} | "
                      f"{by.get('ENG', 0)} | {by.get('RES', 0)} | "
                      f"{d.get('employers_selected', 0)} | {d['pending_after']} |")
+    lines += ["", "## Unverified API context assistance (NOT verified JD)", ""]
+    for market, d in report["markets"].items():
+        lines.append(f"- {market}: {d.get('unverified_api_context_updated', 0)} "
+                     "exact-ID Pending rows gained/updated unverified API text; "
+                     "still require official JD and applicant checks.")
     lines += ["", "## Coverage debt", ""]
     for market, d in report["markets"].items():
         for gap in d.get("coverage_gaps", []):
