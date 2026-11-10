@@ -184,113 +184,6 @@
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00025936"
     },
     {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T10:11:50.566363Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "The School of Civil and Environmental Engineering (CEE) at NTU, established in 1981, aims to be a world-leading school in sustainability and the built environment, addressing urbanisation and climate change through research and innovation. Do you want to use the latest artificial intelligence to understand our changing planet? We are looking for a Research Associate in Machine Learning for Earth Observation to develop self-supervised, temporal and multimodal models for satellite image time series and geospatial data. The models will be applied to coastline change, land subsidence, urban expansion and vegetation monitoring. The Research Associate will also have the opportunity to explore emerging directions in machine learning for Earth observation, such as vision–language models, agentic AI and generative models. We provide access to high-performance GPU computing as well as close supervision. Key Responsibilities: Develop deep learning models for satellite image time series and multimodal Earth observation data. Develop next generation geospatial foundation models, such as carbon minimization. Explore emerging methods in machine learning for Earth observation, such as vision–language and multimodal large language models that link satellite data with text, agentic AI workflows that plan and carry out geospatial analyses, and generative (e.g. diffusion) models for data synthesis. Apply the models to coastline change, land subsidence, urban expansion and vegetation monitoring. Build scalable and reproducible processing pipelines on high-performance and cloud computing and maintain open-source code and datasets. Prepare data and reference labels, evaluate models and maintain open-source code. Write papers and reports, present results and support the research group. Job Requirements: Master's degree in computer science, electrical engineering, remote sensing, geomatics, civil and environmental engineering or a related field. Knowledge of machine learning and deep learning. Experience with remote sensing or geospatial data; knowledge of SAR interferometry is a plus. Proficiency in Python and PyTorch on Linux/GPU computing; experience with foundation models, vision–language models or AI agents is a plus. Good communication skills; able to work independently and in a team. Self-driven and interested in pursuing a PhD. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 2437,
-        "jd_sha256": "11b38d8bd48dfd94ea5706ac120dea84d2364d08b0a13a1498e619c315e76533",
-        "job_description_excerpt": "The School of Civil and Environmental Engineering (CEE) at NTU, established in 1981, aims to be a world-leading school in sustainability and the built environment, addressing urbanisation and climate change through research and innovation. Do you wan",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00026269",
-        "review_flags": [
-          "domain_specific"
-        ],
-        "signals": [
-          "llm",
-          "agent",
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.297935Z",
-      "key": "sg:11090702a92216552c11",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 28,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Associate (Machine Learning for Earth Observation)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Machine-Learning-for-Earth-Observation-_R00026269"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T11:41:59.933009Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "We are part of EEE at NTU. One of our primary research focuses is on embodied AI that involves VLA adaptation, data collection, benchmarking, and beyond. School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 2,000 graduate students it is one of the largest EEE schools in the world and ranks 4th in the field of Electrical & Electronic Engineering in the 2025 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee The candidate is required to carry out research in embodied AI, especially focused on vision-language-action (VLA) models. This includes problem and solution formulation, VLA model training, evaluation, data collection, and related tasks. One key requirement is meeting the strict deadlines in terms of deliverables: model checkpoint, code, dataset, documentation, report, etc. Physical presence will often be required on site. Familiarity with robotic arms, end-effectors, teleoperation, and related concepts is a bonus. Likewise, familiarity with robotic simulation like Mujoco would be advantageous. Key Responsibilities: Problem and solution formulation including coding Stay abreast of latest developments in the area Vision-language-model training Model evaluation Data collection pipeline development Data collection Documentation Job Requirements: Masters qualification degree in Computer Science, Mathematics, Physics, Electrical Engineering, Mechanical Engineering, or related field Knowledgeable in machine learning, deep learning, python, PyTorch, and programming in general. Knowledgeable in transformers and diffusion and flow-based models. Knowledgeable in reinforcement learning. Knowledgeable in large language models, vision language models, vision-language-action models, and related concepts. Capable of coming up with interesting approaches to solve problems. Capable of quickly adapting to new domains/subdomains. Good communication skills. Skilled with agentic coding. We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 2504,
-        "jd_sha256": "636038f32d382812a769e74114b02af579b49df10a1c823b429debdb8ed56596",
-        "job_description_excerpt": "We are part of EEE at NTU. One of our primary research focuses is on embodied AI that involves VLA adaptation, data collection, benchmarking, and beyond. School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Te",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00026033",
-        "review_flags": [],
-        "signals": [
-          "llm",
-          "agent",
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.298001Z",
-      "key": "sg:1ffb333eec37ff2ffb77",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 31,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Associate (Embodied AI)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-_R00026033"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T11:41:59.933009Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) invites applications for the position of Research Associate. Key Responsibilities: Work on human-like traffic simulation, with the focus of modeling traffic behaviors from large-scale real-world datasets. ​ The work will involve traffic scene representation, behavior modeling with common sense and prediction, generating road layouts, initializing states of traffic agents, rendering in physical simulators, and experimental validation. Job Requirements: At least have a Masters Degree in Mechanical Engineering, Robotics, Mechatronics, Automation and Control Engineering, Artificial Intelligence (AI), etc. Relevant working experience will be preferred. Strong background in autonomous driving, simulator, AI, and automation. Good communication skills and the ability to work independently and facilitate projects with minimal supervisiont Able to contribute to Journal/Conference papers with good presentation skills Able to plan and organize well and adhere to deadlines. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 1115,
-        "jd_sha256": "0f1dc780825bff72de3c1c99a21a4e33ef952add1b7ba16afeff98a6b2011021",
-        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) invites applications for the position of Research Associate. Key Responsibilities: Work on human-like traffic simulation, with the focus of modeling traffic behaviors from large-scale real-world ",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00015865",
-        "review_flags": [
-          "domain_specific"
-        ],
-        "signals": [
-          "agent"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:42:37.324776Z",
-      "key": "sg:70c70a73cae75f4152ff",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 35,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Associate (Mechanical Engineering/Robotics/Mechatronics/Automation & Control Engineering/Artificial Intelligence (AI))",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Mechanical-Engineering-Robotics-Mechatronics-Automation---Control-Engineering-Artificial-Intelligence--AI--_R00015865-1"
-    },
-    {
       "company": "OpenAI",
       "consumer_review": {
         "checked_at": "2026-11-09T23:48:23.778841Z",
@@ -1513,6 +1406,49 @@
         "checked_at": "2026-11-09T10:11:50.566363Z",
         "employment_time_type": "Full time",
         "full_jd_complete": true,
+        "full_jd_text": "The School of Civil and Environmental Engineering (CEE) at NTU, established in 1981, aims to be a world-leading school in sustainability and the built environment, addressing urbanisation and climate change through research and innovation. Do you want to use the latest artificial intelligence to understand our changing planet? We are looking for a Research Associate in Machine Learning for Earth Observation to develop self-supervised, temporal and multimodal models for satellite image time series and geospatial data. The models will be applied to coastline change, land subsidence, urban expansion and vegetation monitoring. The Research Associate will also have the opportunity to explore emerging directions in machine learning for Earth observation, such as vision–language models, agentic AI and generative models. We provide access to high-performance GPU computing as well as close supervision. Key Responsibilities: Develop deep learning models for satellite image time series and multimodal Earth observation data. Develop next generation geospatial foundation models, such as carbon minimization. Explore emerging methods in machine learning for Earth observation, such as vision–language and multimodal large language models that link satellite data with text, agentic AI workflows that plan and carry out geospatial analyses, and generative (e.g. diffusion) models for data synthesis. Apply the models to coastline change, land subsidence, urban expansion and vegetation monitoring. Build scalable and reproducible processing pipelines on high-performance and cloud computing and maintain open-source code and datasets. Prepare data and reference labels, evaluate models and maintain open-source code. Write papers and reports, present results and support the research group. Job Requirements: Master's degree in computer science, electrical engineering, remote sensing, geomatics, civil and environmental engineering or a related field. Knowledge of machine learning and deep learning. Experience with remote sensing or geospatial data; knowledge of SAR interferometry is a plus. Proficiency in Python and PyTorch on Linux/GPU computing; experience with foundation models, vision–language models or AI agents is a plus. Good communication skills; able to work independently and in a team. Self-driven and interested in pursuing a PhD. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2437,
+        "jd_sha256": "11b38d8bd48dfd94ea5706ac120dea84d2364d08b0a13a1498e619c315e76533",
+        "job_description_excerpt": "The School of Civil and Environmental Engineering (CEE) at NTU, established in 1981, aims to be a world-leading school in sustainability and the built environment, addressing urbanisation and climate change through research and innovation. Do you wan",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026269",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.297935Z",
+      "key": "sg:11090702a92216552c11",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 28,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Associate (Machine Learning for Earth Observation)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Machine-Learning-for-Earth-Observation-_R00026269",
+      "reason": "Official full JD is satellite/geospatial remote-sensing time-series ML, coastline/land-subsidence monitoring; explicitly asks experience in remote sensing/geospatial data and interest in PhD. LLM/Agent directions are optional exploration, not the core. Outside user's NLP/LLM/Agent North Star and missing geospatial specialization.",
+      "disposition": {
+        "checked_at": "2026-11-10T07:10:00Z",
+        "reason": "CONTENT_OR_SPECIALISM_MISMATCH",
+        "note": "First-party NTU Workday complete JD stored 2026-11-09. Not rejected merely for master's degree or AI title; judged by actual weekly geospatial work."
+      }
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T10:11:50.566363Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
         "full_jd_text": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum, outstanding and impactful research, and world-renowned faculty. A hot bed of cutting-edge technology and groundbreaking research, the College aims to groom the next generation of leaders, thinkers, and innovators to thrive in the digital age. Located in the heart of Asia, NTU’s College of Computing and Data Science is an ‘exciting place to learn and grow. We welcome you to join our community of faculty, students and alumni who are shaping the future of AI, Data Science and Computing. Key Responsibilities: Set up and maintain experiment tracking and visualization. Organize and manage the lab's research data. Manage the lab's code repositories and internal knowledge base. Maintain the lab's GPU servers. Build and maintain demos of the lab's research work for internal reviews, collaborators and visitors. Build and maintain the lab website, and run the lab's social media channels such as YouTube, X, Bilibili and RedNote to share the team's work. Job Requirements: Master’s degree in Computer Science, Computer Engineering, or a related field. Solid Python skills; able to read and modify model training code. Hands-on experience with experiment tracking tools. Proficient in Linux and Git. Experienced in using AI coding agents such as Claude Code or Codex. Able to build web demos and websites. Independent and organized, and works well in a team. Excellent verbal and written communication skills. Willing to work some flexible hours. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
         "jd_chars": 1783,
         "jd_sha256": "c56b4456fcfcc4fd232365979c9a51f74baa3f50cb2159bd30a3e5f1bb824c86",
@@ -1576,6 +1512,47 @@
       "state": "HARD_REJECTED",
       "title": "Research Engineer I (Computer Science/Computer Engineering)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Computer-Science-Computer-Engineering-_R00026175"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T11:41:59.933009Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "We are part of EEE at NTU. One of our primary research focuses is on embodied AI that involves VLA adaptation, data collection, benchmarking, and beyond. School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 2,000 graduate students it is one of the largest EEE schools in the world and ranks 4th in the field of Electrical & Electronic Engineering in the 2025 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee The candidate is required to carry out research in embodied AI, especially focused on vision-language-action (VLA) models. This includes problem and solution formulation, VLA model training, evaluation, data collection, and related tasks. One key requirement is meeting the strict deadlines in terms of deliverables: model checkpoint, code, dataset, documentation, report, etc. Physical presence will often be required on site. Familiarity with robotic arms, end-effectors, teleoperation, and related concepts is a bonus. Likewise, familiarity with robotic simulation like Mujoco would be advantageous. Key Responsibilities: Problem and solution formulation including coding Stay abreast of latest developments in the area Vision-language-model training Model evaluation Data collection pipeline development Data collection Documentation Job Requirements: Masters qualification degree in Computer Science, Mathematics, Physics, Electrical Engineering, Mechanical Engineering, or related field Knowledgeable in machine learning, deep learning, python, PyTorch, and programming in general. Knowledgeable in transformers and diffusion and flow-based models. Knowledgeable in reinforcement learning. Knowledgeable in large language models, vision language models, vision-language-action models, and related concepts. Capable of coming up with interesting approaches to solve problems. Capable of quickly adapting to new domains/subdomains. Good communication skills. Skilled with agentic coding. We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2504,
+        "jd_sha256": "636038f32d382812a769e74114b02af579b49df10a1c823b429debdb8ed56596",
+        "job_description_excerpt": "We are part of EEE at NTU. One of our primary research focuses is on embodied AI that involves VLA adaptation, data collection, benchmarking, and beyond. School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Te",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026033",
+        "review_flags": [],
+        "signals": [
+          "llm",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.298001Z",
+      "key": "sg:1ffb333eec37ff2ffb77",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 31,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Associate (Embodied AI)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-_R00026033",
+      "reason": "Official full JD is primarily embodied vision-language-action (VLA) model training and robotics datasets, with diffusion/flow methods and reinforcement learning as core knowledge. Candidate's contextual NLP/RAG/Agent work does not demonstrate required RL/VLA/embodied-model training. Not a substantive language-agent systems role.",
+      "disposition": {
+        "checked_at": "2026-11-10T07:10:00Z",
+        "reason": "CONTENT_OR_SPECIALISM_MISMATCH",
+        "note": "First-party NTU Workday complete JD stored 2026-11-09; no matching GitHub requisition."
+      }
     },
     {
       "company": "Nanyang Technological University",
@@ -1685,6 +1662,47 @@
       "state": "ISSUE_VERIFIED",
       "title": "Research Fellow/Research Associate (Developing AI-enabled software for nature-positive business transformation in ASEAN)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow-Research-Associate--Developing-AI-enabled-software-for-nature-positive-business-transformation-in-ASEAN-_R00024254-1"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T11:41:59.933009Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) invites applications for the position of Research Associate. Key Responsibilities: Work on human-like traffic simulation, with the focus of modeling traffic behaviors from large-scale real-world datasets. ​ The work will involve traffic scene representation, behavior modeling with common sense and prediction, generating road layouts, initializing states of traffic agents, rendering in physical simulators, and experimental validation. Job Requirements: At least have a Masters Degree in Mechanical Engineering, Robotics, Mechatronics, Automation and Control Engineering, Artificial Intelligence (AI), etc. Relevant working experience will be preferred. Strong background in autonomous driving, simulator, AI, and automation. Good communication skills and the ability to work independently and facilitate projects with minimal supervisiont Able to contribute to Journal/Conference papers with good presentation skills Able to plan and organize well and adhere to deadlines. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 1115,
+        "jd_sha256": "0f1dc780825bff72de3c1c99a21a4e33ef952add1b7ba16afeff98a6b2011021",
+        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) invites applications for the position of Research Associate. Key Responsibilities: Work on human-like traffic simulation, with the focus of modeling traffic behaviors from large-scale real-world ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00015865",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "agent"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:42:37.324776Z",
+      "key": "sg:70c70a73cae75f4152ff",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 35,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Associate (Mechanical Engineering/Robotics/Mechatronics/Automation & Control Engineering/Artificial Intelligence (AI))",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Mechanical-Engineering-Robotics-Mechatronics-Automation---Control-Engineering-Artificial-Intelligence--AI--_R00015865-1",
+      "reason": "Official full JD focuses on human-like traffic simulation, road layouts, traffic behavior prediction and physical simulators; requires strong autonomous-driving/simulator/automation background. AI keyword is not evidence of NLP/LLM/Agent work; specialized mismatch to candidate experience.",
+      "disposition": {
+        "checked_at": "2026-11-10T07:10:00Z",
+        "reason": "CONTENT_OR_SPECIALISM_MISMATCH",
+        "note": "First-party NTU Workday complete JD stored 2026-11-09; no matching GitHub requisition."
+      }
     },
     {
       "ats_key": "clera|ashby|2b838de1-5cee-4be9-8f4d-2a0ce96169dd",
