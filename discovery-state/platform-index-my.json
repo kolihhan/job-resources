@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T09:44:08.204938Z",
-    "source": "freehirefetch:official-ats:MY",
+    "at": "2026-11-10T10:22:03.583236Z",
+    "source": "devglobal:public-api:MY",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 12,
-      "observed": 12
+      "new_pending": 0,
+      "observed": 0
     }
   },
   "market": "MY",
@@ -1585,6 +1585,11 @@
       "company": "BJAK",
       "description_excerpt": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Full first-party BJAK Ashby JD for 8489c719-394f-4f87-9298-f9028da20534 explicitly describes frontend/backend/admin/dashboard/payments and generic APIs; AI Finance Agent is product label, not evidence of building agent runtime, RAG, LLM or evaluation. 3+ full-stack YOE. Official Ashby listing currently JS-only; public first-party ATS full JD verified in freehirefetch/feed/ats/jd/MY-002.json. MY TOP AI-content gate fails.",
+        "reason": "NON_AI_FULL_STACK_CORE"
+      },
       "first_seen_at": "2026-11-10T09:44:08.204773Z",
       "key": "my:6d3e4599787c3f8cab45",
       "last_error": null,
@@ -1600,18 +1605,18 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Full Stack Software Engineer - AI Finance Agent",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/8489c719-394f-4f87-9298-f9028da20534",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "NON_AI_FULL_STACK_CORE",
-        "note": "Full first-party BJAK Ashby JD for 8489c719-394f-4f87-9298-f9028da20534 explicitly describes frontend/backend/admin/dashboard/payments and generic APIs; AI Finance Agent is product label, not evidence of building agent runtime, RAG, LLM or evaluation. 3+ full-stack YOE. Official Ashby listing currently JS-only; public first-party ATS full JD verified in freehirefetch/feed/ats/jd/MY-002.json. MY TOP AI-content gate fails."
-      }
+      "url": "https://jobs.ashbyhq.com/bjakcareer/8489c719-394f-4f87-9298-f9028da20534"
     },
     {
       "ats_key": "freehire|ai-solutions-engineer-axi-wunrzzge",
       "company": "Axi",
       "description_excerpt": "<p><strong>Please note that we will only be able to accept candidates who have the appropriate rights and documentation for employment in Philippines.</strong></p>\n<p><strong>Who We Are.</strong></p>\n<p>Axi is a leading global provider of m",
       "discovery_access": "API_PROXY_ONLY",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Axi Greenhouse source URL 5223611007 is PHILIPPINES, not Malaysia; employer's MY exact requisition is 5215820007 (https://job-boards.greenhouse.io/axicorpfinancialservicesptyltd/jobs/5215820007). Full current MY employer JD and live application form verified: requires at least 3 years relevant AI/SWE work, explicitly not fresh/very junior, plus proven experience scaling existing AI products for adoption across teams/markets. Candidate has paid web SWE and academic AI projects, but no evidenced professional scaling of deployed AI products. Malaysian work rights valid; employer uses TDCX EOR. Do not promote; source identity corrected in disposition.",
+        "reason": "HARD_AI_PRODUCTION_SCALING_REQUIREMENT"
+      },
       "first_seen_at": "2026-11-10T09:44:08.204658Z",
       "key": "my:aefb86a1e0319be5ff2e",
       "last_error": null,
@@ -1627,12 +1632,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Solutions Engineer",
-      "url": "https://job-boards.greenhouse.io/axicorpfinancialservicesptyltd/jobs/5223611007",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "HARD_AI_PRODUCTION_SCALING_REQUIREMENT",
-        "note": "Axi Greenhouse source URL 5223611007 is PHILIPPINES, not Malaysia; employer's MY exact requisition is 5215820007 (https://job-boards.greenhouse.io/axicorpfinancialservicesptyltd/jobs/5215820007). Full current MY employer JD and live application form verified: requires at least 3 years relevant AI/SWE work, explicitly not fresh/very junior, plus proven experience scaling existing AI products for adoption across teams/markets. Candidate has paid web SWE and academic AI projects, but no evidenced professional scaling of deployed AI products. Malaysian work rights valid; employer uses TDCX EOR. Do not promote; source identity corrected in disposition."
-      }
+      "url": "https://job-boards.greenhouse.io/axicorpfinancialservicesptyltd/jobs/5223611007"
     }
   ],
   "version": 1
