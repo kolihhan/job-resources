@@ -298,75 +298,6 @@
         "checked_at": "2026-11-09T11:41:59.933009Z",
         "employment_time_type": "Full time",
         "full_jd_complete": true,
-        "full_jd_text": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 2,000 graduate students it is one of the largest EEE schools in the world and ranks 4th in the field of Electrical & Electronic Engineering in the 2025 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee We are looking for a Research Assistant to conduct research on 3D reconstruction, with a particular focus on developing advanced 3D Gaussian Splatting techniques for dynamic and streaming scenarios. The role will involve designing and implementing novel algorithms for efficient, high-fidelity 3D scene reconstruction and representation, including applications in embodied environments where an agent must continuously perceive, update, and reason about its surrounding world. Key Responsibilities: The research assistant will focus on the following tasks Data collection and processing Conducting experiments and analyzing results Providing general support for the lab Job Requirements: Bachelor’s or Master’s degree in Electrical Engineering, Computer Science, or related field Knowledge and experience in world model, computer vision and deep learning Good written and oral communication skills Proficiency in basics of programming languages such as Python Self-Motivated and takes initiative We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 1854,
-        "jd_sha256": "622b24a1a9309852f1aeb9d21bee22c22ff91f40c231df7ac8057e1fd3805b92",
-        "job_description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergradua",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00025701",
-        "review_flags": [],
-        "signals": [
-          "agent"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.298022Z",
-      "key": "sg:2b354ca4d91421db4a69",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 32,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Assistant (3D Reconstruction)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--3D-Reconstruction-_R00025701"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T11:41:59.933009Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst the top engineering schools in the world. For more details, please view https://www.ntu.edu.sg/mae/research . We are looking for a Research Engineer in Autonomous Drone Swarms for GPS-Denied Environments to develop and integrate the hardware and software required for coordinated multirotor operations in complex, cluttered environments. The role will focus on designing and implementing onboard sensing, communication, computing, localisation, navigation, and control systems for autonomous drone swarms operating without reliable GPS. The Research Engineer will also develop and validate swarm coordination, collaborative perception, mapping, obstacle avoidance, and multi-agent path-planning algorithms, and integrate these capabilities on physical drone platforms. The work will involve system integration, simulation, hardware-in-the-loop testing, flight experimentation, and performance evaluation under realistic GPS-denied conditions. Key Responsibilities: Develop and integrate hardware and software architectures for autonomous multirotor drone swarms operating in GPS-denied and cluttered environments. Design and implement onboard sensing, localisation, mapping, navigation, obstacle-avoidance, communication, and flight-control systems. Develop swarm coordination, task allocation, multi-agent path-planning, collaborative perception, and inter-drone information-sharing algorithms. Conduct simulation, hardware-in-the-loop testing, system integration, and flight experiments to evaluate robustness, scalability, and performance under realistic operating conditions. Work with researchers and project collaborators to support system demonstrations and prepare technical reports, publications, project deliverables, and documentation. Job Requirements: Education qualifications Bachelor’s or Master’s degree in Aerospace Engineering, Electrical and Electronic Engineering, Mechanical Engineering, Computer Engineering, Robotics, Computer Science, or a closely related discipline. Strong academic or project background in autonomous systems, robotics, unmanned aerial vehicles, embedded systems, or multi-agent systems. Research or project experience in autonomous drone navigation, drone swarms, or GPS-denied operations would be advantageous. Soft skills Strong communication, analytical, and problem-solving skills. Strong sense of ownership, responsibility, and initiative. Ability to work effectively with researchers, engineers, students, industry partners, and project stakeholders. Willingness to support flight testing, system demonstrations, project reporting, and milestone reviews. Hard skills Demonstrated hands-on experience in the hardware and software integration of autonomous robots or multirotor drones. Proficiency in C++, Python, MATLAB, or equivalent programming languages for robotics and autonomous-system development. Experience with robotic middleware and simulation environments such as ROS/ROS 2, Gazebo, AirSim, or equivalent platforms. Experience integrating sensors, embedded computers, communication modules, flight controllers, and other onboard hardware. Familiarity with autopilot platforms such as PX4 or ArduPilot and communication protocols such as MAVLink would be advantageous. Knowledge of localisation, visual-inertial odometry, simultaneous localisation and mapping, obstacle avoidance, path planning, and flight-control algorithms. Familiarity with multi-agent coordination, task allocation, formation control, collaborative perception, or distributed swarm algorithms would be advantageous. Experience Experience integrating sensing, localisation, navigation, communication, control, and decision-making components within a robotics or autonomous-drone project. Practical experience assembling, configuring, troubleshooting, and flight-testing multirotor platforms would be highly advantageous. Competencies Ability to independently design, integrate, test, and troubleshoot autonomous-drone hardware and software systems. Ability to work across robotics, embedded systems, perception, navigation, control, and multi-agent coordination domains. Ability to conduct systematic experiments and evaluate system performance, robustness, scalability, and reliability. Ability to deliver research outcomes within project timelines and contribute to technical reports, project demonstrations, and high-quality publications. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 5456,
-        "jd_sha256": "28c9d8cd91f3b08c02ca6066e907ef5732b3cadaf501c59e08c2c44382907a55",
-        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00025584",
-        "review_flags": [
-          "domain_specific"
-        ],
-        "signals": [
-          "agent",
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-07T09:35:18.298043Z",
-      "key": "sg:a483f7475ffb914f8d31",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 33,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer I (Autonomous Drone Swarm)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Autonomous-Drone-Swarm-_R00025584-1"
-    },
-    {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-09T11:41:59.933009Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
         "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) invites applications for the position of Research Associate. Key Responsibilities: Work on human-like traffic simulation, with the focus of modeling traffic behaviors from large-scale real-world datasets. ​ The work will involve traffic scene representation, behavior modeling with common sense and prediction, generating road layouts, initializing states of traffic agents, rendering in physical simulators, and experimental validation. Job Requirements: At least have a Masters Degree in Mechanical Engineering, Robotics, Mechatronics, Automation and Control Engineering, Artificial Intelligence (AI), etc. Relevant working experience will be preferred. Strong background in autonomous driving, simulator, AI, and automation. Good communication skills and the ability to work independently and facilitate projects with minimal supervisiont Able to contribute to Journal/Conference papers with good presentation skills Able to plan and organize well and adhere to deadlines. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
         "jd_chars": 1115,
         "jd_sha256": "0f1dc780825bff72de3c1c99a21a4e33ef952add1b7ba16afeff98a6b2011021",
@@ -1814,6 +1745,77 @@
       "url": "https://job-boards.greenhouse.io/capco/jobs/8080908",
       "reason": "Official Capco Greenhouse requisition 8080908 explicitly lists China - Hong Kong and states 'join our Hong Kong team'; not a Singapore vacancy. Employer-owned JD and active application form checked 2026-11-10. SG queue source misclassified; no SG APPLY. https://job-boards.greenhouse.io/capco/jobs/8080908",
       "evidence_url": "https://job-boards.greenhouse.io/capco/jobs/8080908"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T11:41:59.933009Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 2,000 graduate students it is one of the largest EEE schools in the world and ranks 4th in the field of Electrical & Electronic Engineering in the 2025 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee We are looking for a Research Assistant to conduct research on 3D reconstruction, with a particular focus on developing advanced 3D Gaussian Splatting techniques for dynamic and streaming scenarios. The role will involve designing and implementing novel algorithms for efficient, high-fidelity 3D scene reconstruction and representation, including applications in embodied environments where an agent must continuously perceive, update, and reason about its surrounding world. Key Responsibilities: The research assistant will focus on the following tasks Data collection and processing Conducting experiments and analyzing results Providing general support for the lab Job Requirements: Bachelor’s or Master’s degree in Electrical Engineering, Computer Science, or related field Knowledge and experience in world model, computer vision and deep learning Good written and oral communication skills Proficiency in basics of programming languages such as Python Self-Motivated and takes initiative We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 1854,
+        "jd_sha256": "622b24a1a9309852f1aeb9d21bee22c22ff91f40c231df7ac8057e1fd3805b92",
+        "job_description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergradua",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025701",
+        "review_flags": [],
+        "signals": [
+          "agent"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.298022Z",
+      "key": "sg:2b354ca4d91421db4a69",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 32,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Assistant (3D Reconstruction)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--3D-Reconstruction-_R00025701",
+      "reason": "Archived first-party NTU JD (2026-11-09) focuses on dynamic 3D Gaussian Splatting, 3D scene reconstruction, computer vision and world models; lacks substantive NLP/LLM/RAG/AI backend ownership. Exact ID and employer/title all-state Issue searches found no matching application. HARD_REJECTED on domain/role fit, not because of an unavailable live page."
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-09T11:41:59.933009Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst the top engineering schools in the world. For more details, please view https://www.ntu.edu.sg/mae/research . We are looking for a Research Engineer in Autonomous Drone Swarms for GPS-Denied Environments to develop and integrate the hardware and software required for coordinated multirotor operations in complex, cluttered environments. The role will focus on designing and implementing onboard sensing, communication, computing, localisation, navigation, and control systems for autonomous drone swarms operating without reliable GPS. The Research Engineer will also develop and validate swarm coordination, collaborative perception, mapping, obstacle avoidance, and multi-agent path-planning algorithms, and integrate these capabilities on physical drone platforms. The work will involve system integration, simulation, hardware-in-the-loop testing, flight experimentation, and performance evaluation under realistic GPS-denied conditions. Key Responsibilities: Develop and integrate hardware and software architectures for autonomous multirotor drone swarms operating in GPS-denied and cluttered environments. Design and implement onboard sensing, localisation, mapping, navigation, obstacle-avoidance, communication, and flight-control systems. Develop swarm coordination, task allocation, multi-agent path-planning, collaborative perception, and inter-drone information-sharing algorithms. Conduct simulation, hardware-in-the-loop testing, system integration, and flight experiments to evaluate robustness, scalability, and performance under realistic operating conditions. Work with researchers and project collaborators to support system demonstrations and prepare technical reports, publications, project deliverables, and documentation. Job Requirements: Education qualifications Bachelor’s or Master’s degree in Aerospace Engineering, Electrical and Electronic Engineering, Mechanical Engineering, Computer Engineering, Robotics, Computer Science, or a closely related discipline. Strong academic or project background in autonomous systems, robotics, unmanned aerial vehicles, embedded systems, or multi-agent systems. Research or project experience in autonomous drone navigation, drone swarms, or GPS-denied operations would be advantageous. Soft skills Strong communication, analytical, and problem-solving skills. Strong sense of ownership, responsibility, and initiative. Ability to work effectively with researchers, engineers, students, industry partners, and project stakeholders. Willingness to support flight testing, system demonstrations, project reporting, and milestone reviews. Hard skills Demonstrated hands-on experience in the hardware and software integration of autonomous robots or multirotor drones. Proficiency in C++, Python, MATLAB, or equivalent programming languages for robotics and autonomous-system development. Experience with robotic middleware and simulation environments such as ROS/ROS 2, Gazebo, AirSim, or equivalent platforms. Experience integrating sensors, embedded computers, communication modules, flight controllers, and other onboard hardware. Familiarity with autopilot platforms such as PX4 or ArduPilot and communication protocols such as MAVLink would be advantageous. Knowledge of localisation, visual-inertial odometry, simultaneous localisation and mapping, obstacle avoidance, path planning, and flight-control algorithms. Familiarity with multi-agent coordination, task allocation, formation control, collaborative perception, or distributed swarm algorithms would be advantageous. Experience Experience integrating sensing, localisation, navigation, communication, control, and decision-making components within a robotics or autonomous-drone project. Practical experience assembling, configuring, troubleshooting, and flight-testing multirotor platforms would be highly advantageous. Competencies Ability to independently design, integrate, test, and troubleshoot autonomous-drone hardware and software systems. Ability to work across robotics, embedded systems, perception, navigation, control, and multi-agent coordination domains. Ability to conduct systematic experiments and evaluate system performance, robustness, scalability, and reliability. Ability to deliver research outcomes within project timelines and contribute to technical reports, project demonstrations, and high-quality publications. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 5456,
+        "jd_sha256": "28c9d8cd91f3b08c02ca6066e907ef5732b3cadaf501c59e08c2c44382907a55",
+        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025584",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-07T09:35:18.298043Z",
+      "key": "sg:a483f7475ffb914f8d31",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 33,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Engineer I (Autonomous Drone Swarm)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Autonomous-Drone-Swarm-_R00025584-1",
+      "reason": "Archived first-party NTU JD (2026-11-09) requires hands-on autonomous multirotor drone hardware integration, ROS/Gazebo, flight controllers, sensors and GPS-denied navigation. Candidate's software/LLM background does not satisfy core robotics hardware experience; 'multi-agent' here means physical drone coordination. Exact ID and employer/title all-state Issue searches found no matching application. HARD_REJECTED on hard domain skills."
     }
   ],
   "version": 1
