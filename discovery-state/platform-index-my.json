@@ -145,30 +145,6 @@
       "url": "https://jobs.ashbyhq.com/gen-digital/e68a4dac-ca1d-43a1-a56a-6e45da05dc88"
     },
     {
-      "ats_key": "grab|smartrecruiters|744000156928706",
-      "company": "Grab",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "Get to Know the Team The Fulfilment Tech Family is at the heart of helping Grab outserve our consumers and partners in different businesses and marketplaces across Southeast Asia. Our mission is to offer the best marketplace platform capabi",
-      "first_seen_at": "2026-11-09T15:02:24.841185Z",
-      "key": "my:465e13df31a7dcf514f0",
-      "last_error": null,
-      "market": "MY",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Petaling Jaya, my",
-      "retries": 0,
-      "seq": 11,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "744000156928706",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Data Scientist (Product Analytics)",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000156928706"
-    },
-    {
       "ats_key": "nielseniq|smartrecruiters|744000155973050",
       "company": "NielsenIQ",
       "consumer_review": {
@@ -1036,6 +1012,29 @@
       "reviewed_at": "2026-11-10T08:18:00+08:00",
       "disposition_evidence": "https://jobs.smartrecruiters.com/Grab/744000159601623 ; https://github.com/kolihhan/freehirefetch/blob/main/feed/ats/jd/MY-006.json",
       "disposition_reason": "Employer-authored full JD in current public ATS feed explicitly requires 5–12 years of strategic consulting/applied organisational research/decision science experience, senior-stakeholder advisory and mixed-method programme evaluation. Candidate is MSc early-career with no such mature professional background. AI-agent prototyping is only good-to-have. All-state GitHub exact ID and employer/title search found no matching Issue. Hard maturity mismatch; no APPLY/CHECK."
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000156928706",
+      "company": "Grab",
+      "description_excerpt": "Get to Know the Team The Fulfilment Tech Family is at the heart of helping Grab outserve our consumers and partners in different businesses and marketplaces across Southeast Asia. Our mission is to offer the best marketplace platform capabi",
+      "first_seen_at": "2026-11-09T15:02:24.841185Z",
+      "key": "my:465e13df31a7dcf514f0",
+      "last_error": null,
+      "market": "MY",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Petaling Jaya, my",
+      "retries": 0,
+      "seq": 11,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "744000156928706",
+      "state": "HARD_REJECTED",
+      "title": "Data Scientist (Product Analytics)",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000156928706",
+      "reviewed_at": "2026-11-10T09:21:52+08:00",
+      "disposition_evidence": "https://jobs.smartrecruiters.com/grab/744000156928706 ; https://github.com/kolihhan/freehirefetch/blob/main/feed/ats/jd/MY-006.json",
+      "disposition_reason": "Current employer-authored full JD: Grab Fulfilment Product Analytics, onsite PJ, 2+ years data/quantitative experience. Primary work is dashboards, product metrics, A/B/timeslice experiments, SQL/ETL, stakeholder recommendations; AI tools only support analytics productivity. No substantive LLM/Agent/RAG/ML systems ownership or target research. Fails MY-TOP content-first gate, irrespective of Grab brand. All-state exact req and title issue search found no match. Not promoted."
     }
   ],
   "version": 1
