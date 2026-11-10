@@ -1,14 +1,8 @@
 name: MY TOP Gen Digital Official Source Intake
 on:
+  # Legacy private source producer is manual-only. The complete public
+  # Gen Digital Ashby board is already owned by freehirefetch/ats-discovery.
   workflow_dispatch:
-  schedule:
-    # Daily 11:35 MYT, bounded official employer board.
-    - cron: '35 3 * * *'
-  push:
-    paths:
-      - 'scripts/collect_gen_digital_my.py'
-      - 'tests/test_collect_gen_digital_my.py'
-      - '.github/workflows/my-gen-digital-intake.yml'
 permissions:
   contents: write
   issues: read
