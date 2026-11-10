@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T11:51:21.145616Z",
+    "at": "2026-11-10T13:04:37.881180Z",
     "source": "freehirefetch:official-ats:MY",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 9,
-      "observed": 9
+      "new_pending": 2,
+      "observed": 2
     }
   },
   "market": "MY",
-  "next_seq": 79,
+  "next_seq": 81,
   "next_unacknowledged_seq": 21,
   "pending": [
     {
@@ -92,6 +92,8 @@
       "company": "Elitez Group",
       "consumer_review": {
         "checked_at": "2026-11-10T12:37:23.740141Z",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "possible_prior_issue": 485,
         "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
       },
       "description_excerpt": "<p>Salary: RM 8,000 – RM 12,000 per month</p><p><strong>Key responsibilities</strong></p><ul><li><p>Design, develop, and maintain scalable machine learning models and algorithms</p></li><li><p>Analyze, clean, and preprocess structured and u",
@@ -263,6 +265,8 @@
       "company": "MaiStorage",
       "consumer_review": {
         "checked_at": "2026-11-10T12:37:23.740141Z",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "possible_prior_issue": 264,
         "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
       },
       "description_excerpt": "<p>We are looking for a versatile and results-driven Full Stack AI Engineer to design, build, and deploy intelligent business applications. In this role, you will bridge the gap between core AI capabilities and production-ready software—lev",
@@ -367,6 +371,8 @@
       "company": "Press Metal",
       "consumer_review": {
         "checked_at": "2026-11-10T12:37:23.740141Z",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "possible_prior_issue": 339,
         "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
       },
       "description_excerpt": "<p>We&#39;re seeking a team of entry level graduate AI Engineer and/or IT Specialist to be involve in IT Digital Transformation Project.</p><p>Fresh Graduates are encouraged to apply!</p><p><strong>Job Responsibilities:</strong></p><ul><li>",
@@ -1003,6 +1009,51 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI/ML Computer Vision Engineer (Local Malaysian - 1 year contract Renewable)",
       "url": "https://my.jobstreet.com/job/95543703"
+    },
+    {
+      "ats_key": "freehire|ai-agent-engineer-contract-triple-y-studio-4ab3ljyp",
+      "company": "Triple Y Studio",
+      "description_excerpt": "<p>Salary: RM 4,000 – RM 6,000 per month</p><p><strong>About the role</strong></p><p>We are looking for an AI Agent Engineer to design, build, and deploy AI-powered agents that execute real-world actions for users. The role focuses on devel",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T13:04:37.881125Z",
+      "key": "my:7ec8ae8065296f8dbc41",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "KL Eco City, Kuala Lumpur",
+      "retries": 0,
+      "seq": 79,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-agent-engineer-contract-triple-y-studio-4ab3ljyp",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Agent Engineer (Contract)",
+      "url": "https://my.jobstreet.com/job/95386173"
+    },
+    {
+      "ats_key": "freehire|mobile-engineer-ai-finance-agent-bjakcareer-dzr2di4w",
+      "company": "Bjak",
+      "description_excerpt": "<h2><strong>About Doit</strong></h2><p>We are focused on reinventing how people spend, save, invest, exchange, travel, and more. Our objective is to build tools that will help people get more from their money and become an expert at ease. W",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T13:04:37.881172Z",
+      "key": "my:b2397f2f6316f11a6e04",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Sydney, Australia",
+      "retries": 0,
+      "seq": 80,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "mobile-engineer-ai-finance-agent-bjakcareer-dzr2di4w",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Mobile Engineer - AI Finance Agent",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/b9867f93-0966-4ff9-9503-40fc214e1847"
     }
   ],
   "terminal": [
@@ -1842,15 +1893,19 @@
     },
     {
       "ats_key": "freehire|ai-big-data-analytics-engineer-mimos-nog27s2z",
+      "checked_at": "2026-11-10",
       "company": "MIMOS",
       "description_excerpt": "<div><div><p>\n <strong>Job Purpose</strong><br>\n </p></div></div>\n<div><div>\n <p>The AI &amp; BDA Engineer is responsible for the end-to-end development and implementation of AI and Big Data solutions, including data processing, analytics, ",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://www.mimos.my/ai-big-data-analytics-engineer/",
       "first_seen_at": "2026-11-10T09:44:08.204928Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/833",
       "key": "my:1368fe1cdc7ce8742afc",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Bukit Jalil, Kuala Lumpur",
+      "reason": "Official MIMOS page and exact-title MIMOS JobStreet role in Bukit Jalil refer to the same advertised AI & Big Data Analytics Engineer vacancy. Preexisting Issue #833 is CHECK (malformed experience floor); NOT a newly cleared APPLY.",
       "retries": 0,
       "seq": 69,
       "source": "freehire:public-api:MY",
@@ -1860,23 +1915,23 @@
       "source_platform": "JobStreet",
       "state": "DUPLICATE_CONFIRMED",
       "title": "AI & Big Data Analytics Engineer",
-      "url": "https://my.jobstreet.com/job/95123141",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/833",
-      "evidence_url": "https://www.mimos.my/ai-big-data-analytics-engineer/",
-      "checked_at": "2026-11-10",
-      "reason": "Official MIMOS page and exact-title MIMOS JobStreet role in Bukit Jalil refer to the same advertised AI & Big Data Analytics Engineer vacancy. Preexisting Issue #833 is CHECK (malformed experience floor); NOT a newly cleared APPLY."
+      "url": "https://my.jobstreet.com/job/95123141"
     },
     {
       "ats_key": "freehire|ai-agent-engineer-oppstar-technology-woeqet4a",
+      "checked_at": "2026-11-10",
       "company": "Oppstar Technology",
       "description_excerpt": "<p><strong>About the role</strong></p><p>Design, build, and optimize domain-specific AI agents across multiple areas such as semiconductor design, semiconductor manufacturing, and internet products. Own the end-to-end lifecycle of AI agents",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.linkedin.com/jobs/view/ai-agent-engineer-at-oppstar-berhad-4478262632",
       "first_seen_at": "2026-11-10T11:51:21.145468Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/640",
       "key": "my:9db3d60cfcd4cf343648",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Penang",
+      "reason": "JobStreet Penang title/location and employer-authored LinkedIn description corroborate preexisting Oppstar AI Agent Engineer listing; Issue #640 has verified 2026-10-26 direct-email application receipt. Do not reapply.",
       "retries": 0,
       "seq": 71,
       "source": "freehire:public-api:MY",
@@ -1886,11 +1941,7 @@
       "source_platform": "JobStreet",
       "state": "DUPLICATE_CONFIRMED",
       "title": "AI Agent Engineer",
-      "url": "https://my.jobstreet.com/job/95576878",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/640",
-      "evidence_url": "https://my.linkedin.com/jobs/view/ai-agent-engineer-at-oppstar-berhad-4478262632",
-      "checked_at": "2026-11-10",
-      "reason": "JobStreet Penang title/location and employer-authored LinkedIn description corroborate preexisting Oppstar AI Agent Engineer listing; Issue #640 has verified 2026-10-26 direct-email application receipt. Do not reapply."
+      "url": "https://my.jobstreet.com/job/95576878"
     }
   ],
   "version": 1
