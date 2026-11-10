@@ -225,6 +225,17 @@ def audit(states: dict, *, now: datetime | None = None) -> dict:
         historical_missing_reasons = sum(
             1 for x in terminal if x.get("state") in ("HARD_REJECTED", "HARD_REJECT")
             and not str(x.get("reason") or "").strip())
+        # Historical ISSUE_VERIFIED is an imperfect positive control: the
+        # actual Issue could be APPLY/CHECK/WAIT. Replay only to catch obvious
+        # over-flagging, NEVER to certify recall or tune this single snapshot.
+        controls = [x for x in terminal if x.get("state") == "ISSUE_VERIFIED"]
+        control_lanes = Counter(triage(x, market, now=now)["lane"] for x in controls)
+        control_hard = [
+            {"key": x.get("key"), "title": x.get("title"),
+             "rule_codes": triage(x, market, now=now)["rule_codes"]}
+            for x in controls
+            if triage(x, market, now=now)["lane"] == "HARD_REQUIREMENT_REVIEW"
+        ]
         markets[market] = {
             "pending": len(pending),
             "fresh_full_jds": sum(x["has_fresh_full_jd"] for x in rows),
@@ -232,6 +243,9 @@ def audit(states: dict, *, now: datetime | None = None) -> dict:
             "lanes": dict(sorted(counts.items())),
             "historical_terminal_states": dict(sorted(labels.items())),
             "historical_hard_rejects_missing_reason": historical_missing_reasons,
+            "issue_verified_imperfect_controls": len(controls),
+            "issue_verified_controls_by_lane": dict(sorted(control_lanes.items())),
+            "issue_verified_hard_review_counterexamples": control_hard,
             "auto_rejections": 0,
             "auto_acknowledgements": 0,
             "reviewed_rows": [
