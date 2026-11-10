@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T10:22:03.377391Z",
-    "source": "devglobal:public-api:SG",
+    "at": "2026-11-10T11:51:21.094217Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 9,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 9
+      "new_pending": 4,
+      "observed": 4
     }
   },
   "market": "SG",
-  "next_seq": 83,
+  "next_seq": 87,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -170,9 +170,19 @@
       "ats_key": "binance|greenhouse|5002565101",
       "company": "Binance",
       "consumer_review": {
-        "checked_at": "2026-11-09T23:48:23.778841Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. About the Role We are seeking a Research Data Scientist who combines rigorous research thinking with a drive to see findings land in production. This is a research-first role at the intersection of post-training alignment & reasoning, efficient inference and test-time scaling, and multi-agent coordination in adversarial financial environments. You will conduct original research that pushes the boundaries of what AI agents can do — reasoning under market uncertainty, coordinating with other agents in open adversarial settings, and making reliable decisions when real value is at stake. The goal is real-world impact: agents that trade, analyze, and act for millions of users across the Binance ecosystem. Responsibilities Conduct original research in generative AI and large language models applied to crypto and financial domains — focus areas include reasoning under market uncertainty, alignment of trading agents, multi-agent coordination, and test-time scaling for time-critical decisions Design and execute rigorous experiments — formulating clear hypotheses, implementing model and training variants including RLVR-based reasoning approaches, running systematic ablations, and drawing statistically sound conclusions Develop novel post-training methodologies and evaluation frameworks for LLMs operating in crypto contexts — covering chain-of-thought quality for market analysis, agent decision consistency, and robustness against adversarial prompt injection Research test-time scaling techniques — process reward models, self-consistency, Monte Carlo Tree Search-based planning — and apply them to improve agent reasoning quality in ambiguous, fast-moving market conditions Critically track developments across the research community at NeurIPS, ICML, ICLR, ACL, EMNLP, and crypto-adjacent venues — identifying high-leverage opportunities to apply state-of-the-art techniques to Binance's unique challenges Requirements Master's or PhD in Machine Learning, Computer Science, Mathematics, Statistics, or related field; exceptional Bachelor's candidates with demonstrable research output will be considered 0–5 years of research or industry experience in ML/AI; strong academic lab or research internship experience equally valued Deep understanding of transformer architectures, large language model pretraining dynamics, and post-training methodology — including RLHF, RLVR-based reasoning model training, and alignment techniques Proficiency in Python and PyTorch Rigorous mathematical foundations: linear algebra, probability theory, information theory, stochastic optimization Bilingual English/Mandarin to coordinate with overseas partners and stakeholders First-author publications at top-tier AI/ML conferences (NeurIPS, ICML, ICLR, ACL, EMNLP, AAAI) on LLM/Agent core topics — reasoning, multi-agent systems, RL for LLMs, post-training, agent memory, or related areas Research or engineering experience at a top-tier AI lab or team Experience designing reward functions, training pipelines, or evaluation frameworks for LLM-based agents — not just using existing APIs but building the core systems AI-native development workflow — using tools like Claude Code, Cursor, or Copilot Workspace as your primary development environment Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+        "jd_chars": 5002,
+        "jd_sha256": "2c6e86d7391f84cf5028377a3fcbc9ed895e9ab0cf62e6db35c45269cbe10037",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:02:24.825251Z",
@@ -195,9 +205,19 @@
       "ats_key": "binance|greenhouse|5002575101",
       "company": "Binance",
       "consumer_review": {
-        "checked_at": "2026-11-09T23:48:23.778841Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. About the Role We are seeking an Applied Data Scientist to join our Algorithm team — a hands-on builder at the intersection of LLM systems, agentic AI, and crypto-native intelligence. You will design, build, and improve AI agents that understand markets, reason over on-chain data, and take actions at speed for hundreds of millions of users — across reasoning models that plan before they act, multi-agent systems that orchestrate complex crypto workflows, and test-time scaling that pushes inference-time intelligence to its limits. You build for real environments: designing agent architectures, improving performance across quality and latency, developing evaluation methods for open-ended tasks, and turning research ideas into production. Responsibilities Design and implement production-grade LLM pipelines powering Binance AI Products and next-generation agentic trading features — including multi-step reasoning agents, tool-selection frameworks, and autonomous workflow execution across spot, perpetual, and on-chain markets Continuously improve agent capabilities in understanding, reasoning, tool selection, and action execution — optimizing simultaneously for intelligence, latency, and reliability under high-frequency trading constraints Build and maintain evaluation frameworks for reasoning model outputs in crypto contexts — covering market analysis accuracy, agent decision quality, hallucination detection, and adversarial robustness against prompt injection in financial workflows Apply test-time scaling techniques — chain-of-thought, self-consistency, process reward models — to push agent reasoning quality in ambiguous, fast-moving market conditions Architect AI system components with rigorous attention to inference latency, throughput, and cost efficiency — leveraging serving frameworks such as vLLM and TensorRT-LLM — in a zero-downtime, 24/7 trading environment Integrate on-chain data sources, wallet intelligence, and crypto market signals into LLM-powered analytical pipelines — building the data layer that makes Binance's agents genuinely crypto-native Partner with research scientists to translate experimental findings into production-grade agentic solutions with clear performance benchmarks Qualifications Bachelor's or Master's degree in Computer Science, Electrical Engineering, Statistics, Mathematics, or related technical field 0–5 years of industry or research experience in applied ML or AI engineering Strong Python programming skills ; Equally important: demonstrated comfort with vibe coding — using AI-assisted development tools fluidly as core part of your workflow Demonstrated hands-on experience with LLMs — prompt engineering, post-training, or end-to-end LLM application development Familiarity with multi-agent system design — task decomposition, tool use via MCP, memory management, parallel agent execution, and inter-agent communication Strong analytical thinking and problem decomposition; comfortable operating under ambiguity in fast-moving environments Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+        "jd_chars": 4769,
+        "jd_sha256": "b017859ef1cdcf466785cf11c6c1018a3217dfa6526f6755c1006083e7e33abe",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:02:24.825302Z",
@@ -220,9 +240,19 @@
       "ats_key": "binance|greenhouse|5002635101",
       "company": "Binance",
       "consumer_review": {
-        "checked_at": "2026-11-09T23:48:23.778841Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. About the Role We are seeking a highly skilled Research Scientist/Engineer to advance the reasoning and planning capabilities of large foundation models. In this role, you will enhance model performance across the entire development lifecycle—including data acquisition, supervised fine-tuning (SFT), reward modelling, and reinforcement learning—while driving innovations in reasoning and decision-making. You will synthesise large-scale, high-quality datasets through rewriting, augmentation, and generation techniques to strengthen foundation models during pretraining, SFT, and RL stages. A key part of the role involves solving complex tasks using System 2 thinking and applying advanced decoding strategies such as MCTS and A*. You will design and implement robust evaluation methodologies, teach models to interact with external tools, APIs, and code interpreters, and build agents and multi-agent systems capable of addressing sophisticated real-world problems. Why Binance • Shape the future with the world’s leading blockchain ecosystem • Collaborate with world-class talent in a user-centric global organization with a flat structure • Tackle unique, fast-paced projects with autonomy in an innovative environment • Thrive in a results-driven workplace with opportunities for career growth and continuous learning • Competitive salary and company benefits • Work-from-home arrangement (the arrangement may vary depending on the work nature of the business team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you confirm that you have read and agree to our Candidate Privacy Notice. Responsibilities Design, develop, and optimize data processing and retrieval pipelines for enterprise-level generative tasks and mode training applications (Customer Service, Token Report, Web3 Domain Models). This includes embedding, reranking, context engineering, and query rewriting models. Research and evaluate advanced AI-native retrieval algorithms (e.g., low-latency, multimodal retrieval, hierarchical retrieval, GraphRAG) to strengthen large-scale LLM/VLM/Agentic AI capabilities in Binance products. Collaborate with infrastructure and application teams to integrate RAG pipelines into production systems, ensuring scalability, reliability, and measurable business impact. Develop and optimize retrieval and ranking pipelines (indexing, vector search, retrieval scoring, reranking) to improve user experience. Participate in LLM training and RAG system , staying current with techniques such as pre-training, SFT, and reinforcement learning, and apply them to retrieval and generation tasks. Apply NLP, CV, and multimodal methods to analyze user-generated content (classification, quality evaluation, trend detection, comment analysis). Requirement Master’s in Information Retrieval, NLP, Machine Learning, Computer Vision, Multimodal Learning, or related fields. Proficient in PyTorch with strong coding skills in Python or C++ . Strong communication skills, intellectual curiosity, and passion for lifelong learning. Able to identify opportunities and drive cutting-edge retrieval & RAG technologies into real-world applications. Solid theoretical foundation in information retrieval, NLP, and deep learning (experience with embeddings, reranking, query understanding preferred). Hands-on experience with RAG, vector databases, multimodal/graph retrieval, or large-scale AI systems. Strong engineering ability to translate research into scalable, production-level systems. Self-driven, able to own projects end-to-end (design → implementation → deployment). Publications in top-tier conferences/journals (NeurIPS, ICML, ACL, CVPR, SIGIR, KDD, WWW) are a plus; awards in ACM/ICPC or similar competitions preferred. Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+        "jd_chars": 5593,
+        "jd_sha256": "8ff859c4aed5a9e1d213c6a2245bbb504521ac56f6ab91f80388cebe235955d3",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:02:24.825322Z",
@@ -367,9 +397,19 @@
       "ats_key": "binance|greenhouse|5002687101",
       "company": "Binance",
       "consumer_review": {
-        "checked_at": "2026-11-09T23:48:23.778841Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. About Binance Binance is the global leading blockchain ecosystem, operating the world's largest digital asset trading platform by volume, serving over 300 million users across 100+ countries and regions. We are committed to building a more open financial ecosystem and improving global access to financial services. Binance is continuously building stock and related financial market products for global users. The relevant data will serve user-facing stock products and Binance AI business scenarios. We are seeking professionals with stock market experience to jointly build reliable, scalable data and financial AI capabilities. Role Overview You will participate in building the core data foundation for Binance's stock and related financial market businesses, responsible for the full pipeline from data source discovery, evaluation, ingestion, and integration to unified modeling, real-time processing, quality governance, and data services. Beyond completing defined integrations, we expect you to leverage industry expertise to continuously identify better data sources and technical solutions, enabling new markets, products, and data to serve trading products and AI quickly and reliably. Working at Binance • Be a part of the world’s leading blockchain ecosystem that continues to grow and offers excellent career development opportunities • Work alongside diverse, world-class talent in an environment where learning and growth opportunities are endless • Tackle fast-paced, challenging and unique projects • Work in a truly global organization, with international teams and a flat organizational structure • Competitive salary and benefits • Flexible working hours, remote-first, and casual work attire Learn more about how Binancians embody the organization’s core values, creating a unified culture that enables collaboration, excellence, and growth. Apply today to be a part of the Web3 revolution! Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. Responsibilities Conduct research, technical evaluation, ingestion, integration, cleansing, standardization, computation, storage, and servicing of financial market data, covering securities master data, real-time and historical market data, fundamentals, corporate actions, indices, and business-required product and risk data; responsible for source ingestion, raw retention, and stable delivery to knowledge engineering pipelines for content-type data such as announcements, news, and research reports. Design scalable unified data models and integration frameworks, handling different markets' trading calendars, time zones, currencies, security identifiers, listing relationships, lifecycles, and data corrections, supporting rapid onboarding of new markets and sources. Build batch-stream unified data pipelines centered on Flink, continuously optimizing latency, throughput, query performance, stability, and cost, while supporting consumer trading products, research analysis, and AI scenarios. Establish data quality and service level frameworks, taking responsibility for completeness, accuracy, timeliness, consistency, and traceability; build automated reconciliation, anomaly detection, monitoring and alerting, raw data replay, backfill, and fault recovery capabilities. Evaluate different sources (vendors, exchanges, APIs, file feeds, compliance collection) for coverage, quality, stability, revision mechanisms, and technical fit; collaborate with product, procurement, legal, and compliance teams to clarify usage, display, derivative, retention, and redistribution boundaries; drive rational primary/backup source strategies and alternatives. Define data semantics, metric definitions, and service contracts jointly with trading product, data platform, AI engineering, and algorithm teams, ensuring consistent and reliable usage of the same stock facts across different products. Drive data engineering efficiency and technical quality improvements, including metadata, data lineage, automated testing, CI/CD, task orchestration, capacity governance, and AI-assisted development. Requirements Master's degree or above in Computer Science, Software Engineering, Mathematics, Statistics, or related field; 5+ years of experience in data development, big data, or data platforms. Familiar with stock markets and the investor research and decision-making workflow; understand trading mechanisms, market data, fundamentals and financial reports, corporate actions, valuation, and major market events; able to explain the complete pipeline of at least one type of financial data from source to user-facing product and key quality risks. Proficient in SQL and Flink, with experience in large-scale real-time data processing, performance tuning, stability governance, and production issue troubleshooting. Proficient in at least one of Java, Scala, or Python; familiar with Kafka, Spark, and ClickHouse, Doris, HBase, Elasticsearch, or other distributed storage and analytics technologies. Familiar with data modeling, task scheduling, metadata, data lineage, data governance, and service levels; able to independently resolve cross-system data consistency issues. High standards for data quality; able to design reproducible reconciliation, anomaly detection, backfill, and degradation strategies — not just completing data development tasks. Experience with data source selection or production ingestion; able to articulate trade-offs between build vs. buy, multi-source verification, vendor dependency, and alternative solutions. Strong business understanding and cross-team collaboration skills; able to translate trading, risk, research, or AI problems into clear data models and data contracts. Bonus Experience with stock data at brokerages, market data services, financial data, wealth management, or fintech platforms. Familiarity with US stock market structure, trading calendars, pre/post-market sessions, corporate actions, and adjustment rules; experience with other stock markets also a plus. Data experience with stock-related derivatives, ETFs, indices, or tokenized products. Experience building low-latency market data pipelines, securities master data platforms, multi-market data models, quantitative research platforms, or large-scale backtesting data systems. Experience with data anomaly detection, knowledge graphs, financial entity alignment, or building high-quality financial datasets for LLMs and retrieval-augmented generation (RAG). Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+        "jd_chars": 8275,
+        "jd_sha256": "50c370395adc6e93f775e5a583bd9af3c1b7225d17a3ddeee7975eb380862c70",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:11:31.004930Z",
@@ -392,9 +432,19 @@
       "ats_key": "binance|greenhouse|5009522101",
       "company": "Binance",
       "consumer_review": {
-        "checked_at": "2026-11-09T23:48:23.778841Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. We are seeking a highly skilled professional to join our team, focusing on advancing through innovative AI solutions. The successful candidate will develop and refine Large Language Models (LLMs) to extract actionable insights, improve business decision-making, and optimize prompt design for more accurate outputs. Additionally, the role includes creating scalable and robust LLM/RAG frameworks tailored to customer service scheduling, fostering innovation and maintaining a competitive market edge. This role is 100% Remote, Work from Home based. Responsibilities: Own the full LLM pipeline from data preparation to production real case usage. Design, iterate and optimize prompts (zero-/few-shot, chain-of-thought, tool-calling, etc.) to maximize model utility and safety across products and languages. Build and maintain Retrieval-Augmented Generation (RAG) QA/search systems that connect to multi-source knowledge bases. Familiar with vLLM/SGLang inference architectures and have proven experience deploying and operating LLM services on multi‑GPU or cluster environments. Design, implement and operate multi‑agent LLM architectures (e.g. LangGraph, CrewAI, AutoGen) including task decomposition, agent orchestration, memory sharing and tool‑calling workflows. Develop evaluation pipelines (automatic metrics & human feedback) to measure prompt and model quality, bias, and hallucination rates. Collaborate with product and CS teams to integrate AI models into conversational Chatbot in different scenarios. Track cutting-edge research, author tech blogs, and keep improve current architecture. Requirements: Master’s Degree or higher in Computer Science, Data Science or related field.. At least 2 years of deep-learning/NLP experience, including 1+ year practical LLM work (SFT, DPO, RAG, quantization, inference optimization, etc.). Demonstrated prompt engineering & tuning expertise (few-shot design, structured prompting, prefix-/p-tuning, reward re-ranking, safety filtering). Practical experience building and deploying multi‑agent LLM workflows, with understanding of agent‑orchestrator patterns, shared memory, long‑horizon planning and guard‑rail design. Proficient in both English and Chinese communication for efficient cross team collaboration Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+        "jd_chars": 4013,
+        "jd_sha256": "ad8ba984429209569a5ae819503345e9f4f4a88450c2284edf7cc7bf3638e285",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:11:31.004975Z",
@@ -441,9 +491,19 @@
       "ats_key": "mistral.ai|ashby|50656710-0001-42b0-8571-2880492b1233",
       "company": "Mistral AI",
       "consumer_review": {
-        "checked_at": "2026-11-10T11:20:09.352666Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. ABOUT THE JOB Mistral AI is seeking Applied Scientists and Research Engineers focused on robotics. You will design, train, and deploy SOTA robotics models (VLM, VLA models for navigation and manipulation) and apply them to diverse use cases. You'll work cross-functionally with internal and external science, engineering, and product teams to deliver high-impact AI solutions. WHAT YOU WILL DO - Run pre-training, post-training and deploy state of the art models on large clusters. - Generate and curate datasets (image-text, video-text), and build evaluators/benchmarks for perception, navigation and manipulation tasks. - Develop the necessary tools and frameworks to facilitate data generation, model training, evaluation and deployment. - Collaborate with cross-functional teams to tackle complex use cases. - Manage research projects and communications with client research teams. ABOUT YOU - Fluent in English with excellent communication skills. - Expert with PyTorch or JAX. - Experience with Vision Language Models (VLM), Vision-Language-Action (VLA) models, perception, navigation and manipulation, simulation tools (e.g. Isaac SIM). - Clean, readable, high-performance Python code. - Doesn't need roadmaps. Ships. - Low-ego, collaborative and eager to learn. - Track record of success through personal projects, professional projects or academia. NICE TO HAVE - PhD / Master in a relevant field (Robotics, Machine Learning). - Research experience in robotics navigation, perception, manipulation. - Contributions to a large open-source or industry codebase. - Publications in top academic journals or conferences. - Enjoys improving existing code: typing, tests, CI pipelines. WHAT WE OFFER We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks. For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link. PRIVACY POLICY Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy.",
+        "jd_chars": 3094,
+        "jd_sha256": "55a32c7b2775705a109c02fd4ef271254e1954d740bf5d0f52067cb3ebedd9ff",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing,",
       "first_seen_at": "2026-11-09T15:11:31.005019Z",
@@ -514,9 +574,19 @@
       "ats_key": "mistral.ai|ashby|d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
       "company": "Mistral AI",
       "consumer_review": {
-        "checked_at": "2026-11-10T11:20:09.352666Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. ABOUT THE JOB Mistral AI is seeking an Applied AI Engineer focused on robotics deployment. You will take state-of-the-art AI models and make them work on real robots, in real environments, for real customers. This is a hands-on role at the intersection of machine learning and physical systems: you will own the path from model to deployed autonomy, working alongside robotics engineers, ML researchers, and systems engineers to deliver end-to-end autonomous solutions across diverse use cases. WHAT YOU WILL DO - Integrate AI models with robotic hardware, sensors, and embedded systems, bringing modern perception and language-driven capabilities onto physical platforms. - Improve the robustness, reliability, and safety of robotic systems operating in real-world, unstructured environments. - Test and validate algorithms in simulation and in real-world deployments, moving fluidly between the two. - Analyze field data to improve model performance and system reliability, closing the loop between what happens on the robot and what happens in training. - Bring up, tune, and debug the autonomy stack — localization, mapping, navigation, and perception — on real hardware, from sensor calibration to real-time performance. - Develop and tune robot navigation behaviors — path planning, obstacle avoidance — so systems hold up in dynamic, cluttered, and partially observable environments. - Diagnose failures end-to-end: mapping drift, localization dropouts, perception edge cases, timing issues — and fix them. - Collaborate with robotics engineers, ML researchers, and systems engineers to deliver complete autonomous solutions for customer use cases, from prototype through production deployment. - Build and maintain the tooling needed for deployment, monitoring, and continuous improvement of deployed systems. ABOUT YOU - Bachelor's, Master's, or PhD in Mechatronics, Robotics, or a relevant discipline (e.g. Computer Science, Electrical or Mechanical Engineering). - Fluent in English with excellent communication skills. - Strong software engineering in Python and/or C++: clean, readable, high-performance code; comfortable working in and improving production codebases. - Knowledge of robotics frameworks such as ROS/ROS2. - Experience with robot perception and state estimation: SLAM, localization and mapping, path planning, sensor fusion, or computer vision. - Solid mathematical fundamentals — geometry, probability, and estimation — and the judgment to know when a hand-crafted algorithm beats a learned one. - Familiarity with simulation tools and robotics development environments (e.g. Isaac Sim, Gazebo, or similar). - Strong problem-solving skills and ability to work in interdisciplinary teams. - Comfortable with the messiness of the real world: hardware quirks, edge cases, and field surprises don't scare you. - Low-ego, collaborative, and eager to learn. - Doesn't need roadmaps. Ships. NICE TO HAVE - Experience deploying ML models on embedded or edge hardware (GPU/NPU inference, quantization, real-time constraints). - Hands-on experience with sensor modalities such as LiDAR, depth cameras, or IMUs, including calibration and time-synchronization. - Exposure to VLM/VLA models or other foundation-model approaches for robot perception and control. - Experience with navigation in GPS-denied or otherwise challenging environments, or with visual-inertial odometry. - Working knowledge of established autonomy tooling — e.g. Nav2, SLAM Toolbox, Cartographer, RTAB-Map, or AMCL — and knowing when to build versus reuse. - Experience with behavior trees, dynamic costmaps, or fleet-level navigation. - Contributions to open-source robotics or ML projects. - Experience with safety-critical or regulated deployment environments. - Track record of success through personal projects, professional projects, or academia. WHAT WE OFFER We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks. For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link. PRIVACY POLICY Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy.",
+        "jd_chars": 5250,
+        "jd_sha256": "7260c45f5fea4d2487cd8eb1ea2181e0ba32b8a050b6d29ce932877d708a69e6",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing,",
       "first_seen_at": "2026-11-09T15:11:31.005109Z",
@@ -795,6 +865,21 @@
     {
       "ats_key": "clera|ashby|dbc6684e-3338-46d1-8711-efc6999c26aa",
       "company": "Clera",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT THE ROLE Join a small engineering team at an AI and reinforcement learning infrastructure company. You will build quality control systems for training data and help ensure that agent evaluations produce reliable, useful results. WHAT YOU'LL DO - Automate quality control for training data generated in reinforcement learning environments. - Set and enforce data quality standards using human judgment and clear evidence rather than relying heavily on large language models. - Design experiments and metrics to evaluate agent outputs. - Work with data vendors to investigate quality issues, diagnose agent failure modes, and improve data generation processes. - Turn quality findings into auditing systems, including sampling strategies and rule-based or model-assisted validation pipelines. - Improve infrastructure tools and vendor portals to reduce anomalies, inconsistencies, and edge cases. WHAT WE'RE LOOKING FOR - Two to four years of experience as a research engineer or in a similar engineering or research role focused on quality control automation. - Technical education or equivalent technical experience, with proficiency in Python, Docker, and Linux. - Experience building scalable data validation pipelines and end-to-end automated QA/QC systems with autonomy in unstructured problem spaces. - Background in benchmarks and evaluations for reinforcement learning training data, including defining realistic tasks, reliable rubrics, and useful trajectories. - Experience defining and measuring training data quality, and designing evaluation metrics, experiments, and QA/QC processes. - Knowledge of statistics, strong communication skills, curiosity across domains, and the ability to collaborate independently across time zones. COMPENSATION & BENEFITS Base salary: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
+        "jd_chars": 1893,
+        "jd_sha256": "3ffc2ae4bcbc95867754e457bc363f6ae376e1ef0a25d6d7dc060b51b29ef35c",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "ABOUT THE ROLE Join a small engineering team at an AI and reinforcement learning infrastructure company. You will build quality control systems for training data and help ensure that agent evaluations produce reliable, useful results. WHAT ",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T01:29:36.461198Z",
@@ -944,6 +1029,21 @@
     {
       "ats_key": "simplifynext|greenhouse|4996764007",
       "company": "SimplifyNext",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent automation. We bring strong business process consulting together with deep technology skills and modern delivery practices – product-centric, agile and AI-assisted. We build bespoke applications and AI systems, and we go deep on the platforms our clients run on, including Microsoft, AWS, ServiceNow, Databricks and UiPath. That combination of engineering depth and platform depth is what our clients come to us for. We build and modernise the systems people depend on daily. Our 300+ practitioners are multi-disciplinary by design – business consultants, software engineers, architects, AI engineers and designers working on the same delivery, not handing off between silos. We focus on delivering outcomes for clients, building strong careers for our people, and staying ahead of the technology curve. We hire because we are growing. Work you’ll do As an AI Engineer at SimplifyNext, you will be part of a hands-on engineering team building real-world AI and machine learning solutions that create meaningful impact for clients across ASEAN. You will work closely with consultants, architects, and domain experts to translate business problems into deployable AI models, generative AI workflows, and intelligent automation components. You will have the opportunity to experiment with modern AI frameworks, build prototypes, fine-tune models, and implement AI capabilities end-to-end—from data preparation to deployment. This role is designed for fresh graduates who want to build, break, learn, and innovate within a supportive environment grounded in consulting excellence and deep engineering capability. Your responsibilities would include but not limited to: AI & Machine Learning Development · Build and train machine learning models using Python and modern ML frameworks · Experiment with generative AI technologies (LLMs, embeddings, prompt engineering, RAG, agentic workflows) · Support fine-tuning, optimisation, and evaluation of AI models · Develop reusable AI components and microservices Data Engineering & Preparation · Collect, clean, and transform datasets for training and inference · Perform exploratory data analysis to uncover patterns and insights · Document data assumptions, limitations, and preprocessing logic Solution Engineering · Contribute to AI solution design, model selection, architecture discussions, and implementation approaches · Integrate AI models into applications, APIs, and automation workflows · Build proof-of-concepts (POCs) and accelerate client adoption of AI Testing, Deployment & Delivery · Conduct model validation, scenario testing, and UAT with internal and client stakeholders · Support deployment of AI models on cloud platforms (AWS/GCP/Azure) or containerised environments · Monitor performance and support continuous improvement post-deployment Collaboration & Consulting Exposure · Work with functional SMEs to understand business problems and AI opportunities · Translate complex concepts into simple, understandable terms for non-technical audiences · Participate in workshops, demos, and client discussions as part of project teams Qualifications • Bachelor’s degree in Computer Science, Computer Engineering, AI, Data Science, or a related field. • 0–3 years of AI development experience (Fresh graduates are welcome to apply) • Strong foundation in Python, algorithms, and data structures • Familiarity with ML frameworks such as TensorFlow, PyTorch, Scikit-learn, or HuggingFace • Understanding of ML fundamentals: supervised/unsupervised learning, model evaluation, feature engineering • Knowledge of cloud platforms (AWS, GCP, Azure) is a plus • Familiarity with Git, REST APIs, or notebook-based development is beneficial • Strong analytical thinking, curiosity, and problem-solving skills • Passion for AI, experimentation, building things, and delivering quality work Why Join Us · Be part of a fast-growing consulting and technology firm driving AI, automation, and next-gen engineering · Work on high-impact challenges across ASEAN, delivering real-world AI solutions · Gain hands-on experience from day one with industry experts, architects, and consultants · Contribute to innovation programmes, accelerators, and AI Centres of Excellence · Grow rapidly through certifications, mentorship, structured enablement, and exposure to emerging AI technologies · Join a supportive, high-trust culture that values creativity, experimentation, and continuous learning Why SimplifyNext One Team, Not Siloed Offerings Apps, automation, and AI aren't separate teams here - you'll work across all three as one connected practice, not get boxed into a single lane. AI in Our DNA, Not Bolted On Regardless of platform, every specialist here is AI-enabled by design, powered by our own in-house AI workbench that pairs humans and AI from discovery to testing. Future-Proof Your Career Tech trends come and go - today's hot platform is tomorrow's afterthought. We multi-skill our people across platforms and AI so your career keeps growing no matter where the market moves. APAC's Biggest AI-Integrated Practice Across every platform we work in, our AI-integrated practice is the largest in the region, with work good enough to be cited at Google's own AI event. Grow With Us Across ASEAN We're one of Singapore's 100 Fastest Growing Companies, expanding fast across Thailand and Malaysia - plenty of room to grow with us. At SimplifyNext, we’re committed to building a team of curious, driven, and forward-thinking individuals who care deeply about creating meaningful impact through technology. If you’re excited by the opportunity to grow, collaborate, and shape the future of digital transformation across the region, we’d be happy to hear from you.",
+        "jd_chars": 5922,
+        "jd_sha256": "4f6d87ee36e2df5cab4daa7e3172a13175bba8194cd739791892a6198a7cc40f",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<div class=\"content-intro\"><p>SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T09:44:08.167523Z",
@@ -966,6 +1066,21 @@
     {
       "ats_key": "simplifynext|greenhouse|5019281007",
       "company": "SimplifyNext",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent automation. We bring strong business process consulting together with deep technology skills and modern delivery practices – product-centric, agile and AI-assisted. We build bespoke applications and AI systems, and we go deep on the platforms our clients run on, including Microsoft, AWS, ServiceNow, Databricks and UiPath. That combination of engineering depth and platform depth is what our clients come to us for. We build and modernise the systems people depend on daily. Our 300+ practitioners are multi-disciplinary by design – business consultants, software engineers, architects, AI engineers and designers working on the same delivery, not handing off between silos. We focus on delivering outcomes for clients, building strong careers for our people, and staying ahead of the technology curve. We hire because we are growing. We’re not hiring someone to run models. We’re hiring someone who builds systems that think. At SimplifyNext, our AI Engineers are core to how we deliver transformation — designing and deploying intelligent systems that genuinely change how organisations operate. You won’t be a supporting act to another team. You’ll be the one building the agents, pipelines, and infrastructure that make our AI products real. We work across public sector and enterprise, at the intersection of AI, automation, and product-led transformation. If you’re energised by hard engineering problems, care about production outcomes - not just research benchmarks - and want your work to reach real users at scale, read on. What You'll Do 1. Build Agentic AI Systems Design and build sophisticated AI agents capable of independent operation, complex decision-making, and self-correction across domain-specific contexts. Develop orchestration workflows using frameworks such as LangChain, LangGraph, and/or the Microsoft Bot Framework to create robust conversational and task-oriented agents. Implement Retrieval-Augmented Generation (RAG) systems that connect agents to live, accurate knowledge bases — reducing hallucinations and improving output quality. Build Memory, Reasoning, and Planning (MRP) capabilities so agents can maintain context, reason across information, and execute multi-step plans. Design Agent-to-Agent (A2A) communication protocols that allow multiple autonomous agents to collaborate, delegate tasks, and exchange information securely. Work with LLM serving solutions (Ollama, vLLM) to ensure efficient, scalable inference in production environments. 2. Deploy and Operate at Scale Deploy and manage AI systems on major cloud platforms — AWS, Azure, or GCP — ensuring high availability, security, and scalability. Containerise applications with Docker and orchestrate deployments with Kubernetes, including end-to-end on-premise cluster setup and management. Build and maintain CI/CD pipelines using tools like Argo (Argo Workflows, Argo CD) for reliable, automated delivery of AI services. Expose AI capabilities through well-documented, performant APIs that integrate seamlessly with client-facing systems and applications. 3. Train and Fine-tune Models Train, fine-tune, and optimise custom AI models using TensorFlow and/or PyTorch, particularly where off-the-shelf models don’t meet specific project requirements. Run structured experiments — hyperparameter tuning, ablations, model evaluation — to hit performance targets with confidence. Stay current with the latest developments in large language models and agentic AI, and bring new techniques into our systems proactively. Work across diverse data modalities: text, image, time-series, and graph-structured data. Who You Are Must-Have Production mindset — you’ve shipped AI systems to real users, not just demos. Strong fundamentals in agentic AI — you understand how to design agents that are reliable, not just impressive. Hands-on with at least one major cloud platform (AWS, Azure, or GCP) for deploying and managing AI workloads. Solid Python engineering skills and comfort working in a Git-based, collaborative codebase. Experience with containerisation (Docker) and orchestration (Kubernetes) in real deployment contexts. Clear communicator — able to explain complex technical decisions to non-technical stakeholders. Good to Have 3–7 years in AI/ML engineering or a closely related role (data engineering, MLOps, applied research). Hands-on experience with LangChain, LangGraph, Ollama, vLLM, or similar orchestration and serving tools. Demonstrable RAG system implementation and optimisation experience. Familiarity with Memory, Reasoning, and Planning (MRP) concepts and Agent-to-Agent (A2A) protocol design. Experience with MLOps tooling, particularly Argo Workflows and Argo CD. Proficiency in TensorFlow and/or PyTorch for model training and fine-tuning. Exposure to knowledge graphs, semantic web technologies, or prompt engineering strategies. This role is not for you if… You’ve only worked with AI in sandboxed or prototype environments and haven’t dealt with production reliability challenges. You prefer to work from a detailed spec rather than figuring out the right approach as you go. You treat deployment as someone else’s problem You measure success by models trained, not by outcomes delivered. Why SimplifyNext We partner with governments and enterprises to shift from project delivery to product thinking. That means working on problems that genuinely matter — healthcare access, business licensing, workforce development — and being held accountable for outcomes, not just deliverables. High-impact problem spaces Public sector and enterprise transformation, AI, and automation at scale across ASEAN and Asia Pacific. Engineering-first culture You’ll work alongside world-class architects, developers, and AI practitioners who set a high bar. End-to-end ownership You own problems fully — from architecture decisions to production operations — not just one slice. Learning environment Full certification sponsorship, structured learning paths, and direct mentorship from day one. Why SimplifyNext One Team, Not Siloed Offerings Apps, automation, and AI aren't separate teams here - you'll work across all three as one connected practice, not get boxed into a single lane. AI in Our DNA, Not Bolted On Regardless of platform, every specialist here is AI-enabled by design, powered by our own in-house AI workbench that pairs humans and AI from discovery to testing. Future-Proof Your Career Tech trends come and go - today's hot platform is tomorrow's afterthought. We multi-skill our people across platforms and AI so your career keeps growing no matter where the market moves. APAC's Biggest AI-Integrated Practice Across every platform we work in, our AI-integrated practice is the largest in the region, with work good enough to be cited at Google's own AI event. Grow With Us Across ASEAN We're one of Singapore's 100 Fastest Growing Companies, expanding fast across Thailand and Malaysia - plenty of room to grow with us. At SimplifyNext, we’re committed to building a team of curious, driven, and forward-thinking individuals who care deeply about creating meaningful impact through technology. If you’re excited by the opportunity to grow, collaborate, and shape the future of digital transformation across the region, we’d be happy to hear from you.",
+        "jd_chars": 7491,
+        "jd_sha256": "56995786f5139927160bf56e66a616e86d5628025f9a991582110d6d207bee1a",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<div class=\"content-intro\"><p>SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T09:44:08.167553Z",
@@ -1007,6 +1122,94 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer (Machine Learning)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer--Machine-Learning-_R00022966"
+    },
+    {
+      "ats_key": "freehire|ai-engineer-allinton-engineering-trading-pte-ltd-5kiadube",
+      "company": "Allinton Engineering & Trading Pte. Ltd.",
+      "description_excerpt": "<p>Salary: $5,000 – $7,000 per month</p><p><strong>Job Description &amp; Requirements</strong></p><p>We are looking for a motivated and technically skilled AI Engineer to join our team and support the development of AI-driven business solut",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T11:51:21.094100Z",
+      "key": "sg:144eab5df5ad3a4a8970",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Central Region",
+      "retries": 0,
+      "seq": 83,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-allinton-engineering-trading-pte-ltd-5kiadube",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://sg.jobstreet.com/job/95584055"
+    },
+    {
+      "ats_key": "freehire|research-assistant-backend-platform-engineer-school-of-computing-lqj5tznt",
+      "company": "School of Computing",
+      "description_excerpt": "<div><p>\n<strong><b>Job Description</b></strong><br>\n</p></div>\n<div><div>\n<p>The National University of Singapore invites applications for the position of Research Assistant (Backend &amp; Platform Engineer) for Horizons Office, School of ",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T11:51:21.094147Z",
+      "key": "sg:15841de26cbbcb44ef8b",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Kent Ridge, Central Region",
+      "retries": 0,
+      "seq": 84,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-assistant-backend-platform-engineer-school-of-computing-lqj5tznt",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Assistant (Backend & Platform Engineer)",
+      "url": "https://sg.jobstreet.com/job/94531188"
+    },
+    {
+      "ats_key": "freehire|ai-solution-engineer-llm-agentic-ai-evonik-methionine-nsccdyij",
+      "company": "Evonik Methionine",
+      "description_excerpt": "<div><div>\n<p><b>What we offer</b></p>\n<p>At Evonik, you’re part of a global chemical company working in many sectors that go beyond chemistry. From lipids for tomorrow’s medicines, biosurfactants for green detergents, additives for plastic",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T11:51:21.094172Z",
+      "key": "sg:07dcd62d224496e47de5",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 85,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-solution-engineer-llm-agentic-ai-evonik-methionine-nsccdyij",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Solution Engineer (LLM & Agentic AI)",
+      "url": "https://sg.jobstreet.com/job/95287266"
+    },
+    {
+      "ats_key": "temus|greenhouse|5180599008",
+      "company": "Temus",
+      "description_excerpt": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T11:51:21.094205Z",
+      "key": "sg:bf049c3c543d9704f9c1",
+      "last_error": null,
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 86,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "5180599008",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008"
     }
   ],
   "terminal": [
@@ -2021,24 +2224,25 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/918",
       "first_seen_at": "2026-11-07T09:35:18.297822Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/918",
       "key": "sg:c8ad24df80935ab6bb38",
       "last_error": null,
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
+      "reason": "NTU Talent Acquisition email on 2026-10-31 confirmed prior application for the exact role title; see Issue #918; receipt does not include numerical requisition.",
       "retries": 0,
       "seq": 23,
       "source": "ntu:official-cxs:SG",
       "state": "DUPLICATE_CONFIRMED",
       "title": "Research Associate / Research Fellow (AI in Education)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate---Research-Fellow--AI-in-Education-_R00026097",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/918",
-      "evidence_url": "https://github.com/kolihhan/job-resources/issues/918",
-      "reason": "NTU Talent Acquisition email on 2026-10-31 confirmed prior application for the exact role title; see Issue #918; receipt does not include numerical requisition."
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate---Research-Fellow--AI-in-Education-_R00026097"
     },
     {
       "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
+      "checked_at": "2026-11-10",
       "company": "NTU Singapore",
       "consumer_review": {
         "checked_at": "2026-11-10T11:20:09.352666Z",
@@ -2060,27 +2264,27 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabi",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
       "first_seen_at": "2026-11-09T15:11:31.005037Z",
       "key": "sg:c9a22da4e906d0e113a6",
       "last_error": null,
       "market": "SG",
       "platform": "workday official ATS",
       "query": "NTU Main Campus, Singapore",
+      "reason": "Official NTU JD requires hands-on microfluidics, cell biology/microbiology and electrical/microcontroller lab research, which the candidate's NLP/LLM research and software background do not satisfy.",
       "retries": 0,
+      "review_source": "official employer-authored job JD",
       "seq": 53,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
       "state": "HARD_REJECTED",
       "title": "Research Engineer II (Engineering / Life Sciences)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
-      "reason": "Official NTU JD requires hands-on microfluidics, cell biology/microbiology and electrical/microcontroller lab research, which the candidate's NLP/LLM research and software background do not satisfy.",
-      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332",
-      "checked_at": "2026-11-10",
-      "review_source": "official employer-authored job JD"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Engineering---Life-Sciences-_R00026332"
     },
     {
       "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
+      "checked_at": "2026-11-10",
       "company": "NTU Singapore",
       "consumer_review": {
         "checked_at": "2026-11-10T11:20:09.352666Z",
@@ -2103,24 +2307,23 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabi",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
       "first_seen_at": "2026-11-09T15:11:31.005053Z",
       "key": "sg:eb6f46df6755290c6ffe",
       "last_error": null,
       "market": "SG",
       "platform": "workday official ATS",
       "query": "NTU Main Campus, Singapore",
+      "reason": "Official NTU Physical AI JD requires hands-on ROS/ROS2, C++/Python robotic manipulation/perception under uncertainty and robot hardware integration; absent from candidate's verified NLP/LLM/software record.",
       "retries": 0,
+      "review_source": "official employer-authored job JD",
       "seq": 54,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
       "state": "HARD_REJECTED",
       "title": "Research Engineer II (Physical AI)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
-      "reason": "Official NTU Physical AI JD requires hands-on ROS/ROS2, C++/Python robotic manipulation/perception under uncertainty and robot hardware integration; absent from candidate's verified NLP/LLM/software record.",
-      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298",
-      "checked_at": "2026-11-10",
-      "review_source": "official employer-authored job JD"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Physical-AI-_R00026298"
     }
   ],
   "version": 1
