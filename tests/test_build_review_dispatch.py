@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from build_review_dispatch import build_dispatch, allowed_ats_url, classify_track, markdown_report
+from build_review_dispatch import build_dispatch, allowed_ats_url, classify_track, markdown_report, jd_quote_evidence
 
 NOW = datetime(2026, 11, 9, 12, tzinfo=timezone.utc)
 
@@ -131,6 +131,37 @@ class DispatchTests(unittest.TestCase):
         self.assertIn("CHECK_POSSIBLE_CROSS_PLATFORM_ISSUE",item["review_flags"])
         self.assertEqual(item["possible_prior_issue"],640)
         self.assertEqual(item["decision"],"NOT_MADE")
+
+    def test_batch_packet_quotes_are_exact_and_never_make_a_fit_verdict(self):
+        description = (
+            "Build multi-step LLM agents and retrieval-augmented generation (RAG) "
+            "platforms with safety evaluation. "
+            "Must have 3 years of backend engineering experience. "
+            "Experience with AWS is preferred, Kubernetes is a bonus."
+        )
+        p = pending("SG", 3, "AI Agent Engineer", company="Example")
+        p["consumer_review"]["full_jd_text"] = description
+        packet = jd_quote_evidence(description)
+        self.assertTrue(packet["ai_work"])
+        self.assertTrue(packet["requirements"])
+        self.assertTrue(packet["preferences"])
+        self.assertTrue(all(q in description for spans in packet.values() for q in spans))
+        out = build_dispatch({"SG":{"market":"SG","pending":[p],"terminal":[]}},
+                             {},{"strong":{"urls":[]}},now=NOW)
+        role = out["markets"]["SG"]["selected"][0]
+        self.assertEqual(role["decision"],"NOT_MADE")
+        self.assertEqual(role["jd_quote_evidence"],packet)
+        md = markdown_report(out)
+        self.assertIn("Employer JD evidence",md)
+        self.assertIn("NOT eligibility verdict",md)
+
+    def test_batch_packet_never_claims_unknown_jd_requirements(self):
+        p=pending("MY", 1, "AI Backend Engineer", company="NewEmployer", complete=False)
+        out=build_dispatch({"MY":{"market":"MY","pending":[p],"terminal":[]}},
+                           {},{"strong":{"urls":[]}},now=NOW)
+        role=out["markets"]["MY"]["selected"][0]
+        self.assertIsNone(role["jd_quote_evidence"])
+        self.assertEqual(role["decision"],"NOT_MADE")
 
     def test_bad_url_ignored_and_missing_feed_not_reported_as_exhausted(self):
         self.assertFalse(allowed_ats_url("https://someblog.net/job/1"))
