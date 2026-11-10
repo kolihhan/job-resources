@@ -52,29 +52,6 @@
       "url": "https://jobs.ashbyhq.com/gen-digital/2f170362-7e3b-48a2-956e-1bac730a7d1d"
     },
     {
-      "ats_key": "bjakcareer|ashby|02e3a36d-cb22-4ae3-882f-f0c210ecfbec",
-      "company": "BJAK",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
-      "first_seen_at": "2026-11-09T15:02:24.841091Z",
-      "key": "my:a7b7150332f49220aead",
-      "last_error": null,
-      "market": "MY",
-      "platform": "ashby official ATS",
-      "query": "Malaysia",
-      "retries": 0,
-      "seq": 6,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "02e3a36d-cb22-4ae3-882f-f0c210ecfbec",
-      "state": "UNVERIFIED_INDEX",
-      "title": "iOS Developer - AI Finance Agent",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/02e3a36d-cb22-4ae3-882f-f0c210ecfbec"
-    },
-    {
       "ats_key": "bjakcareer|ashby|4b94274b-d5b3-454a-bf54-a0d7f8f431f4",
       "company": "BJAK",
       "consumer_review": {
@@ -96,29 +73,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Backend Software Engineer - AI Finance Agent",
       "url": "https://jobs.ashbyhq.com/bjakcareer/4b94274b-d5b3-454a-bf54-a0d7f8f431f4"
-    },
-    {
-      "ats_key": "bjakcareer|ashby|4e5ef9a0-abf2-43c1-a0db-881b1e17111f",
-      "company": "BJAK",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
-      "first_seen_at": "2026-11-09T15:02:24.841139Z",
-      "key": "my:0d2b9ecb396403d863df",
-      "last_error": null,
-      "market": "MY",
-      "platform": "ashby official ATS",
-      "query": "Malaysia",
-      "retries": 0,
-      "seq": 8,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "4e5ef9a0-abf2-43c1-a0db-881b1e17111f",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Mobile Engineer - AI Finance Agent",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/4e5ef9a0-abf2-43c1-a0db-881b1e17111f"
     },
     {
       "ats_key": "nielseniq|smartrecruiters|744000155973050",
@@ -1302,6 +1256,62 @@
       "reviewed_at": "2026-11-10T10:18:44+08:00",
       "disposition_reason": "Employer-authored full JD shows product Decision Science: user/product analytics, A/B experiments, dashboards, stakeholder insights, credit/fraud decision modelling. AI algorithms are auxiliary to analytics; no substantive LLM/Agent/RAG/retrieval system ownership or aligned research. MY-TOP content-first gate not met. All-state GitHub exact requisition and employer/title searches found no matching Issue. Not promoted.",
       "disposition_evidence": "https://jobs.ashbyhq.com/gen-digital/e68a4dac-ca1d-43a1-a56a-6e45da05dc88 ; https://github.com/kolihhan/freehirefetch/blob/main/feed/ats/jd/MY-005.json"
+    },
+    {
+      "ats_key": "bjakcareer|ashby|02e3a36d-cb22-4ae3-882f-f0c210ecfbec",
+      "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T00:15:07.140505Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
+      "first_seen_at": "2026-11-09T15:02:24.841091Z",
+      "key": "my:a7b7150332f49220aead",
+      "last_error": null,
+      "market": "MY",
+      "platform": "ashby official ATS",
+      "query": "Malaysia",
+      "retries": 0,
+      "seq": 6,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "02e3a36d-cb22-4ae3-882f-f0c210ecfbec",
+      "state": "HARD_REJECTED",
+      "title": "iOS Developer - AI Finance Agent",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/02e3a36d-cb22-4ae3-882f-f0c210ecfbec",
+      "disposition": "HARD_REJECTED",
+      "resolution_reason": "Official BJAK Ashby full JD: native iOS/Swift or mobile client feature development, not core AI/LLM/Agent engineering; mandatory mobile specialism mismatches candidate. AI Finance Agent is product branding, not job AI ownership.",
+      "resolved_at": "2026-11-10T03:19:40Z",
+      "resolution_evidence": "kolihhan/freehirefetch/feed/ats/jd/MY-000.json or MY-001.json; exact Ashby job URL",
+      "resolution_actor": "MY AI Scout"
+    },
+    {
+      "ats_key": "bjakcareer|ashby|4e5ef9a0-abf2-43c1-a0db-881b1e17111f",
+      "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T00:15:07.140505Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
+      "first_seen_at": "2026-11-09T15:02:24.841139Z",
+      "key": "my:0d2b9ecb396403d863df",
+      "last_error": null,
+      "market": "MY",
+      "platform": "ashby official ATS",
+      "query": "Malaysia",
+      "retries": 0,
+      "seq": 8,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "4e5ef9a0-abf2-43c1-a0db-881b1e17111f",
+      "state": "HARD_REJECTED",
+      "title": "Mobile Engineer - AI Finance Agent",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/4e5ef9a0-abf2-43c1-a0db-881b1e17111f",
+      "disposition": "HARD_REJECTED",
+      "resolution_reason": "Official BJAK Ashby full JD: native iOS/Swift or mobile client feature development, not core AI/LLM/Agent engineering; mandatory mobile specialism mismatches candidate. AI Finance Agent is product branding, not job AI ownership.",
+      "resolved_at": "2026-11-10T03:19:40Z",
+      "resolution_evidence": "kolihhan/freehirefetch/feed/ats/jd/MY-000.json or MY-001.json; exact Ashby job URL",
+      "resolution_actor": "MY AI Scout"
     }
   ],
   "version": 1
