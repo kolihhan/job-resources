@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T01:29:36.461249Z",
-    "source": "freehirefetch:official-ats:SG",
+    "at": "2026-11-10T08:48:16.054236Z",
+    "source": "ntu:official-cxs:SG",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 16,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 9,
-      "observed": 9
+      "new_pending": 1,
+      "observed": 17
     }
   },
   "market": "SG",
-  "next_seq": 75,
+  "next_seq": 76,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -883,6 +883,21 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Research Scientist, Scientific ML",
       "url": "https://jobs.smartrecruiters.com/WesternDigital/744000153657449"
+    },
+    {
+      "company": "Nanyang Technological University",
+      "first_seen_at": "2026-11-10T08:48:16.053957Z",
+      "key": "sg:d326a0f78333a8727646",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 75,
+      "source": "ntu:official-cxs:SG",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Assistant (Natural Sciences and Science Education Department) [NIE]",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Natural-Sciences-and-Science-Education-Department---NIE-_R00026030"
     }
   ],
   "terminal": [
@@ -1114,7 +1129,15 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "disposition": {
+        "checked_at": "2026-11-10T07:01:00Z",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/901",
+        "note": "R00026258: complete official JD, current employer Workday route, research-exception quality and candidate gates reviewed; user application not submitted.",
+        "reason": "EXACT_ISSUE_READBACK_APPLY"
+      },
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/901",
       "first_seen_at": "2026-11-07T09:35:18.297605Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/901",
       "key": "sg:5abe357872d8f208f4cc",
       "last_error": null,
       "market": "SG",
@@ -1125,15 +1148,7 @@
       "source": "ntu:official-cxs:SG",
       "state": "ISSUE_VERIFIED",
       "title": "Research Assistant (English Language and Literature Department) [NIE]",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--English-Language-and-Literature-Department---NIE-_R00026258",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/901",
-      "evidence_url": "https://github.com/kolihhan/job-resources/issues/901",
-      "disposition": {
-        "checked_at": "2026-11-10T07:01:00Z",
-        "reason": "EXACT_ISSUE_READBACK_APPLY",
-        "issue_url": "https://github.com/kolihhan/job-resources/issues/901",
-        "note": "R00026258: complete official JD, current employer Workday route, research-exception quality and candidate gates reviewed; user application not submitted."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--English-Language-and-Literature-Department---NIE-_R00026258"
     },
     {
       "company": "Nanyang Technological University",
@@ -1400,24 +1415,24 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "disposition": {
+        "checked_at": "2026-11-10T07:10:00Z",
+        "note": "First-party NTU Workday complete JD stored 2026-11-09. Not rejected merely for master's degree or AI title; judged by actual weekly geospatial work.",
+        "reason": "CONTENT_OR_SPECIALISM_MISMATCH"
+      },
       "first_seen_at": "2026-11-07T09:35:18.297935Z",
       "key": "sg:11090702a92216552c11",
       "last_error": null,
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
+      "reason": "Official full JD is satellite/geospatial remote-sensing time-series ML, coastline/land-subsidence monitoring; explicitly asks experience in remote sensing/geospatial data and interest in PhD. LLM/Agent directions are optional exploration, not the core. Outside user's NLP/LLM/Agent North Star and missing geospatial specialization.",
       "retries": 0,
       "seq": 28,
       "source": "ntu:official-cxs:SG",
       "state": "HARD_REJECTED",
       "title": "Research Associate (Machine Learning for Earth Observation)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Machine-Learning-for-Earth-Observation-_R00026269",
-      "reason": "Official full JD is satellite/geospatial remote-sensing time-series ML, coastline/land-subsidence monitoring; explicitly asks experience in remote sensing/geospatial data and interest in PhD. LLM/Agent directions are optional exploration, not the core. Outside user's NLP/LLM/Agent North Star and missing geospatial specialization.",
-      "disposition": {
-        "checked_at": "2026-11-10T07:10:00Z",
-        "reason": "CONTENT_OR_SPECIALISM_MISMATCH",
-        "note": "First-party NTU Workday complete JD stored 2026-11-09. Not rejected merely for master's degree or AI title; judged by actual weekly geospatial work."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Machine-Learning-for-Earth-Observation-_R00026269"
     },
     {
       "company": "Nanyang Technological University",
@@ -1511,24 +1526,24 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "disposition": {
+        "checked_at": "2026-11-10T07:10:00Z",
+        "note": "First-party NTU Workday complete JD stored 2026-11-09; no matching GitHub requisition.",
+        "reason": "CONTENT_OR_SPECIALISM_MISMATCH"
+      },
       "first_seen_at": "2026-11-07T09:35:18.298001Z",
       "key": "sg:1ffb333eec37ff2ffb77",
       "last_error": null,
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
+      "reason": "Official full JD is primarily embodied vision-language-action (VLA) model training and robotics datasets, with diffusion/flow methods and reinforcement learning as core knowledge. Candidate's contextual NLP/RAG/Agent work does not demonstrate required RL/VLA/embodied-model training. Not a substantive language-agent systems role.",
       "retries": 0,
       "seq": 31,
       "source": "ntu:official-cxs:SG",
       "state": "HARD_REJECTED",
       "title": "Research Associate (Embodied AI)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-_R00026033",
-      "reason": "Official full JD is primarily embodied vision-language-action (VLA) model training and robotics datasets, with diffusion/flow methods and reinforcement learning as core knowledge. Candidate's contextual NLP/RAG/Agent work does not demonstrate required RL/VLA/embodied-model training. Not a substantive language-agent systems role.",
-      "disposition": {
-        "checked_at": "2026-11-10T07:10:00Z",
-        "reason": "CONTENT_OR_SPECIALISM_MISMATCH",
-        "note": "First-party NTU Workday complete JD stored 2026-11-09; no matching GitHub requisition."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-_R00026033"
     },
     {
       "company": "Nanyang Technological University",
@@ -1556,13 +1571,13 @@
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
+      "reason": "Archived first-party NTU JD (2026-11-09) focuses on dynamic 3D Gaussian Splatting, 3D scene reconstruction, computer vision and world models; lacks substantive NLP/LLM/RAG/AI backend ownership. Exact ID and employer/title all-state Issue searches found no matching application. HARD_REJECTED on domain/role fit, not because of an unavailable live page.",
       "retries": 0,
       "seq": 32,
       "source": "ntu:official-cxs:SG",
       "state": "HARD_REJECTED",
       "title": "Research Assistant (3D Reconstruction)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--3D-Reconstruction-_R00025701",
-      "reason": "Archived first-party NTU JD (2026-11-09) focuses on dynamic 3D Gaussian Splatting, 3D scene reconstruction, computer vision and world models; lacks substantive NLP/LLM/RAG/AI backend ownership. Exact ID and employer/title all-state Issue searches found no matching application. HARD_REJECTED on domain/role fit, not because of an unavailable live page."
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--3D-Reconstruction-_R00025701"
     },
     {
       "company": "Nanyang Technological University",
@@ -1593,13 +1608,13 @@
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
+      "reason": "Archived first-party NTU JD (2026-11-09) requires hands-on autonomous multirotor drone hardware integration, ROS/Gazebo, flight controllers, sensors and GPS-denied navigation. Candidate's software/LLM background does not satisfy core robotics hardware experience; 'multi-agent' here means physical drone coordination. Exact ID and employer/title all-state Issue searches found no matching application. HARD_REJECTED on hard domain skills.",
       "retries": 0,
       "seq": 33,
       "source": "ntu:official-cxs:SG",
       "state": "HARD_REJECTED",
       "title": "Research Engineer I (Autonomous Drone Swarm)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Autonomous-Drone-Swarm-_R00025584-1",
-      "reason": "Archived first-party NTU JD (2026-11-09) requires hands-on autonomous multirotor drone hardware integration, ROS/Gazebo, flight controllers, sensors and GPS-denied navigation. Candidate's software/LLM background does not satisfy core robotics hardware experience; 'multi-agent' here means physical drone coordination. Exact ID and employer/title all-state Issue searches found no matching application. HARD_REJECTED on hard domain skills."
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-I--Autonomous-Drone-Swarm-_R00025584-1"
     },
     {
       "company": "Nanyang Technological University",
@@ -1661,24 +1676,24 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "disposition": {
+        "checked_at": "2026-11-10T07:10:00Z",
+        "note": "First-party NTU Workday complete JD stored 2026-11-09; no matching GitHub requisition.",
+        "reason": "CONTENT_OR_SPECIALISM_MISMATCH"
+      },
       "first_seen_at": "2026-11-07T09:42:37.324776Z",
       "key": "sg:70c70a73cae75f4152ff",
       "last_error": null,
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
+      "reason": "Official full JD focuses on human-like traffic simulation, road layouts, traffic behavior prediction and physical simulators; requires strong autonomous-driving/simulator/automation background. AI keyword is not evidence of NLP/LLM/Agent work; specialized mismatch to candidate experience.",
       "retries": 0,
       "seq": 35,
       "source": "ntu:official-cxs:SG",
       "state": "HARD_REJECTED",
       "title": "Research Associate (Mechanical Engineering/Robotics/Mechatronics/Automation & Control Engineering/Artificial Intelligence (AI))",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Mechanical-Engineering-Robotics-Mechatronics-Automation---Control-Engineering-Artificial-Intelligence--AI--_R00015865-1",
-      "reason": "Official full JD focuses on human-like traffic simulation, road layouts, traffic behavior prediction and physical simulators; requires strong autonomous-driving/simulator/automation background. AI keyword is not evidence of NLP/LLM/Agent work; specialized mismatch to candidate experience.",
-      "disposition": {
-        "checked_at": "2026-11-10T07:10:00Z",
-        "reason": "CONTENT_OR_SPECIALISM_MISMATCH",
-        "note": "First-party NTU Workday complete JD stored 2026-11-09; no matching GitHub requisition."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Mechanical-Engineering-Robotics-Mechatronics-Automation---Control-Engineering-Artificial-Intelligence--AI--_R00015865-1"
     },
     {
       "ats_key": "clera|ashby|2b838de1-5cee-4be9-8f4d-2a0ce96169dd",
@@ -1739,6 +1754,11 @@
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "ABOUT THE ROLE Join a small, technical team at an early-stage AI evaluation company building benchmarks for frontier AI agents. You will own the design and implementation of rigorous, domain-specific evaluations that help research teams and",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Employer-authored Ashby full JD (2026-11-10): Research Engineer Benchmarks requires 2–4 years of research/ML engineering INCLUDING at least two years specifically building/delivering AI benchmarks, evaluation infrastructure or agent environments; proficiency in Docker/Linux and operating benchmarks. Candidate has individual AI eval/RAG/agent projects, but no demonstrated 2 years of that specialist work. Employer sponsors visa but hard specialist floor remains. https://jobs.ashbyhq.com/clera/58f6f9be-99f0-469d-9334-088f40836f9e",
+        "reason": "HARD_SPECIALIST_EXPERIENCE"
+      },
       "first_seen_at": "2026-11-09T15:02:24.825368Z",
       "key": "sg:bf72a7178a1f46b8ff87",
       "last_error": null,
@@ -1752,12 +1772,7 @@
       "source_job_id": "58f6f9be-99f0-469d-9334-088f40836f9e",
       "state": "HARD_REJECTED",
       "title": "Research Engineer, Benchmarks",
-      "url": "https://jobs.ashbyhq.com/Clera/58f6f9be-99f0-469d-9334-088f40836f9e",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "HARD_SPECIALIST_EXPERIENCE",
-        "note": "Employer-authored Ashby full JD (2026-11-10): Research Engineer Benchmarks requires 2–4 years of research/ML engineering INCLUDING at least two years specifically building/delivering AI benchmarks, evaluation infrastructure or agent environments; proficiency in Docker/Linux and operating benchmarks. Candidate has individual AI eval/RAG/agent projects, but no demonstrated 2 years of that specialist work. Employer sponsors visa but hard specialist floor remains. https://jobs.ashbyhq.com/clera/58f6f9be-99f0-469d-9334-088f40836f9e"
-      }
+      "url": "https://jobs.ashbyhq.com/Clera/58f6f9be-99f0-469d-9334-088f40836f9e"
     },
     {
       "ats_key": "capco|greenhouse|8248788",
@@ -1829,12 +1844,14 @@
       "company": "Capco",
       "description_excerpt": "<p><strong>Capco</strong></p>\n<p>Capco is a leading global technology and management consultancy that excels in driving digital transformation within the financial services and insurance sectors. With an unwavering commitment to delivering ",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://job-boards.greenhouse.io/capco/jobs/8080908",
       "first_seen_at": "2026-11-10T01:29:36.461018Z",
       "key": "sg:813373cf4a654a1383e6",
       "last_error": null,
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "China - Hong Kong",
+      "reason": "Official Capco Greenhouse requisition 8080908 explicitly lists China - Hong Kong and states 'join our Hong Kong team'; not a Singapore vacancy. Employer-owned JD and active application form checked 2026-11-10. SG queue source misclassified; no SG APPLY. https://job-boards.greenhouse.io/capco/jobs/8080908",
       "retries": 0,
       "seq": 66,
       "source": "freehire:public-api:SG",
@@ -1844,9 +1861,7 @@
       "source_platform": "Employer ATS / other",
       "state": "MARKET_MISMATCH",
       "title": "AI Engineer | Insurance",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8080908",
-      "reason": "Official Capco Greenhouse requisition 8080908 explicitly lists China - Hong Kong and states 'join our Hong Kong team'; not a Singapore vacancy. Employer-owned JD and active application form checked 2026-11-10. SG queue source misclassified; no SG APPLY. https://job-boards.greenhouse.io/capco/jobs/8080908",
-      "evidence_url": "https://job-boards.greenhouse.io/capco/jobs/8080908"
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8080908"
     }
   ],
   "version": 1
