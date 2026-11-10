@@ -52,29 +52,6 @@
       "url": "https://jobs.ashbyhq.com/gen-digital/2f170362-7e3b-48a2-956e-1bac730a7d1d"
     },
     {
-      "ats_key": "bjakcareer|ashby|4b94274b-d5b3-454a-bf54-a0d7f8f431f4",
-      "company": "BJAK",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
-      "first_seen_at": "2026-11-09T15:02:24.841123Z",
-      "key": "my:32b9249137be404f2ffe",
-      "last_error": null,
-      "market": "MY",
-      "platform": "ashby official ATS",
-      "query": "Malaysia",
-      "retries": 0,
-      "seq": 7,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "4b94274b-d5b3-454a-bf54-a0d7f8f431f4",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Backend Software Engineer - AI Finance Agent",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/4b94274b-d5b3-454a-bf54-a0d7f8f431f4"
-    },
-    {
       "ats_key": "micron|workday|/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
       "company": "Micron",
       "consumer_review": {
@@ -1327,6 +1304,34 @@
       "resolution_reason": "Official NIQ SmartRecruiters full JD (checked 2026-11-10): production deployment of statistical market-research models, requiring expert Python statistical ecosystem and specialist survey statistics/econometrics/causal inference/experimental design, typically 2+ work years. No substantive LLM/Agent/RAG/retrieval work; MY-TOP North-Star content and mandatory specialist background mismatch. Not rejected merely for 2+ YOE. Exact ID/title all-state GitHub Issue search yielded no match; both Gmail accounts searched without exact NIQ application receipt.",
       "resolution_evidence": "https://jobs.smartrecruiters.com/NielsenIQ/744000155973050-machine-learning-engineer",
       "resolved_at": "2026-11-10T06:17:00Z",
+      "resolution_actor": "MY AI Scout"
+    },
+    {
+      "ats_key": "bjakcareer|ashby|4b94274b-d5b3-454a-bf54-a0d7f8f431f4",
+      "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T00:15:07.140505Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
+      "first_seen_at": "2026-11-09T15:02:24.841123Z",
+      "key": "my:32b9249137be404f2ffe",
+      "last_error": null,
+      "market": "MY",
+      "platform": "ashby official ATS",
+      "query": "Malaysia",
+      "retries": 0,
+      "seq": 7,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "4b94274b-d5b3-454a-bf54-a0d7f8f431f4",
+      "state": "HARD_REJECTED",
+      "title": "Backend Software Engineer - AI Finance Agent",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/4b94274b-d5b3-454a-bf54-a0d7f8f431f4",
+      "disposition": "HARD_REJECTED",
+      "resolution_reason": "Employer-authored full BJAK Ashby JD (freehirefetch/feed/ats/jd/MY-001.json) explicitly centers regulated-finance backend APIs, transactions, payments, bank/insurer integrations, reconciliation and observability; no ownership of LLM/agent runtime, retrieval or evaluation. AI Finance Agent is product branding, not demonstrated substantive AI engineering. 3+ years backend required. MY TOP AI content mismatch; secondary generic backend does not qualify without stronger destination evidence. All-state issue search by exact ATS ID, company/title and AI Finance Agent found no exact role; separate Applied AI Engineer already WAIT #666/#702. Both Gmail accounts searched, no exact receipt. Ashby page JS-only so live application form not independently verified; reject rests on full employer JD content.",
+      "resolution_evidence": "https://jobs.ashbyhq.com/bjakcareer/4b94274b-d5b3-454a-bf54-a0d7f8f431f4",
+      "resolved_at": "2026-11-10T07:21:00Z",
       "resolution_actor": "MY AI Scout"
     }
   ],
