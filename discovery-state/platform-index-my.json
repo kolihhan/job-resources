@@ -289,32 +289,6 @@
       "url": "https://my.jobstreet.com/job/95662622"
     },
     {
-      "ats_key": "freehire|ai-native-backend-engineer-ai-apis-agentic-systems-mochi-technologies-hmo3bgrn",
-      "company": "MOCHI Technologies",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:37:23.740141Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "<p>Salary: RM 5,200 – RM 6,500 per month</p><h2><strong>AI-Native Backend Engineer (AI, APIs &amp; Agentic Systems)</strong></h2><p><strong>Department:</strong> IT Department<br><strong>Reports To:</strong> IT Manager<br><strong>Location:</",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.156101Z",
-      "key": "my:772d05eb3fa3e28c4ccd",
-      "last_error": null,
-      "market": "MY",
-      "platform": "public jobs API (unverified)",
-      "query": "Kuala Lumpur",
-      "retries": 0,
-      "seq": 38,
-      "source": "freehire:public-api:MY",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-native-backend-engineer-ai-apis-agentic-systems-mochi-technologies-hmo3bgrn",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI-Native Backend Engineer (AI, APIs & Agentic Systems)",
-      "url": "https://my.jobstreet.com/job/95609222"
-    },
-    {
       "ats_key": "freehire|ai-engineer-oxydata-software-45tu5f2h",
       "company": "Oxydata Software",
       "consumer_review": {
@@ -1942,6 +1916,36 @@
       "state": "DUPLICATE_CONFIRMED",
       "title": "AI Agent Engineer",
       "url": "https://my.jobstreet.com/job/95576878"
+    },
+    {
+      "ats_key": "freehire|ai-native-backend-engineer-ai-apis-agentic-systems-mochi-technologies-hmo3bgrn",
+      "company": "MOCHI Technologies",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:37:23.740141Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "<p>Salary: RM 5,200 – RM 6,500 per month</p><h2><strong>AI-Native Backend Engineer (AI, APIs &amp; Agentic Systems)</strong></h2><p><strong>Department:</strong> IT Department<br><strong>Reports To:</strong> IT Manager<br><strong>Location:</",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-09T16:57:31.156101Z",
+      "key": "my:772d05eb3fa3e28c4ccd",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "Kuala Lumpur",
+      "retries": 0,
+      "seq": 38,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-native-backend-engineer-ai-apis-agentic-systems-mochi-technologies-hmo3bgrn",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "ISSUE_VERIFIED",
+      "title": "AI-Native Backend Engineer (AI, APIs & Agentic Systems)",
+      "url": "https://my.jobstreet.com/job/95609222",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/919",
+      "evidence_url": "https://my.jobstreet.com/job/95609222",
+      "checked_at": "2026-11-10",
+      "reason": "Fresh employer JobStreet role + detailed public JD + MY TOP candidate fit and both-Gmail all-Issue dedupe, verified Issue #919 [APPLY] readback; user approval to submit still required."
     }
   ],
   "version": 1
