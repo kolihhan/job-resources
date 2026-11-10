@@ -50,5 +50,43 @@ class PrivateIssueAckTests(unittest.TestCase):
         out=reconcile(s,[i])
         self.assertEqual(out["verified_duplicates"],0)
 
+    def test_same_role_other_platform_only_private_hint_never_terminal(self):
+        s = state()
+        original = issue(number=640, company="Example Inc",
+                         role="AI Engineer (Graduate)",
+                         url="https://www.linkedin.com/jobs/view/4478262632")
+        out = reconcile(s,[original])
+        self.assertEqual(out["verified_duplicates"],0)
+        self.assertEqual(out["history_hints_added"],1)
+        self.assertEqual(out["possible_cross_platform"],1)
+        self.assertEqual(len(s["pending"]),1)
+        self.assertEqual(s["terminal"],[])
+        self.assertEqual(s["pending"][0]["consumer_review"]["possible_prior_issue"],640)
+        again = reconcile(s,[original])
+        self.assertEqual(again["history_hints_added"],0)
+
+    def test_cross_platform_hint_does_not_merge_sibling_role(self):
+        s=state()
+        out=reconcile(s,[issue(number=10,role="AI Engineer (Senior)",
+                               url="https://www.linkedin.com/jobs/view/4478262632")])
+        self.assertEqual(out["possible_cross_platform"],0)
+        self.assertNotIn("consumer_review",s["pending"][0])
+
+    def test_ambiguous_cross_platform_titles_no_hint(self):
+        s=state()
+        a=issue(number=21,url="https://www.linkedin.com/jobs/view/4478262632")
+        b=issue(number=22,url="https://www.linkedin.com/jobs/view/4478262633")
+        out=reconcile(s,[a,b])
+        self.assertEqual(out["possible_cross_platform"],0)
+        self.assertEqual(out["verified_duplicates"],0)
+        self.assertNotIn("consumer_review",s["pending"][0])
+
+    def test_different_market_not_a_cross_platform_hint(self):
+        s=state()
+        i=issue(url="https://www.linkedin.com/jobs/view/4478262632")
+        i["title"]=i["title"].replace("[SG]","[MY]")
+        out=reconcile(s,[i])
+        self.assertEqual(out["history_hints_added"],0)
+
 if __name__=="__main__":
     unittest.main()
