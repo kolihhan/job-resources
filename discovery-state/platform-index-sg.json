@@ -1032,29 +1032,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer (Machine Learning)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer--Machine-Learning-_R00022966"
-    },
-    {
-      "ats_key": "aidevboard|7c4c494a-451a-4a12-bc04-e4d0d3b57461",
-      "company": "PhysicsX",
-      "description_excerpt": "About us\n Re-architecting Engineering for the Age of Intelligence PhysicsX is the physics AI company for industrials. The company’s mission is to accelerate hardware innovation by overhauling what industrial engineering and manufacturing lo",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T09:44:08.167609Z",
-      "key": "sg:c942ca2e5f5dc90c817b",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 82,
-      "source": "aidevboard:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "7c4c494a-451a-4a12-bc04-e4d0d3b57461",
-      "source_listing_url": "https://aidevboard.com/job/7c4c494a-451a-4a12-bc04-e4d0d3b57461",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Applied Scientist - All Levels",
-      "url": "https://job-boards.eu.greenhouse.io/physicsx/jobs/4922319101"
     }
   ],
   "terminal": [
@@ -2019,6 +1996,31 @@
       "state": "MARKET_MISMATCH",
       "title": "AI Engineer | Insurance",
       "url": "https://job-boards.greenhouse.io/capco/jobs/8080908"
+    },
+    {
+      "ats_key": "aidevboard|7c4c494a-451a-4a12-bc04-e4d0d3b57461",
+      "company": "PhysicsX",
+      "description_excerpt": "About us\n Re-architecting Engineering for the Age of Intelligence PhysicsX is the physics AI company for industrials. The company’s mission is to accelerate hardware innovation by overhauling what industrial engineering and manufacturing lo",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.167609Z",
+      "key": "sg:c942ca2e5f5dc90c817b",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 82,
+      "source": "aidevboard:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "7c4c494a-451a-4a12-bc04-e4d0d3b57461",
+      "source_listing_url": "https://aidevboard.com/job/7c4c494a-451a-4a12-bc04-e4d0d3b57461",
+      "source_platform": "Employer ATS / other",
+      "state": "HARD_REJECTED",
+      "title": "Applied Scientist - All Levels",
+      "url": "https://job-boards.eu.greenhouse.io/physicsx/jobs/4922319101",
+      "reason": "Official PhysicsX Greenhouse Singapore Applied Scientist requisition 4922319101 requires a PhD with expertise in neural operators/PDEs, geometric deep learning/3D vision or spatiotemporal generative modelling and publication record. Role builds physical foundation models, not NLP/LLM/Agent systems. Candidate MSc NLP/LLM background is a hard domain and degree mismatch. Official JD and active application form checked 2026-11-10. https://job-boards.greenhouse.io/physicsx/jobs/4922319101",
+      "evidence_url": "https://job-boards.greenhouse.io/physicsx/jobs/4922319101"
     }
   ],
   "version": 1
