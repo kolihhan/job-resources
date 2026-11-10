@@ -333,28 +333,6 @@
       "url": "https://my.jobstreet.com/job/95609222"
     },
     {
-      "ats_key": "freehire|ai-engineer-my61-nexperia-malaysia-xer2ilch",
-      "company": "MY61 Nexperia Malaysia",
-      "description_excerpt": "<p>KEY RESPONSIBILITIES:</p>\n<ul>\n<li>Understand the factories, manufacturing processes, data availability and avenues for improvement</li>\n<li>Brainstorm, together with engineering, manufacturing and quality problems that can be solved usi",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.156109Z",
-      "key": "my:901ba39d6bec035db3f4",
-      "last_error": null,
-      "market": "MY",
-      "platform": "public jobs API (unverified)",
-      "query": "Kuala Lumpur",
-      "retries": 0,
-      "seq": 39,
-      "source": "freehire:public-api:MY",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-my61-nexperia-malaysia-xer2ilch",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer",
-      "url": "https://my.jobstreet.com/job/94999030"
-    },
-    {
       "ats_key": "freehire|ai-engineer-oxydata-software-45tu5f2h",
       "company": "Oxydata Software",
       "description_excerpt": "<div><div>\n <strong><strong>AI Engineer</strong></strong><br>\n<strong><strong>Role Summary</strong></strong><br>\n<p>Join Oxydata Software Sdn Bhd, a Malaysia Digital-certified leader in AI and data engineering, as an AI Engineer. You will s",
@@ -1243,6 +1221,33 @@
         "checked_at": "2026-11-10",
         "reason": "HISTORICAL_USER_SKIP_UNCHANGED",
         "note": "JobStreet new listing 95661869 shows MaiStorage AI Engineer (R&D), MYR 6–8k, full time, fresh graduates welcome. Existing owner decision #383 SKIP same employer/title/compensation because it did not clear MY-TOP destination-quality/pay bar; current listing shows no material increase in pay/team/research career upside. Preserve owner's skip rather than creating a second Issue. https://github.com/kolihhan/job-resources/issues/383; https://my.jobstreet.com/job/95661869"
+      }
+    },
+    {
+      "ats_key": "freehire|ai-engineer-my61-nexperia-malaysia-xer2ilch",
+      "company": "MY61 Nexperia Malaysia",
+      "description_excerpt": "<p>KEY RESPONSIBILITIES:</p>\n<ul>\n<li>Understand the factories, manufacturing processes, data availability and avenues for improvement</li>\n<li>Brainstorm, together with engineering, manufacturing and quality problems that can be solved usi",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-09T16:57:31.156109Z",
+      "key": "my:901ba39d6bec035db3f4",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "Kuala Lumpur",
+      "retries": 0,
+      "seq": 39,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-my61-nexperia-malaysia-xer2ilch",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer",
+      "url": "https://my.jobstreet.com/job/94999030",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "reason": "HARD_7_TO_10_YEARS_DATA_SCIENCE",
+        "note": "Official Nexperia AI Engineer R-20014697 current Workday posting (Nov 10) requires minimum 7–10 YEARS of data analytics/data science experience, prior manufacturing/data science outcomes, PySpark/advanced Python and practical Agentic AI stack. Candidate is early-career MSc with part-time backend and academic projects, not 7–10 years specialist employment. Exact role: https://nexperia.wd3.myworkdayjobs.com/en-US/careers/job/AI-Engineer_R-20014697; do not conflate with distinct Senior Agentic AI role."
       }
     },
     {
