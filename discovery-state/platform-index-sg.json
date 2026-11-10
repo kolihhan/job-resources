@@ -78,7 +78,14 @@
       "source": "ntu:official-cxs:SG",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer II (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159",
+      "scout_review": {
+        "status": "RETRY",
+        "checked_at": "2026-11-10T15:59:27Z",
+        "missing_evidence": "Exact NTU R00026159 Workday live application route not independently verified; Trust Technologies other requisitions have prior application history.",
+        "decision": "PRESERVE_PENDING",
+        "ack": false
+      }
     },
     {
       "company": "Nanyang Technological University",
@@ -279,7 +286,14 @@
       "source_job_id": "/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer, SMAI",
-      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138"
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
+      "scout_review": {
+        "status": "RETRY",
+        "checked_at": "2026-11-10T15:59:27Z",
+        "missing_evidence": "Exact Micron JR111138 live Workday apply route not independently verified; JR111136 rejection is different requisition.",
+        "decision": "PRESERVE_PENDING",
+        "ack": false
+      }
     },
     {
       "ats_key": "binance|greenhouse|5002687101",
@@ -751,7 +765,14 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "#EG AI Developer (Agentic AI Systems)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512"
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
+      "scout_review": {
+        "status": "RETRY",
+        "checked_at": "2026-11-10T15:59:27Z",
+        "missing_evidence": "Exact NCS SmartRecruiters 6000000001374512 live apply route not independently verified; other NCS requisitions cannot substitute.",
+        "decision": "PRESERVE_PENDING",
+        "ack": false
+      }
     },
     {
       "ats_key": "openai|ashby|29f15e50-1611-4256-afad-03b7df0b7aa7",
