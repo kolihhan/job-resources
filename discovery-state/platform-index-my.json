@@ -1025,34 +1025,6 @@
     {
       "api_source_context": {
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>【職務目標】</p><p>負責 TGSA「企業通（Enterprise OS）」平台中單一 AI 引擎服務（Engine Service）的系統開發與維護。主要工作內容包含 PostgreSQL 資料庫設計、Python FastAPI 後端 API 開發與前端 Nuxt (Vue) 系統整合。<br><br>本職位需依據產品邏輯與需求文件（PRD），將邏輯轉換為可運行的系統功能，確保引擎模組具備良好的資料結構設計、API 穩定性與前後端整合能力。本職位主要聚焦於單一引擎服務開發，不需負擔整體平台架構設計，非常適合希望深耕 AI 應用落地與後端架構的工程師。</p><p><br></p><p>【核心職責】</p><ol><li><p>引擎開發：依據 PRD 負責開發與維護企業通中的單一 AI 引擎服務。</p></li><li><p>資料庫設計：負責 PostgreSQL (Supabase) 資料庫建構、ERD 設計、SQL 優化，並配合多租戶系統（Tenant_ID）確保資料隔離。</p></li><li><p>後端 API 開發：使用 Python FastAPI 建立 RESTful API，實作 AI 生成與業務邏輯，提供穩定服務。</p></li><li><p>API 規範與文件：設計符合 OpenAPI / Swagger 標準的 API，落實「文件優先（Doc-First）」原則，撰寫 SDD 確保系統可維護性。</p></li><li><p>前後端整合與通訊：與前端協作整合 Nuxt (Vue) 系統，並實作 WebSocket 即時通訊機制。</p></li><li><p>架構與資安遵循：依照軟體架構師制定之規範開發，實作 JWT / OAuth2 驗證與敏感資料安全處理。</p></li><li><p>團隊協作：參與每週例會，向 PM 回報進度，並與測試工程師合作修正問題。</p></li></ol><p><br></p><p>【技術要求與資格】</p><ul><li><p>核心技術：熟悉 Web 系統開發，具備 PostgreSQL (Supabase) 與 Python (FastAPI) 實務經驗。</p></li><li><p>資料庫經驗：熟悉 PostgreSQL 架構、ERD 設計、索引與 SQL 查詢優化。</p></li><li><p>API 開發：具備 RESTful API 設計經驗，能熟練運用 FastAPI 產出完整 OpenAPI / Swagger 文件。</p></li><li><p>前端整合能力：主要搭配框架為 Nuxt (Vue)；具備 React / Next / Vue 等前端框架開發與串接經驗者均可提出討論。</p></li><li><p>基礎架構與操作：熟悉 Linux Command Line 基礎操作、Git / Gitflow 工作流程。</p></li><li><p>系統整合：具備 Redis 快取或 Docker 容器化部署之實務經驗。</p></li></ul><p><br></p><p>【加分項目】</p><ul><li><p>具備企業級 SaaS 平台、ERP 系統或多租戶（Multi-tenant）系統開發經驗。</p></li><li><p>曾參與 AI 應用平台開發，具備 LLM API 串接或 RAG（Retrieval-Augmented Generation）流程經驗。</p></li><li><p>熟悉微服務架構（Microservices Architecture）設計概念。</p></li><li><p>有研究並導入 AI 開發輔助工具（如 GitHub Copilot, Cursor 等）提升開發效率者佳。</p></li></ul><p><br></p><p>【兩階段合作與評核規劃】</p><p>本專案採「階段式合作」模式進行：</p><p>第一階段｜前三個月獨立承攬合作期（Project Contractor）</p><ul><li><p>合作性質：首期 3 個月以「專案承攬（Independent Contractor）」方式進行，專注於單一引擎服務開發與成果評估。</p></li><li><p>承攬費用：承攬期間依合約發放約定之承攬費用</p></li><li><p>排班與服務安排：承攬合作期間非僱傭關係，不適用勞基法/雇主法定福利（如國定假日、有薪假、病假等）。如需暫停服務，需提前與團隊協調專案進度。</p></li><li><p>合約終止條款：承攬期間若任一方需提前終止合作，須依約於 3 天前通知對方，並完成專案交接與原始碼交付。</p></li></ul><p>第二階段｜正式聘僱關係（Employment Contract）</p><ul><li><p>轉正評估：承攬期滿後，團隊將依據前三個月的專案交付品質、系統穩定度與溝通協作默契進行綜合評估。通過評估者將轉為正式僱傭關係並簽署正式勞動聘僱合約。</p></li></ul><p><br></p><p>【正式員工福利與權益保障】</p><ul><li><p>工作模式與工時：100% 遠端居家辦公（WFH），每日核心服務時間 8 小時（09:00–12:00 / 13:00–18:00），以成果交付為導向。</p></li><li><p>正式薪資調整：轉正時依前期專案交付成果進行薪資調整與雙方確認。</p></li><li><p>法定權益保障：依法辦理馬來西亞當地法定 EPF、SOCSO &amp; EIS 提撥與保險。</p></li><li><p>公共假期與休假：依馬來西亞法定公共假期及正式員工有薪休假制度辦理。</p></li><li><p>績效與專案獎金：專案表現優異、提前完成重要開發目標或達成重大里程碑時發放。</p></li><li><p>硬體與設備更新補助：任職滿 1 年提供每年一次性硬體更新津貼（MYR 2,000 - 3,000），用於升級開發設備。</p></li><li><p>技術成長與學習支持：滿 1 年起提供每年 MYR 1,500 教育預算補助，並由架構師進行 1-on-1 技術指導。</p></li></ul><p><br></p><p>【其他資訊】</p><ul><li><p>工作時間：09:00～18:00（每日 8 小時，配合團隊每週例會）。</p></li><li><p>工作地點：全遠端作業（REMOTE WORK）。</p></li><li><p>需求人數：1～2 位。</p></li><li><p>學歷要求：專科 / 大學以上（資訊工程、資訊管理或相關科系，或具同等實務經驗）。</p></li><li><p>語言要求：具備流利中文溝通能力，能應對日常工作交流。</p></li></ul><p><br></p>",
-        "truncated": false,
-        "employer_verified": false
-      },
-      "ats_key": "freehire|software-engineer-ai-engine-remote-sin-ma-think-tank-sdn-bhd-5ywkxjvw",
-      "company": "Sin Ma Think Tank SDN BHD",
-      "description_excerpt": "<p>【職務目標】</p><p>負責 TGSA「企業通（Enterprise OS）」平台中單一 AI 引擎服務（Engine Service）的系統開發與維護。主要工作內容包含 PostgreSQL 資料庫設計、Python FastAPI 後端 API 開發與前端 Nuxt (Vue) 系統整合。<br><br>本職位需依據產品邏輯與需求文件（PRD），將邏輯轉換為可運行的系統功能，確保引擎模組具備良好的資料結構設計、API 穩定性與前後端整合能力。本職位主要聚焦於單一引",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T11:51:21.145567Z",
-      "key": "my:b936a4b34fce5543f153",
-      "last_error": null,
-      "market": "MY",
-      "platform": "public jobs API (unverified)",
-      "query": "Kuala Lumpur",
-      "retries": 0,
-      "seq": 76,
-      "source": "freehire:public-api:MY",
-      "source_evidence": "listing_only",
-      "source_job_id": "software-engineer-ai-engine-remote-sin-ma-think-tank-sdn-bhd-5ywkxjvw",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Software Engineer — AI Engine (Remote)",
-      "url": "https://my.jobstreet.com/job/95379192"
-    },
-    {
-      "api_source_context": {
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
         "text": "<p>Salary: RM 5,500 – RM 8,000 per month</p><p><strong>About the role</strong></p><p>We are looking for an experienced mid level QA Engineer to <strong>own the testing of a product area end to end</strong> — planning it, testing it, automating it, and standing behind what goes live.</p><p>Our QA team is <strong>at the forefront of using AI in testing</strong>. We build our own tooling: it drafts test plans and cases from requirements, runs the tests, and reports the bugs it finds. It is still growing, and you will help improve it. <strong>Nothing ships on the tooling&#39;s word alone</strong> — the engineer who owns the work reviews and approves it.</p><p>The role suits someone who <strong>thinks like a developer about how a feature is built and like a tester about how it could break</strong>.</p><p><strong>A technical background is required</strong>: you should be able to read and understand code, and see how a feature is built from the developer&#39;s side.</p><p><br><strong>Job Responsibilities:</strong></p><ul><li><p>Review each requirement with product owners, project managers and developers — confirm your understanding with its owner, challenge it when it is unclear, untestable or wrong, and record decisions as it changes, including those made in meetings and chat groups.</p></li><li><p>Write each test plan with our AI tooling, then own the cases — add what is missing, cut what is wrong, and approve the final set.</p></li><li><p>Build and maintain automated UI and API tests (Playwright, Midscene and in-house API tools), and repair them when they raise false alarms or break after a product change.</p></li><li><p>Run progression, regression, API and stress testing — automation first, by hand where automation falls short — and add negative, abuse and exploratory testing. Diagnose each failure as a real defect, a script problem or an environment issue.</p></li><li><p>Run a test readiness check before testing starts — the right build, test accounts and test data in place — and flag any gaps. Then take each release through every stage — the test environment, pre-production and, once it is live, production — without affecting real users or live data.</p></li><li><p>Report defects with clear steps and evidence to the team responsible, escalate urgent ones and retest every fix — challenging developers when a fix, or a “not a bug” reply, is not right.</p></li><li><p>Share your progress daily, and publish a test report for each release: pass, fail or conditional pass, with the risks that remain.</p></li><li><p>Keep your cases, automation and documentation current, in the structured form our AI tooling uses, and turn every defect that reaches production into a new test case.</p></li></ul><p><br><strong>Job Requirements:</strong></p><ul><li><p>At least 2 years of hands-on software testing, including owning a module or product area end to end.</p></li><li><p>Testing experience on desktop web, mobile web (H5) and native iOS and Android apps, including device builds, real devices and device logs.</p></li><li><p>Experience creating and maintaining automated UI and API tests — not only running them — with Playwright or an equivalent framework.</p></li><li><p>An understanding of how software is designed and built — front end, APIs, services and data — well enough to see a feature from the developer&#39;s side and spot where it is likely to break.</p></li><li><p>Able to read and understand code in a common language such as Python, Java, JavaScript or C / C++ — to trace what a change does and where it could break.</p></li><li><p>Comfortable reading logs and API responses.</p></li><li><p>A track record of clear, thorough test plans and test cases.</p></li><li><p>Practical AI skills — you use AI tools daily, write your own prompts, and judge what they produce rather than accepting it.</p></li><li><p>Strong analytical thinking and <strong>attention to detail</strong> — quick to learn, able to work independently, and confident enough to raise concerns early.</p></li><li><p>Clear written and verbal communication, and comfortable working across teams.</p></li><li><p>Able to support release testing when a deployment window falls outside regular office hours.</p></li><li><p>A Diploma or Degree in Engineering (Computer / Telecommunication), Computer Science, Information Technology or an equivalent field. <strong>Software Engineering graduates are preferred.</strong></p></li><li><p>Required Language(s): English, Mandarin (you will liaise with Mandarin-speaking counterparts).</p></li></ul><p><br><strong>Good to have:</strong></p><ul><li><p>Some hands-on experience <strong>building AI agents</strong>, or the tools, instructions and workflows they run on.</p></li><li><p>A track record of improving how a whole team tests — finding a slow or repetitive step and making it faster for everyone.</p></li><li><p>Fundamentals in networking, databases, programming, system design or UI/UX design.</p></li><li><p>A software testing certification, such as ISTQB.</p></li></ul><p><br><strong>How this career will benefit you:</strong></p><ul><li><p><strong>Real ownership.</strong> Your product areas are yours end to end — the plan, the cases, the automation and the call on quality.</p></li><li><p><strong>An AI-first, automation-first workflow.</strong> You work with AI-assisted planning, case generation and automation every day — still rare hands-on experience.</p></li><li><p><strong>A growth path.</strong> Progression into senior QA engineering or QA leadership — the step up comes from improving how the whole team works.</p></li></ul><p><br><strong>Benefits of this role:</strong></p><ul><li><p>Permanent, full-time position</p></li><li><p>13th Month Salary (upon Company Declaration)</p></li><li><p>Project Incentive (upon Company Declaration based on project performance)</p></li><li><p>Competitive overtime pay for release work outside office hours</p></li><li><p>Transport, Meal, Birthday Allowances (upon Confirmation)</p></li><li><p>Sports Activities, Company Trip</p></li><li><p>Medical Insurance (upon Confirmation)</p></li><li><p>Optical, Dental, Body Check Up Claim (upon Confirmation)</p></li></ul><p><br></p>",
         "truncated": false,
         "employer_verified": false
@@ -1077,35 +1049,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "QA Engineer (AI & Test Automation)",
       "url": "https://my.jobstreet.com/job/95315986"
-    },
-    {
-      "api_source_context": {
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<h2><strong>About Doit</strong></h2><p>We are focused on reinventing how people spend, save, invest, exchange, travel, and more. Our objective is to build tools that will help people get more from their money and become an expert at ease. We believe AI will help make finance smart, assessible and safe.   </p><div> </div><p>We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. We have teams working around the world, with over 20 nationalities and growing from our offices and remotely. Join us and build a better future for our society.  </p><div> </div><p><em>In 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, it's the leading insurance platform in Southeast Asia.</em></p><p></p><h2><strong>The Role</strong></h2><p>We are looking for mobile engineer to build Doit's AI Finance Agent across Android and iOS.</p><div> </div><p>This role is for strong mobile builders who can ship clean, reliable and intuitive mobile experiences, whether their main strength is Android, iOS or both.</p><div> </div><h2><strong>What You'll Own</strong></h2><ul><li><p>Build and ship mobile features for Android and/or iOS.</p></li><li><p>Create simple mobile flows for insurance, payments, claims, renewals and financial services.</p></li><li><p>Work with product, design and backend teams to turn complex journeys into usable mobile products.</p></li><li><p>Integrate APIs and handle edge cases, loading states, errors and production issues.</p></li><li><p>Improve app performance, reliability, crash rate and user experience.</p></li><li><p>Support fast product launches, experiments and iterations across mobile journeys.</p></li><li><p>Help set high standards for mobile product quality across the app.</p></li></ul><div> </div><h2><strong>What We're Looking For</strong></h2><ul><li><p>3+ years of mobile development experience in Android, iOS or both.</p></li><li><p>Strong experience with Kotlin and/or Swift.</p></li><li><p>Experience shipping production apps used by real users.</p></li><li><p>Strong product sense and attention to mobile UX.</p></li><li><p>Able to work with APIs, analytics, crash logs and production feedback.</p></li><li><p>Fast, practical and comfortable owning work with limited handholding.</p></li><li><p>App links, GitHub, screenshots or examples of shipped work are a strong advantage.</p></li></ul><div> </div><h2><strong>The Kind of Builder We Want</strong></h2><ul><li><p>Thinks like a product builder, not just a mobile coder.</p></li><li><p>Cares about smooth flows, small details and real user behaviour.</p></li><li><p>Can work across ambiguity and ship without waiting for perfect specs.</p></li><li><p>Takes production quality personally.</p></li><li><p>Honest about what they built directly versus what the wider team delivered.</p></li></ul><div> </div><h2><strong>This Role Is Not For</strong></h2><ul><li><p>Developers who only want to build isolated screens.</p></li><li><p>People who do not care about UX, performance or reliability.</p></li><li><p>Candidates who cannot explain their own contribution clearly.</p></li><li><p>People who need heavy guidance for every task.</p></li><li><p>Engineers who move slowly in a high-growth environment.</p></li></ul><div> </div><h2><strong>Location</strong></h2><p>This role is remote, but candidates must be based in <strong>Australia</strong>. We are hiring specifically for this market, so applicants should already be based in <strong>Australia.</strong></p><div> </div><h2><strong>Language</strong></h2><p>English is our main working language across global teams. Strong English communication is required.</p><div> </div><h2><strong>Interview Process</strong></h2><p>Our process is designed to move fast:</p><ol><li><p>Online assessment or practical task</p></li><li><p>Role-specific interview</p></li><li><p>CEO / final round</p></li></ol><div> </div><p>For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.</p>",
-        "truncated": false,
-        "employer_verified": false
-      },
-      "ats_key": "freehire|mobile-engineer-ai-finance-agent-bjakcareer-dzr2di4w",
-      "company": "Bjak",
-      "description_excerpt": "<h2><strong>About Doit</strong></h2><p>We are focused on reinventing how people spend, save, invest, exchange, travel, and more. Our objective is to build tools that will help people get more from their money and become an expert at ease. W",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T13:04:37.881172Z",
-      "key": "my:b2397f2f6316f11a6e04",
-      "last_error": null,
-      "market": "MY",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "Sydney, Australia",
-      "retries": 0,
-      "seq": 80,
-      "source": "freehire:public-api:MY",
-      "source_evidence": "listing_only",
-      "source_job_id": "mobile-engineer-ai-finance-agent-bjakcareer-dzr2di4w",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Mobile Engineer - AI Finance Agent",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/b9867f93-0966-4ff9-9503-40fc214e1847"
     },
     {
       "api_source_context": {
@@ -2481,6 +2424,79 @@
       "state": "ISSUE_VERIFIED",
       "title": "AI Engineer (Digital Transformation)",
       "url": "https://my.jobstreet.com/job/95310876"
+    },
+    {
+      "api_source_context": {
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>【職務目標】</p><p>負責 TGSA「企業通（Enterprise OS）」平台中單一 AI 引擎服務（Engine Service）的系統開發與維護。主要工作內容包含 PostgreSQL 資料庫設計、Python FastAPI 後端 API 開發與前端 Nuxt (Vue) 系統整合。<br><br>本職位需依據產品邏輯與需求文件（PRD），將邏輯轉換為可運行的系統功能，確保引擎模組具備良好的資料結構設計、API 穩定性與前後端整合能力。本職位主要聚焦於單一引擎服務開發，不需負擔整體平台架構設計，非常適合希望深耕 AI 應用落地與後端架構的工程師。</p><p><br></p><p>【核心職責】</p><ol><li><p>引擎開發：依據 PRD 負責開發與維護企業通中的單一 AI 引擎服務。</p></li><li><p>資料庫設計：負責 PostgreSQL (Supabase) 資料庫建構、ERD 設計、SQL 優化，並配合多租戶系統（Tenant_ID）確保資料隔離。</p></li><li><p>後端 API 開發：使用 Python FastAPI 建立 RESTful API，實作 AI 生成與業務邏輯，提供穩定服務。</p></li><li><p>API 規範與文件：設計符合 OpenAPI / Swagger 標準的 API，落實「文件優先（Doc-First）」原則，撰寫 SDD 確保系統可維護性。</p></li><li><p>前後端整合與通訊：與前端協作整合 Nuxt (Vue) 系統，並實作 WebSocket 即時通訊機制。</p></li><li><p>架構與資安遵循：依照軟體架構師制定之規範開發，實作 JWT / OAuth2 驗證與敏感資料安全處理。</p></li><li><p>團隊協作：參與每週例會，向 PM 回報進度，並與測試工程師合作修正問題。</p></li></ol><p><br></p><p>【技術要求與資格】</p><ul><li><p>核心技術：熟悉 Web 系統開發，具備 PostgreSQL (Supabase) 與 Python (FastAPI) 實務經驗。</p></li><li><p>資料庫經驗：熟悉 PostgreSQL 架構、ERD 設計、索引與 SQL 查詢優化。</p></li><li><p>API 開發：具備 RESTful API 設計經驗，能熟練運用 FastAPI 產出完整 OpenAPI / Swagger 文件。</p></li><li><p>前端整合能力：主要搭配框架為 Nuxt (Vue)；具備 React / Next / Vue 等前端框架開發與串接經驗者均可提出討論。</p></li><li><p>基礎架構與操作：熟悉 Linux Command Line 基礎操作、Git / Gitflow 工作流程。</p></li><li><p>系統整合：具備 Redis 快取或 Docker 容器化部署之實務經驗。</p></li></ul><p><br></p><p>【加分項目】</p><ul><li><p>具備企業級 SaaS 平台、ERP 系統或多租戶（Multi-tenant）系統開發經驗。</p></li><li><p>曾參與 AI 應用平台開發，具備 LLM API 串接或 RAG（Retrieval-Augmented Generation）流程經驗。</p></li><li><p>熟悉微服務架構（Microservices Architecture）設計概念。</p></li><li><p>有研究並導入 AI 開發輔助工具（如 GitHub Copilot, Cursor 等）提升開發效率者佳。</p></li></ul><p><br></p><p>【兩階段合作與評核規劃】</p><p>本專案採「階段式合作」模式進行：</p><p>第一階段｜前三個月獨立承攬合作期（Project Contractor）</p><ul><li><p>合作性質：首期 3 個月以「專案承攬（Independent Contractor）」方式進行，專注於單一引擎服務開發與成果評估。</p></li><li><p>承攬費用：承攬期間依合約發放約定之承攬費用</p></li><li><p>排班與服務安排：承攬合作期間非僱傭關係，不適用勞基法/雇主法定福利（如國定假日、有薪假、病假等）。如需暫停服務，需提前與團隊協調專案進度。</p></li><li><p>合約終止條款：承攬期間若任一方需提前終止合作，須依約於 3 天前通知對方，並完成專案交接與原始碼交付。</p></li></ul><p>第二階段｜正式聘僱關係（Employment Contract）</p><ul><li><p>轉正評估：承攬期滿後，團隊將依據前三個月的專案交付品質、系統穩定度與溝通協作默契進行綜合評估。通過評估者將轉為正式僱傭關係並簽署正式勞動聘僱合約。</p></li></ul><p><br></p><p>【正式員工福利與權益保障】</p><ul><li><p>工作模式與工時：100% 遠端居家辦公（WFH），每日核心服務時間 8 小時（09:00–12:00 / 13:00–18:00），以成果交付為導向。</p></li><li><p>正式薪資調整：轉正時依前期專案交付成果進行薪資調整與雙方確認。</p></li><li><p>法定權益保障：依法辦理馬來西亞當地法定 EPF、SOCSO &amp; EIS 提撥與保險。</p></li><li><p>公共假期與休假：依馬來西亞法定公共假期及正式員工有薪休假制度辦理。</p></li><li><p>績效與專案獎金：專案表現優異、提前完成重要開發目標或達成重大里程碑時發放。</p></li><li><p>硬體與設備更新補助：任職滿 1 年提供每年一次性硬體更新津貼（MYR 2,000 - 3,000），用於升級開發設備。</p></li><li><p>技術成長與學習支持：滿 1 年起提供每年 MYR 1,500 教育預算補助，並由架構師進行 1-on-1 技術指導。</p></li></ul><p><br></p><p>【其他資訊】</p><ul><li><p>工作時間：09:00～18:00（每日 8 小時，配合團隊每週例會）。</p></li><li><p>工作地點：全遠端作業（REMOTE WORK）。</p></li><li><p>需求人數：1～2 位。</p></li><li><p>學歷要求：專科 / 大學以上（資訊工程、資訊管理或相關科系，或具同等實務經驗）。</p></li><li><p>語言要求：具備流利中文溝通能力，能應對日常工作交流。</p></li></ul><p><br></p>",
+        "truncated": false,
+        "employer_verified": false
+      },
+      "ats_key": "freehire|software-engineer-ai-engine-remote-sin-ma-think-tank-sdn-bhd-5ywkxjvw",
+      "company": "Sin Ma Think Tank SDN BHD",
+      "description_excerpt": "<p>【職務目標】</p><p>負責 TGSA「企業通（Enterprise OS）」平台中單一 AI 引擎服務（Engine Service）的系統開發與維護。主要工作內容包含 PostgreSQL 資料庫設計、Python FastAPI 後端 API 開發與前端 Nuxt (Vue) 系統整合。<br><br>本職位需依據產品邏輯與需求文件（PRD），將邏輯轉換為可運行的系統功能，確保引擎模組具備良好的資料結構設計、API 穩定性與前後端整合能力。本職位主要聚焦於單一引",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T11:51:21.145567Z",
+      "key": "my:b936a4b34fce5543f153",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "Kuala Lumpur",
+      "retries": 0,
+      "seq": 76,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "software-engineer-ai-engine-remote-sin-ma-think-tank-sdn-bhd-5ywkxjvw",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "HARD_REJECTED",
+      "title": "Software Engineer — AI Engine (Remote)",
+      "url": "https://my.jobstreet.com/job/95379192",
+      "reason": "Exact-job third-party full-text reproduction for MY JobStreet 95379192 explicitly says first 3 months independent contractor / 项目承揽, no employee relationship or statutory benefits, and permanent employment only contingent on later evaluation. Non-permanent commercial AI-engine work fails the destination employment gate.",
+      "evidence_url": "https://my.jobstreet.com/job/95379192",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "THREE_MONTH_INDEPENDENT_CONTRACTOR",
+        "source_provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "note": "Exact-job third-party full-text reproduction for MY JobStreet 95379192 explicitly says first 3 months independent contractor / 项目承揽, no employee relationship or statutory benefits, and permanent employment only contingent on later evaluation. Non-permanent commercial AI-engine work fails the destination employment gate."
+      }
+    },
+    {
+      "api_source_context": {
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<h2><strong>About Doit</strong></h2><p>We are focused on reinventing how people spend, save, invest, exchange, travel, and more. Our objective is to build tools that will help people get more from their money and become an expert at ease. We believe AI will help make finance smart, assessible and safe.   </p><div> </div><p>We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. We have teams working around the world, with over 20 nationalities and growing from our offices and remotely. Join us and build a better future for our society.  </p><div> </div><p><em>In 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, it's the leading insurance platform in Southeast Asia.</em></p><p></p><h2><strong>The Role</strong></h2><p>We are looking for mobile engineer to build Doit's AI Finance Agent across Android and iOS.</p><div> </div><p>This role is for strong mobile builders who can ship clean, reliable and intuitive mobile experiences, whether their main strength is Android, iOS or both.</p><div> </div><h2><strong>What You'll Own</strong></h2><ul><li><p>Build and ship mobile features for Android and/or iOS.</p></li><li><p>Create simple mobile flows for insurance, payments, claims, renewals and financial services.</p></li><li><p>Work with product, design and backend teams to turn complex journeys into usable mobile products.</p></li><li><p>Integrate APIs and handle edge cases, loading states, errors and production issues.</p></li><li><p>Improve app performance, reliability, crash rate and user experience.</p></li><li><p>Support fast product launches, experiments and iterations across mobile journeys.</p></li><li><p>Help set high standards for mobile product quality across the app.</p></li></ul><div> </div><h2><strong>What We're Looking For</strong></h2><ul><li><p>3+ years of mobile development experience in Android, iOS or both.</p></li><li><p>Strong experience with Kotlin and/or Swift.</p></li><li><p>Experience shipping production apps used by real users.</p></li><li><p>Strong product sense and attention to mobile UX.</p></li><li><p>Able to work with APIs, analytics, crash logs and production feedback.</p></li><li><p>Fast, practical and comfortable owning work with limited handholding.</p></li><li><p>App links, GitHub, screenshots or examples of shipped work are a strong advantage.</p></li></ul><div> </div><h2><strong>The Kind of Builder We Want</strong></h2><ul><li><p>Thinks like a product builder, not just a mobile coder.</p></li><li><p>Cares about smooth flows, small details and real user behaviour.</p></li><li><p>Can work across ambiguity and ship without waiting for perfect specs.</p></li><li><p>Takes production quality personally.</p></li><li><p>Honest about what they built directly versus what the wider team delivered.</p></li></ul><div> </div><h2><strong>This Role Is Not For</strong></h2><ul><li><p>Developers who only want to build isolated screens.</p></li><li><p>People who do not care about UX, performance or reliability.</p></li><li><p>Candidates who cannot explain their own contribution clearly.</p></li><li><p>People who need heavy guidance for every task.</p></li><li><p>Engineers who move slowly in a high-growth environment.</p></li></ul><div> </div><h2><strong>Location</strong></h2><p>This role is remote, but candidates must be based in <strong>Australia</strong>. We are hiring specifically for this market, so applicants should already be based in <strong>Australia.</strong></p><div> </div><h2><strong>Language</strong></h2><p>English is our main working language across global teams. Strong English communication is required.</p><div> </div><h2><strong>Interview Process</strong></h2><p>Our process is designed to move fast:</p><ol><li><p>Online assessment or practical task</p></li><li><p>Role-specific interview</p></li><li><p>CEO / final round</p></li></ol><div> </div><p>For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.</p>",
+        "truncated": false,
+        "employer_verified": false
+      },
+      "ats_key": "freehire|mobile-engineer-ai-finance-agent-bjakcareer-dzr2di4w",
+      "company": "Bjak",
+      "description_excerpt": "<h2><strong>About Doit</strong></h2><p>We are focused on reinventing how people spend, save, invest, exchange, travel, and more. Our objective is to build tools that will help people get more from their money and become an expert at ease. W",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T13:04:37.881172Z",
+      "key": "my:b2397f2f6316f11a6e04",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Sydney, Australia",
+      "retries": 0,
+      "seq": 80,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "mobile-engineer-ai-finance-agent-bjakcareer-dzr2di4w",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "HARD_REJECTED",
+      "title": "Mobile Engineer - AI Finance Agent",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/b9867f93-0966-4ff9-9503-40fc214e1847",
+      "reason": "Exact Bjak employer Ashby Mobile Engineer - AI Finance Agent advert (b9867f93-...) explicitly limits remote applicants to Australia-based candidates and demands 3+ years native Android/iOS development with Kotlin/Swift. Candidate is Malaysia-based backend/LLM engineer, not Australia-based mobile specialist. Public upstream MY categorization is geographically false for this requisition.",
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/b9867f93-0966-4ff9-9503-40fc214e1847",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "AUSTRALIA_ONLY_AND_MOBILE_SPECIALIZATION",
+        "source_provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "note": "Exact Bjak employer Ashby Mobile Engineer - AI Finance Agent advert (b9867f93-...) explicitly limits remote applicants to Australia-based candidates and demands 3+ years native Android/iOS development with Kotlin/Swift. Candidate is Malaysia-based backend/LLM engineer, not Australia-based mobile specialist. Public upstream MY categorization is geographically false for this requisition."
+      }
     }
   ],
   "version": 1
