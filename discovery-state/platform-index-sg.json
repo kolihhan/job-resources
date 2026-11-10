@@ -302,41 +302,6 @@
       }
     },
     {
-      "ats_key": "binance|greenhouse|5002687101",
-      "company": "Binance",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "",
-        "full_jd_complete": true,
-        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. About Binance Binance is the global leading blockchain ecosystem, operating the world's largest digital asset trading platform by volume, serving over 300 million users across 100+ countries and regions. We are committed to building a more open financial ecosystem and improving global access to financial services. Binance is continuously building stock and related financial market products for global users. The relevant data will serve user-facing stock products and Binance AI business scenarios. We are seeking professionals with stock market experience to jointly build reliable, scalable data and financial AI capabilities. Role Overview You will participate in building the core data foundation for Binance's stock and related financial market businesses, responsible for the full pipeline from data source discovery, evaluation, ingestion, and integration to unified modeling, real-time processing, quality governance, and data services. Beyond completing defined integrations, we expect you to leverage industry expertise to continuously identify better data sources and technical solutions, enabling new markets, products, and data to serve trading products and AI quickly and reliably. Working at Binance • Be a part of the world’s leading blockchain ecosystem that continues to grow and offers excellent career development opportunities • Work alongside diverse, world-class talent in an environment where learning and growth opportunities are endless • Tackle fast-paced, challenging and unique projects • Work in a truly global organization, with international teams and a flat organizational structure • Competitive salary and benefits • Flexible working hours, remote-first, and casual work attire Learn more about how Binancians embody the organization’s core values, creating a unified culture that enables collaboration, excellence, and growth. Apply today to be a part of the Web3 revolution! Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. Responsibilities Conduct research, technical evaluation, ingestion, integration, cleansing, standardization, computation, storage, and servicing of financial market data, covering securities master data, real-time and historical market data, fundamentals, corporate actions, indices, and business-required product and risk data; responsible for source ingestion, raw retention, and stable delivery to knowledge engineering pipelines for content-type data such as announcements, news, and research reports. Design scalable unified data models and integration frameworks, handling different markets' trading calendars, time zones, currencies, security identifiers, listing relationships, lifecycles, and data corrections, supporting rapid onboarding of new markets and sources. Build batch-stream unified data pipelines centered on Flink, continuously optimizing latency, throughput, query performance, stability, and cost, while supporting consumer trading products, research analysis, and AI scenarios. Establish data quality and service level frameworks, taking responsibility for completeness, accuracy, timeliness, consistency, and traceability; build automated reconciliation, anomaly detection, monitoring and alerting, raw data replay, backfill, and fault recovery capabilities. Evaluate different sources (vendors, exchanges, APIs, file feeds, compliance collection) for coverage, quality, stability, revision mechanisms, and technical fit; collaborate with product, procurement, legal, and compliance teams to clarify usage, display, derivative, retention, and redistribution boundaries; drive rational primary/backup source strategies and alternatives. Define data semantics, metric definitions, and service contracts jointly with trading product, data platform, AI engineering, and algorithm teams, ensuring consistent and reliable usage of the same stock facts across different products. Drive data engineering efficiency and technical quality improvements, including metadata, data lineage, automated testing, CI/CD, task orchestration, capacity governance, and AI-assisted development. Requirements Master's degree or above in Computer Science, Software Engineering, Mathematics, Statistics, or related field; 5+ years of experience in data development, big data, or data platforms. Familiar with stock markets and the investor research and decision-making workflow; understand trading mechanisms, market data, fundamentals and financial reports, corporate actions, valuation, and major market events; able to explain the complete pipeline of at least one type of financial data from source to user-facing product and key quality risks. Proficient in SQL and Flink, with experience in large-scale real-time data processing, performance tuning, stability governance, and production issue troubleshooting. Proficient in at least one of Java, Scala, or Python; familiar with Kafka, Spark, and ClickHouse, Doris, HBase, Elasticsearch, or other distributed storage and analytics technologies. Familiar with data modeling, task scheduling, metadata, data lineage, data governance, and service levels; able to independently resolve cross-system data consistency issues. High standards for data quality; able to design reproducible reconciliation, anomaly detection, backfill, and degradation strategies — not just completing data development tasks. Experience with data source selection or production ingestion; able to articulate trade-offs between build vs. buy, multi-source verification, vendor dependency, and alternative solutions. Strong business understanding and cross-team collaboration skills; able to translate trading, risk, research, or AI problems into clear data models and data contracts. Bonus Experience with stock data at brokerages, market data services, financial data, wealth management, or fintech platforms. Familiarity with US stock market structure, trading calendars, pre/post-market sessions, corporate actions, and adjustment rules; experience with other stock markets also a plus. Data experience with stock-related derivatives, ETFs, indices, or tokenized products. Experience building low-latency market data pipelines, securities master data platforms, multi-market data models, quantitative research platforms, or large-scale backtesting data systems. Experience with data anomaly detection, knowledge graphs, financial entity alignment, or building high-quality financial datasets for LLMs and retrieval-augmented generation (RAG). Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
-        "jd_chars": 8275,
-        "jd_sha256": "50c370395adc6e93f775e5a583bd9af3c1b7225d17a3ddeee7975eb380862c70",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "greenhouse first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
-      "first_seen_at": "2026-11-09T15:11:31.004930Z",
-      "key": "sg:15c817af7f4962324168",
-      "last_error": null,
-      "market": "SG",
-      "platform": "greenhouse official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Hong Kong; Singapore; Taiwan",
-      "retries": 0,
-      "seq": 49,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "5002687101",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Financial Data Engineer, AI/LLM",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002687101"
-    },
-    {
       "ats_key": "binance|greenhouse|5009522101",
       "company": "Binance",
       "consumer_review": {
@@ -405,40 +370,6 @@
       "url": "https://jobs.ashbyhq.com/bjakcareer/2f788998-159e-422f-8a6e-5823801f42e4"
     },
     {
-      "ats_key": "mistral.ai|ashby|50656710-0001-42b0-8571-2880492b1233",
-      "company": "Mistral AI",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "FullTime",
-        "full_jd_complete": true,
-        "full_jd_text": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. ABOUT THE JOB Mistral AI is seeking Applied Scientists and Research Engineers focused on robotics. You will design, train, and deploy SOTA robotics models (VLM, VLA models for navigation and manipulation) and apply them to diverse use cases. You'll work cross-functionally with internal and external science, engineering, and product teams to deliver high-impact AI solutions. WHAT YOU WILL DO - Run pre-training, post-training and deploy state of the art models on large clusters. - Generate and curate datasets (image-text, video-text), and build evaluators/benchmarks for perception, navigation and manipulation tasks. - Develop the necessary tools and frameworks to facilitate data generation, model training, evaluation and deployment. - Collaborate with cross-functional teams to tackle complex use cases. - Manage research projects and communications with client research teams. ABOUT YOU - Fluent in English with excellent communication skills. - Expert with PyTorch or JAX. - Experience with Vision Language Models (VLM), Vision-Language-Action (VLA) models, perception, navigation and manipulation, simulation tools (e.g. Isaac SIM). - Clean, readable, high-performance Python code. - Doesn't need roadmaps. Ships. - Low-ego, collaborative and eager to learn. - Track record of success through personal projects, professional projects or academia. NICE TO HAVE - PhD / Master in a relevant field (Robotics, Machine Learning). - Research experience in robotics navigation, perception, manipulation. - Contributions to a large open-source or industry codebase. - Publications in top academic journals or conferences. - Enjoys improving existing code: typing, tests, CI pipelines. WHAT WE OFFER We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks. For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link. PRIVACY POLICY Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy.",
-        "jd_chars": 3094,
-        "jd_sha256": "55a32c7b2775705a109c02fd4ef271254e1954d740bf5d0f52067cb3ebedd9ff",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "ashby first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing,",
-      "first_seen_at": "2026-11-09T15:11:31.005019Z",
-      "key": "sg:dcd15fe102efcdc4a59b",
-      "last_error": null,
-      "market": "SG",
-      "platform": "ashby official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 52,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "50656710-0001-42b0-8571-2880492b1233",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Applied Science - Research Engineer (Robotics)",
-      "url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233"
-    },
-    {
       "ats_key": "bjakcareer|ashby|56f522c4-b903-45ea-bb08-952b74641b56",
       "company": "BJAK",
       "consumer_review": {
@@ -501,74 +432,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
       "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/AI-Engineer_JR109599"
-    },
-    {
-      "ats_key": "mistral.ai|ashby|d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
-      "company": "Mistral AI",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "FullTime",
-        "full_jd_complete": true,
-        "full_jd_text": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. ABOUT THE JOB Mistral AI is seeking an Applied AI Engineer focused on robotics deployment. You will take state-of-the-art AI models and make them work on real robots, in real environments, for real customers. This is a hands-on role at the intersection of machine learning and physical systems: you will own the path from model to deployed autonomy, working alongside robotics engineers, ML researchers, and systems engineers to deliver end-to-end autonomous solutions across diverse use cases. WHAT YOU WILL DO - Integrate AI models with robotic hardware, sensors, and embedded systems, bringing modern perception and language-driven capabilities onto physical platforms. - Improve the robustness, reliability, and safety of robotic systems operating in real-world, unstructured environments. - Test and validate algorithms in simulation and in real-world deployments, moving fluidly between the two. - Analyze field data to improve model performance and system reliability, closing the loop between what happens on the robot and what happens in training. - Bring up, tune, and debug the autonomy stack — localization, mapping, navigation, and perception — on real hardware, from sensor calibration to real-time performance. - Develop and tune robot navigation behaviors — path planning, obstacle avoidance — so systems hold up in dynamic, cluttered, and partially observable environments. - Diagnose failures end-to-end: mapping drift, localization dropouts, perception edge cases, timing issues — and fix them. - Collaborate with robotics engineers, ML researchers, and systems engineers to deliver complete autonomous solutions for customer use cases, from prototype through production deployment. - Build and maintain the tooling needed for deployment, monitoring, and continuous improvement of deployed systems. ABOUT YOU - Bachelor's, Master's, or PhD in Mechatronics, Robotics, or a relevant discipline (e.g. Computer Science, Electrical or Mechanical Engineering). - Fluent in English with excellent communication skills. - Strong software engineering in Python and/or C++: clean, readable, high-performance code; comfortable working in and improving production codebases. - Knowledge of robotics frameworks such as ROS/ROS2. - Experience with robot perception and state estimation: SLAM, localization and mapping, path planning, sensor fusion, or computer vision. - Solid mathematical fundamentals — geometry, probability, and estimation — and the judgment to know when a hand-crafted algorithm beats a learned one. - Familiarity with simulation tools and robotics development environments (e.g. Isaac Sim, Gazebo, or similar). - Strong problem-solving skills and ability to work in interdisciplinary teams. - Comfortable with the messiness of the real world: hardware quirks, edge cases, and field surprises don't scare you. - Low-ego, collaborative, and eager to learn. - Doesn't need roadmaps. Ships. NICE TO HAVE - Experience deploying ML models on embedded or edge hardware (GPU/NPU inference, quantization, real-time constraints). - Hands-on experience with sensor modalities such as LiDAR, depth cameras, or IMUs, including calibration and time-synchronization. - Exposure to VLM/VLA models or other foundation-model approaches for robot perception and control. - Experience with navigation in GPS-denied or otherwise challenging environments, or with visual-inertial odometry. - Working knowledge of established autonomy tooling — e.g. Nav2, SLAM Toolbox, Cartographer, RTAB-Map, or AMCL — and knowing when to build versus reuse. - Experience with behavior trees, dynamic costmaps, or fleet-level navigation. - Contributions to open-source robotics or ML projects. - Experience with safety-critical or regulated deployment environments. - Track record of success through personal projects, professional projects, or academia. WHAT WE OFFER We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks. For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link. PRIVACY POLICY Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy.",
-        "jd_chars": 5250,
-        "jd_sha256": "7260c45f5fea4d2487cd8eb1ea2181e0ba32b8a050b6d29ce932877d708a69e6",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "ashby first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing,",
-      "first_seen_at": "2026-11-09T15:11:31.005109Z",
-      "key": "sg:e7236bcee7afbf8b3c56",
-      "last_error": null,
-      "market": "SG",
-      "platform": "ashby official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 57,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Applied AI Engineer, Robotics",
-      "url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4"
-    },
-    {
-      "ats_key": "ncs3|smartrecruiters|6000000001140237",
-      "company": "NCS",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "The AI Engineer builds, tests, and iterates production Agentic AI systems at the core of the Autonomous Networks Programme. Working directly with the AI Solution Architect, Business Analyst, and Central Infrastructure Solution Architect, this role turns architecture designs into working code — implementing agent logic, integrating OSS APIs, building RAG pipelines, and deploying agents into staging and production environments. This is a hands-on engineering and development role where code quality, test rigour, and operational reliability are the primary measures of success. What will you do? Technical Delivery Own end-to-end delivery of AI workstreams: from requirements through data preparation, modelling, integration, testing, and production handover Develop agentic applications including RAG pipelines, prompt-engineered agents, and agentic workflows using LangChain, LlamaIndex, LangGraph, or plain Python Build on top of GenAI application stacks including LLM orchestration, observability (Langfuse, Braintrust), guardrails, and LLM gateway patterns (LiteLLM, Portkey) Implement multi-agent orchestration layer: event routing, resource locking, inter-agent handoff contracts, prompt caching, and shared state management Implement agentic design patterns including workflow evaluation, LLM-as-Judge, and AI red teaming Adopt Model Context Protocol (MCP) and Agent-to-Agent (A2A) Protocol as foundational extension mechanisms, enabling agents to operate safely across enterprise ecosystems Work with AI Solution Architect and Business Analysts on benchmarking and golden-set compilation for agent evaluation Implement effective RAG architectures: chunking strategies, embedding selection, vector store configuration (Qdrant, Milvus, pgvector), hybrid search, and reranking Build and maintain evaluation harnesses measuring correctness, faithfulness, latency, and safety. Run continuous LLM-as-Judge evaluation on production traces Write clean, maintainable Python; participate in code reviews; contribute to shared AI platform libraries OSS Integration & Data Engineering Implement REST, NETCONF/YANG, SNMP trap ingestion, and gNMI streaming telemetry integrations connecting agents to NMS and EMS systems Build ServiceNow integrations for ticket read/write, triage updates, change record queries, and human-in-the-loop approval workflow triggers for the Execution Agent Build the alarm and telemetry data normalisation pipeline converting multi-vendor OSS data into agent-consumable schemas Implement Kafka or equivalent event streaming consumers delivering real-time alarm data to the Alarm Correlation and Ticket Triaging agents Work with data and integration engineers to normalise multi-vendor, multi-format network telemetry into consistent schemas the agents can reason over Safety, Guardrails & Risk Implement guardrail architectures: hard limits, soft limits with human confirmation flows, blast radius controls, and escalation logic Assist the AI Solution Architect to assess blast radius for each agent — documenting worst-case impacts and designing specific mitigating controls Implement and validate rollback procedures for all agent-initiated network actions, including automated rollback triggers based on post-execution KPI degradation Work with QA engineers to design and test solutions via defined test cases, and review required improvements Ensure all agent architectures comply with IMDA regulatory requirements, AIVerify framework requirements, InfoSec policies, and CMB change governance frameworks Observability & Evaluation Implement the Decision Audit Trail schema for all agents ensuring every decision is fully traceable, explainable, and available for post-incident review Build the Agent Operations Dashboard for the NOC team: real-time agent status, decision volumes, accuracy metrics, and exception alerts Define and implement the evaluation framework: factual, reasoning, tool-call, retrieval and planning accuracy, confidence thresholds, and human feedback capture Implement continuous evaluation of production agent traces using LLM-as-Judge for quality and safety; design human evaluation sample process Build drift detection mechanisms that alert the team when agent output quality degrades before it becomes an operational incident Containerise and deploy agent services using Docker and CI/CD pipelines; manage staging and production deployments with rollback capability The ideal candidate should possess: Minimum 3 years of AI/ML engineering experience, with at least 1 year in production Agentic AI systems (not PoC or prototype-only) Demonstrable experience building AI agents that call external tools, manage state, and operate in production environments with real operational consequences Hands-on experience with LLM APIs (OpenAI, Anthropic Claude) or Open Source LLMs on vLLM (Qwen, Mistral, DeepSeek) in production — including prompt engineering, evaluation, and cost management Experience building RAG pipelines with vector databases (Qdrant, Milvus, Pinecone, Weaviate, pgvector) in production, including hybrid search and reranking Practical experience with at least one agentic AI framework: LangGraph, LangChain, LlamaIndex, CrewAI, AutoGen, or custom tool-calling Strong Python — modular, testable, production-quality code. Proficiency with Git, CI/CD, Docker, and LLMOps practices Full-stack awareness: REST APIs, front-end integration, data pipelines Degree in Computer Science, Electrical Engineering, AI/ML, or related technical field Highly Desirable Experience with Telco, utilities, or other 24×7 critical infrastructure environments where AI system failures have direct operational consequences Familiarity with OSS systems: NMS, EMS, network alarm management, NETCONF/YANG, or gNMI streaming telemetry Experience with event streaming platforms: Apache Kafka, Pulsar, or equivalent Experience integrating with ServiceNow REST API for ITSM data Experience with AI observability tools: Langfuse, Braintrust, LangSmith, Weights & Biases, Prometheus/Grafana Experience implementing AI systems subject to regulatory or formal risk governance frameworks (CMB, InfoSec review, audit requirements) Familiarity with network automation platforms (Cisco NSO, Nokia CloudBand, ONAP) as agent integration targets Familiarity with TM Forum frameworks including the Autonomous Network Maturity Model (L0–L5) Cloud ML platform experience: AWS SageMaker, Azure ML, or Google Vertex AI Qualifications & Certifications Required: Degree in Computer Science, Electrical Engineering, AI/ML, or related technical field Desirable: Professional certifications in Agentic AI development and architecting We are driven by our AEIOU beliefs—Adventure, Excellence, Integrity, Ownership, and Unity—and we seek individuals who embody these values in both their professional and personal lives. We are committed to our Impact: Valuing our clients, Growing our people, and Creating our future. Together, we make the extraordinary happen. Learn more about us at ncs.co and visit our LinkedIn career site. Scam Alert We are aware of fraudulent job offers and impersonations of NCS recruiters. Phishing emails using convincing-looking but fake addresses are also commonly used to trick you into thinking that they come from official NCS sources. Please note that all official communications from NCS Group will only be sent from verified corporate email addresses. Always check that the sender’s email address ends with the genuine NCS domain, @ncs.com.sg and beware of extra letters, symbols or misspellings. When in doubt, verify the sender’s identity by contacting us at reachus@ncs.com.sg.",
-        "jd_chars": 7631,
-        "jd_sha256": "cb137247c7ea2f4973804de28b10aebe8b207b79c3d6caa8f7057f5577660435",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "The AI Engineer builds, tests, and iterates production Agentic AI systems at the core of the Autonomous Networks Programme. Working directly with the AI Solution Architect, Business Analyst, and Central Infrastructure Solution Architect, th",
-      "first_seen_at": "2026-11-09T15:11:31.005146Z",
-      "key": "sg:9407f590cfeb1d1c7f20",
-      "last_error": null,
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore, sg",
-      "retries": 0,
-      "seq": 59,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "6000000001140237",
-      "state": "UNVERIFIED_INDEX",
-      "title": "#EG AI Engineer (Autonomous Network)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237"
     },
     {
       "api_source_context": {
@@ -704,127 +567,6 @@
       "url": "https://sg.jobstreet.com/job/95033957"
     },
     {
-      "ats_key": "ncs3|smartrecruiters|6000000001374512",
-      "company": "NCS",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "We are looking for an AI Developer to play a key role in building our agentic reasoning engines. You will own the intelligent layer of our bespoke enterprise system, ensuring our AI agents are reliable, secure, and capable of solving complex workflows. You will be involved in developing sophisticated RAG capabilities and stateful multi-agentic networks, moving beyond simple chat to high-consequence autonomous systems. What will you do? 1. Agentic AI Architecture & Development Design and implement stateful multi-agent networks and/or workflows using LangGraph and/or LangChain . Architect and implement multi-layered guardrails to ensure agent actions remain within business scope, enterprise safety and policy boundaries. Build guardrails to mitigate risks such as prompt injection and data leakage. Develop sophisticated reasoning engines capable of handling complex, high-consequence autonomous workflows. 2. RAG Pipeline Development & Optimisation Build and optimise end-to-end RAG (Retrieval-Augmented Generation) pipelines , focusing on high-precision retrieval and semantic search. Integrate diverse data sources including vector DB, graph DB, NoSQL, and RDBMS. Implement advanced RAG techniques such as chunking strategies, query expansion, re-ranking, and hybrid search. Apply prompt engineering and context engineering techniques to enhance retrieval quality. 3. AI Microservices & Deployment Build and maintain high-performance AI microservices optimised for OCI-compliant environments . Serve AI agents via FastAPI , packaging and deploying in OCI-compliant environments and OCP (OpenShift Container Platform) . Implement semantic caching and design for parallel LLM invocation to optimise performance. Integrate AI evaluation into CI/CD pipelines (e.g., Jenkins, GitLab CI). 4. Performance Monitoring & Evaluation Use LLM evaluation frameworks to quantitatively measure agent performance. Leverage AI tracing, observability, and logging tools to identify and fix bottlenecks in complex reasoning paths. Monitor and continuously improve agent reliability, accuracy, and efficiency. 5. Cross-Functional Collaboration Partner with software teams to define data contracts and integrate information flow from AI layer to software backend and frontend. Collaborate with stakeholders to ensure AI solutions align with business objectives and technical requirements. Communicate effectively (written and verbal) with technical and non-technical stakeholders at all levels. An ideal candidate should posses: Technical Requirements Expert-level proficiency in Python , specifically for asynchronous AI applications. Mastery of LangGraph and LangChain for building production-grade, stateful systems with human-in-the-loop verification patterns. Proven success in developing RAG capabilities , including experience with chunking strategies, advanced techniques like query expansion, re-ranking, hybrid search, etc. Deep hands-on experience with vector DB, graph DB, NoSQL, and RDBMS. Experience building guardrails to mitigate risks such as prompt injection and data leakage. Experience integrating AI evaluation into CI/CD pipelines (e.g., Jenkins, GitLab CI). Experience serving AI agents via FastAPI , packaging and deploying in OCI-compliant environments and OCP . Proficiency in AI tracing, observability, and logging tools to identify and fix bottlenecks in complex reasoning paths. Experience implementing semantic caching and designing for parallel LLM invocation . Knowledge of prompt engineering and context engineering techniques. Professional Experience At least 2–5 years of experience in AI/ML development, with substantial work in production-grade agentic AI systems. Proven track record of deploying AI solutions in enterprise environments. Experience working in Agile or iterative development environments. Personal Attributes Self-motivated with a positive \"can-do\" attitude. Strong problem-solving skills and ability to work independently. Excellent communication and collaboration skills. Ability to thrive in a fast-paced, innovative environment. Bonus Qualifications (Preferred) Working knowledge of database query languages including SQL and HiveQL (or equivalent). Working knowledge of building data ETL pipelines . Knowledge in building or fine-tuning deep learning models . Knowledge in mathematical statistical analysis . Experience with cloud platforms such as AWS, GCP, or Azure . Familiarity with Design Thinking or Lean UX methodologies. Exposure to scaled Agile frameworks (SAFe, LeSS). Experience working with distributed teams across multiple time zones. Proficiency in using collaboration tools like Mural, Miro, or Jamboard . Why Join NCS? Grow with Us Work on cutting-edge AI products that shape the future of technology Collaborate with talented, passionate teams across research, engineering, and design Access continuous learning opportunities and career development pathways Make an Impact Transform AI research into products that solve real problems for clients and users Drive innovation in a leading Technology Services Firm with regional presence Contribute to building a better future through responsible, human-centred AI Thrive in Our Culture Experience a human-to-human approach where relationships and collaboration matter Be part of Team NCS , where bold ideas meet practical execution Enjoy a supportive environment that values diversity, inclusion, and respect We are driven by our AEIOU beliefs—Adventure, Excellence, Integrity, Ownership, and Unity—and we seek individuals who embody these values in both their professional and personal lives. We are committed to our Impact: Valuing our clients, Growing our people, and Creating our future. Together, we make the extraordinary happen. Learn more about us at ncs.co and visit our LinkedIn career site. Scam Alert We are aware of fraudulent job offers and impersonations of NCS recruiters. Phishing emails using convincing-looking but fake addresses are also commonly used to trick you into thinking that they come from official NCS sources. Please note that all official communications from NCS Group will only be sent from verified corporate email addresses. Always check that the sender’s email address ends with the genuine NCS domain, @ncs.com.sg and beware of extra letters, symbols or misspellings. When in doubt, verify the sender’s identity by contacting us at reachus@ncs.com.sg.",
-        "jd_chars": 6400,
-        "jd_sha256": "21a9acf881e7e67d1107a33a880d24f01865b5e3876765d740167eec0ab64b5d",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "We are looking for an AI Developer to play a key role in building our agentic reasoning engines. You will own the intelligent layer of our bespoke enterprise system, ensuring our AI agents are reliable, secure, and capable of solving comple",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T01:29:36.461123Z",
-      "key": "sg:271fbdcfe057ced1553b",
-      "last_error": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition.",
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore, sg",
-      "retries": 0,
-      "review_retry": {
-        "checked_at": "2026-11-10",
-        "decision": "RETRY",
-        "missing_evidence": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition."
-      },
-      "seq": 69,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "6000000001374512",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "#EG AI Developer (Agentic AI Systems)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
-      "scout_review": {
-        "status": "RETRY",
-        "checked_at": "2026-11-10T15:59:27Z",
-        "missing_evidence": "Exact NCS SmartRecruiters 6000000001374512 live apply route not independently verified; other NCS requisitions cannot substitute.",
-        "decision": "PRESERVE_PENDING",
-        "ack": false
-      }
-    },
-    {
-      "ats_key": "openai|ashby|29f15e50-1611-4256-afad-03b7df0b7aa7",
-      "company": "OpenAI",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "About the Team The Applied AI Engineering team is responsible for helping developers and enterprises safely and effectively deploy OpenAI technologies in production. We act as trusted technical advisors and thought partners for customers, working side by side with their teams to identify high-value use cases, design practical architectures, and move from prototype to durable deployment. Cybersecurity is one of the most urgent domains where AI can help. Security teams are under pressure to reason across code, logs, infrastructure, tickets, alerts, and vulnerability data faster than ever. As frontier models become more capable, organizations need deep technical guidance on how to evaluate, validate, and safely deploy AI systems in security-critical workflows. About the Role We are looking for an Applied AI Engineer, Cyber to partner with customers and help them apply OpenAI models, APIs, Codex, and agentic workflows to real cybersecurity use cases. You will work with CISOs, security executives, application security leaders, SOC teams, security engineering teams, and hands-on practitioners to identify where AI can create measurable security outcomes. This is a customer-facing technical role for someone who can move fluidly between executive strategy, practitioner-level cyber depth, and hands-on solution design. You will help customers evaluate and deploy workflows such as secure code review, vulnerability triage, threat modeling, remediation, SOC and incident response workflows, detection engineering, cloud security, GRC automation, and security validation. You will collaborate closely with Sales, Solutions Engineering, Product, Engineering, Research, and Security to turn customer needs into safe deployment patterns, reusable field assets, and product feedback. This role is based in our Singapore office. We offer relocation support to new employees. In this role, you will: - Deeply embed with strategic customers as the technical lead for AI-enabled cybersecurity workflows, serving as a trusted partner to both security executives and technical practitioners. - Lead discovery across AppSec, DevSecOps, vulnerability management, SOC/IR, detection engineering, red team, cloud security, identity, and GRC automation use cases. - Build and deliver customer-facing demos, prototypes, workshops, proofs of concept, and reference architectures using OpenAI APIs, Codex, agents, scripts, CLIs, GitHub workflows, CI/CD systems, logs, tickets, scanners, and common security tools. - Scope pilots with clear success criteria, data requirements, workflow integrations, evaluation methods, security constraints, safety boundaries, and human approval points. - Advise customers on safe implementation patterns, including tool and function calling, structured outputs, retrieval, sandboxing, data handling, guardrails, telemetry, auditability, and approval-gated side effects. - Translate between CISO-level outcomes and practitioner-level implementation details so each audience understands value, risk, and practical next steps. - Create reusable field assets such as demo narratives, playbooks, FAQs, objection handling, qualification guides, assessment templates, and competitive positioning. - Validate, synthesize, and deliver high-signal feedback to Product, Engineering, Research, Security, and GTM teams based on recurring customer requirements, blockers, product gaps, and emerging cyber workflows. You might thrive in this role if you: - Have 5+ years of technical consulting, solutions engineering, security architecture, cyber advisory, deployment engineering, professional services, or equivalent customer-facing technical experience. - Bring strong cybersecurity domain expertise across one or more areas such as application security, cloud security, identity, vulnerability management, secure SDLC, incident response, detection engineering, threat intelligence, red teaming, or security architecture. - Can communicate credibly with CISOs, CTOs, security executives, engineering leaders, and highly technical security practitioners. - Have hands-on experience building prototypes or production systems with APIs, Python or JavaScript, agents, scripts, CLIs, GitHub workflows, CI/CD systems, logs, tickets, scanners, or other common security tooling. - Understand how to design AI workflows with retrieval, structured outputs, tool use, evals, guardrails, telemetry, sandboxing, and human-in-the-loop review. - Are comfortable scoping pilots from ambiguous customer pain, including success metrics, required data, workflow integrations, evaluation criteria, deployment assumptions, and decision gates. - Have evidence-first security judgment: you validate findings, separate true positives from noise, document assumptions, and avoid overstating model or security claims. - Own problems end-to-end, operate with high throughput across multiple concurrent customer projects, and know when to stay hands-on versus create reusable leverage for the broader field. - Have a humble attitude, an eagerness to help colleagues, and a desire to do whatever it takes to make the team and our customers successful. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-        "jd_chars": 7939,
-        "jd_sha256": "712c9b72f148f1daea168ee87072f5207928e8958dd6e1279157aadc04f4740d",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "About the Team The Applied AI Engineering team is responsible for helping developers and enterprises safely and effectively deploy OpenAI technologies in production. We act as trusted technical advisors and thought partners for customers, w",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T01:29:36.461149Z",
-      "key": "sg:7d1bbaef0353d217fc84",
-      "last_error": null,
-      "market": "SG",
-      "platform": "ashby official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 70,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "29f15e50-1611-4256-afad-03b7df0b7aa7",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Applied AI Engineer, Cyber",
-      "url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7"
-    },
-    {
-      "ats_key": "openai|ashby|502fcf97-75b2-4e54-9957-a29cee8eb1ca",
-      "company": "OpenAI",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "About the Team The Applied AI Engineering team is responsible for ensuring the safe and effective deployment of Generative AI applications for developers and startups. We act as a trusted advisor and thought partner for our customers, working to build an effective backlog of GenAI use cases for their industry and drive them to production through strong technical guidance. OpenAI's customers represent a range of diverse backgrounds and maturity, from early-stage startups to late-stage startups. About the Role We are seeking a technically proficient, business-minded Applied AI Engineer to help push the frontier of advanced AI with our strategic startup customers. You'll work with some of the most exciting AI startups in the world, guiding them through ideation, development, delivery, and scaling to accelerate and maximize the value of what they build on our platform. You will have the opportunity to work on the most novel and creative use cases being built on our API, serving as a critical partner in collecting and delivering high-fidelity product and model feedback internally. You will collaborate closely with Sales, Solutions Engineering, Applied Research, and Product teams, and you will report to the Startups Applied AI Lead. This role is based in our Singapore office. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. In this role, you will: - Partner closely with strategic startup customers as their technical thought partner to build novel applications on our API, helping them rapidly move from ideation to scale. - Provide proactive guidance to maximize business impact and accelerate application development. - Experiment and prototype alongside customers, demonstrating practical use cases. - Contribute to open-source resources and scale the function by sharing knowledge, codifying best practices, and publishing useful resources. - Synthesize and deliver valuable feedback to the Product and Research teams. - Build relationships within the startup ecosystem, serving as a technical partner to both individual customers and the broader community. - Partner with the Sales team across startup accounts to identify customer opportunities, align technical work with business goals, and help customers bring AI applications to production. You might thrive in this role if you: - Have ability to speak Mandarin is a requirement as you will be working with Mandarin-speaking customers and/or vendors in the role. - Have 5+ years of experience as a software engineer, ML engineer or equivalent, ideally in a startup environment; experience as a founder or founding engineer is highly valued. - Have passion for startups and a belief in their potential to become future large enterprises. - Are proficient in Python, JavaScript, and a strong grasp of AI/LLM best practices. - Built and/or delivered prototypes on top of our API platform. - Can proactively identify opportunities for maximizing our customers’ business value through leveraging the OpenAI API. - Own problems end-to-end and are willing to pick up whatever knowledge you're missing to get the job done. - Have a humble attitude, an eagerness to help your colleagues, and a desire to do whatever it takes to make the team succeed. - Are an effective, high throughput operator who can drive multiple concurrent projects and prioritize ruthlessly. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-        "jd_chars": 6197,
-        "jd_sha256": "4cf412752ff6e36055c2200c748a9d32b1357874174f4e0c18fec4ccd9ed96c2",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "About the Team The Applied AI Engineering team is responsible for ensuring the safe and effective deployment of Generative AI applications for developers and startups. We act as a trusted advisor and thought partner for our customers, worki",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T01:29:36.461176Z",
-      "key": "sg:eccf9182272828d41f39",
-      "last_error": null,
-      "market": "SG",
-      "platform": "ashby official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 71,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "502fcf97-75b2-4e54-9957-a29cee8eb1ca",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Applied AI Engineer, Startups (Mandarin-speaking)",
-      "url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca"
-    },
-    {
       "ats_key": "clera|ashby|dbc6684e-3338-46d1-8711-efc6999c26aa",
       "company": "Clera",
       "consumer_review": {
@@ -860,48 +602,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, QC Automation",
       "url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa"
-    },
-    {
-      "ats_key": "grab|smartrecruiters|744000159062339",
-      "company": "Grab",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "Get to Know the Team The People Science team, within Grab's Office of Organisational Capabilities, turns people data, research, and AI into better organisational decisions. We are building a user-centric intelligence capability that helps Grabbers, managers, People teams, and business leaders understand what is happening, identify what matters, and take effective action. Get to Know the Role As Research Scientist, People Analytics you will apply strategic consulting, applied research, and structured problem-solving to complex people and organisational challenges. You will build AI systems and agents that automate People Science workflows, develop an organisational listening engine that turns signals into action, and advise People and business leaders on real problems. This is a hands-on role requiring research rigour, analytical judgement, and user-centric product thinking. You will report to the Head, People Science. Work arrangementh: 5-day onsite. The Critical Tasks You Will Perform Build an organisational listening and action engine using employee listening, workforce, behavioural, and operational data to identify signals, diagnose root causes, and guide action. Build user-centric AI systems and agents that automate People Science workflows, from data discovery and analysis to hypothesis testing, programme evaluation, insight generation, and recommendations. Conduct applied organisational research using qualitative and quantitative methods, including surveys, interviews, experiments, and mixed-method approaches. Design hypotheses and evaluate People programmes or interventions using appropriate research, experimental, or quasi-experimental methods. Act as a strategic advisor to People and business leaders by framing ambiguous problems, conducting analysis, evaluating options, and translating evidence into practical decisions. Democratise people data through accessible AI agents, self-service tools, and data products that help non-technical users make better decisions. What Essential Skills You Will Need 8 - 12 years of experience in strategic consulting, applied research, organisational research, decision science, analytics, or a related field, with hands-on end-to-end problem solving. Experience advising senior stakeholders by defining ambiguous problems, diagnosing root causes, evaluating options, and translating evidence into practical decisions. Strong applied research capability across qualitative and quantitative methods, including research design, hypothesis development, surveys, interviews, experiments, and mixed-method approaches. Practical knowledge of programme evaluation, experimental design, causal or quasi-experimental analysis, and the ability to interpret evidence and its limitations. Experience synthesise data, research findings, and user perspectives into clear recommendations. Working proficiency in at least one analytical language, such as SQL, Python, or R, with the ability to conduct and interpret analysis. Experience engaging with AI tools and emerging technologies to improve research, analysis, workflows, and decision support, with an understanding of responsible AI, privacy, and bias considerations. Good To Have Experience in People Analytics, organisational psychology, behavioural science, workforce strategy, or social research. Experience building or prototyping AI systems, AI agents, LLM-enabled workflows, or analytical automation. Experience with employee listening, behavioural interventions, productivity measurement, programme implementation, or organisational change. Life at Grab We care about your well-being at Grab, here are some of the global benefits we offer: We have your back with Term Life Insurance and comprehensive Medical Insurance. With GrabFlex, create a benefits package that suits your needs and aspirations. Celebrate moments that matter in life with loved ones through Parental and Birthday leave , and give back to your communities through Love-all-Serve-all (LASA) volunteering leave We have a confidential Grabber Assistance Programme to guide and uplift you and your loved ones through life's challenges. Balancing personal commitments and life's demands are made easier with our FlexWork arrangements such as differentiated hours What We Stand For At Grab We are committed to building an inclusive and equitable workplace that provides equal opportunity for Grabbers to grow and perform at their best. We consider all candidates fairly and equally regardless of nationality, ethnicity, race, religion, age, gender, family commitments, physical and mental impairments or disabilities, and other attributes that make them unique.",
-        "jd_chars": 4651,
-        "jd_sha256": "787c7ae955a3a8a7739cfcf27549a5a49e9531f82421eedb026f8b21d865efbf",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "Get to Know the Team The People Science team, within Grab's Office of Organisational Capabilities, turns people data, research, and AI into better organisational decisions. We are building a user-centric intelligence capability that helps G",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T01:29:36.461220Z",
-      "key": "sg:5089f478a1aa6cb77b76",
-      "last_error": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition.",
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore, sg",
-      "retries": 0,
-      "review_retry": {
-        "checked_at": "2026-11-10",
-        "decision": "RETRY",
-        "missing_evidence": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition."
-      },
-      "seq": 73,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "744000159062339",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "People Research Scientist, People Analytics",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000159062339"
     },
     {
       "company": "Nanyang Technological University",
@@ -1339,42 +1039,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
       "url": "https://sg.jobstreet.com/job/95749616"
-    },
-    {
-      "ats_key": "bjakcareer|ashby|ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
-      "company": "BJAK",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting. ROLE - Develop and improve ML models for classification, retrieval, ranking and personalisation - Build classifiers and ranking models, optimising accuracy, precision, latency and inference cost - Improve search relevance and context retrieval using embeddings, hybrid search and reranking - Develop personalisation models using user behaviour and product data - Build evaluation pipelines, datasets and metrics to measure model quality and detect regressions - Train, fine-tune and deploy models using production ML pipelines - Monitor model performance, debug production issues and improve models based on evaluation results and user feedback REQUIREMENTS - 3+ years of machine learning engineering experience, including deploying models to production - Strong Python programming skills and experience with PyTorch or JAX - Solid understanding of machine learning algorithms, model training and evaluation - Experience with classification, ranking, retrieval, recommendation or personalisation models - Experience working with embeddings, vector search or information retrieval systems - Experience building data pipelines, training workflows and model inference services - Ability to evaluate model performance using relevant metrics and experimentation - Understanding of trade-offs between model accuracy, latency, computational cost and reliability NICE TO HAVE - Experience with transformer models, LLM fine-tuning or embedding models - Experience with hybrid search, reranking and retrieval evaluation - Experience with recommendation systems or personalisation in consumer applications - Experience with large-scale ML training or inference infrastructure",
-        "jd_chars": 2400,
-        "jd_sha256": "d52b3e098c6c535374efc97a244328b56a3542d280642b2d1b0731554f82c23a",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T12:45:59.689050Z",
-      "key": "sg:abe42bfa199ee682b484",
-      "last_error": null,
-      "market": "SG",
-      "platform": "ashby official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 90,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Machine Learning Engineer, Applied AI",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/ed931ce5-a247-494f-a68d-3c2ed4a1e3c1"
     },
     {
       "ats_key": "ntu|workday|/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1",
@@ -2854,6 +2518,405 @@
       "reason": "Employer-authored full JD requires scientific ML/PINNs methodology, physics-constrained losses and digital-twin modelling as critical mandatory capability, plus research-level PyTorch/JAX and demonstrated scientific-ML research output. Candidate's NLP/LLM/KG thesis does not establish required physics ML specialization.",
       "checked_at": "2026-11-11",
       "review_source": "stored first-party full JD; independently compared candidate hard eligibility"
+    },
+    {
+      "ats_key": "binance|greenhouse|5002687101",
+      "company": "Binance",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. About Binance Binance is the global leading blockchain ecosystem, operating the world's largest digital asset trading platform by volume, serving over 300 million users across 100+ countries and regions. We are committed to building a more open financial ecosystem and improving global access to financial services. Binance is continuously building stock and related financial market products for global users. The relevant data will serve user-facing stock products and Binance AI business scenarios. We are seeking professionals with stock market experience to jointly build reliable, scalable data and financial AI capabilities. Role Overview You will participate in building the core data foundation for Binance's stock and related financial market businesses, responsible for the full pipeline from data source discovery, evaluation, ingestion, and integration to unified modeling, real-time processing, quality governance, and data services. Beyond completing defined integrations, we expect you to leverage industry expertise to continuously identify better data sources and technical solutions, enabling new markets, products, and data to serve trading products and AI quickly and reliably. Working at Binance • Be a part of the world’s leading blockchain ecosystem that continues to grow and offers excellent career development opportunities • Work alongside diverse, world-class talent in an environment where learning and growth opportunities are endless • Tackle fast-paced, challenging and unique projects • Work in a truly global organization, with international teams and a flat organizational structure • Competitive salary and benefits • Flexible working hours, remote-first, and casual work attire Learn more about how Binancians embody the organization’s core values, creating a unified culture that enables collaboration, excellence, and growth. Apply today to be a part of the Web3 revolution! Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. Responsibilities Conduct research, technical evaluation, ingestion, integration, cleansing, standardization, computation, storage, and servicing of financial market data, covering securities master data, real-time and historical market data, fundamentals, corporate actions, indices, and business-required product and risk data; responsible for source ingestion, raw retention, and stable delivery to knowledge engineering pipelines for content-type data such as announcements, news, and research reports. Design scalable unified data models and integration frameworks, handling different markets' trading calendars, time zones, currencies, security identifiers, listing relationships, lifecycles, and data corrections, supporting rapid onboarding of new markets and sources. Build batch-stream unified data pipelines centered on Flink, continuously optimizing latency, throughput, query performance, stability, and cost, while supporting consumer trading products, research analysis, and AI scenarios. Establish data quality and service level frameworks, taking responsibility for completeness, accuracy, timeliness, consistency, and traceability; build automated reconciliation, anomaly detection, monitoring and alerting, raw data replay, backfill, and fault recovery capabilities. Evaluate different sources (vendors, exchanges, APIs, file feeds, compliance collection) for coverage, quality, stability, revision mechanisms, and technical fit; collaborate with product, procurement, legal, and compliance teams to clarify usage, display, derivative, retention, and redistribution boundaries; drive rational primary/backup source strategies and alternatives. Define data semantics, metric definitions, and service contracts jointly with trading product, data platform, AI engineering, and algorithm teams, ensuring consistent and reliable usage of the same stock facts across different products. Drive data engineering efficiency and technical quality improvements, including metadata, data lineage, automated testing, CI/CD, task orchestration, capacity governance, and AI-assisted development. Requirements Master's degree or above in Computer Science, Software Engineering, Mathematics, Statistics, or related field; 5+ years of experience in data development, big data, or data platforms. Familiar with stock markets and the investor research and decision-making workflow; understand trading mechanisms, market data, fundamentals and financial reports, corporate actions, valuation, and major market events; able to explain the complete pipeline of at least one type of financial data from source to user-facing product and key quality risks. Proficient in SQL and Flink, with experience in large-scale real-time data processing, performance tuning, stability governance, and production issue troubleshooting. Proficient in at least one of Java, Scala, or Python; familiar with Kafka, Spark, and ClickHouse, Doris, HBase, Elasticsearch, or other distributed storage and analytics technologies. Familiar with data modeling, task scheduling, metadata, data lineage, data governance, and service levels; able to independently resolve cross-system data consistency issues. High standards for data quality; able to design reproducible reconciliation, anomaly detection, backfill, and degradation strategies — not just completing data development tasks. Experience with data source selection or production ingestion; able to articulate trade-offs between build vs. buy, multi-source verification, vendor dependency, and alternative solutions. Strong business understanding and cross-team collaboration skills; able to translate trading, risk, research, or AI problems into clear data models and data contracts. Bonus Experience with stock data at brokerages, market data services, financial data, wealth management, or fintech platforms. Familiarity with US stock market structure, trading calendars, pre/post-market sessions, corporate actions, and adjustment rules; experience with other stock markets also a plus. Data experience with stock-related derivatives, ETFs, indices, or tokenized products. Experience building low-latency market data pipelines, securities master data platforms, multi-market data models, quantitative research platforms, or large-scale backtesting data systems. Experience with data anomaly detection, knowledge graphs, financial entity alignment, or building high-quality financial datasets for LLMs and retrieval-augmented generation (RAG). Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+        "jd_chars": 8275,
+        "jd_sha256": "50c370395adc6e93f775e5a583bd9af3c1b7225d17a3ddeee7975eb380862c70",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
+      "first_seen_at": "2026-11-09T15:11:31.004930Z",
+      "key": "sg:15c817af7f4962324168",
+      "last_error": null,
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Hong Kong; Singapore; Taiwan",
+      "retries": 0,
+      "seq": 49,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "5002687101",
+      "state": "HARD_REJECTED",
+      "title": "Financial Data Engineer, AI/LLM",
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002687101",
+      "reason": "Employer Greenhouse full JD requires master's plus 5+ years data development/big-data/platform experience, stock-market data fluency, SQL/Flink large-scale streaming production. Candidate lacks hard 5+ specialist data experience; role is finance data, not early-career LLM engineering.",
+      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002687101",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
+        "note": "Employer Greenhouse full JD requires master's plus 5+ years data development/big-data/platform experience, stock-market data fluency, SQL/Flink large-scale streaming production. Candidate lacks hard 5+ specialist data experience; role is finance data, not early-career LLM engineering."
+      }
+    },
+    {
+      "ats_key": "ncs3|smartrecruiters|6000000001140237",
+      "company": "NCS",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "The AI Engineer builds, tests, and iterates production Agentic AI systems at the core of the Autonomous Networks Programme. Working directly with the AI Solution Architect, Business Analyst, and Central Infrastructure Solution Architect, this role turns architecture designs into working code — implementing agent logic, integrating OSS APIs, building RAG pipelines, and deploying agents into staging and production environments. This is a hands-on engineering and development role where code quality, test rigour, and operational reliability are the primary measures of success. What will you do? Technical Delivery Own end-to-end delivery of AI workstreams: from requirements through data preparation, modelling, integration, testing, and production handover Develop agentic applications including RAG pipelines, prompt-engineered agents, and agentic workflows using LangChain, LlamaIndex, LangGraph, or plain Python Build on top of GenAI application stacks including LLM orchestration, observability (Langfuse, Braintrust), guardrails, and LLM gateway patterns (LiteLLM, Portkey) Implement multi-agent orchestration layer: event routing, resource locking, inter-agent handoff contracts, prompt caching, and shared state management Implement agentic design patterns including workflow evaluation, LLM-as-Judge, and AI red teaming Adopt Model Context Protocol (MCP) and Agent-to-Agent (A2A) Protocol as foundational extension mechanisms, enabling agents to operate safely across enterprise ecosystems Work with AI Solution Architect and Business Analysts on benchmarking and golden-set compilation for agent evaluation Implement effective RAG architectures: chunking strategies, embedding selection, vector store configuration (Qdrant, Milvus, pgvector), hybrid search, and reranking Build and maintain evaluation harnesses measuring correctness, faithfulness, latency, and safety. Run continuous LLM-as-Judge evaluation on production traces Write clean, maintainable Python; participate in code reviews; contribute to shared AI platform libraries OSS Integration & Data Engineering Implement REST, NETCONF/YANG, SNMP trap ingestion, and gNMI streaming telemetry integrations connecting agents to NMS and EMS systems Build ServiceNow integrations for ticket read/write, triage updates, change record queries, and human-in-the-loop approval workflow triggers for the Execution Agent Build the alarm and telemetry data normalisation pipeline converting multi-vendor OSS data into agent-consumable schemas Implement Kafka or equivalent event streaming consumers delivering real-time alarm data to the Alarm Correlation and Ticket Triaging agents Work with data and integration engineers to normalise multi-vendor, multi-format network telemetry into consistent schemas the agents can reason over Safety, Guardrails & Risk Implement guardrail architectures: hard limits, soft limits with human confirmation flows, blast radius controls, and escalation logic Assist the AI Solution Architect to assess blast radius for each agent — documenting worst-case impacts and designing specific mitigating controls Implement and validate rollback procedures for all agent-initiated network actions, including automated rollback triggers based on post-execution KPI degradation Work with QA engineers to design and test solutions via defined test cases, and review required improvements Ensure all agent architectures comply with IMDA regulatory requirements, AIVerify framework requirements, InfoSec policies, and CMB change governance frameworks Observability & Evaluation Implement the Decision Audit Trail schema for all agents ensuring every decision is fully traceable, explainable, and available for post-incident review Build the Agent Operations Dashboard for the NOC team: real-time agent status, decision volumes, accuracy metrics, and exception alerts Define and implement the evaluation framework: factual, reasoning, tool-call, retrieval and planning accuracy, confidence thresholds, and human feedback capture Implement continuous evaluation of production agent traces using LLM-as-Judge for quality and safety; design human evaluation sample process Build drift detection mechanisms that alert the team when agent output quality degrades before it becomes an operational incident Containerise and deploy agent services using Docker and CI/CD pipelines; manage staging and production deployments with rollback capability The ideal candidate should possess: Minimum 3 years of AI/ML engineering experience, with at least 1 year in production Agentic AI systems (not PoC or prototype-only) Demonstrable experience building AI agents that call external tools, manage state, and operate in production environments with real operational consequences Hands-on experience with LLM APIs (OpenAI, Anthropic Claude) or Open Source LLMs on vLLM (Qwen, Mistral, DeepSeek) in production — including prompt engineering, evaluation, and cost management Experience building RAG pipelines with vector databases (Qdrant, Milvus, Pinecone, Weaviate, pgvector) in production, including hybrid search and reranking Practical experience with at least one agentic AI framework: LangGraph, LangChain, LlamaIndex, CrewAI, AutoGen, or custom tool-calling Strong Python — modular, testable, production-quality code. Proficiency with Git, CI/CD, Docker, and LLMOps practices Full-stack awareness: REST APIs, front-end integration, data pipelines Degree in Computer Science, Electrical Engineering, AI/ML, or related technical field Highly Desirable Experience with Telco, utilities, or other 24×7 critical infrastructure environments where AI system failures have direct operational consequences Familiarity with OSS systems: NMS, EMS, network alarm management, NETCONF/YANG, or gNMI streaming telemetry Experience with event streaming platforms: Apache Kafka, Pulsar, or equivalent Experience integrating with ServiceNow REST API for ITSM data Experience with AI observability tools: Langfuse, Braintrust, LangSmith, Weights & Biases, Prometheus/Grafana Experience implementing AI systems subject to regulatory or formal risk governance frameworks (CMB, InfoSec review, audit requirements) Familiarity with network automation platforms (Cisco NSO, Nokia CloudBand, ONAP) as agent integration targets Familiarity with TM Forum frameworks including the Autonomous Network Maturity Model (L0–L5) Cloud ML platform experience: AWS SageMaker, Azure ML, or Google Vertex AI Qualifications & Certifications Required: Degree in Computer Science, Electrical Engineering, AI/ML, or related technical field Desirable: Professional certifications in Agentic AI development and architecting We are driven by our AEIOU beliefs—Adventure, Excellence, Integrity, Ownership, and Unity—and we seek individuals who embody these values in both their professional and personal lives. We are committed to our Impact: Valuing our clients, Growing our people, and Creating our future. Together, we make the extraordinary happen. Learn more about us at ncs.co and visit our LinkedIn career site. Scam Alert We are aware of fraudulent job offers and impersonations of NCS recruiters. Phishing emails using convincing-looking but fake addresses are also commonly used to trick you into thinking that they come from official NCS sources. Please note that all official communications from NCS Group will only be sent from verified corporate email addresses. Always check that the sender’s email address ends with the genuine NCS domain, @ncs.com.sg and beware of extra letters, symbols or misspellings. When in doubt, verify the sender’s identity by contacting us at reachus@ncs.com.sg.",
+        "jd_chars": 7631,
+        "jd_sha256": "cb137247c7ea2f4973804de28b10aebe8b207b79c3d6caa8f7057f5577660435",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "The AI Engineer builds, tests, and iterates production Agentic AI systems at the core of the Autonomous Networks Programme. Working directly with the AI Solution Architect, Business Analyst, and Central Infrastructure Solution Architect, th",
+      "first_seen_at": "2026-11-09T15:11:31.005146Z",
+      "key": "sg:9407f590cfeb1d1c7f20",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "seq": 59,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "6000000001140237",
+      "state": "HARD_REJECTED",
+      "title": "#EG AI Engineer (Autonomous Network)",
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237",
+      "reason": "NCS first-party full JD explicitly requires minimum 3 years AI/ML engineering including at least 1 year PRODUCTION Agentic AI (not PoC), enterprise RAG/agent deployment. Candidate has academic/project AI work plus production non-AI backend; does not meet specialist production AI floor.",
+      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
+        "note": "NCS first-party full JD explicitly requires minimum 3 years AI/ML engineering including at least 1 year PRODUCTION Agentic AI (not PoC), enterprise RAG/agent deployment. Candidate has academic/project AI work plus production non-AI backend; does not meet specialist production AI floor."
+      }
+    },
+    {
+      "ats_key": "ncs3|smartrecruiters|6000000001374512",
+      "company": "NCS",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "We are looking for an AI Developer to play a key role in building our agentic reasoning engines. You will own the intelligent layer of our bespoke enterprise system, ensuring our AI agents are reliable, secure, and capable of solving complex workflows. You will be involved in developing sophisticated RAG capabilities and stateful multi-agentic networks, moving beyond simple chat to high-consequence autonomous systems. What will you do? 1. Agentic AI Architecture & Development Design and implement stateful multi-agent networks and/or workflows using LangGraph and/or LangChain . Architect and implement multi-layered guardrails to ensure agent actions remain within business scope, enterprise safety and policy boundaries. Build guardrails to mitigate risks such as prompt injection and data leakage. Develop sophisticated reasoning engines capable of handling complex, high-consequence autonomous workflows. 2. RAG Pipeline Development & Optimisation Build and optimise end-to-end RAG (Retrieval-Augmented Generation) pipelines , focusing on high-precision retrieval and semantic search. Integrate diverse data sources including vector DB, graph DB, NoSQL, and RDBMS. Implement advanced RAG techniques such as chunking strategies, query expansion, re-ranking, and hybrid search. Apply prompt engineering and context engineering techniques to enhance retrieval quality. 3. AI Microservices & Deployment Build and maintain high-performance AI microservices optimised for OCI-compliant environments . Serve AI agents via FastAPI , packaging and deploying in OCI-compliant environments and OCP (OpenShift Container Platform) . Implement semantic caching and design for parallel LLM invocation to optimise performance. Integrate AI evaluation into CI/CD pipelines (e.g., Jenkins, GitLab CI). 4. Performance Monitoring & Evaluation Use LLM evaluation frameworks to quantitatively measure agent performance. Leverage AI tracing, observability, and logging tools to identify and fix bottlenecks in complex reasoning paths. Monitor and continuously improve agent reliability, accuracy, and efficiency. 5. Cross-Functional Collaboration Partner with software teams to define data contracts and integrate information flow from AI layer to software backend and frontend. Collaborate with stakeholders to ensure AI solutions align with business objectives and technical requirements. Communicate effectively (written and verbal) with technical and non-technical stakeholders at all levels. An ideal candidate should posses: Technical Requirements Expert-level proficiency in Python , specifically for asynchronous AI applications. Mastery of LangGraph and LangChain for building production-grade, stateful systems with human-in-the-loop verification patterns. Proven success in developing RAG capabilities , including experience with chunking strategies, advanced techniques like query expansion, re-ranking, hybrid search, etc. Deep hands-on experience with vector DB, graph DB, NoSQL, and RDBMS. Experience building guardrails to mitigate risks such as prompt injection and data leakage. Experience integrating AI evaluation into CI/CD pipelines (e.g., Jenkins, GitLab CI). Experience serving AI agents via FastAPI , packaging and deploying in OCI-compliant environments and OCP . Proficiency in AI tracing, observability, and logging tools to identify and fix bottlenecks in complex reasoning paths. Experience implementing semantic caching and designing for parallel LLM invocation . Knowledge of prompt engineering and context engineering techniques. Professional Experience At least 2–5 years of experience in AI/ML development, with substantial work in production-grade agentic AI systems. Proven track record of deploying AI solutions in enterprise environments. Experience working in Agile or iterative development environments. Personal Attributes Self-motivated with a positive \"can-do\" attitude. Strong problem-solving skills and ability to work independently. Excellent communication and collaboration skills. Ability to thrive in a fast-paced, innovative environment. Bonus Qualifications (Preferred) Working knowledge of database query languages including SQL and HiveQL (or equivalent). Working knowledge of building data ETL pipelines . Knowledge in building or fine-tuning deep learning models . Knowledge in mathematical statistical analysis . Experience with cloud platforms such as AWS, GCP, or Azure . Familiarity with Design Thinking or Lean UX methodologies. Exposure to scaled Agile frameworks (SAFe, LeSS). Experience working with distributed teams across multiple time zones. Proficiency in using collaboration tools like Mural, Miro, or Jamboard . Why Join NCS? Grow with Us Work on cutting-edge AI products that shape the future of technology Collaborate with talented, passionate teams across research, engineering, and design Access continuous learning opportunities and career development pathways Make an Impact Transform AI research into products that solve real problems for clients and users Drive innovation in a leading Technology Services Firm with regional presence Contribute to building a better future through responsible, human-centred AI Thrive in Our Culture Experience a human-to-human approach where relationships and collaboration matter Be part of Team NCS , where bold ideas meet practical execution Enjoy a supportive environment that values diversity, inclusion, and respect We are driven by our AEIOU beliefs—Adventure, Excellence, Integrity, Ownership, and Unity—and we seek individuals who embody these values in both their professional and personal lives. We are committed to our Impact: Valuing our clients, Growing our people, and Creating our future. Together, we make the extraordinary happen. Learn more about us at ncs.co and visit our LinkedIn career site. Scam Alert We are aware of fraudulent job offers and impersonations of NCS recruiters. Phishing emails using convincing-looking but fake addresses are also commonly used to trick you into thinking that they come from official NCS sources. Please note that all official communications from NCS Group will only be sent from verified corporate email addresses. Always check that the sender’s email address ends with the genuine NCS domain, @ncs.com.sg and beware of extra letters, symbols or misspellings. When in doubt, verify the sender’s identity by contacting us at reachus@ncs.com.sg.",
+        "jd_chars": 6400,
+        "jd_sha256": "21a9acf881e7e67d1107a33a880d24f01865b5e3876765d740167eec0ab64b5d",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "We are looking for an AI Developer to play a key role in building our agentic reasoning engines. You will own the intelligent layer of our bespoke enterprise system, ensuring our AI agents are reliable, secure, and capable of solving comple",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T01:29:36.461123Z",
+      "key": "sg:271fbdcfe057ced1553b",
+      "last_error": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition.",
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition."
+      },
+      "seq": 69,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "6000000001374512",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "#EG AI Developer (Agentic AI Systems)",
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
+      "scout_review": {
+        "status": "RETRY",
+        "checked_at": "2026-11-10T15:59:27Z",
+        "missing_evidence": "Exact NCS SmartRecruiters 6000000001374512 live apply route not independently verified; other NCS requisitions cannot substitute.",
+        "decision": "PRESERVE_PENDING",
+        "ack": false
+      },
+      "reason": "NCS first-party full JD explicitly requires 2-5 years AI/ML development with substantial production-grade agentic systems and proven enterprise deployment. Candidate's RAG/agent work is project/research, not 2 years professional production agentic delivery.",
+      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
+        "note": "NCS first-party full JD explicitly requires 2-5 years AI/ML development with substantial production-grade agentic systems and proven enterprise deployment. Candidate's RAG/agent work is project/research, not 2 years professional production agentic delivery."
+      }
+    },
+    {
+      "ats_key": "openai|ashby|29f15e50-1611-4256-afad-03b7df0b7aa7",
+      "company": "OpenAI",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "About the Team The Applied AI Engineering team is responsible for helping developers and enterprises safely and effectively deploy OpenAI technologies in production. We act as trusted technical advisors and thought partners for customers, working side by side with their teams to identify high-value use cases, design practical architectures, and move from prototype to durable deployment. Cybersecurity is one of the most urgent domains where AI can help. Security teams are under pressure to reason across code, logs, infrastructure, tickets, alerts, and vulnerability data faster than ever. As frontier models become more capable, organizations need deep technical guidance on how to evaluate, validate, and safely deploy AI systems in security-critical workflows. About the Role We are looking for an Applied AI Engineer, Cyber to partner with customers and help them apply OpenAI models, APIs, Codex, and agentic workflows to real cybersecurity use cases. You will work with CISOs, security executives, application security leaders, SOC teams, security engineering teams, and hands-on practitioners to identify where AI can create measurable security outcomes. This is a customer-facing technical role for someone who can move fluidly between executive strategy, practitioner-level cyber depth, and hands-on solution design. You will help customers evaluate and deploy workflows such as secure code review, vulnerability triage, threat modeling, remediation, SOC and incident response workflows, detection engineering, cloud security, GRC automation, and security validation. You will collaborate closely with Sales, Solutions Engineering, Product, Engineering, Research, and Security to turn customer needs into safe deployment patterns, reusable field assets, and product feedback. This role is based in our Singapore office. We offer relocation support to new employees. In this role, you will: - Deeply embed with strategic customers as the technical lead for AI-enabled cybersecurity workflows, serving as a trusted partner to both security executives and technical practitioners. - Lead discovery across AppSec, DevSecOps, vulnerability management, SOC/IR, detection engineering, red team, cloud security, identity, and GRC automation use cases. - Build and deliver customer-facing demos, prototypes, workshops, proofs of concept, and reference architectures using OpenAI APIs, Codex, agents, scripts, CLIs, GitHub workflows, CI/CD systems, logs, tickets, scanners, and common security tools. - Scope pilots with clear success criteria, data requirements, workflow integrations, evaluation methods, security constraints, safety boundaries, and human approval points. - Advise customers on safe implementation patterns, including tool and function calling, structured outputs, retrieval, sandboxing, data handling, guardrails, telemetry, auditability, and approval-gated side effects. - Translate between CISO-level outcomes and practitioner-level implementation details so each audience understands value, risk, and practical next steps. - Create reusable field assets such as demo narratives, playbooks, FAQs, objection handling, qualification guides, assessment templates, and competitive positioning. - Validate, synthesize, and deliver high-signal feedback to Product, Engineering, Research, Security, and GTM teams based on recurring customer requirements, blockers, product gaps, and emerging cyber workflows. You might thrive in this role if you: - Have 5+ years of technical consulting, solutions engineering, security architecture, cyber advisory, deployment engineering, professional services, or equivalent customer-facing technical experience. - Bring strong cybersecurity domain expertise across one or more areas such as application security, cloud security, identity, vulnerability management, secure SDLC, incident response, detection engineering, threat intelligence, red teaming, or security architecture. - Can communicate credibly with CISOs, CTOs, security executives, engineering leaders, and highly technical security practitioners. - Have hands-on experience building prototypes or production systems with APIs, Python or JavaScript, agents, scripts, CLIs, GitHub workflows, CI/CD systems, logs, tickets, scanners, or other common security tooling. - Understand how to design AI workflows with retrieval, structured outputs, tool use, evals, guardrails, telemetry, sandboxing, and human-in-the-loop review. - Are comfortable scoping pilots from ambiguous customer pain, including success metrics, required data, workflow integrations, evaluation criteria, deployment assumptions, and decision gates. - Have evidence-first security judgment: you validate findings, separate true positives from noise, document assumptions, and avoid overstating model or security claims. - Own problems end-to-end, operate with high throughput across multiple concurrent customer projects, and know when to stay hands-on versus create reusable leverage for the broader field. - Have a humble attitude, an eagerness to help colleagues, and a desire to do whatever it takes to make the team and our customers successful. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+        "jd_chars": 7939,
+        "jd_sha256": "712c9b72f148f1daea168ee87072f5207928e8958dd6e1279157aadc04f4740d",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "About the Team The Applied AI Engineering team is responsible for helping developers and enterprises safely and effectively deploy OpenAI technologies in production. We act as trusted technical advisors and thought partners for customers, w",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T01:29:36.461149Z",
+      "key": "sg:7d1bbaef0353d217fc84",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 70,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "29f15e50-1611-4256-afad-03b7df0b7aa7",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "Applied AI Engineer, Cyber",
+      "url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7",
+      "reason": "OpenAI first-party full JD demands 5+ years customer-facing technical consulting/solutions/security experience and strong cybersecurity domain specialization. Candidate lacks 5+ specialist customer-facing and cybersecurity background.",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
+        "note": "OpenAI first-party full JD demands 5+ years customer-facing technical consulting/solutions/security experience and strong cybersecurity domain specialization. Candidate lacks 5+ specialist customer-facing and cybersecurity background."
+      }
+    },
+    {
+      "ats_key": "openai|ashby|502fcf97-75b2-4e54-9957-a29cee8eb1ca",
+      "company": "OpenAI",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "About the Team The Applied AI Engineering team is responsible for ensuring the safe and effective deployment of Generative AI applications for developers and startups. We act as a trusted advisor and thought partner for our customers, working to build an effective backlog of GenAI use cases for their industry and drive them to production through strong technical guidance. OpenAI's customers represent a range of diverse backgrounds and maturity, from early-stage startups to late-stage startups. About the Role We are seeking a technically proficient, business-minded Applied AI Engineer to help push the frontier of advanced AI with our strategic startup customers. You'll work with some of the most exciting AI startups in the world, guiding them through ideation, development, delivery, and scaling to accelerate and maximize the value of what they build on our platform. You will have the opportunity to work on the most novel and creative use cases being built on our API, serving as a critical partner in collecting and delivering high-fidelity product and model feedback internally. You will collaborate closely with Sales, Solutions Engineering, Applied Research, and Product teams, and you will report to the Startups Applied AI Lead. This role is based in our Singapore office. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. In this role, you will: - Partner closely with strategic startup customers as their technical thought partner to build novel applications on our API, helping them rapidly move from ideation to scale. - Provide proactive guidance to maximize business impact and accelerate application development. - Experiment and prototype alongside customers, demonstrating practical use cases. - Contribute to open-source resources and scale the function by sharing knowledge, codifying best practices, and publishing useful resources. - Synthesize and deliver valuable feedback to the Product and Research teams. - Build relationships within the startup ecosystem, serving as a technical partner to both individual customers and the broader community. - Partner with the Sales team across startup accounts to identify customer opportunities, align technical work with business goals, and help customers bring AI applications to production. You might thrive in this role if you: - Have ability to speak Mandarin is a requirement as you will be working with Mandarin-speaking customers and/or vendors in the role. - Have 5+ years of experience as a software engineer, ML engineer or equivalent, ideally in a startup environment; experience as a founder or founding engineer is highly valued. - Have passion for startups and a belief in their potential to become future large enterprises. - Are proficient in Python, JavaScript, and a strong grasp of AI/LLM best practices. - Built and/or delivered prototypes on top of our API platform. - Can proactively identify opportunities for maximizing our customers’ business value through leveraging the OpenAI API. - Own problems end-to-end and are willing to pick up whatever knowledge you're missing to get the job done. - Have a humble attitude, an eagerness to help your colleagues, and a desire to do whatever it takes to make the team succeed. - Are an effective, high throughput operator who can drive multiple concurrent projects and prioritize ruthlessly. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+        "jd_chars": 6197,
+        "jd_sha256": "4cf412752ff6e36055c2200c748a9d32b1357874174f4e0c18fec4ccd9ed96c2",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "About the Team The Applied AI Engineering team is responsible for ensuring the safe and effective deployment of Generative AI applications for developers and startups. We act as a trusted advisor and thought partner for our customers, worki",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T01:29:36.461176Z",
+      "key": "sg:eccf9182272828d41f39",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 71,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "502fcf97-75b2-4e54-9957-a29cee8eb1ca",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "Applied AI Engineer, Startups (Mandarin-speaking)",
+      "url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca",
+      "reason": "OpenAI first-party full JD explicitly requires 5+ years software engineering or ML engineering (ideally startups) AND production customer advisory. Candidate has 4-year part-time plus internship, not 5+ conventional professional tenure; not realistic early-career fit.",
+      "evidence_url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
+        "note": "OpenAI first-party full JD explicitly requires 5+ years software engineering or ML engineering (ideally startups) AND production customer advisory. Candidate has 4-year part-time plus internship, not 5+ conventional professional tenure; not realistic early-career fit."
+      }
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000159062339",
+      "company": "Grab",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "Get to Know the Team The People Science team, within Grab's Office of Organisational Capabilities, turns people data, research, and AI into better organisational decisions. We are building a user-centric intelligence capability that helps Grabbers, managers, People teams, and business leaders understand what is happening, identify what matters, and take effective action. Get to Know the Role As Research Scientist, People Analytics you will apply strategic consulting, applied research, and structured problem-solving to complex people and organisational challenges. You will build AI systems and agents that automate People Science workflows, develop an organisational listening engine that turns signals into action, and advise People and business leaders on real problems. This is a hands-on role requiring research rigour, analytical judgement, and user-centric product thinking. You will report to the Head, People Science. Work arrangementh: 5-day onsite. The Critical Tasks You Will Perform Build an organisational listening and action engine using employee listening, workforce, behavioural, and operational data to identify signals, diagnose root causes, and guide action. Build user-centric AI systems and agents that automate People Science workflows, from data discovery and analysis to hypothesis testing, programme evaluation, insight generation, and recommendations. Conduct applied organisational research using qualitative and quantitative methods, including surveys, interviews, experiments, and mixed-method approaches. Design hypotheses and evaluate People programmes or interventions using appropriate research, experimental, or quasi-experimental methods. Act as a strategic advisor to People and business leaders by framing ambiguous problems, conducting analysis, evaluating options, and translating evidence into practical decisions. Democratise people data through accessible AI agents, self-service tools, and data products that help non-technical users make better decisions. What Essential Skills You Will Need 8 - 12 years of experience in strategic consulting, applied research, organisational research, decision science, analytics, or a related field, with hands-on end-to-end problem solving. Experience advising senior stakeholders by defining ambiguous problems, diagnosing root causes, evaluating options, and translating evidence into practical decisions. Strong applied research capability across qualitative and quantitative methods, including research design, hypothesis development, surveys, interviews, experiments, and mixed-method approaches. Practical knowledge of programme evaluation, experimental design, causal or quasi-experimental analysis, and the ability to interpret evidence and its limitations. Experience synthesise data, research findings, and user perspectives into clear recommendations. Working proficiency in at least one analytical language, such as SQL, Python, or R, with the ability to conduct and interpret analysis. Experience engaging with AI tools and emerging technologies to improve research, analysis, workflows, and decision support, with an understanding of responsible AI, privacy, and bias considerations. Good To Have Experience in People Analytics, organisational psychology, behavioural science, workforce strategy, or social research. Experience building or prototyping AI systems, AI agents, LLM-enabled workflows, or analytical automation. Experience with employee listening, behavioural interventions, productivity measurement, programme implementation, or organisational change. Life at Grab We care about your well-being at Grab, here are some of the global benefits we offer: We have your back with Term Life Insurance and comprehensive Medical Insurance. With GrabFlex, create a benefits package that suits your needs and aspirations. Celebrate moments that matter in life with loved ones through Parental and Birthday leave , and give back to your communities through Love-all-Serve-all (LASA) volunteering leave We have a confidential Grabber Assistance Programme to guide and uplift you and your loved ones through life's challenges. Balancing personal commitments and life's demands are made easier with our FlexWork arrangements such as differentiated hours What We Stand For At Grab We are committed to building an inclusive and equitable workplace that provides equal opportunity for Grabbers to grow and perform at their best. We consider all candidates fairly and equally regardless of nationality, ethnicity, race, religion, age, gender, family commitments, physical and mental impairments or disabilities, and other attributes that make them unique.",
+        "jd_chars": 4651,
+        "jd_sha256": "787c7ae955a3a8a7739cfcf27549a5a49e9531f82421eedb026f8b21d865efbf",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "Get to Know the Team The People Science team, within Grab's Office of Organisational Capabilities, turns people data, research, and AI into better organisational decisions. We are building a user-centric intelligence capability that helps G",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T01:29:36.461220Z",
+      "key": "sg:5089f478a1aa6cb77b76",
+      "last_error": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition.",
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition."
+      },
+      "seq": 73,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "744000159062339",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "People Research Scientist, People Analytics",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000159062339",
+      "reason": "Grab first-party full JD demands 8-12 years in strategic consulting/applied organizational/people analytics research advising senior stakeholders. Candidate lacks this hard 8-12-year professional experience and specialization.",
+      "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000159062339",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
+        "note": "Grab first-party full JD demands 8-12 years in strategic consulting/applied organizational/people analytics research advising senior stakeholders. Candidate lacks this hard 8-12-year professional experience and specialization."
+      }
+    },
+    {
+      "ats_key": "bjakcareer|ashby|ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
+      "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting. ROLE - Develop and improve ML models for classification, retrieval, ranking and personalisation - Build classifiers and ranking models, optimising accuracy, precision, latency and inference cost - Improve search relevance and context retrieval using embeddings, hybrid search and reranking - Develop personalisation models using user behaviour and product data - Build evaluation pipelines, datasets and metrics to measure model quality and detect regressions - Train, fine-tune and deploy models using production ML pipelines - Monitor model performance, debug production issues and improve models based on evaluation results and user feedback REQUIREMENTS - 3+ years of machine learning engineering experience, including deploying models to production - Strong Python programming skills and experience with PyTorch or JAX - Solid understanding of machine learning algorithms, model training and evaluation - Experience with classification, ranking, retrieval, recommendation or personalisation models - Experience working with embeddings, vector search or information retrieval systems - Experience building data pipelines, training workflows and model inference services - Ability to evaluate model performance using relevant metrics and experimentation - Understanding of trade-offs between model accuracy, latency, computational cost and reliability NICE TO HAVE - Experience with transformer models, LLM fine-tuning or embedding models - Experience with hybrid search, reranking and retrieval evaluation - Experience with recommendation systems or personalisation in consumer applications - Experience with large-scale ML training or inference infrastructure",
+        "jd_chars": 2400,
+        "jd_sha256": "d52b3e098c6c535374efc97a244328b56a3542d280642b2d1b0731554f82c23a",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T12:45:59.689050Z",
+      "key": "sg:abe42bfa199ee682b484",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 90,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "Machine Learning Engineer, Applied AI",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
+      "reason": "BJAK first-party full JD requires 3+ years machine learning engineering INCLUDING models deployed to production, with PyTorch/JAX training pipelines. Candidate lacks professional production model engineering tenure; projects cannot be counted as such.",
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
+        "note": "BJAK first-party full JD requires 3+ years machine learning engineering INCLUDING models deployed to production, with PyTorch/JAX training pipelines. Candidate lacks professional production model engineering tenure; projects cannot be counted as such."
+      }
+    },
+    {
+      "ats_key": "mistral.ai|ashby|50656710-0001-42b0-8571-2880492b1233",
+      "company": "Mistral AI",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. ABOUT THE JOB Mistral AI is seeking Applied Scientists and Research Engineers focused on robotics. You will design, train, and deploy SOTA robotics models (VLM, VLA models for navigation and manipulation) and apply them to diverse use cases. You'll work cross-functionally with internal and external science, engineering, and product teams to deliver high-impact AI solutions. WHAT YOU WILL DO - Run pre-training, post-training and deploy state of the art models on large clusters. - Generate and curate datasets (image-text, video-text), and build evaluators/benchmarks for perception, navigation and manipulation tasks. - Develop the necessary tools and frameworks to facilitate data generation, model training, evaluation and deployment. - Collaborate with cross-functional teams to tackle complex use cases. - Manage research projects and communications with client research teams. ABOUT YOU - Fluent in English with excellent communication skills. - Expert with PyTorch or JAX. - Experience with Vision Language Models (VLM), Vision-Language-Action (VLA) models, perception, navigation and manipulation, simulation tools (e.g. Isaac SIM). - Clean, readable, high-performance Python code. - Doesn't need roadmaps. Ships. - Low-ego, collaborative and eager to learn. - Track record of success through personal projects, professional projects or academia. NICE TO HAVE - PhD / Master in a relevant field (Robotics, Machine Learning). - Research experience in robotics navigation, perception, manipulation. - Contributions to a large open-source or industry codebase. - Publications in top academic journals or conferences. - Enjoys improving existing code: typing, tests, CI pipelines. WHAT WE OFFER We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks. For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link. PRIVACY POLICY Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy.",
+        "jd_chars": 3094,
+        "jd_sha256": "55a32c7b2775705a109c02fd4ef271254e1954d740bf5d0f52067cb3ebedd9ff",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing,",
+      "first_seen_at": "2026-11-09T15:11:31.005019Z",
+      "key": "sg:dcd15fe102efcdc4a59b",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 52,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "50656710-0001-42b0-8571-2880492b1233",
+      "state": "HARD_REJECTED",
+      "title": "Applied Science - Research Engineer (Robotics)",
+      "url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233",
+      "reason": "Mistral first-party full JD focuses robotics autonomy/VLM-VLA, robot perception/navigation/manipulation, Isaac simulation and expert PyTorch/JAX. Not candidate's NLP/LLM/Agent/retrieval engineering track; hard robotics specialization unestablished.",
+      "evidence_url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "SPECIALIST_DIRECTION_MISMATCH",
+        "note": "Mistral first-party full JD focuses robotics autonomy/VLM-VLA, robot perception/navigation/manipulation, Isaac simulation and expert PyTorch/JAX. Not candidate's NLP/LLM/Agent/retrieval engineering track; hard robotics specialization unestablished."
+      }
+    },
+    {
+      "ats_key": "mistral.ai|ashby|d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
+      "company": "Mistral AI",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. ABOUT THE JOB Mistral AI is seeking an Applied AI Engineer focused on robotics deployment. You will take state-of-the-art AI models and make them work on real robots, in real environments, for real customers. This is a hands-on role at the intersection of machine learning and physical systems: you will own the path from model to deployed autonomy, working alongside robotics engineers, ML researchers, and systems engineers to deliver end-to-end autonomous solutions across diverse use cases. WHAT YOU WILL DO - Integrate AI models with robotic hardware, sensors, and embedded systems, bringing modern perception and language-driven capabilities onto physical platforms. - Improve the robustness, reliability, and safety of robotic systems operating in real-world, unstructured environments. - Test and validate algorithms in simulation and in real-world deployments, moving fluidly between the two. - Analyze field data to improve model performance and system reliability, closing the loop between what happens on the robot and what happens in training. - Bring up, tune, and debug the autonomy stack — localization, mapping, navigation, and perception — on real hardware, from sensor calibration to real-time performance. - Develop and tune robot navigation behaviors — path planning, obstacle avoidance — so systems hold up in dynamic, cluttered, and partially observable environments. - Diagnose failures end-to-end: mapping drift, localization dropouts, perception edge cases, timing issues — and fix them. - Collaborate with robotics engineers, ML researchers, and systems engineers to deliver complete autonomous solutions for customer use cases, from prototype through production deployment. - Build and maintain the tooling needed for deployment, monitoring, and continuous improvement of deployed systems. ABOUT YOU - Bachelor's, Master's, or PhD in Mechatronics, Robotics, or a relevant discipline (e.g. Computer Science, Electrical or Mechanical Engineering). - Fluent in English with excellent communication skills. - Strong software engineering in Python and/or C++: clean, readable, high-performance code; comfortable working in and improving production codebases. - Knowledge of robotics frameworks such as ROS/ROS2. - Experience with robot perception and state estimation: SLAM, localization and mapping, path planning, sensor fusion, or computer vision. - Solid mathematical fundamentals — geometry, probability, and estimation — and the judgment to know when a hand-crafted algorithm beats a learned one. - Familiarity with simulation tools and robotics development environments (e.g. Isaac Sim, Gazebo, or similar). - Strong problem-solving skills and ability to work in interdisciplinary teams. - Comfortable with the messiness of the real world: hardware quirks, edge cases, and field surprises don't scare you. - Low-ego, collaborative, and eager to learn. - Doesn't need roadmaps. Ships. NICE TO HAVE - Experience deploying ML models on embedded or edge hardware (GPU/NPU inference, quantization, real-time constraints). - Hands-on experience with sensor modalities such as LiDAR, depth cameras, or IMUs, including calibration and time-synchronization. - Exposure to VLM/VLA models or other foundation-model approaches for robot perception and control. - Experience with navigation in GPS-denied or otherwise challenging environments, or with visual-inertial odometry. - Working knowledge of established autonomy tooling — e.g. Nav2, SLAM Toolbox, Cartographer, RTAB-Map, or AMCL — and knowing when to build versus reuse. - Experience with behavior trees, dynamic costmaps, or fleet-level navigation. - Contributions to open-source robotics or ML projects. - Experience with safety-critical or regulated deployment environments. - Track record of success through personal projects, professional projects, or academia. WHAT WE OFFER We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks. For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link. PRIVACY POLICY Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy.",
+        "jd_chars": 5250,
+        "jd_sha256": "7260c45f5fea4d2487cd8eb1ea2181e0ba32b8a050b6d29ce932877d708a69e6",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing,",
+      "first_seen_at": "2026-11-09T15:11:31.005109Z",
+      "key": "sg:e7236bcee7afbf8b3c56",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 57,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
+      "state": "HARD_REJECTED",
+      "title": "Applied AI Engineer, Robotics",
+      "url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
+      "reason": "Mistral first-party full JD requires ROS/ROS2, robot navigation SLAM, localization/state estimation, sensor fusion and hardware autonomy delivery. Candidate has NLP/LLM/Agent/backend, not robotics perception/control specialization; direction mismatch.",
+      "evidence_url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "SPECIALIST_DIRECTION_MISMATCH",
+        "note": "Mistral first-party full JD requires ROS/ROS2, robot navigation SLAM, localization/state estimation, sensor fusion and hardware autonomy delivery. Candidate has NLP/LLM/Agent/backend, not robotics perception/control specialization; direction mismatch."
+      }
     }
   ],
   "version": 1
