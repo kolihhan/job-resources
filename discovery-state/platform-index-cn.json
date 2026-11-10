@@ -1,23 +1,37 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T11:51:21.174300Z",
+    "at": "2026-11-10T12:25:20.088224Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 2,
-      "observed": 2
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "CN",
-  "next_seq": 57,
+  "next_seq": 58,
   "next_unacknowledged_seq": 1,
   "pending": [
     {
       "ats_key": "bjakcareer|ashby|09c3e540-d827-4877-92d2-7c807e3ca5c4",
       "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for Mobile application developer to build the native Android experience for BJAK's AI Finance Agent. This role is for someone who cares about clean user flows, fast performance, product quality and shipping reliable mobile features used by real customers. What You'll Own - Build and ship Android features using Kotlin. - Create clean mobile flows for insurance, payments, claims, renewals and financial services. - Work with product and design to simplify complex user journeys. - Integrate backend APIs and ensure mobile flows are stable, secure and reliable. - Improve app performance, crash rate, loading states, responsiveness and memory usage. - Use analytics, user behaviour and production issues to improve the product. - Build AI-assisted mobile experiences only where they genuinely improve the user journey. What We're Looking For - 3+ years of Android development experience using Kotlin. - Strong Android fundamentals and experience shipping production apps. - Good knowledge of Jetpack, Coroutines, Flow and modern Android architecture. - Strong sense of mobile UX, usability, edge cases and user flows. - Experience integrating REST APIs and debugging production issues. - Fast execution, high ownership and strong attention to product quality. - App links, GitHub, screenshots or examples of shipped work are a strong advantage. Tech Stack - Kotlin - Jetpack Compose - Android SDK - Coroutines & Flow - SQL / NoSQL - TensorFlow Lite (on-device inference) The Kind of Builder We Want - Thinks in user journeys, not just screens. - Cares about making complex financial products feel simple. - Moves fast without creating messy code. - Notices UX, performance and reliability issues before users complain. - Honest about what they personally built, what was team-owned and what impact they can or cannot claim. This Role Is Not For - Engineers who only want fully defined tickets. - Developers who build screens without caring about user experience. - People who ignore crashes, edge cases, loading states or performance. - Engineers who move slowly in a startup environment. - People who exaggerate impact without explaining their actual contribution. Location This role is remote, but candidates must be based in China. We are hiring specifically for this market, so applicants should already be based in China. Language English is our main working language across global teams. Strong English communication is required. Interview Process Our process is designed to move fast: 1. Online assessment or practical task 2. Role-specific interview 3. CEO / final round For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.",
+        "jd_chars": 3848,
+        "jd_sha256": "3e68c5f02b0a1b5282a33519c9ae70c557bc9fef22ee6c498b4909a1a5bcf764",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
       "first_seen_at": "2026-11-09T15:02:24.857228Z",
       "key": "cn:68185e2efab05bff9b75",
@@ -37,6 +51,20 @@
     {
       "ats_key": "bjakcareer|ashby|0cac93ef-04d8-42c4-b698-efb4664cd91b",
       "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. THE ROLE We are looking for backend engineers to build the core systems behind BJAK's AI Finance Agent. This role is for engineers who can build reliable APIs, workflows and financial product infrastructure that can scale across markets, partners and millions of users. WHAT YOU'LL OWN - Build backend services, APIs and workflows for the AI Neobank app. - Support products across insurance, payments, wallet, savings, investing, travel and financial services. - Design reliable systems for user accounts, transactions, partner integrations, reconciliation, notifications and operations. - Work with product and mobile teams to ship customer-facing journeys quickly. - Integrate with banks, payment gateways, insurers, data providers and other partners. - Improve system reliability, observability, security and performance. - Build systems that are practical, auditable and ready for regulated financial products. WHAT WE'RE LOOKING FOR - 3+ years of backend engineering experience. - Strong fundamentals in APIs, databases, system design and production debugging. - Experience building scalable services and integrating third-party systems. - Good understanding of security, reliability, data quality and operational edge cases. - Able to make practical trade-offs between speed, quality and risk. - Comfortable working with product, mobile, operations and business teams. - Experience in fintech, payments, insurance, lending, banking or regulated products is a strong advantage. THE KIND OF BUILDER WE WANT - Builds systems that work in the real world, not just on diagrams. - Thinks through edge cases, failure modes and operational impact. - Can move fast without creating fragile foundations. - Takes ownership of production issues and long-term reliability. - Explains clearly what they personally built versus what the team delivered. THIS ROLE IS NOT FOR - Engineers who only want isolated backend tasks. - People who ignore security, data consistency, monitoring or operational risk. - Developers who cannot work with fast-changing product requirements. - Candidates who talk about scale but have not handled production systems. - People who exaggerate impact without being clear on ownership. LOCATION This role is remote, but candidates must be based in China. We are hiring specifically for this market, so applicants should already be based in China. LANGUAGE English is our main working language across global teams. Strong English communication is required. INTERVIEW PROCESS Our process is designed to move fast: 1. Online assessment or practical task 2. Technical interview 3. CEO / final round For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.",
+        "jd_chars": 3859,
+        "jd_sha256": "0dab8144182700be9d65b24554b0a9c11f125f74029b58654710fc36eba15942",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
       "first_seen_at": "2026-11-09T15:02:24.857261Z",
       "key": "cn:69f094c012fb1d3ab9bd",
@@ -56,6 +84,20 @@
     {
       "ats_key": "bjakcareer|ashby|101d89f0-f66b-45c4-8f05-2d2a784dae1c",
       "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. THE ROLE We are looking for mobile engineer to build BJAK's AI Finance Agent across Android and iOS. This role is for strong mobile builders who can ship clean, reliable and intuitive mobile experiences, whether their main strength is Android, iOS or both. WHAT YOU'LL OWN - Build and ship Android features using Kotlin. - Create clean mobile flows for insurance, payments, claims, renewals and financial services. - Work with product and design to simplify complex user journeys. - Integrate backend APIs and ensure mobile flows are stable, secure and reliable. - Improve app performance, crash rate, loading states, responsiveness and memory usage. - Use analytics, user behaviour and production issues to improve the product. - Build AI-assisted mobile experiences only where they genuinely improve the user journey. WHAT WE'RE LOOKING FOR - 3+ years of Android development experience using Kotlin. - Strong Android fundamentals and experience shipping production apps. - Good knowledge of Jetpack, Coroutines, Flow and modern Android architecture. - Strong sense of mobile UX, usability, edge cases and user flows. - Experience integrating REST APIs and debugging production issues. - Fast execution, high ownership and strong attention to product quality. - App links, GitHub, screenshots or examples of shipped work are a strong advantage. TECH STACK - Kotlin - Jetpack Compose - Android SDK - Coroutines & Flow - SQL / NoSQL - TensorFlow Lite (on-device inference) THE KIND OF BUILDER WE WANT - Thinks in user journeys, not just screens. - Cares about making complex financial products feel simple. - Moves fast without creating messy code. - Notices UX, performance and reliability issues before users complain. - Honest about what they personally built, what was team-owned and what impact they can or cannot claim. THIS ROLE IS NOT FOR - Engineers who only want fully defined tickets. - Developers who build screens without caring about user experience. - People who ignore crashes, edge cases, loading states or performance. - Engineers who move slowly in a startup environment. - People who exaggerate impact without explaining their actual contribution. LOCATION This role is remote, but candidates must be based in China. We are hiring specifically for this market, so applicants should already be based in China. LANGUAGE English is our main working language across global teams. Strong English communication is required. INTERVIEW PROCESS Our process is designed to move fast: 1. Online assessment or practical task 2. Role-specific interview 3. CEO / final round For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.",
+        "jd_chars": 3825,
+        "jd_sha256": "8f2a6247f1c75adde23cda61b3cdba40f640b748b1f3a586916978b641b09e9b",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
       "first_seen_at": "2026-11-09T15:02:24.857282Z",
       "key": "cn:5cffb5c50a9d9b68a979",
@@ -75,6 +117,20 @@
     {
       "ats_key": "bjakcareer|ashby|1815a891-6854-4ada-9cd3-178009b807d1",
       "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting. ROLE - Develop and improve ML models for classification, retrieval, ranking and personalisation - Build classifiers and ranking models, optimising accuracy, precision, latency and inference cost - Improve search relevance and context retrieval using embeddings, hybrid search and reranking - Develop personalisation models using user behaviour and product data - Build evaluation pipelines, datasets and metrics to measure model quality and detect regressions - Train, fine-tune and deploy models using production ML pipelines - Monitor model performance, debug production issues and improve models based on evaluation results and user feedback REQUIREMENTS - 3+ years of machine learning engineering experience, including deploying models to production - Strong Python programming skills and experience with PyTorch or JAX - Solid understanding of machine learning algorithms, model training and evaluation - Experience with classification, ranking, retrieval, recommendation or personalisation models - Experience working with embeddings, vector search or information retrieval systems - Experience building data pipelines, training workflows and model inference services - Ability to evaluate model performance using relevant metrics and experimentation - Understanding of trade-offs between model accuracy, latency, computational cost and reliability NICE TO HAVE - Experience with transformer models, LLM fine-tuning or embedding models - Experience with hybrid search, reranking and retrieval evaluation - Experience with recommendation systems or personalisation in consumer applications - Experience with large-scale ML training or inference infrastructure",
+        "jd_chars": 2400,
+        "jd_sha256": "d52b3e098c6c535374efc97a244328b56a3542d280642b2d1b0731554f82c23a",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
       "first_seen_at": "2026-11-09T15:11:31.044204Z",
       "key": "cn:a7c2ee733177cba9aa02",
@@ -1012,6 +1068,28 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Computing Development Intern, TensorRT-LLM - 2027",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Development-Intern--TensorRT-LLM---2027_JR2026160"
+    },
+    {
+      "ats_key": "freehire|lead-ai-platform-engineer-caterpillar-inc-4zsxseke",
+      "company": "Caterpillar Inc.",
+      "description_excerpt": "<p><b>Career Area:</b></p>Engineering<p></p><p><b>Job Description:</b></p><p><b><span>Your Work Shapes the World at Caterpillar Inc. </span></b></p><p></p><p>When you join Caterpillar, you're joining a global team who cares not just about t",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T12:25:20.088188Z",
+      "key": "cn:42cd76324f14af97f092",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Wuxi, Jiangsu",
+      "retries": 0,
+      "seq": 57,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "lead-ai-platform-engineer-caterpillar-inc-4zsxseke",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Lead AI Platform Engineer",
+      "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Wuxi-Jiangsu/Lead-AI-Platform-Engineer_R0000403200"
     }
   ],
   "terminal": [
@@ -1293,6 +1371,7 @@
     },
     {
       "ats_key": "abound|ashby|215f3ac0-6e25-4877-b7c0-db37e9e04a30",
+      "checked_at": "2026-11-10",
       "company": "Abound",
       "consumer_review": {
         "checked_at": "2026-11-10T11:51:22.998919+00:00",
@@ -1310,24 +1389,23 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "About Abound We’re redefining consumer lending in the UK, and beyond. Using advanced AI and Open Banking data, we make fair, affordable personal finance available to more people. While traditional lenders rely almost entirely on credit scor",
+      "evidence_url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30",
       "first_seen_at": "2026-11-09T15:02:24.857296Z",
       "key": "cn:24b175644e7620b61528",
       "last_error": null,
       "market": "CN",
       "platform": "ashby official ATS",
       "query": "Shenzhen",
+      "reason": "Official employer JD requires seven or more years professional SWE experience, senior ownership/mentoring, and production async Python; candidate has no full-time professional YOE and targets 0-3 YOE substantive AI roles. Not a realistic eligible CN AI role.",
       "retries": 0,
+      "review_source": "official Ashby full JD captured in consumer_review",
       "seq": 4,
       "source": "freehirefetch:official-ats:CN",
       "source_evidence": "full_jd",
       "source_job_id": "215f3ac0-6e25-4877-b7c0-db37e9e04a30",
       "state": "HARD_REJECTED",
       "title": "Senior Software Engineer",
-      "url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30",
-      "checked_at": "2026-11-10",
-      "review_source": "official Ashby full JD captured in consumer_review",
-      "evidence_url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30",
-      "reason": "Official employer JD requires seven or more years professional SWE experience, senior ownership/mentoring, and production async Python; candidate has no full-time professional YOE and targets 0-3 YOE substantive AI roles. Not a realistic eligible CN AI role."
+      "url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30"
     }
   ],
   "version": 1
