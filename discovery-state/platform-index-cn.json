@@ -217,33 +217,6 @@
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
-        "text": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world&#39;s top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vibrant and diverse communities around the globe.<p><span><span> </span></span></p><p><b>JOB SUMMARY</b><br/>Designs, fabricates, modifies, evaluates and documents molded assemblies, components, and systems to produce or improve company products and facilitate manufacturing operations. Develops data and makes preliminary sketches, lay-outs and notes required to present design proposals. Researches basic design factors such as ease of manufacture and availability of materials and equipment.",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-jabil-znekmsyp",
-      "company": "Jabil",
-      "description_excerpt": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world&#39;s top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of ov",
-      "first_seen_at": "2026-11-09T16:44:39.014391Z",
-      "key": "cn:6adfafef5b6b768d1345",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "Wuxi",
-      "retries": 0,
-      "seq": 19,
-      "source": "freehire:public-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-jabil-znekmsyp",
-      "source_listing_url": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Wuxi/AI-Engineer_J2461057"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p>NVIDIA is the engine of modern AI. For over 25 years our work in accelerated computing has redefined computer graphics, autonomous machines, and now physical AI. We are looking for an AI Developer Technology Engineer to join our DevTech team in China.  this role you will work directly with the developers and researchers building the next generation of robots, helping them get the most out of NVIDIA GPUs across simulation, training, and deployment. You will be part of an exceptionally experienced, globally distributed team dedicated to pushing the boundaries of embodied AI.</p><br/><p><b>What you’ll be doing</b></p><ul><li>Partner with leading robotics developers and research teams in China to design, optimize, and scale embodied AI workloads on NVIDIA platforms</li><li>Develop on and extend frameworks such as Isaac Lab, Megatron Core and VLM/VLA/WA inference framework, ensuring flawless performance at scale</li><li>Profile and optimize GPU-based physics simulation, robot foundation",
         "truncated": false
       },
@@ -1842,6 +1815,35 @@
         "note": "Official Ashby full JD stored 2026-11-10 explicitly states workplace Hong Kong factory/test lab and mandatory GPU/HPC hardware server validation, firmware, CUDA/NCCL. Hong Kong market is paused, and mandatory hardware experience mismatches candidate.",
         "review_source": "https://jobs.ashbyhq.com/pragmatike/e33ac146-4a12-453f-a882-1a77e1348cf8 ; stored consumer_review.full_jd_text"
       }
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world&#39;s top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vibrant and diverse communities around the globe.<p><span><span> </span></span></p><p><b>JOB SUMMARY</b><br/>Designs, fabricates, modifies, evaluates and documents molded assemblies, components, and systems to produce or improve company products and facilitate manufacturing operations. Develops data and makes preliminary sketches, lay-outs and notes required to present design proposals. Researches basic design factors such as ease of manufacture and availability of materials and equipment.",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-jabil-znekmsyp",
+      "company": "Jabil",
+      "description_excerpt": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world&#39;s top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of ov",
+      "first_seen_at": "2026-11-09T16:44:39.014391Z",
+      "key": "cn:6adfafef5b6b768d1345",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Wuxi",
+      "retries": 0,
+      "seq": 19,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-jabil-znekmsyp",
+      "source_listing_url": "",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer",
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Wuxi/AI-Engineer_J2461057",
+      "reason": "Jabil employer-hosted exact req J2461057 describes design/fabrication of plastic molded assemblies, mechanical CAD/BOM, tooling and production engineering. 'AI Engineer' title is misleading; no substantive AI/LLM/NLP/agent software work in full official JD. Outside candidate's North Star.",
+      "evidence_url": "https://jobs.jabil.com/en/job/wuxi/ai-engineer/626/99205264576"
     }
   ],
   "version": 1
