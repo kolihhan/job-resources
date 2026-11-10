@@ -579,55 +579,6 @@
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
-        "text": "<p>The School of Mechanical &amp; Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst",
-        "truncated": true
-      },
-      "ats_key": "freehire|research-associate-research-engineer-ii-robotics-and-machine-learning-ntu-6o6rmwgo",
-      "company": "Ntu",
-      "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst the top engineering schools in the world. For more details, please view https://www.ntu.edu.sg/mae/research . We are looking for a Research Associate / Research Engineer II to conduct cutting-edge research and software/hardware development in robotic systems operating under uncertainty. The role will focus on designing, implementing, and experimentally validating advanced algorithms in uncertainty-aware robot perception and robust robotic manipulation, directly supporting NTU's commitment to advancing world-class robotics research and industrial innovation. Key Responsibilities: Key responsibilities of the research engineer is to contribute to the following areas. Design, implement, and benchmark algorithms in probabilistic robotics, uncertainty-aware perception, and robust robotic manipulation under real-world uncertainties. Lead the development, maintenance, and public release of clean, well-documented open-source software repositories (e.g., ROS/ROS2 packages, Python/C++ libraries). Execute software-hardware integration for robotic manipulators, sensors, and actuators to build reliable, high-performance experimental setups. Plan and execute experimental validation in laboratory and field settings; evaluate perception-action loops using multi-modal sensor data. Draft invention disclosures for patents/IP protection and write research manuscripts for top-tier robotics publications (e.g., ICRA, IROS, RSS, T-RO). Manage laboratory infrastructure, ensure compliance with workplace safety standards, and co-guide student researchers. Job Requirements: Master's degree in Robotics, Computer Science, Mechanical Engineering, Electrical Engineering, or a related discipline. Strong programming proficiency in C++ and Python, with hands-on experience in ROS/ROS2 and Linux environments. Solid theoretical foundation or practical experience in robot perception, state estimation, computer vision, or robotic manipulation under uncertainty. Experience with open-source software contributions, code versioning (Git), or patent disclosures is highly desirable. Excellent technical writing skills, proactive problem-solving mindset, and the ability to work effectively in a collaborative research team. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 3298,
-        "jd_sha256": "04e9d61d64d95a0a388feae3c340c8d5a9c18f95f8958a18d86759cea1d7d75f",
-        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00025927",
-        "review_flags": [
-          "domain_specific"
-        ],
-        "signals": [
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<p>The School of Mechanical &amp; Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T09:44:08.167463Z",
-      "key": "sg:ea38a131af0594a7aa87",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "NTU Main Campus, Singapore",
-      "retries": 0,
-      "seq": 77,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "research-associate-research-engineer-ii-robotics-and-machine-learning-ntu-6o6rmwgo",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Associate / Research Engineer II (Robotics and Machine Learning)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate---Research-Engineer-II--Robotics-and-Machine-Learning-_R00025927"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p><strong>About the Role</strong></p>\n<p>We are thrilled to introduce an opportunity for a talented AI Engineer to join our Singapore team. This role is designed for a technology innovator who thrives on solving complex challenges and is passionate about building AI-driven solutions that transform the Financial Services industry. As an AI Engineer at Capco, you will play a pivotal role in shaping the future of insurance by leveraging cutting-edge AI technologies to deliver intelligent, scalable, and compliant solutions. Your work will enable our clients to unlock new efficiencies, enhance customer experience, and stay ahead in a rapidly evolving digital landscape. If you are excited about applying advanced AI techniques to real-world business problems and driving measurable impact, we want you on our team.</p>\n<p><strong>Key Responsibilities</strong></p>\n<ul>\n<li>Build multi-agent workflows to optimize business processes within insurance.</li>\n<li>Develop and maintain software",
         "truncated": true
       },
@@ -705,55 +656,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
       "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API",
-        "text": "<p>We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and decision-making in robotic systems. The engineer will interface VLMs with navigation, mapping, and control pipelines to support end-to-end system experimentation. Responsibilities include building simulation environments, conducting experimental evaluations, and supporting rapid prototyping. The role contributes to translating simulation-validated methods toward real-world robotic deployment and bridges robotics simulation, multimodal AI, and autonomous navigation research.</p><p></p><p><b>Key Responsibilities:</b></p><ul><li><p>Design, implement, and integrate Visual-Language Models (VLMs) into simulation and robotic platforms to enable semantic reasoning, perception–language grounding, and decision-making.</p></li><li><p>Interface VLM-based modules",
-        "truncated": true
-      },
-      "ats_key": "freehire|research-engineer-machine-learning-ntu-7mmj653r",
-      "company": "Ntu",
-      "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and decision-making in robotic systems. The engineer will interface VLMs with navigation, mapping, and control pipelines to support end-to-end system experimentation. Responsibilities include building simulation environments, conducting experimental evaluations, and supporting rapid prototyping. The role contributes to translating simulation-validated methods toward real-world robotic deployment and bridges robotics simulation, multimodal AI, and autonomous navigation research. Key Responsibilities: Design, implement, and integrate Visual-Language Models (VLMs) into simulation and robotic platforms to enable semantic reasoning, perception–language grounding, and decision-making. Interface VLM-based modules with robot navigation, mapping, localization, planning, and control systems to support end-to-end autonomous operation. Build and maintain simulation environments, multimodal datasets, and evaluation frameworks, handling data volumes from tens to hundreds of gigabytes. Conduct experimental studies using GPU-enabled computing resources for model training, inference, and simulation-based evaluation. Support rapid prototyping and iteration of research ideas, from concept to validated robotic systems and demonstrations. Collaborate with and provide technical support to research staff and students across multiple projects. Contribute to research outputs, including publications, technical disclosures, patents, and autonomous robot demonstrations. Apply and recommend engineering best practices that promote reproducibility, maintainability, and research productivity. Job Requirements: Bachelor’s or Master’s degree (BEng/BSc/MEng/MSc) in Robotics, Computer Science, Electrical or Mechanical Engineering, or a related discipline; candidates with strong robotics and autonomous systems experience from other disciplines may also be considered. Proficiency in Python, with experience in ROS/ ROS2 and Linux-based development environments. Familiarity with robotic simulation platforms and 3D modelling tools. Hands-on experience in autonomous robotics projects; exposure to deep learning or reinforcement learning is a plus. Strong problem-solving ability, collaborative and independent work style, willingness to learn new tools. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 2565,
-        "jd_sha256": "1ce5c26e6e602296b9b669a793083f8318650032c08ee398c94307a65216049f",
-        "job_description_excerpt": "We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and decision-makin",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00022966",
-        "review_flags": [
-          "domain_specific"
-        ],
-        "signals": [
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<p>We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and d",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T09:44:08.167579Z",
-      "key": "sg:26f7ae9a8850748a1dd7",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "NTU Main Campus, Singapore",
-      "retries": 0,
-      "seq": 81,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "research-engineer-machine-learning-ntu-7mmj653r",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer (Machine Learning)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer--Machine-Learning-_R00022966"
     },
     {
       "api_source_context": {
@@ -3576,6 +3478,118 @@
         "evidence": "consumer_review.full_jd_text; exact NTU Workday R00026004"
       },
       "acknowledged_at": "2026-11-11T05:59:00+08:00"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "<p>The School of Mechanical &amp; Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst",
+        "truncated": true
+      },
+      "ats_key": "freehire|research-associate-research-engineer-ii-robotics-and-machine-learning-ntu-6o6rmwgo",
+      "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst the top engineering schools in the world. For more details, please view https://www.ntu.edu.sg/mae/research . We are looking for a Research Associate / Research Engineer II to conduct cutting-edge research and software/hardware development in robotic systems operating under uncertainty. The role will focus on designing, implementing, and experimentally validating advanced algorithms in uncertainty-aware robot perception and robust robotic manipulation, directly supporting NTU's commitment to advancing world-class robotics research and industrial innovation. Key Responsibilities: Key responsibilities of the research engineer is to contribute to the following areas. Design, implement, and benchmark algorithms in probabilistic robotics, uncertainty-aware perception, and robust robotic manipulation under real-world uncertainties. Lead the development, maintenance, and public release of clean, well-documented open-source software repositories (e.g., ROS/ROS2 packages, Python/C++ libraries). Execute software-hardware integration for robotic manipulators, sensors, and actuators to build reliable, high-performance experimental setups. Plan and execute experimental validation in laboratory and field settings; evaluate perception-action loops using multi-modal sensor data. Draft invention disclosures for patents/IP protection and write research manuscripts for top-tier robotics publications (e.g., ICRA, IROS, RSS, T-RO). Manage laboratory infrastructure, ensure compliance with workplace safety standards, and co-guide student researchers. Job Requirements: Master's degree in Robotics, Computer Science, Mechanical Engineering, Electrical Engineering, or a related discipline. Strong programming proficiency in C++ and Python, with hands-on experience in ROS/ROS2 and Linux environments. Solid theoretical foundation or practical experience in robot perception, state estimation, computer vision, or robotic manipulation under uncertainty. Experience with open-source software contributions, code versioning (Git), or patent disclosures is highly desirable. Excellent technical writing skills, proactive problem-solving mindset, and the ability to work effectively in a collaborative research team. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 3298,
+        "jd_sha256": "04e9d61d64d95a0a388feae3c340c8d5a9c18f95f8958a18d86759cea1d7d75f",
+        "job_description_excerpt": "The School of Mechanical & Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025927",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<p>The School of Mechanical &amp; Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.167463Z",
+      "key": "sg:ea38a131af0594a7aa87",
+      "last_error": "NTU official full JD requires hands-on ROS/ROS2 and robot perception/state estimation/manipulation; role primarily robotics software-hardware integration, not NLP/LLM/agent systems.",
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 77,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-associate-research-engineer-ii-robotics-and-machine-learning-ntu-6o6rmwgo",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "HARD_REJECTED",
+      "title": "Research Associate / Research Engineer II (Robotics and Machine Learning)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate---Research-Engineer-II--Robotics-and-Machine-Learning-_R00025927",
+      "scout_review": {
+        "status": "HARD_REJECTED",
+        "decision": "HARD_REJECTED",
+        "ack": true,
+        "checked_at": "2026-11-11T06:56:27+08:00",
+        "evidence": "NTU official full JD requires hands-on ROS/ROS2 and robot perception/state estimation/manipulation; role primarily robotics software-hardware integration, not NLP/LLM/agent systems."
+      }
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "<p>We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and decision-making in robotic systems. The engineer will interface VLMs with navigation, mapping, and control pipelines to support end-to-end system experimentation. Responsibilities include building simulation environments, conducting experimental evaluations, and supporting rapid prototyping. The role contributes to translating simulation-validated methods toward real-world robotic deployment and bridges robotics simulation, multimodal AI, and autonomous navigation research.</p><p></p><p><b>Key Responsibilities:</b></p><ul><li><p>Design, implement, and integrate Visual-Language Models (VLMs) into simulation and robotic platforms to enable semantic reasoning, perception–language grounding, and decision-making.</p></li><li><p>Interface VLM-based modules",
+        "truncated": true
+      },
+      "ats_key": "freehire|research-engineer-machine-learning-ntu-7mmj653r",
+      "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and decision-making in robotic systems. The engineer will interface VLMs with navigation, mapping, and control pipelines to support end-to-end system experimentation. Responsibilities include building simulation environments, conducting experimental evaluations, and supporting rapid prototyping. The role contributes to translating simulation-validated methods toward real-world robotic deployment and bridges robotics simulation, multimodal AI, and autonomous navigation research. Key Responsibilities: Design, implement, and integrate Visual-Language Models (VLMs) into simulation and robotic platforms to enable semantic reasoning, perception–language grounding, and decision-making. Interface VLM-based modules with robot navigation, mapping, localization, planning, and control systems to support end-to-end autonomous operation. Build and maintain simulation environments, multimodal datasets, and evaluation frameworks, handling data volumes from tens to hundreds of gigabytes. Conduct experimental studies using GPU-enabled computing resources for model training, inference, and simulation-based evaluation. Support rapid prototyping and iteration of research ideas, from concept to validated robotic systems and demonstrations. Collaborate with and provide technical support to research staff and students across multiple projects. Contribute to research outputs, including publications, technical disclosures, patents, and autonomous robot demonstrations. Apply and recommend engineering best practices that promote reproducibility, maintainability, and research productivity. Job Requirements: Bachelor’s or Master’s degree (BEng/BSc/MEng/MSc) in Robotics, Computer Science, Electrical or Mechanical Engineering, or a related discipline; candidates with strong robotics and autonomous systems experience from other disciplines may also be considered. Proficiency in Python, with experience in ROS/ ROS2 and Linux-based development environments. Familiarity with robotic simulation platforms and 3D modelling tools. Hands-on experience in autonomous robotics projects; exposure to deep learning or reinforcement learning is a plus. Strong problem-solving ability, collaborative and independent work style, willingness to learn new tools. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2565,
+        "jd_sha256": "1ce5c26e6e602296b9b669a793083f8318650032c08ee398c94307a65216049f",
+        "job_description_excerpt": "We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and decision-makin",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00022966",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<p>We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and d",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.167579Z",
+      "key": "sg:26f7ae9a8850748a1dd7",
+      "last_error": "NTU official full JD requires ROS/ROS2, robotic simulation/3D modelling and hands-on autonomous robotics projects; role primarily VLM robotic navigation and control, not candidate's NLP/LLM/retrieval direction.",
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 81,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-engineer-machine-learning-ntu-7mmj653r",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "HARD_REJECTED",
+      "title": "Research Engineer (Machine Learning)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer--Machine-Learning-_R00022966",
+      "scout_review": {
+        "status": "HARD_REJECTED",
+        "decision": "HARD_REJECTED",
+        "ack": true,
+        "checked_at": "2026-11-11T06:56:27+08:00",
+        "evidence": "NTU official full JD requires ROS/ROS2, robotic simulation/3D modelling and hands-on autonomous robotics projects; role primarily VLM robotic navigation and control, not candidate's NLP/LLM/retrieval direction."
+      }
     }
   ],
   "version": 1
