@@ -116,6 +116,11 @@ def _candidate_official(row, market, now):
     track = classify_track(row["title"])
     status = (official_status(rev, now) if verified else
               "UNVERIFIED_INDEX_NEEDS_EXACT_EMPLOYER_JD_AND_FIT")
+    # Reuse private cross-platform Issue hints already stored with this
+    # exact queue source: avoid repeated broad applicant search; do not merge.
+    flags = list(rev.get("review_flags", []))
+    if rev.get("possible_prior_issue"):
+        flags.append("CHECK_POSSIBLE_CROSS_PLATFORM_ISSUE")
     return {
         "market": market, "track_hint": track, "title": row["title"],
         "company": str(row.get("company") or "UNKNOWN"), "url": url,
@@ -123,11 +128,12 @@ def _candidate_official(row, market, now):
         "source": row.get("source"),
         "queue_seq": row["seq"], "queue_key": row.get("key"),
         "status": status, "title_maturity_flag": bool(MATURE.search(row["title"])),
-        "review_flags": rev.get("review_flags", []),
+        "review_flags": flags,
         "signal_tags": rev.get("signals", []),
         "full_jd_complete": bool(rev.get("full_jd_complete")),
         "jd_sha256": rev.get("jd_sha256"),
         "source_checked_at": rev.get("checked_at"),
+        "possible_prior_issue": rev.get("possible_prior_issue"),
         "where_to_review": f"discovery-state/platform-index-{market.lower()}.json",
         "decision": "NOT_MADE",
     }
@@ -164,16 +170,27 @@ def _candidate_ats(row, market):
 
 
 def _sort_priority(role):
-    # Source provenance, not title marketing, comes first. Mature titles are
-    # only deprioritized, NEVER treated as conclusive hard ineligibility.
-    origin = 0 if role["origin"] == "official_queue" else 1
+    # Cheap applicant-review scheduling, not an eligibility or APPLY verdict.
+    # Current full employer JD saves a new fetch, so review it before
+    # incomplete/stale metadata. Preserve ENG/RES parity via _choose_fair().
     maturity = bool(role["title_maturity_flag"])
     secondary = role.get("feed_lane") == "MY_SWE_SECONDARY"
-    evidence = {"full_jd": 0, "partial_jd": 1, "listing_only": 2}
-    jd_rank = evidence.get(role.get("feed_jd_evidence"), 0)
+    evidence_rank = {
+        "JD_VERIFIED_FIT_REVIEW_DUE": 0,
+        "NEEDS_LIVE_OFFICIAL_JD_AND_FIT": 1,
+        "JD_STALE_REVERIFY_DUE": 2,
+        "JD_INCOMPLETE_FETCH_DUE": 3,
+        "NEEDS_FULL_JD_AND_LIVE_ROUTE": 4,
+        "UNVERIFIED_INDEX_NEEDS_EXACT_EMPLOYER_JD_AND_FIT": 5,
+    }
+    state = role.get("status")
+    rank = evidence_rank.get(state, 6)
+    # A source already flagged as possible applicant history needs a quick
+    # exact-requisition dedupe review; it is not automatically a duplicate.
+    prior_flag = "CHECK_POSSIBLE_CROSS_PLATFORM_ISSUE" in (role.get("review_flags") or [])
     title_weak = not bool(CORE.search(role["title"]))
     seq = role.get("queue_seq", 999999999)
-    return (maturity, secondary, origin, jd_rank, title_weak, seq,
+    return (maturity, secondary, rank, int(prior_flag), title_weak, seq,
             role["company"].lower(), role["url"])
 
 
