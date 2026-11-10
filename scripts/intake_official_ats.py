@@ -331,6 +331,11 @@ def markdown(report):
                      f"{val('unhandled_exact_ids')} | {d['created']} | "
                      f"{by.get('ENG', 0)} | {by.get('RES', 0)} | "
                      f"{d.get('employers_selected', 0)} | {d['pending_after']} |")
+    lines += ["", "## Unverified API context assistance (NOT verified JD)", ""]
+    for market, d in report["markets"].items():
+        lines.append(f"- {market}: {d.get('unverified_api_context_updated', 0)} "
+                     "exact-ID Pending rows gained/updated unverified API text; "
+                     "still require official JD and applicant checks.")
     lines += ["", "## Coverage debt", ""]
     for market, d in report["markets"].items():
         for gap in d.get("coverage_gaps", []):
