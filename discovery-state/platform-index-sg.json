@@ -145,7 +145,13 @@
         ],
         "source_kind": "NTU Workday first party",
         "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW",
+        "scout_retry": {
+          "checked_at": "2026-11-11T01:00:00+08:00",
+          "status": "RETRY",
+          "missing_evidence": "Exact NTU R00025936 employer JD requires 4 years relevant working experience; need confirm whether MSc research/part-time experience is accepted as the required four years. Live Workday application form not independently readable; do not merge with R00025937 interview.",
+          "source": "SG Scout exact requisition review 2026-11-11"
+        }
       },
       "first_seen_at": "2026-11-07T09:35:18.297867Z",
       "key": "sg:e68e9e91029f06cde5f0",
@@ -471,7 +477,13 @@
         ],
         "source_kind": "freehirefetch public first-party ATS batch",
         "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW",
+        "scout_retry": {
+          "checked_at": "2026-11-11T01:00:00+08:00",
+          "status": "RETRY",
+          "missing_evidence": "Required production-grade LangChain AND LangGraph agents, MCP servers/clients, Kubernetes/KServe/vLLM, Helm/GitOps/Argo CD and enterprise deployment history are not evidenced in candidate record; confirm actual mandatory production skill fit before promotion. Official JR109599 Apply route visible; no exact prior application found.",
+          "source": "SG Scout exact requisition review 2026-11-11"
+        }
       },
       "description_excerpt": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we ",
       "first_seen_at": "2026-11-09T15:11:31.005092Z",
@@ -523,40 +535,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Applied AI Engineer, Robotics",
       "url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4"
-    },
-    {
-      "ats_key": "ncs3|smartrecruiters|6000000001031349",
-      "company": "NCS",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "What will you do: Design, build, and operate production-grade agentic and GenAI systems—end to end. You’ll ship services (not just notebooks): robust APIs, reusable components, and secure pipelines that connect LLMs, tools, knowledge, and enterprise systems. You’ll pair strong software engineering with modern AI practices (RAG, agent orchestration, policy chains, evals) to deliver measurable business outcomes at scale. 1. Agent & Application Engineering Design multi-agent systems (MAS) with planning, tool-use, and delegation (e.g., LangGraph/Semantic Kernel); expose them via REST/gRPC APIs (FastAPI/Express/Java/Go). Implement tool adapters (SQL, search, document stores, web calls, code exec) with strict type contracts and safe sandboxes. Build model gateway integrations (OpenAI/Azure OpenAI/Bedrock/Vertex; self-hosted vLLM/TGI) with routing, rate-limits, retries, and fallback chains. 2. Retrieval, Data & Knowledge Stand up RAG services: chunking, enrichment, embeddings, indexing, hybrid/vector search (pgvector/Pinecone/Weaviate; OpenSearch/Azure AI Search). Implement ingestion pipelines (Airflow/Prefect/Celery/Ray) for docs, tickets, chat, and ERP/CRM data; handle PII redaction and metadata governance. Optimize retrieval quality (chunking strategies, re-rankers, query rewriting) with offline/online evaluation and A/B tests. 3. Quality, Testing & Evaluation Treat prompts and graphs as code: version, diff, and test them (unit tests for prompts/tools; golden sets; regression suites). Build evaluation harnesses (latency, cost, accuracy, toxicity, hallucination, guardrail hit-rates); wire into CI. Add drift detection for conversational systems; implement safe shutdown and auto-rollback. 4. Platform & Operations Package services as containers; deploy to Kubernetes with Helm/Argo CD; configure autoscaling, HPA/VPA, and resource quotas. Implement policy chains and guardrails (OPA/Gatekeeper for policy, Presidio for PII, Trivy for image scanning). Instrument deep observability: tracing (OpenTelemetry), metrics (Prometheus), logs (ELK/OPENSEARCH), cost meters per request/model. 5. Security & Compliance Manage secrets (HashiCorp Vault/KMS), signed images, SBOMs; enforce least-privilege IAM. Build tenant isolation and data residency controls; implement red/blue team prompts and jailbreak defenses. 6. Integration & Enterprise Workflows Ship connectors and events for SAP/CRM/ITSM and Kafka topics; design idempotent, retry-safe processors. Automate business workflows with pro-code services first; expose low-code surfaces only where appropriate. 7. Collaboration & Leadership Partner with Product, Data, and Platform teams to define SLAs/SLOs and success metrics. Mentor engineers on “AI as software” practices; run design reviews and postmortems. The ideal candidate should possess: 6+ years in software engineering (prod services, not just prototypes), including 1+ year leading small projects. Strong in one systems language (Python/TypeScript/Go/Java) and comfortable in a second. Hands-on with containers, Kubernetes, CI/CD (GitHub Actions/GitLab/Jenkins), IaC (Terraform), and cloud (Azure/AWS/GCP). Practical LLM experience: building RAG/agent apps, prompt design, tool-use, and safety patterns. Data skills: designing schemas, batch/stream pipelines, and search indexes; proficiency with SQL and one vector DB. Testing mindset: unit/integration tests, load tests, golden datasets for LLM evals. Security basics: secrets, policies, scanning, and least-privilege IAM. Preferred Qualifications Agent orchestration (LangGraph, Semantic Kernel) and distributed compute (Ray) in production. Search/retrieval tuning (BM25 + vector hybrid, re-ranking, query planning). Observability at scale with OpenTelemetry; cost/perf optimization across model/router layers. Experience in regulated or high-throughput domains (e.g., telco, finance, healthcare); multi-tenant and data-residency patterns. Domain integrations (SAP/CRM/ITSM), event-driven architectures (Kafka/Debezium), and policy enforcement (OPA/Gatekeeper). Familiarity with TM Forum APIs / BSS-OSS patterns is a plus (if in telco context). Tech Stack (Illustrative) Languages: Python, TypeScript/Node.js (plus Go/Java bonus) Frameworks: FastAPI/Express, LangGraph/Semantic Kernel, Ray/Celery, Airflow/Prefect Storage/Search: Postgres, Redis, S3/Blob; pgvector/Pinecone/Weaviate; OpenSearch/Azure AI Search LLM Runtime: OpenAI/Azure OpenAI/Bedrock/Vertex; vLLM/TGI; inference routers/gateways Platform: Docker, Kubernetes, Helm, Argo CD, Terraform, Vault, Istio Observability: OpenTelemetry, Prometheus/Grafana, ELK/OpenSearch Quality & Safety: pytest/Jest, prompt/unit test harnesses, guardrails, Presidio, Trivy Why Join NCS Lead high-impact Data & AI advisory programs for major enterprises and public sector clients. Shape enterprise strategies and governance frameworks that drive real transformation. Work with a talented, multidisciplinary team in a collaborative environment. Competitive compensation and strong professional development support. We are driven by our AEIOU beliefs—Adventure, Excellence, Integrity, Ownership, and Unity—and we seek individuals who embody these values in both their professional and personal lives. We are committed to our Impact: Valuing our clients, Growing our people, and Creating our future. Together, we make the extraordinary happen. Learn more about us at ncs.co and visit our LinkedIn career site. Scam Alert We are aware of fraudulent job offers and impersonations of NCS recruiters. Phishing emails using convincing-looking but fake addresses are also commonly used to trick you into thinking that they come from official NCS sources. Please note that all official communications from NCS Group will only be sent from verified corporate email addresses. Always check that the sender’s email address ends with the genuine NCS domain, @ncs.com.sg and beware of extra letters, symbols or misspellings. When in doubt, verify the sender’s identity by contacting us at reachus@ncs.com.sg.",
-        "jd_chars": 6019,
-        "jd_sha256": "0864932c053377eb5ced7046cc9b30707276316aa28846ccd9719996c9e1a0a1",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "What will you do: Design, build, and operate production-grade agentic and GenAI systems—end to end. You’ll ship services (not just notebooks): robust APIs, reusable components, and secure pipelines that connect LLMs, tools, knowledge, and e",
-      "first_seen_at": "2026-11-09T15:11:31.005129Z",
-      "key": "sg:5e90dcbd870a93915099",
-      "last_error": null,
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore, sg",
-      "retries": 0,
-      "seq": 58,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "6000000001031349",
-      "state": "UNVERIFIED_INDEX",
-      "title": "#EG AI Engineer",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001031349"
     },
     {
       "ats_key": "ncs3|smartrecruiters|6000000001140237",
@@ -924,42 +902,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "People Research Scientist, People Analytics",
       "url": "https://jobs.smartrecruiters.com/Grab/744000159062339"
-    },
-    {
-      "ats_key": "westerndigital|smartrecruiters|744000153657449",
-      "company": "Western Digital",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "About This Role — The Mission This is not a generalist AI research role. We are looking for a researcher who has spent serious time thinking about how physics constraints interact with neural network training — and who wants to see that methodology deployed against real product development problems, not just validated on benchmark datasets. You will be the person who designs what the ML engineers build. Your acquisition functions will drive real laboratory experiments. Your PINNs methodology will run in product development. The work you originate here will be tested against physical ground truth in ways that most academic scientific ML researchers never get access to. Area A — Scientific ML & PINNs Methodology Origination: Originate and advance PINNs methodology — design physics-constrained loss function architectures, validate digital twin ML components against domain physics (with storage domain expert), and deliver validated prototypes with complete technical documentation to implement. As the sole PINNs methodology originator on the team — this capability cannot be delegated or substituted. Area B — Uncertainty Quantification & Bayesian Experimental Design (hold one of B or C): Lead research into Bayesian deep learning, active learning acquisition function design, ensemble uncertainty methods, and Bayesian experimental design frameworks for autonomous experiment selection. Transfer validated acquisition function designs for active learning pipeline integration. Area C — Causal ML & Reliability Modeling (substitute for B if reliability-focused): Own causal inference framework product development for reliability root cause analysis — structural causal model (SCM) design, causal discovery, and causal intervention planning for product development improvement. Synthetic Data Methodology : Design physics-constrained generative model approaches (diffusion models, VAEs) for synthetic data generation. Deliver validated methodology and training recipes for pipeline operationalization. IP & Domain InterMface: Demonstrate strong research output through preprints, or patent disclosures. Interface with storage domain expert to validate physics constraints before deployment. Produce validated research prototypes with complete technical documentation to team-handoff standard. Participate in design reviews as the research methodology authority. Requirements Education: Master's or PhD in Artificial Intelligence, Machine Learning, Physics, Applied Mathematics, or related field. Strong AI/ML research focus and scientific computing background required. Experience: For Master's degree: 1–3 years work or research experience in scientific ML or applied AI roles. For PhD: Open — no minimum work experience required. Research depth is the primary criterion. Peer-reviewed publication (NeurIPS, ICML, ICLR, AAAI, Nature MI, or domain-specific venues), strong PhD research, or significant open-source scientific ML contribution. Must have skills: PyTorch or JAX: Expert — deep research-level implementation capability Area A — Scientific ML & PINNs (Required): PINNs methodology design, physics-constrained loss function architecture, digital twin modeling. The most critical capability on the team. Area B — UQ & Bayesian Methods (one of B or C required): Bayesian deep learning, Bayesian experimental design, active learning acquisition function design, ensemble uncertainty quantification Area C — Causal ML (substitute for B if reliability-focused): Structural causal models (SCM), causal discovery, causal inference for reliability and yield root cause analysis Demonstrated Research Output: Publication, preprint, PhD thesis chapter, or significant open-source scientific ML contribution in at least one primary area Prototype-to-Documentation Handoff: Produce validated research prototypes with complete technical documentation Good to have skills: Diffusion models (DDPM, conditional diffusion) — physics-constrained synthetic data generation Graph neural networks (GNN) — materials property prediction, failure propagation modeling Neural ODEs — dynamic systems and degradation trajectory modeling Foundation model fine-tuning — domain adaptation for scientific tasks RL for scientific discovery — exploration strategies in experimental search spaces Top-venue publication (NeurIPS / ICML / ICLR / Nature MI) — strong bonus signal Materials science, semiconductor, or precision product development domain background #LI-FN1 WD thrives on the power and potential of diversity. As a global company, we believe the most effective way to embrace the diversity of our customers and communities is to mirror it from within. We believe the fusion of various perspectives results in the best outcomes for our employees, our company, our customers, and the world around us. We are committed to an inclusive environment where every individual can thrive through a sense of belonging, respect and contribution. WD is committed to offering opportunities to applicants with disabilities and ensuring all candidates can successfully navigate our careers website and our hiring process. Please contact us at jobs.accommodations@wdc.com to advise us of your accommodation request. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying. Notice To Candidates: Please be aware that WD and its subsidiaries will never request payment as a condition for applying for a position or receiving an offer of employment. Should you encounter any such requests, please report it immediately to WD Ethics Helpline or email compliance@wdc.com .",
-        "jd_chars": 5678,
-        "jd_sha256": "394a33c9d1aeb9541759f5c47ecb91105e261b9755be7430b97468d828b115ab",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "About This Role — The Mission This is not a generalist AI research role. We are looking for a researcher who has spent serious time thinking about how physics constraints interact with neural network training — and who wants to see that met",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T01:29:36.461241Z",
-      "key": "sg:4247e8b404fc326a01aa",
-      "last_error": null,
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "query": "Singapore, sg",
-      "retries": 0,
-      "seq": 74,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "744000153657449",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Research Scientist, Scientific ML",
-      "url": "https://jobs.smartrecruiters.com/WesternDigital/744000153657449"
     },
     {
       "company": "Nanyang Technological University",
@@ -2836,6 +2778,82 @@
       "state": "HARD_REJECTED",
       "title": "Data Scientist (Analytics), OmniCommerce",
       "url": "https://jobs.smartrecruiters.com/Grab/744000139456037"
+    },
+    {
+      "ats_key": "ncs3|smartrecruiters|6000000001031349",
+      "company": "NCS",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "What will you do: Design, build, and operate production-grade agentic and GenAI systems—end to end. You’ll ship services (not just notebooks): robust APIs, reusable components, and secure pipelines that connect LLMs, tools, knowledge, and enterprise systems. You’ll pair strong software engineering with modern AI practices (RAG, agent orchestration, policy chains, evals) to deliver measurable business outcomes at scale. 1. Agent & Application Engineering Design multi-agent systems (MAS) with planning, tool-use, and delegation (e.g., LangGraph/Semantic Kernel); expose them via REST/gRPC APIs (FastAPI/Express/Java/Go). Implement tool adapters (SQL, search, document stores, web calls, code exec) with strict type contracts and safe sandboxes. Build model gateway integrations (OpenAI/Azure OpenAI/Bedrock/Vertex; self-hosted vLLM/TGI) with routing, rate-limits, retries, and fallback chains. 2. Retrieval, Data & Knowledge Stand up RAG services: chunking, enrichment, embeddings, indexing, hybrid/vector search (pgvector/Pinecone/Weaviate; OpenSearch/Azure AI Search). Implement ingestion pipelines (Airflow/Prefect/Celery/Ray) for docs, tickets, chat, and ERP/CRM data; handle PII redaction and metadata governance. Optimize retrieval quality (chunking strategies, re-rankers, query rewriting) with offline/online evaluation and A/B tests. 3. Quality, Testing & Evaluation Treat prompts and graphs as code: version, diff, and test them (unit tests for prompts/tools; golden sets; regression suites). Build evaluation harnesses (latency, cost, accuracy, toxicity, hallucination, guardrail hit-rates); wire into CI. Add drift detection for conversational systems; implement safe shutdown and auto-rollback. 4. Platform & Operations Package services as containers; deploy to Kubernetes with Helm/Argo CD; configure autoscaling, HPA/VPA, and resource quotas. Implement policy chains and guardrails (OPA/Gatekeeper for policy, Presidio for PII, Trivy for image scanning). Instrument deep observability: tracing (OpenTelemetry), metrics (Prometheus), logs (ELK/OPENSEARCH), cost meters per request/model. 5. Security & Compliance Manage secrets (HashiCorp Vault/KMS), signed images, SBOMs; enforce least-privilege IAM. Build tenant isolation and data residency controls; implement red/blue team prompts and jailbreak defenses. 6. Integration & Enterprise Workflows Ship connectors and events for SAP/CRM/ITSM and Kafka topics; design idempotent, retry-safe processors. Automate business workflows with pro-code services first; expose low-code surfaces only where appropriate. 7. Collaboration & Leadership Partner with Product, Data, and Platform teams to define SLAs/SLOs and success metrics. Mentor engineers on “AI as software” practices; run design reviews and postmortems. The ideal candidate should possess: 6+ years in software engineering (prod services, not just prototypes), including 1+ year leading small projects. Strong in one systems language (Python/TypeScript/Go/Java) and comfortable in a second. Hands-on with containers, Kubernetes, CI/CD (GitHub Actions/GitLab/Jenkins), IaC (Terraform), and cloud (Azure/AWS/GCP). Practical LLM experience: building RAG/agent apps, prompt design, tool-use, and safety patterns. Data skills: designing schemas, batch/stream pipelines, and search indexes; proficiency with SQL and one vector DB. Testing mindset: unit/integration tests, load tests, golden datasets for LLM evals. Security basics: secrets, policies, scanning, and least-privilege IAM. Preferred Qualifications Agent orchestration (LangGraph, Semantic Kernel) and distributed compute (Ray) in production. Search/retrieval tuning (BM25 + vector hybrid, re-ranking, query planning). Observability at scale with OpenTelemetry; cost/perf optimization across model/router layers. Experience in regulated or high-throughput domains (e.g., telco, finance, healthcare); multi-tenant and data-residency patterns. Domain integrations (SAP/CRM/ITSM), event-driven architectures (Kafka/Debezium), and policy enforcement (OPA/Gatekeeper). Familiarity with TM Forum APIs / BSS-OSS patterns is a plus (if in telco context). Tech Stack (Illustrative) Languages: Python, TypeScript/Node.js (plus Go/Java bonus) Frameworks: FastAPI/Express, LangGraph/Semantic Kernel, Ray/Celery, Airflow/Prefect Storage/Search: Postgres, Redis, S3/Blob; pgvector/Pinecone/Weaviate; OpenSearch/Azure AI Search LLM Runtime: OpenAI/Azure OpenAI/Bedrock/Vertex; vLLM/TGI; inference routers/gateways Platform: Docker, Kubernetes, Helm, Argo CD, Terraform, Vault, Istio Observability: OpenTelemetry, Prometheus/Grafana, ELK/OpenSearch Quality & Safety: pytest/Jest, prompt/unit test harnesses, guardrails, Presidio, Trivy Why Join NCS Lead high-impact Data & AI advisory programs for major enterprises and public sector clients. Shape enterprise strategies and governance frameworks that drive real transformation. Work with a talented, multidisciplinary team in a collaborative environment. Competitive compensation and strong professional development support. We are driven by our AEIOU beliefs—Adventure, Excellence, Integrity, Ownership, and Unity—and we seek individuals who embody these values in both their professional and personal lives. We are committed to our Impact: Valuing our clients, Growing our people, and Creating our future. Together, we make the extraordinary happen. Learn more about us at ncs.co and visit our LinkedIn career site. Scam Alert We are aware of fraudulent job offers and impersonations of NCS recruiters. Phishing emails using convincing-looking but fake addresses are also commonly used to trick you into thinking that they come from official NCS sources. Please note that all official communications from NCS Group will only be sent from verified corporate email addresses. Always check that the sender’s email address ends with the genuine NCS domain, @ncs.com.sg and beware of extra letters, symbols or misspellings. When in doubt, verify the sender’s identity by contacting us at reachus@ncs.com.sg.",
+        "jd_chars": 6019,
+        "jd_sha256": "0864932c053377eb5ced7046cc9b30707276316aa28846ccd9719996c9e1a0a1",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "What will you do: Design, build, and operate production-grade agentic and GenAI systems—end to end. You’ll ship services (not just notebooks): robust APIs, reusable components, and secure pipelines that connect LLMs, tools, knowledge, and e",
+      "first_seen_at": "2026-11-09T15:11:31.005129Z",
+      "key": "sg:5e90dcbd870a93915099",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "seq": 58,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "6000000001031349",
+      "state": "HARD_REJECTED",
+      "title": "#EG AI Engineer",
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001031349",
+      "reason": "Employer-authored full JD requires '6+ years in software engineering (prod services, not just prototypes), including 1+ year leading small projects'. Candidate has no conventional full-time YOE and cannot satisfy this explicit senior production leadership requirement; separate NCS requisition, no inferred application.",
+      "checked_at": "2026-11-11",
+      "review_source": "stored first-party full JD; independently compared candidate hard eligibility"
+    },
+    {
+      "ats_key": "westerndigital|smartrecruiters|744000153657449",
+      "company": "Western Digital",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "About This Role — The Mission This is not a generalist AI research role. We are looking for a researcher who has spent serious time thinking about how physics constraints interact with neural network training — and who wants to see that methodology deployed against real product development problems, not just validated on benchmark datasets. You will be the person who designs what the ML engineers build. Your acquisition functions will drive real laboratory experiments. Your PINNs methodology will run in product development. The work you originate here will be tested against physical ground truth in ways that most academic scientific ML researchers never get access to. Area A — Scientific ML & PINNs Methodology Origination: Originate and advance PINNs methodology — design physics-constrained loss function architectures, validate digital twin ML components against domain physics (with storage domain expert), and deliver validated prototypes with complete technical documentation to implement. As the sole PINNs methodology originator on the team — this capability cannot be delegated or substituted. Area B — Uncertainty Quantification & Bayesian Experimental Design (hold one of B or C): Lead research into Bayesian deep learning, active learning acquisition function design, ensemble uncertainty methods, and Bayesian experimental design frameworks for autonomous experiment selection. Transfer validated acquisition function designs for active learning pipeline integration. Area C — Causal ML & Reliability Modeling (substitute for B if reliability-focused): Own causal inference framework product development for reliability root cause analysis — structural causal model (SCM) design, causal discovery, and causal intervention planning for product development improvement. Synthetic Data Methodology : Design physics-constrained generative model approaches (diffusion models, VAEs) for synthetic data generation. Deliver validated methodology and training recipes for pipeline operationalization. IP & Domain InterMface: Demonstrate strong research output through preprints, or patent disclosures. Interface with storage domain expert to validate physics constraints before deployment. Produce validated research prototypes with complete technical documentation to team-handoff standard. Participate in design reviews as the research methodology authority. Requirements Education: Master's or PhD in Artificial Intelligence, Machine Learning, Physics, Applied Mathematics, or related field. Strong AI/ML research focus and scientific computing background required. Experience: For Master's degree: 1–3 years work or research experience in scientific ML or applied AI roles. For PhD: Open — no minimum work experience required. Research depth is the primary criterion. Peer-reviewed publication (NeurIPS, ICML, ICLR, AAAI, Nature MI, or domain-specific venues), strong PhD research, or significant open-source scientific ML contribution. Must have skills: PyTorch or JAX: Expert — deep research-level implementation capability Area A — Scientific ML & PINNs (Required): PINNs methodology design, physics-constrained loss function architecture, digital twin modeling. The most critical capability on the team. Area B — UQ & Bayesian Methods (one of B or C required): Bayesian deep learning, Bayesian experimental design, active learning acquisition function design, ensemble uncertainty quantification Area C — Causal ML (substitute for B if reliability-focused): Structural causal models (SCM), causal discovery, causal inference for reliability and yield root cause analysis Demonstrated Research Output: Publication, preprint, PhD thesis chapter, or significant open-source scientific ML contribution in at least one primary area Prototype-to-Documentation Handoff: Produce validated research prototypes with complete technical documentation Good to have skills: Diffusion models (DDPM, conditional diffusion) — physics-constrained synthetic data generation Graph neural networks (GNN) — materials property prediction, failure propagation modeling Neural ODEs — dynamic systems and degradation trajectory modeling Foundation model fine-tuning — domain adaptation for scientific tasks RL for scientific discovery — exploration strategies in experimental search spaces Top-venue publication (NeurIPS / ICML / ICLR / Nature MI) — strong bonus signal Materials science, semiconductor, or precision product development domain background #LI-FN1 WD thrives on the power and potential of diversity. As a global company, we believe the most effective way to embrace the diversity of our customers and communities is to mirror it from within. We believe the fusion of various perspectives results in the best outcomes for our employees, our company, our customers, and the world around us. We are committed to an inclusive environment where every individual can thrive through a sense of belonging, respect and contribution. WD is committed to offering opportunities to applicants with disabilities and ensuring all candidates can successfully navigate our careers website and our hiring process. Please contact us at jobs.accommodations@wdc.com to advise us of your accommodation request. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying. Notice To Candidates: Please be aware that WD and its subsidiaries will never request payment as a condition for applying for a position or receiving an offer of employment. Should you encounter any such requests, please report it immediately to WD Ethics Helpline or email compliance@wdc.com .",
+        "jd_chars": 5678,
+        "jd_sha256": "394a33c9d1aeb9541759f5c47ecb91105e261b9755be7430b97468d828b115ab",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "About This Role — The Mission This is not a generalist AI research role. We are looking for a researcher who has spent serious time thinking about how physics constraints interact with neural network training — and who wants to see that met",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T01:29:36.461241Z",
+      "key": "sg:4247e8b404fc326a01aa",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "query": "Singapore, sg",
+      "retries": 0,
+      "seq": 74,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "744000153657449",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "AI Research Scientist, Scientific ML",
+      "url": "https://jobs.smartrecruiters.com/WesternDigital/744000153657449",
+      "reason": "Employer-authored full JD requires scientific ML/PINNs methodology, physics-constrained losses and digital-twin modelling as critical mandatory capability, plus research-level PyTorch/JAX and demonstrated scientific-ML research output. Candidate's NLP/LLM/KG thesis does not establish required physics ML specialization.",
+      "checked_at": "2026-11-11",
+      "review_source": "stored first-party full JD; independently compared candidate hard eligibility"
     }
   ],
   "version": 1
