@@ -6,6 +6,8 @@ on:
     paths:
       - scripts/intake_official_ats.py
       - scripts/build_review_dispatch.py
+      - scripts/rule_triage.py
+      - tests/test_rule_triage.py
       - tests/test_build_review_dispatch.py
       - scripts/collect_market_api.py
       # Legacy API collector remains for regression parity; not run in production.
@@ -167,6 +169,22 @@ jobs:
             fi
           fi
           cat artifacts/ats-intake-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Read-only rule triage audit across all real Pending and historical dispositions
+        run: |
+          python scripts/rule_triage.py --repo . --output artifacts/rule-triage.json
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          report=json.loads(Path('artifacts/rule-triage.json').read_text())
+          lines=['## Rule-based triage v1 (DRY RUN; no auto ACK)', '',
+                 '| Market | Pending | Fresh first-party JD | No fresh JD | Rule lanes |', 
+                 '|---|---:|---:|---:|---|']
+          for m, d in report['markets'].items():
+              lanes=', '.join(f'{k}: {v}' for k,v in d['lanes'].items())
+              lines.append(f"| {m} | {d['pending']} | {d['fresh_full_jds']} | {d['source_gaps']} | {lanes} |")
+          lines+=['','No source history, GitHub Issues, Gmail, or applications were mutated by the rule engine.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('\n'.join(lines)+'\n')
+          PY
       - name: Publish one actionable review worklist from durable queues
         run: |
           python scripts/build_review_dispatch.py \
@@ -222,6 +240,7 @@ jobs:
             artifacts/ats-intake-summary.md
             artifacts/api-snapshots/health.json
             artifacts/api-snapshots/platform-coverage.md
+            artifacts/rule-triage.json
             artifacts/review-dispatch.json
             artifacts/review-dispatch.md
           retention-days: 14
