@@ -8,10 +8,13 @@ on:
     paths:
       - 'scripts/report_job_pipeline_health.py'
       - 'tests/test_job_pipeline_health.py'
+      - 'scripts/report_issue_lifecycle_health.py'
+      - 'tests/test_issue_lifecycle_health.py'
       - '.github/workflows/job-pipeline-health.yml'
 permissions:
   contents: read
   actions: read
+  issues: read
 jobs:
   observe:
     runs-on: ubuntu-latest
@@ -23,6 +26,19 @@ jobs:
           python-version: '3.13'
       - name: Verify honest backlog and scheduled-run counters
         run: python -m unittest discover -s tests -p 'test_job_pipeline_health.py' -v
+      - name: Verify issue lifecycle health invariants
+        run: python -m unittest discover -s tests -p 'test_issue_lifecycle_health.py' -v
+      - name: Audit exact open Issue statuses and event-run evidence
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/report_issue_lifecycle_health.py --out artifacts/lifecycle-health.json --summary artifacts/lifecycle-health.md --strict
+      - name: Publish inspectable applicant-lifecycle summary
+        if: always()
+        run: |
+          if [ -f artifacts/lifecycle-health.md ]; then
+            cat artifacts/lifecycle-health.md >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Read real repo queue state and recent GitHub Action outcomes
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -34,5 +50,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pipeline-health
-          path: artifacts/pipeline-health*
+          path: |
+            artifacts/pipeline-health*
+            artifacts/lifecycle-health*
           retention-days: 14
