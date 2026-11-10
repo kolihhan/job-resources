@@ -356,49 +356,6 @@
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
-        "text": "<h3>About Meshy</h3><p>Headquartered in <strong>Silicon Valley</strong>, Meshy is the leading 3D generative AI company on a mission to <strong>Unleash 3D Creativity</strong> by transforming the content creation pipeline. Meshy makes it effortless for both professional artists and hobbyists to create unique 3D assets—turning text and images into stunning 3D models in just minutes. What once took weeks and cost $1,000 now takes just 2 minutes and $1.</p><p>Our world-class team of top experts in computer graphics, AI, and art includes alumni from MIT, Stanford, and Berkeley, as well as veterans from Nvidia and Microsoft. Our talent spans the globe, with team members distributed across <strong>North America, Asia, and Oceania</strong>, fostering a diverse and innovative multi-regional culture focused on solving global 3D challenges. Meshy is trusted by top developers, backed by premiere venture capital firms like <strong>Sequoia and GGV</strong>, and has successfully raised <strong>$52",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-3d-dataset-engineer-meshy-v2kti2ak",
-      "company": "Meshy",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:22.998919+00:00",
-        "employment_time_type": "FullTime",
-        "full_jd_complete": true,
-        "full_jd_text": "ABOUT MESHY Headquartered in Silicon Valley, Meshy is the leading 3D generative AI company on a mission to Unleash 3D Creativity by transforming the content creation pipeline. Meshy makes it effortless for both professional artists and hobbyists to create unique 3D assets—turning text and images into stunning 3D models in just minutes. What once took weeks and cost $1,000 now takes just 2 minutes and $1. Our world-class team of top experts in computer graphics, AI, and art includes alumni from MIT, Stanford, and Berkeley, as well as veterans from Nvidia and Microsoft. Our talent spans the globe, with team members distributed across North America, Asia, and Oceania, fostering a diverse and innovative multi-regional culture focused on solving global 3D challenges. Meshy is trusted by top developers, backed by premiere venture capital firms like Sequoia and GGV, and has successfully raised $52 Million in funding. Meshy is the market leader, recognized as the No.1 in popularity among 3D AI tools (according to 2024 A16Z Games) and No.1 in website traffic (according to SimilarWeb, with 3 Million monthly visits). The platform boasts over 6 Million users and has generated 40 Million models. Founder and CEO Yuanming (Ethan) Hu earned his Ph.D. in graphics and AI from MIT, where he developed the acclaimed Taichi GPU programming language (27K stars on GitHub, used by 300+ institutes). His work is highly influential, including an honorable mention for the SIGGRAPH 2022 Outstanding Doctoral Dissertation Award and over 2,700 research citations. ABOUT THE ROLE WHAT YOU’LL DO: - Responsible for the development and daily maintenance of end-to-end 3D data governance and enhancement pipelines, ensuring the efficient flow of 3D data through geometric analysis, quality assessment, and data synthesis. - Develop internal data cleaning, annotation, and visualization tools using Python and C++; maintain the 3D asset quality monitoring engine and continuously optimize the automation of data infrastructure. - Manage data pipelines, actively participate in the integration and scheduling of data cleaning solutions, review external delivery progress, and ensure high-quality data is delivered to the algorithm team on time. - Participate in the setup of CI/CD processes and be responsible for documenting high-quality technical documentation (RFCs/Specs). WHAT WE'RE LOOKING FOR: - Must have a background in computer graphics or relevant project experience, and be familiar with mesh data structures (GLB/OBJ/USD/FBX); understand the fundamentals of geometric processing (e.g., manifold detection, UV unwrapping, topology, normal vector calculation, etc.) - Possess strong Python development skills and be proficient in using graphics and data processing libraries - Familiarity with common data structures and algorithms, with the ability to handle large-scale datasets containing tens of millions of data points - Strong documentation skills (RFCs/Technical Specs), with the ability to clearly and systematically document development logic and operational workflows NICE TO HAVE: - Proficient in C++ and CUDA programming, with the ability to contribute to the development and optimization of high-performance data indexing or search engines (such as KNN Graph). - In-depth experience with generative AI 3D products and a thorough understanding of their underlying principles - Experience using big data platforms such as Databricks, or familiarity with common vector databases and vector indexing algorithms - Experience coordinating with external annotation teams or managing outsourced projects, with strong project scheduling and communication skills - Enthusiast of 3D printing and laser engraving, or experience in independent game development OUR VALUES - Brain: We value intelligence and the pursuit of knowledge. Our team is composed of some of the brightest minds in the industry. - Heart: We care deeply about our work, our users, and each other. Empathy and passion drive us forward. - Gut: We trust our instincts and are not afraid to take bold risks. Innovation requires courage. - Taste: We have a keen eye for quality and aesthetics. Our products are not just functional but also beautiful. WHY JOIN MESHY? - Competitive salary, equity, and benefits package. - Opportunity to work with a talented and passionate team at the forefront of AI and 3D technology. - Flexible work environment, with options for remote and on-site work. - Opportunities for fast professional growth and development. - An inclusive culture that values creativity, innovation, and collaboration. - Unlimited, flexible time off.",
-        "jd_chars": 4626,
-        "jd_sha256": "c3fa7121b6b0fb16316638d6885695933c4f0312bd5e0de9dbe59c47b8c3f464",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "ashby first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<h3>About Meshy</h3><p>Headquartered in <strong>Silicon Valley</strong>, Meshy is the leading 3D generative AI company on a mission to <strong>Unleash 3D Creativity</strong> by transforming the content creation pipeline. Meshy makes it effo",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.171682Z",
-      "key": "cn:ee58dae9e1a7e71461cd",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "query": "Shanghai",
-      "retries": 0,
-      "seq": 29,
-      "source": "freehire:public-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-3d-dataset-engineer-meshy-v2kti2ak",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI 3D Dataset Engineer ",
-      "url": "https://jobs.ashbyhq.com/meshy/60206200-a633-493c-8bb5-4749593c4d58"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<h2><strong>About Meshy</strong></h2><p>Headquartered in Silicon Valley, Meshy is the leading 3D generative AI company on a mission to Unleash 3D Creativity by transforming the content creation pipeline. Meshy makes it effortless for both professional artists and hobbyists to create unique 3D assets—turning text and images into stunning 3D models in just minutes. What once took weeks and cost $1,000 now takes just 2 minutes and $1.</p><p>Our world-class team of top experts in computer graphics, AI, and art includes alumni from MIT, Stanford, and Berkeley, as well as veterans from Nvidia and Microsoft. Our talent spans the globe, with team members distributed across North America, Asia, and Oceania, fostering a diverse and innovative multi-regional culture focused on solving global 3D challenges. Meshy is trusted by top developers, backed by premiere venture capital firms like Sequoia and GGV, and has successfully raised $52 Million in funding.</p><p>Meshy is the market leader,",
         "truncated": false
       },
@@ -723,49 +680,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "电源软件研发工程师",
       "url": "https://www.liepin.com/job/1986292501.shtml"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API",
-        "text": "<p><strong>Job Description</strong></p><p><strong>Location:</strong> Hong Kong — Hybrid (factory floor, test lab and manufacturing sites; this is not a remote or desk-based role)<br/><strong>Start date:</strong> ASAP<br/><strong>Languages:</strong> Fluent English and fluent Mandarin are both mandatory<br/><strong>Industry:</strong> HPC / GPU Server Manufacturing / Sovereign Cloud Infrastructure</p><p>Pragmatike is recruiting on behalf of a European deep-tech company building a sovereign, energy-efficient alternative to traditional cloud providers. Unlike most cloud players, our client designs and manufactures its own HPC infrastructure end to end — chassis, boards and containerized units — and deploys it as the hardware layer of a vertically integrated AI cloud. The company is growing fast and is expanding its manufacturing and testing capability in Hong Kong.</p><p><strong>Professional Background:</strong></p><p>We're looking for a Server Engineer with hands-on GPU/HPC hardware",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-infrastructure-hardware-engineer-pragmatike-4sgwzvel",
-      "company": "Pragmatike",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:22.998919+00:00",
-        "employment_time_type": "FullTime",
-        "full_jd_complete": true,
-        "full_jd_text": "Job Description Location: Hong Kong — Hybrid (factory floor, test lab and manufacturing sites; this is not a remote or desk-based role) Start date: ASAP Languages: Fluent English and fluent Mandarin are both mandatory Industry: HPC / GPU Server Manufacturing / Sovereign Cloud Infrastructure Pragmatike is recruiting on behalf of a European deep-tech company building a sovereign, energy-efficient alternative to traditional cloud providers. Unlike most cloud players, our client designs and manufactures its own HPC infrastructure end to end — chassis, boards and containerized units — and deploys it as the hardware layer of a vertically integrated AI cloud. The company is growing fast and is expanding its manufacturing and testing capability in Hong Kong. Professional Background: We're looking for a Server Engineer with hands-on GPU/HPC hardware experience who has tested and validated servers, not just operated them. You should be comfortable moving between the factory floor and the test lab, with a strong Linux background and real familiarity with firmware and GPU software stacks (CUDA, NCCL). You take ownership of quality: if a server ships, it is because you signed off on it. Startup or hyper-growth experience is a strong plus. Autonomy, rigor and problem-solving are essential. Your Responsibilities: - Own quality control across the client's manufacturing sites, on the factory floor. - Run the hardware test lab: board and system bring-up, validation and stress testing of new server builds. - Oversee the assembly and end-to-end testing of GPU servers before they are deployed into the client's sovereign cloud. - Define and maintain test procedures, acceptance criteria and QC checkpoints for chassis, boards and full systems. - Diagnose hardware, firmware and driver-level issues (BIOS/BMC, GPU firmware, PCIe, thermals, power) and drive root-cause analysis with the design and manufacturing teams. - Validate GPU compute and interconnect performance under Linux using CUDA, NCCL and related benchmarking tools. - Document failures, yields and test results, and feed findings back into hardware design and production processes. - Coordinate day to day with manufacturing partners and local suppliers in both English and Mandarin. What You Bring: - Proven hands-on experience testing and validating GPU/HPC servers (bring-up, burn-in, validation), not only using them. - Strong Linux skills at the system and hardware level. - Firmware knowledge: BIOS/UEFI, BMC/IPMI, GPU and NIC firmware, flashing and troubleshooting. - Working knowledge of the NVIDIA GPU stack: drivers, CUDA, NCCL, and how to benchmark and diagnose multi-GPU systems. - Solid understanding of server hardware: motherboards, PCIe topology, power, cooling, storage and networking components. - Experience with QC or manufacturing test processes in a hardware production environment. - Fluent English and fluent Mandarin (both non-negotiable). - Willingness to work on-site in Hong Kong, on the factory floor and in the lab. Nice To Have: - Experience with containerized or micro-datacenter deployments (power, thermal and environmental constraints). - Familiarity with high-speed interconnects (InfiniBand, RoCE, NVLink) and their validation. - Scripting skills (Bash/Python) to automate test sequences and reporting. - Exposure to hardware supply chains or contract manufacturers in Hong Kong / Southern China. - Cantonese. Why Join Us: Our client is one of the very few cloud companies that builds its own hardware from the board up. Their mission is to deliver a sovereign, energy-efficient, high-performance alternative to traditional cloud providers, and the servers you test and validate are the physical foundation of that platform. Expect real ownership from day one, a fast-paced environment that values autonomy and problem-solving, and the chance to build something that doesn't exist yet. Pragmatike• is dedicated to a fair, transparent, and inclusive recruitment process. We ensure that no applicant is discriminated against based on age, disability, gender, gender identity or expression, marital or civil partner status, pregnancy or maternity, race, religion or belief, sex, or sexual orientation. In accordance with the General Data Protection Regulation (GDPR), your personal data will be processed lawfully, fairly, and securely. We collect and use your personal data solely for recruitment purposes, including sharing it with our client(s) for employment consideration. You have the right to request access, correction, or deletion of your data at any time. We are committed to maintaining the confidentiality and security of your information throughout the recruitment process.",
-        "jd_chars": 4690,
-        "jd_sha256": "15c6728e0f67cf6bbc5d10a7d26d1a2d2232236ce08cf9bd23575e355c7df691",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "ashby first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<p><strong>Job Description</strong></p><p><strong>Location:</strong> Hong Kong — Hybrid (factory floor, test lab and manufacturing sites; this is not a remote or desk-based role)<br/><strong>Start date:</strong> ASAP<br/><strong>Languages:<",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T01:29:36.527791Z",
-      "key": "cn:df0aa512d074760dc8e2",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "query": "APAC / China / Hong Kong",
-      "retries": 0,
-      "seq": 47,
-      "source": "freehire:public-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-infrastructure-hardware-engineer-pragmatike-4sgwzvel",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Infrastructure Hardware Engineer",
-      "url": "https://jobs.ashbyhq.com/pragmatike/e33ac146-4a12-453f-a882-1a77e1348cf8"
     },
     {
       "api_source_context": {
@@ -1830,6 +1744,104 @@
       "state": "HARD_REJECTED",
       "title": "LLM Reinforcement Learning Framework Intern - 2027",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/LLM-Reinforcement-Learning-Framework-Intern---2027_JR2027624"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "<h3>About Meshy</h3><p>Headquartered in <strong>Silicon Valley</strong>, Meshy is the leading 3D generative AI company on a mission to <strong>Unleash 3D Creativity</strong> by transforming the content creation pipeline. Meshy makes it effortless for both professional artists and hobbyists to create unique 3D assets—turning text and images into stunning 3D models in just minutes. What once took weeks and cost $1,000 now takes just 2 minutes and $1.</p><p>Our world-class team of top experts in computer graphics, AI, and art includes alumni from MIT, Stanford, and Berkeley, as well as veterans from Nvidia and Microsoft. Our talent spans the globe, with team members distributed across <strong>North America, Asia, and Oceania</strong>, fostering a diverse and innovative multi-regional culture focused on solving global 3D challenges. Meshy is trusted by top developers, backed by premiere venture capital firms like <strong>Sequoia and GGV</strong>, and has successfully raised <strong>$52",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-3d-dataset-engineer-meshy-v2kti2ak",
+      "company": "Meshy",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:22.998919+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT MESHY Headquartered in Silicon Valley, Meshy is the leading 3D generative AI company on a mission to Unleash 3D Creativity by transforming the content creation pipeline. Meshy makes it effortless for both professional artists and hobbyists to create unique 3D assets—turning text and images into stunning 3D models in just minutes. What once took weeks and cost $1,000 now takes just 2 minutes and $1. Our world-class team of top experts in computer graphics, AI, and art includes alumni from MIT, Stanford, and Berkeley, as well as veterans from Nvidia and Microsoft. Our talent spans the globe, with team members distributed across North America, Asia, and Oceania, fostering a diverse and innovative multi-regional culture focused on solving global 3D challenges. Meshy is trusted by top developers, backed by premiere venture capital firms like Sequoia and GGV, and has successfully raised $52 Million in funding. Meshy is the market leader, recognized as the No.1 in popularity among 3D AI tools (according to 2024 A16Z Games) and No.1 in website traffic (according to SimilarWeb, with 3 Million monthly visits). The platform boasts over 6 Million users and has generated 40 Million models. Founder and CEO Yuanming (Ethan) Hu earned his Ph.D. in graphics and AI from MIT, where he developed the acclaimed Taichi GPU programming language (27K stars on GitHub, used by 300+ institutes). His work is highly influential, including an honorable mention for the SIGGRAPH 2022 Outstanding Doctoral Dissertation Award and over 2,700 research citations. ABOUT THE ROLE WHAT YOU’LL DO: - Responsible for the development and daily maintenance of end-to-end 3D data governance and enhancement pipelines, ensuring the efficient flow of 3D data through geometric analysis, quality assessment, and data synthesis. - Develop internal data cleaning, annotation, and visualization tools using Python and C++; maintain the 3D asset quality monitoring engine and continuously optimize the automation of data infrastructure. - Manage data pipelines, actively participate in the integration and scheduling of data cleaning solutions, review external delivery progress, and ensure high-quality data is delivered to the algorithm team on time. - Participate in the setup of CI/CD processes and be responsible for documenting high-quality technical documentation (RFCs/Specs). WHAT WE'RE LOOKING FOR: - Must have a background in computer graphics or relevant project experience, and be familiar with mesh data structures (GLB/OBJ/USD/FBX); understand the fundamentals of geometric processing (e.g., manifold detection, UV unwrapping, topology, normal vector calculation, etc.) - Possess strong Python development skills and be proficient in using graphics and data processing libraries - Familiarity with common data structures and algorithms, with the ability to handle large-scale datasets containing tens of millions of data points - Strong documentation skills (RFCs/Technical Specs), with the ability to clearly and systematically document development logic and operational workflows NICE TO HAVE: - Proficient in C++ and CUDA programming, with the ability to contribute to the development and optimization of high-performance data indexing or search engines (such as KNN Graph). - In-depth experience with generative AI 3D products and a thorough understanding of their underlying principles - Experience using big data platforms such as Databricks, or familiarity with common vector databases and vector indexing algorithms - Experience coordinating with external annotation teams or managing outsourced projects, with strong project scheduling and communication skills - Enthusiast of 3D printing and laser engraving, or experience in independent game development OUR VALUES - Brain: We value intelligence and the pursuit of knowledge. Our team is composed of some of the brightest minds in the industry. - Heart: We care deeply about our work, our users, and each other. Empathy and passion drive us forward. - Gut: We trust our instincts and are not afraid to take bold risks. Innovation requires courage. - Taste: We have a keen eye for quality and aesthetics. Our products are not just functional but also beautiful. WHY JOIN MESHY? - Competitive salary, equity, and benefits package. - Opportunity to work with a talented and passionate team at the forefront of AI and 3D technology. - Flexible work environment, with options for remote and on-site work. - Opportunities for fast professional growth and development. - An inclusive culture that values creativity, innovation, and collaboration. - Unlimited, flexible time off.",
+        "jd_chars": 4626,
+        "jd_sha256": "c3fa7121b6b0fb16316638d6885695933c4f0312bd5e0de9dbe59c47b8c3f464",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<h3>About Meshy</h3><p>Headquartered in <strong>Silicon Valley</strong>, Meshy is the leading 3D generative AI company on a mission to <strong>Unleash 3D Creativity</strong> by transforming the content creation pipeline. Meshy makes it effo",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-09T16:57:31.171682Z",
+      "key": "cn:ee58dae9e1a7e71461cd",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Shanghai",
+      "retries": 0,
+      "seq": 29,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-3d-dataset-engineer-meshy-v2kti2ak",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "HARD_REJECTED",
+      "title": "AI 3D Dataset Engineer ",
+      "url": "https://jobs.ashbyhq.com/meshy/60206200-a633-493c-8bb5-4749593c4d58",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason": "MANDATORY_GRAPHICS_DOMAIN_MISMATCH",
+        "note": "Official Ashby full JD stored 2026-11-10: mandatory computer graphics/mesh structures (GLB/OBJ/USD/FBX), geometric processing and 3D asset pipeline. Candidate's documented NLP/RAG/backend experience does not meet mandatory graphics domain; role's core is 3D data cleaning rather than target LLM/Agent research or engineering.",
+        "review_source": "https://jobs.ashbyhq.com/meshy/60206200-a633-493c-8bb5-4749593c4d58 ; stored consumer_review.full_jd_text"
+      }
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "<p><strong>Job Description</strong></p><p><strong>Location:</strong> Hong Kong — Hybrid (factory floor, test lab and manufacturing sites; this is not a remote or desk-based role)<br/><strong>Start date:</strong> ASAP<br/><strong>Languages:</strong> Fluent English and fluent Mandarin are both mandatory<br/><strong>Industry:</strong> HPC / GPU Server Manufacturing / Sovereign Cloud Infrastructure</p><p>Pragmatike is recruiting on behalf of a European deep-tech company building a sovereign, energy-efficient alternative to traditional cloud providers. Unlike most cloud players, our client designs and manufactures its own HPC infrastructure end to end — chassis, boards and containerized units — and deploys it as the hardware layer of a vertically integrated AI cloud. The company is growing fast and is expanding its manufacturing and testing capability in Hong Kong.</p><p><strong>Professional Background:</strong></p><p>We're looking for a Server Engineer with hands-on GPU/HPC hardware",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-infrastructure-hardware-engineer-pragmatike-4sgwzvel",
+      "company": "Pragmatike",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:22.998919+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "Job Description Location: Hong Kong — Hybrid (factory floor, test lab and manufacturing sites; this is not a remote or desk-based role) Start date: ASAP Languages: Fluent English and fluent Mandarin are both mandatory Industry: HPC / GPU Server Manufacturing / Sovereign Cloud Infrastructure Pragmatike is recruiting on behalf of a European deep-tech company building a sovereign, energy-efficient alternative to traditional cloud providers. Unlike most cloud players, our client designs and manufactures its own HPC infrastructure end to end — chassis, boards and containerized units — and deploys it as the hardware layer of a vertically integrated AI cloud. The company is growing fast and is expanding its manufacturing and testing capability in Hong Kong. Professional Background: We're looking for a Server Engineer with hands-on GPU/HPC hardware experience who has tested and validated servers, not just operated them. You should be comfortable moving between the factory floor and the test lab, with a strong Linux background and real familiarity with firmware and GPU software stacks (CUDA, NCCL). You take ownership of quality: if a server ships, it is because you signed off on it. Startup or hyper-growth experience is a strong plus. Autonomy, rigor and problem-solving are essential. Your Responsibilities: - Own quality control across the client's manufacturing sites, on the factory floor. - Run the hardware test lab: board and system bring-up, validation and stress testing of new server builds. - Oversee the assembly and end-to-end testing of GPU servers before they are deployed into the client's sovereign cloud. - Define and maintain test procedures, acceptance criteria and QC checkpoints for chassis, boards and full systems. - Diagnose hardware, firmware and driver-level issues (BIOS/BMC, GPU firmware, PCIe, thermals, power) and drive root-cause analysis with the design and manufacturing teams. - Validate GPU compute and interconnect performance under Linux using CUDA, NCCL and related benchmarking tools. - Document failures, yields and test results, and feed findings back into hardware design and production processes. - Coordinate day to day with manufacturing partners and local suppliers in both English and Mandarin. What You Bring: - Proven hands-on experience testing and validating GPU/HPC servers (bring-up, burn-in, validation), not only using them. - Strong Linux skills at the system and hardware level. - Firmware knowledge: BIOS/UEFI, BMC/IPMI, GPU and NIC firmware, flashing and troubleshooting. - Working knowledge of the NVIDIA GPU stack: drivers, CUDA, NCCL, and how to benchmark and diagnose multi-GPU systems. - Solid understanding of server hardware: motherboards, PCIe topology, power, cooling, storage and networking components. - Experience with QC or manufacturing test processes in a hardware production environment. - Fluent English and fluent Mandarin (both non-negotiable). - Willingness to work on-site in Hong Kong, on the factory floor and in the lab. Nice To Have: - Experience with containerized or micro-datacenter deployments (power, thermal and environmental constraints). - Familiarity with high-speed interconnects (InfiniBand, RoCE, NVLink) and their validation. - Scripting skills (Bash/Python) to automate test sequences and reporting. - Exposure to hardware supply chains or contract manufacturers in Hong Kong / Southern China. - Cantonese. Why Join Us: Our client is one of the very few cloud companies that builds its own hardware from the board up. Their mission is to deliver a sovereign, energy-efficient, high-performance alternative to traditional cloud providers, and the servers you test and validate are the physical foundation of that platform. Expect real ownership from day one, a fast-paced environment that values autonomy and problem-solving, and the chance to build something that doesn't exist yet. Pragmatike• is dedicated to a fair, transparent, and inclusive recruitment process. We ensure that no applicant is discriminated against based on age, disability, gender, gender identity or expression, marital or civil partner status, pregnancy or maternity, race, religion or belief, sex, or sexual orientation. In accordance with the General Data Protection Regulation (GDPR), your personal data will be processed lawfully, fairly, and securely. We collect and use your personal data solely for recruitment purposes, including sharing it with our client(s) for employment consideration. You have the right to request access, correction, or deletion of your data at any time. We are committed to maintaining the confidentiality and security of your information throughout the recruitment process.",
+        "jd_chars": 4690,
+        "jd_sha256": "15c6728e0f67cf6bbc5d10a7d26d1a2d2232236ce08cf9bd23575e355c7df691",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<p><strong>Job Description</strong></p><p><strong>Location:</strong> Hong Kong — Hybrid (factory floor, test lab and manufacturing sites; this is not a remote or desk-based role)<br/><strong>Start date:</strong> ASAP<br/><strong>Languages:<",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T01:29:36.527791Z",
+      "key": "cn:df0aa512d074760dc8e2",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "APAC / China / Hong Kong",
+      "retries": 0,
+      "seq": 47,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-infrastructure-hardware-engineer-pragmatike-4sgwzvel",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "HARD_REJECTED",
+      "title": "AI Infrastructure Hardware Engineer",
+      "url": "https://jobs.ashbyhq.com/pragmatike/e33ac146-4a12-453f-a882-1a77e1348cf8",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason": "WRONG_MARKET_HK_AND_MANDATORY_HARDWARE",
+        "note": "Official Ashby full JD stored 2026-11-10 explicitly states workplace Hong Kong factory/test lab and mandatory GPU/HPC hardware server validation, firmware, CUDA/NCCL. Hong Kong market is paused, and mandatory hardware experience mismatches candidate.",
+        "review_source": "https://jobs.ashbyhq.com/pragmatike/e33ac146-4a12-453f-a882-1a77e1348cf8 ; stored consumer_review.full_jd_text"
+      }
     }
   ],
   "version": 1
