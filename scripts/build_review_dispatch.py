@@ -225,8 +225,10 @@ def _candidate_ats(row, market):
 
 def _sort_priority(role):
     # Cheap applicant-review scheduling, not an eligibility or APPLY verdict.
-    # Current full employer JD saves a new fetch, so review it before
-    # incomplete/stale metadata. Preserve ENG/RES parity via _choose_fair().
+    # Prefer verified first-party JDs, then source snapshots advertising full
+    # employer JDs, before incomplete/API-only Pending (even when cap=45).
+    # The ATS snapshot is still NOT a verified live role or applicant fit.
+    # Preserve ENG/RES parity via _choose_fair().
     maturity = bool(role["title_maturity_flag"])
     secondary = role.get("feed_lane") == "MY_SWE_SECONDARY"
     rule_rank = {
@@ -253,7 +255,7 @@ def _sort_priority(role):
     prior_flag = "CHECK_POSSIBLE_CROSS_PLATFORM_ISSUE" in (role.get("review_flags") or [])
     title_weak = not bool(CORE.search(role["title"]))
     seq = role.get("queue_seq", 999999999)
-    return (maturity, secondary, lane_rank, rank, int(prior_flag), title_weak, seq,
+    return (maturity, secondary, rank, lane_rank, int(prior_flag), title_weak, seq,
             role["company"].lower(), role["url"])
 
 
