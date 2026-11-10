@@ -88,6 +88,22 @@ class RuleTriageTests(unittest.TestCase):
         self.assertEqual(d["lane"],"JD_READY")
         self.assertNotIn("EXPLICIT_4PLUS_EXPERIENCE_REVIEW",d["rule_codes"])
 
+    def test_2_to_5_range_not_falsely_mandatory_5_plus(self):
+        # Exact real NCS SG source counterexample: this is a range, not a
+        # mandatory five-year MINIMUM and paid part-time SWE is relevant.
+        for token in ("2–5", "2-5", "2 — 5", "3 to 5"):
+            jd=JD_BODY+" Professional Experience At least "+token+" years of experience in AI/ML development."
+            d=triage(row("#EG AI Developer (Agentic AI Systems)",jd=jd),"SG",now=NOW)
+            self.assertEqual(d["lane"],"JD_READY", token)
+            self.assertNotIn("EXPLICIT_4PLUS_EXPERIENCE_REVIEW",d["rule_codes"], token)
+            self.check_nonterminal(d)
+
+    def test_eight_to_twelve_year_range_remains_hard_review(self):
+        jd=JD_BODY+" Essential Skills You Will Need 8 - 12 years of experience in strategic consulting."
+        d=triage(row("People Research Scientist",jd=jd),"SG",now=NOW)
+        self.assertIn("EXPLICIT_4PLUS_EXPERIENCE_REVIEW",d["rule_codes"])
+        self.check_nonterminal(d)
+
     def test_mandatory_five_years_flag_requires_human_read(self):
         jd=JD_BODY + " Minimum of 5+ years of professional software engineering experience required."
         d=triage(row(jd=jd),"SG",now=NOW)
