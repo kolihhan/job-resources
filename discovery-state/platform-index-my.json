@@ -354,40 +354,6 @@
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
-        "text": "<p>We&#39;re seeking a team of entry level graduate AI Engineer and/or IT Specialist to be involve in IT Digital Transformation Project.</p><p>Fresh Graduates are encouraged to apply!</p><p><strong>Job Responsibilities:</strong></p><ul><li><p>Design and implement AI agents that operate across end-to-end business workflows.</p></li><li><p>Build LLM-powered applications and pipelines using appropriate frameworks and production-quality code.</p></li><li><p>Develop agent behaviors, including task decomposition, reasoning steps, tool usage, and workflow execution.</p></li><li><p>Integrate AI agents with enterprise data sources, documents, and internal systems.</p></li><li><p>Implement structured outputs, validation, and grounding to ensure consistent and reliable results.</p></li><li><p>Apply guardrails, escalation paths, and human-in-the-loop controls for enterprise use.</p></li><li><p>Optimize solutions for performance, cost efficiency, and operational stability.</p></li><li><p>Work",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-digital-transformation-press-metal-rgfztnxx",
-      "company": "Press Metal",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:37:23.740141Z",
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "possible_prior_issue": 339,
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "<p>We&#39;re seeking a team of entry level graduate AI Engineer and/or IT Specialist to be involve in IT Digital Transformation Project.</p><p>Fresh Graduates are encouraged to apply!</p><p><strong>Job Responsibilities:</strong></p><ul><li>",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.156162Z",
-      "key": "my:671da559c0a57db0ddd9",
-      "last_error": null,
-      "market": "MY",
-      "platform": "public jobs API (unverified)",
-      "query": "Setia Alam, Selangor",
-      "retries": 0,
-      "seq": 44,
-      "source": "freehire:public-api:MY",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-digital-transformation-press-metal-rgfztnxx",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer (Digital Transformation)",
-      "url": "https://my.jobstreet.com/job/95310876"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p>Salary: RM 7,000 – RM 8,000 per month</p><p>You’ve spent years in UiPath and Automation Anywhere building bots that actually work in production. If you’ve already started exploring AI agents and LLMs, great — that’s a real bonus. If you haven’t, don’t let that stop you applying. Quanton Asia is hiring a Mid-Level Automation &amp; AI Developer where strong RPA credentials are what counts, and the AI journey is something we’ll take together. </p><p>We’re an AI and automation consultancy — certified partners with UiPath, Automation Anywhere, and Microsoft — delivering real digital transformation across Australia and New Zealand. Your RPA depth is the foundation we’re hiring for. Any AI experience you bring is a head start, not a prerequisite. What we need is someone who is proud of their automation craft and genuinely curious about where AI can take it — we’ll back you with the learning, mentorship, and real client problems to grow from there. </p><p><strong>What You'll Do</strong>",
         "truncated": false
       },
@@ -2282,6 +2248,43 @@
         "source_provenance": "Employer-published JobStreet listing in JobStreet category/company index",
         "note": "JobStreet employer-title listing 'AI Agent Engineer (Contract)' for Triple Y Studio in KL Eco City explicitly classified Contract/Temp; commercial AI workflow role is not research-exception qualified, so prohibited non-permanent MY-ENG employment."
       }
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "<p>We&#39;re seeking a team of entry level graduate AI Engineer and/or IT Specialist to be involve in IT Digital Transformation Project.</p><p>Fresh Graduates are encouraged to apply!</p><p><strong>Job Responsibilities:</strong></p><ul><li><p>Design and implement AI agents that operate across end-to-end business workflows.</p></li><li><p>Build LLM-powered applications and pipelines using appropriate frameworks and production-quality code.</p></li><li><p>Develop agent behaviors, including task decomposition, reasoning steps, tool usage, and workflow execution.</p></li><li><p>Integrate AI agents with enterprise data sources, documents, and internal systems.</p></li><li><p>Implement structured outputs, validation, and grounding to ensure consistent and reliable results.</p></li><li><p>Apply guardrails, escalation paths, and human-in-the-loop controls for enterprise use.</p></li><li><p>Optimize solutions for performance, cost efficiency, and operational stability.</p></li><li><p>Work",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-digital-transformation-press-metal-rgfztnxx",
+      "company": "Press Metal",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:37:23.740141Z",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "possible_prior_issue": 339,
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "<p>We&#39;re seeking a team of entry level graduate AI Engineer and/or IT Specialist to be involve in IT Digital Transformation Project.</p><p>Fresh Graduates are encouraged to apply!</p><p><strong>Job Responsibilities:</strong></p><ul><li>",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-09T16:57:31.156162Z",
+      "key": "my:671da559c0a57db0ddd9",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "Setia Alam, Selangor",
+      "retries": 0,
+      "seq": 44,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-digital-transformation-press-metal-rgfztnxx",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "ISSUE_VERIFIED",
+      "title": "AI Engineer (Digital Transformation)",
+      "url": "https://my.jobstreet.com/job/95310876",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/339",
+      "evidence_url": "https://my.joblum.com/job/ai-engineer-digital-transformation/2348411",
+      "reason": "Historical #339 independently re-reviewed; complete employer-written JD mirror plus current JobStreet role shows substantive Agent/RAG safety & deployment, fresh grad eligible; reopened as APPLY. No application submitted."
     }
   ],
   "version": 1
