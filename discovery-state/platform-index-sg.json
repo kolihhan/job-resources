@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T17:45:14.843424Z",
-    "source": "freehirefetch:official-ats:SG",
+    "at": "2026-11-10T20:59:23.630199Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 9,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 1,
-      "observed": 1
+      "new_pending": 0,
+      "observed": 9
     }
   },
   "market": "SG",
@@ -118,24 +118,24 @@
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
       "retries": 0,
-      "seq": 19,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer (AIAP)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131",
       "scout_retry": {
         "checked_at": "2026-11-11",
-        "status": "RETRY",
         "missing_evidence": "Exact NTU Workday R00026131 current application route and whether separate from existing AIAP APPLY R00025487 cannot be verified.",
-        "source": "SG Scout exact requisition review"
+        "source": "SG Scout exact requisition review",
+        "status": "RETRY"
       },
       "scout_review": {
         "ack": false,
         "checked_at": "2026-11-11T04:01:00+08:00",
         "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact NTU R00026131 live Workday application route inaccessible; AIAP history and foreign-hire eligibility remain unconfirmed."
-      }
+        "missing_evidence": "Exact NTU R00026131 live Workday application route inaccessible; AIAP history and foreign-hire eligibility remain unconfirmed.",
+        "status": "RETRY"
+      },
+      "seq": 19,
+      "source": "ntu:official-cxs:SG",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer (AIAP)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131"
     },
     {
       "company": "Nanyang Technological University",
@@ -265,20 +265,20 @@
       "prior_wait_employer_hint": true,
       "query": "Hong Kong; Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T04:01:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Binance Greenhouse 5002635101 live application page is inaccessible; stored JD alone cannot establish current application route.",
+        "status": "RETRY"
+      },
       "seq": 39,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "5002635101",
       "state": "UNVERIFIED_INDEX",
       "title": "LLM Applied Data Scientist (RAG/ NLP)",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T04:01:00+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact Binance Greenhouse 5002635101 live application page is inaccessible; stored JD alone cannot establish current application route."
-      }
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101"
     },
     {
       "ats_key": "micron|workday|/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
@@ -310,8 +310,8 @@
         "ack": false,
         "checked_at": "2026-11-11T04:56:37+08:00",
         "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact Micron Workday JR111138 application route is inaccessible; stored full JD requires 2+ years shipping production apps and Docker/Kubernetes/cloud, and JR111136 rejection is a different requisition."
+        "missing_evidence": "Exact Micron Workday JR111138 application route is inaccessible; stored full JD requires 2+ years shipping production apps and Docker/Kubernetes/cloud, and JR111136 rejection is a different requisition.",
+        "status": "RETRY"
       },
       "seq": 48,
       "source": "freehirefetch:official-ats:SG",
@@ -348,26 +348,26 @@
       "prior_wait_employer_hint": true,
       "query": "Australia; Hong Kong; New Zealand; Singapore; Taiwan",
       "retries": 0,
+      "scout_retry": {
+        "checked_at": "2026-11-11",
+        "missing_evidence": "Exact Binance Greenhouse 5009522101 current live application route cannot be opened; full employer JD stored but does not prove liveness.",
+        "source": "SG Scout exact requisition review",
+        "status": "RETRY"
+      },
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T04:56:37+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Confirm candidate has employer-required 2+ years deep-learning/NLP including 1+ year practical LLM work and deployed multi-agent workflows; exact Greenhouse 5009522101 route is live.",
+        "status": "RETRY"
+      },
       "seq": 50,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "5009522101",
       "state": "UNVERIFIED_INDEX",
       "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
-      "scout_retry": {
-        "checked_at": "2026-11-11",
-        "status": "RETRY",
-        "missing_evidence": "Exact Binance Greenhouse 5009522101 current live application route cannot be opened; full employer JD stored but does not prove liveness.",
-        "source": "SG Scout exact requisition review"
-      },
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T04:56:37+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Confirm candidate has employer-required 2+ years deep-learning/NLP including 1+ year practical LLM work and deployed multi-agent workflows; exact Greenhouse 5009522101 route is live."
-      }
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
     },
     {
       "ats_key": "bjakcareer|ashby|56f522c4-b903-45ea-bb08-952b74641b56",
@@ -683,6 +683,13 @@
         "decision": "RETRY",
         "missing_evidence": "SimplifyNext 5019281007 requires actual production AI, cloud and Kubernetes deployment; candidate evidence for these mandatory skills is unverified."
       },
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T04:56:37+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Confirm candidate has required production-deployed AI systems plus real AWS/Azure/GCP AI workload and Docker/Kubernetes deployment; exact Greenhouse 5019281007 route is live.",
+        "status": "RETRY"
+      },
       "seq": 80,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -691,14 +698,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T04:56:37+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Confirm candidate has required production-deployed AI systems plus real AWS/Azure/GCP AI workload and Docker/Kubernetes deployment; exact Greenhouse 5019281007 route is live."
-      }
+      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
     },
     {
       "api_source_context": {
@@ -927,6 +927,13 @@
       "platform": "workday official ATS",
       "query": "NTU Novena Campus, Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T04:01:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NTU R00026296-1 Workday application route is inaccessible; cannot verify current vacancy and employer application form.",
+        "status": "RETRY"
+      },
       "seq": 91,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -935,14 +942,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Assistant/Associate, Neuroscience and Artificial Intelligence [LKCMedicine]",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T04:01:00+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact NTU R00026296-1 Workday application route is inaccessible; cannot verify current vacancy and employer application form."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1"
     },
     {
       "api_source_context": {
@@ -1129,6 +1129,12 @@
       "platform": "ashby official ATS",
       "query": "Singapore",
       "retries": 0,
+      "scout_retry": {
+        "checked_at": "2026-11-11",
+        "missing_evidence": "Exact OpenAI Ashby requisition 8acfba11 current application status and equivalence to previously rejected Applied AI Engineer Issue #103 cannot be confirmed.",
+        "source": "SG Scout exact requisition review",
+        "status": "RETRY"
+      },
       "seq": 102,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -1137,13 +1143,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Applied AI Engineer",
-      "url": "https://jobs.ashbyhq.com/openai/8acfba11-707e-4d8e-a860-88643fae24ba",
-      "scout_retry": {
-        "checked_at": "2026-11-11",
-        "status": "RETRY",
-        "missing_evidence": "Exact OpenAI Ashby requisition 8acfba11 current application status and equivalence to previously rejected Applied AI Engineer Issue #103 cannot be confirmed.",
-        "source": "SG Scout exact requisition review"
-      }
+      "url": "https://jobs.ashbyhq.com/openai/8acfba11-707e-4d8e-a860-88643fae24ba"
     },
     {
       "api_source_context": {
@@ -3078,6 +3078,12 @@
       },
       "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "BJAK exact Ashby employer JD explicitly states: 'This role is remote, but candidates must be based in Singapore' and 'applicants should already be based in Singapore.' Candidate is based in Malaysia and needs employer-supported SG work pass; explicit current SG residence requirement blocks eligibility.",
+        "reason_code": "SG_RESIDENCY_REQUIRED"
+      },
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/f9882272-1379-4e75-8c3f-296893a2fdbe",
       "first_seen_at": "2026-11-10T17:44:46.022991Z",
       "key": "sg:cf5fc38b4a0b751e1a3d",
       "last_error": null,
@@ -3085,6 +3091,7 @@
       "platform": "ashby official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore",
+      "reason": "BJAK exact Ashby employer JD explicitly states: 'This role is remote, but candidates must be based in Singapore' and 'applicants should already be based in Singapore.' Candidate is based in Malaysia and needs employer-supported SG work pass; explicit current SG residence requirement blocks eligibility.",
       "retries": 0,
       "seq": 96,
       "source": "freehirefetch:official-ats:SG",
@@ -3094,14 +3101,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Applied AI Engineer",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/f9882272-1379-4e75-8c3f-296893a2fdbe",
-      "reason": "BJAK exact Ashby employer JD explicitly states: 'This role is remote, but candidates must be based in Singapore' and 'applicants should already be based in Singapore.' Candidate is based in Malaysia and needs employer-supported SG work pass; explicit current SG residence requirement blocks eligibility.",
-      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/f9882272-1379-4e75-8c3f-296893a2fdbe",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "SG_RESIDENCY_REQUIRED",
-        "note": "BJAK exact Ashby employer JD explicitly states: 'This role is remote, but candidates must be based in Singapore' and 'applicants should already be based in Singapore.' Candidate is based in Malaysia and needs employer-supported SG work pass; explicit current SG residence requirement blocks eligibility."
-      }
+      "url": "https://jobs.ashbyhq.com/bjakcareer/f9882272-1379-4e75-8c3f-296893a2fdbe"
     },
     {
       "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Assistant--Integrated-circuit-design-_R00026328",
@@ -3122,12 +3122,19 @@
       },
       "description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 u",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "NTU first-party R00026328 Research Assistant JD requires electronics/integrated-circuit design degree, EDA tools, IC layouts, circuit schematics and measurements. Candidate MSc CS NLP/LLM research has no qualifying integrated-circuit hardware background; not an AI/NLP research role.",
+        "reason_code": "SPECIALIST_DIRECTION_MISMATCH"
+      },
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Integrated-circuit-design-_R00026328",
       "first_seen_at": "2026-11-10T17:44:46.023077Z",
       "key": "sg:f5061c66e88aea11c8f3",
       "last_error": null,
       "market": "SG",
       "platform": "workday official ATS",
       "query": "NTU Main Campus, Singapore",
+      "reason": "NTU first-party R00026328 Research Assistant JD requires electronics/integrated-circuit design degree, EDA tools, IC layouts, circuit schematics and measurements. Candidate MSc CS NLP/LLM research has no qualifying integrated-circuit hardware background; not an AI/NLP research role.",
       "retries": 0,
       "seq": 99,
       "source": "freehirefetch:official-ats:SG",
@@ -3137,14 +3144,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Research Assistant (Integrated circuit design)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Integrated-circuit-design-_R00026328",
-      "reason": "NTU first-party R00026328 Research Assistant JD requires electronics/integrated-circuit design degree, EDA tools, IC layouts, circuit schematics and measurements. Candidate MSc CS NLP/LLM research has no qualifying integrated-circuit hardware background; not an AI/NLP research role.",
-      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Integrated-circuit-design-_R00026328",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "SPECIALIST_DIRECTION_MISMATCH",
-        "note": "NTU first-party R00026328 Research Assistant JD requires electronics/integrated-circuit design degree, EDA tools, IC layouts, circuit schematics and measurements. Candidate MSc CS NLP/LLM research has no qualifying integrated-circuit hardware background; not an AI/NLP research role."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Integrated-circuit-design-_R00026328"
     },
     {
       "ats_key": "ncs3|smartrecruiters|6000000001474348",
@@ -3165,6 +3165,13 @@
       },
       "description_excerpt": "This role sits within NCS AI Central's (AIC) Forward Deployed Engineering (FDE) model — the combined capability that takes AI solutions from proof-of-concept through to hardened production systems. As AI Engineer, you design and run rapid e",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "NCS first-party exact #EG AI Engineer FDE JD explicitly requires 4–5 years of hands-on professional AI/ML or GenAI engineering. Candidate has production paid part-time conventional backend engineering plus separate academic/personal LLM work, not 4 years AI engineering employment.",
+        "reason_code": "PROFESSIONAL_AI_4Y_FLOOR",
+        "source_provenance": "full employer ATS JD"
+      },
+      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001474348",
       "first_seen_at": "2026-11-10T17:44:46.023022Z",
       "key": "sg:3254d459827bc698914a",
       "last_error": null,
@@ -3172,6 +3179,7 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "NCS first-party exact #EG AI Engineer FDE JD explicitly requires 4–5 years of hands-on professional AI/ML or GenAI engineering. Candidate has production paid part-time conventional backend engineering plus separate academic/personal LLM work, not 4 years AI engineering employment.",
       "retries": 0,
       "seq": 97,
       "source": "freehirefetch:official-ats:SG",
@@ -3181,15 +3189,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "#EG AI Engineer",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001474348",
-      "reason": "NCS first-party exact #EG AI Engineer FDE JD explicitly requires 4–5 years of hands-on professional AI/ML or GenAI engineering. Candidate has production paid part-time conventional backend engineering plus separate academic/personal LLM work, not 4 years AI engineering employment.",
-      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001474348",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "PROFESSIONAL_AI_4Y_FLOOR",
-        "source_provenance": "full employer ATS JD",
-        "note": "NCS first-party exact #EG AI Engineer FDE JD explicitly requires 4–5 years of hands-on professional AI/ML or GenAI engineering. Candidate has production paid part-time conventional backend engineering plus separate academic/personal LLM work, not 4 years AI engineering employment."
-      }
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001474348"
     },
     {
       "ats_key": "ncs3|smartrecruiters|6000000001500810",
@@ -3210,6 +3210,13 @@
       },
       "description_excerpt": "As an AI Engineer who bridges traditional machine learning and modern generative / agentic AI. This role involves designing, building, and deploying end-to-end AI solutions including classical ML models, RAG-based applications, and lightwei",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "NCS first-party #EG AI Engineer (Contact Centre) JD explicitly requires 2–5 years in AI/ML engineering or data-science roles, several deployed ML projects and PyTorch/TensorFlow expertise. Candidate's AI work is MSc/project based, not 2+ years professional ML delivery.",
+        "reason_code": "PROFESSIONAL_AI_2Y_FLOOR",
+        "source_provenance": "full employer ATS JD"
+      },
+      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001500810",
       "first_seen_at": "2026-11-10T17:44:46.023050Z",
       "key": "sg:91154ca2330b157c655f",
       "last_error": null,
@@ -3217,6 +3224,7 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "NCS first-party #EG AI Engineer (Contact Centre) JD explicitly requires 2–5 years in AI/ML engineering or data-science roles, several deployed ML projects and PyTorch/TensorFlow expertise. Candidate's AI work is MSc/project based, not 2+ years professional ML delivery.",
       "retries": 0,
       "seq": 98,
       "source": "freehirefetch:official-ats:SG",
@@ -3226,15 +3234,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "#EG AI Engineer (Contact Centre)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001500810",
-      "reason": "NCS first-party #EG AI Engineer (Contact Centre) JD explicitly requires 2–5 years in AI/ML engineering or data-science roles, several deployed ML projects and PyTorch/TensorFlow expertise. Candidate's AI work is MSc/project based, not 2+ years professional ML delivery.",
-      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001500810",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "PROFESSIONAL_AI_2Y_FLOOR",
-        "source_provenance": "full employer ATS JD",
-        "note": "NCS first-party #EG AI Engineer (Contact Centre) JD explicitly requires 2–5 years in AI/ML engineering or data-science roles, several deployed ML projects and PyTorch/TensorFlow expertise. Candidate's AI work is MSc/project based, not 2+ years professional ML delivery."
-      }
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001500810"
     },
     {
       "ats_key": "temus|greenhouse|5233697008",
@@ -3255,6 +3255,13 @@
       },
       "description_excerpt": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Temus first-party AI Engineer 5233697008 JD specifies at least three years relevant AI/ML/software engineering plus at least three years implementing serverless, CI/CD, containerisation, Infrastructure-as-Code and tests. Candidate lacks established 3-year cloud IaC implementation tenure.",
+        "reason_code": "THREE_YEARS_PRODUCTION_AI_CLOUD_IAC",
+        "source_provenance": "full employer ATS JD"
+      },
+      "evidence_url": "https://job-boards.greenhouse.io/temus/jobs/5233697008",
       "first_seen_at": "2026-11-10T17:44:46.023197Z",
       "key": "sg:0223dc33f382214b1659",
       "last_error": null,
@@ -3262,6 +3269,7 @@
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore",
+      "reason": "Temus first-party AI Engineer 5233697008 JD specifies at least three years relevant AI/ML/software engineering plus at least three years implementing serverless, CI/CD, containerisation, Infrastructure-as-Code and tests. Candidate lacks established 3-year cloud IaC implementation tenure.",
       "retries": 0,
       "seq": 103,
       "source": "freehirefetch:official-ats:SG",
@@ -3271,15 +3279,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/temus/jobs/5233697008",
-      "reason": "Temus first-party AI Engineer 5233697008 JD specifies at least three years relevant AI/ML/software engineering plus at least three years implementing serverless, CI/CD, containerisation, Infrastructure-as-Code and tests. Candidate lacks established 3-year cloud IaC implementation tenure.",
-      "evidence_url": "https://job-boards.greenhouse.io/temus/jobs/5233697008",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "THREE_YEARS_PRODUCTION_AI_CLOUD_IAC",
-        "source_provenance": "full employer ATS JD",
-        "note": "Temus first-party AI Engineer 5233697008 JD specifies at least three years relevant AI/ML/software engineering plus at least three years implementing serverless, CI/CD, containerisation, Infrastructure-as-Code and tests. Candidate lacks established 3-year cloud IaC implementation tenure."
-      }
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5233697008"
     },
     {
       "ats_key": "temus|greenhouse|5439381008",
@@ -3300,6 +3300,13 @@
       },
       "description_excerpt": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Temus first-party Full Stack AI Engineer 5439381008 JD requires 3–7 years relevant employment, production AI/GenAI full-stack applications, cloud networking/IAM and at least three years CI/CD, containerisation and Infrastructure-as-Code implementation. Not supported by candidate's documented production backend and separate LLM prototypes.",
+        "reason_code": "THREE_YEARS_IAC_FULLSTACK_AI",
+        "source_provenance": "full employer ATS JD"
+      },
+      "evidence_url": "https://job-boards.greenhouse.io/temus/jobs/5439381008",
       "first_seen_at": "2026-11-10T17:44:46.023225Z",
       "key": "sg:c46c30921825a0199344",
       "last_error": null,
@@ -3307,6 +3314,7 @@
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore",
+      "reason": "Temus first-party Full Stack AI Engineer 5439381008 JD requires 3–7 years relevant employment, production AI/GenAI full-stack applications, cloud networking/IAM and at least three years CI/CD, containerisation and Infrastructure-as-Code implementation. Not supported by candidate's documented production backend and separate LLM prototypes.",
       "retries": 0,
       "seq": 104,
       "source": "freehirefetch:official-ats:SG",
@@ -3316,15 +3324,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Full Stack AI Engineer",
-      "url": "https://job-boards.greenhouse.io/temus/jobs/5439381008",
-      "reason": "Temus first-party Full Stack AI Engineer 5439381008 JD requires 3–7 years relevant employment, production AI/GenAI full-stack applications, cloud networking/IAM and at least three years CI/CD, containerisation and Infrastructure-as-Code implementation. Not supported by candidate's documented production backend and separate LLM prototypes.",
-      "evidence_url": "https://job-boards.greenhouse.io/temus/jobs/5439381008",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "THREE_YEARS_IAC_FULLSTACK_AI",
-        "source_provenance": "full employer ATS JD",
-        "note": "Temus first-party Full Stack AI Engineer 5439381008 JD requires 3–7 years relevant employment, production AI/GenAI full-stack applications, cloud networking/IAM and at least three years CI/CD, containerisation and Infrastructure-as-Code implementation. Not supported by candidate's documented production backend and separate LLM prototypes."
-      }
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5439381008"
     },
     {
       "ats_key": "simplifynext|greenhouse|4996764007",
@@ -3348,12 +3348,20 @@
       },
       "description_excerpt": "<div class=\"content-intro\"><p>SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Exact same SimplifyNext employer Greenhouse requisition 4996764007 as previously rejected applicant record Issue #96. Official employer rejection 2026-09-13; repeat source ID is not a new application.",
+        "reason_code": "EXACT_REJECTED_REQUISITION"
+      },
+      "evidence_url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007",
       "first_seen_at": "2026-11-10T09:44:08.167523Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/96",
       "key": "sg:1ff89d51ecc9416a6aab",
       "last_error": null,
       "market": "SG",
       "platform": "greenhouse official ATS",
       "query": "Singapore",
+      "reason": "Exact same SimplifyNext employer Greenhouse requisition 4996764007 as previously rejected applicant record Issue #96. Official employer rejection 2026-09-13; repeat source ID is not a new application.",
       "retries": 0,
       "seq": 79,
       "source": "freehirefetch:official-ats:SG",
@@ -3363,15 +3371,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "AI Engineer (Graduate)",
-      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007",
-      "reason": "Exact same SimplifyNext employer Greenhouse requisition 4996764007 as previously rejected applicant record Issue #96. Official employer rejection 2026-09-13; repeat source ID is not a new application.",
-      "evidence_url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/96",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "EXACT_REJECTED_REQUISITION",
-        "note": "Exact same SimplifyNext employer Greenhouse requisition 4996764007 as previously rejected applicant record Issue #96. Official employer rejection 2026-09-13; repeat source ID is not a new application."
-      }
+      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007"
     },
     {
       "ats_key": "temus|greenhouse|5180599008",
@@ -3392,12 +3392,19 @@
       },
       "description_excerpt": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Temus official AI Engineer Greenhouse 5180599008 specifies at least three years directly implementing serverless, CI/CD, containerization, IaC and tests; candidate's demonstrated part-time conventional backend ops plus separate academic AI projects cannot substantiate 3 years full cloud/IaC enterprise AI implementation.",
+        "reason_code": "HARD_CLOUD_IAC_3Y_FLOOR"
+      },
+      "evidence_url": "https://job-boards.greenhouse.io/temus/jobs/5180599008",
       "first_seen_at": "2026-11-10T11:51:21.094205Z",
       "key": "sg:bf049c3c543d9704f9c1",
       "last_error": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion.",
       "market": "SG",
       "platform": "greenhouse official ATS",
       "query": "Singapore",
+      "reason": "Temus official AI Engineer Greenhouse 5180599008 specifies at least three years directly implementing serverless, CI/CD, containerization, IaC and tests; candidate's demonstrated part-time conventional backend ops plus separate academic AI projects cannot substantiate 3 years full cloud/IaC enterprise AI implementation.",
       "retries": 0,
       "review_retry": {
         "checked_at": "2026-11-10",
@@ -3412,14 +3419,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008",
-      "reason": "Temus official AI Engineer Greenhouse 5180599008 specifies at least three years directly implementing serverless, CI/CD, containerization, IaC and tests; candidate's demonstrated part-time conventional backend ops plus separate academic AI projects cannot substantiate 3 years full cloud/IaC enterprise AI implementation.",
-      "evidence_url": "https://job-boards.greenhouse.io/temus/jobs/5180599008",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "HARD_CLOUD_IAC_3Y_FLOOR",
-        "note": "Temus official AI Engineer Greenhouse 5180599008 specifies at least three years directly implementing serverless, CI/CD, containerization, IaC and tests; candidate's demonstrated part-time conventional backend ops plus separate academic AI projects cannot substantiate 3 years full cloud/IaC enterprise AI implementation."
-      }
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008"
     },
     {
       "ats_key": "clera|ashby|dbc6684e-3338-46d1-8711-efc6999c26aa",
@@ -3441,12 +3441,20 @@
       },
       "description_excerpt": "ABOUT THE ROLE Join a small engineering team at an AI and reinforcement learning infrastructure company. You will build quality control systems for training data and help ensure that agent evaluations produce reliable, useful results. WHAT ",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Clera Research Engineer QC Automation exact first-party JD requires 2–4 years in research engineering focused on QC automation, scalable end-to-end QA/QC data validation, and RL training-data benchmark/evaluation background. Candidate has LLM/RAG evaluation projects but no demonstrated professional QC automation/RL data quality track record; prior Clera specialist roles #268/#282 were separately declined for analogous experience-shape mismatch. Exact Ashby page currently JS-only, so no open-route claim.",
+        "reason_code": "MANDATORY_QC_AUTOMATION_RL_DATA_BACKGROUND",
+        "source_provenance": "stored first-party Ashby full JD"
+      },
+      "evidence_url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa",
       "first_seen_at": "2026-11-10T01:29:36.461198Z",
       "key": "sg:fd569ce2f1bbf6e34d7f",
       "last_error": null,
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
+      "reason": "Clera Research Engineer QC Automation exact first-party JD requires 2–4 years in research engineering focused on QC automation, scalable end-to-end QA/QC data validation, and RL training-data benchmark/evaluation background. Candidate has LLM/RAG evaluation projects but no demonstrated professional QC automation/RL data quality track record; prior Clera specialist roles #268/#282 were separately declined for analogous experience-shape mismatch. Exact Ashby page currently JS-only, so no open-route claim.",
       "retries": 0,
       "seq": 72,
       "source": "freehirefetch:official-ats:SG",
@@ -3456,15 +3464,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Research Engineer, QC Automation",
-      "url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa",
-      "reason": "Clera Research Engineer QC Automation exact first-party JD requires 2–4 years in research engineering focused on QC automation, scalable end-to-end QA/QC data validation, and RL training-data benchmark/evaluation background. Candidate has LLM/RAG evaluation projects but no demonstrated professional QC automation/RL data quality track record; prior Clera specialist roles #268/#282 were separately declined for analogous experience-shape mismatch. Exact Ashby page currently JS-only, so no open-route claim.",
-      "evidence_url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "MANDATORY_QC_AUTOMATION_RL_DATA_BACKGROUND",
-        "source_provenance": "stored first-party Ashby full JD",
-        "note": "Clera Research Engineer QC Automation exact first-party JD requires 2–4 years in research engineering focused on QC automation, scalable end-to-end QA/QC data validation, and RL training-data benchmark/evaluation background. Candidate has LLM/RAG evaluation projects but no demonstrated professional QC automation/RL data quality track record; prior Clera specialist roles #268/#282 were separately declined for analogous experience-shape mismatch. Exact Ashby page currently JS-only, so no open-route claim."
-      }
+      "url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa"
     }
   ],
   "version": 1
