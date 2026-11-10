@@ -41,6 +41,38 @@ Read from default-branch `discovery-state/platform-index-{sg,my,cn}.json`:
   WAIT without live Issue readback. Never infer precision/recall from these
   noisy records or silently train a classifier against them.
 
+## First independent real-queue dry-run (2026-11-10 14:48 UTC)
+
+After implementing V1 and testing a real hidden failure, GitHub Actions run
+[42837740726](https://github.com/kolihhan/job-resources/actions/runs/42837740726)
+passed the complete **187-test** Python suite and produced this evidence:
+
+| Market | Pending | JD_READY | HARD_REQUIREMENT_REVIEW | HISTORY_CHECK | LOW_PRIORITY_SOURCE_GAP | SOURCE_GAP |
+|---|---:|---:|---:|---:|---:|---:|
+| SG | 45 | 23 | 1 | 5 | 2 | 14 |
+| MY | 45 | 0 | 0 | 3 | 6 | 36 |
+| CN | 44 | 2 | 1 | 1 | 8 | 32 |
+| **Total** | **134** | **25** | **2** | **9** | **16** | **82** |
+
+- The two hard-condition *review flags* are **Grab People Research Scientist**
+  (senior 8–12 years in JD) and **Pragmatike AI Hardware Engineer**
+  (explicit workplace Hong Kong on CN source). They are NOT automatic
+  `HARD_REJECTED` receipts.
+- The first real replay incorrectly flagged NCS `#EG AI Developer
+  (Agentic AI Systems)` because its JD says **2–5 years** and the original
+  expression interpreted only the upper limit **5 years**. Fixed in
+  `rule_triage.py` and added range tests (`2–5`, `2-5`, `2 — 5`,
+  `3 to 5`). That role now stays `JD_READY` rather than being hidden.
+- Historical `ISSUE_VERIFIED` controls are **not clean positive labels**;
+  nevertheless the replay over 8 SG, 2 MY, and 2 CN terminal controls
+  raised **zero** `HARD_REQUIREMENT_REVIEW` warnings. This does NOT prove
+  deployment precision or future safety.
+- The run did **zero automatic rejections, source terminal ACKs, applications
+  or Issue creation**. `HISTORY_CHECK` 9, `LOW_PRIORITY_SOURCE_GAP` 16,
+  `SOURCE_GAP` 82 are *routing outcomes*, not jobs filtered out of source
+  history. Rule workpack scheduling is active; realized Scout throughput
+  improvement remains unmeasured.
+
 ## Implementation: private deterministic screening
 
 `scripts/rule_triage.py` reads the **existing** Pending/terminal source state.
