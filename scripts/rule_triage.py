@@ -185,8 +185,11 @@ def triage(row: dict, market: str, *, now: datetime | None = None) -> dict:
         lane = "HISTORY_CHECK"
     elif jd is not None:
         lane = "JD_READY" if strong else "SCOPE_REVIEW"
-    elif (not strong and (MATURE.search(title) or NON_CORE.search(title) or INTERN.search(title)
-                         or CONTRACT.search(title))):
+    elif (NON_CORE.search(title) or
+          (not research and (CONTRACT.search(title) or INTERN.search(title))) or
+          (not strong and MATURE.search(title))):
+        # Only lower source-fetch priority. A genuine LLM team may still
+        # advertise robotics, client delivery or other adjacent work.
         lane = "LOW_PRIORITY_SOURCE_GAP"
     else:
         lane = "SOURCE_GAP"
