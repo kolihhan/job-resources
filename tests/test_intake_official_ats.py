@@ -65,6 +65,55 @@ class OfficialATSIntakeTests(unittest.TestCase):
         self.assertTrue(state["pending"][0]["prior_wait_employer_hint"])
         self.assertEqual(stats["prior_wait_employer_hints"],1)
 
+    def test_api_context_enriches_existing_pending_without_promoting_to_jd(self):
+        source = dict(job("MY", 70, "Example", "AI Engineer"),
+                      source="freehire:public-api:MY", evidence="listing_only",
+                      discovery_access="API_PROXY_ONLY",
+                      api_description_text="Design RAG evaluation pipelines and LLM agents.",
+                      api_description_truncated=False,
+                      api_description_provenance="UNVERIFIED_THIRD_PARTY_API")
+        snap = {"market": "MY", "jobs": [source]}
+        state, first = process_market("MY", snap, new_state("MY"), {}, limit=4)
+        self.assertEqual(first["created"], 1)
+        self.assertEqual(first["unverified_api_context_updated"], 1)
+        row = state["pending"][0]
+        self.assertEqual(row["api_source_context"]["text"],
+                         source["api_description_text"])
+        self.assertFalse(row["api_source_context"]["employer_verified"])
+        self.assertNotIn("consumer_review", row)
+        self.assertEqual(row["source_evidence"], "listing_only")
+
+        # Existing backlog is enriched on repeat ingest, but never re-queued.
+        revised = dict(source, api_description_text="Build hybrid retrieval, "
+                       "reranking and agent evaluation; 3 years preferred.")
+        state, repeat = process_market("MY", {"market": "MY", "jobs": [revised]},
+                                       state, {}, limit=4)
+        self.assertEqual(repeat["created"], 0)
+        self.assertEqual(repeat["unverified_api_context_updated"], 1)
+        self.assertIn("reranking", state["pending"][0]["api_source_context"]["text"])
+        state, replay = process_market("MY", {"market": "MY", "jobs": [revised]},
+                                       state, {}, limit=4)
+        self.assertEqual(replay["unverified_api_context_updated"], 0)
+
+        # A changed job ID must not overwrite context on a same-URL repost.
+        impersonation = dict(revised, job_id="other-job-id")
+        state, mismatch = process_market("MY", {"market": "MY", "jobs": [impersonation]},
+                                         state, {}, limit=4)
+        self.assertEqual(mismatch["unverified_api_context_updated"], 0)
+        self.assertIn("reranking", state["pending"][0]["api_source_context"]["text"])
+        self.assertEqual(len(state["pending"]), 1)
+        self.assertFalse(state["terminal"])
+        validate_state(state, "MY")
+
+    def test_official_and_bad_api_sources_cannot_create_api_context(self):
+        official = job("SG", 88, "Example", "AI Engineer")
+        official.update(api_description_text="This text is not an ATS JD",
+                        api_description_provenance="UNVERIFIED_THIRD_PARTY_API")
+        state, report = process_market("SG", {"market": "SG", "jobs": [official]},
+                                       new_state("SG"), {})
+        self.assertEqual(report["unverified_api_context_updated"], 0)
+        self.assertNotIn("api_source_context", state["pending"][0])
+
     def test_known_exact_and_existing_are_suppressed_before_deep_review(self):
         a,b=job("SG",1,"Beta","LLM Engineer"),job("SG",2,"Gamma","Research Engineer")
         known={"strong":{"urls":[a["url"]]}}
