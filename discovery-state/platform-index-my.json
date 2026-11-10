@@ -255,40 +255,6 @@
     {
       "api_source_context": {
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>We are looking for a versatile and results-driven Full Stack AI Engineer to design, build, and deploy intelligent business applications. In this role, you will bridge the gap between core AI capabilities and production-ready software—leveraging existing Large Language Models (LLMs) and modern web frameworks to solve complex enterprise challenges.</p><p>The ideal candidate is a pragmatic software engineer who excels at rapid prototyping, full-stack development, and orchestrating autonomous AI agents. You should be comfortable building the \"brain\" of the application (RAG, Agentic orchestration) as well as the \"body\" (FastAPI backends, Next.js frontends, and Dockerized infrastructure).</p><p><strong>Key Responsibilities</strong></p><ul><li><p><strong>Agentic Orchestration &amp; Skills:</strong> Develop and configure autonomous AI agents capable of multi-step reasoning. Build custom \"skills\" and tools that allow agents to interact with external APIs, databases, and proprietary software via the Model Context Protocol (MCP).</p></li><li><p><strong>Applied AI &amp; RAG Integration:</strong> Architect and maintain Retrieval-Augmented Generation (RAG) pipelines. Optimize vector embeddings and data retrieval strategies to securely connect LLMs with enterprise data for high-accuracy outputs.</p></li><li><p><strong>Full-Stack Application Development:</strong> Design and implement both frontend and backend components using <strong>Next.js</strong> and <strong>FastAPI</strong>. Build responsive user interfaces and robust core business logic to support AI-powered features.</p></li><li><p><strong>Custom Software Engineering:</strong> Write clean, maintainable Python and TypeScript code to handle complex data transformations, custom node development, and system integrations that extend beyond standard library capabilities.</p></li><li><p><strong>Infrastructure &amp; Security:</strong> Package and manage AI applications using <strong>Docker</strong> for reliable distribution. Implement strict network isolation and volume mapping to ensure secure, standardized data access for locally hosted agents and services.</p></li><li><p><strong>System Integration &amp; APIs:</strong> Design and develop scalable RESTful APIs. Ensure smooth integration between AI models, internal data sources, and user-facing applications using Git-based collaborative workflows.</p></li></ul><hr><p><strong>Minimum Qualifications</strong></p><ul><li><p><strong>Education:</strong> Bachelor’s degree in Computer Science, Software Engineering, AI, or a related field. (1–2 years of experience preferred; high-potential fresh graduates are welcome).</p></li><li><p><strong>Applied AI Expertise:</strong> Proven experience utilizing LLMs to drive business value, with a deep understanding of Prompt Engineering, Tool/Function Calling, and RAG architectures.</p></li><li><p><strong>Modern AI Stack:</strong> Hands-on experience with AI development frameworks such as <strong>LangChain</strong>, vector databases, and agentic platforms (e.g., OpenClaw).</p></li><li><p><strong>Programming Proficiency:</strong> Strong experience in <strong>Python</strong> (FastAPI) and <strong>JavaScript/TypeScript</strong> (Next.js/React).</p></li><li><p><strong>DevOps &amp; Containerization:</strong> Working knowledge of <strong>Linux</strong> environments (CLI), Docker containerization for isolating agent environments, and Git for version control.</p></li><li><p><strong>System Architecture:</strong> Solid understanding of REST API development, software design principles, and basic software testing practices (unit testing).</p></li></ul><hr><p><strong>Nice-to-Haves</strong></p><ul><li><p><strong>Advanced Orchestration:</strong> Familiarity with the <strong>Model Context Protocol (MCP)</strong> for standardizing secure connections between AI models and internal data.</p></li><li><p><strong>Deployment Experience:</strong> Experience deploying services using container orchestration platforms in on-premise or private cloud infrastructure.</p></li><li><p><strong>Workflow Automation:</strong> Experience with backend automation logic and state/memory management for long-running AI tasks.</p></li><li><p><strong>UI/UX Design:</strong> Ability to design intuitive interfaces for complex AI-driven workflows.</p></li></ul><p><br></p>",
-        "truncated": false,
-        "employer_verified": false
-      },
-      "ats_key": "freehire|ai-engineer-solution-maistorage-lruzaywt",
-      "company": "MaiStorage",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:37:23.740141Z",
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "possible_prior_issue": 264,
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "<p>We are looking for a versatile and results-driven Full Stack AI Engineer to design, build, and deploy intelligent business applications. In this role, you will bridge the gap between core AI capabilities and production-ready software—lev",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.156082Z",
-      "key": "my:7d092e9019b76a4548e8",
-      "last_error": null,
-      "market": "MY",
-      "platform": "public jobs API (unverified)",
-      "query": "Bandar Puteri Puchong, Selangor",
-      "retries": 0,
-      "seq": 36,
-      "source": "freehire:public-api:MY",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-solution-maistorage-lruzaywt",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer (Solution)",
-      "url": "https://my.jobstreet.com/job/95662622"
-    },
-    {
-      "api_source_context": {
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
         "text": "<div><div>\n <strong><strong>AI Engineer</strong></strong><br>\n<strong><strong>Role Summary</strong></strong><br>\n<p>Join Oxydata Software Sdn Bhd, a Malaysia Digital-certified leader in AI and data engineering, as an AI Engineer. You will spearhead the development of our AI recruitment platform, OPAL, overseeing everything from React dashboards to RAG pipelines and production deployment. Collaborate with our founding team and leverage AI-assisted development tools to drive innovation in recruitment technology.</p>\n<strong><strong>Key Responsibilities</strong></strong><br>\n<ul>\n<li>Develop React.js dashboards for recruiters and hiring managers.</li>\n<li>Design UI/UX for filters, analytics, and candidate insights.</li>\n<li>Create FastAPI web services with REST API endpoints.</li>\n<li>Manage report generation, data management, and cron job scheduling.</li>\n<li>Build Python-based AI processing pipelines for CV scoring and report generation.</li>\n<li>Implement RAG pipelines with chunking, embeddings, vector search, and retrieval grounding.</li>\n<li>Conduct semantic candidate-job fit analysis using pgvector hybrid search.</li>\n<li>Integrate AI agents using LangGraph, CrewAI, and N8N for autonomous workflows.</li>\n<li>Incorporate GPT Vision for document parsing and multimodal processing.</li>\n<li>Handle tool-calling, memory management, and multi-step agent orchestration.</li>\n<li>Utilize Supabase/PostgreSQL with pgvector for hybrid search capabilities.</li>\n<li>Integrate with ATS systems (Manatal, Zoho Recruit), Claude/OpenAI APIs, and email delivery systems.</li>\n</ul>\n<strong><strong>Mandatory Requirements</strong></strong><br>\n<ul>\n<li>Malaysian Citizens only.</li>\n<li>Bachelor&#39;s degree in Computer Science, Software Engineering, AI, or related field.</li>\n</ul>\n<strong><strong>Must-have Skills &amp; Experience</strong></strong><br>\n<ul>\n<li>1–4 years of experience in building production GenAI/RAG systems with a proven ability to deliver complete applications from UI to database to AI pipeline.</li>\n<li>Proficiency in Python (primary) and JavaScript/React.</li>\n<li>Experience with FastAPI for backend development.</li>\n<li>Experience with Supabase, PostgreSQL, and pgvector for database management.</li>\n<li>Experience with Claude API, OpenAI API, embeddings, and prompt engineering.</li>\n<li>Real-world experience with RAG: chunking, embeddings, vector search (pgvector, Pinecone, Weaviate, or similar), and retrieval grounding.</li>\n<li>Hands-on experience with at least one of LangGraph, CrewAI, or N8N in a production or near-production context.</li>\n<li>Experience with Git, REST API design, error handling, cron job scheduling, and cloud/VPS deployment.</li>\n<li>Proven track record in integrating external APIs.</li>\n</ul>\n<strong><strong>Nice-to-have</strong></strong><br>\n<ul>\n<li>Experience with LangChain or LlamaIndex for knowledge-based RAG systems.</li>\n<li>Familiarity with MCP (Model Context Protocol) or additional AI agent frameworks.</li>\n<li>Experience with GPT Vision or multimodal AI.</li>\n<li>Experience with CI/CD pipelines for automated testing and deployment.</li>\n<li>Proficiency with Docker for containerised development environments.</li>\n<li>Experience with AI-assisted development tools like Cursor and GitHub Copilot.</li>\n</ul>\n<strong><strong>Why Join Us</strong></strong><br>\n<p>At Oxydata, you&#39;ll be part of a pioneering team that is transforming the recruitment industry with cutting-edge AI technology. We offer a dynamic work environment, opportunities for professional growth, and the chance to work on innovative projects that make a real impact. Join us and be at the forefront of AI-driven recruitment solutions.</p>\n<p>Apply Now: https://www.careers-page.com/oxy/job/63RRWWVW</p>\n </div></div>",
         "truncated": false,
         "employer_verified": false
@@ -2497,6 +2463,43 @@
         "source_provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
         "note": "Exact Bjak employer Ashby Mobile Engineer - AI Finance Agent advert (b9867f93-...) explicitly limits remote applicants to Australia-based candidates and demands 3+ years native Android/iOS development with Kotlin/Swift. Candidate is Malaysia-based backend/LLM engineer, not Australia-based mobile specialist. Public upstream MY categorization is geographically false for this requisition."
       }
+    },
+    {
+      "api_source_context": {
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>We are looking for a versatile and results-driven Full Stack AI Engineer to design, build, and deploy intelligent business applications. In this role, you will bridge the gap between core AI capabilities and production-ready software—leveraging existing Large Language Models (LLMs) and modern web frameworks to solve complex enterprise challenges.</p><p>The ideal candidate is a pragmatic software engineer who excels at rapid prototyping, full-stack development, and orchestrating autonomous AI agents. You should be comfortable building the \"brain\" of the application (RAG, Agentic orchestration) as well as the \"body\" (FastAPI backends, Next.js frontends, and Dockerized infrastructure).</p><p><strong>Key Responsibilities</strong></p><ul><li><p><strong>Agentic Orchestration &amp; Skills:</strong> Develop and configure autonomous AI agents capable of multi-step reasoning. Build custom \"skills\" and tools that allow agents to interact with external APIs, databases, and proprietary software via the Model Context Protocol (MCP).</p></li><li><p><strong>Applied AI &amp; RAG Integration:</strong> Architect and maintain Retrieval-Augmented Generation (RAG) pipelines. Optimize vector embeddings and data retrieval strategies to securely connect LLMs with enterprise data for high-accuracy outputs.</p></li><li><p><strong>Full-Stack Application Development:</strong> Design and implement both frontend and backend components using <strong>Next.js</strong> and <strong>FastAPI</strong>. Build responsive user interfaces and robust core business logic to support AI-powered features.</p></li><li><p><strong>Custom Software Engineering:</strong> Write clean, maintainable Python and TypeScript code to handle complex data transformations, custom node development, and system integrations that extend beyond standard library capabilities.</p></li><li><p><strong>Infrastructure &amp; Security:</strong> Package and manage AI applications using <strong>Docker</strong> for reliable distribution. Implement strict network isolation and volume mapping to ensure secure, standardized data access for locally hosted agents and services.</p></li><li><p><strong>System Integration &amp; APIs:</strong> Design and develop scalable RESTful APIs. Ensure smooth integration between AI models, internal data sources, and user-facing applications using Git-based collaborative workflows.</p></li></ul><hr><p><strong>Minimum Qualifications</strong></p><ul><li><p><strong>Education:</strong> Bachelor’s degree in Computer Science, Software Engineering, AI, or a related field. (1–2 years of experience preferred; high-potential fresh graduates are welcome).</p></li><li><p><strong>Applied AI Expertise:</strong> Proven experience utilizing LLMs to drive business value, with a deep understanding of Prompt Engineering, Tool/Function Calling, and RAG architectures.</p></li><li><p><strong>Modern AI Stack:</strong> Hands-on experience with AI development frameworks such as <strong>LangChain</strong>, vector databases, and agentic platforms (e.g., OpenClaw).</p></li><li><p><strong>Programming Proficiency:</strong> Strong experience in <strong>Python</strong> (FastAPI) and <strong>JavaScript/TypeScript</strong> (Next.js/React).</p></li><li><p><strong>DevOps &amp; Containerization:</strong> Working knowledge of <strong>Linux</strong> environments (CLI), Docker containerization for isolating agent environments, and Git for version control.</p></li><li><p><strong>System Architecture:</strong> Solid understanding of REST API development, software design principles, and basic software testing practices (unit testing).</p></li></ul><hr><p><strong>Nice-to-Haves</strong></p><ul><li><p><strong>Advanced Orchestration:</strong> Familiarity with the <strong>Model Context Protocol (MCP)</strong> for standardizing secure connections between AI models and internal data.</p></li><li><p><strong>Deployment Experience:</strong> Experience deploying services using container orchestration platforms in on-premise or private cloud infrastructure.</p></li><li><p><strong>Workflow Automation:</strong> Experience with backend automation logic and state/memory management for long-running AI tasks.</p></li><li><p><strong>UI/UX Design:</strong> Ability to design intuitive interfaces for complex AI-driven workflows.</p></li></ul><p><br></p>",
+        "truncated": false,
+        "employer_verified": false
+      },
+      "ats_key": "freehire|ai-engineer-solution-maistorage-lruzaywt",
+      "company": "MaiStorage",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:37:23.740141Z",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "possible_prior_issue": 264,
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "<p>We are looking for a versatile and results-driven Full Stack AI Engineer to design, build, and deploy intelligent business applications. In this role, you will bridge the gap between core AI capabilities and production-ready software—lev",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-09T16:57:31.156082Z",
+      "key": "my:7d092e9019b76a4548e8",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "Bandar Puteri Puchong, Selangor",
+      "retries": 0,
+      "seq": 36,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-solution-maistorage-lruzaywt",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "ISSUE_VERIFIED",
+      "title": "AI Engineer (Solution)",
+      "url": "https://my.jobstreet.com/job/95662622",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/924",
+      "evidence_url": "https://www.maistorage.com/ai-engineer/",
+      "reason": "Live November new JobStreet ID 95662622, different from old applied/expired 93369226; employer careers role confirms LLM/RAG/backend work. Created and read back APPLY #924, no application sent."
     }
   ],
   "version": 1
