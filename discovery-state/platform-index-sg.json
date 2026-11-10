@@ -656,45 +656,6 @@
       "url": "https://sg.jobstreet.com/job/95323886"
     },
     {
-      "ats_key": "simplifynext|greenhouse|4996764007",
-      "company": "SimplifyNext",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "",
-        "full_jd_complete": true,
-        "full_jd_text": "SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent automation. We bring strong business process consulting together with deep technology skills and modern delivery practices – product-centric, agile and AI-assisted. We build bespoke applications and AI systems, and we go deep on the platforms our clients run on, including Microsoft, AWS, ServiceNow, Databricks and UiPath. That combination of engineering depth and platform depth is what our clients come to us for. We build and modernise the systems people depend on daily. Our 300+ practitioners are multi-disciplinary by design – business consultants, software engineers, architects, AI engineers and designers working on the same delivery, not handing off between silos. We focus on delivering outcomes for clients, building strong careers for our people, and staying ahead of the technology curve. We hire because we are growing. Work you’ll do As an AI Engineer at SimplifyNext, you will be part of a hands-on engineering team building real-world AI and machine learning solutions that create meaningful impact for clients across ASEAN. You will work closely with consultants, architects, and domain experts to translate business problems into deployable AI models, generative AI workflows, and intelligent automation components. You will have the opportunity to experiment with modern AI frameworks, build prototypes, fine-tune models, and implement AI capabilities end-to-end—from data preparation to deployment. This role is designed for fresh graduates who want to build, break, learn, and innovate within a supportive environment grounded in consulting excellence and deep engineering capability. Your responsibilities would include but not limited to: AI & Machine Learning Development · Build and train machine learning models using Python and modern ML frameworks · Experiment with generative AI technologies (LLMs, embeddings, prompt engineering, RAG, agentic workflows) · Support fine-tuning, optimisation, and evaluation of AI models · Develop reusable AI components and microservices Data Engineering & Preparation · Collect, clean, and transform datasets for training and inference · Perform exploratory data analysis to uncover patterns and insights · Document data assumptions, limitations, and preprocessing logic Solution Engineering · Contribute to AI solution design, model selection, architecture discussions, and implementation approaches · Integrate AI models into applications, APIs, and automation workflows · Build proof-of-concepts (POCs) and accelerate client adoption of AI Testing, Deployment & Delivery · Conduct model validation, scenario testing, and UAT with internal and client stakeholders · Support deployment of AI models on cloud platforms (AWS/GCP/Azure) or containerised environments · Monitor performance and support continuous improvement post-deployment Collaboration & Consulting Exposure · Work with functional SMEs to understand business problems and AI opportunities · Translate complex concepts into simple, understandable terms for non-technical audiences · Participate in workshops, demos, and client discussions as part of project teams Qualifications • Bachelor’s degree in Computer Science, Computer Engineering, AI, Data Science, or a related field. • 0–3 years of AI development experience (Fresh graduates are welcome to apply) • Strong foundation in Python, algorithms, and data structures • Familiarity with ML frameworks such as TensorFlow, PyTorch, Scikit-learn, or HuggingFace • Understanding of ML fundamentals: supervised/unsupervised learning, model evaluation, feature engineering • Knowledge of cloud platforms (AWS, GCP, Azure) is a plus • Familiarity with Git, REST APIs, or notebook-based development is beneficial • Strong analytical thinking, curiosity, and problem-solving skills • Passion for AI, experimentation, building things, and delivering quality work Why Join Us · Be part of a fast-growing consulting and technology firm driving AI, automation, and next-gen engineering · Work on high-impact challenges across ASEAN, delivering real-world AI solutions · Gain hands-on experience from day one with industry experts, architects, and consultants · Contribute to innovation programmes, accelerators, and AI Centres of Excellence · Grow rapidly through certifications, mentorship, structured enablement, and exposure to emerging AI technologies · Join a supportive, high-trust culture that values creativity, experimentation, and continuous learning Why SimplifyNext One Team, Not Siloed Offerings Apps, automation, and AI aren't separate teams here - you'll work across all three as one connected practice, not get boxed into a single lane. AI in Our DNA, Not Bolted On Regardless of platform, every specialist here is AI-enabled by design, powered by our own in-house AI workbench that pairs humans and AI from discovery to testing. Future-Proof Your Career Tech trends come and go - today's hot platform is tomorrow's afterthought. We multi-skill our people across platforms and AI so your career keeps growing no matter where the market moves. APAC's Biggest AI-Integrated Practice Across every platform we work in, our AI-integrated practice is the largest in the region, with work good enough to be cited at Google's own AI event. Grow With Us Across ASEAN We're one of Singapore's 100 Fastest Growing Companies, expanding fast across Thailand and Malaysia - plenty of room to grow with us. At SimplifyNext, we’re committed to building a team of curious, driven, and forward-thinking individuals who care deeply about creating meaningful impact through technology. If you’re excited by the opportunity to grow, collaborate, and shape the future of digital transformation across the region, we’d be happy to hear from you.",
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "jd_chars": 5922,
-        "jd_sha256": "4f6d87ee36e2df5cab4daa7e3172a13175bba8194cd739791892a6198a7cc40f",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "possible_prior_issue": 96,
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "greenhouse first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<div class=\"content-intro\"><p>SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T09:44:08.167523Z",
-      "key": "sg:1ff89d51ecc9416a6aab",
-      "last_error": null,
-      "market": "SG",
-      "platform": "greenhouse official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 79,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "4996764007",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer (Graduate)",
-      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007"
-    },
-    {
       "ats_key": "simplifynext|greenhouse|5019281007",
       "company": "SimplifyNext",
       "consumer_review": {
@@ -852,47 +813,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Solution Engineer (LLM & Agentic AI)",
       "url": "https://sg.jobstreet.com/job/95287266"
-    },
-    {
-      "ats_key": "temus|greenhouse|5180599008",
-      "company": "Temus",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the Singapore Government’s Smart Nation vision. We are headquartered in Singapore and have more than 400 employees across a wide range of disciplines in strategy, design, architecture, technology, data & AI.</em></span></p></div><p><strong>Your Role</strong></p> <ul> <li>Harness your expertise in AI engineering, delivery, and governance to solve complex problems and deliver transformative change for clients and citizens.</li> <li>Make an outstanding contribution to a world-class AI and data team.</li> <li>Develop and maintain relationships with a broad range of clients, colleagues, and partners across a variety of contexts and formats.</li> <li>Invest continuously in building and extending your knowledge and skills.</li> </ul> <p><strong>Your Background</strong></p> <ul> <li>At least 3 years of relevant working experience in fields related to artificial intelligence, machine learning, data science, or software engineering.</li> <li>Completed at least one hands-on AI development and deployment end-to-end.</li> <li>Exposure to agentic AI concepts such as multi-agent systems, tool-use, RAG pipelines, or autonomous task execution is highly desirable.</li> <li>At least 3 years of implementation experience with serverless computing, CI/CD, containerisation, Infrastructure as Code, code version control and automated testing.</li> <li>Exposure to one or more cloud services: AWS, Azure or GCP.</li> <li>Candidates should demonstrate strength in either AI Engineering or ML Engineering (see below). Strength in both is a plus.</li> </ul> <p><u>AI Engineering (LLM & Agentic Systems)</u></p> <ul> <li>Practical hands-on experience with LLMs and agentic tooling: LangChain, LangGraph, AutoGen, CrewAI, OpenAI API, Anthropic API, AWS Bedrock, Google Vertex AI, Azure ML, Hugging Face Transformers, MLFlow, Dataiku, MS Fairlearn, Google PAIR.</li> <li>Experience with prompt engineering, fine-tuning, and responsible AI evaluation.</li> </ul> <p><u>ML Engineering / MLOps</u></p> <ul> <li>Practical hands-on experience with ML development and deployment tooling: Jupyter, PyTorch, TensorFlow, Scikit-learn, AWS SageMaker, MLFlow, Docker, Kubernetes, Terraform, Ansible, Datadog.</li> <li>Broad knowledge of NLP, computer vision, recommendation systems, reinforcement learning and time series forecasting.</li> <li>Exposure to model experiment tracking and training workflows: hyperparameter tuning, experiment logging (e.g. MLFlow, Weights & Biases), and reproducible training runs.</li> <li>Exposure to the MLOps lifecycle: data versioning, model training pipelines, experiment tracking, model registry, deployment, monitoring, and retraining triggers — using tools such as MLFlow, Weights & Biases, Kubeflow, AWS SageMaker Pipelines, Azure ML Pipelines, or Google Vertex AI Pipelines.</li> </ul><div class=\"content-conclusion\"><p> </p> <p><em>Temus is an equal opportunities employer. We welcome applications from all. We do not discriminate by race, religion, belief, ethnicity, origin, disability, age, partnership status, sexual orientation, or gender identity.</em></p> <p><em>We see the diversity of our team as a strategic advantage, and we work actively to maintain it.</em></p> <p><em>By applying for this role, you have read and acknowledge the data privacy statement via this link - <a class=\"fui-Link ___1rxvrpe f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.temus.com/job-applicant-data-protection/\" target=\"_blank\">temus.com/job-applicant-data-protection/</a></em></p> <p> </p></div>",
-        "jd_chars": 4038,
-        "jd_sha256": "8d5ae0f2e229181b58a4cffd75a08891a6ff973b7768458b9a847a2b6070e1b4",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T11:51:21.094205Z",
-      "key": "sg:bf049c3c543d9704f9c1",
-      "last_error": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion.",
-      "market": "SG",
-      "platform": "greenhouse official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "review_retry": {
-        "checked_at": "2026-11-10",
-        "decision": "RETRY",
-        "missing_evidence": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion."
-      },
-      "seq": 86,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "5180599008",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008"
     },
     {
       "api_source_context": {
@@ -3388,6 +3308,101 @@
         "reason_code": "THREE_YEARS_IAC_FULLSTACK_AI",
         "source_provenance": "full employer ATS JD",
         "note": "Temus first-party Full Stack AI Engineer 5439381008 JD requires 3–7 years relevant employment, production AI/GenAI full-stack applications, cloud networking/IAM and at least three years CI/CD, containerisation and Infrastructure-as-Code implementation. Not supported by candidate's documented production backend and separate LLM prototypes."
+      }
+    },
+    {
+      "ats_key": "simplifynext|greenhouse|4996764007",
+      "company": "SimplifyNext",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent automation. We bring strong business process consulting together with deep technology skills and modern delivery practices – product-centric, agile and AI-assisted. We build bespoke applications and AI systems, and we go deep on the platforms our clients run on, including Microsoft, AWS, ServiceNow, Databricks and UiPath. That combination of engineering depth and platform depth is what our clients come to us for. We build and modernise the systems people depend on daily. Our 300+ practitioners are multi-disciplinary by design – business consultants, software engineers, architects, AI engineers and designers working on the same delivery, not handing off between silos. We focus on delivering outcomes for clients, building strong careers for our people, and staying ahead of the technology curve. We hire because we are growing. Work you’ll do As an AI Engineer at SimplifyNext, you will be part of a hands-on engineering team building real-world AI and machine learning solutions that create meaningful impact for clients across ASEAN. You will work closely with consultants, architects, and domain experts to translate business problems into deployable AI models, generative AI workflows, and intelligent automation components. You will have the opportunity to experiment with modern AI frameworks, build prototypes, fine-tune models, and implement AI capabilities end-to-end—from data preparation to deployment. This role is designed for fresh graduates who want to build, break, learn, and innovate within a supportive environment grounded in consulting excellence and deep engineering capability. Your responsibilities would include but not limited to: AI & Machine Learning Development · Build and train machine learning models using Python and modern ML frameworks · Experiment with generative AI technologies (LLMs, embeddings, prompt engineering, RAG, agentic workflows) · Support fine-tuning, optimisation, and evaluation of AI models · Develop reusable AI components and microservices Data Engineering & Preparation · Collect, clean, and transform datasets for training and inference · Perform exploratory data analysis to uncover patterns and insights · Document data assumptions, limitations, and preprocessing logic Solution Engineering · Contribute to AI solution design, model selection, architecture discussions, and implementation approaches · Integrate AI models into applications, APIs, and automation workflows · Build proof-of-concepts (POCs) and accelerate client adoption of AI Testing, Deployment & Delivery · Conduct model validation, scenario testing, and UAT with internal and client stakeholders · Support deployment of AI models on cloud platforms (AWS/GCP/Azure) or containerised environments · Monitor performance and support continuous improvement post-deployment Collaboration & Consulting Exposure · Work with functional SMEs to understand business problems and AI opportunities · Translate complex concepts into simple, understandable terms for non-technical audiences · Participate in workshops, demos, and client discussions as part of project teams Qualifications • Bachelor’s degree in Computer Science, Computer Engineering, AI, Data Science, or a related field. • 0–3 years of AI development experience (Fresh graduates are welcome to apply) • Strong foundation in Python, algorithms, and data structures • Familiarity with ML frameworks such as TensorFlow, PyTorch, Scikit-learn, or HuggingFace • Understanding of ML fundamentals: supervised/unsupervised learning, model evaluation, feature engineering • Knowledge of cloud platforms (AWS, GCP, Azure) is a plus • Familiarity with Git, REST APIs, or notebook-based development is beneficial • Strong analytical thinking, curiosity, and problem-solving skills • Passion for AI, experimentation, building things, and delivering quality work Why Join Us · Be part of a fast-growing consulting and technology firm driving AI, automation, and next-gen engineering · Work on high-impact challenges across ASEAN, delivering real-world AI solutions · Gain hands-on experience from day one with industry experts, architects, and consultants · Contribute to innovation programmes, accelerators, and AI Centres of Excellence · Grow rapidly through certifications, mentorship, structured enablement, and exposure to emerging AI technologies · Join a supportive, high-trust culture that values creativity, experimentation, and continuous learning Why SimplifyNext One Team, Not Siloed Offerings Apps, automation, and AI aren't separate teams here - you'll work across all three as one connected practice, not get boxed into a single lane. AI in Our DNA, Not Bolted On Regardless of platform, every specialist here is AI-enabled by design, powered by our own in-house AI workbench that pairs humans and AI from discovery to testing. Future-Proof Your Career Tech trends come and go - today's hot platform is tomorrow's afterthought. We multi-skill our people across platforms and AI so your career keeps growing no matter where the market moves. APAC's Biggest AI-Integrated Practice Across every platform we work in, our AI-integrated practice is the largest in the region, with work good enough to be cited at Google's own AI event. Grow With Us Across ASEAN We're one of Singapore's 100 Fastest Growing Companies, expanding fast across Thailand and Malaysia - plenty of room to grow with us. At SimplifyNext, we’re committed to building a team of curious, driven, and forward-thinking individuals who care deeply about creating meaningful impact through technology. If you’re excited by the opportunity to grow, collaborate, and shape the future of digital transformation across the region, we’d be happy to hear from you.",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "jd_chars": 5922,
+        "jd_sha256": "4f6d87ee36e2df5cab4daa7e3172a13175bba8194cd739791892a6198a7cc40f",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "possible_prior_issue": 96,
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<div class=\"content-intro\"><p>SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T09:44:08.167523Z",
+      "key": "sg:1ff89d51ecc9416a6aab",
+      "last_error": null,
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 79,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "4996764007",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer (Graduate)",
+      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007",
+      "reason": "Exact same SimplifyNext employer Greenhouse requisition 4996764007 as previously rejected applicant record Issue #96. Official employer rejection 2026-09-13; repeat source ID is not a new application.",
+      "evidence_url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/96",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "EXACT_REJECTED_REQUISITION",
+        "note": "Exact same SimplifyNext employer Greenhouse requisition 4996764007 as previously rejected applicant record Issue #96. Official employer rejection 2026-09-13; repeat source ID is not a new application."
+      }
+    },
+    {
+      "ats_key": "temus|greenhouse|5180599008",
+      "company": "Temus",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the Singapore Government’s Smart Nation vision. We are headquartered in Singapore and have more than 400 employees across a wide range of disciplines in strategy, design, architecture, technology, data & AI.</em></span></p></div><p><strong>Your Role</strong></p> <ul> <li>Harness your expertise in AI engineering, delivery, and governance to solve complex problems and deliver transformative change for clients and citizens.</li> <li>Make an outstanding contribution to a world-class AI and data team.</li> <li>Develop and maintain relationships with a broad range of clients, colleagues, and partners across a variety of contexts and formats.</li> <li>Invest continuously in building and extending your knowledge and skills.</li> </ul> <p><strong>Your Background</strong></p> <ul> <li>At least 3 years of relevant working experience in fields related to artificial intelligence, machine learning, data science, or software engineering.</li> <li>Completed at least one hands-on AI development and deployment end-to-end.</li> <li>Exposure to agentic AI concepts such as multi-agent systems, tool-use, RAG pipelines, or autonomous task execution is highly desirable.</li> <li>At least 3 years of implementation experience with serverless computing, CI/CD, containerisation, Infrastructure as Code, code version control and automated testing.</li> <li>Exposure to one or more cloud services: AWS, Azure or GCP.</li> <li>Candidates should demonstrate strength in either AI Engineering or ML Engineering (see below). Strength in both is a plus.</li> </ul> <p><u>AI Engineering (LLM & Agentic Systems)</u></p> <ul> <li>Practical hands-on experience with LLMs and agentic tooling: LangChain, LangGraph, AutoGen, CrewAI, OpenAI API, Anthropic API, AWS Bedrock, Google Vertex AI, Azure ML, Hugging Face Transformers, MLFlow, Dataiku, MS Fairlearn, Google PAIR.</li> <li>Experience with prompt engineering, fine-tuning, and responsible AI evaluation.</li> </ul> <p><u>ML Engineering / MLOps</u></p> <ul> <li>Practical hands-on experience with ML development and deployment tooling: Jupyter, PyTorch, TensorFlow, Scikit-learn, AWS SageMaker, MLFlow, Docker, Kubernetes, Terraform, Ansible, Datadog.</li> <li>Broad knowledge of NLP, computer vision, recommendation systems, reinforcement learning and time series forecasting.</li> <li>Exposure to model experiment tracking and training workflows: hyperparameter tuning, experiment logging (e.g. MLFlow, Weights & Biases), and reproducible training runs.</li> <li>Exposure to the MLOps lifecycle: data versioning, model training pipelines, experiment tracking, model registry, deployment, monitoring, and retraining triggers — using tools such as MLFlow, Weights & Biases, Kubeflow, AWS SageMaker Pipelines, Azure ML Pipelines, or Google Vertex AI Pipelines.</li> </ul><div class=\"content-conclusion\"><p> </p> <p><em>Temus is an equal opportunities employer. We welcome applications from all. We do not discriminate by race, religion, belief, ethnicity, origin, disability, age, partnership status, sexual orientation, or gender identity.</em></p> <p><em>We see the diversity of our team as a strategic advantage, and we work actively to maintain it.</em></p> <p><em>By applying for this role, you have read and acknowledge the data privacy statement via this link - <a class=\"fui-Link ___1rxvrpe f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.temus.com/job-applicant-data-protection/\" target=\"_blank\">temus.com/job-applicant-data-protection/</a></em></p> <p> </p></div>",
+        "jd_chars": 4038,
+        "jd_sha256": "8d5ae0f2e229181b58a4cffd75a08891a6ff973b7768458b9a847a2b6070e1b4",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T11:51:21.094205Z",
+      "key": "sg:bf049c3c543d9704f9c1",
+      "last_error": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion.",
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion."
+      },
+      "seq": 86,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "5180599008",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer",
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008",
+      "reason": "Temus official AI Engineer Greenhouse 5180599008 specifies at least three years directly implementing serverless, CI/CD, containerization, IaC and tests; candidate's demonstrated part-time conventional backend ops plus separate academic AI projects cannot substantiate 3 years full cloud/IaC enterprise AI implementation.",
+      "evidence_url": "https://job-boards.greenhouse.io/temus/jobs/5180599008",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "HARD_CLOUD_IAC_3Y_FLOOR",
+        "note": "Temus official AI Engineer Greenhouse 5180599008 specifies at least three years directly implementing serverless, CI/CD, containerization, IaC and tests; candidate's demonstrated part-time conventional backend ops plus separate academic AI projects cannot substantiate 3 years full cloud/IaC enterprise AI implementation."
       }
     }
   ],
