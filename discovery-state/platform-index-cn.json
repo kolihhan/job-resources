@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T12:25:20.088224Z",
+    "at": "2026-11-10T12:37:39.970853Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
@@ -12,7 +12,7 @@
     }
   },
   "market": "CN",
-  "next_seq": 58,
+  "next_seq": 59,
   "next_unacknowledged_seq": 1,
   "pending": [
     {
@@ -450,29 +450,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Security Engineer (Offensive & Defensive)",
       "url": "https://jobs.lever.co/coins/d1ae5824-741f-4e97-a1bd-86ada42eea66"
-    },
-    {
-      "ats_key": "freehire|ai-software-development-engineer-intel-33vdnk63",
-      "company": "Intel",
-      "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><p></p><h2>Job Description: </h2>About Us \n\nIntel CAIGC is committed to bringing AI from the cloud to end devices and building native on-device intelligent computing. Collaborating with global RnD teams an",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.171656Z",
-      "key": "cn:8efffb1d0b9cbeae2265",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "PRC, Shanghai",
-      "retries": 0,
-      "seq": 27,
-      "source": "freehire:public-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-software-development-engineer-intel-33vdnk63",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Software Development Engineer",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0288943"
     },
     {
       "ats_key": "freehire|ai-3d-dataset-engineer-meshy-v2kti2ak",
@@ -1090,6 +1067,28 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Lead AI Platform Engineer",
       "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Wuxi-Jiangsu/Lead-AI-Platform-Engineer_R0000403200"
+    },
+    {
+      "ats_key": "aidevboard|84f4d364-d14c-4a1c-a360-f7213b69eda9",
+      "company": "Flexport",
+      "description_excerpt": "About Flexport:  \n At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powere",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T12:37:39.970824Z",
+      "key": "cn:53ef92ed6870251c4818",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Shanghai, China",
+      "retries": 0,
+      "seq": 58,
+      "source": "aidevboard:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "84f4d364-d14c-4a1c-a360-f7213b69eda9",
+      "source_listing_url": "https://aidevboard.com/job/84f4d364-d14c-4a1c-a360-f7213b69eda9",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Applied Data Scientist",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8269055"
     }
   ],
   "terminal": [
@@ -1406,6 +1405,33 @@
       "state": "HARD_REJECTED",
       "title": "Senior Software Engineer",
       "url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30"
+    },
+    {
+      "ats_key": "freehire|ai-software-development-engineer-intel-33vdnk63",
+      "checked_at": "2026-11-10T12:37:39.780685+00:00",
+      "company": "Intel",
+      "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><p></p><h2>Job Description: </h2>About Us \n\nIntel CAIGC is committed to bringing AI from the cloud to end devices and building native on-device intelligent computing. Collaborating with global RnD teams an",
+      "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0288943",
+      "first_seen_at": "2026-11-09T16:57:31.171656Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/903",
+      "key": "cn:8efffb1d0b9cbeae2265",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "PRC, Shanghai",
+      "reason": "Exact role URL + employer + title independently matched current GitHub Issue #903. No reapply.",
+      "retries": 0,
+      "seq": 27,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-software-development-engineer-intel-33vdnk63",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "DUPLICATE_CONFIRMED",
+      "title": "AI Software Development Engineer",
+      "url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0288943"
     }
   ],
   "version": 1
