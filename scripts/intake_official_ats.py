@@ -23,8 +23,9 @@ TECH = re.compile(r"\b(?:AI|LLM|RAG|NLP|GenAI|agent|machine learning|"
                   r"applied scientist|research|data scientist|ML|retrieval|"
                   r"software|backend|platform|algorithm)\b|智能体|算法|大模型|检索|研究", re.I)
 ALLOWED_EVIDENCE = {"full_jd", "partial_jd", "listing_only"}
-MAX_UNVERIFIED_API_CHARS = 4000
-API_PROVENANCE = "UNVERIFIED_THIRD_PARTY_API"
+MAX_UNVERIFIED_API_CHARS = 12000
+API_PROVENANCES = {"UNVERIFIED_THIRD_PARTY_API",
+                   "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT"}
 # A product/team named "AI Finance Agent" does not make an iOS/frontend
 # developer an agent engineer. These are ordering hints, not hard exclusions.
 CORE_TITLE = re.compile(
@@ -73,14 +74,14 @@ def candidate(row, market):
 def unverified_api_context(item):
     """Bounded third-party source context; NEVER a complete employer JD."""
     if (item.get("discovery_access") != "API_PROXY_ONLY"
-            or item.get("api_description_provenance") != API_PROVENANCE
+            or item.get("api_description_provenance") not in API_PROVENANCES
             or ":public-api:" not in str(item.get("source") or "")):
         return None
     body = item.get("api_description_text")
     if not isinstance(body, str) or not body.strip() or len(body) > MAX_UNVERIFIED_API_CHARS:
         return None
     return {
-        "provenance": API_PROVENANCE,
+        "provenance": item["api_description_provenance"],
         "text": body,
         "truncated": item.get("api_description_truncated") is True,
         "employer_verified": False,
