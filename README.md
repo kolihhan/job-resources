@@ -76,11 +76,13 @@ Do not encode strategy priority with `[TOP]`. Priority comes from actual content
 
 ## API-first discovery — one main pipeline
 
-**One shared MY / SG / CN workflow:** `.github/workflows/official-ats-intake.yml`.
+**Source/decision boundary:** public source batching (employer ATS, FreeHire/AI Dev Jobs API, sharded JD evidence) is produced and published by `kolihhan/freehirefetch`. The private `.github/workflows/official-ats-intake.yml` **imports existing public snapshots only**. Source facts never determine applicant fit, eligibility, prior submissions or APPLICATION state. Verified value and candidate-specific decisions stay in `job-resources` and its Scouts/Issues.
 
 `FreeHire public API` is the no-key cross-market main source; `AI Dev Jobs public API` is an independent AI/Research supplement (most useful in SG). The existing `freehirefetch` official employer ATS JSON feed remains the high-confidence fallback and JD evidence. Each uses *structured JSON endpoints*, not Playwright or custom HTML scraping.
 
-`scripts/collect_market_api.py` independently queries country-specific AI/LLM/Research windows, uses bounded real pagination and returns only **recognized exact native/ATS job URLs**; unrecognized/MCF-only routes are left out, with source failures and partial coverage explicitly recorded. The single `scripts/intake_official_ats.py` merges API and ATS leads into the **already-existing** `discovery-state/platform-index-{sg,my,cn}.json` queues with canonical URL dedupe and the existing employer/backlog caps. Provider URLs, marketing claims and API hit counts are never APPLY proof.
+`freehirefetch/market_api_collect.py` independently queries country-specific AI/LLM/Research windows, with bounded real pagination and recognized exact native/ATS job URLs; unrecognized/MCF-only routes are left out, with source failures and partial coverage explicitly recorded. The single `scripts/intake_official_ats.py` merges API and ATS leads into the **already-existing** `discovery-state/platform-index-{sg,my,cn}.json` queues with canonical URL dedupe and the existing employer/backlog caps. Provider URLs, marketing claims and API hit counts are never APPLY proof.
+
+The private importer `scripts/enrich_pending_public_ats.py` now consumes `freehirefetch/feed/ats/jd/index.json` and the matched public JD shards. It makes **no employer ATS/API calls** and joins only fresh exact URL+title+market evidence; full text remains pending until private Scout verification. The older `scripts/collect_market_api.py` is retained for compatibility tests but is **not scheduled** or part of production source collection.
 
 The same Action publishes `review-dispatch.json/.md` **from the durable pending queues**, including `UNVERIFIED_INDEX` API leads (previously invisible to review). Hourly market Scouts consume that exact state, check live employer JD, work content, eligibility, all-state Issues plus **both Gmail** accounts, then create/read back a real APPLY/CHECK or evidence-backed terminal/retry receipt. No auto-submit or outreach.
 
