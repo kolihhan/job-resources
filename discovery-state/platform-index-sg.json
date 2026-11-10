@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T13:09:31.889173Z",
-    "source": "devglobal:public-api:SG",
+    "at": "2026-11-10T15:19:11.051219Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 9,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 9
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "SG",
-  "next_seq": 92,
+  "next_seq": 93,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -69,16 +69,16 @@
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
       "retries": 0,
-      "seq": 17,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer II (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159",
       "review_retry": {
         "checked_at": "2026-11-10",
         "decision": "RETRY",
         "missing_evidence": "Exact NTU R00026159 Workday live apply route inaccessible; historical Trust Technologies requisition correspondence must be matched before issue creation."
-      }
+      },
+      "seq": 17,
+      "source": "ntu:official-cxs:SG",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Engineer II (Trust Technologies)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159"
     },
     {
       "company": "Nanyang Technological University",
@@ -726,6 +726,11 @@
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition."
+      },
       "seq": 69,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -734,12 +739,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "#EG AI Developer (Agentic AI Systems)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
-      "review_retry": {
-        "checked_at": "2026-11-10",
-        "decision": "RETRY",
-        "missing_evidence": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition."
-      }
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512"
     },
     {
       "ats_key": "openai|ashby|29f15e50-1611-4256-afad-03b7df0b7aa7",
@@ -877,6 +877,11 @@
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition."
+      },
       "seq": 73,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -885,12 +890,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "People Research Scientist, People Analytics",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000159062339",
-      "review_retry": {
-        "checked_at": "2026-11-10",
-        "decision": "RETRY",
-        "missing_evidence": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition."
-      }
+      "url": "https://jobs.smartrecruiters.com/Grab/744000159062339"
     },
     {
       "ats_key": "westerndigital|smartrecruiters|744000153657449",
@@ -1090,6 +1090,11 @@
       "platform": "greenhouse official ATS",
       "query": "Singapore",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "SimplifyNext 5019281007 requires actual production AI, cloud and Kubernetes deployment; candidate evidence for these mandatory skills is unverified."
+      },
       "seq": 80,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -1098,12 +1103,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007",
-      "review_retry": {
-        "checked_at": "2026-11-10",
-        "decision": "RETRY",
-        "missing_evidence": "SimplifyNext 5019281007 requires actual production AI, cloud and Kubernetes deployment; candidate evidence for these mandatory skills is unverified."
-      }
+      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
     },
     {
       "ats_key": "freehire|research-engineer-machine-learning-ntu-7mmj653r",
@@ -1224,6 +1224,11 @@
       "platform": "greenhouse official ATS",
       "query": "Singapore",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion."
+      },
       "seq": 86,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -1232,12 +1237,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008",
-      "review_retry": {
-        "checked_at": "2026-11-10",
-        "decision": "RETRY",
-        "missing_evidence": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion."
-      }
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008"
     },
     {
       "ats_key": "freehire|ai-engineer-go-genie-pte-ltd-zkzgurpa",
@@ -1376,6 +1376,28 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Assistant/Associate, Neuroscience and Artificial Intelligence [LKCMedicine]",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1"
+    },
+    {
+      "ats_key": "freehire|ai-engineer-infineum-singapore-pte-ltd-4ja3tnxs",
+      "company": "Infineum Singapore Pte Ltd",
+      "description_excerpt": "<p><strong>Position Summary: </strong></p>\n<p>Join our Data and Analytics team to be at the forefront of bringing AI Agents from concept to production, enabling teams across Infineum to turn ideas into real, measurable impact. Apply cutting",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T15:19:11.051187Z",
+      "key": "sg:ef2e7efc8ea4db8ab014",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Maritime Square, Central Region",
+      "retries": 0,
+      "seq": 92,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-infineum-singapore-pte-ltd-4ja3tnxs",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://sg.jobstreet.com/job/95658569"
     }
   ],
   "terminal": [
@@ -2681,6 +2703,7 @@
     },
     {
       "ats_key": "grab|smartrecruiters|744000139456037",
+      "checked_at": "2026-11-10",
       "company": "Grab",
       "consumer_review": {
         "checked_at": "2026-11-10T12:21:10+00:00",
@@ -2704,17 +2727,16 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "Exact Grab OmniCommerce JD is product/business analytics: A/B tests, SQL analysis, dashboards, reporting and business metrics; AI tools only accelerate analyst workflow. No substantive LLM/RAG/Agent/retrieval engineering or AI research ownership. Outside SG GOLD/adjacent scope.",
       "retries": 0,
+      "review_source": "2026-11-10 current employer SmartRecruiters full JD and route",
       "seq": 47,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "744000139456037",
       "state": "HARD_REJECTED",
       "title": "Data Scientist (Analytics), OmniCommerce",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000139456037",
-      "checked_at": "2026-11-10",
-      "review_source": "2026-11-10 current employer SmartRecruiters full JD and route",
-      "reason": "Exact Grab OmniCommerce JD is product/business analytics: A/B tests, SQL analysis, dashboards, reporting and business metrics; AI tools only accelerate analyst workflow. No substantive LLM/RAG/Agent/retrieval engineering or AI research ownership. Outside SG GOLD/adjacent scope."
+      "url": "https://jobs.smartrecruiters.com/Grab/744000139456037"
     }
   ],
   "version": 1

@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T14:40:10.580839Z",
+    "at": "2026-11-10T15:19:11.116073Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
@@ -12,7 +12,7 @@
     }
   },
   "market": "CN",
-  "next_seq": 66,
+  "next_seq": 68,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -969,6 +969,50 @@
       "state": "UNVERIFIED_INDEX",
       "title": "达摩院医疗AI Agent 算法工程师",
       "url": "https://www.liepin.com/job/1986353945.shtml"
+    },
+    {
+      "ats_key": "freehire|ai-agent-engineer-intern-ai-enablement-process-2027-nvidia-b7xhbc6u",
+      "company": "NVIDIA",
+      "description_excerpt": "<p><span>Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s nev",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T15:19:11.116008Z",
+      "key": "cn:82a7e169e9a125c05807",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "China, Beijing",
+      "retries": 0,
+      "seq": 66,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-agent-engineer-intern-ai-enablement-process-2027-nvidia-b7xhbc6u",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Agent Engineer Intern, AI Enablement Process - 2027",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Agent-Engineer-Intern--AI-Enablement-Process---2027_JR2025834-1"
+    },
+    {
+      "ats_key": "freehire|senior-software-engineer-ai-networking-nvidia-ccnw45zy",
+      "company": "NVIDIA",
+      "description_excerpt": "<p>NVIDIA is seeking for an experienced Software Engineer with a strong background in AI networking technologies. This full-time position requires close collaboration with other NVIDIA SW and SW architecture teams, pre-sale teams and differ",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T15:19:11.116060Z",
+      "key": "cn:d0c29b21033b728f8b74",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "China, Shanghai",
+      "retries": 0,
+      "seq": 67,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "senior-software-engineer-ai-networking-nvidia-ccnw45zy",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Software Engineer - AI Networking",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer---AI-Networking_JR2029073"
     }
   ],
   "terminal": [
@@ -1582,6 +1626,11 @@
       "company": "NVIDIA",
       "description_excerpt": "<p>We are now looking for a Software Development Engineer to help TensorRT LLM and TensorRT Edge LLM projects! NVIDIA is hiring software engineers for its AI Computing team. Academic and commercial groups around the world are using GPUs to ",
       "discovery_access": "API_PROXY_ONLY",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Exact NVIDIA first-party Workday requisition JR2026173 explicitly titled Intern - 2027; indexed employer JD confirms internship (JR2027624 additionally requires pursuing a degree). Candidate seeks graduated full-time employment, not student internship. Employer URL: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Software-Development-Intern--LLM-Inference---2027_JR2026173",
+        "reason": "INTERNSHIP_2027_ENROLLED_STUDENT_NOT_FULL_TIME_EMPLOYEE"
+      },
       "first_seen_at": "2026-11-10T14:40:10.580761Z",
       "key": "cn:9ab399347fcf4333abe3",
       "last_error": null,
@@ -1597,18 +1646,18 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Computing Software Development Intern, LLM Inference - 2027",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Software-Development-Intern--LLM-Inference---2027_JR2026173",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "INTERNSHIP_2027_ENROLLED_STUDENT_NOT_FULL_TIME_EMPLOYEE",
-        "note": "Exact NVIDIA first-party Workday requisition JR2026173 explicitly titled Intern - 2027; indexed employer JD confirms internship (JR2027624 additionally requires pursuing a degree). Candidate seeks graduated full-time employment, not student internship. Employer URL: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Software-Development-Intern--LLM-Inference---2027_JR2026173"
-      }
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Software-Development-Intern--LLM-Inference---2027_JR2026173"
     },
     {
       "ats_key": "freehire|llm-reinforcement-learning-framework-intern-2027-nvidia-p2wdb5ce",
       "company": "NVIDIA",
       "description_excerpt": "<p>We are now looking for exceptionally dedicated individuals to join our team as LLM Reinforcement Learning Framework Intern!</p><br/><p>At NVIDIA, we are renowned for our continual progress in the fields of graphics and parallel computing",
       "discovery_access": "API_PROXY_ONLY",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Exact NVIDIA first-party Workday requisition JR2027624 explicitly titled Intern - 2027; indexed employer JD confirms internship (JR2027624 additionally requires pursuing a degree). Candidate seeks graduated full-time employment, not student internship. Employer URL: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/LLM-Reinforcement-Learning-Framework-Intern---2027_JR2027624",
+        "reason": "INTERNSHIP_2027_ENROLLED_STUDENT_NOT_FULL_TIME_EMPLOYEE"
+      },
       "first_seen_at": "2026-11-10T14:40:10.580827Z",
       "key": "cn:aced14dc9d1d3d73eac4",
       "last_error": null,
@@ -1624,12 +1673,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "LLM Reinforcement Learning Framework Intern - 2027",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/LLM-Reinforcement-Learning-Framework-Intern---2027_JR2027624",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "INTERNSHIP_2027_ENROLLED_STUDENT_NOT_FULL_TIME_EMPLOYEE",
-        "note": "Exact NVIDIA first-party Workday requisition JR2027624 explicitly titled Intern - 2027; indexed employer JD confirms internship (JR2027624 additionally requires pursuing a degree). Candidate seeks graduated full-time employment, not student internship. Employer URL: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/LLM-Reinforcement-Learning-Framework-Intern---2027_JR2027624"
-      }
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/LLM-Reinforcement-Learning-Framework-Intern---2027_JR2027624"
     }
   ],
   "version": 1
