@@ -42294,34 +42294,6 @@
     {
       "ai_score": 7,
       "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:multimodal"
-      ],
-      "company": "Intel",
-      "created_at": "2026-11-05T14:38:20Z",
-      "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><p></p><h2>Job Description: </h2>About Us Intel CAIGC is committed to bringing AI from the cloud to end devices and building native on-device intelligent computing. Collaborating with global RnD teams and leading model developers, we connect LLMs/VLMs, AI Agents, media software stacks, and CPU/GPU/NPU hardware. We tackle core challenges in on-device model deployment and hardware-software co-optimization, and deploy cutting-edge multimodal AI capabilities onto massive PCs and end devices. We are looking for creative minds with curiosity, independent judgment, ",
-      "employment_type": "full_time",
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "intel.wd1.myworkdayjobs.com/External:/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0288943",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/ai-software-development-engineer-intel-33vdnk63",
-      "identity": "ai-software-development-engineer-intel-33vdnk63",
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "PRC, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-11-05T00:00:00Z",
-      "public_slug": "ai-software-development-engineer-intel-33vdnk63",
-      "source": "workday",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0288943?utm_source=freehire.me",
-      "title": "AI Software Development Engineer"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
         "title:agent",
         "jd:llm",
         "jd:agent",
@@ -66471,8 +66443,8 @@
       "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-10T04:22:25.252833Z",
-  "known_exact_count": 32,
+  "generated_at": "2026-11-10T13:02:56.120371Z",
+  "known_exact_count": 33,
   "machine_candidate_counts": {
     "CN": 698,
     "MY": 285,
@@ -66485,9 +66457,9 @@
   },
   "markets": {
     "CN": {
-      "known_exact": 11,
+      "known_exact": 12,
       "source": 698,
-      "suspected_known": 17,
+      "suspected_known": 16,
       "unseen": 670
     },
     "MY": {
@@ -66508,10 +66480,10 @@
     "MY": 4654,
     "SG": 13659
   },
-  "review_count": 2429,
+  "review_count": 2428,
   "source_count": 2461,
   "source_generated_at": "2026-11-10T01:45:20.015817Z",
-  "suspected_known_count": 53,
+  "suspected_known_count": 52,
   "title_hard_drop_counts": {
     "CN": 426,
     "MY": 683,

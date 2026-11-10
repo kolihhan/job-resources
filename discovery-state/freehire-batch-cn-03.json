@@ -1,5 +1,5 @@
 {
-  "candidate_count": 6,
+  "candidate_count": 5,
   "candidates": [
     {
       "ai_score": 5,
@@ -22,30 +22,6 @@
       "source": "alibaba",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100054900009&utm_source=freehire.me",
       "title": "千问办公-AI 全栈工程师-工作台"
-    },
-    {
-      "ai_score": 7,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:agent",
-        "jd:multimodal"
-      ],
-      "candidate_seq": 3083,
-      "company": "Intel",
-      "employment_type": "full_time",
-      "external_id": "intel.wd1.myworkdayjobs.com/External:/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0288943",
-      "flags": [],
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "PRC, Shanghai",
-      "market": "CN",
-      "posted_at": "2026-11-05T00:00:00Z",
-      "public_slug": "ai-software-development-engineer-intel-33vdnk63",
-      "role_key": "freehire:ai-software-development-engineer-intel-33vdnk63",
-      "source": "workday",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0288943?utm_source=freehire.me",
-      "title": "AI Software Development Engineer"
     },
     {
       "ai_score": 5,
@@ -141,7 +117,7 @@
       "title": "Sr. Software Engineer - AI Regulatory"
     }
   ],
-  "generated_at": "2026-11-10T04:22:25.639153Z",
+  "generated_at": "2026-11-10T13:02:56.479477Z",
   "market": "CN",
   "max_candidate_seq": 3136,
   "min_candidate_seq": 3046,
