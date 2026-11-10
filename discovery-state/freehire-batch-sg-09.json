@@ -4,187 +4,191 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ml"
+        "title:ai"
       ],
-      "candidate_seq": 1188,
-      "company": "Epergne Solutions",
+      "candidate_seq": 1198,
+      "company": "CAPGEMINI SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:93159838",
-      "flags": [],
+      "external_id": "full stack developer:93111503",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-11T11:20:58Z",
-      "public_slug": "databricks-data-engineer-ml-ops-platform-modernization-epergne-solutions-5xqjexpc",
-      "role_key": "freehire:databricks-data-engineer-ml-ops-platform-modernization-epergne-solutions-5xqjexpc",
+      "posted_at": "2026-10-10T11:18:55Z",
+      "public_slug": "full-stack-engineer-data-ai-capgemini-singapore-pte-ltd-7y3rbo32",
+      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-singapore-pte-ltd-7y3rbo32",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159838__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Databricks Data Engineer: ML Ops & Platform Modernization"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111503__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Engineer (Data & AI)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1189,
+      "candidate_seq": 1199,
+      "company": "GVT Government Technology Agency",
+      "employment_type": null,
+      "external_id": "full stack developer:93112180",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:18:55Z",
+      "public_slug": "senior-full-stack-engineer-gis-ai-innovator-gvt-government-technology-agency-yoyhh766",
+      "role_key": "freehire:senior-full-stack-engineer-gis-ai-innovator-gvt-government-technology-agency-yoyhh766",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112180__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer: GIS & AI Innovator"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1200,
       "company": "Helius Technologies",
       "employment_type": null,
-      "external_id": "full stack developer:93159747",
+      "external_id": "full stack developer:93116044",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:18:54Z",
+      "public_slug": "ai-driven-full-stack-engineer-cloud-native-helius-technologies-pbyq7mhj",
+      "role_key": "freehire:ai-driven-full-stack-engineer-cloud-native-helius-technologies-pbyq7mhj",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93116044__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Full Stack Engineer (Cloud-Native)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1201,
+      "company": "CAPGEMINI SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:93115287",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-11T11:20:37Z",
-      "public_slug": "senior-full-stack-developer-ai-and-cloud-native-applications-helius-technologies-4mcrvv72",
-      "role_key": "freehire:senior-full-stack-developer-ai-and-cloud-native-applications-helius-technologies-4mcrvv72",
+      "posted_at": "2026-10-10T11:18:50Z",
+      "public_slug": "data-ai-full-stack-engineer-capgemini-singapore-pte-ltd-quvwpxey",
+      "role_key": "freehire:data-ai-full-stack-engineer-capgemini-singapore-pte-ltd-quvwpxey",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159747__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full Stack Developer — AI and Cloud-Native Applications"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115287__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data & AI Full-Stack Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1190,
-      "company": "TikTok",
+      "candidate_seq": 1202,
+      "company": "Helius Technologies",
       "employment_type": null,
-      "external_id": "backend developer:93158767",
+      "external_id": "full stack developer:93115977",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-11T11:20:33Z",
-      "public_slug": "global-live-backend-engineer-ai-driven-infrastructure-tiktok-kxjhjr7z",
-      "role_key": "freehire:global-live-backend-engineer-ai-driven-infrastructure-tiktok-kxjhjr7z",
+      "posted_at": "2026-10-10T11:18:47Z",
+      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
+      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93158767__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Global Live Backend Engineer - AI-Driven Infrastructure"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115977__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Developer — AI and Cloud-Native Applications"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1191,
-      "company": "TikTok",
+      "candidate_seq": 1204,
+      "company": "ScienTec Consulting Pte. Ltd.",
       "employment_type": null,
-      "external_id": "backend developer:93161620",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-11T11:20:32Z",
-      "public_slug": "backend-engineer-global-live-ai-infrastructure-singapore-tiktok-4qp6ke55",
-      "role_key": "freehire:backend-engineer-global-live-ai-infrastructure-singapore-tiktok-4qp6ke55",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93161620__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1192,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "backend developer:93160287",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-11T11:20:32Z",
-      "public_slug": "go-backend-engineer-for-speech-ai-platform-tiktok-zocscte6",
-      "role_key": "freehire:go-backend-engineer-for-speech-ai-platform-tiktok-zocscte6",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93160287__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Go Backend Engineer for Speech AI Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1193,
-      "company": "VAST DATA SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93111626",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:19:16Z",
-      "public_slug": "onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
-      "role_key": "freehire:onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111626__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Onsite AI Data Platform Engineer — Rapid Deployments"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "jd:llm",
-        "jd:genai",
-        "jd:rag",
-        "jd:nlp"
-      ],
-      "candidate_seq": 1194,
-      "company": "JEET ANALYTICS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93115365",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:19:02Z",
-      "public_slug": "software-data-engineering-specialist-jeet-analytics-pte-ltd-glfakeru",
-      "role_key": "freehire:software-data-engineering-specialist-jeet-analytics-pte-ltd-glfakeru",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115365__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Software & Data Engineering Specialist"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1195,
-      "company": "DEX DIGITAL TECHNOLOGIES PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93112253",
+      "external_id": "backend developer:93115029",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:56Z",
-      "public_slug": "senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
-      "role_key": "freehire:senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
+      "posted_at": "2026-10-10T11:18:41Z",
+      "public_slug": "ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
+      "role_key": "freehire:ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112253__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: AI-Powered, Scalable Data Infra"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115029__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Backend Engineer: Python, Azure, REST APIs"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1205,
+      "company": "ScienTec Consulting Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "backend developer:93113359",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:18:41Z",
+      "public_slug": "backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
+      "role_key": "freehire:backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113359__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer - AI-Powered APIs & Data Pipelines (Hybrid)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1206,
+      "company": "Capgemini",
+      "employment_type": null,
+      "external_id": "careers.capgemini.com:1445530833",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "full-stack-engineer-data-ai-capgemini-euwhnxj5",
+      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-euwhnxj5",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Full-Stack-Engineer-%28Data-&-AI%29/1445530833/?utm_source=freehire.me",
+      "title": "Full Stack Engineer (Data & AI)"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1195,
-  "min_candidate_seq": 1188,
+  "max_candidate_seq": 1206,
+  "min_candidate_seq": 1198,
   "shard_index": 9,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

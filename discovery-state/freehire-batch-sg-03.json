@@ -6,51 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1120,
-      "company": "Testing Site - JPMC",
-      "employment_type": null,
-      "external_id": "react developer:93581881",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-18T13:46:17Z",
-      "public_slug": "frontend-engineer-iii-react-typescript-ai-driven-ui-testing-site-jpmc-ay3silih",
-      "role_key": "freehire:frontend-engineer-iii-react-typescript-ai-driven-ui-testing-site-jpmc-ay3silih",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93581881__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Frontend Engineer III - React/TypeScript + AI-Driven UI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1121,
-      "company": "Straive",
-      "employment_type": null,
-      "external_id": "data engineer:93533412",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-17T13:18:15Z",
-      "public_slug": "senior-cloud-data-ai-solutions-engineer-aws-snowflake-straive-etk72rbb",
-      "role_key": "freehire:senior-cloud-data-ai-solutions-engineer-aws-snowflake-straive-etk72rbb",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533412__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Cloud Data & AI Solutions Engineer — AWS & Snowflake"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1122,
       "company": "Infosys Compaz (iCompaz)",
       "employment_type": null,
@@ -120,27 +75,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1128,
-      "company": "JOBSTER PRIVATE LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93531599",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:31Z",
-      "public_slug": "full-stack-engineer-compliance-ai-driven-security-jobster-private-ltd-c3rp544h",
-      "role_key": "freehire:full-stack-engineer-compliance-ai-driven-security-jobster-private-ltd-c3rp544h",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531599__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer: Compliance & AI-Driven Security"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1129,
       "company": "JASS TECH PTE. LTD.",
       "employment_type": null,
@@ -180,14 +114,77 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531624__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Knowledge Management Platform Engineer - AI, DevOps & Scale"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1133,
+      "company": "NCS Group",
+      "employment_type": null,
+      "external_id": "6290:95325311",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T09:27:18Z",
+      "public_slug": "eg-fullstack-developer-ai-applications-ncs-group-hgoan3st",
+      "role_key": "freehire:eg-fullstack-developer-ai-applications-ncs-group-hgoan3st",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95325311?utm_source=freehire.me",
+      "title": "#EG Fullstack Developer – AI Applications"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1134,
+      "company": "Paves Technologies",
+      "employment_type": null,
+      "external_id": "6290:95320198",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-16T09:26:06Z",
+      "public_slug": "ai-engineer-intermediate-paves-technologies-4nvvzpxy",
+      "role_key": "freehire:ai-engineer-intermediate-paves-technologies-4nvvzpxy",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95320198?utm_source=freehire.me",
+      "title": "AI Engineer – Intermediate"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1135,
+      "company": "Monee",
+      "employment_type": null,
+      "external_id": "6283:95319385",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T08:55:18Z",
+      "public_slug": "business-intelligence-analyst-ai-credit-business-intelligence-monee-aafv6a2g",
+      "role_key": "freehire:business-intelligence-analyst-ai-credit-business-intelligence-monee-aafv6a2g",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95319385?utm_source=freehire.me",
+      "title": "Business Intelligence Analyst (AI) - Credit, Business Intelligence"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1130,
-  "min_candidate_seq": 1120,
+  "max_candidate_seq": 1135,
+  "min_candidate_seq": 1122,
   "shard_index": 3,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

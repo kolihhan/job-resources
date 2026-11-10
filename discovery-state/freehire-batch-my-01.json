@@ -1,0 +1,158 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "ai_score": 10,
+      "ai_signals": [
+        "title:genai",
+        "title:ai",
+        "jd:genai"
+      ],
+      "candidate_seq": 3137,
+      "company": "NTT DATA",
+      "employment_type": null,
+      "external_id": "ntt.phenompeople.com:NTT1GLOBALR149842EXTERNALENGLOBAL",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Selangor Darul Ehsan, Selangor",
+      "market": "MY",
+      "posted_at": "2026-09-04T00:00:00Z",
+      "public_slug": "generative-ai-azure-architect-ntt-data-ckohgxys",
+      "role_key": "freehire:generative-ai-azure-architect-ntt-data-ckohgxys",
+      "source": "phenom",
+      "source_url": "https://ntt.phenompeople.com/global/en/job/NTT1GLOBALR149842EXTERNALENGLOBAL?utm_source=freehire.me",
+      "title": "Generative AI Azure Architect"
+    },
+    {
+      "ai_score": 9,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:machine_learning",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 3138,
+      "company": "Alphv Recruit",
+      "employment_type": "full_time",
+      "external_id": "alphv-recruit:7XV7XVXX",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-09T11:49:45Z",
+      "public_slug": "mid-level-ai-engineer-alphv-recruit-nogzwkg3",
+      "role_key": "freehire:mid-level-ai-engineer-alphv-recruit-nogzwkg3",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/alphv-recruit/job/7XV7XVXX?utm_source=freehire.me",
+      "title": "Mid-Level AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:agent"
+      ],
+      "candidate_seq": 3139,
+      "company": "Alphv Recruit",
+      "employment_type": "full_time",
+      "external_id": "alphv-recruit:93X597X6",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-09T11:49:43Z",
+      "public_slug": "backend-specialist-agentic-engineering-alphv-recruit-3xvfttes",
+      "role_key": "freehire:backend-specialist-agentic-engineering-alphv-recruit-3xvfttes",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/alphv-recruit/job/93X597X6?utm_source=freehire.me",
+      "title": "Backend Specialist, Agentic Engineering"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3140,
+      "company": "Agensi Pekerjaan Genie Hunt Talent",
+      "employment_type": "full_time",
+      "external_id": "agensi-pekerjaan-genie-hunt-talent:3WWRYR78",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Selangor, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-09T11:49:37Z",
+      "public_slug": "iot-ai-engineer-green-tech-solar-agensi-pekerjaan-genie-hunt-talent-4tpbc5sy",
+      "role_key": "freehire:iot-ai-engineer-green-tech-solar-agensi-pekerjaan-genie-hunt-talent-4tpbc5sy",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/agensi-pekerjaan-genie-hunt-talent/job/3WWRYR78?utm_source=freehire.me",
+      "title": "IoT & AI Engineer (Green Tech / Solar)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3141,
+      "company": "HFM",
+      "employment_type": null,
+      "external_id": "hfeu.zohorecruit.eu:50710000031598684",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Athens, Greece",
+      "market": "MY",
+      "posted_at": "2026-11-06T00:00:00Z",
+      "public_slug": "senior-ai-engineer-marketing-hfm-dqvgxfaj",
+      "role_key": "freehire:senior-ai-engineer-marketing-hfm-dqvgxfaj",
+      "source": "zohorecruit",
+      "source_url": "https://hfeu.zohorecruit.eu/jobs/Careers/50710000031598684?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3142,
+      "company": "DHL",
+      "employment_type": null,
+      "external_id": "careers.dhl.com:DPDHGLOBALAV366826ENGLOBALEXTERNAL",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Cyberjaya, Selangor",
+      "market": "MY",
+      "posted_at": "2026-07-29T02:18:24Z",
+      "public_slug": "ai-platform-software-engineer-dhl-dqatkt2f",
+      "role_key": "freehire:ai-platform-software-engineer-dhl-dqatkt2f",
+      "source": "phenom",
+      "source_url": "https://careers.dhl.com/global/en/job/DPDHGLOBALAV366826ENGLOBALEXTERNAL?utm_source=freehire.me",
+      "title": "AI Platform Software Engineer"
+    }
+  ],
+  "generated_at": "2026-11-10T04:22:25.639153Z",
+  "market": "MY",
+  "max_candidate_seq": 3142,
+  "min_candidate_seq": 3137,
+  "shard_index": 1,
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

@@ -1,189 +1,216 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1205,
-      "company": "ScienTec Consulting Pte. Ltd.",
+      "candidate_seq": 1219,
+      "company": "UARROW PTE. LTD.",
       "employment_type": null,
-      "external_id": "backend developer:93113359",
+      "external_id": "data engineer:93012079",
       "flags": [
-        "agency_or_outstaff_hint"
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:41Z",
-      "public_slug": "backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
-      "role_key": "freehire:backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
+      "posted_at": "2026-10-08T10:37:29Z",
+      "public_slug": "senior-data-engineer-big-data-pipelines-ai-uarrow-pte-ltd-jbh3m6vr",
+      "role_key": "freehire:senior-data-engineer-big-data-pipelines-ai-uarrow-pte-ltd-jbh3m6vr",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113359__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer - AI-Powered APIs & Data Pipelines (Hybrid)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1206,
-      "company": "Capgemini",
-      "employment_type": null,
-      "external_id": "careers.capgemini.com:1445530833",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-10T00:00:00Z",
-      "public_slug": "full-stack-engineer-data-ai-capgemini-euwhnxj5",
-      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-euwhnxj5",
-      "source": "successfactors",
-      "source_url": "https://careers.capgemini.com/job/Singapore-Full-Stack-Engineer-%28Data-&-AI%29/1445530833/?utm_source=freehire.me",
-      "title": "Full Stack Engineer (Data & AI)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1207,
-      "company": "Capgemini",
-      "employment_type": null,
-      "external_id": "careers.capgemini.com:1392728033",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-10T00:00:00Z",
-      "public_slug": "sitecore-ai-engineer-capgemini-wa5ioy3j",
-      "role_key": "freehire:sitecore-ai-engineer-capgemini-wa5ioy3j",
-      "source": "successfactors",
-      "source_url": "https://careers.capgemini.com/job/Singapore-Sitecore-AI-Engineer/1392728033/?utm_source=freehire.me",
-      "title": "Sitecore AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1208,
-      "company": "ScienTec Consulting Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "data engineer:93108321",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Punggol, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-09T19:19:23Z",
-      "public_slug": "ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
-      "role_key": "freehire:ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93108321__7119?utm_campaign=publisher&utm_medium=api&geoID=596&utm_source=freehire.me",
-      "title": "AI Data Engineer - Hybrid (Cybersecurity & Cloud)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1209,
-      "company": "ST ENGINEERING TRAINING & SIMULATION SYSTEMS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "react developer:93097451",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-09T19:18:37Z",
-      "public_slug": "full-stack-react-c-net-developer-with-ai-st-engineering-training-simulation-systems-pte-ltd-ux2pkwqw",
-      "role_key": "freehire:full-stack-react-c-net-developer-with-ai-st-engineering-training-simulation-systems-pte-ltd-ux2pkwqw",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93097451__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack React & C#.NET Developer with AI"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012079__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer - Big Data Pipelines & AI"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ml"
       ],
-      "candidate_seq": 1210,
-      "company": "NEWBRIDGE ALLIANCE PTE. LTD.",
+      "candidate_seq": 1220,
+      "company": "Airwallex",
       "employment_type": null,
-      "external_id": "data engineer:93076458",
-      "flags": [],
+      "external_id": "airwallex:89fccb81-c8cc-4769-be0c-9ed078e1a03b",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "SG - Singapore",
       "market": "SG",
-      "posted_at": "2026-10-09T11:19:36Z",
-      "public_slug": "ml-ops-data-governance-engineer-newbridge-alliance-pte-ltd-twog7y6y",
-      "role_key": "freehire:ml-ops-data-governance-engineer-newbridge-alliance-pte-ltd-twog7y6y",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93076458__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "ML Ops & Data Governance Engineer"
+      "posted_at": "2026-10-08T06:45:55Z",
+      "public_slug": "senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
+      "role_key": "freehire:senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/airwallex/89fccb81-c8cc-4769-be0c-9ed078e1a03b?utm_source=freehire.me",
+      "title": "Senior Software Engineer, Machine Learning Platform"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1211,
-      "company": "1153 Epiq Systems Singapore Pte. Ltd.",
+      "candidate_seq": 1225,
+      "company": "ncs3",
       "employment_type": null,
-      "external_id": "backend developer:93080355",
+      "external_id": "ncs3:6000000001469268",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore, sg",
       "market": "SG",
-      "posted_at": "2026-10-09T11:19:15Z",
-      "public_slug": "backend-engineer-ai-platform-scale-1153-epiq-systems-singapore-pte-ltd-25hed362",
-      "role_key": "freehire:backend-engineer-ai-platform-scale-1153-epiq-systems-singapore-pte-ltd-25hed362",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93080355__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer, AI Platform & Scale"
+      "posted_at": "2026-10-07T06:50:39Z",
+      "public_slug": "eg-ai-product-engineer-ncs3-rz2achs2",
+      "role_key": "freehire:eg-ai-product-engineer-ncs3-rz2achs2",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001469268--eg-ai-product-engineer?utm_source=freehire.me",
+      "title": "#EG AI Product Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1212,
-      "company": "YM GLOBAL TECHNOLOGIES PTE. LTD.",
+      "candidate_seq": 1226,
+      "company": "NCS Group",
       "employment_type": null,
-      "external_id": "devops engineer:93080547",
+      "external_id": "6290:95119441",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-07T06:50:39Z",
+      "public_slug": "eg-ai-product-engineer-ncs-group-htbjlbj3",
+      "role_key": "freehire:eg-ai-product-engineer-ncs-group-htbjlbj3",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95119441?utm_source=freehire.me",
+      "title": "#EG AI Product Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1237,
+      "company": "United Overseas Bank Limited",
+      "employment_type": null,
+      "external_id": "data engineer:92762061",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-05T11:56:29Z",
+      "public_slug": "senior-data-engineer-real-time-lakehouse-ai-data-1011-united-overseas-bank-ltd-354oaxuo",
+      "role_key": "freehire:senior-data-engineer-real-time-lakehouse-ai-data-1011-united-overseas-bank-ltd-354oaxuo",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92762061__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer: Real‑Time Lakehouse & AI Data"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1239,
+      "company": "SEA Singapore",
+      "employment_type": null,
+      "external_id": "backend developer:92763531",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-09T11:19:09Z",
-      "public_slug": "ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
-      "role_key": "freehire:ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
+      "posted_at": "2026-10-05T11:55:53Z",
+      "public_slug": "ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
+      "role_key": "freehire:ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93080547__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered DevOps Engineer: CI/CD & Observability"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763531__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Backend Engineer for Scalable APIs"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1240,
+      "company": "SEA Singapore",
+      "employment_type": null,
+      "external_id": "backend developer:92763558",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-05T11:55:53Z",
+      "public_slug": "senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
+      "role_key": "freehire:senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763558__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer, AI-Driven Product – Singapore"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1241,
+      "company": "Micron",
+      "employment_type": null,
+      "external_id": "careers.micron.com/micron.com:44316899",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-05T00:00:00Z",
+      "public_slug": "ai-engineer-micron-muyr3lzo",
+      "role_key": "freehire:ai-engineer-micron-muyr3lzo",
+      "source": "eightfold",
+      "source_url": "https://careers.micron.com/careers/job/44316899?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1245,
+      "company": "OCBC Group",
+      "employment_type": null,
+      "external_id": "data engineer:92714974",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-04T09:56:47Z",
+      "public_slug": "vp-data-engineer-cloud-native-ai-platform-leader-ocbc-bank-ojzwsi4n",
+      "role_key": "freehire:vp-data-engineer-cloud-native-ai-platform-leader-ocbc-bank-ojzwsi4n",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92714974__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "VP Data Engineer: Cloud‑Native AI Platform Leader"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1212,
-  "min_candidate_seq": 1205,
+  "max_candidate_seq": 1245,
+  "min_candidate_seq": 1219,
   "shard_index": 11,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

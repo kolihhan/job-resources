@@ -4,57 +4,128 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ml"
+        "title:ai"
       ],
-      "candidate_seq": 1363,
-      "company": "Ntu",
+      "candidate_seq": 1384,
+      "company": "Epiq Company",
       "employment_type": null,
-      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/Research-Fellow--Atomic-catalysts-and-Machine-Learning-_R00025731",
+      "external_id": "backend developer:90597808",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "NTU Main Campus, Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-09T00:00:00Z",
-      "public_slug": "research-fellow-atomic-catalysts-and-machine-learning-ntu-pp7ynpd5",
-      "role_key": "freehire:research-fellow-atomic-catalysts-and-machine-learning-ntu-pp7ynpd5",
-      "source": "workday",
-      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Atomic-catalysts-and-Machine-Learning-_R00025731?utm_source=freehire.me",
-      "title": "Research Fellow (Atomic catalysts and Machine Learning)"
+      "posted_at": "2026-08-29T17:47:55Z",
+      "public_slug": "backend-engineer-ai-platform-epiq-company-usepb5h4",
+      "role_key": "freehire:backend-engineer-ai-platform-epiq-company-usepb5h4",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90597808__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer, AI Platform"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1364,
-      "company": "Shopee",
+      "candidate_seq": 1385,
+      "company": "DSO National Laboratories",
       "employment_type": null,
-      "external_id": "6290:94502223",
+      "external_id": "data engineer:90515665",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-29T10:51:24Z",
+      "public_slug": "software-engineer-ai-data-high-performance-clusters-dso-national-laboratories-mjzpi2qu",
+      "role_key": "freehire:software-engineer-ai-data-high-performance-clusters-dso-national-laboratories-mjzpi2qu",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90515665__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software Engineer: AI, Data, & High-Performance Clusters"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1386,
+      "company": "Tan Tock Seng Hospital",
+      "employment_type": null,
+      "external_id": "data engineer:90516717",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-08T15:37:28Z",
-      "public_slug": "senior-backend-engineer-ai-infrastructure-shopee-tech-services-shopee-l67zsm5p",
-      "role_key": "freehire:senior-backend-engineer-ai-infrastructure-shopee-tech-services-shopee-l67zsm5p",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94502223?utm_source=freehire.me",
-      "title": "Senior Backend Engineer - AI Infrastructure (Shopee Tech Services)"
+      "posted_at": "2026-08-28T20:50:03Z",
+      "public_slug": "senior-data-ai-engineer-healthcare-cloud-ai-solutions-tan-tock-seng-hospital-lb6n24cm",
+      "role_key": "freehire:senior-data-ai-engineer-healthcare-cloud-ai-solutions-tan-tock-seng-hospital-lb6n24cm",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90516717__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & AI Engineer - Healthcare Cloud AI Solutions"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1365,
-      "company": "HTK",
+      "candidate_seq": 1388,
+      "company": "Lavu Tech Solutions Sdn Bhd",
       "employment_type": null,
-      "external_id": "data engineer:91131564",
+      "external_id": "data engineer:90517081",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-28T20:49:55Z",
+      "public_slug": "senior-snowflake-data-engineer-aws-ai-driven-pipelines-lavu-tech-solutions-sdn-bhd-v7obl2lh",
+      "role_key": "freehire:senior-snowflake-data-engineer-aws-ai-driven-pipelines-lavu-tech-solutions-sdn-bhd-v7obl2lh",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90517081__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Snowflake Data Engineer - AWS, AI-Driven Pipelines"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1389,
+      "company": "Avensys Consulting",
+      "employment_type": null,
+      "external_id": "full stack developer:90517049",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-28T20:49:40Z",
+      "public_slug": "senior-full-stack-engineer-react-spring-boot-cloud-ai-avensys-consulting-d2f4sqwb",
+      "role_key": "freehire:senior-full-stack-engineer-react-spring-boot-cloud-ai-avensys-consulting-d2f4sqwb",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90517049__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer – React/Spring Boot, Cloud & AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1390,
+      "company": "CODEX SOLUTIONS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "devops engineer:90522209",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -64,135 +135,65 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-08T01:13:40Z",
-      "public_slug": "senior-data-engineer-ai-ready-data-platforms-htk-agncmc4d",
-      "role_key": "freehire:senior-data-engineer-ai-ready-data-platforms-htk-agncmc4d",
+      "posted_at": "2026-08-28T20:49:35Z",
+      "public_slug": "senior-full-stack-engineer-cloud-ai-secure-devops-codex-solutions-pte-ltd-sxriy3yg",
+      "role_key": "freehire:senior-full-stack-engineer-cloud-ai-secure-devops-codex-solutions-pte-ltd-sxriy3yg",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91131564__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer - AI-Ready Data Platforms"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90522209__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer: Cloud, AI & Secure DevOps"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1366,
-      "company": "Singtel Group",
+      "candidate_seq": 1391,
+      "company": "NXT4SAP Pte. Ltd.",
       "employment_type": null,
-      "external_id": "data engineer:91095805",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-06T12:34:58Z",
-      "public_slug": "senior-data-engineer-ai-driven-data-pipelines-singtel-group-ls47gobz",
-      "role_key": "freehire:senior-data-engineer-ai-driven-data-pipelines-singtel-group-ls47gobz",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91095805__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer: AI-Driven Data Pipelines"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1367,
-      "company": "AI Singapore",
-      "employment_type": null,
-      "external_id": "full stack developer:91020494",
+      "external_id": "devops engineer:90517423",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-06T02:36:00Z",
-      "public_slug": "full-stack-engineer-for-ai-grants-scholarships-cloud-ai-singapore-g5e53snu",
-      "role_key": "freehire:full-stack-engineer-for-ai-grants-scholarships-cloud-ai-singapore-g5e53snu",
+      "posted_at": "2026-08-28T20:49:34Z",
+      "public_slug": "azure-ai-devops-engineer-cloud-native-ai-integrations-nxt4sap-pte-ltd-n3ghbh4h",
+      "role_key": "freehire:azure-ai-devops-engineer-cloud-native-ai-integrations-nxt4sap-pte-ltd-n3ghbh4h",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91020494__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer for AI Grants & Scholarships (Cloud)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90517423__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Azure AI & DevOps Engineer: Cloud-Native AI Integrations"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1368,
-      "company": "Changi Airports International Pte Ltd",
+      "candidate_seq": 1392,
+      "company": "NXT4SAP Pte. Ltd.",
       "employment_type": null,
-      "external_id": "full stack developer:90996141",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-04T10:40:49Z",
-      "public_slug": "ai-driven-full-stack-engineer-for-cloud-apps-changi-airports-international-pte-ltd-r7o5d72u",
-      "role_key": "freehire:ai-driven-full-stack-engineer-for-cloud-apps-changi-airports-international-pte-ltd-r7o5d72u",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90996141__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full Stack Engineer for Cloud Apps"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1369,
-      "company": "SHOPEE SINGAPORE PRIVATE LIMITED",
-      "employment_type": null,
-      "external_id": "backend developer:90996721",
+      "external_id": "devops engineer:90519009",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-04T10:40:40Z",
-      "public_slug": "senior-backend-engineer-ai-driven-marketplace-platform-shopee-singapore-private-limited-6zkbi4vg",
-      "role_key": "freehire:senior-backend-engineer-ai-driven-marketplace-platform-shopee-singapore-private-limited-6zkbi4vg",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90996721__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer - AI-Driven Marketplace Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1370,
-      "company": "PwC Singapore",
-      "employment_type": null,
-      "external_id": "data engineer:90890775",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
+        "experience_5_plus_hint",
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-03T09:47:57Z",
-      "public_slug": "senior-ai-engineer-full-stack-data-pipelines-pwc-singapore-jfh6wdug",
-      "role_key": "freehire:senior-ai-engineer-full-stack-data-pipelines-pwc-singapore-jfh6wdug",
+      "posted_at": "2026-08-28T20:49:33Z",
+      "public_slug": "ai-and-devops-engineer-nxt4sap-pte-ltd-ncfvqlan",
+      "role_key": "freehire:ai-and-devops-engineer-nxt4sap-pte-ltd-ncfvqlan",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90890775__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Engineer: Full-Stack & Data Pipelines"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90519009__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI and DevOps Engineer"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1370,
-  "min_candidate_seq": 1363,
+  "max_candidate_seq": 1392,
+  "min_candidate_seq": 1384,
   "shard_index": 22,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

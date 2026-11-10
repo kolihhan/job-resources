@@ -1,111 +1,6 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1131,
-      "company": "Hytech",
-      "employment_type": null,
-      "external_id": "devops engineer:93531551",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:15Z",
-      "public_slug": "ai-powered-devops-engineer-aws-kubernetes-ci-cd-hytech-rsk4xqxs",
-      "role_key": "freehire:ai-powered-devops-engineer-aws-kubernetes-ci-cd-hytech-rsk4xqxs",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered DevOps Engineer – AWS, Kubernetes, CI/CD"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1132,
-      "company": "Sea",
-      "employment_type": null,
-      "external_id": "backend developer:93533484",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:10Z",
-      "public_slug": "ai-powered-backend-engineer-scale-apis-impact-sea-sxxhhrht",
-      "role_key": "freehire:ai-powered-backend-engineer-scale-apis-impact-sea-sxxhhrht",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533484__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered Backend Engineer — Scale APIs & Impact"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1133,
-      "company": "NCS Group",
-      "employment_type": null,
-      "external_id": "6290:95325311",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T09:27:18Z",
-      "public_slug": "eg-fullstack-developer-ai-applications-ncs-group-hgoan3st",
-      "role_key": "freehire:eg-fullstack-developer-ai-applications-ncs-group-hgoan3st",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95325311?utm_source=freehire.me",
-      "title": "#EG Fullstack Developer – AI Applications"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1134,
-      "company": "Paves Technologies",
-      "employment_type": null,
-      "external_id": "6290:95320198",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-16T09:26:06Z",
-      "public_slug": "ai-engineer-intermediate-paves-technologies-4nvvzpxy",
-      "role_key": "freehire:ai-engineer-intermediate-paves-technologies-4nvvzpxy",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95320198?utm_source=freehire.me",
-      "title": "AI Engineer – Intermediate"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1135,
-      "company": "Monee",
-      "employment_type": null,
-      "external_id": "6283:95319385",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T08:55:18Z",
-      "public_slug": "business-intelligence-analyst-ai-credit-business-intelligence-monee-aafv6a2g",
-      "role_key": "freehire:business-intelligence-analyst-ai-credit-business-intelligence-monee-aafv6a2g",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95319385?utm_source=freehire.me",
-      "title": "Business Intelligence Analyst (AI) - Credit, Business Intelligence"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -196,14 +91,106 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/95309585?utm_source=freehire.me",
       "title": "Founding AI Engineer - Full Stack Background"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1141,
+      "company": "TECHCOM SOLUTIONS (SINGAPORE) PTE. LTD.",
+      "employment_type": null,
+      "external_id": "python developer:93509017",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T21:18:37Z",
+      "public_slug": "full-stack-python-developer-ai-driven-security-techcom-solutions-singapore-pte-ltd-sm4gsl2j",
+      "role_key": "freehire:full-stack-python-developer-ai-driven-security-techcom-solutions-singapore-pte-ltd-sm4gsl2j",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93509017__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Python Developer – AI-Driven Security"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1142,
+      "company": "INFOSYS COMPAZ PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93490682",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T11:20:14Z",
+      "public_slug": "snowflake-data-ai-engineer-pipelines-cortex-ai-infosys-compaz-pte-ltd-jq2lr2nu",
+      "role_key": "freehire:snowflake-data-ai-engineer-pipelines-cortex-ai-infosys-compaz-pte-ltd-jq2lr2nu",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490682__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Snowflake Data & AI Engineer: Pipelines & Cortex AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1143,
+      "company": "Shell Singapore Pte Ltd",
+      "employment_type": null,
+      "external_id": "data engineer:93491414",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T11:20:12Z",
+      "public_slug": "senior-data-platform-engineer-ai-cloud-remote-shell-singapore-pte-ltd-jnrcr4wn",
+      "role_key": "freehire:senior-data-platform-engineer-ai-cloud-remote-shell-singapore-pte-ltd-jnrcr4wn",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93491414__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Platform Engineer — AI, Cloud, Remote"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1145,
+      "company": "QUESS SELECTION & SERVICES PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93489089",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T11:20:09Z",
+      "public_slug": "senior-cloud-data-engineer-pipelines-ai-lakehouse-quess-selection-services-pte-ltd-4wgaqis6",
+      "role_key": "freehire:senior-cloud-data-engineer-pipelines-ai-lakehouse-quess-selection-services-pte-ltd-4wgaqis6",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93489089__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Cloud Data Engineer: Pipelines, AI & Lakehouse"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1139,
-  "min_candidate_seq": 1131,
+  "max_candidate_seq": 1145,
+  "min_candidate_seq": 1136,
   "shard_index": 4,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -1,218 +1,193 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1161,
-      "company": "Ncs",
-      "employment_type": null,
-      "external_id": "data engineer:93415634",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T21:20:27Z",
-      "public_slug": "senior-ai-data-engineer-ai-harness-iceberg-platform-ncs-tmxrwx2r",
-      "role_key": "freehire:senior-ai-data-engineer-ai-harness-iceberg-platform-ncs-tmxrwx2r",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415634__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Data Engineer — AI Harness & Iceberg Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1163,
-      "company": "NCS Pte Ltd",
-      "employment_type": null,
-      "external_id": "full stack developer:90520058",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T21:20:17Z",
-      "public_slug": "gen-ai-fullstack-developer-build-ai-apps-ncs-pte-ltd-gbfcy3yj",
-      "role_key": "freehire:gen-ai-fullstack-developer-build-ai-apps-ncs-pte-ltd-gbfcy3yj",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90520058__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Gen AI Fullstack Developer — Build AI Apps"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1165,
-      "company": "NCS",
-      "employment_type": null,
-      "external_id": "full stack developer:93429823",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T21:20:11Z",
-      "public_slug": "java-full-stack-engineer-ai-preferred-ncs-jgprew3k",
-      "role_key": "freehire:java-full-stack-engineer-ai-preferred-ncs-jgprew3k",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93429823__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Java Full-Stack Engineer — AI-Preferred"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1169,
-      "company": "NCS Pte Ltd",
-      "employment_type": null,
-      "external_id": "full stack developer:93415194",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T21:20:02Z",
-      "public_slug": "ai-enabled-full-stack-developer-ncs-pte-ltd-xorq7jhh",
-      "role_key": "freehire:ai-enabled-full-stack-developer-ncs-pte-ltd-xorq7jhh",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415194__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Enabled Full Stack Developer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1170,
-      "company": "Capco (The Capital Market Company Group)",
-      "employment_type": null,
-      "external_id": "6283:95272483",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T20:22:17Z",
-      "public_slug": "senior-ai-product-analyst-banknew-capco-the-capital-market-company-group-n7uoywi5",
-      "role_key": "freehire:senior-ai-product-analyst-banknew-capco-the-capital-market-company-group-n7uoywi5",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95272483?utm_source=freehire.me",
-      "title": "Senior AI Product Analyst | BankNew"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1172,
-      "company": "Nigel Frank International",
-      "employment_type": null,
-      "external_id": "6290:95263812",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-14T07:17:44Z",
-      "public_slug": "senior-ai-engineer-nigel-frank-international-bpy6klrk",
-      "role_key": "freehire:senior-ai-engineer-nigel-frank-international-bpy6klrk",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95263812?utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1173,
+      "candidate_seq": 1178,
       "company": "UIC Asian Computer Services Pte Ltd",
       "employment_type": null,
-      "external_id": "6290:95259914",
+      "external_id": "6290:95245670",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T02:40:24Z",
-      "public_slug": "full-stack-ai-engineer-uic-asian-computer-services-pte-ltd-6mtuznrx",
-      "role_key": "freehire:full-stack-ai-engineer-uic-asian-computer-services-pte-ltd-6mtuznrx",
+      "posted_at": "2026-10-13T06:53:35Z",
+      "public_slug": "ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
+      "role_key": "freehire:ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95259914?utm_source=freehire.me",
-      "title": "Full Stack AI Engineer"
+      "source_url": "https://sg.jobstreet.com/job/95245670?utm_source=freehire.me",
+      "title": "AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1174,
-      "company": "PEBBLEROAD PTE. LTD.",
+      "candidate_seq": 1179,
+      "company": "UParcel",
       "employment_type": null,
-      "external_id": "6290:95259746",
+      "external_id": "6290:95242605",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "North-East Region",
+      "market": "SG",
+      "posted_at": "2026-10-13T02:23:00Z",
+      "public_slug": "senior-ai-and-software-engineer-uparcel-v4xjvdkz",
+      "role_key": "freehire:senior-ai-and-software-engineer-uparcel-v4xjvdkz",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95242605?utm_source=freehire.me",
+      "title": "Senior AI and Software Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1180,
+      "company": "Fuku",
+      "employment_type": null,
+      "external_id": "fuku:5466DA8A5E",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Downtown Tanjong Pagar, Central Region",
+      "location": "Singapore, Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T02:21:24Z",
-      "public_slug": "applied-ai-engineer-pebbleroad-pte-ltd-knuv6dfl",
-      "role_key": "freehire:applied-ai-engineer-pebbleroad-pte-ltd-knuv6dfl",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95259746?utm_source=freehire.me",
-      "title": "Applied AI Engineer"
+      "posted_at": "2026-10-13T00:00:00Z",
+      "public_slug": "machine-learning-quantitative-researcher-crypto-derivatives-fuku-xpfxxlsy",
+      "role_key": "freehire:machine-learning-quantitative-researcher-crypto-derivatives-fuku-xpfxxlsy",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/5466DA8A5E?utm_source=freehire.me",
+      "title": "Machine Learning Quantitative Researcher - Crypto Derivatives"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1176,
-      "company": "ZVC SINGAPORE PTE. LTD.",
+      "candidate_seq": 1181,
+      "company": "Fuku",
       "employment_type": null,
-      "external_id": ":45d948a24e56221677e29eecd2a9f766",
+      "external_id": "fuku:37F5D4D070",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T00:00:00Z",
-      "public_slug": "audio-ai-engineer-zvc-singapore-pte-ltd-mldd2jve",
-      "role_key": "freehire:audio-ai-engineer-zvc-singapore-pte-ltd-mldd2jve",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/45d948a24e56221677e29eecd2a9f766?utm_source=freehire.me",
-      "title": "Audio AI Engineer"
+      "posted_at": "2026-10-13T00:00:00Z",
+      "public_slug": "ai-engineer-fuku-aaa62ijb",
+      "role_key": "freehire:ai-engineer-fuku-aaa62ijb",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/37F5D4D070?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1184,
+      "company": "Inceptio Technology",
+      "employment_type": null,
+      "external_id": "data engineer:93114780",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-12T05:19:15Z",
+      "public_slug": "senior-cloud-infrastructure-engineer-big-data-ml-platform-autonomous-driving-inceptio-technology-yklbepl5",
+      "role_key": "freehire:senior-cloud-infrastructure-engineer-big-data-ml-platform-autonomous-driving-inceptio-technology-yklbepl5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93114780__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Cloud Infrastructure Engineer Big Data & ML Platform (Autonomous Driving)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1186,
+      "company": "SIMILARWEB SG PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93158601",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T11:21:04Z",
+      "public_slug": "senior-data-solutions-engineer-ai-driven-enterprise-advisory-similarweb-sg-pte-ltd-ynatwxwy",
+      "role_key": "freehire:senior-data-solutions-engineer-ai-driven-enterprise-advisory-similarweb-sg-pte-ltd-ynatwxwy",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93158601__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Solutions Engineer - AI-Driven Enterprise Advisory"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1188,
+      "company": "Epergne Solutions",
+      "employment_type": null,
+      "external_id": "data engineer:93159838",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T11:20:58Z",
+      "public_slug": "databricks-data-engineer-ml-ops-platform-modernization-epergne-solutions-5xqjexpc",
+      "role_key": "freehire:databricks-data-engineer-ml-ops-platform-modernization-epergne-solutions-5xqjexpc",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159838__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Databricks Data Engineer: ML Ops & Platform Modernization"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1189,
+      "company": "Helius Technologies",
+      "employment_type": null,
+      "external_id": "full stack developer:93159747",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T11:20:37Z",
+      "public_slug": "senior-full-stack-developer-ai-and-cloud-native-applications-helius-technologies-4mcrvv72",
+      "role_key": "freehire:senior-full-stack-developer-ai-and-cloud-native-applications-helius-technologies-4mcrvv72",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159747__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full Stack Developer — AI and Cloud-Native Applications"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1176,
-  "min_candidate_seq": 1161,
+  "max_candidate_seq": 1189,
+  "min_candidate_seq": 1178,
   "shard_index": 7,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

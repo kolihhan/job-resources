@@ -1,6 +1,28 @@
 {
-  "candidate_count": 2,
+  "candidate_count": 6,
   "candidates": [
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 3046,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100054900009",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-06T08:59:43Z",
+      "public_slug": "qian-wen-ban-gong-ai-quan-zhan-gong-cheng-shi-gong-zuo-tai-alibaba-group-6upd72i5",
+      "role_key": "freehire:qian-wen-ban-gong-ai-quan-zhan-gong-cheng-shi-gong-zuo-tai-alibaba-group-6upd72i5",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100054900009&utm_source=freehire.me",
+      "title": "千问办公-AI 全栈工程师-工作台"
+    },
     {
       "ai_score": 7,
       "ai_signals": [
@@ -49,14 +71,82 @@
       "source": "feishujobs",
       "source_url": "https://01ai.jobs.feishu.cn/index/position/7704245572266117418/detail?utm_source=freehire.me",
       "title": "算法工程师（大模型 Agent 方向）- 校园招聘"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:llm",
+        "jd:llm",
+        "jd:genai",
+        "jd:multimodal"
+      ],
+      "candidate_seq": 3134,
+      "company": "Qualcomm",
+      "employment_type": null,
+      "external_id": "qualcomm.eightfold.ai/qualcomm.com:446722025170",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-11-09T00:00:00Z",
+      "public_slug": "data-center-llm-optimization-customer-engineer-qualcomm-dubvusza",
+      "role_key": "freehire:data-center-llm-optimization-customer-engineer-qualcomm-dubvusza",
+      "source": "eightfold",
+      "source_url": "https://careers.qualcomm.com/careers/job/446722025170?utm_source=freehire.me",
+      "title": "Data Center LLM Optimization Customer Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:llm"
+      ],
+      "candidate_seq": 3135,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100019420004",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-09T07:24:09Z",
+      "public_slug": "shu-ju-ji-zhu-ji-chan-pin-bu-aishu-ju-ce-lue-zhuan-jia-llmfang-xiang-alibaba-group-2sx5473h",
+      "role_key": "freehire:shu-ju-ji-zhu-ji-chan-pin-bu-aishu-ju-ce-lue-zhuan-jia-llmfang-xiang-alibaba-group-2sx5473h",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100019420004&utm_source=freehire.me",
+      "title": "数据技术及产品部-AI数据策略专家-LLM/VL/Omni方向"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3136,
+      "company": "GE Healthcare",
+      "employment_type": "full_time",
+      "external_id": "gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite:/job/WuXi/Sr-Software-Engineer---AI-Regulatory_R4049211-1",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "WuXi",
+      "market": "CN",
+      "posted_at": "2026-11-09T00:00:00Z",
+      "public_slug": "sr-software-engineer-ai-regulatory-ge-healthcare-sythezjx",
+      "role_key": "freehire:sr-software-engineer-ai-regulatory-ge-healthcare-sythezjx",
+      "source": "workday",
+      "source_url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/WuXi/Sr-Software-Engineer---AI-Regulatory_R4049211-1?utm_source=freehire.me",
+      "title": "Sr. Software Engineer - AI Regulatory"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "CN",
-  "max_candidate_seq": 3084,
-  "min_candidate_seq": 3083,
+  "max_candidate_seq": 3136,
+  "min_candidate_seq": 3046,
   "shard_index": 3,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

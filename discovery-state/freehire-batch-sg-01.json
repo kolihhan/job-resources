@@ -27,27 +27,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1088,
-      "company": "Micron",
-      "employment_type": null,
-      "external_id": "data engineer:93581167",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-20T05:11:37Z",
-      "public_slug": "nand-reliability-ai-engineer-data-cloud-micron-lqwgxblt",
-      "role_key": "freehire:nand-reliability-ai-engineer-data-cloud-micron-lqwgxblt",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93581167__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "NAND Reliability AI Engineer: Data & Cloud"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1092,
       "company": "INTUIT RECRUITMENT PTE. LTD.",
       "employment_type": null,
@@ -191,14 +170,35 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93588177__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Full-Stack Engineer: AI-Driven Web Platform Builder"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1108,
+      "company": "McLink",
+      "employment_type": null,
+      "external_id": "6296:95339665",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Paya Lebar East, East Region",
+      "market": "SG",
+      "posted_at": "2026-10-19T01:08:41Z",
+      "public_slug": "ai-business-solutions-consultant-mclink-tta7imq7",
+      "role_key": "freehire:ai-business-solutions-consultant-mclink-tta7imq7",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95339665?utm_source=freehire.me",
+      "title": "AI & Business Solutions Consultant"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1107,
+  "max_candidate_seq": 1108,
   "min_candidate_seq": 1086,
   "shard_index": 1,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

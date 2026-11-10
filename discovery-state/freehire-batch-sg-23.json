@@ -6,33 +6,10 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1371,
-      "company": "AVANADE ASIA PTE LTD",
-      "employment_type": null,
-      "external_id": "full stack developer:90892208",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-03T09:47:41Z",
-      "public_slug": "client-embedded-ai-full-stack-engineer-avanade-asia-pte-ltd-zz6lmj7v",
-      "role_key": "freehire:client-embedded-ai-full-stack-engineer-avanade-asia-pte-ltd-zz6lmj7v",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90892208__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Client-Embedded AI/Full-Stack Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1372,
-      "company": "SHOPEE SINGAPORE PRIVATE LIMITED",
-      "employment_type": null,
-      "external_id": "backend developer:90892661",
+      "candidate_seq": 1393,
+      "company": "mypetrocareer.com",
+      "employment_type": "part_time",
+      "external_id": "data engineer:88799595",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -41,55 +18,82 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-09-03T09:47:36Z",
-      "public_slug": "senior-backend-engineer-ai-driven-payments-platform-shopee-singapore-private-limited-kkl6ntg2",
-      "role_key": "freehire:senior-backend-engineer-ai-driven-payments-platform-shopee-singapore-private-limited-kkl6ntg2",
+      "posted_at": "2026-08-28T04:47:47Z",
+      "public_slug": "technical-professional-data-science-senior-tech-pro-data-science-ai-engineer-mypetrocareer-com-72cyrqai",
+      "role_key": "freehire:technical-professional-data-science-senior-tech-pro-data-science-ai-engineer-mypetrocareer-com-72cyrqai",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90892661__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer, AI-Driven Payments Platform"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88799595__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Technical Professional-Data Science/Senior Tech Pro-Data Science (AI Engineer)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1373,
-      "company": "Micron Technology",
-      "employment_type": null,
-      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/Fab-10W-Singapore/AI-Engineer_JR109599",
-      "flags": [],
+      "candidate_seq": 1394,
+      "company": "Airwallex",
+      "employment_type": "full_time",
+      "external_id": "airwallex:c7070452-6ec6-443c-8015-db339403634a",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Fab 10W, Singapore",
+      "location": "SG - Singapore",
       "market": "SG",
-      "posted_at": "2026-09-02T00:00:00Z",
-      "public_slug": "ai-engineer-micron-technology-ddasfsxf",
-      "role_key": "freehire:ai-engineer-micron-technology-ddasfsxf",
-      "source": "workday",
-      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/AI-Engineer_JR109599?utm_source=freehire.me",
-      "title": "AI Engineer"
+      "posted_at": "2026-08-25T02:07:19Z",
+      "public_slug": "senior-ai-engineer-risk-payments-airwallex-nrlqdhmy",
+      "role_key": "freehire:senior-ai-engineer-risk-payments-airwallex-nrlqdhmy",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/airwallex/c7070452-6ec6-443c-8015-db339403634a?utm_source=freehire.me",
+      "title": "Senior AI Engineer (Risk & Payments)"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1374,
-      "company": "Cisco",
+      "candidate_seq": 1396,
+      "company": "NHG Health",
       "employment_type": null,
-      "external_id": "careers.cisco.com:CISCISGLOBAL2022551EXTERNALENGLOBAL",
+      "external_id": "data engineer:90389926",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-24T14:46:15Z",
+      "public_slug": "senior-data-ai-engineer-cloud-native-health-analytics-nhg-health-hjfvna6e",
+      "role_key": "freehire:senior-data-ai-engineer-cloud-native-health-analytics-nhg-health-hjfvna6e",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90389926__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data AI Engineer – Cloud-Native Health Analytics"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1398,
+      "company": "Cisco Systems",
+      "employment_type": null,
+      "external_id": "6290:94358726",
       "flags": [
         "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Central Singapore",
+      "location": "Central Region",
       "market": "SG",
-      "posted_at": "2026-09-02T00:00:00Z",
-      "public_slug": "solutions-engineer-artificial-intelligence-ai-practitioner-cisco-wgkagftp",
-      "role_key": "freehire:solutions-engineer-artificial-intelligence-ai-practitioner-cisco-wgkagftp",
-      "source": "phenom",
-      "source_url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2022551EXTERNALENGLOBAL?utm_source=freehire.me",
+      "posted_at": "2026-08-24T12:00:00Z",
+      "public_slug": "solutions-engineer-artificial-intelligence-ai-practitioner-cisco-systems-oukmzlvc",
+      "role_key": "freehire:solutions-engineer-artificial-intelligence-ai-practitioner-cisco-systems-oukmzlvc",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94358726?utm_source=freehire.me",
       "title": "Solutions Engineer - Artificial Intelligence (AI) Practitioner"
     },
     {
@@ -97,98 +101,98 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1377,
-      "company": "ncs3",
-      "employment_type": null,
-      "external_id": "ncs3:6000000001365962",
+      "candidate_seq": 1399,
+      "company": "ocbc",
+      "employment_type": "full_time",
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/AVP--Group-Payment-Operations---AI--data-analytics--digitalisation_JR00010505",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, sg",
+      "location": "OCBC Singapore",
       "market": "SG",
-      "posted_at": "2026-09-01T04:39:30Z",
-      "public_slug": "senior-ai-product-engineer-ncs3-4xjv6j7m",
-      "role_key": "freehire:senior-ai-product-engineer-ncs3-4xjv6j7m",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001365962-senior-ai-product-engineer?utm_source=freehire.me",
-      "title": "Senior AI Product Engineer"
+      "posted_at": "2026-08-24T00:00:00Z",
+      "public_slug": "avp-group-payment-operations-ai-data-analytics-digitalisation-ocbc-e4dnogwq",
+      "role_key": "freehire:avp-group-payment-operations-ai-data-analytics-digitalisation-ocbc-e4dnogwq",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/AVP--Group-Payment-Operations---AI--data-analytics--digitalisation_JR00010505?utm_source=freehire.me",
+      "title": "AVP, Group Payment Operations:  AI, data analytics, digitalisation"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1378,
-      "company": "invigilo technologies pte. ltd.",
+      "candidate_seq": 1402,
+      "company": "TOSS-EX PR PTE. LTD.",
       "employment_type": null,
-      "external_id": "devops engineer:90670775",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": "devops engineer:90262055",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-31T14:49:24Z",
-      "public_slug": "senior-devops-engineer-ai-edge-cloud-deployments-invigilo-technologies-pte-ltd-6eplaban",
-      "role_key": "freehire:senior-devops-engineer-ai-edge-cloud-deployments-invigilo-technologies-pte-ltd-6eplaban",
+      "posted_at": "2026-08-21T11:45:49Z",
+      "public_slug": "ai-platform-devops-engineer-mlops-cloud-toss-ex-pr-pte-ltd-523kwalq",
+      "role_key": "freehire:ai-platform-devops-engineer-mlops-cloud-toss-ex-pr-pte-ltd-523kwalq",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90670775__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior DevOps Engineer - AI & Edge Cloud Deployments"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90262055__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Platform DevOps Engineer — MLOps & Cloud"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1379,
-      "company": "Cyber Security Agency of Singapore (CSA)",
+      "candidate_seq": 1403,
+      "company": "Airwallex",
       "employment_type": null,
-      "external_id": "6297:94316292",
-      "flags": [],
+      "external_id": "airwallex:4a995552-e961-48c0-92b0-08bfa7e4c5e9",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "SG - Singapore",
       "market": "SG",
-      "posted_at": "2026-08-31T09:52:13Z",
-      "public_slug": "cybersecurity-consultant-ai-cybersecurity-engineering-centre-cyber-security-agency-of-singapore-csa-a7gzrwpy",
-      "role_key": "freehire:cybersecurity-consultant-ai-cybersecurity-engineering-centre-cyber-security-agency-of-singapore-csa-a7gzrwpy",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94316292?utm_source=freehire.me",
-      "title": "Cybersecurity Consultant (AI), Cybersecurity Engineering Centre"
+      "posted_at": "2026-08-21T05:44:48Z",
+      "public_slug": "senior-software-engineer-ai-infrastructure-airwallex-a7ne4gwx",
+      "role_key": "freehire:senior-software-engineer-ai-infrastructure-airwallex-a7ne4gwx",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/airwallex/4a995552-e961-48c0-92b0-08bfa7e4c5e9?utm_source=freehire.me",
+      "title": "Senior Software Engineer, AI Infrastructure"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1380,
-      "company": "Royal Ocean Marine",
+      "candidate_seq": 1404,
+      "company": "ncs3",
       "employment_type": null,
-      "external_id": "royal-ocean-marine:79C4AD99FB",
+      "external_id": "ncs3:6000000001337877",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
+      "location": "Singapore, sg",
       "market": "SG",
-      "posted_at": "2026-08-31T00:00:00Z",
-      "public_slug": "ai-full-stack-software-developer-0087-august-2026-royal-ocean-marine-tm3zkw3s",
-      "role_key": "freehire:ai-full-stack-software-developer-0087-august-2026-royal-ocean-marine-tm3zkw3s",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/79C4AD99FB?utm_source=freehire.me",
-      "title": "AI & Full-Stack Software Developer (0087 August 2026)"
+      "posted_at": "2026-08-21T02:26:41Z",
+      "public_slug": "eg-cloud-engineer-architect-ai-infrastructure-ncs3-uaddd2tn",
+      "role_key": "freehire:eg-cloud-engineer-architect-ai-infrastructure-ncs3-uaddd2tn",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001337877--eg-cloud-engineer-architect-ai-infrastructure?utm_source=freehire.me",
+      "title": "#EG Cloud Engineer / Architect – AI Infrastructure"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1380,
-  "min_candidate_seq": 1371,
+  "max_candidate_seq": 1404,
+  "min_candidate_seq": 1393,
   "shard_index": 23,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

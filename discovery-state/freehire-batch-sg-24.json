@@ -1,198 +1,215 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1381,
-      "company": "dbs",
+      "candidate_seq": 1405,
+      "company": "Accenture Southeast Asia",
       "employment_type": null,
-      "external_id": "dbs.wd3.myworkdayjobs.com/dbs_careers:/job/Singapore---Central/XMLNAME-2027-Management-Associate-Programme--Technology-and-AI---Data-Science-_WD88186",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore - Central",
-      "market": "SG",
-      "posted_at": "2026-08-31T00:00:00Z",
-      "public_slug": "2027-management-associate-programme-technology-and-ai-data-science-dbs-ggglbnok",
-      "role_key": "freehire:2027-management-associate-programme-technology-and-ai-data-science-dbs-ggglbnok",
-      "source": "workday",
-      "source_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Singapore---Central/XMLNAME-2027-Management-Associate-Programme--Technology-and-AI---Data-Science-_WD88186?utm_source=freehire.me",
-      "title": "2027 Management Associate Programme (Technology and AI & Data Science)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1382,
-      "company": "CODEX SOLUTIONS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:90636458",
+      "external_id": "full stack developer:90220348",
       "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-30T12:45:49Z",
-      "public_slug": "senior-full-stack-engineer-cloud-ai-systems-codex-solutions-pte-ltd-v46trojj",
-      "role_key": "freehire:senior-full-stack-engineer-cloud-ai-systems-codex-solutions-pte-ltd-v46trojj",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90636458__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer - Cloud & AI Systems"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1383,
-      "company": "Platform&Co",
-      "employment_type": null,
-      "external_id": "data engineer:90596473",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-29T17:48:26Z",
-      "public_slug": "senior-data-platform-engineer-cloud-ai-apis-platform-co-lgbyl6do",
-      "role_key": "freehire:senior-data-platform-engineer-cloud-ai-apis-platform-co-lgbyl6do",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90596473__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Platform Engineer – Cloud, AI/APIs"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1384,
-      "company": "Epiq Company",
-      "employment_type": null,
-      "external_id": "backend developer:90597808",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-29T17:47:55Z",
-      "public_slug": "backend-engineer-ai-platform-epiq-company-usepb5h4",
-      "role_key": "freehire:backend-engineer-ai-platform-epiq-company-usepb5h4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90597808__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer, AI Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1385,
-      "company": "DSO National Laboratories",
-      "employment_type": null,
-      "external_id": "data engineer:90515665",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-29T10:51:24Z",
-      "public_slug": "software-engineer-ai-data-high-performance-clusters-dso-national-laboratories-mjzpi2qu",
-      "role_key": "freehire:software-engineer-ai-data-high-performance-clusters-dso-national-laboratories-mjzpi2qu",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90515665__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Software Engineer: AI, Data, & High-Performance Clusters"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1386,
-      "company": "Tan Tock Seng Hospital",
-      "employment_type": null,
-      "external_id": "data engineer:90516717",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-28T20:50:03Z",
-      "public_slug": "senior-data-ai-engineer-healthcare-cloud-ai-solutions-tan-tock-seng-hospital-lb6n24cm",
-      "role_key": "freehire:senior-data-ai-engineer-healthcare-cloud-ai-solutions-tan-tock-seng-hospital-lb6n24cm",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90516717__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data & AI Engineer - Healthcare Cloud AI Solutions"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1388,
-      "company": "Lavu Tech Solutions Sdn Bhd",
-      "employment_type": null,
-      "external_id": "data engineer:90517081",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-28T20:49:55Z",
-      "public_slug": "senior-snowflake-data-engineer-aws-ai-driven-pipelines-lavu-tech-solutions-sdn-bhd-v7obl2lh",
-      "role_key": "freehire:senior-snowflake-data-engineer-aws-ai-driven-pipelines-lavu-tech-solutions-sdn-bhd-v7obl2lh",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90517081__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Snowflake Data Engineer - AWS, AI-Driven Pipelines"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1389,
-      "company": "Avensys Consulting",
-      "employment_type": null,
-      "external_id": "full stack developer:90517049",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint",
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-28T20:49:40Z",
-      "public_slug": "senior-full-stack-engineer-react-spring-boot-cloud-ai-avensys-consulting-d2f4sqwb",
-      "role_key": "freehire:senior-full-stack-engineer-react-spring-boot-cloud-ai-avensys-consulting-d2f4sqwb",
+      "posted_at": "2026-08-20T14:51:23Z",
+      "public_slug": "full-stack-ai-developer-accenture-southeast-asia-g5fypfrn",
+      "role_key": "freehire:full-stack-ai-developer-accenture-southeast-asia-g5fypfrn",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90517049__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer – React/Spring Boot, Cloud & AI"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90220348__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack AI Developer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1406,
+      "company": "Nanyang Technological University",
+      "employment_type": null,
+      "external_id": "6290:94109328",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "North Region",
+      "market": "SG",
+      "posted_at": "2026-08-20T10:25:20Z",
+      "public_slug": "ai-engineer-aieh-nanyang-technological-university-opv5j32b",
+      "role_key": "freehire:ai-engineer-aieh-nanyang-technological-university-opv5j32b",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94109328?utm_source=freehire.me",
+      "title": "AI Engineer (AIEH)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1407,
+      "company": "Ntu",
+      "employment_type": null,
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--AIEH-_R00025566",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-20T00:00:00Z",
+      "public_slug": "ai-engineer-aieh-ntu-uvfmji55",
+      "role_key": "freehire:ai-engineer-aieh-ntu-uvfmji55",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIEH-_R00025566?utm_source=freehire.me",
+      "title": "AI Engineer (AIEH)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1408,
+      "company": "cygnify",
+      "employment_type": null,
+      "external_id": "cygnify:73b23373-d50c-494e-82c3-9002f40c57c6",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-18T12:40:18Z",
+      "public_slug": "backend-developer-ai-cygnify-2ya2dirk",
+      "role_key": "freehire:backend-developer-ai-cygnify-2ya2dirk",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/cygnify/73b23373-d50c-494e-82c3-9002f40c57c6?utm_source=freehire.me",
+      "title": "Backend Developer (AI) "
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1410,
+      "company": "The GMP Group",
+      "employment_type": null,
+      "external_id": "gmp-group-2:939XX7RY",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-08-17T23:28:14Z",
+      "public_slug": "software-engineer-ai-systems-the-gmp-group-bgusp37s",
+      "role_key": "freehire:software-engineer-ai-systems-the-gmp-group-bgusp37s",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/gmp-group-2/job/939XX7RY?utm_source=freehire.me",
+      "title": "Software Engineer - AI Systems"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1411,
+      "company": "Cultivar Asia Pte Ltd (EA License 19C9782)",
+      "employment_type": null,
+      "external_id": "cultivar:QVV97536",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-17T22:27:02Z",
+      "public_slug": "ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-sdfdiy3v",
+      "role_key": "freehire:ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-sdfdiy3v",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/cultivar/job/QVV97536?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1412,
+      "company": "Cultivar Asia Pte Ltd (EA License 19C9782)",
+      "employment_type": null,
+      "external_id": "cultivar:L393X86V",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-17T22:27:02Z",
+      "public_slug": "ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-hkomc6am",
+      "role_key": "freehire:ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-hkomc6am",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/cultivar/job/L393X86V?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1415,
+      "company": "Portcast",
+      "employment_type": null,
+      "external_id": "portcast:d206930c-1ecd-41fe-b603-b28ad98a5ea4",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-17T17:16:33Z",
+      "public_slug": "senior-machine-learning-engineer-portcast-436umwtl",
+      "role_key": "freehire:senior-machine-learning-engineer-portcast-436umwtl",
+      "source": "lever",
+      "source_url": "https://jobs.lever.co/portcast/d206930c-1ecd-41fe-b603-b28ad98a5ea4?utm_source=freehire.me",
+      "title": "Senior Machine Learning Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:llm",
+        "jd:genai"
+      ],
+      "candidate_seq": 1417,
+      "company": "Krisvconsulting Services Pte Ltd",
+      "employment_type": null,
+      "external_id": "krisvconsulting-services-pte-ltd:X943Y3RR",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-15T22:31:11Z",
+      "public_slug": "senior-data-scientist-krisvconsulting-services-pte-ltd-hkl6dk6a",
+      "role_key": "freehire:senior-data-scientist-krisvconsulting-services-pte-ltd-hkl6dk6a",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/krisvconsulting-services-pte-ltd/job/X943Y3RR?utm_source=freehire.me",
+      "title": "Senior Data Scientist"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1389,
-  "min_candidate_seq": 1381,
+  "max_candidate_seq": 1417,
+  "min_candidate_seq": 1405,
   "shard_index": 24,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

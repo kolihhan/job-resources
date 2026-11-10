@@ -1,127 +1,169 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1263,
-      "company": "Keysight Technologies Singapore (Sales) Pte. Ltd....-",
+      "candidate_seq": 1286,
+      "company": "Millennium Management LLC",
       "employment_type": null,
-      "external_id": "6290:95035736",
+      "external_id": "devops engineer:92442409",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:31Z",
+      "public_slug": "ai-devops-engineer-millennium-management-llc-53yvq2aw",
+      "role_key": "freehire:ai-devops-engineer-millennium-management-llc-53yvq2aw",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92442409__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI DevOps Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1287,
+      "company": "Lithan",
+      "employment_type": null,
+      "external_id": "lithan.zohorecruit.com:316649000042047067",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Geylang Road, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T00:00:00Z",
+      "public_slug": "adjunct-faculty-data-science-azure-ai-singapore-lithan-eu62zbvd",
+      "role_key": "freehire:adjunct-faculty-data-science-azure-ai-singapore-lithan-eu62zbvd",
+      "source": "zohorecruit",
+      "source_url": "https://lithan.zohorecruit.com/jobs/Careers/316649000042047067?utm_source=freehire.me",
+      "title": "Adjunct Faculty Data Science (Azure AI) - Singapore"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1288,
+      "company": "ASTEK SINGAPORE INNOVATION TECHNOLOGY PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:92377646",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-28T11:57:52Z",
+      "public_slug": "singapore-based-ai-driven-full-stack-engineer-react-python-astek-singapore-innovation-technology-pte-ltd-6beeo5q2",
+      "role_key": "freehire:singapore-based-ai-driven-full-stack-engineer-react-python-astek-singapore-innovation-technology-pte-ltd-6beeo5q2",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92377646__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Singapore-based AI-Driven Full Stack Engineer (React/Python)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1289,
+      "company": "garena online private limited",
+      "employment_type": null,
+      "external_id": "data engineer:92238740",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-02T20:44:35Z",
-      "public_slug": "senior-r-d-ai-software-development-engineer-keysight-technologies-singapore-sales-pte-ltd-mzqnbqam",
-      "role_key": "freehire:senior-r-d-ai-software-development-engineer-keysight-technologies-singapore-sales-pte-ltd-mzqnbqam",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95035736?utm_source=freehire.me",
-      "title": "Senior R&D AI Software Development Engineer"
+      "posted_at": "2026-09-26T11:58:50Z",
+      "public_slug": "senior-data-engineer-ai-powered-etl-analytics-garena-online-private-limited-qs3gb25l",
+      "role_key": "freehire:senior-data-engineer-ai-powered-etl-analytics-garena-online-private-limited-qs3gb25l",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92238740__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer: AI-Powered ETL & Analytics"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1264,
-      "company": "Capco (The Capital Market Company Group)",
+      "candidate_seq": 1290,
+      "company": "JOBSTER PRIVATE LTD.",
       "employment_type": null,
-      "external_id": "6290:95033957",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-02T14:04:53Z",
-      "public_slug": "ai-engineer-new-capco-the-capital-market-company-group-g7s3ahkf",
-      "role_key": "freehire:ai-engineer-new-capco-the-capital-market-company-group-g7s3ahkf",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95033957?utm_source=freehire.me",
-      "title": "AI Engineer New"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1267,
-      "company": "Astek",
-      "employment_type": null,
-      "external_id": "full stack developer:92620966",
+      "external_id": "react developer:92238920",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-02T07:56:45Z",
-      "public_slug": "full-stack-engineer-ai-driven-apps-react-python-astek-clitrb6c",
-      "role_key": "freehire:full-stack-engineer-ai-driven-apps-react-python-astek-clitrb6c",
+      "posted_at": "2026-09-26T11:58:00Z",
+      "public_slug": "frontend-engineer-ai-driven-ux-react-expert-jobster-private-ltd-nftnaeel",
+      "role_key": "freehire:frontend-engineer-ai-driven-ux-react-expert-jobster-private-ltd-nftnaeel",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92620966__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Engineer - AI-Driven Apps (React/Python)"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92238920__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Frontend Engineer: AI-Driven UX & React Expert"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1274,
-      "company": "Bjak",
+      "candidate_seq": 1291,
+      "company": "RECRUIT LYNC PTE. LTD.",
       "employment_type": null,
-      "external_id": "bjakcareer:2315ed19-82f2-4cb9-965c-fdc527495a5a",
+      "external_id": "data engineer:92154088",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Thailand",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-01T06:34:53Z",
-      "public_slug": "mobile-developer-ai-finance-agent-bjakcareer-b7tzfyfv",
-      "role_key": "freehire:mobile-developer-ai-finance-agent-bjakcareer-b7tzfyfv",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/2315ed19-82f2-4cb9-965c-fdc527495a5a?utm_source=freehire.me",
-      "title": "Mobile Developer - AI Finance Agent"
+      "posted_at": "2026-09-25T19:56:21Z",
+      "public_slug": "digital-health-data-engineer-ai-driven-pipelines-recruit-lync-pte-ltd-kue4lwi2",
+      "role_key": "freehire:digital-health-data-engineer-ai-driven-pipelines-recruit-lync-pte-ltd-kue4lwi2",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92154088__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Digital Health Data Engineer: AI-Driven Pipelines"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1275,
-      "company": "F5 Networks",
+      "candidate_seq": 1294,
+      "company": "Mistral AI",
       "employment_type": null,
-      "external_id": "6290:95006387",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
+      "external_id": "mistral.ai:d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-01T06:30:00Z",
-      "public_slug": "forward-deployed-engineer-ai-security-f5-networks-mtqfawct",
-      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-networks-mtqfawct",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95006387?utm_source=freehire.me",
-      "title": "Forward Deployed Engineer-AI Security"
+      "posted_at": "2026-09-25T13:52:58Z",
+      "public_slug": "applied-ai-engineer-robotics-mistral-ai-z4jbynna",
+      "role_key": "freehire:applied-ai-engineer-robotics-mistral-ai-z4jbynna",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4?utm_source=freehire.me",
+      "title": "Applied AI Engineer, Robotics"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1276,
-      "company": "Apple",
+      "candidate_seq": 1296,
+      "company": "Zurich Insurance Group",
       "employment_type": null,
-      "external_id": ":200686563",
+      "external_id": "6290:94863771",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -131,85 +173,20 @@
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-01T03:27:09Z",
-      "public_slug": "senior-ai-backend-software-engineer-digital-channel-apple-lnmg5bra",
-      "role_key": "freehire:senior-ai-backend-software-engineer-digital-channel-apple-lnmg5bra",
-      "source": "apple",
-      "source_url": "https://jobs.apple.com/en-us/details/200686563/senior-ai-backend-software-engineer-digital-channel?utm_source=freehire.me",
-      "title": "Senior AI Backend Software Engineer, Digital Channel"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1277,
-      "company": "Evonik Methionine",
-      "employment_type": null,
-      "external_id": "6290:94991457",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-01T01:00:00Z",
-      "public_slug": "ai-product-engineer-industrial-ai-evonik-methionine-zfeliawc",
-      "role_key": "freehire:ai-product-engineer-industrial-ai-evonik-methionine-zfeliawc",
+      "posted_at": "2026-09-24T12:00:00Z",
+      "public_slug": "senior-ai-engineer-zurich-insurance-group-ewh3lcnh",
+      "role_key": "freehire:senior-ai-engineer-zurich-insurance-group-ewh3lcnh",
       "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94991457?utm_source=freehire.me",
-      "title": "AI Product Engineer Industrial AI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1278,
-      "company": "F5",
-      "employment_type": null,
-      "external_id": "ffive.wd5.myworkdayjobs.com/f5jobs:/job/Singapore-Office/Forward-Deployed-Engineer-AI-Security_RP1038989",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore Office",
-      "market": "SG",
-      "posted_at": "2026-10-01T00:00:00Z",
-      "public_slug": "forward-deployed-engineer-ai-security-f5-vtfo3ydr",
-      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-vtfo3ydr",
-      "source": "workday",
-      "source_url": "https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Singapore-Office/Forward-Deployed-Engineer-AI-Security_RP1038989?utm_source=freehire.me",
-      "title": "Forward Deployed Engineer-AI Security"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1279,
-      "company": "Neutron",
-      "employment_type": null,
-      "external_id": "backend developer:92552371",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-30T13:57:42Z",
-      "public_slug": "backend-engineer-for-ai-driven-security-platform-neutron-5jaeqeal",
-      "role_key": "freehire:backend-engineer-for-ai-driven-security-platform-neutron-5jaeqeal",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92552371__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer for AI-Driven Security Platform"
+      "source_url": "https://sg.jobstreet.com/job/94863771?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1279,
-  "min_candidate_seq": 1263,
+  "max_candidate_seq": 1296,
+  "min_candidate_seq": 1286,
   "shard_index": 14,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

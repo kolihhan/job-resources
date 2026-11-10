@@ -6,81 +6,96 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1229,
-      "company": "7600 Accenture Pte Ltd Company",
+      "candidate_seq": 1278,
+      "company": "F5",
       "employment_type": null,
-      "external_id": "data engineer:92763668",
+      "external_id": "ffive.wd5.myworkdayjobs.com/f5jobs:/job/Singapore-Office/Forward-Deployed-Engineer-AI-Security_RP1038989",
       "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
+        "experience_5_plus_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore Office",
       "market": "SG",
-      "posted_at": "2026-10-06T13:58:46Z",
-      "public_slug": "senior-data-ai-presales-engineer-aws-fde-7600-accenture-pte-ltd-company-bsdsawac",
-      "role_key": "freehire:senior-data-ai-presales-engineer-aws-fde-7600-accenture-pte-ltd-company-bsdsawac",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763668__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data & AI Presales Engineer - AWS FDE"
+      "posted_at": "2026-10-01T00:00:00Z",
+      "public_slug": "forward-deployed-engineer-ai-security-f5-vtfo3ydr",
+      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-vtfo3ydr",
+      "source": "workday",
+      "source_url": "https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Singapore-Office/Forward-Deployed-Engineer-AI-Security_RP1038989?utm_source=freehire.me",
+      "title": "Forward Deployed Engineer-AI Security"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1237,
-      "company": "United Overseas Bank Limited",
+      "candidate_seq": 1279,
+      "company": "Neutron",
       "employment_type": null,
-      "external_id": "data engineer:92762061",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-05T11:56:29Z",
-      "public_slug": "senior-data-engineer-real-time-lakehouse-ai-data-1011-united-overseas-bank-ltd-354oaxuo",
-      "role_key": "freehire:senior-data-engineer-real-time-lakehouse-ai-data-1011-united-overseas-bank-ltd-354oaxuo",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92762061__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer: Real‑Time Lakehouse & AI Data"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1239,
-      "company": "SEA Singapore",
-      "employment_type": null,
-      "external_id": "backend developer:92763531",
+      "external_id": "backend developer:92552371",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-05T11:55:53Z",
-      "public_slug": "ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
-      "role_key": "freehire:ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
+      "posted_at": "2026-09-30T13:57:42Z",
+      "public_slug": "backend-engineer-for-ai-driven-security-platform-neutron-5jaeqeal",
+      "role_key": "freehire:backend-engineer-for-ai-driven-security-platform-neutron-5jaeqeal",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763531__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Backend Engineer for Scalable APIs"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92552371__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer for AI-Driven Security Platform"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1240,
-      "company": "SEA Singapore",
+      "candidate_seq": 1280,
+      "company": "Temus",
       "employment_type": null,
-      "external_id": "backend developer:92763558",
+      "external_id": "temus:5439381008",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-30T02:40:22Z",
+      "public_slug": "full-stack-ai-engineer-temus-yxh2mxwl",
+      "role_key": "freehire:full-stack-ai-engineer-temus-yxh2mxwl",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/temus/jobs/5439381008?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1281,
+      "company": "Evonik",
+      "employment_type": null,
+      "external_id": "evonik.wd3.myworkdayjobs.com/External_Careers:/job/Singapore---Int-Business-Park/AI-Product-Engineer-Industrial-AI_R51133",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore - Int. Business Park",
+      "market": "SG",
+      "posted_at": "2026-09-30T00:00:00Z",
+      "public_slug": "ai-product-engineer-industrial-ai-evonik-5qz7tn64",
+      "role_key": "freehire:ai-product-engineer-industrial-ai-evonik-5qz7tn64",
+      "source": "workday",
+      "source_url": "https://evonik.wd3.myworkdayjobs.com/External_Careers/job/Singapore---Int-Business-Park/AI-Product-Engineer-Industrial-AI_R51133?utm_source=freehire.me",
+      "title": "AI Product Engineer Industrial AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1282,
+      "company": "Land Transport Authority (LTA) Singapore",
+      "employment_type": null,
+      "external_id": "data engineer:92441565",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
@@ -89,109 +104,83 @@
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-05T11:55:53Z",
-      "public_slug": "senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
-      "role_key": "freehire:senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
+      "posted_at": "2026-09-29T09:57:11Z",
+      "public_slug": "senior-data-platform-engineer-cde-ai-automation-land-transport-authority-lta-singapore-q5hycv5p",
+      "role_key": "freehire:senior-data-platform-engineer-cde-ai-automation-land-transport-authority-lta-singapore-q5hycv5p",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763558__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer, AI-Driven Product – Singapore"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441565__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Platform Engineer — CDE & AI Automation"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1241,
-      "company": "Micron",
+      "candidate_seq": 1283,
+      "company": "TikTok",
       "employment_type": null,
-      "external_id": "careers.micron.com/micron.com:44316899",
+      "external_id": "backend developer:92440357",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-05T00:00:00Z",
-      "public_slug": "ai-engineer-micron-muyr3lzo",
-      "role_key": "freehire:ai-engineer-micron-muyr3lzo",
-      "source": "eightfold",
-      "source_url": "https://careers.micron.com/careers/job/44316899?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1245,
-      "company": "OCBC Group",
-      "employment_type": null,
-      "external_id": "data engineer:92714974",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-04T09:56:47Z",
-      "public_slug": "vp-data-engineer-cloud-native-ai-platform-leader-ocbc-bank-ojzwsi4n",
-      "role_key": "freehire:vp-data-engineer-cloud-native-ai-platform-leader-ocbc-bank-ojzwsi4n",
+      "posted_at": "2026-09-29T09:56:33Z",
+      "public_slug": "backend-engineer-global-live-ai-infrastructure-singapore-singapore-technology-backend-regular-tiktok-heki736v",
+      "role_key": "freehire:backend-engineer-global-live-ai-infrastructure-singapore-singapore-technology-backend-regular-tiktok-heki736v",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92714974__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "VP Data Engineer: Cloud‑Native AI Platform Leader"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440357__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore Singapore Technology - Backend Regular"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1246,
-      "company": "OCBC Group",
+      "candidate_seq": 1284,
+      "company": "TikTok",
       "employment_type": null,
-      "external_id": "data engineer:92710706",
+      "external_id": "backend developer:92441685",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-04T09:56:46Z",
-      "public_slug": "avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-i2wgfbd7",
-      "role_key": "freehire:avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-i2wgfbd7",
+      "posted_at": "2026-09-29T09:56:33Z",
+      "public_slug": "backend-engineer-live-streaming-ai-driven-systems-tiktok-fs357w2j",
+      "role_key": "freehire:backend-engineer-live-streaming-ai-driven-systems-tiktok-fs357w2j",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92710706__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AVP Data Engineer - Enterprise Data & AI Platforms"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441685__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer – Live Streaming & AI-Driven Systems"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1248,
-      "company": "SINGAPORE AIRLINES LIMITED",
+      "candidate_seq": 1285,
+      "company": "Millennium Management LLC",
       "employment_type": null,
-      "external_id": "devops engineer:92711019",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
+      "external_id": "devops engineer:92441192",
+      "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-04T09:56:25Z",
-      "public_slug": "senior-software-engineer-devops-cloud-ai-delivery-singapore-airlines-limited-mktjc6xw",
-      "role_key": "freehire:senior-software-engineer-devops-cloud-ai-delivery-singapore-airlines-limited-mktjc6xw",
+      "posted_at": "2026-09-29T09:56:32Z",
+      "public_slug": "ai-devops-engineer-automate-deployments-elevate-millennium-management-llc-az76p4dp",
+      "role_key": "freehire:ai-devops-engineer-automate-deployments-elevate-millennium-management-llc-az76p4dp",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92711019__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Software Engineer - DevOps, Cloud & AI Delivery"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441192__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI DevOps Engineer — Automate Deployments & Elevate"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1248,
-  "min_candidate_seq": 1229,
+  "max_candidate_seq": 1285,
+  "min_candidate_seq": 1278,
   "shard_index": 13,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

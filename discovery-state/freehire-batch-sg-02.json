@@ -6,27 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1108,
-      "company": "McLink",
-      "employment_type": null,
-      "external_id": "6296:95339665",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Paya Lebar East, East Region",
-      "market": "SG",
-      "posted_at": "2026-10-19T01:08:41Z",
-      "public_slug": "ai-business-solutions-consultant-mclink-tta7imq7",
-      "role_key": "freehire:ai-business-solutions-consultant-mclink-tta7imq7",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95339665?utm_source=freehire.me",
-      "title": "AI & Business Solutions Consultant"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1109,
       "company": "SINGAPORE FIRST AID TRAINING CENTRE PTE. LTD.",
       "employment_type": null,
@@ -88,30 +67,6 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93583992__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Remote Laravel Backend Engineer - Scale AI-Powered SaaS"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1116,
-      "company": "JOBSTER PRIVATE LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93578663",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-18T13:46:52Z",
-      "public_slug": "senior-full-stack-engineer-digital-and-ai-products-1706-jobster-private-ltd-sg7fdae3",
-      "role_key": "freehire:senior-full-stack-engineer-digital-and-ai-products-1706-jobster-private-ltd-sg7fdae3",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93578663__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer (Digital and AI products) - #1706"
     },
     {
       "ai_score": 4,
@@ -181,14 +136,59 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93577448__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Java Engineer: Build Scalable, AI-Driven Payments"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1120,
+      "company": "Testing Site - JPMC",
+      "employment_type": null,
+      "external_id": "react developer:93581881",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-18T13:46:17Z",
+      "public_slug": "frontend-engineer-iii-react-typescript-ai-driven-ui-testing-site-jpmc-ay3silih",
+      "role_key": "freehire:frontend-engineer-iii-react-typescript-ai-driven-ui-testing-site-jpmc-ay3silih",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93581881__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Frontend Engineer III - React/TypeScript + AI-Driven UI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1121,
+      "company": "Straive",
+      "employment_type": null,
+      "external_id": "data engineer:93533412",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-17T13:18:15Z",
+      "public_slug": "senior-cloud-data-ai-solutions-engineer-aws-snowflake-straive-etk72rbb",
+      "role_key": "freehire:senior-cloud-data-ai-solutions-engineer-aws-snowflake-straive-etk72rbb",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533412__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Cloud Data & AI Solutions Engineer — AWS & Snowflake"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1119,
-  "min_candidate_seq": 1108,
+  "max_candidate_seq": 1121,
+  "min_candidate_seq": 1109,
   "shard_index": 2,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

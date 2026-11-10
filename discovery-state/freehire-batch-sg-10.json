@@ -1,193 +1,209 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1196,
-      "company": "ST ENGINEERING ADVANCED NETWORKS & SENSORS PTE. LTD.",
+      "candidate_seq": 1207,
+      "company": "Capgemini",
       "employment_type": null,
-      "external_id": "full stack developer:93113951",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:56Z",
-      "public_slug": "senior-full-stack-engineer-secure-web-ai-edge-st-engineering-advanced-networks-sensors-pte-ltd-zjzy4w66",
-      "role_key": "freehire:senior-full-stack-engineer-secure-web-ai-edge-st-engineering-advanced-networks-sensors-pte-ltd-zjzy4w66",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113951__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer - Secure Web & AI Edge"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1197,
-      "company": "MAS Monetary Authority of Singapore",
-      "employment_type": null,
-      "external_id": "full stack developer:93115525",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "ai-powered-full-stack-engineer-cloud-native-mas-monetary-authority-of-singapore-yu57zy6s",
-      "role_key": "freehire:ai-powered-full-stack-engineer-cloud-native-mas-monetary-authority-of-singapore-yu57zy6s",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115525__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered Full-Stack Engineer (Cloud-Native)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1198,
-      "company": "CAPGEMINI SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93111503",
+      "external_id": "careers.capgemini.com:1392728033",
       "flags": [
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "full-stack-engineer-data-ai-capgemini-singapore-pte-ltd-7y3rbo32",
-      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-singapore-pte-ltd-7y3rbo32",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111503__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Engineer (Data & AI)"
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "sitecore-ai-engineer-capgemini-wa5ioy3j",
+      "role_key": "freehire:sitecore-ai-engineer-capgemini-wa5ioy3j",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Sitecore-AI-Engineer/1392728033/?utm_source=freehire.me",
+      "title": "Sitecore AI Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1199,
-      "company": "GVT Government Technology Agency",
-      "employment_type": null,
-      "external_id": "full stack developer:93112180",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "senior-full-stack-engineer-gis-ai-innovator-gvt-government-technology-agency-yoyhh766",
-      "role_key": "freehire:senior-full-stack-engineer-gis-ai-innovator-gvt-government-technology-agency-yoyhh766",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112180__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: GIS & AI Innovator"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1200,
-      "company": "Helius Technologies",
-      "employment_type": null,
-      "external_id": "full stack developer:93116044",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:54Z",
-      "public_slug": "ai-driven-full-stack-engineer-cloud-native-helius-technologies-pbyq7mhj",
-      "role_key": "freehire:ai-driven-full-stack-engineer-cloud-native-helius-technologies-pbyq7mhj",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93116044__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Full Stack Engineer (Cloud-Native)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1201,
-      "company": "CAPGEMINI SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93115287",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:50Z",
-      "public_slug": "data-ai-full-stack-engineer-capgemini-singapore-pte-ltd-quvwpxey",
-      "role_key": "freehire:data-ai-full-stack-engineer-capgemini-singapore-pte-ltd-quvwpxey",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115287__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Data & AI Full-Stack Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1202,
-      "company": "Helius Technologies",
-      "employment_type": null,
-      "external_id": "full stack developer:93115977",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:47Z",
-      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
-      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115977__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Developer — AI and Cloud-Native Applications"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1204,
+      "candidate_seq": 1208,
       "company": "ScienTec Consulting Pte. Ltd.",
       "employment_type": null,
-      "external_id": "backend developer:93115029",
+      "external_id": "data engineer:93108321",
       "flags": [
         "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
+      "location": "Punggol, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T19:19:23Z",
+      "public_slug": "ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
+      "role_key": "freehire:ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93108321__7119?utm_campaign=publisher&utm_medium=api&geoID=596&utm_source=freehire.me",
+      "title": "AI Data Engineer - Hybrid (Cybersecurity & Cloud)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1209,
+      "company": "ST ENGINEERING TRAINING & SIMULATION SYSTEMS PTE. LTD.",
+      "employment_type": null,
+      "external_id": "react developer:93097451",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:18:41Z",
-      "public_slug": "ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
-      "role_key": "freehire:ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
+      "posted_at": "2026-10-09T19:18:37Z",
+      "public_slug": "full-stack-react-c-net-developer-with-ai-st-engineering-training-simulation-systems-pte-ltd-ux2pkwqw",
+      "role_key": "freehire:full-stack-react-c-net-developer-with-ai-st-engineering-training-simulation-systems-pte-ltd-ux2pkwqw",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115029__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Backend Engineer: Python, Azure, REST APIs"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93097451__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack React & C#.NET Developer with AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1210,
+      "company": "NEWBRIDGE ALLIANCE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93076458",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T11:19:36Z",
+      "public_slug": "ml-ops-data-governance-engineer-newbridge-alliance-pte-ltd-twog7y6y",
+      "role_key": "freehire:ml-ops-data-governance-engineer-newbridge-alliance-pte-ltd-twog7y6y",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93076458__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "ML Ops & Data Governance Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1212,
+      "company": "YM GLOBAL TECHNOLOGIES PTE. LTD.",
+      "employment_type": null,
+      "external_id": "devops engineer:93080547",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T11:19:09Z",
+      "public_slug": "ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
+      "role_key": "freehire:ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93080547__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered DevOps Engineer: CI/CD & Observability"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1215,
+      "company": "RECRUIT LYNC PTE. LTD.",
+      "employment_type": null,
+      "external_id": "python developer:91517079",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T11:18:47Z",
+      "public_slug": "software-engineer-erp-ai-automation-python-recruit-lync-pte-ltd-vn4o423z",
+      "role_key": "freehire:software-engineer-erp-ai-automation-python-recruit-lync-pte-ltd-vn4o423z",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91517079__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software Engineer - ERP & AI/Automation (Python)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1216,
+      "company": "Codex Solutions",
+      "employment_type": null,
+      "external_id": "6287:95163041",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "One North, Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-09T03:36:06Z",
+      "public_slug": "senior-software-engineer-ai-products-codex-solutions-yh2mgjzo",
+      "role_key": "freehire:senior-software-engineer-ai-products-codex-solutions-yh2mgjzo",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95163041?utm_source=freehire.me",
+      "title": "Senior Software Engineer, AI Products"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1217,
+      "company": "ncs3",
+      "employment_type": null,
+      "external_id": "ncs3:6000000001474382",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-10-09T01:44:40Z",
+      "public_slug": "eg-full-stack-developer-ai-enabled-ncs3-fgwu4psy",
+      "role_key": "freehire:eg-full-stack-developer-ai-enabled-ncs3-fgwu4psy",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001474382--eg-full-stack-developer-ai-enabled-?utm_source=freehire.me",
+      "title": "#EG Full Stack Developer (AI-Enabled)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1218,
+      "company": "NCS Group",
+      "employment_type": null,
+      "external_id": "6287:95177482",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T01:44:40Z",
+      "public_slug": "eg-full-stack-developer-ai-enabled-ncs-group-sk6y2a5w",
+      "role_key": "freehire:eg-full-stack-developer-ai-enabled-ncs-group-sk6y2a5w",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95177482?utm_source=freehire.me",
+      "title": "#EG Full Stack Developer (AI-Enabled)"
     }
   ],
-  "generated_at": "2026-11-09T22:44:37.338076Z",
+  "generated_at": "2026-11-10T04:22:25.639153Z",
   "market": "SG",
-  "max_candidate_seq": 1204,
-  "min_candidate_seq": 1196,
+  "max_candidate_seq": 1218,
+  "min_candidate_seq": 1207,
   "shard_index": 10,
-  "source_generated_at": "2026-11-08T22:26:42.554153Z",
+  "source_generated_at": "2026-11-10T01:45:20.015817Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }
