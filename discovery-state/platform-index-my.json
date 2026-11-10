@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T13:04:37.881180Z",
-    "source": "freehirefetch:official-ats:MY",
+    "at": "2026-11-10T13:09:31.987958Z",
+    "source": "devglobal:public-api:MY",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 2,
-      "observed": 2
+      "new_pending": 0,
+      "observed": 0
     }
   },
   "market": "MY",
@@ -1919,6 +1919,7 @@
     },
     {
       "ats_key": "freehire|ai-native-backend-engineer-ai-apis-agentic-systems-mochi-technologies-hmo3bgrn",
+      "checked_at": "2026-11-10",
       "company": "MOCHI Technologies",
       "consumer_review": {
         "checked_at": "2026-11-10T12:37:23.740141Z",
@@ -1926,12 +1927,15 @@
       },
       "description_excerpt": "<p>Salary: RM 5,200 – RM 6,500 per month</p><h2><strong>AI-Native Backend Engineer (AI, APIs &amp; Agentic Systems)</strong></h2><p><strong>Department:</strong> IT Department<br><strong>Reports To:</strong> IT Manager<br><strong>Location:</",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.jobstreet.com/job/95609222",
       "first_seen_at": "2026-11-09T16:57:31.156101Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/919",
       "key": "my:772d05eb3fa3e28c4ccd",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Kuala Lumpur",
+      "reason": "Fresh employer JobStreet role + detailed public JD + MY TOP candidate fit and both-Gmail all-Issue dedupe, verified Issue #919 [APPLY] readback; user approval to submit still required.",
       "retries": 0,
       "seq": 38,
       "source": "freehire:public-api:MY",
@@ -1941,11 +1945,7 @@
       "source_platform": "JobStreet",
       "state": "ISSUE_VERIFIED",
       "title": "AI-Native Backend Engineer (AI, APIs & Agentic Systems)",
-      "url": "https://my.jobstreet.com/job/95609222",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/919",
-      "evidence_url": "https://my.jobstreet.com/job/95609222",
-      "checked_at": "2026-11-10",
-      "reason": "Fresh employer JobStreet role + detailed public JD + MY TOP candidate fit and both-Gmail all-Issue dedupe, verified Issue #919 [APPLY] readback; user approval to submit still required."
+      "url": "https://my.jobstreet.com/job/95609222"
     }
   ],
   "version": 1
