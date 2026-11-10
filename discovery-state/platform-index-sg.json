@@ -604,35 +604,6 @@
       "url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa"
     },
     {
-      "company": "Nanyang Technological University",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "The National Institute of Education invites suitable applications for the position of Research Assistant on a 12-month contract at the Natural Sciences and Science Education Department . Project Title: “Prompting Pedagogy”: Investigating Teacher Usage of Inclusive Lesson Assistant as Instructional Support Project Introduction: The Natural Sciences and Science Education Department is seeking a full-time Research Assistant to support a study that seeks to investigate how the use of MOE-developed Inclusive Lesson Assistant (ILA) influences teacher competency development among secondary school teachers in Singapore. ILA is a large language model (LLM)-powered instructional support tool that seeks to empower classroom teachers in coming up with inclusive lesson plans. The ultimate goal of this work is to generate actionable insights that will inform teacher professional development, AI literacy training, and policy work guiding the effective use of generative AI in education. Requirements: Essential Bachelor’s Degree in science, engineering, social sciences or a related field Excellent written and verbal communication skills in English Strong analytical and critical thinking skills Good organizational skills, with the ability to take initiative, plan, and anticipate work requirements Good communication and interpersonal skills, with the ability to liaise effectively with external stakeholders A positive work attitude and strong work ethics Ability to work collaboratively as part of a team Proficiency in Microsoft Office applications Ability to work independently with minimal supervision and within tight deadlines Preferred Prior experience as a Research Assistant, particularly in education-related projects A track record of publications in reputable academic or scholarly journals Ability to write academic papers Responsibilities: Liaise with schools and Ministry of Education partners Organise and coordinate meetings Coordinate with project team members to support project implementation and delivery Conduct literature reviews Assist in developing data collection procedures and workflows in makerspaces Support participant screening, recruitment, and scheduling Assist with data collection and analysis Transcribe qualitative data Organise and manage research materials, equipment, documentation, and research ethics records Provide logistical support Contribute to research reports, presentations, and dissemination materials Contribute to report writing and the preparation of research publications Provide project administrative support, including Institutional Review Board (IRB) applications, purchase of research equipment, and submission of grant reports Any other research-related duties as assigned by the Principal Investigator Application Applicants (external and internal) will apply via Workday. We regret that only shortlisted candidates will be notified. Closing Date Closing date for advertisements will be set to 14 calendar days from date of posting. Hiring Institution: NIE",
-        "jd_chars": 3022,
-        "jd_sha256": "21127870e36d77e8ac45877713a96a4b423230852d4d66bc7de231c51305a66e",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "first_seen_at": "2026-11-10T08:48:16.053957Z",
-      "key": "sg:d326a0f78333a8727646",
-      "last_error": null,
-      "market": "SG",
-      "platform": "NTU Workday (first party)",
-      "query": "LLM;agent",
-      "retries": 0,
-      "seq": 75,
-      "source": "ntu:official-cxs:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Assistant (Natural Sciences and Science Education Department) [NIE]",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Natural-Sciences-and-Science-Education-Department---NIE-_R00026030"
-    },
-    {
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
@@ -2916,6 +2887,42 @@
         "checked_at": "2026-11-11",
         "reason_code": "SPECIALIST_DIRECTION_MISMATCH",
         "note": "Mistral first-party full JD requires ROS/ROS2, robot navigation SLAM, localization/state estimation, sensor fusion and hardware autonomy delivery. Candidate has NLP/LLM/Agent/backend, not robotics perception/control specialization; direction mismatch."
+      }
+    },
+    {
+      "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "The National Institute of Education invites suitable applications for the position of Research Assistant on a 12-month contract at the Natural Sciences and Science Education Department . Project Title: “Prompting Pedagogy”: Investigating Teacher Usage of Inclusive Lesson Assistant as Instructional Support Project Introduction: The Natural Sciences and Science Education Department is seeking a full-time Research Assistant to support a study that seeks to investigate how the use of MOE-developed Inclusive Lesson Assistant (ILA) influences teacher competency development among secondary school teachers in Singapore. ILA is a large language model (LLM)-powered instructional support tool that seeks to empower classroom teachers in coming up with inclusive lesson plans. The ultimate goal of this work is to generate actionable insights that will inform teacher professional development, AI literacy training, and policy work guiding the effective use of generative AI in education. Requirements: Essential Bachelor’s Degree in science, engineering, social sciences or a related field Excellent written and verbal communication skills in English Strong analytical and critical thinking skills Good organizational skills, with the ability to take initiative, plan, and anticipate work requirements Good communication and interpersonal skills, with the ability to liaise effectively with external stakeholders A positive work attitude and strong work ethics Ability to work collaboratively as part of a team Proficiency in Microsoft Office applications Ability to work independently with minimal supervision and within tight deadlines Preferred Prior experience as a Research Assistant, particularly in education-related projects A track record of publications in reputable academic or scholarly journals Ability to write academic papers Responsibilities: Liaise with schools and Ministry of Education partners Organise and coordinate meetings Coordinate with project team members to support project implementation and delivery Conduct literature reviews Assist in developing data collection procedures and workflows in makerspaces Support participant screening, recruitment, and scheduling Assist with data collection and analysis Transcribe qualitative data Organise and manage research materials, equipment, documentation, and research ethics records Provide logistical support Contribute to research reports, presentations, and dissemination materials Contribute to report writing and the preparation of research publications Provide project administrative support, including Institutional Review Board (IRB) applications, purchase of research equipment, and submission of grant reports Any other research-related duties as assigned by the Principal Investigator Application Applicants (external and internal) will apply via Workday. We regret that only shortlisted candidates will be notified. Closing Date Closing date for advertisements will be set to 14 calendar days from date of posting. Hiring Institution: NIE",
+        "jd_chars": 3022,
+        "jd_sha256": "21127870e36d77e8ac45877713a96a4b423230852d4d66bc7de231c51305a66e",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "first_seen_at": "2026-11-10T08:48:16.053957Z",
+      "key": "sg:d326a0f78333a8727646",
+      "last_error": null,
+      "market": "SG",
+      "platform": "NTU Workday (first party)",
+      "query": "LLM;agent",
+      "retries": 0,
+      "seq": 75,
+      "source": "ntu:official-cxs:SG",
+      "state": "HARD_REJECTED",
+      "title": "Research Assistant (Natural Sciences and Science Education Department) [NIE]",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Natural-Sciences-and-Science-Education-Department---NIE-_R00026030",
+      "reason": "NTU NIE employer-authored full JD explicitly describes a 12-month RA contract in education/pedagogy research. Core duties are teacher participant recruitment, school/MOE liaison, scheduling, transcription, IRB and grant admin; LLM is a tool being studied, not the subject of LLM/NLP/Agent engineering. Does not pass 6-part RESEARCH_EXCEPTION substant",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Natural-Sciences-and-Science-Education-Department---NIE-_R00026030",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "NON_CORE_ADMIN_HEAVY_FIXED_TERM_RA",
+        "note": "NTU NIE employer-authored full JD explicitly describes a 12-month RA contract in education/pedagogy research. Core duties are teacher participant recruitment, school/MOE liaison, scheduling, transcription, IRB and grant admin; LLM is a tool being studied, not the subject of LLM/NLP/Agent engineering. Does not pass 6-part RESEARCH_EXCEPTION substantive-work/non-admin gate."
       }
     }
   ],
