@@ -104,9 +104,33 @@ class DispatchTests(unittest.TestCase):
                               {"strong":{"urls":[]}},now=NOW)
         rows=report["markets"]["SG"]["selected"]
         self.assertEqual([x["status"] for x in rows],
-                         ["JD_INCOMPLETE_FETCH_DUE","JD_STALE_REVERIFY_DUE"])
+                         ["JD_STALE_REVERIFY_DUE","JD_INCOMPLETE_FETCH_DUE"])
         self.assertEqual(report["markets"]["SG"]["verified_waiting_fit"],2)
         self.assertEqual(report["markets"]["SG"]["current_full_jd_for_fit"],0)
+
+    def test_fresh_full_jd_has_first_review_priority_over_unverified_backlog(self):
+        verified = pending("SG", 10, "AI Engineer", company="Verified")
+        unverified = pending("SG", 1, "AI Engineer", company="Unverified")
+        unverified["state"] = "UNVERIFIED_INDEX"
+        unverified["consumer_review"] = {}
+        old = pending("SG", 2, "AI Engineer", company="Old",
+                      checked=(NOW-timedelta(days=5)).isoformat())
+        report = build_dispatch({"SG":{"market":"SG",
+                    "pending":[unverified, old, verified], "terminal":[]}}, {},
+                    {"strong":{"urls":[]}},now=NOW,limit_per_market=3,min_each_track=0)
+        selected = report["markets"]["SG"]["selected"]
+        self.assertEqual([x["company"] for x in selected], ["Verified","Old","Unverified"])
+        self.assertTrue(all(x["decision"]=="NOT_MADE" for x in selected))
+
+    def test_cross_platform_issue_hint_is_private_review_only(self):
+        p = pending("SG",1,"AI Engineer",company="SomeEmployer")
+        p["consumer_review"]["possible_prior_issue"] = 640
+        r = build_dispatch({"SG":{"market":"SG","pending":[p],"terminal":[]}},
+                           {},{"strong":{"urls":[]}},now=NOW)
+        item = r["markets"]["SG"]["selected"][0]
+        self.assertIn("CHECK_POSSIBLE_CROSS_PLATFORM_ISSUE",item["review_flags"])
+        self.assertEqual(item["possible_prior_issue"],640)
+        self.assertEqual(item["decision"],"NOT_MADE")
 
     def test_bad_url_ignored_and_missing_feed_not_reported_as_exhausted(self):
         self.assertFalse(allowed_ats_url("https://someblog.net/job/1"))
