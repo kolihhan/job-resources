@@ -1,41 +1,95 @@
-# Public ATS Feed — Verified Candidate Intake
+# Public Source Batches → Private Fit Decisions
 
-Purpose: turn the browserless, first-party ATS feed into **new verified job opportunities**, not a separate application tracker. This is an execution supplement to `README.md`, `PROFILE.md`, `RULES.md` and `docs/source-routing.md`; those policies win on conflict.
+This is the production interface contract between `kolihhan/freehirefetch` and
+`kolihhan/job-resources`. The higher-level `README.md`, `PROFILE.md`, and
+`RULES.md` always govern applicant eligibility and Issue lifecycle.
 
-## Source
+## Source boundary: freehirefetch owns ALL generic batches
 
-The scheduled main source entrypoint is **one** `.github/workflows/official-ats-intake.yml`, now merging live public JSON `FreeHire GET /api/v1/jobs/search` and `AI Dev Jobs GET /api/v1/jobs` with the existing employer ATS feed. Both new providers require no key for public reads, and all jobs are constrained by country plus employer-owned exact apply URL and verified index URL shape. FreeHire pagination is `limit/offset`; AI Dev Jobs pagination is `limit/page`. Failures and 2-page per-query truncation are reported by source and market, **not** treated as empty searches.
+- Public FreeHire / AI Dev Jobs API collection: `freehirefetch/market_api_collect.py`
+  and `feed/market-api/{SG,MY,CN}.json`, plus current `health.json`.
+- Public first-party employer ATS board discovery: `freehirefetch/ats_discovery.py`
+  and `feed/ats/markets/{SG,MY,CN}.json`, plus `feed/ats/health.json`.
+- Public full-JD batches: `feed/ats/jd/index.json` **v2** maps exact role URL,
+  title, market, source freshness and shard path to
+  `feed/ats/jd/{SG,MY,CN}-NNN.json`. Match exact source key as well as URL/title.
+- `feed/ats/changes.json` is ephemeral and NOT the lossless source snapshot.
+- A FreeHire/AI Dev Jobs hit is an API-proxy signal, NOT proof that JobStreet,
+  LinkedIn, Indeed, BOSS, 牛客 etc were scanned natively.
+- Published public data must never include candidate profile, Gmail/Issue
+  history, resume, applicant-specific model scores, work-right inference,
+  application submissions or disposition.
 
-The unified intake writes to `platform-index-{sg,my,cn}.json` only, using official job URL as the cross-provider dedupe key; it reserves up to 3 source slots/market for API-only opportunities when the backlog permits and keeps the established 45 Pending limit. It emits the derived review worklist in the **same Action**. The older `review-dispatch.yml` is manually runnable but no longer separately scheduled. The first-party role consumer workflows remain useful for official JD verification; they are not extra applicant trackers.
+`job-resources` must NOT independently re-fetch ATS boards or public job API
+batches inside its default recurring intake workflow. Legacy one-off probes
+may exist for manual diagnostics, but they do not count as the active source.
 
-- Public data producer: `kolihhan/freehirefetch` — `.github/workflows/ats-discovery.yml`, `ats_discovery.py`, `ats_boards.json`.
-- **Current searchable snapshot:** prefer `kolihhan/freehirefetch/feed/ats/markets/<MARKET>.json` for the active market (SG/MY/CN). These are deliberately small and avoid connector output truncation when more employers are added. `feed/ats/current.json` remains a compatible cross-market index and fallback. Do not process only `changes.json` — it is **one-run ephemeral** and can be overwritten between Scout executions.
-- `feed/ats/health.json` identifies complete vs failed boards; ignore absence as proof of closure when a board fails. A board with `scope: targeted_keywords` is only keyword-coverage, not an exhaustive company scan.
-- **Full JD evidence is sharded for reliable GitHub reading:** first read `feed/ats/markets/<MARKET>.json` (or fallback `current.json`) for compact candidate identities, then `feed/ats/jd/index.json` and the relevant `feed/ats/jd/<market>-<part>.json` when more than the short `description_excerpt` is needed. Match `key` exactly. Each part contains at most 10 public employer-authored JD records, not private applicant data. An `ats_discovery` key is ATS slug/type/job ID; compare employer requisition IDs across sources. `evidence: listing_only` has no full JD; `evidence: partial_jd` means long content was truncated and the exact source must be opened. Even `full_jd` from the public feed requires a fresh exact employer-role liveness and application-route check before an APPLY/CHECK Issue.
-- The feed contains only **public employer listings**, without Gmail, application, user identity, CV, or private evaluation results. GitHub Issues remain the **only operational application queue**.
+## Value boundary: job-resources owns ALL applicant decisions
 
-## Durable first-party ATS handoff and outcome gates
+The existing `.github/workflows/official-ats-intake.yml` imports upstream
+snapshots into the **existing**
+`discovery-state/platform-index-{sg,my,cn}.json` transport and publishes a
+disposable review dispatch. Its `enrich_pending_public_ats.py` reads already
+published full-JD shards; it does not contact employer APIs. Importing an
+upstream JD is only evidence of role content, NEVER APPLY readiness.
 
-The existing `platform_index_queue.py` now supports SG, MY and CN official ATS role URLs. The scheduled `Official ATS Durable Source Intake` action reads the current public `markets/<MARKET>.json` snapshots and **persists bounded new exact IDs** into the existing `discovery-state/platform-index-<market>.json` machine queues. This is not a second opportunity tracker: GitHub Issues remain the only actionable application state.
+`reconcile_pending_exact_issue.py` privately checks *all* live and closed
+GitHub Issues before admitting more raw source candidates:
+- An exact role URL + company + role title match to a single Issue may receive
+  `DUPLICATE_CONFIRMED` terminal source ACK.
+- A different platform URL with a matching company/title receives at most
+  `consumer_review.possible_prior_issue` as a **REVIEW HINT**, not an automatic
+  ACK. Identically named vacancies can have distinct requisitions and outcomes.
+- A reviewer must independently match requisition, location, employer source,
+  description or recruiting receipt before resolving a cross-platform alias.
+- If the GitHub API is unavailable, leave Pending intact and do not infer
+  no matches, empty market, or successful reconciliation.
 
-- Up to **12 new unreviewed exact IDs per market and run** from **no more than 3 per employer per run**, with a **45-pending market cap**. Across cycles, the default employer backlog cap is three, with an additional reserve of up to three genuine AI/Research-title leads when previous low-quality AI-branded mobile/frontend leads occupied all employer slots. Title-derived Research/Engineering reserve never certifies role quality. If only BJAK appears in CN, unused capacity remains unused and the source gap is recorded instead of flooding the review queue.
-- **Ordering** favors actual AI/ML/LLM/Research engineering roles over iOS/Android/Mobile/Frontend positions with an AI-branded product name. This is cheap-review priority, NOT a verified hard reject or claim about unseen JD. Source evidence and a prior same-employer `WAIT` flag survive ingest; a new job ID does **not** prove a new application opportunity. Existing queue pending and terminal identities are excluded from future source intake. Missing feed means **unavailable source**, not zero jobs. Stale feeds must be freshly checked at the employer page.
-- Scout action is now **consume source queue first** (each `platform-index` pending row `UNVERIFIED_INDEX` or `FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW`), use `ats_key` to retrieve the JD shard and employer ATS URL, check actual work/eligibility/employment/route and employer-wide applied history, then write verified Issue + readback or evidence-backed terminal/retry. Only then advance the exact source queue receipt. Machine intake is not a substitute for human/agent Fit Review.
-- This is a durable cross-market handoff, **not** native LinkedIn/JobStreet/BOSS search coverage. Platform breadth and university/PI research sources still need independent discovery; do not claim full market recall.
+Hourly SG/MY/CN Scouts convert *existing* Pending into value:
+1. Read the pending queue FIRST, prefer actual full-JD entries, 0–3-year
+   substantive Agent/LLM/RAG/evaluation/AI backend and MSc RA/RE equally.
+2. Cheap-screen exact history and prior reviewer signals before further web
+   searches or Gmail reads.
+3. Verify current employer-authored exact JD, qualifications, candidate fit,
+   employment, work rights and a usable apply route. `preferred` is not
+   `required`; don't fabricate production AI years/cloud/ML systems experience.
+4. Check both Gmail accounts for plausible APPLY promotions and any
+   cross-platform prior-application hints. KEEP sibling requisitions distinct.
+5. Create and READ BACK one authentic `[APPLY]` or one-blocker `[CHECK]`
+   Issue with its matching status label; or record a reason-coded hard reject,
+   exact history duplicate, or scoped retry. Then ACK ONLY handled source IDs.
+6. Report distinct employers, exact employer JDs/route checks, newly verified
+   APPLY/CHECK links, exact terminal ACK and unresolved older Pending. Do not
+   claim source volume, tests, or a full queue as application value.
 
-## Every SG, MY, CN Scout run — API-first queue consumption
+The default upstream and downstream market caps (including 45 Pending per
+market) are backpressure limits, not success targets. When Pending is full,
+increase **review/decision throughput** and preserve remaining upstream source
+IDs rather than expanding private queues or creating another tracker.
 
-1. **Start** with the newest readable `markets/<MARKET>.json` (or global `current.json` fallback), `health.json` and the sharded `jd/index.json` for full-JD lookups. Never parse a large monolithic JD field inside `current.json`; use per-market shard paths and exact candidate keys. Filter to market; prioritize verified employer boards covering direct AI Engineering **and** Research. Do not spend the first phase on FreeHire unless the existing bounded stalled-cursor checkpoint exception applies. Do not claim that a currently failed ATS board had no jobs.
-2. Target **up to 20 distinct public exact job IDs per market per cycle for cheap screen**, prioritizing plausible 0–3-year roles, different employers/team families, genuinely AI-centric responsibilities, and first-seen/changed roles. **Ceiling, not success quota.** Explicit Senior/Staff/Lead/mature hard mismatches die cheaply. A company name or generic “AI Finance Agent” label in an otherwise unrelated mobile/frontend role is **not** AI ownership. Keep qualified MY destination-quality SWE secondary under `docs/my-swe-scope.md`.
-3. Before opening the JD, exact-search **all open and closed** GitHub Issues by stable employer requisition ID, plus company/title where identity is ambiguous. Avoid deep-reading already-applied or unchanged SKIP/WAIT. Do not equate two distinct employer IDs because titles match.
-4. For the most plausible **up to 6–10 substantive new roles per run** (subject to tools/time), open exact current employer JD, hard YOE/degree/cohort/employment, SG/CN visa feasibility if explicit, actual AI ownership, and **real usable application link**. Search BOTH Gmail accounts only for serious promotion candidates. Follow `RULES.md` for CHECK's **exactly one blocker**. Never create raw, unverified or stale Issues to meet a count.
-5. Persist and read back **new verified APPLY/CHECK Issues**. Only then store durable handled keys in the established market-owned terminal/recent-seen state. For plausible unresolved roles use existing market retry receipts with decisive next evidence, do not silently drop. Do not mark unknown evidence terminal. For a confirmed hard reject/duplicate use existing bounded terminal cache. Cursor/cache changes need to be read back; no second personal candidate tracker.
-6. Then continue one bounded native-platform/coverage-debt probe and independent FreeHire recovery as budget allows. Persist truthful `PARTIAL_COVERAGE` for unfinished work. 100+ metadata rows are **not** 100 apply-ready jobs.
+## Hard cases to preserve
 
-## Outcome reporting
+- **MY JobStreet:** a public job ID without a complete employer-authored JD
+  is an unverified lead. An indexed summary may help locate the exact role, but
+  do not infer detailed eligibility, high employer quality, or permission to
+  create APPLY. Native website may block automated exact-page reads.
+- **MY TOP:** only destination-quality technical teams / serious AI ownership
+  or strong research value. Do not pad MY with generic AI-branded roles.
+- **SG:** unknown EP/S Pass support may survive if no explicit prohibition;
+  a role explicitly requiring candidates *already based in Singapore* is a
+  location blocker for a Malaysia-based candidate.
+- **CN:** native Liepin/BOSS/牛客 and academic HR/PI research coverage remains
+  independently important. Foreign work-permit and campus cohort eligibility
+  need verified employer policy; no forced PhD or work contract fiction.
+- **Cross-platform duplicates:** Oppstar #640 (applied WAIT) and MIMOS #833
+  (active CHECK) were separately surfaced through MY JobStreet on 2026-11-10.
+  Their source aliases were manually ACKed with independent evidence. This
+  justifies a *hint* mechanism, NOT fuzzy auto-merging for all employers.
 
-For each run: **new verified APPLY URLs/count, new verified CHECK URLs/count**, distinct employer ATS IDs cheaply screened, actual complete JDs, exact duplicates, hard rejects, unverified blockers/receipts, source coverage gaps, and evidence of durable handoff. Include a coverage-by-employer breakdown to detect one-employer domination (BJAK was 93 of the first 134 candidates). Do not invent application probabilities or claim a source is exhausted when Workday uses targeted keywords.
+## Success criterion
 
-## Overnight PI target
-
-Use the overnight Scout cycles to maximize the number of **real, deduplicated, verified opportunities awaiting the user's application decision**. The aspirational target of 100 belongs to **candidate auditing throughput**, not a mandate to falsely produce 100 APPLY issues. Keep no applications sent; exact user authorization is still required. On the morning report distinguish verified new APPLY, verified new CHECK, older outstanding APPLY, and raw ATS leads rather than combining them into a misleading number.
+Count net-new, **not previously applied**, live and eligible APPLY/CHECK Issues
+that pass role-content and employer-eligibility gates. Record reasons and queue
+ageing separately; never claim the aspirational 100 as achieved from source
+snapshots. Applicant submissions/contact are only permitted with explicit
+user authorization.
