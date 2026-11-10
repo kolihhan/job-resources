@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T15:19:11.051219Z",
+    "at": "2026-11-10T17:44:46.023252Z",
     "source": "freehirefetch:official-ats:SG",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 1,
-      "observed": 1
+      "new_pending": 12,
+      "observed": 12
     }
   },
   "market": "SG",
-  "next_seq": 93,
+  "next_seq": 105,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -74,18 +74,18 @@
         "decision": "RETRY",
         "missing_evidence": "Exact NTU R00026159 Workday live apply route inaccessible; historical Trust Technologies requisition correspondence must be matched before issue creation."
       },
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-10T15:59:27Z",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NTU R00026159 Workday live application route not independently verified; Trust Technologies other requisitions have prior application history.",
+        "status": "RETRY"
+      },
       "seq": 17,
       "source": "ntu:official-cxs:SG",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer II (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159",
-      "scout_review": {
-        "status": "RETRY",
-        "checked_at": "2026-11-10T15:59:27Z",
-        "missing_evidence": "Exact NTU R00026159 Workday live application route not independently verified; Trust Technologies other requisitions have prior application history.",
-        "decision": "PRESERVE_PENDING",
-        "ack": false
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159"
     },
     {
       "company": "Nanyang Technological University",
@@ -137,6 +137,12 @@
         "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
         "req_id": "R00025936",
         "review_flags": [],
+        "scout_retry": {
+          "checked_at": "2026-11-11T01:00:00+08:00",
+          "missing_evidence": "Exact NTU R00025936 employer JD requires 4 years relevant working experience; need confirm whether MSc research/part-time experience is accepted as the required four years. Live Workday application form not independently readable; do not merge with R00025937 interview.",
+          "source": "SG Scout exact requisition review 2026-11-11",
+          "status": "RETRY"
+        },
         "signals": [
           "llm",
           "rag",
@@ -145,13 +151,7 @@
         ],
         "source_kind": "NTU Workday first party",
         "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW",
-        "scout_retry": {
-          "checked_at": "2026-11-11T01:00:00+08:00",
-          "status": "RETRY",
-          "missing_evidence": "Exact NTU R00025936 employer JD requires 4 years relevant working experience; need confirm whether MSc research/part-time experience is accepted as the required four years. Live Workday application form not independently readable; do not merge with R00025937 interview.",
-          "source": "SG Scout exact requisition review 2026-11-11"
-        }
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "first_seen_at": "2026-11-07T09:35:18.297867Z",
       "key": "sg:e68e9e91029f06cde5f0",
@@ -286,20 +286,20 @@
       "prior_wait_employer_hint": true,
       "query": "Fab 10A, Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-10T15:59:27Z",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Micron JR111138 live Workday apply route not independently verified; JR111136 rejection is different requisition.",
+        "status": "RETRY"
+      },
       "seq": 48,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer, SMAI",
-      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
-      "scout_review": {
-        "status": "RETRY",
-        "checked_at": "2026-11-10T15:59:27Z",
-        "missing_evidence": "Exact Micron JR111138 live Workday apply route not independently verified; JR111136 rejection is different requisition.",
-        "decision": "PRESERVE_PENDING",
-        "ack": false
-      }
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138"
     },
     {
       "ats_key": "binance|greenhouse|5009522101",
@@ -373,15 +373,15 @@
         "review_flags": [
           "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
         ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW",
         "scout_retry": {
           "checked_at": "2026-11-11T01:00:00+08:00",
-          "status": "RETRY",
           "missing_evidence": "Required production-grade LangChain AND LangGraph agents, MCP servers/clients, Kubernetes/KServe/vLLM, Helm/GitOps/Argo CD and enterprise deployment history are not evidenced in candidate record; confirm actual mandatory production skill fit before promotion. Official JR109599 Apply route visible; no exact prior application found.",
-          "source": "SG Scout exact requisition review 2026-11-11"
-        }
+          "source": "SG Scout exact requisition review 2026-11-11",
+          "status": "RETRY"
+        },
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we ",
       "first_seen_at": "2026-11-09T15:11:31.005092Z",
@@ -405,7 +405,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the technologies people rely on every day, innovation at AMD is shaping the future. </p>\n<p>Whether you’re designing next-gen processors, enabling AI breakthroughs, or bringing leading edge products to market, every role at AMD contributes to something bigger — technology that moves the world forward. Join us and, together, we’ll advance your career.</p> <br><strong></strong><p><strong>THE ROLE:</strong></p>\n<p>We are seeking a passionate and highly motivated AI Engineer to join our AI Engineering team focused on building the next generation of Agentic AI and Digital Workers.</p>\n<p>In this role, you will participate in the complete lifecycle of AI solution development, from prompt engineering and context engineering to deploying AI agents into real business",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|ai-engineer-software-development-engineer-amd-bo65lqvo",
       "company": "AMD",
@@ -487,7 +487,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p>Established in 2010, the Energy Research Institute @ NTU (ERI@N) is a pan-university research institute that focuses on systems-level research for tropical megacities. It performs translational research that covers the energy value chain from generation to innovative end-use solutions, motivated by industrialisation and deployment. ERI@N has multiple Interdisciplinary Research Programmes which focus on translational Research, Development &amp; Deployment which focus on specific area of the energy value chain, and a number of Living labs and Testbeds which facilitate large scale technology deployment enabling validation and demonstration of real-world applications.</p><p>For more details, please view </p><p><b>Key Job Purpose:</b></p><p>Multi-Energy System &amp; Grids Team is looking for an Electrical System Integration Engineer responsible for the operation, maintenance, testing, and integration of electrical power systems within the EPGC test facility. The role supports the",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|research-engineer-i-electrical-systems-integration-engineer-ntu-o3ernfxe",
       "company": "Ntu",
@@ -575,7 +575,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p>Salary: $4,000 – $5,000 per month</p><p><strong>Key Responsibilities</strong></p><ul><li><p>Work closely with management and business users to identify high-value AI use cases and translate business requirements into practical AI solutions.</p></li><li><p>Design, develop and deploy end-to-end AI applications using <strong>LLMs, Retrieval-Augmented Generation (RAG), AI agents and machine learning</strong> where appropriate.</p></li><li><p>Build AI solutions that integrate with our <strong>ERP system, databases, APIs and other enterprise applications</strong>.</p></li><li><p>Develop intelligent document-processing solutions for business and engineering documents such as drawings, BOQs, quotations, invoices, timesheets, forms and project documentation.</p></li><li><p>Build and manage data pipelines required for AI applications.</p></li><li><p>Lead AI proofs-of-concept and pilots and convert successful solutions into reliable production applications.</p></li><li><p>Implement proper AI",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|ai-engineer-addcel-engineering-pte-ltd-djsbnubl",
       "company": "Addcel Engineering Pte Ltd",
@@ -603,7 +603,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p>The School of Mechanical &amp; Aerospace Engineering (MAE) is a robust, dynamic and multi-disciplinary international research community comprising of world-class scientists and bright students. MAE prides itself in its excellent research capabilities in areas including advanced manufacturing, aerospace, biomedical, energy, industrial engineering, maritime engineering, robotics, etc. The school is equipped with state-of-the-art research infrastructure, housing a comprehensive range of cluster laboratories, test bedding facilities, research centres/institutes and corporate laboratories. Cutting-edge research in MAE addresses the immediate needs of our industries and supports the nation’s long-term development strategies. In the new era of industrial 4.0 and sustainable living, MAE is rigorous in developing new competencies to support the growth and competitiveness of our engineering sector in the global landscape. MAE has grown to be leader in Engineering Research, ranking amongst",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|research-associate-research-engineer-ii-robotics-and-machine-learning-ntu-6o6rmwgo",
       "company": "Ntu",
@@ -632,7 +632,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p><strong>About the Role</strong></p>\n<p>We are thrilled to introduce an opportunity for a talented AI Engineer to join our Singapore team. This role is designed for a technology innovator who thrives on solving complex challenges and is passionate about building AI-driven solutions that transform the Financial Services industry. As an AI Engineer at Capco, you will play a pivotal role in shaping the future of insurance by leveraging cutting-edge AI technologies to deliver intelligent, scalable, and compliant solutions. Your work will enable our clients to unlock new efficiencies, enhance customer experience, and stay ahead in a rapidly evolving digital landscape. If you are excited about applying advanced AI techniques to real-world business problems and driving measurable impact, we want you on our team.</p>\n<p><strong>Key Responsibilities</strong></p>\n<ul>\n<li>Build multi-agent workflows to optimize business processes within insurance.</li>\n<li>Develop and maintain software",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|ai-engineer-capco-the-capital-market-company-group-5aru5v6r",
       "company": "Capco (The Capital Market Company Group)",
@@ -741,7 +741,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p>We are seeking a Research Engineer to design, implement, and integrate Visual-Language Models (VLMs) into autonomous mobile robots platform. The role focuses on enabling high-level semantic reasoning, perception–language grounding, and decision-making in robotic systems. The engineer will interface VLMs with navigation, mapping, and control pipelines to support end-to-end system experimentation. Responsibilities include building simulation environments, conducting experimental evaluations, and supporting rapid prototyping. The role contributes to translating simulation-validated methods toward real-world robotic deployment and bridges robotics simulation, multimodal AI, and autonomous navigation research.</p><p></p><p><b>Key Responsibilities:</b></p><ul><li><p>Design, implement, and integrate Visual-Language Models (VLMs) into simulation and robotic platforms to enable semantic reasoning, perception–language grounding, and decision-making.</p></li><li><p>Interface VLM-based modules",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|research-engineer-machine-learning-ntu-7mmj653r",
       "company": "Ntu",
@@ -770,7 +770,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p>Salary: $5,000 – $7,000 per month</p><p><strong>Job Description &amp; Requirements</strong></p><p>We are looking for a motivated and technically skilled AI Engineer to join our team and support the development of AI-driven business solutions, workflow automation and enterprise system integration.</p><p>The successful candidate will be responsible for designing, developing, implementing and maintaining AI-powered applications that enhance operational efficiency across departments</p><p>The role will also support the implementation, migration and optimisation of internal software, ensuring seamless integration between our AI applications and existing business systems.</p><p>You will work closely with internal stakeholders, IT personnel and external vendors to understand business requirements, develop practical solutions and support the Company's digital transformation initiatives.</p><h2>Key Responsibilities</h2><p><strong>1. AI Application Development &amp; Business Process",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|ai-engineer-allinton-engineering-trading-pte-ltd-5kiadube",
       "company": "Allinton Engineering & Trading Pte. Ltd.",
@@ -798,7 +798,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<div><p>\n<strong><b>Job Description</b></strong><br>\n</p></div>\n<div><div>\n<p>The National University of Singapore invites applications for the position of Research Assistant (Backend &amp; Platform Engineer) for Horizons Office, School of Computing (SoC). This role is strongly committed to research excellence in all its dimensions: searching for fundamental results and insights, developing novel computational solutions to a wide range of applications, building large-scale experimental systems and improving the well-being of society.</p>\n<p>We are building an AI-powered research platform and are seeking a Backend &amp; Platform Engineer to help build and operate the backend and infrastructure systems that make it reliable and scalable. The successful candidate will work closely with the Principal Investigator and lab members on one or more research projects, building the services, data pipelines, and infrastructure that researchers depend on to ingest data, run experiments, and deploy",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|research-assistant-backend-platform-engineer-school-of-computing-lqj5tznt",
       "company": "School of Computing",
@@ -899,7 +899,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and reliable AI applications that enhance operational efficiency, automate workflows and support data-driven decision-making. The successful candidate will independently manage assigned technical deliverables, from solution development and testing to system integration and continuous improvement, while collaborating with the CTO, COO and relevant stakeholders.</p><p><strong>Key responsibilities</strong></p><ul><li><p>Design, build, test and maintain AI-powered applications, services and features for GO-GENIE's internal platforms</p></li><li><p>Translate business and operational requirements into practical technical solutions</p></li><li><p>Develop backend services, APIs and integrations to support AI functionalities</p></li><li><p>Develop AI solutions using",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|ai-engineer-go-genie-pte-ltd-zkzgurpa",
       "company": "Go Genie Pte Ltd",
@@ -927,7 +927,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<strong>About Gramian</strong><br><p>Gramian Consultancy is a boutique consultancy specializing in IT professional services and engineering talent solutions. With a strong background in software engineering and leadership, we help companies build high-performing teams by matching them with professionals who truly fit their needs.</p>\n<strong>About the Role</strong><br><p>We are seeking a highly skilled Machine Learning Research &amp; Engineering Specialist to contribute to an advanced AI training project focused on model development, training and inference systems, numerical computing, and performance optimization. This is a coding-intensive role requiring hands-on experience with Python, machine learning engineering, and coding agents integrated into development workflows. You will build, modify, debug, and validate machine learning implementations, create reproducible training and inference pipelines, and optimize systems for correctness, memory usage, and throughput. The ideal",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|machine-learning-research-engineering-specialist-gramian-consulting-group-v6gtvbmv",
       "company": "Gramian Consulting Group",
@@ -955,7 +955,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p>Salary: $6,000 – $7,000 per month</p><ul><li><p><strong>Basic up to $7000 + Bonus + Allowances</strong></p></li><li><p><strong>Working location: North-East Region of Singapore</strong></p></li><li><p><strong>Working days - Mon – Fri, Normal Office Hours</strong></p></li><li><p><strong>Excellent Welfare and Benefit + Career advancement</strong></p></li><li><p><strong>Agentic AI &amp; Multimodal AI</strong></p></li></ul><p><br></p><h2>Job Responsibilities</h2><ul><li><p>Research and identify opportunities in Agentic AI and Multimodal AI.</p></li><li><p>Design and develop AI agents, multi-agent systems, and LLM-based solutions.</p></li><li><p>Develop AI applications using LLMs, RAG, and tool integration.</p></li><li><p>Build and fine-tune AI models involving text, images, video, and audio.</p></li><li><p>Develop prototypes and proof-of-concept (POC) solutions.</p></li><li><p>Evaluate and optimise AI model performance and reliability.</p></li><li><p>Prepare technical proposals,",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|ai-engineer-ideals-recruitment-f33hsanu",
       "company": "Ideals Recruitment",
@@ -1019,7 +1019,7 @@
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
         "text": "<p><strong>Position Summary: </strong></p>\n<p>Join our Data and Analytics team to be at the forefront of bringing AI Agents from concept to production, enabling teams across Infineum to turn ideas into real, measurable impact. Apply cutting‑edge agent frameworks and LLM‑powered automation to solve real business problems at scale, accelerating digitalisation across our global organisation.</p>\n<p>In this role, contribute how our data, systems, and applications become “AI‑ready.” Guide business stakeholders from a spark of inspiration to deployed agent solutions that streamline workflows, amplify expertise, and unlock new value. Whether you’re governing the lifecycle of an agent, refining its behaviour, or deploying it into production environment, you’ll be the technical force ensuring our agents are safe, reliable, and truly helpful.</p>\n<p>If you’re excited about building and operationalising AI agents, collaborating across functions, and making AI real for hundreds of users, this",
-        "truncated": false
+        "truncated": true
       },
       "ats_key": "freehire|ai-engineer-infineum-singapore-pte-ltd-4ja3tnxs",
       "company": "Infineum Singapore Pte Ltd",
@@ -1041,6 +1041,392 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
       "url": "https://sg.jobstreet.com/job/95658569"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by the People’s Bank of China, undertakes and transacts various kinds of investment businesses.</p>\n<strong>Job Description</strong><br><ul>\n<li>Research developments in large language models, AI tools and the vendor landscape, and assess their relevance and value to the company.</li>\n<li>Compare on-premise open-source models with external APIs on performance, cost and data security, and recommend the right option for each use case.</li>\n<li>Establish the company&#39;s AI usage policy and AI data governance framework.</li>\n<li>Plan, design and build the company&#39;s enterprise AI platform, providing secure, governed and unified access to both on-premise and external AI capabilities across the organisation.</li>\n<li>Lead AI security, safeguarding the",
+        "truncated": true
+      },
+      "ats_key": "freehire|ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
+      "company": "Investment Company Of The People'S Republic Of China (Singapore) Pte Ltd",
+      "description_excerpt": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by th",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T17:44:46.022893Z",
+      "key": "sg:758fb97bd538822f8aa9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 93,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI ENGINEER",
+      "url": "https://sg.jobstreet.com/job/95439617"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "<div><div><p>Job Description</p></div></div>\n<div><div>\n<p><strong>Job Description</strong></p>\n<p>We are searching for a talented AI Data Engineer to join our growing team. In this role, you will play a pivotal role in designing, building, and maintaining scalable data pipelines that fuel our AI applications and business intelligence initiatives. You will be responsible for the entire data lifecycle, from data acquisition to transformation and delivery, ensuring high-quality data is readily available for various stakeholders.</p>\n<p><strong>Responsibilities</strong></p>\n<ul>\n<li>Collaborate with AI Scientists, Business Analysts, and Product Managers to understand data requirements for AI applications and business use cases.</li>\n<li>Design and implement scalable data pipelines for efficient data extraction, transformation, and loading extract, transform, and load (ETL) from various sources.</li>\n<li>Develop and maintain data models that optimize data storage, retrieval, and",
+        "truncated": true
+      },
+      "ats_key": "freehire|ai-engineer-mediacorp-4b2n7moq",
+      "company": "MediaCorp",
+      "description_excerpt": "<div><div><p>Job Description</p></div></div>\n<div><div>\n<p><strong>Job Description</strong></p>\n<p>We are searching for a talented AI Data Engineer to join our growing team. In this role, you will play a pivotal role in designing, building,",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T17:44:46.022933Z",
+      "key": "sg:2e798863011c6d4daa42",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 94,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-mediacorp-4b2n7moq",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://sg.jobstreet.com/job/95739444"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "<b>Our vision is to transform how the world uses information to enrich life for all.</b><p>Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we build help make everything from virtual reality experiences to breakthroughs in neural networks possible. We do it all while committing to integrity, sustainability, and giving back to our communities. Because doing so can fuel the very innovation we are pursuing.</p>\n<p><b>AI Engineer, SMAI</b></p>\n<p><b>Job Summary</b></p>\n<p>Join Micron Technology at a defining moment in our AI and smart manufacturing transformation. As a Full-Stack AI Engineer, you will contribute to the design, development, deployment, and support of AI-powered applications that improve manufacturing operations across Micron&#39;s global network of fabs and assembly/test sites. You will work closely with data scientists, software engineers, and manufacturing",
+        "truncated": true
+      },
+      "ats_key": "freehire|ai-engineer-smai-micron-semiconductors-rlcf6oav",
+      "company": "Micron Semiconductors",
+      "description_excerpt": "<b>Our vision is to transform how the world uses information to enrich life for all.</b><p>Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solu",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T17:44:46.022958Z",
+      "key": "sg:462714d3b36acb2d264a",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 95,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-smai-micron-semiconductors-rlcf6oav",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer, SMAI",
+      "url": "https://sg.jobstreet.com/job/95468483"
+    },
+    {
+      "ats_key": "bjakcareer|ashby|f9882272-1379-4e75-8c3f-296893a2fdbe",
+      "company": "BJAK",
+      "consumer_review": {
+        "checked_at": "2026-11-10T17:38:00+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. THE ROLE We are looking for applied AI engineers to build AI-native systems for BJAK's AI Neobank app. This is not a research-only role. We need builders who can use AI to automate real workflows, improve products, reduce manual work and make financial services easier for users and teams. WHAT YOU WILL BUILD - Build AI agents, workflows, tools and automations that solve real customer, product and operations problems. - Apply LLMs, retrieval, tool calling, evaluations, guardrails and automation to practical financial workflows. - Create AI-assisted experiences for onboarding, support, KYC, risk review, CRM, operations, document handling and product intelligence. - Work with product and engineering teams to identify what is worth building, then build it quickly and improve it in production. - Design around real constraints: accuracy, hallucination risk, latency, cost, security, compliance and user trust. - Turn manual processes into reliable AI-enabled systems that can scale. WHAT WE LOOK FOR - Hands-on engineering ability, not just AI strategy or management experience. - Experience building AI agents, LLM apps, RAG systems, automation workflows, copilots or AI-enabled tools. - Strong coding ability in Python, TypeScript, JavaScript or similar practical stack. - Good judgement on what should be automated and what should not. - Able to ship working systems, test quality and improve reliability over time. - Fintech, banking, support automation, risk, KYC, fraud, CRM or operations automation experience is a strong plus. THIS ROLE IS NOT FOR - People who only want research projects with no production ownership. - Candidates who treat AI as demos instead of working systems. - Engineers who do not care about evaluation, reliability or user impact. - People who overclaim AI impact without evidence. - Builders who cannot work with product, ops and business teams. THE BAR We are looking for engineers with real technology career highlights. A strong highlight is not just working at a famous company. A strong highlight means you personally helped build, ship or scale a serious product, platform or system. LOCATION This role is remote, but candidates must be based in Singapore. We are hiring specifically for this market, so applicants should already be based in Singapore. LANGUAGE English is our main working language across global teams. Strong English communication is required. INTERVIEW PROCESS Our process is designed to move fast: 1. Online assessment or practical task 2. Technical interview 3. CEO / final round For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.",
+        "jd_chars": 3792,
+        "jd_sha256": "cf734d7cfc97fed6852f3e1d2b0453e7e2feea90041b62fe07b68f29dc495d60",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "ABOUT BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance t",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.022991Z",
+      "key": "sg:cf5fc38b4a0b751e1a3d",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 96,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "f9882272-1379-4e75-8c3f-296893a2fdbe",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/f9882272-1379-4e75-8c3f-296893a2fdbe"
+    },
+    {
+      "ats_key": "ncs3|smartrecruiters|6000000001474348",
+      "company": "NCS",
+      "consumer_review": {
+        "checked_at": "2026-11-10T17:38:00+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "This role sits within NCS AI Central's (AIC) Forward Deployed Engineering (FDE) model — the combined capability that takes AI solutions from proof-of-concept through to hardened production systems. As AI Engineer, you design and run rapid experiments on Gen AI models, prompts, and retrieval strategies to give the squad fast, evidence-based answers on model performance — operating primarily within fast-moving FDE engagements (POC/POV, pilot deployments). What will you do: 1. Experimentation & Evaluation Understand the business problem, POC objectives, and evaluation metrics. Design experiments to test different model configurations, prompts, or retrieval strategies. Analyse Gen AI outputs for quality, accuracy, and alignment with requirements; identify common failure modes (hallucination, bias, irrelevant answers, factual errors). Support SMEs in defining ground truth benchmarks for evaluation. 2. Data Preparation & Pipelines Profile and clean sample datasets for experimentation (lightweight data prep). Build and test simple pipelines for data ingestion, prompt construction, and output evaluation. 3. Gen AI & Agentic Techniques Work with foundation models via AWS Bedrock, Google Vertex AI, or Azure AI Foundry depending on engagement cloud posture. Apply working knowledge of China-origin models (DeepSeek, Qwen, GLM) as increasingly relevant, cost-effective alternatives. Apply agentic orchestration frameworks such as AWS Strands, LangGraph, or equivalent, for designing and testing multi-step agent workflows. Apply prompt strategies, prompt engineering patterns, and RAG design (chunking, embeddings, retrieval evaluation); support ingesting/vectorising content to knowledge bases. Provide insights and recommendations to improve model performance in quick iterations, including fine-tuning approaches where applicable. 4. FDE & Development/Maintenance Coverage During FDE engagements: rapidly test candidate models, prompts, and retrieval strategies, giving the team fast, evidence-based go/no-go signals. During system development & maintenance engagements: support ongoing model/prompt tuning and monitoring as applications move toward production. 5. Collaboration Collaborate with developers on integrating models into the POC workflow, and work closely with PM, devs, and SMEs to refine data and prompts. Partner with the Data Scientist on evaluation methodology where classical statistical baselines are in play, and with the AI/LLM Specialist when an engagement moves toward production-grade evaluation. Document experiments briefly but clearly (hypothesis → result → conclusion). We are hiring at two levels for this role. All responsibilities above apply to both; the distinction is in scope of ownership, years of experience, and seniority of judgement expected. AI Engineer 4–5 years of hands-on experience in AI/ML or Gen AI engineering. Runs experiments and prototypes independently within a defined POC/POV scope, under guidance from a Senior AI Engineer or AI/LLM Specialist. Executes rapid experimentation cycles for one engagement at a time; escalates ambiguous evaluation calls to senior team members. Senior AI Engineer 6+ years of hands-on experience, including prior ownership of experimentation strategy for complex or ambiguous problem statements. Sets the experimentation approach across multiple engagements and mentors junior AI Engineers. Advises PMs and stakeholders directly on feasibility and experimentation trade-offs; represents technical experimentation findings in client conversations. Qualifications The ideal candidate should possess: 4+ years hands-on experience in AI/ML or Gen AI engineering (see Role Levels for the split between AI Engineer and Senior AI Engineer). Understanding of Gen AI concepts (tokenization, embeddings, RAG, prompting, evaluation). Familiar with at least one major cloud AI service (AWS Bedrock, Google Vertex AI, or Azure AI Foundry); working knowledge of others a plus. Working knowledge of the China AI model landscape (DeepSeek, Qwen, GLM) a strong plus. Familiarity with agentic orchestration frameworks (AWS Strands, LangGraph, or equivalent), for designing and testing multi-step agent workflows. Ability to do rapid experimentation rather than perfect models. Basic proficiency in Python and Gen AI tools (e.g., model SDKs, vector DBs). Analytical mindset: can quantify subjective output (accuracy, relevance, readability). Good data wrangling skills to prepare small datasets quickly. Preferred Qualifications Generative AI Leader or Machine Learning Engineer certification, or equivalent. Exposure to LLMOps practices (model monitoring, versioning) for production transition. Familiarity with model fine-tuning techniques. Exposure to Singapore Government GCC/HCC environments. Tech Stack (Illustrative) Languages: Python LLM Runtime: AWS Bedrock, Google Vertex AI, Azure AI Foundry; DeepSeek/Qwen/GLM (China stack) Agentic Frameworks: AWS Strands, LangGraph Data & Eval: Model SDKs, vector DBs, pandas/Jupyter-style tooling for experimentation Why Join NCS Lead high-impact AI management consulting programs for major enterprises and public sector clients. Shape enterprise strategies and governance frameworks that drive real transformation. Work with a talented, multidisciplinary team in a collaborative environment. Competitive compensation and strong professional development support. We are driven by our AEIOU beliefs—Adventure, Excellence, Integrity, Ownership, and Unity—and we seek individuals who embody these values in both their professional and personal lives. We are committed to our Impact: Valuing our clients, Growing our people, and Creating our future. Together, we make the extraordinary happen. Learn more about us at ncs.co and visit our LinkedIn career site. Scam Alert We are aware of fraudulent job offers and impersonations of NCS recruiters. Phishing emails using convincing-looking but fake addresses are also commonly used to trick you into thinking that they come from official NCS sources. Please note that all official communications from NCS Group will only be sent from verified corporate email addresses. Always check that the sender’s email address ends with the genuine NCS domain, @ncs.com.sg and beware of extra letters, symbols or misspellings. When in doubt, verify the sender’s identity by contacting us at reachus@ncs.com.sg.",
+        "jd_chars": 6368,
+        "jd_sha256": "64ec8a0f3bebfd77710b3d97abcc255b458e425a706b66fa485bcbf0092a3701",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "This role sits within NCS AI Central's (AIC) Forward Deployed Engineering (FDE) model — the combined capability that takes AI solutions from proof-of-concept through to hardened production systems. As AI Engineer, you design and run rapid e",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023022Z",
+      "key": "sg:3254d459827bc698914a",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "seq": 97,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "6000000001474348",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "#EG AI Engineer",
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001474348"
+    },
+    {
+      "ats_key": "ncs3|smartrecruiters|6000000001500810",
+      "company": "NCS",
+      "consumer_review": {
+        "checked_at": "2026-11-10T17:38:00+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "As an AI Engineer who bridges traditional machine learning and modern generative / agentic AI. This role involves designing, building, and deploying end-to-end AI solutions including classical ML models, RAG-based applications, and lightweight agentic workflows. The successful candidate will contribute hands-on to client delivery projects, applying strong Python engineering and statistical rigor to develop scalable AI solutions that work reliably in production environments. What will you do? AI / ML Model Development & Deployment Design, build, and deploy end-to-end ML models including classification, regression, time-series, and NLP models. Integrate ML models into production systems and applications. Monitor model performance and conduct analysis to detect data drift, quality issues, and opportunities for improvement. Generative AI & RAG Application Development Develop GenAI applications including RAG pipelines, prompt-engineered chatbots, and lightweight agentic workflows using frameworks such as LangChain, LlamaIndex, LangGraph, or Python. Implement effective RAG architectures including chunking strategies, embedding selection, vector store configuration (e.g., Qdrant, Milvus, pgvector), and retrieval evaluation. Software Engineering & Development Practices Write clean, maintainable, and production-ready Python code. Participate in code reviews and contribute to shared libraries and internal AI platform components. Use Git, CI/CD practices, and containerisation tools such as Docker in development workflows. Collaboration & Delivery Work closely with data engineers, MLOps engineers, and client stakeholders to move AI experiments into reliable production deployments. Document technical approaches, solution designs, and experimental results clearly. Research & Innovation Stay up to date with the evolving AI landscape and introduce relevant tools, techniques, and best practices to the team. The ideal candidate should possess: 2–5 years of hands-on experience in AI/ML engineering or data science roles Demonstrable track record of delivering at least 2–3 ML projects (beyond notebooks — production or near-production) and 1–2 GenAI / agentic AI projects Strong Python programming skills including Pandas, NumPy, Scikit-learn, and PyTorch or TensorFlow Solid understanding of machine learning fundamentals including feature engineering, model evaluation, bias-variance trade-off, and hyperparameter optimisation Hands-on experience building RAG chatbots and applications using LLM APIs such as OpenAI, Anthropic, AWS Bedrock, Azure OpenAI, or equivalent Working knowledge of RAG architecture decisions including chunking strategies, embedding model selection, vector store configuration, and retrieval quality evaluation Practical experience with at least one vector database such as Qdrant, Milvus, pgvector, or equivalent Experience with at least one cloud platform such as AWS, Azure, or GCP for model training or deployment Proficiency with Git, CI/CD basics, and containerisation (Docker) Ability to read and write at least one additional programming language such as TypeScript/JavaScript, Java, Go, or advanced SQL Preferred Skills: Experience building voice AI bots using a pro-code approach such as Twilio, Amazon Connect, Deepgram, Whisper + TTS pipelines Exposure to agentic patterns such as tool-calling agents, ReAct loops, multi-step planning, or reflection mechanisms Familiarity with MLOps tooling such as MLflow, Weights & Biases (W&B), model registries, or orchestration tools like Airflow, Prefect, or ZenML Experience with evaluation frameworks for RAG and GenAI outputs such as RAGAS, DeepEval, or promptfoo Knowledge of responsible AI principles including bias detection, fairness metrics, and output guardrails Exposure to NLP pipelines including entity extraction, text classification, and summarisation Prior experience in a systems integrator (SI), consultancy, or multi-client delivery environment Why Join NCS Lead high-impact Data & AI advisory programs for major enterprises and public sector clients. Shape enterprise strategies and governance frameworks that drive real transformation. Work with a talented, multidisciplinary team in a collaborative environment. Competitive compensation and strong professional development support. We are driven by our AEIOU beliefs—Adventure, Excellence, Integrity, Ownership, and Unity—and we seek individuals who embody these values in both their professional and personal lives. We are committed to our Impact: Valuing our clients, Growing our people, and Creating our future. Together, we make the extraordinary happen. Learn more about us at ncs.co and visit our LinkedIn career site. Scam Alert We are aware of fraudulent job offers and impersonations of NCS recruiters. Phishing emails using convincing-looking but fake addresses are also commonly used to trick you into thinking that they come from official NCS sources. Please note that all official communications from NCS Group will only be sent from verified corporate email addresses. Always check that the sender’s email address ends with the genuine NCS domain, @ncs.com.sg and beware of extra letters, symbols or misspellings. When in doubt, verify the sender’s identity by contacting us at reachus@ncs.com.sg.",
+        "jd_chars": 5277,
+        "jd_sha256": "7b6348e8707048d2de3f2d9e91b3b9ef3c1658139fb450f7b0933db29afae13a",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "As an AI Engineer who bridges traditional machine learning and modern generative / agentic AI. This role involves designing, building, and deploying end-to-end AI solutions including classical ML models, RAG-based applications, and lightwei",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023050Z",
+      "key": "sg:91154ca2330b157c655f",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "seq": 98,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "6000000001500810",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "#EG AI Engineer (Contact Centre)",
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001500810"
+    },
+    {
+      "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Assistant--Integrated-circuit-design-_R00026328",
+      "company": "NTU Singapore",
+      "consumer_review": {
+        "checked_at": "2026-11-10T17:38:00+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 2,000 graduate students it is one of the largest EEE schools in the world and ranks 4th in the field of Electrical & Electronic Engineering in the 2025 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee The job pertains to a relatively junior research position – a hardware research engineer with at least a degree in electronic engineering – to assist a research group in electronics, more specifically into integrated circuit design. Key Responsibilities: Deriving new electronic circuit design (circuit schematic) to meet specifications specified in the pertinent research grant Building hardware to verify the said derived electronic circuit design Performing comprehensive simulations via advanced EDA tools Integrated Circuit Layout Post-layout circuit extraction from said IC layout IC measurements Electronic system design Circuit design including said IC Job Requirements: Bachelor Engineering qualification degree in electronics/integrated circuit design or related field At least 1 year of relevant experiences in similar role / technical hands-on experience in specific scope Ability to work independently Ability to derive new circuit designs with implementation in integrated circuit design Familiarity and proficiency with advanced electronic design automation tools Familiarity and proficiency with measurements using advanced electronic measurement instruments Good written and oral communication skills We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2076,
+        "jd_sha256": "a5e46ed29241e20b250d0f946fa99f733141959c44306df132e750c2df67c16f",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 u",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023077Z",
+      "key": "sg:f5061c66e88aea11c8f3",
+      "last_error": null,
+      "market": "SG",
+      "platform": "workday official ATS",
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 99,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "/job/NTU-Main-Campus-Singapore/Research-Assistant--Integrated-circuit-design-_R00026328",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Assistant (Integrated circuit design)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Integrated-circuit-design-_R00026328"
+    },
+    {
+      "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Vision---Multimodal-Deep-Learning-_R00026302",
+      "company": "NTU Singapore",
+      "description_excerpt": "",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023102Z",
+      "key": "sg:89c0c4642f765e2104ce",
+      "last_error": null,
+      "market": "SG",
+      "platform": "workday official ATS",
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 100,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Vision---Multimodal-Deep-Learning-_R00026302",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Fellow (Computer Vision & Multimodal Deep Learning)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Vision---Multimodal-Deep-Learning-_R00026302"
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000148945093",
+      "company": "Grab",
+      "description_excerpt": "",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023136Z",
+      "key": "sg:1becb397a6d75ba28975",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "seq": 101,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "744000148945093",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Localization Engineer / Research Engineer, Robotics AI (Visual Navigation)",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000148945093"
+    },
+    {
+      "ats_key": "openai|ashby|8acfba11-707e-4d8e-a860-88643fae24ba",
+      "company": "OpenAI",
+      "consumer_review": {
+        "checked_at": "2026-11-10T17:38:00+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "About the Team OpenAI’s Applied AI Engineering team helps organizations turn frontier AI capabilities into safe, reliable, and high-impact production systems. We work with customer executives, product and engineering teams, security leaders, and transformation teams to identify valuable opportunities, accelerate technical implementation, and scale what works. Enterprise deployments are defined by complexity rather than any one industry: existing architectures, diverse data environments, security and governance requirements, multiple stakeholder groups, and organization-wide change. We turn lessons from these deployments into better products and reusable patterns for customers everywhere. About the Role As an Applied AI Engineer you will partner directly with leading organizations to design, build, and deploy AI systems that deliver measurable business outcomes. You will combine deep technical judgment, hands-on engineering, and customer leadership to take ambitious ideas from use-case selection and architecture through prototyping, evaluation, production launch, and scale. You will write and debug code, build evaluation systems, resolve complex integrations, and guide decisions involving model behavior, reliability, latency, cost, safety, security, governance, and operational readiness. Success is measured by production systems, sustained adoption, and meaningful customer impact—not simply activity or successful demonstrations. This is a rare opportunity to work on consequential real-world deployments at the frontier of AI while directly influencing how OpenAI’s products evolve. This role is based in Singapore. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees In this role, you will: - Partner directly with enterprise customers to identify high-value opportunities and translate them into technical architectures, implementation plans, evaluation strategies, and measurable success criteria. - Design, build, and deploy AI systems that solve important customer problems and produce measurable business outcomes. - Work hands-on in code to build prototypes, evaluation harnesses, reference implementations, integrations, and production accelerators. - Make sound technical decisions across models, agents, retrieval, tools, data, reliability, observability, latency, cost, safety, security, and governance. - Diagnose complex implementation challenges, reproduce failures, test hypotheses, and drive blockers toward resolution. - Help customers progress from promising prototypes to reliable production systems, sustained adoption, and scaled impact. - Partner closely with customer engineering teams and OpenAI Product, Research, Engineering, Security, and go-to-market teams, translating deployment experience into high-signal product feedback. - Create reusable architectures, tooling, playbooks, and technical guidance that accelerate future enterprise deployments. You’ll thrive in this role if you: - Have a demonstrated track record of designing, building, and delivering AI or machine-learning systems in enterprise environments, including taking systems from prototype to production. Relevant backgrounds may include applied AI or ML engineering, forward-deployed engineering, software engineering, customer engineering, solutions architecture, or technical consulting. - Can point to substantial personal contributions in code, architecture, evaluation, debugging, or production engineering—not only program or stakeholder management. - Are highly proficient in Python and comfortable working across an AI application stack; experience with JavaScript, TypeScript, or another relevant language is valuable. - Understand how to evaluate AI systems systematically using representative data, graders, production signals, and human judgment. - Have navigated enterprise production requirements such as integrations, reliability, observability, security, privacy, data governance, performance, and cost. - Can connect technical decisions to customer workflows, adoption, and measurable business outcomes. - Communicate with clarity and credibility across hands-on engineers, technical leaders, security teams, product leaders, and executives. - Bring high agency, strong technical judgment, and end-to-end ownership in ambiguous environments. - Learn quickly, challenge assumptions constructively, and collaborate with humility; experience in a particular industry or with OpenAI products is not required. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+        "jd_chars": 7302,
+        "jd_sha256": "23e76fe329d1e2867e4e1f7fb9884d5c84e796aebe340afcb04350e1d652cf01",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "About the Team OpenAI’s Applied AI Engineering team helps organizations turn frontier AI capabilities into safe, reliable, and high-impact production systems. We work with customer executives, product and engineering teams, security leaders",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023167Z",
+      "key": "sg:66e51dbae99b1f7e3eae",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 102,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "8acfba11-707e-4d8e-a860-88643fae24ba",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/openai/8acfba11-707e-4d8e-a860-88643fae24ba"
+    },
+    {
+      "ats_key": "temus|greenhouse|5233697008",
+      "company": "Temus",
+      "consumer_review": {
+        "checked_at": "2026-11-10T17:38:00+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the Singapore Government’s Smart Nation vision. We are headquartered in Singapore and have more than 400 employees across a wide range of disciplines in strategy, design, architecture, technology, data & AI.</em></span></p></div><p><strong>Your Role</strong></p> <ul> <li>Harness your expertise in AI engineering, delivery, and governance to solve complex problems and deliver transformative change for clients and citizens.</li> <li>Make an outstanding contribution to a world-class AI and data team.</li> <li>Develop and maintain relationships with a broad range of clients, colleagues, and partners across a variety of contexts and formats.</li> <li>Invest continuously in building and extending your knowledge and skills.</li> </ul> <p><strong>Your Background</strong></p> <ul> <li>At least 3 years of relevant working experience in fields related to artificial intelligence, machine learning, data science, or software engineering.</li> <li>Completed at least one hands-on AI development and deployment end-to-end.</li> <li>Exposure to agentic AI concepts such as multi-agent systems, tool-use, RAG pipelines, or autonomous task execution is highly desirable.</li> <li>At least 3 years of implementation experience with serverless computing, CI/CD, containerisation, Infrastructure as Code, code version control and automated testing.</li> <li>Exposure to one or more cloud services: AWS, Azure or GCP.</li> <li>Candidates should demonstrate strength in either AI Engineering or ML Engineering (see below). Strength in both is a plus.</li> </ul> <p><u>AI Engineering (LLM & Agentic Systems)</u></p> <ul> <li>Practical hands-on experience with LLMs and agentic tooling: LangChain, LangGraph, AutoGen, CrewAI, OpenAI API, Anthropic API, AWS Bedrock, Google Vertex AI, Azure ML, Hugging Face Transformers, MLFlow, Dataiku, MS Fairlearn, Google PAIR.</li> <li>Experience with prompt engineering, fine-tuning, and responsible AI evaluation.</li> </ul> <p><u>ML Engineering / MLOps</u></p> <ul> <li>Practical hands-on experience with ML development and deployment tooling: Jupyter, PyTorch, TensorFlow, Scikit-learn, AWS SageMaker, MLFlow, Docker, Kubernetes, Terraform, Ansible, Datadog.</li> <li>Broad knowledge of NLP, computer vision, recommendation systems, reinforcement learning and time series forecasting.</li> <li>Exposure to model experiment tracking and training workflows: hyperparameter tuning, experiment logging (e.g. MLFlow, Weights & Biases), and reproducible training runs.</li> <li>Exposure to the MLOps lifecycle: data versioning, model training pipelines, experiment tracking, model registry, deployment, monitoring, and retraining triggers — using tools such as MLFlow, Weights & Biases, Kubeflow, AWS SageMaker Pipelines, Azure ML Pipelines, or Google Vertex AI Pipelines.</li> </ul><div class=\"content-conclusion\"><p> </p> <p><em>Temus is an equal opportunities employer. We welcome applications from all. We do not discriminate by race, religion, belief, ethnicity, origin, disability, age, partnership status, sexual orientation, or gender identity.</em></p> <p><em>We see the diversity of our team as a strategic advantage, and we work actively to maintain it.</em></p> <p><em>By applying for this role, you have read and acknowledge the data privacy statement via this link - <a class=\"fui-Link ___1rxvrpe f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.temus.com/job-applicant-data-protection/\" target=\"_blank\">temus.com/job-applicant-data-protection/</a></em></p> <p> </p></div>",
+        "jd_chars": 4038,
+        "jd_sha256": "8d5ae0f2e229181b58a4cffd75a08891a6ff973b7768458b9a847a2b6070e1b4",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023197Z",
+      "key": "sg:0223dc33f382214b1659",
+      "last_error": null,
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 103,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "5233697008",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5233697008"
+    },
+    {
+      "ats_key": "temus|greenhouse|5439381008",
+      "company": "Temus",
+      "consumer_review": {
+        "checked_at": "2026-11-10T17:38:00+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the Singapore Government’s Smart Nation vision. We are headquartered in Singapore and have more than 400 employees across a wide range of disciplines in strategy, design, architecture, technology, data & AI.</em></span></p></div><p><strong>Your Role</strong></p> <ul> <li>Harness your expertise in full stack AI development and cloud engineering to design, build, and maintain end-to-end applications and the infrastructure they run on.</li> <li>Make an outstanding contribution to a world-class engineering team.</li> <li>Develop and maintain relationships with a broad range of clients, colleagues, and partners across a variety of contexts and formats.</li> <li>Invest continuously in building and extending your knowledge and skills.</li> </ul> <p><strong>Your Background</strong></p> <ul> <li>At least 3–7 years of relevant working experience in software engineering, full stack development, or a related technical field.</li> <li>Hands-on experience building and deploying production-grade full-stack applications, including AI/GenAI workloads.</li> <li>Experience integrating LLMs, RAG, AI agents or agentic workflows into user-facing applications. </li> <li>Proven track record in full stack fundamentals: at least one backend language (Java, Python, or similar), one modern JavaScript framework, API design, and relational data modelling.</li> <li>Hands-on experience with a major cloud platform (AWS, Azure, or GCP), including compute, storage, networking, and IAM.</li> <li>At least 3 years of implementation experience with CI/CD, containerisation, Infrastructure as Code, code version control and automated testing.</li> <li>Experience working with transactional databases (e.g., PostgreSQL, MySQL, SQL Server).</li> <li>Familiarity with AI/ML concepts and integrating AI services into applications.</li> <li>Pro-active, curious personality with a strong desire to learn and grow.</li> <li>Good English communication skills, ability to communicate with clients and stakeholders effectively.</li> </ul> <p><u>Application Development</u></p> <ul> <li>Hands-on experience building and running production web applications end to end.</li> <li>Experience with frameworks such as Spring, Quarkus, FastAPI, Node.js, or React.</li> <li>API design and integration, including REST, GraphQL, and messaging patterns.</li> </ul> <p><u>Cloud & DevSecOps</u></p> <ul> <li>DevOps practices including containerisation (Docker, Kubernetes), Infrastructure as Code (Terraform), and automated testing.</li> <li>CI/CD pipeline design with GitLab CI, GitHub Actions, or Jenkins, applying GitOps practices.</li> <li>Secure-by-design practices across application and infrastructure layers, including identity and access management, secrets management, and least-privilege design.</li> <li>Strong focus on code quality, system reliability, and observability (monitoring, logging, alerting).</li> <li>Cloud certifications (e.g., AWS Solutions Architect, CKAD) are a plus.</li> </ul> <p><u>Client Delivery & Support</u></p> <ul> <li>Experience acting as a technical point of contact for system issues, coordinating with clients and operations teams.</li> <li>Ability to produce technical and non-technical user documentation.</li> <li>Experience with financial services or public sector clients is a plus.</li> </ul><div class=\"content-conclusion\"><p> </p> <p><em>Temus is an equal opportunities employer. We welcome applications from all. We do not discriminate by race, religion, belief, ethnicity, origin, disability, age, partnership status, sexual orientation, or gender identity.</em></p> <p><em>We see the diversity of our team as a strategic advantage, and we work actively to maintain it.</em></p> <p><em>By applying for this role, you have read and acknowledge the data privacy statement via this link - <a class=\"fui-Link ___1rxvrpe f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.temus.com/job-applicant-data-protection/\" target=\"_blank\">temus.com/job-applicant-data-protection/</a></em></p> <p> </p></div>",
+        "jd_chars": 4534,
+        "jd_sha256": "f370ef8fcd7971a85d8e9477150d7cc8bac164036016b3541d04051570573d09",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<div class=\"content-intro\"><p><span data-teams=\"true\"><em>Temus is a Temasek-backed consulting firm providing digital transformation solutions for the private and public sectors. W</em><em>e aspire to be a strategic partner in realising the",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023225Z",
+      "key": "sg:c46c30921825a0199344",
+      "last_error": null,
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 104,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "5439381008",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Full Stack AI Engineer",
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5439381008"
     }
   ],
   "terminal": [
@@ -2383,6 +2769,7 @@
     },
     {
       "ats_key": "ncs3|smartrecruiters|6000000001031349",
+      "checked_at": "2026-11-11",
       "company": "NCS",
       "consumer_review": {
         "checked_at": "2026-11-10T12:21:10+00:00",
@@ -2406,20 +2793,20 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "Employer-authored full JD requires '6+ years in software engineering (prod services, not just prototypes), including 1+ year leading small projects'. Candidate has no conventional full-time YOE and cannot satisfy this explicit senior production leadership requirement; separate NCS requisition, no inferred application.",
       "retries": 0,
+      "review_source": "stored first-party full JD; independently compared candidate hard eligibility",
       "seq": 58,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "6000000001031349",
       "state": "HARD_REJECTED",
       "title": "#EG AI Engineer",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001031349",
-      "reason": "Employer-authored full JD requires '6+ years in software engineering (prod services, not just prototypes), including 1+ year leading small projects'. Candidate has no conventional full-time YOE and cannot satisfy this explicit senior production leadership requirement; separate NCS requisition, no inferred application.",
-      "checked_at": "2026-11-11",
-      "review_source": "stored first-party full JD; independently compared candidate hard eligibility"
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001031349"
     },
     {
       "ats_key": "westerndigital|smartrecruiters|744000153657449",
+      "checked_at": "2026-11-11",
       "company": "Western Digital",
       "consumer_review": {
         "checked_at": "2026-11-10T12:21:10+00:00",
@@ -2443,7 +2830,9 @@
       "market": "SG",
       "platform": "smartrecruiters official ATS",
       "query": "Singapore, sg",
+      "reason": "Employer-authored full JD requires scientific ML/PINNs methodology, physics-constrained losses and digital-twin modelling as critical mandatory capability, plus research-level PyTorch/JAX and demonstrated scientific-ML research output. Candidate's NLP/LLM/KG thesis does not establish required physics ML specialization.",
       "retries": 0,
+      "review_source": "stored first-party full JD; independently compared candidate hard eligibility",
       "seq": 74,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -2452,10 +2841,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "AI Research Scientist, Scientific ML",
-      "url": "https://jobs.smartrecruiters.com/WesternDigital/744000153657449",
-      "reason": "Employer-authored full JD requires scientific ML/PINNs methodology, physics-constrained losses and digital-twin modelling as critical mandatory capability, plus research-level PyTorch/JAX and demonstrated scientific-ML research output. Candidate's NLP/LLM/KG thesis does not establish required physics ML specialization.",
-      "checked_at": "2026-11-11",
-      "review_source": "stored first-party full JD; independently compared candidate hard eligibility"
+      "url": "https://jobs.smartrecruiters.com/WesternDigital/744000153657449"
     },
     {
       "ats_key": "binance|greenhouse|5002687101",
@@ -2476,6 +2862,12 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Employer Greenhouse full JD requires master's plus 5+ years data development/big-data/platform experience, stock-market data fluency, SQL/Flink large-scale streaming production. Candidate lacks hard 5+ specialist data experience; role is finance data, not early-career LLM engineering.",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN"
+      },
+      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002687101",
       "first_seen_at": "2026-11-09T15:11:31.004930Z",
       "key": "sg:15c817af7f4962324168",
       "last_error": null,
@@ -2483,6 +2875,7 @@
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
       "query": "Hong Kong; Singapore; Taiwan",
+      "reason": "Employer Greenhouse full JD requires master's plus 5+ years data development/big-data/platform experience, stock-market data fluency, SQL/Flink large-scale streaming production. Candidate lacks hard 5+ specialist data experience; role is finance data, not early-career LLM engineering.",
       "retries": 0,
       "seq": 49,
       "source": "freehirefetch:official-ats:SG",
@@ -2490,14 +2883,7 @@
       "source_job_id": "5002687101",
       "state": "HARD_REJECTED",
       "title": "Financial Data Engineer, AI/LLM",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002687101",
-      "reason": "Employer Greenhouse full JD requires master's plus 5+ years data development/big-data/platform experience, stock-market data fluency, SQL/Flink large-scale streaming production. Candidate lacks hard 5+ specialist data experience; role is finance data, not early-career LLM engineering.",
-      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002687101",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
-        "note": "Employer Greenhouse full JD requires master's plus 5+ years data development/big-data/platform experience, stock-market data fluency, SQL/Flink large-scale streaming production. Candidate lacks hard 5+ specialist data experience; role is finance data, not early-career LLM engineering."
-      }
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002687101"
     },
     {
       "ats_key": "ncs3|smartrecruiters|6000000001140237",
@@ -2517,6 +2903,12 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "The AI Engineer builds, tests, and iterates production Agentic AI systems at the core of the Autonomous Networks Programme. Working directly with the AI Solution Architect, Business Analyst, and Central Infrastructure Solution Architect, th",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "NCS first-party full JD explicitly requires minimum 3 years AI/ML engineering including at least 1 year PRODUCTION Agentic AI (not PoC), enterprise RAG/agent deployment. Candidate has academic/project AI work plus production non-AI backend; does not meet specialist production AI floor.",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN"
+      },
+      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237",
       "first_seen_at": "2026-11-09T15:11:31.005146Z",
       "key": "sg:9407f590cfeb1d1c7f20",
       "last_error": null,
@@ -2524,6 +2916,7 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "NCS first-party full JD explicitly requires minimum 3 years AI/ML engineering including at least 1 year PRODUCTION Agentic AI (not PoC), enterprise RAG/agent deployment. Candidate has academic/project AI work plus production non-AI backend; does not meet specialist production AI floor.",
       "retries": 0,
       "seq": 59,
       "source": "freehirefetch:official-ats:SG",
@@ -2531,14 +2924,7 @@
       "source_job_id": "6000000001140237",
       "state": "HARD_REJECTED",
       "title": "#EG AI Engineer (Autonomous Network)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237",
-      "reason": "NCS first-party full JD explicitly requires minimum 3 years AI/ML engineering including at least 1 year PRODUCTION Agentic AI (not PoC), enterprise RAG/agent deployment. Candidate has academic/project AI work plus production non-AI backend; does not meet specialist production AI floor.",
-      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
-        "note": "NCS first-party full JD explicitly requires minimum 3 years AI/ML engineering including at least 1 year PRODUCTION Agentic AI (not PoC), enterprise RAG/agent deployment. Candidate has academic/project AI work plus production non-AI backend; does not meet specialist production AI floor."
-      }
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001140237"
     },
     {
       "ats_key": "ncs3|smartrecruiters|6000000001374512",
@@ -2559,6 +2945,12 @@
       },
       "description_excerpt": "We are looking for an AI Developer to play a key role in building our agentic reasoning engines. You will own the intelligent layer of our bespoke enterprise system, ensuring our AI agents are reliable, secure, and capable of solving comple",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "NCS first-party full JD explicitly requires 2-5 years AI/ML development with substantial production-grade agentic systems and proven enterprise deployment. Candidate's RAG/agent work is project/research, not 2 years professional production agentic delivery.",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN"
+      },
+      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
       "first_seen_at": "2026-11-10T01:29:36.461123Z",
       "key": "sg:271fbdcfe057ced1553b",
       "last_error": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition.",
@@ -2566,11 +2958,19 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "NCS first-party full JD explicitly requires 2-5 years AI/ML development with substantial production-grade agentic systems and proven enterprise deployment. Candidate's RAG/agent work is project/research, not 2 years professional production agentic delivery.",
       "retries": 0,
       "review_retry": {
         "checked_at": "2026-11-10",
         "decision": "RETRY",
         "missing_evidence": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition."
+      },
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-10T15:59:27Z",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NCS SmartRecruiters 6000000001374512 live apply route not independently verified; other NCS requisitions cannot substitute.",
+        "status": "RETRY"
       },
       "seq": 69,
       "source": "freehirefetch:official-ats:SG",
@@ -2580,21 +2980,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "#EG AI Developer (Agentic AI Systems)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
-      "scout_review": {
-        "status": "RETRY",
-        "checked_at": "2026-11-10T15:59:27Z",
-        "missing_evidence": "Exact NCS SmartRecruiters 6000000001374512 live apply route not independently verified; other NCS requisitions cannot substitute.",
-        "decision": "PRESERVE_PENDING",
-        "ack": false
-      },
-      "reason": "NCS first-party full JD explicitly requires 2-5 years AI/ML development with substantial production-grade agentic systems and proven enterprise deployment. Candidate's RAG/agent work is project/research, not 2 years professional production agentic delivery.",
-      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
-        "note": "NCS first-party full JD explicitly requires 2-5 years AI/ML development with substantial production-grade agentic systems and proven enterprise deployment. Candidate's RAG/agent work is project/research, not 2 years professional production agentic delivery."
-      }
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512"
     },
     {
       "ats_key": "openai|ashby|29f15e50-1611-4256-afad-03b7df0b7aa7",
@@ -2615,12 +3001,19 @@
       },
       "description_excerpt": "About the Team The Applied AI Engineering team is responsible for helping developers and enterprises safely and effectively deploy OpenAI technologies in production. We act as trusted technical advisors and thought partners for customers, w",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "OpenAI first-party full JD demands 5+ years customer-facing technical consulting/solutions/security experience and strong cybersecurity domain specialization. Candidate lacks 5+ specialist customer-facing and cybersecurity background.",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN"
+      },
+      "evidence_url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7",
       "first_seen_at": "2026-11-10T01:29:36.461149Z",
       "key": "sg:7d1bbaef0353d217fc84",
       "last_error": null,
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
+      "reason": "OpenAI first-party full JD demands 5+ years customer-facing technical consulting/solutions/security experience and strong cybersecurity domain specialization. Candidate lacks 5+ specialist customer-facing and cybersecurity background.",
       "retries": 0,
       "seq": 70,
       "source": "freehirefetch:official-ats:SG",
@@ -2630,14 +3023,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Applied AI Engineer, Cyber",
-      "url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7",
-      "reason": "OpenAI first-party full JD demands 5+ years customer-facing technical consulting/solutions/security experience and strong cybersecurity domain specialization. Candidate lacks 5+ specialist customer-facing and cybersecurity background.",
-      "evidence_url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
-        "note": "OpenAI first-party full JD demands 5+ years customer-facing technical consulting/solutions/security experience and strong cybersecurity domain specialization. Candidate lacks 5+ specialist customer-facing and cybersecurity background."
-      }
+      "url": "https://jobs.ashbyhq.com/openai/29f15e50-1611-4256-afad-03b7df0b7aa7"
     },
     {
       "ats_key": "openai|ashby|502fcf97-75b2-4e54-9957-a29cee8eb1ca",
@@ -2658,12 +3044,19 @@
       },
       "description_excerpt": "About the Team The Applied AI Engineering team is responsible for ensuring the safe and effective deployment of Generative AI applications for developers and startups. We act as a trusted advisor and thought partner for our customers, worki",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "OpenAI first-party full JD explicitly requires 5+ years software engineering or ML engineering (ideally startups) AND production customer advisory. Candidate has 4-year part-time plus internship, not 5+ conventional professional tenure; not realistic early-career fit.",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN"
+      },
+      "evidence_url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca",
       "first_seen_at": "2026-11-10T01:29:36.461176Z",
       "key": "sg:eccf9182272828d41f39",
       "last_error": null,
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
+      "reason": "OpenAI first-party full JD explicitly requires 5+ years software engineering or ML engineering (ideally startups) AND production customer advisory. Candidate has 4-year part-time plus internship, not 5+ conventional professional tenure; not realistic early-career fit.",
       "retries": 0,
       "seq": 71,
       "source": "freehirefetch:official-ats:SG",
@@ -2673,14 +3066,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Applied AI Engineer, Startups (Mandarin-speaking)",
-      "url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca",
-      "reason": "OpenAI first-party full JD explicitly requires 5+ years software engineering or ML engineering (ideally startups) AND production customer advisory. Candidate has 4-year part-time plus internship, not 5+ conventional professional tenure; not realistic early-career fit.",
-      "evidence_url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
-        "note": "OpenAI first-party full JD explicitly requires 5+ years software engineering or ML engineering (ideally startups) AND production customer advisory. Candidate has 4-year part-time plus internship, not 5+ conventional professional tenure; not realistic early-career fit."
-      }
+      "url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca"
     },
     {
       "ats_key": "grab|smartrecruiters|744000159062339",
@@ -2701,6 +3087,12 @@
       },
       "description_excerpt": "Get to Know the Team The People Science team, within Grab's Office of Organisational Capabilities, turns people data, research, and AI into better organisational decisions. We are building a user-centric intelligence capability that helps G",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Grab first-party full JD demands 8-12 years in strategic consulting/applied organizational/people analytics research advising senior stakeholders. Candidate lacks this hard 8-12-year professional experience and specialization.",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN"
+      },
+      "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000159062339",
       "first_seen_at": "2026-11-10T01:29:36.461220Z",
       "key": "sg:5089f478a1aa6cb77b76",
       "last_error": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition.",
@@ -2708,6 +3100,7 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "Grab first-party full JD demands 8-12 years in strategic consulting/applied organizational/people analytics research advising senior stakeholders. Candidate lacks this hard 8-12-year professional experience and specialization.",
       "retries": 0,
       "review_retry": {
         "checked_at": "2026-11-10",
@@ -2722,14 +3115,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "People Research Scientist, People Analytics",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000159062339",
-      "reason": "Grab first-party full JD demands 8-12 years in strategic consulting/applied organizational/people analytics research advising senior stakeholders. Candidate lacks this hard 8-12-year professional experience and specialization.",
-      "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000159062339",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
-        "note": "Grab first-party full JD demands 8-12 years in strategic consulting/applied organizational/people analytics research advising senior stakeholders. Candidate lacks this hard 8-12-year professional experience and specialization."
-      }
+      "url": "https://jobs.smartrecruiters.com/Grab/744000159062339"
     },
     {
       "ats_key": "bjakcareer|ashby|ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
@@ -2750,12 +3136,19 @@
       },
       "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "BJAK first-party full JD requires 3+ years machine learning engineering INCLUDING models deployed to production, with PyTorch/JAX training pipelines. Candidate lacks professional production model engineering tenure; projects cannot be counted as such.",
+        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN"
+      },
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
       "first_seen_at": "2026-11-10T12:45:59.689050Z",
       "key": "sg:abe42bfa199ee682b484",
       "last_error": null,
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
+      "reason": "BJAK first-party full JD requires 3+ years machine learning engineering INCLUDING models deployed to production, with PyTorch/JAX training pipelines. Candidate lacks professional production model engineering tenure; projects cannot be counted as such.",
       "retries": 0,
       "seq": 90,
       "source": "freehirefetch:official-ats:SG",
@@ -2765,14 +3158,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Machine Learning Engineer, Applied AI",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
-      "reason": "BJAK first-party full JD requires 3+ years machine learning engineering INCLUDING models deployed to production, with PyTorch/JAX training pipelines. Candidate lacks professional production model engineering tenure; projects cannot be counted as such.",
-      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "HARD_EXPERIENCE_OR_DOMAIN",
-        "note": "BJAK first-party full JD requires 3+ years machine learning engineering INCLUDING models deployed to production, with PyTorch/JAX training pipelines. Candidate lacks professional production model engineering tenure; projects cannot be counted as such."
-      }
+      "url": "https://jobs.ashbyhq.com/bjakcareer/ed931ce5-a247-494f-a68d-3c2ed4a1e3c1"
     },
     {
       "ats_key": "mistral.ai|ashby|50656710-0001-42b0-8571-2880492b1233",
@@ -2793,12 +3179,19 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing,",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Mistral first-party full JD focuses robotics autonomy/VLM-VLA, robot perception/navigation/manipulation, Isaac simulation and expert PyTorch/JAX. Not candidate's NLP/LLM/Agent/retrieval engineering track; hard robotics specialization unestablished.",
+        "reason_code": "SPECIALIST_DIRECTION_MISMATCH"
+      },
+      "evidence_url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233",
       "first_seen_at": "2026-11-09T15:11:31.005019Z",
       "key": "sg:dcd15fe102efcdc4a59b",
       "last_error": null,
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
+      "reason": "Mistral first-party full JD focuses robotics autonomy/VLM-VLA, robot perception/navigation/manipulation, Isaac simulation and expert PyTorch/JAX. Not candidate's NLP/LLM/Agent/retrieval engineering track; hard robotics specialization unestablished.",
       "retries": 0,
       "seq": 52,
       "source": "freehirefetch:official-ats:SG",
@@ -2806,14 +3199,7 @@
       "source_job_id": "50656710-0001-42b0-8571-2880492b1233",
       "state": "HARD_REJECTED",
       "title": "Applied Science - Research Engineer (Robotics)",
-      "url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233",
-      "reason": "Mistral first-party full JD focuses robotics autonomy/VLM-VLA, robot perception/navigation/manipulation, Isaac simulation and expert PyTorch/JAX. Not candidate's NLP/LLM/Agent/retrieval engineering track; hard robotics specialization unestablished.",
-      "evidence_url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "SPECIALIST_DIRECTION_MISMATCH",
-        "note": "Mistral first-party full JD focuses robotics autonomy/VLM-VLA, robot perception/navigation/manipulation, Isaac simulation and expert PyTorch/JAX. Not candidate's NLP/LLM/Agent/retrieval engineering track; hard robotics specialization unestablished."
-      }
+      "url": "https://jobs.ashbyhq.com/mistral.ai/50656710-0001-42b0-8571-2880492b1233"
     },
     {
       "ats_key": "mistral.ai|ashby|d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
@@ -2834,12 +3220,19 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT MISTRAL Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing,",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Mistral first-party full JD requires ROS/ROS2, robot navigation SLAM, localization/state estimation, sensor fusion and hardware autonomy delivery. Candidate has NLP/LLM/Agent/backend, not robotics perception/control specialization; direction mismatch.",
+        "reason_code": "SPECIALIST_DIRECTION_MISMATCH"
+      },
+      "evidence_url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
       "first_seen_at": "2026-11-09T15:11:31.005109Z",
       "key": "sg:e7236bcee7afbf8b3c56",
       "last_error": null,
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
+      "reason": "Mistral first-party full JD requires ROS/ROS2, robot navigation SLAM, localization/state estimation, sensor fusion and hardware autonomy delivery. Candidate has NLP/LLM/Agent/backend, not robotics perception/control specialization; direction mismatch.",
       "retries": 0,
       "seq": 57,
       "source": "freehirefetch:official-ats:SG",
@@ -2847,14 +3240,7 @@
       "source_job_id": "d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
       "state": "HARD_REJECTED",
       "title": "Applied AI Engineer, Robotics",
-      "url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
-      "reason": "Mistral first-party full JD requires ROS/ROS2, robot navigation SLAM, localization/state estimation, sensor fusion and hardware autonomy delivery. Candidate has NLP/LLM/Agent/backend, not robotics perception/control specialization; direction mismatch.",
-      "evidence_url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "SPECIALIST_DIRECTION_MISMATCH",
-        "note": "Mistral first-party full JD requires ROS/ROS2, robot navigation SLAM, localization/state estimation, sensor fusion and hardware autonomy delivery. Candidate has NLP/LLM/Agent/backend, not robotics perception/control specialization; direction mismatch."
-      }
+      "url": "https://jobs.ashbyhq.com/mistral.ai/d5b3861e-d8ff-4b8f-b0a1-3b8582a1c7b4"
     },
     {
       "company": "Nanyang Technological University",
@@ -2872,25 +3258,25 @@
         "source_verified_can_apply": false,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "NTU NIE employer-authored full JD explicitly describes a 12-month RA contract in education/pedagogy research. Core duties are teacher participant recruitment, school/MOE liaison, scheduling, transcription, IRB and grant admin; LLM is a tool being studied, not the subject of LLM/NLP/Agent engineering. Does not pass 6-part RESEARCH_EXCEPTION substantive-work/non-admin gate.",
+        "reason_code": "NON_CORE_ADMIN_HEAVY_FIXED_TERM_RA"
+      },
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Natural-Sciences-and-Science-Education-Department---NIE-_R00026030",
       "first_seen_at": "2026-11-10T08:48:16.053957Z",
       "key": "sg:d326a0f78333a8727646",
       "last_error": null,
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
+      "reason": "NTU NIE employer-authored full JD explicitly describes a 12-month RA contract in education/pedagogy research. Core duties are teacher participant recruitment, school/MOE liaison, scheduling, transcription, IRB and grant admin; LLM is a tool being studied, not the subject of LLM/NLP/Agent engineering. Does not pass 6-part RESEARCH_EXCEPTION substant",
       "retries": 0,
       "seq": 75,
       "source": "ntu:official-cxs:SG",
       "state": "HARD_REJECTED",
       "title": "Research Assistant (Natural Sciences and Science Education Department) [NIE]",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Natural-Sciences-and-Science-Education-Department---NIE-_R00026030",
-      "reason": "NTU NIE employer-authored full JD explicitly describes a 12-month RA contract in education/pedagogy research. Core duties are teacher participant recruitment, school/MOE liaison, scheduling, transcription, IRB and grant admin; LLM is a tool being studied, not the subject of LLM/NLP/Agent engineering. Does not pass 6-part RESEARCH_EXCEPTION substant",
-      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Natural-Sciences-and-Science-Education-Department---NIE-_R00026030",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason_code": "NON_CORE_ADMIN_HEAVY_FIXED_TERM_RA",
-        "note": "NTU NIE employer-authored full JD explicitly describes a 12-month RA contract in education/pedagogy research. Core duties are teacher participant recruitment, school/MOE liaison, scheduling, transcription, IRB and grant admin; LLM is a tool being studied, not the subject of LLM/NLP/Agent engineering. Does not pass 6-part RESEARCH_EXCEPTION substantive-work/non-admin gate."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Assistant--Natural-Sciences-and-Science-Education-Department---NIE-_R00026030"
     },
     {
       "ats_key": "bjakcareer|ashby|2f788998-159e-422f-8a6e-5823801f42e4",
@@ -2910,12 +3296,15 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT ACTAI There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prom",
+      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/2f788998-159e-422f-8a6e-5823801f42e4",
       "first_seen_at": "2026-11-09T15:11:31.004999Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/923",
       "key": "sg:39815a86a5ffeb238a0d",
       "last_error": null,
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
+      "reason": "New SG CHECK #923 verified on GitHub: high-fit ActAI Applied AI Engineer, exact older Bjak application identity unresolved; no submission.",
       "retries": 0,
       "seq": 51,
       "source": "freehirefetch:official-ats:SG",
@@ -2923,10 +3312,7 @@
       "source_job_id": "2f788998-159e-422f-8a6e-5823801f42e4",
       "state": "ISSUE_VERIFIED",
       "title": "Applied AI Engineer",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/2f788998-159e-422f-8a6e-5823801f42e4",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/923",
-      "evidence_url": "https://jobs.ashbyhq.com/bjakcareer/2f788998-159e-422f-8a6e-5823801f42e4",
-      "reason": "New SG CHECK #923 verified on GitHub: high-fit ActAI Applied AI Engineer, exact older Bjak application identity unresolved; no submission."
+      "url": "https://jobs.ashbyhq.com/bjakcareer/2f788998-159e-422f-8a6e-5823801f42e4"
     }
   ],
   "version": 1
