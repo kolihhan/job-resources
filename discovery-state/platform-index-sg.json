@@ -113,7 +113,7 @@
       },
       "first_seen_at": "2026-11-07T09:35:18.297729Z",
       "key": "sg:9adae2e27f47137c93cf",
-      "last_error": null,
+      "last_error": "Exact NTU Workday R00026131 current application route and whether separate from existing AIAP APPLY R00025487 cannot be verified.",
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
@@ -122,7 +122,13 @@
       "source": "ntu:official-cxs:SG",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer (AIAP)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AIAP-_R00026131",
+      "scout_retry": {
+        "checked_at": "2026-11-11",
+        "status": "RETRY",
+        "missing_evidence": "Exact NTU Workday R00026131 current application route and whether separate from existing AIAP APPLY R00025487 cannot be verified.",
+        "source": "SG Scout exact requisition review"
+      }
     },
     {
       "company": "Nanyang Technological University",
@@ -322,7 +328,7 @@
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:11:31.004975Z",
       "key": "sg:5cdfbe2ca21148797c13",
-      "last_error": null,
+      "last_error": "Exact Binance Greenhouse 5009522101 current live application route cannot be opened; full employer JD stored but does not prove liveness.",
       "market": "SG",
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
@@ -334,7 +340,13 @@
       "source_job_id": "5009522101",
       "state": "UNVERIFIED_INDEX",
       "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
+      "scout_retry": {
+        "checked_at": "2026-11-11",
+        "status": "RETRY",
+        "missing_evidence": "Exact Binance Greenhouse 5009522101 current live application route cannot be opened; full employer JD stored but does not prove liveness.",
+        "source": "SG Scout exact requisition review"
+      }
     },
     {
       "ats_key": "bjakcareer|ashby|56f522c4-b903-45ea-bb08-952b74641b56",
@@ -532,43 +544,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer New",
       "url": "https://sg.jobstreet.com/job/95033957"
-    },
-    {
-      "ats_key": "clera|ashby|dbc6684e-3338-46d1-8711-efc6999c26aa",
-      "company": "Clera",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "FullTime",
-        "full_jd_complete": true,
-        "full_jd_text": "ABOUT THE ROLE Join a small engineering team at an AI and reinforcement learning infrastructure company. You will build quality control systems for training data and help ensure that agent evaluations produce reliable, useful results. WHAT YOU'LL DO - Automate quality control for training data generated in reinforcement learning environments. - Set and enforce data quality standards using human judgment and clear evidence rather than relying heavily on large language models. - Design experiments and metrics to evaluate agent outputs. - Work with data vendors to investigate quality issues, diagnose agent failure modes, and improve data generation processes. - Turn quality findings into auditing systems, including sampling strategies and rule-based or model-assisted validation pipelines. - Improve infrastructure tools and vendor portals to reduce anomalies, inconsistencies, and edge cases. WHAT WE'RE LOOKING FOR - Two to four years of experience as a research engineer or in a similar engineering or research role focused on quality control automation. - Technical education or equivalent technical experience, with proficiency in Python, Docker, and Linux. - Experience building scalable data validation pipelines and end-to-end automated QA/QC systems with autonomy in unstructured problem spaces. - Background in benchmarks and evaluations for reinforcement learning training data, including defining realistic tasks, reliable rubrics, and useful trajectories. - Experience defining and measuring training data quality, and designing evaluation metrics, experiments, and QA/QC processes. - Knowledge of statistics, strong communication skills, curiosity across domains, and the ability to collaborate independently across time zones. COMPENSATION & BENEFITS Base salary: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
-        "jd_chars": 1893,
-        "jd_sha256": "3ffc2ae4bcbc95867754e457bc363f6ae376e1ef0a25d6d7dc060b51b29ef35c",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "ashby first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "ABOUT THE ROLE Join a small engineering team at an AI and reinforcement learning infrastructure company. You will build quality control systems for training data and help ensure that agent evaluations produce reliable, useful results. WHAT ",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T01:29:36.461198Z",
-      "key": "sg:fd569ce2f1bbf6e34d7f",
-      "last_error": null,
-      "market": "SG",
-      "platform": "ashby official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 72,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "dbc6684e-3338-46d1-8711-efc6999c26aa",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer, QC Automation",
-      "url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa"
     },
     {
       "api_source_context": {
@@ -1114,7 +1089,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T17:44:46.023167Z",
       "key": "sg:66e51dbae99b1f7e3eae",
-      "last_error": null,
+      "last_error": "Exact OpenAI Ashby requisition 8acfba11 current application status and equivalence to previously rejected Applied AI Engineer Issue #103 cannot be confirmed.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
@@ -1127,7 +1102,13 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Applied AI Engineer",
-      "url": "https://jobs.ashbyhq.com/openai/8acfba11-707e-4d8e-a860-88643fae24ba"
+      "url": "https://jobs.ashbyhq.com/openai/8acfba11-707e-4d8e-a860-88643fae24ba",
+      "scout_retry": {
+        "checked_at": "2026-11-11",
+        "status": "RETRY",
+        "missing_evidence": "Exact OpenAI Ashby requisition 8acfba11 current application status and equivalence to previously rejected Applied AI Engineer Issue #103 cannot be confirmed.",
+        "source": "SG Scout exact requisition review"
+      }
     },
     {
       "api_source_context": {
@@ -3403,6 +3384,51 @@
         "checked_at": "2026-11-11",
         "reason_code": "HARD_CLOUD_IAC_3Y_FLOOR",
         "note": "Temus official AI Engineer Greenhouse 5180599008 specifies at least three years directly implementing serverless, CI/CD, containerization, IaC and tests; candidate's demonstrated part-time conventional backend ops plus separate academic AI projects cannot substantiate 3 years full cloud/IaC enterprise AI implementation."
+      }
+    },
+    {
+      "ats_key": "clera|ashby|dbc6684e-3338-46d1-8711-efc6999c26aa",
+      "company": "Clera",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT THE ROLE Join a small engineering team at an AI and reinforcement learning infrastructure company. You will build quality control systems for training data and help ensure that agent evaluations produce reliable, useful results. WHAT YOU'LL DO - Automate quality control for training data generated in reinforcement learning environments. - Set and enforce data quality standards using human judgment and clear evidence rather than relying heavily on large language models. - Design experiments and metrics to evaluate agent outputs. - Work with data vendors to investigate quality issues, diagnose agent failure modes, and improve data generation processes. - Turn quality findings into auditing systems, including sampling strategies and rule-based or model-assisted validation pipelines. - Improve infrastructure tools and vendor portals to reduce anomalies, inconsistencies, and edge cases. WHAT WE'RE LOOKING FOR - Two to four years of experience as a research engineer or in a similar engineering or research role focused on quality control automation. - Technical education or equivalent technical experience, with proficiency in Python, Docker, and Linux. - Experience building scalable data validation pipelines and end-to-end automated QA/QC systems with autonomy in unstructured problem spaces. - Background in benchmarks and evaluations for reinforcement learning training data, including defining realistic tasks, reliable rubrics, and useful trajectories. - Experience defining and measuring training data quality, and designing evaluation metrics, experiments, and QA/QC processes. - Knowledge of statistics, strong communication skills, curiosity across domains, and the ability to collaborate independently across time zones. COMPENSATION & BENEFITS Base salary: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
+        "jd_chars": 1893,
+        "jd_sha256": "3ffc2ae4bcbc95867754e457bc363f6ae376e1ef0a25d6d7dc060b51b29ef35c",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "ABOUT THE ROLE Join a small engineering team at an AI and reinforcement learning infrastructure company. You will build quality control systems for training data and help ensure that agent evaluations produce reliable, useful results. WHAT ",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T01:29:36.461198Z",
+      "key": "sg:fd569ce2f1bbf6e34d7f",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 72,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "dbc6684e-3338-46d1-8711-efc6999c26aa",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "Research Engineer, QC Automation",
+      "url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa",
+      "reason": "Clera Research Engineer QC Automation exact first-party JD requires 2–4 years in research engineering focused on QC automation, scalable end-to-end QA/QC data validation, and RL training-data benchmark/evaluation background. Candidate has LLM/RAG evaluation projects but no demonstrated professional QC automation/RL data quality track record; prior Clera specialist roles #268/#282 were separately declined for analogous experience-shape mismatch. Exact Ashby page currently JS-only, so no open-route claim.",
+      "evidence_url": "https://jobs.ashbyhq.com/Clera/dbc6684e-3338-46d1-8711-efc6999c26aa",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "reason_code": "MANDATORY_QC_AUTOMATION_RL_DATA_BACKGROUND",
+        "source_provenance": "stored first-party Ashby full JD",
+        "note": "Clera Research Engineer QC Automation exact first-party JD requires 2–4 years in research engineering focused on QC automation, scalable end-to-end QA/QC data validation, and RL training-data benchmark/evaluation background. Candidate has LLM/RAG evaluation projects but no demonstrated professional QC automation/RL data quality track record; prior Clera specialist roles #268/#282 were separately declined for analogous experience-shape mismatch. Exact Ashby page currently JS-only, so no open-route claim."
       }
     }
   ],
