@@ -20,6 +20,8 @@ import re
 import unicodedata
 from urllib.parse import urlsplit, urlunsplit
 
+from rule_triage import triage as private_rule_triage
+
 MARKETS = ("SG", "MY", "CN")
 TRACKS = ("ENG", "RES")
 RESEARCH = re.compile(
@@ -154,6 +156,7 @@ def _candidate_official(row, market, now):
     if not url or not row.get("title") or not isinstance(row.get("seq"), int):
         return None
     track = classify_track(row["title"])
+    rule = private_rule_triage(row, market, now=now)
     status = (official_status(rev, now) if verified else
               "UNVERIFIED_INDEX_NEEDS_EXACT_EMPLOYER_JD_AND_FIT")
     # Reuse private cross-platform Issue hints already stored with this
@@ -174,6 +177,10 @@ def _candidate_official(row, market, now):
         "jd_sha256": rev.get("jd_sha256"),
         "source_checked_at": rev.get("checked_at"),
         "possible_prior_issue": rev.get("possible_prior_issue"),
+        "rule_lane": rule["lane"],
+        "rule_codes": rule["rule_codes"],
+        "rule_evidence": rule["evidence"],
+        "rule_auto_reject": rule["auto_reject"],
         "jd_quote_evidence": jd_quote_evidence(rev.get("full_jd_text"))
         if rev.get("full_jd_complete") is True else None,
         "where_to_review": f"discovery-state/platform-index-{market.lower()}.json",
@@ -217,6 +224,15 @@ def _sort_priority(role):
     # incomplete/stale metadata. Preserve ENG/RES parity via _choose_fair().
     maturity = bool(role["title_maturity_flag"])
     secondary = role.get("feed_lane") == "MY_SWE_SECONDARY"
+    rule_rank = {
+        "JD_READY": 0,
+        "HISTORY_CHECK": 1,
+        "HARD_REQUIREMENT_REVIEW": 2,
+        "SCOPE_REVIEW": 3,
+        "SOURCE_GAP": 4,
+        "LOW_PRIORITY_SOURCE_GAP": 5,
+    }
+    lane_rank = rule_rank.get(role.get("rule_lane"), 6)
     evidence_rank = {
         "JD_VERIFIED_FIT_REVIEW_DUE": 0,
         "NEEDS_LIVE_OFFICIAL_JD_AND_FIT": 1,
@@ -232,7 +248,7 @@ def _sort_priority(role):
     prior_flag = "CHECK_POSSIBLE_CROSS_PLATFORM_ISSUE" in (role.get("review_flags") or [])
     title_weak = not bool(CORE.search(role["title"]))
     seq = role.get("queue_seq", 999999999)
-    return (maturity, secondary, rank, int(prior_flag), title_weak, seq,
+    return (maturity, secondary, lane_rank, rank, int(prior_flag), title_weak, seq,
             role["company"].lower(), role["url"])
 
 
@@ -314,6 +330,12 @@ def build_dispatch(states, feeds, known_index, *, now=None,
         ready = 0
         current = 0
         pending_rows = state["pending"] if state is not None else []
+        # All durable Pending are classified, not only the 10/16 dispatch slice.
+        # These are REVIEW LANES, never synthetic APPLY/REJECT decisions.
+        rule_lanes = Counter(
+            private_rule_triage(source, market, now=now)["lane"]
+            for source in pending_rows if isinstance(source, dict)
+        )
         for source in pending_rows:
             row = _candidate_official(source, market, now)
             if row is None:
@@ -356,6 +378,8 @@ def build_dispatch(states, feeds, known_index, *, now=None,
         available = Counter(x["track_hint"] for x in by_url.values())
         result["markets"][market] = {
             "official_pending_total": len(pending_rows),
+            "rule_triage_v1": dict(sorted(rule_lanes.items())),
+            "rule_auto_rejections": 0,
             "verified_waiting_fit": ready,
             "current_full_jd_for_fit": current,
             "official_need_reverify_or_rehydrate": ready-current,
@@ -407,6 +431,13 @@ def markdown_report(report):
             f"{m['current_full_jd_for_fit']} | {m['selected_by_track']['ENG']} | "
             f"{m['selected_by_track']['RES']} |"
         )
+    lines += ["", "## Rule-based triage (all durable Pending; NO automatic rejection)", ""]
+    for market in MARKETS:
+        m = report["markets"][market]
+        values = m.get("rule_triage_v1", {})
+        lines.append(f"- **{market}**: " +
+                     (", ".join(f"{k}={v}" for k,v in values.items()) if values else "0 Pending") +
+                     "; auto reject/ACK = 0")
     lines += ["", "## Source and track coverage debt", ""]
     for market in MARKETS:
         m = report["markets"][market]
@@ -437,6 +468,13 @@ def markdown_report(report):
                     for snippet in quotes.get(kind, []):
                         clean = snippet.replace("\\n", " ").replace("|", "/").replace("`", "'")
                         lines.append(f"    - {kind}: `{clean}`")
+            if row.get("rule_lane"):
+                codes = ", ".join(row.get("rule_codes") or []) or "none"
+                lines.append(f"  - **Rule triage (review only):** {row['rule_lane']} | {codes}")
+                for cue in row.get("rule_evidence") or []:
+                    if cue["basis"] == "FRESH_FIRST_PARTY_JD":
+                        clean = cue["quote"].replace("\n", " ").replace("|", "/").replace("`", "'")
+                        lines.append(f"    - employer quote for {cue['code']}: `{clean}`")
             if row.get("possible_prior_issue"):
                 lines.append(
                     f"  - **History hint only:** prior Issue #{row['possible_prior_issue']}; "
