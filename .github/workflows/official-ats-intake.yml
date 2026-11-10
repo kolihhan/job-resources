@@ -179,6 +179,33 @@ jobs:
             cat artifacts/api-snapshots/platform-coverage.md >> "$GITHUB_STEP_SUMMARY"
           fi
           head -n 20 artifacts/ats-intake-summary.md
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          base=Path("artifacts")
+          files={"exact_issue_acks":"exact-issue-reconciliation.json",
+                 "upstream_full_jds":"ats-jd-enrichment.json",
+                 "source_intake":"ats-intake-report.json"}
+          lines=["## Public-source / private-value handoff", "",
+                 "Counts are provenance receipts, never eligible APPLY or contacted employers.",
+                 "", "| Market | Private exact Issue ACK | Imported public JDs | New source Pending | Pending after |",
+                 "|---|---:|---:|---:|---:|"]
+          records={}
+          for name,file in files.items():
+              try: records[name]=json.loads((base/file).read_text())
+              except (OSError,ValueError):records[name]={}
+          for market in ("SG","MY","CN"):
+              a=records["exact_issue_acks"].get("markets",{}).get(market,{})
+              b=records["upstream_full_jds"].get("markets",{}).get(market,{})
+              c=records["source_intake"].get("markets",{}).get(market,{})
+              lines.append(f'| {market} | {a.get("verified_duplicates", "unavailable")} | '
+                           f'{b.get("full_jd_imported", "unavailable")} | '
+                           f'{c.get("created", "unavailable")} | '
+                           f'{c.get("pending_after", "unavailable")} |')
+          lines.extend(["","Only applicant-specific Scout verification creates APPLY/CHECK Issues."])
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as f:
+              f.write("\n".join(lines)+"\n")
+          PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:
