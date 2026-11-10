@@ -5,20 +5,49 @@ on:
       - '.github/workflows/application-resume-handoff.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   handoff:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Package canonical resume assets
+      - name: Correct source-verified transcript GPA metadata in PDFs
         run: |
-          test -s resumes/resume-zh-current.pdf
-          test -s resumes/resume-en-current.pdf
-          sha256sum resumes/resume-zh-current.pdf resumes/resume-en-current.pdf
+          python -m pip install --quiet pymupdf
+          python - <<'PY'
+          from pathlib import Path
+          import fitz
+          replacement = 'GPA 3.87/4.3  |  Graduation grade 4.09/4.3'
+          for name in ('resume-en-current.pdf', 'resume-zh-current.pdf'):
+              path = Path('resumes') / name
+              doc = fitz.open(path)
+              page = doc[0]
+              found = page.search_for('GPA 4.09/4.3')
+              if found:
+                  assert len(found) == 1, (name, found)
+                  r = found[0]
+                  page.add_redact_annot(fitz.Rect(r.x0-0.2,r.y0-0.2,r.x1+0.2,r.y1+0.2),fill=(1,1,1))
+                  page.apply_redactions(images=0,graphics=1,text=0)
+                  page.insert_text((r.x0,r.y1-2.6),replacement,fontname='helv',fontsize=8.0,color=(.13,.20,.25),overlay=True)
+                  doc.save(str(path)+'.new',garbage=4,deflate=True)
+                  doc.close()
+                  Path(str(path)+'.new').replace(path)
+              else:
+                  assert replacement in page.get_text(), name
+                  doc.close()
+              check = fitz.open(path)
+              assert replacement in check[0].get_text() and len(check) == 1
+              check.close()
+          PY
+      - name: Persist corrected canonical PDFs to repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add resumes/resume-en-current.pdf resumes/resume-zh-current.pdf
+          if git diff --cached --quiet; then echo 'No changes'; else git commit -m 'Correct canonical resume PDFs against NTHU transcript'; git push; fi
       - uses: actions/upload-artifact@v4
         with:
-          name: application-canonical-resumes
+          name: application-canonical-resumes-corrected
           path: |
             resumes/resume-zh-current.pdf
             resumes/resume-en-current.pdf
