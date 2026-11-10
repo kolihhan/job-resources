@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-09T20:51:42.470473Z",
+    "at": "2026-11-10T01:29:36.527814Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 5,
-      "observed": 5
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "CN",
-  "next_seq": 47,
+  "next_seq": 48,
   "next_unacknowledged_seq": 1,
   "pending": [
     {
@@ -941,6 +941,28 @@
       "state": "UNVERIFIED_INDEX",
       "title": "电源软件研发工程师",
       "url": "https://www.liepin.com/job/1986292501.shtml"
+    },
+    {
+      "ats_key": "freehire|ai-infrastructure-hardware-engineer-pragmatike-4sgwzvel",
+      "company": "Pragmatike",
+      "description_excerpt": "<p><strong>Job Description</strong></p><p><strong>Location:</strong> Hong Kong — Hybrid (factory floor, test lab and manufacturing sites; this is not a remote or desk-based role)<br/><strong>Start date:</strong> ASAP<br/><strong>Languages:<",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T01:29:36.527791Z",
+      "key": "cn:df0aa512d074760dc8e2",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "APAC / China / Hong Kong",
+      "retries": 0,
+      "seq": 47,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-infrastructure-hardware-engineer-pragmatike-4sgwzvel",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Infrastructure Hardware Engineer",
+      "url": "https://jobs.ashbyhq.com/pragmatike/e33ac146-4a12-453f-a882-1a77e1348cf8"
     }
   ],
   "terminal": [
@@ -974,12 +996,14 @@
       "company": "金蝶",
       "description_excerpt": "",
       "discovery_access": "NATIVE_API_LISTING",
+      "evidence_url": "https://www.liepin.com/job/1984512575.shtml",
       "first_seen_at": "2026-11-09T20:51:42.470461Z",
       "key": "cn:7b7758d8da4e009c76e0",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "深圳-南山区",
+      "reason": "2026-11-10 native Liepin employer-recruiter exact JD: requires 3+ years Java backend, Spring Boot/MyBatis, overseas project experience and ERP/finance domain. Candidate's paid Laravel/Vue work does not satisfy mandatory Java/domain stack; role actually international ERP backend, not substantive AI despite AI-branded title. https://www.liepin.com/job/1984512575.shtml",
       "retries": 0,
       "seq": 46,
       "source": "liepin:native-api:CN",
@@ -989,9 +1013,7 @@
       "source_platform": "猎聘",
       "state": "HARD_REJECT",
       "title": "AI后端开发（国际化）",
-      "url": "https://www.liepin.com/job/1984512575.shtml",
-      "reason": "2026-11-10 native Liepin employer-recruiter exact JD: requires 3+ years Java backend, Spring Boot/MyBatis, overseas project experience and ERP/finance domain. Candidate's paid Laravel/Vue work does not satisfy mandatory Java/domain stack; role actually international ERP backend, not substantive AI despite AI-branded title. https://www.liepin.com/job/1984512575.shtml",
-      "evidence_url": "https://www.liepin.com/job/1984512575.shtml"
+      "url": "https://www.liepin.com/job/1984512575.shtml"
     }
   ],
   "version": 1
