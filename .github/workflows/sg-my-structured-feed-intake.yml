@@ -37,20 +37,28 @@ jobs:
           from datetime import datetime,timezone,timedelta
           from pathlib import Path
           from urllib.request import Request,urlopen
+          from urllib.error import HTTPError, URLError
           target=Path('artifacts')
           target.mkdir(parents=True,exist_ok=True)
           for market in ('sg','my'):
               url=f'https://raw.githubusercontent.com/kolihhan/freehirefetch/main/feed/devglobal/devglobal-{market}-candidates.json'
               req=Request(url,headers={'User-Agent':'JobResourcesDevGlobalPublicBatchConsumer/1.0'})
-              with urlopen(req,timeout=25) as r:
-                  raw=r.read(2_000_001)
-              if len(raw)>2_000_000:raise ValueError('oversized DevGlobal batch')
-              data=json.loads(raw)
-              at=datetime.fromisoformat(data['observed_at'].replace('Z','+00:00'))
-              if at.tzinfo is None or not datetime.now(timezone.utc)-timedelta(hours=24)<=at<=datetime.now(timezone.utc)+timedelta(minutes=5):
-                  raise ValueError(f'stale or future {market} DevGlobal source; preserve queue')
-              if data.get('source')!='devglobal:public-api:'+market.upper() or not isinstance(data.get('items'),list):
-                  raise ValueError('invalid upstream DevGlobal batch schema')
+              try:
+                  with urlopen(req,timeout=25) as r:
+                      raw=r.read(2_000_001)
+                  if len(raw)>2_000_000:raise ValueError('oversized DevGlobal batch')
+                  data=json.loads(raw)
+                  at=datetime.fromisoformat(data['observed_at'].replace('Z','+00:00'))
+                  if (at.tzinfo is None or not
+                      datetime.now(timezone.utc)-timedelta(hours=24)<=at<=datetime.now(timezone.utc)+timedelta(minutes=5)):
+                      raise ValueError('stale/future published source')
+                  if data.get('source')!='devglobal:public-api:'+market.upper() or not isinstance(data.get('items'),list):
+                      raise ValueError('invalid upstream batch schema')
+              except (HTTPError, URLError, TimeoutError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
+                  # Absence is an explicit source outage; NEVER replace an old queue
+                  # with empty data or call a 404 an exhausted hiring platform.
+                  print('PUBLIC_DEVGLOBAL_UNAVAILABLE',market,type(exc).__name__,str(exc)[:140])
+                  continue
               (target/f'devglobal-{market}-candidates.json').write_bytes(raw)
               print(market, 'published source roles',len(data['items']),'coverage',data.get('coverage'))
           PY
@@ -60,7 +68,11 @@ jobs:
           import json
           from pathlib import Path
           for market in ('sg','my'):
-              s=json.loads(Path(f'artifacts/devglobal-{market}-candidates.json').read_text())
+              file=Path(f'artifacts/devglobal-{market}-candidates.json')
+              if not file.is_file():
+                  print('UNAVAILABLE_NOT_ZERO',market)
+                  continue
+              s=json.loads(file.read_text())
               assert s['source']=='devglobal:public-api:'+market.upper()
               assert len({item['url'] for item in s['items']})==len(s['items'])
               for item in s['items']:
@@ -79,20 +91,27 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
-            python scripts/platform_index_queue.py ingest \
-              --market SG --input artifacts/devglobal-sg-candidates.json \
-              --known discovery-state/known-role-index.json \
-              --state discovery-state/platform-index-sg.json
-            python scripts/platform_index_queue.py ingest \
-              --market MY --input artifacts/devglobal-my-candidates.json \
-              --known discovery-state/known-role-index.json \
-              --state discovery-state/platform-index-my.json
+            for market in SG MY; do
+              lower="${market,,}"
+              if [[ -s "artifacts/devglobal-${lower}-candidates.json" ]]; then
+                python scripts/platform_index_queue.py ingest \
+                  --market "$market" --input "artifacts/devglobal-${lower}-candidates.json" \
+                  --known discovery-state/known-role-index.json \
+                  --state "discovery-state/platform-index-${lower}.json"
+              else
+                echo "PUBLIC_DEVGLOBAL_NOT_AVAILABLE $market; preserving existing queue"
+              fi
+            done
             python - <<'PY'
           import json
           from pathlib import Path
           for market in ('sg','my'):
+              file=Path(f'artifacts/devglobal-{market}-candidates.json')
+              if not file.is_file():
+                  print('SOURCE_UNAVAILABLE_PRESERVED',market)
+                  continue
               s=json.loads(Path(f'discovery-state/platform-index-{market}.json').read_text())
-              feed=json.loads(Path(f'artifacts/devglobal-{market}-candidates.json').read_text())
+              feed=json.loads(file.read_text())
               queued={x['url'] for x in s['pending']+s['terminal']}
               assert all(r['url'] in queued for r in feed['items']),'a source candidate was lost'
               assert s['next_unacknowledged_seq']==min([r['seq'] for r in s['pending']],default=s['next_seq'])
