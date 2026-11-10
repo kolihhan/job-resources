@@ -161,6 +161,19 @@ class RuleTriageTests(unittest.TestCase):
         self.assertEqual(d["lane"],"JD_READY")
         self.check_nonterminal(d)
 
+    def test_old_applied_issue_with_apparent_requirement_is_not_terminal(self):
+        # Applied-role history is not a gold label; a rule hit must never
+        # override a real applicant receipt, even when the JD mentions 5+ yrs.
+        applied=row("AI Engineer", jd=JD_BODY+" Must have at least 5+ years of professional engineering experience.")
+        applied["state"]="ISSUE_VERIFIED"
+        state=lambda m:{"market":m,"pending":[],"terminal":[applied]}
+        report=audit({m:state(m) for m in ("SG","MY","CN")},now=NOW)
+        for m in ("SG","MY","CN"):
+            item=report["markets"][m]
+            self.assertEqual(item["issue_verified_imperfect_controls"],1)
+            self.assertEqual(item["auto_rejections"],0)
+            self.assertEqual(item["auto_acknowledgements"],0)
+
     def test_audit_counts_and_no_label_leakage(self):
         p1=row("AI Backend Engineer",jd=JD_BODY)
         p2=row("Research Assistant (LLM)",excerpt="<p>Fulltime</p>")
