@@ -270,26 +270,6 @@
       "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SHANGHAI/Leader-software-engineer-for-jedai-LLM-infra_R50616"
     },
     {
-      "ats_key": "freehire|ai-ml-engineer-banking-capco-eyg3ekws",
-      "company": "Capco",
-      "description_excerpt": "<p></p>\n<p><strong>Location:</strong> Hong Kong | <strong>Practice Area:</strong> Technology &amp; Engineering | <strong>Type:</strong> Permanent</p>\n<p><strong>Build intelligent solutions. Shape the future of AI in financial services.</str",
-      "first_seen_at": "2026-11-09T16:44:39.014303Z",
-      "key": "cn:0c79168d4c2158bf451a",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "query": "China - Hong Kong",
-      "retries": 0,
-      "seq": 16,
-      "source": "freehire:public-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-ml-engineer-banking-capco-eyg3ekws",
-      "source_listing_url": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI & ML Engineer | Banking ",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8358340"
-    },
-    {
       "ats_key": "freehire|ai-engineer-dbs-sw6alwpq",
       "company": "dbs",
       "description_excerpt": "<p></p><p><b>Location:</b></p>Guangzhou (DTC)<p></p><p><b>Job: </b></p>Data Technology<p></p><p><b>Schedule: </b></p>Regular<p></p><p><b>Employee Status: </b></p>Full time",
@@ -887,6 +867,31 @@
         "checked_at": "2026-11-10",
         "reason": "WRONG_MARKET_HONG_KONG_PAUSED",
         "note": "Capco employer Greenhouse job 8080908 explicitly locates this AI Engineer | Insurance in China - Hong Kong, not mainland. HK market paused; do not introduce as CN opportunity. Also requires 3–12 years AI/ML professional experience. https://job-boards.greenhouse.io/capco/jobs/8080908"
+      }
+    },
+    {
+      "ats_key": "freehire|ai-ml-engineer-banking-capco-eyg3ekws",
+      "company": "Capco",
+      "description_excerpt": "<p></p>\n<p><strong>Location:</strong> Hong Kong | <strong>Practice Area:</strong> Technology &amp; Engineering | <strong>Type:</strong> Permanent</p>\n<p><strong>Build intelligent solutions. Shape the future of AI in financial services.</str",
+      "first_seen_at": "2026-11-09T16:44:39.014303Z",
+      "key": "cn:0c79168d4c2158bf451a",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "China - Hong Kong",
+      "retries": 0,
+      "seq": 16,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-ml-engineer-banking-capco-eyg3ekws",
+      "source_listing_url": "",
+      "state": "HARD_REJECTED",
+      "title": "AI & ML Engineer | Banking ",
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8358340",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "reason": "WRONG_MARKET_HK_PAUSED",
+        "note": "Employer's current exact Greenhouse req 8358340 at https://job-boards.greenhouse.io/capco/jobs/8358340 explicitly states China - Hong Kong and Hong Kong hiring team, not Mainland China. HK market paused. Legitimate AI/RAG/Agent role with usable employer form, but not eligible for CN pipeline; no application."
       }
     },
     {
