@@ -1,0 +1,25 @@
+name: Application Resume Binary Handoff
+on:
+  push:
+    paths:
+      - '.github/workflows/application-resume-handoff.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package canonical resume assets
+        run: |
+          test -s resumes/resume-zh-current.pdf
+          test -s resumes/resume-en-current.pdf
+          sha256sum resumes/resume-zh-current.pdf resumes/resume-en-current.pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: application-canonical-resumes
+          path: |
+            resumes/resume-zh-current.pdf
+            resumes/resume-en-current.pdf
+          retention-days: 1
