@@ -8,6 +8,8 @@ on:
       - scripts/build_review_dispatch.py
       - tests/test_build_review_dispatch.py
       - scripts/collect_market_api.py
+      - scripts/enrich_pending_public_ats.py
+      - tests/test_enrich_pending_public_ats.py
       - tests/test_collect_market_api.py
       - scripts/platform_index_queue.py
       - tests/test_intake_official_ats.py
@@ -75,6 +77,9 @@ jobs:
               --api-dir artifacts/api-snapshots \
               --limit 12 --company-cap 3 \
               --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
+            python scripts/enrich_pending_public_ats.py \
+              --repo . --max-boards 6 --max-rows 30 \
+              --report artifacts/ats-jd-enrichment.json >> artifacts/ats-intake-summary.md
             echo "Branch verification only: no source state pushed." >> artifacts/ats-intake-summary.md
           else
             git config user.name "github-actions[bot]"
@@ -88,6 +93,9 @@ jobs:
               --api-dir artifacts/api-snapshots \
                 --limit 12 --company-cap 3 \
                 --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
+              python scripts/enrich_pending_public_ats.py \
+                --repo . --max-boards 6 --max-rows 30 \
+                --report artifacts/ats-jd-enrichment.json >> artifacts/ats-intake-summary.md
               git add discovery-state/platform-index-sg.json \
                       discovery-state/platform-index-my.json \
                       discovery-state/platform-index-cn.json
@@ -128,6 +136,7 @@ jobs:
           name: official-ats-source-intake
           path: |
             artifacts/ats-intake-report.json
+            artifacts/ats-jd-enrichment.json
             artifacts/ats-intake-summary.md
             artifacts/api-snapshots/health.json
             artifacts/api-snapshots/platform-coverage.md
