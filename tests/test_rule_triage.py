@@ -125,6 +125,21 @@ class RuleTriageTests(unittest.TestCase):
         self.assertIn("OUTSIDE_TARGET_MARKET_HK_LOCATION_REVIEW",d["rule_codes"])
         self.check_nonterminal(d)
 
+    def test_embedded_employer_location_prefix_is_not_lost(self):
+        # Regression from real CN Pragmatike row (2026-11-10):
+        # "Job Description Location: Hong Kong — Hybrid..."
+        jd=JD_BODY+" Job Description Location: Hong Kong — Hybrid (factory and lab)."
+        d=triage(row("AI Infrastructure Hardware Engineer",jd=jd),"CN",now=NOW)
+        self.assertEqual(d["lane"],"HARD_REQUIREMENT_REVIEW")
+        self.assertIn("OUTSIDE_TARGET_MARKET_HK_LOCATION_REVIEW",d["rule_codes"])
+        self.check_nonterminal(d)
+
+    def test_non_location_hong_kong_mention_does_not_flag_market(self):
+        jd=JD_BODY+" Our HQ is in Hong Kong and this role is in Shanghai, China."
+        d=triage(row(jd=jd),"CN",now=NOW)
+        self.assertNotIn("OUTSIDE_TARGET_MARKET_HK_LOCATION_REVIEW",d["rule_codes"])
+        self.check_nonterminal(d)
+
     def test_prior_application_hint_never_auto_merges_sibling_req(self):
         d=triage(row("AI Agent Engineer",prior=640),"MY",now=NOW)
         self.assertEqual(d["lane"],"HISTORY_CHECK")
