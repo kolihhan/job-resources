@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T12:45:59.763786Z",
+    "at": "2026-11-10T12:47:37.471456Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 2,
-      "observed": 2
+      "new_pending": 3,
+      "observed": 3
     }
   },
   "market": "CN",
-  "next_seq": 61,
+  "next_seq": 64,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -965,6 +965,72 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Software Engineer Intern",
       "url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261"
+    },
+    {
+      "ats_key": "liepin:82871409",
+      "company": "北京瑞智德信息技术有限公司",
+      "description_excerpt": "",
+      "discovery_access": "NATIVE_API_LISTING",
+      "first_seen_at": "2026-11-10T12:47:37.471403Z",
+      "key": "cn:19d7a5e4a83a01f18a3f",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "北京-海淀区",
+      "retries": 0,
+      "seq": 61,
+      "source": "liepin:native-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "82871409",
+      "source_listing_url": "",
+      "source_platform": "猎聘",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI 算法工程师（AI 工程化方向）",
+      "url": "https://www.liepin.com/job/1982871409.shtml"
+    },
+    {
+      "ats_key": "liepin:86133539",
+      "company": "华创证券有限责任公司",
+      "description_excerpt": "",
+      "discovery_access": "NATIVE_API_LISTING",
+      "first_seen_at": "2026-11-10T12:47:37.471434Z",
+      "key": "cn:65054f512e22cc8e4852",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "北京-西城区",
+      "retries": 0,
+      "seq": 62,
+      "source": "liepin:native-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "86133539",
+      "source_listing_url": "",
+      "source_platform": "猎聘",
+      "state": "UNVERIFIED_INDEX",
+      "title": "RAG / 知识工程师（AI Agent 数据智能方向）",
+      "url": "https://www.liepin.com/job/1986133539.shtml"
+    },
+    {
+      "ats_key": "liepin:86353945",
+      "company": "阿里巴巴控股集团",
+      "description_excerpt": "",
+      "discovery_access": "NATIVE_API_LISTING",
+      "first_seen_at": "2026-11-10T12:47:37.471449Z",
+      "key": "cn:8f18c33b370bdd26c226",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "北京-朝阳区",
+      "retries": 0,
+      "seq": 63,
+      "source": "liepin:native-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "86353945",
+      "source_listing_url": "",
+      "source_platform": "猎聘",
+      "state": "UNVERIFIED_INDEX",
+      "title": "达摩院医疗AI Agent 算法工程师",
+      "url": "https://www.liepin.com/job/1986353945.shtml"
     }
   ],
   "terminal": [
