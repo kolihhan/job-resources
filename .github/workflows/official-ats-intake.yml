@@ -118,7 +118,7 @@ jobs:
               --limit 12 --company-cap 3 \
               --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
             python scripts/enrich_pending_public_ats.py \
-              --repo . --max-boards 6 --max-rows 30 \
+              --repo . --max-parts 36 --max-rows 80 \
               --report artifacts/ats-jd-enrichment.json >> artifacts/ats-intake-summary.md
             echo "Branch verification only: no source state pushed." >> artifacts/ats-intake-summary.md
           else
@@ -134,7 +134,7 @@ jobs:
                 --limit 12 --company-cap 3 \
                 --report artifacts/ats-intake-report.json > artifacts/ats-intake-summary.md
               python scripts/enrich_pending_public_ats.py \
-                --repo . --max-boards 6 --max-rows 30 \
+                --repo . --max-parts 36 --max-rows 80 \
                 --report artifacts/ats-jd-enrichment.json >> artifacts/ats-intake-summary.md
               git add discovery-state/platform-index-sg.json \
                       discovery-state/platform-index-my.json \
