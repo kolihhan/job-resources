@@ -289,28 +289,6 @@
       "url": "https://my.jobstreet.com/job/95662622"
     },
     {
-      "ats_key": "freehire|software-engineer-agentic-ai-ai-automation-mintel-m-consulting-sdn-bhd-s4fq2pdg",
-      "company": "Mintel (M) Consulting Sdn Bhd",
-      "description_excerpt": "<div><div>\n <p>We’re looking for a <strong>Software Engineer (Agentic AI)</strong> to join our AI Automation team, building production-grade applications that help internal users automate routine execution and focus on more complex, high-va",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.156092Z",
-      "key": "my:6168e14c8c26f43b2adc",
-      "last_error": null,
-      "market": "MY",
-      "platform": "public jobs API (unverified)",
-      "query": "Kuala Lumpur City Centre, Kuala Lumpur",
-      "retries": 0,
-      "seq": 37,
-      "source": "freehire:public-api:MY",
-      "source_evidence": "listing_only",
-      "source_job_id": "software-engineer-agentic-ai-ai-automation-mintel-m-consulting-sdn-bhd-s4fq2pdg",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Software Engineer (Agentic AI), AI Automation",
-      "url": "https://my.jobstreet.com/job/94957518"
-    },
-    {
       "ats_key": "freehire|ai-native-backend-engineer-ai-apis-agentic-systems-mochi-technologies-hmo3bgrn",
       "company": "MOCHI Technologies",
       "description_excerpt": "<p>Salary: RM 5,200 – RM 6,500 per month</p><h2><strong>AI-Native Backend Engineer (AI, APIs &amp; Agentic Systems)</strong></h2><p><strong>Department:</strong> IT Department<br><strong>Reports To:</strong> IT Manager<br><strong>Location:</",
@@ -1221,6 +1199,34 @@
         "checked_at": "2026-11-10",
         "reason": "HISTORICAL_USER_SKIP_UNCHANGED",
         "note": "JobStreet new listing 95661869 shows MaiStorage AI Engineer (R&D), MYR 6–8k, full time, fresh graduates welcome. Existing owner decision #383 SKIP same employer/title/compensation because it did not clear MY-TOP destination-quality/pay bar; current listing shows no material increase in pay/team/research career upside. Preserve owner's skip rather than creating a second Issue. https://github.com/kolihhan/job-resources/issues/383; https://my.jobstreet.com/job/95661869"
+      }
+    },
+    {
+      "ats_key": "freehire|software-engineer-agentic-ai-ai-automation-mintel-m-consulting-sdn-bhd-s4fq2pdg",
+      "company": "Mintel (M) Consulting Sdn Bhd",
+      "description_excerpt": "<div><div>\n <p>We’re looking for a <strong>Software Engineer (Agentic AI)</strong> to join our AI Automation team, building production-grade applications that help internal users automate routine execution and focus on more complex, high-va",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-09T16:57:31.156092Z",
+      "key": "my:6168e14c8c26f43b2adc",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "Kuala Lumpur City Centre, Kuala Lumpur",
+      "retries": 0,
+      "seq": 37,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "software-engineer-agentic-ai-ai-automation-mintel-m-consulting-sdn-bhd-s4fq2pdg",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "DUPLICATE_CONFIRMED",
+      "title": "Software Engineer (Agentic AI), AI Automation",
+      "url": "https://my.jobstreet.com/job/94957518",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "reason": "EXACT_HISTORICAL_UNUSABLE_ROLE",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/852",
+        "note": "Exact employer title and requisition 8239409 already present in closed #852 EXPIRED and #263 BLOCKED; applicant said company form not found. Official employer link https://www.mintel.com/job/8239409?gh_jid=8239409 rechecked Nov 10 => 404; current Indeed and JobStreet mirrors do not establish a restored employer application route. Do not create another duplicate APPLY solely from indexed listing. Keep original Issues for source route recheck if it materially changes."
       }
     },
     {
