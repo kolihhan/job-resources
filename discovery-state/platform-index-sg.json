@@ -64,7 +64,7 @@
       },
       "first_seen_at": "2026-11-07T09:35:18.297678Z",
       "key": "sg:39d58582af448f9f734b",
-      "last_error": null,
+      "last_error": "Exact NTU R00026159 Workday live apply route inaccessible; historical Trust Technologies requisition correspondence must be matched before issue creation.",
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
@@ -73,7 +73,12 @@
       "source": "ntu:official-cxs:SG",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer II (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159",
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Exact NTU R00026159 Workday live apply route inaccessible; historical Trust Technologies requisition correspondence must be matched before issue creation."
+      }
     },
     {
       "company": "Nanyang Technological University",
@@ -241,40 +246,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "LLM Applied Data Scientist (RAG/ NLP)",
       "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101"
-    },
-    {
-      "ats_key": "grab|smartrecruiters|744000139456037",
-      "company": "Grab",
-      "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "Get to know the Team The OmniCommerce team is a close-knitted team with diverse backgrounds, sharing a common purpose - to build the best products to engage our customers online and offline. The team is bonded over the passion for building user-first products, driven by numbers and analytical thinking. The Analytics team’s mission is to use data and experimentation to drive product and business innovation. We focus on providing data-driven insights to deliver an impeccable and seamless experience for our consumers, merchants, and driver-partners. Get to know the role We are looking for a Data Scientist (Analytics) to join our OmniCommerce Analytics team and help turn data into decisions across deals, reservations, loyalty, and CRM — the products that drive offline footfall to our merchants. You will work closely with product managers, data scientists, engineers, and stakeholders to run experiments, surface insights, and build the dashboards and analyses that guide day-to-day product decisions. This is a high-ownership, high-learning role: you will be trusted to move fast, close your own knowledge gaps, and grow into an independent analytical partner for the team. The Day-to-Day Activities Product Analytics: Partner with the product, design, and engineering teams to derive insights, support experiment design, and inform key product decisions. Strategic & Business Analytics: Support strategic initiatives with data analytics and insights, including deep-dives into customer and merchant behaviour, product efficacy, and ad-hoc projects. Your role will be to: Run A/B tests and analyse experiment results, translating them into clear, actionable recommendations for product iterations. Support experiment design by helping to define hypotheses and success metrics alongside product managers and senior analysts. Conduct deep-dive analyses of user and merchant behaviour to uncover trends, patterns, and root causes. Build and maintain intuitive dashboards that give stakeholders real-time visibility into product and feature performance. Contribute to defining and tracking key business metrics, and proactively flag anomalies or opportunities. Process and distill stakeholder requirements into concise insights through reports, presentations, and dashboards. Apply AI tools to accelerate your analytics workflow, with a critical eye that validates AI-produced output against raw data, business logic, and regional context. The Must-Haves At least 1 years of experience in a data analytics, business intelligence, or data science role, ideally in a B2C or internet business with large, complex datasets. Fluent with SQL and comfortable querying large relational databases; proficient in Python (or R) for analysis and problem-solving. Working knowledge of statistical methods, with hands-on experience designing and analysing A/B tests, plus an understanding of hypothesis testing. Strong data visualization and storytelling skills, with experience creating dashboards using tools like PowerBI or Tableau. Strong communication skills — able to make data clear and actionable for non-technical stakeholders. A fast learner who closes their own knowledge gaps, metabolises feedback quickly, and takes ownership of their work in a fast-paced, ambiguous environment. Curiosity and a keen eye for spotting patterns and trends in data, with the instinct to hypothesise problem statements and propose appropriate solutions. Good-to-Haves Exposure to machine learning techniques and their application to large datasets. Familiarity with building or maintaining data pipelines / ETL. Experience in OmniCommerce, e-commerce, retail, loyalty, or marketing analytics domains. Bachelor's or Master's degree in Statistics, Analytics, Economics, Mathematics, Engineering, or other quantitative subjects. 1–3 years experience in Analytics, Business Intelligence or Data Science, preferably in an internet company with large, complex, high-velocity data. Solid SQL writing skills and experience querying large relational databases. Ability to distill data and articulate an actionable point of view to non-technical audiences using presentations and visualizations. Ability to handle multiple priorities and solve ambiguous problems in a fast-paced environment. Hands-on experience with data analysis tools like R or Python and visualization platforms like Tableau / PowerBI. Experience designing, running, and analysing A/B tests and product experiments, with an understanding of hypothesis testing and the basic principles of DoE. Life at Grab We care about your well-being at Grab, here are some of the global benefits we offer: We have your back with Term Life Insurance and comprehensive Medical Insurance. With GrabFlex, create a benefits package that suits your needs and aspirations. Celebrate moments that matter in life with loved ones through Parental and Birthday leave , and give back to your communities through Love-all-Serve-all (LASA) volunteering leave We have a confidential Grabber Assistance Programme to guide and uplift you and your loved ones through life's challenges. Balancing personal commitments and life's demands are made easier with our FlexWork arrangements such as differentiated hours What We Stand For At Grab We are committed to building an inclusive and equitable workplace that provides equal opportunity for Grabbers to grow and perform at their best. We consider all candidates fairly and equally regardless of nationality, ethnicity, race, religion, age, gender, family commitments, physical and mental impairments or disabilities, and other attributes that make them unique.",
-        "jd_chars": 5620,
-        "jd_sha256": "98244791e681b98061b9cd34ad91814423e1672b20339cdf4c23ecb9d07278df",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "Get to know the Team The OmniCommerce team is a close-knitted team with diverse backgrounds, sharing a common purpose - to build the best products to engage our customers online and offline. The team is bonded over the passion for building ",
-      "first_seen_at": "2026-11-09T15:02:24.825439Z",
-      "key": "sg:a6e7c46e34fa9448e173",
-      "last_error": null,
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore, sg",
-      "retries": 0,
-      "seq": 47,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "744000139456037",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Data Scientist (Analytics), OmniCommerce",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000139456037"
     },
     {
       "ats_key": "micron|workday|/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
@@ -749,7 +720,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T01:29:36.461123Z",
       "key": "sg:271fbdcfe057ced1553b",
-      "last_error": null,
+      "last_error": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition.",
       "market": "SG",
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
@@ -763,7 +734,12 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "#EG AI Developer (Agentic AI Systems)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512"
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001374512",
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Exact NCS 6000000001374512 SmartRecruiters live apply route inaccessible; cannot substitute a different NCS requisition."
+      }
     },
     {
       "ats_key": "openai|ashby|29f15e50-1611-4256-afad-03b7df0b7aa7",
@@ -895,7 +871,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T01:29:36.461220Z",
       "key": "sg:5089f478a1aa6cb77b76",
-      "last_error": null,
+      "last_error": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition.",
       "market": "SG",
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
@@ -909,7 +885,12 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "People Research Scientist, People Analytics",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000159062339"
+      "url": "https://jobs.smartrecruiters.com/Grab/744000159062339",
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Grab People Research Scientist exact official page inaccessible; confirm current JD and hard 8–12-year requirement before terminal disposition."
+      }
     },
     {
       "ats_key": "westerndigital|smartrecruiters|744000153657449",
@@ -1104,7 +1085,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T09:44:08.167553Z",
       "key": "sg:a5133c6e8730898849f2",
-      "last_error": null,
+      "last_error": "SimplifyNext 5019281007 requires actual production AI, cloud and Kubernetes deployment; candidate evidence for these mandatory skills is unverified.",
       "market": "SG",
       "platform": "greenhouse official ATS",
       "query": "Singapore",
@@ -1117,7 +1098,12 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
+      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007",
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "SimplifyNext 5019281007 requires actual production AI, cloud and Kubernetes deployment; candidate evidence for these mandatory skills is unverified."
+      }
     },
     {
       "ats_key": "freehire|research-engineer-machine-learning-ntu-7mmj653r",
@@ -1233,7 +1219,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T11:51:21.094205Z",
       "key": "sg:bf049c3c543d9704f9c1",
-      "last_error": null,
+      "last_error": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion.",
       "market": "SG",
       "platform": "greenhouse official ATS",
       "query": "Singapore",
@@ -1246,7 +1232,12 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008"
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008",
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "Temus 5180599008 application receipt from 2026-11-10 lacks exact requisition identifier; must reconcile prior application before promotion."
+      }
     },
     {
       "ats_key": "freehire|ai-engineer-go-genie-pte-ltd-zkzgurpa",
@@ -2687,6 +2678,43 @@
       "state": "HARD_REJECTED",
       "title": "Pioneer Talent Program - Research Data Scientist (APAC Remote)",
       "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002565101"
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000139456037",
+      "company": "Grab",
+      "consumer_review": {
+        "checked_at": "2026-11-10T12:21:10+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "Get to know the Team The OmniCommerce team is a close-knitted team with diverse backgrounds, sharing a common purpose - to build the best products to engage our customers online and offline. The team is bonded over the passion for building user-first products, driven by numbers and analytical thinking. The Analytics team’s mission is to use data and experimentation to drive product and business innovation. We focus on providing data-driven insights to deliver an impeccable and seamless experience for our consumers, merchants, and driver-partners. Get to know the role We are looking for a Data Scientist (Analytics) to join our OmniCommerce Analytics team and help turn data into decisions across deals, reservations, loyalty, and CRM — the products that drive offline footfall to our merchants. You will work closely with product managers, data scientists, engineers, and stakeholders to run experiments, surface insights, and build the dashboards and analyses that guide day-to-day product decisions. This is a high-ownership, high-learning role: you will be trusted to move fast, close your own knowledge gaps, and grow into an independent analytical partner for the team. The Day-to-Day Activities Product Analytics: Partner with the product, design, and engineering teams to derive insights, support experiment design, and inform key product decisions. Strategic & Business Analytics: Support strategic initiatives with data analytics and insights, including deep-dives into customer and merchant behaviour, product efficacy, and ad-hoc projects. Your role will be to: Run A/B tests and analyse experiment results, translating them into clear, actionable recommendations for product iterations. Support experiment design by helping to define hypotheses and success metrics alongside product managers and senior analysts. Conduct deep-dive analyses of user and merchant behaviour to uncover trends, patterns, and root causes. Build and maintain intuitive dashboards that give stakeholders real-time visibility into product and feature performance. Contribute to defining and tracking key business metrics, and proactively flag anomalies or opportunities. Process and distill stakeholder requirements into concise insights through reports, presentations, and dashboards. Apply AI tools to accelerate your analytics workflow, with a critical eye that validates AI-produced output against raw data, business logic, and regional context. The Must-Haves At least 1 years of experience in a data analytics, business intelligence, or data science role, ideally in a B2C or internet business with large, complex datasets. Fluent with SQL and comfortable querying large relational databases; proficient in Python (or R) for analysis and problem-solving. Working knowledge of statistical methods, with hands-on experience designing and analysing A/B tests, plus an understanding of hypothesis testing. Strong data visualization and storytelling skills, with experience creating dashboards using tools like PowerBI or Tableau. Strong communication skills — able to make data clear and actionable for non-technical stakeholders. A fast learner who closes their own knowledge gaps, metabolises feedback quickly, and takes ownership of their work in a fast-paced, ambiguous environment. Curiosity and a keen eye for spotting patterns and trends in data, with the instinct to hypothesise problem statements and propose appropriate solutions. Good-to-Haves Exposure to machine learning techniques and their application to large datasets. Familiarity with building or maintaining data pipelines / ETL. Experience in OmniCommerce, e-commerce, retail, loyalty, or marketing analytics domains. Bachelor's or Master's degree in Statistics, Analytics, Economics, Mathematics, Engineering, or other quantitative subjects. 1–3 years experience in Analytics, Business Intelligence or Data Science, preferably in an internet company with large, complex, high-velocity data. Solid SQL writing skills and experience querying large relational databases. Ability to distill data and articulate an actionable point of view to non-technical audiences using presentations and visualizations. Ability to handle multiple priorities and solve ambiguous problems in a fast-paced environment. Hands-on experience with data analysis tools like R or Python and visualization platforms like Tableau / PowerBI. Experience designing, running, and analysing A/B tests and product experiments, with an understanding of hypothesis testing and the basic principles of DoE. Life at Grab We care about your well-being at Grab, here are some of the global benefits we offer: We have your back with Term Life Insurance and comprehensive Medical Insurance. With GrabFlex, create a benefits package that suits your needs and aspirations. Celebrate moments that matter in life with loved ones through Parental and Birthday leave , and give back to your communities through Love-all-Serve-all (LASA) volunteering leave We have a confidential Grabber Assistance Programme to guide and uplift you and your loved ones through life's challenges. Balancing personal commitments and life's demands are made easier with our FlexWork arrangements such as differentiated hours What We Stand For At Grab We are committed to building an inclusive and equitable workplace that provides equal opportunity for Grabbers to grow and perform at their best. We consider all candidates fairly and equally regardless of nationality, ethnicity, race, religion, age, gender, family commitments, physical and mental impairments or disabilities, and other attributes that make them unique.",
+        "jd_chars": 5620,
+        "jd_sha256": "98244791e681b98061b9cd34ad91814423e1672b20339cdf4c23ecb9d07278df",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "Get to know the Team The OmniCommerce team is a close-knitted team with diverse backgrounds, sharing a common purpose - to build the best products to engage our customers online and offline. The team is bonded over the passion for building ",
+      "first_seen_at": "2026-11-09T15:02:24.825439Z",
+      "key": "sg:a6e7c46e34fa9448e173",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "seq": 47,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "744000139456037",
+      "state": "HARD_REJECTED",
+      "title": "Data Scientist (Analytics), OmniCommerce",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000139456037",
+      "checked_at": "2026-11-10",
+      "review_source": "2026-11-10 current employer SmartRecruiters full JD and route",
+      "reason": "Exact Grab OmniCommerce JD is product/business analytics: A/B tests, SQL analysis, dashboards, reporting and business metrics; AI tools only accelerate analyst workflow. No substantive LLM/RAG/Agent/retrieval engineering or AI research ownership. Outside SG GOLD/adjacent scope."
     }
   ],
   "version": 1
