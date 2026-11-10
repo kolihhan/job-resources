@@ -98,54 +98,6 @@
       "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155973050"
     },
     {
-      "ats_key": "gen-digital|ashby|cf481e28-f073-4b13-93e3-c8222642ed29",
-      "company": "Gen Digital / MoneyLion",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "About the Role The Kuala Lumpur office is the technology powerhouse of MoneyLion, where we measure anything and everything and rely on data to guide our decisions: both long-term strategies and day-to-day operations. Combine that backdrop w",
-      "first_seen_at": "2026-11-09T15:02:24.841224Z",
-      "key": "my:e8e4580b4c53fd386123",
-      "last_error": null,
-      "market": "MY",
-      "platform": "ashby official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "MYS - Kuala Lumpur",
-      "retries": 0,
-      "seq": 14,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "cf481e28-f073-4b13-93e3-c8222642ed29",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Data Engineer - MoneyLion",
-      "url": "https://jobs.ashbyhq.com/gen-digital/cf481e28-f073-4b13-93e3-c8222642ed29"
-    },
-    {
-      "ats_key": "gen-digital|ashby|20dd7b04-1828-4b13-93be-8b395272299c",
-      "company": "Gen Digital / MoneyLion",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "About Gen Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for",
-      "first_seen_at": "2026-11-09T15:02:24.841262Z",
-      "key": "my:67547543789ea7910e04",
-      "last_error": null,
-      "market": "MY",
-      "platform": "ashby official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "MYS - Kuala Lumpur",
-      "retries": 0,
-      "seq": 17,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "20dd7b04-1828-4b13-93be-8b395272299c",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Mobile Engineer II - MoneyLion",
-      "url": "https://jobs.ashbyhq.com/gen-digital/20dd7b04-1828-4b13-93be-8b395272299c"
-    },
-    {
       "ats_key": "micron|workday|/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
       "company": "Micron",
       "consumer_review": {
@@ -1312,6 +1264,60 @@
       "resolved_at": "2026-11-10T03:19:40Z",
       "resolution_evidence": "kolihhan/freehirefetch/feed/ats/jd/MY-000.json or MY-001.json; exact Ashby job URL",
       "resolution_actor": "MY AI Scout"
+    },
+    {
+      "ats_key": "gen-digital|ashby|cf481e28-f073-4b13-93e3-c8222642ed29",
+      "company": "Gen Digital / MoneyLion",
+      "consumer_review": {
+        "checked_at": "2026-11-10T00:15:07.140505Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "About the Role The Kuala Lumpur office is the technology powerhouse of MoneyLion, where we measure anything and everything and rely on data to guide our decisions: both long-term strategies and day-to-day operations. Combine that backdrop w",
+      "first_seen_at": "2026-11-09T15:02:24.841224Z",
+      "key": "my:e8e4580b4c53fd386123",
+      "last_error": null,
+      "market": "MY",
+      "platform": "ashby official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "MYS - Kuala Lumpur",
+      "retries": 0,
+      "seq": 14,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "cf481e28-f073-4b13-93e3-c8222642ed29",
+      "state": "HARD_REJECTED",
+      "title": "Data Engineer - MoneyLion",
+      "url": "https://jobs.ashbyhq.com/gen-digital/cf481e28-f073-4b13-93e3-c8222642ed29",
+      "reason": "Employer-authored full JD in freehirefetch/feed/ats/jd/MY-005.json: Snowflake-centric data warehousing, Kafka/Iceberg, Kimball models, multi-petabyte SQL, enterprise AWS/DBT; AI is mainly coding/analytics tooling, not substantive Agent/LLM/retrieval engineering. Hard mismatch to MY-TOP AI destination role; user prioritizes substantive AI.",
+      "evidence_url": "https://jobs.ashbyhq.com/gen-digital/cf481e28-f073-4b13-93e3-c8222642ed29",
+      "reviewed_at": "2026-11-10T04:19:00Z"
+    },
+    {
+      "ats_key": "gen-digital|ashby|20dd7b04-1828-4b13-93be-8b395272299c",
+      "company": "Gen Digital / MoneyLion",
+      "consumer_review": {
+        "checked_at": "2026-11-10T00:15:07.140505Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "About Gen Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for",
+      "first_seen_at": "2026-11-09T15:02:24.841262Z",
+      "key": "my:67547543789ea7910e04",
+      "last_error": null,
+      "market": "MY",
+      "platform": "ashby official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "MYS - Kuala Lumpur",
+      "retries": 0,
+      "seq": 17,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "20dd7b04-1828-4b13-93be-8b395272299c",
+      "state": "HARD_REJECTED",
+      "title": "Mobile Engineer II - MoneyLion",
+      "url": "https://jobs.ashbyhq.com/gen-digital/20dd7b04-1828-4b13-93be-8b395272299c",
+      "reason": "Employer-authored full JD in freehirefetch/feed/ats/jd/MY-004.json: React Native mobile UX, app features, mobile testing and 2+ years mobile development; no substantive LLM/Agent/ML engineering ownership. MY-TOP direction mismatch.",
+      "evidence_url": "https://jobs.ashbyhq.com/gen-digital/20dd7b04-1828-4b13-93be-8b395272299c",
+      "reviewed_at": "2026-11-10T04:19:00Z"
     }
   ],
   "version": 1
