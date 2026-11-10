@@ -30,8 +30,30 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_collect_devglobal_source.py' -v
           python -m unittest discover -s tests -p 'test_platform_index_queue.py' -v
-      - name: Read official public API for SG and MY
-        run: python scripts/collect_devglobal_source.py --out-dir artifacts/
+      - name: Import published DevGlobal public batches from freehirefetch
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime,timezone,timedelta
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          target=Path('artifacts')
+          target.mkdir(parents=True,exist_ok=True)
+          for market in ('sg','my'):
+              url=f'https://raw.githubusercontent.com/kolihhan/freehirefetch/main/feed/devglobal/devglobal-{market}-candidates.json'
+              req=Request(url,headers={'User-Agent':'JobResourcesDevGlobalPublicBatchConsumer/1.0'})
+              with urlopen(req,timeout=25) as r:
+                  raw=r.read(2_000_001)
+              if len(raw)>2_000_000:raise ValueError('oversized DevGlobal batch')
+              data=json.loads(raw)
+              at=datetime.fromisoformat(data['observed_at'].replace('Z','+00:00'))
+              if at.tzinfo is None or not datetime.now(timezone.utc)-timedelta(hours=24)<=at<=datetime.now(timezone.utc)+timedelta(minutes=5):
+                  raise ValueError(f'stale or future {market} DevGlobal source; preserve queue')
+              if data.get('source')!='devglobal:public-api:'+market.upper() or not isinstance(data.get('items'),list):
+                  raise ValueError('invalid upstream DevGlobal batch schema')
+              (target/f'devglobal-{market}-candidates.json').write_bytes(raw)
+              print(market, 'published source roles',len(data['items']),'coverage',data.get('coverage'))
+          PY
       - name: Validate actual source observations
         run: |
           python - <<'PY'
