@@ -105,6 +105,38 @@ class OfficialATSIntakeTests(unittest.TestCase):
         self.assertFalse(state["terminal"])
         validate_state(state, "MY")
 
+    def test_full_text_api_evidence_is_preserved_not_promoted_to_official_jd(self):
+        source = dict(job("MY", 71, "Example", "AI Engineer"),
+                      source="freehire:public-api:MY", evidence="listing_only",
+                      discovery_access="API_PROXY_ONLY",
+                      api_description_text="Build and evaluate RAG agents. " * 200,
+                      api_description_truncated=False,
+                      api_description_provenance="UNVERIFIED_THIRD_PARTY_API_FULL_TEXT")
+        state, stats = process_market("MY", {"market": "MY", "jobs": [source]},
+                                      new_state("MY"), {}, limit=4)
+        self.assertEqual(stats["created"], 1)
+        self.assertEqual(stats["unverified_api_context_updated"], 1)
+        row = state["pending"][0]
+        self.assertEqual(len(row["api_source_context"]["text"]),
+                         len(source["api_description_text"]))
+        self.assertEqual(row["api_source_context"]["provenance"],
+                         "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT")
+        self.assertFalse(row["api_source_context"]["employer_verified"])
+        self.assertFalse(row["api_source_context"]["truncated"])
+        self.assertNotIn("consumer_review", row)
+        revised = dict(source, api_description_text="New " * 1500,
+                       api_description_truncated=True)
+        state, second = process_market("MY", {"market": "MY", "jobs": [revised]},
+                                       state, {}, limit=4)
+        self.assertEqual(second["created"], 0)
+        self.assertEqual(second["unverified_api_context_updated"], 1)
+        self.assertTrue(state["pending"][0]["api_source_context"]["truncated"])
+        oversized = dict(source, api_description_text="X" * 12001)
+        state, reject = process_market("MY", {"market": "MY", "jobs": [oversized]},
+                                       state, {}, limit=4)
+        self.assertEqual(reject["unverified_api_context_updated"], 0)
+        self.assertTrue(state["pending"][0]["api_source_context"]["truncated"])
+
     def test_official_and_bad_api_sources_cannot_create_api_context(self):
         official = job("SG", 88, "Example", "AI Engineer")
         official.update(api_description_text="This text is not an ATS JD",
