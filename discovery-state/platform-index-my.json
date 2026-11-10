@@ -75,29 +75,6 @@
       "url": "https://jobs.ashbyhq.com/bjakcareer/4b94274b-d5b3-454a-bf54-a0d7f8f431f4"
     },
     {
-      "ats_key": "nielseniq|smartrecruiters|744000155973050",
-      "company": "NielsenIQ",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "You will join international and collaborative team, with colleagues based across the US, Germany, Poland, and Italy. The team delivers innovative solutions in the field of market research, with a strong focus on brand management. Our team c",
-      "first_seen_at": "2026-11-09T15:02:24.841198Z",
-      "key": "my:1e9093918b932e512e2b",
-      "last_error": null,
-      "market": "MY",
-      "platform": "smartrecruiters official ATS",
-      "query": "Kuala Lumpur, 14, my",
-      "retries": 0,
-      "seq": 12,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "744000155973050",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Machine Learning Engineer",
-      "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155973050"
-    },
-    {
       "ats_key": "micron|workday|/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
       "company": "Micron",
       "consumer_review": {
@@ -1322,6 +1299,34 @@
       "resolution_reason": "Employer-attributed listing explicitly requires 9+ years experience and 36-month contract in Penang; hard mismatch with 0–3 YOE target and MY-ENG permanent employment gate. JobStreet direct page blocked; FreeHire exact listing corroborates same conditions. No employer application.",
       "resolution_evidence": "https://freehire.me/jobs/ai-agentic-solutions-engineer-llm-orchestration-developer-iscistech-business-solutions-7g5ixyc7 ; https://my.jobstreet.com/job/95513327",
       "resolved_at": "2026-11-10T05:23:00Z",
+      "resolution_actor": "MY AI Scout"
+    },
+    {
+      "ats_key": "nielseniq|smartrecruiters|744000155973050",
+      "company": "NielsenIQ",
+      "consumer_review": {
+        "checked_at": "2026-11-10T00:15:07.140505Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "You will join international and collaborative team, with colleagues based across the US, Germany, Poland, and Italy. The team delivers innovative solutions in the field of market research, with a strong focus on brand management. Our team c",
+      "first_seen_at": "2026-11-09T15:02:24.841198Z",
+      "key": "my:1e9093918b932e512e2b",
+      "last_error": null,
+      "market": "MY",
+      "platform": "smartrecruiters official ATS",
+      "query": "Kuala Lumpur, 14, my",
+      "retries": 0,
+      "seq": 12,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "744000155973050",
+      "state": "HARD_REJECTED",
+      "title": "Machine Learning Engineer",
+      "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155973050",
+      "disposition": "HARD_REJECTED",
+      "resolution_reason": "Official NIQ SmartRecruiters full JD (checked 2026-11-10): production deployment of statistical market-research models, requiring expert Python statistical ecosystem and specialist survey statistics/econometrics/causal inference/experimental design, typically 2+ work years. No substantive LLM/Agent/RAG/retrieval work; MY-TOP North-Star content and mandatory specialist background mismatch. Not rejected merely for 2+ YOE. Exact ID/title all-state GitHub Issue search yielded no match; both Gmail accounts searched without exact NIQ application receipt.",
+      "resolution_evidence": "https://jobs.smartrecruiters.com/NielsenIQ/744000155973050-machine-learning-engineer",
+      "resolved_at": "2026-11-10T06:17:00Z",
       "resolution_actor": "MY AI Scout"
     }
   ],
