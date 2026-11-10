@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T13:09:31.987958Z",
-    "source": "devglobal:public-api:MY",
+    "at": "2026-11-10T13:17:38.899202Z",
+    "source": "freehirefetch:official-ats:MY",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 0
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "MY",
-  "next_seq": 81,
+  "next_seq": 82,
   "next_unacknowledged_seq": 21,
   "pending": [
     {
@@ -1028,6 +1028,28 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Mobile Engineer - AI Finance Agent",
       "url": "https://jobs.ashbyhq.com/bjakcareer/b9867f93-0966-4ff9-9503-40fc214e1847"
+    },
+    {
+      "ats_key": "freehire|senior-ai-ml-engineer-jad-connect-services-7wg4ljyi",
+      "company": "JAD CONNECT SERVICES",
+      "description_excerpt": "<p>Salary: RM 15,000 – RM 22,000 per month</p><p><strong>About the role</strong></p><p>We are looking for an AI / ML Engineer to build practical, production-ready AI and machine learning solutions for a healthcare technology platform. The r",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T13:17:38.899179Z",
+      "key": "my:fad600b65e969cec0e1a",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "Petaling, Selangor",
+      "retries": 0,
+      "seq": 81,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "senior-ai-ml-engineer-jad-connect-services-7wg4ljyi",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior AI/ML Engineer",
+      "url": "https://my.jobstreet.com/job/95229292"
     }
   ],
   "terminal": [
