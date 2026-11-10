@@ -121,30 +121,6 @@
       "url": "https://jobs.ashbyhq.com/bjakcareer/4e5ef9a0-abf2-43c1-a0db-881b1e17111f"
     },
     {
-      "ats_key": "gen-digital|ashby|e68a4dac-ca1d-43a1-a56a-6e45da05dc88",
-      "company": "Gen Digital / MoneyLion",
-      "consumer_review": {
-        "checked_at": "2026-11-10T00:15:07.140505Z",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
-      },
-      "description_excerpt": "About Gen Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for",
-      "first_seen_at": "2026-11-09T15:02:24.841170Z",
-      "key": "my:ae535611412b0467745f",
-      "last_error": null,
-      "market": "MY",
-      "platform": "ashby official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "MYS - Kuala Lumpur",
-      "retries": 0,
-      "seq": 10,
-      "source": "freehirefetch:official-ats:MY",
-      "source_evidence": "full_jd",
-      "source_job_id": "e68a4dac-ca1d-43a1-a56a-6e45da05dc88",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Data Scientist (Decision Science)",
-      "url": "https://jobs.ashbyhq.com/gen-digital/e68a4dac-ca1d-43a1-a56a-6e45da05dc88"
-    },
-    {
       "ats_key": "nielseniq|smartrecruiters|744000155973050",
       "company": "NielsenIQ",
       "consumer_review": {
@@ -1299,6 +1275,33 @@
       "state": "HARD_REJECTED",
       "title": "Data Scientist (Product Analytics)",
       "url": "https://jobs.smartrecruiters.com/Grab/744000156928706"
+    },
+    {
+      "ats_key": "gen-digital|ashby|e68a4dac-ca1d-43a1-a56a-6e45da05dc88",
+      "company": "Gen Digital / MoneyLion",
+      "consumer_review": {
+        "checked_at": "2026-11-10T00:15:07.140505Z",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
+      "description_excerpt": "About Gen Gen is a global company dedicated to powering Digital Freedom through its trusted consumer brands including Norton, Avast, LifeLock, MoneyLion and more. Our combined heritage is rooted in financial empowerment and cyber safety for",
+      "first_seen_at": "2026-11-09T15:02:24.841170Z",
+      "key": "my:ae535611412b0467745f",
+      "last_error": null,
+      "market": "MY",
+      "platform": "ashby official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "MYS - Kuala Lumpur",
+      "retries": 0,
+      "seq": 10,
+      "source": "freehirefetch:official-ats:MY",
+      "source_evidence": "full_jd",
+      "source_job_id": "e68a4dac-ca1d-43a1-a56a-6e45da05dc88",
+      "state": "HARD_REJECTED",
+      "title": "Data Scientist (Decision Science)",
+      "url": "https://jobs.ashbyhq.com/gen-digital/e68a4dac-ca1d-43a1-a56a-6e45da05dc88",
+      "reviewed_at": "2026-11-10T10:18:44+08:00",
+      "disposition_reason": "Employer-authored full JD shows product Decision Science: user/product analytics, A/B experiments, dashboards, stakeholder insights, credit/fraud decision modelling. AI algorithms are auxiliary to analytics; no substantive LLM/Agent/RAG/retrieval system ownership or aligned research. MY-TOP content-first gate not met. All-state GitHub exact requisition and employer/title searches found no matching Issue. Not promoted.",
+      "disposition_evidence": "https://jobs.ashbyhq.com/gen-digital/e68a4dac-ca1d-43a1-a56a-6e45da05dc88 ; https://github.com/kolihhan/freehirefetch/blob/main/feed/ats/jd/MY-005.json"
     }
   ],
   "version": 1
