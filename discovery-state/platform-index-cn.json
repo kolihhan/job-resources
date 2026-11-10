@@ -73,40 +73,6 @@
       "url": "https://jobs.ashbyhq.com/bjakcareer/101d89f0-f66b-45c4-8f05-2d2a784dae1c"
     },
     {
-      "ats_key": "abound|ashby|215f3ac0-6e25-4877-b7c0-db37e9e04a30",
-      "company": "Abound",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:22.998919+00:00",
-        "employment_time_type": "FullTime",
-        "full_jd_complete": true,
-        "full_jd_text": "About Abound We’re redefining consumer lending in the UK, and beyond. Using advanced AI and Open Banking data, we make fair, affordable personal finance available to more people. While traditional lenders rely almost entirely on credit scores, we look at the full financial picture - how much you spend, and what you can afford to repay to build a deeper, more accurate understanding of each customer's unique financial situation. And we've shown it works at scale. We’ve issued over £1.3bn in loans directly to customers while delivering market-leading credit performance - for every 10 defaults the industry expects, we see only 3. We also reached profitability just 2.5 years after launch. Backed by £2bn+ of funding from top-tier investors including Citi, GSR Ventures, and Deutsche Bank, we’re recognised as one of Europe’s fastest-growing fintechs (Sifted, CNBC). Now, we’re expanding into new markets and product lines - and we’re looking for ambitious people who want to learn fast, take ownership, and grow with us. We're looking for an experienced individual to join us in the role of Senior Software Engineer. This position requires enthusiasm for exploring and understanding new business areas. We maintain a culture of ownership and value engineers that are excited about the business and are willing to work alongside stakeholders to continually improve business processes and customer experience. We offer a broad range of opportunities across platform engineering, B2B customer integration, conversion optimisation and business process automation. At Abound, you will work on the best-in-class open-banking decision making platform, and learn how to operate with low-latency, at scale. Candidates must have had experience working directly with internal stakeholders to establish requirements, designing technical solutions, and owning the delivery of significant functionality, ideally having worked with peers of different levels to complete projects collaboratively. Fluency in both Chinese and English is essential to facilitate seamless communication and collaboration. Our technology stack: Python (including FastAPI, OpenTelemetry, procrastinate, SQLAlchemy, Uvicorn), Postgres, MySQL, Liquibase, Retool, Docker, AWS Who you are: - Seven or more years professional experience in software engineering - Proven experience leading the development of significant new functionality - Proficiency in writing well-structured async Python code with type hints and unit tests - Experience maintaining codebases for business-critical systems - Strong analytical and problem-solving skills - Effective communication and collaboration skills - Proficiency in Git for version control - Basic knowledge of cloud infrastructure with experience working with at least one of AWS, GCP, or Azure - Strong SQL skills for efficient data management and retrieval - Knowledge of lending products and business processes will be a major advantage - Fluency in both Chinese and English What you'll be doing: - Develop new features backend services that could span any part of the lending lifecycle, from finding and onboarding new customers, to helping underwriters asses their affordability, all the way through to paying out and then collecting a loan - Participate in the entire SDLC, helping to design changes, review code, build tests, and coordinate deployments - Own a part of the platform and be responsible for the smooth operation of associated business processes, and their KPIs. - Collaborate closely with colleagues in Product and Design as well as users (both internal and external) to understand, challenge, and refine requirements - Provide second-line support within business hours, helping to troubleshoot and resolve any system issues that impact our customers - Supporting junior engineers through PRs and pairing - Apply strong SQL skills to troubleshoot and improve the performance of data management and retrieval across our Postgres databases",
-        "jd_chars": 3962,
-        "jd_sha256": "97261c522c5c97d6ef3c8c4d0bdd352d84def36fab003506974da18517a3b533",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "ashby first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "About Abound We’re redefining consumer lending in the UK, and beyond. Using advanced AI and Open Banking data, we make fair, affordable personal finance available to more people. While traditional lenders rely almost entirely on credit scor",
-      "first_seen_at": "2026-11-09T15:02:24.857296Z",
-      "key": "cn:24b175644e7620b61528",
-      "last_error": null,
-      "market": "CN",
-      "platform": "ashby official ATS",
-      "query": "Shenzhen",
-      "retries": 0,
-      "seq": 4,
-      "source": "freehirefetch:official-ats:CN",
-      "source_evidence": "full_jd",
-      "source_job_id": "215f3ac0-6e25-4877-b7c0-db37e9e04a30",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Senior Software Engineer",
-      "url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30"
-    },
-    {
       "ats_key": "bjakcareer|ashby|1815a891-6854-4ada-9cd3-178009b807d1",
       "company": "BJAK",
       "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
@@ -1324,6 +1290,44 @@
       "state": "HARD_REJECTED",
       "title": "Software Engineer - AI Gateway",
       "url": "https://jobs.ashbyhq.com/kong/fbf4dae8-0e84-4579-90f9-61005eabea58"
+    },
+    {
+      "ats_key": "abound|ashby|215f3ac0-6e25-4877-b7c0-db37e9e04a30",
+      "company": "Abound",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:22.998919+00:00",
+        "employment_time_type": "FullTime",
+        "full_jd_complete": true,
+        "full_jd_text": "About Abound We’re redefining consumer lending in the UK, and beyond. Using advanced AI and Open Banking data, we make fair, affordable personal finance available to more people. While traditional lenders rely almost entirely on credit scores, we look at the full financial picture - how much you spend, and what you can afford to repay to build a deeper, more accurate understanding of each customer's unique financial situation. And we've shown it works at scale. We’ve issued over £1.3bn in loans directly to customers while delivering market-leading credit performance - for every 10 defaults the industry expects, we see only 3. We also reached profitability just 2.5 years after launch. Backed by £2bn+ of funding from top-tier investors including Citi, GSR Ventures, and Deutsche Bank, we’re recognised as one of Europe’s fastest-growing fintechs (Sifted, CNBC). Now, we’re expanding into new markets and product lines - and we’re looking for ambitious people who want to learn fast, take ownership, and grow with us. We're looking for an experienced individual to join us in the role of Senior Software Engineer. This position requires enthusiasm for exploring and understanding new business areas. We maintain a culture of ownership and value engineers that are excited about the business and are willing to work alongside stakeholders to continually improve business processes and customer experience. We offer a broad range of opportunities across platform engineering, B2B customer integration, conversion optimisation and business process automation. At Abound, you will work on the best-in-class open-banking decision making platform, and learn how to operate with low-latency, at scale. Candidates must have had experience working directly with internal stakeholders to establish requirements, designing technical solutions, and owning the delivery of significant functionality, ideally having worked with peers of different levels to complete projects collaboratively. Fluency in both Chinese and English is essential to facilitate seamless communication and collaboration. Our technology stack: Python (including FastAPI, OpenTelemetry, procrastinate, SQLAlchemy, Uvicorn), Postgres, MySQL, Liquibase, Retool, Docker, AWS Who you are: - Seven or more years professional experience in software engineering - Proven experience leading the development of significant new functionality - Proficiency in writing well-structured async Python code with type hints and unit tests - Experience maintaining codebases for business-critical systems - Strong analytical and problem-solving skills - Effective communication and collaboration skills - Proficiency in Git for version control - Basic knowledge of cloud infrastructure with experience working with at least one of AWS, GCP, or Azure - Strong SQL skills for efficient data management and retrieval - Knowledge of lending products and business processes will be a major advantage - Fluency in both Chinese and English What you'll be doing: - Develop new features backend services that could span any part of the lending lifecycle, from finding and onboarding new customers, to helping underwriters asses their affordability, all the way through to paying out and then collecting a loan - Participate in the entire SDLC, helping to design changes, review code, build tests, and coordinate deployments - Own a part of the platform and be responsible for the smooth operation of associated business processes, and their KPIs. - Collaborate closely with colleagues in Product and Design as well as users (both internal and external) to understand, challenge, and refine requirements - Provide second-line support within business hours, helping to troubleshoot and resolve any system issues that impact our customers - Supporting junior engineers through PRs and pairing - Apply strong SQL skills to troubleshoot and improve the performance of data management and retrieval across our Postgres databases",
+        "jd_chars": 3962,
+        "jd_sha256": "97261c522c5c97d6ef3c8c4d0bdd352d84def36fab003506974da18517a3b533",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "ashby first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "About Abound We’re redefining consumer lending in the UK, and beyond. Using advanced AI and Open Banking data, we make fair, affordable personal finance available to more people. While traditional lenders rely almost entirely on credit scor",
+      "first_seen_at": "2026-11-09T15:02:24.857296Z",
+      "key": "cn:24b175644e7620b61528",
+      "last_error": null,
+      "market": "CN",
+      "platform": "ashby official ATS",
+      "query": "Shenzhen",
+      "retries": 0,
+      "seq": 4,
+      "source": "freehirefetch:official-ats:CN",
+      "source_evidence": "full_jd",
+      "source_job_id": "215f3ac0-6e25-4877-b7c0-db37e9e04a30",
+      "state": "HARD_REJECTED",
+      "title": "Senior Software Engineer",
+      "url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30",
+      "checked_at": "2026-11-10",
+      "review_source": "official Ashby full JD captured in consumer_review",
+      "evidence_url": "https://jobs.ashbyhq.com/Abound/215f3ac0-6e25-4877-b7c0-db37e9e04a30",
+      "reason": "Official employer JD requires seven or more years professional SWE experience, senior ownership/mentoring, and production async Python; candidate has no full-time professional YOE and targets 0-3 YOE substantive AI roles. Not a realistic eligible CN AI role."
     }
   ],
   "version": 1
