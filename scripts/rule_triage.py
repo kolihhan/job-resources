@@ -66,7 +66,7 @@ REQUIRED = re.compile(
     r"essential|necessar(?:y|ily)|qualifications?)\b"
     r"|必须|要求|最低|不少于", re.I)
 HONG_KONG = re.compile(
-    r"(?:^|[\n.;])\s*location\s*:\s*(?:Hong Kong|香港)\b"
+    r"\blocation\s*[:：]\s*(?:Hong Kong|香港)(?=[\s,.;—–-]|$)"
     r"|(?:工作地点|办公地点)\s*[:：]\s*香港", re.I)
 SOFT_OVERRIDE = re.compile(
     r"\b(?:or equivalent|or comparable|alternatively|other equivalent|"
