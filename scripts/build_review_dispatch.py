@@ -183,6 +183,11 @@ def _candidate_official(row, market, now):
         "rule_auto_reject": rule["auto_reject"],
         "jd_quote_evidence": jd_quote_evidence(rev.get("full_jd_text"))
         if rev.get("full_jd_complete") is True else None,
+        # This is explicitly NOT first-party employer evidence or a fit verdict.
+        "unverified_api_quote_evidence": jd_quote_evidence(
+            (row.get("api_source_context") or {}).get("text"), max_per_kind=1)
+        if (row.get("api_source_context") or {}).get("provenance")
+        == "UNVERIFIED_THIRD_PARTY_API" else None,
         "where_to_review": f"discovery-state/platform-index-{market.lower()}.json",
         "decision": "NOT_MADE",
     }
@@ -466,6 +471,13 @@ def markdown_report(report):
                 lines.append("  - **Employer JD evidence (EXACT excerpts, NOT eligibility verdict):**")
                 for kind in ("ai_work", "requirements", "preferences"):
                     for snippet in quotes.get(kind, []):
+                        clean = snippet.replace("\\n", " ").replace("|", "/").replace("`", "'")
+                        lines.append(f"    - {kind}: `{clean}`")
+            source_quotes = row.get("unverified_api_quote_evidence") or {}
+            if source_quotes:
+                lines.append("  - **API text hints (UNVERIFIED; not full employer JD; never reject from missing cues):**")
+                for kind in ("ai_work", "requirements", "preferences"):
+                    for snippet in source_quotes.get(kind, []):
                         clean = snippet.replace("\\n", " ").replace("|", "/").replace("`", "'")
                         lines.append(f"    - {kind}: `{clean}`")
             if row.get("rule_lane"):
