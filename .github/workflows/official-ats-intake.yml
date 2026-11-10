@@ -8,6 +8,7 @@ on:
       - scripts/build_review_dispatch.py
       - tests/test_build_review_dispatch.py
       - scripts/collect_market_api.py
+      # Legacy API collector remains for regression parity; not run in production.
       - scripts/enrich_pending_public_ats.py
       - tests/test_enrich_pending_public_ats.py
       - tests/test_collect_market_api.py
@@ -62,11 +63,50 @@ jobs:
               except Exception as exc:
                   print(f"ATS_SOURCE_UNAVAILABLE {market}: {type(exc).__name__}: {str(exc)[:150]}")
           PY
-      - name: Collect independent no-key job APIs for MY SG CN
+      - name: Import public market API batches from freehirefetch
         shell: bash
         run: |
-          python scripts/collect_market_api.py --out-dir artifacts/api-snapshots \
-            --max-pages 2 || echo "::warning::API providers unavailable; preserve ATS and existing queues"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          base="https://raw.githubusercontent.com/kolihhan/freehirefetch/main/feed/market-api/"
+          target=Path("artifacts/api-snapshots")
+          target.mkdir(parents=True,exist_ok=True)
+          def fetch(name):
+              req=Request(base+name,headers={"User-Agent":"JobResourcesPublicBatchConsumer/1.0"})
+              with urlopen(req,timeout=25) as res:
+                  raw=res.read(3_000_001)
+              if len(raw)>3_000_000:raise ValueError("oversized public API batch")
+              return raw
+          try:
+              health=json.loads(fetch("health.json"))
+              if not isinstance(health,dict):raise ValueError("invalid API health schema")
+              (target/"health.json").write_text(json.dumps(health,indent=2)+"\n")
+          except Exception as exc:
+              print("UPSTREAM_API_BATCH_UNAVAILABLE",type(exc).__name__,str(exc)[:100])
+              health={}
+          for market in ("SG","MY","CN"):
+              statuses=health.get(market,{})
+              live=any(isinstance(x,dict) and x.get("status") in ("COMPLETE","PARTIAL")
+                       for x in statuses.values()) if isinstance(statuses,dict) else False
+              if not live:
+                  print("API_MARKET_NOT_CURRENT",market)
+                  continue
+              try:
+                  raw=fetch(market+".json")
+                  data=json.loads(raw)
+                  if data.get("market")!=market or not isinstance(data.get("jobs"),list):
+                      raise ValueError("market snapshot contract")
+                  (target/(market+".json")).write_bytes(raw)
+                  print("PUBLIC_API_BATCH",market,len(data["jobs"]))
+              except Exception as exc:
+                  print("PUBLIC_API_SOURCE_UNAVAILABLE",market,type(exc).__name__,str(exc)[:100])
+          try:
+              (target/"platform-coverage.md").write_bytes(fetch("platform-coverage.md"))
+          except Exception:
+              pass
+          PY
       - name: Branch dry-run or publish source-only queue update on main
         shell: bash
         run: |
