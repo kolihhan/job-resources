@@ -1,6 +1,8 @@
 name: Reconcile owner application comments
 
 on:
+  issues:
+    types: [opened, edited, reopened]
   issue_comment:
     types: [created]
 
@@ -12,8 +14,45 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  sync_status_label:
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Set exactly one lifecycle status label from current Issue title
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.issue.number;
+            const params = { owner, repo, issue_number };
+            const { data: issue } = await github.rest.issues.get(params);
+            if (issue.state !== 'open' || issue.pull_request) return;
+            const phase = issue.title.match(/^\\[(ACTION|APPLY|CHECK|WAIT)\\]/)?.[1]?.toLowerCase();
+            if (!phase) {
+              core.info('No recognized lifecycle prefix; not altering labels.');
+              return;
+            }
+            const existing = (issue.labels || []).map(x => typeof x === 'string' ? x : x.name);
+            const want = 'status:' + phase;
+            const status = existing.filter(x => /^status:/i.test(x));
+            if (status.length === 1 && status[0] === want) {
+              core.info('Already consistent; no mutation.');
+              return;
+            }
+            const labels = existing.filter(x => !/^status:/i.test(x));
+            labels.push(want);
+            await github.rest.issues.update({ ...params, labels });
+            const { data: check } = await github.rest.issues.get(params);
+            const actual = (check.labels || []).map(x => typeof x === 'string' ? x : x.name)
+              .filter(x => /^status:/i.test(x));
+            if (check.title.match(/^\\[(ACTION|APPLY|CHECK|WAIT)\\]/)?.[1]?.toLowerCase() !== phase ||
+                actual.length !== 1 || actual[0] !== want) {
+              throw new Error('Issue lifecycle label readback mismatch');
+            }
+            core.info('Verified status label: ' + want);
   reconcile:
-    if: ${{ !github.event.issue.pull_request && github.event.comment.user.login == github.repository_owner }}
+    if: ${{ github.event_name == 'issue_comment' && !github.event.issue.pull_request && github.event.comment.user.login == github.repository_owner }}
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
