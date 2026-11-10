@@ -10,6 +10,8 @@ on:
       - scripts/collect_market_api.py
       # Legacy API collector remains for regression parity; not run in production.
       - scripts/enrich_pending_public_ats.py
+      - scripts/reconcile_pending_exact_issue.py
+      - tests/test_reconcile_pending_exact_issue.py
       - tests/test_enrich_pending_public_ats.py
       - tests/test_collect_market_api.py
       - scripts/platform_index_queue.py
@@ -23,6 +25,7 @@ on:
 
 permissions:
   contents: write
+  issues: read
 
 concurrency:
   group: official-ats-intake
@@ -112,6 +115,9 @@ jobs:
         run: |
           set -euo pipefail
           if [[ "$GITHUB_REF" != "refs/heads/main" ]]; then
+            GITHUB_TOKEN="${{ github.token }}" python scripts/reconcile_pending_exact_issue.py \
+              --repo . --report artifacts/exact-issue-reconciliation.json ||
+              echo "::warning::Exact Issue duplicate ACK unavailable; preserve pending"
             python scripts/intake_official_ats.py \
               --repo . --snapshots artifacts/ats-snapshots \
               --api-dir artifacts/api-snapshots \
@@ -128,6 +134,9 @@ jobs:
             for attempt in 1 2 3; do
               git fetch origin main
               git reset --hard origin/main
+              GITHUB_TOKEN="${{ github.token }}" python scripts/reconcile_pending_exact_issue.py \
+                --repo . --report artifacts/exact-issue-reconciliation.json ||
+                echo "::warning::Exact Issue duplicate ACK unavailable; preserve pending"
               python scripts/intake_official_ats.py \
                 --repo . --snapshots artifacts/ats-snapshots \
               --api-dir artifacts/api-snapshots \
@@ -177,6 +186,7 @@ jobs:
           path: |
             artifacts/ats-intake-report.json
             artifacts/ats-jd-enrichment.json
+            artifacts/exact-issue-reconciliation.json
             artifacts/ats-intake-summary.md
             artifacts/api-snapshots/health.json
             artifacts/api-snapshots/platform-coverage.md
