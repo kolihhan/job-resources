@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T12:47:37.471456Z",
+    "at": "2026-11-10T14:40:10.580839Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 3,
-      "observed": 3
+      "new_pending": 2,
+      "observed": 2
     }
   },
   "market": "CN",
-  "next_seq": 64,
+  "next_seq": 66,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -969,6 +969,50 @@
       "state": "UNVERIFIED_INDEX",
       "title": "达摩院医疗AI Agent 算法工程师",
       "url": "https://www.liepin.com/job/1986353945.shtml"
+    },
+    {
+      "ats_key": "freehire|ai-computing-software-development-intern-llm-inference-2027-nvidia-xkjxdqdo",
+      "company": "NVIDIA",
+      "description_excerpt": "<p>We are now looking for a Software Development Engineer to help TensorRT LLM and TensorRT Edge LLM projects! NVIDIA is hiring software engineers for its AI Computing team. Academic and commercial groups around the world are using GPUs to ",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T14:40:10.580761Z",
+      "key": "cn:9ab399347fcf4333abe3",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "China, Shanghai",
+      "retries": 0,
+      "seq": 64,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-computing-software-development-intern-llm-inference-2027-nvidia-xkjxdqdo",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Computing Software Development Intern, LLM Inference - 2027",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Software-Development-Intern--LLM-Inference---2027_JR2026173"
+    },
+    {
+      "ats_key": "freehire|llm-reinforcement-learning-framework-intern-2027-nvidia-p2wdb5ce",
+      "company": "NVIDIA",
+      "description_excerpt": "<p>We are now looking for exceptionally dedicated individuals to join our team as LLM Reinforcement Learning Framework Intern!</p><br/><p>At NVIDIA, we are renowned for our continual progress in the fields of graphics and parallel computing",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T14:40:10.580827Z",
+      "key": "cn:aced14dc9d1d3d73eac4",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "China, Shanghai",
+      "retries": 0,
+      "seq": 65,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "llm-reinforcement-learning-framework-intern-2027-nvidia-p2wdb5ce",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "LLM Reinforcement Learning Framework Intern - 2027",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/LLM-Reinforcement-Learning-Framework-Intern---2027_JR2027624"
     }
   ],
   "terminal": [
@@ -1504,6 +1548,7 @@
     },
     {
       "ats_key": "freehire|ai-engineer-intern-ai-agent-development-database-aumovio-lpmagh6d",
+      "checked_at": "2026-11-10",
       "company": "aumovio",
       "description_excerpt": "<p><strong>Key Responsibilities</strong><strong>​​</strong></p><ol><li>​<strong>​</strong><strong>AI Agent Development &amp; LLM Integration</strong><ul><li>Develop AI Agents using mainstream LLM APIs (e.g., OpenAI, DeepSeek, Claude, etc.).",
       "discovery_access": "API_PROXY_ONLY",
@@ -1513,7 +1558,9 @@
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "Shanghai, YANGPU, cn",
+      "reason": "Exact employer requisition explicitly identifies an internship; candidate seeks full-time employment, not student internship.",
       "retries": 0,
+      "review_source": "2026-11-10 employer ATS exact requisition title and URL; categorical internship mismatch",
       "seq": 52,
       "source": "freehire:public-api:CN",
       "source_evidence": "listing_only",
@@ -1522,13 +1569,11 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Engineer Intern (AI Agent Development & Database)",
-      "url": "https://jobs.smartrecruiters.com/Aumovio/744000134167099-ai-engineer-intern-ai-agent-development-database-",
-      "checked_at": "2026-11-10",
-      "reason": "Exact employer requisition explicitly identifies an internship; candidate seeks full-time employment, not student internship.",
-      "review_source": "2026-11-10 employer ATS exact requisition title and URL; categorical internship mismatch"
+      "url": "https://jobs.smartrecruiters.com/Aumovio/744000134167099-ai-engineer-intern-ai-agent-development-database-"
     },
     {
       "ats_key": "freehire|ai-developer-technology-engineer-intern-ai-2027-nvidia-sx5q5slv",
+      "checked_at": "2026-11-10",
       "company": "NVIDIA",
       "description_excerpt": "<p><span>We are now looking for an AI Developer Technology Engineer Interns. Intelligent machines powered by AI computers that can learn, reason and interact with people are no longer science fiction. Today, a self-driving car can meander t",
       "discovery_access": "API_PROXY_ONLY",
@@ -1538,7 +1583,9 @@
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "China, Beijing",
+      "reason": "Exact employer requisition explicitly identifies 2027 internship; candidate is already graduated and seeks full-time employment.",
       "retries": 0,
+      "review_source": "2026-11-10 employer ATS exact requisition title and URL; categorical internship mismatch",
       "seq": 55,
       "source": "freehire:public-api:CN",
       "source_evidence": "listing_only",
@@ -1547,13 +1594,11 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Developer Technology Engineer Intern, AI - 2027",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
-      "checked_at": "2026-11-10",
-      "reason": "Exact employer requisition explicitly identifies 2027 internship; candidate is already graduated and seeks full-time employment.",
-      "review_source": "2026-11-10 employer ATS exact requisition title and URL; categorical internship mismatch"
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002"
     },
     {
       "ats_key": "freehire|ai-computing-development-intern-tensorrt-llm-2027-nvidia-ueufpdhe",
+      "checked_at": "2026-11-10",
       "company": "NVIDIA",
       "description_excerpt": "<p>We are now looking for a TensorRT-LLM Software Development Engineering intern!</p><p></p><p>NVIDIA is hiring software engineers for its AI Computing team. Academic and commercial groups around the world are using GPUs to power a revoluti",
       "discovery_access": "API_PROXY_ONLY",
@@ -1563,7 +1608,9 @@
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "China, Shanghai",
+      "reason": "Exact employer requisition explicitly identifies 2027 internship; candidate is already graduated and seeks full-time employment.",
       "retries": 0,
+      "review_source": "2026-11-10 employer ATS exact requisition title and URL; categorical internship mismatch",
       "seq": 56,
       "source": "freehire:public-api:CN",
       "source_evidence": "listing_only",
@@ -1572,10 +1619,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Computing Development Intern, TensorRT-LLM - 2027",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Development-Intern--TensorRT-LLM---2027_JR2026160",
-      "checked_at": "2026-11-10",
-      "reason": "Exact employer requisition explicitly identifies 2027 internship; candidate is already graduated and seeks full-time employment.",
-      "review_source": "2026-11-10 employer ATS exact requisition title and URL; categorical internship mismatch"
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Development-Intern--TensorRT-LLM---2027_JR2026160"
     }
   ],
   "version": 1
