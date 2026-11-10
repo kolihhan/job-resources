@@ -173,7 +173,12 @@ jobs:
             --repo . \
             --output artifacts/review-dispatch.json \
             --summary artifacts/review-dispatch.md \
-            --limit 40 --track-reserve 8
+            --limit 16 --track-reserve 4
+          # The source-only AI evidence packet is also readable in job logs
+          # by Chat Scouts; no second database or persistent score file.
+          echo "SCOUT_EVIDENCE_PACKET_BEGIN"
+          cat artifacts/review-dispatch.md
+          echo "SCOUT_EVIDENCE_PACKET_END"
           cat artifacts/review-dispatch.md >> "$GITHUB_STEP_SUMMARY"
           if [[ -f artifacts/api-snapshots/platform-coverage.md ]]; then
             cat artifacts/api-snapshots/platform-coverage.md >> "$GITHUB_STEP_SUMMARY"
