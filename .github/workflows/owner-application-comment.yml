@@ -1,0 +1,69 @@
+name: Reconcile owner application comments
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+
+concurrency:
+  group: applicant-comment-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    if: ${{ !github.event.issue.pull_request && github.event.comment.user.login == github.repository_owner }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Apply explicit owner submission confirmation to the exact Issue
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const comment = context.payload.comment;
+            const { owner, repo } = context.repo;
+            if (comment?.user?.login !== owner) return;
+            const message = String(comment?.body || '').trim().replace(/\s+/g, ' ');
+            if (!/^(?:done apply|done applied|applied|submitted)$/i.test(message)) {
+              core.info('Not an explicit application confirmation; no lifecycle change.');
+              return;
+            }
+
+            const issue_number = context.payload.issue.number;
+            const params = { owner, repo, issue_number };
+            const { data: issue } = await github.rest.issues.get(params);
+            const phase = issue.title.match(/^\[(APPLY|CHECK|ACTION|WAIT)\]/)?.[1];
+            if (issue.state !== 'open' || !['APPLY', 'CHECK'].includes(phase)) {
+              core.info(`No change: issue is ${issue.state}, phase ${phase || 'unknown'}.`);
+              return;
+            }
+
+            const labels = (issue.labels || [])
+              .map(label => typeof label === 'string' ? label : label.name)
+              .filter(name => !/^(?:status:(?:apply|check|wait|action)|APPLY|CHECK|WAIT|ACTION)$/i.test(name));
+            labels.push('status:wait');
+            const submittedDate = String(comment.created_at || '').slice(0, 10) || new Date().toISOString().slice(0, 10);
+            const evidence = comment.html_url || `https://github.com/${owner}/${repo}/issues/${issue_number}`;
+            const note = [
+              `## Recruiting lifecycle — ${submittedDate}`,
+              `**Status: WAIT** — repository owner explicitly confirmed \`${message}\` on this exact Issue. Earlier APPLY/CHECK and no-submission statements below are historical and superseded.`,
+              '**Furthest stage:** Applicant-reported submission. Employer acknowledgement/interview not inferred.',
+              `**Evidence:** ${evidence}`,
+              '**Next action:** Await meaningful recruiter/assessment/interview response. Do not reapply.',
+              '',
+              '---',
+              ''
+            ].join('\n');
+            await github.rest.issues.update({
+              ...params,
+              title: issue.title.replace(/^\[(?:APPLY|CHECK)\]/, '[WAIT]'),
+              labels,
+              body: note + String(issue.body || '')
+            });
+            const { data: readback } = await github.rest.issues.get(params);
+            if (!readback.title.startsWith('[WAIT]') ||
+                !(readback.labels || []).some(label => (typeof label === 'string' ? label : label.name) === 'status:wait')) {
+              throw new Error(`Lifecycle readback failed for Issue #${issue_number}`);
+            }
+            core.info(`Verified Issue #${issue_number}: WAIT / status:wait`);
