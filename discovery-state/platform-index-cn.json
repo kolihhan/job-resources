@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T01:29:36.527814Z",
+    "at": "2026-11-10T09:44:08.235216Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 1,
-      "observed": 1
+      "new_pending": 7,
+      "observed": 7
     }
   },
   "market": "CN",
-  "next_seq": 48,
+  "next_seq": 55,
   "next_unacknowledged_seq": 1,
   "pending": [
     {
@@ -816,6 +816,160 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Infrastructure Hardware Engineer",
       "url": "https://jobs.ashbyhq.com/pragmatike/e33ac146-4a12-453f-a882-1a77e1348cf8"
+    },
+    {
+      "ats_key": "freehire|embodied-ai-engineer-humanoid-robotics-rbcn-bosch-group-pds65o2a",
+      "company": "Bosch Group",
+      "description_excerpt": "<p>We are seeking an <strong>Embodied AI Engineer</strong> to enable the successful deployment of humanoid robots in industrial environments. Rather than developing the robot&#39;s core locomotion or control algorithms, this role focuses on",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.234967Z",
+      "key": "cn:4ed6c9210310783dd9b2",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Shanghai, Shanghai, cn",
+      "retries": 0,
+      "seq": 48,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "embodied-ai-engineer-humanoid-robotics-rbcn-bosch-group-pds65o2a",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Embodied AI Engineer (Humanoid Robotics)_RBCN",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154663199-embodied-ai-engineer-humanoid-robotics-rbcn"
+    },
+    {
+      "ats_key": "freehire|ai-assisted-software-engineer-fintech-razer-chbqzblv",
+      "company": "Razer",
+      "description_excerpt": "<p>Joining Razer will place you on a global mission to revolutionize the way the world games. Razer is <b>a place to do great work</b>, offering you the opportunity to make an impact globally while working across a global team located acros",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.235020Z",
+      "key": "cn:09c3f869cd8ab316d358",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Fiuu Shenzhen",
+      "retries": 0,
+      "seq": 49,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-assisted-software-engineer-fintech-razer-chbqzblv",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI-Assisted Software Engineer – Fintech",
+      "url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Fiuu-Shenzhen/AI-Assisted-Software-Engineer---Fintech_JR2026007885"
+    },
+    {
+      "ats_key": "freehire|ai-agent-engineer-zoom-3fsdlo63",
+      "company": "Zoom",
+      "description_excerpt": "<h2><b>Job Responsibilities</b></h2><p><span>Develop AI-powered chat features and intelligent conversation capabilities</span><span>;</span> <span>Explore Agent Reasoning and </span><span>Agentic</span><span> RAG technologies, optimize Deep",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.235056Z",
+      "key": "cn:409b908dc62b8aee8eba",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Suzhou (CHN)",
+      "retries": 0,
+      "seq": 50,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-agent-engineer-zoom-3fsdlo63",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Agent Engineer",
+      "url": "https://zoom.wd5.myworkdayjobs.com/cn/job/Suzhou-CHN/AI-Agent-Engineer_R17922"
+    },
+    {
+      "ats_key": "freehire|principal-engineer-agentic-ai-architect-altera-corporation-lavoe6as",
+      "company": "Altera Corporation",
+      "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><h3></h3><h2><b>Job Description:</b></h2><p><span>Location: Shanghai, China</span><br/> </p><p><span>Role Overview</span></p><p><span>We are seeking a<span> </span><b>Principal Engineer – Agentic AI Archit",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.235090Z",
+      "key": "cn:f1f5acdadb7a736ff73b",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Shanghai, China",
+      "retries": 0,
+      "seq": 51,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "principal-engineer-agentic-ai-architect-altera-corporation-lavoe6as",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Principal Engineer - Agentic AI Architect",
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/Principal-Engineer---Agentic-AI-Architect_R02652-1"
+    },
+    {
+      "ats_key": "freehire|ai-engineer-intern-ai-agent-development-database-aumovio-lpmagh6d",
+      "company": "aumovio",
+      "description_excerpt": "<p><strong>Key Responsibilities</strong><strong>​​</strong></p><ol><li>​<strong>​</strong><strong>AI Agent Development &amp; LLM Integration</strong><ul><li>Develop AI Agents using mainstream LLM APIs (e.g., OpenAI, DeepSeek, Claude, etc.).",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.235137Z",
+      "key": "cn:593927ce32186c851946",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Shanghai, YANGPU, cn",
+      "retries": 0,
+      "seq": 52,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-intern-ai-agent-development-database-aumovio-lpmagh6d",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer Intern (AI Agent Development & Database)",
+      "url": "https://jobs.smartrecruiters.com/Aumovio/744000134167099-ai-engineer-intern-ai-agent-development-database-"
+    },
+    {
+      "ats_key": "freehire|lead-software-engineer-ai-llm-for-virtuoso-cadence-7f7j4vh6",
+      "company": "Cadence",
+      "description_excerpt": "<h2><b><span>At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.</span></b></h2><p></p><p><br/>Cadence Design Systems is the leading provider of design automation tools for electroni",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.235172Z",
+      "key": "cn:f016bc23910a08ee9941",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "BEIJING",
+      "retries": 0,
+      "seq": 53,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "lead-software-engineer-ai-llm-for-virtuoso-cadence-7f7j4vh6",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Lead Software Engineer - AI/LLM for Virtuoso",
+      "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BEIJING/Lead-Software-Engineer---AI-LLM-for-Virtuoso_R53270-1"
+    },
+    {
+      "ats_key": "freehire|applied-ai-engineer-architect-dbs-lbtlfbyw",
+      "company": "dbs",
+      "description_excerpt": "<h3><b>Job Responsibilities:</b></h3><div><div><h3></h3><h3><b>1. Leadership &amp; Stakeholder Management</b></h3><ul><li><h3><span><b>Leadership:</b> Act as the subject matter expert for Agentic engineering. Guide the overarching AI techno",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T09:44:08.235205Z",
+      "key": "cn:efbfff4243a598a4cb86",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Guangzhou (DTC)",
+      "retries": 0,
+      "seq": 54,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "applied-ai-engineer-architect-dbs-lbtlfbyw",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Applied AI Engineer / Architect",
+      "url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Guangzhou-DTC/AI-Engineer---Architect_WD86765-1"
     }
   ],
   "terminal": [
@@ -823,6 +977,11 @@
       "ats_key": "freehire|nlp-llm-ai-agentke-xue-jia-cr-bosch-group-tra4wcrm",
       "company": "Bosch Group",
       "description_excerpt": "<p>We are seeking an applied Research Scientist to join our team.</p><p>In this role, you will lead the design and development of large language models (LLMs)-based intelligent agent systems tailored for Bosch&#39;s industrial manufacturing",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Current Bosch first-party SmartRecruiters full JD explicitly requires MSc/PhD with 3+ years WORKING experience building real-world NLP/agent systems, solid post-training/reward preference alignment experience. Candidate has MSc projects and paid conventional backend part-time, not 3+ years professional production NLP/agent delivery. Job clearly fit content but hard specialist experience not met. https://jobs.smartrecruiters.com/BoschGroup/744000096326604-nlp-llm-ai-agent-cr",
+        "reason": "HARD_3Y_PROFESSIONAL_NLP_AGENT"
+      },
       "first_seen_at": "2026-11-09T16:44:39.014169Z",
       "key": "cn:371d8a5ed23d0641b98d",
       "last_error": null,
@@ -837,17 +996,17 @@
       "source_listing_url": "",
       "state": "HARD_REJECTED",
       "title": "NLP/LLM& AI Agent科学家_CR",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000096326604-nlp-llm-ai-agent-cr",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "HARD_3Y_PROFESSIONAL_NLP_AGENT",
-        "note": "Current Bosch first-party SmartRecruiters full JD explicitly requires MSc/PhD with 3+ years WORKING experience building real-world NLP/agent systems, solid post-training/reward preference alignment experience. Candidate has MSc projects and paid conventional backend part-time, not 3+ years professional production NLP/agent delivery. Job clearly fit content but hard specialist experience not met. https://jobs.smartrecruiters.com/BoschGroup/744000096326604-nlp-llm-ai-agent-cr"
-      }
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000096326604-nlp-llm-ai-agent-cr"
     },
     {
       "ats_key": "freehire|ai-engineer-insurance-capco-dmb6gpwe",
       "company": "Capco",
       "description_excerpt": "<p><strong>Capco</strong></p>\n<p>Capco is a leading global technology and management consultancy that excels in driving digital transformation within the financial services and insurance sectors. With an unwavering commitment to delivering ",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Capco employer Greenhouse job 8080908 explicitly locates this AI Engineer | Insurance in China - Hong Kong, not mainland. HK market paused; do not introduce as CN opportunity. Also requires 3–12 years AI/ML professional experience. https://job-boards.greenhouse.io/capco/jobs/8080908",
+        "reason": "WRONG_MARKET_HONG_KONG_PAUSED"
+      },
       "first_seen_at": "2026-11-09T16:44:39.014279Z",
       "key": "cn:813373cf4a654a1383e6",
       "last_error": null,
@@ -862,17 +1021,17 @@
       "source_listing_url": "",
       "state": "HARD_REJECTED",
       "title": "AI Engineer | Insurance",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8080908",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "WRONG_MARKET_HONG_KONG_PAUSED",
-        "note": "Capco employer Greenhouse job 8080908 explicitly locates this AI Engineer | Insurance in China - Hong Kong, not mainland. HK market paused; do not introduce as CN opportunity. Also requires 3–12 years AI/ML professional experience. https://job-boards.greenhouse.io/capco/jobs/8080908"
-      }
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8080908"
     },
     {
       "ats_key": "freehire|ai-ml-engineer-banking-capco-eyg3ekws",
       "company": "Capco",
       "description_excerpt": "<p></p>\n<p><strong>Location:</strong> Hong Kong | <strong>Practice Area:</strong> Technology &amp; Engineering | <strong>Type:</strong> Permanent</p>\n<p><strong>Build intelligent solutions. Shape the future of AI in financial services.</str",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Employer's current exact Greenhouse req 8358340 at https://job-boards.greenhouse.io/capco/jobs/8358340 explicitly states China - Hong Kong and Hong Kong hiring team, not Mainland China. HK market paused. Legitimate AI/RAG/Agent role with usable employer form, but not eligible for CN pipeline; no application.",
+        "reason": "WRONG_MARKET_HK_PAUSED"
+      },
       "first_seen_at": "2026-11-09T16:44:39.014303Z",
       "key": "cn:0c79168d4c2158bf451a",
       "last_error": null,
@@ -887,17 +1046,17 @@
       "source_listing_url": "",
       "state": "HARD_REJECTED",
       "title": "AI & ML Engineer | Banking ",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8358340",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "WRONG_MARKET_HK_PAUSED",
-        "note": "Employer's current exact Greenhouse req 8358340 at https://job-boards.greenhouse.io/capco/jobs/8358340 explicitly states China - Hong Kong and Hong Kong hiring team, not Mainland China. HK market paused. Legitimate AI/RAG/Agent role with usable employer form, but not eligible for CN pipeline; no application."
-      }
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8358340"
     },
     {
       "ats_key": "freehire|ai-engineer-jabil-pq27w6m7",
       "company": "Jabil",
       "description_excerpt": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world&#39;s top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of ov",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Current employer Jabil Workday exact J2457125 title AI Engineer but actual JD is PCBA visual inspection algorithms, requires 2+ years industrial AI vision, CNN/R-CNN/YOLO, OpenCV/Halcon, TensorRT/ONNX, plus automation hardware engineering. Not substantive NLP/Agent/RAG and specialist CV experience lacking. https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guangzhou-Juncheng/AI-Engineer_J2457125",
+        "reason": "SPECIALIST_CV_YOE_MISMATCH"
+      },
       "first_seen_at": "2026-11-09T16:44:39.014362Z",
       "key": "cn:d5ad147f7593a96f33f6",
       "last_error": null,
@@ -913,18 +1072,18 @@
       "source_listing_url": "",
       "state": "HARD_REJECTED",
       "title": "AI Engineer",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guangzhou-Juncheng/AI-Engineer_J2457125",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "SPECIALIST_CV_YOE_MISMATCH",
-        "note": "Current employer Jabil Workday exact J2457125 title AI Engineer but actual JD is PCBA visual inspection algorithms, requires 2+ years industrial AI vision, CNN/R-CNN/YOLO, OpenCV/Halcon, TensorRT/ONNX, plus automation hardware engineering. Not substantive NLP/Agent/RAG and specialist CV experience lacking. https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guangzhou-Juncheng/AI-Engineer_J2457125"
-      }
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guangzhou-Juncheng/AI-Engineer_J2457125"
     },
     {
       "ats_key": "freehire|generative-ai-engineer-johnsonelectric-2j2vq2pn",
       "company": "johnsonelectric",
       "description_excerpt": "<p>Johnson Electric is one of the world’s largest providers of motion solutions, supplying nearly every major brand in automotive, industrial, and consumer markets. Our Smart Factory initiative leverages advanced analytics, AI and IIoT to d",
       "discovery_access": "API_PROXY_ONLY",
+      "disposition": {
+        "checked_at": "2026-11-10",
+        "note": "Current employer Johnson Electric Workday exact R00027263 requires 5+ years data/AI engineering, 2+ years production GenAI/LLM work plus Azure Kubernetes/Terraform/DevOps architecture expertise. Candidate early-career, no production AI/cloud mastery claim. https://johnsonelectric.wd3.myworkdayjobs.com/Career_JE/job/China-Jiangmen/Generative-AI-Engineer_R00027263",
+        "reason": "HARD_MATURE_AI_CLOUD_FLOOR"
+      },
       "first_seen_at": "2026-11-09T16:57:31.171539Z",
       "key": "cn:1782c6f63e7414eba7b5",
       "last_error": null,
@@ -940,12 +1099,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "Generative AI Engineer",
-      "url": "https://johnsonelectric.wd3.myworkdayjobs.com/Career_JE/job/China-Jiangmen/Generative-AI-Engineer_R00027263",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "reason": "HARD_MATURE_AI_CLOUD_FLOOR",
-        "note": "Current employer Johnson Electric Workday exact R00027263 requires 5+ years data/AI engineering, 2+ years production GenAI/LLM work plus Azure Kubernetes/Terraform/DevOps architecture expertise. Candidate early-career, no production AI/cloud mastery claim. https://johnsonelectric.wd3.myworkdayjobs.com/Career_JE/job/China-Jiangmen/Generative-AI-Engineer_R00027263"
-      }
+      "url": "https://johnsonelectric.wd3.myworkdayjobs.com/Career_JE/job/China-Jiangmen/Generative-AI-Engineer_R00027263"
     },
     {
       "ats_key": "freehire|ai-ml-engineer-qima-d6hmvlnw",
@@ -983,6 +1137,7 @@
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "Beijing",
+      "reason": "2026-11-10 official Meshy Ashby JD: requires 3+ years graphics-focused frontend development and strong WebGL/Three.js/R3F expertise; work is 3D editor/rendering rather than LLM/RAG/Agent systems. Candidate lacks mandatory graphics engineering stack. https://jobs.ashbyhq.com/meshy/eadb780d-e44a-4063-a0ff-5c42fd27b9af",
       "retries": 0,
       "seq": 31,
       "source": "freehire:public-api:CN",
@@ -992,20 +1147,22 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECT",
       "title": "AI Product Engineer (3D Full Stack)",
-      "url": "https://jobs.ashbyhq.com/meshy/eadb780d-e44a-4063-a0ff-5c42fd27b9af",
-      "reason": "2026-11-10 official Meshy Ashby JD: requires 3+ years graphics-focused frontend development and strong WebGL/Three.js/R3F expertise; work is 3D editor/rendering rather than LLM/RAG/Agent systems. Candidate lacks mandatory graphics engineering stack. https://jobs.ashbyhq.com/meshy/eadb780d-e44a-4063-a0ff-5c42fd27b9af"
+      "url": "https://jobs.ashbyhq.com/meshy/eadb780d-e44a-4063-a0ff-5c42fd27b9af"
     },
     {
       "ats_key": "liepin:81610847",
       "company": "微众银行",
       "description_excerpt": "",
       "discovery_access": "NATIVE_API_LISTING",
+      "evidence_url": "https://www.liepin.com/job/1981610847.shtml",
       "first_seen_at": "2026-11-09T16:57:50.203377Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/899",
       "key": "cn:18f56a6a38b08102f2f6",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "深圳-南山区",
+      "reason": "2026-11-10 native Liepin employer verified recruiter full JD, live 聊一聊 route, 1–3 YOE, GitHub all-state and both Gmail deduped; APPLY #899 created and read back. China work permit UNKNOWN; candidate Python production proficiency unproven.",
       "retries": 0,
       "seq": 33,
       "source": "liepin:native-api:CN",
@@ -1015,10 +1172,7 @@
       "source_platform": "猎聘",
       "state": "ISSUE_VERIFIED",
       "title": "Java/Python后端开发工程师（大模型应用方向）",
-      "url": "https://www.liepin.com/job/1981610847.shtml",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/899",
-      "evidence_url": "https://www.liepin.com/job/1981610847.shtml",
-      "reason": "2026-11-10 native Liepin employer verified recruiter full JD, live 聊一聊 route, 1–3 YOE, GitHub all-state and both Gmail deduped; APPLY #899 created and read back. China work permit UNKNOWN; candidate Python production proficiency unproven."
+      "url": "https://www.liepin.com/job/1981610847.shtml"
     },
     {
       "ats_key": "liepin:84512575",
