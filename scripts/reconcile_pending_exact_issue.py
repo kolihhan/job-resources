@@ -63,7 +63,7 @@ def possible_cross_platform_issues(row, issues, market):
         title = str(issue.get("title") or "")
         if issue.get("pull_request") or not isinstance(issue.get("number"), int):
             continue
-        if not re.search(r"\\[" + re.escape(market) + r"(?:-[A-Z]+)?\\]", title, re.I):
+        if not re.search(r"\[" + re.escape(market) + r"(?:-[A-Z]+)?\]", title, re.I):
             continue
         weak = _weak_company_title(title)
         if not weak:
