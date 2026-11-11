@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T03:03:34.241239Z",
+    "at": "2026-11-11T07:20:40.756337Z",
     "source": "public-web-index-manual-pilot-2026-11-07",
     "stats": {
       "already_seen": 2,
@@ -2595,6 +2595,7 @@
         "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
       },
       "description_excerpt": "",
+      "evidence_url": "https://micron.wd1.myworkdayjobs.com/External/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
       "first_seen_at": "2026-11-09T15:11:31.025487Z",
       "key": "my:e1f7d9b9a4f71cd80491",
       "last_error": null,
@@ -2602,6 +2603,7 @@
       "platform": "workday official ATS",
       "prior_wait_employer_hint": true,
       "query": "Penang, Malaysia - Grande",
+      "reason": "Senior Data Scientist title; outside early-career and not substantively LLM/Agent work in available source identity. Do not substitute AI title for suitability.",
       "retries": 0,
       "seq": 21,
       "source": "freehirefetch:official-ats:MY",
@@ -2609,9 +2611,7 @@
       "source_job_id": "/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
       "state": "HARD_REJECTED",
       "title": "Senior Data Scientist",
-      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375",
-      "reason": "Senior Data Scientist title; outside early-career and not substantively LLM/Agent work in available source identity. Do not substitute AI title for suitability.",
-      "evidence_url": "https://micron.wd1.myworkdayjobs.com/External/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375"
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Penang-Malaysia---Grande/Senior-Data-Scientist_JR114375"
     },
     {
       "api_source_context": {
@@ -2624,12 +2624,14 @@
       "company": "JAD CONNECT SERVICES",
       "description_excerpt": "<p>Salary: RM 15,000 – RM 22,000 per month</p><p><strong>About the role</strong></p><p>We are looking for an AI / ML Engineer to build practical, production-ready AI and machine learning solutions for a healthcare technology platform. The r",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.jobstreet.com/job/95229292",
       "first_seen_at": "2026-11-10T13:17:38.899179Z",
       "key": "my:fad600b65e969cec0e1a",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Petaling, Selangor",
+      "reason": "Senior AI/ML Engineer title is beyond early-career 0–3 YOE target; source-only seniority hard screen.",
       "retries": 0,
       "seq": 81,
       "source": "freehire:public-api:MY",
@@ -2639,9 +2641,7 @@
       "source_platform": "JobStreet",
       "state": "HARD_REJECTED",
       "title": "Senior AI/ML Engineer",
-      "url": "https://my.jobstreet.com/job/95229292",
-      "reason": "Senior AI/ML Engineer title is beyond early-career 0–3 YOE target; source-only seniority hard screen.",
-      "evidence_url": "https://my.jobstreet.com/job/95229292"
+      "url": "https://my.jobstreet.com/job/95229292"
     },
     {
       "api_source_context": {
@@ -2654,6 +2654,7 @@
       "company": "Lenovo",
       "description_excerpt": "<p><strong>About the role</strong></p><p>Deploy industry-specific AI applications based on open-source and commercial large language models, and implement technical solutions including prompt engineering, few-shot/zero-shot inference, and L",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.jobstreet.com/job/95295445",
       "first_seen_at": "2026-11-10T17:44:46.069466Z",
       "key": "my:38579fb99b9fab904ceb",
       "last_error": null,
@@ -2661,6 +2662,7 @@
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
       "query": "Kuala Lumpur",
+      "reason": "Senior AI Engineer title is beyond early-career 0–3 YOE target; source-only seniority hard screen.",
       "retries": 0,
       "seq": 82,
       "source": "freehire:public-api:MY",
@@ -2670,9 +2672,7 @@
       "source_platform": "JobStreet",
       "state": "HARD_REJECTED",
       "title": "Senior AI Engineer",
-      "url": "https://my.jobstreet.com/job/95295445",
-      "reason": "Senior AI Engineer title is beyond early-career 0–3 YOE target; source-only seniority hard screen.",
-      "evidence_url": "https://my.jobstreet.com/job/95295445"
+      "url": "https://my.jobstreet.com/job/95295445"
     },
     {
       "api_source_context": {
@@ -2685,12 +2685,14 @@
       "company": "Aetherion Dataworks Sdn Bhd",
       "description_excerpt": "<p>Salary: RM 7,000 – RM 10,000 per month</p><p><strong>Key Responsibilities:</strong></p><ul><li><p>Design, build, and maintain modern, scalable full-stack applications (frontend, backend, APIs, and databases).</p></li><li><p>Architect rob",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.jobstreet.com/job/95385285",
       "first_seen_at": "2026-11-10T17:44:46.069534Z",
       "key": "my:c520e4521e0edb842ddb",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Petaling Jaya, Selangor",
+      "reason": "Senior full-stack AI developer is an experienced ownership level outside early-career target; source-only seniority screen.",
       "retries": 0,
       "seq": 84,
       "source": "freehire:public-api:MY",
@@ -2700,9 +2702,7 @@
       "source_platform": "JobStreet",
       "state": "HARD_REJECTED",
       "title": "Senior Full Stack Developer (AI)",
-      "url": "https://my.jobstreet.com/job/95385285",
-      "reason": "Senior full-stack AI developer is an experienced ownership level outside early-career target; source-only seniority screen.",
-      "evidence_url": "https://my.jobstreet.com/job/95385285"
+      "url": "https://my.jobstreet.com/job/95385285"
     },
     {
       "api_source_context": {
@@ -2715,12 +2715,14 @@
       "company": "Hays Recruitment",
       "description_excerpt": "<p>Salary: Up to 15000</p><p><br><br>Your new company <br> </p>Join a well-established and growing organisation that leverages technology to drive business excellence.<br><p><br> <br>Your new role <br> </p>You will develop and deliver Data ",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.jobstreet.com/job/95405873",
       "first_seen_at": "2026-11-10T23:16:08.439779Z",
       "key": "my:431c1874b55d0e73df49",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Kuala Lumpur",
+      "reason": "Senior Data Scientist generic ML/analytics role outside LLM/Agent North Star and early-career range.",
       "retries": 0,
       "seq": 89,
       "source": "freehire:public-api:MY",
@@ -2730,9 +2732,7 @@
       "source_platform": "JobStreet",
       "state": "HARD_REJECTED",
       "title": "Senior Data Scientist",
-      "url": "https://my.jobstreet.com/job/95405873",
-      "reason": "Senior Data Scientist generic ML/analytics role outside LLM/Agent North Star and early-career range.",
-      "evidence_url": "https://my.jobstreet.com/job/95405873"
+      "url": "https://my.jobstreet.com/job/95405873"
     },
     {
       "api_source_context": {
@@ -2745,12 +2745,14 @@
       "company": "Hays Recruitment",
       "description_excerpt": "<p>Salary: $7000.0 - $15000.0 p.m. + Up to 15000</p><p></p><p><strong>Your new company</strong><br> Join a well-established and growing organisation leveraging data, AI and advanced technology to drive smarter business decisions and innovat",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.jobstreet.com/job/95405880",
       "first_seen_at": "2026-11-10T23:16:08.439796Z",
       "key": "my:857e53b5512bbc2548e6",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Kuala Lumpur",
+      "reason": "Senior Data Scientist generic ML/analytics role outside LLM/Agent North Star and early-career range.",
       "retries": 0,
       "seq": 90,
       "source": "freehire:public-api:MY",
@@ -2760,9 +2762,7 @@
       "source_platform": "JobStreet",
       "state": "HARD_REJECTED",
       "title": "Senior Data Scientist",
-      "url": "https://my.jobstreet.com/job/95405880",
-      "reason": "Senior Data Scientist generic ML/analytics role outside LLM/Agent North Star and early-career range.",
-      "evidence_url": "https://my.jobstreet.com/job/95405880"
+      "url": "https://my.jobstreet.com/job/95405880"
     },
     {
       "api_source_context": {
@@ -2775,12 +2775,14 @@
       "company": "maxine",
       "description_excerpt": "<p><b><u>Are you ready to get ahead in your career?</u></b></p><ul><li>We want to empower you to turn your ambitions into achievements.</li><li>We thrive in inclusiveness, diversity and embrace close collaborations for you to create impact ",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://maxine.wd3.myworkdayjobs.com/Maxis-Early-Careers/job/Menara-Maxis/AI-Engineer-Intern_JR13754",
       "first_seen_at": "2026-11-10T17:44:46.069511Z",
       "key": "my:f189a2b5523520d2d0a0",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Menara Maxis",
+      "reason": "Internship job classification is incompatible with user target regular full-time post-MSc employment; official Workday exact title includes Intern.",
       "retries": 0,
       "seq": 83,
       "source": "freehire:public-api:MY",
@@ -2790,9 +2792,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Engineer Intern",
-      "url": "https://maxine.wd3.myworkdayjobs.com/Maxis-Early-Careers/job/Menara-Maxis/AI-Engineer-Intern_JR13754",
-      "reason": "Internship job classification is incompatible with user target regular full-time post-MSc employment; official Workday exact title includes Intern.",
-      "evidence_url": "https://maxine.wd3.myworkdayjobs.com/Maxis-Early-Careers/job/Menara-Maxis/AI-Engineer-Intern_JR13754"
+      "url": "https://maxine.wd3.myworkdayjobs.com/Maxis-Early-Careers/job/Menara-Maxis/AI-Engineer-Intern_JR13754"
     },
     {
       "api_source_context": {
@@ -2805,12 +2805,14 @@
       "company": "Digitalbee",
       "description_excerpt": "<p>Salary: RM 1,300 – RM 1,800 per month</p><p>We are looking for an <strong>AI Automation Software Engineer Intern</strong> who is excited to build practical AI-powered tools for digital marketing and business growth.</p><p>This internship",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.jobstreet.com/job/95478811",
       "first_seen_at": "2026-11-10T23:16:08.439742Z",
       "key": "my:6096e14d9f47a679dffa",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Petaling Jaya, Selangor",
+      "reason": "Internship job classification is incompatible with user target regular full-time post-MSc employment; advertised exact title includes Intern.",
       "retries": 0,
       "seq": 88,
       "source": "freehire:public-api:MY",
@@ -2820,9 +2822,7 @@
       "source_platform": "JobStreet",
       "state": "HARD_REJECTED",
       "title": "AI Automation Software Engineer Intern",
-      "url": "https://my.jobstreet.com/job/95478811",
-      "reason": "Internship job classification is incompatible with user target regular full-time post-MSc employment; advertised exact title includes Intern.",
-      "evidence_url": "https://my.jobstreet.com/job/95478811"
+      "url": "https://my.jobstreet.com/job/95478811"
     }
   ],
   "version": 1
