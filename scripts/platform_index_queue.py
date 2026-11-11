@@ -18,7 +18,7 @@ import os
 from pathlib import Path
 import re
 import tempfile
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 from urllib.request import Request, urlopen
 
 try:
@@ -59,6 +59,34 @@ def canonical(url: str,market: str) -> str | None:
         m=re.fullmatch(r"/job/(\d{5,16})\.shtml/?",p.path,re.I)
         if m:
             return "https://www.liepin.com/job/"+m.group(1)+".shtml"
+    # Public employer recruiting URLs supplied by job-pro (CN only).
+    # Strict host + role-ID path validation: these are unverified source
+    # identities, not proof of a current JD or of foreign-hire eligibility.
+    if market=="CN" and p.scheme=="https" and not p.username and not p.password and p.port in (None,443):
+        host=(p.hostname or "").lower()
+        path=p.path.rstrip("/")
+        if host=="jobs.bytedance.com":
+            m=re.fullmatch(r"/(campus|experienced)/position/([0-9]{10,20})/detail",path)
+            if m:
+                return "https://jobs.bytedance.com/"+m.group(1)+"/position/"+m.group(2)+"/detail"
+        if host=="join.qq.com" and path=="/post_detail.html":
+            postids=parse_qs(p.query).get("postid",[])
+            if len(postids)==1 and re.fullmatch(r"[0-9]{10,20}",postids[0]):
+                return "https://join.qq.com/post_detail.html?postid="+postids[0]
+        if host=="campus-talent.alibaba.com":
+            m=re.fullmatch(r"/campus/position/([0-9]{10,20})",path)
+            if m:
+                return "https://campus-talent.alibaba.com/campus/position/"+m.group(1)
+        feishu_hosts={
+            "nio.jobs.feishu.cn","agirobot.jobs.feishu.cn",
+            "01ai.jobs.feishu.cn","lilithgames.jobs.feishu.cn",
+            "vrfi1sk8a0.jobs.feishu.cn","cq6qe6bvfr6.jobs.feishu.cn",
+            "xiaopeng.jobs.feishu.cn","xiaomi.jobs.f.mioffice.cn",
+        }
+        if host in feishu_hosts:
+            m=re.fullmatch(r"/[A-Za-z0-9_-]+/position/([0-9]{15,20})/detail",path)
+            if m:
+                return "https://"+host+path
     if market=="MY" and p.scheme=="https" and p.hostname=="jobs.ashbyhq.com":
         # First-party Gen Digital Ashby role UUID. Do not infer company, fit
         # or open status from title similarity with another Ashby requisition.
