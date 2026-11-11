@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "ntu:official-cxs:SG",
-  "observed_at": "2026-11-10T08:48:15.584586+00:00",
+  "observed_at": "2026-11-11T02:54:24.517519+00:00",
   "next_offsets": {
     "LLM": 0,
     "agent": 0
@@ -35,11 +35,11 @@
     {
       "query": "agent",
       "offset": 40,
-      "rows": 5,
+      "rows": 6,
       "state": "LIST_OBTAINED"
     }
   ],
-  "source_role_ids_in_this_run": 17,
-  "strong_history_id_suppressed": 15,
+  "source_role_ids_in_this_run": 16,
+  "strong_history_id_suppressed": 16,
   "failed_details": 0
 }
