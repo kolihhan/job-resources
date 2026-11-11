@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T07:19:00.919699Z",
+    "at": "2026-11-11T11:57:15.037704Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 1,
-      "observed": 1
+      "new_pending": 3,
+      "observed": 3
     }
   },
   "market": "CN",
-  "next_seq": 78,
+  "next_seq": 81,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1039,6 +1039,74 @@
       "state": "UNVERIFIED_INDEX",
       "title": "BPS & AI engineer_PS",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000126459016-bps-ai-engineer-ps"
+    },
+    {
+      "ats_key": "jobpro:alibaba:199907700029",
+      "company": "alibaba",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-11T11:57:15.037607Z",
+      "key": "cn:f7f38aa1eb49f3270bca",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "北京 / 杭州",
+      "retries": 0,
+      "seq": 78,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "199907700029",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "算法工程师-多模态AIGC",
+      "url": "https://campus-talent.alibaba.com/campus/position/199907700029"
+    },
+    {
+      "ats_key": "jobpro:bytedance:7665619476465879349",
+      "company": "bytedance",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-11T11:57:15.037667Z",
+      "key": "cn:50b09efd0d5906f0daa9",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "北京",
+      "retries": 0,
+      "seq": 79,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "7665619476465879349",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI量子化学研究员 - AI for Science",
+      "url": "https://jobs.bytedance.com/campus/position/7665619476465879349/detail"
+    },
+    {
+      "ats_key": "jobpro:bytedance:7628896431759231285",
+      "company": "bytedance",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-11T11:57:15.037692Z",
+      "key": "cn:24086b45c6b6644d0290",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "杭州",
+      "retries": 0,
+      "seq": 80,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "7628896431759231285",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "抖音多业务场景的大模型训练与应用-抖音AI",
+      "url": "https://jobs.bytedance.com/campus/position/7628896431759231285/detail"
     }
   ],
   "terminal": [
