@@ -154,6 +154,103 @@ def enrich_market(state, manifest, fetch=get_public_json, *, now=None, max_parts
     return report
 
 
+
+def enrich_cn_jobpro(state: dict, batch: dict, *, now=None) -> dict:
+    """Import ONLY exact public-employer JD evidence into existing CN Pending.
+
+    This never creates Issues, applicant decisions, or terminal receipts.
+    Producer job-pro detail returns employer-authored role text from official
+    recruiting APIs, not native BOSS/牛客 or third-party listing snippets.
+    """
+    validate_state(state, "CN")
+    report = {"market": "CN", "source": "jobpro-public-employer-detail",
+              "matched_exact": 0, "full_jd_imported": 0,
+              "skipped_stale": 0, "invalid": 0}
+    if (not isinstance(batch, dict) or batch.get("version") != 1
+            or batch.get("source") != "jobpro-public-employer-detail"
+            or not isinstance(batch.get("jobs"), list)):
+        report["source_state"] = "MISSING_OR_INCOMPATIBLE_PUBLIC_SOURCE"
+        return report
+
+    utc_now = now or datetime.now(timezone.utc)
+    if utc_now.tzinfo is None:
+        raise ValueError("now must be timezone-aware")
+    # Canonical URL is never enough by itself for a first-party JD: require
+    # exact source adapter, job ID, employer and stable title to all match.
+    indexed = {}
+    for row in state["pending"]:
+        if row.get("source") == "jobpro:public-employer-api:CN":
+            indexed.setdefault(row.get("url"), []).append(row)
+
+    for item in batch["jobs"][:120]:
+        if not isinstance(item, dict) or item.get("source") != "jobpro-public-employer-detail":
+            report["invalid"] += 1
+            continue
+        url = item.get("url")
+        company = item.get("company_key")
+        job_id = str(item.get("job_id") or "")
+        title = item.get("title")
+        if (not isinstance(url, str) or canonical(url, "CN") != url
+                or not isinstance(company, str) or not re.fullmatch(r"[a-z0-9_-]{2,40}", company)
+                or not re.fullmatch(r"[0-9]{10,20}", job_id)
+                or not isinstance(title, str) or not title.strip()
+                or item.get("full_jd_complete") is not True
+                or item.get("description_truncated") is not False):
+            report["invalid"] += 1
+            continue
+
+        matches = [
+            row for row in indexed.get(url, [])
+            if row.get("source_job_id") == job_id
+            and row.get("ats_key") == f"jobpro:{company}:{job_id}"
+            and str(row.get("company", "")).casefold().strip() == company
+            and normal_title(row.get("title")) == normal_title(title)
+        ]
+        if len(matches) != 1:
+            continue
+        report["matched_exact"] += 1
+        row = matches[0]
+        prior = row.get("consumer_review") or {}
+        if prior.get("full_jd_complete") is True and prior.get("full_jd_text"):
+            continue
+
+        checked = parse_date(item.get("checked_at"))
+        if (checked is None or checked.tzinfo is None
+                or checked > utc_now + timedelta(minutes=5)
+                or utc_now - checked > timedelta(hours=8)):
+            report["skipped_stale"] += 1
+            continue
+
+        desc = item.get("description_text")
+        req = item.get("requirements_text")
+        full = item.get("full_jd_text")
+        if (not isinstance(desc, str) or len(desc.strip()) < 70
+                or not isinstance(req, str) or len(req.strip()) < 45
+                or not isinstance(full, str) or not 230 <= len(full) <= MAX_JD_CHARS
+                or desc not in full or req not in full):
+            report["invalid"] += 1
+            continue
+
+        row["consumer_review"] = {
+            **prior,
+            "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW",
+            "source_kind": "job-pro direct public employer recruiting API",
+            "checked_at": checked.isoformat(),
+            "full_jd_complete": True,
+            "full_jd_text": full,
+            "jd_chars": len(full),
+            "jd_sha256": hashlib.sha256(full.encode("utf-8")).hexdigest(),
+            "source_verified_can_apply": False,
+            "review_flags": sorted(set(prior.get("review_flags") or [])
+                                   | {"CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"}),
+            "note": ("Full employer-authored description and requirements from "
+                     "exact public API job ID; live route, eligibility and prior "
+                     "application still require private Scout verification."),
+        }
+        report["full_jd_imported"] += 1
+    validate_state(state, "CN")
+    return report
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo", type=Path, default=Path("."))
