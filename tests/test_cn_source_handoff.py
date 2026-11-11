@@ -71,6 +71,36 @@ class SourceHandoffTests(unittest.TestCase):
         self.assertEqual(row["job_id"],"1960468101")
         self.assertEqual(manifest["candidate_count"],2)
 
+    def test_jobpro_official_ai_roles_enter_existing_cn_pending_transport(self):
+        m = load()
+        roles = [
+            {"company_key": "bytedance", "post_id": "7668351902195009845",
+             "title": "Agent后端开发工程师",
+             "apply_url": "https://jobs.bytedance.com/campus/position/7668351902195009845/detail",
+             "work_cities": "上海"},
+            {"company_key": "tencent", "post_id": "1282707398326592512",
+             "title": "AI全栈工程师",
+             "apply_url": "https://join.qq.com/post_detail.html?postid=1282707398326592512",
+             "work_cities": "深圳"},
+            {"company_key": "nio", "post_id": "7673026953792522522",
+             "title": "大模型 Agent 工程师",
+             "apply_url": "https://nio.jobs.feishu.cn/campus/position/7673026953792522522/detail"},
+            {"company_key": "unknown", "post_id": "123456789012",
+             "title": "普通运营",
+             "apply_url": "https://company.example/jobs/123456789012"},
+        ]
+        manifest, shards = m.build_handoff({"jobs": []}, {"jobs": roles}, {}, "jobpro")
+        snapshot = m.native_queue_snapshot(shards)
+        self.assertEqual(manifest["candidate_count"], 3)
+        self.assertEqual(len(snapshot["jobs"]), 3)
+        self.assertEqual({r["source_job_id"] if "source_job_id" in r else r["job_id"]
+                          for r in snapshot["jobs"]},
+                         {"7668351902195009845", "1282707398326592512", "7673026953792522522"})
+        self.assertTrue(all(r["evidence"] == "listing_only" for r in snapshot["jobs"]))
+        self.assertTrue(all(r["source"] == "jobpro:public-employer-api:CN" for r in snapshot["jobs"]))
+        self.assertTrue(any("postid=1282707398326592512" in r["url"] for r in snapshot["jobs"]))
+        self.assertTrue(all("full_jd_text" not in r for r in snapshot["jobs"]))
+
     def test_blank_identity_cannot_enter_queue(self):
         m = load()
         self.assertIsNone(m.project_liepin({"title": "AI Engineer", "url": "https://example.com"}))
