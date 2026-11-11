@@ -1719,7 +1719,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-09T16:57:31.156069Z",
       "key": "my:0832d3c0a745b4f3ebed",
-      "last_error": "Exact active JobStreet application form for AI Engineer (R&D) not verified; see Issue #383 CHECK.",
+      "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Puchong, Selangor",
@@ -1734,12 +1734,13 @@
       "title": "AI Engineer (R&D)",
       "url": "https://my.jobstreet.com/job/95661869",
       "issue_url": "https://github.com/kolihhan/job-resources/issues/383",
-      "evidence_url": "https://github.com/kolihhan/job-resources/issues/383",
-      "reason": "2026-11-11 lifecycle repair: previously hard-rejected solely on obsolete MY TOP/salary judgement; corresponding existing Issue #383 has been reopened as CHECK with revised substantive LLM systems fit. This source ID is linked to that existing Issue, NOT proof of a ready-to-apply route or a new opportunity.",
-      "review_retry": {
+      "evidence_url": "https://my.jobstreet.com/job/95661869",
+      "reason": "2026-11-11 reconciled with existing Issue #383 (APPLY), after direct current JobStreet role 95661869 showed full JD and Quick apply URL /job/95661869/apply. Prior salary-only HARD_REJECTED was invalid. NOT a newly created Issue; not submitted, no applicant-side login verification.",
+      "scout_review": {
         "checked_at": "2026-11-11",
-        "decision": "RETRY",
-        "missing_evidence": "Exact current JobStreet AI Engineer (R&D) active application ID/form, without confusing the separate AI Engineer (Solution) application."
+        "decision": "EXISTING_ISSUE_VERIFIED",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/383",
+        "source": "Exact live JobStreet role+Quick apply; user has not authorized application"
       }
     },
     {
