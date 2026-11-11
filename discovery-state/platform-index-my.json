@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T23:16:08.439907Z",
-    "source": "freehirefetch:official-ats:MY",
+    "at": "2026-11-11T02:54:38.574156Z",
+    "source": "public-web-index-manual-pilot-2026-11-07",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 2,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 7,
-      "observed": 7
+      "new_pending": 0,
+      "observed": 2
     }
   },
   "market": "MY",
