@@ -1519,7 +1519,14 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, QC Automation",
-      "url": "https://jobs.ashbyhq.com/Clera/0890b84c-3391-457c-b762-4d42e558acc9"
+      "url": "https://jobs.ashbyhq.com/Clera/0890b84c-3391-457c-b762-4d42e558acc9",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T02:04:05+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Current live employer Ashby application route for exact Clera requisition 0890b84c-3391-457c-b762-4d42e558acc9: full first-party JD is saved, sponsorship explicitly available, no same-title GitHub Issue or Gmail receipt found in both accounts, but direct employer page returned inaccessible/error on 2026-11-12. Verify exact live Apply form before promotion; 2-4 years QC automation experience is stretch, not automatic rejection."
+      }
     }
   ],
   "terminal": [
