@@ -248,3 +248,40 @@ The intended improvements are:
 - aggregators increasingly discovering **new employers/gaps** instead of repeatedly rediscovering known employers.
 
 No new dashboard or tracker is required to measure this. Use concrete scout evidence and the existing daily strategy review when a source-routing failure is material.
+
+---
+
+## 10. Deep-search evidence and application-truth contract (2026-11-12)
+
+This section applies the two-stage breadth/verification audit to the **existing** hourly Scouts and morning application queue. RULES.md and PROFILE.md remain authoritative. Crucial correction: **do not block verification of an urgent high-fit role while waiting for an entire massive query matrix**. Broad coverage and exact-role verification are separate, concurrent work queues; incomplete breadth remains visibly PARTIAL.
+
+### A. Breadth collection: demonstrate real depth
+
+- Rotate the six market/source groups as coverage cycles: SG-1 (university, A*STAR, labs and PI); SG-2 (LinkedIn, JobStreet, Indeed and MCF as discovery only); SG-3 (industry ATS and academic aggregators); CN-1 (BOSS, 牛客, 猎聘, 智联, 51job); CN-2 (company-native ATS); CN-3 (universities, CAS, institutes, PI/lab research hiring). MY retains its existing smaller destination-quality rotation. No new spreadsheet or second job queue.
+- SG planned query families: Research Engineer/Associate/Assistant/Officer, Applied Scientist, AI/ML/NLP/LLM Engineer, Search/Retrieval Engineer, crossed with LLM/NLP/RAG/retrieval/KG/agent/agentic/evaluation/benchmark/generative AI/foundation model/dialogue. CN planned families: 研究工程师/科研助理/算法工程师/大模型工程师/Agent开发/知识工程 x 大模型/RAG/知识图谱/智能体/评测/NLP/对话 x 北京/上海/深圳/杭州/广州/成都/南京/武汉/合肥/西安, without excluding other strong cities. **Plan slices deterministically over multiple runs**; do not pretend thousands of queries were executed in one hourly Scout.
+- For each *actually scheduled* platform query, attempt page 2 after page 1 and up to 5 accessible result pages, stopping early only at a real end of results, a verified date cutoff, or 2 consecutive real pages with no new relevant titles. Report the exact reason and every page actually observed. One page alone, an index snippet or a public API count is never evidence of deep native scanning.
+- Target **at least 150 distinct visible titles per broad platform per deep-coverage cycle**; this is not an hourly quota and cannot justify fabricated browsing. For a smaller first-party university/lab/ATS list, record all truly visible active titles instead and its actual denominator. If target/query matrix is incomplete, label coverage PARTIAL. Unsupported JS/login/CAPTCHA is BLOCKED or INDEX_ONLY, not zero jobs or COMPLETE. NOT_RUN means not attempted.
+- First-party career sites must be explored by actual department, research institute, category and list pagination where accessible. Labs/PI current hiring pages must be checked for genuinely open employee RA/RE routes, not merely keyword-searched once. Stage A is permissive: retain strong content hints even when title or years are unclear; nothing collected in Stage A is verified APPLY.
+- **Per-slice evidence required:** timestamp, market/group, named platform, access mode (NATIVE_LIST / OFFICIAL_LIST / ATS / INDEX_ONLY / API_PROXY / BLOCKED), exact query/filters and observed list/page URLs, pages truly read, distinct titles truly seen, leads and exact IDs, factual stop reason, planned-vs-run query slices, and COMPLETE/PARTIAL/BLOCKED/NOT_RUN. Reuse existing run reports/CI artifacts for the ledger and existing DISCOVERY_STATE.md only for bounded rotation cursors; no independent tracker.
+
+### B. Exact JD verification: continuous, selective, evidence-first
+
+- Run verification concurrently with breadth collection. Prioritize high-fit, urgent-deadline and genuinely new candidates; 15 deep checks is a **per-batch budget**, never a global cap or a reason to discard remaining candidates.
+- For each exact role, verify original employer/PI full JD, 1-2 short verbatim content excerpts, current official page and live usable Apply/email/recruiter route, date/deadline, cohort, real degree and professional years, contract terms and research exception where applicable, work-authorization statement or literal UNKNOWN. Do not label an employer snippet or aggregator paraphrase a full official JD.
+- Separate five concepts: role existence, complete JD, current application route, hard eligibility, and submitted application. One does not prove another. An unspecified visa clause is **not** affirmative sponsorship. Do not infer AI technical ownership or rejection from job title alone. Fixed-term GOLD academic research may qualify under RULES.md section 5; generic labour dispatch, temporary staffing and admin-heavy research does not.
+- Lack of a usable original/official full JD is SOURCE_GAP or UNVERIFIED, not a reasonless hard reject or a fake VERIFIED. Preserve leads for bounded retry.
+
+### C. Deduplication: never mistake absent ID for absent application
+
+- Search **all open and closed GitHub Issues first** by canonical exact requisition/URL and employer+title+team. Then inspect **both Gmail accounts** using exact IDs **and** full/translated title, employer, official sender/application contact, generic ATS acknowledgements and older/newer correspondence. Latest user-confirmed submission or official receipt supersedes stale Issue paragraphs saying APPLY.
+- A receipt may name a role but omit its requisition ID: the TikTok LLM Strategy role was misclassified when only its ID was searched. Sea has multiple generic AI Engineer receipts with unresolved requisition identity. **No exact-ID email hit is not proof never applied.** Record ambiguity, avoid duplicate submissions and check the candidate portal when necessary. Conversely, other roles at the same employer are not automatically duplicates.
+- Explicit application receipt or user confirmation -> WAIT; real interview/assessment/recruiter request -> ACTION. For a viable candidate with meaningful cross-source dedupe but no matching evidence, say **no prior application evidence found**, not **definitely never applied**. A single remaining material identity uncertainty -> CHECK; no blind reapplication.
+- Before any candidate-facing new APPLY, require exact employer JD, live route, fit/eligibility, both-mailbox and all-state Issue review, then create the GitHub Issue with a matching label and **read it back**. Actual send is separately authorized under RULES.md; an APPLY Issue is not a sent application.
+
+### D. Measurable outcomes and failure signals
+
+Report separately: RAW_LEADS, unique source IDs, visible titles/pages, full employer JDs actually inspected, exact-role duplicates/WAIT, hard rejects with quoted reason, blocked/partial platform coverage, newly read-back APPLY, CHECK with one blocker, and applicant actions. Include exact Issue/official URLs, real deadlines, and pending evidence gaps.
+
+**Never say a market/group is fully scanned** while its planned matrix, official lists, or blocked sources remain incomplete. **Never claim a positive result** from healthy automation schedules, 45 Pending jobs, 100 raw titles, 300 commits, or a report with no new qualified application opportunity. Zero new APPLY is valid when evidence supports zero, but requires a candid bottleneck report and the next exact unreviewed candidates.
+
+The final applicant-facing deliverable is **verified open + eligible + no matching prior submission evidence + usable route**. Broad source coverage is an auditable means to that outcome, not the outcome itself.
