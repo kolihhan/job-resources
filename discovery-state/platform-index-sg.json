@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T03:03:52.215716Z",
+    "at": "2026-11-11T04:03:27.904645Z",
     "source": "freehirefetch:official-ats:SG",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 2,
-      "observed": 2
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "SG",
-  "next_seq": 120,
+  "next_seq": 121,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -228,20 +228,20 @@
       "prior_wait_employer_hint": true,
       "query": "Hong Kong; Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T12:01:35+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Binance Greenhouse 5002575101 current live application form could not be accessed (direct page error); official source JD exists, but historical WAIT #879 is different 5002729101 and generic Binance Gmail receipt cannot establish exact alias.",
+        "status": "RETRY"
+      },
       "seq": 38,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "5002575101",
       "state": "UNVERIFIED_INDEX",
       "title": "Pioneer Talent Program - Applied Data Scientist",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101",
-      "scout_review": {
-        "checked_at": "2026-11-11T12:01:35+08:00",
-        "status": "RETRY",
-        "ack": false,
-        "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact Binance Greenhouse 5002575101 current live application form could not be accessed (direct page error); official source JD exists, but historical WAIT #879 is different 5002729101 and generic Binance Gmail receipt cannot establish exact alias."
-      }
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101"
     },
     {
       "ats_key": "binance|greenhouse|5002635101",
@@ -1434,6 +1434,35 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer/Senior Research Engineer (Computer Science / Data Science / Information Science / Digital Humanities)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-Senior-Research-Engineer--Computer-Science---Data-Science---Information-Science---Digital-Humanities-_R00025774"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Salary: SGD 5500 - 10000 per month</p><strong>AI Engineer (LLM | RAG | AWS)</strong><br><br> <strong>About the Role</strong><br><ul><li>Salary up to $10000 + Bonus</li><li>Opportunity to work on cutting-edge Generative AI initiatives.</li><li>Be part of a team driving AI innovation in Singapore</li></ul>Our client, a government agency in Singapore, is looking for a <strong>AI Engineer</strong> to build AI-powered applications using Large Language Models (LLMs), RAG and agentic AI. You will work with business stakeholders to develop innovative AI solutions from Proof of Concept (POC) through production deployment.<br><br> <strong>Key Responsibilities</strong><br><ul><li>Design and develop GenAI applications using OpenAI, Google Gemini, AWS Bedrock or similar platforms.</li><li>Build full-stack applications, APIs and system integrations.</li><li>Implement RAG pipelines, embeddings, vector search and agentic workflows.</li><li>Deploy AI solutions on AWS (Lambda, ECS/Fargate, API Gateway, DynamoDB, etc.).</li><li>Work with stakeholders to understand business needs and deliver AI solutions.</li><li>Evaluate new AI technologies and recommend innovative use cases.</li><li>Optimise, document and support AI applications for production.</li></ul><strong>Requirements</strong><br><ul><li>Strong programming skills in <strong>Python</strong> and/or <strong>JavaScript/TypeScript</strong>.</li><li>Hands-on experience with LLMs, prompt engineering, RAG and AI APIs.</li><li>Experience with AWS cloud services, Docker, Git and CI/CD.</li><li>Familiar with AI agents, tool calling and workflow orchestration.</li><li>Good problem-solving and communication skills.</li></ul><strong>Nice to Have</strong><br><ul><li>Experience with React, Next.js, FastAPI, Streamlit or Node.js.</li><li>Experience deploying production AI applications or working with vector databases.</li></ul><br>By submitting your resume, you consent to the collection, use, and disclosure of your personal information per ScienTec’s Privacy Policy (scientecconsulting.com/privacy-policy).<br>This authorizes us to:<br><ul><li>Contact you about potential opportunities.</li><li>Delete personal data as it is not required at this application stage.</li></ul>All applications will be processed with strict confidence. Only shortlisted candidates will be contacted.<br>Kenwi Goh Jian Wee – R26159880<br>ScienTec Consulting Pte Ltd - 11C5781",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-llm-rag-aws-scientec-consulting-bkw5g7ll",
+      "company": "ScienTec Consulting",
+      "description_excerpt": "<p>Salary: SGD 5500 - 10000 per month</p><strong>AI Engineer (LLM | RAG | AWS)</strong><br><br> <strong>About the Role</strong><br><ul><li>Salary up to $10000 + Bonus</li><li>Opportunity to work on cutting-edge Generative AI initiatives.</l",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T04:03:27.904623Z",
+      "key": "sg:df3b2f74c628059e6ed2",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Central Region",
+      "retries": 0,
+      "seq": 120,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-llm-rag-aws-scientec-consulting-bkw5g7ll",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer (LLM | RAG | AWS)",
+      "url": "https://sg.jobstreet.com/job/95705908"
     }
   ],
   "terminal": [
@@ -3996,20 +4025,20 @@
       "prior_wait_employer_hint": true,
       "query": "Fab 10W, Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-11T12:01:35+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence": "First-party Micron JD (full_jd_complete, 2026-11-10) explicitly: 'You must have successfully designed and deployed AI agents that collaborate across multiple platforms, systems, and business functions while operating within enterprise governance, security, and compliance standards.' Also requires deep HR technology Workday/ServiceNow/Microsoft Copilot expertise. Candidate's production history is Laravel/Vue backend, not deployed enterprise AI agents; mandatory fit mismatch. Exact JR109599 separate from applied JR106129 and rejected JR111136; GitHub all-state exact ID and both Gmail targeted searches did not show JR109599 submission.",
+        "source_key": "sg:1afd8badced7647d356c"
+      },
       "seq": 56,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "/job/Fab-10W-Singapore/AI-Engineer_JR109599",
       "state": "HARD_REJECTED",
       "title": "AI Engineer",
-      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/AI-Engineer_JR109599",
-      "scout_review": {
-        "checked_at": "2026-11-11T12:01:35+08:00",
-        "decision": "HARD_REJECTED",
-        "ack": true,
-        "evidence": "First-party Micron JD (full_jd_complete, 2026-11-10) explicitly: 'You must have successfully designed and deployed AI agents that collaborate across multiple platforms, systems, and business functions while operating within enterprise governance, security, and compliance standards.' Also requires deep HR technology Workday/ServiceNow/Microsoft Copilot expertise. Candidate's production history is Laravel/Vue backend, not deployed enterprise AI agents; mandatory fit mismatch. Exact JR109599 separate from applied JR106129 and rejected JR111136; GitHub all-state exact ID and both Gmail targeted searches did not show JR109599 submission.",
-        "source_key": "sg:1afd8badced7647d356c"
-      }
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/AI-Engineer_JR109599"
     }
   ],
   "version": 1
