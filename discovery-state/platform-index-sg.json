@@ -753,7 +753,13 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Solution Engineer (LLM & Agentic AI)",
-      "url": "https://sg.jobstreet.com/job/95287266"
+      "url": "https://sg.jobstreet.com/job/95287266",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "checked_at": "2026-11-11T11:00:00+08:00",
+        "missing_evidence": "Exact Evonik R52181 first-party JD and current employer application route have not been verified against JobStreet source 95287266."
+      }
     },
     {
       "api_source_context": {
@@ -1232,7 +1238,13 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "#EG Platform AI Engineer",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001031326"
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001031326",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "checked_at": "2026-11-11T11:00:00+08:00",
+        "missing_evidence": "Exact NCS SmartRecruiters 6000000001031326 JD and live apply route are inaccessible; indexed 6000000000981978 is a different requisition and cannot substitute."
+      }
     },
     {
       "api_source_context": {
@@ -1391,7 +1403,13 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "Production Support Engineer — LLM Platform",
-      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002"
+      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "checked_at": "2026-11-11T11:00:00+08:00",
+        "missing_evidence": "Exact Qube Greenhouse requisition 8759003002 employer JD and current application form are inaccessible; employer board is accessible but does not verify this exact role."
+      }
     }
   ],
   "terminal": [
