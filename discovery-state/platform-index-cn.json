@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T03:03:21.937802Z",
+    "at": "2026-11-11T04:13:34.258953Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 2,
-      "observed": 2
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "CN",
-  "next_seq": 75,
+  "next_seq": 76,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1090,6 +1090,42 @@
       "state": "UNVERIFIED_INDEX",
       "title": "面向大模型与AI Agent的AI云原生基础设施关键技术研究-SRE（北京/杭州）",
       "url": "https://jobs.bytedance.com/campus/position/7628143430628919557/detail"
+    },
+    {
+      "ats_key": "jobpro:alibaba:199907620045",
+      "company": "alibaba",
+      "consumer_review": {
+        "checked_at": "2026-11-11T04:11:08.160304+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "岗位职责 / Responsibilities\n1.负责面向大模型推理场景的通用后端运行时系统研究与架构设计，核心目标是构建引擎无关的系统层，统一管理推理进程状态、模型权重生命周期与GPU设备资源；\n2.研究并优化推理进程的高效快照与恢复机制，在Linux CRIU基础上针对GPU推理进程进行深度定制，推动关键路径逼近PCIe/RDMA硬件带宽极限；\n3.设计模型权重的跨进程、跨实例共享机制，支撑多模型混部、热升级、弹性扩缩容等生产场景下的零拷贝权重复用；\n4.与百炼推理平台团队紧密协作，将后端运行时能力落地到模型上下线、故障恢复、跨可用区调度等真实业务链路，形成可量化的成本与弹性收益。\n任职要求 / Requirements\n1.2027届毕业生，计算机科学、软件工程或相关专业，研究方向涉及操作系统、高性能计算或AI基础设施\n2.扎实的系统编程能力，精通C/C++，对Linux内核机制（进程管理、内存管理、cgroup/namespace）有深入理解\n3.熟悉以下至少一项：进程checkpoint/restore（如CRIU）、GPU编程与CUDA Runtime内部机制、容器/虚拟化技术、高性能I/O（RDMA/DMA/PCIe）、推理框架（如SGLang）、kvcache（如Mooncake）\n\n加分项：\n1.在OSDI/SOSP/EuroSys/ATC/ASPLOS/NSDI等系统顶会有论文发表；\n2.有CRIU、Linux内核、GPU驱动或虚拟化相关的开源贡献经验；\n3.熟悉LLM推理系统架构（vLLM/SGLang/TRT-LLM），理解推理进程的运行时行为特征；\n4. 有GPU显存管理、CUDA VMM、Multi-Process Service等GPU系统层面的研发经验。",
+        "jd_chars": 756,
+        "jd_sha256": "2dfaf8ad31b22521e9c635ce21c996ff3a61bfbde68d34b3abb98d5773194fcf",
+        "note": "Full employer-authored description and requirements from exact public API job ID; live route, eligibility and prior application still require private Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "job-pro direct public employer recruiting API",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-11T04:13:34.258920Z",
+      "key": "cn:f130d66ed66d859dfa48",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "北京 / 上海",
+      "retries": 0,
+      "seq": 75,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "199907620045",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "面向大模型推理的通用后端运行时系统研究-阿里星/A Star",
+      "url": "https://campus-talent.alibaba.com/campus/position/199907620045"
     }
   ],
   "terminal": [
@@ -2016,12 +2052,14 @@
       },
       "description_excerpt": "",
       "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "evidence_url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7657507612519483702/detail",
       "first_seen_at": "2026-11-11T03:03:21.937738Z",
       "key": "cn:203f9bf78549e649ce83",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "上海",
+      "reason": "Employer-authored official job-pro JD (checked 2026-11-11 UTC) explicitly requires 5+ years professional backend development plus production ASR/TTS/Omni streaming and GPU inference optimization. Candidate is early-career and lacks the mandatory 5-year specialised backend floor; not eligible under RULES.md §4. This is an evidence-backed rejection, not an application.",
       "retries": 0,
       "seq": 73,
       "source": "jobpro:public-employer-api:CN",
@@ -2031,9 +2069,7 @@
       "source_platform": "企业官方招聘入口 (job-pro)",
       "state": "HARD_REJECTED",
       "title": "语音大模型后端工程师",
-      "url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7657507612519483702/detail",
-      "reason": "Employer-authored official job-pro JD (checked 2026-11-11 UTC) explicitly requires 5+ years professional backend development plus production ASR/TTS/Omni streaming and GPU inference optimization. Candidate is early-career and lacks the mandatory 5-year specialised backend floor; not eligible under RULES.md §4. This is an evidence-backed rejection, not an application.",
-      "evidence_url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7657507612519483702/detail"
+      "url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7657507612519483702/detail"
     }
   ],
   "version": 1
