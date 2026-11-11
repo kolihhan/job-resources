@@ -1530,34 +1530,6 @@
       "ai_score": 12,
       "ai_signals": [
         "title:llm",
-        "title:nlp",
-        "title:data_science",
-        "jd:fine_tuning"
-      ],
-      "company": "Binance",
-      "created_at": "2026-10-14T06:00:39Z",
-      "description_excerpt": "<div><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world.</p></div><p><br>About the Role",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "binance:5002635101",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/llm-applied-data-scientist-rag-nlp-binance-zmpwigok",
-      "identity": "llm-applied-data-scientist-rag-nlp-binance-zmpwigok",
-      "known_match_basis": "company_title",
-      "known_status": "suspected_known",
-      "location": "Hong Kong; Singapore",
-      "market": "SG",
-      "posted_at": "2026-11-05T10:11:53Z",
-      "public_slug": "llm-applied-data-scientist-rag-nlp-binance-zmpwigok",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101?utm_source=freehire.me",
-      "title": "LLM Applied Data Scientist (RAG/ NLP)"
-    },
-    {
-      "ai_score": 12,
-      "ai_signals": [
-        "title:llm",
         "title:genai",
         "jd:genai",
         "jd:agent"
@@ -68423,8 +68395,8 @@
       "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-11T00:55:34.417674Z",
-  "known_exact_count": 38,
+  "generated_at": "2026-11-11T08:27:24.173160Z",
+  "known_exact_count": 39,
   "machine_candidate_counts": {
     "CN": 771,
     "MY": 270,
@@ -68449,9 +68421,9 @@
       "unseen": 251
     },
     "SG": {
-      "known_exact": 17,
+      "known_exact": 18,
       "source": 1496,
-      "suspected_known": 23,
+      "suspected_known": 22,
       "unseen": 1456
     }
   },
@@ -68460,10 +68432,10 @@
     "MY": 4599,
     "SG": 14113
   },
-  "review_count": 2499,
+  "review_count": 2498,
   "source_count": 2537,
   "source_generated_at": "2026-11-10T23:41:44.821015Z",
-  "suspected_known_count": 54,
+  "suspected_known_count": 53,
   "title_hard_drop_counts": {
     "CN": 604,
     "MY": 675,
