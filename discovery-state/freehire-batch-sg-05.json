@@ -6,52 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1146,
-      "company": "KOPI RECRUIT PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93490982",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T11:20:01Z",
-      "public_slug": "senior-data-engineer-ai-driven-data-pipelines-insights-kopi-recruit-pte-ltd-vls22rvv",
-      "role_key": "freehire:senior-data-engineer-ai-driven-data-pipelines-insights-kopi-recruit-pte-ltd-vls22rvv",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490982__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer: AI-Driven Data Pipelines & Insights"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1147,
-      "company": "TIKTOK PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93490620",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T11:19:59Z",
-      "public_slug": "big-data-engineer-scalable-ml-recommendation-infra-tiktok-pte-ltd-hvabnjbx",
-      "role_key": "freehire:big-data-engineer-scalable-ml-recommendation-infra-tiktok-pte-ltd-hvabnjbx",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490620__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Big Data Engineer: Scalable ML & Recommendation Infra"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1149,
       "company": "UIC ASIAN COMPUTER SERVICES PTE LTD",
       "employment_type": null,
@@ -177,14 +131,59 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93489680__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Backend Engineer, Application Computing (Data + AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1156,
+      "company": "Univers",
+      "employment_type": null,
+      "external_id": "univers:5e3cd0dda3ac01",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T02:16:58Z",
+      "public_slug": "ai-engineer-univers-n3ugv5pg",
+      "role_key": "freehire:ai-engineer-univers-n3ugv5pg",
+      "source": "breezy",
+      "source_url": "https://univers.breezy.hr/p/5e3cd0dda3ac01-ai-engineer?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1157,
+      "company": "Univers",
+      "employment_type": null,
+      "external_id": "univers:9e9d41dbbb1901",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T01:58:39Z",
+      "public_slug": "senior-full-stack-engineer-ai-univers-7kvjf6kl",
+      "role_key": "freehire:senior-full-stack-engineer-ai-univers-7kvjf6kl",
+      "source": "breezy",
+      "source_url": "https://univers.breezy.hr/p/9e9d41dbbb1901-senior-full-stack-engineer-ai?utm_source=freehire.me",
+      "title": "Senior Full Stack Engineer (AI)"
     }
   ],
-  "generated_at": "2026-11-10T20:38:09.071367Z",
+  "generated_at": "2026-11-11T00:55:34.804227Z",
   "market": "SG",
-  "max_candidate_seq": 1155,
-  "min_candidate_seq": 1146,
+  "max_candidate_seq": 1157,
+  "min_candidate_seq": 1149,
   "shard_index": 5,
-  "source_generated_at": "2026-11-10T01:45:20.015817Z",
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

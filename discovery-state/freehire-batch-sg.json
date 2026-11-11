@@ -2,11 +2,11 @@
   "batch_size": 200,
   "candidate_count": 200,
   "cursor_before": 1085,
-  "generated_at": "2026-11-10T20:38:09.071367Z",
+  "generated_at": "2026-11-11T00:55:34.804227Z",
   "market": "SG",
-  "max_candidate_seq": 1417,
+  "max_candidate_seq": 1431,
   "max_shard_bytes": 8000,
-  "remaining_after_batch": 450,
+  "remaining_after_batch": 482,
   "shard_count": 24,
   "shard_size": 25,
   "shards": [
@@ -35,7 +35,7 @@
     "freehire-batch-sg-23.json",
     "freehire-batch-sg-24.json"
   ],
-  "source_generated_at": "2026-11-10T01:45:20.015817Z",
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

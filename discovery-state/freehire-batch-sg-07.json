@@ -4,93 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1178,
-      "company": "UIC Asian Computer Services Pte Ltd",
-      "employment_type": null,
-      "external_id": "6290:95245670",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-13T06:53:35Z",
-      "public_slug": "ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
-      "role_key": "freehire:ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95245670?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1179,
-      "company": "UParcel",
-      "employment_type": null,
-      "external_id": "6290:95242605",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "North-East Region",
-      "market": "SG",
-      "posted_at": "2026-10-13T02:23:00Z",
-      "public_slug": "senior-ai-and-software-engineer-uparcel-v4xjvdkz",
-      "role_key": "freehire:senior-ai-and-software-engineer-uparcel-v4xjvdkz",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95242605?utm_source=freehire.me",
-      "title": "Senior AI and Software Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1180,
-      "company": "Fuku",
-      "employment_type": null,
-      "external_id": "fuku:5466DA8A5E",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-13T00:00:00Z",
-      "public_slug": "machine-learning-quantitative-researcher-crypto-derivatives-fuku-xpfxxlsy",
-      "role_key": "freehire:machine-learning-quantitative-researcher-crypto-derivatives-fuku-xpfxxlsy",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/5466DA8A5E?utm_source=freehire.me",
-      "title": "Machine Learning Quantitative Researcher - Crypto Derivatives"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1181,
-      "company": "Fuku",
-      "employment_type": null,
-      "external_id": "fuku:37F5D4D070",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-13T00:00:00Z",
-      "public_slug": "ai-engineer-fuku-aaa62ijb",
-      "role_key": "freehire:ai-engineer-fuku-aaa62ijb",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/37F5D4D070?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ml"
       ],
       "candidate_seq": 1184,
@@ -180,14 +93,98 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93159747__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Full Stack Developer — AI and Cloud-Native Applications"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1190,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "backend developer:93158767",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T11:20:33Z",
+      "public_slug": "global-live-backend-engineer-ai-driven-infrastructure-tiktok-kxjhjr7z",
+      "role_key": "freehire:global-live-backend-engineer-ai-driven-infrastructure-tiktok-kxjhjr7z",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93158767__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Global Live Backend Engineer - AI-Driven Infrastructure"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1191,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "backend developer:93161620",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T11:20:32Z",
+      "public_slug": "backend-engineer-global-live-ai-infrastructure-singapore-tiktok-4qp6ke55",
+      "role_key": "freehire:backend-engineer-global-live-ai-infrastructure-singapore-tiktok-4qp6ke55",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93161620__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1192,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "backend developer:93160287",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-11T11:20:32Z",
+      "public_slug": "go-backend-engineer-for-speech-ai-platform-tiktok-zocscte6",
+      "role_key": "freehire:go-backend-engineer-for-speech-ai-platform-tiktok-zocscte6",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93160287__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Go Backend Engineer for Speech AI Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1193,
+      "company": "VAST DATA SINGAPORE PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93111626",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:19:16Z",
+      "public_slug": "onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
+      "role_key": "freehire:onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111626__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Onsite AI Data Platform Engineer — Rapid Deployments"
     }
   ],
-  "generated_at": "2026-11-10T20:38:09.071367Z",
+  "generated_at": "2026-11-11T00:55:34.804227Z",
   "market": "SG",
-  "max_candidate_seq": 1189,
-  "min_candidate_seq": 1178,
+  "max_candidate_seq": 1193,
+  "min_candidate_seq": 1184,
   "shard_index": 7,
-  "source_generated_at": "2026-11-10T01:45:20.015817Z",
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

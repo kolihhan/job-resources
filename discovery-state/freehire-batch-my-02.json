@@ -1,0 +1,83 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 3208,
+      "company": "Fuku",
+      "employment_type": null,
+      "external_id": "fuku:E348F9D008",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Johor Bahru, Johor, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-10T00:00:00Z",
+      "public_slug": "ai-platform-engineer-fuku-dbrn3pyc",
+      "role_key": "freehire:ai-platform-engineer-fuku-dbrn3pyc",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/E348F9D008?utm_source=freehire.me",
+      "title": "AI Platform Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3209,
+      "company": "Glocomp Systems",
+      "employment_type": "full_time",
+      "external_id": "6285:95806796",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Selangor",
+      "market": "MY",
+      "posted_at": "2026-11-10T08:37:20Z",
+      "public_slug": "data-ai-solutions-consultant-glocomp-systems-fep4wkrl",
+      "role_key": "freehire:data-ai-solutions-consultant-glocomp-systems-fep4wkrl",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95806796?utm_source=freehire.me",
+      "title": "Data & AI Solutions Consultant"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3210,
+      "company": "HFM",
+      "employment_type": null,
+      "external_id": "hfeu.zohorecruit.eu:50710000033623346",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-06T00:00:00Z",
+      "public_slug": "senior-ai-engineer-marketing-hfm-fkcaicac",
+      "role_key": "freehire:senior-ai-engineer-marketing-hfm-fkcaicac",
+      "source": "zohorecruit",
+      "source_url": "https://hfeu.zohorecruit.eu/jobs/Careers/50710000033623346?utm_source=freehire.me",
+      "title": "Senior AI Engineer - Marketing"
+    }
+  ],
+  "generated_at": "2026-11-11T00:55:34.804227Z",
+  "market": "MY",
+  "max_candidate_seq": 3210,
+  "min_candidate_seq": 3208,
+  "shard_index": 2,
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

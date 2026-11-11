@@ -1,0 +1,143 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3198,
+      "company": "Bjak",
+      "employment_type": "full_time",
+      "external_id": "bjakcareer:40514b9d-01c4-4a7c-9ab4-5f465866536b",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "United States",
+      "market": "CN",
+      "posted_at": "2026-11-10T02:34:39Z",
+      "public_slug": "software-engineer-ai-automation-bjak-ghrpu3xl",
+      "role_key": "freehire:software-engineer-ai-automation-bjak-ghrpu3xl",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/40514b9d-01c4-4a7c-9ab4-5f465866536b?utm_source=freehire.me",
+      "title": "Software Engineer, AI Automation"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3199,
+      "company": "ARM",
+      "employment_type": null,
+      "external_id": "careers.arm.com:103103002448",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-11-10T00:00:00Z",
+      "public_slug": "robotics-ai-solutions-engineer-robotics-ai-solutions-arm-rb2fq7tm",
+      "role_key": "freehire:robotics-ai-solutions-engineer-robotics-ai-solutions-arm-rb2fq7tm",
+      "source": "radancy",
+      "source_url": "https://careers.arm.com/job/shanghai/robotics-ai-solutions-engineer-robotics-ai-solutions/33099/103103002448?utm_source=freehire.me",
+      "title": "Robotics AI Solutions Engineer (Robotics AI Solutions)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3200,
+      "company": "ARM",
+      "employment_type": null,
+      "external_id": "careers.arm.com:102499461264",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-11-10T00:00:00Z",
+      "public_slug": "software-developer-automotive-cockpit-arm-2kmwjmuc",
+      "role_key": "freehire:software-developer-automotive-cockpit-arm-2kmwjmuc",
+      "source": "radancy",
+      "source_url": "https://careers.arm.com/job/shanghai/automotive-ai-solutions-engineer-automotive-ai-solutions/33099/102499461264?utm_source=freehire.me",
+      "title": "Automotive AI Solutions Engineer (Automotive AI Solutions)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:machine_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 3201,
+      "company": "WuXi Biologics",
+      "employment_type": null,
+      "external_id": "wuxibiologics/99960:43e2de30-02ae-4cc0-88b9-1fdbbf231b86",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-11-09T16:00:00Z",
+      "public_slug": "data-scientist-shu-ju-ke-xue-jia-wuxi-biologics-eyvoqhcv",
+      "role_key": "freehire:data-scientist-shu-ju-ke-xue-jia-wuxi-biologics-eyvoqhcv",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/wuxibiologics/99960?utm_source=freehire.me#/job/43e2de30-02ae-4cc0-88b9-1fdbbf231b86",
+      "title": "Data Scientist 数据科学家"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3202,
+      "company": "曦望 Sunrise",
+      "employment_type": null,
+      "external_id": "bcn95a8dacj3.jobs.feishu.cn:7703886836297713970",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Shanghai; Shenzhen; Chengdu; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-03T10:17:49Z",
+      "public_slug": "ai-tui-li-ruan-jian-ce-shi-kai-fa-gong-cheng-shi-xi-wang-sunrise-iwesoa57",
+      "role_key": "freehire:ai-tui-li-ruan-jian-ce-shi-kai-fa-gong-cheng-shi-xi-wang-sunrise-iwesoa57",
+      "source": "feishujobs",
+      "source_url": "https://bcn95a8dacj3.jobs.feishu.cn/index/position/7703886836297713970/detail?utm_source=freehire.me",
+      "title": "AI 推理软件测试开发工程师"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3203,
+      "company": "Qualcomm",
+      "employment_type": null,
+      "external_id": "qualcomm.eightfold.ai/qualcomm.com:446718840435",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-09-29T00:00:00Z",
+      "public_slug": "ai-infrastructure-software-engineer-qualcomm-5zsat4l6",
+      "role_key": "freehire:ai-infrastructure-software-engineer-qualcomm-5zsat4l6",
+      "source": "eightfold",
+      "source_url": "https://careers.qualcomm.com/careers/job/446718840435?utm_source=freehire.me",
+      "title": "AI Infrastructure Software Engineer"
+    }
+  ],
+  "generated_at": "2026-11-11T00:55:34.804227Z",
+  "market": "CN",
+  "max_candidate_seq": 3203,
+  "min_candidate_seq": 3198,
+  "shard_index": 4,
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

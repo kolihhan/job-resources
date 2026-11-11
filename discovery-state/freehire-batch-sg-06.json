@@ -6,51 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1156,
-      "company": "Univers",
-      "employment_type": null,
-      "external_id": "univers:5e3cd0dda3ac01",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T02:16:58Z",
-      "public_slug": "ai-engineer-univers-n3ugv5pg",
-      "role_key": "freehire:ai-engineer-univers-n3ugv5pg",
-      "source": "breezy",
-      "source_url": "https://univers.breezy.hr/p/5e3cd0dda3ac01-ai-engineer?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1157,
-      "company": "Univers",
-      "employment_type": null,
-      "external_id": "univers:9e9d41dbbb1901",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T01:58:39Z",
-      "public_slug": "senior-full-stack-engineer-ai-univers-7kvjf6kl",
-      "role_key": "freehire:senior-full-stack-engineer-ai-univers-7kvjf6kl",
-      "source": "breezy",
-      "source_url": "https://univers.breezy.hr/p/9e9d41dbbb1901-senior-full-stack-engineer-ai?utm_source=freehire.me",
-      "title": "Senior Full Stack Engineer (AI)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1160,
       "company": "yokogawa",
       "employment_type": null,
@@ -68,30 +23,6 @@
       "source": "workday",
       "source_url": "https://wd3.myworkdaysite.com/recruiting/yokogawa/yokogawa-career-site/job/Bedok/AI-Solution-Engineer_R-13330-1?utm_source=freehire.me",
       "title": "AI Solution Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1161,
-      "company": "Ncs",
-      "employment_type": null,
-      "external_id": "data engineer:93415634",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-14T21:20:27Z",
-      "public_slug": "senior-ai-data-engineer-ai-harness-iceberg-platform-ncs-tmxrwx2r",
-      "role_key": "freehire:senior-ai-data-engineer-ai-harness-iceberg-platform-ncs-tmxrwx2r",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93415634__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Data Engineer — AI Harness & Iceberg Platform"
     },
     {
       "ai_score": 4,
@@ -189,29 +120,95 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1176,
-      "company": "ZVC SINGAPORE PTE. LTD.",
+      "candidate_seq": 1178,
+      "company": "UIC Asian Computer Services Pte Ltd",
       "employment_type": null,
-      "external_id": ":45d948a24e56221677e29eecd2a9f766",
+      "external_id": "6290:95245670",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-10-14T00:00:00Z",
-      "public_slug": "audio-ai-engineer-zvc-singapore-pte-ltd-mldd2jve",
-      "role_key": "freehire:audio-ai-engineer-zvc-singapore-pte-ltd-mldd2jve",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/45d948a24e56221677e29eecd2a9f766?utm_source=freehire.me",
-      "title": "Audio AI Engineer"
+      "posted_at": "2026-10-13T06:53:35Z",
+      "public_slug": "ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
+      "role_key": "freehire:ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95245670?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1179,
+      "company": "UParcel",
+      "employment_type": null,
+      "external_id": "6290:95242605",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "North-East Region",
+      "market": "SG",
+      "posted_at": "2026-10-13T02:23:00Z",
+      "public_slug": "senior-ai-and-software-engineer-uparcel-v4xjvdkz",
+      "role_key": "freehire:senior-ai-and-software-engineer-uparcel-v4xjvdkz",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95242605?utm_source=freehire.me",
+      "title": "Senior AI and Software Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1180,
+      "company": "Fuku",
+      "employment_type": null,
+      "external_id": "fuku:5466DA8A5E",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-13T00:00:00Z",
+      "public_slug": "machine-learning-quantitative-researcher-crypto-derivatives-fuku-xpfxxlsy",
+      "role_key": "freehire:machine-learning-quantitative-researcher-crypto-derivatives-fuku-xpfxxlsy",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/5466DA8A5E?utm_source=freehire.me",
+      "title": "Machine Learning Quantitative Researcher - Crypto Derivatives"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1181,
+      "company": "Fuku",
+      "employment_type": null,
+      "external_id": "fuku:37F5D4D070",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-13T00:00:00Z",
+      "public_slug": "ai-engineer-fuku-aaa62ijb",
+      "role_key": "freehire:ai-engineer-fuku-aaa62ijb",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/37F5D4D070?utm_source=freehire.me",
+      "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-10T20:38:09.071367Z",
+  "generated_at": "2026-11-11T00:55:34.804227Z",
   "market": "SG",
-  "max_candidate_seq": 1176,
-  "min_candidate_seq": 1156,
+  "max_candidate_seq": 1181,
+  "min_candidate_seq": 1160,
   "shard_index": 6,
-  "source_generated_at": "2026-11-10T01:45:20.015817Z",
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

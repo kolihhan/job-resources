@@ -1,163 +1,6 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1246,
-      "company": "OCBC Group",
-      "employment_type": null,
-      "external_id": "data engineer:92710706",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-04T09:56:46Z",
-      "public_slug": "avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-i2wgfbd7",
-      "role_key": "freehire:avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-i2wgfbd7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92710706__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AVP Data Engineer - Enterprise Data & AI Platforms"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1248,
-      "company": "SINGAPORE AIRLINES LIMITED",
-      "employment_type": null,
-      "external_id": "devops engineer:92711019",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-04T09:56:25Z",
-      "public_slug": "senior-software-engineer-devops-cloud-ai-delivery-singapore-airlines-limited-mktjc6xw",
-      "role_key": "freehire:senior-software-engineer-devops-cloud-ai-delivery-singapore-airlines-limited-mktjc6xw",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92711019__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Software Engineer - DevOps, Cloud & AI Delivery"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1263,
-      "company": "Keysight Technologies Singapore (Sales) Pte. Ltd....-",
-      "employment_type": null,
-      "external_id": "6290:95035736",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-02T20:44:35Z",
-      "public_slug": "senior-r-d-ai-software-development-engineer-keysight-technologies-singapore-sales-pte-ltd-mzqnbqam",
-      "role_key": "freehire:senior-r-d-ai-software-development-engineer-keysight-technologies-singapore-sales-pte-ltd-mzqnbqam",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95035736?utm_source=freehire.me",
-      "title": "Senior R&D AI Software Development Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1264,
-      "company": "Capco (The Capital Market Company Group)",
-      "employment_type": null,
-      "external_id": "6290:95033957",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-02T14:04:53Z",
-      "public_slug": "ai-engineer-new-capco-the-capital-market-company-group-g7s3ahkf",
-      "role_key": "freehire:ai-engineer-new-capco-the-capital-market-company-group-g7s3ahkf",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95033957?utm_source=freehire.me",
-      "title": "AI Engineer New"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1267,
-      "company": "Astek",
-      "employment_type": null,
-      "external_id": "full stack developer:92620966",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-02T07:56:45Z",
-      "public_slug": "full-stack-engineer-ai-driven-apps-react-python-astek-clitrb6c",
-      "role_key": "freehire:full-stack-engineer-ai-driven-apps-react-python-astek-clitrb6c",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92620966__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Engineer - AI-Driven Apps (React/Python)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1274,
-      "company": "Bjak",
-      "employment_type": null,
-      "external_id": "bjakcareer:2315ed19-82f2-4cb9-965c-fdc527495a5a",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Thailand",
-      "market": "SG",
-      "posted_at": "2026-10-01T06:34:53Z",
-      "public_slug": "mobile-developer-ai-finance-agent-bjakcareer-b7tzfyfv",
-      "role_key": "freehire:mobile-developer-ai-finance-agent-bjakcareer-b7tzfyfv",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/bjakcareer/2315ed19-82f2-4cb9-965c-fdc527495a5a?utm_source=freehire.me",
-      "title": "Mobile Developer - AI Finance Agent"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1275,
-      "company": "F5 Networks",
-      "employment_type": null,
-      "external_id": "6290:95006387",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-01T06:30:00Z",
-      "public_slug": "forward-deployed-engineer-ai-security-f5-networks-mtqfawct",
-      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-networks-mtqfawct",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95006387?utm_source=freehire.me",
-      "title": "Forward Deployed Engineer-AI Security"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -203,14 +46,145 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/94991457?utm_source=freehire.me",
       "title": "AI Product Engineer Industrial AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1278,
+      "company": "F5",
+      "employment_type": null,
+      "external_id": "ffive.wd5.myworkdayjobs.com/f5jobs:/job/Singapore-Office/Forward-Deployed-Engineer-AI-Security_RP1038989",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore Office",
+      "market": "SG",
+      "posted_at": "2026-10-01T00:00:00Z",
+      "public_slug": "forward-deployed-engineer-ai-security-f5-vtfo3ydr",
+      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-vtfo3ydr",
+      "source": "workday",
+      "source_url": "https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Singapore-Office/Forward-Deployed-Engineer-AI-Security_RP1038989?utm_source=freehire.me",
+      "title": "Forward Deployed Engineer-AI Security"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1279,
+      "company": "Neutron",
+      "employment_type": null,
+      "external_id": "backend developer:92552371",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-30T13:57:42Z",
+      "public_slug": "backend-engineer-for-ai-driven-security-platform-neutron-5jaeqeal",
+      "role_key": "freehire:backend-engineer-for-ai-driven-security-platform-neutron-5jaeqeal",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92552371__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer for AI-Driven Security Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1280,
+      "company": "Temus",
+      "employment_type": null,
+      "external_id": "temus:5439381008",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-30T02:40:22Z",
+      "public_slug": "full-stack-ai-engineer-temus-yxh2mxwl",
+      "role_key": "freehire:full-stack-ai-engineer-temus-yxh2mxwl",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.greenhouse.io/temus/jobs/5439381008?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1281,
+      "company": "Evonik",
+      "employment_type": null,
+      "external_id": "evonik.wd3.myworkdayjobs.com/External_Careers:/job/Singapore---Int-Business-Park/AI-Product-Engineer-Industrial-AI_R51133",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore - Int. Business Park",
+      "market": "SG",
+      "posted_at": "2026-09-30T00:00:00Z",
+      "public_slug": "ai-product-engineer-industrial-ai-evonik-5qz7tn64",
+      "role_key": "freehire:ai-product-engineer-industrial-ai-evonik-5qz7tn64",
+      "source": "workday",
+      "source_url": "https://evonik.wd3.myworkdayjobs.com/External_Careers/job/Singapore---Int-Business-Park/AI-Product-Engineer-Industrial-AI_R51133?utm_source=freehire.me",
+      "title": "AI Product Engineer Industrial AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1282,
+      "company": "Land Transport Authority (LTA) Singapore",
+      "employment_type": null,
+      "external_id": "data engineer:92441565",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:57:11Z",
+      "public_slug": "senior-data-platform-engineer-cde-ai-automation-land-transport-authority-lta-singapore-q5hycv5p",
+      "role_key": "freehire:senior-data-platform-engineer-cde-ai-automation-land-transport-authority-lta-singapore-q5hycv5p",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441565__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Platform Engineer — CDE & AI Automation"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1283,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "backend developer:92440357",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:33Z",
+      "public_slug": "backend-engineer-global-live-ai-infrastructure-singapore-singapore-technology-backend-regular-tiktok-heki736v",
+      "role_key": "freehire:backend-engineer-global-live-ai-infrastructure-singapore-singapore-technology-backend-regular-tiktok-heki736v",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440357__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore Singapore Technology - Backend Regular"
     }
   ],
-  "generated_at": "2026-11-10T20:38:09.071367Z",
+  "generated_at": "2026-11-11T00:55:34.804227Z",
   "market": "SG",
-  "max_candidate_seq": 1277,
-  "min_candidate_seq": 1246,
+  "max_candidate_seq": 1283,
+  "min_candidate_seq": 1276,
   "shard_index": 12,
-  "source_generated_at": "2026-11-10T01:45:20.015817Z",
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -44,27 +44,6 @@
       "title": "AI Platform 工程师"
     },
     {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 2942,
-      "company": "ByteDance",
-      "employment_type": null,
-      "external_id": "jobs.bytedance.com:7350493973025163570",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing; Hangzhou; Shanghai",
-      "market": "CN",
-      "posted_at": "2024-03-26T02:30:51Z",
-      "public_slug": "gao-ji-hou-duan-yan-fa-gong-cheng-shi-dou-bao-bytedance-oks647o7",
-      "role_key": "freehire:gao-ji-hou-duan-yan-fa-gong-cheng-shi-dou-bao-bytedance-oks647o7",
-      "source": "feishujobs",
-      "source_url": "https://jobs.bytedance.com/experienced/position/7350493973025163570/detail?utm_source=freehire.me",
-      "title": "AI Agent工程师-豆包"
-    },
-    {
       "ai_score": 14,
       "ai_signals": [
         "title:ai",
@@ -122,30 +101,6 @@
       "title": "Senior Software Engineer, AI Gateway - Shanghai"
     },
     {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm"
-      ],
-      "candidate_seq": 2991,
-      "company": "O Group",
-      "employment_type": null,
-      "external_id": "ogroup:7731792003",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "深圳",
-      "market": "CN",
-      "posted_at": "2026-11-04T13:52:48Z",
-      "public_slug": "gao-ji-ai-an-quan-zhuan-jia-ai-security-expert-o-group-cbfok4kz",
-      "role_key": "freehire:gao-ji-ai-an-quan-zhuan-jia-ai-security-expert-o-group-cbfok4kz",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.greenhouse.io/ogroup/jobs/7731792003?utm_source=freehire.me",
-      "title": "高级安全专家（AI&Cloud Security） "
-    },
-    {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
@@ -194,14 +149,60 @@
       "source": "workday",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Physical-AI-Data-Engineer_JR2028588?utm_source=freehire.me",
       "title": "Senior Physical AI Data Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 3046,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100054900009",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-06T08:59:43Z",
+      "public_slug": "qian-wen-ban-gong-ai-quan-zhan-gong-cheng-shi-gong-zuo-tai-alibaba-group-6upd72i5",
+      "role_key": "freehire:qian-wen-ban-gong-ai-quan-zhan-gong-cheng-shi-gong-zuo-tai-alibaba-group-6upd72i5",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100054900009&utm_source=freehire.me",
+      "title": "千问办公-AI 全栈工程师-工作台"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:deep_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 3047,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Deep-Learning-Compiler-CI-Infrastructure-Engineer_JR2020326",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-06-29T00:00:00Z",
+      "public_slug": "deep-learning-compiler-ci-infrastructure-engineer-nvidia-2dgsouko",
+      "role_key": "freehire:deep-learning-compiler-ci-infrastructure-engineer-nvidia-2dgsouko",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Compiler-CI-Infrastructure-Engineer_JR2020326?utm_source=freehire.me",
+      "title": "Deep Learning Compiler CI/Infrastructure Engineer"
     }
   ],
-  "generated_at": "2026-11-10T20:38:09.071367Z",
+  "generated_at": "2026-11-11T00:55:34.804227Z",
   "market": "CN",
-  "max_candidate_seq": 3045,
+  "max_candidate_seq": 3047,
   "min_candidate_seq": 2940,
   "shard_index": 2,
-  "source_generated_at": "2026-11-10T01:45:20.015817Z",
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -48,29 +48,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1115,
-      "company": "LaraBench",
-      "employment_type": null,
-      "external_id": "backend developer:93583992",
-      "flags": [
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-18T13:47:05Z",
-      "public_slug": "remote-laravel-backend-engineer-scale-ai-powered-saas-larabench-fowtk7ly",
-      "role_key": "freehire:remote-laravel-backend-engineer-scale-ai-powered-saas-larabench-fowtk7ly",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93583992__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Remote Laravel Backend Engineer - Scale AI-Powered SaaS"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ml"
       ],
       "candidate_seq": 1117,
@@ -181,14 +158,38 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93533412__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Cloud Data & AI Solutions Engineer — AWS & Snowflake"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1122,
+      "company": "Infosys Compaz (iCompaz)",
+      "employment_type": null,
+      "external_id": "data engineer:93531311",
+      "flags": [
+        "experience_5_plus_hint",
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-17T13:18:14Z",
+      "public_slug": "data-business-analyst-ai-engineer-infosys-compaz-icompaz-6e4hxcuj",
+      "role_key": "freehire:data-business-analyst-ai-engineer-infosys-compaz-icompaz-6e4hxcuj",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531311__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Business Analyst & AI Engineer"
     }
   ],
-  "generated_at": "2026-11-10T20:38:09.071367Z",
+  "generated_at": "2026-11-11T00:55:34.804227Z",
   "market": "SG",
-  "max_candidate_seq": 1121,
+  "max_candidate_seq": 1122,
   "min_candidate_seq": 1109,
   "shard_index": 2,
-  "source_generated_at": "2026-11-10T01:45:20.015817Z",
+  "source_generated_at": "2026-11-10T23:41:44.821015Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }
