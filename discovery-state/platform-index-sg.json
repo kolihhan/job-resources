@@ -63,7 +63,7 @@
       },
       "first_seen_at": "2026-11-07T09:35:18.297729Z",
       "key": "sg:9adae2e27f47137c93cf",
-      "last_error": "Exact NTU R00026131 live Workday application route inaccessible; AIAP history and foreign-hire eligibility remain unconfirmed.",
+      "last_error": "Resolve whether closed prior [APPLY] #698 for same NTU AIAP team/title R00025487 was submitted or otherwise concluded before promoting distinct current R00026131; both Gmail accounts show no exact R00026131 receipt. First-party indexed R00026131 JD and exact Workday role route are visible, but live Apply flow and candidate mandatory production LLM/cloud-pipeline evidence remain unconfirmed.",
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
@@ -76,10 +76,10 @@
       },
       "scout_review": {
         "ack": false,
-        "checked_at": "2026-11-11T04:01:00+08:00",
+        "checked_at": "2026-11-11T15:03:38+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact NTU R00026131 live Workday application route inaccessible; AIAP history and foreign-hire eligibility remain unconfirmed.",
-        "status": "RETRY"
+        "status": "RETRY",
+        "missing_evidence": "Resolve whether closed prior [APPLY] #698 for same NTU AIAP team/title R00025487 was submitted or otherwise concluded before promoting distinct current R00026131; both Gmail accounts show no exact R00026131 receipt. First-party indexed R00026131 JD and exact Workday role route are visible, but live Apply flow and candidate mandatory production LLM/cloud-pipeline evidence remain unconfirmed."
       },
       "seq": 19,
       "source": "ntu:official-cxs:SG",
