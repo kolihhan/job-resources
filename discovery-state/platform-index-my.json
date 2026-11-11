@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T07:20:40.756337Z",
-    "source": "public-web-index-manual-pilot-2026-11-07",
+    "at": "2026-11-11T09:20:14.969872Z",
+    "source": "freehirefetch:official-ats:MY",
     "stats": {
-      "already_seen": 2,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 2
+      "new_pending": 3,
+      "observed": 3
     }
   },
   "market": "MY",
-  "next_seq": 95,
+  "next_seq": 98,
   "next_unacknowledged_seq": 22,
   "pending": [
     {
@@ -1017,6 +1017,11 @@
       },
       "ats_key": "freehire|senior-ai-ml-engineer-jad-connect-services-7wg4ljyi",
       "company": "JAD CONNECT SERVICES",
+      "consumer_review": {
+        "checked_at": "2026-11-11",
+        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4.",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
       "description_excerpt": "<p>Salary: RM 15,000 – RM 22,000 per month</p><p><strong>About the role</strong></p><p>We are looking for an AI / ML Engineer to build practical, production-ready AI and machine learning solutions for a healthcare technology platform. The r",
       "discovery_access": "API_PROXY_ONLY",
       "evidence_url": "https://my.jobstreet.com/job/95229292",
@@ -1027,6 +1032,11 @@
       "platform": "public jobs API (unverified)",
       "query": "Petaling, Selangor",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-11",
+        "decision": "RETRY",
+        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
+      },
       "seq": 81,
       "source": "freehire:public-api:MY",
       "source_evidence": "listing_only",
@@ -1035,17 +1045,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Senior AI/ML Engineer",
-      "url": "https://my.jobstreet.com/job/95229292",
-      "review_retry": {
-        "checked_at": "2026-11-11",
-        "decision": "RETRY",
-        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
-      },
-      "consumer_review": {
-        "checked_at": "2026-11-11",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD",
-        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4."
-      }
+      "url": "https://my.jobstreet.com/job/95229292"
     },
     {
       "api_source_context": {
@@ -1056,6 +1056,11 @@
       },
       "ats_key": "freehire|senior-ai-engineer-lenovo-u6acl63t",
       "company": "Lenovo",
+      "consumer_review": {
+        "checked_at": "2026-11-11",
+        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4.",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
       "description_excerpt": "<p><strong>About the role</strong></p><p>Deploy industry-specific AI applications based on open-source and commercial large language models, and implement technical solutions including prompt engineering, few-shot/zero-shot inference, and L",
       "discovery_access": "API_PROXY_ONLY",
       "evidence_url": "https://my.jobstreet.com/job/95295445",
@@ -1067,6 +1072,11 @@
       "prior_wait_employer_hint": true,
       "query": "Kuala Lumpur",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-11",
+        "decision": "RETRY",
+        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
+      },
       "seq": 82,
       "source": "freehire:public-api:MY",
       "source_evidence": "listing_only",
@@ -1075,17 +1085,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Senior AI Engineer",
-      "url": "https://my.jobstreet.com/job/95295445",
-      "review_retry": {
-        "checked_at": "2026-11-11",
-        "decision": "RETRY",
-        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
-      },
-      "consumer_review": {
-        "checked_at": "2026-11-11",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD",
-        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4."
-      }
+      "url": "https://my.jobstreet.com/job/95295445"
     },
     {
       "api_source_context": {
@@ -1096,6 +1096,11 @@
       },
       "ats_key": "freehire|senior-full-stack-developer-ai-aetherion-dataworks-sdn-bhd-6yoi5gkr",
       "company": "Aetherion Dataworks Sdn Bhd",
+      "consumer_review": {
+        "checked_at": "2026-11-11",
+        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4.",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
       "description_excerpt": "<p>Salary: RM 7,000 – RM 10,000 per month</p><p><strong>Key Responsibilities:</strong></p><ul><li><p>Design, build, and maintain modern, scalable full-stack applications (frontend, backend, APIs, and databases).</p></li><li><p>Architect rob",
       "discovery_access": "API_PROXY_ONLY",
       "evidence_url": "https://my.jobstreet.com/job/95385285",
@@ -1106,6 +1111,11 @@
       "platform": "public jobs API (unverified)",
       "query": "Petaling Jaya, Selangor",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-11",
+        "decision": "RETRY",
+        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
+      },
       "seq": 84,
       "source": "freehire:public-api:MY",
       "source_evidence": "listing_only",
@@ -1114,17 +1124,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Senior Full Stack Developer (AI)",
-      "url": "https://my.jobstreet.com/job/95385285",
-      "review_retry": {
-        "checked_at": "2026-11-11",
-        "decision": "RETRY",
-        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
-      },
-      "consumer_review": {
-        "checked_at": "2026-11-11",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD",
-        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4."
-      }
+      "url": "https://my.jobstreet.com/job/95385285"
     },
     {
       "api_source_context": {
@@ -1135,6 +1135,11 @@
       },
       "ats_key": "freehire|senior-data-scientist-hays-recruitment-3xidjbrd",
       "company": "Hays Recruitment",
+      "consumer_review": {
+        "checked_at": "2026-11-11",
+        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4.",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
       "description_excerpt": "<p>Salary: Up to 15000</p><p><br><br>Your new company <br> </p>Join a well-established and growing organisation that leverages technology to drive business excellence.<br><p><br> <br>Your new role <br> </p>You will develop and deliver Data ",
       "discovery_access": "API_PROXY_ONLY",
       "evidence_url": "https://my.jobstreet.com/job/95405873",
@@ -1145,6 +1150,11 @@
       "platform": "public jobs API (unverified)",
       "query": "Kuala Lumpur",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-11",
+        "decision": "RETRY",
+        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
+      },
       "seq": 89,
       "source": "freehire:public-api:MY",
       "source_evidence": "listing_only",
@@ -1153,17 +1163,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Senior Data Scientist",
-      "url": "https://my.jobstreet.com/job/95405873",
-      "review_retry": {
-        "checked_at": "2026-11-11",
-        "decision": "RETRY",
-        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
-      },
-      "consumer_review": {
-        "checked_at": "2026-11-11",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD",
-        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4."
-      }
+      "url": "https://my.jobstreet.com/job/95405873"
     },
     {
       "api_source_context": {
@@ -1174,6 +1174,11 @@
       },
       "ats_key": "freehire|senior-data-scientist-hays-recruitment-axqd2uxu",
       "company": "Hays Recruitment",
+      "consumer_review": {
+        "checked_at": "2026-11-11",
+        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4.",
+        "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
+      },
       "description_excerpt": "<p>Salary: $7000.0 - $15000.0 p.m. + Up to 15000</p><p></p><p><strong>Your new company</strong><br> Join a well-established and growing organisation leveraging data, AI and advanced technology to drive smarter business decisions and innovat",
       "discovery_access": "API_PROXY_ONLY",
       "evidence_url": "https://my.jobstreet.com/job/95405880",
@@ -1184,6 +1189,11 @@
       "platform": "public jobs API (unverified)",
       "query": "Kuala Lumpur",
       "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-11",
+        "decision": "RETRY",
+        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
+      },
       "seq": 90,
       "source": "freehire:public-api:MY",
       "source_evidence": "listing_only",
@@ -1192,17 +1202,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Senior Data Scientist",
-      "url": "https://my.jobstreet.com/job/95405880",
-      "review_retry": {
-        "checked_at": "2026-11-11",
-        "decision": "RETRY",
-        "missing_evidence": "Employer-authored full JD, substantive AI work content, explicit YOE floor and current application route. Senior title alone must not determine rejection."
-      },
-      "consumer_review": {
-        "checked_at": "2026-11-11",
-        "stage": "NEEDS_CANONICAL_EMPLOYER_JD",
-        "note": "2026-11-11 audit invalidated previous source-only Senior rejection; review against RULES section 4."
-      }
+      "url": "https://my.jobstreet.com/job/95405880"
     },
     {
       "ats_key": "bjakcareer|ashby|427b4c68-0b42-42b8-8bd2-77d1d527fdf0",
@@ -1351,6 +1351,92 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Lead AI Scientist - MoneyLion",
       "url": "https://jobs.ashbyhq.com/gen-digital/10ca7954-f193-4df4-9495-b33eca1010e2"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p><strong>Get to Know Our Team</strong></p><p>We are architects of trust. Our mission: shield Grab ecosystem from evolving fraud and safety threats by turning massive datasets into applicable intelligence. From deploying sequence-based models for payment risk to applying graph algorithms that unmask complex money laundering networks, we operate at intersection of deep learning and platform security. We innovate constantly, researching latest methods to neutralise tactics before they surface.</p><p><strong>Get to Know the Role</strong></p><p>You fight fraud by analysing transactional data, developing and deploying machine learning models, and collaborating with cross-functional teams to integrate fraud detection systems. Reporting to Executive Director, Data Science and Analytics, you will work as Individual Contributor in full-time on-site role at Grab KL office. You will push boundaries of machine learning and LLM applications at super-app scale, growing expertise in cutting-edge agentic systems. Apply today to help keep Grab platform safe and trustworthy!</p><p><strong>The Critical Tasks You Will Perform</strong></p><ul><li>You will partner with teams to architect scalable data science solutions that translate complex operational challenges into strategic wins, integrating traditional ML and agentic LLM systems.</li><li>You will conduct research to incorporate advancements in algorithms and generative AI into defense systems to counter emerging fraud tactics.</li><li>You will master data orchestration by preparing, augmenting, and combining diverse data types to build high-fidelity training datasets, using LLMs to generate synthetic data and labels.</li><li>You will design, train, and fine-tune model architectures, utilizing Graph Neural Networks (GNNs), Transformers, fine-tuned open-source LLMs (like Qwen), and Gradient Boosted Trees.</li><li>You will lead end-to-end lifecycle of models—from production deployment to performance monitoring—iterating alongside software and product engineering teams.</li><li>You will leverage Generative AI tools (like coding assistants and analytical co-pilots) in daily workflows to accelerate code generation, automate testing, and enhance overall productivity.</li></ul><p><strong>What Essential Skills You Will Need</strong></p><ul><li>You hold degree in Computer Science, Physics, Statistics, Mathematics, Engineering, Economics, or related quantitative field.</li><li>You have at least 3 years of experience with proficiency in Python and SQL, alongside practical experience using distributed engines like Spark to wrangle large-scale datasets.</li><li>You have hands-on experience building and deploying machine learning models using standard libraries such as TensorFlow, PyTorch, XGBoost, LightGBM, or Scikit-learn.</li><li>You have practical experience with deep learning architectures (Transformers, RNNs, CNNs) and traditional ML (Boosted Trees), demonstrating ability to choose optimal architecture for specific problems.</li><li>You have experience with LLM and Agentic system foundations (e.g., RAG, Transformers) and hands-on experience building or using frameworks like LangGraph, LangChain, or Claude subagents.</li><li>You have experience engaging with AI tools and emerging technologies to enhance productivity, improve workflows, and contribute new ideas.</li></ul><p><strong>Life at Grab</strong></p><p>We care about your well-being at Grab, here are some of the global benefits we offer:</p><ul><li>We have your back with Term Life Insurance and comprehensive Medical Insurance.</li><li>With GrabFlex, create a benefits package that suits your needs and aspirations.</li><li>Celebrate moments that matter in life with loved ones through Parental and Birthday leave, and give back to your communities through Love-all-Serve-all (LASA) volunteering leave</li><li>We have a confidential Grabber Assistance Programme to guide and uplift you and your loved ones through life's challenges.</li></ul><p> </p><p><strong>What we stand for at Grab</strong></p><p>We are committed to building an inclusive and equitable workplace that enables diverse Grabbers to grow and perform at their best. As an equal opportunity employer, we consider all candidates fairly and equally regardless of nationality, ethnicity, religion, age, gender identity, sexual orientation, family commitments, physical and mental impairments or disabilities, and other attributes that make them unique.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|senior-data-scientist-trust-fraud-grab-ymgdoucm",
+      "company": "Grab",
+      "description_excerpt": "<p><strong>Get to Know Our Team</strong></p><p>We are architects of trust. Our mission: shield Grab ecosystem from evolving fraud and safety threats by turning massive datasets into applicable intelligence. From deploying sequence-based mod",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T09:20:14.969810Z",
+      "key": "my:05f917107e2ba6e4127d",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Petaling Jaya, my",
+      "retries": 0,
+      "seq": 95,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "senior-data-scientist-trust-fraud-grab-ymgdoucm",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Data Scientist (Trust & Fraud)",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000161020474-senior-data-scientist-trust-fraud-"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Key Responsibilities</p>\n<p> Engage senior business technical and functional stakeholders to assess AI readiness develop AI adoption roadmaps establish reusable platform capabilities and align AI architecture with enterprise data strategy</p>\n<p> Lead the design and implementation of enterprise AI foundation capabilities including</p>\n<p>o AIReady Data Layer</p>\n<p>o Embedding Vector Stores</p>\n<p>o Ground Truth Management</p>\n<p>o Prompt Engineering Frameworks</p>\n<p>o Model Registry Versioning</p>\n<p>o Knowledge Base RAG Architecture</p>\n<p>o Semantic Search Frameworks</p>\n<p>o MultiAgent Orchestration</p>\n<p>o AI Governance Security Compliance Controls</p>\n<p>o AI Observability Monitoring</p>\n<p>o LLMOps Foundations</p>\n<p> Design reusable patterns that can support</p>\n<p>o Enterprise AIdriven chatbots</p>\n<p>o AIassisted customer KYC onboarding solutions</p>\n<p>o AIassisted Credit assessment report generation solutions</p>\n<p> Serve as the subject matter expert for Azure native services to drive Agentic AI adoption</p>\n<p>Required Experience</p>\n<p> 10 years of technology consulting architecture or solution delivery experience</p>\n<p> 5 years designing enterprise cloud platforms</p>\n<p> 3 years delivering enterprise AI GenAI initiatives</p>\n<p> Experience working within a consulting system integration or solution provider organization</p>\n<p> Experience delivering technology programs for banks or financial institutions</p>\n<p> Handson experience with Azure AI Foundry</p>\n<p> Experience managing an onshoreoffshore team to design deliver and execute</p>\n<p> Project management experience will be highly advantageous</p>\n<p> Experience leading banking organizations towards enterprise wide AI adoption will be preferred</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|genai-azure-ai-senior-solution-consultant-lavu-tech-solutions-rop4qzwc",
+      "company": "Lavu Tech Solutions",
+      "description_excerpt": "<p>Key Responsibilities</p>\n<p> Engage senior business technical and functional stakeholders to assess AI readiness develop AI adoption roadmaps establish reusable platform capabilities and align AI architecture with enterprise data strateg",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T09:20:14.969851Z",
+      "key": "my:a226bf61c763255d4d68",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "query": "Kuala Lumpur City Centre, Kuala Lumpur",
+      "retries": 0,
+      "seq": 96,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "genai-azure-ai-senior-solution-consultant-lavu-tech-solutions-rop4qzwc",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "GenAI - Azure AI Senior Solution Consultant",
+      "url": "https://my.jobstreet.com/job/95040314"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Salary: RM 10,000 – RM 12,000 per month</p><p><strong>About the role</strong></p><p>We are seeking an experienced AI Finance Tech Lead / Solution Architect to lead the architecture, design, and delivery of next-generation AI-powered Finance solutions for enterprise customers. This role serves as the technical leader of the Finance AI team and is responsible for defining end-to-end architecture across data, AI models, applications, integrations, and cloud platforms. The candidate will guide engineering teams, drive architecture decisions, and ensure scalable, secure, and production-ready AI solutions.</p><p><strong>Key responsibilities</strong></p><ul><li><p>Design scalable, secure and production-ready enterprise AI solutions</p></li><li><p>Define technical approaches for LLMs, RAG, Agents, APIs and system integrations</p></li><li><p>Make key technology and architecture decisions</p></li><li><p>Guide engineers through design, development and production deployment</p></li><li><p>Ensure solution quality, security, performance, reliability and cost efficiency</p></li><li><p>Communicate technical decisions and risks to global stakeholders</p></li></ul><p><strong>About you</strong></p><ul><li><p>Three to Six (3-6) years of hands-on software engineering or solution architecture experience, including proven technical leadership in delivering production-grade LLM / Generative AI / Agent / RAG solutions</p></li><li><p>Strong understanding of LLM capabilities, limitations and architecture patterns, with practical experience in prompt engineering, RAG pipelines, tool calling, agent orchestration and model evaluation</p></li><li><p>Proven ability to design scalable, secure and maintainable enterprise AI architectures, covering APIs, data ingestion, vector databases, identity and access management, observability, deployment and integration with existing enterprise systems</p></li><li><p>Strong hands-on experience with Python and modern backend development, including REST APIs, asynchronous processing, distributed systems and cloud-native deployment</p></li><li><p>Demonstrated experience leading architecture decisions, conducting technical reviews, resolving complex engineering issues and guiding engineers from solution design through production launch and ongoing optimization</p></li><li><p>Hands-on experience collaborating with distributed, cross-functional global teams across multiple time zones, including product, engineering, data, security, compliance and business stakeholders</p></li><li><p>Fluent business English for technical discussions, architecture documentation, stakeholder communication and global meetings</p></li><li><p>Working knowledge of enterprise data privacy, security and responsible-AI requirements, including access control, data isolation, sensitive-data handling and auditability</p></li><li><p>Practical working knowledge of Jira and Confluence for technical planning, documentation, delivery tracking and cross-team collaboration</p></li></ul><p><br></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-finance-solution-architect-lenovo-yf7xjufy",
+      "company": "Lenovo",
+      "description_excerpt": "<p>Salary: RM 10,000 – RM 12,000 per month</p><p><strong>About the role</strong></p><p>We are seeking an experienced AI Finance Tech Lead / Solution Architect to lead the architecture, design, and delivery of next-generation AI-powered Fina",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T09:20:14.969864Z",
+      "key": "my:da7bc03dba3f0da550e8",
+      "last_error": null,
+      "market": "MY",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Bangsar South, Kuala Lumpur",
+      "retries": 0,
+      "seq": 97,
+      "source": "freehire:public-api:MY",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-finance-solution-architect-lenovo-yf7xjufy",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Finance Solution Architect",
+      "url": "https://my.jobstreet.com/job/95359525"
     }
   ],
   "terminal": [
@@ -1913,13 +1999,22 @@
       "company": "MaiStorage",
       "description_excerpt": "<p>Salary: RM 6,000 – RM 8,000 per month</p><p><strong>Role Overview</strong></p><p>We are seeking a high-caliber AI Research Engineer to bridge the gap between cutting-edge algorithmic research and high-performance system implementation. I",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://my.jobstreet.com/job/95661869",
       "first_seen_at": "2026-11-09T16:57:31.156069Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/383",
       "key": "my:0832d3c0a745b4f3ebed",
       "last_error": null,
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Puchong, Selangor",
+      "reason": "2026-11-11 reconciled with existing Issue #383 (APPLY), after direct current JobStreet role 95661869 showed full JD and Quick apply URL /job/95661869/apply. Prior salary-only HARD_REJECTED was invalid. NOT a newly created Issue; not submitted, no applicant-side login verification.",
       "retries": 0,
+      "scout_review": {
+        "checked_at": "2026-11-11",
+        "decision": "EXISTING_ISSUE_VERIFIED",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/383",
+        "source": "Exact live JobStreet role+Quick apply; user has not authorized application"
+      },
       "seq": 35,
       "source": "freehire:public-api:MY",
       "source_evidence": "listing_only",
@@ -1928,16 +2023,7 @@
       "source_platform": "JobStreet",
       "state": "ISSUE_VERIFIED",
       "title": "AI Engineer (R&D)",
-      "url": "https://my.jobstreet.com/job/95661869",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/383",
-      "evidence_url": "https://my.jobstreet.com/job/95661869",
-      "reason": "2026-11-11 reconciled with existing Issue #383 (APPLY), after direct current JobStreet role 95661869 showed full JD and Quick apply URL /job/95661869/apply. Prior salary-only HARD_REJECTED was invalid. NOT a newly created Issue; not submitted, no applicant-side login verification.",
-      "scout_review": {
-        "checked_at": "2026-11-11",
-        "decision": "EXISTING_ISSUE_VERIFIED",
-        "issue_url": "https://github.com/kolihhan/job-resources/issues/383",
-        "source": "Exact live JobStreet role+Quick apply; user has not authorized application"
-      }
+      "url": "https://my.jobstreet.com/job/95661869"
     },
     {
       "ats_key": "freehire|software-engineer-agentic-ai-ai-automation-mintel-m-consulting-sdn-bhd-s4fq2pdg",
