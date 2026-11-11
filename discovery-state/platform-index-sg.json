@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T03:03:34.136507Z",
-    "source": "public-web-index-manual-pilot-2026-11-07",
+    "at": "2026-11-11T03:03:52.215716Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 2,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
+      "new_pending": 2,
       "observed": 2
     }
   },
   "market": "SG",
-  "next_seq": 118,
+  "next_seq": 120,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1410,6 +1410,63 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Production Support Engineer — LLM Platform",
       "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Salary: $5,000 – $7,500 per month</p><p><strong>Assistant Manager AI &amp; Digital Solutions Forward Deployed Engineer</strong></p><p><br></p><h2><strong>Job Responsibilities:</strong></h2><p><strong>Business Engagement &amp; Solution Discovery</strong></p><ul><li><p>Partner with business stakeholders to identify operational challenges and transformation opportunities.</p></li><li><p>Define business requirements, success metrics, and deployment roadmaps.</p></li><li><p>Translate business objectives into actionable product and technical requirements.</p></li><li><p>Advisor to business units on AI, digital, data, and automation opportunities.</p></li></ul><h2>AI Solutions Leadership</h2><ul><li><p>Lead end-to-end deployment of digital products, AI solutions, and enterprise applications.</p></li><li><p>Drive pilot implementations and scale successful initiatives across multiple business units.</p></li><li><p>Coordinate cross-functional delivery teams including development, product, data, QA, cybersecurity, and vendors.</p></li></ul><p><strong>Solution Architecture &amp; Delivery</strong></p><ul><li><p>Work with architects and development teams to design practical and scalable solutions.</p></li><li><p>Ensure deployment approaches align with enterprise architecture, security, and governance standards.</p></li><li><p>Validate technical feasibility, integration requirements, and operational readiness.</p></li><li><p>Oversee rollout planning, testing, training, and hypercare support.</p></li></ul><p><strong>AI &amp; Data Adoption</strong></p><ul><li><p>Drive deployment of AI-powered solutions and agentic workflows.</p></li><li><p>Work with data teams to ensure data readiness, quality, governance, and accessibility.</p></li><li><p>Support AI model operationalization and business adoption.</p></li><li><p>Identify opportunities for automation and productivity improvements.</p></li></ul><p><strong>Change Management &amp; Adoption</strong></p><ul><li><p>Develop change management and communication plans.</p></li><li><p>Work with business champions to drive user adoption.</p></li><li><p>Measure and report business outcomes and benefits realization.</p></li><li><p>Establish feedback loops for continuous improvement.</p></li></ul><p><strong>Vendor &amp; Partner Management</strong></p><ul><li><p>Manage external implementation partners, consultants, and technology vendors.</p></li><li><p>Review delivery quality, milestones, and contractual obligations.</p></li><li><p>Ensure vendor deliverables align with business expectations and architectural standards.</p></li><li><p>Any other ad-hoc duties as assigned by supervisor</p></li></ul><h2><strong>Requirements:</strong></h2><ul><li><p>Degree in Computer Science, Information Systems, Engineering, or related discipline.</p></li><li><p>5-8+ years of experience in technology consulting, digital transformation, product delivery, enterprise applications, or solution implementation.</p></li><li><p>Proven experience leading enterprise-scale deployments.</p></li><li><p>Experience working with executive stakeholders and cross-functional teams.</p></li><li><p>Track record of delivering data, cloud, AI or digital transformation initiatives.</p></li><li><p>Possess the following technical skills: Cloud Platforms (AWS, Azure and other clouds), Agile Product Delivery, AI / GenAI Technologies, Enterprise Integration &amp; APIs, Full Stack development, Data Platforms (Snowflake, Databricks, SQL).</p></li><li><p>Possess the following leadership competencies: Strategic Thinking, Executive Communication, Stakeholder Management, Consultative Problem Solving, Change Leadership, Decision Making Under Ambiguity, Business Acumen.</p></li></ul><p>Interested applicants, please Email, fabianling@recruitexpress.com.sg</p><p>Fabian Ling Tuong Liing</p><p>R25129353</p><p>Recruit Express Pte Ltd</p><p>EA Licence No: 99C4599</p><p>We regret that only shortlisted candidates will be contacted.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-ai-digital-solutions-forward-deployed-engineer-recruit-express-ales2tem",
+      "company": "Recruit Express",
+      "description_excerpt": "<p>Salary: $5,000 – $7,500 per month</p><p><strong>Assistant Manager AI &amp; Digital Solutions Forward Deployed Engineer</strong></p><p><br></p><h2><strong>Job Responsibilities:</strong></h2><p><strong>Business Engagement &amp; Solution Di",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T03:03:52.215674Z",
+      "key": "sg:d1c724e0e6abcf1f120b",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Central Region",
+      "retries": 0,
+      "seq": 118,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-ai-digital-solutions-forward-deployed-engineer-recruit-express-ales2tem",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer | AI & Digital Solutions Forward Deployed Engineer",
+      "url": "https://sg.jobstreet.com/job/95632435"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>The Asian Centre for Digital Cultures (ACDC) at CoHASS, NTU, invites applications for two Research Engineer/ Senior Research Engineer positions. Working at the intersection of computation and the humanities, arts, and social sciences, the successful candidates will enable innovative research by providing technical support, methodological expertise, and collaborative capacity across the Centre’s research initiatives.</p><p></p><p><b>Key Responsibilities: </b></p><ul><li><p>Support CoHASS researchers in exploring and applying digital methods and tools, including coding, empowering principal investigators to integrate digital tools into their projects, in partnership with other technical groups across NTU and Singapore</p></li><li><p>Assist “ACDC methods lab” lead and co-lead in conducting regular academic events</p></li><li><p>Provide training in selected digital methods and tools</p></li><li><p>Support researchers in developing Web and mobile applications</p></li><li><p>Support researchers in using cloud services for research and development</p></li><li><p>Help with the ethical scraping, collection, cleaning, and structuring of diverse qualitative and quantitative datasets</p></li><li><p>Develop and maintain the ACDC website and portal to effectively showcase ongoing projects and outputs</p></li><li><p>Support researchers in writing the methods and technical sections of research proposals and publications</p></li><li><p>Define and manage guidelines for best-practice software design and development and the effective management of risks and issues that affect scope, schedule and quality</p></li><li><p>Maintain currency of contemporary and relevant sector-wide developments in software development relevant to ACDC and share with other members of the team</p></li><li><p><span>Other duties, appropriate to this classification, as directed</span></p></li></ul><p></p><p><b>Job Requirements: </b></p><ul><li><p>A Master’s degree in computer science, data science, information science, digital humanities</p></li><li><p>Experience with social science/humanities/arts research methods</p></li><li><p>Python coding skills including Pandas package, statistical or machine learning packages, access to cloud AI services</p></li><li><p>Experience with cloud services and environments</p></li><li><p>Experience with developing Web or mobile applications</p></li><li><p><span>Demonstrated experience in supporting a high-quality service to users, including analysing problems and resolving problems related to research requirements, monitoring the status of services, proactively seeking service improvements to meet emerging areas of need</span></p></li><li><p>Ability to pick up new methods and software packages by reading manuals and following online tutorials</p></li><li><p><span>Open source development and management is highly valued, along with experience working in an agile software development environment</span></p></li><li><p>Enthusiasm in exploring and learning new digital methods</p></li></ul><p></p><p>The closing date for application is 15 October 2026.</p><p></p><p>We regret to inform that only shortlisted candidates will be notified.</p><p></p><p></p>Hiring Institution: NTU<p></p><p></p><p></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|research-engineer-senior-research-engineer-computer-science-data-science-information-science-digital-humanities-ntu-vdatevpx",
+      "company": "Ntu",
+      "description_excerpt": "<p>The Asian Centre for Digital Cultures (ACDC) at CoHASS, NTU, invites applications for two Research Engineer/ Senior Research Engineer positions. Working at the intersection of computation and the humanities, arts, and social sciences, th",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T03:03:52.215708Z",
+      "key": "sg:e12986e7f677db4c6cf0",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 119,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-engineer-senior-research-engineer-computer-science-data-science-information-science-digital-humanities-ntu-vdatevpx",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Engineer/Senior Research Engineer (Computer Science / Data Science / Information Science / Digital Humanities)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-Senior-Research-Engineer--Computer-Science---Data-Science---Information-Science---Digital-Humanities-_R00025774"
     }
   ],
   "terminal": [
