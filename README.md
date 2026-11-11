@@ -32,6 +32,11 @@ Rank by actual weekly work and role quality, **not research vs engineering title
 
 ## Platform coverage is mandatory — API does NOT equal platform recall
 
+
+**Deep-search evidence contract (2026-11-12):** The Scouts must follow [docs/source-routing.md §10](docs/source-routing.md#10-deep-search-evidence-and-application-truth-contract-2026-11-12) in addition to §6. Every SG/CN platform rotation reports real query/page/title coverage and BLOCKED/PARTIAL/NOT_RUN debt; a first-page lookup or index/API count never counts as deep coverage. Stage A broad collection and Stage B exact employer-JD verification can run concurrently for urgent jobs. An APPLY is not considered genuinely new until all-state Issue history and **both Gmail accounts** have been checked by role title/employer **as well as requisition ID**. Do not call an ID-only negative search proof of non-submission.
+
+
+
 **Discovery target = MY / SG / CN hiring platforms and employer research sources**, not only whatever company boards a free API happens to index. FreeHire / AI Dev Jobs are **suppliers / partial proxies**, not proof that LinkedIn, JobStreet, BOSS, 牛客 or any other named platform was searched end-to-end.
 
 | Market | Mandatory complementary discovery families | Caveat / gap |
