@@ -356,7 +356,7 @@
       "description_excerpt": "<strong>Job Summary</strong><br><p>We are seeking a motivated Research Engineer to develop and evaluate AI-enabled cybersecurity solutions. The role focuses on agentic AI, large language models (LLMs), and intelligent automation. The succes",
       "first_seen_at": "2026-11-09T16:44:38.947257Z",
       "key": "sg:6d663588836b04a27f88",
-      "last_error": null,
+      "last_error": "RETRY: JobStreet 95443052 A*STAR Research Engineer Cybersecurity IAIC lacks confirmed exact A*STAR employer requisition and complete first-party JD; indexed listing alone cannot establish substantive LLM/AI scope or current official application route.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -368,7 +368,14 @@
       "source_listing_url": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, Cybersecurity, IAIC",
-      "url": "https://sg.jobstreet.com/job/95443052"
+      "url": "https://sg.jobstreet.com/job/95443052",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T18:58:42+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "RETRY: JobStreet 95443052 A*STAR Research Engineer Cybersecurity IAIC lacks confirmed exact A*STAR employer requisition and complete first-party JD; indexed listing alone cannot establish substantive LLM/AI scope or current official application route."
+      }
     },
     {
       "ats_key": "freehire|ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
