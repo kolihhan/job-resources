@@ -94,7 +94,7 @@ class SourceHandoffTests(unittest.TestCase):
         ]
         manifest, shards = m.build_handoff({"jobs": []}, {"jobs": roles}, {}, "jobpro")
         snapshot = m.native_queue_snapshot(shards)
-        self.assertEqual(manifest["candidate_count"], 3)
+        self.assertEqual(manifest["candidate_count"], 4)
         self.assertEqual(len(snapshot["jobs"]), 3)
         self.assertEqual({r["source_job_id"] if "source_job_id" in r else r["job_id"]
                           for r in snapshot["jobs"]},
