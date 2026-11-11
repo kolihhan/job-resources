@@ -17,6 +17,28 @@ class IndexQueueTests(unittest.TestCase):
         self.assertIsNone(q.canonical("https://www.liepin.com/job/list.shtml","CN"))
 
 
+    def test_cn_jobpro_public_employer_urls_canonical_and_market_guarded(self):
+        exact = {
+            "https://jobs.bytedance.com/campus/position/7668351902195009845/detail": "https://jobs.bytedance.com/campus/position/7668351902195009845/detail",
+            "https://join.qq.com/post_detail.html?postid=1282707398326592512&utm_source=jobpro": "https://join.qq.com/post_detail.html?postid=1282707398326592512",
+            "https://campus-talent.alibaba.com/campus/position/199907780047": "https://campus-talent.alibaba.com/campus/position/199907780047",
+            "https://nio.jobs.feishu.cn/campus/position/7673026953792522522/detail": "https://nio.jobs.feishu.cn/campus/position/7673026953792522522/detail",
+        }
+        for source, expected in exact.items():
+            with self.subTest(source=source):
+                self.assertEqual(q.canonical(source, "CN"), expected)
+                self.assertIsNone(q.canonical(source, "MY"))
+                self.assertIsNone(q.canonical(source, "SG"))
+        for invalid in (
+            "https://join.qq.com/post_detail.html",
+            "https://join.qq.com/post_detail.html?postid=1",
+            "https://evil.jobs.feishu.cn/campus/position/7673026953792522522/detail",
+            "https://jobs.bytedance.com.evil.example/campus/position/7668351902195009845/detail",
+            "https://jobs.bytedance.com/campus/position/not-a-job/detail",
+        ):
+            with self.subTest(invalid=invalid):
+                self.assertIsNone(q.canonical(invalid, "CN"))
+
     def test_ingest_strong_duplicate_and_pending(self):
         s=q.new_state("MY")
         known={"strong":{"urls":["https://my.jobstreet.com/job/12345678?utm_source=z"]},"weak":{"company_title":["acme|ai engineer"]}}
