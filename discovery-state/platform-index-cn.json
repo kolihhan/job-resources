@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T01:59:01.823993Z",
+    "at": "2026-11-11T03:03:21.937802Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 1,
-      "observed": 1
+      "new_pending": 2,
+      "observed": 2
     }
   },
   "market": "CN",
-  "next_seq": 73,
+  "next_seq": 75,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1067,6 +1067,51 @@
       "state": "UNVERIFIED_INDEX",
       "title": "SST / HVDC / 通信电源系统软件研发工程师",
       "url": "https://www.liepin.com/job/1986189547.shtml"
+    },
+    {
+      "ats_key": "jobpro:agibot:7657507612519483702",
+      "company": "agibot",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-11T03:03:21.937738Z",
+      "key": "cn:203f9bf78549e649ce83",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "上海",
+      "retries": 0,
+      "seq": 73,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "7657507612519483702",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "语音大模型后端工程师",
+      "url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7657507612519483702/detail"
+    },
+    {
+      "ats_key": "jobpro:bytedance:7628143430628919557",
+      "company": "bytedance",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-11T03:03:21.937789Z",
+      "key": "cn:4a2d000190ad43bca27c",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "北京",
+      "retries": 0,
+      "seq": 74,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "7628143430628919557",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "面向大模型与AI Agent的AI云原生基础设施关键技术研究-SRE（北京/杭州）",
+      "url": "https://jobs.bytedance.com/campus/position/7628143430628919557/detail"
     }
   ],
   "terminal": [
@@ -1902,6 +1947,13 @@
         "possible_prior_issue": 561
       },
       "description_excerpt": "<p>We are seeking an accomplished and visionary AI Engineer to drive the transformation of our manufacturing systems through cutting-edge artificial intelligence technologies. This role requires deep technical expertise in Computer Vision a",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/561",
+        "note": "Exact employer-owned Bosch SmartRecruiters posting 744000146881229, AI Engineer (计算机视觉方向)_ME, Suzhou, full-time. Official JD requires proficient computer vision/deep learning for industrial inspection and proven CV projects; LLM Agent is secondary. Existing closed GitHub SKIP #561 explicitly declined same employer/title/location for CV/manufacturing mismatch. Not a new eligible opportunity. Checked both Gmail accounts; prior Bosch application receipts exist but exact requisition not established, so do not claim prior application.",
+        "reason": "MANDATORY_CV_DOMAIN_MISMATCH_PRIOR_SKIP",
+        "review_source": "https://jobs.smartrecruiters.com/BoschGroup/744000146881229-ai-engineer-me"
+      },
       "first_seen_at": "2026-11-09T16:44:39.014196Z",
       "key": "cn:14055ea11235cb5ad1e1",
       "last_error": null,
@@ -1916,14 +1968,7 @@
       "source_listing_url": "",
       "state": "HARD_REJECTED",
       "title": "AI Engineer (计算机视觉方向)_ME",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000146881229-ai-engineer-me",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason": "MANDATORY_CV_DOMAIN_MISMATCH_PRIOR_SKIP",
-        "note": "Exact employer-owned Bosch SmartRecruiters posting 744000146881229, AI Engineer (计算机视觉方向)_ME, Suzhou, full-time. Official JD requires proficient computer vision/deep learning for industrial inspection and proven CV projects; LLM Agent is secondary. Existing closed GitHub SKIP #561 explicitly declined same employer/title/location for CV/manufacturing mismatch. Not a new eligible opportunity. Checked both Gmail accounts; prior Bosch application receipts exist but exact requisition not established, so do not claim prior application.",
-        "review_source": "https://jobs.smartrecruiters.com/BoschGroup/744000146881229-ai-engineer-me",
-        "issue_url": "https://github.com/kolihhan/job-resources/issues/561"
-      }
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000146881229-ai-engineer-me"
     },
     {
       "api_source_context": {
@@ -1951,6 +1996,12 @@
       },
       "description_excerpt": "<h2><strong>About Meshy</strong></h2><p>Headquartered in Silicon Valley, Meshy is the leading 3D generative AI company on a mission to Unleash 3D Creativity by transforming the content creation pipeline. Meshy makes it effortless for both p",
       "discovery_access": "API_PROXY_ONLY",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "note": "Exact Meshy Ashby de871fcf-d042-4b07-ad8e-0059d71e0933 first-party full JD already saved in consumer_review (2026-11-10). Core role owns GPU inference serving, scheduling/multiplexing (MIG/MPS), Kubernetes/microservices, disaster recovery and resource management; 3-5 years backend/infrastructure required, proven Kubernetes and inference scheduling projects. Candidate's documented production Laravel/backend + NLP/Agent research does not establish mandatory GPU/K8s/inference-platform expertise; outside substantive target AI application/retrieval/evaluation lane. Ashby published role route exists but is JS-only in web reader; previous first-party full-JD verification reused.",
+        "reason": "MANDATORY_KUBERNETES_GPU_INFRA_DOMAIN_AND_3_5_YOE_MISMATCH",
+        "review_source": "https://jobs.ashbyhq.com/meshy/de871fcf-d042-4b07-ad8e-0059d71e0933"
+      },
       "first_seen_at": "2026-11-09T16:57:31.171695Z",
       "key": "cn:c538fd9488b9fa04b438",
       "last_error": null,
@@ -1966,13 +2017,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Infrastructure Engineer",
-      "url": "https://jobs.ashbyhq.com/meshy/de871fcf-d042-4b07-ad8e-0059d71e0933",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason": "MANDATORY_KUBERNETES_GPU_INFRA_DOMAIN_AND_3_5_YOE_MISMATCH",
-        "note": "Exact Meshy Ashby de871fcf-d042-4b07-ad8e-0059d71e0933 first-party full JD already saved in consumer_review (2026-11-10). Core role owns GPU inference serving, scheduling/multiplexing (MIG/MPS), Kubernetes/microservices, disaster recovery and resource management; 3-5 years backend/infrastructure required, proven Kubernetes and inference scheduling projects. Candidate's documented production Laravel/backend + NLP/Agent research does not establish mandatory GPU/K8s/inference-platform expertise; outside substantive target AI application/retrieval/evaluation lane. Ashby published role route exists but is JS-only in web reader; previous first-party full-JD verification reused.",
-        "review_source": "https://jobs.ashbyhq.com/meshy/de871fcf-d042-4b07-ad8e-0059d71e0933"
-      }
+      "url": "https://jobs.ashbyhq.com/meshy/de871fcf-d042-4b07-ad8e-0059d71e0933"
     }
   ],
   "version": 1
