@@ -161,7 +161,10 @@ def native_queue_snapshot(shards: list[list[dict]]) -> dict:
                 not candidate.get("source_id") or
                 not url or not QUEUE_SIGNAL.search(candidate.get("title", ""))):
                 continue
-            if source == "jobpro" and urlsplit(url).hostname not in JOBPRO_OFFICIAL_HOSTS:
+            if source == "jobpro" and (urlsplit(url).hostname not in JOBPRO_OFFICIAL_HOSTS or
+                                      candidate["source_id"] not in url):
+                # Ignore mismatched job ID / URL identities, but keep the raw
+                # job-pro observation in the ephemeral evidence artifact.
                 continue
             is_native = source == "liepin"
             jobs.append({
