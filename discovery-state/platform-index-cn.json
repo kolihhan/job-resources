@@ -1069,42 +1069,6 @@
       "url": "https://www.liepin.com/job/1986189547.shtml"
     },
     {
-      "ats_key": "jobpro:agibot:7657507612519483702",
-      "company": "agibot",
-      "consumer_review": {
-        "checked_at": "2026-11-11T04:10:26.875677+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "岗位职责 / Responsibilities\n•ASR服务开发：设计并实现高吞吐量的语音识别后端服务，支持实时流式转写、时间戳对齐等功能，优化首字延迟与尾字延迟\n•TTS服务开发：构建低延迟语音合成服务，实现流式音色克隆、情感控制、多语言混合合成，优化音频流分片与传输策略\n•Omni端到端服务：开发端到端语音交互系统，支持语音到语音的直接推理，实现全双工对话能力\n•流式处理架构：设计WebSocket/HTTP2流式传输协议，实现Chunk级数据流转，优化端到端延迟至200ms以内\n•高并发系统：构建支持高并发的服务集群，实现负载均衡、弹性扩缩容、故障自动恢复\n•模型部署优化：负责大模型的推理加速（TensorRT/vLLM/TensorRT-LLM），实现GPU资源调度与多卡推理优化\n•业务中台建设：搭建语音AI业务中台，抽象通用能力，支撑多业务线快速接入\n任职要求 / Requirements\n基础要求\n•本科及以上学历，计算机、通信、电子工程等相关专业，5年以上后端开发经验\n•精通Python/Go/C++至少一门语言，具备扎实的多线程/多进程编程能力\n•深入理解流式处理架构，熟悉WebSocket、HTTP/2、GRPC等实时通信协议\n•熟悉语音AI领域，了解ASR、TTS、Omni模型原理\n•掌握大模型推理优化技术，有vLLM、TensorRT-LLM、Triton Inference Server等部署经验\n•熟悉Kubernetes、Docker等容器化部署，具备云原生架构设计能力\n核心技术栈（必备）\n•深度学习框架：PyTorch、ONNX Runtime、TensorRT\n•流式处理：WebSocket、Server-Sent Events、HTTP/2 Server Push、GRPC Streaming\n•音频处理：FFmpeg、WebRTC、Opus编码、音频分片与缓冲策略\n•服务架构：FastAPI/Go-gin、gRPC、Redis、Kafka/RabbitMQ、Nginx\n•运维监控：Prometheus、Grafana、ELK、链路追踪（Jaeger/Zipkin）\n加分项\n•有大规模语音AI服务落地经验\n•熟悉端侧推理优化，有移动端/边缘设备语音模型部署经验\n•开源语音项目贡献者（如Whisper、Kaldi、ESPnet等）\n•有全双工语音对话系统开发经验\n•熟悉大模型微调与量化技术（LoRA、QLoRA、AWQ、GGUF等）",
-        "jd_chars": 1050,
-        "jd_sha256": "2f2afed3154e6d639df40a88d2d4a0b58940574cfcda30350f3088e025664b43",
-        "note": "Full employer-authored description and requirements from exact public API job ID; live route, eligibility and prior application still require private Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "job-pro direct public employer recruiting API",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "",
-      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
-      "first_seen_at": "2026-11-11T03:03:21.937738Z",
-      "key": "cn:203f9bf78549e649ce83",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "query": "上海",
-      "retries": 0,
-      "seq": 73,
-      "source": "jobpro:public-employer-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "7657507612519483702",
-      "source_listing_url": "",
-      "source_platform": "企业官方招聘入口 (job-pro)",
-      "state": "UNVERIFIED_INDEX",
-      "title": "语音大模型后端工程师",
-      "url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7657507612519483702/detail"
-    },
-    {
       "ats_key": "jobpro:bytedance:7628143430628919557",
       "company": "bytedance",
       "description_excerpt": "",
@@ -2032,6 +1996,44 @@
       "state": "HARD_REJECTED",
       "title": "AI Infrastructure Engineer",
       "url": "https://jobs.ashbyhq.com/meshy/de871fcf-d042-4b07-ad8e-0059d71e0933"
+    },
+    {
+      "ats_key": "jobpro:agibot:7657507612519483702",
+      "company": "agibot",
+      "consumer_review": {
+        "checked_at": "2026-11-11T04:10:26.875677+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "岗位职责 / Responsibilities\n•ASR服务开发：设计并实现高吞吐量的语音识别后端服务，支持实时流式转写、时间戳对齐等功能，优化首字延迟与尾字延迟\n•TTS服务开发：构建低延迟语音合成服务，实现流式音色克隆、情感控制、多语言混合合成，优化音频流分片与传输策略\n•Omni端到端服务：开发端到端语音交互系统，支持语音到语音的直接推理，实现全双工对话能力\n•流式处理架构：设计WebSocket/HTTP2流式传输协议，实现Chunk级数据流转，优化端到端延迟至200ms以内\n•高并发系统：构建支持高并发的服务集群，实现负载均衡、弹性扩缩容、故障自动恢复\n•模型部署优化：负责大模型的推理加速（TensorRT/vLLM/TensorRT-LLM），实现GPU资源调度与多卡推理优化\n•业务中台建设：搭建语音AI业务中台，抽象通用能力，支撑多业务线快速接入\n任职要求 / Requirements\n基础要求\n•本科及以上学历，计算机、通信、电子工程等相关专业，5年以上后端开发经验\n•精通Python/Go/C++至少一门语言，具备扎实的多线程/多进程编程能力\n•深入理解流式处理架构，熟悉WebSocket、HTTP/2、GRPC等实时通信协议\n•熟悉语音AI领域，了解ASR、TTS、Omni模型原理\n•掌握大模型推理优化技术，有vLLM、TensorRT-LLM、Triton Inference Server等部署经验\n•熟悉Kubernetes、Docker等容器化部署，具备云原生架构设计能力\n核心技术栈（必备）\n•深度学习框架：PyTorch、ONNX Runtime、TensorRT\n•流式处理：WebSocket、Server-Sent Events、HTTP/2 Server Push、GRPC Streaming\n•音频处理：FFmpeg、WebRTC、Opus编码、音频分片与缓冲策略\n•服务架构：FastAPI/Go-gin、gRPC、Redis、Kafka/RabbitMQ、Nginx\n•运维监控：Prometheus、Grafana、ELK、链路追踪（Jaeger/Zipkin）\n加分项\n•有大规模语音AI服务落地经验\n•熟悉端侧推理优化，有移动端/边缘设备语音模型部署经验\n•开源语音项目贡献者（如Whisper、Kaldi、ESPnet等）\n•有全双工语音对话系统开发经验\n•熟悉大模型微调与量化技术（LoRA、QLoRA、AWQ、GGUF等）",
+        "jd_chars": 1050,
+        "jd_sha256": "2f2afed3154e6d639df40a88d2d4a0b58940574cfcda30350f3088e025664b43",
+        "note": "Full employer-authored description and requirements from exact public API job ID; live route, eligibility and prior application still require private Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "job-pro direct public employer recruiting API",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-11T03:03:21.937738Z",
+      "key": "cn:203f9bf78549e649ce83",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "上海",
+      "retries": 0,
+      "seq": 73,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "7657507612519483702",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "HARD_REJECTED",
+      "title": "语音大模型后端工程师",
+      "url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7657507612519483702/detail",
+      "reason": "Employer-authored official job-pro JD (checked 2026-11-11 UTC) explicitly requires 5+ years professional backend development plus production ASR/TTS/Omni streaming and GPU inference optimization. Candidate is early-career and lacks the mandatory 5-year specialised backend floor; not eligible under RULES.md §4. This is an evidence-backed rejection, not an application.",
+      "evidence_url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7657507612519483702/detail"
     }
   ],
   "version": 1
