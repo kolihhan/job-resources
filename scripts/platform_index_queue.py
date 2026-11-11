@@ -234,7 +234,7 @@ def ingest(state: dict,index: dict,payload: dict) -> tuple[dict,dict]:
     validate_state(state,market)
     return state,stats
 
-def verify_issue_readback(issue_url: str,candidate_url: str,token: str) -> bool:
+def verify_issue_readback(issue_url: str,candidate_url: str,token: str,market: str | None = None) -> bool:
     # A self-reported boolean is not evidence; verify the live GitHub Issue.
     m=re.fullmatch(r"https://github.com/kolihhan/job-resources/issues/(\d+)",issue_url or "")
     if not m:
@@ -251,7 +251,16 @@ def verify_issue_readback(issue_url: str,candidate_url: str,token: str) -> bool:
     body=str(issue.get("body") or "")
     found=re.findall(r"https?://[^\s<>\])]+",body)
     host=urlparse(candidate_url).hostname or ""
-    market="SG" if (host=="ntu.wd3.myworkdayjobs.com" or host.startswith("sg.")) else "MY"
+    if market is None:
+        # Backward compatibility for direct calls; command-line receipts pass
+        # the existing queue's authoritative market explicitly.
+        cn_hosts={"www.liepin.com","liepin.com","jobs.bytedance.com",
+                  "join.qq.com","campus-talent.alibaba.com"}
+        market=("CN" if host in cn_hosts or host.endswith(".jobs.feishu.cn")
+                else "SG" if host=="ntu.wd3.myworkdayjobs.com" or host.startswith("sg.")
+                else "MY")
+    if market not in MARKETS or canonical(candidate_url,market)!=candidate_url:
+        raise ValueError("candidate is not a canonical role in the source market")
     urls={canonical(u.strip('.,'),market) for u in found}
     if candidate_url in urls:
         return True
@@ -346,7 +355,7 @@ def main():
         if receipt.get("action") in ("ISSUE_VERIFIED","DUPLICATE_CONFIRMED"):
             candidate=next((x for x in state["pending"] if x["key"]==receipt.get("key")),None)
             if not candidate:raise ValueError("unknown pending Issue acknowledgement")
-            proven=verify_issue_readback(receipt.get("issue_url"),candidate["url"],os.environ.get("GITHUB_TOKEN",""))
+            proven=verify_issue_readback(receipt.get("issue_url"),candidate["url"],os.environ.get("GITHUB_TOKEN",""),market=state["market"])
         state=ack(state,receipt,issue_proven=proven)
         atomic_write(args.state,state)
         print(json.dumps({"pending":len(state["pending"]),"cursor":state["next_unacknowledged_seq"]}))
