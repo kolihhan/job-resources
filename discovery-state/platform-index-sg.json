@@ -64,7 +64,7 @@
       },
       "first_seen_at": "2026-11-07T09:35:18.297678Z",
       "key": "sg:39d58582af448f9f734b",
-      "last_error": "Exact NTU R00026159 Workday live apply route inaccessible; historical Trust Technologies requisition correspondence must be matched before issue creation.",
+      "last_error": "Exact NTU Workday R00026159 live application form not verified; indexed Trust Technologies R00024811 is a different FPGA/hardware requisition, not an eligible substitute.",
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
@@ -75,11 +75,11 @@
         "missing_evidence": "Exact NTU R00026159 Workday live apply route inaccessible; historical Trust Technologies requisition correspondence must be matched before issue creation."
       },
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-10T15:59:27Z",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact NTU R00026159 Workday live application route not independently verified; Trust Technologies other requisitions have prior application history.",
-        "status": "RETRY"
+        "status": "RETRY",
+        "ack": false,
+        "missing_evidence": "Exact NTU Workday R00026159 live application form not verified; indexed Trust Technologies R00024811 is a different FPGA/hardware requisition, not an eligible substitute.",
+        "checked_at": "2026-11-11T08:03:50+08:00"
       },
       "seq": 17,
       "source": "ntu:official-cxs:SG",
@@ -300,18 +300,18 @@
       "description_excerpt": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we ",
       "first_seen_at": "2026-11-09T15:02:24.825456Z",
       "key": "sg:027f8a0aedd695252806",
-      "last_error": "Exact Micron Workday JR111138 application route is inaccessible; stored full JD requires 2+ years shipping production apps and Docker/Kubernetes/cloud, and JR111136 rejection is a different requisition.",
+      "last_error": "Exact Micron Workday JR111138 live application form not verified; indexed Micron AI Engineer SMAI pages also refer to DIFFERENT JR111136 with 5+ years, so cannot transfer route/requirements or prior JR111136 rejection.",
       "market": "SG",
       "platform": "workday official ATS",
       "prior_wait_employer_hint": true,
       "query": "Fab 10A, Singapore",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T04:56:37+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact Micron Workday JR111138 application route is inaccessible; stored full JD requires 2+ years shipping production apps and Docker/Kubernetes/cloud, and JR111136 rejection is a different requisition.",
-        "status": "RETRY"
+        "status": "RETRY",
+        "ack": false,
+        "missing_evidence": "Exact Micron Workday JR111138 live application form not verified; indexed Micron AI Engineer SMAI pages also refer to DIFFERENT JR111136 with 5+ years, so cannot transfer route/requirements or prior JR111136 rejection.",
+        "checked_at": "2026-11-11T08:03:50+08:00"
       },
       "seq": 48,
       "source": "freehirefetch:official-ats:SG",
@@ -342,7 +342,7 @@
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:11:31.004975Z",
       "key": "sg:5cdfbe2ca21148797c13",
-      "last_error": "Confirm candidate has employer-required 2+ years deep-learning/NLP including 1+ year practical LLM work and deployed multi-agent workflows; exact Greenhouse 5009522101 route is live.",
+      "last_error": "Employer Greenhouse 5009522101 apply form is live (2026-11-11); unresolved mandatory 2+ years deep-learning/NLP incl 1+ practical LLM and proven deployed multi-agent workflows, plus multi-GPU LLM service operation. No truthful candidate evidence establishes all mandatory production requirements.",
       "market": "SG",
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
@@ -355,11 +355,11 @@
         "status": "RETRY"
       },
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T04:56:37+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Confirm candidate has employer-required 2+ years deep-learning/NLP including 1+ year practical LLM work and deployed multi-agent workflows; exact Greenhouse 5009522101 route is live.",
-        "status": "RETRY"
+        "status": "RETRY",
+        "ack": false,
+        "missing_evidence": "Employer Greenhouse 5009522101 apply form is live (2026-11-11); unresolved mandatory 2+ years deep-learning/NLP incl 1+ practical LLM and proven deployed multi-agent workflows, plus multi-GPU LLM service operation. No truthful candidate evidence establishes all mandatory production requirements.",
+        "checked_at": "2026-11-11T08:03:50+08:00"
       },
       "seq": 50,
       "source": "freehirefetch:official-ats:SG",
