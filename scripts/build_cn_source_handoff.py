@@ -32,7 +32,7 @@ def normalize_url(url: str) -> str:
     # Do not collapse every Tencent requisition to /post_detail.html.
     if host == "join.qq.com" and parts.path == "/post_detail.html":
         ids = parse_qs(parts.query).get("postid", [])
-        if len(ids) == 1 and re.fullmatch(r"\\d{10,20}", ids[0]):
+        if len(ids) == 1 and re.fullmatch(r"[0-9]{10,20}", ids[0]):
             return "https://join.qq.com/post_detail.html?postid=" + ids[0]
         return ""
     return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path.rstrip("/"), "", ""))
