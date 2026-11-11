@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-10T20:29:48.774659Z",
+    "at": "2026-11-11T01:59:01.823993Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 4,
-      "observed": 4
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "CN",
-  "next_seq": 72,
+  "next_seq": 73,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1118,6 +1118,28 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI人工智能算法工程师",
       "url": "https://www.liepin.com/job/1973813997.shtml"
+    },
+    {
+      "ats_key": "liepin:86189547",
+      "company": "上海恪能电力电子有限公司",
+      "description_excerpt": "",
+      "discovery_access": "NATIVE_API_LISTING",
+      "first_seen_at": "2026-11-11T01:59:01.823973Z",
+      "key": "cn:2d2a464726750165844e",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "上海-浦东新区",
+      "retries": 0,
+      "seq": 72,
+      "source": "liepin:native-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "86189547",
+      "source_listing_url": "",
+      "source_platform": "猎聘",
+      "state": "UNVERIFIED_INDEX",
+      "title": "SST / HVDC / 通信电源系统软件研发工程师",
+      "url": "https://www.liepin.com/job/1986189547.shtml"
     }
   ],
   "terminal": [
@@ -1917,6 +1939,12 @@
       "ats_key": "freehire|ai-engineer-altera-corporation-2hgo5unk",
       "company": "Altera Corporation",
       "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><h3></h3><h2><b>Job Description:</b></h2><p><span><b>AI Engineer – Agentic AI Systems (High-Potential Early Career)</b></span></p><p><b>Location:</b> Shanghai, China<br/><b>Company:</b> <span><span>Altera<",
+      "disposition": {
+        "checked_at": "2026-11-11",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/554",
+        "note": "Exact employer Altera, Shanghai requisition R02693 is already in GitHub APPLY #554 (same requisition, full-time role); issue readback shows same employer and requisition. Do not create a sibling application. Existing issue verified live 2026-10-22, current route recheck remains required before applicant submission.",
+        "reason": "EXACT_REQUISITION_EXISTING_APPLY"
+      },
       "first_seen_at": "2026-11-09T16:44:39.014142Z",
       "key": "cn:72cb8b855b138f6f7b23",
       "last_error": null,
@@ -1931,13 +1959,7 @@
       "source_listing_url": "",
       "state": "DUPLICATE_CONFIRMED",
       "title": "AI Engineer",
-      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/AI-Engineer_R02693",
-      "disposition": {
-        "checked_at": "2026-11-11",
-        "reason": "EXACT_REQUISITION_EXISTING_APPLY",
-        "note": "Exact employer Altera, Shanghai requisition R02693 is already in GitHub APPLY #554 (same requisition, full-time role); issue readback shows same employer and requisition. Do not create a sibling application. Existing issue verified live 2026-10-22, current route recheck remains required before applicant submission.",
-        "issue_url": "https://github.com/kolihhan/job-resources/issues/554"
-      }
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/AI-Engineer_R02693"
     }
   ],
   "version": 1
