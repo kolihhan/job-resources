@@ -1119,6 +1119,11 @@
     {
       "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Engineer---Research-Associate--Systems-Integration-and-Prototyping-_R00026011",
       "company": "NTU Singapore",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "error": "HTTPError: HTTP Error 403: Forbidden",
+        "stage": "FETCH_OR_IDENTITY_RETRY"
+      },
       "description_excerpt": "",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T23:16:08.393107Z",
@@ -1141,6 +1146,11 @@
     {
       "ats_key": "ncs3|smartrecruiters|6000000001497996",
       "company": "NCS",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T23:16:08.393131Z",
@@ -1170,6 +1180,11 @@
       },
       "ats_key": "freehire|ai-engineer-persol-outsourcing-gydnm6qy",
       "company": "PERSOL Outsourcing",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p><strong>Responsibilities</strong></p>\n<ul>\n<li>Manage and direct research and development processes to meet the needs of our ML/AI strategy</li>\n<li>Develop machine learning applications in alignment with project requirements and busines",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T23:16:08.393149Z",
@@ -1198,6 +1213,11 @@
       },
       "ats_key": "freehire|production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac",
       "company": "Qube Research & Technologies",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p>Qube Research &amp; Technologies (QRT) is a global quantitative and systematic investment manager, operating in all liquid asset classes across the world. We are a technology and data driven group implementing a scientific approach to in",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T23:16:08.393173Z",
@@ -1232,6 +1252,11 @@
       },
       "ats_key": "freehire|ai-engineer-ai-digital-solutions-forward-deployed-engineer-recruit-express-ales2tem",
       "company": "Recruit Express",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p>Salary: $5,000 – $7,500 per month</p><p><strong>Assistant Manager AI &amp; Digital Solutions Forward Deployed Engineer</strong></p><p><br></p><h2><strong>Job Responsibilities:</strong></h2><p><strong>Business Engagement &amp; Solution Di",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T03:03:52.215674Z",
@@ -1260,6 +1285,22 @@
       },
       "ats_key": "freehire|research-engineer-senior-research-engineer-computer-science-data-science-information-science-digital-humanities-ntu-vdatevpx",
       "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The Asian Centre for Digital Cultures (ACDC) at CoHASS, NTU, invites applications for two Research Engineer/ Senior Research Engineer positions. Working at the intersection of computation and the humanities, arts, and social sciences, the successful candidates will enable innovative research by providing technical support, methodological expertise, and collaborative capacity across the Centre’s research initiatives. Key Responsibilities: Support CoHASS researchers in exploring and applying digital methods and tools, including coding, empowering principal investigators to integrate digital tools into their projects, in partnership with other technical groups across NTU and Singapore Assist “ACDC methods lab” lead and co-lead in conducting regular academic events Provide training in selected digital methods and tools Support researchers in developing Web and mobile applications Support researchers in using cloud services for research and development Help with the ethical scraping, collection, cleaning, and structuring of diverse qualitative and quantitative datasets Develop and maintain the ACDC website and portal to effectively showcase ongoing projects and outputs Support researchers in writing the methods and technical sections of research proposals and publications Define and manage guidelines for best-practice software design and development and the effective management of risks and issues that affect scope, schedule and quality Maintain currency of contemporary and relevant sector-wide developments in software development relevant to ACDC and share with other members of the team Other duties, appropriate to this classification, as directed Job Requirements: A Master’s degree in computer science, data science, information science, digital humanities Experience with social science/humanities/arts research methods Python coding skills including Pandas package, statistical or machine learning packages, access to cloud AI services Experience with cloud services and environments Experience with developing Web or mobile applications Demonstrated experience in supporting a high-quality service to users, including analysing problems and resolving problems related to research requirements, monitoring the status of services, proactively seeking service improvements to meet emerging areas of need Ability to pick up new methods and software packages by reading manuals and following online tutorials Open source development and management is highly valued, along with experience working in an agile software development environment Enthusiasm in exploring and learning new digital methods The closing date for application is 15 October 2026. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2769,
+        "jd_sha256": "da267973d4b72c612863bb6c5fafcf4c06762fb1b322af727eafc813f97fd81e",
+        "job_description_excerpt": "The Asian Centre for Digital Cultures (ACDC) at CoHASS, NTU, invites applications for two Research Engineer/ Senior Research Engineer positions. Working at the intersection of computation and the humanities, arts, and social sciences, the successful ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025774",
+        "review_flags": [],
+        "signals": [],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<p>The Asian Centre for Digital Cultures (ACDC) at CoHASS, NTU, invites applications for two Research Engineer/ Senior Research Engineer positions. Working at the intersection of computation and the humanities, arts, and social sciences, th",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T03:03:52.215708Z",
@@ -1289,6 +1330,11 @@
       },
       "ats_key": "freehire|ai-engineer-ai-products-nanyang-technological-university-h7432t6u",
       "company": "Nanyang Technological University",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NR",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T07:19:00.845378Z",
@@ -1317,6 +1363,11 @@
       },
       "ats_key": "freehire|ai-engineer-surbanajurong-bbdrnprk",
       "company": "surbanajurong",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p>As a part of the Central AI-Core Studio &amp; Delivery team, this role would require you to drive the design, build, and production delivery of AI-enabled applications for our core business lines.</p><br/><p><b>Key Responsibilities</b></",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T07:19:00.845437Z",
@@ -1352,6 +1403,11 @@
       },
       "ats_key": "freehire|ai-engineer-svm-solutions-and-technologies-pte-ltd-z3if4jv2",
       "company": "SVM SOLUTIONS AND TECHNOLOGIES PTE. LTD.",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p><strong>About the Role :</strong></p>\n<p>As an AI Engineer at Solverminds, you’ll build LLM-powered features and agents that bring AI</p>\n<p>into our maritime software products, working with experienced AI engineers to take ideas from</p",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T07:19:00.845458Z",
@@ -1380,6 +1436,11 @@
       },
       "ats_key": "freehire|tencent-cloud-ai-llm-solution-architecture-leader-tencent-weoadahe",
       "company": "Tencent",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<h1><b><u>Business Unit</u></b></h1>Cloud &amp; Smart Industries Group (CSIG) is responsible for promoting the company&#39;s cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovat",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T17:52:50.190989Z",
@@ -1408,6 +1469,11 @@
       },
       "ats_key": "freehire|ai-research-engineer-gradient-i2izmi6l",
       "company": "gradient",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<div></div><p></p><p>Gradient is building the world’s first fully AI runtime—a sovereign, peer-powered infrastructure where intelligence is hosted, served, and owned by the people. The age of Centralized Intelligence is ending. What comes n",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T17:52:50.191018Z",
@@ -1436,6 +1502,11 @@
       },
       "ats_key": "freehire|llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
       "company": "TikTok",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<strong>Responsibilities</strong><br><p>About the Team: We are looking for a sharp and organized Product Operations specialist to join TikTok&#39;s Tako team. You will play a key role in building and operationalizing the evaluation framewor",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T17:52:50.191030Z",
