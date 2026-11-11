@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T08:18:48.623814Z",
-    "source": "ntu:official-cxs:SG",
+    "at": "2026-11-11T09:49:52.464613Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 15,
+      "already_seen": 9,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
       "new_pending": 0,
-      "observed": 15
+      "observed": 9
     }
   },
   "market": "SG",
@@ -298,20 +298,20 @@
       "platform": "ashby official ATS",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T16:56:13+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact BJAK Ashby 56f522c4-b903-45ea-bb08-952b74641b56 complete employer-authored JD including location/residency eligibility and current usable application route cannot be read from JS-only exact page; indexed excerpts are insufficient to transfer SG-residency blocker from other BJAK requisitions.",
+        "status": "RETRY"
+      },
       "seq": 55,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
       "source_job_id": "56f522c4-b903-45ea-bb08-952b74641b56",
       "state": "UNVERIFIED_INDEX",
       "title": "Applied Machine Learning Engineer",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/56f522c4-b903-45ea-bb08-952b74641b56",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-11T16:56:13+08:00",
-        "missing_evidence": "Exact BJAK Ashby 56f522c4-b903-45ea-bb08-952b74641b56 complete employer-authored JD including location/residency eligibility and current usable application route cannot be read from JS-only exact page; indexed excerpts are insufficient to transfer SG-residency blocker from other BJAK requisitions."
-      }
+      "url": "https://jobs.ashbyhq.com/bjakcareer/56f522c4-b903-45ea-bb08-952b74641b56"
     },
     {
       "api_source_context": {
