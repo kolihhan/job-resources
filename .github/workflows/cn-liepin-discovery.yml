@@ -9,6 +9,8 @@ on:
     paths:
       - "scripts/build_cn_source_handoff.py"
       - "tests/test_cn_source_handoff.py"
+      - "tests/test_cn_jobpro_jd_import.py"
+      - "scripts/enrich_pending_public_ats.py"
       - ".github/workflows/cn-liepin-discovery.yml"
 
 permissions:
@@ -35,6 +37,8 @@ jobs:
 
       - name: Validate private source handoff and Issue-safe schema
         run: python -m unittest discover -s tests -p 'test_cn_source_handoff.py' -v
+      - name: Test exact CN employer JD import (no applicant verdict)
+        run: python -m unittest discover -s tests -p 'test_cn_jobpro_jd_import.py' -v
 
       - name: Import validated CN native public batches from freehirefetch
         shell: bash
@@ -50,7 +54,8 @@ jobs:
           folder.mkdir(parents=True,exist_ok=True)
           def read(name, max_size=3_000_000):
               assert name in ('liepin-raw.json','health.json',
-                              'jobpro-ai.json','jobpro-backend.json','jobpro-swe.json')
+                              'jobpro-ai.json','jobpro-backend.json','jobpro-swe.json',
+                              'jobpro-jd.json')
               req=Request(base+name,headers={'User-Agent':'JobResourcesCNPublicBatchConsumer/1.0'})
               with urlopen(req,timeout=25) as response:
                   raw=response.read(max_size+1)
@@ -82,6 +87,18 @@ jobs:
               if not isinstance(obj,dict) or not isinstance(obj.get('results'),list):
                   raise ValueError('upstream public employer feed schema invalid: '+name)
               (folder/('jobpro-'+name+'.json')).write_bytes(raw)
+          # New, public first-party JD evidence is optional during rollout and
+          # after a source failure. Never treat 404/empty as zero vacancies.
+          try:
+              raw,jds=read('jobpro-jd.json',1_800_000)
+              if (jds.get('version')==1 and jds.get('source')=='jobpro-public-employer-detail'
+                      and isinstance(jds.get('jobs'),list)):
+                  (folder/'jobpro-jd.json').write_bytes(raw)
+                  print('PUBLIC_CN_JOBPRO_DETAIL',len(jds['jobs']),'source evidence rows')
+              else:
+                  print('PUBLIC_CN_JOBPRO_DETAIL_INCOMPATIBLE')
+          except (OSError,ValueError,TimeoutError) as exc:
+              print('PUBLIC_CN_JOBPRO_DETAIL_UNAVAILABLE',type(exc).__name__)
           print('PUBLIC_CN_LIEPIN',len(ids),'source IDs, publisher checked:',health['checked_at'])
           print('PUBLIC_CN_JOBPRO',3,'query batches; applicant matching remains private')
           PY
@@ -192,6 +209,7 @@ jobs:
           from pathlib import Path
           sys.path.insert(0,"scripts")
           from intake_official_ats import process_market
+          from enrich_pending_public_ats import enrich_cn_jobpro
           from platform_index_queue import atomic_write,new_state
           market="CN"
           root=Path("discovery-state")
@@ -201,12 +219,18 @@ jobs:
           known=json.loads((root/"known-role-index.json").read_text())
           updated,stats=process_market(market,snapshot,state,known,
                                        limit=10,company_cap=2,max_pending=45)
-          # process_market/ingest mutate the state in place, so checking
-          # object inequality here would silently drop every new receipt.
-          if stats["created"]:
+          jd_report={"full_jd_imported":0,"source_state":"NOT_PUBLISHED"}
+          jd_path=Path("artifacts/jobpro-jd.json")
+          if jd_path.exists():
+              jd_report=enrich_cn_jobpro(updated,json.loads(jd_path.read_text()))
+          # This is source-only evidence hydration. It must never create a
+          # GitHub Issue, terminal ACK or application from a source JD.
+          if stats["created"] or jd_report["full_jd_imported"]:
               atomic_write(state_path,updated)
           result={"native_liepin_source_rows":len(snapshot["jobs"]),
                   "queued_unverified":stats["created"],
+                  "official_full_jds_imported":jd_report["full_jd_imported"],
+                  "official_jd_source_state":jd_report.get("source_state","AVAILABLE"),
                   "pending_after":stats["pending_after"],
                   "deferred_unhandled":stats.get("deferred_unhandled_ids",0),
                   "coverage_gaps":stats["coverage_gaps"]}
