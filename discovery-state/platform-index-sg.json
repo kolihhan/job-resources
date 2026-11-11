@@ -304,7 +304,14 @@
       "source_job_id": "56f522c4-b903-45ea-bb08-952b74641b56",
       "state": "UNVERIFIED_INDEX",
       "title": "Applied Machine Learning Engineer",
-      "url": "https://jobs.ashbyhq.com/bjakcareer/56f522c4-b903-45ea-bb08-952b74641b56"
+      "url": "https://jobs.ashbyhq.com/bjakcareer/56f522c4-b903-45ea-bb08-952b74641b56",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-11T16:56:13+08:00",
+        "missing_evidence": "Exact BJAK Ashby 56f522c4-b903-45ea-bb08-952b74641b56 complete employer-authored JD including location/residency eligibility and current usable application route cannot be read from JS-only exact page; indexed excerpts are insufficient to transfer SG-residency blocker from other BJAK requisitions."
+      }
     },
     {
       "api_source_context": {
