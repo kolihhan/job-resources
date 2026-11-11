@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T17:52:50.191059Z",
-    "source": "freehirefetch:official-ats:SG",
+    "at": "2026-11-11T21:31:58.433889Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 9,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 5,
-      "observed": 5
+      "new_pending": 0,
+      "observed": 9
     }
   },
   "market": "SG",
@@ -1511,6 +1511,13 @@
       "platform": "ashby official ATS",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T02:04:05+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Current live employer Ashby application route for exact Clera requisition 0890b84c-3391-457c-b762-4d42e558acc9: full first-party JD is saved, sponsorship explicitly available, no same-title GitHub Issue or Gmail receipt found in both accounts, but direct employer page returned inaccessible/error on 2026-11-12. Verify exact live Apply form before promotion; 2-4 years QC automation experience is stretch, not automatic rejection.",
+        "status": "RETRY"
+      },
       "seq": 128,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -1519,14 +1526,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, QC Automation",
-      "url": "https://jobs.ashbyhq.com/Clera/0890b84c-3391-457c-b762-4d42e558acc9",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-12T02:04:05+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Current live employer Ashby application route for exact Clera requisition 0890b84c-3391-457c-b762-4d42e558acc9: full first-party JD is saved, sponsorship explicitly available, no same-title GitHub Issue or Gmail receipt found in both accounts, but direct employer page returned inaccessible/error on 2026-11-12. Verify exact live Apply form before promotion; 2-4 years QC automation experience is stretch, not automatic rejection."
-      }
+      "url": "https://jobs.ashbyhq.com/Clera/0890b84c-3391-457c-b762-4d42e558acc9"
     }
   ],
   "terminal": [
