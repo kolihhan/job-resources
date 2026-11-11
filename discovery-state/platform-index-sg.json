@@ -118,7 +118,7 @@
       },
       "first_seen_at": "2026-11-07T09:35:18.297867Z",
       "key": "sg:e68e9e91029f06cde5f0",
-      "last_error": null,
+      "last_error": "Two NTU employer application receipts dated 2026-11-11 (05:42 and 10:30 UTC) confirm submissions titled 'Research Engineer II (Trust Technologies)' but omit requisition ID. Different NTU DTC RE II requisition R00026160 is already WAIT #886, while older same-title issue #772 lacks exact Workday ID. Cannot prove whether either receipt belongs to R00025936. Missing exactly: employer Workday candidate application-history entry showing requisition R00025936 (or authoritative exact-role receipt). Preserve Pending; do not create duplicate APPLY or ACK.",
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
@@ -127,7 +127,14 @@
       "source": "ntu:official-cxs:SG",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer II (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00025936"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00025936",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T22:01:36+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Two NTU employer application receipts dated 2026-11-11 (05:42 and 10:30 UTC) confirm submissions titled 'Research Engineer II (Trust Technologies)' but omit requisition ID. Different NTU DTC RE II requisition R00026160 is already WAIT #886, while older same-title issue #772 lacks exact Workday ID. Cannot prove whether either receipt belongs to R00025936. Missing exactly: employer Workday candidate application-history entry showing requisition R00025936 (or authoritative exact-role receipt). Preserve Pending; do not create duplicate APPLY or ACK."
+      }
     },
     {
       "company": "OpenAI",
