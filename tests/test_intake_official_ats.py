@@ -56,6 +56,32 @@ class OfficialATSIntakeTests(unittest.TestCase):
         self.assertNotIn("full_jd_text",out["pending"][0])
         validate_state(out,"CN")
 
+    def test_jobpro_cn_employer_source_survives_real_intake_and_reingest(self):
+        source={
+            "market":"CN","ats":"jobpro-employer-api",
+            "company":"bytedance", "title":"Agent后端开发工程师",
+            "job_id":"7668351902195009845", "key":"jobpro:bytedance:7668351902195009845",
+            "url":"https://jobs.bytedance.com/campus/position/7668351902195009845/detail",
+            "location":"北京", "evidence":"listing_only", "lane":"AI",
+            "triage_priority":"HIGH", "source":"jobpro:public-employer-api:CN",
+            "source_platform":"企业官方招聘入口 (job-pro)",
+            "discovery_access":"PUBLIC_EMPLOYER_API_LISTING",
+        }
+        state, first=process_market("CN",{"market":"CN","jobs":[source]},
+                                    new_state("CN"),{},limit=4)
+        self.assertEqual(first["created"],1)
+        self.assertEqual(state["pending"][0]["url"],source["url"])
+        self.assertEqual(state["pending"][0]["source"],source["source"])
+        self.assertEqual(state["pending"][0]["source_evidence"],"listing_only")
+        self.assertEqual(state["pending"][0]["state"],"UNVERIFIED_INDEX")
+        self.assertNotIn("consumer_review",state["pending"][0])
+        again, replay=process_market("CN",{"market":"CN","jobs":[source]},state,{},
+                                     limit=4)
+        self.assertEqual(replay["created"],0)
+        self.assertEqual(replay["already_in_source_queue"],1)
+        self.assertEqual(len(again["pending"]),1)
+        validate_state(again,"CN")
+
     def test_previous_wait_is_advisory_not_hard_suppression(self):
         row=job("MY",2,"Gen Digital MoneyLion","AI Applied Scientist")
         state,stats=process_market("MY",{"market":"MY","jobs":[row]},

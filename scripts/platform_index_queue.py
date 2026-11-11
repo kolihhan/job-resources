@@ -18,7 +18,7 @@ import os
 from pathlib import Path
 import re
 import tempfile
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 from urllib.request import Request, urlopen
 
 try:
@@ -59,6 +59,34 @@ def canonical(url: str,market: str) -> str | None:
         m=re.fullmatch(r"/job/(\d{5,16})\.shtml/?",p.path,re.I)
         if m:
             return "https://www.liepin.com/job/"+m.group(1)+".shtml"
+    # Public employer recruiting URLs supplied by job-pro (CN only).
+    # Strict host + role-ID path validation: these are unverified source
+    # identities, not proof of a current JD or of foreign-hire eligibility.
+    if market=="CN" and p.scheme=="https" and not p.username and not p.password and p.port in (None,443):
+        host=(p.hostname or "").lower()
+        path=p.path.rstrip("/")
+        if host=="jobs.bytedance.com":
+            m=re.fullmatch(r"/(campus|experienced)/position/([0-9]{10,20})/detail",path)
+            if m:
+                return "https://jobs.bytedance.com/"+m.group(1)+"/position/"+m.group(2)+"/detail"
+        if host=="join.qq.com" and path=="/post_detail.html":
+            postids=parse_qs(p.query).get("postid",[])
+            if len(postids)==1 and re.fullmatch(r"[0-9]{10,20}",postids[0]):
+                return "https://join.qq.com/post_detail.html?postid="+postids[0]
+        if host=="campus-talent.alibaba.com":
+            m=re.fullmatch(r"/campus/position/([0-9]{10,20})",path)
+            if m:
+                return "https://campus-talent.alibaba.com/campus/position/"+m.group(1)
+        feishu_hosts={
+            "nio.jobs.feishu.cn","agirobot.jobs.feishu.cn",
+            "01ai.jobs.feishu.cn","lilithgames.jobs.feishu.cn",
+            "vrfi1sk8a0.jobs.feishu.cn","cq6qe6bvfr6.jobs.feishu.cn",
+            "xiaopeng.jobs.feishu.cn","xiaomi.jobs.f.mioffice.cn",
+        }
+        if host in feishu_hosts:
+            m=re.fullmatch(r"/[A-Za-z0-9_-]+/position/([0-9]{15,20})/detail",path)
+            if m:
+                return "https://"+host+path
     if market=="MY" and p.scheme=="https" and p.hostname=="jobs.ashbyhq.com":
         # First-party Gen Digital Ashby role UUID. Do not infer company, fit
         # or open status from title similarity with another Ashby requisition.
@@ -206,7 +234,7 @@ def ingest(state: dict,index: dict,payload: dict) -> tuple[dict,dict]:
     validate_state(state,market)
     return state,stats
 
-def verify_issue_readback(issue_url: str,candidate_url: str,token: str) -> bool:
+def verify_issue_readback(issue_url: str,candidate_url: str,token: str,market: str | None = None) -> bool:
     # A self-reported boolean is not evidence; verify the live GitHub Issue.
     m=re.fullmatch(r"https://github.com/kolihhan/job-resources/issues/(\d+)",issue_url or "")
     if not m:
@@ -223,7 +251,16 @@ def verify_issue_readback(issue_url: str,candidate_url: str,token: str) -> bool:
     body=str(issue.get("body") or "")
     found=re.findall(r"https?://[^\s<>\])]+",body)
     host=urlparse(candidate_url).hostname or ""
-    market="SG" if (host=="ntu.wd3.myworkdayjobs.com" or host.startswith("sg.")) else "MY"
+    if market is None:
+        # Backward compatibility for direct calls; command-line receipts pass
+        # the existing queue's authoritative market explicitly.
+        cn_hosts={"www.liepin.com","liepin.com","jobs.bytedance.com",
+                  "join.qq.com","campus-talent.alibaba.com"}
+        market=("CN" if host in cn_hosts or host.endswith(".jobs.feishu.cn")
+                else "SG" if host=="ntu.wd3.myworkdayjobs.com" or host.startswith("sg.")
+                else "MY")
+    if market not in MARKETS or canonical(candidate_url,market)!=candidate_url:
+        raise ValueError("candidate is not a canonical role in the source market")
     urls={canonical(u.strip('.,'),market) for u in found}
     if candidate_url in urls:
         return True
@@ -318,7 +355,7 @@ def main():
         if receipt.get("action") in ("ISSUE_VERIFIED","DUPLICATE_CONFIRMED"):
             candidate=next((x for x in state["pending"] if x["key"]==receipt.get("key")),None)
             if not candidate:raise ValueError("unknown pending Issue acknowledgement")
-            proven=verify_issue_readback(receipt.get("issue_url"),candidate["url"],os.environ.get("GITHUB_TOKEN",""))
+            proven=verify_issue_readback(receipt.get("issue_url"),candidate["url"],os.environ.get("GITHUB_TOKEN",""),market=state["market"])
         state=ack(state,receipt,issue_proven=proven)
         atomic_write(args.state,state)
         print(json.dumps({"pending":len(state["pending"]),"cursor":state["next_unacknowledged_seq"]}))

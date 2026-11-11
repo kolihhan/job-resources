@@ -12,7 +12,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import parse_qs, urlsplit, urlunsplit
 
 SIGNALS = re.compile(
     r"AI|LLM|RAG|Agent|NLP|MCP|Python|ML|大模型|智能体|机器学习|深度学习|生成式|"
@@ -27,6 +27,14 @@ def normalize_url(url: str) -> str:
     if not isinstance(url, str) or not url.startswith(("https://", "http://")):
         return ""
     parts = urlsplit(url)
+    host = (parts.hostname or "").lower()
+    # Tencent's exact job identity lives in ?postid=, not the path.
+    # Do not collapse every Tencent requisition to /post_detail.html.
+    if host == "join.qq.com" and parts.path == "/post_detail.html":
+        ids = parse_qs(parts.query).get("postid", [])
+        if len(ids) == 1 and re.fullmatch(r"[0-9]{10,20}", ids[0]):
+            return "https://join.qq.com/post_detail.html?postid=" + ids[0]
+        return ""
     return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path.rstrip("/"), "", ""))
 
 
@@ -119,28 +127,60 @@ QUEUE_SIGNAL = re.compile(
     r"人工智能|算法|检索|知识图谱|模型评测|Research|研究|研发工程师", re.I)
 
 
+# These exact employer-controlled portals appear in job-pro's observed
+# public JSON result set. Any other source remains in the raw audit artifact,
+# not silently admitted to the private queue as an official requisition.
+JOBPRO_OFFICIAL_HOSTS = frozenset({
+    "jobs.bytedance.com",
+    "join.qq.com",
+    "campus-talent.alibaba.com",
+    "nio.jobs.feishu.cn",
+    "agirobot.jobs.feishu.cn",
+    "01ai.jobs.feishu.cn",
+    "lilithgames.jobs.feishu.cn",
+    "vrfi1sk8a0.jobs.feishu.cn",
+    "cq6qe6bvfr6.jobs.feishu.cn",
+    "xiaopeng.jobs.feishu.cn",
+    "xiaomi.jobs.f.mioffice.cn",
+})
+
+
 def native_queue_snapshot(shards: list[list[dict]]) -> dict:
-    """Project real Liepin IDs into the EXISTING CN source transport schema."""
+    """Project supported CN platform *and official API* IDs to existing transport.
+
+    Still unverified listings: the private Scout must read employer JD, live
+    route, eligibility and both-account application history before an Issue.
+    """
     jobs = []
     for shard in shards:
         for candidate in shard:
-            if (candidate.get("source") != "liepin" or
+            source = candidate.get("source")
+            url = candidate.get("source_url") or ""
+            if (source not in ("liepin", "jobpro") or
                 not candidate.get("company") or
-                not QUEUE_SIGNAL.search(candidate.get("title", ""))):
+                not candidate.get("source_id") or
+                not url or not QUEUE_SIGNAL.search(candidate.get("title", ""))):
                 continue
+            if source == "jobpro" and (urlsplit(url).hostname not in JOBPRO_OFFICIAL_HOSTS or
+                                      candidate["source_id"] not in url):
+                # Ignore mismatched job ID / URL identities, but keep the raw
+                # job-pro observation in the ephemeral evidence artifact.
+                continue
+            is_native = source == "liepin"
             jobs.append({
-                "market": "CN", "ats": "liepin-native-api",
+                "market": "CN",
+                "ats": "liepin-native-api" if is_native else "jobpro-employer-api",
                 "company": candidate["company"],
                 "title": candidate["title"],
                 "job_id": candidate["source_id"],
                 "key": candidate["source_key"],
-                "url": candidate["source_url"],
+                "url": url,
                 "location": candidate.get("location") or "",
                 "evidence": "listing_only", "lane": "AI",
                 "triage_priority": "HIGH",
-                "source": "liepin:native-api:CN",
-                "source_platform": "猎聘",
-                "discovery_access": "NATIVE_API_LISTING",
+                "source": "liepin:native-api:CN" if is_native else "jobpro:public-employer-api:CN",
+                "source_platform": "猎聘" if is_native else "企业官方招聘入口 (job-pro)",
+                "discovery_access": "NATIVE_API_LISTING" if is_native else "PUBLIC_EMPLOYER_API_LISTING",
                 "description_excerpt": "",
             })
     return {"market": "CN", "jobs": jobs}
