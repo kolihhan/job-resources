@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T04:13:34.258953Z",
+    "at": "2026-11-11T04:15:23.218906Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
@@ -12,7 +12,7 @@
     }
   },
   "market": "CN",
-  "next_seq": 76,
+  "next_seq": 77,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1090,6 +1090,28 @@
       "state": "UNVERIFIED_INDEX",
       "title": "面向大模型与AI Agent的AI云原生基础设施关键技术研究-SRE（北京/杭州）",
       "url": "https://jobs.bytedance.com/campus/position/7628143430628919557/detail"
+    },
+    {
+      "ats_key": "jobpro:alibaba:199907680030",
+      "company": "alibaba",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-11T04:15:23.218873Z",
+      "key": "cn:c6e4f61c9e23b71f1858",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "杭州 / 上海",
+      "retries": 0,
+      "seq": 76,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "199907680030",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "算法工程师-供应链和定价 AI",
+      "url": "https://campus-talent.alibaba.com/campus/position/199907680030"
     }
   ],
   "terminal": [
@@ -2054,12 +2076,14 @@
       },
       "description_excerpt": "",
       "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "evidence_url": "https://campus-talent.alibaba.com/campus/position/199907620045",
       "first_seen_at": "2026-11-11T04:13:34.258920Z",
       "key": "cn:f130d66ed66d859dfa48",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "北京 / 上海",
+      "reason": "Exact employer-authored Alibaba campus JD explicitly requires 2027 graduating cohort (2027届毕业生); candidate completed MSc in 2026. Also requires in-depth C/C++ and OS/GPU infrastructure specialization. This role is incompatible with mandatory cohort and stack requirements; preserved as a terminal source disposition, no application.",
       "retries": 0,
       "seq": 75,
       "source": "jobpro:public-employer-api:CN",
@@ -2069,9 +2093,7 @@
       "source_platform": "企业官方招聘入口 (job-pro)",
       "state": "HARD_REJECTED",
       "title": "面向大模型推理的通用后端运行时系统研究-阿里星/A Star",
-      "url": "https://campus-talent.alibaba.com/campus/position/199907620045",
-      "reason": "Exact employer-authored Alibaba campus JD explicitly requires 2027 graduating cohort (2027届毕业生); candidate completed MSc in 2026. Also requires in-depth C/C++ and OS/GPU infrastructure specialization. This role is incompatible with mandatory cohort and stack requirements; preserved as a terminal source disposition, no application.",
-      "evidence_url": "https://campus-talent.alibaba.com/campus/position/199907620045"
+      "url": "https://campus-talent.alibaba.com/campus/position/199907620045"
     }
   ],
   "version": 1
