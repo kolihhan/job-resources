@@ -914,7 +914,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T17:44:46.022958Z",
       "key": "sg:462714d3b36acb2d264a",
-      "last_error": null,
+      "last_error": "Employer Micron requisition matching JobStreet 95468483 to exact Workday JR111138 or another employer job ID; JobStreet alias alone is not a verified duplicate or usable official route.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -927,7 +927,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer, SMAI",
-      "url": "https://sg.jobstreet.com/job/95468483"
+      "url": "https://sg.jobstreet.com/job/95468483",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T00:58:51+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Employer Micron requisition matching JobStreet 95468483 to exact Workday JR111138 or another employer job ID; JobStreet alias alone is not a verified duplicate or usable official route."
+      }
     },
     {
       "ats_key": "grab|smartrecruiters|744000148945093",
@@ -1086,17 +1093,18 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T23:16:08.393004Z",
       "key": "sg:48ad9cf13607232c4166",
-      "last_error": null,
+      "last_error": "Employer-authored full JD and current live apply route for exact NCS SmartRecruiters 6000000001031326; indexed NCS 6000000000981978 is a different requisition and cannot substitute.",
       "market": "SG",
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
       "retries": 0,
       "scout_review": {
-        "checked_at": "2026-11-11T11:00:00+08:00",
+        "ack": false,
+        "checked_at": "2026-11-12T00:58:51+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact NCS SmartRecruiters 6000000001031326 JD and live apply route are inaccessible; indexed 6000000000981978 is a different requisition and cannot substitute.",
-        "status": "RETRY"
+        "status": "RETRY",
+        "missing_evidence": "Employer-authored full JD and current live apply route for exact NCS SmartRecruiters 6000000001031326; indexed NCS 6000000000981978 is a different requisition and cannot substitute."
       },
       "seq": 110,
       "source": "freehirefetch:official-ats:SG",
