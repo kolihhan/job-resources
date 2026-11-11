@@ -1402,7 +1402,14 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://surbanajurong.wd3.myworkdayjobs.com/SJ_Careers/job/Singapore/AI-Engineer_JR119182"
+      "url": "https://surbanajurong.wd3.myworkdayjobs.com/SJ_Careers/job/Singapore/AI-Engineer_JR119182",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-11T18:00:35+08:00",
+        "missing_evidence": "Employer-authored complete JD for Surbana Jurong exact Workday JR119182 is not accessible; official URL returned access error. Prior JR117992 is a different already-applied requisition and must not be ACKed as an alias."
+      }
     },
     {
       "api_source_context": {
