@@ -361,6 +361,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T18:58:42+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "RETRY: JobStreet 95443052 A*STAR Research Engineer Cybersecurity IAIC lacks confirmed exact A*STAR employer requisition and complete first-party JD; indexed listing alone cannot establish substantive LLM/AI scope or current official application route.",
+        "status": "RETRY"
+      },
       "seq": 62,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -368,14 +375,7 @@
       "source_listing_url": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, Cybersecurity, IAIC",
-      "url": "https://sg.jobstreet.com/job/95443052",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T18:58:42+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "RETRY: JobStreet 95443052 A*STAR Research Engineer Cybersecurity IAIC lacks confirmed exact A*STAR employer requisition and complete first-party JD; indexed listing alone cannot establish substantive LLM/AI scope or current official application route."
-      }
+      "url": "https://sg.jobstreet.com/job/95443052"
     },
     {
       "ats_key": "freehire|ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
@@ -832,6 +832,11 @@
       },
       "ats_key": "freehire|ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
       "company": "Investment Company Of The People'S Republic Of China (Singapore) Pte Ltd",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by th",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T17:44:46.022893Z",
@@ -860,6 +865,11 @@
       },
       "ats_key": "freehire|ai-engineer-mediacorp-4b2n7moq",
       "company": "MediaCorp",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<div><div><p>Job Description</p></div></div>\n<div><div>\n<p><strong>Job Description</strong></p>\n<p>We are searching for a talented AI Data Engineer to join our growing team. In this role, you will play a pivotal role in designing, building,",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T17:44:46.022933Z",
@@ -888,6 +898,11 @@
       },
       "ats_key": "freehire|ai-engineer-smai-micron-semiconductors-rlcf6oav",
       "company": "Micron Semiconductors",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<b>Our vision is to transform how the world uses information to enrich life for all.</b><p>Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solu",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T17:44:46.022958Z",
@@ -910,6 +925,26 @@
     {
       "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Vision---Multimodal-Deep-Learning-_R00026302",
       "company": "NTU Singapore",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "Hyundai-NTU-A*STAR Corporate Lab offers an excellent R&D environment to create novel technologies with the world leading automotive company, Hyundai by translating the research into the dark factory directly with implementing and validating the research using AI, Robotics, 3D Printing and Digital Twins. We are looking for a research fellow to work on computer vision and deep learning techniques for the task of object detection under challenging scenarios. The role will focus on multimodal detection models, accurate and efficient detection models under various data constraints. Key Responsibilities: The candidate will research and develop a methodology/framework for multimodal large language models. The candidate will research and develop a methodology/framework for multimodal object detection. The candidate is required to report its research findings in the form of a report and/or present its research findings in international peer-reviewed conferences/journals. The candidate is to be involved in the mentoring of Masters/FYP students Job Requirements: PhD in Computer Engineering, Computer Science, Electronics Engineering or equivalent. Good R&D experience in multimodal large language models Independent, highly analytical, proactive and a team player Excellent teamwork and verbal, written communication skills In-depth knowledge relevant to the project domain. Demonstrated capability to conduct innovative research. The ability and willingness to adapt and incorporate novel ideas and approaches in scientific industry. Demonstrated ability to formulate hypothesis and design effective experimental plans. Ability to design and implement new experimental methods. High-level expertise in the required experiment or modelling methods. Ability to initiate collaboration research in multidisciplinary team. Oversee and report project progress. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 1956,
+        "jd_sha256": "6988cab0893c8db191dfa9976b0ef6db40a51bd7b457e832b758096b2be71244",
+        "job_description_excerpt": "Hyundai-NTU-A*STAR Corporate Lab offers an excellent R&D environment to create novel technologies with the world leading automotive company, Hyundai by translating the research into the dark factory directly with implementing and validating the resea",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026302",
+        "review_flags": [
+          "domain_specific"
+        ],
+        "signals": [
+          "llm"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T17:44:46.023102Z",
@@ -932,6 +967,11 @@
     {
       "ats_key": "grab|smartrecruiters|744000148945093",
       "company": "Grab",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T17:44:46.023136Z",
@@ -1005,6 +1045,11 @@
       },
       "ats_key": "freehire|ai-engineer-micron-semiconductors-55cs736q",
       "company": "Micron Semiconductors",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<b>Our vision is to transform how the world uses information to enrich life for all.</b><p>Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solu",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T17:45:14.843400Z",
@@ -1033,6 +1078,11 @@
       },
       "ats_key": "freehire|ai-engineer-multimedia-engineering-pte-ltd-cbuvwmc4",
       "company": "Multimedia Engineering Pte Ltd",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p>Salary: $3,000 – $4,000 per month</p><p><strong>About the role</strong></p><p>We are seeking an AI Engineer / Developer with Python programming skills to develop and maintain the Company&#39;s in-house AI applications. The role will focu",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T23:16:08.392861Z",
@@ -1061,6 +1111,26 @@
       },
       "ats_key": "freehire|research-engineer-i-ii-satellite-orbit-and-mission-design-ntu-ayg4es4t",
       "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 2,000 graduate students it is one of the largest EEE schools in the world and ranks 4th in the field of Electrical & Electronic Engineering in the 2025 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee We are looking for a satellite orbit & mission engineer to analyze all the dimensions of small satellite operational life. The role will focus in particular on end-of-life disposal. Key Responsibilities: Develop orbital lifetime prediction and end-of-life disposal models for small satellites. Investigate passive, active, and hybrid deorbiting strategies under realistic orbital and environmental conditions. Evaluate disposal feasibility, deorbiting performance, and associated collision risks. Jointly develop an integrated simulation and decision-support framework for mission safety, orbital lifetime assessment, and end-of-life disposal. Job Requirements: Bachelor qualification degree in Aerospace Engineering or Astronautics. At least 4 years of relevant research experiences in spacecraft dynamics, spacecraft deorbiting, spacecraft collision risk assessment, and space debris environment evolution Good written and oral communication skills (international conferences and journal papers) Proficiency in the following languages and specific tools: MATLAB, Python, STK, ESA's MASTER, ESA's DRAMA, and LaTeX Ability to work independently, to develop innovative and impactful solutions under strict timelines, meticulous and eye for details, excellent organizational &time management skills Some Leadership Competency is welcome with growth expectations during the study: Ability to build rapport and influence stakeholders at all levels Ability to work collaboratively in a fast-paced environment Possesses international experience, with a strong network of contacts in the region. We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2447,
+        "jd_sha256": "3adcf5db07656444422657880d5c3c9026227cdc271564b1e7d963d91d267779",
+        "job_description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergradua",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026290",
+        "review_flags": [
+          "experience_years_mentioned"
+        ],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,00",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T23:16:08.392915Z",
@@ -1084,6 +1154,11 @@
     {
       "ats_key": "micron|workday|/job/Fab-10A-Singapore/Full-Stack-AI-Engineer--IPAI--SMAI_JR106129",
       "company": "Micron",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T23:16:08.392979Z",
@@ -1107,6 +1182,11 @@
     {
       "ats_key": "ncs3|smartrecruiters|6000000001031326",
       "company": "NCS",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T23:16:08.393004Z",
@@ -1142,6 +1222,24 @@
       },
       "ats_key": "freehire|research-fellow-computer-science-computer-engineering-electronics-engineering-ai-machine-learning-ntu-tkmm3f3q",
       "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum, outstanding and impactful research, and world-renowned faculty. A hot bed of cutting-edge technology and groundbreaking research, the College aims to groom the next generation of leaders, thinkers, and innovators to thrive in the digital age. Located in the heart of Asia, NTU’s College of Computing and Data Science is an ‘exciting place to learn and grow. We welcome you to join our community of faculty, students and alumni who are shaping the future of AI, Data Science and Computing. Key Responsibilities: Conduct research on 3D/4D scene reconstruction and rendering (e.g., NeRF, 3D Gaussian Splatting, novel view synthesis) and on scene understanding and interaction. Develop generative AI for video and 3D/4D generation, world models, and vision-language models (VLMs) / vision-language-action (VLA) systems, with supporting large-scale data pipelines. Publish in top-tier venues, contribute to open-source releases, mentor junior researchers, and report project progress. Job Requirements: PhD degree in Computer Science, Computer Engineering, Electronics Engineering, AI, Machine Learning or equivalent. Strong research record in computer vision / machine learning, with solid programming skills (e.g., Python, PyTorch) and demonstrated ability to conduct innovative research. Independent, highly analytical, proactive, and a strong team player Excellent verbal and written communication skills We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 1740,
+        "jd_sha256": "9e8a83fec82f179a60cefe37d2729d43773a16a23d89ac02cd11d38756fddf8b",
+        "job_description_excerpt": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its excellent curriculum",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025948",
+        "review_flags": [
+          "possible_phd_requirement"
+        ],
+        "signals": [],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<p><span>Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. NTU’s College of Computing and Data Science (CCDS) is a leading college that is known for its e",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T23:16:08.393059Z",
@@ -1171,6 +1269,28 @@
       },
       "ats_key": "freehire|research-associate-computer-science-computer-engineering-cybersecurity-artificial-intelligence-ntu-o65rgkdp",
       "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. We are seeking a highly motivated Research Associate to contribute to the design and implementation of simulation environments, intelligent testing and traffic analysis frameworks, automated security evaluation tools, experimental studies and technical documentation Job Responsibilities: Develop and maintain the simulation and testing environment for drone communication protocols. Design and implement intelligent frameworks for protocol fuzz testing and security evaluation. Develop traffic analysis methods for anomaly detection, behaviour classification and attack inference. Conduct experiments to assess protocol robustness, security and resilience under abnormal and adversarial conditions. Develop automated methods for validating identified vulnerabilities and evaluating potential attack scenarios. Analyse experimental results and contribute to the improvement of the developed frameworks and methodologies. Develop LLM-based agentic frameworks for generating intelligent and diverse fuzzing inputs. Prepare technical documentation, project reports, research publications and presentations, and work with the research team to achieve project milestones and deliverables. Job Requirements: Master’s degree in Computer Science, Computer Engineering, Cybersecurity, Artificial Intelligence or a related discipline. Relevant experience in software development, cybersecurity, network protocols, artificial intelligence or related research areas. Good programming skills in languages such as Python, C or C++. Familiarity with Linux-based development environments, software debugging and testing tools. Knowledge of network communication, protocol analysis, vulnerability assessment or traffic analysis. Experience with machine learning, large language models, automated testing or security research would be advantageous. Strong analytical, problem-solving and technical documentation skills. Ability to work independently and collaboratively in a multidisciplinary research team, with good written and verbal communication skills. We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2271,
+        "jd_sha256": "e41ce86775b098c0e416f1d3df18fc348089d25c4be2a3b5f6baaf105f36f112",
+        "job_description_excerpt": "Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. We are seeking a highly motivated Research Associate to contribute to the design and implementation of simulation ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00025324",
+        "review_flags": [
+          "security_specialism"
+        ],
+        "signals": [
+          "llm",
+          "agent",
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<p>Young and research-intensive, Nanyang Technological University, Singapore (NTU Singapore) is ranked among the world’s top universities. We are seeking a highly motivated Research Associate to contribute to the design and implementation o",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T23:16:08.393082Z",
@@ -1401,6 +1521,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-11T18:00:35+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-authored complete JD for Surbana Jurong exact Workday JR119182 is not accessible; official URL returned access error. Prior JR117992 is a different already-applied requisition and must not be ACKed as an alias.",
+        "status": "RETRY"
+      },
       "seq": 122,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1409,14 +1536,7 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://surbanajurong.wd3.myworkdayjobs.com/SJ_Careers/job/Singapore/AI-Engineer_JR119182",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-11T18:00:35+08:00",
-        "missing_evidence": "Employer-authored complete JD for Surbana Jurong exact Workday JR119182 is not accessible; official URL returned access error. Prior JR117992 is a different already-applied requisition and must not be ACKed as an alias."
-      }
+      "url": "https://surbanajurong.wd3.myworkdayjobs.com/SJ_Careers/job/Singapore/AI-Engineer_JR119182"
     },
     {
       "api_source_context": {
