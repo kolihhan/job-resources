@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T04:03:27.904645Z",
+    "at": "2026-11-11T07:19:00.845469Z",
     "source": "freehirefetch:official-ats:SG",
     "stats": {
       "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 1,
-      "observed": 1
+      "new_pending": 3,
+      "observed": 3
     }
   },
   "market": "SG",
-  "next_seq": 121,
+  "next_seq": 124,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -78,8 +78,8 @@
         "ack": false,
         "checked_at": "2026-11-11T15:03:38+08:00",
         "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Resolve whether closed prior [APPLY] #698 for same NTU AIAP team/title R00025487 was submitted or otherwise concluded before promoting distinct current R00026131; both Gmail accounts show no exact R00026131 receipt. First-party indexed R00026131 JD and exact Workday role route are visible, but live Apply flow and candidate mandatory production LLM/cloud-pipeline evidence remain unconfirmed."
+        "missing_evidence": "Resolve whether closed prior [APPLY] #698 for same NTU AIAP team/title R00025487 was submitted or otherwise concluded before promoting distinct current R00026131; both Gmail accounts show no exact R00026131 receipt. First-party indexed R00026131 JD and exact Workday role route are visible, but live Apply flow and candidate mandatory production LLM/cloud-pipeline evidence remain unconfirmed.",
+        "status": "RETRY"
       },
       "seq": 19,
       "source": "ntu:official-cxs:SG",
@@ -1340,6 +1340,90 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer/Senior Research Engineer (Computer Science / Data Science / Information Science / Digital Humanities)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-Senior-Research-Engineer--Computer-Science---Data-Science---Information-Science---Digital-Humanities-_R00025774"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NRF, Ministry of Digital Development and Information (MDDI), Infocomm Media Development Authority (IMDA), Economic Development Board (EDB) and Enterprise Singapore (ESG). We bring together research institutions and the vibrant ecosystem of AI start-ups and companies to support impactful research, develop talent, and power Singapore&#39;s AI efforts.</p>\n<p>The AI Products Pillar of AI Singapore develops AI-powered products and solutions that benefit Singapore and the region. We are looking for an AI Engineer to contribute to the development, training, evaluation and engineering of state-of-the-art multilingual, multicultural and multimodal foundation Large Language Models (LLMs), with a focus on underrepresented languages and cultures and real-world AI applications. The role involves working at the intersection of frontier LLM research, large-scale data engineering, distributed model training, evaluation, and productisation.</p>\n<p>This position will be hosted at the Nanyang Technological University (NTU) under VP (Artificial Intelligence &amp; Digital Economy)’s office and we welcome you to join our community.</p>\n<p>Key Responsibilities:</p>\n<ul>\n<li><p>Develop, train, fine-tune and evaluate multilingual, multicultural and multimodal foundation LLMs and related technologies, including continued pre-training, supervised fine-tuning, instruction tuning, preference optimisation and model adaptation.</p></li>\n<li><p>Build and maintain scalable data pipelines for multilingual text ingestion, cleaning, filtering, deduplication, tokenisation, contamination detection and dataset mixture creation.</p></li>\n<li><p>Support large-scale distributed model training workflows, including experiment tracking, checkpointing, training monitoring, debugging, profiling and compute optimisation.</p></li>\n<li><p>Review frontier AI and LLM research papers, reproduce relevant methods, and translate research findings into practical improvements in model training, evaluation and deployment workflows.</p></li>\n<li><p>Contribute to reusable engineering assets such as training scripts, evaluation tools, model artefacts, APIs, documentation and deployment-ready components.</p></li>\n<li><p>Collaborate with internal teams, external research labs, academic institutions, industry partners and ecosystem stakeholders on LLM research, development and knowledge-sharing activities.</p></li>\n<li><p>Support AI Singapore’s community-building efforts through technical sharing, seminars, workshops, publications or other outreach activities where relevant.</p></li>\n</ul>\n<p>Requirements:</p>\n<p>We welcome applicants from all disciplines and qualification pathways, including NITEC, Diploma, Bachelor’s, Master’s or PhD holders, as well as candidates with equivalent practical experience. A formal qualification in Computer Science, Artificial Intelligence, Machine Learning, Data Science, Engineering, Mathematics, Computational Linguistics or a related field would be advantageous but is not mandatory.</p>\n<p>Candidates should be able to demonstrate the following skills and experience:</p>\n<ul>\n<li><p><b>Strong AI/ML engineering capability:</b> Proficient in Python with strong software engineering practices, including clean and modular code, Git, testing, documentation and code review. Hands-on experience with PyTorch and modern NLP/LLM frameworks, especially the Hugging Face ecosystem such as Transformers, Datasets, Tokenizers, Accelerate and TRL.</p></li>\n<li><p><b>LLM development and multilingual NLP expertise:</b> Experience or strong working knowledge in LLM pre-training, continued pre-training, fine-tuning, instruction tuning, preference optimisation, evaluation and model adaptation. Familiarity with multilingual NLP challenges such as low-resource languages, code-switching, language imbalance, script diversity, tokenisation issues and multilingual benchmark design.</p></li>\n<li><p><b>Large-scale data and training pipeline development:</b> Ability to build scalable pipelines for text processing, dataset preparation and model training. Familiarity with distributed training concepts, GPU-based training, checkpointing, experiment tracking, training stability and compute optimisation.</p></li>\n<li><p><b>MLOps, infrastructure and deployment:</b> Familiarity with Linux environments, Docker, CI/CD concepts, cloud platforms or GPU/HPC clusters. Experience with reproducible model development workflows, model versioning, evaluation automation and deployment through APIs or serving frameworks such as vLLM, SGLang, TGI or equivalent tools would be advantageous.</p></li>\n<li><p><b>Research, problem-solving and communication:</b> Able to read and evaluate research papers, design experiments, conduct ablation studies, analyse results and translate findings into practical model or system improvements. Able to communicate technical concepts, trade-offs and evaluation outcomes clearly to both technical and non-technical stakeholders.</p></li>\n<li><p><b>Personal attributes:</b> Self-directed learner with strong curiosity, high ownership and resilience. Collaborative, rigorous and engineering-minded, with a commitment to reproducibility, reliability, documentation and responsible AI development.</p></li>\n</ul>\n<p>We regret that only shortlisted candidates will be notified.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-ai-products-nanyang-technological-university-h7432t6u",
+      "company": "Nanyang Technological University",
+      "description_excerpt": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NR",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T07:19:00.845378Z",
+      "key": "sg:139208958c64f5b8c590",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "North Region",
+      "retries": 0,
+      "seq": 121,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-ai-products-nanyang-technological-university-h7432t6u",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer (AI Products)",
+      "url": "https://sg.jobstreet.com/job/95469343"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>As a part of the Central AI-Core Studio &amp; Delivery team, this role would require you to drive the design, build, and production delivery of AI-enabled applications for our core business lines.</p><br/><p><b>Key Responsibilities</b></p><ul><li>Design and build end-to-end AI-powered applications, including retrieval pipelines, LLM orchestration layers, backend APIs, and user-facing interfaces.</li><li>Own the full software development lifecycle from requirements and architecture through testing, deployment, and post-launch iteration.</li><li>Integrate LLM APIs, vector databases, and retrieval-augmented generation into production applications, applying agentic orchestration where needed.</li><li>Evaluate AI models and retrieval approaches, defining evaluation criteria and iterating on production performance data.</li><li>Own CI/CD pipelines, containerisation, observability, and secure cloud deployment, and document architectural decisions and trade-offs.</li><li>Contribute reusable components and shared engineering standards to the AI platform.</li><li>Work directly with business teams and AI PMs in a forward-deployed model, communicating progress and risks to technical and non-technical stakeholders.</li></ul><br/><p><b>About you</b></p><ul><li>A track record of shipping production software that people rely on - applications you’ve built, debugged, and improved under real operating conditions.</li><li>Strong Python proficiency, with experience in REST APIs, cloud deployment, and containerisation.</li><li>Hands-on experience with LLM APIs (OpenAI, Anthropic, or equivalent) and retrieval/vector database systems.</li><li>Solid understanding of software architecture, testing practices, and production operations.</li><li>It will be advantageous if you have experience in agentic orchestration frameworks (LangChain, LangGraph, AutoGen) and frontend development with React and TypeScript.</li><li>It will be advantageous if you are familiar with the Architecture, Engineering and Construction industry, infrastructure, or enterprise workflow domains, and AWS, Azure, or GCP environments.</li></ul><br/><p>We value equity, diversity and inclusion and are committed to creating a work environment where everyone feels a sense of belonging and is empowered to do their best. We recognise the importance of a diverse and inclusive workplace to drive innovation and shared learning across our growing global network.</p><br/><p>Join us and be part of a culture where we rise together, deliver excellence, and expand what’s possible.</p><p></p><p></p><p>At Surbana Jurong, we put talent, hard work, teamwork and a fun workplace together to approach problems and solve them creatively and collaboratively. Join us in making a positive impact on the world!</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-surbanajurong-bbdrnprk",
+      "company": "surbanajurong",
+      "description_excerpt": "<p>As a part of the Central AI-Core Studio &amp; Delivery team, this role would require you to drive the design, build, and production delivery of AI-enabled applications for our core business lines.</p><br/><p><b>Key Responsibilities</b></",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T07:19:00.845437Z",
+      "key": "sg:050bc6bb75c8988cecd9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 122,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-surbanajurong-bbdrnprk",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://surbanajurong.wd3.myworkdayjobs.com/SJ_Careers/job/Singapore/AI-Engineer_JR119182"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p><strong>About the Role :</strong></p>\n<p>As an AI Engineer at Solverminds, you’ll build LLM-powered features and agents that bring AI</p>\n<p>into our maritime software products, working with experienced AI engineers to take ideas from</p>\n<p>prototype to production.</p>\n<p><strong>Responsibility:</strong></p>\n<p>• Build and integrate LLM-powered features and agents using LangChain/LangGraph,</p>\n<p>including tool use, memory, and multi-agent workflows (MCP, A2A).</p>\n<p>• Implement and maintain evaluation and regression tests for non-deterministic LLM outputs,</p>\n<p>working with senior engineers on eval design.</p>\n<p>• Take AI features from prototype to production, covering implementation, testing,</p>\n<p>deployment, and monitoring.</p>\n<p>• Keep up with new models, agent frameworks, and tooling; run small experiments and share</p>\n<p>findings with the team.</p>\n<p>• Write clean, maintainable, well-tested Python and take part in code review.</p>\n<p>• Document system designs, prompt/context strategies, and evaluation results.</p>\n<p><strong>Required Skills &amp; Experience :</strong></p>\n<p>• Bachelor’s degree in Computer Science, Software Engineering, or a related field, or</p>\n<p>equivalent practical experience.</p>\n<p>• A couple of years of professional software engineering experience in Python, including at</p>\n<p>least 1 year building LLM-powered applications.</p>\n<p>• Hands-on experience with FastAPI, Pydantic, and async Python.</p>\n<p>• Experience building with LangChain/LangGraph or a comparable agent framework.</p>\n<p>• Working understanding of how LLMs work (tokenization, context windows, embeddings,</p>\n<p>transformer basics) and familiarity with both frontier and open-source models.</p>\n<p>• Familiarity with common agent design patterns: ReAct, planning, reflection, tool use,</p>\n<p>memory, and multi-agent handoff.</p>\n<p>• Daily use of AI coding assistants (e.g. Cursor, Claude Code).</p>\n<p>• Clear communication and the ability to work with product and engineering teams.</p>\n<p><strong>Desired :</strong></p>\n<p>• MCP server/client integration; exposure to the A2A protocol.</p>\n<p>• LLM testing and QA experience, including regression testing, red-teaming, and safety</p>\n<p>evaluation.</p>\n<p>• Prompt and context engineering, and RAG pipeline design and optimization (chunking,</p>\n<p>retrieval, reranking, vector databases).</p>\n<p>• Azure AI services (Azure AI Foundry, Prompt Flow, Azure OpenAI Service).</p>\n<p>• LLM observability tools (e.g. LangSmith, Langfuse)</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-svm-solutions-and-technologies-pte-ltd-z3if4jv2",
+      "company": "SVM SOLUTIONS AND TECHNOLOGIES PTE. LTD.",
+      "description_excerpt": "<p><strong>About the Role :</strong></p>\n<p>As an AI Engineer at Solverminds, you’ll build LLM-powered features and agents that bring AI</p>\n<p>into our maritime software products, working with experienced AI engineers to take ideas from</p",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T07:19:00.845458Z",
+      "key": "sg:4d584f1ed49b45e4b1bf",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Anson, Central Region",
+      "retries": 0,
+      "seq": 123,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-svm-solutions-and-technologies-pte-ltd-z3if4jv2",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://sg.jobstreet.com/job/95270027"
     }
   ],
   "terminal": [
@@ -3918,6 +4002,7 @@
       "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/AI-Engineer_JR109599"
     },
     {
+      "acknowledged_at": "2026-11-11T13:01:39+08:00",
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -3936,6 +4021,14 @@
       "prior_wait_employer_hint": true,
       "query": "Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-11T13:01:39+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence": "ScienTec Consulting recruiter-authored JobStreet listing https://sg.jobstreet.com/job/95705908, observed 2026-11-11: employment type 'Contract/Temp'; client is an unnamed government agency. Exact JobStreet ID 95705908; full recruiter JD and application questions accessible. This is engineering delivery, not qualifying research appointment. No employer contact.",
+        "reason": "SG-ENG non-permanent staffing/contract hard blocker (RULES.md §5), not a research-exception role.",
+        "source_key": "sg:df3b2f74c628059e6ed2"
+      },
       "seq": 120,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -3944,16 +4037,7 @@
       "source_platform": "JobStreet",
       "state": "HARD_REJECTED",
       "title": "AI Engineer (LLM | RAG | AWS)",
-      "url": "https://sg.jobstreet.com/job/95705908",
-      "acknowledged_at": "2026-11-11T13:01:39+08:00",
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-11T13:01:39+08:00",
-        "decision": "HARD_REJECTED",
-        "reason": "SG-ENG non-permanent staffing/contract hard blocker (RULES.md §5), not a research-exception role.",
-        "evidence": "ScienTec Consulting recruiter-authored JobStreet listing https://sg.jobstreet.com/job/95705908, observed 2026-11-11: employment type 'Contract/Temp'; client is an unnamed government agency. Exact JobStreet ID 95705908; full recruiter JD and application questions accessible. This is engineering delivery, not qualifying research appointment. No employer contact.",
-        "source_key": "sg:df3b2f74c628059e6ed2"
-      }
+      "url": "https://sg.jobstreet.com/job/95705908"
     },
     {
       "company": "Nanyang Technological University",
@@ -3980,7 +4064,9 @@
         "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159",
       "first_seen_at": "2026-11-07T09:35:18.297678Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/928",
       "key": "sg:39d58582af448f9f734b",
       "last_error": "Exact NTU Workday R00026159 live application form not verified; indexed Trust Technologies R00024811 is a different FPGA/hardware requisition, not an eligible substitute.",
       "market": "SG",
@@ -3992,6 +4078,7 @@
         "decision": "RETRY",
         "missing_evidence": "Exact NTU R00026159 Workday live apply route inaccessible; historical Trust Technologies requisition correspondence must be matched before issue creation."
       },
+      "reviewed_at": "2026-11-11T05:35:00Z",
       "scout_review": {
         "ack": false,
         "checked_at": "2026-11-11T08:03:50+08:00",
@@ -4003,10 +4090,7 @@
       "source": "ntu:official-cxs:SG",
       "state": "ISSUE_VERIFIED",
       "title": "Research Engineer II (Trust Technologies)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/928",
-      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159",
-      "reviewed_at": "2026-11-11T05:35:00Z"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-II--Trust-Technologies-_R00026159"
     },
     {
       "ats_key": "binance|greenhouse|5002635101",
@@ -4029,7 +4113,9 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
+      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101",
       "first_seen_at": "2026-11-09T15:02:24.825322Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/929",
       "key": "sg:5469d3a6dd60e34aa48f",
       "last_error": "Exact Binance Greenhouse 5002635101 live application page is inaccessible; stored JD alone cannot establish current application route.",
       "market": "SG",
@@ -4050,9 +4136,7 @@
       "source_job_id": "5002635101",
       "state": "ISSUE_VERIFIED",
       "title": "LLM Applied Data Scientist (RAG/ NLP)",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/929",
-      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101"
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002635101"
     }
   ],
   "version": 1

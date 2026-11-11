@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T04:15:23.218906Z",
+    "at": "2026-11-11T07:19:00.919699Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
@@ -12,7 +12,7 @@
     }
   },
   "market": "CN",
-  "next_seq": 77,
+  "next_seq": 78,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1011,6 +1011,34 @@
       "state": "UNVERIFIED_INDEX",
       "title": "算法工程师-供应链和定价 AI",
       "url": "https://campus-talent.alibaba.com/campus/position/199907680030"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Act as a key bridge between the production area and digital/AI developers.<br>\nResponsible for collecting and clarifying business needs from MOE and driving the practical application and rollout of BPS and Artificial Intelligence (AI) solutions.<br>\nSupport the Value Streams in their daily operations by facilitating continuous improvement (CIP) and empowering associates with user-friendly digital and AI tools<br>\nAI Implementation:<br>\n• Needs Analysis: Work closely with the Value Stream (VS) and production teams to collect, clarify, and translate operational pain points into actionable digital or AI use cases.<br>\n• Application &amp; Rollout: Support the implementation and daily AI &amp; digital applications (e.g., AI associates, AI for quality improvement ect).<br>\n• Tool Utilization: Assist local teams in using GenAI tools, low-code platforms (e.g., Dify), and Text-to-SQL applications to improve efficiency in daily tasks like document processing, problem analysis, and basic data extraction<br>\n<br>\nBPS implementation &amp; Continuous Improvement (CIP)<br>\n• Support Value Stream members in applying the BPS system approach (tact, flow, and rhythm) in their daily work.<br>\n• Facilitate fast improvement activities (e.g., Speed week / BLI) in the production area, helping teams use digital dashboards and tools to visualize Throughput Time (TPT) and eliminate waste.<br>\n• Support the integration of traditional BPS methods (like value stream mapping and systematic CIP) with shopfloor digital tracking tools<br>\n<br>\nTraining &amp; Empowerment<br>\n• Competence Building: Provide user-level training on BPS basics, problem-solving methods, and the application of new digital/AI tools<br>\n• Digital Culture: Support initiatives like the Shopfloor EDT (Empowered Digital Team) Learning Camp to build a culture of active learning and digital transformation among production associates</p><p>• Education: Master&#39;s degree in AI, computer science, Information Technology or a related field.<br>\n• Professional Experience: Practical experience in production, lean manufacturing (BPS)<br>\n• Digital/AI Literacy: Familiarity with the concepts of digitalization, Industry 4.0, and GenAI applications. Coding skills (like basic Python or SQL) are a plus, but the primary requirement is a strong interest and ability to quickly learn and apply digital tools in a business context.<br>\n• General Skills: Good English and computer skills. Strong analytical and problem-solving mindset.<br>\n• Communication &amp; Bridging: Excellent interpersonal and requirement-gathering skills. Ability to communicate effectively with both production colleagues and technical IT/AI developers. Able to lead and influence without direct authority</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|bps-ai-engineer-ps-bosch-group-vfc6lydb",
+      "company": "Bosch Group",
+      "description_excerpt": "<p>Act as a key bridge between the production area and digital/AI developers.<br>\nResponsible for collecting and clarifying business needs from MOE and driving the practical application and rollout of BPS and Artificial Intelligence (AI) so",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T07:19:00.919668Z",
+      "key": "cn:21212b4d9a1d08de1444",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "Wuxi, Jiangsu, cn",
+      "retries": 0,
+      "seq": 77,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "bps-ai-engineer-ps-bosch-group-vfc6lydb",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "BPS & AI engineer_PS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000126459016-bps-ai-engineer-ps"
     }
   ],
   "terminal": [
@@ -1999,12 +2027,14 @@
       "company": "超聚变",
       "description_excerpt": "",
       "discovery_access": "NATIVE_API_LISTING",
+      "evidence_url": "https://www.liepin.com/job/1986292501.shtml",
       "first_seen_at": "2026-11-09T20:51:42.470437Z",
       "key": "cn:8110405577735dabe341",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "深圳-福田区",
+      "reason": "Outside AI/NLP/Agent job target: power supply control/embedded firmware engineering, no material LLM/AI scope shown in source title; title-level negative hard scope filter.",
       "retries": 0,
       "seq": 45,
       "source": "liepin:native-api:CN",
@@ -2014,21 +2044,21 @@
       "source_platform": "猎聘",
       "state": "HARD_REJECTED",
       "title": "电源软件研发工程师",
-      "url": "https://www.liepin.com/job/1986292501.shtml",
-      "reason": "Outside AI/NLP/Agent job target: power supply control/embedded firmware engineering, no material LLM/AI scope shown in source title; title-level negative hard scope filter.",
-      "evidence_url": "https://www.liepin.com/job/1986292501.shtml"
+      "url": "https://www.liepin.com/job/1986292501.shtml"
     },
     {
       "ats_key": "liepin:86189547",
       "company": "上海恪能电力电子有限公司",
       "description_excerpt": "",
       "discovery_access": "NATIVE_API_LISTING",
+      "evidence_url": "https://www.liepin.com/job/1986189547.shtml",
       "first_seen_at": "2026-11-11T01:59:01.823973Z",
       "key": "cn:2d2a464726750165844e",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "上海-浦东新区",
+      "reason": "Outside AI/NLP/Agent job target: electrical power systems SST/HVDC communications power software R&D, not LLM/AI engineering; title-level negative scope filter.",
       "retries": 0,
       "seq": 72,
       "source": "liepin:native-api:CN",
@@ -2038,9 +2068,7 @@
       "source_platform": "猎聘",
       "state": "HARD_REJECTED",
       "title": "SST / HVDC / 通信电源系统软件研发工程师",
-      "url": "https://www.liepin.com/job/1986189547.shtml",
-      "reason": "Outside AI/NLP/Agent job target: electrical power systems SST/HVDC communications power software R&D, not LLM/AI engineering; title-level negative scope filter.",
-      "evidence_url": "https://www.liepin.com/job/1986189547.shtml"
+      "url": "https://www.liepin.com/job/1986189547.shtml"
     },
     {
       "api_source_context": {
@@ -2053,6 +2081,7 @@
       "company": "Intel",
       "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><p></p><h2>Job Description: </h2><ul><li><b>AI Agent Core Framework Development and Performance Optimization</b><br/>Design, develop, and optimize AI Agent runtimes, agent kernels, and task execution frame",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261",
       "first_seen_at": "2026-11-10T12:45:59.763776Z",
       "key": "cn:388502bfd91cb25594fa",
       "last_error": null,
@@ -2060,6 +2089,7 @@
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
       "query": "PRC, Shanghai",
+      "reason": "Mandatory Internship classification: user targets paid regular full-time post-MSc employment, not internships. Employer exact title explicitly Intern.",
       "retries": 0,
       "seq": 60,
       "source": "freehire:public-api:CN",
@@ -2069,9 +2099,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Software Engineer Intern",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261",
-      "reason": "Mandatory Internship classification: user targets paid regular full-time post-MSc employment, not internships. Employer exact title explicitly Intern.",
-      "evidence_url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261"
+      "url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261"
     },
     {
       "api_source_context": {
@@ -2084,12 +2112,14 @@
       "company": "Altera Corporation",
       "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><h3></h3><h2><b>Job Description:</b></h2><p><span>Location: Shanghai, China</span><br/> </p><p><span>Role Overview</span></p><p><span>We are seeking a<span> </span><b>Principal Engineer – Agentic AI Archit",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/Principal-Engineer---Agentic-AI-Architect_R02652-1",
       "first_seen_at": "2026-11-10T09:44:08.235090Z",
       "key": "cn:f1f5acdadb7a736ff73b",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "Shanghai, China",
+      "reason": "Principal Engineer / architect seniority is incompatible with early-career 0–3 YOE objective; title-level hard seniority filter.",
       "retries": 0,
       "seq": 51,
       "source": "freehire:public-api:CN",
@@ -2099,9 +2129,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "Principal Engineer - Agentic AI Architect",
-      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/Principal-Engineer---Agentic-AI-Architect_R02652-1",
-      "reason": "Principal Engineer / architect seniority is incompatible with early-career 0–3 YOE objective; title-level hard seniority filter.",
-      "evidence_url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/Principal-Engineer---Agentic-AI-Architect_R02652-1"
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/Principal-Engineer---Agentic-AI-Architect_R02652-1"
     }
   ],
   "version": 1
