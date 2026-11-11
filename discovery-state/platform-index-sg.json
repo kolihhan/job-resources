@@ -179,7 +179,7 @@
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:02:24.825302Z",
       "key": "sg:9265109f7c4c7a290755",
-      "last_error": "Exact Binance Greenhouse 5002575101 current live application form could not be accessed (direct page error); official source JD exists, but historical WAIT #879 is different 5002729101 and generic Binance Gmail receipt cannot establish exact alias.",
+      "last_error": "Employer ATS application-history record tying Binance Greenhouse requisition 5002575101 to the 2026-11-10 application receipt; email confirms same-title application but omits requisition ID, while WAIT #879 identifies different 5002729101. Do not resubmit or ACK without exact match.",
       "market": "SG",
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
@@ -187,9 +187,9 @@
       "retries": 0,
       "scout_review": {
         "ack": false,
-        "checked_at": "2026-11-11T12:01:35+08:00",
+        "checked_at": "2026-11-11T23:02:45+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact Binance Greenhouse 5002575101 current live application form could not be accessed (direct page error); official source JD exists, but historical WAIT #879 is different 5002729101 and generic Binance Gmail receipt cannot establish exact alias.",
+        "missing_evidence": "Employer ATS application-history record tying Binance Greenhouse requisition 5002575101 to the 2026-11-10 application receipt; email confirms same-title application but omits requisition ID, while WAIT #879 identifies different 5002729101. Do not resubmit or ACK without exact match.",
         "status": "RETRY"
       },
       "seq": 38,
