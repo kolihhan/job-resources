@@ -1717,14 +1717,9 @@
       "company": "MaiStorage",
       "description_excerpt": "<p>Salary: RM 6,000 – RM 8,000 per month</p><p><strong>Role Overview</strong></p><p>We are seeking a high-caliber AI Research Engineer to bridge the gap between cutting-edge algorithmic research and high-performance system implementation. I",
       "discovery_access": "API_PROXY_ONLY",
-      "disposition": {
-        "checked_at": "2026-11-10",
-        "note": "JobStreet new listing 95661869 shows MaiStorage AI Engineer (R&D), MYR 6–8k, full time, fresh graduates welcome. Existing owner decision #383 SKIP same employer/title/compensation because it did not clear MY-TOP destination-quality/pay bar; current listing shows no material increase in pay/team/research career upside. Preserve owner's skip rather than creating a second Issue. https://github.com/kolihhan/job-resources/issues/383; https://my.jobstreet.com/job/95661869",
-        "reason": "HISTORICAL_USER_SKIP_UNCHANGED"
-      },
       "first_seen_at": "2026-11-09T16:57:31.156069Z",
       "key": "my:0832d3c0a745b4f3ebed",
-      "last_error": null,
+      "last_error": "Exact active JobStreet application form for AI Engineer (R&D) not verified; see Issue #383 CHECK.",
       "market": "MY",
       "platform": "public jobs API (unverified)",
       "query": "Puchong, Selangor",
@@ -1735,9 +1730,17 @@
       "source_job_id": "ai-engineer-r-d-maistorage-v6iqfe6t",
       "source_listing_url": "",
       "source_platform": "JobStreet",
-      "state": "HARD_REJECTED",
+      "state": "ISSUE_VERIFIED",
       "title": "AI Engineer (R&D)",
-      "url": "https://my.jobstreet.com/job/95661869"
+      "url": "https://my.jobstreet.com/job/95661869",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/383",
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/383",
+      "reason": "2026-11-11 lifecycle repair: previously hard-rejected solely on obsolete MY TOP/salary judgement; corresponding existing Issue #383 has been reopened as CHECK with revised substantive LLM systems fit. This source ID is linked to that existing Issue, NOT proof of a ready-to-apply route or a new opportunity.",
+      "review_retry": {
+        "checked_at": "2026-11-11",
+        "decision": "RETRY",
+        "missing_evidence": "Exact current JobStreet AI Engineer (R&D) active application ID/form, without confusing the separate AI Engineer (Solution) application."
+      }
     },
     {
       "ats_key": "freehire|software-engineer-agentic-ai-ai-automation-mintel-m-consulting-sdn-bhd-s4fq2pdg",
