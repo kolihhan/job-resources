@@ -980,7 +980,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T17:44:46.023167Z",
       "key": "sg:66e51dbae99b1f7e3eae",
-      "last_error": "Exact OpenAI Ashby requisition 8acfba11 current application status and equivalence to previously rejected Applied AI Engineer Issue #103 cannot be confirmed.",
+      "last_error": "OpenAI Ashby requisition 8acfba11-707e-4d8e-a860-88643fae24ba must be matched to the employer's 2026-09 Applied AI Engineer application/rejection (Issue #103): historical receipt names role but does not establish exact Ashby ID. Verify employer application-history requisition identity before duplicate ACK or new APPLY.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
@@ -999,7 +999,14 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Applied AI Engineer",
-      "url": "https://jobs.ashbyhq.com/openai/8acfba11-707e-4d8e-a860-88643fae24ba"
+      "url": "https://jobs.ashbyhq.com/openai/8acfba11-707e-4d8e-a860-88643fae24ba",
+      "scout_review": {
+        "ack": false,
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "checked_at": "2026-11-11T23:58:00+08:00",
+        "missing_evidence": "OpenAI Ashby requisition 8acfba11-707e-4d8e-a860-88643fae24ba must be matched to the employer's 2026-09 Applied AI Engineer application/rejection (Issue #103): historical receipt names role but does not establish exact Ashby ID. Verify employer application-history requisition identity before duplicate ACK or new APPLY."
+      }
     },
     {
       "api_source_context": {
