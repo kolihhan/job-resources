@@ -106,6 +106,25 @@ class IndexQueueTests(unittest.TestCase):
                           "https://sg.jobstreet.com/job/12345678","token")
 
 
+    def test_cn_jobpro_issue_readback_requires_exact_canonical_role(self):
+        import io
+        from unittest.mock import patch
+        import json
+        link="https://join.qq.com/post_detail.html?postid=1282707398326592512"
+        issue={"number":900, "title":"[WAIT][CN] Tencent AI Fullstack",
+               "body":"Employer official role: "+link+"&utm_source=chat"}
+        with patch.object(q,"urlopen",return_value=io.BytesIO(json.dumps(issue).encode())):
+            self.assertTrue(q.verify_issue_readback(
+                "https://github.com/kolihhan/job-resources/issues/900",
+                link,"token",market="CN"))
+        sibling={"number":900,"title":"[WAIT][CN] Tencent other job",
+                 "body":"Official role: https://join.qq.com/post_detail.html?postid=1282707398326592513"}
+        with patch.object(q,"urlopen",return_value=io.BytesIO(json.dumps(sibling).encode())):
+            with self.assertRaisesRegex(ValueError,"exact source identity"):
+                q.verify_issue_readback(
+                    "https://github.com/kolihhan/job-resources/issues/900",
+                    link,"token",market="CN")
+
     def test_idempotent_feed_updates_blank_company_only(self):
         s=q.new_state("SG")
         source={"source":"devglobal:public-api:SG","items":[{"market":"SG","url":"https://devglobaljobs.com/jobs/detail/174081606","title":"Applied AI Engineer, Codex","company":""}]}
