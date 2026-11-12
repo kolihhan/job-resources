@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-12T00:38:11.091937Z",
-    "source": "freehirefetch:official-ats:SG",
+    "at": "2026-11-12T08:48:34.799931Z",
+    "source": "ntu:official-cxs:SG",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 15,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 3,
-      "observed": 3
+      "new_pending": 0,
+      "observed": 15
     }
   },
   "market": "SG",
@@ -227,11 +227,11 @@
       "query": "Fab 10A, Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T14:15:00+08:00",
-        "missing_evidence": "Exact employer Workday JR111138 application page returned access error on 2026-11-12 14:xx MYT. Gmail account lihhanko3 has rejection for different JR111136 (2026-11-05), not JR111138. Missing evidence: usable current employer application form for JR111138."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact employer Workday JR111138 application page returned access error on 2026-11-12 14:xx MYT. Gmail account lihhanko3 has rejection for different JR111136 (2026-11-05), not JR111138. Missing evidence: usable current employer application form for JR111138.",
+        "status": "RETRY"
       },
       "seq": 48,
       "source": "freehirefetch:official-ats:SG",
@@ -699,11 +699,11 @@
       "query": "NTU Novena Campus, Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T13:05:00+08:00",
-        "missing_evidence": "Exact NTU Workday R00026296-1 vacancy/apply form inaccessible on 2026-11-12; indexed similar Nair lab R00025241 is a DIFFERENT requisition. Need exact R00026296-1 live employer apply route. Both Gmail accounts and all-state GitHub exact-ID searches had no matching application evidence; absence does not prove unsubmitted."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NTU Workday R00026296-1 vacancy/apply form inaccessible on 2026-11-12; indexed similar Nair lab R00025241 is a DIFFERENT requisition. Need exact R00026296-1 live employer apply route. Both Gmail accounts and all-state GitHub exact-ID searches had no matching application evidence; absence does not prove unsubmitted.",
+        "status": "RETRY"
       },
       "seq": 91,
       "source": "freehirefetch:official-ats:SG",
@@ -917,11 +917,11 @@
         "status": "RETRY"
       },
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T14:15:00+08:00",
-        "missing_evidence": "Exact OpenAI Ashby 8acfba11-707e-4d8e-a860-88643fae24ba public JD indexed and employer role still searchable 2026-11-12; direct page requires JavaScript. First Gmail has 2026-09-21 OpenAI Applied AI Engineer application update and GitHub prior REJECTED same role. Missing evidence: authoritative requisition ID of prior OpenAI application to distinguish this exact Ashby role; do not create repeat APPLY."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact OpenAI Ashby 8acfba11-707e-4d8e-a860-88643fae24ba public JD indexed and employer role still searchable 2026-11-12; direct page requires JavaScript. First Gmail has 2026-09-21 OpenAI Applied AI Engineer application update and GitHub prior REJECTED same role. Missing evidence: authoritative requisition ID of prior OpenAI application to distinguish this exact Ashby role; do not create repeat APPLY.",
+        "status": "RETRY"
       },
       "seq": 102,
       "source": "freehirefetch:official-ats:SG",
@@ -1146,11 +1146,11 @@
       "query": "Hong Kong",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "checked_at": "2026-11-12T08:56:31+08:00",
         "ack": false,
-        "missing_evidence": "Exact Qube Greenhouse 8759003002 current full employer JD and application form inaccessible; employer board/index does not verify exact requisition."
+        "checked_at": "2026-11-12T08:56:31+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Qube Greenhouse 8759003002 current full employer JD and application form inaccessible; employer board/index does not verify exact requisition.",
+        "status": "RETRY"
       },
       "seq": 117,
       "source": "freehire:public-api:SG",
@@ -1252,11 +1252,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "checked_at": "2026-11-12T08:56:31+08:00",
         "ack": false,
-        "missing_evidence": "Exact Surbana Jurong Workday JR119182 full employer JD and current usable application form inaccessible; different JR117992 WAIT does not establish exact identity."
+        "checked_at": "2026-11-12T08:56:31+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Surbana Jurong Workday JR119182 full employer JD and current usable application form inaccessible; different JR117992 WAIT does not establish exact identity.",
+        "status": "RETRY"
       },
       "seq": 122,
       "source": "freehire:public-api:SG",
@@ -1324,6 +1324,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Anywhere",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T08:56:31+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Gradient Ashby e5f78b42-1118-4dc9-aca7-d363a0a8c910 full employer JD and current usable application form inaccessible; Indeed indexed listing is not sufficient for route/eligibility.",
+        "status": "RETRY"
+      },
       "seq": 125,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1332,14 +1339,7 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Research Engineer",
-      "url": "https://jobs.ashbyhq.com/Gradient/e5f78b42-1118-4dc9-aca7-d363a0a8c910",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "checked_at": "2026-11-12T08:56:31+08:00",
-        "ack": false,
-        "missing_evidence": "Exact Gradient Ashby e5f78b42-1118-4dc9-aca7-d363a0a8c910 full employer JD and current usable application form inaccessible; Indeed indexed listing is not sufficient for route/eligibility."
-      }
+      "url": "https://jobs.ashbyhq.com/Gradient/e5f78b42-1118-4dc9-aca7-d363a0a8c910"
     },
     {
       "api_source_context": {
@@ -1435,11 +1435,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T14:15:00+08:00",
-        "missing_evidence": "Exact employer Ashby Clera 0890b84c-3391-457c-b762-4d42e558acc9 page returned access error on 2026-11-12. Both Gmail accounts show no exact QC Automation receipt; this is not proof of no submission. Missing evidence: live employer application form for exact 0890b84c-3391-457c-b762-4d42e558acc9."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact employer Ashby Clera 0890b84c-3391-457c-b762-4d42e558acc9 page returned access error on 2026-11-12. Both Gmail accounts show no exact QC Automation receipt; this is not proof of no submission. Missing evidence: live employer application form for exact 0890b84c-3391-457c-b762-4d42e558acc9.",
+        "status": "RETRY"
       },
       "seq": 128,
       "source": "freehirefetch:official-ats:SG",
@@ -4663,6 +4663,7 @@
       "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
     },
     {
+      "acknowledged_at": "2026-11-12T15:02:00+08:00",
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -4685,6 +4686,15 @@
       "platform": "public jobs API (unverified)",
       "query": "Singapore River, Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T15:02:00+08:00",
+        "decision": "DEDUPED_EXISTING_APPLY",
+        "evidence": "Existing GitHub Issue #936 explicitly identifies exact JobStreet 95677866 and source key sg:094a347f032500c600c9; employer-authored full JD, live Quick Apply route and both Gmail histories were verified in that issue on 2026-11-11. 2026-11-12 all-state issue search readback confirms exact source and role. Existing APPLY is NOT submitted; no new issue or application.",
+        "existing_issue": 936,
+        "source_key": "sg:094a347f032500c600c9",
+        "status": "DEDUPED"
+      },
       "seq": 87,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -4693,17 +4703,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95677866",
-      "acknowledged_at": "2026-11-12T15:02:00+08:00",
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-12T15:02:00+08:00",
-        "decision": "DEDUPED_EXISTING_APPLY",
-        "status": "DEDUPED",
-        "source_key": "sg:094a347f032500c600c9",
-        "existing_issue": 936,
-        "evidence": "Existing GitHub Issue #936 explicitly identifies exact JobStreet 95677866 and source key sg:094a347f032500c600c9; employer-authored full JD, live Quick Apply route and both Gmail histories were verified in that issue on 2026-11-11. 2026-11-12 all-state issue search readback confirms exact source and role. Existing APPLY is NOT submitted; no new issue or application."
-      }
+      "url": "https://sg.jobstreet.com/job/95677866"
     }
   ],
   "version": 1
