@@ -26,7 +26,7 @@
       },
       "first_seen_at": "2026-11-07T08:31:24.434392Z",
       "key": "sg:d907f3997e23c42e176b",
-      "last_error": null,
+      "last_error": "Employer-controlled requisition ID and live official JD/apply route corresponding to DevGlobal listing 168411325; both Gmail accounts checked 2026-11-12: Binance AI Agent Engineer application receipts exist on 2026-11-06 and 2026-11-07 but omit requisition ID. Same-title prior application cannot be distinguished from this aggregator lead. Preserve Pending; no duplicate APPLY or ACK.",
       "market": "SG",
       "platform": "Dev Global Jobs (public aggregator)",
       "query": "SG/MY AI software engineering / NLP / Agent public-feed AI",
@@ -35,7 +35,14 @@
       "source": "devglobal:public-api:SG",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Agent Engineer",
-      "url": "https://devglobaljobs.com/jobs/detail/168411325"
+      "url": "https://devglobaljobs.com/jobs/detail/168411325",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T19:00:56+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-controlled requisition ID and live official JD/apply route corresponding to DevGlobal listing 168411325; both Gmail accounts checked 2026-11-12: Binance AI Agent Engineer application receipts exist on 2026-11-06 and 2026-11-07 but omit requisition ID. Same-title prior application cannot be distinguished from this aggregator lead. Preserve Pending; no duplicate APPLY or ACK.",
+        "status": "RETRY"
+      }
     },
     {
       "company": "Nanyang Technological University",
