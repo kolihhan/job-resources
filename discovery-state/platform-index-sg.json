@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-12T18:15:52.405719Z",
-    "source": "freehirefetch:official-ats:SG",
+    "at": "2026-11-12T21:34:55.776677Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 8,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 4,
-      "observed": 4
+      "new_pending": 0,
+      "observed": 8
     }
   },
   "market": "SG",
@@ -1582,6 +1582,13 @@
       "platform": "ashby official ATS",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T03:04:57+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Clera Ashby requisition a51984da-7278-46bd-a0c5-939d2ac72999 current accepting/apply form cannot be opened (2026-11-13); historical closed Issue #277 refers to same title but earlier LinkedIn role 4475355119 and 2026-10-12 closure. Fresh employer-fed JD and current Indeed listing do not prove this exact Ashby application is accepting. Both Gmail accounts searched Clera/Benchmarks; no submission receipt. Need current exact Ashby accepting status before reopen/ACK.",
+        "status": "RETRY"
+      },
       "seq": 136,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "full_jd",
@@ -1590,14 +1597,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, Benchmarks",
-      "url": "https://jobs.ashbyhq.com/Clera/a51984da-7278-46bd-a0c5-939d2ac72999",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T03:04:57+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact Clera Ashby requisition a51984da-7278-46bd-a0c5-939d2ac72999 current accepting/apply form cannot be opened (2026-11-13); historical closed Issue #277 refers to same title but earlier LinkedIn role 4475355119 and 2026-10-12 closure. Fresh employer-fed JD and current Indeed listing do not prove this exact Ashby application is accepting. Both Gmail accounts searched Clera/Benchmarks; no submission receipt. Need current exact Ashby accepting status before reopen/ACK."
-      }
+      "url": "https://jobs.ashbyhq.com/Clera/a51984da-7278-46bd-a0c5-939d2ac72999"
     }
   ],
   "terminal": [
