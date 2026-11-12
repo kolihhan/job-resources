@@ -1487,55 +1487,6 @@
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communications and cybersecurity capabilities for future urban mobility applications. We aim to develop innovative solutions that can be commercialized into products and services for Continental through close collaboration with its business units.</p><p></p><p>In this job opening, we are seeking a highly motivated and visionary researcher to join our team focused on heterogeneous integration and security of chiplet-based IC systems. This role involves research and development in chiplet-based architectures, aiming to demonstrate secure intelligent computing platforms outperforms traditional compute platforms. We invite applicants to join us as a Research Fellow or Senior Researcher (full-time). You will be part of the <b>Continental-NTU Corporate Lab</b> research team.</p><p></p><p><b><span>Key Responsibilities: </span></b></p><ul><li><p>Collaborate with security experts, cryptographic engineers, and cross-functional and interdisciplinary / inter-organizational teams to develop, integrate and evaluate innovations</p></li><li><p>Integrate, prototype and evaluate new architectural improvements, in particular new security mechanisms and cryptographic IP implementations on hardware FPGA platforms</p></li><li><p>Integrating security Engine/TEE and post-quantum hardware building blocks and security components</p></li><li><p>Responsible for integrating into RoT/Caliptra hardware and software blocks as prototype</p></li><li><p>Contribute to long-term research strategy, white papers, and vision documents.</p></li></ul><p></p><p><b><span>Job Requirements:</span></b></p><ul><li><p><span>MSc in Computer Science, Cybersecurity, Electrical Engineering, or a related field</span></p></li><li><p><span>Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping</span></p></li><li><p><span>Proficiency in hardware description languages (HDLs) such as Verilog or VHDL</span></p></li><li><p><span>Strong understanding of digital design principles and embedded systems</span></p></li><li><p><span>Proficiency in low-level programming languages such as C, Rust and RISC-V</span></p></li><li><p><span>Knowledge and/or experience in using some of tools such as Xilinx Vivado, Cadence Virtuoso, Synopsys, etc. </span></p></li><li><p><span>Familiarity with modular FPGA hardware implementations, tools and testing methodologies</span></p></li><li><p><span>Strong analytical and problem-solving abilities</span></p></li><li><p><span>Demonstrated ability to work across interdisciplinary and diverse teams, ideally with experience in project planning and management</span></p></li><li><p><span>Excellent collaborative and communication skills in English for research purposes</span></p></li><li><p><span>Good communication and presentation skills, fluency in multiple languages is a plus</span></p></li></ul><p></p><p><span>We regret that only shortlisted candidates will be notified.</span></p><p></p><p></p>Hiring Institution: NTU<p></p><p></p><p></p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|research-associate-engineer-ii-fpga-design-and-development-ntu-jtnzjzvt",
-      "company": "Ntu",
-      "consumer_review": {
-        "checked_at": "2026-11-12T21:51:32.547230Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communications and cybersecurity capabilities for future urban mobility applications. We aim to develop innovative solutions that can be commercialized into products and services for Continental through close collaboration with its business units. In this job opening, we are seeking a highly motivated and visionary researcher to join our team focused on heterogeneous integration and security of chiplet-based IC systems. This role involves research and development in chiplet-based architectures, aiming to demonstrate secure intelligent computing platforms outperforms traditional compute platforms. We invite applicants to join us as a Research Fellow or Senior Researcher (full-time). You will be part of the Continental-NTU Corporate Lab research team. Key Responsibilities: Collaborate with security experts, cryptographic engineers, and cross-functional and interdisciplinary / inter-organizational teams to develop, integrate and evaluate innovations Integrate, prototype and evaluate new architectural improvements, in particular new security mechanisms and cryptographic IP implementations on hardware FPGA platforms Integrating security Engine/TEE and post-quantum hardware building blocks and security components Responsible for integrating into RoT/Caliptra hardware and software blocks as prototype Contribute to long-term research strategy, white papers, and vision documents. Job Requirements: MSc in Computer Science, Cybersecurity, Electrical Engineering, or a related field Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping Proficiency in hardware description languages (HDLs) such as Verilog or VHDL Strong understanding of digital design principles and embedded systems Proficiency in low-level programming languages such as C, Rust and RISC-V Knowledge and/or experience in using some of tools such as Xilinx Vivado, Cadence Virtuoso, Synopsys, etc. Familiarity with modular FPGA hardware implementations, tools and testing methodologies Strong analytical and problem-solving abilities Demonstrated ability to work across interdisciplinary and diverse teams, ideally with experience in project planning and management Excellent collaborative and communication skills in English for research purposes Good communication and presentation skills, fluency in multiple languages is a plus We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 2664,
-        "jd_sha256": "f64dee02d7d11a1bce9662d793fac29c1952c071afd28cd6c2fe1870e12fdf1a",
-        "job_description_excerpt": "The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communicat",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00021553",
-        "review_flags": [
-          "security_specialism"
-        ],
-        "signals": [
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<p>The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanc",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-12T18:15:52.405640Z",
-      "key": "sg:60003ebb26c77c5e1207",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "NTU Main Campus, Singapore",
-      "retries": 0,
-      "seq": 134,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "research-associate-engineer-ii-fpga-design-and-development-ntu-jtnzjzvt",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Associate/Engineer II (FPGA Design and Development)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
         "text": "<p>Salary: $4,000 – $5,500 per month</p><p>Key Responsibilities</p><ul><li><p>Build and maintain the internal AI toolchain: LLM API integrations, a prompt template library and a RAG knowledge base (product documents, datasheets, test data).</p></li><li><p>Automate batch tasks with workflow tools (n8n / Zapier class): bulk content production, document processing and report generation — the goal is \"one person running three pipelines\".</p></li><li><p>Develop internal utilities and dashboards (Python / Web) integrated with CRM and ERP.</p></li><li><p>Own enterprise account management and data governance: data-not-used-for-training terms, access control.</p></li><li><p>Provide technical interfaces to the marketing and design lines: automated reports, data extraction and batch rendering scripts.</p></li></ul><p>Hard Skills</p><p>·       Degree in computer science / data science / electrical engineering (2025–2026 graduate).</p><p>·       Strong Python (Pandas, requests, scripting); Git; basic web development (HTML/JS or one framework).</p><p>·       Familiarity with at least one LLM API (OpenAI / Claude) and prompt engineering; a demonstrable personal AI project.</p><p>Good to Have</p><p>·       RAG / vector databases (LangChain / LlamaIndex); n8n / Airflow; Docker; SQL; automated testing.</p><p>·       Embedded basics (for working with the hardware team).</p>",
         "truncated": false
       },
@@ -4941,6 +4892,66 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, Cybersecurity, IAIC",
       "url": "https://sg.jobstreet.com/job/95443052"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communications and cybersecurity capabilities for future urban mobility applications. We aim to develop innovative solutions that can be commercialized into products and services for Continental through close collaboration with its business units.</p><p></p><p>In this job opening, we are seeking a highly motivated and visionary researcher to join our team focused on heterogeneous integration and security of chiplet-based IC systems. This role involves research and development in chiplet-based architectures, aiming to demonstrate secure intelligent computing platforms outperforms traditional compute platforms. We invite applicants to join us as a Research Fellow or Senior Researcher (full-time). You will be part of the <b>Continental-NTU Corporate Lab</b> research team.</p><p></p><p><b><span>Key Responsibilities: </span></b></p><ul><li><p>Collaborate with security experts, cryptographic engineers, and cross-functional and interdisciplinary / inter-organizational teams to develop, integrate and evaluate innovations</p></li><li><p>Integrate, prototype and evaluate new architectural improvements, in particular new security mechanisms and cryptographic IP implementations on hardware FPGA platforms</p></li><li><p>Integrating security Engine/TEE and post-quantum hardware building blocks and security components</p></li><li><p>Responsible for integrating into RoT/Caliptra hardware and software blocks as prototype</p></li><li><p>Contribute to long-term research strategy, white papers, and vision documents.</p></li></ul><p></p><p><b><span>Job Requirements:</span></b></p><ul><li><p><span>MSc in Computer Science, Cybersecurity, Electrical Engineering, or a related field</span></p></li><li><p><span>Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping</span></p></li><li><p><span>Proficiency in hardware description languages (HDLs) such as Verilog or VHDL</span></p></li><li><p><span>Strong understanding of digital design principles and embedded systems</span></p></li><li><p><span>Proficiency in low-level programming languages such as C, Rust and RISC-V</span></p></li><li><p><span>Knowledge and/or experience in using some of tools such as Xilinx Vivado, Cadence Virtuoso, Synopsys, etc. </span></p></li><li><p><span>Familiarity with modular FPGA hardware implementations, tools and testing methodologies</span></p></li><li><p><span>Strong analytical and problem-solving abilities</span></p></li><li><p><span>Demonstrated ability to work across interdisciplinary and diverse teams, ideally with experience in project planning and management</span></p></li><li><p><span>Excellent collaborative and communication skills in English for research purposes</span></p></li><li><p><span>Good communication and presentation skills, fluency in multiple languages is a plus</span></p></li></ul><p></p><p><span>We regret that only shortlisted candidates will be notified.</span></p><p></p><p></p>Hiring Institution: NTU<p></p><p></p><p></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|research-associate-engineer-ii-fpga-design-and-development-ntu-jtnzjzvt",
+      "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-12T21:51:32.547230Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communications and cybersecurity capabilities for future urban mobility applications. We aim to develop innovative solutions that can be commercialized into products and services for Continental through close collaboration with its business units. In this job opening, we are seeking a highly motivated and visionary researcher to join our team focused on heterogeneous integration and security of chiplet-based IC systems. This role involves research and development in chiplet-based architectures, aiming to demonstrate secure intelligent computing platforms outperforms traditional compute platforms. We invite applicants to join us as a Research Fellow or Senior Researcher (full-time). You will be part of the Continental-NTU Corporate Lab research team. Key Responsibilities: Collaborate with security experts, cryptographic engineers, and cross-functional and interdisciplinary / inter-organizational teams to develop, integrate and evaluate innovations Integrate, prototype and evaluate new architectural improvements, in particular new security mechanisms and cryptographic IP implementations on hardware FPGA platforms Integrating security Engine/TEE and post-quantum hardware building blocks and security components Responsible for integrating into RoT/Caliptra hardware and software blocks as prototype Contribute to long-term research strategy, white papers, and vision documents. Job Requirements: MSc in Computer Science, Cybersecurity, Electrical Engineering, or a related field Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping Proficiency in hardware description languages (HDLs) such as Verilog or VHDL Strong understanding of digital design principles and embedded systems Proficiency in low-level programming languages such as C, Rust and RISC-V Knowledge and/or experience in using some of tools such as Xilinx Vivado, Cadence Virtuoso, Synopsys, etc. Familiarity with modular FPGA hardware implementations, tools and testing methodologies Strong analytical and problem-solving abilities Demonstrated ability to work across interdisciplinary and diverse teams, ideally with experience in project planning and management Excellent collaborative and communication skills in English for research purposes Good communication and presentation skills, fluency in multiple languages is a plus We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2664,
+        "jd_sha256": "f64dee02d7d11a1bce9662d793fac29c1952c071afd28cd6c2fe1870e12fdf1a",
+        "job_description_excerpt": "The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communicat",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00021553",
+        "review_flags": [
+          "security_specialism"
+        ],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<p>The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanc",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-12T18:15:52.405640Z",
+      "key": "sg:60003ebb26c77c5e1207",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 134,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-associate-engineer-ii-fpga-design-and-development-ntu-jtnzjzvt",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Associate/Engineer II (FPGA Design and Development)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553",
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-13T06:00:00+08:00",
+        "decision": "HARD_REJECTED",
+        "status": "HARD_REJECTED",
+        "source_key": "sg:60003ebb26c77c5e1207",
+        "employer_requisition": "R00021553",
+        "official_route": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553",
+        "evidence": "NTU first-party full JD explicitly requires 'Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping' and 'Proficiency in hardware description languages (HDLs) such as Verilog or VHDL'. Core duties are chiplet IC security, FPGA/TEE cryptographic hardware integration, not LLM/NLP/Agent research or substantive AI software engineering. Candidate evidence is software/NLP/LLM, not FPGA hardware. Exact R00021553 and title searched in all-state GitHub Issues and both Gmail accounts: no matching application. Official Workday requisition page indexed as active but exact direct page is JS-only; rejection is based on definitive employer JD hard technical mismatch, not route failure."
+      },
+      "acknowledged_at": "2026-11-13T06:00:00+08:00"
     }
   ],
   "version": 1
