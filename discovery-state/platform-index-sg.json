@@ -144,7 +144,7 @@
       },
       "first_seen_at": "2026-11-09T14:57:37.924026Z",
       "key": "sg:45d0c54fb9aa76c2090f",
-      "last_error": null,
+      "last_error": "Exact OpenAI employer-owned requisition and complete JD for the 'Applied AI Engineer, Cyber' variant, distinguishing it from previously rejected Applied AI Engineer #103; aggregator URL alone is insufficient.",
       "market": "SG",
       "platform": "Dev Global Jobs (public aggregator)",
       "query": "SG/MY AI software engineering / NLP / Agent public-feed AI",
@@ -153,7 +153,14 @@
       "source": "devglobal:public-api:SG",
       "state": "UNVERIFIED_INDEX",
       "title": "Applied AI Engineer, Cyber",
-      "url": "https://devglobaljobs.com/jobs/detail/174940464"
+      "url": "https://devglobaljobs.com/jobs/detail/174940464",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T01:02:09+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Exact OpenAI employer-owned requisition and complete JD for the 'Applied AI Engineer, Cyber' variant, distinguishing it from previously rejected Applied AI Engineer #103; aggregator URL alone is insufficient."
+      }
     },
     {
       "ats_key": "binance|greenhouse|5002575101",
@@ -504,7 +511,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T11:51:21.094147Z",
       "key": "sg:15841de26cbbcb44ef8b",
-      "last_error": null,
+      "last_error": "Exact School of Computing/NUS employer-owned requisition page containing full backend/platform RA JD and usable application route; current public-feed slug is not an employer job ID.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Kent Ridge, Central Region",
@@ -517,7 +524,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Assistant (Backend & Platform Engineer)",
-      "url": "https://sg.jobstreet.com/job/94531188"
+      "url": "https://sg.jobstreet.com/job/94531188",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T01:02:09+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Exact School of Computing/NUS employer-owned requisition page containing full backend/platform RA JD and usable application route; current public-feed slug is not an employer job ID."
+      }
     },
     {
       "api_source_context": {
@@ -1305,7 +1319,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T17:52:50.191040Z",
       "key": "sg:b6177223a3124fd4b15d",
-      "last_error": null,
+      "last_error": "Employer requisition ID tying this public-feed TikTok Search AI Search role to existing applied WAIT #806; Gmail confirms same-title TikTok application on 2026-11-01, so no duplicate APPLY.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
@@ -1319,7 +1333,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Machine Learning Engineer (AI Search ), TikTok Search",
-      "url": "https://sg.jobstreet.com/job/92967430"
+      "url": "https://sg.jobstreet.com/job/92967430",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T01:02:09+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Employer requisition ID tying this public-feed TikTok Search AI Search role to existing applied WAIT #806; Gmail confirms same-title TikTok application on 2026-11-01, so no duplicate APPLY."
+      }
     },
     {
       "ats_key": "clera|ashby|0890b84c-3391-457c-b762-4d42e558acc9",
