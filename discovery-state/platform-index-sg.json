@@ -279,70 +279,6 @@
       "url": "https://jobs.ashbyhq.com/bjakcareer/56f522c4-b903-45ea-bb08-952b74641b56"
     },
     {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the technologies people rely on every day, innovation at AMD is shaping the future. </p>\n<p>Whether you’re designing next-gen processors, enabling AI breakthroughs, or bringing leading edge products to market, every role at AMD contributes to something bigger — technology that moves the world forward. Join us and, together, we’ll advance your career.</p> <br><strong></strong><p><strong>THE ROLE:</strong></p>\n<p>We are seeking a passionate and highly motivated AI Engineer to join our AI Engineering team focused on building the next generation of Agentic AI and Digital Workers.</p>\n<p>In this role, you will participate in the complete lifecycle of AI solution development, from prompt engineering and context engineering to deploying AI agents into real business environments. You will work alongside senior AI engineers, business stakeholders, and domain experts to build intelligent systems that automate workflows, enhance productivity, and transform enterprise operations.</p>\n<p>This is an excellent opportunity for early-career engineers who are excited about Large Language Models (LLMs), AI agents, Retrieval-Augmented Generation (RAG), and enterprise AI deployment.</p>\n<p><strong>THE PERSON:</strong></p>\n<p>WHAT YOU WILL GAIN</p>\n<ul>\n<li>Hands-on experience building real-world Agentic AI systems</li>\n<li>Exposure to enterprise-scale AI deployment and Digital Worker platforms</li>\n<li>Mentorship from experienced AI engineers and architects</li>\n<li>Opportunities to work with cutting-edge LLM technologies and AI frameworks</li>\n<li>Direct involvement in AI transformation initiatives across multiple business functions</li>\n<li>Career growth path toward AI Engineer, Senior AI Engineer, AI Architect, or Forward Deployment Engineer roles</li>\n</ul>\n<p><strong>KEY RESPONSIBILITIES:</strong></p>\n<p><strong>Agentic AI Development</strong></p>\n<ul>\n<li>Design, develop, and test AI agents capable of multi-step reasoning and workflow execution</li>\n<li>Build solutions leveraging LLMs, tool usage, memory, and agent orchestration frameworks</li>\n<li>Implement function calling, structured outputs, and automated workflows</li>\n<li>Develop Retrieval-Augmented Generation (RAG) pipelines using enterprise knowledge sources</li>\n<li>Optimize AI system performance, reliability, scalability, and response quality</li>\n<li>Assist in evaluating and benchmarking AI model effectiveness</li>\n</ul>\n<p><strong>Prompt &amp; Context Engineering</strong></p>\n<ul>\n<li>Design effective system prompts and task-specific prompts</li>\n<li>Build context retrieval and grounding strategies to improve AI accuracy</li>\n<li>Develop methods to reduce hallucinations and improve consistency</li>\n<li>Support the creation of evaluation frameworks and automated testing pipelines</li>\n<li>Experiment with prompting techniques, reasoning patterns, and agent behaviors</li>\n</ul>\n<p><strong>Forward Deployment Engineering (FDE)</strong></p>\n<ul>\n<li>Deploy AI solutions into real business processes and operational environments</li>\n<li>Integrate AI agents with APIs, databases, enterprise platforms, and business applications</li>\n<li>Collaborate directly with stakeholders to understand requirements and refine use cases</li>\n<li>Monitor deployed systems, troubleshoot issues, and implement enhancements</li>\n<li>Gather feedback and continuously improve AI solutions based on business outcomes</li>\n</ul>\n<p><strong>Software Engineering &amp; Operations</strong></p>\n<ul>\n<li>Develop and maintain production-quality Python applications</li>\n<li>Implement logging, monitoring, testing, and observability practices</li>\n<li>Participate in code reviews and engineering best practices</li>\n<li>Support cloud deployment and containerized AI environments</li>\n<li>Document technical solutions and operational procedures</li>\n</ul>\n<p><strong>PREFERRED EXPERIENCE:</strong></p>\n<ul>\n<li>Strong Python programming skills</li>\n<li>Understanding of APIs, JSON, REST services, and software integration</li>\n<li>Familiarity with machine learning and natural language processing fundamentals</li>\n<li>Strong analytical and structured problem-solving abilities</li>\n<li>Ability to learn quickly in a fast-paced and evolving AI environment</li>\n<li>Strong communication and collaboration skills</li>\n</ul>\n<ul>\n<li>OpenAI, Azure OpenAI, Anthropic, Google Gemini, or similar LLM platforms</li>\n<li>Building LLM applications, chatbots, copilots, or AI assistants</li>\n<li>Retrieval-Augmented Generation (RAG) architectures</li>\n<li>Vector databases such as Pinecone, Weaviate, Chroma, Milvus, or Azure AI Search</li>\n<li>Agent frameworks including LangChain, LangGraph, CrewAI, LlamaIndex, AutoGen, or Semantic Kernel</li>\n<li>Function calling, embeddings, semantic search, and context management</li>\n<li>Prompt engineering and AI evaluation methodologies</li>\n<li>Cloud platforms such as Azure, AWS, or Google Cloud</li>\n<li>Docker, Kubernetes, CI/CD pipelines, or DevOps practices</li>\n<li>Git, software testing, and modern development workflows</li>\n</ul>\n<ul>\n<li>Curious and passionate about AI innovation</li>\n<li>Strong ownership mentality with a willingness to experiment</li>\n<li>Customer-focused mindset and ability to work directly with users</li>\n<li>Comfortable navigating ambiguity and solving complex problems</li>\n<li>Team player who thrives in a collaborative environment</li>\n<li>Eager to build AI systems that deliver measurable business impact</li>\n</ul>\n<p><strong>ACADEMIC CREDENTIALS:</strong></p>\n<ul><li>Degree in Computer Science, Artificial Intelligence, Software Engineering, Data Science, or a related technical field</li></ul>\n<p><strong>LOCATION:</strong></p>\n<p>Singapore</p>\n<p>#LI-JK1</p> <br><strong></strong><p></p><div>Benefits offered are described:  <div>AMD benefits at a glance.</div>\n</div><p></p>\n<p>AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law.   We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.</p>\n<p></p><div>AMD may use Artificial Intelligence to help screen, assess or select applicants for this position.  AMD’s “Responsible AI Policy” is available here.</div><p></p>\n<p>This posting is for an existing vacancy.</p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-software-development-engineer-amd-bo65lqvo",
-      "company": "AMD",
-      "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the techno",
-      "first_seen_at": "2026-11-09T16:44:38.947210Z",
-      "key": "sg:745d7a90442b12ce3e04",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 61,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-software-development-engineer-amd-bo65lqvo",
-      "source_listing_url": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer (Software Development Engineer)",
-      "url": "https://sg.jobstreet.com/job/95358234"
-    },
-    {
-      "ats_key": "freehire|research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
-      "company": "Agency for Science, Technology and Research",
-      "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<strong>Job Summary</strong><br><p>We are seeking a motivated Research Engineer to develop and evaluate AI-enabled cybersecurity solutions. The role focuses on agentic AI, large language models (LLMs), and intelligent automation. The succes",
-      "first_seen_at": "2026-11-09T16:44:38.947257Z",
-      "key": "sg:6d663588836b04a27f88",
-      "last_error": "RETRY: JobStreet 95443052 A*STAR Research Engineer Cybersecurity IAIC lacks confirmed exact A*STAR employer requisition and complete first-party JD; indexed listing alone cannot establish substantive LLM/AI scope or current official application route.",
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Singapore",
-      "retries": 0,
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T18:58:42+08:00",
-        "decision": "PRESERVE_PENDING",
-        "missing_evidence": "RETRY: JobStreet 95443052 A*STAR Research Engineer Cybersecurity IAIC lacks confirmed exact A*STAR employer requisition and complete first-party JD; indexed listing alone cannot establish substantive LLM/AI scope or current official application route.",
-        "status": "RETRY"
-      },
-      "seq": 62,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
-      "source_listing_url": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer, Cybersecurity, IAIC",
-      "url": "https://sg.jobstreet.com/job/95443052"
-    },
-    {
       "ats_key": "freehire|ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
       "company": "Astek",
       "consumer_review": {
@@ -4785,6 +4721,87 @@
       "title": "AI Solution Engineer (LLM & Agentic AI)",
       "url": "https://sg.jobstreet.com/job/95287266",
       "acknowledged_at": "2026-11-12T19:57:29+08:00"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the technologies people rely on every day, innovation at AMD is shaping the future. </p>\n<p>Whether you’re designing next-gen processors, enabling AI breakthroughs, or bringing leading edge products to market, every role at AMD contributes to something bigger — technology that moves the world forward. Join us and, together, we’ll advance your career.</p> <br><strong></strong><p><strong>THE ROLE:</strong></p>\n<p>We are seeking a passionate and highly motivated AI Engineer to join our AI Engineering team focused on building the next generation of Agentic AI and Digital Workers.</p>\n<p>In this role, you will participate in the complete lifecycle of AI solution development, from prompt engineering and context engineering to deploying AI agents into real business environments. You will work alongside senior AI engineers, business stakeholders, and domain experts to build intelligent systems that automate workflows, enhance productivity, and transform enterprise operations.</p>\n<p>This is an excellent opportunity for early-career engineers who are excited about Large Language Models (LLMs), AI agents, Retrieval-Augmented Generation (RAG), and enterprise AI deployment.</p>\n<p><strong>THE PERSON:</strong></p>\n<p>WHAT YOU WILL GAIN</p>\n<ul>\n<li>Hands-on experience building real-world Agentic AI systems</li>\n<li>Exposure to enterprise-scale AI deployment and Digital Worker platforms</li>\n<li>Mentorship from experienced AI engineers and architects</li>\n<li>Opportunities to work with cutting-edge LLM technologies and AI frameworks</li>\n<li>Direct involvement in AI transformation initiatives across multiple business functions</li>\n<li>Career growth path toward AI Engineer, Senior AI Engineer, AI Architect, or Forward Deployment Engineer roles</li>\n</ul>\n<p><strong>KEY RESPONSIBILITIES:</strong></p>\n<p><strong>Agentic AI Development</strong></p>\n<ul>\n<li>Design, develop, and test AI agents capable of multi-step reasoning and workflow execution</li>\n<li>Build solutions leveraging LLMs, tool usage, memory, and agent orchestration frameworks</li>\n<li>Implement function calling, structured outputs, and automated workflows</li>\n<li>Develop Retrieval-Augmented Generation (RAG) pipelines using enterprise knowledge sources</li>\n<li>Optimize AI system performance, reliability, scalability, and response quality</li>\n<li>Assist in evaluating and benchmarking AI model effectiveness</li>\n</ul>\n<p><strong>Prompt &amp; Context Engineering</strong></p>\n<ul>\n<li>Design effective system prompts and task-specific prompts</li>\n<li>Build context retrieval and grounding strategies to improve AI accuracy</li>\n<li>Develop methods to reduce hallucinations and improve consistency</li>\n<li>Support the creation of evaluation frameworks and automated testing pipelines</li>\n<li>Experiment with prompting techniques, reasoning patterns, and agent behaviors</li>\n</ul>\n<p><strong>Forward Deployment Engineering (FDE)</strong></p>\n<ul>\n<li>Deploy AI solutions into real business processes and operational environments</li>\n<li>Integrate AI agents with APIs, databases, enterprise platforms, and business applications</li>\n<li>Collaborate directly with stakeholders to understand requirements and refine use cases</li>\n<li>Monitor deployed systems, troubleshoot issues, and implement enhancements</li>\n<li>Gather feedback and continuously improve AI solutions based on business outcomes</li>\n</ul>\n<p><strong>Software Engineering &amp; Operations</strong></p>\n<ul>\n<li>Develop and maintain production-quality Python applications</li>\n<li>Implement logging, monitoring, testing, and observability practices</li>\n<li>Participate in code reviews and engineering best practices</li>\n<li>Support cloud deployment and containerized AI environments</li>\n<li>Document technical solutions and operational procedures</li>\n</ul>\n<p><strong>PREFERRED EXPERIENCE:</strong></p>\n<ul>\n<li>Strong Python programming skills</li>\n<li>Understanding of APIs, JSON, REST services, and software integration</li>\n<li>Familiarity with machine learning and natural language processing fundamentals</li>\n<li>Strong analytical and structured problem-solving abilities</li>\n<li>Ability to learn quickly in a fast-paced and evolving AI environment</li>\n<li>Strong communication and collaboration skills</li>\n</ul>\n<ul>\n<li>OpenAI, Azure OpenAI, Anthropic, Google Gemini, or similar LLM platforms</li>\n<li>Building LLM applications, chatbots, copilots, or AI assistants</li>\n<li>Retrieval-Augmented Generation (RAG) architectures</li>\n<li>Vector databases such as Pinecone, Weaviate, Chroma, Milvus, or Azure AI Search</li>\n<li>Agent frameworks including LangChain, LangGraph, CrewAI, LlamaIndex, AutoGen, or Semantic Kernel</li>\n<li>Function calling, embeddings, semantic search, and context management</li>\n<li>Prompt engineering and AI evaluation methodologies</li>\n<li>Cloud platforms such as Azure, AWS, or Google Cloud</li>\n<li>Docker, Kubernetes, CI/CD pipelines, or DevOps practices</li>\n<li>Git, software testing, and modern development workflows</li>\n</ul>\n<ul>\n<li>Curious and passionate about AI innovation</li>\n<li>Strong ownership mentality with a willingness to experiment</li>\n<li>Customer-focused mindset and ability to work directly with users</li>\n<li>Comfortable navigating ambiguity and solving complex problems</li>\n<li>Team player who thrives in a collaborative environment</li>\n<li>Eager to build AI systems that deliver measurable business impact</li>\n</ul>\n<p><strong>ACADEMIC CREDENTIALS:</strong></p>\n<ul><li>Degree in Computer Science, Artificial Intelligence, Software Engineering, Data Science, or a related technical field</li></ul>\n<p><strong>LOCATION:</strong></p>\n<p>Singapore</p>\n<p>#LI-JK1</p> <br><strong></strong><p></p><div>Benefits offered are described:  <div>AMD benefits at a glance.</div>\n</div><p></p>\n<p>AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law.   We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.</p>\n<p></p><div>AMD may use Artificial Intelligence to help screen, assess or select applicants for this position.  AMD’s “Responsible AI Policy” is available here.</div><p></p>\n<p>This posting is for an existing vacancy.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-software-development-engineer-amd-bo65lqvo",
+      "company": "AMD",
+      "consumer_review": {
+        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the techno",
+      "first_seen_at": "2026-11-09T16:44:38.947210Z",
+      "key": "sg:745d7a90442b12ce3e04",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 61,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-software-development-engineer-amd-bo65lqvo",
+      "source_listing_url": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer (Software Development Engineer)",
+      "url": "https://sg.jobstreet.com/job/95358234",
+      "scout_review": {
+        "status": "DEDUPED",
+        "decision": "DEDUPED_PRIOR_WAIT",
+        "ack": true,
+        "checked_at": "2026-11-13T02:00:00+08:00",
+        "source_key": "sg:745d7a90442b12ce3e04",
+        "existing_issue": 673,
+        "employer_requisition": "92102",
+        "official_route": "https://careers.amd.com/careers-home/jobs/92102",
+        "evidence": "Official AMD requisition 92102 has identical employer title and substantive Agentic AI/RAG JD to JobStreet 95358234 source; existing WAIT #673 matches 92102. Both Gmail accounts checked; 2026-10-26 employer application confirmation for exact title in second Gmail. Cross-source role identity confirmed; no reapplication."
+      },
+      "acknowledged_at": "2026-11-13T02:00:00+08:00"
+    },
+    {
+      "ats_key": "freehire|research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
+      "company": "Agency for Science, Technology and Research",
+      "consumer_review": {
+        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<strong>Job Summary</strong><br><p>We are seeking a motivated Research Engineer to develop and evaluate AI-enabled cybersecurity solutions. The role focuses on agentic AI, large language models (LLMs), and intelligent automation. The succes",
+      "first_seen_at": "2026-11-09T16:44:38.947257Z",
+      "key": "sg:6d663588836b04a27f88",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "scout_review": {
+        "status": "DEDUPED",
+        "decision": "DEDUPED_PRIOR_WAIT",
+        "ack": true,
+        "checked_at": "2026-11-13T02:00:00+08:00",
+        "source_key": "sg:6d663588836b04a27f88",
+        "existing_issue": 699,
+        "employer_requisition": "1129",
+        "official_route": "https://careers.a-star.edu.sg/default/job/Research-Engineer%2C-Cybersecurity/1129-en_GB",
+        "evidence": "Official A*STAR requisition 1129 full JD matches source Research Engineer, Cybersecurity, IAIC; existing WAIT #699 is same employer/title/1129 and candidate-confirmed submitted. Employer receipt dated 2026-10-27 in second Gmail; both Gmail accounts checked. No reapplication."
+      },
+      "seq": 62,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
+      "source_listing_url": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Engineer, Cybersecurity, IAIC",
+      "url": "https://sg.jobstreet.com/job/95443052",
+      "acknowledged_at": "2026-11-13T02:00:00+08:00"
     }
   ],
   "version": 1
