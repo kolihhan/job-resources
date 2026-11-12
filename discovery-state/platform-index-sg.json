@@ -168,21 +168,9 @@
       "ats_key": "binance|greenhouse|5002575101",
       "company": "Binance",
       "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "",
-        "full_jd_complete": true,
-        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. About the Role We are seeking an Applied Data Scientist to join our Algorithm team — a hands-on builder at the intersection of LLM systems, agentic AI, and crypto-native intelligence. You will design, build, and improve AI agents that understand markets, reason over on-chain data, and take actions at speed for hundreds of millions of users — across reasoning models that plan before they act, multi-agent systems that orchestrate complex crypto workflows, and test-time scaling that pushes inference-time intelligence to its limits. You build for real environments: designing agent architectures, improving performance across quality and latency, developing evaluation methods for open-ended tasks, and turning research ideas into production. Responsibilities Design and implement production-grade LLM pipelines powering Binance AI Products and next-generation agentic trading features — including multi-step reasoning agents, tool-selection frameworks, and autonomous workflow execution across spot, perpetual, and on-chain markets Continuously improve agent capabilities in understanding, reasoning, tool selection, and action execution — optimizing simultaneously for intelligence, latency, and reliability under high-frequency trading constraints Build and maintain evaluation frameworks for reasoning model outputs in crypto contexts — covering market analysis accuracy, agent decision quality, hallucination detection, and adversarial robustness against prompt injection in financial workflows Apply test-time scaling techniques — chain-of-thought, self-consistency, process reward models — to push agent reasoning quality in ambiguous, fast-moving market conditions Architect AI system components with rigorous attention to inference latency, throughput, and cost efficiency — leveraging serving frameworks such as vLLM and TensorRT-LLM — in a zero-downtime, 24/7 trading environment Integrate on-chain data sources, wallet intelligence, and crypto market signals into LLM-powered analytical pipelines — building the data layer that makes Binance's agents genuinely crypto-native Partner with research scientists to translate experimental findings into production-grade agentic solutions with clear performance benchmarks Qualifications Bachelor's or Master's degree in Computer Science, Electrical Engineering, Statistics, Mathematics, or related technical field 0–5 years of industry or research experience in applied ML or AI engineering Strong Python programming skills ; Equally important: demonstrated comfort with vibe coding — using AI-assisted development tools fluidly as core part of your workflow Demonstrated hands-on experience with LLMs — prompt engineering, post-training, or end-to-end LLM application development Familiarity with multi-agent system design — task decomposition, tool use via MCP, memory management, parallel agent execution, and inter-agent communication Strong analytical thinking and problem decomposition; comfortable operating under ambiguity in fast-moving environments Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "jd_chars": 4769,
-        "jd_sha256": "b017859ef1cdcf466785cf11c6c1018a3217dfa6526f6755c1006083e7e33abe",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "possible_prior_issue": 879,
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "greenhouse first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+        "checked_at": "2026-11-12T21:51:32.547230Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:02:24.825302Z",
@@ -212,18 +200,9 @@
       "ats_key": "micron|workday|/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
       "company": "Micron",
       "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we build help make everything from virtual reality experiences to breakthroughs in neural networks possible. We do it all while committing to integrity, sustainability, and giving back to our communities. Because doing so can fuel the very innovation we are pursuing. AI Engineer, SMAI Job Summary Join Micron Technology at a defining moment in our AI and smart manufacturing transformation. As a Full-Stack AI Engineer, you will contribute to the design, development, deployment, and support of AI-powered applications that improve manufacturing operations across Micron's global network of fabs and assembly/test sites. You will work closely with data scientists, software engineers, and manufacturing stakeholders to build scalable AI solutions, web applications, APIs, and automation tools that enable data-driven decision-making and autonomous operations. Main Responsibilities Design and build end-to-end AI solutions, including data ingestion pipelines, feature engineering, model training and inference, APIs, web applications, and observability capabilities. Develop responsive front-end applications using React, Angular, or Streamlit, backed by Python/FastAPI services, with strong type-safe development and test coverage practices. Support development and implementation of machine learning and AI models for structured and unstructured data. Support development of analytics and AI solutions that improve manufacturing and operational decision-making. Support integration of LLMs and agentic AI capabilities into manufacturing and engineering workflows. Support integration of robotics platforms, AMRs, tool automation systems, control systems, and the Micron MES ecosystem. Develop and maintain containerized applications using Docker and deploy solutions through Kubernetes or OpenShift environments. Work with data platforms and modeling environments to support scalable AI application development. Other Responsibilities Contribute to CI/CD pipelines and automated software release processes using tools such as GitHub Actions, while supporting monitoring, drift detection, model evaluation, and feedback loop implementation for production AI applications. Apply Responsible AI practices, including input validation, prompt-injection prevention, PII/IP protection, model governance, and audit logging. Support application and model optimization efforts to improve performance, reliability, scalability, and cost efficiency. Support testing, debugging, technical documentation, installation, and maintenance activities for AI and software solutions. Integrate AI-assisted tools and insights into daily work to improve efficiency, quality, and effectiveness while complying with organizational standards, legal requirements, and governance policies. Contribute to a culture of continuous improvement by identifying, testing, and sharing AI-enabled enhancements within one's scope of work. Minimum Required Qualifications / Experience Bachelor's or Master's degree in Computer Science, Software Engineering, Data Science, or a related field; equivalent industry experience accepted. 2+ years building and shipping production web or AI applications end to end. Experience developing and deploying web applications, APIs, or data-driven solutions. Hands-on experience with at least one cloud platform (AWS, Azure, or GCP). Must Have Technical Skills Strong programming skills in Python and modern JavaScript/TypeScript. Strong SQL proficiency and experience working with relational databases. Experience with Docker, Kubernetes/OpenShift, and CI/CD development practices. Working knowledge of GenAI technologies, including prompt engineering, Retrieval-Augmented Generation (RAG), LLM integration, agentic AI concepts, model evaluation, and Responsible AI practices. Ability to apply AI literacy and digital fluency to use AI-enabled tools responsibly and effectively for research, analysis, content creation, problem-solving, operational tasks, automation, and achieving business outcomes. Must Have Soft Skills Strong analytical and problem-solving skills. Effective communication and collaboration skills. Ability to learn quickly and adapt in a fast-paced environment. Highly Desirable / Preferred Skills or Experience Experience in semiconductor manufacturing, industrial automation, or smart manufacturing environments. Exposure to MLOps, machine learning model deployment, or enterprise AI applications. Familiarity with MES, Industrial IoT, or equipment automation systems. Embody Micron's Core Values People – Respect, develop, and empower others. Innovation – Drive continuous improvement and breakthrough thinking. Tenacity – Show grit and determination. Collaboration – Build trust and foster teamwork. Customer Focus – Deliver excellence and value. Speed – Act with purpose and set the pace. About Micron Technology, Inc. We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life for all . With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands. Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence and 5G applications that unleash opportunities — from the data center to the intelligent edge and across the client and mobile user experience. To learn more, please visit micron.com/careers All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status. To request assistance with the application process and/or for reasonable accommodations, please contact hrsupport_sg@micron.com Micron Prohibits the use of child labor and complies with all applicable laws, rules, regulations, and other international and industry labor standards. Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron. AI alert: Candidates are encouraged to use AI tools to enhance their resume and/or application materials. However, all information provided must be accurate and reflect the candidate's true skills and experiences. Misuse of AI to fabricate or misrepresent qualifications will result in immediate disqualification. Fraud alert: Micron advises job seekers to be cautious of unsolicited job offers and to verify the authenticity of any communication claiming to be from Micron by checking the official Micron careers website in the About Micron Technology, Inc.",
-        "jd_chars": 6982,
-        "jd_sha256": "e4c7553976af11df6e1692f8a2af60f765078bb46a9e23f79ff8515d9f467c79",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+        "checked_at": "2026-11-12T21:51:32.547230Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we ",
       "first_seen_at": "2026-11-09T15:02:24.825456Z",
@@ -309,7 +288,7 @@
       "ats_key": "freehire|ai-engineer-new-capco-the-capital-market-company-group-g7s3ahkf",
       "company": "Capco (The Capital Market Company Group)",
       "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "checked_at": "2026-11-12T21:51:32.547230Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -342,7 +321,7 @@
       "ats_key": "freehire|ai-engineer-addcel-engineering-pte-ltd-djsbnubl",
       "company": "Addcel Engineering Pte Ltd",
       "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "checked_at": "2026-11-12T21:51:32.547230Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -375,7 +354,7 @@
       "ats_key": "freehire|ai-engineer-capco-the-capital-market-company-group-5aru5v6r",
       "company": "Capco (The Capital Market Company Group)",
       "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "checked_at": "2026-11-12T21:51:32.547230Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -408,7 +387,7 @@
       "ats_key": "freehire|ai-engineer-allinton-engineering-trading-pte-ltd-5kiadube",
       "company": "Allinton Engineering & Trading Pte. Ltd.",
       "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "checked_at": "2026-11-12T21:51:32.547230Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -441,7 +420,7 @@
       "ats_key": "freehire|research-assistant-backend-platform-engineer-school-of-computing-lqj5tznt",
       "company": "School of Computing",
       "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "checked_at": "2026-11-12T21:51:32.547230Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -481,7 +460,7 @@
       "ats_key": "freehire|machine-learning-research-engineering-specialist-gramian-consulting-group-v6gtvbmv",
       "company": "Gramian Consulting Group",
       "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "checked_at": "2026-11-12T21:51:32.547230Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -514,7 +493,7 @@
       "ats_key": "freehire|ai-engineer-ideals-recruitment-f33hsanu",
       "company": "Ideals Recruitment",
       "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "checked_at": "2026-11-12T21:51:32.547230Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1480,6 +1459,11 @@
       },
       "ats_key": "freehire|ai-engineer-we-x5o73vnb",
       "company": "We+",
+      "consumer_review": {
+        "checked_at": "2026-11-12T21:51:32.547230Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p>⇒ Position Objective</p>\n<p>Our client, a leading FMCG enterprise operating across ASEAN, is seeking an Agentic AI &amp; Automation Engineer to design, build, and deploy custom AI-powered solutions from scratch. The role sits within the ",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-12T18:15:52.405578Z",
@@ -1508,6 +1492,26 @@
       },
       "ats_key": "freehire|research-associate-engineer-ii-fpga-design-and-development-ntu-jtnzjzvt",
       "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-12T21:51:32.547230Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communications and cybersecurity capabilities for future urban mobility applications. We aim to develop innovative solutions that can be commercialized into products and services for Continental through close collaboration with its business units. In this job opening, we are seeking a highly motivated and visionary researcher to join our team focused on heterogeneous integration and security of chiplet-based IC systems. This role involves research and development in chiplet-based architectures, aiming to demonstrate secure intelligent computing platforms outperforms traditional compute platforms. We invite applicants to join us as a Research Fellow or Senior Researcher (full-time). You will be part of the Continental-NTU Corporate Lab research team. Key Responsibilities: Collaborate with security experts, cryptographic engineers, and cross-functional and interdisciplinary / inter-organizational teams to develop, integrate and evaluate innovations Integrate, prototype and evaluate new architectural improvements, in particular new security mechanisms and cryptographic IP implementations on hardware FPGA platforms Integrating security Engine/TEE and post-quantum hardware building blocks and security components Responsible for integrating into RoT/Caliptra hardware and software blocks as prototype Contribute to long-term research strategy, white papers, and vision documents. Job Requirements: MSc in Computer Science, Cybersecurity, Electrical Engineering, or a related field Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping Proficiency in hardware description languages (HDLs) such as Verilog or VHDL Strong understanding of digital design principles and embedded systems Proficiency in low-level programming languages such as C, Rust and RISC-V Knowledge and/or experience in using some of tools such as Xilinx Vivado, Cadence Virtuoso, Synopsys, etc. Familiarity with modular FPGA hardware implementations, tools and testing methodologies Strong analytical and problem-solving abilities Demonstrated ability to work across interdisciplinary and diverse teams, ideally with experience in project planning and management Excellent collaborative and communication skills in English for research purposes Good communication and presentation skills, fluency in multiple languages is a plus We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2664,
+        "jd_sha256": "f64dee02d7d11a1bce9662d793fac29c1952c071afd28cd6c2fe1870e12fdf1a",
+        "job_description_excerpt": "The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communicat",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00021553",
+        "review_flags": [
+          "security_specialism"
+        ],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<p>The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanc",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-12T18:15:52.405640Z",
@@ -1537,6 +1541,11 @@
       },
       "ats_key": "freehire|ai-full-stack-automation-engineer-accountstaff-qlam4clb",
       "company": "AccountStaff",
+      "consumer_review": {
+        "checked_at": "2026-11-12T21:51:32.547230Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p>Salary: $4,000 – $5,500 per month</p><p>Key Responsibilities</p><ul><li><p>Build and maintain the internal AI toolchain: LLM API integrations, a prompt template library and a RAG knowledge base (product documents, datasheets, test data).",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-12T18:15:52.405666Z",
