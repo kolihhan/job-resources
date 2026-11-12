@@ -242,54 +242,6 @@
       "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138"
     },
     {
-      "ats_key": "binance|greenhouse|5009522101",
-      "company": "Binance",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "",
-        "full_jd_complete": true,
-        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. We are seeking a highly skilled professional to join our team, focusing on advancing through innovative AI solutions. The successful candidate will develop and refine Large Language Models (LLMs) to extract actionable insights, improve business decision-making, and optimize prompt design for more accurate outputs. Additionally, the role includes creating scalable and robust LLM/RAG frameworks tailored to customer service scheduling, fostering innovation and maintaining a competitive market edge. This role is 100% Remote, Work from Home based. Responsibilities: Own the full LLM pipeline from data preparation to production real case usage. Design, iterate and optimize prompts (zero-/few-shot, chain-of-thought, tool-calling, etc.) to maximize model utility and safety across products and languages. Build and maintain Retrieval-Augmented Generation (RAG) QA/search systems that connect to multi-source knowledge bases. Familiar with vLLM/SGLang inference architectures and have proven experience deploying and operating LLM services on multi‑GPU or cluster environments. Design, implement and operate multi‑agent LLM architectures (e.g. LangGraph, CrewAI, AutoGen) including task decomposition, agent orchestration, memory sharing and tool‑calling workflows. Develop evaluation pipelines (automatic metrics & human feedback) to measure prompt and model quality, bias, and hallucination rates. Collaborate with product and CS teams to integrate AI models into conversational Chatbot in different scenarios. Track cutting-edge research, author tech blogs, and keep improve current architecture. Requirements: Master’s Degree or higher in Computer Science, Data Science or related field.. At least 2 years of deep-learning/NLP experience, including 1+ year practical LLM work (SFT, DPO, RAG, quantization, inference optimization, etc.). Demonstrated prompt engineering & tuning expertise (few-shot design, structured prompting, prefix-/p-tuning, reward re-ranking, safety filtering). Practical experience building and deploying multi‑agent LLM workflows, with understanding of agent‑orchestrator patterns, shared memory, long‑horizon planning and guard‑rail design. Proficient in both English and Chinese communication for efficient cross team collaboration Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
-        "jd_chars": 4013,
-        "jd_sha256": "ad8ba984429209569a5ae819503345e9f4f4a88450c2284edf7cc7bf3638e285",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "greenhouse first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
-      "first_seen_at": "2026-11-09T15:11:31.004975Z",
-      "key": "sg:5cdfbe2ca21148797c13",
-      "last_error": "Employer Greenhouse 5009522101 apply form is live (2026-11-11); unresolved mandatory 2+ years deep-learning/NLP incl 1+ practical LLM and proven deployed multi-agent workflows, plus multi-GPU LLM service operation. No truthful candidate evidence establishes all mandatory production requirements.",
-      "market": "SG",
-      "platform": "greenhouse official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Australia; Hong Kong; New Zealand; Singapore; Taiwan",
-      "retries": 0,
-      "scout_retry": {
-        "checked_at": "2026-11-11",
-        "missing_evidence": "Exact Binance Greenhouse 5009522101 current live application route cannot be opened; full employer JD stored but does not prove liveness.",
-        "source": "SG Scout exact requisition review",
-        "status": "RETRY"
-      },
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T08:03:50+08:00",
-        "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Employer Greenhouse 5009522101 apply form is live (2026-11-11); unresolved mandatory 2+ years deep-learning/NLP incl 1+ practical LLM and proven deployed multi-agent workflows, plus multi-GPU LLM service operation. No truthful candidate evidence establishes all mandatory production requirements.",
-        "status": "RETRY"
-      },
-      "seq": 50,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "5009522101",
-      "state": "UNVERIFIED_INDEX",
-      "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
-    },
-    {
       "ats_key": "bjakcareer|ashby|56f522c4-b903-45ea-bb08-952b74641b56",
       "company": "BJAK",
       "consumer_review": {
@@ -4732,6 +4684,49 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
       "url": "https://sg.jobstreet.com/job/95677866"
+    },
+    {
+      "ats_key": "binance|greenhouse|5009522101",
+      "company": "Binance",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. We are seeking a highly skilled professional to join our team, focusing on advancing through innovative AI solutions. The successful candidate will develop and refine Large Language Models (LLMs) to extract actionable insights, improve business decision-making, and optimize prompt design for more accurate outputs. Additionally, the role includes creating scalable and robust LLM/RAG frameworks tailored to customer service scheduling, fostering innovation and maintaining a competitive market edge. This role is 100% Remote, Work from Home based. Responsibilities: Own the full LLM pipeline from data preparation to production real case usage. Design, iterate and optimize prompts (zero-/few-shot, chain-of-thought, tool-calling, etc.) to maximize model utility and safety across products and languages. Build and maintain Retrieval-Augmented Generation (RAG) QA/search systems that connect to multi-source knowledge bases. Familiar with vLLM/SGLang inference architectures and have proven experience deploying and operating LLM services on multi‑GPU or cluster environments. Design, implement and operate multi‑agent LLM architectures (e.g. LangGraph, CrewAI, AutoGen) including task decomposition, agent orchestration, memory sharing and tool‑calling workflows. Develop evaluation pipelines (automatic metrics & human feedback) to measure prompt and model quality, bias, and hallucination rates. Collaborate with product and CS teams to integrate AI models into conversational Chatbot in different scenarios. Track cutting-edge research, author tech blogs, and keep improve current architecture. Requirements: Master’s Degree or higher in Computer Science, Data Science or related field.. At least 2 years of deep-learning/NLP experience, including 1+ year practical LLM work (SFT, DPO, RAG, quantization, inference optimization, etc.). Demonstrated prompt engineering & tuning expertise (few-shot design, structured prompting, prefix-/p-tuning, reward re-ranking, safety filtering). Practical experience building and deploying multi‑agent LLM workflows, with understanding of agent‑orchestrator patterns, shared memory, long‑horizon planning and guard‑rail design. Proficient in both English and Chinese communication for efficient cross team collaboration Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+        "jd_chars": 4013,
+        "jd_sha256": "ad8ba984429209569a5ae819503345e9f4f4a88450c2284edf7cc7bf3638e285",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
+      "first_seen_at": "2026-11-09T15:11:31.004975Z",
+      "key": "sg:5cdfbe2ca21148797c13",
+      "last_error": "Employer Greenhouse 5009522101 apply form is live (2026-11-11); unresolved mandatory 2+ years deep-learning/NLP incl 1+ practical LLM and proven deployed multi-agent workflows, plus multi-GPU LLM service operation. No truthful candidate evidence establishes all mandatory production requirements.",
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Australia; Hong Kong; New Zealand; Singapore; Taiwan",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T18:04:44+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence": "Employer exact Greenhouse 5009522101 requirements and responsibilities: proven multi-GPU or cluster LLM serving operations; practical building and deploying multi-agent LLM workflows; 2+ years DL/NLP including 1+ year LLM. Live application form confirmed 2026-11-12. Existing Binance LLM Applied Data Scientist WAIT #929 is different 5002635101; Gmail receipt lacks 5009522101 requisition. Rejected on mandatory capability gap, not assumed prior submission."
+      },
+      "seq": 50,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "5009522101",
+      "state": "HARD_REJECTED",
+      "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
+      "reason": "Exact employer Greenhouse 5009522101 live JD requires proven experience deploying and operating LLM services on multi-GPU or cluster environments, and practical deployment of multi-agent LLM workflows. Candidate evidence supports academic LLM/RAG/QLoRA projects and part-time backend engineering, but does not establish required production multi-GPU/cluster LLM operations or deployed multi-agent ownership. Hard skill mismatch; no application submitted by Scout.",
+      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
     }
   ],
   "version": 1
