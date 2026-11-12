@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-12T09:45:46.991529Z",
-    "source": "freehirefetch:official-ats:SG",
+    "at": "2026-11-12T10:16:39.096801Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 9,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 1,
-      "observed": 1
+      "new_pending": 0,
+      "observed": 9
     }
   },
   "market": "SG",
@@ -4704,6 +4704,7 @@
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
+      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
       "first_seen_at": "2026-11-09T15:11:31.004975Z",
       "key": "sg:5cdfbe2ca21148797c13",
       "last_error": "Employer Greenhouse 5009522101 apply form is live (2026-11-11); unresolved mandatory 2+ years deep-learning/NLP incl 1+ practical LLM and proven deployed multi-agent workflows, plus multi-GPU LLM service operation. No truthful candidate evidence establishes all mandatory production requirements.",
@@ -4711,6 +4712,7 @@
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
       "query": "Australia; Hong Kong; New Zealand; Singapore; Taiwan",
+      "reason": "Exact employer Greenhouse 5009522101 live JD requires proven experience deploying and operating LLM services on multi-GPU or cluster environments, and practical deployment of multi-agent LLM workflows. Candidate evidence supports academic LLM/RAG/QLoRA projects and part-time backend engineering, but does not establish required production multi-GPU/cluster LLM operations or deployed multi-agent ownership. Hard skill mismatch; no application submitted by Scout.",
       "retries": 0,
       "scout_review": {
         "ack": true,
@@ -4724,9 +4726,7 @@
       "source_job_id": "5009522101",
       "state": "HARD_REJECTED",
       "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
-      "reason": "Exact employer Greenhouse 5009522101 live JD requires proven experience deploying and operating LLM services on multi-GPU or cluster environments, and practical deployment of multi-agent LLM workflows. Candidate evidence supports academic LLM/RAG/QLoRA projects and part-time backend engineering, but does not establish required production multi-GPU/cluster LLM operations or deployed multi-agent ownership. Hard skill mismatch; no application submitted by Scout.",
-      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
     }
   ],
   "version": 1
