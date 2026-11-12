@@ -4,27 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1341,
-      "company": "TIKTOK PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:90891709",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T16:02:42Z",
-      "public_slug": "full-stack-ai-data-platform-engineer-tiktok-pte-ltd-zyyoztf7",
-      "role_key": "freehire:full-stack-ai-data-platform-engineer-tiktok-pte-ltd-zyyoztf7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90891709__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack AI Data Platform Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ml"
       ],
       "candidate_seq": 1342,
@@ -193,14 +172,39 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91315555__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "AI-Powered Research Platform Backend Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1351,
+      "company": "Singtel Group",
+      "employment_type": null,
+      "external_id": "data engineer:91303596",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-12T09:55:08Z",
+      "public_slug": "senior-ai-data-engineer-aida-singtel-group-hyocxxka",
+      "role_key": "freehire:senior-ai-data-engineer-aida-singtel-group-hyocxxka",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91303596__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Data Engineer #AIDA"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "SG",
-  "max_candidate_seq": 1349,
-  "min_candidate_seq": 1341,
+  "max_candidate_seq": 1351,
+  "min_candidate_seq": 1342,
   "shard_index": 17,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

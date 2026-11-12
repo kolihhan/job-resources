@@ -1,0 +1,180 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "ai_score": 12,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "jd:machine_learning",
+        "jd:deep_learning",
+        "jd:nlp",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 3249,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200693809",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-11-09T16:34:45Z",
+      "public_slug": "machine-learning-engineer-ai-search-knowledge-platform-apple-4y6krgvn",
+      "role_key": "freehire:machine-learning-engineer-ai-search-knowledge-platform-apple-4y6krgvn",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200693809/machine-learning-engineer-ai-search-knowledge-platform?utm_source=freehire.me",
+      "title": "Machine Learning Engineer - AI, Search & Knowledge Platform"
+    },
+    {
+      "ai_score": 9,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "jd:agent"
+      ],
+      "candidate_seq": 3250,
+      "company": "State Street",
+      "employment_type": "full_time",
+      "external_id": "statestreet.wd1.myworkdayjobs.com/equest:/job/Hangzhou-China/Artificial-Intelligence---Machine-Learning--AVP_R-801016",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou, China",
+      "market": "CN",
+      "posted_at": "2026-11-11T00:00:00Z",
+      "public_slug": "artificial-intelligence-machine-learning-avp-state-street-ggw52pno",
+      "role_key": "freehire:artificial-intelligence-machine-learning-avp-state-street-ggw52pno",
+      "source": "workday",
+      "source_url": "https://statestreet.wd1.myworkdayjobs.com/eQuest/job/Hangzhou-China/Artificial-Intelligence---Machine-Learning--AVP_R-801016?utm_source=freehire.me",
+      "title": "Artificial Intelligence & Machine Learning, AVP"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:rag",
+        "jd:tensorflow"
+      ],
+      "candidate_seq": 3251,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7706816236618975493",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou; Beijing; Shanghai",
+      "market": "CN",
+      "posted_at": "2026-11-11T07:47:24Z",
+      "public_slug": "ai-agentsuan-fa-gong-cheng-shi-dou-yin-dian-shang-bytedance-hs3sx7m2",
+      "role_key": "freehire:ai-agentsuan-fa-gong-cheng-shi-dou-yin-dian-shang-bytedance-hs3sx7m2",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7706816236618975493/detail?utm_source=freehire.me",
+      "title": "AI Agent算法工程师 - 抖音电商"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent"
+      ],
+      "candidate_seq": 3252,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200662309",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai",
+      "market": "CN",
+      "posted_at": "2026-05-11T02:31:16Z",
+      "public_slug": "supply-demand-management-apple-m3yyeanl",
+      "role_key": "freehire:supply-demand-management-apple-m3yyeanl",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200662309/ai-engineer-supply-demand-management?utm_source=freehire.me",
+      "title": "AI Engineer (Supply Demand Management)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3253,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7706738016731482421",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-11T02:41:35Z",
+      "public_slug": "ai-agentkai-fa-gong-cheng-shi-usnei-rong-dian-shang-tiktok-shop-bytedance-4l3f7s4m",
+      "role_key": "freehire:ai-agentkai-fa-gong-cheng-shi-usnei-rong-dian-shang-tiktok-shop-bytedance-4l3f7s4m",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7706738016731482421/detail?utm_source=freehire.me",
+      "title": "AI Agent开发工程师（US内容电商）-TikTok Shop"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:agent"
+      ],
+      "candidate_seq": 3254,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7686015304850606389",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-09-16T06:26:54Z",
+      "public_slug": "agentichou-duan-yan-fa-gong-cheng-shi-yin-shi-pin-ji-zhu-bytedance-2sa24o6d",
+      "role_key": "freehire:agentichou-duan-yan-fa-gong-cheng-shi-yin-shi-pin-ji-zhu-bytedance-2sa24o6d",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7686015304850606389/detail?utm_source=freehire.me",
+      "title": "Agentic 后端研发工程师 - 视频架构"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:model_training"
+      ],
+      "candidate_seq": 3255,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7574325079195093301",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2025-11-19T06:49:53Z",
+      "public_slug": "zi-shen-da-mo-xing-suan-fa-llmfang-xiang-tiktok-shop-bytedance-azhhvkth",
+      "role_key": "freehire:zi-shen-da-mo-xing-suan-fa-llmfang-xiang-tiktok-shop-bytedance-azhhvkth",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7574325079195093301/detail?utm_source=freehire.me",
+      "title": "资深大模型算法（LLM方向）-TikTok Shop"
+    }
+  ],
+  "generated_at": "2026-11-12T04:22:44.894675Z",
+  "market": "CN",
+  "max_candidate_seq": 3255,
+  "min_candidate_seq": 3249,
+  "shard_index": 5,
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

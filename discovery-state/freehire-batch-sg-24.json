@@ -6,27 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1421,
-      "company": "NAS EDUCATION PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:88895106",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-14T18:39:36Z",
-      "public_slug": "ai-native-full-stack-engineer-build-real-world-agents-nas-education-pte-ltd-ttf2v6pr",
-      "role_key": "freehire:ai-native-full-stack-engineer-build-real-world-agents-nas-education-pte-ltd-ttf2v6pr",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88895106__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Native Full-Stack Engineer — Build Real-World Agents"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1422,
       "company": "Hydrax",
       "employment_type": null,
@@ -185,14 +164,35 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88826169__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Enterprise Data & AI Platform Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1432,
+      "company": "Singtel Group",
+      "employment_type": null,
+      "external_id": "data engineer:88853903",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:20Z",
+      "public_slug": "ai-data-center-network-engineer-gpu-hpc-singtel-group-akhd4rge",
+      "role_key": "freehire:ai-data-center-network-engineer-gpu-hpc-singtel-group-akhd4rge",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88853903__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Data Center Network Engineer | GPU/HPC"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "SG",
-  "max_candidate_seq": 1431,
-  "min_candidate_seq": 1421,
+  "max_candidate_seq": 1432,
+  "min_candidate_seq": 1422,
   "shard_index": 24,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

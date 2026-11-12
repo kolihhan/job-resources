@@ -1,0 +1,185 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3277,
+      "company": "Straitdeer Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:27007820",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:45Z",
+      "public_slug": "ai-hpc-data-center-engineer-gpu-clusters-24x7-ops-straitdeer-pte-ltd-gi4misvj",
+      "role_key": "freehire:ai-hpc-data-center-engineer-gpu-clusters-24x7-ops-straitdeer-pte-ltd-gi4misvj",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27007820__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "AI/HPC Data Center Engineer — GPU Clusters & 24x7 Ops"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3278,
+      "company": "Dell Global Business Center Sdn Bhd",
+      "employment_type": null,
+      "external_id": "data engineer:27012951",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:40Z",
+      "public_slug": "penang-onsite-ai-data-center-engineer-dell-global-business-center-sdn-bhd-dpypyq6o",
+      "role_key": "freehire:penang-onsite-ai-data-center-engineer-dell-global-business-center-sdn-bhd-dpypyq6o",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27012951__7112?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "title": "Penang Onsite AI Data Center Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3279,
+      "company": "Utopia Group of Companies",
+      "employment_type": null,
+      "external_id": "full stack developer:27076321",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:15Z",
+      "public_slug": "ai-full-stack-software-developer-utopia-group-of-companies-wrctc4px",
+      "role_key": "freehire:ai-full-stack-software-developer-utopia-group-of-companies-wrctc4px",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27076321__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "AI Full Stack Software Developer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3280,
+      "company": "Rankpage",
+      "employment_type": null,
+      "external_id": "full stack developer:27028602",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:13Z",
+      "public_slug": "full-stack-web-developer-designer-for-seo-ai-rankpage-recqndgn",
+      "role_key": "freehire:full-stack-web-developer-designer-for-seo-ai-rankpage-recqndgn",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27028602__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Full-Stack Web Developer & Designer for SEO & AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3281,
+      "company": "DLHA TECH SDN BHD",
+      "employment_type": null,
+      "external_id": "full stack developer:27006449",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:11Z",
+      "public_slug": "fullstack-developer-golang-flutter-geo-ai-seo-dlha-tech-sdn-bhd-ogal724o",
+      "role_key": "freehire:fullstack-developer-golang-flutter-geo-ai-seo-dlha-tech-sdn-bhd-ogal724o",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27006449__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Fullstack Developer — Golang/Flutter | GEO & AI SEO"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3282,
+      "company": "WJ DIGITAL SDN. BHD.",
+      "employment_type": null,
+      "external_id": "full stack developer:27026259",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:11Z",
+      "public_slug": "full-stack-engineer-go-react-ai-api-explorer-wj-digital-sdn-bhd-32kxfbre",
+      "role_key": "freehire:full-stack-engineer-go-react-ai-api-explorer-wj-digital-sdn-bhd-32kxfbre",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27026259__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Full Stack Engineer - Go, React & AI API Explorer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3283,
+      "company": "CXICON SDN BHD",
+      "employment_type": null,
+      "external_id": "full stack developer:27056470",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:06Z",
+      "public_slug": "full-stack-developer-ai-healthcare-enterprise-cxicon-sdn-bhd-ywbt4fjq",
+      "role_key": "freehire:full-stack-developer-ai-healthcare-enterprise-cxicon-sdn-bhd-ywbt4fjq",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27056470__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Full-Stack Developer — AI, Healthcare & Enterprise"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3284,
+      "company": "Utopia Group of Companies",
+      "employment_type": null,
+      "external_id": "full stack developer:27041442",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:05Z",
+      "public_slug": "ai-full-stack-developer-build-real-ai-solutions-utopia-group-of-companies-js4ixei6",
+      "role_key": "freehire:ai-full-stack-developer-build-real-ai-solutions-utopia-group-of-companies-js4ixei6",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27041442__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "AI Full-Stack Developer — Build Real AI Solutions"
+    }
+  ],
+  "generated_at": "2026-11-12T04:22:44.894675Z",
+  "market": "MY",
+  "max_candidate_seq": 3284,
+  "min_candidate_seq": 3277,
+  "shard_index": 5,
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

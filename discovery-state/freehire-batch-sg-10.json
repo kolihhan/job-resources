@@ -156,6 +156,29 @@
       "ai_signals": [
         "title:ai"
       ],
+      "candidate_seq": 1236,
+      "company": "Kyndryl",
+      "employment_type": null,
+      "external_id": "kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers:/job/Singapore-South-West-Singapore/Full-Stack-Developer--AI-_R-69443",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Singapore, South West, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-06T00:00:00Z",
+      "public_slug": "full-stack-developer-ai-kyndryl-wnq3swke",
+      "role_key": "freehire:full-stack-developer-ai-kyndryl-wnq3swke",
+      "source": "workday",
+      "source_url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Singapore-South-West-Singapore/Full-Stack-Developer--AI-_R-69443?utm_source=freehire.me",
+      "title": "Full Stack Developer (AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
       "candidate_seq": 1237,
       "company": "United Overseas Bank Limited",
       "employment_type": null,
@@ -174,35 +197,14 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92762061__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Data Engineer: Real‑Time Lakehouse & AI Data"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1239,
-      "company": "SEA Singapore",
-      "employment_type": null,
-      "external_id": "backend developer:92763531",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-05T11:55:53Z",
-      "public_slug": "ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
-      "role_key": "freehire:ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763531__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Backend Engineer for Scalable APIs"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "SG",
-  "max_candidate_seq": 1239,
+  "max_candidate_seq": 1237,
   "min_candidate_seq": 1212,
   "shard_index": 10,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

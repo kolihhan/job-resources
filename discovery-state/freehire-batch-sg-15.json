@@ -111,31 +111,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1329,
-      "company": "Talentreq Partners Pte Ltd",
-      "employment_type": null,
-      "external_id": "data engineer:91729614",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-17T12:17:25Z",
-      "public_slug": "senior-data-platform-engineer-for-ai-analytics-talentreq-partners-pte-ltd-j5r3oskj",
-      "role_key": "freehire:senior-data-platform-engineer-for-ai-analytics-talentreq-partners-pte-ltd-j5r3oskj",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91729614__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Platform Engineer for AI & Analytics"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1330,
       "company": "Morrow Health",
       "employment_type": null,
@@ -178,14 +153,39 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91732608__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Full-Stack Engineer for AI-Powered Field and Delivery"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1332,
+      "company": "Singtel Group",
+      "employment_type": null,
+      "external_id": "data engineer:91559583",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-16T11:59:26Z",
+      "public_slug": "registration-of-interest-for-aida-talent-acceleration-day-sept-2026-senior-ai-data-engineer-singtel-group-sozvp4mg",
+      "role_key": "freehire:registration-of-interest-for-aida-talent-acceleration-day-sept-2026-senior-ai-data-engineer-singtel-group-sozvp4mg",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91559583__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Registration of Interest for #AIDA Talent Acceleration Day (Sept 2026) - Senior AI Data Engineer"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "SG",
-  "max_candidate_seq": 1331,
+  "max_candidate_seq": 1332,
   "min_candidate_seq": 1314,
   "shard_index": 15,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

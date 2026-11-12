@@ -1,0 +1,34 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1433,
+      "company": "QuantumBlack, AI by McKinsey",
+      "employment_type": null,
+      "external_id": "data engineer:88812852",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:14Z",
+      "public_slug": "data-engineer-ii-quantumblack-ai-by-mckinsey-quantumblack-ai-by-mckinsey-cepgsdfk",
+      "role_key": "freehire:data-engineer-ii-quantumblack-ai-by-mckinsey-quantumblack-ai-by-mckinsey-cepgsdfk",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88812852__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Engineer II - QuantumBlack, AI by McKinsey"
+    }
+  ],
+  "generated_at": "2026-11-12T04:22:44.894675Z",
+  "market": "SG",
+  "max_candidate_seq": 1433,
+  "min_candidate_seq": 1433,
+  "shard_index": 25,
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

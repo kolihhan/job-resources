@@ -2,6 +2,81 @@
   "candidate_count": 8,
   "candidates": [
     {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent",
+        "jd:multimodal",
+        "jd:model_training"
+      ],
+      "candidate_seq": 3045,
+      "company": "NVIDIA",
+      "employment_type": "full_time",
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-Physical-AI-Data-Engineer_JR2028588",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-11-07T00:00:00Z",
+      "public_slug": "senior-physical-ai-data-engineer-nvidia-fmpe5ewo",
+      "role_key": "freehire:senior-physical-ai-data-engineer-nvidia-fmpe5ewo",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Physical-AI-Data-Engineer_JR2028588?utm_source=freehire.me",
+      "title": "Senior Physical AI Data Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm"
+      ],
+      "candidate_seq": 3046,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100054900009",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-06T08:59:43Z",
+      "public_slug": "qian-wen-ban-gong-ai-quan-zhan-gong-cheng-shi-gong-zuo-tai-alibaba-group-6upd72i5",
+      "role_key": "freehire:qian-wen-ban-gong-ai-quan-zhan-gong-cheng-shi-gong-zuo-tai-alibaba-group-6upd72i5",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100054900009&utm_source=freehire.me",
+      "title": "千问办公-AI 全栈工程师-工作台"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:deep_learning",
+        "jd:deep_learning"
+      ],
+      "candidate_seq": 3047,
+      "company": "NVIDIA",
+      "employment_type": null,
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Deep-Learning-Compiler-CI-Infrastructure-Engineer_JR2020326",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-06-29T00:00:00Z",
+      "public_slug": "deep-learning-compiler-ci-infrastructure-engineer-nvidia-2dgsouko",
+      "role_key": "freehire:deep-learning-compiler-ci-infrastructure-engineer-nvidia-2dgsouko",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Compiler-CI-Infrastructure-Engineer_JR2020326?utm_source=freehire.me",
+      "title": "Deep Learning Compiler CI/Infrastructure Engineer"
+    },
+    {
       "ai_score": 5,
       "ai_signals": [
         "jd:rag",
@@ -118,88 +193,14 @@
       "source": "mokahr",
       "source_url": "https://app.mokahr.com/social-recruitment/wuxibiologics/99960?utm_source=freehire.me#/job/cc38f93b-c5e2-45f1-b524-14ff257a0ffd",
       "title": "Agentic AI Engineer"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:ai",
-        "title:agent",
-        "jd:agent"
-      ],
-      "candidate_seq": 3195,
-      "company": "Advanced Micro Devices, Inc",
-      "employment_type": null,
-      "external_id": "amd.jibeapply.com:97180",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "CN,Beijing WFOE",
-      "market": "CN",
-      "posted_at": "2026-11-10T01:49:00Z",
-      "public_slug": "senior-agentic-ai-engineer-advanced-micro-devices-inc-comjjrpj",
-      "role_key": "freehire:senior-agentic-ai-engineer-advanced-micro-devices-inc-comjjrpj",
-      "source": "jibe",
-      "source_url": "https://careers.amd.com/jobs/97180?lang=en-us&utm_source=freehire.me",
-      "title": "Senior Agentic AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ml",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 3196,
-      "company": "Thoughtworks",
-      "employment_type": null,
-      "external_id": "thoughtworks:8358258",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Xi'an, China",
-      "market": "CN",
-      "posted_at": "2026-11-10T07:57:04Z",
-      "public_slug": "senior-machine-learning-engineer-thoughtworks-blql5bna",
-      "role_key": "freehire:senior-machine-learning-engineer-thoughtworks-blql5bna",
-      "source": "greenhouse",
-      "source_url": "https://www.thoughtworks.com/careers/jobs/8358258?gh_jid=8358258&utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 3197,
-      "company": "ARM",
-      "employment_type": null,
-      "external_id": "careers.arm.com:100996071312",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai, China",
-      "market": "CN",
-      "posted_at": "2026-11-10T00:00:00Z",
-      "public_slug": "senior-developer-relations-engineer-ai-arm-mavlnyry",
-      "role_key": "freehire:senior-developer-relations-engineer-ai-arm-mavlnyry",
-      "source": "radancy",
-      "source_url": "https://careers.arm.com/job/shanghai/ai-software-engineer-ai-software-solution/33099/100996071312?utm_source=freehire.me",
-      "title": "AI Software Engineer (AI software solution)"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "CN",
-  "max_candidate_seq": 3197,
-  "min_candidate_seq": 3084,
+  "max_candidate_seq": 3194,
+  "min_candidate_seq": 3045,
   "shard_index": 3,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

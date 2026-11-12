@@ -143,27 +143,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1418,
-      "company": "HR Plus (Talent) Limited",
-      "employment_type": null,
-      "external_id": "hr-plus-talent-limited:W34YY486",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-08-15T22:29:13Z",
-      "public_slug": "forward-deployed-engineer-ai-engineer-data-engineer-equity-research-analyst-hr-plus-talent-limited-gma25ize",
-      "role_key": "freehire:forward-deployed-engineer-ai-engineer-data-engineer-equity-research-analyst-hr-plus-talent-limited-gma25ize",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/hr-plus-talent-limited/job/W34YY486?utm_source=freehire.me",
-      "title": "Forward Deployed Engineer & AI Engineer& Data Engineer & Equity Research Analyst"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1419,
       "company": "Longbridge Singapore",
       "employment_type": null,
@@ -207,14 +186,35 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88829421__7119?utm_campaign=publisher&utm_medium=api&geoID=40&utm_source=freehire.me",
       "title": "Senior Full-Stack Engineer — AI-Driven, Cloud-Native"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1421,
+      "company": "NAS EDUCATION PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:88895106",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-14T18:39:36Z",
+      "public_slug": "ai-native-full-stack-engineer-build-real-world-agents-nas-education-pte-ltd-ttf2v6pr",
+      "role_key": "freehire:ai-native-full-stack-engineer-build-real-world-agents-nas-education-pte-ltd-ttf2v6pr",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88895106__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Native Full-Stack Engineer — Build Real-World Agents"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "SG",
-  "max_candidate_seq": 1420,
+  "max_candidate_seq": 1421,
   "min_candidate_seq": 1408,
   "shard_index": 23,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

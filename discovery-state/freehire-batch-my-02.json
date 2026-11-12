@@ -1,5 +1,5 @@
 {
-  "candidate_count": 3,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 5,
@@ -70,14 +70,140 @@
       "source": "zohorecruit",
       "source_url": "https://hfeu.zohorecruit.eu/jobs/Careers/50710000033623346?utm_source=freehire.me",
       "title": "Senior AI Engineer - Marketing"
+    },
+    {
+      "ai_score": 13,
+      "ai_signals": [
+        "title:genai",
+        "title:ai",
+        "jd:llm",
+        "jd:genai",
+        "jd:agent",
+        "jd:rag"
+      ],
+      "candidate_seq": 3256,
+      "company": "techstreet",
+      "employment_type": null,
+      "external_id": "data engineer:27033786",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:40Z",
+      "public_slug": "data-ai-engineer-generative-ai-pipelines-automation-techstreet-3w6csaok",
+      "role_key": "freehire:data-ai-engineer-generative-ai-pipelines-automation-techstreet-3w6csaok",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27033786__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Data & AI Engineer: Generative AI, Pipelines & Automation"
+    },
+    {
+      "ai_score": 12,
+      "ai_signals": [
+        "title:genai",
+        "title:ai",
+        "jd:genai",
+        "jd:rag",
+        "jd:retrieval"
+      ],
+      "candidate_seq": 3257,
+      "company": "Master Tec Wire & Cable",
+      "employment_type": "full_time",
+      "external_id": "6287:95833377",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Alor Gajah, Melaka",
+      "market": "MY",
+      "posted_at": "2026-11-11T09:03:39Z",
+      "public_slug": "generative-ai-engineer-master-tec-wire-cable-vmbcbd74",
+      "role_key": "freehire:generative-ai-engineer-master-tec-wire-cable-vmbcbd74",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95833377?utm_source=freehire.me",
+      "title": "Generative AI Engineer"
+    },
+    {
+      "ai_score": 12,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "title:agent"
+      ],
+      "candidate_seq": 3258,
+      "company": "Virtuos Holdings",
+      "employment_type": "full_time",
+      "external_id": "6287:95813301",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur",
+      "market": "MY",
+      "posted_at": "2026-11-10T12:00:00Z",
+      "public_slug": "machine-learning-engineer-ai-agent-platform-virtuos-holdings-otq3lne4",
+      "role_key": "freehire:machine-learning-engineer-ai-agent-platform-virtuos-holdings-otq3lne4",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95813301?utm_source=freehire.me",
+      "title": "Machine Learning Engineer - AI Agent Platform"
+    },
+    {
+      "ai_score": 11,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "title:data_science",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 3259,
+      "company": "Oxydata Software",
+      "employment_type": null,
+      "external_id": "data engineer:27021432",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T19:47:56Z",
+      "public_slug": "ai-data-scientist-production-ml-engineer-kl-onsite-oxydata-software-psr4eute",
+      "role_key": "freehire:ai-data-scientist-production-ml-engineer-kl-onsite-oxydata-software-psr4eute",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27021432__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "AI Data Scientist & Production ML Engineer (KL Onsite)"
+    },
+    {
+      "ai_score": 11,
+      "ai_signals": [
+        "title:llm",
+        "title:ai",
+        "jd:genai",
+        "jd:agent"
+      ],
+      "candidate_seq": 3260,
+      "company": "Newbridge",
+      "employment_type": "full_time",
+      "external_id": "newbridge-:7X7VVY35",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-11T07:48:12Z",
+      "public_slug": "ai-llm-application-engineer-kuala-lumpur-newbridge-pxviu5oi",
+      "role_key": "freehire:ai-llm-application-engineer-kuala-lumpur-newbridge-pxviu5oi",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/newbridge-/job/7X7VVY35?utm_source=freehire.me",
+      "title": "AI /LLM Application Engineer - Kuala Lumpur"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "MY",
-  "max_candidate_seq": 3210,
+  "max_candidate_seq": 3260,
   "min_candidate_seq": 3208,
   "shard_index": 2,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

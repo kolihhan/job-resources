@@ -96,6 +96,27 @@
       "ai_signals": [
         "title:ai"
       ],
+      "candidate_seq": 1131,
+      "company": "Hytech",
+      "employment_type": null,
+      "external_id": "devops engineer:93531551",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:15Z",
+      "public_slug": "ai-powered-devops-engineer-aws-kubernetes-ci-cd-hytech-rsk4xqxs",
+      "role_key": "freehire:ai-powered-devops-engineer-aws-kubernetes-ci-cd-hytech-rsk4xqxs",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531551__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered DevOps Engineer – AWS, Kubernetes, CI/CD"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
       "candidate_seq": 1133,
       "company": "NCS Group",
       "employment_type": null,
@@ -177,37 +198,14 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/95319442?utm_source=freehire.me",
       "title": "Senior Business Intelligence Analyst (AI) – Credit, Business Intelligence"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1137,
-      "company": "Energy Market Authority",
-      "employment_type": null,
-      "external_id": "6290:95316938",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "West Region",
-      "market": "SG",
-      "posted_at": "2026-10-16T07:40:40Z",
-      "public_slug": "ai-solutions-engineer-energy-market-authority-gucoxzjd",
-      "role_key": "freehire:ai-solutions-engineer-energy-market-authority-gucoxzjd",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95316938?utm_source=freehire.me",
-      "title": "AI Solutions Engineer"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "SG",
-  "max_candidate_seq": 1137,
+  "max_candidate_seq": 1136,
   "min_candidate_seq": 1125,
   "shard_index": 3,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

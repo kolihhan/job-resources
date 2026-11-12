@@ -1,6 +1,54 @@
 {
-  "candidate_count": 6,
+  "candidate_count": 8,
   "candidates": [
+    {
+      "ai_score": 9,
+      "ai_signals": [
+        "title:ai",
+        "title:agent",
+        "jd:agent"
+      ],
+      "candidate_seq": 3195,
+      "company": "Advanced Micro Devices, Inc",
+      "employment_type": null,
+      "external_id": "amd.jibeapply.com:97180",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "CN,Beijing WFOE",
+      "market": "CN",
+      "posted_at": "2026-11-10T01:49:00Z",
+      "public_slug": "senior-agentic-ai-engineer-advanced-micro-devices-inc-comjjrpj",
+      "role_key": "freehire:senior-agentic-ai-engineer-advanced-micro-devices-inc-comjjrpj",
+      "source": "jibe",
+      "source_url": "https://careers.amd.com/jobs/97180?lang=en-us&utm_source=freehire.me",
+      "title": "Senior Agentic AI Engineer"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:machine_learning"
+      ],
+      "candidate_seq": 3197,
+      "company": "ARM",
+      "employment_type": null,
+      "external_id": "careers.arm.com:100996071312",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shanghai, China",
+      "market": "CN",
+      "posted_at": "2026-11-10T00:00:00Z",
+      "public_slug": "senior-developer-relations-engineer-ai-arm-mavlnyry",
+      "role_key": "freehire:senior-developer-relations-engineer-ai-arm-mavlnyry",
+      "source": "radancy",
+      "source_url": "https://careers.arm.com/job/shanghai/ai-software-engineer-ai-software-solution/33099/100996071312?utm_source=freehire.me",
+      "title": "AI Software Engineer (AI software solution)"
+    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -132,12 +180,12 @@
       "title": "AI Infrastructure Software Engineer"
     }
   ],
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "market": "CN",
   "max_candidate_seq": 3203,
-  "min_candidate_seq": 3198,
+  "min_candidate_seq": 3195,
   "shard_index": 4,
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

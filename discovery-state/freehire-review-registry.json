@@ -1,8 +1,8 @@
 {
-  "current_candidate_count": 2466,
-  "generated_at": "2026-11-11T23:07:42.600255Z",
+  "current_candidate_count": 2558,
+  "generated_at": "2026-11-12T04:22:44.894675Z",
   "missing_identity_count": 0,
-  "next_candidate_seq": 3211,
+  "next_candidate_seq": 3293,
   "roles": {
     "freehire:046-ai-engineer-ai-maintenance-technology-upgrades-ridik-a-subsidiary-of-clps-nasdaq-clps-lbpd4735": {
       "candidate_seq": 376,
@@ -353,6 +353,11 @@
       "candidate_seq": 2153,
       "market": "CN",
       "public_slug": "agentic-recsyssuan-fa-gong-cheng-shi-dou-yin-bytedance-huszpnxf"
+    },
+    "freehire:agentichou-duan-yan-fa-gong-cheng-shi-yin-shi-pin-ji-zhu-bytedance-2sa24o6d": {
+      "candidate_seq": 3254,
+      "market": "CN",
+      "public_slug": "agentichou-duan-yan-fa-gong-cheng-shi-yin-shi-pin-ji-zhu-bytedance-2sa24o6d"
     },
     "freehire:agentjia-gou-yan-fa-gong-cheng-shi-zhuan-jia-ai-platform-bytedance-v5lg4o5y": {
       "candidate_seq": 2184,
@@ -834,6 +839,11 @@
       "market": "CN",
       "public_slug": "ai-agentkai-fa-gong-cheng-shi-tiktokyan-fa-bytedance-tz6ew3oa"
     },
+    "freehire:ai-agentkai-fa-gong-cheng-shi-usnei-rong-dian-shang-tiktok-shop-bytedance-4l3f7s4m": {
+      "candidate_seq": 3253,
+      "market": "CN",
+      "public_slug": "ai-agentkai-fa-gong-cheng-shi-usnei-rong-dian-shang-tiktok-shop-bytedance-4l3f7s4m"
+    },
     "freehire:ai-agentkai-fa-gong-cheng-shi-yi-dong-os-bytedance-asbuqtkp": {
       "candidate_seq": 1850,
       "market": "CN",
@@ -988,6 +998,11 @@
       "candidate_seq": 1626,
       "market": "CN",
       "public_slug": "ai-agentsuan-fa-gong-cheng-shi-dou-yin-dian-shang-bytedance-75cvymtd"
+    },
+    "freehire:ai-agentsuan-fa-gong-cheng-shi-dou-yin-dian-shang-bytedance-hs3sx7m2": {
+      "candidate_seq": 3251,
+      "market": "CN",
+      "public_slug": "ai-agentsuan-fa-gong-cheng-shi-dou-yin-dian-shang-bytedance-hs3sx7m2"
     },
     "freehire:ai-agentsuan-fa-gong-cheng-shi-guo-ji-dian-shang-lian-meng-bytedance-tuxoyaio": {
       "candidate_seq": 2178,
@@ -1379,6 +1394,11 @@
       "market": "SG",
       "public_slug": "ai-chemical-security-researcher-concordia-ai-xhio4r46"
     },
+    "freehire:ai-cloud-network-engineer-data-center-fabric-roce-superpower-x-ai-yx4db6ao": {
+      "candidate_seq": 3236,
+      "market": "SG",
+      "public_slug": "ai-cloud-network-engineer-data-center-fabric-roce-superpower-x-ai-yx4db6ao"
+    },
     "freehire:ai-codingda-mo-xing-gong-cheng-shi-suan-fa-zhuan-jia-dev-infra-bytedance-wkherzvf": {
       "candidate_seq": 1943,
       "market": "CN",
@@ -1628,6 +1648,11 @@
       "candidate_seq": 392,
       "market": "SG",
       "public_slug": "ai-data-scientist-models-pipelines-dashboards-dotco-pte-ltd-ywxjwi6w"
+    },
+    "freehire:ai-data-scientist-production-ml-engineer-kl-onsite-oxydata-software-psr4eute": {
+      "candidate_seq": 3259,
+      "market": "MY",
+      "public_slug": "ai-data-scientist-production-ml-engineer-kl-onsite-oxydata-software-psr4eute"
     },
     "freehire:ai-data-scientist-smart-manufacturing-agilent-hr3hjpdx": {
       "candidate_seq": 239,
@@ -1888,6 +1913,11 @@
       "candidate_seq": 2497,
       "market": "MY",
       "public_slug": "ai-driven-full-stack-developer-web-api-segi-fresh-2a36x3pz"
+    },
+    "freehire:ai-driven-full-stack-developer-web-api-segi-fresh-sxskkdgi": {
+      "candidate_seq": 3291,
+      "market": "MY",
+      "public_slug": "ai-driven-full-stack-developer-web-api-segi-fresh-sxskkdgi"
     },
     "freehire:ai-driven-full-stack-engineer-angular-net-times-software-pte-ltd-6qyezzo7": {
       "candidate_seq": 1011,
@@ -2209,6 +2239,11 @@
       "market": "SG",
       "public_slug": "ai-engineer-beyondsoft-technology-singapore-pte-ltd-3zjmbjmy"
     },
+    "freehire:ai-engineer-build-models-pipelines-apis-ust-usource-s7zbpl7e": {
+      "candidate_seq": 3273,
+      "market": "MY",
+      "public_slug": "ai-engineer-build-models-pipelines-apis-ust-usource-s7zbpl7e"
+    },
     "freehire:ai-engineer-capco-consulting-singapore-pte-ltd-5swlwp6o": {
       "candidate_seq": 710,
       "market": "SG",
@@ -2348,6 +2383,11 @@
       "candidate_seq": 3094,
       "market": "SG",
       "public_slug": "ai-engineer-elf-labs-rd57yr6d"
+    },
+    "freehire:ai-engineer-encora-technologies-pte-ltd-y5co536g": {
+      "candidate_seq": 3214,
+      "market": "SG",
+      "public_slug": "ai-engineer-encora-technologies-pte-ltd-y5co536g"
     },
     "freehire:ai-engineer-eng-kong-container-agencies-pte-ltd-cyp7kkmd": {
       "candidate_seq": 2692,
@@ -2799,6 +2839,11 @@
       "market": "SG",
       "public_slug": "ai-engineer-rmr-international-private-limited-xg62eflo"
     },
+    "freehire:ai-engineer-saksoft-pte-limited-ok7s4fel": {
+      "candidate_seq": 3223,
+      "market": "SG",
+      "public_slug": "ai-engineer-saksoft-pte-limited-ok7s4fel"
+    },
     "freehire:ai-engineer-scientec-consulting-pte-ltd-l4nbjuov": {
       "candidate_seq": 287,
       "market": "SG",
@@ -3029,6 +3074,11 @@
       "market": "SG",
       "public_slug": "ai-full-stack-automation-engineer-accountstaff-qlam4clb"
     },
+    "freehire:ai-full-stack-developer-build-real-ai-solutions-utopia-group-of-companies-js4ixei6": {
+      "candidate_seq": 3284,
+      "market": "MY",
+      "public_slug": "ai-full-stack-developer-build-real-ai-solutions-utopia-group-of-companies-js4ixei6"
+    },
     "freehire:ai-full-stack-developer-sap-labs-east-asia-singapore-careers-sap-com-3ahzg2gj": {
       "candidate_seq": 895,
       "market": "SG",
@@ -3159,6 +3209,11 @@
       "market": "SG",
       "public_slug": "ai-full-stack-software-developer-0087-august-2026-royal-ocean-marine-tm3zkw3s"
     },
+    "freehire:ai-full-stack-software-developer-utopia-group-of-companies-wrctc4px": {
+      "candidate_seq": 3279,
+      "market": "MY",
+      "public_slug": "ai-full-stack-software-developer-utopia-group-of-companies-wrctc4px"
+    },
     "freehire:ai-fullstack-engineer-surbana-jurong-private-limited-c5dculfa": {
       "candidate_seq": 321,
       "market": "SG",
@@ -3173,6 +3228,11 @@
       "candidate_seq": 721,
       "market": "SG",
       "public_slug": "ai-harness-architect-senior-data-engineer-ncs-pte-ltd-kv3xerda"
+    },
+    "freehire:ai-hpc-data-center-engineer-gpu-clusters-24x7-ops-straitdeer-pte-ltd-gi4misvj": {
+      "candidate_seq": 3277,
+      "market": "MY",
+      "public_slug": "ai-hpc-data-center-engineer-gpu-clusters-24x7-ops-straitdeer-pte-ltd-gi4misvj"
     },
     "freehire:ai-hpc-data-center-infrastructure-engineer-bitdeer-technologies-group-ktrlrlcb": {
       "candidate_seq": 2640,
@@ -3329,6 +3389,11 @@
       "market": "CN",
       "public_slug": "ai-infrastructure-software-engineer-qualcomm-m2jnomv6"
     },
+    "freehire:ai-llm-application-engineer-kuala-lumpur-newbridge-pxviu5oi": {
+      "candidate_seq": 3260,
+      "market": "MY",
+      "public_slug": "ai-llm-application-engineer-kuala-lumpur-newbridge-pxviu5oi"
+    },
     "freehire:ai-llm-content-safety-strategist-tiktok-live-tiktok-pte-ltd-glkupg4b": {
       "candidate_seq": 192,
       "market": "SG",
@@ -3378,6 +3443,11 @@
       "candidate_seq": 341,
       "market": "SG",
       "public_slug": "ai-ml-capabilities-associate-apac-chief-data-analytics-office-jpmc-dev9-fa-oraclecloud-com-cx-epomuqoi"
+    },
+    "freehire:ai-ml-customer-engineer-red-hat-llgi6a3r": {
+      "candidate_seq": 3216,
+      "market": "SG",
+      "public_slug": "ai-ml-customer-engineer-red-hat-llgi6a3r"
     },
     "freehire:ai-ml-data-engineer-production-models-pipelines-gmp-technologies-4z64q6sd": {
       "candidate_seq": 173,
@@ -3544,6 +3614,11 @@
       "market": "MY",
       "public_slug": "ai-native-backend-engineer-ai-apis-agentic-systems-mochi-technologies-hmo3bgrn"
     },
+    "freehire:ai-native-backend-engineer-for-global-fintech-ant-international-v52ujgu4": {
+      "candidate_seq": 3270,
+      "market": "MY",
+      "public_slug": "ai-native-backend-engineer-for-global-fintech-ant-international-v52ujgu4"
+    },
     "freehire:ai-native-backend-engineer-for-llm-apps-dadaconsultants-pte-ltd-dyf2duxm": {
       "candidate_seq": 147,
       "market": "SG",
@@ -3568,6 +3643,11 @@
       "candidate_seq": 1635,
       "market": "CN",
       "public_slug": "ai-native-engineer-ju-shen-zhi-neng-fang-xiang-lightwheel-ai-aqhvzu5f"
+    },
+    "freehire:ai-native-engineer-software-engineering-palo-it-3bemyg2r": {
+      "candidate_seq": 3248,
+      "market": "SG",
+      "public_slug": "ai-native-engineer-software-engineering-palo-it-3bemyg2r"
     },
     "freehire:ai-native-full-stack-engineer-3d-dashboards-geospatial-polytron-ai-pte-ltd-5vsdatyv": {
       "candidate_seq": 888,
@@ -3644,6 +3724,11 @@
       "market": "CN",
       "public_slug": "ai-nativeying-yong-fu-wu-duan-kai-fa-gong-cheng-shi-ji-meng-ai-jian-ying-capcut-bytedance-nq3kvrgi"
     },
+    "freehire:ai-nlp-engineer-genai-nlp-healthcare-ai-beathchapman-pte-ltd-rxwextpa": {
+      "candidate_seq": 3211,
+      "market": "SG",
+      "public_slug": "ai-nlp-engineer-genai-nlp-healthcare-ai-beathchapman-pte-ltd-rxwextpa"
+    },
     "freehire:ai-osyin-pin-xi-tong-gong-cheng-shi-dou-bao-shou-ji-zhu-shou-bytedance-usfpca4q": {
       "candidate_seq": 2094,
       "market": "CN",
@@ -3689,6 +3774,11 @@
       "market": "SG",
       "public_slug": "ai-platform-devops-engineer-mlops-cloud-toss-ex-pr-pte-ltd-udeogzhl"
     },
+    "freehire:ai-platform-devops-engineer-sembcorp-group-ow57u4dw": {
+      "candidate_seq": 3244,
+      "market": "SG",
+      "public_slug": "ai-platform-devops-engineer-sembcorp-group-ow57u4dw"
+    },
     "freehire:ai-platform-engineer-aida-singapore-telecommunications-wuli5sjl": {
       "candidate_seq": 1063,
       "market": "SG",
@@ -3703,6 +3793,11 @@
       "candidate_seq": 2940,
       "market": "CN",
       "public_slug": "ai-platform-engineer-caterpillar-inc-s67zdxhq"
+    },
+    "freehire:ai-platform-engineer-data-ai-apps-singdata-cloud-pte-ltd-u7fg7qlm": {
+      "candidate_seq": 3225,
+      "market": "SG",
+      "public_slug": "ai-platform-engineer-data-ai-apps-singdata-cloud-pte-ltd-u7fg7qlm"
     },
     "freehire:ai-platform-engineer-devops-cloud-data-ops-nanyang-technological-university-singapore-bi5tnxer": {
       "candidate_seq": 1423,
@@ -3783,6 +3878,11 @@
       "candidate_seq": 1212,
       "market": "SG",
       "public_slug": "ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j"
+    },
+    "freehire:ai-powered-full-stack-developer-node-react-brighten-lqdkcyos": {
+      "candidate_seq": 3268,
+      "market": "MY",
+      "public_slug": "ai-powered-full-stack-developer-node-react-brighten-lqdkcyos"
     },
     "freehire:ai-powered-full-stack-engineer-cloud-native-mas-monetary-authority-of-singapore-yu57zy6s": {
       "candidate_seq": 1197,
@@ -3888,6 +3988,16 @@
       "candidate_seq": 2997,
       "market": "MY",
       "public_slug": "ai-ready-data-platform-engineer-freedom-consulting-inc-fygmlj36"
+    },
+    "freehire:ai-research-engineer-gradient-i2izmi6l": {
+      "candidate_seq": 3219,
+      "market": "SG",
+      "public_slug": "ai-research-engineer-gradient-i2izmi6l"
+    },
+    "freehire:ai-research-engineer-lenovo-ln65xjyt": {
+      "candidate_seq": 3226,
+      "market": "SG",
+      "public_slug": "ai-research-engineer-lenovo-ln65xjyt"
     },
     "freehire:ai-research-engineer-ml-systems-data-intelligence-dso-national-laboratories-msjtf6bt": {
       "candidate_seq": 180,
@@ -4544,6 +4654,11 @@
       "market": "SG",
       "public_slug": "applied-ai-architect-openai-5j5nlwi6"
     },
+    "freehire:applied-ai-developer-sap-pocn4uu6": {
+      "candidate_seq": 3218,
+      "market": "SG",
+      "public_slug": "applied-ai-developer-sap-pocn4uu6"
+    },
     "freehire:applied-ai-engineer-agentic-ai-ml-flintex-7c2edu7o": {
       "candidate_seq": 43,
       "market": "SG",
@@ -4723,6 +4838,11 @@
       "candidate_seq": 712,
       "market": "SG",
       "public_slug": "artificial-intelligence-governance-product-engineer-ai-product-engineer-ust-global-singapore-pte-limited-4lf3fgxz"
+    },
+    "freehire:artificial-intelligence-machine-learning-avp-state-street-ggw52pno": {
+      "candidate_seq": 3250,
+      "market": "CN",
+      "public_slug": "artificial-intelligence-machine-learning-avp-state-street-ggw52pno"
     },
     "freehire:artificial-intelligence-machine-learning-avp-state-street-idjbsen2": {
       "candidate_seq": 2846,
@@ -4998,6 +5118,11 @@
       "candidate_seq": 105,
       "market": "SG",
       "public_slug": "avp-vp-ai-ml-model-validation-engineer-data-management-office-the-japan-research-institute-limited-singapore-branch-aveszkfs"
+    },
+    "freehire:avp-vp-ai-ml-model-validation-engineer-sumitomo-mitsui-banking-corporation-singapore-branch-fpsznuj5": {
+      "candidate_seq": 3213,
+      "market": "SG",
+      "public_slug": "avp-vp-ai-ml-model-validation-engineer-sumitomo-mitsui-banking-corporation-singapore-branch-fpsznuj5"
     },
     "freehire:avp-vp-cybersecurity-governance-ai-trust-and-assurance-temasek-26qvqi44": {
       "candidate_seq": 2805,
@@ -5344,6 +5469,11 @@
       "market": "SG",
       "public_slug": "backend-engineer-industrial-ai-real-time-systems-jda-wms-pte-ltd-c27evesp"
     },
+    "freehire:backend-engineer-java-ai-platforms-lumina-advisory-global-search-pte-ltd-rnldh2nr": {
+      "candidate_seq": 3241,
+      "market": "SG",
+      "public_slug": "backend-engineer-java-ai-platforms-lumina-advisory-global-search-pte-ltd-rnldh2nr"
+    },
     "freehire:backend-engineer-java-spring-open-source-ai-lenovo-6idztov6": {
       "candidate_seq": 2471,
       "market": "MY",
@@ -5363,6 +5493,11 @@
       "candidate_seq": 1021,
       "market": "SG",
       "public_slug": "backend-engineer-machine-learning-storage-infra-singapore-technology-backend-singapore-regular-bytedance-old-bzlzrpml"
+    },
+    "freehire:backend-engineer-payments-microservices-ai-tools-pixelate-everything-xyc376lk": {
+      "candidate_seq": 3287,
+      "market": "MY",
+      "public_slug": "backend-engineer-payments-microservices-ai-tools-pixelate-everything-xyc376lk"
     },
     "freehire:backend-engineer-promotions-platform-ai-shopee-t47fjob4": {
       "candidate_seq": 825,
@@ -5523,6 +5658,11 @@
       "candidate_seq": 2243,
       "market": "CN",
       "public_slug": "business-intelligence-data-scientist-shang-wu-zhi-neng-shu-ju-ke-xue-jia-stgdaimler-taleo-net-ex-zztkwebw"
+    },
+    "freehire:c-rust-systems-engineer-for-ai-data-infrastructure-bah-partners-limited-7njhls7i": {
+      "candidate_seq": 3234,
+      "market": "SG",
+      "public_slug": "c-rust-systems-engineer-for-ai-data-infrastructure-bah-partners-limited-7njhls7i"
     },
     "freehire:cai-niao-yi-zhan-da-mo-xing-suan-fa-gong-cheng-shi-yi-zhan-suan-fa-bu-alibaba-group-3znlsixu": {
       "candidate_seq": 1651,
@@ -5794,6 +5934,11 @@
       "market": "SG",
       "public_slug": "cybersecurity-consultant-ai-cybersecurity-engineering-centre-cyber-security-agency-of-singapore-csa-a7gzrwpy"
     },
+    "freehire:cybersecurity-engineer-ai-network-zen-career-o2jwoh5g": {
+      "candidate_seq": 3230,
+      "market": "SG",
+      "public_slug": "cybersecurity-engineer-ai-network-zen-career-o2jwoh5g"
+    },
     "freehire:da-mo-xing-agentsuan-fa-gong-cheng-shi-aime-bytedance-terwrmjo": {
       "candidate_seq": 2089,
       "market": "CN",
@@ -5989,6 +6134,11 @@
       "market": "CN",
       "public_slug": "dao-can-quan-zhan-agent-builder-meituan-suwjlbxh"
     },
+    "freehire:data-ai-data-engineer-cfgi-wfzz3xrr": {
+      "candidate_seq": 3292,
+      "market": "MY",
+      "public_slug": "data-ai-data-engineer-cfgi-wfzz3xrr"
+    },
     "freehire:data-ai-engineer-analytics-dashboards-genai-infosys-compaz-icompaz-gjlmpuas": {
       "candidate_seq": 221,
       "market": "SG",
@@ -6029,6 +6179,11 @@
       "market": "SG",
       "public_slug": "data-ai-engineer-for-ai-native-analytics-secretlab-7oj7kjnq"
     },
+    "freehire:data-ai-engineer-generative-ai-pipelines-automation-techstreet-3w6csaok": {
+      "candidate_seq": 3256,
+      "market": "MY",
+      "public_slug": "data-ai-engineer-generative-ai-pipelines-automation-techstreet-3w6csaok"
+    },
     "freehire:data-ai-engineer-newbridge-oip5gzyp": {
       "candidate_seq": 331,
       "market": "SG",
@@ -6053,6 +6208,11 @@
       "candidate_seq": 161,
       "market": "SG",
       "public_slug": "data-ai-engineer-spark-etl-pipelines-llms-jeet-analytics-pte-ltd-kc6qo263"
+    },
+    "freehire:data-ai-engineer-techstreet-malaysia-cpusawun": {
+      "candidate_seq": 3265,
+      "market": "MY",
+      "public_slug": "data-ai-engineer-techstreet-malaysia-cpusawun"
     },
     "freehire:data-ai-engineering-specialist-cloud-streaming-genai-uarrow-pte-ltd-7b6tyxei": {
       "candidate_seq": 44,
@@ -6444,6 +6604,11 @@
       "market": "SG",
       "public_slug": "data-scientist-allegis-group-singapore-private-limited-h5f7ir5a"
     },
+    "freehire:data-scientist-always-marketing-malaysia-sdn-bhd-qcgxmjnm": {
+      "candidate_seq": 3289,
+      "market": "MY",
+      "public_slug": "data-scientist-always-marketing-malaysia-sdn-bhd-qcgxmjnm"
+    },
     "freehire:data-scientist-applied-ai-insights-apple-vrgcolpp": {
       "candidate_seq": 1727,
       "market": "CN",
@@ -6518,6 +6683,11 @@
       "candidate_seq": 1105,
       "market": "SG",
       "public_slug": "data-scientist-ii-carousell-group-amj3zzwj"
+    },
+    "freehire:data-scientist-iii-jabil-circuit-singapore-pte-ltd-6cpcngch": {
+      "candidate_seq": 3242,
+      "market": "SG",
+      "public_slug": "data-scientist-iii-jabil-circuit-singapore-pte-ltd-6cpcngch"
     },
     "freehire:data-scientist-junior-mid-ai-analyst-one-tech-stop-4vbsntys": {
       "candidate_seq": 3163,
@@ -6798,6 +6968,11 @@
       "candidate_seq": 2027,
       "market": "CN",
       "public_slug": "devops-ai-ying-yong-kai-fa-gong-cheng-shi-bei-jing-shen-zhen-tencent-qqy7psf6"
+    },
+    "freehire:devops-engineer-ai-infrastructure-automation-wiz-ai-jylzydab": {
+      "candidate_seq": 3271,
+      "market": "MY",
+      "public_slug": "devops-engineer-ai-infrastructure-automation-wiz-ai-jylzydab"
     },
     "freehire:devops-engineer-ai-ml-ops-cloud-reliability-digile-pte-ltd-dsw642oc": {
       "candidate_seq": 2332,
@@ -7188,6 +7363,11 @@
       "candidate_seq": 2958,
       "market": "SG",
       "public_slug": "enterprise-data-scientist-refinitiv-asia-pte-ltd-yj3jqb2x"
+    },
+    "freehire:entry-level-ml-engineer-autonomous-driving-data-ml-wingfin-singapore-4fjxtpec": {
+      "candidate_seq": 3267,
+      "market": "MY",
+      "public_slug": "entry-level-ml-engineer-autonomous-driving-data-ml-wingfin-singapore-4fjxtpec"
     },
     "freehire:executive-data-science-llm-agentic-ai-the-gmp-group-zwltotsu": {
       "candidate_seq": 2,
@@ -7594,6 +7774,11 @@
       "market": "MY",
       "public_slug": "full-stack-developer-ai-agents-llm-apps-flexible-sepap-sdn-bhd-wwomfezp"
     },
+    "freehire:full-stack-developer-ai-ai-agent-wfh-private-advertiser-ad47hikb": {
+      "candidate_seq": 3263,
+      "market": "MY",
+      "public_slug": "full-stack-developer-ai-ai-agent-wfh-private-advertiser-ad47hikb"
+    },
     "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7": {
       "candidate_seq": 1202,
       "market": "SG",
@@ -7674,6 +7859,11 @@
       "market": "SG",
       "public_slug": "full-stack-developer-ai-enabled-phillipcapital-t3yxhuvi"
     },
+    "freehire:full-stack-developer-ai-healthcare-enterprise-cxicon-sdn-bhd-ywbt4fjq": {
+      "candidate_seq": 3283,
+      "market": "MY",
+      "public_slug": "full-stack-developer-ai-healthcare-enterprise-cxicon-sdn-bhd-ywbt4fjq"
+    },
     "freehire:full-stack-developer-ai-kyndryl-wnq3swke": {
       "candidate_seq": 1236,
       "market": "SG",
@@ -7738,6 +7928,11 @@
       "candidate_seq": 2496,
       "market": "MY",
       "public_slug": "full-stack-developer-modern-web-api-ai-assisted-vibe-coding-segi-fresh-3fva75gb"
+    },
+    "freehire:full-stack-developer-modern-web-api-ai-assisted-vibe-coding-segi-fresh-nopmm7fi": {
+      "candidate_seq": 3290,
+      "market": "MY",
+      "public_slug": "full-stack-developer-modern-web-api-ai-assisted-vibe-coding-segi-fresh-nopmm7fi"
     },
     "freehire:full-stack-developer-web-ai-integration-appnovation-elhuc3f6": {
       "candidate_seq": 2450,
@@ -7834,6 +8029,11 @@
       "market": "SG",
       "public_slug": "full-stack-engineer-ai-driven-web-platform-builder-talent-merge-uo663pso"
     },
+    "freehire:full-stack-engineer-ai-eames-consulting-group-singapore-pte-ltd-3pwzdych": {
+      "candidate_seq": 3222,
+      "market": "SG",
+      "public_slug": "full-stack-engineer-ai-eames-consulting-group-singapore-pte-ltd-3pwzdych"
+    },
     "freehire:full-stack-engineer-ai-enhanced-web-api-builder-elliott-moss-consulting-pte-ltd-lrmpjrmu": {
       "candidate_seq": 698,
       "market": "SG",
@@ -7873,6 +8073,11 @@
       "candidate_seq": 634,
       "market": "SG",
       "public_slug": "full-stack-engineer-ai-native-polytron-ai-pte-ltd-pqsfomyr"
+    },
+    "freehire:full-stack-engineer-ai-native-polytron-ai-pte-ltd-yntwn3hx": {
+      "candidate_seq": 3228,
+      "market": "SG",
+      "public_slug": "full-stack-engineer-ai-native-polytron-ai-pte-ltd-yntwn3hx"
     },
     "freehire:full-stack-engineer-ai-native-products-fintech-enterprise-solutions-multiple-opportunities-dada-consultants-v6ijstqa": {
       "candidate_seq": 2606,
@@ -7928,6 +8133,11 @@
       "candidate_seq": 990,
       "market": "SG",
       "public_slug": "full-stack-engineer-ai-powered-fintech-enterprise-dadaconsultants-pte-ltd-go4jgxo7"
+    },
+    "freehire:full-stack-engineer-ai-powered-web-cloud-user-experience-researchers-pte-ltd-singapore-5wdj2zgl": {
+      "candidate_seq": 3239,
+      "market": "SG",
+      "public_slug": "full-stack-engineer-ai-powered-web-cloud-user-experience-researchers-pte-ltd-singapore-5wdj2zgl"
     },
     "freehire:full-stack-engineer-ai-products-kaishi-partners-pte-ltd-hq5xgbg7": {
       "candidate_seq": 625,
@@ -8199,6 +8409,11 @@
       "market": "SG",
       "public_slug": "full-stack-engineer-generative-ai-agentic-ai-accenture-southeast-asia-hu5vdoib"
     },
+    "freehire:full-stack-engineer-go-react-ai-api-explorer-wj-digital-sdn-bhd-32kxfbre": {
+      "candidate_seq": 3282,
+      "market": "MY",
+      "public_slug": "full-stack-engineer-go-react-ai-api-explorer-wj-digital-sdn-bhd-32kxfbre"
+    },
     "freehire:full-stack-engineer-java-react-ai-tools-1-year-the-edge-contracting-services-singapore-hong-kong-mmrqcnwd": {
       "candidate_seq": 1029,
       "market": "SG",
@@ -8314,6 +8529,11 @@
       "market": "SG",
       "public_slug": "full-stack-solution-engineer-ai-emerging-technology-hays-specialist-recruitment-pte-ltd-anf2njty"
     },
+    "freehire:full-stack-web-developer-designer-for-seo-ai-rankpage-recqndgn": {
+      "candidate_seq": 3280,
+      "market": "MY",
+      "public_slug": "full-stack-web-developer-designer-for-seo-ai-rankpage-recqndgn"
+    },
     "freehire:full-stack-web-engineer-for-ai-automation-tools-beathchapman-pte-ltd-hmuaw6of": {
       "candidate_seq": 1315,
       "market": "SG",
@@ -8333,6 +8553,11 @@
       "candidate_seq": 2894,
       "market": "SG",
       "public_slug": "fullstack-developer-ai-combuilder-pte-ltd-u6k74u6y"
+    },
+    "freehire:fullstack-developer-golang-flutter-geo-ai-seo-dlha-tech-sdn-bhd-ogal724o": {
+      "candidate_seq": 3281,
+      "market": "MY",
+      "public_slug": "fullstack-developer-golang-flutter-geo-ai-seo-dlha-tech-sdn-bhd-ogal724o"
     },
     "freehire:fullstack-engineer-data-application-ai-agent-tiktok-live-singapore-tiktok-eqnhnzmu": {
       "candidate_seq": 129,
@@ -8594,6 +8819,11 @@
       "market": "SG",
       "public_slug": "genai-driven-full-stack-developer-react-python-zeal-infotech-pte-ltd-2zlqvl37"
     },
+    "freehire:genai-driven-full-stack-engineer-for-public-sector-tech-sfai3zvm": {
+      "candidate_seq": 3227,
+      "market": "SG",
+      "public_slug": "genai-driven-full-stack-engineer-for-public-sector-tech-sfai3zvm"
+    },
     "freehire:genai-driven-full-stack-engineer-react-python-zeal-infotech-zp3ei4ey": {
       "candidate_seq": 424,
       "market": "SG",
@@ -8764,6 +8994,11 @@
       "market": "SG",
       "public_slug": "generative-ai-creative-content-executive-pedro-group-pte-ltd-zwule4hw"
     },
+    "freehire:generative-ai-data-engineer-techstreet-malaysia-zqszqnin": {
+      "candidate_seq": 3262,
+      "market": "MY",
+      "public_slug": "generative-ai-data-engineer-techstreet-malaysia-zqszqnin"
+    },
     "freehire:generative-ai-developer-hrtech-yjyuo4ga": {
       "candidate_seq": 80,
       "market": "SG",
@@ -8793,6 +9028,11 @@
       "candidate_seq": 1571,
       "market": "CN",
       "public_slug": "generative-ai-engineer-johnsonelectric-2j2vq2pn"
+    },
+    "freehire:generative-ai-engineer-master-tec-wire-cable-vmbcbd74": {
+      "candidate_seq": 3257,
+      "market": "MY",
+      "public_slug": "generative-ai-engineer-master-tec-wire-cable-vmbcbd74"
     },
     "freehire:generative-ai-engineer-oxydata-software-xpn3halq": {
       "candidate_seq": 2309,
@@ -8933,6 +9173,11 @@
       "candidate_seq": 1079,
       "market": "SG",
       "public_slug": "graduate-software-engineer-ai-native-data-platform-tiktok-pte-ltd-ymjf37zu"
+    },
+    "freehire:graduate-software-engineer-data-ai-iot-track-5g-starlink-pte-azpcujdz": {
+      "candidate_seq": 3276,
+      "market": "MY",
+      "public_slug": "graduate-software-engineer-data-ai-iot-track-5g-starlink-pte-azpcujdz"
     },
     "freehire:growth-focused-full-stack-engineer-ai-driven-platform-h2-games-bpgmg57r": {
       "candidate_seq": 1292,
@@ -9099,6 +9344,11 @@
       "market": "CN",
       "public_slug": "hun-yuan-you-xi-sheng-cheng-suan-fa-gong-cheng-shi-bei-jing-shen-zhen-shang-hai-tencent-vycdla2i"
     },
+    "freehire:hybrid-ai-bi-backend-engineer-c-asp-net-core-react-irs-software-solution-m-sdn-bhd-waw52yvq": {
+      "candidate_seq": 3286,
+      "market": "MY",
+      "public_slug": "hybrid-ai-bi-backend-engineer-c-asp-net-core-react-irs-software-solution-m-sdn-bhd-waw52yvq"
+    },
     "freehire:hybrid-cloud-data-ai-platform-engineer-ocbc-bank-s2ymbggj": {
       "candidate_seq": 762,
       "market": "SG",
@@ -9188,6 +9438,11 @@
       "candidate_seq": 642,
       "market": "SG",
       "public_slug": "it-support-security-ai-automation-engineer-dole-asia-holdings-pte-ltd-uixoh5fs"
+    },
+    "freehire:java-backend-engineer-for-scalable-ai-apps-mesiniaga-berhad-ctewoljt": {
+      "candidate_seq": 3285,
+      "market": "MY",
+      "public_slug": "java-backend-engineer-for-scalable-ai-apps-mesiniaga-berhad-ctewoljt"
     },
     "freehire:java-engineer-spring-boot-webflux-ai-microservices-exasoft-consulting-pte-ltd-b3n76bgo": {
       "candidate_seq": 1235,
@@ -9349,10 +9604,20 @@
       "market": "SG",
       "public_slug": "junior-artificial-intelligence-engineer-ai-engineer-ust-global-singapore-pte-limited-whxlo6rg"
     },
+    "freehire:junior-backend-engineer-ai-driven-aws-apis-netmedias-leashares-sdn-bhd-sxieq2ct": {
+      "candidate_seq": 3288,
+      "market": "MY",
+      "public_slug": "junior-backend-engineer-ai-driven-aws-apis-netmedias-leashares-sdn-bhd-sxieq2ct"
+    },
     "freehire:junior-backend-engineer-ai-driven-recs-platform-bytedance-mobijf74": {
       "candidate_seq": 1435,
       "market": "SG",
       "public_slug": "junior-backend-engineer-ai-driven-recs-platform-bytedance-mobijf74"
+    },
+    "freehire:junior-backend-engineer-ai-native-platform-ant-group-a33d35vt": {
+      "candidate_seq": 3269,
+      "market": "MY",
+      "public_slug": "junior-backend-engineer-ai-native-platform-ant-group-a33d35vt"
     },
     "freehire:junior-data-engineer-python-ml-pipelines-credit-agricole-iwfpmxcq": {
       "candidate_seq": 1058,
@@ -9418,6 +9683,11 @@
       "candidate_seq": 1067,
       "market": "SG",
       "public_slug": "junior-it-business-analyst-qa-agile-delivery-agentic-management-r10483-baiwu-hk-international-limited-ltygk355"
+    },
+    "freehire:junior-it-developer-western-digital-wd-is-building-the-infrastructure-behind-the-ai-driven-data-economy-engineering-bayan-lepas-malaysia-9-hours-ago-vochure-po4s3mby": {
+      "candidate_seq": 3274,
+      "market": "MY",
+      "public_slug": "junior-it-developer-western-digital-wd-is-building-the-infrastructure-behind-the-ai-driven-data-economy-engineering-bayan-lepas-malaysia-9-hours-ago-vochure-po4s3mby"
     },
     "freehire:junior-mid-ai-security-analyst-vulcan-aift-utzvqvf3": {
       "candidate_seq": 2763,
@@ -9934,6 +10204,11 @@
       "market": "MY",
       "public_slug": "machine-learning-engineer-ai-agent-platform-virtuos-games-liwnakug"
     },
+    "freehire:machine-learning-engineer-ai-agent-platform-virtuos-holdings-otq3lne4": {
+      "candidate_seq": 3258,
+      "market": "MY",
+      "public_slug": "machine-learning-engineer-ai-agent-platform-virtuos-holdings-otq3lne4"
+    },
     "freehire:machine-learning-engineer-ai-agent-platform-virtuos-holdings-r6lp5g2a": {
       "candidate_seq": 2287,
       "market": "MY",
@@ -9953,6 +10228,11 @@
       "candidate_seq": 2925,
       "market": "CN",
       "public_slug": "machine-learning-engineer-ai-agent-platform-virtuos-kzuic4kb"
+    },
+    "freehire:machine-learning-engineer-ai-search-knowledge-platform-apple-4y6krgvn": {
+      "candidate_seq": 3249,
+      "market": "CN",
+      "public_slug": "machine-learning-engineer-ai-search-knowledge-platform-apple-4y6krgvn"
     },
     "freehire:machine-learning-engineer-ai-search-knowledge-platform-apple-aqdkb73u": {
       "candidate_seq": 1519,
@@ -10224,6 +10504,11 @@
       "market": "CN",
       "public_slug": "machine-learning-engineer-mlops-ai-platform-beigene-le52fenj"
     },
+    "freehire:machine-learning-engineer-monetization-data-alignment-tiktok-inc-t7fcow7l": {
+      "candidate_seq": 3221,
+      "market": "SG",
+      "public_slug": "machine-learning-engineer-monetization-data-alignment-tiktok-inc-t7fcow7l"
+    },
     "freehire:machine-learning-engineer-monetization-data-alignment-tiktok-shtipmqh": {
       "candidate_seq": 411,
       "market": "SG",
@@ -10248,6 +10533,11 @@
       "candidate_seq": 2397,
       "market": "MY",
       "public_slug": "machine-learning-engineer-nielseniq-jk3oadxi"
+    },
+    "freehire:machine-learning-engineer-pacific-international-lines-eu5wubkf": {
+      "candidate_seq": 3231,
+      "market": "SG",
+      "public_slug": "machine-learning-engineer-pacific-international-lines-eu5wubkf"
     },
     "freehire:machine-learning-engineer-payment-risk-global-payment-singapore-bytedance-mdleejhm": {
       "candidate_seq": 578,
@@ -10684,6 +10974,11 @@
       "market": "SG",
       "public_slug": "monetization-ml-engineer-data-labeling-multimodal-ai-tiktok-y2kue22r"
     },
+    "freehire:monetization-ml-engineer-multimodal-data-labeling-tiktok-inc-2mapwi5g": {
+      "candidate_seq": 3220,
+      "market": "SG",
+      "public_slug": "monetization-ml-engineer-multimodal-data-labeling-tiktok-inc-2mapwi5g"
+    },
     "freehire:multimodal-ai-engineer-data-security-governance-internal-security-department-on5orjib": {
       "candidate_seq": 701,
       "market": "SG",
@@ -10733,6 +11028,11 @@
       "candidate_seq": 1085,
       "market": "SG",
       "public_slug": "network-engineer-ai-infrastructure-rdma-storage-vast-data-uxfryiuq"
+    },
+    "freehire:network-engineer-neocloud-ai-data-center-bytebridge-technology-sdn-bhd-efuqkim7": {
+      "candidate_seq": 3275,
+      "market": "MY",
+      "public_slug": "network-engineer-neocloud-ai-data-center-bytebridge-technology-sdn-bhd-efuqkim7"
     },
     "freehire:networking-solution-test-engineer-ai-ib-and-ethernet-cluster-debugging-nvidia-76xe4rga": {
       "candidate_seq": 2201,
@@ -10808,6 +11108,11 @@
       "candidate_seq": 2665,
       "market": "SG",
       "public_slug": "partner-forward-deployed-engineer-genai-google-cloud-singapore-google-asia-pacific-pte-ltd-d5bywrcy"
+    },
+    "freehire:penang-onsite-ai-data-center-engineer-dell-global-business-center-sdn-bhd-dpypyq6o": {
+      "candidate_seq": 3278,
+      "market": "MY",
+      "public_slug": "penang-onsite-ai-data-center-engineer-dell-global-business-center-sdn-bhd-dpypyq6o"
     },
     "freehire:permanent-ai-engineer-at-ang-mo-kio-up-to-6-000-office-hours-success-resource-centre-pte-ltd-kqbh2b6q": {
       "candidate_seq": 2748,
@@ -10918,6 +11223,11 @@
       "candidate_seq": 77,
       "market": "SG",
       "public_slug": "production-ml-engineer-llms-data-pipelines-cgg-services-singapore-pte-ltd-khhr6na4"
+    },
+    "freehire:production-ml-engineer-models-pipelines-monitoring-idataraya-sdn-bhd-i4ihnog5": {
+      "candidate_seq": 3272,
+      "market": "MY",
+      "public_slug": "production-ml-engineer-models-pipelines-monitoring-idataraya-sdn-bhd-i4ihnog5"
     },
     "freehire:production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac": {
       "candidate_seq": 549,
@@ -11804,6 +12114,11 @@
       "market": "SG",
       "public_slug": "senior-ai-engineer-aisg-saf-ai-center-office-of-the-deputy-president-res-tech-v6ptpjwb"
     },
+    "freehire:senior-ai-engineer-allen-gledhill-llp-qilcg3ig": {
+      "candidate_seq": 3229,
+      "market": "SG",
+      "public_slug": "senior-ai-engineer-allen-gledhill-llp-qilcg3ig"
+    },
     "freehire:senior-ai-engineer-applied-razer-vhrrntuf": {
       "candidate_seq": 577,
       "market": "SG",
@@ -12148,6 +12463,11 @@
       "candidate_seq": 2630,
       "market": "CN",
       "public_slug": "senior-ai-model-test-developer-sdet-nvidia-ygl2rryo"
+    },
+    "freehire:senior-ai-native-engineer-software-engineering-palo-it-ebqugzua": {
+      "candidate_seq": 3247,
+      "market": "SG",
+      "public_slug": "senior-ai-native-engineer-software-engineering-palo-it-ebqugzua"
     },
     "freehire:senior-ai-native-engineer-software-engineering-palo-it-singapore-pte-ltd-akz76mio": {
       "candidate_seq": 1458,
@@ -12649,6 +12969,11 @@
       "market": "SG",
       "public_slug": "senior-computer-vision-engineer-trinity-consulting-services-pte-ltd-j6iur42i"
     },
+    "freehire:senior-consultant-ai-ml-openshift-red-hat-52ftzflh": {
+      "candidate_seq": 3217,
+      "market": "SG",
+      "public_slug": "senior-consultant-ai-ml-openshift-red-hat-52ftzflh"
+    },
     "freehire:senior-customer-ai-engineer-token-factory-nebius-bg3sybg2": {
       "candidate_seq": 643,
       "market": "SG",
@@ -12828,6 +13153,11 @@
       "candidate_seq": 547,
       "market": "SG",
       "public_slug": "senior-data-engineer-ai-multimodal-data-pipelines-singapore-telecommunications-limited-vqkdddth"
+    },
+    "freehire:senior-data-engineer-ai-pipelines-generative-ai-r-systems-ighxwts7": {
+      "candidate_seq": 3261,
+      "market": "MY",
+      "public_slug": "senior-data-engineer-ai-pipelines-generative-ai-r-systems-ighxwts7"
     },
     "freehire:senior-data-engineer-ai-pipelines-rag-architect-anchor-search-group-pte-ltd-3is2qair": {
       "candidate_seq": 2771,
@@ -13524,6 +13854,11 @@
       "market": "SG",
       "public_slug": "senior-forward-deployed-engineer-data-ai-apps-seoulstart-45sxw6im"
     },
+    "freehire:senior-forward-deployed-engineer-full-stack-engineering-devops-agentic-ai-dhl-klq6fvh5": {
+      "candidate_seq": 3264,
+      "market": "MY",
+      "public_slug": "senior-forward-deployed-engineer-full-stack-engineering-devops-agentic-ai-dhl-klq6fvh5"
+    },
     "freehire:senior-forward-deployed-engineer-generative-ai-google-cloud-english-google-ehctb4l3": {
       "candidate_seq": 2868,
       "market": "SG",
@@ -13658,6 +13993,11 @@
       "candidate_seq": 3112,
       "market": "SG",
       "public_slug": "senior-full-stack-engineer-ai-driven-scalable-platforms-sciente-international-pte-ltd-pngzgna2"
+    },
+    "freehire:senior-full-stack-engineer-ai-driven-scalable-systems-nicoll-curtin-4ulnmabm": {
+      "candidate_seq": 3240,
+      "market": "SG",
+      "public_slug": "senior-full-stack-engineer-ai-driven-scalable-systems-nicoll-curtin-4ulnmabm"
     },
     "freehire:senior-full-stack-engineer-ai-driven-sdlc-cloud-jobster-private-ltd-3ym7krga": {
       "candidate_seq": 1254,
@@ -14454,6 +14794,11 @@
       "market": "SG",
       "public_slug": "senior-software-engineer-ai-agent-applications-hps-partners-pte-ltd-6fvnblpd"
     },
+    "freehire:senior-software-engineer-ai-driven-rail-data-platform-lta-land-transport-authority-4mo5nnnt": {
+      "candidate_seq": 3232,
+      "market": "SG",
+      "public_slug": "senior-software-engineer-ai-driven-rail-data-platform-lta-land-transport-authority-4mo5nnnt"
+    },
     "freehire:senior-software-engineer-ai-engineering-csit-ntpzztvb": {
       "candidate_seq": 865,
       "market": "SG",
@@ -14518,6 +14863,16 @@
       "candidate_seq": 906,
       "market": "SG",
       "public_slug": "senior-software-engineer-ai-workload-orchestration-coreweave-apac-4n52elp3"
+    },
+    "freehire:senior-software-engineer-cloud-ai-rail-data-platform-public-service-division-jgcigqbj": {
+      "candidate_seq": 3233,
+      "market": "SG",
+      "public_slug": "senior-software-engineer-cloud-ai-rail-data-platform-public-service-division-jgcigqbj"
+    },
+    "freehire:senior-software-engineer-cloud-data-ai-for-rail-gvt-government-technology-agency-r6tc77yn": {
+      "candidate_seq": 3235,
+      "market": "SG",
+      "public_slug": "senior-software-engineer-cloud-data-ai-for-rail-gvt-government-technology-agency-r6tc77yn"
     },
     "freehire:senior-software-engineer-cloud-data-ai-platforms-land-transport-authority-lta-s5jsfgzh": {
       "candidate_seq": 3032,
@@ -14608,6 +14963,11 @@
       "candidate_seq": 2579,
       "market": "SG",
       "public_slug": "senior-software-engineer-machine-learning-tpu-workload-optimization-google-q7wzqdrr"
+    },
+    "freehire:senior-software-engineer-machine-learning-tpu-workload-optimization-singapore-google-asia-pacific-pte-ltd-jotpwa2m": {
+      "candidate_seq": 3243,
+      "market": "SG",
+      "public_slug": "senior-software-engineer-machine-learning-tpu-workload-optimization-singapore-google-asia-pacific-pte-ltd-jotpwa2m"
     },
     "freehire:senior-software-engineer-ml-c-qt-python-linux-windows-altrocks-tech-pte-ltd-f2wae52j": {
       "candidate_seq": 1213,
@@ -15039,6 +15399,11 @@
       "market": "SG",
       "public_slug": "software-engineer-ai-systems-the-gmp-group-bgusp37s"
     },
+    "freehire:software-engineer-automation-and-ai-caring-pharmacy-d7bmrfnb": {
+      "candidate_seq": 3266,
+      "market": "MY",
+      "public_slug": "software-engineer-automation-and-ai-caring-pharmacy-d7bmrfnb"
+    },
     "freehire:software-engineer-backend-full-stack-ai-systems-aima-labs-p3xg2vyc": {
       "candidate_seq": 2375,
       "market": "MY",
@@ -15083,6 +15448,16 @@
       "candidate_seq": 702,
       "market": "SG",
       "public_slug": "software-engineer-computer-vision-vision-inspection-c-recruit-expert-pte-ltd-tcl3zth3"
+    },
+    "freehire:software-engineer-data-ai-for-public-good-cloud-ml-govtech-singapore-kcxhmkff": {
+      "candidate_seq": 3215,
+      "market": "SG",
+      "public_slug": "software-engineer-data-ai-for-public-good-cloud-ml-govtech-singapore-kcxhmkff"
+    },
+    "freehire:software-engineer-data-ai-for-public-sector-government-technology-agency-qztiue4c": {
+      "candidate_seq": 3237,
+      "market": "SG",
+      "public_slug": "software-engineer-data-ai-for-public-sector-government-technology-agency-qztiue4c"
     },
     "freehire:software-engineer-data-ai-mercedes-benz-group-hsgyiqcn": {
       "candidate_seq": 1641,
@@ -15183,6 +15558,11 @@
       "candidate_seq": 2558,
       "market": "SG",
       "public_slug": "software-engineer-genai-platform-ai-data-platforms-apple-52zhmqqv"
+    },
+    "freehire:software-engineer-genai-platform-ai-data-platforms-lex-dgcr56zc": {
+      "candidate_seq": 3212,
+      "market": "SG",
+      "public_slug": "software-engineer-genai-platform-ai-data-platforms-lex-dgcr56zc"
     },
     "freehire:software-engineer-genai-platform-data-systems-lex-mu3wqr2i": {
       "candidate_seq": 3005,
@@ -15479,6 +15859,11 @@
       "market": "SG",
       "public_slug": "sr-specialist-solutions-architect-databricks-mh3ofxph"
     },
+    "freehire:staff-slm-vlm-engineer-post-training-tool-calling-agents-jabil-circuit-singapore-pte-ltd-k3gl2gvq": {
+      "candidate_seq": 3246,
+      "market": "SG",
+      "public_slug": "staff-slm-vlm-engineer-post-training-tool-calling-agents-jabil-circuit-singapore-pte-ltd-k3gl2gvq"
+    },
     "freehire:studio-content-specialist-creative-video-motion-producer-generative-ai-celcomdigi-tzwckv7m": {
       "candidate_seq": 2308,
       "market": "MY",
@@ -15523,6 +15908,11 @@
       "candidate_seq": 2415,
       "market": "MY",
       "public_slug": "supply-chain-ai-analytics-engineer-anite-n7ijfxlx"
+    },
+    "freehire:supply-demand-management-apple-m3yyeanl": {
+      "candidate_seq": 3252,
+      "market": "CN",
+      "public_slug": "supply-demand-management-apple-m3yyeanl"
     },
     "freehire:svp-senior-cloud-engineer-data-ai-platform-group-technology-dbs-bank-ltd-kyupggr3": {
       "candidate_seq": 608,
@@ -15694,6 +16084,11 @@
       "market": "CN",
       "public_slug": "tong-xin-ai-ml-infragong-cheng-shi-dou-bao-shou-ji-zhu-shou-bei-jing-shen-zhen-bytedance-fdtkogzv"
     },
+    "freehire:traffic-ai-video-analytics-engineer-land-transport-authority-of-singapore-fnjay7iy": {
+      "candidate_seq": 3224,
+      "market": "SG",
+      "public_slug": "traffic-ai-video-analytics-engineer-land-transport-authority-of-singapore-fnjay7iy"
+    },
     "freehire:transport-ai-data-engineer-real-time-pipelines-governance-land-transport-authority-jhgl63kb": {
       "candidate_seq": 1001,
       "market": "SG",
@@ -15779,6 +16174,11 @@
       "market": "SG",
       "public_slug": "vp-ai-platform-full-stack-engineer-apac-bny-mellon-uutymkua"
     },
+    "freehire:vp-ai-security-engineer-technology-group-careers-gic-com-sg-2rx4og7a": {
+      "candidate_seq": 3245,
+      "market": "SG",
+      "public_slug": "vp-ai-security-engineer-technology-group-careers-gic-com-sg-2rx4og7a"
+    },
     "freehire:vp-avp-genai-engineer-scientist-innovation-group-uobgroup-dviiw6pc": {
       "candidate_seq": 569,
       "market": "SG",
@@ -15848,6 +16248,11 @@
       "candidate_seq": 833,
       "market": "SG",
       "public_slug": "vp-of-research-machine-learning-avomind-y4ftvhr4"
+    },
+    "freehire:vp-senior-data-engineer-lakehouse-ai-platforms-united-overseas-bank-abjgoqyf": {
+      "candidate_seq": 3238,
+      "market": "SG",
+      "public_slug": "vp-senior-data-engineer-lakehouse-ai-platforms-united-overseas-bank-abjgoqyf"
     },
     "freehire:wang-luo-an-quan-ruan-jian-gong-cheng-shi-ai-agent-an-quan-yu-feng-kong-bytedance-qmryzwxp": {
       "candidate_seq": 1597,
@@ -16039,6 +16444,11 @@
       "market": "CN",
       "public_slug": "zi-shen-da-mo-xing-suan-fa-gong-cheng-shi-yan-jiu-yuan-ai-platform-bytedance-36jtddcw"
     },
+    "freehire:zi-shen-da-mo-xing-suan-fa-llmfang-xiang-tiktok-shop-bytedance-azhhvkth": {
+      "candidate_seq": 3255,
+      "market": "CN",
+      "public_slug": "zi-shen-da-mo-xing-suan-fa-llmfang-xiang-tiktok-shop-bytedance-azhhvkth"
+    },
     "freehire:zi-shen-hou-duan-kai-fa-gong-cheng-shi-trip-com-group-wsrk7pnv": {
       "candidate_seq": 1978,
       "market": "CN",
@@ -16055,6 +16465,6 @@
       "public_slug": "zi-shen-suan-fa-gong-cheng-shi-zhuan-jia-nlpzhi-neng-ke-fu-shang-hai-nan-jing-shein-gqachwmz"
     }
   },
-  "source_generated_at": "2026-11-10T23:41:44.821015Z",
+  "source_generated_at": "2026-11-12T00:58:16.157216Z",
   "version": 1
 }
