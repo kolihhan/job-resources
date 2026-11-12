@@ -1057,7 +1057,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T07:19:00.845378Z",
       "key": "sg:139208958c64f5b8c590",
-      "last_error": null,
+      "last_error": "Need employer-controlled NTU requisition ID/official exact job page linking JobStreet 95469343 AI Engineer (AI Products) to prior WAIT R00024969; same employer/title alone cannot prove same requisition or a new opening.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "North Region",
@@ -1070,7 +1070,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer (AI Products)",
-      "url": "https://sg.jobstreet.com/job/95469343"
+      "url": "https://sg.jobstreet.com/job/95469343",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-13T07:00:00+08:00",
+        "missing_evidence": "Need employer-controlled NTU requisition ID/official exact job page linking JobStreet 95469343 AI Engineer (AI Products) to prior WAIT R00024969; same employer/title alone cannot prove same requisition or a new opening."
+      }
     },
     {
       "api_source_context": {
