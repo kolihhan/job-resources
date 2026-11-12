@@ -1577,7 +1577,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-12T18:15:52.405699Z",
       "key": "sg:15b3f6dcfa4a4a9a322b",
-      "last_error": null,
+      "last_error": "Exact Clera Ashby requisition a51984da-7278-46bd-a0c5-939d2ac72999 current accepting/apply form cannot be opened (2026-11-13); historical closed Issue #277 refers to same title but earlier LinkedIn role 4475355119 and 2026-10-12 closure. Fresh employer-fed JD and current Indeed listing do not prove this exact Ashby application is accepting. Both Gmail accounts searched Clera/Benchmarks; no submission receipt. Need current exact Ashby accepting status before reopen/ACK.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
@@ -1590,7 +1590,14 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, Benchmarks",
-      "url": "https://jobs.ashbyhq.com/Clera/a51984da-7278-46bd-a0c5-939d2ac72999"
+      "url": "https://jobs.ashbyhq.com/Clera/a51984da-7278-46bd-a0c5-939d2ac72999",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T03:04:57+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "Exact Clera Ashby requisition a51984da-7278-46bd-a0c5-939d2ac72999 current accepting/apply form cannot be opened (2026-11-13); historical closed Issue #277 refers to same title but earlier LinkedIn role 4475355119 and 2026-10-12 closure. Fresh employer-fed JD and current Indeed listing do not prove this exact Ashby application is accepting. Both Gmail accounts searched Clera/Benchmarks; no submission receipt. Need current exact Ashby accepting status before reopen/ACK."
+      }
     }
   ],
   "terminal": [
