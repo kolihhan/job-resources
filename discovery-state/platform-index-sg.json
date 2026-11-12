@@ -1179,10 +1179,11 @@
       "query": "Hong Kong",
       "retries": 0,
       "scout_review": {
-        "checked_at": "2026-11-11T11:00:00+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact Qube Greenhouse requisition 8759003002 employer JD and current application form are inaccessible; employer board is accessible but does not verify this exact role.",
-        "status": "RETRY"
+        "checked_at": "2026-11-12T08:56:31+08:00",
+        "ack": false,
+        "missing_evidence": "Exact Qube Greenhouse 8759003002 current full employer JD and application form inaccessible; employer board/index does not verify exact requisition."
       },
       "seq": 117,
       "source": "freehire:public-api:SG",
@@ -1284,11 +1285,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T18:00:35+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Employer-authored complete JD for Surbana Jurong exact Workday JR119182 is not accessible; official URL returned access error. Prior JR117992 is a different already-applied requisition and must not be ACKed as an alias.",
-        "status": "RETRY"
+        "checked_at": "2026-11-12T08:56:31+08:00",
+        "ack": false,
+        "missing_evidence": "Exact Surbana Jurong Workday JR119182 full employer JD and current usable application form inaccessible; different JR117992 WAIT does not establish exact identity."
       },
       "seq": 122,
       "source": "freehire:public-api:SG",
@@ -1364,7 +1365,14 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Research Engineer",
-      "url": "https://jobs.ashbyhq.com/Gradient/e5f78b42-1118-4dc9-aca7-d363a0a8c910"
+      "url": "https://jobs.ashbyhq.com/Gradient/e5f78b42-1118-4dc9-aca7-d363a0a8c910",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "checked_at": "2026-11-12T08:56:31+08:00",
+        "ack": false,
+        "missing_evidence": "Exact Gradient Ashby e5f78b42-1118-4dc9-aca7-d363a0a8c910 full employer JD and current usable application form inaccessible; Indeed indexed listing is not sufficient for route/eligibility."
+      }
     },
     {
       "api_source_context": {
