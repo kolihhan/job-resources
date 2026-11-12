@@ -610,39 +610,6 @@
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and reliable AI applications that enhance operational efficiency, automate workflows and support data-driven decision-making. The successful candidate will independently manage assigned technical deliverables, from solution development and testing to system integration and continuous improvement, while collaborating with the CTO, COO and relevant stakeholders.</p><p><strong>Key responsibilities</strong></p><ul><li><p>Design, build, test and maintain AI-powered applications, services and features for GO-GENIE's internal platforms</p></li><li><p>Translate business and operational requirements into practical technical solutions</p></li><li><p>Develop backend services, APIs and integrations to support AI functionalities</p></li><li><p>Develop AI solutions using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) and agentic workflows</p></li><li><p>Build intelligent automation capabilities to streamline operational processes and improve productivity</p></li><li><p>Develop and integrate computer vision solutions for image recognition, operational verification and automated validation</p></li><li><p>Build AI-assisted analytics and reporting capabilities to support operational insights and decision-making</p></li><li><p>Integrate AI solutions into existing systems, databases and operational workflows</p></li><li><p>Support testing, deployment, monitoring and ongoing optimisation of AI applications</p></li><li><p>Collaborate with the CTO, COO, product team and relevant stakeholders to understand requirements and deliver agreed solutions</p></li></ul><p><strong>About you</strong></p><ul><li><p>Diploma or Bachelor's degree in Computer Science, Software Engineering, Artificial Intelligence or a related field, or equivalent practical experience</p></li><li><p>Proficiency in Python, backend development and API integration</p></li><li><p>Hands-on experience developing AI applications using LLMs, RAG or related AI frameworks</p></li><li><p>Good understanding of databases, software development practices, testing and version control</p></li><li><p>Strong analytical, troubleshooting and independent problem-solving abilities</p></li><li><p>Ability to translate business requirements into functional technical solutions</p></li><li><p>Good communication skills and ability to collaborate across technical and non-technical teams</p></li><li><p>Experience with agentic AI, vector databases, computer vision or AI workflow orchestration (preferred)</p></li><li><p>Familiarity with cloud deployment, MLOps and AI performance monitoring (preferred)</p></li><li><p>Experience in logistics, supply chain, fulfilment or operational technology environments (preferred)</p></li></ul><p><br></p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-go-genie-pte-ltd-zkzgurpa",
-      "company": "Go Genie Pte Ltd",
-      "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and relia",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T12:45:59.688975Z",
-      "key": "sg:094a347f032500c600c9",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Singapore River, Central Region",
-      "retries": 0,
-      "seq": 87,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-go-genie-pte-ltd-zkzgurpa",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95677866"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
         "text": "<strong>About Gramian</strong><br><p>Gramian Consultancy is a boutique consultancy specializing in IT professional services and engineering talent solutions. With a strong background in software engineering and leadership, we help companies build high-performing teams by matching them with professionals who truly fit their needs.</p>\n<strong>About the Role</strong><br><p>We are seeking a highly skilled Machine Learning Research &amp; Engineering Specialist to contribute to an advanced AI training project focused on model development, training and inference systems, numerical computing, and performance optimization. This is a coding-intensive role requiring hands-on experience with Python, machine learning engineering, and coding agents integrated into development workflows. You will build, modify, debug, and validate machine learning implementations, create reproducible training and inference pipelines, and optimize systems for correctness, memory usage, and throughput. The ideal candidate combines strong quantitative foundations with practical coding skills and experience solving complex machine learning engineering problems.</p>\n<p><strong>SENIORITY: </strong> Experienced / Research-Level Engineer</p>\n<p><strong>EDUCATION:</strong> Master's degree or PhD in a relevant quantitative discipline</p>\n<p><strong>LANGUAGE: </strong> Strong written and verbal English</p>\n<p><strong>LOCATION: </strong> Remote — Worldwide</p>\n<strong>Key Responsibilities</strong><br><ul>\n<li><p>Develop, implement, and validate machine learning models, training pipelines, inference systems, and supporting infrastructure.</p></li>\n<li><p>Implement or modify model components, data pipelines, evaluation systems, and numerical methods using Python.</p></li>\n<li><p>Build reproducible programmatic workflows using Python, command-line tools, and relevant machine learning frameworks.</p></li>\n<li><p>Debug numerical, algorithmic, and system-level failures to identify root causes and implement reliable solutions.</p></li>\n<li><p>Optimize model training and inference for memory usage, computational efficiency, throughput, and performance.</p></li>\n<li><p>Design and execute tests to verify implementation correctness and compliance with objective performance requirements.</p></li>\n<li><p>Review and validate challenging machine learning engineering tasks, including existing code and proposed solutions.</p></li>\n<li><p>Use coding agents as part of the development workflow to accelerate implementation, debugging, testing, and code review while validating generated results.</p></li>\n<li><p>Document technical approaches, implementation decisions, test results, and performance findings clearly.</p></li>\n<li>Deliver high-quality, reproducible task submissions within project deadlines.</li>\n</ul>\n<strong>Requirements</strong><br><ul>\n<li><p>Master's degree or PhD in Computer Science, Machine Learning, Artificial Intelligence, Applied Mathematics, Statistics, Engineering, or a closely related quantitative discipline.</p></li>\n<li><p>Strong professional or research experience in machine learning and practical ML engineering.</p></li>\n<li><p>Strong Python programming skills, including the ability to implement, debug, test, and optimize non-trivial code.</p></li>\n<li><p>Hands-on experience using coding agents within a Python development workflow.</p></li>\n<li><p>Understanding of machine learning model development, training and inference workflows, and evaluation methods.</p></li>\n<li><p>Ability to build reproducible implementations and verify correctness through systematic testing.</p></li>\n<li><p>Strong quantitative reasoning and problem-solving skills, particularly when diagnosing numerical or computational issues.</p></li>\n<li><p>Ability to work independently, manage technical tasks, and meet defined quality and submission requirements.</p></li>\n<li><p>Strong written communication skills and the ability to explain technical findings.</p></li>\n<li><p>Availability to contribute approximately 15 hours per week and begin the first task within 24–48 hours after onboarding.</p></li>\n</ul>",
         "truncated": false
       },
@@ -4694,6 +4661,49 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
       "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and reliable AI applications that enhance operational efficiency, automate workflows and support data-driven decision-making. The successful candidate will independently manage assigned technical deliverables, from solution development and testing to system integration and continuous improvement, while collaborating with the CTO, COO and relevant stakeholders.</p><p><strong>Key responsibilities</strong></p><ul><li><p>Design, build, test and maintain AI-powered applications, services and features for GO-GENIE's internal platforms</p></li><li><p>Translate business and operational requirements into practical technical solutions</p></li><li><p>Develop backend services, APIs and integrations to support AI functionalities</p></li><li><p>Develop AI solutions using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) and agentic workflows</p></li><li><p>Build intelligent automation capabilities to streamline operational processes and improve productivity</p></li><li><p>Develop and integrate computer vision solutions for image recognition, operational verification and automated validation</p></li><li><p>Build AI-assisted analytics and reporting capabilities to support operational insights and decision-making</p></li><li><p>Integrate AI solutions into existing systems, databases and operational workflows</p></li><li><p>Support testing, deployment, monitoring and ongoing optimisation of AI applications</p></li><li><p>Collaborate with the CTO, COO, product team and relevant stakeholders to understand requirements and deliver agreed solutions</p></li></ul><p><strong>About you</strong></p><ul><li><p>Diploma or Bachelor's degree in Computer Science, Software Engineering, Artificial Intelligence or a related field, or equivalent practical experience</p></li><li><p>Proficiency in Python, backend development and API integration</p></li><li><p>Hands-on experience developing AI applications using LLMs, RAG or related AI frameworks</p></li><li><p>Good understanding of databases, software development practices, testing and version control</p></li><li><p>Strong analytical, troubleshooting and independent problem-solving abilities</p></li><li><p>Ability to translate business requirements into functional technical solutions</p></li><li><p>Good communication skills and ability to collaborate across technical and non-technical teams</p></li><li><p>Experience with agentic AI, vector databases, computer vision or AI workflow orchestration (preferred)</p></li><li><p>Familiarity with cloud deployment, MLOps and AI performance monitoring (preferred)</p></li><li><p>Experience in logistics, supply chain, fulfilment or operational technology environments (preferred)</p></li></ul><p><br></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-go-genie-pte-ltd-zkzgurpa",
+      "company": "Go Genie Pte Ltd",
+      "consumer_review": {
+        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and relia",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T12:45:59.688975Z",
+      "key": "sg:094a347f032500c600c9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore River, Central Region",
+      "retries": 0,
+      "seq": 87,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-go-genie-pte-ltd-zkzgurpa",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://sg.jobstreet.com/job/95677866",
+      "acknowledged_at": "2026-11-12T15:02:00+08:00",
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T15:02:00+08:00",
+        "decision": "DEDUPED_EXISTING_APPLY",
+        "status": "DEDUPED",
+        "source_key": "sg:094a347f032500c600c9",
+        "existing_issue": 936,
+        "evidence": "Existing GitHub Issue #936 explicitly identifies exact JobStreet 95677866 and source key sg:094a347f032500c600c9; employer-authored full JD, live Quick Apply route and both Gmail histories were verified in that issue on 2026-11-11. 2026-11-12 all-state issue search readback confirms exact source and role. Existing APPLY is NOT submitted; no new issue or application."
+      }
     }
   ],
   "version": 1
