@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T21:31:58.433889Z",
-    "source": "devglobal:public-api:SG",
+    "at": "2026-11-12T00:38:11.091937Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 9,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 9
+      "new_pending": 3,
+      "observed": 3
     }
   },
   "market": "SG",
-  "next_seq": 129,
+  "next_seq": 132,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1409,6 +1409,10 @@
       },
       "ats_key": "freehire|machine-learning-engineer-ai-search-tiktok-search-tiktok-55t7baxa",
       "company": "TikTok",
+      "consumer_review": {
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "possible_prior_issue": 806
+      },
       "description_excerpt": "<strong>Responsibilities</strong><br><p>Our Search Team focuses on LLM application algorithms for TikTok Search, with core scenarios including AI Search and TikTok AI Bot. We build search question-answer cards via LLM-powered generation and",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T17:52:50.191040Z",
@@ -1471,6 +1475,92 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, QC Automation",
       "url": "https://jobs.ashbyhq.com/Clera/0890b84c-3391-457c-b762-4d42e558acc9"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<strong>Responsibilities</strong><br>Team Introduction: \nTT-Search Algorithm &amp; Applied AI is the algorithm team behind the search business built on TikTok (TikTok Search), with the goal of becoming the search engine of choice for users worldwide. Compared with recommendation systems, which passively infer user intent, search delivers content based on users&#39; discovery motivation — making intent expression more precise — and can in turn feed back into the recommendation engine. We are at an inflection point where the search paradigm is shifting from &#34;retrieval-and-ranking&#34; toward &#34;Agents proactively completing tasks.&#34; With large language models and Agents as our two driving wheels, we build the search LLM foundation, the Agent execution framework (Harness), multi-agent collaboration, and self-improvement closed loops, supporting the implementation of business scenarios such as multimodal AIGC, visual search, on-device intelligence, and long-horizon task Agents — spanning POI search, Wish search, automated evaluation, infrastructure, and more.\nJob Responsibilities\n1. Search LLM Foundation: Lead the R&amp;D and iteration of the search-domain LLM foundation, integrating search knowledge for rapid implementation; own the pre-training / post-training pipeline for search LLMs (ultra-long-text / colloquial-text pre-training, image-text / video multimodal representation, e-commerce product multimodal representation learning) as well as inference optimization (long context, model efficiency, quantization / pruning / distillation / inference acceleration).\n2. Agent Foundation &amp; Harness: Own the 0→1 / 1→N build-out of the search Agent execution framework (Harness) — unified orchestration of tool calling, planning, memory, and environment interaction; design multi-agent cluster scheduling and collaboration algorithms (task allocation, dynamic scheduling, communication / alignment / conflict resolution); build the Agent Foundation platform to empower the team&#39;s engineers / algorithm researchers / PMs with full-stack, lightweight development and rapid launch (multi-agent / single-agent + skill-based / memory), supporting the core search intelligent assistant and vertical-search scenario modules.\n3. Loop Engineering, Long-term Memory &amp; Self-Improvement (RSI): Lead the Agent Loop and the &#34;training–inference–evaluation&#34; closed loop; build long-term memory mechanisms for LLMs, cross-context knowledge integration, causal reasoning, and autonomous concept induction capabilities; implement self-evolve / self-improvement and recursive self-improvement (RSI) mechanisms (automated hyperparameter tuning, training pipeline automation, AI-assisted algorithm design, automated model iteration closed loop).\n4. Data Synthesis &amp; Evaluation Systems: Build high-quality vertical-domain data synthesis and quality control (distribution alignment, synthetic data evaluation / filtering / refinement); own the online Reward/Verifier system and superhuman-capability benchmark evaluation (annotation-free automated evaluation, long-cycle complex tasks, cross-domain innovation capability evaluation, multi-agent collaboration evaluation standards).\n5. Business Implementation &amp; Scaling:\n-Long-horizon task Agents (persistent intent)\n-Multimodal AIGC creation: leveraging SOTA models to provide image/video generation capabilities and amplify scale effects; powering the Feed&#39;s &#34;ask-after-viewing / create-after-viewing&#34; experiences to strengthen users&#39; proactive mindset;\n-Visual search &amp; on-device intelligence: object detection, OCR, TinyLLM;\n-Search content ecosystem / creator ecosystem, etc.\n6. Frontier Exploration (plus): Pre-research into next-generation non-Transformer architectures, AGI safety and alignment (goal-consistency constraints for large-scale multi-agent systems, interpretability / auditability / safety mechanisms), and other directions, and driving their integration with business scenarios.\n7. Technical Accumulation &amp; Output: Abstract algorithm libraries and interfaces to improve reuse and R&amp;D efficiency; regularly share SOTA models to empower the search team and company-level BUs; mentor and support the growth of team members.<strong>Qualifications</strong><br>Minimum Qualifications:\n1. Bachelor&#39;s degree or above in Computer Science or a related field, with AI algorithm R&amp;D experience \n2. In-depth research and hands-on implementation experience in any of the following directions — LLM / Agent / multimodal / search — with the ability to independently own and lead a technical direction.\n3. Mastery of at least one of the LLM / Agent technology stacks:\n- Full-pipeline LLM: pre-training / SFT / RLHF / alignment / inference optimization / data synthesis;\n- Full-stack Agent: Harness, multi-agent scheduling, memory mechanisms, Agent Loop, self-improvement (RSI), Reward/Verifier.\n4. Strong engineering skills, familiar with distributed training, mixed-precision training, inference acceleration (quantization / pruning / distillation / TensorRT), and large-scale data processing (MapReduce / Spark, etc.).\n5. Familiarity with any of the following directions, with representative achievements:\nCV &amp; Multimodal: image / video retrieval, classification and recognition, segmentation, object detection, OCR, multimodal large models, self-/unsupervised learning;\nNLP: pre-training, NLU, multilingual / cross-lingual learning, NLG, transfer / semi-supervised learning.\n6. Familiarity with any of the following directions, with representative achievements:\nCV &amp; Multimodal: image / video retrieval, classification and recognition, segmentation, object detection, OCR, multimodal large models, self-/unsupervised learning; NLP: pre-training, NLU, multilingual / cross-lingual learning, NLG, transfer / semi-supervised learning.\nPreferred Qualifications:\n1. Candidates with top-tier conference publications (NeurIPS / ICML / ICLR / CVPR / ICCV / ECCV / ACL / EMNLP / AAAI, etc.), well-known open-source projects, competition awards (Kaggle / COCO / ImageNet / GLUE / CLUE, etc.), or large-scale business implementation experience are preferred.\n2. Excellent technical leadership, cross-team collaboration, and communication skills; sound judgment on and genuine passion for the long-term value of search and Agents.",
+        "truncated": false
+      },
+      "ats_key": "freehire|llm-agent-algorithm-expert-tiktok-search-tiktok-n57eapua",
+      "company": "TikTok",
+      "description_excerpt": "<strong>Responsibilities</strong><br>Team Introduction: \nTT-Search Algorithm &amp; Applied AI is the algorithm team behind the search business built on TikTok (TikTok Search), with the goal of becoming the search engine of choice for users ",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-12T00:38:11.091856Z",
+      "key": "sg:30283adab29941228c3b",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 129,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "llm-agent-algorithm-expert-tiktok-search-tiktok-n57eapua",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "LLM & Agent Algorithm Expert - TikTok Search",
+      "url": "https://sg.jobstreet.com/job/93093677"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<div><div><p>\n <strong>\n \n Why Work at Lenovo\n </strong><br>\n </p></div></div>\n<div><div>\n<p>We are Lenovo. We do what we say. We own what we do. We WOW our customers. </p>\n<p>Lenovo is a US$83 billion revenue global technology powerhouse, ranked #153 in the Fortune Global 500, and serving millions of customers every day in 180 markets. Focused on a bold vision to deliver Smarter Technology for All, Lenovo has built on its success as the world’s largest PC company with a full-stack portfolio of AI-enabled, AI-ready, and AI-optimized devices (PCs, workstations, smartphones, tablets), infrastructure (server, storage, edge, high performance computing and software defined infrastructure), software, solutions, and services. Lenovo’s continued investment in world-changing innovation is building a more equitable, trustworthy, and smarter future for everyone, everywhere. Lenovo is listed on the Hong Kong stock exchange under Lenovo Group Limited (HKSE: 992) (ADR: LNVGY). </p>\n</div></div>\n<div><div><p>\n <strong>\n \n Description and Requirements\n </strong><br>\n </p></div></div>\n<div><div>\n <p>·        Lead technical research and experimentation in User World Models, predictive AI, knowledge graphs, and data representations for Personal AI.</p>\n<p>·        Formulate hypotheses, reproduce relevant research, build baselines and measure improvements in context understanding, prediction quality, grounding and reliability.</p>\n<p>·        Develop privacy-aware representations of user activities, relationships, preferences, goals, temporal context and cross-device state; account for uncertainty, consent and changing information.</p>\n<p>·        Explore graph-based, semantic and temporal memory, entity resolution, data fusion, retrieval and reasoning across permitted application and device data.</p>\n<p>·        Investigate predictive models that anticipate user needs or next actions, with clear confidence thresholds, evaluation and user control.</p>\n<p>·        Partner with prototype and systems engineers to validate ideas in realistic Qira experiences on Lenovo devices, including proactive and cross-device scenarios.</p>\n<p>·        Contribute to patents, technical disclosures and, where appropriate, external research publications.</p>\n<br><p>Basic Qualifications</p>\n<br><p>·        Bachelor's or Master's degree in Computer Science, AI, ML or a related technical field; PhD or equivalent research experience is a plus.</p>\n<p>·        5+ years of relevant AI/ML experience, with strong evidence of hands-on model development or research engineering.</p>\n<p>·        Deep experience with modern LLM/SLM or multimodal AI systems and frameworks.</p>\n<p>·        Experience in one or more of user modeling, personalization, predictive modeling, knowledge graphs, information retrieval, LLMs or contextual reasoning.</p>\n<p>·        Strong Python and software engineering skills; comfortable taking ideas from experiment to working code.</p>\n<p>·        Ability to reason about model quality, latency, cost, reliability, privacy and real-world constraints.</p>\n<br><p>Preferred Qualifications</p>\n<br><p>·        Experience with temporal/heterogeneous knowledge graphs, graph ML, entity linking, probabilistic reasoning or causal/predictive modeling.</p>\n<p>·        Experience with multimodal context, memory systems, privacy-preserving learning or cross-device data integration.</p>\n<p>·        Experience with multimodal foundation models, VLMs, speech/audio or vision-language systems.</p>\n<p>·        Publication, patent or open-source contributions in AI/ML.</p>\n<br><p>Success Measures</p>\n<br><p>·        Deliver reproducible research experiments and working prototypes for User World Models, Predictive AI and Knowledge Graph/Data priorities.</p>\n<p>·        Demonstrate measurable improvements in contextual understanding, prediction usefulness, grounding, reliability or privacy-aware personalization.</p>\n<p>·        Demonstrate a clear path from promising experiments into advanced development or product adoption.</p>\n<p>Key Partnerships</p>\n<br><p>Works closely with the Lead Scientist/Research leadership, AI Systems, Prototype Engineering and global Qira Product/Engineering teams.</p>\n </div></div>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-research-engineer-lenovo-ln65xjyt",
+      "company": "Lenovo",
+      "description_excerpt": "<div><div><p>\n <strong>\n \n Why Work at Lenovo\n </strong><br>\n </p></div></div>\n<div><div>\n<p>We are Lenovo. We do what we say. We own what we do. We WOW our customers. </p>\n<p>Lenovo is a US$83 billion revenue global technology powerhouse, ",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-12T00:38:11.091900Z",
+      "key": "sg:94c2be085b116dae884e",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Central Region",
+      "retries": 0,
+      "seq": 130,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-research-engineer-lenovo-ln65xjyt",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Research Engineer",
+      "url": "https://sg.jobstreet.com/job/95839572"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<strong><strong>ABOUT US</strong></strong><br><p><strong>UIC Asian Computer Services Pte Ltd</strong> provides IT support, network troubleshooting, system installation, and managed technology services for enterprise clients. We are committed to delivering reliable and efficient IT solutions that help businesses operate securely and effectively.</p>\n<p>With a strong focus on customer satisfaction and service excellence, we support organizations across various industries through our experienced team of IT professionals. We value teamwork, continuous learning, and opportunities for professional growth.<br></p>\n<strong><strong>JOB SUMMARY</strong></strong><br><p>The AI Engineer is a technical role responsible for supporting the development and adoption of AI technologies across the organization. The role works closely with business and technical stakeholders to deliver innovative solutions that enhance operational efficiency, improve user experience, and support enterprise digitalization initiatives.<br></p>\n<strong><strong>PRINCIPAL ACCOUNTABILITIES</strong></strong><br><p><strong>AI Application Development</strong></p>\n<ul>\n<li>Design, develop, test, deploy, and maintain AI and Maintain Learning applications.</li>\n<li>Develop AI-powered solutions to improve business processes, productivity, and user experiences.</li>\n<li>Integrate AI capabilities into existing and new enterprise application through APIs and application services.</li>\n</ul>\n<p><strong>Agentic AI &amp; Large Language Models (LLMs)</strong></p>\n<ul>\n<li>Develop and implement solutions using Large Language Models (LLMs), AI Agents, and Agentic AI systems.</li>\n<li>Design, evaluate and optimize prompts to improve response quality and consistency.</li>\n<li>Build and maintain Retrieval-Augmented Generative (RAG) solutions and knowledge-based AI applications.</li>\n<li>Develop AI Agent workflows using frameworks such as LangChain and LangGraph.</li>\n</ul>\n<p><strong>Data &amp; AI Model Management</strong></p>\n<ul>\n<li>Prepare, process, and manage data required for AI applications and model development.</li>\n<li>Work with vector databases, embeddings, and semantic search technologies.</li>\n<li>Integration AI applications with enterprise data platforms, Fabric SQL databases, and APIs as required.</li>\n<li>Monitor, evaluate, and improve the performance, reliability, and effectiveness of AI models and applications.</li>\n</ul>\n<p><strong>Cloud &amp; Platform Deployment</strong></p>\n<ul>\n<li>Deploy and support AI solutions using Azure AI Services, Azure OpenAI, and OpenAI APIs.</li>\n<li>Manage AI application deployment and maintenance using Docker, Git, and cloud technologies.</li>\n<li>Ensure solutions comply with security, governance, and data privacy requirements.</li>\n</ul>\n<p><strong>Business Collaboration &amp; Support</strong></p>\n<ul>\n<li>Collaborate with business users and stakeholders to gather requirements and identify AI use cases.</li>\n<li>Translate business requirements into practical AI-driven solutions.</li>\n<li>Prepare technical documentation and provide application support where required.</li>\n<li>Support AI initiatives involving HRIS, Payroll, Time &amp; Attendance, and other Enterprise Business Applications.</li>\n</ul>\n<p><strong>Research &amp; Continuous Improvement</strong></p>\n<ul>\n<li>Stay updated on emerging AI technologies, industry trends, and best practices.</li>\n<li>Conduct research, proof-of-concepts (POCs), and technology evaluations to support innovation initiatives.</li>\n<li>Recommend and implement improvements to AI applications and processes.</li>\n</ul>\n<strong><strong>REQUIREMENTS</strong></strong><br><p><strong>Education</strong></p>\n<ul><li>Bachelor&#39;s Degree in Computer Science, Artificial Intelligence, Data Science, Information Technology, Software Engineering, or a related discipline.</li></ul>\n<p><strong>Experience </strong></p>\n<ul>\n<li>Minimum 2to 3 years of experience in AI, Machine Learning, Agentic AI, or AI-powered application development.</li>\n<li>Hands-on experience in designing, developing, and integrating AI Agents, Large Language Model (LLM)-based applications, or Retrieval-Augmented Generation (RAG)solutions.</li>\n<li>Experience in developing or supporting Human Resource Information Systems (HRIS), Payroll, Time &amp; Attendance, or Enterprise Business Applications is preferred.</li>\n<li>Knowledge of HR and payroll business processes, enterprise workflows, business process automation, and system integration is an added advantage.</li>\n</ul>\n<p><strong>Technical Skills</strong></p>\n<ul>\n<li>Strong knowledge of Artificial Intelligence, Machine Learning, Generative AI, and Large Language Models (LLMs).</li>\n<li>Proficiency in Python and experience integrating services through REST APIs and JSON.</li>\n<li>Experience with AI frameworks such as TensorFlow, PyTorch, LangChain, and LangGraph.</li>\n<li>Experience with Prompt Engineering, Retrieval-Augmented Generation (RAG), Vector Databases, and AI Agent development.</li>\n<li>Familiarity with Azure AI Services, Azure OpenAI, OpenAI APIs, Model Context Protocol (MCP), Docker, Git, and cloud deployment technologies.</li>\n</ul>\n<p><strong>Soft Skills</strong></p>\n<ul>\n<li>Strong analytical and problem-solving skills.</li>\n<li>Good communication and interpersonal skills.</li>\n<li>Ability to work independently and collaboratively in a team environment.</li>\n<li>Self-motivated, proactive, and adaptable to changing business requirements.</li>\n<li>Good organizational and time management skills, with the ability to meet project deadlines.</li>\n</ul>\n<p><strong>Preferred Certifications</strong></p>\n<ul>\n<li>Microsoft Certified: Azure AI Engineer Associate (AI-102).</li>\n<li>Microsoft Certified: Azure Data Scientist Associate (DP-100).</li>\n<li>Microsoft Certified: Azure AI Fundamentals (AI-900).</li>\n<li>Microsoft Certified: Azure Fundamentals (AZ-900).</li>\n<li>Generative AI, LLM Engineering, Prompt Engineering, or Retrieval-Augmented Generation (RAG)-related certifications from recognized training providers.</li>\n<li>TensorFlow Developer Certificate or equivalent AI/ML certifications.</li>\n</ul>\n<strong><strong>WHY JOIN US?</strong></strong><br><p>At UIC Asian Computer Services Pte Ltd, we believe our people are key to our success. We offer an environment where employees can build their expertise, take on meaningful responsibilities, and grow professionally. Join us to be part of a team that is passionate about technology, customer service, and delivering value to our clients.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
+      "company": "UIC Asian Computer Services Pte Ltd",
+      "description_excerpt": "<strong><strong>ABOUT US</strong></strong><br><p><strong>UIC Asian Computer Services Pte Ltd</strong> provides IT support, network troubleshooting, system installation, and managed technology services for enterprise clients. We are committe",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-12T00:38:11.091926Z",
+      "key": "sg:0a275fa40c93fa2ad032",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 131,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://sg.jobstreet.com/job/95245670"
     }
   ],
   "terminal": [
@@ -4487,6 +4577,13 @@
       "prior_wait_employer_hint": true,
       "query": "NTU Main Campus, Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T06:04:45+08:00",
+        "decision": "HARD_REJECTED",
+        "reason": "Official NTU Workday JD for R00025774 explicitly states 'The closing date for application is 15 October 2026.' Current date 12 November 2026; deadline passed. Exact ID and title absent from all-state GitHub Issue search; both Gmail accounts searched for R00025774 / Digital Humanities / ACDC with no matching receipt. No extension evidenced. Not a live actionable role.",
+        "status": "HARD_REJECTED"
+      },
       "seq": 119,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -4495,16 +4592,10 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer/Senior Research Engineer (Computer Science / Data Science / Information Science / Digital Humanities)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-Senior-Research-Engineer--Computer-Science---Data-Science---Information-Science---Digital-Humanities-_R00025774",
-      "scout_review": {
-        "status": "HARD_REJECTED",
-        "decision": "HARD_REJECTED",
-        "ack": true,
-        "checked_at": "2026-11-12T06:04:45+08:00",
-        "reason": "Official NTU Workday JD for R00025774 explicitly states 'The closing date for application is 15 October 2026.' Current date 12 November 2026; deadline passed. Exact ID and title absent from all-state GitHub Issue search; both Gmail accounts searched for R00025774 / Digital Humanities / ACDC with no matching receipt. No extension evidenced. Not a live actionable role."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-Senior-Research-Engineer--Computer-Science---Data-Science---Information-Science---Digital-Humanities-_R00025774"
     },
     {
+      "acknowledged_at": "2026-11-12T07:02:21+08:00",
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -4527,6 +4618,15 @@
       "platform": "public jobs API (unverified)",
       "query": "Singapore-CapitaSky",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T07:02:21+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence": "Employer first-party complete JD: https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/Tencent-Cloud---AI---LLM-Solution-Architecture-Leader_R108088-1 (indexed current 2026-11-12). GitHub exact R108088 and role-title searches no exact match; separate Tencent WAIT #173 is Principal Engineer Data+AI Infrastructure, not this requisition. Both Gmail accounts searched Tencent Cloud and R108088; second account has other Tencent application receipts without R108088; no exact receipt. Hard requirement alone is independently decisive.",
+        "reason": "Tencent official Workday requisition R108088 explicitly requires minimum 8 years of AI/ML/cloud/solution-architecture or enterprise consulting experience, including leading complex customer-facing engagements; role is Lead AI & LLM Solution Architect. Candidate early-career MSc does not meet mandatory 8-year leadership experience.",
+        "source_key": "sg:40ac5f87999daaf327cc",
+        "status": "HARD_REJECTED"
+      },
       "seq": 124,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -4535,17 +4635,7 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "Tencent Cloud – AI & LLM Solution Architecture Leader",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Tencent-Cloud---AI---LLM-Solution-Architecture-Leader_R108088-1",
-      "acknowledged_at": "2026-11-12T07:02:21+08:00",
-      "scout_review": {
-        "status": "HARD_REJECTED",
-        "decision": "HARD_REJECTED",
-        "ack": true,
-        "checked_at": "2026-11-12T07:02:21+08:00",
-        "source_key": "sg:40ac5f87999daaf327cc",
-        "reason": "Tencent official Workday requisition R108088 explicitly requires minimum 8 years of AI/ML/cloud/solution-architecture or enterprise consulting experience, including leading complex customer-facing engagements; role is Lead AI & LLM Solution Architect. Candidate early-career MSc does not meet mandatory 8-year leadership experience.",
-        "evidence": "Employer first-party complete JD: https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/Tencent-Cloud---AI---LLM-Solution-Architecture-Leader_R108088-1 (indexed current 2026-11-12). GitHub exact R108088 and role-title searches no exact match; separate Tencent WAIT #173 is Principal Engineer Data+AI Infrastructure, not this requisition. Both Gmail accounts searched Tencent Cloud and R108088; second account has other Tencent application receipts without R108088; no exact receipt. Hard requirement alone is independently decisive."
-      }
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Tencent-Cloud---AI---LLM-Solution-Architecture-Leader_R108088-1"
     },
     {
       "ats_key": "simplifynext|greenhouse|5019281007",
@@ -4580,12 +4670,12 @@
         "missing_evidence": "SimplifyNext 5019281007 requires actual production AI, cloud and Kubernetes deployment; candidate evidence for these mandatory skills is unverified."
       },
       "scout_review": {
-        "status": "HARD_REJECTED",
-        "decision": "HARD_REJECTED",
         "ack": true,
         "checked_at": "2026-11-12T08:03:37+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence_url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007",
         "reason": "Exact first-party Greenhouse 5019281007 live JD and application form checked 2026-11-12. Mandatory: 'you’ve shipped AI systems to real users, not just demos'; AWS/Azure/GCP production AI workload deployment and Docker/Kubernetes in real deployment contexts. Candidate has production web/backend and separate project-level LLM/RAG/Agent work, but no evidenced production-shipped AI or real cloud/Kubernetes AI deployments. Prior SimplifyNext AI Engineer (Graduate) application/rejection is a distinct role, not a same-requisition ACK. Exclude current senior production AI role for hard mismatch; do not imply company-wide rejection.",
-        "evidence_url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
+        "status": "HARD_REJECTED"
       },
       "seq": 80,
       "source": "freehirefetch:official-ats:SG",
