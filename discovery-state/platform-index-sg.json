@@ -1,25 +1,27 @@
 {
   "last_ingestion": {
-    "at": "2026-11-12T10:16:39.096801Z",
-    "source": "devglobal:public-api:SG",
+    "at": "2026-11-12T18:15:52.405719Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 9,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 9
+      "new_pending": 4,
+      "observed": 4
     }
   },
   "market": "SG",
-  "next_seq": 133,
+  "next_seq": 137,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
       "company": "Binance",
       "consumer_review": {
         "checked_at": "2026-11-12T11:25:12.823883Z",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "possible_prior_issue": 861,
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "first_seen_at": "2026-11-07T08:31:24.434392Z",
@@ -149,18 +151,18 @@
       "platform": "Dev Global Jobs (public aggregator)",
       "query": "SG/MY AI software engineering / NLP / Agent public-feed AI",
       "retries": 0,
-      "seq": 36,
-      "source": "devglobal:public-api:SG",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Applied AI Engineer, Cyber",
-      "url": "https://devglobaljobs.com/jobs/detail/174940464",
       "scout_review": {
         "ack": false,
         "checked_at": "2026-11-13T01:02:09+08:00",
         "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact OpenAI employer-owned requisition and complete JD for the 'Applied AI Engineer, Cyber' variant, distinguishing it from previously rejected Applied AI Engineer #103; aggregator URL alone is insufficient."
-      }
+        "missing_evidence": "Exact OpenAI employer-owned requisition and complete JD for the 'Applied AI Engineer, Cyber' variant, distinguishing it from previously rejected Applied AI Engineer #103; aggregator URL alone is insufficient.",
+        "status": "RETRY"
+      },
+      "seq": 36,
+      "source": "devglobal:public-api:SG",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Applied AI Engineer, Cyber",
+      "url": "https://devglobaljobs.com/jobs/detail/174940464"
     },
     {
       "ats_key": "binance|greenhouse|5002575101",
@@ -452,6 +454,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Kent Ridge, Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T01:02:09+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact School of Computing/NUS employer-owned requisition page containing full backend/platform RA JD and usable application route; current public-feed slug is not an employer job ID.",
+        "status": "RETRY"
+      },
       "seq": 84,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -460,14 +469,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Assistant (Backend & Platform Engineer)",
-      "url": "https://sg.jobstreet.com/job/94531188",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T01:02:09+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact School of Computing/NUS employer-owned requisition page containing full backend/platform RA JD and usable application route; current public-feed slug is not an employer job ID."
-      }
+      "url": "https://sg.jobstreet.com/job/94531188"
     },
     {
       "api_source_context": {
@@ -562,11 +564,11 @@
       "query": "NTU Novena Campus, Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T23:04:27+08:00",
-        "missing_evidence": "Exact NTU Workday R00026296-1 application page inaccessible (2026-11-12 23:xx MYT); stored employer JD remains available for fit only. Both Gmail accounts searched by neuroscience/AI title; no authoritative exact requisition receipt. Missing exactly: current first-party Workday apply form for R00026296-1."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NTU Workday R00026296-1 application page inaccessible (2026-11-12 23:xx MYT); stored employer JD remains available for fit only. Both Gmail accounts searched by neuroscience/AI title; no authoritative exact requisition receipt. Missing exactly: current first-party Workday apply form for R00026296-1.",
+        "status": "RETRY"
       },
       "seq": 91,
       "source": "freehirefetch:official-ats:SG",
@@ -881,11 +883,11 @@
       "query": "Singapore, sg",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T23:04:27+08:00",
-        "missing_evidence": "Exact NCS SmartRecruiters 6000000001031326 full employer JD and live application form remain inaccessible (2026-11-12 23:xx MYT). Indexed NCS 6000000000787599 is a distinct requisition and cannot substitute. Both Gmail accounts searched: Singtel AI Platform Engineer receipt (2026-10-27) and NCS graduate AI SWE receipt (2026-09-24) exist, but neither establishes 6000000001031326 identity. Missing exactly: current first-party full JD and usable application route for requisition 6000000001031326."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NCS SmartRecruiters 6000000001031326 full employer JD and live application form remain inaccessible (2026-11-12 23:xx MYT). Indexed NCS 6000000000787599 is a distinct requisition and cannot substitute. Both Gmail accounts searched: Singtel AI Platform Engineer receipt (2026-10-27) and NCS graduate AI SWE receipt (2026-09-24) exist, but neither establishes 6000000001031326 identity. Missing exactly: current first-party full JD and usable application route for requisition 6000000001031326.",
+        "status": "RETRY"
       },
       "seq": 110,
       "source": "freehirefetch:official-ats:SG",
@@ -1009,11 +1011,11 @@
       "query": "Hong Kong",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T22:00:00+08:00",
-        "missing_evidence": "Exact Qube Greenhouse 8759003002 employer application form/current route could not be opened (2026-11-12). Third-party full-text is unverified as employer-authored; live exact requisition and sponsorship remain unconfirmed."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Qube Greenhouse 8759003002 employer application form/current route could not be opened (2026-11-12). Third-party full-text is unverified as employer-authored; live exact requisition and sponsorship remain unconfirmed.",
+        "status": "RETRY"
       },
       "seq": 117,
       "source": "freehire:public-api:SG",
@@ -1115,11 +1117,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T22:00:00+08:00",
-        "missing_evidence": "Exact Surbana Jurong Workday JR119182 current employer-controlled application form/route could not be opened (2026-11-12); existing SG WAIT is JR117992, different requisition. Third-party JD text alone cannot establish live apply route or employer sponsorship."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Surbana Jurong Workday JR119182 current employer-controlled application form/route could not be opened (2026-11-12); existing SG WAIT is JR117992, different requisition. Third-party JD text alone cannot establish live apply route or employer sponsorship.",
+        "status": "RETRY"
       },
       "seq": 122,
       "source": "freehire:public-api:SG",
@@ -1188,11 +1190,11 @@
       "query": "Anywhere",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T22:00:00+08:00",
-        "missing_evidence": "Exact Gradient Ashby e5f78b42-1118-4dc9-aca7-d363a0a8c910 employer application form/current route could not be opened (2026-11-12). Indexed Indeed listing confirms title only, not exact live Ashby form or SG sponsorship."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Gradient Ashby e5f78b42-1118-4dc9-aca7-d363a0a8c910 employer application form/current route could not be opened (2026-11-12). Indexed Indeed listing confirms title only, not exact live Ashby form or SG sponsorship.",
+        "status": "RETRY"
       },
       "seq": 125,
       "source": "freehire:public-api:SG",
@@ -1261,6 +1263,13 @@
       "prior_wait_employer_hint": true,
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T01:02:09+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer requisition ID tying this public-feed TikTok Search AI Search role to existing applied WAIT #806; Gmail confirms same-title TikTok application on 2026-11-01, so no duplicate APPLY.",
+        "status": "RETRY"
+      },
       "seq": 127,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1269,14 +1278,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Machine Learning Engineer (AI Search ), TikTok Search",
-      "url": "https://sg.jobstreet.com/job/92967430",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T01:02:09+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Employer requisition ID tying this public-feed TikTok Search AI Search role to existing applied WAIT #806; Gmail confirms same-title TikTok application on 2026-11-01, so no duplicate APPLY."
-      }
+      "url": "https://sg.jobstreet.com/job/92967430"
     },
     {
       "ats_key": "clera|ashby|0890b84c-3391-457c-b762-4d42e558acc9",
@@ -1305,11 +1307,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-12T23:04:27+08:00",
-        "missing_evidence": "Exact Clera Ashby 0890b84c-3391-457c-b762-4d42e558acc9 application page inaccessible (2026-11-12 23:xx MYT). Other Clera Ashby listings are different requisitions and not evidence this SG role is open. Both Gmail accounts checked; job alert mentions are not applications. GitHub Clera SKIP records concern different roles. Missing exactly: current employer application form for 0890b84c-3391-457c-b762-4d42e558acc9."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Clera Ashby 0890b84c-3391-457c-b762-4d42e558acc9 application page inaccessible (2026-11-12 23:xx MYT). Other Clera Ashby listings are different requisitions and not evidence this SG role is open. Both Gmail accounts checked; job alert mentions are not applications. GitHub Clera SKIP records concern different roles. Missing exactly: current employer application form for 0890b84c-3391-457c-b762-4d42e558acc9.",
+        "status": "RETRY"
       },
       "seq": 128,
       "source": "freehirefetch:official-ats:SG",
@@ -1379,6 +1381,13 @@
       "prior_wait_employer_hint": true,
       "query": "Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T21:03:31+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "2026-11-12 21:xx MYT: JobStreet 95839572 indexed as Lenovo Singapore AI Research Engineer (Qira team); no exact Lenovo-owned requisition/full employer JD/current non-MCF apply route established. Both Gmail accounts searched for Lenovo: older applications for different Lenovo AI roles exist, no authoritative exact Qira requisition match. GitHub all-state Lenovo research search found no exact SG AI Research Engineer. Missing exactly: Lenovo employer-controlled requisition with full JD and usable live application route for JobStreet 95839572. Preserve Pending.",
+        "status": "RETRY"
+      },
       "seq": 130,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1387,14 +1396,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Research Engineer",
-      "url": "https://sg.jobstreet.com/job/95839572",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-12T21:03:31+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "2026-11-12 21:xx MYT: JobStreet 95839572 indexed as Lenovo Singapore AI Research Engineer (Qira team); no exact Lenovo-owned requisition/full employer JD/current non-MCF apply route established. Both Gmail accounts searched for Lenovo: older applications for different Lenovo AI roles exist, no authoritative exact Qira requisition match. GitHub all-state Lenovo research search found no exact SG AI Research Engineer. Missing exactly: Lenovo employer-controlled requisition with full JD and usable live application route for JobStreet 95839572. Preserve Pending."
-      }
+      "url": "https://sg.jobstreet.com/job/95839572"
     },
     {
       "api_source_context": {
@@ -1452,6 +1454,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Boon Keng, Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T21:03:31+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "2026-11-12 21:xx MYT: GitHub BLOCKED #804 documents UMELIFE LLM Evaluation Engineer employer requisition MCF-2026-1785368 and mandatory vLLM/SGLang gap. Queue JobStreet 95602065 has same employer/title but no independently verified exact requisition crosswalk. Both Gmail accounts searched Umelife, no receipts. Missing exactly: employer-authored JD or exact requisition crosswalk proving JobStreet 95602065 is the same vacancy as BLOCKED #804; do not infer duplicate or repeat hard rejection from title alone. Preserve Pending.",
+        "status": "RETRY"
+      },
       "seq": 132,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1460,14 +1469,128 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Large Language Model (LLM) Evaluation Engineer",
-      "url": "https://sg.jobstreet.com/job/95602065",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-12T21:03:31+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "2026-11-12 21:xx MYT: GitHub BLOCKED #804 documents UMELIFE LLM Evaluation Engineer employer requisition MCF-2026-1785368 and mandatory vLLM/SGLang gap. Queue JobStreet 95602065 has same employer/title but no independently verified exact requisition crosswalk. Both Gmail accounts searched Umelife, no receipts. Missing exactly: employer-authored JD or exact requisition crosswalk proving JobStreet 95602065 is the same vacancy as BLOCKED #804; do not infer duplicate or repeat hard rejection from title alone. Preserve Pending."
-      }
+      "url": "https://sg.jobstreet.com/job/95602065"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>⇒ Position Objective</p>\n<p>Our client, a leading FMCG enterprise operating across ASEAN, is seeking an Agentic AI &amp; Automation Engineer to design, build, and deploy custom AI-powered solutions from scratch. The role sits within the Digital Commercial &amp; AI team and spans two core areas: building autonomous agentic AI workflows, and developing intelligent automation pipelines that connect systems and eliminate manual processes across commercial and operational functions. </p>\n<p>Initial engagement is 3 months, with strong likelihood of extension to 6–12 months for the right person.</p>\n<p>⇒ Main Responsibilities</p>\n<ul>\n<li>Design and build agentic AI workflows from scratch — including autonomous, multi-step agents capable of reasoning, decision-making, and acting across internal systems without human intervention.</li>\n<li>Integrate LLMs with the client’s existing decision intelligence backend using retrieval-augmented generation (RAG), MCP, and structured knowledge base augmentation — not starting from zero, but building on a live data foundation.</li>\n<li>Build and deliver specific AI agent use cases including a Pricing Agent, Route-to-Market Agent, Recruitment Agent, and Calling/Selling Agent that autonomously handles retailer outreach, cross-selling, and order completion.</li>\n<li>Design and deploy end-to-end AI-powered automation workflows that eliminate manual, repetitive tasks across sales, HR, operations, and commercial functions — using tools such as n8n, Azure Logic Apps, or equivalent.</li>\n<li>Connect automation pipelines to enterprise systems via REST APIs and webhooks — including CRM, ERP, HR platforms, and BI tools — ensuring reliable, production-grade integrations.</li>\n<li>Own the full delivery lifecycle: scoping, architecture, build, testing, and handover — with full documentation and clear token/cost governance across all AI components.</li>\n<li>Work in a fast-moving, agile environment across Malaysia and the broader ASEAN cluster, with the expectation of delivering a working solution within the first 3 months of engagement.</li>\n</ul>\n<p>⇒ Qualifications &amp; Experience</p>\n<ul>\n<li>Bachelor's Degree in Computer Science, Engineering, or a related field or equivalent practical experience.</li>\n<li>Credentials are secondary to a demonstrated ability to build and ship in production.</li>\n<li>More than 3 years of hands-on experience building AI or automation solutions. Prior experience in FMCG, retail, B2B commerce, or a similarly fast-moving commercial environment is a strong advantage.</li>\n<li>Proven ability to build agentic AI systems from scratch — not configuring off-the-shelf SaaS tools. Must be able to design agent logic, manage state, handle errors, and deploy independently.</li>\n<li>Strong proficiency in Python. Hands-on experience with LLM frameworks (LangChain, LlamaIndex, or equivalent), workflow tools (n8n, Power Automate, or equivalent), and prompt engineering in production contexts.</li>\n<li>Solid understanding of RAG architectures: retrieval design, embedding pipelines, knowledge base structuring, and augmentation strategies for enterprise data environments.</li>\n<li>Experience with Azure AI services (Azure OpenAI, Azure AI Studio) and a working knowledge of LLM concepts including MCP, function/tool calling, token management, and cost optimisation.</li>\n<li>Comfortable integrating with enterprise systems via REST APIs and webhooks. Can read documentation independently and build reliable connectors when off-the-shelf solutions fall short.</li>\n<li>Strong delivery instinct: able to scope a use case, map the workflow, build a maintainable solution, and hand it over — without over-engineering or requiring extensive supervision.</li>\n<li>Self-directed and output-focused. Comfortable operating in a lean team at pace, and capable of delivering a working solution within a 3–6 month engagement window.</li>\n</ul>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-we-x5o73vnb",
+      "company": "We+",
+      "description_excerpt": "<p>⇒ Position Objective</p>\n<p>Our client, a leading FMCG enterprise operating across ASEAN, is seeking an Agentic AI &amp; Automation Engineer to design, build, and deploy custom AI-powered solutions from scratch. The role sits within the ",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-12T18:15:52.405578Z",
+      "key": "sg:2aa856bac0190a8ef4b9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Central Region",
+      "retries": 0,
+      "seq": 133,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-we-x5o73vnb",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://sg.jobstreet.com/job/95810902"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanced communications and cybersecurity capabilities for future urban mobility applications. We aim to develop innovative solutions that can be commercialized into products and services for Continental through close collaboration with its business units.</p><p></p><p>In this job opening, we are seeking a highly motivated and visionary researcher to join our team focused on heterogeneous integration and security of chiplet-based IC systems. This role involves research and development in chiplet-based architectures, aiming to demonstrate secure intelligent computing platforms outperforms traditional compute platforms. We invite applicants to join us as a Research Fellow or Senior Researcher (full-time). You will be part of the <b>Continental-NTU Corporate Lab</b> research team.</p><p></p><p><b><span>Key Responsibilities: </span></b></p><ul><li><p>Collaborate with security experts, cryptographic engineers, and cross-functional and interdisciplinary / inter-organizational teams to develop, integrate and evaluate innovations</p></li><li><p>Integrate, prototype and evaluate new architectural improvements, in particular new security mechanisms and cryptographic IP implementations on hardware FPGA platforms</p></li><li><p>Integrating security Engine/TEE and post-quantum hardware building blocks and security components</p></li><li><p>Responsible for integrating into RoT/Caliptra hardware and software blocks as prototype</p></li><li><p>Contribute to long-term research strategy, white papers, and vision documents.</p></li></ul><p></p><p><b><span>Job Requirements:</span></b></p><ul><li><p><span>MSc in Computer Science, Cybersecurity, Electrical Engineering, or a related field</span></p></li><li><p><span>Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping</span></p></li><li><p><span>Proficiency in hardware description languages (HDLs) such as Verilog or VHDL</span></p></li><li><p><span>Strong understanding of digital design principles and embedded systems</span></p></li><li><p><span>Proficiency in low-level programming languages such as C, Rust and RISC-V</span></p></li><li><p><span>Knowledge and/or experience in using some of tools such as Xilinx Vivado, Cadence Virtuoso, Synopsys, etc. </span></p></li><li><p><span>Familiarity with modular FPGA hardware implementations, tools and testing methodologies</span></p></li><li><p><span>Strong analytical and problem-solving abilities</span></p></li><li><p><span>Demonstrated ability to work across interdisciplinary and diverse teams, ideally with experience in project planning and management</span></p></li><li><p><span>Excellent collaborative and communication skills in English for research purposes</span></p></li><li><p><span>Good communication and presentation skills, fluency in multiple languages is a plus</span></p></li></ul><p></p><p><span>We regret that only shortlisted candidates will be notified.</span></p><p></p><p></p>Hiring Institution: NTU<p></p><p></p><p></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|research-associate-engineer-ii-fpga-design-and-development-ntu-jtnzjzvt",
+      "company": "Ntu",
+      "description_excerpt": "<p>The Continental-NTU Corp Lab is a strategic research collaboration between NTU and Continental, focusing on developing technically advanced solutions in the areas such as sustainable materials engineering, artificial intelligence, advanc",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-12T18:15:52.405640Z",
+      "key": "sg:60003ebb26c77c5e1207",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 134,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-associate-engineer-ii-fpga-design-and-development-ntu-jtnzjzvt",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Associate/Engineer II (FPGA Design and Development)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Salary: $4,000 – $5,500 per month</p><p>Key Responsibilities</p><ul><li><p>Build and maintain the internal AI toolchain: LLM API integrations, a prompt template library and a RAG knowledge base (product documents, datasheets, test data).</p></li><li><p>Automate batch tasks with workflow tools (n8n / Zapier class): bulk content production, document processing and report generation — the goal is \"one person running three pipelines\".</p></li><li><p>Develop internal utilities and dashboards (Python / Web) integrated with CRM and ERP.</p></li><li><p>Own enterprise account management and data governance: data-not-used-for-training terms, access control.</p></li><li><p>Provide technical interfaces to the marketing and design lines: automated reports, data extraction and batch rendering scripts.</p></li></ul><p>Hard Skills</p><p>·       Degree in computer science / data science / electrical engineering (2025–2026 graduate).</p><p>·       Strong Python (Pandas, requests, scripting); Git; basic web development (HTML/JS or one framework).</p><p>·       Familiarity with at least one LLM API (OpenAI / Claude) and prompt engineering; a demonstrable personal AI project.</p><p>Good to Have</p><p>·       RAG / vector databases (LangChain / LlamaIndex); n8n / Airflow; Docker; SQL; automated testing.</p><p>·       Embedded basics (for working with the hardware team).</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-full-stack-automation-engineer-accountstaff-qlam4clb",
+      "company": "AccountStaff",
+      "description_excerpt": "<p>Salary: $4,000 – $5,500 per month</p><p>Key Responsibilities</p><ul><li><p>Build and maintain the internal AI toolchain: LLM API integrations, a prompt template library and a RAG knowledge base (product documents, datasheets, test data).",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-12T18:15:52.405666Z",
+      "key": "sg:1696c9ad08b8d516c621",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Central Region",
+      "retries": 0,
+      "seq": 135,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-full-stack-automation-engineer-accountstaff-qlam4clb",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Full-Stack & Automation Engineer",
+      "url": "https://sg.jobstreet.com/job/95654430"
+    },
+    {
+      "ats_key": "clera|ashby|a51984da-7278-46bd-a0c5-939d2ac72999",
+      "company": "Clera",
+      "consumer_review": {
+        "checked_at": "2026-11-12T17:43:27+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT THE ROLE Join a small, technical AI evaluation team building rigorous benchmarks for frontier AI agents. You will own the design and implementation of domain-specific evaluations that help research teams and customers understand how agents perform on realistic workflows. WHAT YOU'LL DO - Design, implement, and maintain internal benchmarks for evaluating frontier agents on domain-specific tasks. - Partner with subject-matter experts to translate real-world workflows into benchmark tasks and evaluation criteria. - Build reliable infrastructure to run models and agents against benchmark tasks at scale. - Develop metrics and analyses to assess benchmark difficulty, reliability, and failure modes. - Validate whether benchmark results align with real-world evaluations and user needs. - Write clear technical documentation and reports explaining benchmark methods and results. WHAT WE'RE LOOKING FOR - Two to four years of experience in software engineering, machine learning engineering, or research engineering, including at least two years building AI benchmarks, evaluation infrastructure, or agent environments. - Technical education or strong fundamentals in a technical field. - Proficiency with Python, Docker, and Linux for research or production infrastructure. - Hands-on experience designing and operating evaluations or environments for AI agents or large language models. - Experience building reliable model or agent execution infrastructure, developing evaluation metrics or statistical analyses, and validating benchmark performance. - Ability to work with subject-matter experts and understand workflows across technical or business domains. - Strong technical writing, attention to detail, independent problem-solving, and comfort in an early-stage environment. - Published research or technical writing on AI benchmarks, evaluation methods, or model failure modes is valued. Reinforcement learning pipelines, data generation, and agent evaluation experience are also relevant. COMPENSATION & BENEFITS Base salary: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
+        "jd_chars": 2151,
+        "jd_sha256": "8a6a5a3df9873abf4ae2059be6ffd87ca4add2b8e3b7987feddc899870d195b8",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "ABOUT THE ROLE Join a small, technical AI evaluation team building rigorous benchmarks for frontier AI agents. You will own the design and implementation of domain-specific evaluations that help research teams and customers understand how a",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-12T18:15:52.405699Z",
+      "key": "sg:15b3f6dcfa4a4a9a322b",
+      "last_error": null,
+      "market": "SG",
+      "platform": "ashby official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 136,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "a51984da-7278-46bd-a0c5-939d2ac72999",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Engineer, Benchmarks",
+      "url": "https://jobs.ashbyhq.com/Clera/a51984da-7278-46bd-a0c5-939d2ac72999"
     }
   ],
   "terminal": [
@@ -4681,6 +4804,7 @@
       "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
     },
     {
+      "acknowledged_at": "2026-11-12T19:57:29+08:00",
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -4706,10 +4830,10 @@
         "ack": true,
         "checked_at": "2026-11-12T19:57:29+08:00",
         "decision": "DEDUPED_PRIOR_WAIT",
-        "status": "DEDUPED",
-        "source_key": "sg:07dcd62d224496e47de5",
+        "evidence": "Employer official Workday requisition R52181 at https://evonik.wd3.myworkdayjobs.com/en-US/External_Careers/job/Singapore---Int-Business-Park/AI-Solution-Engineer--LLM---Agentic-AI-_R52181 contains matching detailed LLM/RAG/Agent responsibilities and qualification text to source's full listing. Existing live GitHub WAIT #847 is exact Evonik AI Solution Engineer (LLM & Agentic AI) R52181, with same official route. Both Gmail accounts searched 2026-11-12: primary mailbox contains official 2026-11-03 application receipt subject 'Application Received for R52181 AI Solution Engineer (LLM & Agentic AI)'; secondary mailbox has no contrary evidence. JobStreet ID 95287266 direct page not readable, so identity is reconciled through uniquely matching employer/title/full job content and exact employer receipt. No new application.",
         "existing_issue": 847,
-        "evidence": "Employer official Workday requisition R52181 at https://evonik.wd3.myworkdayjobs.com/en-US/External_Careers/job/Singapore---Int-Business-Park/AI-Solution-Engineer--LLM---Agentic-AI-_R52181 contains matching detailed LLM/RAG/Agent responsibilities and qualification text to source's full listing. Existing live GitHub WAIT #847 is exact Evonik AI Solution Engineer (LLM & Agentic AI) R52181, with same official route. Both Gmail accounts searched 2026-11-12: primary mailbox contains official 2026-11-03 application receipt subject 'Application Received for R52181 AI Solution Engineer (LLM & Agentic AI)'; secondary mailbox has no contrary evidence. JobStreet ID 95287266 direct page not readable, so identity is reconciled through uniquely matching employer/title/full job content and exact employer receipt. No new application."
+        "source_key": "sg:07dcd62d224496e47de5",
+        "status": "DEDUPED"
       },
       "seq": 85,
       "source": "freehire:public-api:SG",
@@ -4719,10 +4843,10 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Solution Engineer (LLM & Agentic AI)",
-      "url": "https://sg.jobstreet.com/job/95287266",
-      "acknowledged_at": "2026-11-12T19:57:29+08:00"
+      "url": "https://sg.jobstreet.com/job/95287266"
     },
     {
+      "acknowledged_at": "2026-11-13T02:00:00+08:00",
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -4745,6 +4869,17 @@
       "prior_wait_employer_hint": true,
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-13T02:00:00+08:00",
+        "decision": "DEDUPED_PRIOR_WAIT",
+        "employer_requisition": "92102",
+        "evidence": "Official AMD requisition 92102 has identical employer title and substantive Agentic AI/RAG JD to JobStreet 95358234 source; existing WAIT #673 matches 92102. Both Gmail accounts checked; 2026-10-26 employer application confirmation for exact title in second Gmail. Cross-source role identity confirmed; no reapplication.",
+        "existing_issue": 673,
+        "official_route": "https://careers.amd.com/careers-home/jobs/92102",
+        "source_key": "sg:745d7a90442b12ce3e04",
+        "status": "DEDUPED"
+      },
       "seq": 61,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -4752,21 +4887,10 @@
       "source_listing_url": "",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer (Software Development Engineer)",
-      "url": "https://sg.jobstreet.com/job/95358234",
-      "scout_review": {
-        "status": "DEDUPED",
-        "decision": "DEDUPED_PRIOR_WAIT",
-        "ack": true,
-        "checked_at": "2026-11-13T02:00:00+08:00",
-        "source_key": "sg:745d7a90442b12ce3e04",
-        "existing_issue": 673,
-        "employer_requisition": "92102",
-        "official_route": "https://careers.amd.com/careers-home/jobs/92102",
-        "evidence": "Official AMD requisition 92102 has identical employer title and substantive Agentic AI/RAG JD to JobStreet 95358234 source; existing WAIT #673 matches 92102. Both Gmail accounts checked; 2026-10-26 employer application confirmation for exact title in second Gmail. Cross-source role identity confirmed; no reapplication."
-      },
-      "acknowledged_at": "2026-11-13T02:00:00+08:00"
+      "url": "https://sg.jobstreet.com/job/95358234"
     },
     {
+      "acknowledged_at": "2026-11-13T02:00:00+08:00",
       "ats_key": "freehire|research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
       "company": "Agency for Science, Technology and Research",
       "consumer_review": {
@@ -4783,15 +4907,15 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "DEDUPED",
-        "decision": "DEDUPED_PRIOR_WAIT",
         "ack": true,
         "checked_at": "2026-11-13T02:00:00+08:00",
-        "source_key": "sg:6d663588836b04a27f88",
-        "existing_issue": 699,
+        "decision": "DEDUPED_PRIOR_WAIT",
         "employer_requisition": "1129",
+        "evidence": "Official A*STAR requisition 1129 full JD matches source Research Engineer, Cybersecurity, IAIC; existing WAIT #699 is same employer/title/1129 and candidate-confirmed submitted. Employer receipt dated 2026-10-27 in second Gmail; both Gmail accounts checked. No reapplication.",
+        "existing_issue": 699,
         "official_route": "https://careers.a-star.edu.sg/default/job/Research-Engineer%2C-Cybersecurity/1129-en_GB",
-        "evidence": "Official A*STAR requisition 1129 full JD matches source Research Engineer, Cybersecurity, IAIC; existing WAIT #699 is same employer/title/1129 and candidate-confirmed submitted. Employer receipt dated 2026-10-27 in second Gmail; both Gmail accounts checked. No reapplication."
+        "source_key": "sg:6d663588836b04a27f88",
+        "status": "DEDUPED"
       },
       "seq": 62,
       "source": "freehire:public-api:SG",
@@ -4800,8 +4924,7 @@
       "source_listing_url": "",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, Cybersecurity, IAIC",
-      "url": "https://sg.jobstreet.com/job/95443052",
-      "acknowledged_at": "2026-11-13T02:00:00+08:00"
+      "url": "https://sg.jobstreet.com/job/95443052"
     }
   ],
   "version": 1
