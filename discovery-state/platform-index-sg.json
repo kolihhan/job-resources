@@ -1416,7 +1416,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-12T00:38:11.091900Z",
       "key": "sg:94c2be085b116dae884e",
-      "last_error": null,
+      "last_error": "2026-11-12 21:xx MYT: JobStreet 95839572 indexed as Lenovo Singapore AI Research Engineer (Qira team); no exact Lenovo-owned requisition/full employer JD/current non-MCF apply route established. Both Gmail accounts searched for Lenovo: older applications for different Lenovo AI roles exist, no authoritative exact Qira requisition match. GitHub all-state Lenovo research search found no exact SG AI Research Engineer. Missing exactly: Lenovo employer-controlled requisition with full JD and usable live application route for JobStreet 95839572. Preserve Pending.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
@@ -1430,7 +1430,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Research Engineer",
-      "url": "https://sg.jobstreet.com/job/95839572"
+      "url": "https://sg.jobstreet.com/job/95839572",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T21:03:31+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "2026-11-12 21:xx MYT: JobStreet 95839572 indexed as Lenovo Singapore AI Research Engineer (Qira team); no exact Lenovo-owned requisition/full employer JD/current non-MCF apply route established. Both Gmail accounts searched for Lenovo: older applications for different Lenovo AI roles exist, no authoritative exact Qira requisition match. GitHub all-state Lenovo research search found no exact SG AI Research Engineer. Missing exactly: Lenovo employer-controlled requisition with full JD and usable live application route for JobStreet 95839572. Preserve Pending."
+      }
     },
     {
       "api_source_context": {
@@ -1483,7 +1490,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-12T09:45:46.991485Z",
       "key": "sg:6464410ff071566d82d4",
-      "last_error": null,
+      "last_error": "2026-11-12 21:xx MYT: GitHub BLOCKED #804 documents UMELIFE LLM Evaluation Engineer employer requisition MCF-2026-1785368 and mandatory vLLM/SGLang gap. Queue JobStreet 95602065 has same employer/title but no independently verified exact requisition crosswalk. Both Gmail accounts searched Umelife, no receipts. Missing exactly: employer-authored JD or exact requisition crosswalk proving JobStreet 95602065 is the same vacancy as BLOCKED #804; do not infer duplicate or repeat hard rejection from title alone. Preserve Pending.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Boon Keng, Central Region",
@@ -1496,7 +1503,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Large Language Model (LLM) Evaluation Engineer",
-      "url": "https://sg.jobstreet.com/job/95602065"
+      "url": "https://sg.jobstreet.com/job/95602065",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T21:03:31+08:00",
+        "decision": "PRESERVE_PENDING",
+        "status": "RETRY",
+        "missing_evidence": "2026-11-12 21:xx MYT: GitHub BLOCKED #804 documents UMELIFE LLM Evaluation Engineer employer requisition MCF-2026-1785368 and mandatory vLLM/SGLang gap. Queue JobStreet 95602065 has same employer/title but no independently verified exact requisition crosswalk. Both Gmail accounts searched Umelife, no receipts. Missing exactly: employer-authored JD or exact requisition crosswalk proving JobStreet 95602065 is the same vacancy as BLOCKED #804; do not infer duplicate or repeat hard rejection from title alone. Preserve Pending."
+      }
     }
   ],
   "terminal": [
