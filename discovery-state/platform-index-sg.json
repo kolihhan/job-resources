@@ -220,7 +220,7 @@
       "description_excerpt": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we ",
       "first_seen_at": "2026-11-09T15:02:24.825456Z",
       "key": "sg:027f8a0aedd695252806",
-      "last_error": "Exact Micron Workday JR111138 live application form inaccessible on 2026-11-12. Gmail rejection is JR111136, a DIFFERENT requisition; do not transfer eligibility or submission history. Need exact JR111138 live employer apply route.",
+      "last_error": "Exact employer Workday JR111138 application page returned access error on 2026-11-12 14:xx MYT. Gmail account lihhanko3 has rejection for different JR111136 (2026-11-05), not JR111138. Missing evidence: usable current employer application form for JR111138.",
       "market": "SG",
       "platform": "workday official ATS",
       "prior_wait_employer_hint": true,
@@ -230,8 +230,8 @@
         "status": "RETRY",
         "decision": "PRESERVE_PENDING",
         "ack": false,
-        "checked_at": "2026-11-12T13:05:00+08:00",
-        "missing_evidence": "Exact Micron Workday JR111138 live application form inaccessible on 2026-11-12. Gmail rejection is JR111136, a DIFFERENT requisition; do not transfer eligibility or submission history. Need exact JR111138 live employer apply route."
+        "checked_at": "2026-11-12T14:15:00+08:00",
+        "missing_evidence": "Exact employer Workday JR111138 application page returned access error on 2026-11-12 14:xx MYT. Gmail account lihhanko3 has rejection for different JR111136 (2026-11-05), not JR111138. Missing evidence: usable current employer application form for JR111138."
       },
       "seq": 48,
       "source": "freehirefetch:official-ats:SG",
@@ -938,7 +938,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T17:44:46.023167Z",
       "key": "sg:66e51dbae99b1f7e3eae",
-      "last_error": "OpenAI Ashby requisition 8acfba11-707e-4d8e-a860-88643fae24ba must be matched to the employer's 2026-09 Applied AI Engineer application/rejection (Issue #103): historical receipt names role but does not establish exact Ashby ID. Verify employer application-history requisition identity before duplicate ACK or new APPLY.",
+      "last_error": "Exact OpenAI Ashby 8acfba11-707e-4d8e-a860-88643fae24ba public JD indexed and employer role still searchable 2026-11-12; direct page requires JavaScript. First Gmail has 2026-09-21 OpenAI Applied AI Engineer application update and GitHub prior REJECTED same role. Missing evidence: authoritative requisition ID of prior OpenAI application to distinguish this exact Ashby role; do not create repeat APPLY.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
@@ -950,11 +950,11 @@
         "status": "RETRY"
       },
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T23:58:00+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "OpenAI Ashby requisition 8acfba11-707e-4d8e-a860-88643fae24ba must be matched to the employer's 2026-09 Applied AI Engineer application/rejection (Issue #103): historical receipt names role but does not establish exact Ashby ID. Verify employer application-history requisition identity before duplicate ACK or new APPLY.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-12T14:15:00+08:00",
+        "missing_evidence": "Exact OpenAI Ashby 8acfba11-707e-4d8e-a860-88643fae24ba public JD indexed and employer role still searchable 2026-11-12; direct page requires JavaScript. First Gmail has 2026-09-21 OpenAI Applied AI Engineer application update and GitHub prior REJECTED same role. Missing evidence: authoritative requisition ID of prior OpenAI application to distinguish this exact Ashby role; do not create repeat APPLY."
       },
       "seq": 102,
       "source": "freehirefetch:official-ats:SG",
@@ -1462,7 +1462,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-11T17:52:50.191054Z",
       "key": "sg:23ff9550cb5e63aa5290",
-      "last_error": "Exact Clera Ashby 0890b84c-3391-457c-b762-4d42e558acc9 live employer apply form inaccessible on 2026-11-12; other Clera Ashby IDs cannot establish this requisition. Need exact 0890b84c-3391-457c-b762-4d42e558acc9 live employer apply route.",
+      "last_error": "Exact employer Ashby Clera 0890b84c-3391-457c-b762-4d42e558acc9 page returned access error on 2026-11-12. Both Gmail accounts show no exact QC Automation receipt; this is not proof of no submission. Missing evidence: live employer application form for exact 0890b84c-3391-457c-b762-4d42e558acc9.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
@@ -1471,8 +1471,8 @@
         "status": "RETRY",
         "decision": "PRESERVE_PENDING",
         "ack": false,
-        "checked_at": "2026-11-12T13:05:00+08:00",
-        "missing_evidence": "Exact Clera Ashby 0890b84c-3391-457c-b762-4d42e558acc9 live employer apply form inaccessible on 2026-11-12; other Clera Ashby IDs cannot establish this requisition. Need exact 0890b84c-3391-457c-b762-4d42e558acc9 live employer apply route."
+        "checked_at": "2026-11-12T14:15:00+08:00",
+        "missing_evidence": "Exact employer Ashby Clera 0890b84c-3391-457c-b762-4d42e558acc9 page returned access error on 2026-11-12. Both Gmail accounts show no exact QC Automation receipt; this is not proof of no submission. Missing evidence: live employer application form for exact 0890b84c-3391-457c-b762-4d42e558acc9."
       },
       "seq": 128,
       "source": "freehirefetch:official-ats:SG",
