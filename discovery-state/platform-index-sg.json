@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-12T08:48:34.799931Z",
-    "source": "ntu:official-cxs:SG",
+    "at": "2026-11-12T09:45:46.991529Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 15,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 15
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "SG",
-  "next_seq": 132,
+  "next_seq": 133,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1438,8 +1438,8 @@
         "ack": false,
         "checked_at": "2026-11-12T17:00:00+08:00",
         "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact employer Ashby requisition 0890b84c-3391-457c-b762-4d42e558acc9 current live application form remains inaccessible (direct fetch error 2026-11-12). Public search finds different Clera QC Automation Ashby IDs 53fc40b6-f5d1-4485-8ec5-c19c12482432 and 00718fe4-0c03-4887-8336-7d123aa667b4; these do not establish identity or current route of queued ID. Both Gmail accounts and all-state GitHub QC Automation search yielded no exact submission, not proof of unsubmitted. Preserve Pending; do not ACK."
+        "missing_evidence": "Exact employer Ashby requisition 0890b84c-3391-457c-b762-4d42e558acc9 current live application form remains inaccessible (direct fetch error 2026-11-12). Public search finds different Clera QC Automation Ashby IDs 53fc40b6-f5d1-4485-8ec5-c19c12482432 and 00718fe4-0c03-4887-8336-7d123aa667b4; these do not establish identity or current route of queued ID. Both Gmail accounts and all-state GitHub QC Automation search yielded no exact submission, not proof of unsubmitted. Preserve Pending; do not ACK.",
+        "status": "RETRY"
       },
       "seq": 128,
       "source": "freehirefetch:official-ats:SG",
@@ -1536,6 +1536,34 @@
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
       "url": "https://sg.jobstreet.com/job/95245670"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<strong>Job Responsibilities</strong><br><ul>\n<li>Build and maintain an automated LLM evaluation pipeline covering multiple dimensions, including general capabilities, Agent capabilities, and persona/role-playing. The pipeline should support one-click evaluation, historical result comparison, and regression testing.</li>\n<li>Conduct general capability evaluations using benchmarks such as MMLU, C-Eval, HumanEval, GSM8K, MATH, and IFEval, including benchmark deployment, execution, and results analysis.</li>\n<li>Conduct Agent capability evaluations, including setting up evaluation environments and tracking metrics for benchmarks such as BFCL, τ-bench, and GAIA.</li>\n<li>Design and execute persona/role-playing evaluation frameworks, covering metrics such as identity recognition, role compatibility, multi-turn stability, and style consistency.</li>\n<li>Record and analyze evaluation results from training runs, conduct comparative analysis and anomaly detection, and produce checkpoint evaluation reports.</li>\n<li>Conduct regular intermediate evaluations during the pre-training stage to track the evolution and improvement of model capabilities.</li>\n</ul>\n<strong>Job Requirements</strong><br><ul>\n<li>Bachelor's degree or above in Computer Science, Artificial Intelligence, or a related field.</li>\n<li>Familiarity with mainstream LLM evaluation benchmarks and frameworks, such as lm-eval-harness, OpenCompass, and EvalPlus.</li>\n<li>Strong proficiency in Python, with the ability to independently build evaluation pipelines covering model inference/deployment, batch evaluation, and results analysis.</li>\n<li>Familiarity with LLM inference frameworks such as vLLM and SGLang, with the ability to deploy models for batch inference and evaluation.</li>\n<li>Experience in evaluation data analysis and visualization.</li>\n<li>Detail-oriented and rigorous, with a strong focus on ensuring the reproducibility and reliability of evaluation results.</li>\n</ul>\n<strong>Preferred Qualifications / Nice to Have</strong><br><ul>\n<li>Experience with Agent evaluation, particularly BFCL, τ-bench, GAIA, or SWE-bench.</li>\n<li>Experience with persona or role-playing evaluation, such as CharacterBench or RMTBench.</li>\n<li>Experience with evaluation automation and CI/CD integration.</li>\n<li>Understanding of model training workflows, with the ability to understand the relationship between training checkpoints and evaluation results.</li>\n</ul>",
+        "truncated": false
+      },
+      "ats_key": "freehire|large-language-model-llm-evaluation-engineer-umelife-n4vnlcek",
+      "company": "Umelife",
+      "description_excerpt": "<strong>Job Responsibilities</strong><br><ul>\n<li>Build and maintain an automated LLM evaluation pipeline covering multiple dimensions, including general capabilities, Agent capabilities, and persona/role-playing. The pipeline should suppor",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-12T09:45:46.991485Z",
+      "key": "sg:6464410ff071566d82d4",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Boon Keng, Central Region",
+      "retries": 0,
+      "seq": 132,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "large-language-model-llm-evaluation-engineer-umelife-n4vnlcek",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Large Language Model (LLM) Evaluation Engineer",
+      "url": "https://sg.jobstreet.com/job/95602065"
     }
   ],
   "terminal": [
