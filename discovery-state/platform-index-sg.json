@@ -1429,17 +1429,17 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-11T17:52:50.191054Z",
       "key": "sg:23ff9550cb5e63aa5290",
-      "last_error": "Exact employer Ashby Clera 0890b84c-3391-457c-b762-4d42e558acc9 page returned access error on 2026-11-12. Both Gmail accounts show no exact QC Automation receipt; this is not proof of no submission. Missing evidence: live employer application form for exact 0890b84c-3391-457c-b762-4d42e558acc9.",
+      "last_error": "Exact employer Ashby requisition 0890b84c-3391-457c-b762-4d42e558acc9 current live application form remains inaccessible (direct fetch error 2026-11-12). Public search finds different Clera QC Automation Ashby IDs 53fc40b6-f5d1-4485-8ec5-c19c12482432 and 00718fe4-0c03-4887-8336-7d123aa667b4; these do not establish identity or current route of queued ID. Both Gmail accounts and all-state GitHub QC Automation search yielded no exact submission, not proof of unsubmitted. Preserve Pending; do not ACK.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
         "ack": false,
-        "checked_at": "2026-11-12T14:15:00+08:00",
+        "checked_at": "2026-11-12T17:00:00+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact employer Ashby Clera 0890b84c-3391-457c-b762-4d42e558acc9 page returned access error on 2026-11-12. Both Gmail accounts show no exact QC Automation receipt; this is not proof of no submission. Missing evidence: live employer application form for exact 0890b84c-3391-457c-b762-4d42e558acc9.",
-        "status": "RETRY"
+        "status": "RETRY",
+        "missing_evidence": "Exact employer Ashby requisition 0890b84c-3391-457c-b762-4d42e558acc9 current live application form remains inaccessible (direct fetch error 2026-11-12). Public search finds different Clera QC Automation Ashby IDs 53fc40b6-f5d1-4485-8ec5-c19c12482432 and 00718fe4-0c03-4887-8336-7d123aa667b4; these do not establish identity or current route of queued ID. Both Gmail accounts and all-state GitHub QC Automation search yielded no exact submission, not proof of unsubmitted. Preserve Pending; do not ACK."
       },
       "seq": 128,
       "source": "freehirefetch:official-ats:SG",
