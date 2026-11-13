@@ -297,7 +297,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T09:44:08.167491Z",
       "key": "sg:ac3611345f6626bdf6ca",
-      "last_error": null,
+      "last_error": "Exact Capco employer-owned requisition and complete employer-authored JD for JobStreet 95323886; exact JobStreet page inaccessible on 2026-11-14 and no official employer mapping verified.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "People's Park, Central Region",
@@ -310,7 +310,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95323886"
+      "url": "https://sg.jobstreet.com/job/95323886",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-14T01:56:32+08:00",
+        "missing_evidence": "Exact Capco employer-owned requisition and complete employer-authored JD for JobStreet 95323886; exact JobStreet page inaccessible on 2026-11-14 and no official employer mapping verified."
+      }
     },
     {
       "api_source_context": {
@@ -594,7 +601,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T17:44:46.022933Z",
       "key": "sg:2e798863011c6d4daa42",
-      "last_error": null,
+      "last_error": "Exact MediaCorp employer-authored full JD and usable application route corresponding to JobStreet 95739444; exact JobStreet page inaccessible on 2026-11-14.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -607,7 +614,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95739444"
+      "url": "https://sg.jobstreet.com/job/95739444",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-14T01:56:32+08:00",
+        "missing_evidence": "Exact MediaCorp employer-authored full JD and usable application route corresponding to JobStreet 95739444; exact JobStreet page inaccessible on 2026-11-14."
+      }
     },
     {
       "api_source_context": {
