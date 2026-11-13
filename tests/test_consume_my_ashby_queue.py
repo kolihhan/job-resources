@@ -65,6 +65,19 @@ class MYConsumerTest(unittest.TestCase):
             m.run(seed(),[],board(),confirm_issue=lambda *_:True,now=NOW)
         with self.assertRaisesRegex(ValueError,"complete first-party"):
             m.run(seed(),[{"number":1}],{"message":"blocked"},confirm_issue=lambda *_:True,now=NOW)
+    def test_legacy_naive_review_timestamp_does_not_abort_consumer(self):
+        s = seed()
+        s["pending"][0]["consumer_review"] = {
+            "stage": "NEEDS_CANONICAL_EMPLOYER_JD",
+            "checked_at": "2026-11-07T10:00:00"}
+        s, report = m.run(s, [{"number": 1}], board(),
+                          confirm_issue=lambda *_: True, now=NOW)
+        self.assertEqual(report["considered"], 0)
+        s, report = m.run(s, [{"number": 1}], board(),
+                          confirm_issue=lambda *_: True,
+                          now=NOW + timedelta(hours=49))
+        self.assertEqual(report["verified_jd"], 1)
+
     def test_recent_rerun_is_idempotent(self):
         s,_=m.run(seed(),[{"number":1}],board(),confirm_issue=lambda *_:True,now=NOW)
         s,r=m.run(s,[{"number":1}],board(),confirm_issue=lambda *_:True,
