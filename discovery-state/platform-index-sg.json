@@ -532,7 +532,7 @@
       "ats_key": "freehire|ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
       "company": "Investment Company Of The People'S Republic Of China (Singapore) Pte Ltd",
       "consumer_review": {
-        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "checked_at": "2026-11-13T11:07:48.141249Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -565,7 +565,7 @@
       "ats_key": "freehire|ai-engineer-mediacorp-4b2n7moq",
       "company": "MediaCorp",
       "consumer_review": {
-        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "checked_at": "2026-11-13T11:07:48.141249Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -598,7 +598,7 @@
       "ats_key": "freehire|ai-engineer-smai-micron-semiconductors-rlcf6oav",
       "company": "Micron Semiconductors",
       "consumer_review": {
-        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "checked_at": "2026-11-13T11:07:48.141249Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -632,7 +632,7 @@
       "ats_key": "grab|smartrecruiters|744000148945093",
       "company": "Grab",
       "consumer_review": {
-        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "checked_at": "2026-11-13T11:07:48.141249Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -706,7 +706,7 @@
       "ats_key": "freehire|ai-engineer-micron-semiconductors-55cs736q",
       "company": "Micron Semiconductors",
       "consumer_review": {
-        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "checked_at": "2026-11-13T11:07:48.141249Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -739,7 +739,7 @@
       "ats_key": "freehire|ai-engineer-multimedia-engineering-pte-ltd-cbuvwmc4",
       "company": "Multimedia Engineering Pte Ltd",
       "consumer_review": {
-        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "checked_at": "2026-11-13T11:07:48.141249Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -766,7 +766,7 @@
       "ats_key": "ncs3|smartrecruiters|6000000001031326",
       "company": "NCS",
       "consumer_review": {
-        "checked_at": "2026-11-11T11:06:36.093256Z",
+        "checked_at": "2026-11-13T11:07:48.141249Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1173,11 +1173,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-13T18:56:47+08:00",
-        "missing_evidence": "Exact Clera Ashby 0890b84c-3391-457c-b762-4d42e558acc9 employer application page/accepting status remains inaccessible. Indexed employer pages for same-title QC Automation have different UUIDs (53fc40b6-f5d1-4485-8ec5-c19c12482432, 00718fe4-0c03-4887-8336-7d123aa667b4). Cannot transfer liveness or CLOSED #967; need exact UUID live route or authoritative alias mapping."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Clera Ashby 0890b84c-3391-457c-b762-4d42e558acc9 employer application page/accepting status remains inaccessible. Indexed employer pages for same-title QC Automation have different UUIDs (53fc40b6-f5d1-4485-8ec5-c19c12482432, 00718fe4-0c03-4887-8336-7d123aa667b4). Cannot transfer liveness or CLOSED #967; need exact UUID live route or authoritative alias mapping.",
+        "status": "RETRY"
       },
       "seq": 128,
       "source": "freehirefetch:official-ats:SG",
@@ -1432,11 +1432,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-13T18:56:47+08:00",
-        "missing_evidence": "Exact Clera Ashby a51984da-7278-46bd-a0c5-939d2ac72999 employer application page/accepting status remains inaccessible. Indexed employer pages for same-title Benchmarks use different UUIDs (58f6f9be-99f0-469d-9334-088f40836f9e, ed8a86b0-09ce-4bf9-bdac-e0ef2819e1ed); cannot transfer liveness or identify with CLOSED #277. Need exact UUID live apply route or authoritative employer alias mapping."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Clera Ashby a51984da-7278-46bd-a0c5-939d2ac72999 employer application page/accepting status remains inaccessible. Indexed employer pages for same-title Benchmarks use different UUIDs (58f6f9be-99f0-469d-9334-088f40836f9e, ed8a86b0-09ce-4bf9-bdac-e0ef2819e1ed); cannot transfer liveness or identify with CLOSED #277. Need exact UUID live apply route or authoritative employer alias mapping.",
+        "status": "RETRY"
       },
       "seq": 136,
       "source": "freehirefetch:official-ats:SG",
