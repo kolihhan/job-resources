@@ -482,17 +482,19 @@
       "ats_key": "ntu|workday|/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1",
       "company": "NTU Singapore",
       "consumer_review": {
-        "checked_at": "2026-11-10T12:21:10+00:00",
+        "checked_at": "2026-11-13T05:05:19.634049Z",
+        "employment_time_type": "Full time",
         "full_jd_complete": true,
         "full_jd_text": "The Lee Kong Chian School of Medicine (LKCMedicine) trains doctors who put patients at the centre of their exemplary care. The School, which offers both undergraduate and graduate programmes, is named after local philanthropist Tan Sri Dato Lee Kong Chian. Established in 2010 by Nanyang Technological University, Singapore, in partnership with Imperial College London, LKCMedicine aims to be a model for innovative medical education and a centre for transformative research. The School’s primary clinical partner is the National Healthcare Group, a leader in public healthcare recognised for the quality of its medical expertise, facilities and teaching. The School is transitioning to an NTU medical school ahead of the 2028 successful conclusion of the NTU-Imperial partnership to set up a Joint Medical School. In August 2024, we welcomed our first intake of the NTU MBBS programme, that has been recently enhanced to include themes like precision medicine and Artificial Intelligence (AI) in healthcare, with an expanded scope in the medical humanities. Graduates from the five-year undergraduate medical degree programme will have a strong understanding of the scientific basis of medicine, with an emphasis on technology, data science and the humanities. The Neuroscience and Artificial Intelligence Research (Nair) group at Lee Kong Chian School of Medicine, NTU, is seeking a Research Assistant/Associate to contribute to interdisciplinary research at the intersection of neuroscience and artificial intelligence. The role is open to experimental and computational candidates, including those who wish to contribute through combined approaches to neural and behavioural data. Key Responsibilities: Collect and analyse research data Develop and document experimental and/or computational workflows Contribute to presentations, grants and publications Participate in lab meetings and collaborative research Key Competencies and Requirements: Bachelor’s (Research Assistant) or Master’s (Research Associate) degree in a relevant discipline Experience or strong interest in neuroscience, AI, machine learning, data analysis or experimental research Programming and quantitative skills are desirable Good written and oral communication skills, ability to work independently and collaboratively Interdisciplinary backgrounds are welcome We regret to inform that only shortlisted candidates will be notified. Hiring Institution: LKC",
         "jd_chars": 2434,
         "jd_sha256": "a7aebfb2433455ed036032d4c187e706b74256b7f138244c2fad127cef3535f8",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
+        "job_description_excerpt": "The Lee Kong Chian School of Medicine (LKCMedicine) trains doctors who put patients at the centre of their exemplary care. The School, which offers both undergraduate and graduate programmes, is named after local philanthropist Tan Sri Dato Lee Kong ",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00026296",
+        "review_flags": [],
+        "signals": [],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
         "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "The Lee Kong Chian School of Medicine (LKCMedicine) trains doctors who put patients at the centre of their exemplary care. The School, which offers both undergraduate and graduate programmes, is named after local philanthropist Tan Sri Dato",
@@ -531,7 +533,7 @@
       "ats_key": "freehire|ai-engineer-infineum-singapore-pte-ltd-4ja3tnxs",
       "company": "Infineum Singapore Pte Ltd",
       "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "checked_at": "2026-11-13T05:05:19.634049Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -692,20 +694,9 @@
       "ats_key": "openai|ashby|8acfba11-707e-4d8e-a860-88643fae24ba",
       "company": "OpenAI",
       "consumer_review": {
-        "checked_at": "2026-11-10T17:38:00+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "About the Team OpenAI’s Applied AI Engineering team helps organizations turn frontier AI capabilities into safe, reliable, and high-impact production systems. We work with customer executives, product and engineering teams, security leaders, and transformation teams to identify valuable opportunities, accelerate technical implementation, and scale what works. Enterprise deployments are defined by complexity rather than any one industry: existing architectures, diverse data environments, security and governance requirements, multiple stakeholder groups, and organization-wide change. We turn lessons from these deployments into better products and reusable patterns for customers everywhere. About the Role As an Applied AI Engineer you will partner directly with leading organizations to design, build, and deploy AI systems that deliver measurable business outcomes. You will combine deep technical judgment, hands-on engineering, and customer leadership to take ambitious ideas from use-case selection and architecture through prototyping, evaluation, production launch, and scale. You will write and debug code, build evaluation systems, resolve complex integrations, and guide decisions involving model behavior, reliability, latency, cost, safety, security, governance, and operational readiness. Success is measured by production systems, sustained adoption, and meaningful customer impact—not simply activity or successful demonstrations. This is a rare opportunity to work on consequential real-world deployments at the frontier of AI while directly influencing how OpenAI’s products evolve. This role is based in Singapore. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees In this role, you will: - Partner directly with enterprise customers to identify high-value opportunities and translate them into technical architectures, implementation plans, evaluation strategies, and measurable success criteria. - Design, build, and deploy AI systems that solve important customer problems and produce measurable business outcomes. - Work hands-on in code to build prototypes, evaluation harnesses, reference implementations, integrations, and production accelerators. - Make sound technical decisions across models, agents, retrieval, tools, data, reliability, observability, latency, cost, safety, security, and governance. - Diagnose complex implementation challenges, reproduce failures, test hypotheses, and drive blockers toward resolution. - Help customers progress from promising prototypes to reliable production systems, sustained adoption, and scaled impact. - Partner closely with customer engineering teams and OpenAI Product, Research, Engineering, Security, and go-to-market teams, translating deployment experience into high-signal product feedback. - Create reusable architectures, tooling, playbooks, and technical guidance that accelerate future enterprise deployments. You’ll thrive in this role if you: - Have a demonstrated track record of designing, building, and delivering AI or machine-learning systems in enterprise environments, including taking systems from prototype to production. Relevant backgrounds may include applied AI or ML engineering, forward-deployed engineering, software engineering, customer engineering, solutions architecture, or technical consulting. - Can point to substantial personal contributions in code, architecture, evaluation, debugging, or production engineering—not only program or stakeholder management. - Are highly proficient in Python and comfortable working across an AI application stack; experience with JavaScript, TypeScript, or another relevant language is valuable. - Understand how to evaluate AI systems systematically using representative data, graders, production signals, and human judgment. - Have navigated enterprise production requirements such as integrations, reliability, observability, security, privacy, data governance, performance, and cost. - Can connect technical decisions to customer workflows, adoption, and measurable business outcomes. - Communicate with clarity and credibility across hands-on engineers, technical leaders, security teams, product leaders, and executives. - Bring high agency, strong technical judgment, and end-to-end ownership in ambiguous environments. - Learn quickly, challenge assumptions constructively, and collaborate with humility; experience in a particular industry or with OpenAI products is not required. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "jd_chars": 7302,
-        "jd_sha256": "23e76fe329d1e2867e4e1f7fb9884d5c84e796aebe340afcb04350e1d652cf01",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "possible_prior_issue": 103,
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+        "checked_at": "2026-11-13T05:05:19.634049Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "About the Team OpenAI’s Applied AI Engineering team helps organizations turn frontier AI capabilities into safe, reliable, and high-impact production systems. We work with customer executives, product and engineering teams, security leaders",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
@@ -825,10 +816,10 @@
       "retries": 0,
       "scout_review": {
         "ack": false,
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "checked_at": "2026-11-13T03:00:00Z",
-        "missing_evidence": "Exact NCS SmartRecruiters 6000000001031326 first-party full JD and live apply form inaccessible. A different currently indexed NCS Platform AI Engineer requisition 6000000000787599 has a complete JD (3–5 professional software years and 1–2 AI/ML/LLM production/pre-production years), but is NOT evidence that 6000000001031326 is identical or accepting. Missing exactly: employer-authored current JD and application route for requisition 6000000001031326. Both Gmail accounts searched exact NCS Platform AI title; no receipt. Preserve Pending."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NCS SmartRecruiters 6000000001031326 first-party full JD and live apply form inaccessible. A different currently indexed NCS Platform AI Engineer requisition 6000000000787599 has a complete JD (3–5 professional software years and 1–2 AI/ML/LLM production/pre-production years), but is NOT evidence that 6000000001031326 is identical or accepting. Missing exactly: employer-authored current JD and application route for requisition 6000000001031326. Both Gmail accounts searched exact NCS Platform AI title; no receipt. Preserve Pending.",
+        "status": "RETRY"
       },
       "seq": 110,
       "source": "freehirefetch:official-ats:SG",
@@ -1198,8 +1189,9 @@
       "ats_key": "freehire|machine-learning-engineer-ai-search-tiktok-search-tiktok-55t7baxa",
       "company": "TikTok",
       "consumer_review": {
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "possible_prior_issue": 806
+        "checked_at": "2026-11-13T05:05:19.634049Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "<strong>Responsibilities</strong><br><p>Our Search Team focuses on LLM application algorithms for TikTok Search, with core scenarios including AI Search and TikTok AI Bot. We build search question-answer cards via LLM-powered generation and",
       "discovery_access": "API_PROXY_ONLY",
@@ -1539,6 +1531,11 @@
       },
       "ats_key": "aidevboard|ea5b7783-81b9-410d-9f5a-4f3fb32f4d15",
       "company": "Exa",
+      "consumer_review": {
+        "checked_at": "2026-11-13T05:05:19.634049Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "Exa is an applied AI lab building a search engine unlike the world has ever seen. We build massive-scale infra to crawl the entire web, train state-of-the-art embedding models to process it, and design super high performant vector databases",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T02:37:19.169225Z",
@@ -1567,6 +1564,22 @@
       },
       "ats_key": "freehire|senior-research-engineer-i-satellite-system-hardware-ntu-ldy4hatx",
       "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-13T05:05:19.634049Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "The School of EEE invites applications for the position of Senior Research Engineer I (Satellite System Hardware). The Research Engineer will work on a project to conduct the research on development of energy harvesting systems used in low power smart sensors for monitoring of buildings and bridges, as well as the integration of energy harvesters, power management circuit and monitoring sensors. Key Responsibilities: Design and develop MCU/MPU/SOC platform. Analyze system requirements and generate modular specifications. Identify and qualify components for spacecraft operation. Build, test and modify prototypes. Circuit validation and system operational validation. Test and characterize circuits. Code and debug in embedded C. FPGA programming. Guide/design printed circuits to comply to EMC/EMI requirements. Work with team members to ensure smooth integration of various subsystems. Document all process and implementation. Manage tasks according to project schedule. Support the centre and project operation, such as satellite mission operation, satellite testing and student activities. Work on a project to conduct the research on development of energy harvesting systems used in low power smart sensors for monitoring of buildings and bridges. Work on integration of energy harvesters, power management circuit and monitoring sensors. Job Requirements: Bachelor‘s degree and above in Electronic Engineering or related field from a reputable university. Diploma with good industry experience may also be considered. Experience in MCU/MPU/SOC embedded system platform design and programming. Good understanding and ability in analog and digital circuit design Proficient and good skill in pcb artwork such as Altium or Orcad. Knowledge of various embedded hardware and application systems. Experience in generation of design specification documentation, schematic capture, and circuit analysis and simulation. Experience with debugging tools such as bus and spectrum analyzer. Experience in CAN, SPI, I2C bus protocols. Able to multi-task and work in a dynamic environment. Fluent verbal and written communications in English. Complete full product life cycle knowledge is preferred. Experiences in FPGA, Analog or RF design is preferred. We regret that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 2336,
+        "jd_sha256": "4a0249a88fe00f7fd0ccdc467156ec7afa5c8ce36d4c0ef6829729f434812764",
+        "job_description_excerpt": "The School of EEE invites applications for the position of Senior Research Engineer I (Satellite System Hardware). The Research Engineer will work on a project to conduct the research on development of energy harvesting systems used in low power smar",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00016505",
+        "review_flags": [],
+        "signals": [],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<p><span><span>The School of EEE invites applications for the position of Senior Research Engineer I (Satellite System Hardware).</span></span></p><p><span><span> </span></span></p><p><span><span>The Research Engineer will work on a project",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T02:37:19.169259Z",
