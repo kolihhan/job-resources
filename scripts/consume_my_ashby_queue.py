@@ -26,7 +26,11 @@ def run(state,issues,board,confirm_issue,now=None,limit=12):
     now=now or datetime.now(timezone.utc)
     iso=now.isoformat().replace("+00:00","Z")
     jobs={str(j.get("id")):j for j in board["jobs"] if isinstance(j,dict)}
-    selected=sorted((r for r in state["pending"] if due(r,now)),
+    # This consumer owns only Gen Digital's exact first-party Ashby roles.
+    # Source intake may label them freehirefetch:official-ats:MY; do not
+    # classify unrelated JobStreet/public-API queue entries here.
+    selected=sorted((r for r in state["pending"]
+                     if UUID.fullmatch(str(r.get("url") or "")) and due(r,now)),
                     key=lambda r:(bool(r.get("consumer_review")),r["seq"]))[:limit]
     report={"observed_at":iso,"market":"MY","official_board_total":len(board["jobs"]),
             "considered":0,"verified_jd":0,"issue_ack":0,"retry_or_other":0,
