@@ -217,7 +217,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T01:29:36.461096Z",
       "key": "sg:a49399a037fc2ea10ff8",
-      "last_error": null,
+      "last_error": "Exact Capco employer-owned requisition and full JD, with a current employer-controlled apply route; JobStreet 95033957 is only a public listing.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -230,7 +230,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer New",
-      "url": "https://sg.jobstreet.com/job/95033957"
+      "url": "https://sg.jobstreet.com/job/95033957",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-13T08:07:42Z",
+        "missing_evidence": "Exact Capco employer-owned requisition and full JD, with a current employer-controlled apply route; JobStreet 95033957 is only a public listing."
+      }
     },
     {
       "api_source_context": {
@@ -349,17 +356,17 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T11:51:21.094147Z",
       "key": "sg:15841de26cbbcb44ef8b",
-      "last_error": "Exact School of Computing/NUS employer-owned requisition page containing full backend/platform RA JD and usable application route; current public-feed slug is not an employer job ID.",
+      "last_error": "Exact NUS School of Computing requisition 34363 employer-authored full JD and current direct application route; aggregator title alone does not prove eligibility or open status.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Kent Ridge, Central Region",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T01:02:09+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact School of Computing/NUS employer-owned requisition page containing full backend/platform RA JD and usable application route; current public-feed slug is not an employer job ID.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-13T08:07:42Z",
+        "missing_evidence": "Exact NUS School of Computing requisition 34363 employer-authored full JD and current direct application route; aggregator title alone does not prove eligibility or open status."
       },
       "seq": 84,
       "source": "freehire:public-api:SG",
