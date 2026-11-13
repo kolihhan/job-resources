@@ -196,8 +196,8 @@
       "employment_type": null,
       "external_id": "careers.micron.com/micron.com:44435900",
       "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
       "location": "Singapore, Singapore",
       "market": "SG",
       "posted_at": "2026-09-10T00:00:00Z",
@@ -208,7 +208,7 @@
       "title": "AI Engineer, SMAI"
     }
   ],
-  "generated_at": "2026-11-13T02:10:27.451068Z",
+  "generated_at": "2026-11-13T10:04:40.148926Z",
   "market": "SG",
   "max_candidate_seq": 1358,
   "min_candidate_seq": 1348,

@@ -6,29 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1398,
-      "company": "Cisco Systems",
-      "employment_type": null,
-      "external_id": "6290:94358726",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-08-24T12:00:00Z",
-      "public_slug": "solutions-engineer-artificial-intelligence-ai-practitioner-cisco-systems-oukmzlvc",
-      "role_key": "freehire:solutions-engineer-artificial-intelligence-ai-practitioner-cisco-systems-oukmzlvc",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94358726?utm_source=freehire.me",
-      "title": "Solutions Engineer - Artificial Intelligence (AI) Practitioner"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1399,
       "company": "ocbc",
       "employment_type": "full_time",
@@ -197,12 +174,33 @@
       "source": "manatal",
       "source_url": "https://www.careers-page.com/cultivar/job/QVV97536?utm_source=freehire.me",
       "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1412,
+      "company": "Cultivar Asia Pte Ltd (EA License 19C9782)",
+      "employment_type": null,
+      "external_id": "cultivar:L393X86V",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-17T22:27:02Z",
+      "public_slug": "ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-hkomc6am",
+      "role_key": "freehire:ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-hkomc6am",
+      "source": "manatal",
+      "source_url": "https://www.careers-page.com/cultivar/job/L393X86V?utm_source=freehire.me",
+      "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-13T02:10:27.451068Z",
+  "generated_at": "2026-11-13T10:04:40.148926Z",
   "market": "SG",
-  "max_candidate_seq": 1411,
-  "min_candidate_seq": 1398,
+  "max_candidate_seq": 1412,
+  "min_candidate_seq": 1399,
   "shard_index": 21,
   "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",

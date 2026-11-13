@@ -6,27 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1425,
-      "company": "RN CARE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:88141093",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-13T08:41:34Z",
-      "public_slug": "ai-data-center-solutions-engineer-rn-care-pte-ltd-nslf76wy",
-      "role_key": "freehire:ai-data-center-solutions-engineer-rn-care-pte-ltd-nslf76wy",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88141093__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Data Center Solutions Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1426,
       "company": "Bitdeer Technologies Group",
       "employment_type": null,
@@ -180,12 +159,35 @@
       "source": "eightfold",
       "source_url": "https://careers.micron.com/careers/job/43709450?utm_source=freehire.me",
       "title": "Data Scientist"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:data_science",
+        "jd:machine_learning",
+        "jd:agent"
+      ],
+      "candidate_seq": 1444,
+      "company": "Micron Technology",
+      "employment_type": null,
+      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/MSB-Singapore/Data-Scientist_JR106408",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "MSB, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-07T00:00:00Z",
+      "public_slug": "data-scientist-micron-technology-vfxhdzc6",
+      "role_key": "freehire:data-scientist-micron-technology-vfxhdzc6",
+      "source": "workday",
+      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Data-Scientist_JR106408?utm_source=freehire.me",
+      "title": "Data Scientist"
     }
   ],
-  "generated_at": "2026-11-13T02:10:27.451068Z",
+  "generated_at": "2026-11-13T10:04:40.148926Z",
   "market": "SG",
-  "max_candidate_seq": 1443,
-  "min_candidate_seq": 1425,
+  "max_candidate_seq": 1444,
+  "min_candidate_seq": 1426,
   "shard_index": 23,
   "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",

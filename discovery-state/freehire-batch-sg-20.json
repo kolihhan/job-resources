@@ -6,27 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1384,
-      "company": "Epiq Company",
-      "employment_type": null,
-      "external_id": "backend developer:90597808",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-29T17:47:55Z",
-      "public_slug": "backend-engineer-ai-platform-epiq-company-usepb5h4",
-      "role_key": "freehire:backend-engineer-ai-platform-epiq-company-usepb5h4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90597808__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer, AI Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1385,
       "company": "DSO National Laboratories",
       "employment_type": null,
@@ -188,12 +167,35 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90389926__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Data AI Engineer – Cloud-Native Health Analytics"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1398,
+      "company": "Cisco Systems",
+      "employment_type": null,
+      "external_id": "6290:94358726",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-08-24T12:00:00Z",
+      "public_slug": "solutions-engineer-artificial-intelligence-ai-practitioner-cisco-systems-oukmzlvc",
+      "role_key": "freehire:solutions-engineer-artificial-intelligence-ai-practitioner-cisco-systems-oukmzlvc",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94358726?utm_source=freehire.me",
+      "title": "Solutions Engineer - Artificial Intelligence (AI) Practitioner"
     }
   ],
-  "generated_at": "2026-11-13T02:10:27.451068Z",
+  "generated_at": "2026-11-13T10:04:40.148926Z",
   "market": "SG",
-  "max_candidate_seq": 1396,
-  "min_candidate_seq": 1384,
+  "max_candidate_seq": 1398,
+  "min_candidate_seq": 1385,
   "shard_index": 20,
   "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",

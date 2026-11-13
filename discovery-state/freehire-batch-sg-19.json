@@ -6,29 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1371,
-      "company": "AVANADE ASIA PTE LTD",
-      "employment_type": null,
-      "external_id": "full stack developer:90892208",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-03T09:47:41Z",
-      "public_slug": "client-embedded-ai-full-stack-engineer-avanade-asia-pte-ltd-zz6lmj7v",
-      "role_key": "freehire:client-embedded-ai-full-stack-engineer-avanade-asia-pte-ltd-zz6lmj7v",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90892208__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Client-Embedded AI/Full-Stack Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1373,
       "company": "Micron Technology",
       "employment_type": null,
@@ -178,12 +155,33 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90596473__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Data Platform Engineer – Cloud, AI/APIs"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1384,
+      "company": "Epiq Company",
+      "employment_type": null,
+      "external_id": "backend developer:90597808",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-29T17:47:55Z",
+      "public_slug": "backend-engineer-ai-platform-epiq-company-usepb5h4",
+      "role_key": "freehire:backend-engineer-ai-platform-epiq-company-usepb5h4",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90597808__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer, AI Platform"
     }
   ],
-  "generated_at": "2026-11-13T02:10:27.451068Z",
+  "generated_at": "2026-11-13T10:04:40.148926Z",
   "market": "SG",
-  "max_candidate_seq": 1383,
-  "min_candidate_seq": 1371,
+  "max_candidate_seq": 1384,
+  "min_candidate_seq": 1373,
   "shard_index": 19,
   "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",

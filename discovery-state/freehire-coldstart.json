@@ -14629,33 +14629,6 @@
       "ai_score": 6,
       "ai_signals": [
         "title:ai",
-        "jd:agent",
-        "jd:rag"
-      ],
-      "company": "ncs3",
-      "created_at": "2026-10-17T08:44:59Z",
-      "description_excerpt": "<p>This role sits within NCS AI Central&#39;s (AIC) Forward Deployed Engineering (FDE) model — the combined capability that takes AI solutions from proof-of-concept through to hardened production systems. As Fullstack Developer, you build both the frontend and backend of Gen AI applications — from UI through API and cloud deployment — operating across both fast-moving FDE engagements (POC/POV, pilot deployments) and steady-state system development and maintenance work.</p><p> </p><p><strong>What will you do:</strong></p><p><strong>1. Frontend Development</strong></p><ul><li>Build a simple, cle",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "ncs3:6000000001495687",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/eg-fullstack-developer-ai-applications-ncs3-aausyoay",
-      "identity": "eg-fullstack-developer-ai-applications-ncs3-aausyoay",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-16T09:27:18Z",
-      "public_slug": "eg-fullstack-developer-ai-applications-ncs3-aausyoay",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001495687--eg-fullstack-developer-ai-applications?utm_source=freehire.me",
-      "title": "#EG Fullstack Developer – AI Applications"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
         "jd:genai",
         "jd:machine_learning"
       ],
@@ -37234,39 +37207,14 @@
       "flags": [],
       "freehire_url": "https://freehire.me/jobs/ai-engineer-smai-micron-xeh7afuq",
       "identity": "ai-engineer-smai-micron-xeh7afuq",
-      "known_match_basis": null,
-      "known_status": "unseen",
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
       "location": "Singapore, Singapore",
       "market": "SG",
       "posted_at": "2026-09-10T00:00:00Z",
       "public_slug": "ai-engineer-smai-micron-xeh7afuq",
       "source": "eightfold",
       "source_url": "https://careers.micron.com/careers/job/44435900?utm_source=freehire.me",
-      "title": "AI Engineer, SMAI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "company": "Micron Technology",
-      "created_at": "2026-09-10T10:47:21Z",
-      "description_excerpt": "<p><b>Our vision is to transform how the world uses information to enrich life for all.</b></p><p></p><p>Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we build help make everything from virtual reality experiences to breakthroughs in neural networks possible. We do it all while committing to integrity, sustainability, and giving back to our communities. Because doing so can fuel the very innovation we are pursuing.</p><p></p><p></p><p><b>AI Engineer, SMAI</b></p><p><b>Job Summary</b></p",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/ai-engineer-smai-micron-technology-syclz5d4",
-      "identity": "ai-engineer-smai-micron-technology-syclz5d4",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Fab 10A, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-10T00:00:00Z",
-      "public_slug": "ai-engineer-smai-micron-technology-syclz5d4",
-      "source": "workday",
-      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138?utm_source=freehire.me",
       "title": "AI Engineer, SMAI"
     },
     {
@@ -70876,8 +70824,8 @@
       "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-13T02:10:27.044055Z",
-  "known_exact_count": 43,
+  "generated_at": "2026-11-13T10:04:39.743181Z",
+  "known_exact_count": 45,
   "machine_candidate_counts": {
     "CN": 825,
     "MY": 315,
@@ -70902,10 +70850,10 @@
       "unseen": 295
     },
     "SG": {
-      "known_exact": 21,
+      "known_exact": 23,
       "source": 1492,
-      "suspected_known": 23,
-      "unseen": 1448
+      "suspected_known": 24,
+      "unseen": 1445
     }
   },
   "raw_counts": {
@@ -70913,15 +70861,15 @@
     "MY": 4896,
     "SG": 14258
   },
-  "review_count": 2589,
+  "review_count": 2587,
   "source_count": 2632,
   "source_generated_at": "2026-11-12T23:50:44.844150Z",
-  "suspected_known_count": 52,
+  "suspected_known_count": 53,
   "title_hard_drop_counts": {
     "CN": 554,
     "MY": 694,
     "SG": 2401
   },
-  "unseen_count": 2537,
+  "unseen_count": 2534,
   "version": 1
 }
