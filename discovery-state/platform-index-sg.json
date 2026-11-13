@@ -817,7 +817,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T23:16:08.393004Z",
       "key": "sg:48ad9cf13607232c4166",
-      "last_error": "Exact NCS SmartRecruiters 6000000001031326 full employer JD and live application form remain inaccessible (2026-11-12 23:xx MYT). Indexed NCS 6000000000787599 is a distinct requisition and cannot substitute. Both Gmail accounts searched: Singtel AI Platform Engineer receipt (2026-10-27) and NCS graduate AI SWE receipt (2026-09-24) exist, but neither establishes 6000000001031326 identity. Missing exactly: current first-party full JD and usable application route for requisition 6000000001031326.",
+      "last_error": "Exact NCS SmartRecruiters 6000000001031326 first-party full JD and live apply form inaccessible. A different currently indexed NCS Platform AI Engineer requisition 6000000000787599 has a complete JD (3–5 professional software years and 1–2 AI/ML/LLM production/pre-production years), but is NOT evidence that 6000000001031326 is identical or accepting. Missing exactly: employer-authored current JD and application route for requisition 6000000001031326. Both Gmail accounts searched exact NCS Platform AI title; no receipt. Preserve Pending.",
       "market": "SG",
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
@@ -825,10 +825,10 @@
       "retries": 0,
       "scout_review": {
         "ack": false,
-        "checked_at": "2026-11-12T23:04:27+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact NCS SmartRecruiters 6000000001031326 full employer JD and live application form remain inaccessible (2026-11-12 23:xx MYT). Indexed NCS 6000000000787599 is a distinct requisition and cannot substitute. Both Gmail accounts searched: Singtel AI Platform Engineer receipt (2026-10-27) and NCS graduate AI SWE receipt (2026-09-24) exist, but neither establishes 6000000001031326 identity. Missing exactly: current first-party full JD and usable application route for requisition 6000000001031326.",
-        "status": "RETRY"
+        "checked_at": "2026-11-13T03:00:00Z",
+        "missing_evidence": "Exact NCS SmartRecruiters 6000000001031326 first-party full JD and live apply form inaccessible. A different currently indexed NCS Platform AI Engineer requisition 6000000000787599 has a complete JD (3–5 professional software years and 1–2 AI/ML/LLM production/pre-production years), but is NOT evidence that 6000000001031326 is identical or accepting. Missing exactly: employer-authored current JD and application route for requisition 6000000001031326. Both Gmail accounts searched exact NCS Platform AI title; no receipt. Preserve Pending."
       },
       "seq": 110,
       "source": "freehirefetch:official-ats:SG",
