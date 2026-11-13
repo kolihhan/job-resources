@@ -40,7 +40,7 @@ def run(state,issues,board,confirm_issue,now=None,limit=12):
         item={"seq":row["seq"],"title":row["title"],"url":row["url"]}
         try:
             match=UUID.fullmatch(row["url"])
-            if not match or row.get("source")!=SOURCE:
+            if not match:
                 row["consumer_review"]={"stage":"NEEDS_CANONICAL_EMPLOYER_JD",
                        "checked_at":iso}
                 item["state"]="NEEDS_CANONICAL_EMPLOYER_JD"
