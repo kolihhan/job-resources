@@ -227,31 +227,6 @@
       "url": "https://jobs.ashbyhq.com/bjakcareer/56f522c4-b903-45ea-bb08-952b74641b56"
     },
     {
-      "ats_key": "freehire|ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
-      "company": "Astek",
-      "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<strong>Role Overview</strong><br><p>We are looking for an experienced AI Security Engineer to design, implement, and secure an enterprise-wide AI Guardrails platform supporting AI-enabled applications.</p>\n<p>The role will focus on deliver",
-      "first_seen_at": "2026-11-09T16:44:38.947281Z",
-      "key": "sg:a2414d304422992e3237",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Raffles Place, Central Region",
-      "retries": 0,
-      "seq": 63,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
-      "source_listing_url": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Security Engineer – AI Guardrails / LLM Security",
-      "url": "https://sg.jobstreet.com/job/95181678"
-    },
-    {
       "ats_key": "freehire|ai-engineer-new-capco-the-capital-market-company-group-g7s3ahkf",
       "company": "Capco (The Capital Market Company Group)",
       "consumer_review": {
@@ -4926,6 +4901,41 @@
         "evidence": "NTU first-party full JD explicitly requires 'Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping' and 'Proficiency in hardware description languages (HDLs) such as Verilog or VHDL'. Core duties are chiplet IC security, FPGA/TEE cryptographic hardware integration, not LLM/NLP/Agent research or substantive AI software engineering. Candidate evidence is software/NLP/LLM, not FPGA hardware. Exact R00021553 and title searched in all-state GitHub Issues and both Gmail accounts: no matching application. Official Workday requisition page indexed as active but exact direct page is JS-only; rejection is based on definitive employer JD hard technical mismatch, not route failure."
       },
       "acknowledged_at": "2026-11-13T06:00:00+08:00"
+    },
+    {
+      "ats_key": "freehire|ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
+      "company": "Astek",
+      "consumer_review": {
+        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<strong>Role Overview</strong><br><p>We are looking for an experienced AI Security Engineer to design, implement, and secure an enterprise-wide AI Guardrails platform supporting AI-enabled applications.</p>\n<p>The role will focus on deliver",
+      "first_seen_at": "2026-11-09T16:44:38.947281Z",
+      "key": "sg:a2414d304422992e3237",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Raffles Place, Central Region",
+      "retries": 0,
+      "seq": 63,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
+      "source_listing_url": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Security Engineer – AI Guardrails / LLM Security",
+      "url": "https://sg.jobstreet.com/job/95181678",
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-13T10:03:21+08:00",
+        "decision": "HARD_REJECTED",
+        "status": "HARD_REJECTED",
+        "source_key": "sg:a2414d304422992e3237",
+        "employer_requisition": "JobStreet 95181678 / LinkedIn 4476295033 (cross-platform title match; employer ATS ID not established)",
+        "evidence": "Astek's full role description reproduced on LinkedIn (same exact employer and title) says 'At least 6 years of experience in Cybersecurity, Application Security, Cloud Security, Platform Security, or Secure Software Engineering' and 'Minimum 2 years of hands-on experience in AI Security ... within an enterprise environment'. Requires AWS EKS/Kubernetes, security threat modeling, DevSecOps and AI security delivery; candidate has no verified professional AI security experience. LinkedIn listing explicitly says 'No longer accepting applications'. GitHub all-state search for Astek returned zero; both Gmail accounts Astek AI Security search returned only generic job alerts, not application receipts. Reject for documented mandatory skills/experience mismatch; exact JobStreet listing route was not verified as open."
+      },
+      "acknowledged_at": "2026-11-13T10:03:21+08:00"
     }
   ],
   "version": 1
