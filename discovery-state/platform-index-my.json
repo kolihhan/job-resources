@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-12T21:34:55.845357Z",
+    "at": "2026-11-13T09:57:27.406525Z",
     "source": "devglobal:public-api:MY",
     "stats": {
       "already_seen": 0,
@@ -2998,6 +2998,7 @@
         "stage": "NEEDS_CANONICAL_EMPLOYER_JD"
       },
       "description_excerpt": "<div><div>\n<strong>Overview</strong><br><p> is at the forefront of technology innovation, delivering breakthroughs and trusted insights in electronic design, simulation, prototyping, test, manufacturing, and optimization. Our ~15,000 employ",
+      "evidence_url": "https://my.jobstreet.com/job/93005874",
       "first_seen_at": "2026-11-09T16:44:38.986927Z",
       "key": "my:89a9294eee6198ab541f",
       "last_error": null,
@@ -3005,6 +3006,7 @@
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
       "query": "Penang",
+      "reason": "Keysight employer-authored AI/ML Engineer JD expressly requires 2–3 years of professional ML/AI Engineer experience delivering classical ML and GenAI systems, plus classical/time-series ML; candidate has part-time paid web/backend development and academic/personal AI projects but no proven professional AI Engineer YOE. MY TOP hard qualification mis",
       "retries": 0,
       "seq": 32,
       "source": "freehire:public-api:MY",
@@ -3013,9 +3015,7 @@
       "source_listing_url": "",
       "state": "HARD_REJECTED",
       "title": "AI/ML Engineer",
-      "url": "https://my.jobstreet.com/job/93005874",
-      "reason": "Keysight employer-authored AI/ML Engineer JD expressly requires 2–3 years of professional ML/AI Engineer experience delivering classical ML and GenAI systems, plus classical/time-series ML; candidate has part-time paid web/backend development and academic/personal AI projects but no proven professional AI Engineer YOE. MY TOP hard qualification mis",
-      "evidence_url": "https://my.jobstreet.com/job/93005874"
+      "url": "https://my.jobstreet.com/job/93005874"
     }
   ],
   "version": 1
