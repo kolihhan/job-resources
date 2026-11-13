@@ -135,34 +135,6 @@
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>NVIDIA is the engine of modern AI. For over 25 years our work in accelerated computing has redefined computer graphics, autonomous machines, and now physical AI. We are looking for an AI Developer Technology Engineer to join our DevTech team in China.  this role you will work directly with the developers and researchers building the next generation of robots, helping them get the most out of NVIDIA GPUs across simulation, training, and deployment. You will be part of an exceptionally experienced, globally distributed team dedicated to pushing the boundaries of embodied AI.</p><br/><p><b>What you’ll be doing</b></p><ul><li>Partner with leading robotics developers and research teams in China to design, optimize, and scale embodied AI workloads on NVIDIA platforms</li><li>Develop on and extend frameworks such as Isaac Lab, Megatron Core and VLM/VLA/WA inference framework, ensuring flawless performance at scale</li><li>Profile and optimize GPU-based physics simulation, robot foundation model training and inference pipelines; drive the findings back into our products</li><li>Build reference workflows and samples for imitation learning, reinforcement learning, and VLA/WA/VLM model training/inference</li><li>Discuss your approach and results with NVIDIA engineers and external developers to continuously improve processes</li><li>Collaborate closely with architecture, research, libraries, tools, and system software teams to invent and develop next-generation architectures, software platforms, and programming models</li><li>Represent NVIDIA technically at developer events, workshops, and customer engagements in the region</li></ul><br/><p><b>What we need to see:</b></p><ul><li>Bachelor&#39;s degree in Computer Science, Robotics, Engineering, or a related field, or equivalent experience.</li><li>3+ working year experience.</li><li>Experience with C++, CUDA, Python, and Linux.</li><li>Proven experience with one or more physics simulators such as MuJoCo, Isaac Sim, PyBullet, Drake, or Gazebo.</li><li>Strong communication skills and the ambition to grow and learn about building machine learning applications, optimization, and software engineering.</li><li>Prior involvement with embodied AI or a history at humanoid robotics firms with a focus on physics simulation.</li></ul><br/><p>Widely considered to be one of the technology world’s most desirable employers, NVIDIA offers highly competitive salaries and a comprehensive benefits package.Are you a creative and autonomous computer scientist with a real passion for parallel computing? If so, we want to hear from you.</p><p></p><p></p><p></p><p></p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-developer-technology-engineer-nvidia-wxtukfl6",
-      "company": "NVIDIA",
-      "description_excerpt": "<p>NVIDIA is the engine of modern AI. For over 25 years our work in accelerated computing has redefined computer graphics, autonomous machines, and now physical AI. We are looking for an AI Developer Technology Engineer to join our DevTech ",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-09T16:57:31.171564Z",
-      "key": "cn:acde4dc95c2a346a20e8",
-      "last_error": null,
-      "market": "CN",
-      "platform": "public jobs API (unverified)",
-      "query": "China, Shanghai",
-      "retries": 0,
-      "seq": 21,
-      "source": "freehire:public-api:CN",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-developer-technology-engineer-nvidia-wxtukfl6",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Developer Technology Engineer",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
         "text": "<p>我们正在寻找优秀的博士毕业生加入Zoom下一代智能协作平台开发团队。团队致力于构建多模态AI Agent开发框架和智能协作系统，深度集成于Zoom Workplace生态。通过前沿智能体技术重构会议调度、客户端、跨团队协作等场景体验，我们为博士人才提供从学术研究到产业落地的理想平台。团队技术氛围浓厚，鼓励技术创新与开源贡献，您将参与前沿Agent架构设计与复杂系统攻坚，与全球顶尖工程师协作，共同定义AI驱动的未来工作方式。</p><h2>研究与开发方向：</h2><ul><li><p>多智能体协同框架研发，构建具备复杂任务推理、规划与执行能力的自主代理系统</p></li><li><p>大型语言模型（LLM）与多模态模型在智能协作场景中的应用研究</p></li><li><p>Agent行为决策机制与可解释性研究</p></li><li><p>基于知识图谱的Agent认知增强与推理优化</p></li><li><p>实时交互式Agent系统在Zoom生态中的创新应用</p></li></ul><h2>岗位职责：</h2><ul><li><p>主导多智能体协同框架的研发，设计具备任务推理、规划与执行能力的自主代理系统，解决复杂环境下的协调挑战</p></li><li><p>深入研究并实现智能助手、智能客服、会议助理等场景的核心技术，设计可解释的Agent行为决策机制</p></li><li><p>将博士研究成果转化为产品创新，协同产品、算法、工程团队完成系统集成</p></li><li><p>推动前沿LLM和Agentic AI框架在实际生产场景中的应用，从根本上改变人们在工作和日常生活中的沟通和协作方式</p></li><li><p>参与学术交流与发表，保持团队在AI Agent领域的技术领先性</p></li></ul><h2>任职要求：</h2><ul><li><p>计算机科学、人工智能、自然语言处理或相关领域博士学位（应届或1-3年工作经验）</p></li><li><p>在NLP/LLM/Agent相关方向有扎实的研究背景，在顶级会议或期刊（如NeurIPS、ICML、ICLR、ACL、EMNLP等）发表过高质量论文</p></li><li><p>精通Transformer架构及主流LLM技术栈（如LangChain、LangGraph、AutoGen），熟悉LLM微调、推理优化及评估方法论</p></li><li><p>具备多智能体系统研发经验，掌握ReAct、CoT等推理框架，熟悉Agent行为建模技术</p></li><li><p>扎实的机器学习基础，熟悉知识图谱构建、检索增强生成（RAG）及强化学习技术</p></li><li><p>优秀的编程能力，熟练掌握Python及至少一种深度学习框架（PyTorch/TensorFlow）</p></li></ul><p><span></span></p><p></p><p><b>Ways of Working</b><br/>Our structured hybrid approach is centered around our offices and remote work environments. The work style of each role, Hybrid, Remote, or In-Person is indicated in the job description/posting.</p><p></p><p><b>Benefits</b><br/>As part of our award-winning workplace culture and commitment to delivering happiness, our benefits program offers a variety of perks, benefits, and options to help employees maintain their physical, mental, emotional, and financial health; support work-life balance; and contribute to their community in meaningful ways. Click Learn for more information.</p><p></p><p><b>About Us</b><br/>Zoomies help people stay connected so they can get more done together. We set out to build the best collaboration platform for the enterprise, and today help people communicate better with products like Zoom Contact Center, Zoom Phone, Zoom Events, Zoom Apps, Zoom Rooms, and Zoom Webinars.<br/>We’re problem-solvers, working at a fast pace to design solutions with our customers and users in mind. <span>Find room to grow with opportunities to stretch your skills and advance your career in a collaborative, growth-focused environment.</span></p><p><br/><b>Our Commitment​</b></p><p><span>At Zoom, we believe great work happens when people feel supported and empowered. We’re committed to fair hiring practices that ensure every candidate is evaluated based on skills, experience, and potential. If you require an accommodation during the hiring process, let us know—we’re here to support you at every step.</span></p><p></p><p>If you need assistance navigating the interview process due to a medical disability, please submit an Accommodations Request Form and someone from our team will reach out soon. This form is solely for applicants who require an accommodation due to a qualifying medical disability. <span><span><span><span><span>Non-accommodation-related</span></span></span></span></span> requests, such as application follow-ups or technical issues, will not be addressed.</p><p></p><p></p>",
         "truncated": false
       },
@@ -2202,6 +2174,36 @@
       "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/AI-Engineer---Technical-Leader--Agentic-AI---FPGA-Systems-_R02849",
       "reason": "Altera employer Workday R02849 requires an experienced technical leader who mentors senior engineers and owns FPGA/ASIC architecture/model optimization; candidate lacks mandatory hardware acceleration and mature AI technical leadership experience.",
       "evidence_url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/AI-Engineer---Technical-Leader--Agentic-AI---FPGA-Systems-_R02849"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>NVIDIA is the engine of modern AI. For over 25 years our work in accelerated computing has redefined computer graphics, autonomous machines, and now physical AI. We are looking for an AI Developer Technology Engineer to join our DevTech team in China.  this role you will work directly with the developers and researchers building the next generation of robots, helping them get the most out of NVIDIA GPUs across simulation, training, and deployment. You will be part of an exceptionally experienced, globally distributed team dedicated to pushing the boundaries of embodied AI.</p><br/><p><b>What you’ll be doing</b></p><ul><li>Partner with leading robotics developers and research teams in China to design, optimize, and scale embodied AI workloads on NVIDIA platforms</li><li>Develop on and extend frameworks such as Isaac Lab, Megatron Core and VLM/VLA/WA inference framework, ensuring flawless performance at scale</li><li>Profile and optimize GPU-based physics simulation, robot foundation model training and inference pipelines; drive the findings back into our products</li><li>Build reference workflows and samples for imitation learning, reinforcement learning, and VLA/WA/VLM model training/inference</li><li>Discuss your approach and results with NVIDIA engineers and external developers to continuously improve processes</li><li>Collaborate closely with architecture, research, libraries, tools, and system software teams to invent and develop next-generation architectures, software platforms, and programming models</li><li>Represent NVIDIA technically at developer events, workshops, and customer engagements in the region</li></ul><br/><p><b>What we need to see:</b></p><ul><li>Bachelor&#39;s degree in Computer Science, Robotics, Engineering, or a related field, or equivalent experience.</li><li>3+ working year experience.</li><li>Experience with C++, CUDA, Python, and Linux.</li><li>Proven experience with one or more physics simulators such as MuJoCo, Isaac Sim, PyBullet, Drake, or Gazebo.</li><li>Strong communication skills and the ambition to grow and learn about building machine learning applications, optimization, and software engineering.</li><li>Prior involvement with embodied AI or a history at humanoid robotics firms with a focus on physics simulation.</li></ul><br/><p>Widely considered to be one of the technology world’s most desirable employers, NVIDIA offers highly competitive salaries and a comprehensive benefits package.Are you a creative and autonomous computer scientist with a real passion for parallel computing? If so, we want to hear from you.</p><p></p><p></p><p></p><p></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-developer-technology-engineer-nvidia-wxtukfl6",
+      "company": "NVIDIA",
+      "description_excerpt": "<p>NVIDIA is the engine of modern AI. For over 25 years our work in accelerated computing has redefined computer graphics, autonomous machines, and now physical AI. We are looking for an AI Developer Technology Engineer to join our DevTech ",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-09T16:57:31.171564Z",
+      "key": "cn:acde4dc95c2a346a20e8",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "China, Shanghai",
+      "retries": 0,
+      "seq": 21,
+      "source": "freehire:public-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-developer-technology-engineer-nvidia-wxtukfl6",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "HARD_REJECTED",
+      "title": "AI Developer Technology Engineer",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383",
+      "reason": "NVIDIA official Workday JR2027383 requires C++, CUDA, Linux and proven robotics physics simulator (Isaac Sim/MuJoCo/Gazebo etc.) experience, alongside embodied-AI/robotics work; candidate has NLP/LLM/RAG and part-time web backend, not these mandatory robotics/accelerator capabilities.",
+      "evidence_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383"
     }
   ],
   "version": 1
