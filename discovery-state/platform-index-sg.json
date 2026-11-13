@@ -1655,53 +1655,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Associate (Embodied AI Safety)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-Safety-_R00024943"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research.  With over 3,000 undergraduates students and 1,000 graduate students it is one of the largest EEE schools in the world and ranks 10th in the field of Electrical &amp; Electronic Engineering in the 2024 QS World University Rankings by Subjects.</p><p>Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges.</p><p>For more details, please view: </p><p><span>We are looking for a highly skilled Research Associate with experience in RISC-V architecture. The successful candidate will be responsible for adding a Hardware AES and ASCON Accelerator to the RISC-V CVA6 core. This role requires deep knowledge of hardware design, cryptographic algorithms, and the RISC-V instruction set architecture (ISA). You will work closely with the AES and ASCON designers in our team to ensure seamless integration and optimal performance of the cryptographic accelerators.</span></p><p><b>Key Responsibilities:</b></p><p>Design and Implementation:</p><ul><li><p>Integrate a Hardware AES Accelerator and ASCON Lightweight Cryptography Accelerator into the RISC-V CVA6 (Ariane) core.</p></li><li><p>Implement memory-mapped interfaces or custom instructions for the accelerators to interface with the CVA6 core.</p></li><li><p>Collaborate on the integration of the accelerators into the core&#39;s execution pipeline.</p></li></ul><p>RISC-V ISA Extension:</p><ul><li><p>Define and implement custom RISC-V instructions to utilize the AES and ASCON hardware accelerators, if needed.</p></li><li><p>Modify the RISC-V CVA6 decode and execution stages to handle the new cryptographic instructions.</p></li><li><p>Work out the toolchain to ensure assembler, compiler, and simulation support for the custom instructions.</p></li></ul><p>Verification and Testing:</p><ul><li><p>Conduct simulations to evaluate the performance, latency, and throughput of the accelerators within the CVA6 pipeline.</p></li><li><p>Work closely with the AES and ASCON accelerator design team to ensure proper testing and debugging of the hardware integration.</p></li></ul><p><b>Job Requirements:</b></p><ul><li><p>Master’s degree in Electrical Engineering, Computer Engineering, or a related field.</p></li><li><p>Proven experience with RISC-V architecture, especially with custom instruction extensions and pipeline modifications.</p></li><li><p>Proficiency in HDL languages (Verilog, VHDL, or SystemVerilog) and RTL design.</p></li><li><p>Proficiency in toolchain modification, including the ability to extend assemblers and compilers (GCC, LLVM) for custom hardware instructions.</p></li><li><p>Proficiency of FPGA development tools such as Vivado, Quartus, or similar for prototyping.</p></li></ul><p>Preferred Additional Skills:</p><ul><li><p>Strong understanding of ASIC/FPGA design flows, including synthesis, place and route, and timing closure.</p></li><li><p>Experience in cryptography and implementing cryptographic algorithms in hardware (AES, ASCON, etc.).</p></li></ul><p>We regret to inform that only shortlisted candidates will be notified.</p>Hiring Institution: NTU",
-        "truncated": false
-      },
-      "ats_key": "freehire|research-associate-ic-design-ntu-mdyyz5nl",
-      "company": "Ntu",
-      "consumer_review": {
-        "checked_at": "2026-11-13T21:27:05.542569Z",
-        "employment_time_type": "Full time",
-        "full_jd_complete": true,
-        "full_jd_text": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 1,000 graduate students it is one of the largest EEE schools in the world and ranks 10th in the field of Electrical & Electronic Engineering in the 2024 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee We are looking for a highly skilled Research Associate with experience in RISC-V architecture. The successful candidate will be responsible for adding a Hardware AES and ASCON Accelerator to the RISC-V CVA6 core. This role requires deep knowledge of hardware design, cryptographic algorithms, and the RISC-V instruction set architecture (ISA). You will work closely with the AES and ASCON designers in our team to ensure seamless integration and optimal performance of the cryptographic accelerators. Key Responsibilities: Design and Implementation: Integrate a Hardware AES Accelerator and ASCON Lightweight Cryptography Accelerator into the RISC-V CVA6 (Ariane) core. Implement memory-mapped interfaces or custom instructions for the accelerators to interface with the CVA6 core. Collaborate on the integration of the accelerators into the core's execution pipeline. RISC-V ISA Extension: Define and implement custom RISC-V instructions to utilize the AES and ASCON hardware accelerators, if needed. Modify the RISC-V CVA6 decode and execution stages to handle the new cryptographic instructions. Work out the toolchain to ensure assembler, compiler, and simulation support for the custom instructions. Verification and Testing: Conduct simulations to evaluate the performance, latency, and throughput of the accelerators within the CVA6 pipeline. Work closely with the AES and ASCON accelerator design team to ensure proper testing and debugging of the hardware integration. Job Requirements: Master’s degree in Electrical Engineering, Computer Engineering, or a related field. Proven experience with RISC-V architecture, especially with custom instruction extensions and pipeline modifications. Proficiency in HDL languages (Verilog, VHDL, or SystemVerilog) and RTL design. Proficiency in toolchain modification, including the ability to extend assemblers and compilers (GCC, LLVM) for custom hardware instructions. Proficiency of FPGA development tools such as Vivado, Quartus, or similar for prototyping. Preferred Additional Skills: Strong understanding of ASIC/FPGA design flows, including synthesis, place and route, and timing closure. Experience in cryptography and implementing cryptographic algorithms in hardware (AES, ASCON, etc.). We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
-        "jd_chars": 3102,
-        "jd_sha256": "a3aad94c51ad708aa6cee8c979e791bb5b52200c234391114de92402e38be586",
-        "job_description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergradua",
-        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
-        "req_id": "R00019126",
-        "review_flags": [],
-        "signals": [
-          "evaluation"
-        ],
-        "source_kind": "NTU Workday first party",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research.  With over 3,0",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-13T14:30:55.790134Z",
-      "key": "sg:12efbc0ecdb9d31ccace",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "NTU Main Campus, Singapore",
-      "retries": 0,
-      "seq": 141,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "research-associate-ic-design-ntu-mdyyz5nl",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Associate (IC Design)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--IC-Design-_R00019126"
     }
   ],
   "terminal": [
@@ -5263,6 +5216,62 @@
       "state": "ISSUE_VERIFIED",
       "title": "AI Engineer, SMAI",
       "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research.  With over 3,000 undergraduates students and 1,000 graduate students it is one of the largest EEE schools in the world and ranks 10th in the field of Electrical &amp; Electronic Engineering in the 2024 QS World University Rankings by Subjects.</p><p>Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges.</p><p>For more details, please view: </p><p><span>We are looking for a highly skilled Research Associate with experience in RISC-V architecture. The successful candidate will be responsible for adding a Hardware AES and ASCON Accelerator to the RISC-V CVA6 core. This role requires deep knowledge of hardware design, cryptographic algorithms, and the RISC-V instruction set architecture (ISA). You will work closely with the AES and ASCON designers in our team to ensure seamless integration and optimal performance of the cryptographic accelerators.</span></p><p><b>Key Responsibilities:</b></p><p>Design and Implementation:</p><ul><li><p>Integrate a Hardware AES Accelerator and ASCON Lightweight Cryptography Accelerator into the RISC-V CVA6 (Ariane) core.</p></li><li><p>Implement memory-mapped interfaces or custom instructions for the accelerators to interface with the CVA6 core.</p></li><li><p>Collaborate on the integration of the accelerators into the core&#39;s execution pipeline.</p></li></ul><p>RISC-V ISA Extension:</p><ul><li><p>Define and implement custom RISC-V instructions to utilize the AES and ASCON hardware accelerators, if needed.</p></li><li><p>Modify the RISC-V CVA6 decode and execution stages to handle the new cryptographic instructions.</p></li><li><p>Work out the toolchain to ensure assembler, compiler, and simulation support for the custom instructions.</p></li></ul><p>Verification and Testing:</p><ul><li><p>Conduct simulations to evaluate the performance, latency, and throughput of the accelerators within the CVA6 pipeline.</p></li><li><p>Work closely with the AES and ASCON accelerator design team to ensure proper testing and debugging of the hardware integration.</p></li></ul><p><b>Job Requirements:</b></p><ul><li><p>Master’s degree in Electrical Engineering, Computer Engineering, or a related field.</p></li><li><p>Proven experience with RISC-V architecture, especially with custom instruction extensions and pipeline modifications.</p></li><li><p>Proficiency in HDL languages (Verilog, VHDL, or SystemVerilog) and RTL design.</p></li><li><p>Proficiency in toolchain modification, including the ability to extend assemblers and compilers (GCC, LLVM) for custom hardware instructions.</p></li><li><p>Proficiency of FPGA development tools such as Vivado, Quartus, or similar for prototyping.</p></li></ul><p>Preferred Additional Skills:</p><ul><li><p>Strong understanding of ASIC/FPGA design flows, including synthesis, place and route, and timing closure.</p></li><li><p>Experience in cryptography and implementing cryptographic algorithms in hardware (AES, ASCON, etc.).</p></li></ul><p>We regret to inform that only shortlisted candidates will be notified.</p>Hiring Institution: NTU",
+        "truncated": false
+      },
+      "ats_key": "freehire|research-associate-ic-design-ntu-mdyyz5nl",
+      "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-13T21:27:05.542569Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 1,000 graduate students it is one of the largest EEE schools in the world and ranks 10th in the field of Electrical & Electronic Engineering in the 2024 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee We are looking for a highly skilled Research Associate with experience in RISC-V architecture. The successful candidate will be responsible for adding a Hardware AES and ASCON Accelerator to the RISC-V CVA6 core. This role requires deep knowledge of hardware design, cryptographic algorithms, and the RISC-V instruction set architecture (ISA). You will work closely with the AES and ASCON designers in our team to ensure seamless integration and optimal performance of the cryptographic accelerators. Key Responsibilities: Design and Implementation: Integrate a Hardware AES Accelerator and ASCON Lightweight Cryptography Accelerator into the RISC-V CVA6 (Ariane) core. Implement memory-mapped interfaces or custom instructions for the accelerators to interface with the CVA6 core. Collaborate on the integration of the accelerators into the core's execution pipeline. RISC-V ISA Extension: Define and implement custom RISC-V instructions to utilize the AES and ASCON hardware accelerators, if needed. Modify the RISC-V CVA6 decode and execution stages to handle the new cryptographic instructions. Work out the toolchain to ensure assembler, compiler, and simulation support for the custom instructions. Verification and Testing: Conduct simulations to evaluate the performance, latency, and throughput of the accelerators within the CVA6 pipeline. Work closely with the AES and ASCON accelerator design team to ensure proper testing and debugging of the hardware integration. Job Requirements: Master’s degree in Electrical Engineering, Computer Engineering, or a related field. Proven experience with RISC-V architecture, especially with custom instruction extensions and pipeline modifications. Proficiency in HDL languages (Verilog, VHDL, or SystemVerilog) and RTL design. Proficiency in toolchain modification, including the ability to extend assemblers and compilers (GCC, LLVM) for custom hardware instructions. Proficiency of FPGA development tools such as Vivado, Quartus, or similar for prototyping. Preferred Additional Skills: Strong understanding of ASIC/FPGA design flows, including synthesis, place and route, and timing closure. Experience in cryptography and implementing cryptographic algorithms in hardware (AES, ASCON, etc.). We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 3102,
+        "jd_sha256": "a3aad94c51ad708aa6cee8c979e791bb5b52200c234391114de92402e38be586",
+        "job_description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergradua",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00019126",
+        "review_flags": [],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research.  With over 3,0",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-13T14:30:55.790134Z",
+      "key": "sg:12efbc0ecdb9d31ccace",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 141,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-associate-ic-design-ntu-mdyyz5nl",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "HARD_REJECTED",
+      "title": "Research Associate (IC Design)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--IC-Design-_R00019126",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate--IC-Design-_R00019126",
+      "reason": "NTU employer-authored requisition R00019126 requires proven RISC-V CVA6 architecture, Verilog/VHDL/SystemVerilog RTL, GCC/LLVM toolchain changes, and FPGA/Vivado/Quartus for hardware AES/ASCON accelerators. Candidate's verified MSc NLP/LLM/Agent and backend experience does not meet these mandatory hardware skills; no substantive target NLP/LLM/Agent research or engineering work.",
+      "scout_review": {
+        "status": "HARD_REJECTED",
+        "decision": "HARD_REJECTED",
+        "ack": true,
+        "checked_at": "2026-11-14T07:00:00+08:00",
+        "evidence_url": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate--IC-Design-_R00019126"
+      }
     }
   ],
   "version": 1
