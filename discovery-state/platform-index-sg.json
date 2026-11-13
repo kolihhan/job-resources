@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-12T21:34:55.776677Z",
-    "source": "devglobal:public-api:SG",
+    "at": "2026-11-13T02:37:19.169268Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 8,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 8
+      "new_pending": 2,
+      "observed": 2
     }
   },
   "market": "SG",
-  "next_seq": 137,
+  "next_seq": 139,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -48,8 +48,8 @@
       "company": "Nanyang Technological University",
       "consumer_review": {
         "checked_at": "2026-11-13T00:00:00Z",
-        "stage": "HISTORY_CHECK_RETRY",
-        "note": "NTU Workday receipt 2026-11-11 14:25 UTC confirms application to AI Engineer (AIAP), but omits requisition ID; existing Issue #698 is R00025487, source is R00026131. Need authoritative applicant-portal requisition mapping before ACK or fresh APPLY."
+        "note": "NTU Workday receipt 2026-11-11 14:25 UTC confirms application to AI Engineer (AIAP), but omits requisition ID; existing Issue #698 is R00025487, source is R00026131. Need authoritative applicant-portal requisition mapping before ACK or fresh APPLY.",
+        "stage": "HISTORY_CHECK_RETRY"
       },
       "first_seen_at": "2026-11-07T09:35:18.297729Z",
       "key": "sg:9adae2e27f47137c93cf",
@@ -81,8 +81,8 @@
       "company": "Nanyang Technological University",
       "consumer_review": {
         "checked_at": "2026-11-13T00:00:00Z",
-        "stage": "HISTORY_CHECK_RETRY",
-        "note": "Two NTU Workday receipts on 2026-11-11 (05:42 and 10:30 UTC) confirm applications to Research Engineer II (Trust Technologies), without requisition IDs; existing Issue #772 is same title with LinkedIn 4484457230, source is R00025936. Need authoritative portal mapping before ACK or new APPLY."
+        "note": "Two NTU Workday receipts on 2026-11-11 (05:42 and 10:30 UTC) confirm applications to Research Engineer II (Trust Technologies), without requisition IDs; existing Issue #772 is same title with LinkedIn 4484457230, source is R00025936. Need authoritative portal mapping before ACK or new APPLY.",
+        "stage": "HISTORY_CHECK_RETRY"
       },
       "first_seen_at": "2026-11-07T09:35:18.297867Z",
       "key": "sg:e68e9e91029f06cde5f0",
@@ -135,9 +135,20 @@
       "ats_key": "binance|greenhouse|5002575101",
       "company": "Binance",
       "consumer_review": {
-        "checked_at": "2026-11-12T21:51:32.547230Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-13T02:05:30+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world.</p></div><p>About the Role<br>We are seeking an Applied Data Scientist to join our Algorithm team — a hands-on builder at the intersection of LLM systems, agentic AI, and crypto-native intelligence.<br>You will design, build, and improve AI agents that understand markets, reason over on-chain data, and take actions at speed for hundreds of millions of users — across reasoning models that plan before they act, multi-agent systems that orchestrate complex crypto workflows, and test-time scaling that pushes inference-time intelligence to its limits.<br>You build for real environments: designing agent architectures, improving performance across quality and latency, developing evaluation methods for open-ended tasks, and turning research ideas into production.<br> <br> <br>Responsibilities</p> <div> <ul> <li>Design and implement production-grade LLM pipelines powering Binance AI Products and next-generation agentic trading features — including multi-step reasoning agents, tool-selection frameworks, and autonomous workflow execution across spot, perpetual, and on-chain markets</li> <li>Continuously improve agent capabilities in understanding, reasoning, tool selection, and action execution — optimizing simultaneously for intelligence, latency, and reliability under high-frequency trading constraints</li> <li>Build and maintain evaluation frameworks for reasoning model outputs in crypto contexts — covering market analysis accuracy, agent decision quality, hallucination detection, and adversarial robustness against prompt injection in financial workflows</li> <li>Apply test-time scaling techniques — chain-of-thought, self-consistency, process reward models — to push agent reasoning quality in ambiguous, fast-moving market conditions</li> <li>Architect AI system components with rigorous attention to inference latency, throughput, and cost efficiency — leveraging serving frameworks such as vLLM and TensorRT-LLM — in a zero-downtime, 24/7 trading environment</li> <li>Integrate on-chain data sources, wallet intelligence, and crypto market signals into LLM-powered analytical pipelines — building the data layer that makes Binance's agents genuinely crypto-native</li> <li>Partner with research scientists to translate experimental findings into production-grade agentic solutions with clear performance benchmarks</li> </ul> <br>Qualifications</div> <div> <ul> <li>Bachelor's or Master's degree in Computer Science, Electrical Engineering, Statistics, Mathematics, or related technical field</li> <li>0–5 years of industry or research experience in applied ML or AI engineering</li> <li>Strong Python programming skills ; Equally important: demonstrated comfort with vibe coding — using AI-assisted development tools fluidly as core part of your workflow</li> <li>Demonstrated hands-on experience with LLMs — prompt engineering, post-training, or end-to-end LLM application development</li> <li>Familiarity with multi-agent system design — task decomposition, tool use via MCP, memory management, parallel agent execution, and inter-agent communication</li> <li>Strong analytical thinking and problem decomposition; comfortable operating under ambiguity in fast-moving environments</li> </ul> </div><div class=\"content-conclusion\"><p> </p> <p><strong>Why Binance</strong></p> <ul> <li>Shape the future of finance </li> <li>Collaborate with world-class talent in a user-centric global organization with a flat structure</li> <li>Tackle challenging projects in a fast-paced and innovative enviornment with autonomy</li> <li>Thrive in a results-driven workplace with opportunities for career growth and continuous learning</li> <li>Competitive salary and company benefits</li> <li>Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team)</li> </ul> <p> </p> <p>Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success.</p> <p>By submitting a job application, you acknowledge that you have read our <a href=\"https://www.binance.com/en/candidate/privacy/notice\">Candidate Privacy Notice</a>.</p> <p>We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.</p></div>",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "jd_chars": 5236,
+        "jd_sha256": "adacc9bb994522d454926dac09a8bd4b085bb20536182fb90eabba3fa8ae0c8c",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "possible_prior_issue": 879,
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:02:24.825302Z",
@@ -167,9 +178,18 @@
       "ats_key": "micron|workday|/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
       "company": "Micron",
       "consumer_review": {
-        "checked_at": "2026-11-12T21:51:32.547230Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-13T02:05:30+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we build help make everything from virtual reality experiences to breakthroughs in neural networks possible. We do it all while committing to integrity, sustainability, and giving back to our communities. Because doing so can fuel the very innovation we are pursuing. AI Engineer, SMAI Job Summary Join Micron Technology at a defining moment in our AI and smart manufacturing transformation. As a Full-Stack AI Engineer, you will contribute to the design, development, deployment, and support of AI-powered applications that improve manufacturing operations across Micron's global network of fabs and assembly/test sites. You will work closely with data scientists, software engineers, and manufacturing stakeholders to build scalable AI solutions, web applications, APIs, and automation tools that enable data-driven decision-making and autonomous operations. Main Responsibilities Design and build end-to-end AI solutions, including data ingestion pipelines, feature engineering, model training and inference, APIs, web applications, and observability capabilities. Develop responsive front-end applications using React, Angular, or Streamlit, backed by Python/FastAPI services, with strong type-safe development and test coverage practices. Support development and implementation of machine learning and AI models for structured and unstructured data. Support development of analytics and AI solutions that improve manufacturing and operational decision-making. Support integration of LLMs and agentic AI capabilities into manufacturing and engineering workflows. Support integration of robotics platforms, AMRs, tool automation systems, control systems, and the Micron MES ecosystem. Develop and maintain containerized applications using Docker and deploy solutions through Kubernetes or OpenShift environments. Work with data platforms and modeling environments to support scalable AI application development. Other Responsibilities Contribute to CI/CD pipelines and automated software release processes using tools such as GitHub Actions, while supporting monitoring, drift detection, model evaluation, and feedback loop implementation for production AI applications. Apply Responsible AI practices, including input validation, prompt-injection prevention, PII/IP protection, model governance, and audit logging. Support application and model optimization efforts to improve performance, reliability, scalability, and cost efficiency. Support testing, debugging, technical documentation, installation, and maintenance activities for AI and software solutions. Integrate AI-assisted tools and insights into daily work to improve efficiency, quality, and effectiveness while complying with organizational standards, legal requirements, and governance policies. Contribute to a culture of continuous improvement by identifying, testing, and sharing AI-enabled enhancements within one's scope of work. Minimum Required Qualifications / Experience Bachelor's or Master's degree in Computer Science, Software Engineering, Data Science, or a related field; equivalent industry experience accepted. 2+ years building and shipping production web or AI applications end to end. Experience developing and deploying web applications, APIs, or data-driven solutions. Hands-on experience with at least one cloud platform (AWS, Azure, or GCP). Must Have Technical Skills Strong programming skills in Python and modern JavaScript/TypeScript. Strong SQL proficiency and experience working with relational databases. Experience with Docker, Kubernetes/OpenShift, and CI/CD development practices. Working knowledge of GenAI technologies, including prompt engineering, Retrieval-Augmented Generation (RAG), LLM integration, agentic AI concepts, model evaluation, and Responsible AI practices. Ability to apply AI literacy and digital fluency to use AI-enabled tools responsibly and effectively for research, analysis, content creation, problem-solving, operational tasks, automation, and achieving business outcomes. Must Have Soft Skills Strong analytical and problem-solving skills. Effective communication and collaboration skills. Ability to learn quickly and adapt in a fast-paced environment. Highly Desirable / Preferred Skills or Experience Experience in semiconductor manufacturing, industrial automation, or smart manufacturing environments. Exposure to MLOps, machine learning model deployment, or enterprise AI applications. Familiarity with MES, Industrial IoT, or equipment automation systems. Embody Micron's Core Values People – Respect, develop, and empower others. Innovation – Drive continuous improvement and breakthrough thinking. Tenacity – Show grit and determination. Collaboration – Build trust and foster teamwork. Customer Focus – Deliver excellence and value. Speed – Act with purpose and set the pace. About Micron Technology, Inc. We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life for all . With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands. Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence and 5G applications that unleash opportunities — from the data center to the intelligent edge and across the client and mobile user experience. To learn more, please visit micron.com/careers All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status. To request assistance with the application process and/or for reasonable accommodations, please contact hrsupport_sg@micron.com Micron Prohibits the use of child labor and complies with all applicable laws, rules, regulations, and other international and industry labor standards. Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron. AI alert: Candidates are encouraged to use AI tools to enhance their resume and/or application materials. However, all information provided must be accurate and reflect the candidate's true skills and experiences. Misuse of AI to fabricate or misrepresent qualifications will result in immediate disqualification. Fraud alert: Micron advises job seekers to be cautious of unsolicited job offers and to verify the authenticity of any communication claiming to be from Micron by checking the official Micron careers website in the About Micron Technology, Inc.",
+        "jd_chars": 6982,
+        "jd_sha256": "e4c7553976af11df6e1692f8a2af60f765078bb46a9e23f79ff8515d9f467c79",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we ",
       "first_seen_at": "2026-11-09T15:02:24.825456Z",
@@ -1004,6 +1024,13 @@
       "platform": "public jobs API (unverified)",
       "query": "North Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T07:00:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Need employer-controlled NTU requisition ID/official exact job page linking JobStreet 95469343 AI Engineer (AI Products) to prior WAIT R00024969; same employer/title alone cannot prove same requisition or a new opening.",
+        "status": "RETRY"
+      },
       "seq": 121,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1012,14 +1039,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer (AI Products)",
-      "url": "https://sg.jobstreet.com/job/95469343",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-13T07:00:00+08:00",
-        "missing_evidence": "Need employer-controlled NTU requisition ID/official exact job page linking JobStreet 95469343 AI Engineer (AI Products) to prior WAIT R00024969; same employer/title alone cannot prove same requisition or a new opening."
-      }
+      "url": "https://sg.jobstreet.com/job/95469343"
     },
     {
       "api_source_context": {
@@ -1472,9 +1492,11 @@
         "checked_at": "2026-11-12T17:43:27+00:00",
         "full_jd_complete": true,
         "full_jd_text": "ABOUT THE ROLE Join a small, technical AI evaluation team building rigorous benchmarks for frontier AI agents. You will own the design and implementation of domain-specific evaluations that help research teams and customers understand how agents perform on realistic workflows. WHAT YOU'LL DO - Design, implement, and maintain internal benchmarks for evaluating frontier agents on domain-specific tasks. - Partner with subject-matter experts to translate real-world workflows into benchmark tasks and evaluation criteria. - Build reliable infrastructure to run models and agents against benchmark tasks at scale. - Develop metrics and analyses to assess benchmark difficulty, reliability, and failure modes. - Validate whether benchmark results align with real-world evaluations and user needs. - Write clear technical documentation and reports explaining benchmark methods and results. WHAT WE'RE LOOKING FOR - Two to four years of experience in software engineering, machine learning engineering, or research engineering, including at least two years building AI benchmarks, evaluation infrastructure, or agent environments. - Technical education or strong fundamentals in a technical field. - Proficiency with Python, Docker, and Linux for research or production infrastructure. - Hands-on experience designing and operating evaluations or environments for AI agents or large language models. - Experience building reliable model or agent execution infrastructure, developing evaluation metrics or statistical analyses, and validating benchmark performance. - Ability to work with subject-matter experts and understand workflows across technical or business domains. - Strong technical writing, attention to detail, independent problem-solving, and comfort in an early-stage environment. - Published research or technical writing on AI benchmarks, evaluation methods, or model failure modes is valued. Reinforcement learning pipelines, data generation, and agent evaluation experience are also relevant. COMPENSATION & BENEFITS Base salary: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
         "jd_chars": 2151,
         "jd_sha256": "8a6a5a3df9873abf4ae2059be6ffd87ca4add2b8e3b7987feddc899870d195b8",
         "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "possible_prior_issue": 277,
         "review_flags": [
           "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
         ],
@@ -1507,6 +1529,63 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Engineer, Benchmarks",
       "url": "https://jobs.ashbyhq.com/Clera/a51984da-7278-46bd-a0c5-939d2ac72999"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API",
+        "text": "Exa is an applied AI lab building a search engine unlike the world has ever seen. We build massive-scale infra to crawl the entire web, train state-of-the-art embedding models to process it, and design super high performant vector databases to retrieve over it. We now power search for Cursor, Cognition, HubSpot, and over 400,000 developers and have raised $350m from Lightspeed, Benchmark, and a16z.\n\n \n\nOur ultimate goal is to build perfect search over all the world's information, far beyond Google. If you want to build massive-scale ML systems that will define the way the new AI world consumes information, this is the place for you.\n\n \n\n\nRESEARCH AT EXA\n\n \n\nThe ML organization sits at the heart of our mission. We train foundational models for search. Our goal is to build systems that can instantly filter the world's knowledge to exactly what you want, no matter how complex your query. Basically, put the web into an extremely powerful database.\n\n \n\nWe're looking for an ML Research Engineer to train embedding models for perfect search over the web. The role involves dreaming up novel transformer-based search architectures, creating datasets, creating evals, beating our internal SoTA, and repeat.\n\n \n\n\nDESIRED EXPERIENCE\n\n - You have graduate-level ML experience (or are an exceptionally strong undergrad)\n\n - You can code up a transformer from scratch in PyTorch\n\n - You like creating large-scale datasets and diving deeply into the data\n\n - You care about the problem of finding high quality knowledge and recognize how important this is for the world\n\n \n\n\nEXAMPLE PROJECTS\n\n - Pre-training: Train a hundred billion parameter model\n\n - Fine-tuning: Build an RLAIF pipeline for search\n\n - Dream up a novel architecture for search in the shower, then code it up and beat our best model's top score\n\n - Build an eval system that answers: How do we know we're advancing our search quality? (this is an incredibly difficult question to answer)\n\n \n\n\nLOGISTICS\n\n - Location: This is an in-person opportunity in Singapore.\n\n - Visas: We’re happy to sponsor international candidates! While we cannot guarantee your visa, we have historically been successful in sponsoring candidates from all over the world. If you receive an offer, our team will work hard to get you a visa.\n\n - Benefits: We offer premium healthcare benefits (medical, dental, vision), fertility benefits, 16 weeks of fully paid parental leave for all new parents, and a monthly wellness stipend to all of our employees.\n\nExa is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, creed, color, religion, sex, sexual orientation, gender identity or expression, national origin, disability, age, veteran status, marital status, pregnancy or related conditions, criminal histories consistent with applicable law, or any other basis protected by applicable law.",
+        "truncated": false
+      },
+      "ats_key": "aidevboard|ea5b7783-81b9-410d-9f5a-4f3fb32f4d15",
+      "company": "Exa",
+      "description_excerpt": "Exa is an applied AI lab building a search engine unlike the world has ever seen. We build massive-scale infra to crawl the entire web, train state-of-the-art embedding models to process it, and design super high performant vector databases",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-13T02:37:19.169225Z",
+      "key": "sg:9302d27aa60e87b7b2b1",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 137,
+      "source": "aidevboard:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ea5b7783-81b9-410d-9f5a-4f3fb32f4d15",
+      "source_listing_url": "https://aidevboard.com/job/ea5b7783-81b9-410d-9f5a-4f3fb32f4d15",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research, ML ",
+      "url": "https://jobs.ashbyhq.com/exa/f6bd612e-a4ee-4c75-a205-5cd70901661f"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p><span><span>The School of EEE invites applications for the position of Senior Research Engineer I (Satellite System Hardware).</span></span></p><p><span><span> </span></span></p><p><span><span>The Research Engineer will work on a project to conduct the research on development of energy harvesting systems used in low power smart sensors for monitoring of buildings and bridges, as well as the integration of energy harvesters, power management circuit and monitoring sensors.</span></span></p><p><span><span> </span></span></p><p><b><span><span>Key Responsibilities:</span></span></b></p><ul><li><span><span>Design and develop MCU/MPU/SOC platform.</span></span></li><li><span><span>Analyze system requirements and generate modular specifications.</span></span></li><li><span><span>Identify and qualify components for spacecraft operation.</span></span></li><li><span><span>Build, test and modify prototypes.</span></span></li><li><span><span>Circuit validation and system operational validation.</span></span></li><li><span><span>Test and characterize circuits.</span></span></li><li><span><span>Code and debug in embedded C.</span></span></li><li><span><span>FPGA programming.</span></span></li><li><span><span>Guide/design printed circuits to comply to EMC/EMI requirements.</span></span></li><li><span><span>Work with team members to ensure smooth integration of various subsystems.</span></span></li><li><span><span>Document all process and implementation.</span></span></li><li><span><span>Manage tasks according to project schedule.</span></span></li><li><span><span>Support the centre and project operation, such as satellite mission operation, satellite testing and student activities.</span></span></li><li><span>Work on a project to conduct the research on development of energy harvesting systems used in low power smart sensors for monitoring of buildings and bridges. </span></li><li><span>Work on integration of energy harvesters, power management circuit and monitoring sensors.</span></li></ul><p><span><span> </span></span></p><p><b><span><span>Job Requirements:</span></span></b></p><ul><li><span><span>Bachelor‘s degree and above in Electronic Engineering or related field from a reputable university.</span></span></li><li><span><span>Diploma with good industry experience may also be considered.</span></span></li><li><span><span>Experience in MCU/MPU/SOC embedded system platform design and programming.</span></span></li><li><span><span>Good understanding and ability in analog and digital circuit design</span></span></li><li><span><span>Proficient and good skill in pcb artwork such as Altium or Orcad.</span></span></li><li><span><span>Knowledge of various embedded hardware and application systems.</span></span></li><li><span><span>Experience in generation of design specification documentation, schematic capture, and circuit analysis and simulation.</span></span></li><li><span><span>Experience with debugging tools such as bus and spectrum analyzer.</span></span></li><li><span><span>Experience in CAN, SPI, I2C bus protocols.</span></span></li><li><span><span>Able to multi-task and work in a dynamic environment.</span></span></li><li><span><span>Fluent verbal and written communications in English.</span></span></li><li><span><span>Complete full product life cycle knowledge is preferred.</span></span></li><li><span><span>Experiences in FPGA, Analog or RF design is preferred.</span></span></li></ul><p><span><span> </span></span></p><p><span><span>We regret that only shortlisted candidates will be notified.</span></span></p><p></p><p></p>Hiring Institution: NTU<p></p><p></p><p></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|senior-research-engineer-i-satellite-system-hardware-ntu-ldy4hatx",
+      "company": "Ntu",
+      "description_excerpt": "<p><span><span>The School of EEE invites applications for the position of Senior Research Engineer I (Satellite System Hardware).</span></span></p><p><span><span> </span></span></p><p><span><span>The Research Engineer will work on a project",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-13T02:37:19.169259Z",
+      "key": "sg:9f46d40928d0287c902d",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 138,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "senior-research-engineer-i-satellite-system-hardware-ntu-ldy4hatx",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Senior Research Engineer I (Satellite System Hardware)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Senior-Research-Engineer-I--Satellite-System-Hardware-_R00016505"
     }
   ],
   "terminal": [
@@ -4843,6 +4922,7 @@
       "url": "https://sg.jobstreet.com/job/95443052"
     },
     {
+      "acknowledged_at": "2026-11-13T06:00:00+08:00",
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -4881,6 +4961,16 @@
       "prior_wait_employer_hint": true,
       "query": "NTU Main Campus, Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-13T06:00:00+08:00",
+        "decision": "HARD_REJECTED",
+        "employer_requisition": "R00021553",
+        "evidence": "NTU first-party full JD explicitly requires 'Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping' and 'Proficiency in hardware description languages (HDLs) such as Verilog or VHDL'. Core duties are chiplet IC security, FPGA/TEE cryptographic hardware integration, not LLM/NLP/Agent research or substantive AI software engineering. Candidate evidence is software/NLP/LLM, not FPGA hardware. Exact R00021553 and title searched in all-state GitHub Issues and both Gmail accounts: no matching application. Official Workday requisition page indexed as active but exact direct page is JS-only; rejection is based on definitive employer JD hard technical mismatch, not route failure.",
+        "official_route": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553",
+        "source_key": "sg:60003ebb26c77c5e1207",
+        "status": "HARD_REJECTED"
+      },
       "seq": 134,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -4889,20 +4979,10 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Associate/Engineer II (FPGA Design and Development)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553",
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-13T06:00:00+08:00",
-        "decision": "HARD_REJECTED",
-        "status": "HARD_REJECTED",
-        "source_key": "sg:60003ebb26c77c5e1207",
-        "employer_requisition": "R00021553",
-        "official_route": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553",
-        "evidence": "NTU first-party full JD explicitly requires 'Proven experience with HW/SW Co-Design, FPGA development and hardware prototyping' and 'Proficiency in hardware description languages (HDLs) such as Verilog or VHDL'. Core duties are chiplet IC security, FPGA/TEE cryptographic hardware integration, not LLM/NLP/Agent research or substantive AI software engineering. Candidate evidence is software/NLP/LLM, not FPGA hardware. Exact R00021553 and title searched in all-state GitHub Issues and both Gmail accounts: no matching application. Official Workday requisition page indexed as active but exact direct page is JS-only; rejection is based on definitive employer JD hard technical mismatch, not route failure."
-      },
-      "acknowledged_at": "2026-11-13T06:00:00+08:00"
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553"
     },
     {
+      "acknowledged_at": "2026-11-13T10:03:21+08:00",
       "ats_key": "freehire|ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
       "company": "Astek",
       "consumer_review": {
@@ -4918,6 +4998,15 @@
       "platform": "public jobs API (unverified)",
       "query": "Raffles Place, Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-13T10:03:21+08:00",
+        "decision": "HARD_REJECTED",
+        "employer_requisition": "JobStreet 95181678 / LinkedIn 4476295033 (cross-platform title match; employer ATS ID not established)",
+        "evidence": "Astek's full role description reproduced on LinkedIn (same exact employer and title) says 'At least 6 years of experience in Cybersecurity, Application Security, Cloud Security, Platform Security, or Secure Software Engineering' and 'Minimum 2 years of hands-on experience in AI Security ... within an enterprise environment'. Requires AWS EKS/Kubernetes, security threat modeling, DevSecOps and AI security delivery; candidate has no verified professional AI security experience. LinkedIn listing explicitly says 'No longer accepting applications'. GitHub all-state search for Astek returned zero; both Gmail accounts Astek AI Security search returned only generic job alerts, not application receipts. Reject for documented mandatory skills/experience mismatch; exact JobStreet listing route was not verified as open.",
+        "source_key": "sg:a2414d304422992e3237",
+        "status": "HARD_REJECTED"
+      },
       "seq": 63,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -4925,17 +5014,7 @@
       "source_listing_url": "",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Security Engineer – AI Guardrails / LLM Security",
-      "url": "https://sg.jobstreet.com/job/95181678",
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-13T10:03:21+08:00",
-        "decision": "HARD_REJECTED",
-        "status": "HARD_REJECTED",
-        "source_key": "sg:a2414d304422992e3237",
-        "employer_requisition": "JobStreet 95181678 / LinkedIn 4476295033 (cross-platform title match; employer ATS ID not established)",
-        "evidence": "Astek's full role description reproduced on LinkedIn (same exact employer and title) says 'At least 6 years of experience in Cybersecurity, Application Security, Cloud Security, Platform Security, or Secure Software Engineering' and 'Minimum 2 years of hands-on experience in AI Security ... within an enterprise environment'. Requires AWS EKS/Kubernetes, security threat modeling, DevSecOps and AI security delivery; candidate has no verified professional AI security experience. LinkedIn listing explicitly says 'No longer accepting applications'. GitHub all-state search for Astek returned zero; both Gmail accounts Astek AI Security search returned only generic job alerts, not application receipts. Reject for documented mandatory skills/experience mismatch; exact JobStreet listing route was not verified as open."
-      },
-      "acknowledged_at": "2026-11-13T10:03:21+08:00"
+      "url": "https://sg.jobstreet.com/job/95181678"
     }
   ],
   "version": 1
