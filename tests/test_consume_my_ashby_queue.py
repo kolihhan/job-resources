@@ -47,6 +47,21 @@ class MYConsumerTest(unittest.TestCase):
                        confirm_issue=lambda *_:True,now=NOW)
         self.assertEqual(report["issue_ack"],0)
         self.assertEqual(report["verified_jd"],1)
+    def test_other_pending_sources_are_not_misprocessed(self):
+        s = seed()
+        s, _ = q.ingest(s, {}, {"source": "freehire:public-api:MY", "items": [
+            {"market": "MY", "url": "https://my.jobstreet.com/job/95731931",
+             "title": "AI Automation Engineer", "company": "Other Employer"}]})
+        # Public intake ownership is separate from first-party role identity.
+        s["pending"][0]["source"] = "freehirefetch:official-ats:MY"
+        s, report = m.run(s, [{"number": 1, "title": "Unrelated"}], board(),
+                          confirm_issue=lambda *_: True, now=NOW)
+        self.assertEqual(report["considered"], 1)
+        self.assertEqual(report["verified_jd"], 1)
+        other = next(x for x in s["pending"] if "jobstreet.com" in x["url"])
+        self.assertNotIn("consumer_review", other)
+        self.assertEqual(len(s["pending"]), 2)
+
     def test_missing_board_job_retains_uncertainty(self):
         s,r=m.run(seed(),[{"number":1,"title":"Other"}],{"jobs":[]},
                    confirm_issue=lambda *_:True,now=NOW)
