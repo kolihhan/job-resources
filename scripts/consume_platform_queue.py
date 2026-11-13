@@ -156,9 +156,15 @@ def due(row: dict, now: datetime) -> bool:
         return True
     try:
         ts = datetime.fromisoformat(checked.replace("Z", "+00:00"))
-    except (ValueError, TypeError):
+    except (ValueError, TypeError, AttributeError):
         return True
-    return now - ts >= STALE_AFTER
+    # Legacy consumer_review timestamps were written without a timezone.
+    # Treat them as UTC rather than crashing an entire market consumer.
+    if ts.tzinfo is None or ts.utcoffset() is None:
+        ts = ts.replace(tzinfo=timezone.utc)
+    if now.tzinfo is None or now.utcoffset() is None:
+        now = now.replace(tzinfo=timezone.utc)
+    return now.astimezone(timezone.utc) - ts.astimezone(timezone.utc) >= STALE_AFTER
 
 
 def run_consumer(state: dict, history: list[dict], *, get=http_json,
