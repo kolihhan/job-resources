@@ -337,7 +337,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T11:51:21.094100Z",
       "key": "sg:144eab5df5ad3a4a8970",
-      "last_error": null,
+      "last_error": "Employer-controlled confirmation that Allinton JobStreet 95584055 is an active distinct requisition with a usable non-MCF application route and SG work-pass sponsorship eligibility; indexed JobStreet 95382748 is a different ID.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Central Region",
@@ -350,7 +350,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95584055"
+      "url": "https://sg.jobstreet.com/job/95584055",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-14T03:01:21+08:00",
+        "missing_evidence": "Employer-controlled confirmation that Allinton JobStreet 95584055 is an active distinct requisition with a usable non-MCF application route and SG work-pass sponsorship eligibility; indexed JobStreet 95382748 is a different ID."
+      }
     },
     {
       "api_source_context": {
@@ -410,7 +417,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T12:45:59.689011Z",
       "key": "sg:031112de2f9474dcd66d",
-      "last_error": null,
+      "last_error": "Employer-owned exact requisition and current direct application route for Gramian Machine Learning Research & Engineering Specialist corresponding to JobStreet 95525602; third-party remote contract listings do not establish SG employment or work-pass eligibility.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -423,7 +430,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Machine Learning Research & Engineering Specialist",
-      "url": "https://sg.jobstreet.com/job/95525602"
+      "url": "https://sg.jobstreet.com/job/95525602",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-14T03:01:21+08:00",
+        "missing_evidence": "Employer-owned exact requisition and current direct application route for Gramian Machine Learning Research & Engineering Specialist corresponding to JobStreet 95525602; third-party remote contract listings do not establish SG employment or work-pass eligibility."
+      }
     },
     {
       "api_source_context": {
