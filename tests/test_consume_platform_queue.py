@@ -130,6 +130,17 @@ class ConsumerTests(unittest.TestCase):
         self.assertEqual(len(calls), 2)
         self.assertEqual(report["firstparty_jds_verified"], 1)
 
+    def test_due_handles_legacy_naive_and_offset_timestamps(self):
+        row = {"consumer_review": {"stage": "NEEDS_CANONICAL_EMPLOYER_JD",
+                                   "checked_at": "2026-11-07T11:30:00"}}
+        self.assertFalse(consumer.due(row, NOW))
+        self.assertTrue(consumer.due(row, NOW + timedelta(hours=49)))
+        row["consumer_review"]["checked_at"] = "2026-11-07T19:30:00+08:00"
+        self.assertFalse(consumer.due(row, NOW))
+        self.assertTrue(consumer.due(row, NOW + timedelta(hours=49)))
+        row["consumer_review"]["checked_at"] = "not-a-date"
+        self.assertTrue(consumer.due(row, NOW))
+
     def test_ambiguous_same_id_is_never_acknowledged(self):
         s = seed(ROLE)
         history = [{"number": 1, "title": "NTU R00026164"},
