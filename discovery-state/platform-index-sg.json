@@ -599,17 +599,17 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T17:44:46.022958Z",
       "key": "sg:462714d3b36acb2d264a",
-      "last_error": "Employer Micron requisition matching JobStreet 95468483 to exact Workday JR111138 or another employer job ID; JobStreet alias alone is not a verified duplicate or usable official route.",
+      "last_error": "Employer-owned exact requisition mapping for JobStreet 95468483 (Micron AI Engineer, SMAI). A new Micron receipt dated 2026-11-13 confirms an AI Engineer, SMAI application, but omits requisition ID; GitHub closed duplicate Issue #966 confirms same-role-family prior application. Do not reapply. Need Micron candidate portal mapping before exact source terminal ACK.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
+        "status": "RETRY",
         "ack": false,
-        "checked_at": "2026-11-12T00:58:51+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Employer Micron requisition matching JobStreet 95468483 to exact Workday JR111138 or another employer job ID; JobStreet alias alone is not a verified duplicate or usable official route.",
-        "status": "RETRY"
+        "checked_at": "2026-11-13T14:02:25+08:00",
+        "missing_evidence": "Employer-owned exact requisition mapping for JobStreet 95468483 (Micron AI Engineer, SMAI). A new Micron receipt dated 2026-11-13 confirms an AI Engineer, SMAI application, but omits requisition ID; GitHub closed duplicate Issue #966 confirms same-role-family prior application. Do not reapply. Need Micron candidate portal mapping before exact source terminal ACK."
       },
       "seq": 95,
       "source": "freehire:public-api:SG",
