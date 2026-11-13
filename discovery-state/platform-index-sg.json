@@ -257,7 +257,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T09:44:08.167405Z",
       "key": "sg:8c54ab1dfe5192a72dd8",
-      "last_error": null,
+      "last_error": "Existing WAIT #849 covers ADDCEL AI Engineer JobStreet 95084005; Gmail confirms application 2026-11-03 and closure 2026-11-06, but Pending is different JobStreet ID 95802892. Missing exactly: employer/JobStreet canonical job identity mapping proving 95802892 aliases applied 95084005 or is a distinct requisition. Preserve Pending; no duplicate submission.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Jurong West, West Region",
@@ -270,7 +270,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI ENGINEER",
-      "url": "https://sg.jobstreet.com/job/95802892"
+      "url": "https://sg.jobstreet.com/job/95802892",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-13T21:05:29+08:00",
+        "missing_evidence": "Existing WAIT #849 covers ADDCEL AI Engineer JobStreet 95084005; Gmail confirms application 2026-11-03 and closure 2026-11-06, but Pending is different JobStreet ID 95802892. Missing exactly: employer/JobStreet canonical job identity mapping proving 95802892 aliases applied 95084005 or is a distinct requisition. Preserve Pending; no duplicate submission."
+      }
     },
     {
       "api_source_context": {
@@ -429,7 +436,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T12:45:59.689028Z",
       "key": "sg:0dd0a84bb0086fd1b33a",
-      "last_error": null,
+      "last_error": "Existing WAIT #963 and JobStreet submission receipt dated 2026-11-12 confirm Ideals Recruitment AI Engineer application, but receipt omits JobStreet ID. Missing exactly: authoritative JobStreet applied-job detail tying receipt to listing 95749616. Preserve Pending; do not resubmit or ACK.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "North-East Region",
@@ -442,7 +449,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95749616"
+      "url": "https://sg.jobstreet.com/job/95749616",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-13T21:05:29+08:00",
+        "missing_evidence": "Existing WAIT #963 and JobStreet submission receipt dated 2026-11-12 confirm Ideals Recruitment AI Engineer application, but receipt omits JobStreet ID. Missing exactly: authoritative JobStreet applied-job detail tying receipt to listing 95749616. Preserve Pending; do not resubmit or ACK."
+      }
     },
     {
       "ats_key": "ntu|workday|/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1",
@@ -507,7 +521,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T15:19:11.051187Z",
       "key": "sg:ef2e7efc8ea4db8ab014",
-      "last_error": null,
+      "last_error": "Existing WAIT #86 and employer acknowledgement 2026-09-02 confirm Infineum AI Engineer application, but Pending JobStreet listing 95658569 is not tied to that submitted requisition. Missing exactly: employer/JobStreet job ID mapping for 95658569 to applied Infineum role or distinct requisition. Preserve Pending; no duplicate submission.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Maritime Square, Central Region",
@@ -520,7 +534,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95658569"
+      "url": "https://sg.jobstreet.com/job/95658569",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-13T21:05:29+08:00",
+        "missing_evidence": "Existing WAIT #86 and employer acknowledgement 2026-09-02 confirm Infineum AI Engineer application, but Pending JobStreet listing 95658569 is not tied to that submitted requisition. Missing exactly: employer/JobStreet job ID mapping for 95658569 to applied Infineum role or distinct requisition. Preserve Pending; no duplicate submission."
+      }
     },
     {
       "api_source_context": {
