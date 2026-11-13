@@ -1,0 +1,99 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3344,
+      "company": "CGI IT Consulting Sdn Bhd",
+      "employment_type": null,
+      "external_id": "java developer:27031400",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-12T10:06:54Z",
+      "public_slug": "junior-java-developer-card-payments-ai-skills-cgi-it-consulting-sdn-bhd-kcgm75hn",
+      "role_key": "freehire:junior-java-developer-card-payments-ai-skills-cgi-it-consulting-sdn-bhd-kcgm75hn",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27031400__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Junior Java Developer – Card Payments & AI Skills"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3345,
+      "company": "Applied Integrators Sdn Bhd",
+      "employment_type": null,
+      "external_id": "java developer:27007167",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-12T10:06:52Z",
+      "public_slug": "java-developer-ai-driven-hr-tech-solutions-applied-integrators-sdn-bhd-q5tdenru",
+      "role_key": "freehire:java-developer-ai-driven-hr-tech-solutions-applied-integrators-sdn-bhd-q5tdenru",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27007167__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Java Developer - AI-Driven HR Tech Solutions"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3346,
+      "company": "B2BE Business-to-Business E-Solutions",
+      "employment_type": "full_time",
+      "external_id": "6290:95858145",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling, Selangor",
+      "market": "MY",
+      "posted_at": "2026-11-12T08:10:53Z",
+      "public_slug": "software-engineer-ai-python-b2be-business-to-business-e-solutions-h55emc76",
+      "role_key": "freehire:software-engineer-ai-python-b2be-business-to-business-e-solutions-h55emc76",
+      "source": "jobstreet",
+      "source_url": "https://my.jobstreet.com/job/95858145?utm_source=freehire.me",
+      "title": "Software Engineer (AI/Python)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3347,
+      "company": "Private Advertiser",
+      "employment_type": null,
+      "external_id": "python developer:27010130",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Johor Bahru, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-12T03:55:16Z",
+      "public_slug": "junior-flutter-python-developer-ai-driven-hybrid-private-advertiser-zifv2ufx",
+      "role_key": "freehire:junior-flutter-python-developer-ai-driven-hybrid-private-advertiser-zifv2ufx",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27010130__7112?utm_campaign=publisher&utm_medium=api&geoID=60&utm_source=freehire.me",
+      "title": "Junior Flutter & Python Developer — AI-Driven, Hybrid"
+    }
+  ],
+  "generated_at": "2026-11-13T02:10:27.451068Z",
+  "market": "MY",
+  "max_candidate_seq": 3347,
+  "min_candidate_seq": 3344,
+  "shard_index": 7,
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

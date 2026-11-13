@@ -162,29 +162,32 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1193,
-      "company": "VAST DATA SINGAPORE PTE. LTD.",
+      "candidate_seq": 1195,
+      "company": "DEX DIGITAL TECHNOLOGIES PTE. LTD.",
       "employment_type": null,
-      "external_id": "data engineer:93111626",
-      "flags": [],
+      "external_id": "full stack developer:93112253",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-10-10T11:19:16Z",
-      "public_slug": "onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
-      "role_key": "freehire:onsite-ai-data-platform-engineer-rapid-deployments-vast-data-singapore-pte-ltd-5f7b7q2n",
+      "posted_at": "2026-10-10T11:18:56Z",
+      "public_slug": "senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
+      "role_key": "freehire:senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
       "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111626__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Onsite AI Data Platform Engineer — Rapid Deployments"
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112253__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Full-Stack Engineer: AI-Powered, Scalable Data Infra"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1193,
+  "max_candidate_seq": 1195,
   "min_candidate_seq": 1184,
   "shard_index": 7,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

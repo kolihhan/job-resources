@@ -6,48 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1212,
-      "company": "YM GLOBAL TECHNOLOGIES PTE. LTD.",
-      "employment_type": null,
-      "external_id": "devops engineer:93080547",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-09T11:19:09Z",
-      "public_slug": "ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
-      "role_key": "freehire:ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93080547__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered DevOps Engineer: CI/CD & Observability"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1215,
-      "company": "RECRUIT LYNC PTE. LTD.",
-      "employment_type": null,
-      "external_id": "python developer:91517079",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-09T11:18:47Z",
-      "public_slug": "software-engineer-erp-ai-automation-python-recruit-lync-pte-ltd-vn4o423z",
-      "role_key": "freehire:software-engineer-erp-ai-automation-python-recruit-lync-pte-ltd-vn4o423z",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91517079__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Software Engineer - ERP & AI/Automation (Python)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1217,
       "company": "ncs3",
       "employment_type": null,
@@ -88,26 +46,26 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:ml"
       ],
-      "candidate_seq": 1219,
-      "company": "UARROW PTE. LTD.",
+      "candidate_seq": 1220,
+      "company": "Airwallex",
       "employment_type": null,
-      "external_id": "data engineer:93012079",
+      "external_id": "airwallex:89fccb81-c8cc-4769-be0c-9ed078e1a03b",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "SG - Singapore",
       "market": "SG",
-      "posted_at": "2026-10-08T10:37:29Z",
-      "public_slug": "senior-data-engineer-big-data-pipelines-ai-uarrow-pte-ltd-jbh3m6vr",
-      "role_key": "freehire:senior-data-engineer-big-data-pipelines-ai-uarrow-pte-ltd-jbh3m6vr",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93012079__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data Engineer - Big Data Pipelines & AI"
+      "posted_at": "2026-10-08T06:45:55Z",
+      "public_slug": "senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
+      "role_key": "freehire:senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/airwallex/89fccb81-c8cc-4769-be0c-9ed078e1a03b?utm_source=freehire.me",
+      "title": "Senior Software Engineer, Machine Learning Platform"
     },
     {
       "ai_score": 4,
@@ -197,14 +155,59 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92762061__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Data Engineer: Real‑Time Lakehouse & AI Data"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1239,
+      "company": "SEA Singapore",
+      "employment_type": null,
+      "external_id": "backend developer:92763531",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-05T11:55:53Z",
+      "public_slug": "ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
+      "role_key": "freehire:ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763531__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Backend Engineer for Scalable APIs"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1240,
+      "company": "SEA Singapore",
+      "employment_type": null,
+      "external_id": "backend developer:92763558",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-05T11:55:53Z",
+      "public_slug": "senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
+      "role_key": "freehire:senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763558__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Backend Engineer, AI-Driven Product – Singapore"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1237,
-  "min_candidate_seq": 1212,
+  "max_candidate_seq": 1240,
+  "min_candidate_seq": 1217,
   "shard_index": 10,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

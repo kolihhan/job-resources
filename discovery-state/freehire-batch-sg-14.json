@@ -6,48 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1298,
-      "company": "KAISHI PARTNERS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:92133348",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-24T11:58:22Z",
-      "public_slug": "full-stack-engineer-ai-shopping-personalization-kaishi-partners-pte-ltd-w4qbjt5a",
-      "role_key": "freehire:full-stack-engineer-ai-shopping-personalization-kaishi-partners-pte-ltd-w4qbjt5a",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92133348__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer: AI Shopping Personalization"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1299,
-      "company": "Singapore Telecommunications Limited",
-      "employment_type": null,
-      "external_id": "devops engineer:92132673",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-24T11:58:15Z",
-      "public_slug": "ott-service-integration-devops-engineer-ai-first-cloud-singapore-telecommunications-limited-vftxbe4i",
-      "role_key": "freehire:ott-service-integration-devops-engineer-ai-first-cloud-singapore-telecommunications-limited-vftxbe4i",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92132673__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "OTT Service Integration & DevOps Engineer — AI-First Cloud"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1303,
       "company": "Entangl,Inc.",
       "employment_type": null,
@@ -178,14 +136,56 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91913005__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Backend Engineer - ML Deployments for Surgery"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1314,
+      "company": "MIKOMIKO PTE. LTD.",
+      "employment_type": null,
+      "external_id": "backend developer:91917002",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-21T12:17:21Z",
+      "public_slug": "ai-backend-engineer-scalable-systems-apis-internsg-xfymihjp",
+      "role_key": "freehire:ai-backend-engineer-scalable-systems-apis-internsg-xfymihjp",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91917002__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Backend Engineer: Scalable Systems & APIs"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1316,
+      "company": "Energy Market Authority (EMA)",
+      "employment_type": null,
+      "external_id": "data engineer:91845512",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-21T00:15:44Z",
+      "public_slug": "ai-engineer-2-data-ai-department-energy-market-authority-ema-pbqq57r3",
+      "role_key": "freehire:ai-engineer-2-data-ai-department-energy-market-authority-ema-pbqq57r3",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91845512__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Engineer 2 (Data & AI Department)"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1313,
-  "min_candidate_seq": 1298,
+  "max_candidate_seq": 1316,
+  "min_candidate_seq": 1303,
   "shard_index": 14,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

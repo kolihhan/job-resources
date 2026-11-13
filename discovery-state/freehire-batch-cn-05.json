@@ -1,5 +1,5 @@
 {
-  "candidate_count": 7,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 12,
@@ -167,14 +167,42 @@
       "source": "feishujobs",
       "source_url": "https://jobs.bytedance.com/experienced/position/7574325079195093301/detail?utm_source=freehire.me",
       "title": "资深大模型算法（LLM方向）-TikTok Shop"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:pytorch",
+        "jd:tensorflow",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 3336,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100052120006",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-12T06:18:06Z",
+      "public_slug": "gong-ying-lian-chan-pin-ji-zhu-bu-gao-ji-jing-ying-jue-ce-suan-fa-zhuan-jia-ji-zhao-alibaba-group-l7hnniue",
+      "role_key": "freehire:gong-ying-lian-chan-pin-ji-zhu-bu-gao-ji-jing-ying-jue-ce-suan-fa-zhuan-jia-ji-zhao-alibaba-group-l7hnniue",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100052120006&utm_source=freehire.me",
+      "title": "供应链产品技术部-高级经营决策算法专家-急招"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "CN",
-  "max_candidate_seq": 3255,
+  "max_candidate_seq": 3336,
   "min_candidate_seq": 3249,
   "shard_index": 5,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

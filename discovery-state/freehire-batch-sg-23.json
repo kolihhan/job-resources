@@ -1,101 +1,36 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1408,
-      "company": "cygnify",
+      "candidate_seq": 1425,
+      "company": "RN CARE PTE. LTD.",
       "employment_type": null,
-      "external_id": "cygnify:73b23373-d50c-494e-82c3-9002f40c57c6",
+      "external_id": "data engineer:88141093",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore",
+      "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-18T12:40:18Z",
-      "public_slug": "backend-developer-ai-cygnify-2ya2dirk",
-      "role_key": "freehire:backend-developer-ai-cygnify-2ya2dirk",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/cygnify/73b23373-d50c-494e-82c3-9002f40c57c6?utm_source=freehire.me",
-      "title": "Backend Developer (AI) "
+      "posted_at": "2026-08-13T08:41:34Z",
+      "public_slug": "ai-data-center-solutions-engineer-rn-care-pte-ltd-nslf76wy",
+      "role_key": "freehire:ai-data-center-solutions-engineer-rn-care-pte-ltd-nslf76wy",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88141093__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Data Center Solutions Engineer"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1410,
-      "company": "The GMP Group",
+      "candidate_seq": 1426,
+      "company": "Bitdeer Technologies Group",
       "employment_type": null,
-      "external_id": "gmp-group-2:939XX7RY",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-08-17T23:28:14Z",
-      "public_slug": "software-engineer-ai-systems-the-gmp-group-bgusp37s",
-      "role_key": "freehire:software-engineer-ai-systems-the-gmp-group-bgusp37s",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/gmp-group-2/job/939XX7RY?utm_source=freehire.me",
-      "title": "Software Engineer - AI Systems"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1411,
-      "company": "Cultivar Asia Pte Ltd (EA License 19C9782)",
-      "employment_type": null,
-      "external_id": "cultivar:QVV97536",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-17T22:27:02Z",
-      "public_slug": "ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-sdfdiy3v",
-      "role_key": "freehire:ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-sdfdiy3v",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/cultivar/job/QVV97536?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1412,
-      "company": "Cultivar Asia Pte Ltd (EA License 19C9782)",
-      "employment_type": null,
-      "external_id": "cultivar:L393X86V",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-17T22:27:02Z",
-      "public_slug": "ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-hkomc6am",
-      "role_key": "freehire:ai-engineer-cultivar-asia-pte-ltd-ea-license-19c9782-hkomc6am",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/cultivar/job/L393X86V?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1415,
-      "company": "Portcast",
-      "employment_type": null,
-      "external_id": "portcast:d206930c-1ecd-41fe-b603-b28ad98a5ea4",
+      "external_id": "data engineer:88808686",
       "flags": [
         "senior_title_hint",
         "experience_5_plus_hint",
@@ -103,118 +38,156 @@
       ],
       "known_match_basis": null,
       "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-13T04:39:04Z",
+      "public_slug": "senior-network-security-engineer-ai-cloud-data-centers-bitdeer-group-o3fqqdaz",
+      "role_key": "freehire:senior-network-security-engineer-ai-cloud-data-centers-bitdeer-group-o3fqqdaz",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88808686__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Network Security Engineer — AI Cloud & Data Centers"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1427,
+      "company": "ocbc",
+      "employment_type": null,
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/AI-Software-Engineer---VP-ED_JR00009944",
+      "flags": [
+        "experience_5_plus_hint",
+        "seniority_hint",
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "OCBC Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-13T00:00:00Z",
+      "public_slug": "ai-software-engineer-vp-ed-ocbc-wbr6sp3z",
+      "role_key": "freehire:ai-software-engineer-vp-ed-ocbc-wbr6sp3z",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/AI-Software-Engineer---VP-ED_JR00009944?utm_source=freehire.me",
+      "title": "AI Software Engineer - VP/ED"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1430,
+      "company": "rakuten",
+      "employment_type": null,
+      "external_id": "rakuten.wd1.myworkdayjobs.com/rakutenasia:/job/Singapore/Backend-Engineer--Agent-Development--EC-AI-_1036478",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-08-17T17:16:33Z",
-      "public_slug": "senior-machine-learning-engineer-portcast-436umwtl",
-      "role_key": "freehire:senior-machine-learning-engineer-portcast-436umwtl",
-      "source": "lever",
-      "source_url": "https://jobs.lever.co/portcast/d206930c-1ecd-41fe-b603-b28ad98a5ea4?utm_source=freehire.me",
-      "title": "Senior Machine Learning Engineer"
+      "posted_at": "2026-08-11T00:00:00Z",
+      "public_slug": "backend-engineer-agent-development-ec-ai-rakuten-kzdmpyuu",
+      "role_key": "freehire:backend-engineer-agent-development-ec-ai-rakuten-kzdmpyuu",
+      "source": "workday",
+      "source_url": "https://rakuten.wd1.myworkdayjobs.com/RakutenAsia/job/Singapore/Backend-Engineer--Agent-Development--EC-AI-_1036478?utm_source=freehire.me",
+      "title": "Backend Engineer, Agent Development (EC AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1432,
+      "company": "Singtel Group",
+      "employment_type": null,
+      "external_id": "data engineer:88853903",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:20Z",
+      "public_slug": "ai-data-center-network-engineer-gpu-hpc-singtel-group-akhd4rge",
+      "role_key": "freehire:ai-data-center-network-engineer-gpu-hpc-singtel-group-akhd4rge",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88853903__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Data Center Network Engineer | GPU/HPC"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1433,
+      "company": "QuantumBlack, AI by McKinsey",
+      "employment_type": null,
+      "external_id": "data engineer:88812852",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:14Z",
+      "public_slug": "data-engineer-ii-quantumblack-ai-by-mckinsey-quantumblack-ai-by-mckinsey-cepgsdfk",
+      "role_key": "freehire:data-engineer-ii-quantumblack-ai-by-mckinsey-quantumblack-ai-by-mckinsey-cepgsdfk",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88812852__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Engineer II - QuantumBlack, AI by McKinsey"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1441,
+      "company": "Ellis Technologies, Inc.",
+      "employment_type": null,
+      "external_id": "backend developer:88126199",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-10T14:42:06Z",
+      "public_slug": "ai-powered-backend-engineer-for-local-services-ellis-technologies-inc-5muc2vfz",
+      "role_key": "freehire:ai-powered-backend-engineer-for-local-services-ellis-technologies-inc-5muc2vfz",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88126199__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered Backend Engineer for Local Services"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:data_science",
-        "jd:llm",
-        "jd:genai"
+        "jd:machine_learning",
+        "jd:agent"
       ],
-      "candidate_seq": 1417,
-      "company": "Krisvconsulting Services Pte Ltd",
+      "candidate_seq": 1443,
+      "company": "Micron",
       "employment_type": null,
-      "external_id": "krisvconsulting-services-pte-ltd:X943Y3RR",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-15T22:31:11Z",
-      "public_slug": "senior-data-scientist-krisvconsulting-services-pte-ltd-hkl6dk6a",
-      "role_key": "freehire:senior-data-scientist-krisvconsulting-services-pte-ltd-hkl6dk6a",
-      "source": "manatal",
-      "source_url": "https://www.careers-page.com/krisvconsulting-services-pte-ltd/job/X943Y3RR?utm_source=freehire.me",
-      "title": "Senior Data Scientist"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1419,
-      "company": "Longbridge Singapore",
-      "employment_type": null,
-      "external_id": "backend developer:90040585",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-15T10:39:08Z",
-      "public_slug": "senior-go-backend-engineer-for-ai-driven-wealth-platform-longbridge-singapore-sier67ke",
-      "role_key": "freehire:senior-go-backend-engineer-for-ai-driven-wealth-platform-longbridge-singapore-sier67ke",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90040585__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Go Backend Engineer for AI-Driven Wealth Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1420,
-      "company": "Aon Corporation",
-      "employment_type": null,
-      "external_id": "full stack developer:88829421",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenton Way, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-14T18:39:36Z",
-      "public_slug": "senior-full-stack-engineer-ai-driven-cloud-native-aon-corporation-spy57djm",
-      "role_key": "freehire:senior-full-stack-engineer-ai-driven-cloud-native-aon-corporation-spy57djm",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88829421__7119?utm_campaign=publisher&utm_medium=api&geoID=40&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer — AI-Driven, Cloud-Native"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1421,
-      "company": "NAS EDUCATION PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:88895106",
+      "external_id": "careers.micron.com/micron.com:43709450",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-14T18:39:36Z",
-      "public_slug": "ai-native-full-stack-engineer-build-real-world-agents-nas-education-pte-ltd-ttf2v6pr",
-      "role_key": "freehire:ai-native-full-stack-engineer-build-real-world-agents-nas-education-pte-ltd-ttf2v6pr",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88895106__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Native Full-Stack Engineer — Build Real-World Agents"
+      "posted_at": "2026-08-07T00:00:00Z",
+      "public_slug": "data-scientist-micron-dkee4wee",
+      "role_key": "freehire:data-scientist-micron-dkee4wee",
+      "source": "eightfold",
+      "source_url": "https://careers.micron.com/careers/job/43709450?utm_source=freehire.me",
+      "title": "Data Scientist"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1421,
-  "min_candidate_seq": 1408,
+  "max_candidate_seq": 1443,
+  "min_candidate_seq": 1425,
   "shard_index": 23,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

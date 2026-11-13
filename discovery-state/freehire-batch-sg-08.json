@@ -4,54 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "jd:llm",
-        "jd:genai",
-        "jd:rag",
-        "jd:nlp"
-      ],
-      "candidate_seq": 1194,
-      "company": "JEET ANALYTICS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93115365",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:19:02Z",
-      "public_slug": "software-data-engineering-specialist-jeet-analytics-pte-ltd-glfakeru",
-      "role_key": "freehire:software-data-engineering-specialist-jeet-analytics-pte-ltd-glfakeru",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115365__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Software & Data Engineering Specialist"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1195,
-      "company": "DEX DIGITAL TECHNOLOGIES PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93112253",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:56Z",
-      "public_slug": "senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
-      "role_key": "freehire:senior-full-stack-engineer-ai-powered-scalable-data-infra-dex-digital-technologies-pte-ltd-qqw54cqp",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112253__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: AI-Powered, Scalable Data Infra"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ai"
       ],
       "candidate_seq": 1196,
@@ -184,14 +136,58 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115287__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Data & AI Full-Stack Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1202,
+      "company": "Helius Technologies",
+      "employment_type": null,
+      "external_id": "full stack developer:93115977",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:18:47Z",
+      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
+      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115977__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full Stack Developer — AI and Cloud-Native Applications"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1204,
+      "company": "ScienTec Consulting Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "backend developer:93115029",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:18:41Z",
+      "public_slug": "ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
+      "role_key": "freehire:ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115029__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Backend Engineer: Python, Azure, REST APIs"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1201,
-  "min_candidate_seq": 1194,
+  "max_candidate_seq": 1204,
+  "min_candidate_seq": 1196,
   "shard_index": 8,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

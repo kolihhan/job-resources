@@ -6,50 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1202,
-      "company": "Helius Technologies",
-      "employment_type": null,
-      "external_id": "full stack developer:93115977",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:47Z",
-      "public_slug": "full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
-      "role_key": "freehire:full-stack-developer-ai-and-cloud-native-applications-helius-technologies-mvqtfjj7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115977__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Developer — AI and Cloud-Native Applications"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1204,
-      "company": "ScienTec Consulting Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "backend developer:93115029",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:41Z",
-      "public_slug": "ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
-      "role_key": "freehire:ai-backend-engineer-python-azure-rest-apis-scientec-consulting-pte-ltd-phpxzogs",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115029__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Backend Engineer: Python, Azure, REST APIs"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1205,
       "company": "ScienTec Consulting Pte. Ltd.",
       "employment_type": null,
@@ -178,14 +134,56 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93076458__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "ML Ops & Data Governance Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1212,
+      "company": "YM GLOBAL TECHNOLOGIES PTE. LTD.",
+      "employment_type": null,
+      "external_id": "devops engineer:93080547",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T11:19:09Z",
+      "public_slug": "ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
+      "role_key": "freehire:ai-powered-devops-engineer-ci-cd-observability-ym-global-technologies-pte-ltd-ygiqcs4j",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93080547__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered DevOps Engineer: CI/CD & Observability"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1215,
+      "company": "RECRUIT LYNC PTE. LTD.",
+      "employment_type": null,
+      "external_id": "python developer:91517079",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T11:18:47Z",
+      "public_slug": "software-engineer-erp-ai-automation-python-recruit-lync-pte-ltd-vn4o423z",
+      "role_key": "freehire:software-engineer-erp-ai-automation-python-recruit-lync-pte-ltd-vn4o423z",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91517079__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software Engineer - ERP & AI/Automation (Python)"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1210,
-  "min_candidate_seq": 1202,
+  "max_candidate_seq": 1215,
+  "min_candidate_seq": 1205,
   "shard_index": 9,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

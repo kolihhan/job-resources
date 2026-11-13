@@ -1,102 +1,6 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1333,
-      "company": "IFIS ASIA HOLDINGS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "devops engineer:91557012",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-16T11:59:05Z",
-      "public_slug": "senior-full-stack-engineer-ai-cloud-devops-ifis-asia-holdings-pte-ltd-d4ifet5j",
-      "role_key": "freehire:senior-full-stack-engineer-ai-cloud-devops-ifis-asia-holdings-pte-ltd-d4ifet5j",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91557012__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer - AI, Cloud & DevOps"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1335,
-      "company": "ocbc",
-      "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/MGR-AVP--AI-and-Data-Analyst_JR00011079",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "OCBC Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-16T00:00:00Z",
-      "public_slug": "mgr-avp-ai-and-data-analyst-ocbc-7aa36hlb",
-      "role_key": "freehire:mgr-avp-ai-and-data-analyst-ocbc-7aa36hlb",
-      "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/MGR-AVP--AI-and-Data-Analyst_JR00011079?utm_source=freehire.me",
-      "title": "MGR/AVP, AI and Data Analyst"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:data_science",
-        "jd:llm",
-        "jd:agent"
-      ],
-      "candidate_seq": 1336,
-      "company": "Grab",
-      "employment_type": null,
-      "external_id": "Grab:744000149524219",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-09-15T07:49:47Z",
-      "public_slug": "senior-data-scientist-consumer-experience-grab-52hduthd",
-      "role_key": "freehire:senior-data-scientist-consumer-experience-grab-52hduthd",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/Grab/744000149524219-senior-data-scientist-consumer-experience-?utm_source=freehire.me",
-      "title": "Senior Data Scientist (Consumer Experience)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1337,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "data engineer:90891196",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T23:58:57Z",
-      "public_slug": "machine-learning-engineer-data-mining-tiktok-shop-tiktok-x3gagncx",
-      "role_key": "freehire:machine-learning-engineer-data-mining-tiktok-shop-tiktok-x3gagncx",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90891196__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Machine Learning Engineer (Data Mining) - TikTok Shop"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -180,14 +84,119 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90891709__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Full-Stack AI Data Platform Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1342,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "data engineer:90388037",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T16:02:40Z",
+      "public_slug": "data-engineer-real-time-lakehouse-ml-infra-tiktok-qpqxqsjk",
+      "role_key": "freehire:data-engineer-real-time-lakehouse-ml-infra-tiktok-qpqxqsjk",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90388037__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Data Engineer - Real-Time Lakehouse & ML Infra"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1343,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "full stack developer:90389351",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T16:02:12Z",
+      "public_slug": "ai-full-stack-engineer-graduate-tiktok-shop-sea-2027-start-tiktok-dfqcjtzf",
+      "role_key": "freehire:ai-full-stack-engineer-graduate-tiktok-shop-sea-2027-start-tiktok-dfqcjtzf",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90389351__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Full-Stack Engineer Graduate (TikTok Shop - SEA) - 2027 Start"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1344,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "full stack developer:90389822",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T16:02:12Z",
+      "public_slug": "ai-full-stack-engineer-for-ai-driven-r-d-tiktok-ohvkzzko",
+      "role_key": "freehire:ai-full-stack-engineer-for-ai-driven-r-d-tiktok-ohvkzzko",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90389822__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI Full-Stack Engineer for AI-Driven R&D"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1345,
+      "company": "TIKTOK PTE. LTD.",
+      "employment_type": null,
+      "external_id": "full stack developer:90872249",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T16:02:12Z",
+      "public_slug": "ai-driven-full-stack-engineer-for-video-ai-tiktok-pte-ltd-r7jg4yo2",
+      "role_key": "freehire:ai-driven-full-stack-engineer-for-video-ai-tiktok-pte-ltd-r7jg4yo2",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90872249__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Driven Full-Stack Engineer for Video & AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1346,
+      "company": "TIKTOK PTE. LTD.",
+      "employment_type": null,
+      "external_id": "backend developer:90857339",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T16:01:38Z",
+      "public_slug": "backend-engineer-ai-coding-for-real-time-streaming-tiktok-pte-ltd-63jefqcr",
+      "role_key": "freehire:backend-engineer-ai-coding-for-real-time-streaming-tiktok-pte-ltd-63jefqcr",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90857339__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer - AI Coding for Real-Time Streaming"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1341,
-  "min_candidate_seq": 1333,
+  "max_candidate_seq": 1346,
+  "min_candidate_seq": 1338,
   "shard_index": 16,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

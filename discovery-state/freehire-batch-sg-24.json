@@ -1,198 +1,181 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 7,
   "candidates": [
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
+        "title:data_science",
+        "jd:machine_learning",
+        "jd:agent"
       ],
-      "candidate_seq": 1422,
-      "company": "Hydrax",
+      "candidate_seq": 1444,
+      "company": "Micron Technology",
       "employment_type": null,
-      "external_id": "full stack developer:88791070",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-14T18:39:35Z",
-      "public_slug": "ai-native-senior-full-stack-engineer-go-next-js-hydrax-rxbcuzpg",
-      "role_key": "freehire:ai-native-senior-full-stack-engineer-go-next-js-hydrax-rxbcuzpg",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88791070__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Native Senior Full-Stack Engineer (Go/Next.js)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1423,
-      "company": "Nanyang Technological University Singapore",
-      "employment_type": null,
-      "external_id": "devops engineer:88076379",
+      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/MSB-Singapore/Data-Scientist_JR106408",
       "flags": [],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Jurong West, Singapore",
+      "location": "MSB, Singapore",
       "market": "SG",
-      "posted_at": "2026-08-14T18:39:32Z",
-      "public_slug": "ai-platform-engineer-devops-cloud-data-ops-nanyang-technological-university-singapore-bi5tnxer",
-      "role_key": "freehire:ai-platform-engineer-devops-cloud-data-ops-nanyang-technological-university-singapore-bi5tnxer",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88076379__7119?utm_campaign=publisher&utm_medium=api&geoID=257&utm_source=freehire.me",
-      "title": "AI Platform Engineer: DevOps, Cloud & Data Ops"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1425,
-      "company": "RN CARE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:88141093",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-13T08:41:34Z",
-      "public_slug": "ai-data-center-solutions-engineer-rn-care-pte-ltd-nslf76wy",
-      "role_key": "freehire:ai-data-center-solutions-engineer-rn-care-pte-ltd-nslf76wy",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88141093__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Data Center Solutions Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1426,
-      "company": "Bitdeer Technologies Group",
-      "employment_type": null,
-      "external_id": "data engineer:88808686",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-13T04:39:04Z",
-      "public_slug": "senior-network-security-engineer-ai-cloud-data-centers-bitdeer-group-o3fqqdaz",
-      "role_key": "freehire:senior-network-security-engineer-ai-cloud-data-centers-bitdeer-group-o3fqqdaz",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88808686__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Network Security Engineer — AI Cloud & Data Centers"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1427,
-      "company": "ocbc",
-      "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/AI-Software-Engineer---VP-ED_JR00009944",
-      "flags": [
-        "experience_5_plus_hint",
-        "seniority_hint",
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "OCBC Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-13T00:00:00Z",
-      "public_slug": "ai-software-engineer-vp-ed-ocbc-wbr6sp3z",
-      "role_key": "freehire:ai-software-engineer-vp-ed-ocbc-wbr6sp3z",
+      "posted_at": "2026-08-07T00:00:00Z",
+      "public_slug": "data-scientist-micron-technology-vfxhdzc6",
+      "role_key": "freehire:data-scientist-micron-technology-vfxhdzc6",
       "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/AI-Software-Engineer---VP-ED_JR00009944?utm_source=freehire.me",
-      "title": "AI Software Engineer - VP/ED"
+      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Data-Scientist_JR106408?utm_source=freehire.me",
+      "title": "Data Scientist"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1430,
-      "company": "rakuten",
+      "candidate_seq": 1445,
+      "company": "Land Transport Authority",
       "employment_type": null,
-      "external_id": "rakuten.wd1.myworkdayjobs.com/rakutenasia:/job/Singapore/Backend-Engineer--Agent-Development--EC-AI-_1036478",
+      "external_id": "6287:93695733",
       "flags": [
-        "experience_5_plus_hint"
+        "senior_title_hint",
+        "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
       "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-08-11T00:00:00Z",
-      "public_slug": "backend-engineer-agent-development-ec-ai-rakuten-kzdmpyuu",
-      "role_key": "freehire:backend-engineer-agent-development-ec-ai-rakuten-kzdmpyuu",
-      "source": "workday",
-      "source_url": "https://rakuten.wd1.myworkdayjobs.com/RakutenAsia/job/Singapore/Backend-Engineer--Agent-Development--EC-AI-_1036478?utm_source=freehire.me",
-      "title": "Backend Engineer, Agent Development (EC AI)"
+      "posted_at": "2026-07-31T11:00:00Z",
+      "public_slug": "lta-tro-senior-executive-ai-software-developer-transport-ai-programme-land-transport-authority-egfhi4vz",
+      "role_key": "freehire:lta-tro-senior-executive-ai-software-developer-transport-ai-programme-land-transport-authority-egfhi4vz",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/93695733?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ AI SOFTWARE DEVELOPER - TRANSPORT AI PROGRAMME"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1431,
-      "company": "OCBC Group",
+      "candidate_seq": 1446,
+      "company": "Land Transport Authority",
       "employment_type": null,
-      "external_id": "data engineer:88826169",
+      "external_id": "6293:93695735",
       "flags": [
         "senior_title_hint",
         "seniority_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-08-10T14:42:23Z",
-      "public_slug": "senior-enterprise-data-ai-platform-engineer-ocbc-group-4b5awno4",
-      "role_key": "freehire:senior-enterprise-data-ai-platform-engineer-ocbc-group-4b5awno4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88826169__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Enterprise Data & AI Platform Engineer"
+      "posted_at": "2026-07-31T11:00:00Z",
+      "public_slug": "lta-tro-senior-executive-infrastructure-engineer-transport-ai-programme-land-transport-authority-tpvzul54",
+      "role_key": "freehire:lta-tro-senior-executive-infrastructure-engineer-transport-ai-programme-land-transport-authority-tpvzul54",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/93695735?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ INFRASTRUCTURE ENGINEER - TRANSPORT AI PROGRAMME"
     },
     {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1432,
-      "company": "Singtel Group",
+      "candidate_seq": 1447,
+      "company": "sggovterp",
       "employment_type": null,
-      "external_id": "data engineer:88853903",
-      "flags": [],
+      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--AI-SOFTWARE-DEVELOPER---TRANSPORT-AI-PROGRAMME_JR-10000053932",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "visa_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-08-10T14:42:20Z",
-      "public_slug": "ai-data-center-network-engineer-gpu-hpc-singtel-group-akhd4rge",
-      "role_key": "freehire:ai-data-center-network-engineer-gpu-hpc-singtel-group-akhd4rge",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88853903__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI Data Center Network Engineer | GPU/HPC"
+      "posted_at": "2026-07-31T00:00:00Z",
+      "public_slug": "lta-tro-senior-executive-ai-software-developer-transport-ai-programme-sggovterp-vn7klegc",
+      "role_key": "freehire:lta-tro-senior-executive-ai-software-developer-transport-ai-programme-sggovterp-vn7klegc",
+      "source": "workday",
+      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--AI-SOFTWARE-DEVELOPER---TRANSPORT-AI-PROGRAMME_JR-10000053932?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ AI SOFTWARE DEVELOPER - TRANSPORT AI PROGRAMME"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1448,
+      "company": "sggovterp",
+      "employment_type": null,
+      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--DATA-ENGINEER---TRANSPORT-AI-PROGRAMME_JR-10000053936",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-31T00:00:00Z",
+      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-sggovterp-au3axq5k",
+      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-sggovterp-au3axq5k",
+      "source": "workday",
+      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--DATA-ENGINEER---TRANSPORT-AI-PROGRAMME_JR-10000053936?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1449,
+      "company": "sggovterp",
+      "employment_type": null,
+      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--INFRASTRUCTURE-ENGINEER---TRANSPORT-AI-PROGRAMME_JR-10000053930",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-31T00:00:00Z",
+      "public_slug": "lta-tro-senior-executive-infrastructure-engineer-transport-ai-programme-sggovterp-bwxrzl7e",
+      "role_key": "freehire:lta-tro-senior-executive-infrastructure-engineer-transport-ai-programme-sggovterp-bwxrzl7e",
+      "source": "workday",
+      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--INFRASTRUCTURE-ENGINEER---TRANSPORT-AI-PROGRAMME_JR-10000053930?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ INFRASTRUCTURE ENGINEER - TRANSPORT AI PROGRAMME"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1450,
+      "company": "Point72 Asset Management",
+      "employment_type": null,
+      "external_id": "15272:88061163",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-30T12:32:47Z",
+      "public_slug": "ai-product-analyst-market-intelligence-singapore-point72-asset-management-u73vynbc",
+      "role_key": "freehire:ai-product-analyst-market-intelligence-singapore-point72-asset-management-u73vynbc",
+      "source": "getro",
+      "source_url": "https://boards.greenhouse.io/point72/jobs/8630027002?utm_source=freehire.me",
+      "title": "AI Product Analyst, Market Intelligence, Singapore"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1432,
-  "min_candidate_seq": 1422,
+  "max_candidate_seq": 1450,
+  "min_candidate_seq": 1444,
   "shard_index": 24,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

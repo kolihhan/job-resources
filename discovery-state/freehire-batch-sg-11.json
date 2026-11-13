@@ -6,51 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1239,
-      "company": "SEA Singapore",
-      "employment_type": null,
-      "external_id": "backend developer:92763531",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-05T11:55:53Z",
-      "public_slug": "ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
-      "role_key": "freehire:ai-driven-backend-engineer-for-scalable-apis-sea-singapore-tzyvrxlf",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763531__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Driven Backend Engineer for Scalable APIs"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1240,
-      "company": "SEA Singapore",
-      "employment_type": null,
-      "external_id": "backend developer:92763558",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-05T11:55:53Z",
-      "public_slug": "senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
-      "role_key": "freehire:senior-backend-engineer-ai-driven-product-singapore-sea-singapore-gnc3df6o",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763558__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Backend Engineer, AI-Driven Product – Singapore"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1241,
       "company": "Micron",
       "employment_type": null,
@@ -201,14 +156,60 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/95006387?utm_source=freehire.me",
       "title": "Forward Deployed Engineer-AI Security"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1276,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200686563",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T03:27:09Z",
+      "public_slug": "senior-ai-backend-software-engineer-digital-channel-apple-lnmg5bra",
+      "role_key": "freehire:senior-ai-backend-software-engineer-digital-channel-apple-lnmg5bra",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200686563/senior-ai-backend-software-engineer-digital-channel?utm_source=freehire.me",
+      "title": "Senior AI Backend Software Engineer, Digital Channel"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1277,
+      "company": "Evonik Methionine",
+      "employment_type": null,
+      "external_id": "6290:94991457",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-01T01:00:00Z",
+      "public_slug": "ai-product-engineer-industrial-ai-evonik-methionine-zfeliawc",
+      "role_key": "freehire:ai-product-engineer-industrial-ai-evonik-methionine-zfeliawc",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94991457?utm_source=freehire.me",
+      "title": "AI Product Engineer Industrial AI"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1275,
-  "min_candidate_seq": 1239,
+  "max_candidate_seq": 1277,
+  "min_candidate_seq": 1241,
   "shard_index": 11,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

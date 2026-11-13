@@ -6,52 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1276,
-      "company": "Apple",
-      "employment_type": null,
-      "external_id": ":200686563",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-01T03:27:09Z",
-      "public_slug": "senior-ai-backend-software-engineer-digital-channel-apple-lnmg5bra",
-      "role_key": "freehire:senior-ai-backend-software-engineer-digital-channel-apple-lnmg5bra",
-      "source": "apple",
-      "source_url": "https://jobs.apple.com/en-us/details/200686563/senior-ai-backend-software-engineer-digital-channel?utm_source=freehire.me",
-      "title": "Senior AI Backend Software Engineer, Digital Channel"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1277,
-      "company": "Evonik Methionine",
-      "employment_type": null,
-      "external_id": "6290:94991457",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-01T01:00:00Z",
-      "public_slug": "ai-product-engineer-industrial-ai-evonik-methionine-zfeliawc",
-      "role_key": "freehire:ai-product-engineer-industrial-ai-evonik-methionine-zfeliawc",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94991457?utm_source=freehire.me",
-      "title": "AI Product Engineer Industrial AI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1278,
       "company": "F5",
       "employment_type": null,
@@ -177,14 +131,58 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92440357__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Backend Engineer, Global LIVE (AI Infrastructure) - Singapore Singapore Technology - Backend Regular"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1284,
+      "company": "TikTok",
+      "employment_type": null,
+      "external_id": "backend developer:92441685",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T09:56:33Z",
+      "public_slug": "backend-engineer-live-streaming-ai-driven-systems-tiktok-fs357w2j",
+      "role_key": "freehire:backend-engineer-live-streaming-ai-driven-systems-tiktok-fs357w2j",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92441685__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer – Live Streaming & AI-Driven Systems"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1287,
+      "company": "Lithan",
+      "employment_type": null,
+      "external_id": "lithan.zohorecruit.com:316649000042047067",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Geylang Road, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-29T00:00:00Z",
+      "public_slug": "adjunct-faculty-data-science-azure-ai-singapore-lithan-eu62zbvd",
+      "role_key": "freehire:adjunct-faculty-data-science-azure-ai-singapore-lithan-eu62zbvd",
+      "source": "zohorecruit",
+      "source_url": "https://lithan.zohorecruit.com/jobs/Careers/316649000042047067?utm_source=freehire.me",
+      "title": "Adjunct Faculty Data Science (Azure AI) - Singapore"
     }
   ],
-  "generated_at": "2026-11-12T21:09:00.984520Z",
+  "generated_at": "2026-11-13T02:10:27.451068Z",
   "market": "SG",
-  "max_candidate_seq": 1283,
-  "min_candidate_seq": 1276,
+  "max_candidate_seq": 1287,
+  "min_candidate_seq": 1278,
   "shard_index": 12,
-  "source_generated_at": "2026-11-12T00:58:16.157216Z",
+  "source_generated_at": "2026-11-12T23:50:44.844150Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }
