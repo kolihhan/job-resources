@@ -1228,20 +1228,9 @@
       "ats_key": "clera|ashby|0890b84c-3391-457c-b762-4d42e558acc9",
       "company": "Clera",
       "consumer_review": {
-        "checked_at": "2026-11-11T17:25:31+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "ABOUT THE ROLE Join an engineering team at an AI infrastructure company focused on reinforcement learning environments and evaluation. You will build systems that make quality control for training data scalable, helping improve the reliability of data used to train and evaluate AI agents. WHAT YOU'LL DO - Automate quality control for training data generated through the platform. - Build quality systems grounded in human judgment and understanding, rather than relying heavily on large language models. - Define and enforce standards for training data quality. - Design experiments and metrics to evaluate agent outputs. - Work with data vendors to investigate quality issues, diagnose agent failure modes, and improve data generation processes. - Turn quality findings into sampling strategies and rule-based or model-assisted validation pipelines. - Incorporate quality insights into infrastructure tools and vendor workflows to reduce anomalies and edge cases. WHAT WE'RE LOOKING FOR - Two to four years of experience in research engineering or a related technical role, especially in quality control automation. - A technical degree and proficiency with Python, Docker, and Linux. - Experience independently building scalable data validation pipelines and end-to-end automated QA or QC systems. - Experience with benchmarks and evaluations for reinforcement learning data, including realistic task design, reliable rubrics, and useful training trajectories. - Ability to define and measure training data quality, and design QC systems that use human judgment without heavy reliance on large language models. - Experience designing evaluation metrics and experiments, and collaborating with data vendors to resolve quality problems. - Knowledge of statistics, strong communication skills, curiosity, and comfort working independently in an early-stage environment. COMPENSATION & BENEFITS Base salary range: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "jd_chars": 2021,
-        "jd_sha256": "830c3d26d2c9cfeef36d310228c3ca2f926803ea64837cf9a09af9b3d8184269",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "possible_prior_issue": 967,
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+        "checked_at": "2026-11-13T21:27:05.542569Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "ABOUT THE ROLE Join an engineering team at an AI infrastructure company focused on reinforcement learning environments and evaluation. You will build systems that make quality control for training data scalable, helping improve the reliabil",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
@@ -1559,11 +1548,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T04:58:21+08:00",
-        "missing_evidence": "Exact Exa Ashby ea5b7783-81b9-410d-9f5a-4f3fb32f4d15 is inaccessible; official same-title Research, ML f6bd612e-a4ee-4c75-a205-5cd70901661f is readable and sponsors SG visas but is a different requisition. Gmail account 1 has Exa application acknowledgement dated 2026-08-27 without exact role/ID; need employer ATS identity mapping plus application history for this exact role before any APPLY/ACK."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Exa Ashby ea5b7783-81b9-410d-9f5a-4f3fb32f4d15 is inaccessible; official same-title Research, ML f6bd612e-a4ee-4c75-a205-5cd70901661f is readable and sponsors SG visas but is a different requisition. Gmail account 1 has Exa application acknowledgement dated 2026-08-27 without exact role/ID; need employer ATS identity mapping plus application history for this exact role before any APPLY/ACK.",
+        "status": "RETRY"
       },
       "seq": 137,
       "source": "aidevboard:public-api:SG",
@@ -1584,6 +1573,11 @@
       },
       "ats_key": "freehire|ai-engineer-computer-vision-aztech-technologies-pte-ltd-snsmjrky",
       "company": "Aztech Technologies Pte Ltd",
+      "consumer_review": {
+        "checked_at": "2026-11-13T21:27:05.542569Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p>Salary: $4,800 – $7,000 per month</p><p><strong>About the role</strong></p><p>Develop and optimise computer vision algorithms for video analytics applications, transforming real-world visual data into reliable detection, tracking, and ev",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T14:30:55.790049Z",
@@ -1619,6 +1613,22 @@
       },
       "ats_key": "freehire|research-associate-embodied-ai-safety-ntu-3azzhouk",
       "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-13T21:27:05.542569Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 2,000 graduate students it is one of the largest EEE schools in the world and ranks 4th in the field of Electrical & Electronic Engineering in the 2025 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee We are looking for a Research Associate to work on Embodied AI Safety. The role will focus on designing, developing, and implementing novel algorithms and models to address emerging challenges in Embodied AI Safety, including attack and defense mechanisms. Key Responsibilities: The research associate will focus on the following tasks Data collection and processing Conducting experiments and analyzing results Assisting with robot operation, debugging, and system integration Providing general support for the lab Job Requirements: Master’s degree in Electrical Engineering, Computer Science, or related field Knowledge and experience in AI safety, computer vision and deep learning Good written and oral communication skills Proficiency in basics of programming languages such as Python Demonstrates initiative and a strong drive to achieve objectives. We regret to inform you that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 1714,
+        "jd_sha256": "5f15ded3dbccd13b33b5a79cdb516eb3c2ec624c905daeb44abae3e5321a10c4",
+        "job_description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergradua",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00024943",
+        "review_flags": [],
+        "signals": [],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,00",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T14:30:55.790104Z",
@@ -1655,6 +1665,24 @@
       },
       "ats_key": "freehire|research-associate-ic-design-ntu-mdyyz5nl",
       "company": "Ntu",
+      "consumer_review": {
+        "checked_at": "2026-11-13T21:27:05.542569Z",
+        "employment_time_type": "Full time",
+        "full_jd_complete": true,
+        "full_jd_text": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 1,000 graduate students it is one of the largest EEE schools in the world and ranks 10th in the field of Electrical & Electronic Engineering in the 2024 QS World University Rankings by Subjects. Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges. For more details, please view: https://www.ntu.edu.sg/eee We are looking for a highly skilled Research Associate with experience in RISC-V architecture. The successful candidate will be responsible for adding a Hardware AES and ASCON Accelerator to the RISC-V CVA6 core. This role requires deep knowledge of hardware design, cryptographic algorithms, and the RISC-V instruction set architecture (ISA). You will work closely with the AES and ASCON designers in our team to ensure seamless integration and optimal performance of the cryptographic accelerators. Key Responsibilities: Design and Implementation: Integrate a Hardware AES Accelerator and ASCON Lightweight Cryptography Accelerator into the RISC-V CVA6 (Ariane) core. Implement memory-mapped interfaces or custom instructions for the accelerators to interface with the CVA6 core. Collaborate on the integration of the accelerators into the core's execution pipeline. RISC-V ISA Extension: Define and implement custom RISC-V instructions to utilize the AES and ASCON hardware accelerators, if needed. Modify the RISC-V CVA6 decode and execution stages to handle the new cryptographic instructions. Work out the toolchain to ensure assembler, compiler, and simulation support for the custom instructions. Verification and Testing: Conduct simulations to evaluate the performance, latency, and throughput of the accelerators within the CVA6 pipeline. Work closely with the AES and ASCON accelerator design team to ensure proper testing and debugging of the hardware integration. Job Requirements: Master’s degree in Electrical Engineering, Computer Engineering, or a related field. Proven experience with RISC-V architecture, especially with custom instruction extensions and pipeline modifications. Proficiency in HDL languages (Verilog, VHDL, or SystemVerilog) and RTL design. Proficiency in toolchain modification, including the ability to extend assemblers and compilers (GCC, LLVM) for custom hardware instructions. Proficiency of FPGA development tools such as Vivado, Quartus, or similar for prototyping. Preferred Additional Skills: Strong understanding of ASIC/FPGA design flows, including synthesis, place and route, and timing closure. Experience in cryptography and implementing cryptographic algorithms in hardware (AES, ASCON, etc.). We regret to inform that only shortlisted candidates will be notified. Hiring Institution: NTU",
+        "jd_chars": 3102,
+        "jd_sha256": "a3aad94c51ad708aa6cee8c979e791bb5b52200c234391114de92402e38be586",
+        "job_description_excerpt": "School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergradua",
+        "note": "Technical signals do not prove skill fit, sponsorship, contract quality, or APPLY eligibility.",
+        "req_id": "R00019126",
+        "review_flags": [],
+        "signals": [
+          "evaluation"
+        ],
+        "source_kind": "NTU Workday first party",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
       "description_excerpt": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research.  With over 3,0",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T14:30:55.790134Z",
