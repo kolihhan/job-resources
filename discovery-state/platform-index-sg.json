@@ -1466,7 +1466,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T02:37:19.169225Z",
       "key": "sg:9302d27aa60e87b7b2b1",
-      "last_error": null,
+      "last_error": "Current live employer Ashby application route for Exa Research, ML requisition f6bd612e-a4ee-4c75-a205-5cd70901661f: direct URL returned 404 on 2026-11-13; indexed official JD is cached, not proof of live acceptance. Exa application confirmation in Gmail account 1 dated 2026-08-27 omits role/ID; account 2 no Exa result. Prior closed Exa Generalist Issue uses different UUID. Do not create duplicate APPLY or ACK without live route and application identity resolution.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -1479,7 +1479,14 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "Research, ML ",
-      "url": "https://jobs.ashbyhq.com/exa/f6bd612e-a4ee-4c75-a205-5cd70901661f"
+      "url": "https://jobs.ashbyhq.com/exa/f6bd612e-a4ee-4c75-a205-5cd70901661f",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-13T17:56:00+08:00",
+        "missing_evidence": "Current live employer Ashby application route for Exa Research, ML requisition f6bd612e-a4ee-4c75-a205-5cd70901661f: direct URL returned 404 on 2026-11-13; indexed official JD is cached, not proof of live acceptance. Exa application confirmation in Gmail account 1 dated 2026-08-27 omits role/ID; account 2 no Exa result. Prior closed Exa Generalist Issue uses different UUID. Do not create duplicate APPLY or ACK without live route and application identity resolution."
+      }
     }
   ],
   "terminal": [
