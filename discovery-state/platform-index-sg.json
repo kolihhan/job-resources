@@ -1553,17 +1553,17 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T02:37:19.169225Z",
       "key": "sg:9302d27aa60e87b7b2b1",
-      "last_error": "Current live employer Ashby application route for Exa Research, ML requisition f6bd612e-a4ee-4c75-a205-5cd70901661f: direct URL returned 404 on 2026-11-13; indexed official JD is cached, not proof of live acceptance. Exa application confirmation in Gmail account 1 dated 2026-08-27 omits role/ID; account 2 no Exa result. Prior closed Exa Generalist Issue uses different UUID. Do not create duplicate APPLY or ACK without live route and application identity resolution.",
+      "last_error": "Exact Exa Ashby ea5b7783-81b9-410d-9f5a-4f3fb32f4d15 is inaccessible; official same-title Research, ML f6bd612e-a4ee-4c75-a205-5cd70901661f is readable and sponsors SG visas but is a different requisition. Gmail account 1 has Exa application acknowledgement dated 2026-08-27 without exact role/ID; need employer ATS identity mapping plus application history for this exact role before any APPLY/ACK.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T17:56:00+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Current live employer Ashby application route for Exa Research, ML requisition f6bd612e-a4ee-4c75-a205-5cd70901661f: direct URL returned 404 on 2026-11-13; indexed official JD is cached, not proof of live acceptance. Exa application confirmation in Gmail account 1 dated 2026-08-27 omits role/ID; account 2 no Exa result. Prior closed Exa Generalist Issue uses different UUID. Do not create duplicate APPLY or ACK without live route and application identity resolution.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-14T04:58:21+08:00",
+        "missing_evidence": "Exact Exa Ashby ea5b7783-81b9-410d-9f5a-4f3fb32f4d15 is inaccessible; official same-title Research, ML f6bd612e-a4ee-4c75-a205-5cd70901661f is readable and sponsors SG visas but is a different requisition. Gmail account 1 has Exa application acknowledgement dated 2026-08-27 without exact role/ID; need employer ATS identity mapping plus application history for this exact role before any APPLY/ACK."
       },
       "seq": 137,
       "source": "aidevboard:public-api:SG",
