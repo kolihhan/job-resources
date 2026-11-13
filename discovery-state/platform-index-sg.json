@@ -1,14 +1,14 @@
 {
   "last_ingestion": {
-    "at": "2026-11-13T14:30:55.790147Z",
-    "source": "freehirefetch:official-ats:SG",
+    "at": "2026-11-13T20:59:04.543829Z",
+    "source": "devglobal:public-api:SG",
     "stats": {
-      "already_seen": 0,
+      "already_seen": 8,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 3,
-      "observed": 3
+      "new_pending": 0,
+      "observed": 8
     }
   },
   "market": "SG",
@@ -302,6 +302,13 @@
       "platform": "public jobs API (unverified)",
       "query": "People's Park, Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T01:56:32+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Capco employer-owned requisition and complete employer-authored JD for JobStreet 95323886; exact JobStreet page inaccessible on 2026-11-14 and no official employer mapping verified.",
+        "status": "RETRY"
+      },
       "seq": 78,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -310,14 +317,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95323886",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-14T01:56:32+08:00",
-        "missing_evidence": "Exact Capco employer-owned requisition and complete employer-authored JD for JobStreet 95323886; exact JobStreet page inaccessible on 2026-11-14 and no official employer mapping verified."
-      }
+      "url": "https://sg.jobstreet.com/job/95323886"
     },
     {
       "api_source_context": {
@@ -342,6 +342,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T03:01:21+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-controlled confirmation that Allinton JobStreet 95584055 is an active distinct requisition with a usable non-MCF application route and SG work-pass sponsorship eligibility; indexed JobStreet 95382748 is a different ID.",
+        "status": "RETRY"
+      },
       "seq": 83,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -350,14 +357,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95584055",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-14T03:01:21+08:00",
-        "missing_evidence": "Employer-controlled confirmation that Allinton JobStreet 95584055 is an active distinct requisition with a usable non-MCF application route and SG work-pass sponsorship eligibility; indexed JobStreet 95382748 is a different ID."
-      }
+      "url": "https://sg.jobstreet.com/job/95584055"
     },
     {
       "api_source_context": {
@@ -422,6 +422,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T03:01:21+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-owned exact requisition and current direct application route for Gramian Machine Learning Research & Engineering Specialist corresponding to JobStreet 95525602; third-party remote contract listings do not establish SG employment or work-pass eligibility.",
+        "status": "RETRY"
+      },
       "seq": 88,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -430,14 +437,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Machine Learning Research & Engineering Specialist",
-      "url": "https://sg.jobstreet.com/job/95525602",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-14T03:01:21+08:00",
-        "missing_evidence": "Employer-owned exact requisition and current direct application route for Gramian Machine Learning Research & Engineering Specialist corresponding to JobStreet 95525602; third-party remote contract listings do not establish SG employment or work-pass eligibility."
-      }
+      "url": "https://sg.jobstreet.com/job/95525602"
     },
     {
       "api_source_context": {
@@ -620,6 +620,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T01:56:32+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact MediaCorp employer-authored full JD and usable application route corresponding to JobStreet 95739444; exact JobStreet page inaccessible on 2026-11-14.",
+        "status": "RETRY"
+      },
       "seq": 94,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -628,14 +635,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95739444",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-14T01:56:32+08:00",
-        "missing_evidence": "Exact MediaCorp employer-authored full JD and usable application route corresponding to JobStreet 95739444; exact JobStreet page inaccessible on 2026-11-14."
-      }
+      "url": "https://sg.jobstreet.com/job/95739444"
     },
     {
       "api_source_context": {
@@ -814,6 +814,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Bukit Batok, West Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T23:57:26+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "JobStreet 95414467 displays full role text, but no employer-owned exact requisition and usable employer-controlled apply route has been verified; third-party JobStreet text is insufficient for source identity promotion.",
+        "status": "RETRY"
+      },
       "seq": 106,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -822,14 +829,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95414467",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T23:57:26+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "JobStreet 95414467 displays full role text, but no employer-owned exact requisition and usable employer-controlled apply route has been verified; third-party JobStreet text is insufficient for source identity promotion."
-      }
+      "url": "https://sg.jobstreet.com/job/95414467"
     },
     {
       "ats_key": "ncs3|smartrecruiters|6000000001031326",
@@ -1127,8 +1127,8 @@
         "ack": false,
         "checked_at": "2026-11-13T17:04:16Z",
         "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact Gradient Ashby requisition e5f78b42-1118-4dc9-aca7-d363a0a8c910 employer-authored complete JD and currently usable application form; direct employer URL inaccessible, no matching all-state Issue or application evidence in either Gmail."
+        "missing_evidence": "Exact Gradient Ashby requisition e5f78b42-1118-4dc9-aca7-d363a0a8c910 employer-authored complete JD and currently usable application form; direct employer URL inaccessible, no matching all-state Issue or application evidence in either Gmail.",
+        "status": "RETRY"
       },
       "seq": 125,
       "source": "freehire:public-api:SG",
@@ -1164,6 +1164,13 @@
       "prior_wait_employer_hint": true,
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T04:04:49+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-authored complete exact-role JD and employer-owned active application requisition/route for TikTok — LLM Evaluation Product Operations Specialist – TikTok; public-feed title is insufficient to verify role depth, eligibility or apply status.",
+        "status": "RETRY"
+      },
       "seq": 126,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1172,14 +1179,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "LLM Evaluation Product Operations Specialist – TikTok",
-      "url": "https://sg.jobstreet.com/job/92900470",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-14T04:04:49+08:00",
-        "missing_evidence": "Employer-authored complete exact-role JD and employer-owned active application requisition/route for TikTok — LLM Evaluation Product Operations Specialist – TikTok; public-feed title is insufficient to verify role depth, eligibility or apply status."
-      }
+      "url": "https://sg.jobstreet.com/job/92900470"
     },
     {
       "api_source_context": {
@@ -1293,6 +1293,13 @@
       "prior_wait_employer_hint": true,
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T04:04:49+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-authored complete exact-role JD and employer-owned active application requisition/route for TikTok — LLM & Agent Algorithm Expert - TikTok Search; public-feed title is insufficient to verify role depth, eligibility or apply status.",
+        "status": "RETRY"
+      },
       "seq": 129,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1301,14 +1308,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "LLM & Agent Algorithm Expert - TikTok Search",
-      "url": "https://sg.jobstreet.com/job/93093677",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-14T04:04:49+08:00",
-        "missing_evidence": "Employer-authored complete exact-role JD and employer-owned active application requisition/route for TikTok — LLM & Agent Algorithm Expert - TikTok Search; public-feed title is insufficient to verify role depth, eligibility or apply status."
-      }
+      "url": "https://sg.jobstreet.com/job/93093677"
     },
     {
       "api_source_context": {
@@ -1593,6 +1593,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Paya Lebar, East Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T23:57:26+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "JobStreet email confirms an AZTECH AI Engineer (Computer Vision) application submitted 2026-10-11 and closure notice 2026-10-26, but pending is newer JobStreet 95871661. Missing exact employer/JobStreet requisition mapping establishing whether 95871661 is a new vacancy or the previously applied role. Do not reapply.",
+        "status": "RETRY"
+      },
       "seq": 139,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1601,14 +1608,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer (Computer Vision)",
-      "url": "https://sg.jobstreet.com/job/95871661",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T23:57:26+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "JobStreet email confirms an AZTECH AI Engineer (Computer Vision) application submitted 2026-10-11 and closure notice 2026-10-26, but pending is newer JobStreet 95871661. Missing exact employer/JobStreet requisition mapping establishing whether 95871661 is a new vacancy or the previously applied role. Do not reapply."
-      }
+      "url": "https://sg.jobstreet.com/job/95871661"
     },
     {
       "api_source_context": {
@@ -1629,6 +1629,13 @@
       "prior_wait_employer_hint": true,
       "query": "NTU Main Campus, Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T23:57:26+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NTU Workday R00024943 full employer JD is visible, but current application form acceptance/usable route for that requisition has not been confirmed. Research content is embodied AI safety/robotics/CV rather than demonstrated LLM/Agent core; preserve Pending until route and research-quality fit can be resolved.",
+        "status": "RETRY"
+      },
       "seq": 140,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1637,14 +1644,7 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "Research Associate (Embodied AI Safety)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-Safety-_R00024943",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T23:57:26+08:00",
-        "decision": "PRESERVE_PENDING",
-        "status": "RETRY",
-        "missing_evidence": "Exact NTU Workday R00024943 full employer JD is visible, but current application form acceptance/usable route for that requisition has not been confirmed. Research content is embodied AI safety/robotics/CV rather than demonstrated LLM/Agent core; preserve Pending until route and research-quality fit can be resolved."
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-Safety-_R00024943"
     },
     {
       "api_source_context": {
