@@ -53,7 +53,7 @@
       },
       "first_seen_at": "2026-11-07T09:35:18.297729Z",
       "key": "sg:9adae2e27f47137c93cf",
-      "last_error": "2026-11-11 14:25:10 UTC NTU employer receipt in second Gmail account confirms application for 'AI Engineer (AIAP)' without requisition ID. Existing closed #698 names earlier R00025487; current R00026131 official JD/route visible. Cannot determine whether new receipt is R00026131 or another same-title NTU AIAP requisition. Missing exactly: NTU Workday application-history requisition ID corresponding to 2026-11-11 14:25:10 UTC receipt. Preserve Pending; no new APPLY/ACK.",
+      "last_error": "NTU AIAP R00026131 employer Workday page inaccessible in current review. Existing APPLY #698 is R00025487; Gmail 2026-11-11 confirms AI Engineer (AIAP) application but omits exact requisition. Missing: employer/NTU confirmation whether R00026131 is same applied vacancy or a distinct active requisition. Preserve Pending; do not create duplicate.",
       "market": "SG",
       "platform": "NTU Workday (first party)",
       "query": "LLM;agent",
@@ -65,11 +65,11 @@
         "status": "RETRY"
       },
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-12T02:59:58+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "2026-11-11 14:25:10 UTC NTU employer receipt in second Gmail account confirms application for 'AI Engineer (AIAP)' without requisition ID. Existing closed #698 names earlier R00025487; current R00026131 official JD/route visible. Cannot determine whether new receipt is R00026131 or another same-title NTU AIAP requisition. Missing exactly: NTU Workday application-history requisition ID corresponding to 2026-11-11 14:25:10 UTC receipt. Preserve Pending; no new APPLY/ACK.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-14T05:55:30+08:00",
+        "missing_evidence": "NTU AIAP R00026131 employer Workday page inaccessible in current review. Existing APPLY #698 is R00025487; Gmail 2026-11-11 confirms AI Engineer (AIAP) application but omits exact requisition. Missing: employer/NTU confirmation whether R00026131 is same applied vacancy or a distinct active requisition. Preserve Pending; do not create duplicate."
       },
       "seq": 19,
       "source": "ntu:official-cxs:SG",
@@ -153,18 +153,18 @@
       "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
       "first_seen_at": "2026-11-09T15:02:24.825302Z",
       "key": "sg:9265109f7c4c7a290755",
-      "last_error": "Employer ATS application-history record tying Binance Greenhouse requisition 5002575101 to the 2026-11-10 application receipt; email confirms same-title application but omits requisition ID, while WAIT #879 identifies different 5002729101. Do not resubmit or ACK without exact match.",
+      "last_error": "Binance Pioneer Applied Data Scientist 5002575101 exact Greenhouse route inaccessible. Gmail 2026-11-10 confirms application for same title; existing WAIT #879 refers to different 5002729101. Missing: receipt-to-requisition mapping for 5002575101 vs 5002729101. Preserve Pending; no repeat application.",
       "market": "SG",
       "platform": "greenhouse official ATS",
       "prior_wait_employer_hint": true,
       "query": "Hong Kong; Singapore",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T23:02:45+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Employer ATS application-history record tying Binance Greenhouse requisition 5002575101 to the 2026-11-10 application receipt; email confirms same-title application but omits requisition ID, while WAIT #879 identifies different 5002729101. Do not resubmit or ACK without exact match.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-14T05:55:30+08:00",
+        "missing_evidence": "Binance Pioneer Applied Data Scientist 5002575101 exact Greenhouse route inaccessible. Gmail 2026-11-10 confirms application for same title; existing WAIT #879 refers to different 5002729101. Missing: receipt-to-requisition mapping for 5002575101 vs 5002729101. Preserve Pending; no repeat application."
       },
       "seq": 38,
       "source": "freehirefetch:official-ats:SG",
@@ -185,17 +185,17 @@
       "description_excerpt": "ABOUT There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting.",
       "first_seen_at": "2026-11-09T15:11:31.005070Z",
       "key": "sg:e2a96232556b5d63c2b5",
-      "last_error": null,
+      "last_error": "BJAK Applied Machine Learning Engineer Ashby 56f522c4-b903-45ea-bb08-952b74641b56 returned HTTP 404 in exact current route probe. Existing BJAK Applied AI SG CHECK #923 is different requisition. Missing: current employer-owned live requisition/usable application route for this exact UUID. Preserve Pending; no closed-job inference from fetch failure.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-11T16:56:13+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact BJAK Ashby 56f522c4-b903-45ea-bb08-952b74641b56 complete employer-authored JD including location/residency eligibility and current usable application route cannot be read from JS-only exact page; indexed excerpts are insufficient to transfer SG-residency blocker from other BJAK requisitions.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-14T05:55:30+08:00",
+        "missing_evidence": "BJAK Applied Machine Learning Engineer Ashby 56f522c4-b903-45ea-bb08-952b74641b56 returned HTTP 404 in exact current route probe. Existing BJAK Applied AI SG CHECK #923 is different requisition. Missing: current employer-owned live requisition/usable application route for this exact UUID. Preserve Pending; no closed-job inference from fetch failure."
       },
       "seq": 55,
       "source": "freehirefetch:official-ats:SG",
