@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-13T20:59:04.543829Z",
-    "source": "devglobal:public-api:SG",
+    "at": "2026-11-13T23:30:21.406501Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 8,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 8
+      "new_pending": 1,
+      "observed": 1
     }
   },
   "market": "SG",
-  "next_seq": 142,
+  "next_seq": 143,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -65,11 +65,11 @@
         "status": "RETRY"
       },
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T05:55:30+08:00",
-        "missing_evidence": "NTU AIAP R00026131 employer Workday page inaccessible in current review. Existing APPLY #698 is R00025487; Gmail 2026-11-11 confirms AI Engineer (AIAP) application but omits exact requisition. Missing: employer/NTU confirmation whether R00026131 is same applied vacancy or a distinct active requisition. Preserve Pending; do not create duplicate."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "NTU AIAP R00026131 employer Workday page inaccessible in current review. Existing APPLY #698 is R00025487; Gmail 2026-11-11 confirms AI Engineer (AIAP) application but omits exact requisition. Missing: employer/NTU confirmation whether R00026131 is same applied vacancy or a distinct active requisition. Preserve Pending; do not create duplicate.",
+        "status": "RETRY"
       },
       "seq": 19,
       "source": "ntu:official-cxs:SG",
@@ -160,11 +160,11 @@
       "query": "Hong Kong; Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T05:55:30+08:00",
-        "missing_evidence": "Binance Pioneer Applied Data Scientist 5002575101 exact Greenhouse route inaccessible. Gmail 2026-11-10 confirms application for same title; existing WAIT #879 refers to different 5002729101. Missing: receipt-to-requisition mapping for 5002575101 vs 5002729101. Preserve Pending; no repeat application."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Binance Pioneer Applied Data Scientist 5002575101 exact Greenhouse route inaccessible. Gmail 2026-11-10 confirms application for same title; existing WAIT #879 refers to different 5002729101. Missing: receipt-to-requisition mapping for 5002575101 vs 5002729101. Preserve Pending; no repeat application.",
+        "status": "RETRY"
       },
       "seq": 38,
       "source": "freehirefetch:official-ats:SG",
@@ -191,11 +191,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T05:55:30+08:00",
-        "missing_evidence": "BJAK Applied Machine Learning Engineer Ashby 56f522c4-b903-45ea-bb08-952b74641b56 returned HTTP 404 in exact current route probe. Existing BJAK Applied AI SG CHECK #923 is different requisition. Missing: current employer-owned live requisition/usable application route for this exact UUID. Preserve Pending; no closed-job inference from fetch failure."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "BJAK Applied Machine Learning Engineer Ashby 56f522c4-b903-45ea-bb08-952b74641b56 returned HTTP 404 in exact current route probe. Existing BJAK Applied AI SG CHECK #923 is different requisition. Missing: current employer-owned live requisition/usable application route for this exact UUID. Preserve Pending; no closed-job inference from fetch failure.",
+        "status": "RETRY"
       },
       "seq": 55,
       "source": "freehirefetch:official-ats:SG",
@@ -1228,9 +1228,20 @@
       "ats_key": "clera|ashby|0890b84c-3391-457c-b762-4d42e558acc9",
       "company": "Clera",
       "consumer_review": {
-        "checked_at": "2026-11-13T21:27:05.542569Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-13T20:38:31+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "ABOUT THE ROLE Join an engineering team at an AI infrastructure company focused on reinforcement learning environments and evaluation. You will build systems that make quality control for training data scalable, helping improve the reliability of data used to train and evaluate AI agents. WHAT YOU'LL DO - Automate quality control for training data generated through the platform. - Build quality systems grounded in human judgment and understanding, rather than relying heavily on large language models. - Define and enforce standards for training data quality. - Design experiments and metrics to evaluate agent outputs. - Work with data vendors to investigate quality issues, diagnose agent failure modes, and improve data generation processes. - Turn quality findings into sampling strategies and rule-based or model-assisted validation pipelines. - Incorporate quality insights into infrastructure tools and vendor workflows to reduce anomalies and edge cases. WHAT WE'RE LOOKING FOR - Two to four years of experience in research engineering or a related technical role, especially in quality control automation. - A technical degree and proficiency with Python, Docker, and Linux. - Experience independently building scalable data validation pipelines and end-to-end automated QA or QC systems. - Experience with benchmarks and evaluations for reinforcement learning data, including realistic task design, reliable rubrics, and useful training trajectories. - Ability to define and measure training data quality, and design QC systems that use human judgment without heavy reliance on large language models. - Experience designing evaluation metrics and experiments, and collaborating with data vendors to resolve quality problems. - Knowledge of statistics, strong communication skills, curiosity, and comfort working independently in an early-stage environment. COMPENSATION & BENEFITS Base salary range: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "jd_chars": 2021,
+        "jd_sha256": "830c3d26d2c9cfeef36d310228c3ca2f926803ea64837cf9a09af9b3d8184269",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "possible_prior_issue": 967,
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "ABOUT THE ROLE Join an engineering team at an AI infrastructure company focused on reinforcement learning environments and evaluation. You will build systems that make quality control for training data scalable, helping improve the reliabil",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
@@ -1655,6 +1666,34 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research Associate (Embodied AI Safety)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-Safety-_R00024943"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<div><div><p>About Monee</p></div></div>\n<div><div><p>Monee is a leading digital payments and financial services provider in Southeast Asia, with a growing presence in Latin America. Its mission is to better the lives of individuals and businesses in the region with financial services through technology.</p></div></div>\n<div><div><p>Monee delivers a comprehensive range of digital financial products and services, including mobile wallets, payment processing, credit, banking, and insurtech. By leveraging technology and strategic partnerships, Monee aims to drive greater digital financial inclusion, convenience, and accessibility for individuals and small businesses across Southeast Asia and Latin America.</p></div></div>\n<div><div><p>Monee is part of Sea Limited, a global technology company.</p></div></div>\n<div><div><p>Job Description</p></div></div>\n<div><div><ul>\n<li>Build key information extraction (KIE) models for financial documents (bank slips, payslips, tax forms, statements, ID documents) across SEA markets using open-weight vision-language models (VLMs), covering data construction and labelling pipelines, fine-tuning, evaluation, deployment and regression testing.</li>\n<li>Develop domain-adaptive post-training for open-source VLMs (continued pre-training, SFT, meta / in-context learning), building high-quality multilingual document and replay datasets.</li>\n<li>Improve extraction performance with post-training methods, including reinforcement learning (DPO, GRPO, PPO / RLHF), reward-model design and verifiable rewards for instruction following, reasoning and faithful extraction.</li>\n<li>Build verifier models that judge the truthfulness, faithfulness and groundedness of extracted fields, produce calibrated confidence, and flag uncertain or inconsistent documents.</li>\n<li>Develop document fraud detection, e.g. detecting edited, generated or template-reused documents with image forensics, similarity and graph-based methods over document structure, or deepfake-detection techniques.</li>\n<li>Design, tune and evaluate system prompts and prompt structures, few-shot and retrieval-augmented prompting, and prompt-optimisation workflows for extraction and review tasks.</li>\n<li>Build explainable policy models that learn decision rules from human reviewer decisions, automate rule discovery, and surface inconsistencies in review standards.</li>\n<li>Drive continuous optimization based on offline evaluation, user experience, latency, cost, and stability.</li>\n<li>Collaborate with Risk, Product, Operations and Engineering to turn business problems into modelling tasks and evaluation metrics, and contribute to reproducibility standards and internal technical documentation.</li>\n</ul></div></div>\n<div><div><p>Requirements</p></div></div>\n<div><div>\n<ul>\n<li>Bachelor's degree in Computer Science, Mathematics, Statistics, or a related quantitative field.</li>\n<li>Proficiency in Python and a deep learning framework (PyTorch preferred).</li>\n<li>Solid understanding of neural network architectures, including Transformers, sequential models, embedding-based models and vision-language models.</li>\n<li>Hands-on project, thesis or internship experience with at least one of: LLM / VLM fine-tuning or post-training (SFT, DPO, RLHF, GRPO), large-scale pre-training, meta learning or in-context learning.</li>\n<li>Familiarity with LLM prompting techniques, prompt structure and prompt optimisation.</li>\n<li>Familiarity with model evaluation: building test sets, defining metrics, error analysis and comparing models fairly.</li>\n<li>Strong communication skills to collaborate with cross-functional stakeholders across Risk, Product, Operations and Engineering.</li>\n<li>Self-driven, comfortable reading papers and model cards and reproducing results from open-source code.</li>\n</ul>\n<p>Nice to Have</p>\n<ul>\n<li>Experience with inference, efficiency and performance optimisation (vLLM, quantisation, batching, serving on a single GPU).</li>\n<li>Experience with multi-GPU or distributed training, and parameter-efficient methods (DeepSpeed, FSDP, LoRA / QLoRA at scale).</li>\n<li>Experience with RAG, embeddings and vector databases.</li>\n<li>Exposure to agentic workflows and tool-using LLM systems.</li>\n<li>Exposure to document or image forgery detection, deepfake detection, or graph learning.</li>\n<li>Exposure to classical NLP and OCR techniques (tokenisation, sequence labelling, text post-processing, OCR engines).</li>\n<li>Experience in fintech, credit risk, or financial services.</li>\n</ul>\n</div></div>",
+        "truncated": false
+      },
+      "ats_key": "freehire|machine-learning-engineer-llm-vlm-monee-monee-uzp7fzvm",
+      "company": "Monee",
+      "description_excerpt": "<div><div><p>About Monee</p></div></div>\n<div><div><p>Monee is a leading digital payments and financial services provider in Southeast Asia, with a growing presence in Latin America. Its mission is to better the lives of individuals and bus",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-13T23:30:21.406474Z",
+      "key": "sg:009af7ef7a56f08cdc3c",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 142,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "machine-learning-engineer-llm-vlm-monee-monee-uzp7fzvm",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Machine Learning Engineer, LLM/VLM - Monee",
+      "url": "https://sg.jobstreet.com/job/95887225"
     }
   ],
   "terminal": [
@@ -5246,6 +5285,7 @@
       },
       "description_excerpt": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research.  With over 3,0",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate--IC-Design-_R00019126",
       "first_seen_at": "2026-11-13T14:30:55.790134Z",
       "key": "sg:12efbc0ecdb9d31ccace",
       "last_error": null,
@@ -5253,7 +5293,15 @@
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
       "query": "NTU Main Campus, Singapore",
+      "reason": "NTU employer-authored requisition R00019126 requires proven RISC-V CVA6 architecture, Verilog/VHDL/SystemVerilog RTL, GCC/LLVM toolchain changes, and FPGA/Vivado/Quartus for hardware AES/ASCON accelerators. Candidate's verified MSc NLP/LLM/Agent and backend experience does not meet these mandatory hardware skills; no substantive target NLP/LLM/Agent research or engineering work.",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-14T07:00:00+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence_url": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate--IC-Design-_R00019126",
+        "status": "HARD_REJECTED"
+      },
       "seq": 141,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -5262,16 +5310,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "Research Associate (IC Design)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--IC-Design-_R00019126",
-      "evidence_url": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate--IC-Design-_R00019126",
-      "reason": "NTU employer-authored requisition R00019126 requires proven RISC-V CVA6 architecture, Verilog/VHDL/SystemVerilog RTL, GCC/LLVM toolchain changes, and FPGA/Vivado/Quartus for hardware AES/ASCON accelerators. Candidate's verified MSc NLP/LLM/Agent and backend experience does not meet these mandatory hardware skills; no substantive target NLP/LLM/Agent research or engineering work.",
-      "scout_review": {
-        "status": "HARD_REJECTED",
-        "decision": "HARD_REJECTED",
-        "ack": true,
-        "checked_at": "2026-11-14T07:00:00+08:00",
-        "evidence_url": "https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/Research-Associate--IC-Design-_R00019126"
-      }
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--IC-Design-_R00019126"
     }
   ],
   "version": 1
