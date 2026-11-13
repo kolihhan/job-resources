@@ -1234,7 +1234,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-12T00:38:11.091900Z",
       "key": "sg:94c2be085b116dae884e",
-      "last_error": "2026-11-12 21:xx MYT: JobStreet 95839572 indexed as Lenovo Singapore AI Research Engineer (Qira team); no exact Lenovo-owned requisition/full employer JD/current non-MCF apply route established. Both Gmail accounts searched for Lenovo: older applications for different Lenovo AI roles exist, no authoritative exact Qira requisition match. GitHub all-state Lenovo research search found no exact SG AI Research Engineer. Missing exactly: Lenovo employer-controlled requisition with full JD and usable live application route for JobStreet 95839572. Preserve Pending.",
+      "last_error": "Current Lenovo employer-owned exact AI Research Engineer requisition with full JD and usable non-MCF application route corresponding to JobStreet listing 95839572; indexed JobStreet listing is insufficient.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
@@ -1242,10 +1242,10 @@
       "retries": 0,
       "scout_review": {
         "ack": false,
-        "checked_at": "2026-11-12T21:03:31+08:00",
+        "checked_at": "2026-11-13T15:00:00+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "2026-11-12 21:xx MYT: JobStreet 95839572 indexed as Lenovo Singapore AI Research Engineer (Qira team); no exact Lenovo-owned requisition/full employer JD/current non-MCF apply route established. Both Gmail accounts searched for Lenovo: older applications for different Lenovo AI roles exist, no authoritative exact Qira requisition match. GitHub all-state Lenovo research search found no exact SG AI Research Engineer. Missing exactly: Lenovo employer-controlled requisition with full JD and usable live application route for JobStreet 95839572. Preserve Pending.",
-        "status": "RETRY"
+        "status": "RETRY",
+        "missing_evidence": "Current Lenovo employer-owned exact AI Research Engineer requisition with full JD and usable non-MCF application route corresponding to JobStreet listing 95839572; indexed JobStreet listing is insufficient."
       },
       "seq": 130,
       "source": "freehire:public-api:SG",
