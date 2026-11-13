@@ -1158,7 +1158,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T17:52:50.191030Z",
       "key": "sg:f6200d93a813ac0c2a8a",
-      "last_error": null,
+      "last_error": "Employer-authored complete exact-role JD and employer-owned active application requisition/route for TikTok — LLM Evaluation Product Operations Specialist – TikTok; public-feed title is insufficient to verify role depth, eligibility or apply status.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
@@ -1172,7 +1172,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "LLM Evaluation Product Operations Specialist – TikTok",
-      "url": "https://sg.jobstreet.com/job/92900470"
+      "url": "https://sg.jobstreet.com/job/92900470",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-14T04:04:49+08:00",
+        "missing_evidence": "Employer-authored complete exact-role JD and employer-owned active application requisition/route for TikTok — LLM Evaluation Product Operations Specialist – TikTok; public-feed title is insufficient to verify role depth, eligibility or apply status."
+      }
     },
     {
       "api_source_context": {
@@ -1280,7 +1287,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-12T00:38:11.091856Z",
       "key": "sg:30283adab29941228c3b",
-      "last_error": null,
+      "last_error": "Employer-authored complete exact-role JD and employer-owned active application requisition/route for TikTok — LLM & Agent Algorithm Expert - TikTok Search; public-feed title is insufficient to verify role depth, eligibility or apply status.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
@@ -1294,7 +1301,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "LLM & Agent Algorithm Expert - TikTok Search",
-      "url": "https://sg.jobstreet.com/job/93093677"
+      "url": "https://sg.jobstreet.com/job/93093677",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-14T04:04:49+08:00",
+        "missing_evidence": "Employer-authored complete exact-role JD and employer-owned active application requisition/route for TikTok — LLM & Agent Algorithm Expert - TikTok Search; public-feed title is insufficient to verify role depth, eligibility or apply status."
+      }
     },
     {
       "api_source_context": {
