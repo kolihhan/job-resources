@@ -1090,17 +1090,17 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T17:52:50.191018Z",
       "key": "sg:6bc6bd4cf56eec6b4b66",
-      "last_error": "Exact Gradient Ashby e5f78b42-1118-4dc9-aca7-d363a0a8c910 employer application form/current route could not be opened (2026-11-12). Indexed Indeed listing confirms title only, not exact live Ashby form or SG sponsorship.",
+      "last_error": "Exact Gradient Ashby requisition e5f78b42-1118-4dc9-aca7-d363a0a8c910 employer-authored complete JD and currently usable application form; direct employer URL inaccessible, no matching all-state Issue or application evidence in either Gmail.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Anywhere",
       "retries": 0,
       "scout_review": {
         "ack": false,
-        "checked_at": "2026-11-12T22:00:00+08:00",
+        "checked_at": "2026-11-13T17:04:16Z",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact Gradient Ashby e5f78b42-1118-4dc9-aca7-d363a0a8c910 employer application form/current route could not be opened (2026-11-12). Indexed Indeed listing confirms title only, not exact live Ashby form or SG sponsorship.",
-        "status": "RETRY"
+        "status": "RETRY",
+        "missing_evidence": "Exact Gradient Ashby requisition e5f78b42-1118-4dc9-aca7-d363a0a8c910 employer-authored complete JD and currently usable application form; direct employer URL inaccessible, no matching all-state Issue or application evidence in either Gmail."
       },
       "seq": 125,
       "source": "freehire:public-api:SG",
