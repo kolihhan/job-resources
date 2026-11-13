@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-13T09:57:27.292242Z",
-    "source": "devglobal:public-api:SG",
+    "at": "2026-11-13T14:30:55.790147Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 8,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 8
+      "new_pending": 3,
+      "observed": 3
     }
   },
   "market": "SG",
-  "next_seq": 139,
+  "next_seq": 142,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -262,6 +262,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Jurong West, West Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T21:05:29+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Existing WAIT #849 covers ADDCEL AI Engineer JobStreet 95084005; Gmail confirms application 2026-11-03 and closure 2026-11-06, but Pending is different JobStreet ID 95802892. Missing exactly: employer/JobStreet canonical job identity mapping proving 95802892 aliases applied 95084005 or is a distinct requisition. Preserve Pending; no duplicate submission.",
+        "status": "RETRY"
+      },
       "seq": 76,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -270,14 +277,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI ENGINEER",
-      "url": "https://sg.jobstreet.com/job/95802892",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-13T21:05:29+08:00",
-        "missing_evidence": "Existing WAIT #849 covers ADDCEL AI Engineer JobStreet 95084005; Gmail confirms application 2026-11-03 and closure 2026-11-06, but Pending is different JobStreet ID 95802892. Missing exactly: employer/JobStreet canonical job identity mapping proving 95802892 aliases applied 95084005 or is a distinct requisition. Preserve Pending; no duplicate submission."
-      }
+      "url": "https://sg.jobstreet.com/job/95802892"
     },
     {
       "api_source_context": {
@@ -441,6 +441,13 @@
       "platform": "public jobs API (unverified)",
       "query": "North-East Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T21:05:29+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Existing WAIT #963 and JobStreet submission receipt dated 2026-11-12 confirm Ideals Recruitment AI Engineer application, but receipt omits JobStreet ID. Missing exactly: authoritative JobStreet applied-job detail tying receipt to listing 95749616. Preserve Pending; do not resubmit or ACK.",
+        "status": "RETRY"
+      },
       "seq": 89,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -449,14 +456,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95749616",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-13T21:05:29+08:00",
-        "missing_evidence": "Existing WAIT #963 and JobStreet submission receipt dated 2026-11-12 confirm Ideals Recruitment AI Engineer application, but receipt omits JobStreet ID. Missing exactly: authoritative JobStreet applied-job detail tying receipt to listing 95749616. Preserve Pending; do not resubmit or ACK."
-      }
+      "url": "https://sg.jobstreet.com/job/95749616"
     },
     {
       "ats_key": "ntu|workday|/job/NTU-Novena-Campus-Singapore/Research-Assistant-Associate--Neuroscience-and-Artificial-Intelligence--LKCMedicine-_R00026296-1",
@@ -526,6 +526,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Maritime Square, Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-13T21:05:29+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Existing WAIT #86 and employer acknowledgement 2026-09-02 confirm Infineum AI Engineer application, but Pending JobStreet listing 95658569 is not tied to that submitted requisition. Missing exactly: employer/JobStreet job ID mapping for 95658569 to applied Infineum role or distinct requisition. Preserve Pending; no duplicate submission.",
+        "status": "RETRY"
+      },
       "seq": 92,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -534,14 +541,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95658569",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-13T21:05:29+08:00",
-        "missing_evidence": "Existing WAIT #86 and employer acknowledgement 2026-09-02 confirm Infineum AI Engineer application, but Pending JobStreet listing 95658569 is not tied to that submitted requisition. Missing exactly: employer/JobStreet job ID mapping for 95658569 to applied Infineum role or distinct requisition. Preserve Pending; no duplicate submission."
-      }
+      "url": "https://sg.jobstreet.com/job/95658569"
     },
     {
       "api_source_context": {
@@ -620,7 +620,9 @@
       "company": "Micron Semiconductors",
       "consumer_review": {
         "checked_at": "2026-11-13T11:07:48.141249Z",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "possible_prior_issue": 966,
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "<b>Our vision is to transform how the world uses information to enrich life for all.</b><p>Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solu",
@@ -681,9 +683,20 @@
       "ats_key": "openai|ashby|8acfba11-707e-4d8e-a860-88643fae24ba",
       "company": "OpenAI",
       "consumer_review": {
-        "checked_at": "2026-11-13T05:05:19.634049Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+        "checked_at": "2026-11-13T13:23:56+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "About the Team OpenAI’s Applied AI Engineering team helps organizations turn frontier AI capabilities into safe, reliable, and high-impact production systems. We work with customer executives, product and engineering teams, security leaders, and transformation teams to identify valuable opportunities, accelerate technical implementation, and scale what works. Enterprise deployments are defined by complexity rather than any one industry: existing architectures, diverse data environments, security and governance requirements, multiple stakeholder groups, and organization-wide change. We turn lessons from these deployments into better products and reusable patterns for customers everywhere. About the Role As an Applied AI Engineer you will partner directly with leading organizations to design, build, and deploy AI systems that deliver measurable business outcomes. You will combine deep technical judgment, hands-on engineering, and customer leadership to take ambitious ideas from use-case selection and architecture through prototyping, evaluation, production launch, and scale. You will write and debug code, build evaluation systems, resolve complex integrations, and guide decisions involving model behavior, reliability, latency, cost, safety, security, governance, and operational readiness. Success is measured by production systems, sustained adoption, and meaningful customer impact—not simply activity or successful demonstrations. This is a rare opportunity to work on consequential real-world deployments at the frontier of AI while directly influencing how OpenAI’s products evolve. This role is based in Singapore. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees In this role, you will: - Partner directly with enterprise customers to identify high-value opportunities and translate them into technical architectures, implementation plans, evaluation strategies, and measurable success criteria. - Design, build, and deploy AI systems that solve important customer problems and produce measurable business outcomes. - Work hands-on in code to build prototypes, evaluation harnesses, reference implementations, integrations, and production accelerators. - Make sound technical decisions across models, agents, retrieval, tools, data, reliability, observability, latency, cost, safety, security, and governance. - Diagnose complex implementation challenges, reproduce failures, test hypotheses, and drive blockers toward resolution. - Help customers progress from promising prototypes to reliable production systems, sustained adoption, and scaled impact. - Partner closely with customer engineering teams and OpenAI Product, Research, Engineering, Security, and go-to-market teams, translating deployment experience into high-signal product feedback. - Create reusable architectures, tooling, playbooks, and technical guidance that accelerate future enterprise deployments. You’ll thrive in this role if you: - Have a demonstrated track record of designing, building, and delivering AI or machine-learning systems in enterprise environments, including taking systems from prototype to production. Relevant backgrounds may include applied AI or ML engineering, forward-deployed engineering, software engineering, customer engineering, solutions architecture, or technical consulting. - Can point to substantial personal contributions in code, architecture, evaluation, debugging, or production engineering—not only program or stakeholder management. - Are highly proficient in Python and comfortable working across an AI application stack; experience with JavaScript, TypeScript, or another relevant language is valuable. - Understand how to evaluate AI systems systematically using representative data, graders, production signals, and human judgment. - Have navigated enterprise production requirements such as integrations, reliability, observability, security, privacy, data governance, performance, and cost. - Can connect technical decisions to customer workflows, adoption, and measurable business outcomes. - Communicate with clarity and credibility across hands-on engineers, technical leaders, security teams, product leaders, and executives. - Bring high agency, strong technical judgment, and end-to-end ownership in ambiguous environments. - Learn quickly, challenge assumptions constructively, and collaborate with humility; experience in a particular industry or with OpenAI products is not required. About OpenAI OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf. Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations. To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance. We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241. OpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "jd_chars": 7302,
+        "jd_sha256": "23e76fe329d1e2867e4e1f7fb9884d5c84e796aebe340afcb04350e1d652cf01",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "possible_prior_issue": 103,
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
       },
       "description_excerpt": "About the Team OpenAI’s Applied AI Engineering team helps organizations turn frontier AI capabilities into safe, reliable, and high-impact production systems. We work with customer executives, product and engineering teams, security leaders",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
@@ -1137,7 +1150,9 @@
       "company": "TikTok",
       "consumer_review": {
         "checked_at": "2026-11-13T05:05:19.634049Z",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "possible_prior_issue": 806,
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "<strong>Responsibilities</strong><br><p>Our Search Team focuses on LLM application algorithms for TikTok Search, with core scenarios including AI Search and TikTok AI Bot. We build search question-answer cards via LLM-powered generation and",
@@ -1174,9 +1189,11 @@
         "checked_at": "2026-11-11T17:25:31+00:00",
         "full_jd_complete": true,
         "full_jd_text": "ABOUT THE ROLE Join an engineering team at an AI infrastructure company focused on reinforcement learning environments and evaluation. You will build systems that make quality control for training data scalable, helping improve the reliability of data used to train and evaluate AI agents. WHAT YOU'LL DO - Automate quality control for training data generated through the platform. - Build quality systems grounded in human judgment and understanding, rather than relying heavily on large language models. - Define and enforce standards for training data quality. - Design experiments and metrics to evaluate agent outputs. - Work with data vendors to investigate quality issues, diagnose agent failure modes, and improve data generation processes. - Turn quality findings into sampling strategies and rule-based or model-assisted validation pipelines. - Incorporate quality insights into infrastructure tools and vendor workflows to reduce anomalies and edge cases. WHAT WE'RE LOOKING FOR - Two to four years of experience in research engineering or a related technical role, especially in quality control automation. - A technical degree and proficiency with Python, Docker, and Linux. - Experience independently building scalable data validation pipelines and end-to-end automated QA or QC systems. - Experience with benchmarks and evaluations for reinforcement learning data, including realistic task design, reliable rubrics, and useful training trajectories. - Ability to define and measure training data quality, and design QC systems that use human judgment without heavy reliance on large language models. - Experience designing evaluation metrics and experiments, and collaborating with data vendors to resolve quality problems. - Knowledge of statistics, strong communication skills, curiosity, and comfort working independently in an early-stage environment. COMPENSATION & BENEFITS Base salary range: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
         "jd_chars": 2021,
         "jd_sha256": "830c3d26d2c9cfeef36d310228c3ca2f926803ea64837cf9a09af9b3d8184269",
         "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "possible_prior_issue": 967,
         "review_flags": [
           "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
         ],
@@ -1508,6 +1525,92 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Research, ML ",
       "url": "https://jobs.ashbyhq.com/exa/f6bd612e-a4ee-4c75-a205-5cd70901661f"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Salary: $4,800 – $7,000 per month</p><p><strong>About the role</strong></p><p>Develop and optimise computer vision algorithms for video analytics applications, transforming real-world visual data into reliable detection, tracking, and event analysis capabilities. You will contribute to production-ready solutions across applications such as intrusion detection, loitering detection, PPE detection, falling object detection, people counting, vehicle monitoring, and other abnormal event detection use cases.</p><p><strong>Key responsibilities</strong></p><ul><li><p>Develop and optimise algorithms for object detection, classification, segmentation, object tracking, and event detection.</p></li><li><p>Build multi-frame video analysis logic using tracking, trajectory, direction, speed, region of interest, and temporal information.</p></li><li><p>Train, fine-tune, test, and evaluate computer vision models using real project datasets.</p></li><li><p>Analyse false positives and false negatives, improving model accuracy through model tuning, data improvement, tracking, and post-processing.</p></li><li><p>Develop reusable computer vision modules for detection, tracking, event analysis, and alarm triggering.</p></li><li><p>Work closely with software and deployment engineers to integrate algorithms into production systems.</p></li></ul><p><strong>What we're looking for</strong></p><ul><li><p>Bachelor's Degree in Computer Science, Computer Engineering, Electrical or Electronic Engineering, Artificial Intelligence, or a related field. Fresh graduates are welcome to apply.</p></li><li><p>Good programming skills in Python.</p></li><li><p>Hands-on experience with OpenCV and PyTorch or similar deep learning frameworks.</p></li><li><p>Experience with object detection models such as YOLO, RT-DETR, Faster R-CNN, or equivalent.</p></li><li><p>Knowledge of object tracking and video analytics.</p></li><li><p>Experience training, testing, or improving computer vision models.</p></li><li><p>Good understanding of image processing and multi-frame video analysis.</p></li><li><p>Ability to write clean, modular, and maintainable code.</p></li><li><p>Experience with ByteTrack, DeepSORT, BoT-SORT, ReID, or other tracking algorithms is preferred.</p></li><li><p>Experience with optical flow, background subtraction, segmentation, or pose estimation is preferred.</p></li><li><p>Familiarity with ONNX or TensorRT is preferred.</p></li><li><p>Experience with CCTV, security, smart city, industrial vision, factory automation, or traffic analytics applications is preferred.</p></li><li><p>Experience with VLM-based visual analysis or verification is an advantage.</p></li></ul><p><br></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-computer-vision-aztech-technologies-pte-ltd-snsmjrky",
+      "company": "Aztech Technologies Pte Ltd",
+      "description_excerpt": "<p>Salary: $4,800 – $7,000 per month</p><p><strong>About the role</strong></p><p>Develop and optimise computer vision algorithms for video analytics applications, transforming real-world visual data into reliable detection, tracking, and ev",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-13T14:30:55.790049Z",
+      "key": "sg:feeb32248553e772f4ca",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Paya Lebar, East Region",
+      "retries": 0,
+      "seq": 139,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-computer-vision-aztech-technologies-pte-ltd-snsmjrky",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer (Computer Vision)",
+      "url": "https://sg.jobstreet.com/job/95871661"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,000 undergraduates students and 2,000 graduate students it is one of the largest EEE schools in the world and ranks 4th in the field of Electrical &amp; Electronic Engineering in the 2025 QS World University Rankings by Subjects.</p><p>Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges.</p><p>For more details, please view: </p><p><span>We are looking for a Research Associate to work on Embodied AI Safety. The role will focus on designing, developing, and implementing novel algorithms and models to address emerging challenges in Embodied AI Safety, including attack and defense mechanisms.</span></p><p><b>Key Responsibilities:</b></p><p>The research <span>associate </span>will focus on the following tasks</p><ul><li><p>Data collection and processing</p></li><li><p>Conducting experiments and analyzing results</p></li><li><p>Assisting with robot operation, debugging, and system integration</p></li><li><p>Providing general support for the lab</p></li></ul><p><b>Job Requirements:</b></p><ul><li><p>Master’s degree in Electrical Engineering, Computer Science, or related field</p></li><li><p>Knowledge and experience in AI safety, computer vision and deep learning</p></li><li><p>Good written and oral communication skills</p></li><li><p>Proficiency in basics of programming languages such as Python</p></li><li><p>Demonstrates initiative and a strong drive to achieve objectives.</p></li></ul><p>We regret to inform you that only shortlisted candidates will be notified.</p>Hiring Institution: NTU",
+        "truncated": false
+      },
+      "ats_key": "freehire|research-associate-embodied-ai-safety-ntu-3azzhouk",
+      "company": "Ntu",
+      "description_excerpt": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research. With over 3,00",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-13T14:30:55.790104Z",
+      "key": "sg:31ab971bbe7bf99bee07",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 140,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-associate-embodied-ai-safety-ntu-3azzhouk",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Associate (Embodied AI Safety)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Embodied-AI-Safety-_R00024943"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research.  With over 3,000 undergraduates students and 1,000 graduate students it is one of the largest EEE schools in the world and ranks 10th in the field of Electrical &amp; Electronic Engineering in the 2024 QS World University Rankings by Subjects.</p><p>Today, the School has become one of the world’s largest engineering schools that nurtures competent engineers and researchers. Each year, the School graduates over a thousand students who are ready to take on great ambitions and challenges.</p><p>For more details, please view: </p><p><span>We are looking for a highly skilled Research Associate with experience in RISC-V architecture. The successful candidate will be responsible for adding a Hardware AES and ASCON Accelerator to the RISC-V CVA6 core. This role requires deep knowledge of hardware design, cryptographic algorithms, and the RISC-V instruction set architecture (ISA). You will work closely with the AES and ASCON designers in our team to ensure seamless integration and optimal performance of the cryptographic accelerators.</span></p><p><b>Key Responsibilities:</b></p><p>Design and Implementation:</p><ul><li><p>Integrate a Hardware AES Accelerator and ASCON Lightweight Cryptography Accelerator into the RISC-V CVA6 (Ariane) core.</p></li><li><p>Implement memory-mapped interfaces or custom instructions for the accelerators to interface with the CVA6 core.</p></li><li><p>Collaborate on the integration of the accelerators into the core&#39;s execution pipeline.</p></li></ul><p>RISC-V ISA Extension:</p><ul><li><p>Define and implement custom RISC-V instructions to utilize the AES and ASCON hardware accelerators, if needed.</p></li><li><p>Modify the RISC-V CVA6 decode and execution stages to handle the new cryptographic instructions.</p></li><li><p>Work out the toolchain to ensure assembler, compiler, and simulation support for the custom instructions.</p></li></ul><p>Verification and Testing:</p><ul><li><p>Conduct simulations to evaluate the performance, latency, and throughput of the accelerators within the CVA6 pipeline.</p></li><li><p>Work closely with the AES and ASCON accelerator design team to ensure proper testing and debugging of the hardware integration.</p></li></ul><p><b>Job Requirements:</b></p><ul><li><p>Master’s degree in Electrical Engineering, Computer Engineering, or a related field.</p></li><li><p>Proven experience with RISC-V architecture, especially with custom instruction extensions and pipeline modifications.</p></li><li><p>Proficiency in HDL languages (Verilog, VHDL, or SystemVerilog) and RTL design.</p></li><li><p>Proficiency in toolchain modification, including the ability to extend assemblers and compilers (GCC, LLVM) for custom hardware instructions.</p></li><li><p>Proficiency of FPGA development tools such as Vivado, Quartus, or similar for prototyping.</p></li></ul><p>Preferred Additional Skills:</p><ul><li><p>Strong understanding of ASIC/FPGA design flows, including synthesis, place and route, and timing closure.</p></li><li><p>Experience in cryptography and implementing cryptographic algorithms in hardware (AES, ASCON, etc.).</p></li></ul><p>We regret to inform that only shortlisted candidates will be notified.</p>Hiring Institution: NTU",
+        "truncated": false
+      },
+      "ats_key": "freehire|research-associate-ic-design-ntu-mdyyz5nl",
+      "company": "Ntu",
+      "description_excerpt": "<p>School of Electrical and Electronic Engineering is one of the founding Schools of the Nanyang Technological University. Built on a culture of excellence, the School is renowned for its high academic standards and research.  With over 3,0",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-13T14:30:55.790134Z",
+      "key": "sg:12efbc0ecdb9d31ccace",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 141,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-associate-ic-design-ntu-mdyyz5nl",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Associate (IC Design)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--IC-Design-_R00019126"
     }
   ],
   "terminal": [
