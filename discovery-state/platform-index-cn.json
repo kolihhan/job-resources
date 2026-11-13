@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-11T11:57:15.037704Z",
+    "at": "2026-11-13T12:21:53.551165Z",
     "source": "freehirefetch:official-ats:CN",
     "stats": {
       "already_seen": 0,
@@ -12,7 +12,7 @@
     }
   },
   "market": "CN",
-  "next_seq": 81,
+  "next_seq": 84,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -1025,6 +1025,72 @@
       "state": "UNVERIFIED_INDEX",
       "title": "抖音多业务场景的大模型训练与应用-抖音AI",
       "url": "https://jobs.bytedance.com/campus/position/7628896431759231285/detail"
+    },
+    {
+      "ats_key": "jobpro:minimax:7676403629650381107",
+      "company": "minimax",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-13T12:21:53.551081Z",
+      "key": "cn:81190b92422d599f2ea6",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "北京 / 上海",
+      "retries": 0,
+      "seq": 81,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "7676403629650381107",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "大模型高性能网关工程师-2027届",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7676403629650381107/detail"
+    },
+    {
+      "ats_key": "jobpro:nio:7673027287931144494",
+      "company": "nio",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-13T12:21:53.551135Z",
+      "key": "cn:aa09e3521ead37c78650",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "北京",
+      "retries": 0,
+      "seq": 82,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "7673027287931144494",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "校招-多语言大模型算法工程师",
+      "url": "https://nio.jobs.feishu.cn/campus/position/7673027287931144494/detail"
+    },
+    {
+      "ats_key": "jobpro:nio:7673027342272416046",
+      "company": "nio",
+      "description_excerpt": "",
+      "discovery_access": "PUBLIC_EMPLOYER_API_LISTING",
+      "first_seen_at": "2026-11-13T12:21:53.551154Z",
+      "key": "cn:c0e8b7ef0617ebf71410",
+      "last_error": null,
+      "market": "CN",
+      "platform": "public jobs API (unverified)",
+      "query": "上海",
+      "retries": 0,
+      "seq": 83,
+      "source": "jobpro:public-employer-api:CN",
+      "source_evidence": "listing_only",
+      "source_job_id": "7673027342272416046",
+      "source_listing_url": "",
+      "source_platform": "企业官方招聘入口 (job-pro)",
+      "state": "UNVERIFIED_INDEX",
+      "title": "校招-软件算法工程师（智能底盘方向）",
+      "url": "https://nio.jobs.feishu.cn/campus/position/7673027342272416046/detail"
     }
   ],
   "terminal": [
@@ -2128,12 +2194,14 @@
       "company": "NVIDIA",
       "description_excerpt": "<p><span>Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s nev",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Agent-Engineer-Intern--AI-Enablement-Process---2027_JR2025834-1",
       "first_seen_at": "2026-11-10T15:19:11.116008Z",
       "key": "cn:82a7e169e9a125c05807",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "China, Beijing",
+      "reason": "NVIDIA exact employer Workday JD identifies 2027 internship and explicitly requires currently pursuing a Bachelor's/Master's/PhD. Candidate completed MSc in 2026 and seeks employed RA/RE or AI Engineer, not an internship; ineligible employment type and student status.",
       "retries": 0,
       "seq": 66,
       "source": "freehire:public-api:CN",
@@ -2143,9 +2211,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Agent Engineer Intern, AI Enablement Process - 2027",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Agent-Engineer-Intern--AI-Enablement-Process---2027_JR2025834-1",
-      "reason": "NVIDIA exact employer Workday JD identifies 2027 internship and explicitly requires currently pursuing a Bachelor's/Master's/PhD. Candidate completed MSc in 2026 and seeks employed RA/RE or AI Engineer, not an internship; ineligible employment type and student status.",
-      "evidence_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Agent-Engineer-Intern--AI-Enablement-Process---2027_JR2025834-1"
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Agent-Engineer-Intern--AI-Enablement-Process---2027_JR2025834-1"
     },
     {
       "api_source_context": {
@@ -2157,12 +2223,14 @@
       "ats_key": "freehire|ai-engineer-technical-leader-agentic-ai-fpga-systems-altera-corporation-6tzyiz5m",
       "company": "Altera Corporation",
       "description_excerpt": "<h1><b>Job Details:</b></h1><p></p><h3></h3><h2><b>Job Description:</b></h2><p><b><span>Role Overview</span></b></p><p><span>We are seeking a highly experienced </span><b><span>AI Technical Leader</span></b><span> to drive the design and de",
+      "evidence_url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/AI-Engineer---Technical-Leader--Agentic-AI---FPGA-Systems-_R02849",
       "first_seen_at": "2026-11-09T16:44:39.014108Z",
       "key": "cn:5ddf5ab88cc48fb99013",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "Shanghai, China",
+      "reason": "Altera employer Workday R02849 requires an experienced technical leader who mentors senior engineers and owns FPGA/ASIC architecture/model optimization; candidate lacks mandatory hardware acceleration and mature AI technical leadership experience.",
       "retries": 0,
       "seq": 9,
       "source": "freehire:public-api:CN",
@@ -2171,9 +2239,7 @@
       "source_listing_url": "",
       "state": "HARD_REJECTED",
       "title": "AI Engineer – Technical Leader (Agentic AI & FPGA Systems)",
-      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/AI-Engineer---Technical-Leader--Agentic-AI---FPGA-Systems-_R02849",
-      "reason": "Altera employer Workday R02849 requires an experienced technical leader who mentors senior engineers and owns FPGA/ASIC architecture/model optimization; candidate lacks mandatory hardware acceleration and mature AI technical leadership experience.",
-      "evidence_url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/AI-Engineer---Technical-Leader--Agentic-AI---FPGA-Systems-_R02849"
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Shanghai-China/AI-Engineer---Technical-Leader--Agentic-AI---FPGA-Systems-_R02849"
     },
     {
       "api_source_context": {
@@ -2186,12 +2252,14 @@
       "company": "NVIDIA",
       "description_excerpt": "<p>NVIDIA is the engine of modern AI. For over 25 years our work in accelerated computing has redefined computer graphics, autonomous machines, and now physical AI. We are looking for an AI Developer Technology Engineer to join our DevTech ",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383",
       "first_seen_at": "2026-11-09T16:57:31.171564Z",
       "key": "cn:acde4dc95c2a346a20e8",
       "last_error": null,
       "market": "CN",
       "platform": "public jobs API (unverified)",
       "query": "China, Shanghai",
+      "reason": "NVIDIA official Workday JR2027383 requires C++, CUDA, Linux and proven robotics physics simulator (Isaac Sim/MuJoCo/Gazebo etc.) experience, alongside embodied-AI/robotics work; candidate has NLP/LLM/RAG and part-time web backend, not these mandatory robotics/accelerator capabilities.",
       "retries": 0,
       "seq": 21,
       "source": "freehire:public-api:CN",
@@ -2201,9 +2269,7 @@
       "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
       "title": "AI Developer Technology Engineer",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383",
-      "reason": "NVIDIA official Workday JR2027383 requires C++, CUDA, Linux and proven robotics physics simulator (Isaac Sim/MuJoCo/Gazebo etc.) experience, alongside embodied-AI/robotics work; candidate has NLP/LLM/RAG and part-time web backend, not these mandatory robotics/accelerator capabilities.",
-      "evidence_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383"
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383"
     }
   ],
   "version": 1
