@@ -680,34 +680,6 @@
       "url": "https://sg.jobstreet.com/job/95468483"
     },
     {
-      "ats_key": "grab|smartrecruiters|744000148945093",
-      "company": "Grab",
-      "consumer_review": {
-        "checked_at": "2026-11-13T11:07:48.141249Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T17:44:46.023136Z",
-      "key": "sg:1becb397a6d75ba28975",
-      "last_error": null,
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore, sg",
-      "retries": 0,
-      "seq": 101,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "744000148945093",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Senior Localization Engineer / Research Engineer, Robotics AI (Visual Navigation)",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000148945093"
-    },
-    {
       "ats_key": "openai|ashby|8acfba11-707e-4d8e-a860-88643fae24ba",
       "company": "OpenAI",
       "consumer_review": {
@@ -5311,6 +5283,43 @@
       "state": "HARD_REJECTED",
       "title": "Research Associate (IC Design)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--IC-Design-_R00019126"
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000148945093",
+      "company": "Grab",
+      "consumer_review": {
+        "checked_at": "2026-11-13T11:07:48.141249Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T17:44:46.023136Z",
+      "key": "sg:1becb397a6d75ba28975",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "retries": 0,
+      "seq": 101,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "744000148945093",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "Senior Localization Engineer / Research Engineer, Robotics AI (Visual Navigation)",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000148945093",
+      "reason": "Official Grab requisition 744000148945093 explicitly requires a PhD in CS/Robotics/AI/CV or related field, strong research contributions in visual navigation/robot perception, and ROS robotics integration. Candidate has MSc NLP/LLM and no demonstrated robotics PhD/ROS/VLN record. Hard PhD and domain mismatch.",
+      "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-",
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-14T09:04:44+08:00",
+        "decision": "HARD_REJECTED",
+        "status": "HARD_REJECTED",
+        "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-"
+      }
     }
   ],
   "version": 1
