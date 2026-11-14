@@ -568,39 +568,6 @@
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by the People’s Bank of China, undertakes and transacts various kinds of investment businesses.</p>\n<strong>Job Description</strong><br><ul>\n<li>Research developments in large language models, AI tools and the vendor landscape, and assess their relevance and value to the company.</li>\n<li>Compare on-premise open-source models with external APIs on performance, cost and data security, and recommend the right option for each use case.</li>\n<li>Establish the company&#39;s AI usage policy and AI data governance framework.</li>\n<li>Plan, design and build the company&#39;s enterprise AI platform, providing secure, governed and unified access to both on-premise and external AI capabilities across the organisation.</li>\n<li>Lead AI security, safeguarding the company&#39;s AI systems, models and data against emerging threats.</li>\n<li>Deploy and maintain on-premise model inference services and plan GPU and hardware resources.</li>\n<li>Manage external API access, keys, quotas and costs, and route requests between on-premise and external models by use case.</li>\n<li>Monitor availability, response time, usage volume and cost of AI services.</li>\n<li>Work with business units to identify pilot use cases and build prototypes such as knowledge base Q&amp;A (RAG), document processing and workflow automation.</li>\n<li>Measure pilot outcomes and report to management with recommendations on whether to scale up.</li>\n</ul>\n<strong>Requirements</strong><br><ul>\n<li>Bachelor&#39;s degree or above in Computer Science, Information Technology or a related field.</li>\n<li>Hands-on experience (work or personal projects) deploying open-source LLMs on-premise (e.g. Ollama, vLLM), with an understanding of model quantisation and hardware requirements.</li>\n<li>Hands-on experience (work or personal projects) with at least one major LLM API; familiar with RAG, vector search and prompt design.</li>\n<li>Proficient in Python; able to build backend services and APIs independently.</li>\n<li>Familiar with Docker and Linux, and with basic security concepts such as access control, logging and encryption.</li>\n<li>Strong research and writing skills; able to turn technical comparisons into clear reports for management.</li>\n<li>Self-driven and comfortable working in an exploratory role with evolving requirements.</li>\n<li>Experience building an internal AI platform, AI gateway or knowledge base; familiarity with agent frameworks (e.g. LangGraph, LangChain); knowledge of the PDPA or AI governance frameworks.</li>\n</ul>\n<p>Interested applicants may apply bysending in your updated resume to ***email_hidden***</p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
-      "company": "Investment Company Of The People'S Republic Of China (Singapore) Pte Ltd",
-      "consumer_review": {
-        "checked_at": "2026-11-13T11:07:48.141249Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by th",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T17:44:46.022893Z",
-      "key": "sg:758fb97bd538822f8aa9",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Singapore",
-      "retries": 0,
-      "seq": 93,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI ENGINEER",
-      "url": "https://sg.jobstreet.com/job/95439617"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
         "text": "<div><div><p>Job Description</p></div></div>\n<div><div>\n<p><strong>Job Description</strong></p>\n<p>We are searching for a talented AI Data Engineer to join our growing team. In this role, you will play a pivotal role in designing, building, and maintaining scalable data pipelines that fuel our AI applications and business intelligence initiatives. You will be responsible for the entire data lifecycle, from data acquisition to transformation and delivery, ensuring high-quality data is readily available for various stakeholders.</p>\n<p><strong>Responsibilities</strong></p>\n<ul>\n<li>Collaborate with AI Scientists, Business Analysts, and Product Managers to understand data requirements for AI applications and business use cases.</li>\n<li>Design and implement scalable data pipelines for efficient data extraction, transformation, and loading extract, transform, and load (ETL) from various sources.</li>\n<li>Develop and maintain data models that optimize data storage, retrieval, and utilization for AI and BI needs.</li>\n<li>Develop continuous data processing jobs and pipelines to provide scalable input for analytics and modelling needs.</li>\n<li>Implement data quality checks and cleansing processes to ensure data accuracy and consistency.</li>\n<li>Automate workflows to improve efficiency and reduce manual intervention.</li>\n<li>Monitor and troubleshoot data pipelines and system performance, including model performance, to identify and resolve issues proactively.</li>\n<li>Stay up-to-date with the latest data engineering technologies and best practices.</li>\n<li>Contribute to the development and implementation of data governance strategies.</li>\n<li>Work closely with stakeholders to ensure high standards of data governance during implementation.</li>\n</ul>\n</div></div>\n<div><div><p>Job Requirements</p></div></div>\n<div><div>\n<ul>\n<li>Bachelor’s degree in Computer Science, Information Technology, or related fields.</li>\n<li>3+ years of experience in developing end-to-end AI/ML applications with a focus on Data Engineering tasks.</li>\n<li>Proven experience in designing and building scalable data pipelines.</li>\n<li>Strong understanding of algorithms, data structures, discrete math, ETL processes, and data warehousing concepts.</li>\n<li>Proficiency in programming languages such as Python or Java</li>\n<li>Experience with cloud infrastructure (AWS, Azure), Kubernetes and Docker preferred.</li>\n<li>Familiarity with TensorFlow, PyTorch, and other open-source AI/ML frameworks; SQL/NoSQL databases; big data technologies like Spark/Hadoop is advantageous.</li>\n<li>Experience with Graph DB and building Graph-based applications.</li>\n<li>Experience working in the Media &amp; Entertainment industry is a strong plus.</li>\n<li>Self-directed with excellent communication and collaboration skills; ability to work independently or as part of a cross-functional team.</li>\n</ul>\n</div></div>",
         "truncated": false
       },
@@ -5388,6 +5355,50 @@
       "state": "HARD_REJECTED",
       "title": "AI Engineer – Associate",
       "url": "https://sg.jobstreet.com/job/95294829"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by the People’s Bank of China, undertakes and transacts various kinds of investment businesses.</p>\n<strong>Job Description</strong><br><ul>\n<li>Research developments in large language models, AI tools and the vendor landscape, and assess their relevance and value to the company.</li>\n<li>Compare on-premise open-source models with external APIs on performance, cost and data security, and recommend the right option for each use case.</li>\n<li>Establish the company&#39;s AI usage policy and AI data governance framework.</li>\n<li>Plan, design and build the company&#39;s enterprise AI platform, providing secure, governed and unified access to both on-premise and external AI capabilities across the organisation.</li>\n<li>Lead AI security, safeguarding the company&#39;s AI systems, models and data against emerging threats.</li>\n<li>Deploy and maintain on-premise model inference services and plan GPU and hardware resources.</li>\n<li>Manage external API access, keys, quotas and costs, and route requests between on-premise and external models by use case.</li>\n<li>Monitor availability, response time, usage volume and cost of AI services.</li>\n<li>Work with business units to identify pilot use cases and build prototypes such as knowledge base Q&amp;A (RAG), document processing and workflow automation.</li>\n<li>Measure pilot outcomes and report to management with recommendations on whether to scale up.</li>\n</ul>\n<strong>Requirements</strong><br><ul>\n<li>Bachelor&#39;s degree or above in Computer Science, Information Technology or a related field.</li>\n<li>Hands-on experience (work or personal projects) deploying open-source LLMs on-premise (e.g. Ollama, vLLM), with an understanding of model quantisation and hardware requirements.</li>\n<li>Hands-on experience (work or personal projects) with at least one major LLM API; familiar with RAG, vector search and prompt design.</li>\n<li>Proficient in Python; able to build backend services and APIs independently.</li>\n<li>Familiar with Docker and Linux, and with basic security concepts such as access control, logging and encryption.</li>\n<li>Strong research and writing skills; able to turn technical comparisons into clear reports for management.</li>\n<li>Self-driven and comfortable working in an exploratory role with evolving requirements.</li>\n<li>Experience building an internal AI platform, AI gateway or knowledge base; familiarity with agent frameworks (e.g. LangGraph, LangChain); knowledge of the PDPA or AI governance frameworks.</li>\n</ul>\n<p>Interested applicants may apply bysending in your updated resume to ***email_hidden***</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
+      "company": "Investment Company Of The People'S Republic Of China (Singapore) Pte Ltd",
+      "consumer_review": {
+        "checked_at": "2026-11-13T11:07:48.141249Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by th",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T17:44:46.022893Z",
+      "key": "sg:758fb97bd538822f8aa9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 93,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "DUPLICATE_CONFIRMED",
+      "title": "AI ENGINEER",
+      "url": "https://sg.jobstreet.com/job/95439617",
+      "reason": "Exact employer-authored JobStreet listing 95439617 and role AI Engineer match already-applied WAIT #977; Issue records direct-email application 2026-11-14, corroborated by sent Gmail 'Application — AI Engineer — Ko Lih Han'. Do not reapply.",
+      "evidence_url": "https://sg.jobstreet.com/job/95439617",
+      "reviewed_at": "2026-11-14T10:55:46Z",
+      "scout_review": {
+        "ack": true,
+        "status": "DUPLICATE_CONFIRMED",
+        "decision": "PRIOR_WAIT",
+        "checked_at": "2026-11-14T18:55:46+08:00",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/977",
+        "evidence": "Exact employer + title + JobStreet 95439617; WAIT #977 and sent Gmail confirmed"
+      }
     }
   ],
   "version": 1
