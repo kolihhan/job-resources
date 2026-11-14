@@ -500,17 +500,17 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T12:45:59.689068Z",
       "key": "sg:7a417064eeb00fd21d6a",
-      "last_error": "NTU LKCMedicine Research Assistant/Associate Neuroscience and AI R00026296-1: stored complete first-party JD reviewed; employer Workday exact page inaccessible 2026-11-15. GitHub exact requisition no Issue; historical same-role #748 requires alias assessment. Both Gmail accounts targeted NTU neuroscience search found no application receipt. Missing exactly: current live Workday application route for R00026296-1; retain Pending rather than infer open status.",
+      "last_error": "Stored first-party NTU LKCMedicine JD for R00026296-1 is MSc-compatible, but current exact Workday job/application page cannot be independently read; indexed related R00025241-1 is a distinct requisition and cannot substitute. Both Gmail accounts checked 2026-11-15 for Nair research; no exact receipt. Missing exactly: currently usable employer application route for R00026296-1. Preserve Pending; no ACK.",
       "market": "SG",
       "platform": "workday official ATS",
       "query": "NTU Novena Campus, Singapore",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-15T00:01:58+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "NTU LKCMedicine Research Assistant/Associate Neuroscience and AI R00026296-1: stored complete first-party JD reviewed; employer Workday exact page inaccessible 2026-11-15. GitHub exact requisition no Issue; historical same-role #748 requires alias assessment. Both Gmail accounts targeted NTU neuroscience search found no application receipt. Missing exactly: current live Workday application route for R00026296-1; retain Pending rather than infer open status.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-15T05:01:19+08:00",
+        "missing_evidence": "Stored first-party NTU LKCMedicine JD for R00026296-1 is MSc-compatible, but current exact Workday job/application page cannot be independently read; indexed related R00025241-1 is a distinct requisition and cannot substitute. Both Gmail accounts checked 2026-11-15 for Nair research; no exact receipt. Missing exactly: currently usable employer application route for R00026296-1. Preserve Pending; no ACK."
       },
       "seq": 91,
       "source": "freehirefetch:official-ats:SG",
@@ -667,7 +667,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T17:44:46.023167Z",
       "key": "sg:66e51dbae99b1f7e3eae",
-      "last_error": "Exact OpenAI Ashby 8acfba11-707e-4d8e-a860-88643fae24ba public JD indexed and employer role still searchable 2026-11-12; direct page requires JavaScript. First Gmail has 2026-09-21 OpenAI Applied AI Engineer application update and GitHub prior REJECTED same role. Missing evidence: authoritative requisition ID of prior OpenAI application to distinguish this exact Ashby role; do not create repeat APPLY.",
+      "last_error": "Employer Ashby 8acfba11-707e-4d8e-a860-88643fae24ba current full JD indexed; Singapore full-time hybrid and relocation assistance. Gmail account 1 confirms prior OpenAI Applied AI Engineer rejection 2026-09-21; GitHub closed #103 same title, without requisition. Missing exactly: authoritative requisition mapping of prior submitted/rejected Applied AI Engineer versus Ashby 8acfba11-707e-4d8e-a860-88643fae24ba. Do not create repeat APPLY or ACK.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
@@ -679,11 +679,11 @@
         "status": "RETRY"
       },
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-12T14:15:00+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact OpenAI Ashby 8acfba11-707e-4d8e-a860-88643fae24ba public JD indexed and employer role still searchable 2026-11-12; direct page requires JavaScript. First Gmail has 2026-09-21 OpenAI Applied AI Engineer application update and GitHub prior REJECTED same role. Missing evidence: authoritative requisition ID of prior OpenAI application to distinguish this exact Ashby role; do not create repeat APPLY.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-15T05:01:19+08:00",
+        "missing_evidence": "Employer Ashby 8acfba11-707e-4d8e-a860-88643fae24ba current full JD indexed; Singapore full-time hybrid and relocation assistance. Gmail account 1 confirms prior OpenAI Applied AI Engineer rejection 2026-09-21; GitHub closed #103 same title, without requisition. Missing exactly: authoritative requisition mapping of prior submitted/rejected Applied AI Engineer versus Ashby 8acfba11-707e-4d8e-a860-88643fae24ba. Do not create repeat APPLY or ACK."
       },
       "seq": 102,
       "source": "freehirefetch:official-ats:SG",
