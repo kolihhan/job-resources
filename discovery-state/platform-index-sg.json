@@ -1,6 +1,6 @@
 {
   "last_ingestion": {
-    "at": "2026-11-13T23:30:21.406501Z",
+    "at": "2026-11-14T08:56:09.822457Z",
     "source": "freehirefetch:official-ats:SG",
     "stats": {
       "already_seen": 0,
@@ -12,7 +12,7 @@
     }
   },
   "market": "SG",
-  "next_seq": 143,
+  "next_seq": 144,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -383,11 +383,11 @@
       "query": "Kent Ridge, Central Region",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T13:57:19+08:00",
-        "missing_evidence": "NUS employer-owned active careers requisition 34363 full JD and direct non-MCF application route; JobStreet 94531188 and third-party full text are not employer verification. Both Gmail accounts checked by NUS/School of Computing/Horizons; no exact 34363 receipt found, but a different NUS RA LLM receipt exists."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "NUS employer-owned active careers requisition 34363 full JD and direct non-MCF application route; JobStreet 94531188 and third-party full text are not employer verification. Both Gmail accounts checked by NUS/School of Computing/Horizons; no exact 34363 receipt found, but a different NUS RA LLM receipt exists.",
+        "status": "RETRY"
       },
       "seq": 84,
       "source": "freehire:public-api:SG",
@@ -508,11 +508,11 @@
       "query": "NTU Novena Campus, Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T11:00:27+08:00",
-        "missing_evidence": "Exact NTU Workday requisition R00026296-1 live apply form inaccessible on 2026-11-14; stored first-party JD is available and primarily neuroscience/behavioral research. GitHub same-role #748 SKIP is a historical related role, not proven exact ID duplicate; both Gmail accounts searched exact title/ID without direct receipt. Missing exactly: current employer-controlled Workday application form for R00026296-1."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NTU Workday requisition R00026296-1 live apply form inaccessible on 2026-11-14; stored first-party JD is available and primarily neuroscience/behavioral research. GitHub same-role #748 SKIP is a historical related role, not proven exact ID duplicate; both Gmail accounts searched exact title/ID without direct receipt. Missing exactly: current employer-controlled Workday application form for R00026296-1.",
+        "status": "RETRY"
       },
       "seq": 91,
       "source": "freehirefetch:official-ats:SG",
@@ -822,11 +822,11 @@
       "query": "Singapore, sg",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T00:15:00Z",
-        "missing_evidence": "Exact NCS SmartRecruiters requisition 6000000001031326 official JD and live apply form could not be read (direct URL inaccessible). Search found different NCS #EG Platform AI Engineer ID 6000000000981978 with 3–5 professional SWE years and 1–2 production/preproduction AI years; cannot substitute for queued ID. Both Gmail accounts searched exact title on 2026-11-14: no receipt; other NCS ML Engineer receipt exists. Missing: employer-authored JD and live apply route for exact 6000000001031326."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NCS SmartRecruiters requisition 6000000001031326 official JD and live apply form could not be read (direct URL inaccessible). Search found different NCS #EG Platform AI Engineer ID 6000000000981978 with 3–5 professional SWE years and 1–2 production/preproduction AI years; cannot substitute for queued ID. Both Gmail accounts searched exact title on 2026-11-14: no receipt; other NCS ML Engineer receipt exists. Missing: employer-authored JD and live apply route for exact 6000000001031326.",
+        "status": "RETRY"
       },
       "seq": 110,
       "source": "freehirefetch:official-ats:SG",
@@ -883,6 +883,13 @@
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T13:00:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-authored complete JD and active application form for exact NCS SmartRecruiters requisition 6000000001497996. Direct official URL was inaccessible and exact-ID indexed search returned no employer JD on 2026-11-14. Presales title is only a scope-risk hint, not a rejection.",
+        "status": "RETRY"
+      },
       "seq": 115,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "listing_only",
@@ -891,14 +898,7 @@
       "source_platform": "",
       "state": "UNVERIFIED_INDEX",
       "title": "#EG Presales Consultant (Cloud, Agentic AI)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001497996",
-      "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
-        "ack": false,
-        "checked_at": "2026-11-14T13:00:00+08:00",
-        "missing_evidence": "Employer-authored complete JD and active application form for exact NCS SmartRecruiters requisition 6000000001497996. Direct official URL was inaccessible and exact-ID indexed search returned no employer JD on 2026-11-14. Presales title is only a scope-risk hint, not a rejection."
-      }
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001497996"
     },
     {
       "api_source_context": {
@@ -1030,11 +1030,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T00:15:00Z",
-        "missing_evidence": "Exact Surbana Jurong Workday JR119182 page inaccessible. Prior WAIT Issue for AI Full Stack Engineer JR117992 is a different requisition and cannot be auto-merged. Both Gmail accounts searched JR119182 on 2026-11-14 with no match. Missing: employer-authored full JD and live apply route for JR119182."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Surbana Jurong Workday JR119182 page inaccessible. Prior WAIT Issue for AI Full Stack Engineer JR117992 is a different requisition and cannot be auto-merged. Both Gmail accounts searched JR119182 on 2026-11-14 with no match. Missing: employer-authored full JD and live apply route for JR119182.",
+        "status": "RETRY"
       },
       "seq": 122,
       "source": "freehire:public-api:SG",
@@ -1069,6 +1069,12 @@
       "platform": "public jobs API (unverified)",
       "query": "Anson, Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T14:58:09+08:00",
+        "disposition": "RETRY",
+        "missing_evidence": "Exact Solverminds/SVM employer-owned requisition, full current first-party JD and non-MCF direct apply route corresponding to JobStreet 95270027 are unverified. Existing JobStreet excerpt alone is listing_only; indexed official-site probe 2026-11-14 found no exact employer listing. Both Gmail accounts searched for Solverminds/SVM: no identifiable application receipt. Preserve Pending."
+      },
       "seq": 123,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1077,13 +1083,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95270027",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-14T14:58:09+08:00",
-        "disposition": "RETRY",
-        "missing_evidence": "Exact Solverminds/SVM employer-owned requisition, full current first-party JD and non-MCF direct apply route corresponding to JobStreet 95270027 are unverified. Existing JobStreet excerpt alone is listing_only; indexed official-site probe 2026-11-14 found no exact employer listing. Both Gmail accounts searched for Solverminds/SVM: no identifiable application receipt. Preserve Pending."
-      }
+      "url": "https://sg.jobstreet.com/job/95270027"
     },
     {
       "api_source_context": {
@@ -1193,11 +1193,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T15:57:32+08:00",
-        "missing_evidence": "TikTok Machine Learning Engineer (AI Search), TikTok Search JobStreet 92967430: Gmail primary confirms Nov 1 application for SAME title, and GitHub WAIT #806 job code A125335; missing exact mapping of JobStreet listing 92967430 to employer job code A125335. Do not count as new APPLY or ACK until identity mapping confirmed. Preserve Pending."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "TikTok Machine Learning Engineer (AI Search), TikTok Search JobStreet 92967430: Gmail primary confirms Nov 1 application for SAME title, and GitHub WAIT #806 job code A125335; missing exact mapping of JobStreet listing 92967430 to employer job code A125335. Do not count as new APPLY or ACK until identity mapping confirmed. Preserve Pending.",
+        "status": "RETRY"
       },
       "seq": 127,
       "source": "freehire:public-api:SG",
@@ -1320,11 +1320,11 @@
       "query": "Central Region",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T15:57:32+08:00",
-        "missing_evidence": "Lenovo AI Research Engineer JobStreet 95839572: first-party Lenovo requisition, full employer-authored JD and job-specific live non-MCF apply route not yet established. Gmail primary has Lenovo application receipts for DIFFERENT AI Application Development / AI Engineer / Junior AI Engineer roles in Oct-Nov; cannot infer this Research Engineer requisition was applied. Preserve Pending pending exact official identity/route."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Lenovo AI Research Engineer JobStreet 95839572: first-party Lenovo requisition, full employer-authored JD and job-specific live non-MCF apply route not yet established. Gmail primary has Lenovo application receipts for DIFFERENT AI Application Development / AI Engineer / Junior AI Engineer roles in Oct-Nov; cannot infer this Research Engineer requisition was applied. Preserve Pending pending exact official identity/route.",
+        "status": "RETRY"
       },
       "seq": 130,
       "source": "freehire:public-api:SG",
@@ -1465,6 +1465,12 @@
       "platform": "public jobs API (unverified)",
       "query": "Central Region",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T14:58:09+08:00",
+        "disposition": "RETRY",
+        "missing_evidence": "Exact hiring employer and employer-controlled requisition/current non-MCF application route for AccountStaff JobStreet 95654430 are unverified; AccountStaff is a recruiter, listing_only JD cannot prove client employer or work-pass support. Both Gmail accounts searched for AccountStaff/AI Full-Stack: no exact application receipt; unrelated TikTok application and job alerts found. Preserve Pending."
+      },
       "seq": 135,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1473,13 +1479,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Full-Stack & Automation Engineer",
-      "url": "https://sg.jobstreet.com/job/95654430",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-14T14:58:09+08:00",
-        "disposition": "RETRY",
-        "missing_evidence": "Exact hiring employer and employer-controlled requisition/current non-MCF application route for AccountStaff JobStreet 95654430 are unverified; AccountStaff is a recruiter, listing_only JD cannot prove client employer or work-pass support. Both Gmail accounts searched for AccountStaff/AI Full-Stack: no exact application receipt; unrelated TikTok application and job alerts found. Preserve Pending."
-      }
+      "url": "https://sg.jobstreet.com/job/95654430"
     },
     {
       "ats_key": "clera|ashby|a51984da-7278-46bd-a0c5-939d2ac72999",
@@ -1642,11 +1642,11 @@
       "query": "NTU Main Campus, Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T11:00:27+08:00",
-        "missing_evidence": "Exact NTU Workday requisition R00024943 live apply form inaccessible on 2026-11-14; stored first-party JD is available and shows MSc + Python with embodied AI safety/robotics focus. GitHub all-state exact ID/title and both Gmail title/ID searches returned no direct application evidence; no proof of unsubmitted. Missing exactly: current employer-controlled Workday application form for R00024943."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact NTU Workday requisition R00024943 live apply form inaccessible on 2026-11-14; stored first-party JD is available and shows MSc + Python with embodied AI safety/robotics focus. GitHub all-state exact ID/title and both Gmail title/ID searches returned no direct application evidence; no proof of unsubmitted. Missing exactly: current employer-controlled Workday application form for R00024943.",
+        "status": "RETRY"
       },
       "seq": 140,
       "source": "freehire:public-api:SG",
@@ -1676,6 +1676,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T11:55:32+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-owned requisition and active direct application route for Monee Machine Learning Engineer LLM/VLM corresponding to JobStreet 95887225; indexed listing is not an employer ATS route.",
+        "status": "RETRY"
+      },
       "seq": 142,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -1684,14 +1691,35 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Machine Learning Engineer, LLM/VLM - Monee",
-      "url": "https://sg.jobstreet.com/job/95887225",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-14T11:55:32+08:00",
-        "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Employer-owned requisition and active direct application route for Monee Machine Learning Engineer LLM/VLM corresponding to JobStreet 95887225; indexed listing is not an employer ATS route.",
-        "status": "RETRY"
-      }
+      "url": "https://sg.jobstreet.com/job/95887225"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Salary: $3,000 – $3,500 per month</p><h2><strong>AI Engineer – Associate</strong></h2><p><strong>Location:</strong> Singapore(on-site)</p><p><strong>Experience:</strong> Minimum 2 Years</p><p><strong>Open positions: </strong>2</p><p><strong>Preferred Singapore citizens or Permanent Resident.</strong></p><h2><strong>Key Responsibilities</strong></h2><p>·       Develop and implement AI/ML models for business requirements.</p><p>·       Support data preparation, cleaning, and feature engineering.</p><p>·       Test and validate model performance and accuracy.</p><p>·       Assist in integrating AI/ML models into applications.</p><p>·       Troubleshoot model issues and support performance improvements.</p><h2><strong>Required Skillset</strong></h2><p>·       Proficiency in <strong>Python</strong> programming.</p><p>·       Basic hands-on experience with <strong>Machine Learning frameworks</strong> such as Scikit-learn, TensorFlow, or PyTorch.</p><p>·       Knowledge of data processing, feature engineering, and model validation.</p><p>·       Working knowledge of <strong>SQL and Git</strong>.</p><p>·       Basic understanding of cloud AI services such as AWS, Azure, or Google Cloud.</p><h2><strong>Qualification Needed</strong></h2><p>·       Degree or Diploma in Computer Science, Data Science, Artificial Intelligence, or a related field.</p><p>·       Minimum <strong>2 years of relevant experience</strong> in AI/ML model development and implementation.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-associate-paves-technologies-nfwl6ly5",
+      "company": "Paves Technologies",
+      "description_excerpt": "<p>Salary: $3,000 – $3,500 per month</p><h2><strong>AI Engineer – Associate</strong></h2><p><strong>Location:</strong> Singapore(on-site)</p><p><strong>Experience:</strong> Minimum 2 Years</p><p><strong>Open positions: </strong>2</p><p><str",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-14T08:56:09.822418Z",
+      "key": "sg:e65caaa9a14491430759",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "East Region",
+      "retries": 0,
+      "seq": 143,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-associate-paves-technologies-nfwl6ly5",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer – Associate",
+      "url": "https://sg.jobstreet.com/job/95294829"
     }
   ],
   "terminal": [
@@ -5320,6 +5348,7 @@
       },
       "description_excerpt": "",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-",
       "first_seen_at": "2026-11-10T17:44:46.023136Z",
       "key": "sg:1becb397a6d75ba28975",
       "last_error": null,
@@ -5327,7 +5356,15 @@
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
       "query": "Singapore, sg",
+      "reason": "Official Grab requisition 744000148945093 explicitly requires a PhD in CS/Robotics/AI/CV or related field, strong research contributions in visual navigation/robot perception, and ROS robotics integration. Candidate has MSc NLP/LLM and no demonstrated robotics PhD/ROS/VLN record. Hard PhD and domain mismatch.",
       "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-14T09:04:44+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-",
+        "status": "HARD_REJECTED"
+      },
       "seq": 101,
       "source": "freehirefetch:official-ats:SG",
       "source_evidence": "listing_only",
@@ -5336,16 +5373,7 @@
       "source_platform": "",
       "state": "HARD_REJECTED",
       "title": "Senior Localization Engineer / Research Engineer, Robotics AI (Visual Navigation)",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000148945093",
-      "reason": "Official Grab requisition 744000148945093 explicitly requires a PhD in CS/Robotics/AI/CV or related field, strong research contributions in visual navigation/robot perception, and ROS robotics integration. Candidate has MSc NLP/LLM and no demonstrated robotics PhD/ROS/VLN record. Hard PhD and domain mismatch.",
-      "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-",
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-14T09:04:44+08:00",
-        "decision": "HARD_REJECTED",
-        "status": "HARD_REJECTED",
-        "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-"
-      }
+      "url": "https://jobs.smartrecruiters.com/Grab/744000148945093"
     }
   ],
   "version": 1
