@@ -1064,7 +1064,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-11T07:19:00.845458Z",
       "key": "sg:4d584f1ed49b45e4b1bf",
-      "last_error": null,
+      "last_error": "Exact Solverminds/SVM employer-owned requisition, full current first-party JD and non-MCF direct apply route corresponding to JobStreet 95270027 are unverified. Existing JobStreet excerpt alone is listing_only; indexed official-site probe 2026-11-14 found no exact employer listing. Both Gmail accounts searched for Solverminds/SVM: no identifiable application receipt. Preserve Pending.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Anson, Central Region",
@@ -1077,7 +1077,13 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95270027"
+      "url": "https://sg.jobstreet.com/job/95270027",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T14:58:09+08:00",
+        "disposition": "RETRY",
+        "missing_evidence": "Exact Solverminds/SVM employer-owned requisition, full current first-party JD and non-MCF direct apply route corresponding to JobStreet 95270027 are unverified. Existing JobStreet excerpt alone is listing_only; indexed official-site probe 2026-11-14 found no exact employer listing. Both Gmail accounts searched for Solverminds/SVM: no identifiable application receipt. Preserve Pending."
+      }
     },
     {
       "api_source_context": {
@@ -1454,7 +1460,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-12T18:15:52.405666Z",
       "key": "sg:1696c9ad08b8d516c621",
-      "last_error": null,
+      "last_error": "Exact hiring employer and employer-controlled requisition/current non-MCF application route for AccountStaff JobStreet 95654430 are unverified; AccountStaff is a recruiter, listing_only JD cannot prove client employer or work-pass support. Both Gmail accounts searched for AccountStaff/AI Full-Stack: no exact application receipt; unrelated TikTok application and job alerts found. Preserve Pending.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Central Region",
@@ -1467,7 +1473,13 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Full-Stack & Automation Engineer",
-      "url": "https://sg.jobstreet.com/job/95654430"
+      "url": "https://sg.jobstreet.com/job/95654430",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T14:58:09+08:00",
+        "disposition": "RETRY",
+        "missing_evidence": "Exact hiring employer and employer-controlled requisition/current non-MCF application route for AccountStaff JobStreet 95654430 are unverified; AccountStaff is a recruiter, listing_only JD cannot prove client employer or work-pass support. Both Gmail accounts searched for AccountStaff/AI Full-Stack: no exact application receipt; unrelated TikTok application and job alerts found. Preserve Pending."
+      }
     },
     {
       "ats_key": "clera|ashby|a51984da-7278-46bd-a0c5-939d2ac72999",
