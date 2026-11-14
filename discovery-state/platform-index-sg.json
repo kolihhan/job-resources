@@ -838,41 +838,6 @@
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer---Research-Associate--Systems-Integration-and-Prototyping-_R00026011"
     },
     {
-      "ats_key": "ncs3|smartrecruiters|6000000001497996",
-      "company": "NCS",
-      "consumer_review": {
-        "checked_at": "2026-11-14T10:35:13.046169Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T23:16:08.393131Z",
-      "key": "sg:00f166e2fe12fdccb808",
-      "last_error": "Employer-authored complete JD and active application form for exact NCS SmartRecruiters requisition 6000000001497996. Direct official URL was inaccessible and exact-ID indexed search returned no employer JD on 2026-11-14. Presales title is only a scope-risk hint, not a rejection.",
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore, sg",
-      "retries": 0,
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-14T13:00:00+08:00",
-        "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Employer-authored complete JD and active application form for exact NCS SmartRecruiters requisition 6000000001497996. Direct official URL was inaccessible and exact-ID indexed search returned no employer JD on 2026-11-14. Presales title is only a scope-risk hint, not a rejection.",
-        "status": "RETRY"
-      },
-      "seq": 115,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "6000000001497996",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "#EG Presales Consultant (Cloud, Agentic AI)",
-      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001497996"
-    },
-    {
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -2922,6 +2887,49 @@
       "url": "https://jobs.smartrecruiters.com/Grab/744000139456037"
     },
     {
+      "ats_key": "micron|workday|/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
+      "company": "Micron",
+      "consumer_review": {
+        "checked_at": "2026-11-13T02:05:30+00:00",
+        "full_jd_complete": true,
+        "full_jd_text": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we build help make everything from virtual reality experiences to breakthroughs in neural networks possible. We do it all while committing to integrity, sustainability, and giving back to our communities. Because doing so can fuel the very innovation we are pursuing. AI Engineer, SMAI Job Summary Join Micron Technology at a defining moment in our AI and smart manufacturing transformation. As a Full-Stack AI Engineer, you will contribute to the design, development, deployment, and support of AI-powered applications that improve manufacturing operations across Micron's global network of fabs and assembly/test sites. You will work closely with data scientists, software engineers, and manufacturing stakeholders to build scalable AI solutions, web applications, APIs, and automation tools that enable data-driven decision-making and autonomous operations. Main Responsibilities Design and build end-to-end AI solutions, including data ingestion pipelines, feature engineering, model training and inference, APIs, web applications, and observability capabilities. Develop responsive front-end applications using React, Angular, or Streamlit, backed by Python/FastAPI services, with strong type-safe development and test coverage practices. Support development and implementation of machine learning and AI models for structured and unstructured data. Support development of analytics and AI solutions that improve manufacturing and operational decision-making. Support integration of LLMs and agentic AI capabilities into manufacturing and engineering workflows. Support integration of robotics platforms, AMRs, tool automation systems, control systems, and the Micron MES ecosystem. Develop and maintain containerized applications using Docker and deploy solutions through Kubernetes or OpenShift environments. Work with data platforms and modeling environments to support scalable AI application development. Other Responsibilities Contribute to CI/CD pipelines and automated software release processes using tools such as GitHub Actions, while supporting monitoring, drift detection, model evaluation, and feedback loop implementation for production AI applications. Apply Responsible AI practices, including input validation, prompt-injection prevention, PII/IP protection, model governance, and audit logging. Support application and model optimization efforts to improve performance, reliability, scalability, and cost efficiency. Support testing, debugging, technical documentation, installation, and maintenance activities for AI and software solutions. Integrate AI-assisted tools and insights into daily work to improve efficiency, quality, and effectiveness while complying with organizational standards, legal requirements, and governance policies. Contribute to a culture of continuous improvement by identifying, testing, and sharing AI-enabled enhancements within one's scope of work. Minimum Required Qualifications / Experience Bachelor's or Master's degree in Computer Science, Software Engineering, Data Science, or a related field; equivalent industry experience accepted. 2+ years building and shipping production web or AI applications end to end. Experience developing and deploying web applications, APIs, or data-driven solutions. Hands-on experience with at least one cloud platform (AWS, Azure, or GCP). Must Have Technical Skills Strong programming skills in Python and modern JavaScript/TypeScript. Strong SQL proficiency and experience working with relational databases. Experience with Docker, Kubernetes/OpenShift, and CI/CD development practices. Working knowledge of GenAI technologies, including prompt engineering, Retrieval-Augmented Generation (RAG), LLM integration, agentic AI concepts, model evaluation, and Responsible AI practices. Ability to apply AI literacy and digital fluency to use AI-enabled tools responsibly and effectively for research, analysis, content creation, problem-solving, operational tasks, automation, and achieving business outcomes. Must Have Soft Skills Strong analytical and problem-solving skills. Effective communication and collaboration skills. Ability to learn quickly and adapt in a fast-paced environment. Highly Desirable / Preferred Skills or Experience Experience in semiconductor manufacturing, industrial automation, or smart manufacturing environments. Exposure to MLOps, machine learning model deployment, or enterprise AI applications. Familiarity with MES, Industrial IoT, or equipment automation systems. Embody Micron's Core Values People – Respect, develop, and empower others. Innovation – Drive continuous improvement and breakthrough thinking. Tenacity – Show grit and determination. Collaboration – Build trust and foster teamwork. Customer Focus – Deliver excellence and value. Speed – Act with purpose and set the pace. About Micron Technology, Inc. We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life for all . With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands. Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence and 5G applications that unleash opportunities — from the data center to the intelligent edge and across the client and mobile user experience. To learn more, please visit micron.com/careers All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status. To request assistance with the application process and/or for reasonable accommodations, please contact hrsupport_sg@micron.com Micron Prohibits the use of child labor and complies with all applicable laws, rules, regulations, and other international and industry labor standards. Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron. AI alert: Candidates are encouraged to use AI tools to enhance their resume and/or application materials. However, all information provided must be accurate and reflect the candidate's true skills and experiences. Misuse of AI to fabricate or misrepresent qualifications will result in immediate disqualification. Fraud alert: Micron advises job seekers to be cautious of unsolicited job offers and to verify the authenticity of any communication claiming to be from Micron by checking the official Micron careers website in the About Micron Technology, Inc.",
+        "jd_chars": 6982,
+        "jd_sha256": "e4c7553976af11df6e1692f8a2af60f765078bb46a9e23f79ff8515d9f467c79",
+        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
+        "review_flags": [
+          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
+        ],
+        "source_kind": "freehirefetch public first-party ATS batch",
+        "source_verified_can_apply": false,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we ",
+      "evidence_url": "https://github.com/kolihhan/job-resources/issues/966",
+      "first_seen_at": "2026-11-09T15:02:24.825456Z",
+      "issue_url": "https://github.com/kolihhan/job-resources/issues/966",
+      "key": "sg:027f8a0aedd695252806",
+      "last_error": "Exact employer Workday JR111138 application page returned access error on 2026-11-12 14:xx MYT. Gmail account lihhanko3 has rejection for different JR111136 (2026-11-05), not JR111138. Missing evidence: usable current employer application form for JR111138.",
+      "market": "SG",
+      "platform": "workday official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Fab 10A, Singapore",
+      "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T14:15:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact employer Workday JR111138 application page returned access error on 2026-11-12 14:xx MYT. Gmail account lihhanko3 has rejection for different JR111136 (2026-11-05), not JR111138. Missing evidence: usable current employer application form for JR111138.",
+        "status": "RETRY"
+      },
+      "seq": 48,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
+      "state": "ISSUE_VERIFIED",
+      "title": "AI Engineer, SMAI",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138"
+    },
+    {
       "ats_key": "binance|greenhouse|5002687101",
       "company": "Binance",
       "consumer_review": {
@@ -2962,6 +2970,49 @@
       "state": "HARD_REJECTED",
       "title": "Financial Data Engineer, AI/LLM",
       "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002687101"
+    },
+    {
+      "ats_key": "binance|greenhouse|5009522101",
+      "company": "Binance",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. We are seeking a highly skilled professional to join our team, focusing on advancing through innovative AI solutions. The successful candidate will develop and refine Large Language Models (LLMs) to extract actionable insights, improve business decision-making, and optimize prompt design for more accurate outputs. Additionally, the role includes creating scalable and robust LLM/RAG frameworks tailored to customer service scheduling, fostering innovation and maintaining a competitive market edge. This role is 100% Remote, Work from Home based. Responsibilities: Own the full LLM pipeline from data preparation to production real case usage. Design, iterate and optimize prompts (zero-/few-shot, chain-of-thought, tool-calling, etc.) to maximize model utility and safety across products and languages. Build and maintain Retrieval-Augmented Generation (RAG) QA/search systems that connect to multi-source knowledge bases. Familiar with vLLM/SGLang inference architectures and have proven experience deploying and operating LLM services on multi‑GPU or cluster environments. Design, implement and operate multi‑agent LLM architectures (e.g. LangGraph, CrewAI, AutoGen) including task decomposition, agent orchestration, memory sharing and tool‑calling workflows. Develop evaluation pipelines (automatic metrics & human feedback) to measure prompt and model quality, bias, and hallucination rates. Collaborate with product and CS teams to integrate AI models into conversational Chatbot in different scenarios. Track cutting-edge research, author tech blogs, and keep improve current architecture. Requirements: Master’s Degree or higher in Computer Science, Data Science or related field.. At least 2 years of deep-learning/NLP experience, including 1+ year practical LLM work (SFT, DPO, RAG, quantization, inference optimization, etc.). Demonstrated prompt engineering & tuning expertise (few-shot design, structured prompting, prefix-/p-tuning, reward re-ranking, safety filtering). Practical experience building and deploying multi‑agent LLM workflows, with understanding of agent‑orchestrator patterns, shared memory, long‑horizon planning and guard‑rail design. Proficient in both English and Chinese communication for efficient cross team collaboration Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+        "jd_chars": 4013,
+        "jd_sha256": "ad8ba984429209569a5ae819503345e9f4f4a88450c2284edf7cc7bf3638e285",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
+      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
+      "first_seen_at": "2026-11-09T15:11:31.004975Z",
+      "key": "sg:5cdfbe2ca21148797c13",
+      "last_error": "Employer Greenhouse 5009522101 apply form is live (2026-11-11); unresolved mandatory 2+ years deep-learning/NLP incl 1+ practical LLM and proven deployed multi-agent workflows, plus multi-GPU LLM service operation. No truthful candidate evidence establishes all mandatory production requirements.",
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Australia; Hong Kong; New Zealand; Singapore; Taiwan",
+      "reason": "Exact employer Greenhouse 5009522101 live JD requires proven experience deploying and operating LLM services on multi-GPU or cluster environments, and practical deployment of multi-agent LLM workflows. Candidate evidence supports academic LLM/RAG/QLoRA projects and part-time backend engineering, but does not establish required production multi-GPU/cluster LLM operations or deployed multi-agent ownership. Hard skill mismatch; no application submitted by Scout.",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T18:04:44+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence": "Employer exact Greenhouse 5009522101 requirements and responsibilities: proven multi-GPU or cluster LLM serving operations; practical building and deploying multi-agent LLM workflows; 2+ years DL/NLP including 1+ year LLM. Live application form confirmed 2026-11-12. Existing Binance LLM Applied Data Scientist WAIT #929 is different 5002635101; Gmail receipt lacks 5009522101 requisition. Rejected on mandatory capability gap, not assumed prior submission."
+      },
+      "seq": 50,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "5009522101",
+      "state": "HARD_REJECTED",
+      "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
+      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
     },
     {
       "ats_key": "bjakcareer|ashby|2f788998-159e-422f-8a6e-5823801f42e4",
@@ -3312,6 +3363,122 @@
       "state": "HARD_REJECTED",
       "title": "#EG AI / LLM Specialist",
       "url": "https://jobs.smartrecruiters.com/NCS3/6000000001339954"
+    },
+    {
+      "acknowledged_at": "2026-11-13T02:00:00+08:00",
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the technologies people rely on every day, innovation at AMD is shaping the future. </p>\n<p>Whether you’re designing next-gen processors, enabling AI breakthroughs, or bringing leading edge products to market, every role at AMD contributes to something bigger — technology that moves the world forward. Join us and, together, we’ll advance your career.</p> <br><strong></strong><p><strong>THE ROLE:</strong></p>\n<p>We are seeking a passionate and highly motivated AI Engineer to join our AI Engineering team focused on building the next generation of Agentic AI and Digital Workers.</p>\n<p>In this role, you will participate in the complete lifecycle of AI solution development, from prompt engineering and context engineering to deploying AI agents into real business environments. You will work alongside senior AI engineers, business stakeholders, and domain experts to build intelligent systems that automate workflows, enhance productivity, and transform enterprise operations.</p>\n<p>This is an excellent opportunity for early-career engineers who are excited about Large Language Models (LLMs), AI agents, Retrieval-Augmented Generation (RAG), and enterprise AI deployment.</p>\n<p><strong>THE PERSON:</strong></p>\n<p>WHAT YOU WILL GAIN</p>\n<ul>\n<li>Hands-on experience building real-world Agentic AI systems</li>\n<li>Exposure to enterprise-scale AI deployment and Digital Worker platforms</li>\n<li>Mentorship from experienced AI engineers and architects</li>\n<li>Opportunities to work with cutting-edge LLM technologies and AI frameworks</li>\n<li>Direct involvement in AI transformation initiatives across multiple business functions</li>\n<li>Career growth path toward AI Engineer, Senior AI Engineer, AI Architect, or Forward Deployment Engineer roles</li>\n</ul>\n<p><strong>KEY RESPONSIBILITIES:</strong></p>\n<p><strong>Agentic AI Development</strong></p>\n<ul>\n<li>Design, develop, and test AI agents capable of multi-step reasoning and workflow execution</li>\n<li>Build solutions leveraging LLMs, tool usage, memory, and agent orchestration frameworks</li>\n<li>Implement function calling, structured outputs, and automated workflows</li>\n<li>Develop Retrieval-Augmented Generation (RAG) pipelines using enterprise knowledge sources</li>\n<li>Optimize AI system performance, reliability, scalability, and response quality</li>\n<li>Assist in evaluating and benchmarking AI model effectiveness</li>\n</ul>\n<p><strong>Prompt &amp; Context Engineering</strong></p>\n<ul>\n<li>Design effective system prompts and task-specific prompts</li>\n<li>Build context retrieval and grounding strategies to improve AI accuracy</li>\n<li>Develop methods to reduce hallucinations and improve consistency</li>\n<li>Support the creation of evaluation frameworks and automated testing pipelines</li>\n<li>Experiment with prompting techniques, reasoning patterns, and agent behaviors</li>\n</ul>\n<p><strong>Forward Deployment Engineering (FDE)</strong></p>\n<ul>\n<li>Deploy AI solutions into real business processes and operational environments</li>\n<li>Integrate AI agents with APIs, databases, enterprise platforms, and business applications</li>\n<li>Collaborate directly with stakeholders to understand requirements and refine use cases</li>\n<li>Monitor deployed systems, troubleshoot issues, and implement enhancements</li>\n<li>Gather feedback and continuously improve AI solutions based on business outcomes</li>\n</ul>\n<p><strong>Software Engineering &amp; Operations</strong></p>\n<ul>\n<li>Develop and maintain production-quality Python applications</li>\n<li>Implement logging, monitoring, testing, and observability practices</li>\n<li>Participate in code reviews and engineering best practices</li>\n<li>Support cloud deployment and containerized AI environments</li>\n<li>Document technical solutions and operational procedures</li>\n</ul>\n<p><strong>PREFERRED EXPERIENCE:</strong></p>\n<ul>\n<li>Strong Python programming skills</li>\n<li>Understanding of APIs, JSON, REST services, and software integration</li>\n<li>Familiarity with machine learning and natural language processing fundamentals</li>\n<li>Strong analytical and structured problem-solving abilities</li>\n<li>Ability to learn quickly in a fast-paced and evolving AI environment</li>\n<li>Strong communication and collaboration skills</li>\n</ul>\n<ul>\n<li>OpenAI, Azure OpenAI, Anthropic, Google Gemini, or similar LLM platforms</li>\n<li>Building LLM applications, chatbots, copilots, or AI assistants</li>\n<li>Retrieval-Augmented Generation (RAG) architectures</li>\n<li>Vector databases such as Pinecone, Weaviate, Chroma, Milvus, or Azure AI Search</li>\n<li>Agent frameworks including LangChain, LangGraph, CrewAI, LlamaIndex, AutoGen, or Semantic Kernel</li>\n<li>Function calling, embeddings, semantic search, and context management</li>\n<li>Prompt engineering and AI evaluation methodologies</li>\n<li>Cloud platforms such as Azure, AWS, or Google Cloud</li>\n<li>Docker, Kubernetes, CI/CD pipelines, or DevOps practices</li>\n<li>Git, software testing, and modern development workflows</li>\n</ul>\n<ul>\n<li>Curious and passionate about AI innovation</li>\n<li>Strong ownership mentality with a willingness to experiment</li>\n<li>Customer-focused mindset and ability to work directly with users</li>\n<li>Comfortable navigating ambiguity and solving complex problems</li>\n<li>Team player who thrives in a collaborative environment</li>\n<li>Eager to build AI systems that deliver measurable business impact</li>\n</ul>\n<p><strong>ACADEMIC CREDENTIALS:</strong></p>\n<ul><li>Degree in Computer Science, Artificial Intelligence, Software Engineering, Data Science, or a related technical field</li></ul>\n<p><strong>LOCATION:</strong></p>\n<p>Singapore</p>\n<p>#LI-JK1</p> <br><strong></strong><p></p><div>Benefits offered are described:  <div>AMD benefits at a glance.</div>\n</div><p></p>\n<p>AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law.   We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.</p>\n<p></p><div>AMD may use Artificial Intelligence to help screen, assess or select applicants for this position.  AMD’s “Responsible AI Policy” is available here.</div><p></p>\n<p>This posting is for an existing vacancy.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-software-development-engineer-amd-bo65lqvo",
+      "company": "AMD",
+      "consumer_review": {
+        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the techno",
+      "first_seen_at": "2026-11-09T16:44:38.947210Z",
+      "key": "sg:745d7a90442b12ce3e04",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-13T02:00:00+08:00",
+        "decision": "DEDUPED_PRIOR_WAIT",
+        "employer_requisition": "92102",
+        "evidence": "Official AMD requisition 92102 has identical employer title and substantive Agentic AI/RAG JD to JobStreet 95358234 source; existing WAIT #673 matches 92102. Both Gmail accounts checked; 2026-10-26 employer application confirmation for exact title in second Gmail. Cross-source role identity confirmed; no reapplication.",
+        "existing_issue": 673,
+        "official_route": "https://careers.amd.com/careers-home/jobs/92102",
+        "source_key": "sg:745d7a90442b12ce3e04",
+        "status": "DEDUPED"
+      },
+      "seq": 61,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-software-development-engineer-amd-bo65lqvo",
+      "source_listing_url": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer (Software Development Engineer)",
+      "url": "https://sg.jobstreet.com/job/95358234"
+    },
+    {
+      "acknowledged_at": "2026-11-13T02:00:00+08:00",
+      "ats_key": "freehire|research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
+      "company": "Agency for Science, Technology and Research",
+      "consumer_review": {
+        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<strong>Job Summary</strong><br><p>We are seeking a motivated Research Engineer to develop and evaluate AI-enabled cybersecurity solutions. The role focuses on agentic AI, large language models (LLMs), and intelligent automation. The succes",
+      "first_seen_at": "2026-11-09T16:44:38.947257Z",
+      "key": "sg:6d663588836b04a27f88",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-13T02:00:00+08:00",
+        "decision": "DEDUPED_PRIOR_WAIT",
+        "employer_requisition": "1129",
+        "evidence": "Official A*STAR requisition 1129 full JD matches source Research Engineer, Cybersecurity, IAIC; existing WAIT #699 is same employer/title/1129 and candidate-confirmed submitted. Employer receipt dated 2026-10-27 in second Gmail; both Gmail accounts checked. No reapplication.",
+        "existing_issue": 699,
+        "official_route": "https://careers.a-star.edu.sg/default/job/Research-Engineer%2C-Cybersecurity/1129-en_GB",
+        "source_key": "sg:6d663588836b04a27f88",
+        "status": "DEDUPED"
+      },
+      "seq": 62,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
+      "source_listing_url": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Research Engineer, Cybersecurity, IAIC",
+      "url": "https://sg.jobstreet.com/job/95443052"
+    },
+    {
+      "acknowledged_at": "2026-11-13T10:03:21+08:00",
+      "ats_key": "freehire|ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
+      "company": "Astek",
+      "consumer_review": {
+        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<strong>Role Overview</strong><br><p>We are looking for an experienced AI Security Engineer to design, implement, and secure an enterprise-wide AI Guardrails platform supporting AI-enabled applications.</p>\n<p>The role will focus on deliver",
+      "first_seen_at": "2026-11-09T16:44:38.947281Z",
+      "key": "sg:a2414d304422992e3237",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Raffles Place, Central Region",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-13T10:03:21+08:00",
+        "decision": "HARD_REJECTED",
+        "employer_requisition": "JobStreet 95181678 / LinkedIn 4476295033 (cross-platform title match; employer ATS ID not established)",
+        "evidence": "Astek's full role description reproduced on LinkedIn (same exact employer and title) says 'At least 6 years of experience in Cybersecurity, Application Security, Cloud Security, Platform Security, or Secure Software Engineering' and 'Minimum 2 years of hands-on experience in AI Security ... within an enterprise environment'. Requires AWS EKS/Kubernetes, security threat modeling, DevSecOps and AI security delivery; candidate has no verified professional AI security experience. LinkedIn listing explicitly says 'No longer accepting applications'. GitHub all-state search for Astek returned zero; both Gmail accounts Astek AI Security search returned only generic job alerts, not application receipts. Reject for documented mandatory skills/experience mismatch; exact JobStreet listing route was not verified as open.",
+        "source_key": "sg:a2414d304422992e3237",
+        "status": "HARD_REJECTED"
+      },
+      "seq": 63,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
+      "source_listing_url": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Security Engineer – AI Guardrails / LLM Security",
+      "url": "https://sg.jobstreet.com/job/95181678"
     },
     {
       "ats_key": "openai|ashby|02ec1893-17df-420c-8d19-48eca8edd884",
@@ -3867,6 +4034,56 @@
       "url": "https://job-boards.greenhouse.io/simplifynext/jobs/4996764007"
     },
     {
+      "ats_key": "simplifynext|greenhouse|5019281007",
+      "company": "SimplifyNext",
+      "consumer_review": {
+        "checked_at": "2026-11-10T11:51:21.251564+00:00",
+        "employment_time_type": "",
+        "full_jd_complete": true,
+        "full_jd_text": "SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent automation. We bring strong business process consulting together with deep technology skills and modern delivery practices – product-centric, agile and AI-assisted. We build bespoke applications and AI systems, and we go deep on the platforms our clients run on, including Microsoft, AWS, ServiceNow, Databricks and UiPath. That combination of engineering depth and platform depth is what our clients come to us for. We build and modernise the systems people depend on daily. Our 300+ practitioners are multi-disciplinary by design – business consultants, software engineers, architects, AI engineers and designers working on the same delivery, not handing off between silos. We focus on delivering outcomes for clients, building strong careers for our people, and staying ahead of the technology curve. We hire because we are growing. We’re not hiring someone to run models. We’re hiring someone who builds systems that think. At SimplifyNext, our AI Engineers are core to how we deliver transformation — designing and deploying intelligent systems that genuinely change how organisations operate. You won’t be a supporting act to another team. You’ll be the one building the agents, pipelines, and infrastructure that make our AI products real. We work across public sector and enterprise, at the intersection of AI, automation, and product-led transformation. If you’re energised by hard engineering problems, care about production outcomes - not just research benchmarks - and want your work to reach real users at scale, read on. What You'll Do 1. Build Agentic AI Systems Design and build sophisticated AI agents capable of independent operation, complex decision-making, and self-correction across domain-specific contexts. Develop orchestration workflows using frameworks such as LangChain, LangGraph, and/or the Microsoft Bot Framework to create robust conversational and task-oriented agents. Implement Retrieval-Augmented Generation (RAG) systems that connect agents to live, accurate knowledge bases — reducing hallucinations and improving output quality. Build Memory, Reasoning, and Planning (MRP) capabilities so agents can maintain context, reason across information, and execute multi-step plans. Design Agent-to-Agent (A2A) communication protocols that allow multiple autonomous agents to collaborate, delegate tasks, and exchange information securely. Work with LLM serving solutions (Ollama, vLLM) to ensure efficient, scalable inference in production environments. 2. Deploy and Operate at Scale Deploy and manage AI systems on major cloud platforms — AWS, Azure, or GCP — ensuring high availability, security, and scalability. Containerise applications with Docker and orchestrate deployments with Kubernetes, including end-to-end on-premise cluster setup and management. Build and maintain CI/CD pipelines using tools like Argo (Argo Workflows, Argo CD) for reliable, automated delivery of AI services. Expose AI capabilities through well-documented, performant APIs that integrate seamlessly with client-facing systems and applications. 3. Train and Fine-tune Models Train, fine-tune, and optimise custom AI models using TensorFlow and/or PyTorch, particularly where off-the-shelf models don’t meet specific project requirements. Run structured experiments — hyperparameter tuning, ablations, model evaluation — to hit performance targets with confidence. Stay current with the latest developments in large language models and agentic AI, and bring new techniques into our systems proactively. Work across diverse data modalities: text, image, time-series, and graph-structured data. Who You Are Must-Have Production mindset — you’ve shipped AI systems to real users, not just demos. Strong fundamentals in agentic AI — you understand how to design agents that are reliable, not just impressive. Hands-on with at least one major cloud platform (AWS, Azure, or GCP) for deploying and managing AI workloads. Solid Python engineering skills and comfort working in a Git-based, collaborative codebase. Experience with containerisation (Docker) and orchestration (Kubernetes) in real deployment contexts. Clear communicator — able to explain complex technical decisions to non-technical stakeholders. Good to Have 3–7 years in AI/ML engineering or a closely related role (data engineering, MLOps, applied research). Hands-on experience with LangChain, LangGraph, Ollama, vLLM, or similar orchestration and serving tools. Demonstrable RAG system implementation and optimisation experience. Familiarity with Memory, Reasoning, and Planning (MRP) concepts and Agent-to-Agent (A2A) protocol design. Experience with MLOps tooling, particularly Argo Workflows and Argo CD. Proficiency in TensorFlow and/or PyTorch for model training and fine-tuning. Exposure to knowledge graphs, semantic web technologies, or prompt engineering strategies. This role is not for you if… You’ve only worked with AI in sandboxed or prototype environments and haven’t dealt with production reliability challenges. You prefer to work from a detailed spec rather than figuring out the right approach as you go. You treat deployment as someone else’s problem You measure success by models trained, not by outcomes delivered. Why SimplifyNext We partner with governments and enterprises to shift from project delivery to product thinking. That means working on problems that genuinely matter — healthcare access, business licensing, workforce development — and being held accountable for outcomes, not just deliverables. High-impact problem spaces Public sector and enterprise transformation, AI, and automation at scale across ASEAN and Asia Pacific. Engineering-first culture You’ll work alongside world-class architects, developers, and AI practitioners who set a high bar. End-to-end ownership You own problems fully — from architecture decisions to production operations — not just one slice. Learning environment Full certification sponsorship, structured learning paths, and direct mentorship from day one. Why SimplifyNext One Team, Not Siloed Offerings Apps, automation, and AI aren't separate teams here - you'll work across all three as one connected practice, not get boxed into a single lane. AI in Our DNA, Not Bolted On Regardless of platform, every specialist here is AI-enabled by design, powered by our own in-house AI workbench that pairs humans and AI from discovery to testing. Future-Proof Your Career Tech trends come and go - today's hot platform is tomorrow's afterthought. We multi-skill our people across platforms and AI so your career keeps growing no matter where the market moves. APAC's Biggest AI-Integrated Practice Across every platform we work in, our AI-integrated practice is the largest in the region, with work good enough to be cited at Google's own AI event. Grow With Us Across ASEAN We're one of Singapore's 100 Fastest Growing Companies, expanding fast across Thailand and Malaysia - plenty of room to grow with us. At SimplifyNext, we’re committed to building a team of curious, driven, and forward-thinking individuals who care deeply about creating meaningful impact through technology. If you’re excited by the opportunity to grow, collaborate, and shape the future of digital transformation across the region, we’d be happy to hear from you.",
+        "jd_chars": 7491,
+        "jd_sha256": "56995786f5139927160bf56e66a616e86d5628025f9a991582110d6d207bee1a",
+        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
+        "review_flags": [
+          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
+        ],
+        "source_kind": "greenhouse first-party public published board",
+        "source_verified_can_apply": true,
+        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+      },
+      "description_excerpt": "<div class=\"content-intro\"><p>SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T09:44:08.167553Z",
+      "key": "sg:a5133c6e8730898849f2",
+      "last_error": null,
+      "market": "SG",
+      "platform": "greenhouse official ATS",
+      "query": "Singapore",
+      "retries": 0,
+      "review_retry": {
+        "checked_at": "2026-11-10",
+        "decision": "RETRY",
+        "missing_evidence": "SimplifyNext 5019281007 requires actual production AI, cloud and Kubernetes deployment; candidate evidence for these mandatory skills is unverified."
+      },
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T08:03:37+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence_url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007",
+        "reason": "Exact first-party Greenhouse 5019281007 live JD and application form checked 2026-11-12. Mandatory: 'you’ve shipped AI systems to real users, not just demos'; AWS/Azure/GCP production AI workload deployment and Docker/Kubernetes in real deployment contexts. Candidate has production web/backend and separate project-level LLM/RAG/Agent work, but no evidenced production-shipped AI or real cloud/Kubernetes AI deployments. Prior SimplifyNext AI Engineer (Graduate) application/rejection is a distinct role, not a same-requisition ACK. Exclude current senior production AI role for hard mismatch; do not imply company-wide rejection.",
+        "status": "HARD_REJECTED"
+      },
+      "seq": 80,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "full_jd",
+      "source_job_id": "5019281007",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
+    },
+    {
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API",
@@ -3948,6 +4165,48 @@
       "url": "https://job-boards.eu.greenhouse.io/physicsx/jobs/4922319101"
     },
     {
+      "acknowledged_at": "2026-11-12T19:57:29+08:00",
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<div><div>\n<p><b>What we offer</b></p>\n<p>At Evonik, you’re part of a global chemical company working in many sectors that go beyond chemistry. From lipids for tomorrow’s medicines, biosurfactants for green detergents, additives for plastics recycling or membranes to help drive forward the energy transition, you’ll play an essential part in helping the world’s most essential industries succeed.</p>\n<p>Our success hinges on a diversity of ideas powered by people, not egos. Whether you’re a scientist or engineer, new to the team or established, in business, production, or anything in between – we cheer each other on. Because we believe we can do anything. Explore everything. And Be Part of Something Special!</p>\n<p><b>Find out more about the many benefits we offer:</b></p>\n<p>https://www.evonik.com/en/careers/why.html</p>\n<p><b>Meet the team and get to know the people behind Evonik:</b></p>\n<p>https://www.evonik.com/en/news/meet-the-team.html</p>\n<p><b>RESPONSIBILITIES</b></p>\n<ul><li>\n<b>Solution Delivery:</b> Work with internal customers to understand business problems, shape feasible AI solution options, validate value through prototypes, and deliver solutions into productive use.</li></ul>\n<ul>\n<li>\n<b>AI Engineering:</b> Design, build, evaluate, and improve LLM-based applications such as RAG solutions, knowledge assistants, AI agents, tool-using workflows, and automation flows.</li>\n<li>\n<b>End-to-End Implementation:</b> Own the technical implementation from prototype to production, including application logic, APIs, data pipelines, orchestration, testing, deployment, documentation, monitoring, and continuous improvement.</li>\n<li>\n<b>Data Engineering and Integration:</b> Build the data and knowledge pipelines required for AI use cases, with a focus on reliable ingestion, preparation, retrieval, and access-control-aware use of information.</li>\n<li>\n<b>Enterprise System Integration:</b> Connect AI solutions with relevant enterprise systems (e.g. Microsoft, SAP), APIs, knowledge repositories, and operational data sources. </li>\n<li>\n<b>Quality and Responsible Operation:</b> Apply testing, evaluation, responsible AI practices, security, data protection, observability, cost awareness, and production support to ensure trustworthy enterprise use.</li>\n<li>\n<b>Reusable Delivery Assets:</b> Contribute reusable components, prompts, evaluation approaches, RAG and agent patterns, pipeline templates, and implementation guidance based on delivered solutions.</li>\n</ul>\n<p><br><b>REQUIREMENTS</b></p>\n<ul>\n<li>Several years of hands-on experience in software engineering, AI application engineering, solution delivery, data engineering and/or enterprise integration with a proven ability to bring solutions into productive use.</li>\n<li>Strong practical experience with LLM-based solution development, especially retrieval-augmented generation, prompt and context engineering, tool use, and agentic workflows.</li>\n<li>Solid data integration skills for AI use cases, including working with structured and unstructured data, APIs, data quality, and operational reliability.</li>\n<li>Strong software engineering skills, especially in Python, with experience building APIs or backend components and applying SQL where needed for AI solution delivery.</li>\n<li>Practical experience using Azure or comparable cloud environments to deliver AI solutions, including managed LLM services, retrieval technologies, secure integration, and deployment of use-case-specific components.</li>\n<li>Familiarity with modern delivery workflows, including version control such as Git, Azure DevOps or comparable tools, CI/CD basics, containerized deployments, testing, monitoring, and support for delivered AI solutions.</li>\n<li>Ability to work directly with business users, clarify ambiguous needs, translate problems into technical options, validate value through prototypes, and communicate trade-offs clearly.</li>\n<li>Good understanding of how to evaluate and operate AI solutions responsibly, including quality, security, data protection, cost awareness, and safe use of agentic workflows.</li>\n<li>Additional experience with enterprise platforms, industrial systems, or scientific and technical data environments would be valuable.</li>\n</ul>\n<p><b>Your Application</b><br> </p>\n<p>To ensure that your application is proceeded as quickly as possible and to protect the environment, please apply online via our careers portal. Further information about Evonik as Employer can be found at www.evonik.com/en/careers.html.  </p>\n<p>Please address your application to the Talent Acquisition Manager, stating your earliest possible starting date and your salary expectations.</p>\n<p><b>Your Talent Acquisition Manager:</b></p>Samantha Fu\n<p>Company is</p>Evonik (SEA) Pte. Ltd.</div></div>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-solution-engineer-llm-agentic-ai-evonik-methionine-nsccdyij",
+      "company": "Evonik Methionine",
+      "consumer_review": {
+        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "possible_prior_issue": 847
+      },
+      "description_excerpt": "<div><div>\n<p><b>What we offer</b></p>\n<p>At Evonik, you’re part of a global chemical company working in many sectors that go beyond chemistry. From lipids for tomorrow’s medicines, biosurfactants for green detergents, additives for plastic",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T11:51:21.094172Z",
+      "key": "sg:07dcd62d224496e47de5",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T19:57:29+08:00",
+        "decision": "DEDUPED_PRIOR_WAIT",
+        "evidence": "Employer official Workday requisition R52181 at https://evonik.wd3.myworkdayjobs.com/en-US/External_Careers/job/Singapore---Int-Business-Park/AI-Solution-Engineer--LLM---Agentic-AI-_R52181 contains matching detailed LLM/RAG/Agent responsibilities and qualification text to source's full listing. Existing live GitHub WAIT #847 is exact Evonik AI Solution Engineer (LLM & Agentic AI) R52181, with same official route. Both Gmail accounts searched 2026-11-12: primary mailbox contains official 2026-11-03 application receipt subject 'Application Received for R52181 AI Solution Engineer (LLM & Agentic AI)'; secondary mailbox has no contrary evidence. JobStreet ID 95287266 direct page not readable, so identity is reconciled through uniquely matching employer/title/full job content and exact employer receipt. No new application.",
+        "existing_issue": 847,
+        "source_key": "sg:07dcd62d224496e47de5",
+        "status": "DEDUPED"
+      },
+      "seq": 85,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-solution-engineer-llm-agentic-ai-evonik-methionine-nsccdyij",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Solution Engineer (LLM & Agentic AI)",
+      "url": "https://sg.jobstreet.com/job/95287266"
+    },
+    {
       "ats_key": "temus|greenhouse|5180599008",
       "company": "Temus",
       "consumer_review": {
@@ -3996,6 +4255,49 @@
       "url": "https://job-boards.greenhouse.io/temus/jobs/5180599008"
     },
     {
+      "acknowledged_at": "2026-11-12T15:02:00+08:00",
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and reliable AI applications that enhance operational efficiency, automate workflows and support data-driven decision-making. The successful candidate will independently manage assigned technical deliverables, from solution development and testing to system integration and continuous improvement, while collaborating with the CTO, COO and relevant stakeholders.</p><p><strong>Key responsibilities</strong></p><ul><li><p>Design, build, test and maintain AI-powered applications, services and features for GO-GENIE's internal platforms</p></li><li><p>Translate business and operational requirements into practical technical solutions</p></li><li><p>Develop backend services, APIs and integrations to support AI functionalities</p></li><li><p>Develop AI solutions using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) and agentic workflows</p></li><li><p>Build intelligent automation capabilities to streamline operational processes and improve productivity</p></li><li><p>Develop and integrate computer vision solutions for image recognition, operational verification and automated validation</p></li><li><p>Build AI-assisted analytics and reporting capabilities to support operational insights and decision-making</p></li><li><p>Integrate AI solutions into existing systems, databases and operational workflows</p></li><li><p>Support testing, deployment, monitoring and ongoing optimisation of AI applications</p></li><li><p>Collaborate with the CTO, COO, product team and relevant stakeholders to understand requirements and deliver agreed solutions</p></li></ul><p><strong>About you</strong></p><ul><li><p>Diploma or Bachelor's degree in Computer Science, Software Engineering, Artificial Intelligence or a related field, or equivalent practical experience</p></li><li><p>Proficiency in Python, backend development and API integration</p></li><li><p>Hands-on experience developing AI applications using LLMs, RAG or related AI frameworks</p></li><li><p>Good understanding of databases, software development practices, testing and version control</p></li><li><p>Strong analytical, troubleshooting and independent problem-solving abilities</p></li><li><p>Ability to translate business requirements into functional technical solutions</p></li><li><p>Good communication skills and ability to collaborate across technical and non-technical teams</p></li><li><p>Experience with agentic AI, vector databases, computer vision or AI workflow orchestration (preferred)</p></li><li><p>Familiarity with cloud deployment, MLOps and AI performance monitoring (preferred)</p></li><li><p>Experience in logistics, supply chain, fulfilment or operational technology environments (preferred)</p></li></ul><p><br></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-go-genie-pte-ltd-zkzgurpa",
+      "company": "Go Genie Pte Ltd",
+      "consumer_review": {
+        "checked_at": "2026-11-10T21:20:25.136664Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and relia",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-10T12:45:59.688975Z",
+      "key": "sg:094a347f032500c600c9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore River, Central Region",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-12T15:02:00+08:00",
+        "decision": "DEDUPED_EXISTING_APPLY",
+        "evidence": "Existing GitHub Issue #936 explicitly identifies exact JobStreet 95677866 and source key sg:094a347f032500c600c9; employer-authored full JD, live Quick Apply route and both Gmail histories were verified in that issue on 2026-11-11. 2026-11-12 all-state issue search readback confirms exact source and role. Existing APPLY is NOT submitted; no new issue or application.",
+        "existing_issue": 936,
+        "source_key": "sg:094a347f032500c600c9",
+        "status": "DEDUPED"
+      },
+      "seq": 87,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-go-genie-pte-ltd-zkzgurpa",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer",
+      "url": "https://sg.jobstreet.com/job/95677866"
+    },
+    {
       "ats_key": "bjakcareer|ashby|ed931ce5-a247-494f-a68d-3c2ed4a1e3c1",
       "company": "BJAK",
       "consumer_review": {
@@ -4037,6 +4339,50 @@
       "state": "HARD_REJECTED",
       "title": "Machine Learning Engineer, Applied AI",
       "url": "https://jobs.ashbyhq.com/bjakcareer/ed931ce5-a247-494f-a68d-3c2ed4a1e3c1"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by the People’s Bank of China, undertakes and transacts various kinds of investment businesses.</p>\n<strong>Job Description</strong><br><ul>\n<li>Research developments in large language models, AI tools and the vendor landscape, and assess their relevance and value to the company.</li>\n<li>Compare on-premise open-source models with external APIs on performance, cost and data security, and recommend the right option for each use case.</li>\n<li>Establish the company&#39;s AI usage policy and AI data governance framework.</li>\n<li>Plan, design and build the company&#39;s enterprise AI platform, providing secure, governed and unified access to both on-premise and external AI capabilities across the organisation.</li>\n<li>Lead AI security, safeguarding the company&#39;s AI systems, models and data against emerging threats.</li>\n<li>Deploy and maintain on-premise model inference services and plan GPU and hardware resources.</li>\n<li>Manage external API access, keys, quotas and costs, and route requests between on-premise and external models by use case.</li>\n<li>Monitor availability, response time, usage volume and cost of AI services.</li>\n<li>Work with business units to identify pilot use cases and build prototypes such as knowledge base Q&amp;A (RAG), document processing and workflow automation.</li>\n<li>Measure pilot outcomes and report to management with recommendations on whether to scale up.</li>\n</ul>\n<strong>Requirements</strong><br><ul>\n<li>Bachelor&#39;s degree or above in Computer Science, Information Technology or a related field.</li>\n<li>Hands-on experience (work or personal projects) deploying open-source LLMs on-premise (e.g. Ollama, vLLM), with an understanding of model quantisation and hardware requirements.</li>\n<li>Hands-on experience (work or personal projects) with at least one major LLM API; familiar with RAG, vector search and prompt design.</li>\n<li>Proficient in Python; able to build backend services and APIs independently.</li>\n<li>Familiar with Docker and Linux, and with basic security concepts such as access control, logging and encryption.</li>\n<li>Strong research and writing skills; able to turn technical comparisons into clear reports for management.</li>\n<li>Self-driven and comfortable working in an exploratory role with evolving requirements.</li>\n<li>Experience building an internal AI platform, AI gateway or knowledge base; familiarity with agent frameworks (e.g. LangGraph, LangChain); knowledge of the PDPA or AI governance frameworks.</li>\n</ul>\n<p>Interested applicants may apply bysending in your updated resume to ***email_hidden***</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
+      "company": "Investment Company Of The People'S Republic Of China (Singapore) Pte Ltd",
+      "consumer_review": {
+        "checked_at": "2026-11-13T11:07:48.141249Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by th",
+      "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://sg.jobstreet.com/job/95439617",
+      "first_seen_at": "2026-11-10T17:44:46.022893Z",
+      "key": "sg:758fb97bd538822f8aa9",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "reason": "Exact employer-authored JobStreet listing 95439617 and role AI Engineer match already-applied WAIT #977; Issue records direct-email application 2026-11-14, corroborated by sent Gmail 'Application — AI Engineer — Ko Lih Han'. Do not reapply.",
+      "retries": 0,
+      "reviewed_at": "2026-11-14T10:55:46Z",
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-14T18:55:46+08:00",
+        "decision": "PRIOR_WAIT",
+        "evidence": "Exact employer + title + JobStreet 95439617; WAIT #977 and sent Gmail confirmed",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/977",
+        "status": "DUPLICATE_CONFIRMED"
+      },
+      "seq": 93,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "DUPLICATE_CONFIRMED",
+      "title": "AI ENGINEER",
+      "url": "https://sg.jobstreet.com/job/95439617"
     },
     {
       "ats_key": "bjakcareer|ashby|f9882272-1379-4e75-8c3f-296893a2fdbe",
@@ -4266,6 +4612,43 @@
       "state": "HARD_REJECTED",
       "title": "Research Fellow (Computer Vision & Multimodal Deep Learning)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Computer-Vision---Multimodal-Deep-Learning-_R00026302"
+    },
+    {
+      "ats_key": "grab|smartrecruiters|744000148945093",
+      "company": "Grab",
+      "consumer_review": {
+        "checked_at": "2026-11-13T11:07:48.141249Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-",
+      "first_seen_at": "2026-11-10T17:44:46.023136Z",
+      "key": "sg:1becb397a6d75ba28975",
+      "last_error": null,
+      "market": "SG",
+      "platform": "smartrecruiters official ATS",
+      "prior_wait_employer_hint": true,
+      "query": "Singapore, sg",
+      "reason": "Official Grab requisition 744000148945093 explicitly requires a PhD in CS/Robotics/AI/CV or related field, strong research contributions in visual navigation/robot perception, and ROS robotics integration. Candidate has MSc NLP/LLM and no demonstrated robotics PhD/ROS/VLN record. Hard PhD and domain mismatch.",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-14T09:04:44+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-",
+        "status": "HARD_REJECTED"
+      },
+      "seq": 101,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "744000148945093",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "Senior Localization Engineer / Research Engineer, Robotics AI (Visual Navigation)",
+      "url": "https://jobs.smartrecruiters.com/Grab/744000148945093"
     },
     {
       "ats_key": "temus|greenhouse|5233697008",
@@ -4642,42 +5025,83 @@
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--Computer-Science---Computer-Engineering---Cybersecurity---Artificial-Intelligence-_R00025324"
     },
     {
-      "acknowledged_at": "2026-11-11T13:01:39+08:00",
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>Salary: SGD 5500 - 10000 per month</p><strong>AI Engineer (LLM | RAG | AWS)</strong><br><br> <strong>About the Role</strong><br><ul><li>Salary up to $10000 + Bonus</li><li>Opportunity to work on cutting-edge Generative AI initiatives.</li><li>Be part of a team driving AI innovation in Singapore</li></ul>Our client, a government agency in Singapore, is looking for a <strong>AI Engineer</strong> to build AI-powered applications using Large Language Models (LLMs), RAG and agentic AI. You will work with business stakeholders to develop innovative AI solutions from Proof of Concept (POC) through production deployment.<br><br> <strong>Key Responsibilities</strong><br><ul><li>Design and develop GenAI applications using OpenAI, Google Gemini, AWS Bedrock or similar platforms.</li><li>Build full-stack applications, APIs and system integrations.</li><li>Implement RAG pipelines, embeddings, vector search and agentic workflows.</li><li>Deploy AI solutions on AWS (Lambda, ECS/Fargate, API Gateway, DynamoDB, etc.).</li><li>Work with stakeholders to understand business needs and deliver AI solutions.</li><li>Evaluate new AI technologies and recommend innovative use cases.</li><li>Optimise, document and support AI applications for production.</li></ul><strong>Requirements</strong><br><ul><li>Strong programming skills in <strong>Python</strong> and/or <strong>JavaScript/TypeScript</strong>.</li><li>Hands-on experience with LLMs, prompt engineering, RAG and AI APIs.</li><li>Experience with AWS cloud services, Docker, Git and CI/CD.</li><li>Familiar with AI agents, tool calling and workflow orchestration.</li><li>Good problem-solving and communication skills.</li></ul><strong>Nice to Have</strong><br><ul><li>Experience with React, Next.js, FastAPI, Streamlit or Node.js.</li><li>Experience deploying production AI applications or working with vector databases.</li></ul><br>By submitting your resume, you consent to the collection, use, and disclosure of your personal information per ScienTec’s Privacy Policy (scientecconsulting.com/privacy-policy).<br>This authorizes us to:<br><ul><li>Contact you about potential opportunities.</li><li>Delete personal data as it is not required at this application stage.</li></ul>All applications will be processed with strict confidence. Only shortlisted candidates will be contacted.<br>Kenwi Goh Jian Wee – R26159880<br>ScienTec Consulting Pte Ltd - 11C5781",
-        "truncated": false
+      "ats_key": "ncs3|smartrecruiters|6000000001497996",
+      "company": "NCS",
+      "consumer_review": {
+        "checked_at": "2026-11-14T10:35:13.046169Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
-      "ats_key": "freehire|ai-engineer-llm-rag-aws-scientec-consulting-bkw5g7ll",
-      "company": "ScienTec Consulting",
-      "description_excerpt": "<p>Salary: SGD 5500 - 10000 per month</p><strong>AI Engineer (LLM | RAG | AWS)</strong><br><br> <strong>About the Role</strong><br><ul><li>Salary up to $10000 + Bonus</li><li>Opportunity to work on cutting-edge Generative AI initiatives.</l",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-11T04:03:27.904623Z",
-      "key": "sg:df3b2f74c628059e6ed2",
+      "description_excerpt": "",
+      "discovery_access": "OFFICIAL_ATS_SOURCE",
+      "first_seen_at": "2026-11-10T23:16:08.393131Z",
+      "key": "sg:00f166e2fe12fdccb808",
       "last_error": null,
       "market": "SG",
-      "platform": "public jobs API (unverified)",
+      "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
-      "query": "Central Region",
+      "query": "Singapore, sg",
       "retries": 0,
       "scout_review": {
         "ack": true,
-        "checked_at": "2026-11-11T13:01:39+08:00",
+        "checked_at": "2026-11-15T04:00:00+08:00",
         "decision": "HARD_REJECTED",
-        "evidence": "ScienTec Consulting recruiter-authored JobStreet listing https://sg.jobstreet.com/job/95705908, observed 2026-11-11: employment type 'Contract/Temp'; client is an unnamed government agency. Exact JobStreet ID 95705908; full recruiter JD and application questions accessible. This is engineering delivery, not qualifying research appointment. No employer contact.",
-        "reason": "SG-ENG non-permanent staffing/contract hard blocker (RULES.md §5), not a research-exception role.",
-        "source_key": "sg:df3b2f74c628059e6ed2"
+        "status": "HARD_REJECTED",
+        "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001497996--eg-presales-consultant-cloud-agentic-ai-"
       },
-      "seq": 120,
+      "seq": 115,
+      "source": "freehirefetch:official-ats:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "6000000001497996",
+      "source_listing_url": "",
+      "source_platform": "",
+      "state": "HARD_REJECTED",
+      "title": "#EG Presales Consultant (Cloud, Agentic AI)",
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000001497996",
+      "evidence_url": "https://jobs.smartrecruiters.com/NCS3/6000000001497996--eg-presales-consultant-cloud-agentic-ai-",
+      "reason": "Exact employer-authored NCS SmartRecruiters JD for requisition 6000000001497996 explicitly requires Singapore citizenship ('Due to project sensitivity, we can only consider Singapore Citizen') and 5+ years as a Security Presales Consultant. Malaysian citizen is categorically ineligible; this is not an unknown sponsorship case. Verified 2026-11-15."
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Qube Research &amp; Technologies (QRT) is a global quantitative and systematic investment manager, operating in all liquid asset classes across the world. We are a technology and data driven group implementing a scientific approach to investing. Combining data, research, technology, and trading expertise has shaped our collaborative mindset, which enables us to solve the most complex challenges. QRT’s culture of innovation continuously drives our ambition to deliver high quality returns for our investors.</p>\n<p><strong>Your future role within QRT</strong></p>\n<div>\n<ul>\n<li>Provide first- and second-line support for LLM gateway platform, investigating and resolving issues raised by engineering and business users across the firm</li>\n<li>Monitor and maintain the platform's underlying infrastructure to ensure availability, stability and predictable performance under rapidly growing load</li>\n<li>Support and troubleshoot model-serving backends and provider integrations, model providers, covering latency, throughput, error-rate and capacity issues</li>\n<li>Triage incidents affecting model availability — provider instability, connection resets, timeouts, regional slowness — determine whether the cause is platform-side or upstream, and drive to resolution with vendors where required</li>\n<li>Support the tooling layer built on top of LLM gateway: integrations, developer workspaces (e.g. Coder), coding assistants and API clients, including diagnosing issues introduced by upstream vendor releases running against a gateway-fronted API</li>\n<li>Coordinate with platform engineering, cloud infrastructure and end-user teams to resolve incidents and minimise disruption</li>\n<li>Support release management and change processes to keep production stable, including staged rollouts, non-prod validation and rollback</li>\n<li>Build tooling and automation to improve monitoring, diagnostics and operational visibility, and to reduce repetitive manual work</li>\n<li>Contribute to the design and implementation of monitoring, dashboards and alerting — for example extending Grafana dashboards covering TTFT, TPOT, percentile latency and failure-rate reporting</li>\n<li>Own and improve operational documentation, runbooks and user-facing status communication</li>\n</ul>\n</div>\n<p><strong>Your present skillset</strong></p>\n<div>\n<ul>\n<li>Experience in a production support, SRE or platform operations role within a fast-paced environment, with strong ownership of issue resolution end to end</li>\n<li>Strong Linux and Windows system administration skills</li>\n<li>Proficiency scripting and automating in Python, Bash and/or PowerShell</li>\n<li>Solid experience with relational databases such as PostgreSQL or SQL Server, including writing queries for investigation and supporting routine operational processes</li>\n<li>Practical understanding of monitoring and observability: metrics, logs, traces, dashboards and alerting, and the ability to analyse system data to distinguish a platform-wide problem from a localised one</li>\n<li>Comfortable debugging distributed, API-driven services: HTTP status and error semantics, timeouts, retries, connection resets, rate limiting, caching and latency percentiles</li>\n<li>Familiarity with large language model concepts and hosting environments — inference APIs, model gateways/proxies, prompt and context handling, token accounting, streaming responses, prompt caching</li>\n<li>Exposure to public cloud, ideally AWS (Bedrock, networking, IAM, logging/metrics), and to containerised or Kubernetes-based workloads</li>\n<li>Ability to communicate clearly with both engineers and non-technical users, and to manage expectations of senior stakeholders during live incidents</li>\n<li>Awareness of data-sensitivity and access-control considerations when routing workloads to third-party model providers</li>\n</ul>\n</div>\n<p><strong>Beneficial</strong></p>\n<div>\n<ul>\n<li>Experience supporting developer tooling and AI coding assistants (e.g. Claude Code, OpenCode) or IDE/workspace platforms</li>\n<li>Experience with Grafana, Prometheus or equivalent observability stacks, including building dashboards and alert rules</li>\n<li>Experience with CI/CD and infrastructure-as-code (Terraform, Ansible, or similar)</li>\n<li>Experience operating multi-region services and troubleshooting region-specific performance issues (e.g. APAC latency)</li>\n<li>Experience acting as the operational interface to third-party vendors and cloud providers during degradations</li>\n</ul>\n</div>\n<p> </p>\n<p>QRT is an equal opportunity employer. We welcome diversity as essential to our success. QRT empowers employees to work openly and respectfully to achieve collective success. In addition to professional achievement, we are offering initiatives and programs to enable employees achieve a healthy work-life balance.</p>\n<p> </p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac",
+      "company": "Qube Research & Technologies",
+      "consumer_review": {
+        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
+      "description_excerpt": "<p>Qube Research &amp; Technologies (QRT) is a global quantitative and systematic investment manager, operating in all liquid asset classes across the world. We are a technology and data driven group implementing a scientific approach to in",
+      "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002",
+      "first_seen_at": "2026-11-10T23:16:08.393173Z",
+      "key": "sg:71419f298f44b7ea49a5",
+      "last_error": "Exact Qube Greenhouse 8759003002 employer application form/current route could not be opened (2026-11-12). Third-party full-text is unverified as employer-authored; live exact requisition and sponsorship remain unconfirmed.",
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Hong Kong",
+      "reason": "Qube employer-authored Greenhouse JD is primarily first- and second-line LLM gateway incident response and production platform/SRE support, requiring prior production support/SRE and strong Linux+Windows administration, cloud/observability; not hands-on ownership of LLM/Agent/RAG feature engineering. Core work content and mandatory production-ops b",
+      "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-12T22:00:00+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exact Qube Greenhouse 8759003002 employer application form/current route could not be opened (2026-11-12). Third-party full-text is unverified as employer-authored; live exact requisition and sponsorship remain unconfirmed.",
+        "status": "RETRY"
+      },
+      "seq": 117,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-llm-rag-aws-scientec-consulting-bkw5g7ll",
+      "source_job_id": "production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac",
       "source_listing_url": "",
-      "source_platform": "JobStreet",
+      "source_platform": "Employer ATS / other",
       "state": "HARD_REJECTED",
-      "title": "AI Engineer (LLM | RAG | AWS)",
-      "url": "https://sg.jobstreet.com/job/95705908"
+      "title": "Production Support Engineer — LLM Platform",
+      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002"
     },
     {
       "api_source_context": {
@@ -4732,6 +5156,44 @@
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Engineer-Senior-Research-Engineer--Computer-Science---Data-Science---Information-Science---Digital-Humanities-_R00025774"
     },
     {
+      "acknowledged_at": "2026-11-11T13:01:39+08:00",
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Salary: SGD 5500 - 10000 per month</p><strong>AI Engineer (LLM | RAG | AWS)</strong><br><br> <strong>About the Role</strong><br><ul><li>Salary up to $10000 + Bonus</li><li>Opportunity to work on cutting-edge Generative AI initiatives.</li><li>Be part of a team driving AI innovation in Singapore</li></ul>Our client, a government agency in Singapore, is looking for a <strong>AI Engineer</strong> to build AI-powered applications using Large Language Models (LLMs), RAG and agentic AI. You will work with business stakeholders to develop innovative AI solutions from Proof of Concept (POC) through production deployment.<br><br> <strong>Key Responsibilities</strong><br><ul><li>Design and develop GenAI applications using OpenAI, Google Gemini, AWS Bedrock or similar platforms.</li><li>Build full-stack applications, APIs and system integrations.</li><li>Implement RAG pipelines, embeddings, vector search and agentic workflows.</li><li>Deploy AI solutions on AWS (Lambda, ECS/Fargate, API Gateway, DynamoDB, etc.).</li><li>Work with stakeholders to understand business needs and deliver AI solutions.</li><li>Evaluate new AI technologies and recommend innovative use cases.</li><li>Optimise, document and support AI applications for production.</li></ul><strong>Requirements</strong><br><ul><li>Strong programming skills in <strong>Python</strong> and/or <strong>JavaScript/TypeScript</strong>.</li><li>Hands-on experience with LLMs, prompt engineering, RAG and AI APIs.</li><li>Experience with AWS cloud services, Docker, Git and CI/CD.</li><li>Familiar with AI agents, tool calling and workflow orchestration.</li><li>Good problem-solving and communication skills.</li></ul><strong>Nice to Have</strong><br><ul><li>Experience with React, Next.js, FastAPI, Streamlit or Node.js.</li><li>Experience deploying production AI applications or working with vector databases.</li></ul><br>By submitting your resume, you consent to the collection, use, and disclosure of your personal information per ScienTec’s Privacy Policy (scientecconsulting.com/privacy-policy).<br>This authorizes us to:<br><ul><li>Contact you about potential opportunities.</li><li>Delete personal data as it is not required at this application stage.</li></ul>All applications will be processed with strict confidence. Only shortlisted candidates will be contacted.<br>Kenwi Goh Jian Wee – R26159880<br>ScienTec Consulting Pte Ltd - 11C5781",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-llm-rag-aws-scientec-consulting-bkw5g7ll",
+      "company": "ScienTec Consulting",
+      "description_excerpt": "<p>Salary: SGD 5500 - 10000 per month</p><strong>AI Engineer (LLM | RAG | AWS)</strong><br><br> <strong>About the Role</strong><br><ul><li>Salary up to $10000 + Bonus</li><li>Opportunity to work on cutting-edge Generative AI initiatives.</l",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-11T04:03:27.904623Z",
+      "key": "sg:df3b2f74c628059e6ed2",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "Central Region",
+      "retries": 0,
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-11T13:01:39+08:00",
+        "decision": "HARD_REJECTED",
+        "evidence": "ScienTec Consulting recruiter-authored JobStreet listing https://sg.jobstreet.com/job/95705908, observed 2026-11-11: employment type 'Contract/Temp'; client is an unnamed government agency. Exact JobStreet ID 95705908; full recruiter JD and application questions accessible. This is engineering delivery, not qualifying research appointment. No employer contact.",
+        "reason": "SG-ENG non-permanent staffing/contract hard blocker (RULES.md §5), not a research-exception role.",
+        "source_key": "sg:df3b2f74c628059e6ed2"
+      },
+      "seq": 120,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-llm-rag-aws-scientec-consulting-bkw5g7ll",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer (LLM | RAG | AWS)",
+      "url": "https://sg.jobstreet.com/job/95705908"
+    },
+    {
       "acknowledged_at": "2026-11-12T07:02:21+08:00",
       "api_source_context": {
         "employer_verified": false,
@@ -4773,265 +5235,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Tencent Cloud – AI & LLM Solution Architecture Leader",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Tencent-Cloud---AI---LLM-Solution-Architecture-Leader_R108088-1"
-    },
-    {
-      "ats_key": "simplifynext|greenhouse|5019281007",
-      "company": "SimplifyNext",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "",
-        "full_jd_complete": true,
-        "full_jd_text": "SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent automation. We bring strong business process consulting together with deep technology skills and modern delivery practices – product-centric, agile and AI-assisted. We build bespoke applications and AI systems, and we go deep on the platforms our clients run on, including Microsoft, AWS, ServiceNow, Databricks and UiPath. That combination of engineering depth and platform depth is what our clients come to us for. We build and modernise the systems people depend on daily. Our 300+ practitioners are multi-disciplinary by design – business consultants, software engineers, architects, AI engineers and designers working on the same delivery, not handing off between silos. We focus on delivering outcomes for clients, building strong careers for our people, and staying ahead of the technology curve. We hire because we are growing. We’re not hiring someone to run models. We’re hiring someone who builds systems that think. At SimplifyNext, our AI Engineers are core to how we deliver transformation — designing and deploying intelligent systems that genuinely change how organisations operate. You won’t be a supporting act to another team. You’ll be the one building the agents, pipelines, and infrastructure that make our AI products real. We work across public sector and enterprise, at the intersection of AI, automation, and product-led transformation. If you’re energised by hard engineering problems, care about production outcomes - not just research benchmarks - and want your work to reach real users at scale, read on. What You'll Do 1. Build Agentic AI Systems Design and build sophisticated AI agents capable of independent operation, complex decision-making, and self-correction across domain-specific contexts. Develop orchestration workflows using frameworks such as LangChain, LangGraph, and/or the Microsoft Bot Framework to create robust conversational and task-oriented agents. Implement Retrieval-Augmented Generation (RAG) systems that connect agents to live, accurate knowledge bases — reducing hallucinations and improving output quality. Build Memory, Reasoning, and Planning (MRP) capabilities so agents can maintain context, reason across information, and execute multi-step plans. Design Agent-to-Agent (A2A) communication protocols that allow multiple autonomous agents to collaborate, delegate tasks, and exchange information securely. Work with LLM serving solutions (Ollama, vLLM) to ensure efficient, scalable inference in production environments. 2. Deploy and Operate at Scale Deploy and manage AI systems on major cloud platforms — AWS, Azure, or GCP — ensuring high availability, security, and scalability. Containerise applications with Docker and orchestrate deployments with Kubernetes, including end-to-end on-premise cluster setup and management. Build and maintain CI/CD pipelines using tools like Argo (Argo Workflows, Argo CD) for reliable, automated delivery of AI services. Expose AI capabilities through well-documented, performant APIs that integrate seamlessly with client-facing systems and applications. 3. Train and Fine-tune Models Train, fine-tune, and optimise custom AI models using TensorFlow and/or PyTorch, particularly where off-the-shelf models don’t meet specific project requirements. Run structured experiments — hyperparameter tuning, ablations, model evaluation — to hit performance targets with confidence. Stay current with the latest developments in large language models and agentic AI, and bring new techniques into our systems proactively. Work across diverse data modalities: text, image, time-series, and graph-structured data. Who You Are Must-Have Production mindset — you’ve shipped AI systems to real users, not just demos. Strong fundamentals in agentic AI — you understand how to design agents that are reliable, not just impressive. Hands-on with at least one major cloud platform (AWS, Azure, or GCP) for deploying and managing AI workloads. Solid Python engineering skills and comfort working in a Git-based, collaborative codebase. Experience with containerisation (Docker) and orchestration (Kubernetes) in real deployment contexts. Clear communicator — able to explain complex technical decisions to non-technical stakeholders. Good to Have 3–7 years in AI/ML engineering or a closely related role (data engineering, MLOps, applied research). Hands-on experience with LangChain, LangGraph, Ollama, vLLM, or similar orchestration and serving tools. Demonstrable RAG system implementation and optimisation experience. Familiarity with Memory, Reasoning, and Planning (MRP) concepts and Agent-to-Agent (A2A) protocol design. Experience with MLOps tooling, particularly Argo Workflows and Argo CD. Proficiency in TensorFlow and/or PyTorch for model training and fine-tuning. Exposure to knowledge graphs, semantic web technologies, or prompt engineering strategies. This role is not for you if… You’ve only worked with AI in sandboxed or prototype environments and haven’t dealt with production reliability challenges. You prefer to work from a detailed spec rather than figuring out the right approach as you go. You treat deployment as someone else’s problem You measure success by models trained, not by outcomes delivered. Why SimplifyNext We partner with governments and enterprises to shift from project delivery to product thinking. That means working on problems that genuinely matter — healthcare access, business licensing, workforce development — and being held accountable for outcomes, not just deliverables. High-impact problem spaces Public sector and enterprise transformation, AI, and automation at scale across ASEAN and Asia Pacific. Engineering-first culture You’ll work alongside world-class architects, developers, and AI practitioners who set a high bar. End-to-end ownership You own problems fully — from architecture decisions to production operations — not just one slice. Learning environment Full certification sponsorship, structured learning paths, and direct mentorship from day one. Why SimplifyNext One Team, Not Siloed Offerings Apps, automation, and AI aren't separate teams here - you'll work across all three as one connected practice, not get boxed into a single lane. AI in Our DNA, Not Bolted On Regardless of platform, every specialist here is AI-enabled by design, powered by our own in-house AI workbench that pairs humans and AI from discovery to testing. Future-Proof Your Career Tech trends come and go - today's hot platform is tomorrow's afterthought. We multi-skill our people across platforms and AI so your career keeps growing no matter where the market moves. APAC's Biggest AI-Integrated Practice Across every platform we work in, our AI-integrated practice is the largest in the region, with work good enough to be cited at Google's own AI event. Grow With Us Across ASEAN We're one of Singapore's 100 Fastest Growing Companies, expanding fast across Thailand and Malaysia - plenty of room to grow with us. At SimplifyNext, we’re committed to building a team of curious, driven, and forward-thinking individuals who care deeply about creating meaningful impact through technology. If you’re excited by the opportunity to grow, collaborate, and shape the future of digital transformation across the region, we’d be happy to hear from you.",
-        "jd_chars": 7491,
-        "jd_sha256": "56995786f5139927160bf56e66a616e86d5628025f9a991582110d6d207bee1a",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "greenhouse first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<div class=\"content-intro\"><p>SimplifyNext is a Singapore-headquartered digital engineering firm, with offices in Thailand and Malaysia, working across three converged areas: agentic AI, AI-enabled application modernisation, and intelligent",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "first_seen_at": "2026-11-10T09:44:08.167553Z",
-      "key": "sg:a5133c6e8730898849f2",
-      "last_error": null,
-      "market": "SG",
-      "platform": "greenhouse official ATS",
-      "query": "Singapore",
-      "retries": 0,
-      "review_retry": {
-        "checked_at": "2026-11-10",
-        "decision": "RETRY",
-        "missing_evidence": "SimplifyNext 5019281007 requires actual production AI, cloud and Kubernetes deployment; candidate evidence for these mandatory skills is unverified."
-      },
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-12T08:03:37+08:00",
-        "decision": "HARD_REJECTED",
-        "evidence_url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007",
-        "reason": "Exact first-party Greenhouse 5019281007 live JD and application form checked 2026-11-12. Mandatory: 'you’ve shipped AI systems to real users, not just demos'; AWS/Azure/GCP production AI workload deployment and Docker/Kubernetes in real deployment contexts. Candidate has production web/backend and separate project-level LLM/RAG/Agent work, but no evidenced production-shipped AI or real cloud/Kubernetes AI deployments. Prior SimplifyNext AI Engineer (Graduate) application/rejection is a distinct role, not a same-requisition ACK. Exclude current senior production AI role for hard mismatch; do not imply company-wide rejection.",
-        "status": "HARD_REJECTED"
-      },
-      "seq": 80,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "5019281007",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer",
-      "url": "https://job-boards.greenhouse.io/simplifynext/jobs/5019281007"
-    },
-    {
-      "acknowledged_at": "2026-11-12T15:02:00+08:00",
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and reliable AI applications that enhance operational efficiency, automate workflows and support data-driven decision-making. The successful candidate will independently manage assigned technical deliverables, from solution development and testing to system integration and continuous improvement, while collaborating with the CTO, COO and relevant stakeholders.</p><p><strong>Key responsibilities</strong></p><ul><li><p>Design, build, test and maintain AI-powered applications, services and features for GO-GENIE's internal platforms</p></li><li><p>Translate business and operational requirements into practical technical solutions</p></li><li><p>Develop backend services, APIs and integrations to support AI functionalities</p></li><li><p>Develop AI solutions using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) and agentic workflows</p></li><li><p>Build intelligent automation capabilities to streamline operational processes and improve productivity</p></li><li><p>Develop and integrate computer vision solutions for image recognition, operational verification and automated validation</p></li><li><p>Build AI-assisted analytics and reporting capabilities to support operational insights and decision-making</p></li><li><p>Integrate AI solutions into existing systems, databases and operational workflows</p></li><li><p>Support testing, deployment, monitoring and ongoing optimisation of AI applications</p></li><li><p>Collaborate with the CTO, COO, product team and relevant stakeholders to understand requirements and deliver agreed solutions</p></li></ul><p><strong>About you</strong></p><ul><li><p>Diploma or Bachelor's degree in Computer Science, Software Engineering, Artificial Intelligence or a related field, or equivalent practical experience</p></li><li><p>Proficiency in Python, backend development and API integration</p></li><li><p>Hands-on experience developing AI applications using LLMs, RAG or related AI frameworks</p></li><li><p>Good understanding of databases, software development practices, testing and version control</p></li><li><p>Strong analytical, troubleshooting and independent problem-solving abilities</p></li><li><p>Ability to translate business requirements into functional technical solutions</p></li><li><p>Good communication skills and ability to collaborate across technical and non-technical teams</p></li><li><p>Experience with agentic AI, vector databases, computer vision or AI workflow orchestration (preferred)</p></li><li><p>Familiarity with cloud deployment, MLOps and AI performance monitoring (preferred)</p></li><li><p>Experience in logistics, supply chain, fulfilment or operational technology environments (preferred)</p></li></ul><p><br></p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-go-genie-pte-ltd-zkzgurpa",
-      "company": "Go Genie Pte Ltd",
-      "consumer_review": {
-        "checked_at": "2026-11-10T21:20:25.136664Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<p><strong>About the role</strong></p><p>GO-GENIE is seeking an AI Engineer to design, develop and implement AI-driven solutions across in-house logistics and operational platforms. The role focuses on building practical, scalable and relia",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T12:45:59.688975Z",
-      "key": "sg:094a347f032500c600c9",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Singapore River, Central Region",
-      "retries": 0,
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-12T15:02:00+08:00",
-        "decision": "DEDUPED_EXISTING_APPLY",
-        "evidence": "Existing GitHub Issue #936 explicitly identifies exact JobStreet 95677866 and source key sg:094a347f032500c600c9; employer-authored full JD, live Quick Apply route and both Gmail histories were verified in that issue on 2026-11-11. 2026-11-12 all-state issue search readback confirms exact source and role. Existing APPLY is NOT submitted; no new issue or application.",
-        "existing_issue": 936,
-        "source_key": "sg:094a347f032500c600c9",
-        "status": "DEDUPED"
-      },
-      "seq": 87,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-go-genie-pte-ltd-zkzgurpa",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95677866"
-    },
-    {
-      "ats_key": "binance|greenhouse|5009522101",
-      "company": "Binance",
-      "consumer_review": {
-        "checked_at": "2026-11-10T11:51:21.251564+00:00",
-        "employment_time_type": "",
-        "full_jd_complete": true,
-        "full_jd_text": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. We are seeking a highly skilled professional to join our team, focusing on advancing through innovative AI solutions. The successful candidate will develop and refine Large Language Models (LLMs) to extract actionable insights, improve business decision-making, and optimize prompt design for more accurate outputs. Additionally, the role includes creating scalable and robust LLM/RAG frameworks tailored to customer service scheduling, fostering innovation and maintaining a competitive market edge. This role is 100% Remote, Work from Home based. Responsibilities: Own the full LLM pipeline from data preparation to production real case usage. Design, iterate and optimize prompts (zero-/few-shot, chain-of-thought, tool-calling, etc.) to maximize model utility and safety across products and languages. Build and maintain Retrieval-Augmented Generation (RAG) QA/search systems that connect to multi-source knowledge bases. Familiar with vLLM/SGLang inference architectures and have proven experience deploying and operating LLM services on multi‑GPU or cluster environments. Design, implement and operate multi‑agent LLM architectures (e.g. LangGraph, CrewAI, AutoGen) including task decomposition, agent orchestration, memory sharing and tool‑calling workflows. Develop evaluation pipelines (automatic metrics & human feedback) to measure prompt and model quality, bias, and hallucination rates. Collaborate with product and CS teams to integrate AI models into conversational Chatbot in different scenarios. Track cutting-edge research, author tech blogs, and keep improve current architecture. Requirements: Master’s Degree or higher in Computer Science, Data Science or related field.. At least 2 years of deep-learning/NLP experience, including 1+ year practical LLM work (SFT, DPO, RAG, quantization, inference optimization, etc.). Demonstrated prompt engineering & tuning expertise (few-shot design, structured prompting, prefix-/p-tuning, reward re-ranking, safety filtering). Practical experience building and deploying multi‑agent LLM workflows, with understanding of agent‑orchestrator patterns, shared memory, long‑horizon planning and guard‑rail design. Proficient in both English and Chinese communication for efficient cross team collaboration Why Binance Shape the future of finance Collaborate with world-class talent in a user-centric global organization with a flat structure Tackle challenging projects in a fast-paced and innovative enviornment with autonomy Thrive in a results-driven workplace with opportunities for career growth and continuous learning Competitive salary and company benefits Remote-first, work-from-home arrangement (may vary depending on the nature of the role and team) Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success. By submitting a job application, you acknowledge that you have read our Candidate Privacy Notice . We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
-        "jd_chars": 4013,
-        "jd_sha256": "ad8ba984429209569a5ae819503345e9f4f4a88450c2284edf7cc7bf3638e285",
-        "note": "Published exact ATS role and full JD verified; NOT candidate eligibility or submitted application.",
-        "review_flags": [
-          "HUMAN_FIT_AND_WORK_AUTHORIZATION_REQUIRED"
-        ],
-        "source_kind": "greenhouse first-party public published board",
-        "source_verified_can_apply": true,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "<div class=\"content-intro\"><p>Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our indust",
-      "evidence_url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101",
-      "first_seen_at": "2026-11-09T15:11:31.004975Z",
-      "key": "sg:5cdfbe2ca21148797c13",
-      "last_error": "Employer Greenhouse 5009522101 apply form is live (2026-11-11); unresolved mandatory 2+ years deep-learning/NLP incl 1+ practical LLM and proven deployed multi-agent workflows, plus multi-GPU LLM service operation. No truthful candidate evidence establishes all mandatory production requirements.",
-      "market": "SG",
-      "platform": "greenhouse official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Australia; Hong Kong; New Zealand; Singapore; Taiwan",
-      "reason": "Exact employer Greenhouse 5009522101 live JD requires proven experience deploying and operating LLM services on multi-GPU or cluster environments, and practical deployment of multi-agent LLM workflows. Candidate evidence supports academic LLM/RAG/QLoRA projects and part-time backend engineering, but does not establish required production multi-GPU/cluster LLM operations or deployed multi-agent ownership. Hard skill mismatch; no application submitted by Scout.",
-      "retries": 0,
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-12T18:04:44+08:00",
-        "decision": "HARD_REJECTED",
-        "evidence": "Employer exact Greenhouse 5009522101 requirements and responsibilities: proven multi-GPU or cluster LLM serving operations; practical building and deploying multi-agent LLM workflows; 2+ years DL/NLP including 1+ year LLM. Live application form confirmed 2026-11-12. Existing Binance LLM Applied Data Scientist WAIT #929 is different 5002635101; Gmail receipt lacks 5009522101 requisition. Rejected on mandatory capability gap, not assumed prior submission."
-      },
-      "seq": 50,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "5009522101",
-      "state": "HARD_REJECTED",
-      "title": "LLM Data Scientist/Algorithm Engineer (Top Talent Program)",
-      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5009522101"
-    },
-    {
-      "acknowledged_at": "2026-11-12T19:57:29+08:00",
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<div><div>\n<p><b>What we offer</b></p>\n<p>At Evonik, you’re part of a global chemical company working in many sectors that go beyond chemistry. From lipids for tomorrow’s medicines, biosurfactants for green detergents, additives for plastics recycling or membranes to help drive forward the energy transition, you’ll play an essential part in helping the world’s most essential industries succeed.</p>\n<p>Our success hinges on a diversity of ideas powered by people, not egos. Whether you’re a scientist or engineer, new to the team or established, in business, production, or anything in between – we cheer each other on. Because we believe we can do anything. Explore everything. And Be Part of Something Special!</p>\n<p><b>Find out more about the many benefits we offer:</b></p>\n<p>https://www.evonik.com/en/careers/why.html</p>\n<p><b>Meet the team and get to know the people behind Evonik:</b></p>\n<p>https://www.evonik.com/en/news/meet-the-team.html</p>\n<p><b>RESPONSIBILITIES</b></p>\n<ul><li>\n<b>Solution Delivery:</b> Work with internal customers to understand business problems, shape feasible AI solution options, validate value through prototypes, and deliver solutions into productive use.</li></ul>\n<ul>\n<li>\n<b>AI Engineering:</b> Design, build, evaluate, and improve LLM-based applications such as RAG solutions, knowledge assistants, AI agents, tool-using workflows, and automation flows.</li>\n<li>\n<b>End-to-End Implementation:</b> Own the technical implementation from prototype to production, including application logic, APIs, data pipelines, orchestration, testing, deployment, documentation, monitoring, and continuous improvement.</li>\n<li>\n<b>Data Engineering and Integration:</b> Build the data and knowledge pipelines required for AI use cases, with a focus on reliable ingestion, preparation, retrieval, and access-control-aware use of information.</li>\n<li>\n<b>Enterprise System Integration:</b> Connect AI solutions with relevant enterprise systems (e.g. Microsoft, SAP), APIs, knowledge repositories, and operational data sources. </li>\n<li>\n<b>Quality and Responsible Operation:</b> Apply testing, evaluation, responsible AI practices, security, data protection, observability, cost awareness, and production support to ensure trustworthy enterprise use.</li>\n<li>\n<b>Reusable Delivery Assets:</b> Contribute reusable components, prompts, evaluation approaches, RAG and agent patterns, pipeline templates, and implementation guidance based on delivered solutions.</li>\n</ul>\n<p><br><b>REQUIREMENTS</b></p>\n<ul>\n<li>Several years of hands-on experience in software engineering, AI application engineering, solution delivery, data engineering and/or enterprise integration with a proven ability to bring solutions into productive use.</li>\n<li>Strong practical experience with LLM-based solution development, especially retrieval-augmented generation, prompt and context engineering, tool use, and agentic workflows.</li>\n<li>Solid data integration skills for AI use cases, including working with structured and unstructured data, APIs, data quality, and operational reliability.</li>\n<li>Strong software engineering skills, especially in Python, with experience building APIs or backend components and applying SQL where needed for AI solution delivery.</li>\n<li>Practical experience using Azure or comparable cloud environments to deliver AI solutions, including managed LLM services, retrieval technologies, secure integration, and deployment of use-case-specific components.</li>\n<li>Familiarity with modern delivery workflows, including version control such as Git, Azure DevOps or comparable tools, CI/CD basics, containerized deployments, testing, monitoring, and support for delivered AI solutions.</li>\n<li>Ability to work directly with business users, clarify ambiguous needs, translate problems into technical options, validate value through prototypes, and communicate trade-offs clearly.</li>\n<li>Good understanding of how to evaluate and operate AI solutions responsibly, including quality, security, data protection, cost awareness, and safe use of agentic workflows.</li>\n<li>Additional experience with enterprise platforms, industrial systems, or scientific and technical data environments would be valuable.</li>\n</ul>\n<p><b>Your Application</b><br> </p>\n<p>To ensure that your application is proceeded as quickly as possible and to protect the environment, please apply online via our careers portal. Further information about Evonik as Employer can be found at www.evonik.com/en/careers.html.  </p>\n<p>Please address your application to the Talent Acquisition Manager, stating your earliest possible starting date and your salary expectations.</p>\n<p><b>Your Talent Acquisition Manager:</b></p>Samantha Fu\n<p>Company is</p>Evonik (SEA) Pte. Ltd.</div></div>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-solution-engineer-llm-agentic-ai-evonik-methionine-nsccdyij",
-      "company": "Evonik Methionine",
-      "consumer_review": {
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "possible_prior_issue": 847
-      },
-      "description_excerpt": "<div><div>\n<p><b>What we offer</b></p>\n<p>At Evonik, you’re part of a global chemical company working in many sectors that go beyond chemistry. From lipids for tomorrow’s medicines, biosurfactants for green detergents, additives for plastic",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-10T11:51:21.094172Z",
-      "key": "sg:07dcd62d224496e47de5",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Singapore",
-      "retries": 0,
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-12T19:57:29+08:00",
-        "decision": "DEDUPED_PRIOR_WAIT",
-        "evidence": "Employer official Workday requisition R52181 at https://evonik.wd3.myworkdayjobs.com/en-US/External_Careers/job/Singapore---Int-Business-Park/AI-Solution-Engineer--LLM---Agentic-AI-_R52181 contains matching detailed LLM/RAG/Agent responsibilities and qualification text to source's full listing. Existing live GitHub WAIT #847 is exact Evonik AI Solution Engineer (LLM & Agentic AI) R52181, with same official route. Both Gmail accounts searched 2026-11-12: primary mailbox contains official 2026-11-03 application receipt subject 'Application Received for R52181 AI Solution Engineer (LLM & Agentic AI)'; secondary mailbox has no contrary evidence. JobStreet ID 95287266 direct page not readable, so identity is reconciled through uniquely matching employer/title/full job content and exact employer receipt. No new application.",
-        "existing_issue": 847,
-        "source_key": "sg:07dcd62d224496e47de5",
-        "status": "DEDUPED"
-      },
-      "seq": 85,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-solution-engineer-llm-agentic-ai-evonik-methionine-nsccdyij",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Solution Engineer (LLM & Agentic AI)",
-      "url": "https://sg.jobstreet.com/job/95287266"
-    },
-    {
-      "acknowledged_at": "2026-11-13T02:00:00+08:00",
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the technologies people rely on every day, innovation at AMD is shaping the future. </p>\n<p>Whether you’re designing next-gen processors, enabling AI breakthroughs, or bringing leading edge products to market, every role at AMD contributes to something bigger — technology that moves the world forward. Join us and, together, we’ll advance your career.</p> <br><strong></strong><p><strong>THE ROLE:</strong></p>\n<p>We are seeking a passionate and highly motivated AI Engineer to join our AI Engineering team focused on building the next generation of Agentic AI and Digital Workers.</p>\n<p>In this role, you will participate in the complete lifecycle of AI solution development, from prompt engineering and context engineering to deploying AI agents into real business environments. You will work alongside senior AI engineers, business stakeholders, and domain experts to build intelligent systems that automate workflows, enhance productivity, and transform enterprise operations.</p>\n<p>This is an excellent opportunity for early-career engineers who are excited about Large Language Models (LLMs), AI agents, Retrieval-Augmented Generation (RAG), and enterprise AI deployment.</p>\n<p><strong>THE PERSON:</strong></p>\n<p>WHAT YOU WILL GAIN</p>\n<ul>\n<li>Hands-on experience building real-world Agentic AI systems</li>\n<li>Exposure to enterprise-scale AI deployment and Digital Worker platforms</li>\n<li>Mentorship from experienced AI engineers and architects</li>\n<li>Opportunities to work with cutting-edge LLM technologies and AI frameworks</li>\n<li>Direct involvement in AI transformation initiatives across multiple business functions</li>\n<li>Career growth path toward AI Engineer, Senior AI Engineer, AI Architect, or Forward Deployment Engineer roles</li>\n</ul>\n<p><strong>KEY RESPONSIBILITIES:</strong></p>\n<p><strong>Agentic AI Development</strong></p>\n<ul>\n<li>Design, develop, and test AI agents capable of multi-step reasoning and workflow execution</li>\n<li>Build solutions leveraging LLMs, tool usage, memory, and agent orchestration frameworks</li>\n<li>Implement function calling, structured outputs, and automated workflows</li>\n<li>Develop Retrieval-Augmented Generation (RAG) pipelines using enterprise knowledge sources</li>\n<li>Optimize AI system performance, reliability, scalability, and response quality</li>\n<li>Assist in evaluating and benchmarking AI model effectiveness</li>\n</ul>\n<p><strong>Prompt &amp; Context Engineering</strong></p>\n<ul>\n<li>Design effective system prompts and task-specific prompts</li>\n<li>Build context retrieval and grounding strategies to improve AI accuracy</li>\n<li>Develop methods to reduce hallucinations and improve consistency</li>\n<li>Support the creation of evaluation frameworks and automated testing pipelines</li>\n<li>Experiment with prompting techniques, reasoning patterns, and agent behaviors</li>\n</ul>\n<p><strong>Forward Deployment Engineering (FDE)</strong></p>\n<ul>\n<li>Deploy AI solutions into real business processes and operational environments</li>\n<li>Integrate AI agents with APIs, databases, enterprise platforms, and business applications</li>\n<li>Collaborate directly with stakeholders to understand requirements and refine use cases</li>\n<li>Monitor deployed systems, troubleshoot issues, and implement enhancements</li>\n<li>Gather feedback and continuously improve AI solutions based on business outcomes</li>\n</ul>\n<p><strong>Software Engineering &amp; Operations</strong></p>\n<ul>\n<li>Develop and maintain production-quality Python applications</li>\n<li>Implement logging, monitoring, testing, and observability practices</li>\n<li>Participate in code reviews and engineering best practices</li>\n<li>Support cloud deployment and containerized AI environments</li>\n<li>Document technical solutions and operational procedures</li>\n</ul>\n<p><strong>PREFERRED EXPERIENCE:</strong></p>\n<ul>\n<li>Strong Python programming skills</li>\n<li>Understanding of APIs, JSON, REST services, and software integration</li>\n<li>Familiarity with machine learning and natural language processing fundamentals</li>\n<li>Strong analytical and structured problem-solving abilities</li>\n<li>Ability to learn quickly in a fast-paced and evolving AI environment</li>\n<li>Strong communication and collaboration skills</li>\n</ul>\n<ul>\n<li>OpenAI, Azure OpenAI, Anthropic, Google Gemini, or similar LLM platforms</li>\n<li>Building LLM applications, chatbots, copilots, or AI assistants</li>\n<li>Retrieval-Augmented Generation (RAG) architectures</li>\n<li>Vector databases such as Pinecone, Weaviate, Chroma, Milvus, or Azure AI Search</li>\n<li>Agent frameworks including LangChain, LangGraph, CrewAI, LlamaIndex, AutoGen, or Semantic Kernel</li>\n<li>Function calling, embeddings, semantic search, and context management</li>\n<li>Prompt engineering and AI evaluation methodologies</li>\n<li>Cloud platforms such as Azure, AWS, or Google Cloud</li>\n<li>Docker, Kubernetes, CI/CD pipelines, or DevOps practices</li>\n<li>Git, software testing, and modern development workflows</li>\n</ul>\n<ul>\n<li>Curious and passionate about AI innovation</li>\n<li>Strong ownership mentality with a willingness to experiment</li>\n<li>Customer-focused mindset and ability to work directly with users</li>\n<li>Comfortable navigating ambiguity and solving complex problems</li>\n<li>Team player who thrives in a collaborative environment</li>\n<li>Eager to build AI systems that deliver measurable business impact</li>\n</ul>\n<p><strong>ACADEMIC CREDENTIALS:</strong></p>\n<ul><li>Degree in Computer Science, Artificial Intelligence, Software Engineering, Data Science, or a related technical field</li></ul>\n<p><strong>LOCATION:</strong></p>\n<p>Singapore</p>\n<p>#LI-JK1</p> <br><strong></strong><p></p><div>Benefits offered are described:  <div>AMD benefits at a glance.</div>\n</div><p></p>\n<p>AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law.   We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.</p>\n<p></p><div>AMD may use Artificial Intelligence to help screen, assess or select applicants for this position.  AMD’s “Responsible AI Policy” is available here.</div><p></p>\n<p>This posting is for an existing vacancy.</p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-software-development-engineer-amd-bo65lqvo",
-      "company": "AMD",
-      "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<strong></strong><p>ADVANCE YOUR CAREER. ADVANCE THE WORLD. </p>\n<p>At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the techno",
-      "first_seen_at": "2026-11-09T16:44:38.947210Z",
-      "key": "sg:745d7a90442b12ce3e04",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore",
-      "retries": 0,
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-13T02:00:00+08:00",
-        "decision": "DEDUPED_PRIOR_WAIT",
-        "employer_requisition": "92102",
-        "evidence": "Official AMD requisition 92102 has identical employer title and substantive Agentic AI/RAG JD to JobStreet 95358234 source; existing WAIT #673 matches 92102. Both Gmail accounts checked; 2026-10-26 employer application confirmation for exact title in second Gmail. Cross-source role identity confirmed; no reapplication.",
-        "existing_issue": 673,
-        "official_route": "https://careers.amd.com/careers-home/jobs/92102",
-        "source_key": "sg:745d7a90442b12ce3e04",
-        "status": "DEDUPED"
-      },
-      "seq": 61,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-software-development-engineer-amd-bo65lqvo",
-      "source_listing_url": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer (Software Development Engineer)",
-      "url": "https://sg.jobstreet.com/job/95358234"
-    },
-    {
-      "acknowledged_at": "2026-11-13T02:00:00+08:00",
-      "ats_key": "freehire|research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
-      "company": "Agency for Science, Technology and Research",
-      "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<strong>Job Summary</strong><br><p>We are seeking a motivated Research Engineer to develop and evaluate AI-enabled cybersecurity solutions. The role focuses on agentic AI, large language models (LLMs), and intelligent automation. The succes",
-      "first_seen_at": "2026-11-09T16:44:38.947257Z",
-      "key": "sg:6d663588836b04a27f88",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Singapore",
-      "retries": 0,
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-13T02:00:00+08:00",
-        "decision": "DEDUPED_PRIOR_WAIT",
-        "employer_requisition": "1129",
-        "evidence": "Official A*STAR requisition 1129 full JD matches source Research Engineer, Cybersecurity, IAIC; existing WAIT #699 is same employer/title/1129 and candidate-confirmed submitted. Employer receipt dated 2026-10-27 in second Gmail; both Gmail accounts checked. No reapplication.",
-        "existing_issue": 699,
-        "official_route": "https://careers.a-star.edu.sg/default/job/Research-Engineer%2C-Cybersecurity/1129-en_GB",
-        "source_key": "sg:6d663588836b04a27f88",
-        "status": "DEDUPED"
-      },
-      "seq": 62,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "research-engineer-cybersecurity-iaic-agency-for-science-technology-and-research-q6anbj4e",
-      "source_listing_url": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "Research Engineer, Cybersecurity, IAIC",
-      "url": "https://sg.jobstreet.com/job/95443052"
     },
     {
       "acknowledged_at": "2026-11-13T06:00:00+08:00",
@@ -5094,41 +5297,6 @@
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate-Engineer-II--FPGA-Design-and-Development-_R00021553"
     },
     {
-      "acknowledged_at": "2026-11-13T10:03:21+08:00",
-      "ats_key": "freehire|ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
-      "company": "Astek",
-      "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<strong>Role Overview</strong><br><p>We are looking for an experienced AI Security Engineer to design, implement, and secure an enterprise-wide AI Guardrails platform supporting AI-enabled applications.</p>\n<p>The role will focus on deliver",
-      "first_seen_at": "2026-11-09T16:44:38.947281Z",
-      "key": "sg:a2414d304422992e3237",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Raffles Place, Central Region",
-      "retries": 0,
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-13T10:03:21+08:00",
-        "decision": "HARD_REJECTED",
-        "employer_requisition": "JobStreet 95181678 / LinkedIn 4476295033 (cross-platform title match; employer ATS ID not established)",
-        "evidence": "Astek's full role description reproduced on LinkedIn (same exact employer and title) says 'At least 6 years of experience in Cybersecurity, Application Security, Cloud Security, Platform Security, or Secure Software Engineering' and 'Minimum 2 years of hands-on experience in AI Security ... within an enterprise environment'. Requires AWS EKS/Kubernetes, security threat modeling, DevSecOps and AI security delivery; candidate has no verified professional AI security experience. LinkedIn listing explicitly says 'No longer accepting applications'. GitHub all-state search for Astek returned zero; both Gmail accounts Astek AI Security search returned only generic job alerts, not application receipts. Reject for documented mandatory skills/experience mismatch; exact JobStreet listing route was not verified as open.",
-        "source_key": "sg:a2414d304422992e3237",
-        "status": "HARD_REJECTED"
-      },
-      "seq": 63,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-security-engineer-ai-guardrails-llm-security-astek-jz3h3w63",
-      "source_listing_url": "",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Security Engineer – AI Guardrails / LLM Security",
-      "url": "https://sg.jobstreet.com/job/95181678"
-    },
-    {
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -5174,91 +5342,6 @@
       "state": "HARD_REJECTED",
       "title": "Senior Research Engineer I (Satellite System Hardware)",
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Senior-Research-Engineer-I--Satellite-System-Hardware-_R00016505"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>Qube Research &amp; Technologies (QRT) is a global quantitative and systematic investment manager, operating in all liquid asset classes across the world. We are a technology and data driven group implementing a scientific approach to investing. Combining data, research, technology, and trading expertise has shaped our collaborative mindset, which enables us to solve the most complex challenges. QRT’s culture of innovation continuously drives our ambition to deliver high quality returns for our investors.</p>\n<p><strong>Your future role within QRT</strong></p>\n<div>\n<ul>\n<li>Provide first- and second-line support for LLM gateway platform, investigating and resolving issues raised by engineering and business users across the firm</li>\n<li>Monitor and maintain the platform's underlying infrastructure to ensure availability, stability and predictable performance under rapidly growing load</li>\n<li>Support and troubleshoot model-serving backends and provider integrations, model providers, covering latency, throughput, error-rate and capacity issues</li>\n<li>Triage incidents affecting model availability — provider instability, connection resets, timeouts, regional slowness — determine whether the cause is platform-side or upstream, and drive to resolution with vendors where required</li>\n<li>Support the tooling layer built on top of LLM gateway: integrations, developer workspaces (e.g. Coder), coding assistants and API clients, including diagnosing issues introduced by upstream vendor releases running against a gateway-fronted API</li>\n<li>Coordinate with platform engineering, cloud infrastructure and end-user teams to resolve incidents and minimise disruption</li>\n<li>Support release management and change processes to keep production stable, including staged rollouts, non-prod validation and rollback</li>\n<li>Build tooling and automation to improve monitoring, diagnostics and operational visibility, and to reduce repetitive manual work</li>\n<li>Contribute to the design and implementation of monitoring, dashboards and alerting — for example extending Grafana dashboards covering TTFT, TPOT, percentile latency and failure-rate reporting</li>\n<li>Own and improve operational documentation, runbooks and user-facing status communication</li>\n</ul>\n</div>\n<p><strong>Your present skillset</strong></p>\n<div>\n<ul>\n<li>Experience in a production support, SRE or platform operations role within a fast-paced environment, with strong ownership of issue resolution end to end</li>\n<li>Strong Linux and Windows system administration skills</li>\n<li>Proficiency scripting and automating in Python, Bash and/or PowerShell</li>\n<li>Solid experience with relational databases such as PostgreSQL or SQL Server, including writing queries for investigation and supporting routine operational processes</li>\n<li>Practical understanding of monitoring and observability: metrics, logs, traces, dashboards and alerting, and the ability to analyse system data to distinguish a platform-wide problem from a localised one</li>\n<li>Comfortable debugging distributed, API-driven services: HTTP status and error semantics, timeouts, retries, connection resets, rate limiting, caching and latency percentiles</li>\n<li>Familiarity with large language model concepts and hosting environments — inference APIs, model gateways/proxies, prompt and context handling, token accounting, streaming responses, prompt caching</li>\n<li>Exposure to public cloud, ideally AWS (Bedrock, networking, IAM, logging/metrics), and to containerised or Kubernetes-based workloads</li>\n<li>Ability to communicate clearly with both engineers and non-technical users, and to manage expectations of senior stakeholders during live incidents</li>\n<li>Awareness of data-sensitivity and access-control considerations when routing workloads to third-party model providers</li>\n</ul>\n</div>\n<p><strong>Beneficial</strong></p>\n<div>\n<ul>\n<li>Experience supporting developer tooling and AI coding assistants (e.g. Claude Code, OpenCode) or IDE/workspace platforms</li>\n<li>Experience with Grafana, Prometheus or equivalent observability stacks, including building dashboards and alert rules</li>\n<li>Experience with CI/CD and infrastructure-as-code (Terraform, Ansible, or similar)</li>\n<li>Experience operating multi-region services and troubleshooting region-specific performance issues (e.g. APAC latency)</li>\n<li>Experience acting as the operational interface to third-party vendors and cloud providers during degradations</li>\n</ul>\n</div>\n<p> </p>\n<p>QRT is an equal opportunity employer. We welcome diversity as essential to our success. QRT empowers employees to work openly and respectfully to achieve collective success. In addition to professional achievement, we are offering initiatives and programs to enable employees achieve a healthy work-life balance.</p>\n<p> </p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac",
-      "company": "Qube Research & Technologies",
-      "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<p>Qube Research &amp; Technologies (QRT) is a global quantitative and systematic investment manager, operating in all liquid asset classes across the world. We are a technology and data driven group implementing a scientific approach to in",
-      "discovery_access": "API_PROXY_ONLY",
-      "evidence_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002",
-      "first_seen_at": "2026-11-10T23:16:08.393173Z",
-      "key": "sg:71419f298f44b7ea49a5",
-      "last_error": "Exact Qube Greenhouse 8759003002 employer application form/current route could not be opened (2026-11-12). Third-party full-text is unverified as employer-authored; live exact requisition and sponsorship remain unconfirmed.",
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Hong Kong",
-      "reason": "Qube employer-authored Greenhouse JD is primarily first- and second-line LLM gateway incident response and production platform/SRE support, requiring prior production support/SRE and strong Linux+Windows administration, cloud/observability; not hands-on ownership of LLM/Agent/RAG feature engineering. Core work content and mandatory production-ops b",
-      "retries": 0,
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-12T22:00:00+08:00",
-        "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact Qube Greenhouse 8759003002 employer application form/current route could not be opened (2026-11-12). Third-party full-text is unverified as employer-authored; live exact requisition and sponsorship remain unconfirmed.",
-        "status": "RETRY"
-      },
-      "seq": 117,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "production-support-engineer-llm-platform-qube-research-technologies-z2xp7iac",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "HARD_REJECTED",
-      "title": "Production Support Engineer — LLM Platform",
-      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002"
-    },
-    {
-      "ats_key": "micron|workday|/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
-      "company": "Micron",
-      "consumer_review": {
-        "checked_at": "2026-11-13T02:05:30+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we build help make everything from virtual reality experiences to breakthroughs in neural networks possible. We do it all while committing to integrity, sustainability, and giving back to our communities. Because doing so can fuel the very innovation we are pursuing. AI Engineer, SMAI Job Summary Join Micron Technology at a defining moment in our AI and smart manufacturing transformation. As a Full-Stack AI Engineer, you will contribute to the design, development, deployment, and support of AI-powered applications that improve manufacturing operations across Micron's global network of fabs and assembly/test sites. You will work closely with data scientists, software engineers, and manufacturing stakeholders to build scalable AI solutions, web applications, APIs, and automation tools that enable data-driven decision-making and autonomous operations. Main Responsibilities Design and build end-to-end AI solutions, including data ingestion pipelines, feature engineering, model training and inference, APIs, web applications, and observability capabilities. Develop responsive front-end applications using React, Angular, or Streamlit, backed by Python/FastAPI services, with strong type-safe development and test coverage practices. Support development and implementation of machine learning and AI models for structured and unstructured data. Support development of analytics and AI solutions that improve manufacturing and operational decision-making. Support integration of LLMs and agentic AI capabilities into manufacturing and engineering workflows. Support integration of robotics platforms, AMRs, tool automation systems, control systems, and the Micron MES ecosystem. Develop and maintain containerized applications using Docker and deploy solutions through Kubernetes or OpenShift environments. Work with data platforms and modeling environments to support scalable AI application development. Other Responsibilities Contribute to CI/CD pipelines and automated software release processes using tools such as GitHub Actions, while supporting monitoring, drift detection, model evaluation, and feedback loop implementation for production AI applications. Apply Responsible AI practices, including input validation, prompt-injection prevention, PII/IP protection, model governance, and audit logging. Support application and model optimization efforts to improve performance, reliability, scalability, and cost efficiency. Support testing, debugging, technical documentation, installation, and maintenance activities for AI and software solutions. Integrate AI-assisted tools and insights into daily work to improve efficiency, quality, and effectiveness while complying with organizational standards, legal requirements, and governance policies. Contribute to a culture of continuous improvement by identifying, testing, and sharing AI-enabled enhancements within one's scope of work. Minimum Required Qualifications / Experience Bachelor's or Master's degree in Computer Science, Software Engineering, Data Science, or a related field; equivalent industry experience accepted. 2+ years building and shipping production web or AI applications end to end. Experience developing and deploying web applications, APIs, or data-driven solutions. Hands-on experience with at least one cloud platform (AWS, Azure, or GCP). Must Have Technical Skills Strong programming skills in Python and modern JavaScript/TypeScript. Strong SQL proficiency and experience working with relational databases. Experience with Docker, Kubernetes/OpenShift, and CI/CD development practices. Working knowledge of GenAI technologies, including prompt engineering, Retrieval-Augmented Generation (RAG), LLM integration, agentic AI concepts, model evaluation, and Responsible AI practices. Ability to apply AI literacy and digital fluency to use AI-enabled tools responsibly and effectively for research, analysis, content creation, problem-solving, operational tasks, automation, and achieving business outcomes. Must Have Soft Skills Strong analytical and problem-solving skills. Effective communication and collaboration skills. Ability to learn quickly and adapt in a fast-paced environment. Highly Desirable / Preferred Skills or Experience Experience in semiconductor manufacturing, industrial automation, or smart manufacturing environments. Exposure to MLOps, machine learning model deployment, or enterprise AI applications. Familiarity with MES, Industrial IoT, or equipment automation systems. Embody Micron's Core Values People – Respect, develop, and empower others. Innovation – Drive continuous improvement and breakthrough thinking. Tenacity – Show grit and determination. Collaboration – Build trust and foster teamwork. Customer Focus – Deliver excellence and value. Speed – Act with purpose and set the pace. About Micron Technology, Inc. We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life for all . With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands. Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence and 5G applications that unleash opportunities — from the data center to the intelligent edge and across the client and mobile user experience. To learn more, please visit micron.com/careers All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status. To request assistance with the application process and/or for reasonable accommodations, please contact hrsupport_sg@micron.com Micron Prohibits the use of child labor and complies with all applicable laws, rules, regulations, and other international and industry labor standards. Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron. AI alert: Candidates are encouraged to use AI tools to enhance their resume and/or application materials. However, all information provided must be accurate and reflect the candidate's true skills and experiences. Misuse of AI to fabricate or misrepresent qualifications will result in immediate disqualification. Fraud alert: Micron advises job seekers to be cautious of unsolicited job offers and to verify the authenticity of any communication claiming to be from Micron by checking the official Micron careers website in the About Micron Technology, Inc.",
-        "jd_chars": 6982,
-        "jd_sha256": "e4c7553976af11df6e1692f8a2af60f765078bb46a9e23f79ff8515d9f467c79",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
-      },
-      "description_excerpt": "Our vision is to transform how the world uses information to enrich life for all. Join an inclusive team passionate about one thing: using their expertise in the relentless pursuit of innovation for customers and partners. The solutions we ",
-      "evidence_url": "https://github.com/kolihhan/job-resources/issues/966",
-      "first_seen_at": "2026-11-09T15:02:24.825456Z",
-      "issue_url": "https://github.com/kolihhan/job-resources/issues/966",
-      "key": "sg:027f8a0aedd695252806",
-      "last_error": "Exact employer Workday JR111138 application page returned access error on 2026-11-12 14:xx MYT. Gmail account lihhanko3 has rejection for different JR111136 (2026-11-05), not JR111138. Missing evidence: usable current employer application form for JR111138.",
-      "market": "SG",
-      "platform": "workday official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Fab 10A, Singapore",
-      "retries": 0,
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-12T14:15:00+08:00",
-        "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact employer Workday JR111138 application page returned access error on 2026-11-12 14:xx MYT. Gmail account lihhanko3 has rejection for different JR111136 (2026-11-05), not JR111138. Missing evidence: usable current employer application form for JR111138.",
-        "status": "RETRY"
-      },
-      "seq": 48,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "full_jd",
-      "source_job_id": "/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
-      "state": "ISSUE_VERIFIED",
-      "title": "AI Engineer, SMAI",
-      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138"
     },
     {
       "api_source_context": {
@@ -5317,43 +5400,6 @@
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Associate--IC-Design-_R00019126"
     },
     {
-      "ats_key": "grab|smartrecruiters|744000148945093",
-      "company": "Grab",
-      "consumer_review": {
-        "checked_at": "2026-11-13T11:07:48.141249Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "",
-      "discovery_access": "OFFICIAL_ATS_SOURCE",
-      "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-",
-      "first_seen_at": "2026-11-10T17:44:46.023136Z",
-      "key": "sg:1becb397a6d75ba28975",
-      "last_error": null,
-      "market": "SG",
-      "platform": "smartrecruiters official ATS",
-      "prior_wait_employer_hint": true,
-      "query": "Singapore, sg",
-      "reason": "Official Grab requisition 744000148945093 explicitly requires a PhD in CS/Robotics/AI/CV or related field, strong research contributions in visual navigation/robot perception, and ROS robotics integration. Candidate has MSc NLP/LLM and no demonstrated robotics PhD/ROS/VLN record. Hard PhD and domain mismatch.",
-      "retries": 0,
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-14T09:04:44+08:00",
-        "decision": "HARD_REJECTED",
-        "evidence_url": "https://jobs.smartrecruiters.com/Grab/744000148945093-senior-localization-engineer-research-engineer-robotics-ai-visual-navigation-",
-        "status": "HARD_REJECTED"
-      },
-      "seq": 101,
-      "source": "freehirefetch:official-ats:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "744000148945093",
-      "source_listing_url": "",
-      "source_platform": "",
-      "state": "HARD_REJECTED",
-      "title": "Senior Localization Engineer / Research Engineer, Robotics AI (Visual Navigation)",
-      "url": "https://jobs.smartrecruiters.com/Grab/744000148945093"
-    },
-    {
       "api_source_context": {
         "employer_verified": false,
         "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
@@ -5389,50 +5435,6 @@
       "state": "HARD_REJECTED",
       "title": "AI Engineer – Associate",
       "url": "https://sg.jobstreet.com/job/95294829"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by the People’s Bank of China, undertakes and transacts various kinds of investment businesses.</p>\n<strong>Job Description</strong><br><ul>\n<li>Research developments in large language models, AI tools and the vendor landscape, and assess their relevance and value to the company.</li>\n<li>Compare on-premise open-source models with external APIs on performance, cost and data security, and recommend the right option for each use case.</li>\n<li>Establish the company&#39;s AI usage policy and AI data governance framework.</li>\n<li>Plan, design and build the company&#39;s enterprise AI platform, providing secure, governed and unified access to both on-premise and external AI capabilities across the organisation.</li>\n<li>Lead AI security, safeguarding the company&#39;s AI systems, models and data against emerging threats.</li>\n<li>Deploy and maintain on-premise model inference services and plan GPU and hardware resources.</li>\n<li>Manage external API access, keys, quotas and costs, and route requests between on-premise and external models by use case.</li>\n<li>Monitor availability, response time, usage volume and cost of AI services.</li>\n<li>Work with business units to identify pilot use cases and build prototypes such as knowledge base Q&amp;A (RAG), document processing and workflow automation.</li>\n<li>Measure pilot outcomes and report to management with recommendations on whether to scale up.</li>\n</ul>\n<strong>Requirements</strong><br><ul>\n<li>Bachelor&#39;s degree or above in Computer Science, Information Technology or a related field.</li>\n<li>Hands-on experience (work or personal projects) deploying open-source LLMs on-premise (e.g. Ollama, vLLM), with an understanding of model quantisation and hardware requirements.</li>\n<li>Hands-on experience (work or personal projects) with at least one major LLM API; familiar with RAG, vector search and prompt design.</li>\n<li>Proficient in Python; able to build backend services and APIs independently.</li>\n<li>Familiar with Docker and Linux, and with basic security concepts such as access control, logging and encryption.</li>\n<li>Strong research and writing skills; able to turn technical comparisons into clear reports for management.</li>\n<li>Self-driven and comfortable working in an exploratory role with evolving requirements.</li>\n<li>Experience building an internal AI platform, AI gateway or knowledge base; familiarity with agent frameworks (e.g. LangGraph, LangChain); knowledge of the PDPA or AI governance frameworks.</li>\n</ul>\n<p>Interested applicants may apply bysending in your updated resume to ***email_hidden***</p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
-      "company": "Investment Company Of The People'S Republic Of China (Singapore) Pte Ltd",
-      "consumer_review": {
-        "checked_at": "2026-11-13T11:07:48.141249Z",
-        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
-      },
-      "description_excerpt": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by th",
-      "discovery_access": "API_PROXY_ONLY",
-      "evidence_url": "https://sg.jobstreet.com/job/95439617",
-      "first_seen_at": "2026-11-10T17:44:46.022893Z",
-      "key": "sg:758fb97bd538822f8aa9",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "Singapore",
-      "reason": "Exact employer-authored JobStreet listing 95439617 and role AI Engineer match already-applied WAIT #977; Issue records direct-email application 2026-11-14, corroborated by sent Gmail 'Application — AI Engineer — Ko Lih Han'. Do not reapply.",
-      "retries": 0,
-      "reviewed_at": "2026-11-14T10:55:46Z",
-      "scout_review": {
-        "ack": true,
-        "checked_at": "2026-11-14T18:55:46+08:00",
-        "decision": "PRIOR_WAIT",
-        "evidence": "Exact employer + title + JobStreet 95439617; WAIT #977 and sent Gmail confirmed",
-        "issue_url": "https://github.com/kolihhan/job-resources/issues/977",
-        "status": "DUPLICATE_CONFIRMED"
-      },
-      "seq": 93,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-investment-company-of-the-people-s-republic-of-china-singapore-pte-ltd-rx4lch3q",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "DUPLICATE_CONFIRMED",
-      "title": "AI ENGINEER",
-      "url": "https://sg.jobstreet.com/job/95439617"
     },
     {
       "api_source_context": {
