@@ -1699,35 +1699,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Robotics AI Engineer",
       "url": "https://jobs.ashbyhq.com/menlo/da98653d-8d51-4aaa-8500-6af9927f9716"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NRF, Ministry of Digital Development and Information (MDDI), Infocomm Media Development Authority (IMDA), Economic Development Board (EDB) and Enterprise Singapore (ESG). We bring together research institutions and the vibrant ecosystem of AI start-ups and companies to support impactful research, develop talent, and power Singapore&#39;s AI efforts.</p><p></p><p>The AI Products Pillar of AI Singapore develops AI-powered products and solutions that benefit Singapore and the region. We are looking for an AI Engineer to contribute to the development, training, evaluation and engineering of state-of-the-art multilingual, multicultural and multimodal foundation Large Language Models (LLMs), with a focus on underrepresented languages and cultures and real-world AI applications. The role involves working at the intersection of frontier LLM research, large-scale data engineering, distributed model training, evaluation, and productisation.</p><p></p><p>This position will be hosted at the Nanyang Technological University (NTU) under VP (Artificial Intelligence &amp; Digital Economy)’s office and we welcome you to join our community.</p><p></p><p><u><b>Key Responsibilities:</b></u></p><ul><li><p>Develop, train, fine-tune and evaluate multilingual, multicultural and multimodal foundation LLMs and related technologies, including continued pre-training, supervised fine-tuning, instruction tuning, preference optimisation and model adaptation.</p></li><li><p>Build and maintain scalable data pipelines for multilingual text ingestion, cleaning, filtering, deduplication, tokenisation, contamination detection and dataset mixture creation.</p></li><li><p>Support large-scale distributed model training workflows, including experiment tracking, checkpointing, training monitoring, debugging, profiling and compute optimisation.</p></li><li><p>Review frontier AI and LLM research papers, reproduce relevant methods, and translate research findings into practical improvements in model training, evaluation and deployment workflows.</p></li><li><p>Contribute to reusable engineering assets such as training scripts, evaluation tools, model artefacts, APIs, documentation and deployment-ready components.</p></li><li><p>Collaborate with internal teams, external research labs, academic institutions, industry partners and ecosystem stakeholders on LLM research, development and knowledge-sharing activities.</p></li><li><p>Support AI Singapore’s community-building efforts through technical sharing, seminars, workshops, publications or other outreach activities where relevant.</p></li></ul><p></p><p><u><b>Requirements:</b></u></p><p>We welcome applicants from all disciplines and qualification pathways, including NITEC, Diploma, Bachelor’s, Master’s or PhD holders, as well as candidates with equivalent practical experience. A formal qualification in Computer Science, Artificial Intelligence, Machine Learning, Data Science, Engineering, Mathematics, Computational Linguistics or a related field would be advantageous but is not mandatory.</p><p></p><p>Candidates should be able to demonstrate the following skills and experience:</p><ul><li><p><b>Strong AI/ML engineering capability:</b> Proficient in Python with strong software engineering practices, including clean and modular code, Git, testing, documentation and code review. Hands-on experience with PyTorch and modern NLP/LLM frameworks, especially the Hugging Face ecosystem such as Transformers, Datasets, Tokenizers, Accelerate and TRL.</p></li><li><p><b>LLM development and multilingual NLP expertise:</b> Experience or strong working knowledge in LLM pre-training, continued pre-training, fine-tuning, instruction tuning, preference optimisation, evaluation and model adaptation. Familiarity with multilingual NLP challenges such as low-resource languages, code-switching, language imbalance, script diversity, tokenisation issues and multilingual benchmark design.</p></li><li><p><b>Large-scale data and training pipeline development:</b> Ability to build scalable pipelines for text processing, dataset preparation and model training. Familiarity with distributed training concepts, GPU-based training, checkpointing, experiment tracking, training stability and compute optimisation.</p></li><li><p><b>MLOps, infrastructure and deployment:</b> Familiarity with Linux environments, Docker, CI/CD concepts, cloud platforms or GPU/HPC clusters. Experience with reproducible model development workflows, model versioning, evaluation automation and deployment through APIs or serving frameworks such as vLLM, SGLang, TGI or equivalent tools would be advantageous.</p></li><li><p><b>Research, problem-solving and communication:</b> Able to read and evaluate research papers, design experiments, conduct ablation studies, analyse results and translate findings into practical model or system improvements. Able to communicate technical concepts, trade-offs and evaluation outcomes clearly to both technical and non-technical stakeholders.</p></li><li><p><b>Personal attributes:</b> Self-directed learner with strong curiosity, high ownership and resilience. Collaborative, rigorous and engineering-minded, with a commitment to reproducibility, reliability, documentation and responsible AI development.</p></li></ul><p></p><p><span><span><span><span>We regret that only shortlisted candidates will be notified.</span></span></span></span></p><p></p><p></p><p></p>Hiring Institution: NTU<p></p><p></p><p></p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-ai-products-ntu-z657hcsf",
-      "company": "Ntu",
-      "description_excerpt": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NR",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-14T16:35:50.963720Z",
-      "key": "sg:4b0434c85142d16e14f2",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "prior_wait_employer_hint": true,
-      "query": "NTU Main Campus, Singapore",
-      "retries": 0,
-      "seq": 145,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-ai-products-ntu-z657hcsf",
-      "source_listing_url": "",
-      "source_platform": "Employer ATS / other",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer (AI Products)",
-      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AI-Products-_R00024969"
     }
   ],
   "terminal": [
@@ -5463,6 +5434,45 @@
       "state": "DUPLICATE_CONFIRMED",
       "title": "AI ENGINEER",
       "url": "https://sg.jobstreet.com/job/95439617"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NRF, Ministry of Digital Development and Information (MDDI), Infocomm Media Development Authority (IMDA), Economic Development Board (EDB) and Enterprise Singapore (ESG). We bring together research institutions and the vibrant ecosystem of AI start-ups and companies to support impactful research, develop talent, and power Singapore&#39;s AI efforts.</p><p></p><p>The AI Products Pillar of AI Singapore develops AI-powered products and solutions that benefit Singapore and the region. We are looking for an AI Engineer to contribute to the development, training, evaluation and engineering of state-of-the-art multilingual, multicultural and multimodal foundation Large Language Models (LLMs), with a focus on underrepresented languages and cultures and real-world AI applications. The role involves working at the intersection of frontier LLM research, large-scale data engineering, distributed model training, evaluation, and productisation.</p><p></p><p>This position will be hosted at the Nanyang Technological University (NTU) under VP (Artificial Intelligence &amp; Digital Economy)’s office and we welcome you to join our community.</p><p></p><p><u><b>Key Responsibilities:</b></u></p><ul><li><p>Develop, train, fine-tune and evaluate multilingual, multicultural and multimodal foundation LLMs and related technologies, including continued pre-training, supervised fine-tuning, instruction tuning, preference optimisation and model adaptation.</p></li><li><p>Build and maintain scalable data pipelines for multilingual text ingestion, cleaning, filtering, deduplication, tokenisation, contamination detection and dataset mixture creation.</p></li><li><p>Support large-scale distributed model training workflows, including experiment tracking, checkpointing, training monitoring, debugging, profiling and compute optimisation.</p></li><li><p>Review frontier AI and LLM research papers, reproduce relevant methods, and translate research findings into practical improvements in model training, evaluation and deployment workflows.</p></li><li><p>Contribute to reusable engineering assets such as training scripts, evaluation tools, model artefacts, APIs, documentation and deployment-ready components.</p></li><li><p>Collaborate with internal teams, external research labs, academic institutions, industry partners and ecosystem stakeholders on LLM research, development and knowledge-sharing activities.</p></li><li><p>Support AI Singapore’s community-building efforts through technical sharing, seminars, workshops, publications or other outreach activities where relevant.</p></li></ul><p></p><p><u><b>Requirements:</b></u></p><p>We welcome applicants from all disciplines and qualification pathways, including NITEC, Diploma, Bachelor’s, Master’s or PhD holders, as well as candidates with equivalent practical experience. A formal qualification in Computer Science, Artificial Intelligence, Machine Learning, Data Science, Engineering, Mathematics, Computational Linguistics or a related field would be advantageous but is not mandatory.</p><p></p><p>Candidates should be able to demonstrate the following skills and experience:</p><ul><li><p><b>Strong AI/ML engineering capability:</b> Proficient in Python with strong software engineering practices, including clean and modular code, Git, testing, documentation and code review. Hands-on experience with PyTorch and modern NLP/LLM frameworks, especially the Hugging Face ecosystem such as Transformers, Datasets, Tokenizers, Accelerate and TRL.</p></li><li><p><b>LLM development and multilingual NLP expertise:</b> Experience or strong working knowledge in LLM pre-training, continued pre-training, fine-tuning, instruction tuning, preference optimisation, evaluation and model adaptation. Familiarity with multilingual NLP challenges such as low-resource languages, code-switching, language imbalance, script diversity, tokenisation issues and multilingual benchmark design.</p></li><li><p><b>Large-scale data and training pipeline development:</b> Ability to build scalable pipelines for text processing, dataset preparation and model training. Familiarity with distributed training concepts, GPU-based training, checkpointing, experiment tracking, training stability and compute optimisation.</p></li><li><p><b>MLOps, infrastructure and deployment:</b> Familiarity with Linux environments, Docker, CI/CD concepts, cloud platforms or GPU/HPC clusters. Experience with reproducible model development workflows, model versioning, evaluation automation and deployment through APIs or serving frameworks such as vLLM, SGLang, TGI or equivalent tools would be advantageous.</p></li><li><p><b>Research, problem-solving and communication:</b> Able to read and evaluate research papers, design experiments, conduct ablation studies, analyse results and translate findings into practical model or system improvements. Able to communicate technical concepts, trade-offs and evaluation outcomes clearly to both technical and non-technical stakeholders.</p></li><li><p><b>Personal attributes:</b> Self-directed learner with strong curiosity, high ownership and resilience. Collaborative, rigorous and engineering-minded, with a commitment to reproducibility, reliability, documentation and responsible AI development.</p></li></ul><p></p><p><span><span><span><span>We regret that only shortlisted candidates will be notified.</span></span></span></span></p><p></p><p></p><p></p>Hiring Institution: NTU<p></p><p></p><p></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-ai-products-ntu-z657hcsf",
+      "company": "Ntu",
+      "description_excerpt": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NR",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-14T16:35:50.963720Z",
+      "key": "sg:4b0434c85142d16e14f2",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 145,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-ai-products-ntu-z657hcsf",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "DUPLICATE_CONFIRMED",
+      "title": "AI Engineer (AI Products)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AI-Products-_R00024969",
+      "reason": "Exact NTU Workday requisition R00024969 is already WAIT #595; issue explicitly records user confirmation on 2026-10-25 that application was handled. Same employer, AI Engineer (AI Products), and exact requisition. Gmail searches in both connected accounts found no contradicting new role-specific receipt; user confirmation is authoritative. Do not create duplicate APPLY.",
+      "reviewed_at": "2026-11-14T17:01:10Z",
+      "scout_review": {
+        "status": "DUPLICATE_CONFIRMED",
+        "decision": "PRIOR_WAIT",
+        "ack": true,
+        "checked_at": "2026-11-15T01:01:10+08:00",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/595",
+        "evidence": "Exact NTU Workday requisition R00024969 is already WAIT #595; issue explicitly records user confirmation on 2026-10-25 that application was handled. Same employer, AI Engineer (AI Products), and exact requisition. Gmail searches in both connected accounts found no contradicting new role-specific receipt; user confirmation is authoritative. Do not create duplicate APPLY."
+      }
     }
   ],
   "version": 1
