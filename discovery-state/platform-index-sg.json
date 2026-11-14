@@ -787,7 +787,7 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T23:16:08.393004Z",
       "key": "sg:48ad9cf13607232c4166",
-      "last_error": "Exact NCS SmartRecruiters requisition 6000000001031326 official JD and live apply form could not be read (direct URL inaccessible). Search found different NCS #EG Platform AI Engineer ID 6000000000981978 with 3–5 professional SWE years and 1–2 production/preproduction AI years; cannot substitute for queued ID. Both Gmail accounts searched exact title on 2026-11-14: no receipt; other NCS ML Engineer receipt exists. Missing: employer-authored JD and live apply route for exact 6000000001031326.",
+      "last_error": "Exact NCS SmartRecruiters requisition 6000000001031326 employer JD and current application route remain inaccessible (2026-11-15). A separate employer-owned same-title #EG Platform AI Engineer listing 6000000000981978 is readable with full JD and 'I'm interested', but its different requisition cannot be mapped to 6000000001031326 without employer evidence. All-state GitHub Issue searches for title and both IDs and both Gmail accounts found no matching application. Do not substitute sibling requisition or ACK original source.",
       "market": "SG",
       "platform": "smartrecruiters official ATS",
       "prior_wait_employer_hint": true,
@@ -795,9 +795,9 @@
       "retries": 0,
       "scout_review": {
         "ack": false,
-        "checked_at": "2026-11-14T00:15:00Z",
+        "checked_at": "2026-11-15T05:55:30+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact NCS SmartRecruiters requisition 6000000001031326 official JD and live apply form could not be read (direct URL inaccessible). Search found different NCS #EG Platform AI Engineer ID 6000000000981978 with 3–5 professional SWE years and 1–2 production/preproduction AI years; cannot substitute for queued ID. Both Gmail accounts searched exact title on 2026-11-14: no receipt; other NCS ML Engineer receipt exists. Missing: employer-authored JD and live apply route for exact 6000000001031326.",
+        "missing_evidence": "Exact NCS SmartRecruiters requisition 6000000001031326 employer JD and current application route remain inaccessible (2026-11-15). A separate employer-owned same-title #EG Platform AI Engineer listing 6000000000981978 is readable with full JD and 'I'm interested', but its different requisition cannot be mapped to 6000000001031326 without employer evidence. All-state GitHub Issue searches for title and both IDs and both Gmail accounts found no matching application. Do not substitute sibling requisition or ACK original source.",
         "status": "RETRY"
       },
       "seq": 110,
