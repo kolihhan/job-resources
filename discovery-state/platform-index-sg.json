@@ -191,11 +191,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T17:57:04+08:00",
-        "missing_evidence": "BJAK Applied Machine Learning Engineer Ashby 56f522c4-b903-45ea-bb08-952b74641b56: indexed employer job description remains visible, but exact current application URL returned HTTP 404 on 2026-11-14. Existing BJAK Applied AI CHECK #923 is different requisition. Missing: usable live employer application route for this exact Ashby UUID. Preserve Pending."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "BJAK Applied Machine Learning Engineer Ashby 56f522c4-b903-45ea-bb08-952b74641b56: indexed employer job description remains visible, but exact current application URL returned HTTP 404 on 2026-11-14. Existing BJAK Applied AI CHECK #923 is different requisition. Missing: usable live employer application route for this exact Ashby UUID. Preserve Pending.",
+        "status": "RETRY"
       },
       "seq": 55,
       "source": "freehirefetch:official-ats:SG",
@@ -842,7 +842,7 @@
       "ats_key": "ntu|workday|/job/NTU-Main-Campus-Singapore/Research-Engineer---Research-Associate--Systems-Integration-and-Prototyping-_R00026011",
       "company": "NTU Singapore",
       "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "checked_at": "2026-11-14T10:35:13.046169Z",
         "error": "HTTPError: HTTP Error 403: Forbidden",
         "stage": "FETCH_OR_IDENTITY_RETRY"
       },
@@ -869,7 +869,7 @@
       "ats_key": "ncs3|smartrecruiters|6000000001497996",
       "company": "NCS",
       "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "checked_at": "2026-11-14T10:35:13.046169Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -910,7 +910,7 @@
       "ats_key": "freehire|ai-engineer-persol-outsourcing-gydnm6qy",
       "company": "PERSOL Outsourcing",
       "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "checked_at": "2026-11-14T10:35:13.046169Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -943,7 +943,7 @@
       "ats_key": "freehire|ai-engineer-ai-digital-solutions-forward-deployed-engineer-recruit-express-ales2tem",
       "company": "Recruit Express",
       "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "checked_at": "2026-11-14T10:35:13.046169Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -976,7 +976,7 @@
       "ats_key": "freehire|ai-engineer-ai-products-nanyang-technological-university-h7432t6u",
       "company": "Nanyang Technological University",
       "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "checked_at": "2026-11-14T10:35:13.046169Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1016,7 +1016,7 @@
       "ats_key": "freehire|ai-engineer-surbanajurong-bbdrnprk",
       "company": "surbanajurong",
       "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "checked_at": "2026-11-14T10:35:13.046169Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1056,7 +1056,7 @@
       "ats_key": "freehire|ai-engineer-svm-solutions-and-technologies-pte-ltd-z3if4jv2",
       "company": "SVM SOLUTIONS AND TECHNOLOGIES PTE. LTD.",
       "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "checked_at": "2026-11-14T10:35:13.046169Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1135,7 +1135,7 @@
       "ats_key": "freehire|llm-evaluation-product-operations-specialist-tiktok-tiktok-uodwtppo",
       "company": "TikTok",
       "consumer_review": {
-        "checked_at": "2026-11-11T22:00:03.057951Z",
+        "checked_at": "2026-11-14T10:35:13.046169Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1550,11 +1550,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T17:57:04+08:00",
-        "missing_evidence": "Exa Research ML exact Ashby f6bd612e-a4ee-4c75-a205-5cd70901661f: indexed employer full JD advertises Singapore SGD90k-300k and visa sponsorship, but live employer application URL returned HTTP 404 on 2026-11-14; prior Exa application confirmation dated 2026-08-27 lacks role ID. Missing: currently accessible exact requisition/application route and mapping of prior Exa receipt to this role. Preserve Pending."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Exa Research ML exact Ashby f6bd612e-a4ee-4c75-a205-5cd70901661f: indexed employer full JD advertises Singapore SGD90k-300k and visa sponsorship, but live employer application URL returned HTTP 404 on 2026-11-14; prior Exa application confirmation dated 2026-08-27 lacks role ID. Missing: currently accessible exact requisition/application route and mapping of prior Exa receipt to this role. Preserve Pending.",
+        "status": "RETRY"
       },
       "seq": 137,
       "source": "aidevboard:public-api:SG",
@@ -1667,6 +1667,11 @@
       },
       "ats_key": "freehire|machine-learning-engineer-llm-vlm-monee-monee-uzp7fzvm",
       "company": "Monee",
+      "consumer_review": {
+        "checked_at": "2026-11-14T10:35:13.046169Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<div><div><p>About Monee</p></div></div>\n<div><div><p>Monee is a leading digital payments and financial services provider in Southeast Asia, with a growing presence in Latin America. Its mission is to better the lives of individuals and bus",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T23:30:21.406474Z",
