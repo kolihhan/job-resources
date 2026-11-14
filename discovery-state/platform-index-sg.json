@@ -377,17 +377,17 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T11:51:21.094147Z",
       "key": "sg:15841de26cbbcb44ef8b",
-      "last_error": "Exact NUS School of Computing requisition 34363 employer-authored full JD and current direct application route; aggregator title alone does not prove eligibility or open status.",
+      "last_error": "NUS employer-owned active careers requisition 34363 full JD and direct non-MCF application route; JobStreet 94531188 and third-party full text are not employer verification. Both Gmail accounts checked by NUS/School of Computing/Horizons; no exact 34363 receipt found, but a different NUS RA LLM receipt exists.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Kent Ridge, Central Region",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T08:07:42Z",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact NUS School of Computing requisition 34363 employer-authored full JD and current direct application route; aggregator title alone does not prove eligibility or open status.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-14T13:57:19+08:00",
+        "missing_evidence": "NUS employer-owned active careers requisition 34363 full JD and direct non-MCF application route; JobStreet 94531188 and third-party full text are not employer verification. Both Gmail accounts checked by NUS/School of Computing/Horizons; no exact 34363 receipt found, but a different NUS RA LLM receipt exists."
       },
       "seq": 84,
       "source": "freehire:public-api:SG",
