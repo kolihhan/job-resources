@@ -6,52 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1137,
-      "company": "Energy Market Authority",
-      "employment_type": null,
-      "external_id": "6290:95316938",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "West Region",
-      "market": "SG",
-      "posted_at": "2026-10-16T07:40:40Z",
-      "public_slug": "ai-solutions-engineer-energy-market-authority-gucoxzjd",
-      "role_key": "freehire:ai-solutions-engineer-energy-market-authority-gucoxzjd",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95316938?utm_source=freehire.me",
-      "title": "AI Solutions Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1138,
-      "company": "F5 Networks",
-      "employment_type": null,
-      "external_id": "6296:95323569",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-16T06:33:58Z",
-      "public_slug": "forward-deployed-engineer-ai-security-f5-networks-kpldvo6l",
-      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-networks-kpldvo6l",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95323569?utm_source=freehire.me",
-      "title": "Forward Deployed Engineer-AI Security"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1139,
       "company": "Io Tech Solutions Limited",
       "employment_type": null,
@@ -67,27 +21,6 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/95309585?utm_source=freehire.me",
       "title": "Founding AI Engineer - Full Stack Background"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1141,
-      "company": "TECHCOM SOLUTIONS (SINGAPORE) PTE. LTD.",
-      "employment_type": null,
-      "external_id": "python developer:93509017",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T21:18:37Z",
-      "public_slug": "full-stack-python-developer-ai-driven-security-techcom-solutions-singapore-pte-ltd-sm4gsl2j",
-      "role_key": "freehire:full-stack-python-developer-ai-driven-security-techcom-solutions-singapore-pte-ltd-sm4gsl2j",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93509017__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Python Developer – AI-Driven Security"
     },
     {
       "ai_score": 4,
@@ -181,14 +114,79 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490620__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Big Data Engineer: Scalable ML & Recommendation Infra"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1149,
+      "company": "UIC ASIAN COMPUTER SERVICES PTE LTD",
+      "employment_type": null,
+      "external_id": "full stack developer:93491629",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T11:19:54Z",
+      "public_slug": "enterprise-ai-full-stack-engineer-uic-asian-computer-services-pte-ltd-xfc22tfy",
+      "role_key": "freehire:enterprise-ai-full-stack-engineer-uic-asian-computer-services-pte-ltd-xfc22tfy",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93491629__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Enterprise AI Full-Stack Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1150,
+      "company": "Instavar",
+      "employment_type": null,
+      "external_id": "full stack developer:93493420",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T11:19:50Z",
+      "public_slug": "full-stack-engineer-for-ai-video-platform-instavar-766xlt2w",
+      "role_key": "freehire:full-stack-engineer-for-ai-video-platform-instavar-766xlt2w",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93493420__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Full-Stack Engineer for AI Video Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1151,
+      "company": "ScienTec Consulting Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "devops engineer:93490967",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-15T11:19:44Z",
+      "public_slug": "junior-ai-software-engineer-full-stack-devops-hybrid-scientec-consulting-pte-ltd-heq4kuhk",
+      "role_key": "freehire:junior-ai-software-engineer-full-stack-devops-hybrid-scientec-consulting-pte-ltd-heq4kuhk",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490967__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Junior AI Software Engineer - Full-Stack & DevOps (Hybrid)"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1147,
-  "min_candidate_seq": 1137,
+  "max_candidate_seq": 1151,
+  "min_candidate_seq": 1139,
   "shard_index": 4,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

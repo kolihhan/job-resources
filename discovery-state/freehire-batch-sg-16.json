@@ -1,90 +1,6 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1338,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "data engineer:90892507",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T23:58:56Z",
-      "public_slug": "e-commerce-data-mining-ml-engineer-tiktok-63he2gxj",
-      "role_key": "freehire:e-commerce-data-mining-ml-engineer-tiktok-63he2gxj",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90892507__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "E-commerce Data Mining ML Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1339,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "data engineer:90447805",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T16:02:44Z",
-      "public_slug": "ml-engineer-e-commerce-insights-data-pipelines-tiktok-memrtied",
-      "role_key": "freehire:ml-engineer-e-commerce-insights-data-pipelines-tiktok-memrtied",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90447805__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "ML Engineer - E-commerce Insights & Data Pipelines"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1340,
-      "company": "TikTok",
-      "employment_type": null,
-      "external_id": "data engineer:90395645",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T16:02:43Z",
-      "public_slug": "ai-native-data-platform-engineer-graduate-2027-start-tiktok-yhaaaczo",
-      "role_key": "freehire:ai-native-data-platform-engineer-graduate-2027-start-tiktok-yhaaaczo",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90395645__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Native Data Platform Engineer — Graduate (2027 Start)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1341,
-      "company": "TIKTOK PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:90891709",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T16:02:42Z",
-      "public_slug": "full-stack-ai-data-platform-engineer-tiktok-pte-ltd-zyyoztf7",
-      "role_key": "freehire:full-stack-ai-data-platform-engineer-tiktok-pte-ltd-zyyoztf7",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90891709__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack AI Data Platform Engineer"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -189,14 +105,85 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90857339__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Backend Engineer - AI Coding for Real-Time Streaming"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1348,
+      "company": "Omio",
+      "employment_type": null,
+      "external_id": "omiocorp:4933245101",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-14T07:06:42Z",
+      "public_slug": "senior-ai-engineer-omio-4isfelvn",
+      "role_key": "freehire:senior-ai-engineer-omio-4isfelvn",
+      "source": "greenhouse",
+      "source_url": "https://job-boards.eu.greenhouse.io/omiocorp/jobs/4933245101?gh_jid=4933245101&utm_source=freehire.me",
+      "title": "Senior AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1349,
+      "company": "School of Computing",
+      "employment_type": null,
+      "external_id": "backend developer:91315555",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-12T20:55:21Z",
+      "public_slug": "ai-powered-research-platform-backend-engineer-school-of-computing-o3x42kbl",
+      "role_key": "freehire:ai-powered-research-platform-backend-engineer-school-of-computing-o3x42kbl",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91315555__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered Research Platform Backend Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1351,
+      "company": "Singtel Group",
+      "employment_type": null,
+      "external_id": "data engineer:91303596",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-12T09:55:08Z",
+      "public_slug": "senior-ai-data-engineer-aida-singtel-group-hyocxxka",
+      "role_key": "freehire:senior-ai-data-engineer-aida-singtel-group-hyocxxka",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91303596__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior AI Data Engineer #AIDA"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1346,
-  "min_candidate_seq": 1338,
+  "max_candidate_seq": 1351,
+  "min_candidate_seq": 1342,
   "shard_index": 16,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

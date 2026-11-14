@@ -1,71 +1,6 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1149,
-      "company": "UIC ASIAN COMPUTER SERVICES PTE LTD",
-      "employment_type": null,
-      "external_id": "full stack developer:93491629",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T11:19:54Z",
-      "public_slug": "enterprise-ai-full-stack-engineer-uic-asian-computer-services-pte-ltd-xfc22tfy",
-      "role_key": "freehire:enterprise-ai-full-stack-engineer-uic-asian-computer-services-pte-ltd-xfc22tfy",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93491629__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Enterprise AI Full-Stack Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1150,
-      "company": "Instavar",
-      "employment_type": null,
-      "external_id": "full stack developer:93493420",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T11:19:50Z",
-      "public_slug": "full-stack-engineer-for-ai-video-platform-instavar-766xlt2w",
-      "role_key": "freehire:full-stack-engineer-for-ai-video-platform-instavar-766xlt2w",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93493420__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer for AI Video Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1151,
-      "company": "ScienTec Consulting Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "devops engineer:93490967",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-15T11:19:44Z",
-      "public_slug": "junior-ai-software-engineer-full-stack-devops-hybrid-scientec-consulting-pte-ltd-heq4kuhk",
-      "role_key": "freehire:junior-ai-software-engineer-full-stack-devops-hybrid-scientec-consulting-pte-ltd-heq4kuhk",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93490967__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Junior AI Software Engineer - Full-Stack & DevOps (Hybrid)"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -176,14 +111,107 @@
       "source": "breezy",
       "source_url": "https://univers.breezy.hr/p/9e9d41dbbb1901-senior-full-stack-engineer-ai?utm_source=freehire.me",
       "title": "Senior Full Stack Engineer (AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1160,
+      "company": "yokogawa",
+      "employment_type": null,
+      "external_id": "yokogawa.wd3.myworkdayjobs.com/yokogawa-career-site:/job/Bedok/AI-Solution-Engineer_R-13330-1",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Bedok",
+      "market": "SG",
+      "posted_at": "2026-10-15T00:00:00Z",
+      "public_slug": "ai-solution-engineer-yokogawa-oc2ifnex",
+      "role_key": "freehire:ai-solution-engineer-yokogawa-oc2ifnex",
+      "source": "workday",
+      "source_url": "https://wd3.myworkdaysite.com/recruiting/yokogawa/yokogawa-career-site/job/Bedok/AI-Solution-Engineer_R-13330-1?utm_source=freehire.me",
+      "title": "AI Solution Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1170,
+      "company": "Capco (The Capital Market Company Group)",
+      "employment_type": null,
+      "external_id": "6283:95272483",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-14T20:22:17Z",
+      "public_slug": "senior-ai-product-analyst-banknew-capco-the-capital-market-company-group-n7uoywi5",
+      "role_key": "freehire:senior-ai-product-analyst-banknew-capco-the-capital-market-company-group-n7uoywi5",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95272483?utm_source=freehire.me",
+      "title": "Senior AI Product Analyst | BankNew"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1172,
+      "company": "Nigel Frank International",
+      "employment_type": null,
+      "external_id": "6290:95263812",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-14T07:17:44Z",
+      "public_slug": "senior-ai-engineer-nigel-frank-international-bpy6klrk",
+      "role_key": "freehire:senior-ai-engineer-nigel-frank-international-bpy6klrk",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95263812?utm_source=freehire.me",
+      "title": "Senior AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1173,
+      "company": "UIC Asian Computer Services Pte Ltd",
+      "employment_type": null,
+      "external_id": "6290:95259914",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-14T02:40:24Z",
+      "public_slug": "full-stack-ai-engineer-uic-asian-computer-services-pte-ltd-6mtuznrx",
+      "role_key": "freehire:full-stack-ai-engineer-uic-asian-computer-services-pte-ltd-6mtuznrx",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95259914?utm_source=freehire.me",
+      "title": "Full Stack AI Engineer"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1157,
-  "min_candidate_seq": 1149,
+  "max_candidate_seq": 1173,
+  "min_candidate_seq": 1152,
   "shard_index": 5,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

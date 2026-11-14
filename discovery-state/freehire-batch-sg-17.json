@@ -1,77 +1,6 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1348,
-      "company": "Omio",
-      "employment_type": null,
-      "external_id": "omiocorp:4933245101",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-14T07:06:42Z",
-      "public_slug": "senior-ai-engineer-omio-4isfelvn",
-      "role_key": "freehire:senior-ai-engineer-omio-4isfelvn",
-      "source": "greenhouse",
-      "source_url": "https://job-boards.eu.greenhouse.io/omiocorp/jobs/4933245101?gh_jid=4933245101&utm_source=freehire.me",
-      "title": "Senior AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1349,
-      "company": "School of Computing",
-      "employment_type": null,
-      "external_id": "backend developer:91315555",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-12T20:55:21Z",
-      "public_slug": "ai-powered-research-platform-backend-engineer-school-of-computing-o3x42kbl",
-      "role_key": "freehire:ai-powered-research-platform-backend-engineer-school-of-computing-o3x42kbl",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91315555__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered Research Platform Backend Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1351,
-      "company": "Singtel Group",
-      "employment_type": null,
-      "external_id": "data engineer:91303596",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-12T09:55:08Z",
-      "public_slug": "senior-ai-data-engineer-aida-singtel-group-hyocxxka",
-      "role_key": "freehire:senior-ai-data-engineer-aida-singtel-group-hyocxxka",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91303596__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior AI Data Engineer #AIDA"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -116,30 +45,6 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91301022__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Golang Backend Engineer for AI & Robotics Cloud"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1354,
-      "company": "GIC Private Limited",
-      "employment_type": null,
-      "external_id": "6290:94589270",
-      "flags": [
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-12T02:44:33Z",
-      "public_slug": "vp-ai-engineer-ai-alpha-group-gic-private-limited-ddxzhhdb",
-      "role_key": "freehire:vp-ai-engineer-ai-alpha-group-gic-private-limited-ddxzhhdb",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/94589270?utm_source=freehire.me",
-      "title": "VP, AI Engineer, AI Alpha Group"
     },
     {
       "ai_score": 4,
@@ -206,14 +111,81 @@
       "source": "eightfold",
       "source_url": "https://careers.micron.com/careers/job/44435900?utm_source=freehire.me",
       "title": "AI Engineer, SMAI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1362,
+      "company": "ByteDance",
+      "employment_type": null,
+      "external_id": "jobs.bytedance.com:7683363761671571765",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-09T02:56:09Z",
+      "public_slug": "backend-engineer-machine-learning-storage-infra-singapore-bytedance-sasxs2pr",
+      "role_key": "freehire:backend-engineer-machine-learning-storage-infra-singapore-bytedance-sasxs2pr",
+      "source": "feishujobs",
+      "source_url": "https://jobs.bytedance.com/experienced/position/7683363761671571765/detail?utm_source=freehire.me",
+      "title": "Backend Engineer - Machine Learning Storage Infra (Singapore)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1363,
+      "company": "Ntu",
+      "employment_type": null,
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/Research-Fellow--Atomic-catalysts-and-Machine-Learning-_R00025731",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-09T00:00:00Z",
+      "public_slug": "research-fellow-atomic-catalysts-and-machine-learning-ntu-pp7ynpd5",
+      "role_key": "freehire:research-fellow-atomic-catalysts-and-machine-learning-ntu-pp7ynpd5",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/Research-Fellow--Atomic-catalysts-and-Machine-Learning-_R00025731?utm_source=freehire.me",
+      "title": "Research Fellow (Atomic catalysts and Machine Learning)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1365,
+      "company": "HTK",
+      "employment_type": null,
+      "external_id": "data engineer:91131564",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-09-08T01:13:40Z",
+      "public_slug": "senior-data-engineer-ai-ready-data-platforms-htk-agncmc4d",
+      "role_key": "freehire:senior-data-engineer-ai-ready-data-platforms-htk-agncmc4d",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91131564__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data Engineer - AI-Ready Data Platforms"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1358,
-  "min_candidate_seq": 1348,
+  "max_candidate_seq": 1365,
+  "min_candidate_seq": 1352,
   "shard_index": 17,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

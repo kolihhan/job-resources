@@ -6,74 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1373,
-      "company": "Micron Technology",
-      "employment_type": null,
-      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/Fab-10W-Singapore/AI-Engineer_JR109599",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Fab 10W, Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-02T00:00:00Z",
-      "public_slug": "ai-engineer-micron-technology-ddasfsxf",
-      "role_key": "freehire:ai-engineer-micron-technology-ddasfsxf",
-      "source": "workday",
-      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/AI-Engineer_JR109599?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1374,
-      "company": "Cisco",
-      "employment_type": null,
-      "external_id": "careers.cisco.com:CISCISGLOBAL2022551EXTERNALENGLOBAL",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Central Singapore",
-      "market": "SG",
-      "posted_at": "2026-09-02T00:00:00Z",
-      "public_slug": "solutions-engineer-artificial-intelligence-ai-practitioner-cisco-wgkagftp",
-      "role_key": "freehire:solutions-engineer-artificial-intelligence-ai-practitioner-cisco-wgkagftp",
-      "source": "phenom",
-      "source_url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2022551EXTERNALENGLOBAL?utm_source=freehire.me",
-      "title": "Solutions Engineer - Artificial Intelligence (AI) Practitioner"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1377,
-      "company": "ncs3",
-      "employment_type": null,
-      "external_id": "ncs3:6000000001365962",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-09-01T04:39:30Z",
-      "public_slug": "senior-ai-product-engineer-ncs3-4xjv6j7m",
-      "role_key": "freehire:senior-ai-product-engineer-ncs3-4xjv6j7m",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001365962-senior-ai-product-engineer?utm_source=freehire.me",
-      "title": "Senior AI Product Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1379,
       "company": "Cyber Security Agency of Singapore (CSA)",
       "employment_type": null,
@@ -176,14 +108,83 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90597808__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Backend Engineer, AI Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1385,
+      "company": "DSO National Laboratories",
+      "employment_type": null,
+      "external_id": "data engineer:90515665",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-29T10:51:24Z",
+      "public_slug": "software-engineer-ai-data-high-performance-clusters-dso-national-laboratories-mjzpi2qu",
+      "role_key": "freehire:software-engineer-ai-data-high-performance-clusters-dso-national-laboratories-mjzpi2qu",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90515665__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Software Engineer: AI, Data, & High-Performance Clusters"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1386,
+      "company": "Tan Tock Seng Hospital",
+      "employment_type": null,
+      "external_id": "data engineer:90516717",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-28T20:50:03Z",
+      "public_slug": "senior-data-ai-engineer-healthcare-cloud-ai-solutions-tan-tock-seng-hospital-lb6n24cm",
+      "role_key": "freehire:senior-data-ai-engineer-healthcare-cloud-ai-solutions-tan-tock-seng-hospital-lb6n24cm",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90516717__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Data & AI Engineer - Healthcare Cloud AI Solutions"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1388,
+      "company": "Lavu Tech Solutions Sdn Bhd",
+      "employment_type": null,
+      "external_id": "data engineer:90517081",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-28T20:49:55Z",
+      "public_slug": "senior-snowflake-data-engineer-aws-ai-driven-pipelines-lavu-tech-solutions-sdn-bhd-v7obl2lh",
+      "role_key": "freehire:senior-snowflake-data-engineer-aws-ai-driven-pipelines-lavu-tech-solutions-sdn-bhd-v7obl2lh",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90517081__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Snowflake Data Engineer - AWS, AI-Driven Pipelines"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1384,
-  "min_candidate_seq": 1373,
+  "max_candidate_seq": 1388,
+  "min_candidate_seq": 1379,
   "shard_index": 19,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

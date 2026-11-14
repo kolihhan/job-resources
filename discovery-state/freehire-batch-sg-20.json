@@ -6,75 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1385,
-      "company": "DSO National Laboratories",
-      "employment_type": null,
-      "external_id": "data engineer:90515665",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-29T10:51:24Z",
-      "public_slug": "software-engineer-ai-data-high-performance-clusters-dso-national-laboratories-mjzpi2qu",
-      "role_key": "freehire:software-engineer-ai-data-high-performance-clusters-dso-national-laboratories-mjzpi2qu",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90515665__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Software Engineer: AI, Data, & High-Performance Clusters"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1386,
-      "company": "Tan Tock Seng Hospital",
-      "employment_type": null,
-      "external_id": "data engineer:90516717",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-28T20:50:03Z",
-      "public_slug": "senior-data-ai-engineer-healthcare-cloud-ai-solutions-tan-tock-seng-hospital-lb6n24cm",
-      "role_key": "freehire:senior-data-ai-engineer-healthcare-cloud-ai-solutions-tan-tock-seng-hospital-lb6n24cm",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90516717__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Data & AI Engineer - Healthcare Cloud AI Solutions"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1388,
-      "company": "Lavu Tech Solutions Sdn Bhd",
-      "employment_type": null,
-      "external_id": "data engineer:90517081",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-28T20:49:55Z",
-      "public_slug": "senior-snowflake-data-engineer-aws-ai-driven-pipelines-lavu-tech-solutions-sdn-bhd-v7obl2lh",
-      "role_key": "freehire:senior-snowflake-data-engineer-aws-ai-driven-pipelines-lavu-tech-solutions-sdn-bhd-v7obl2lh",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__90517081__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Snowflake Data Engineer - AWS, AI-Driven Pipelines"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1389,
       "company": "Avensys Consulting",
       "employment_type": null,
@@ -190,14 +121,79 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/94358726?utm_source=freehire.me",
       "title": "Solutions Engineer - Artificial Intelligence (AI) Practitioner"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1399,
+      "company": "ocbc",
+      "employment_type": "full_time",
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/AVP--Group-Payment-Operations---AI--data-analytics--digitalisation_JR00010505",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "OCBC Singapore",
+      "market": "SG",
+      "posted_at": "2026-08-24T00:00:00Z",
+      "public_slug": "avp-group-payment-operations-ai-data-analytics-digitalisation-ocbc-e4dnogwq",
+      "role_key": "freehire:avp-group-payment-operations-ai-data-analytics-digitalisation-ocbc-e4dnogwq",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/AVP--Group-Payment-Operations---AI--data-analytics--digitalisation_JR00010505?utm_source=freehire.me",
+      "title": "AVP, Group Payment Operations:  AI, data analytics, digitalisation"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1404,
+      "company": "ncs3",
+      "employment_type": null,
+      "external_id": "ncs3:6000000001337877",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-08-21T02:26:41Z",
+      "public_slug": "eg-cloud-engineer-architect-ai-infrastructure-ncs3-uaddd2tn",
+      "role_key": "freehire:eg-cloud-engineer-architect-ai-infrastructure-ncs3-uaddd2tn",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001337877--eg-cloud-engineer-architect-ai-infrastructure?utm_source=freehire.me",
+      "title": "#EG Cloud Engineer / Architect – AI Infrastructure"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1406,
+      "company": "Nanyang Technological University",
+      "employment_type": null,
+      "external_id": "6290:94109328",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "North Region",
+      "market": "SG",
+      "posted_at": "2026-08-20T10:25:20Z",
+      "public_slug": "ai-engineer-aieh-nanyang-technological-university-opv5j32b",
+      "role_key": "freehire:ai-engineer-aieh-nanyang-technological-university-opv5j32b",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94109328?utm_source=freehire.me",
+      "title": "AI Engineer (AIEH)"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1398,
-  "min_candidate_seq": 1385,
+  "max_candidate_seq": 1406,
+  "min_candidate_seq": 1389,
   "shard_index": 20,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -1,114 +1,6 @@
 {
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1217,
-      "company": "ncs3",
-      "employment_type": null,
-      "external_id": "ncs3:6000000001474382",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-09T01:44:40Z",
-      "public_slug": "eg-full-stack-developer-ai-enabled-ncs3-fgwu4psy",
-      "role_key": "freehire:eg-full-stack-developer-ai-enabled-ncs3-fgwu4psy",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001474382--eg-full-stack-developer-ai-enabled-?utm_source=freehire.me",
-      "title": "#EG Full Stack Developer (AI-Enabled)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1218,
-      "company": "NCS Group",
-      "employment_type": null,
-      "external_id": "6287:95177482",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-09T01:44:40Z",
-      "public_slug": "eg-full-stack-developer-ai-enabled-ncs-group-sk6y2a5w",
-      "role_key": "freehire:eg-full-stack-developer-ai-enabled-ncs-group-sk6y2a5w",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95177482?utm_source=freehire.me",
-      "title": "#EG Full Stack Developer (AI-Enabled)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1220,
-      "company": "Airwallex",
-      "employment_type": null,
-      "external_id": "airwallex:89fccb81-c8cc-4769-be0c-9ed078e1a03b",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "SG - Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-08T06:45:55Z",
-      "public_slug": "senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
-      "role_key": "freehire:senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
-      "source": "ashby",
-      "source_url": "https://jobs.ashbyhq.com/airwallex/89fccb81-c8cc-4769-be0c-9ed078e1a03b?utm_source=freehire.me",
-      "title": "Senior Software Engineer, Machine Learning Platform"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1225,
-      "company": "ncs3",
-      "employment_type": null,
-      "external_id": "ncs3:6000000001469268",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, sg",
-      "market": "SG",
-      "posted_at": "2026-10-07T06:50:39Z",
-      "public_slug": "eg-ai-product-engineer-ncs3-rz2achs2",
-      "role_key": "freehire:eg-ai-product-engineer-ncs3-rz2achs2",
-      "source": "smartrecruiters",
-      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001469268--eg-ai-product-engineer?utm_source=freehire.me",
-      "title": "#EG AI Product Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1226,
-      "company": "NCS Group",
-      "employment_type": null,
-      "external_id": "6290:95119441",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-07T06:50:39Z",
-      "public_slug": "eg-ai-product-engineer-ncs-group-htbjlbj3",
-      "role_key": "freehire:eg-ai-product-engineer-ncs-group-htbjlbj3",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95119441?utm_source=freehire.me",
-      "title": "#EG AI Product Engineer"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -200,14 +92,103 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92763558__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Senior Backend Engineer, AI-Driven Product – Singapore"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1241,
+      "company": "Micron",
+      "employment_type": null,
+      "external_id": "careers.micron.com/micron.com:44316899",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-05T00:00:00Z",
+      "public_slug": "ai-engineer-micron-muyr3lzo",
+      "role_key": "freehire:ai-engineer-micron-muyr3lzo",
+      "source": "eightfold",
+      "source_url": "https://careers.micron.com/careers/job/44316899?utm_source=freehire.me",
+      "title": "AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1245,
+      "company": "OCBC Group",
+      "employment_type": null,
+      "external_id": "data engineer:92714974",
+      "flags": [
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-04T09:56:47Z",
+      "public_slug": "vp-data-engineer-cloud-native-ai-platform-leader-ocbc-bank-ojzwsi4n",
+      "role_key": "freehire:vp-data-engineer-cloud-native-ai-platform-leader-ocbc-bank-ojzwsi4n",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92714974__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "VP Data Engineer: Cloud‑Native AI Platform Leader"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1246,
+      "company": "OCBC Group",
+      "employment_type": null,
+      "external_id": "data engineer:92710706",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-04T09:56:46Z",
+      "public_slug": "avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-i2wgfbd7",
+      "role_key": "freehire:avp-data-engineer-enterprise-data-ai-platforms-ocbc-bank-i2wgfbd7",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__92710706__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AVP Data Engineer - Enterprise Data & AI Platforms"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1263,
+      "company": "Keysight Technologies Singapore (Sales) Pte. Ltd....-",
+      "employment_type": null,
+      "external_id": "6290:95035736",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-02T20:44:35Z",
+      "public_slug": "senior-r-d-ai-software-development-engineer-keysight-technologies-singapore-sales-pte-ltd-mzqnbqam",
+      "role_key": "freehire:senior-r-d-ai-software-development-engineer-keysight-technologies-singapore-sales-pte-ltd-mzqnbqam",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95035736?utm_source=freehire.me",
+      "title": "Senior R&D AI Software Development Engineer"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1240,
-  "min_candidate_seq": 1217,
+  "max_candidate_seq": 1263,
+  "min_candidate_seq": 1236,
   "shard_index": 10,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

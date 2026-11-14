@@ -1,104 +1,6 @@
 {
-  "candidate_count": 7,
+  "candidate_count": 9,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1445,
-      "company": "Land Transport Authority",
-      "employment_type": null,
-      "external_id": "6287:93695733",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-31T11:00:00Z",
-      "public_slug": "lta-tro-senior-executive-ai-software-developer-transport-ai-programme-land-transport-authority-egfhi4vz",
-      "role_key": "freehire:lta-tro-senior-executive-ai-software-developer-transport-ai-programme-land-transport-authority-egfhi4vz",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93695733?utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ AI SOFTWARE DEVELOPER - TRANSPORT AI PROGRAMME"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1446,
-      "company": "Land Transport Authority",
-      "employment_type": null,
-      "external_id": "6293:93695735",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-31T11:00:00Z",
-      "public_slug": "lta-tro-senior-executive-infrastructure-engineer-transport-ai-programme-land-transport-authority-tpvzul54",
-      "role_key": "freehire:lta-tro-senior-executive-infrastructure-engineer-transport-ai-programme-land-transport-authority-tpvzul54",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/93695735?utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ INFRASTRUCTURE ENGINEER - TRANSPORT AI PROGRAMME"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1447,
-      "company": "sggovterp",
-      "employment_type": null,
-      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--AI-SOFTWARE-DEVELOPER---TRANSPORT-AI-PROGRAMME_JR-10000053932",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-31T00:00:00Z",
-      "public_slug": "lta-tro-senior-executive-ai-software-developer-transport-ai-programme-sggovterp-vn7klegc",
-      "role_key": "freehire:lta-tro-senior-executive-ai-software-developer-transport-ai-programme-sggovterp-vn7klegc",
-      "source": "workday",
-      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--AI-SOFTWARE-DEVELOPER---TRANSPORT-AI-PROGRAMME_JR-10000053932?utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ AI SOFTWARE DEVELOPER - TRANSPORT AI PROGRAMME"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1448,
-      "company": "sggovterp",
-      "employment_type": null,
-      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--DATA-ENGINEER---TRANSPORT-AI-PROGRAMME_JR-10000053936",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint",
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-07-31T00:00:00Z",
-      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-sggovterp-au3axq5k",
-      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-sggovterp-au3axq5k",
-      "source": "workday",
-      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--DATA-ENGINEER---TRANSPORT-AI-PROGRAMME_JR-10000053936?utm_source=freehire.me",
-      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -166,14 +68,146 @@
       "source": "workable",
       "source_url": "https://apply.workable.com/j/784C8D89A1?utm_source=freehire.me",
       "title": "AI Engineer (GovText)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1452,
+      "company": "Assurity Trusted Solutions",
+      "employment_type": null,
+      "external_id": "assurity-trusted-solutions:AC5C7A8536",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-30T00:00:00Z",
+      "public_slug": "ai-engineer-transcribe-assurity-trusted-solutions-jctfyqbn",
+      "role_key": "freehire:ai-engineer-transcribe-assurity-trusted-solutions-jctfyqbn",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/AC5C7A8536?utm_source=freehire.me",
+      "title": "AI Engineer (Transcribe)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1453,
+      "company": "bitdeer",
+      "employment_type": null,
+      "external_id": "bitdeer:f21b88f129e5",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-11-04T07:46:26Z",
+      "public_slug": "senior-ai-storage-infrastructure-engineer-bitdeer-zrsygazy",
+      "role_key": "freehire:senior-ai-storage-infrastructure-engineer-bitdeer-zrsygazy",
+      "source": "breezy",
+      "source_url": "https://bitdeer.breezy.hr/p/f21b88f129e5-senior-ai-storage-infrastructure-engineer?utm_source=freehire.me",
+      "title": "Senior AI Storage Infrastructure Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1454,
+      "company": "Ntu",
+      "employment_type": null,
+      "external_id": "ntu.wd3.myworkdayjobs.com/Careers:/job/NTU-Main-Campus-Singapore/AI-Engineer--Dev-Ops_R00024968",
+      "flags": [
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "NTU Main Campus, Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-28T00:00:00Z",
+      "public_slug": "ai-engineer-dev-ops-ntu-rmd6v6it",
+      "role_key": "freehire:ai-engineer-dev-ops-ntu-rmd6v6it",
+      "source": "workday",
+      "source_url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--Dev-Ops_R00024968?utm_source=freehire.me",
+      "title": "AI Engineer, Dev Ops"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1455,
+      "company": "Fuku",
+      "employment_type": null,
+      "external_id": "fuku:B2F01BE247",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-28T00:00:00Z",
+      "public_slug": "ai-platform-engineer-fuku-bspqftrc",
+      "role_key": "freehire:ai-platform-engineer-fuku-bspqftrc",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/B2F01BE247?utm_source=freehire.me",
+      "title": "AI Platform Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1456,
+      "company": "Avomind",
+      "employment_type": null,
+      "external_id": "avomind:56716318B7",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-27T00:00:00Z",
+      "public_slug": "full-stack-engineer-ai-systems-avomind-ztizh6ui",
+      "role_key": "freehire:full-stack-engineer-ai-systems-avomind-ztizh6ui",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/56716318B7?utm_source=freehire.me",
+      "title": "Full Stack Engineer (AI Systems)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1457,
+      "company": "Avomind",
+      "employment_type": null,
+      "external_id": "avomind:8D47BBA121",
+      "flags": [],
+      "known_match_basis": "company_title",
+      "known_status": "suspected_known",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-27T00:00:00Z",
+      "public_slug": "ai-backend-engineer-agent-systems-avomind-exm7h6q6",
+      "role_key": "freehire:ai-backend-engineer-agent-systems-avomind-exm7h6q6",
+      "source": "workable",
+      "source_url": "https://apply.workable.com/j/8D47BBA121?utm_source=freehire.me",
+      "title": "AI Backend Engineer (Agent Systems)"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1451,
-  "min_candidate_seq": 1445,
+  "max_candidate_seq": 1457,
+  "min_candidate_seq": 1449,
   "shard_index": 24,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

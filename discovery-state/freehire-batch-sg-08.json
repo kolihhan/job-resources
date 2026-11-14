@@ -6,98 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1196,
-      "company": "ST ENGINEERING ADVANCED NETWORKS & SENSORS PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93113951",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:56Z",
-      "public_slug": "senior-full-stack-engineer-secure-web-ai-edge-st-engineering-advanced-networks-sensors-pte-ltd-zjzy4w66",
-      "role_key": "freehire:senior-full-stack-engineer-secure-web-ai-edge-st-engineering-advanced-networks-sensors-pte-ltd-zjzy4w66",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113951__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer - Secure Web & AI Edge"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1197,
-      "company": "MAS Monetary Authority of Singapore",
-      "employment_type": null,
-      "external_id": "full stack developer:93115525",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "ai-powered-full-stack-engineer-cloud-native-mas-monetary-authority-of-singapore-yu57zy6s",
-      "role_key": "freehire:ai-powered-full-stack-engineer-cloud-native-mas-monetary-authority-of-singapore-yu57zy6s",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115525__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered Full-Stack Engineer (Cloud-Native)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1198,
-      "company": "CAPGEMINI SINGAPORE PTE. LTD.",
-      "employment_type": null,
-      "external_id": "full stack developer:93111503",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "full-stack-engineer-data-ai-capgemini-singapore-pte-ltd-7y3rbo32",
-      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-singapore-pte-ltd-7y3rbo32",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93111503__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full Stack Engineer (Data & AI)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1199,
-      "company": "GVT Government Technology Agency",
-      "employment_type": null,
-      "external_id": "full stack developer:93112180",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:55Z",
-      "public_slug": "senior-full-stack-engineer-gis-ai-innovator-gvt-government-technology-agency-yoyhh766",
-      "role_key": "freehire:senior-full-stack-engineer-gis-ai-innovator-gvt-government-technology-agency-yoyhh766",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93112180__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Full-Stack Engineer: GIS & AI Innovator"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1200,
       "company": "Helius Technologies",
       "employment_type": null,
@@ -180,14 +88,106 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93115029__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "AI Backend Engineer: Python, Azure, REST APIs"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1205,
+      "company": "ScienTec Consulting Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "backend developer:93113359",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-10T11:18:41Z",
+      "public_slug": "backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
+      "role_key": "freehire:backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113359__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Backend Engineer - AI-Powered APIs & Data Pipelines (Hybrid)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1206,
+      "company": "Capgemini",
+      "employment_type": null,
+      "external_id": "careers.capgemini.com:1445530833",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "full-stack-engineer-data-ai-capgemini-euwhnxj5",
+      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-euwhnxj5",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Full-Stack-Engineer-%28Data-&-AI%29/1445530833/?utm_source=freehire.me",
+      "title": "Full Stack Engineer (Data & AI)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1207,
+      "company": "Capgemini",
+      "employment_type": null,
+      "external_id": "careers.capgemini.com:1392728033",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "",
+      "market": "SG",
+      "posted_at": "2026-10-10T00:00:00Z",
+      "public_slug": "sitecore-ai-engineer-capgemini-wa5ioy3j",
+      "role_key": "freehire:sitecore-ai-engineer-capgemini-wa5ioy3j",
+      "source": "successfactors",
+      "source_url": "https://careers.capgemini.com/job/Singapore-Sitecore-AI-Engineer/1392728033/?utm_source=freehire.me",
+      "title": "Sitecore AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1208,
+      "company": "ScienTec Consulting Pte. Ltd.",
+      "employment_type": null,
+      "external_id": "data engineer:93108321",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Punggol, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T19:19:23Z",
+      "public_slug": "ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
+      "role_key": "freehire:ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93108321__7119?utm_campaign=publisher&utm_medium=api&geoID=596&utm_source=freehire.me",
+      "title": "AI Data Engineer - Hybrid (Cybersecurity & Cloud)"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1204,
-  "min_candidate_seq": 1196,
+  "max_candidate_seq": 1208,
+  "min_candidate_seq": 1200,
   "shard_index": 8,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

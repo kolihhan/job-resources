@@ -134,48 +134,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1106,
-      "company": "Tap Growth ai",
-      "employment_type": null,
-      "external_id": "full stack developer:93591190",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T01:44:39Z",
-      "public_slug": "full-stack-engineer-ai-driven-web-devops-builder-tap-growth-ai-r6uqh4n4",
-      "role_key": "freehire:full-stack-engineer-ai-driven-web-devops-builder-tap-growth-ai-r6uqh4n4",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93591190__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer — AI-Driven Web & DevOps Builder"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1107,
-      "company": "Talent-Merge",
-      "employment_type": null,
-      "external_id": "full stack developer:93588177",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T01:44:29Z",
-      "public_slug": "full-stack-engineer-ai-driven-web-platform-builder-talent-merge-uo663pso",
-      "role_key": "freehire:full-stack-engineer-ai-driven-web-platform-builder-talent-merge-uo663pso",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93588177__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Full-Stack Engineer: AI-Driven Web Platform Builder"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1108,
       "company": "McLink",
       "employment_type": null,
@@ -191,14 +149,58 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/95339665?utm_source=freehire.me",
       "title": "AI & Business Solutions Consultant"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1109,
+      "company": "SINGAPORE FIRST AID TRAINING CENTRE PTE. LTD.",
+      "employment_type": null,
+      "external_id": ":bb8b90db38012bc7b1b80c55da8c95fb",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-19T00:00:00Z",
+      "public_slug": "junior-ai-developer-singapore-first-aid-training-centre-pte-ltd-bujlxcyd",
+      "role_key": "freehire:junior-ai-developer-singapore-first-aid-training-centre-pte-ltd-bujlxcyd",
+      "source": "mycareersfuture",
+      "source_url": "https://www.mycareersfuture.gov.sg/job/bb8b90db38012bc7b1b80c55da8c95fb?utm_source=freehire.me",
+      "title": "Junior AI Developer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1114,
+      "company": "Devxlabs",
+      "employment_type": null,
+      "external_id": "full stack developer:93582939",
+      "flags": [
+        "agency_or_outstaff_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-18T13:47:41Z",
+      "public_slug": "ai-powered-fullstack-engineer-hybrid-ownership-focus-devxlabs-6pki4kby",
+      "role_key": "freehire:ai-powered-fullstack-engineer-hybrid-ownership-focus-devxlabs-6pki4kby",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93582939__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "AI-Powered Fullstack Engineer - Hybrid & Ownership Focus"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1108,
+  "max_candidate_seq": 1114,
   "min_candidate_seq": 1086,
   "shard_index": 1,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -1,0 +1,58 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:genai",
+        "jd:agent",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 3386,
+      "company": "Dah Reply | AI Agent",
+      "employment_type": "part_time",
+      "external_id": "devops engineer:27090629",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Kuala Lumpur, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-13T12:04:54Z",
+      "public_slug": "devops-engineer-dah-reply-ai-agent-zclihp4u",
+      "role_key": "freehire:devops-engineer-dah-reply-ai-agent-zclihp4u",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27090629__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "DevOps Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3387,
+      "company": "Mettler-Toledo International, Inc",
+      "employment_type": null,
+      "external_id": "data engineer:26987087",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Petaling Jaya, Malaysia",
+      "market": "MY",
+      "posted_at": "2026-11-13T08:04:47Z",
+      "public_slug": "data-engineer-build-scalable-data-lakehouse-ai-pipelines-mettler-toledo-international-inc-oweduhyd",
+      "role_key": "freehire:data-engineer-build-scalable-data-lakehouse-ai-pipelines-mettler-toledo-international-inc-oweduhyd",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__26987087__7112?utm_campaign=publisher&utm_medium=api&geoID=123&utm_source=freehire.me",
+      "title": "Data Engineer: Build Scalable Data Lakehouse & AI Pipelines"
+    }
+  ],
+  "generated_at": "2026-11-14T07:05:25.269777Z",
+  "market": "MY",
+  "max_candidate_seq": 3387,
+  "min_candidate_seq": 3386,
+  "shard_index": 8,
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

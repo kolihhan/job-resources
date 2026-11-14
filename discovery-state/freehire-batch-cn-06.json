@@ -2,55 +2,6 @@
   "candidate_count": 7,
   "candidates": [
     {
-      "ai_score": 6,
-      "ai_signals": [
-        "jd:llm",
-        "jd:agent",
-        "jd:rag",
-        "jd:pytorch",
-        "jd:tensorflow",
-        "jd:fine_tuning"
-      ],
-      "candidate_seq": 3337,
-      "company": "Alibaba Group",
-      "employment_type": null,
-      "external_id": ":100055960004",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou",
-      "market": "CN",
-      "posted_at": "2026-11-12T02:47:04Z",
-      "public_slug": "gong-ying-lian-chan-pin-ji-zhu-bu-jing-ying-jue-ce-suan-fa-zhuan-jia-hang-zhou-alibaba-group-wwaahsle",
-      "role_key": "freehire:gong-ying-lian-chan-pin-ji-zhu-bu-jing-ying-jue-ce-suan-fa-zhuan-jia-hang-zhou-alibaba-group-wwaahsle",
-      "source": "alibaba",
-      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100055960004&utm_source=freehire.me",
-      "title": "供应链产品技术部-经营决策算法专家-杭州"
-    },
-    {
-      "ai_score": 6,
-      "ai_signals": [
-        "title:ai",
-        "jd:llm",
-        "jd:rag"
-      ],
-      "candidate_seq": 3338,
-      "company": "Trip.com Group",
-      "employment_type": null,
-      "external_id": "trip/70415:b3b347be-6fc1-43d2-a3d4-c21080d1c2f6",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shenzhen",
-      "market": "CN",
-      "posted_at": "2026-11-12T02:00:12Z",
-      "public_slug": "da-qian-duan-kai-fa-gong-cheng-shi-web-react-native-ai-quan-zhan-fang-xiang-trip-com-group-dpjdhsua",
-      "role_key": "freehire:da-qian-duan-kai-fa-gong-cheng-shi-web-react-native-ai-quan-zhan-fang-xiang-trip-com-group-dpjdhsua",
-      "source": "mokahr",
-      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/b3b347be-6fc1-43d2-a3d4-c21080d1c2f6",
-      "title": "大前端开发工程师（Web / React Native / AI 全栈方向）"
-    },
-    {
       "ai_score": 5,
       "ai_signals": [
         "title:ai",
@@ -161,14 +112,70 @@
       "source": "alibaba",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100056000003&utm_source=freehire.me",
       "title": "千问办公-AI 全栈研发工程师-Teambition"
+    },
+    {
+      "ai_score": 13,
+      "ai_signals": [
+        "title:ai",
+        "title:agent",
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:retrieval",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 3376,
+      "company": "agilent",
+      "employment_type": "full_time",
+      "external_id": "agilent.wd5.myworkdayjobs.com/agilent_careers:/job/China-Shanghai/Software-Engineering---AI-Agent_4039301",
+      "flags": [
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China-Shanghai",
+      "market": "CN",
+      "posted_at": "2026-11-13T00:00:00Z",
+      "public_slug": "software-engineering-ai-agent-agilent-2j6z43je",
+      "role_key": "freehire:software-engineering-ai-agent-agilent-2j6z43je",
+      "source": "workday",
+      "source_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/China-Shanghai/Software-Engineering---AI-Agent_4039301?utm_source=freehire.me",
+      "title": "Software Engineering – AI Agent"
+    },
+    {
+      "ai_score": 5,
+      "ai_signals": [
+        "title:ai",
+        "jd:agent"
+      ],
+      "candidate_seq": 3377,
+      "company": "NVIDIA",
+      "employment_type": "full_time",
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shenzhen/Senior-AI-Engineer---Palantir-Foundry-and-AIP-Forward-Deployed-Engineer_JR2021714",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-11-13T00:00:00Z",
+      "public_slug": "senior-ai-engineer-palantir-foundry-and-aip-forward-deployed-engineer-nvidia-bjmzjezq",
+      "role_key": "freehire:senior-ai-engineer-palantir-foundry-and-aip-forward-deployed-engineer-nvidia-bjmzjezq",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shenzhen/Senior-AI-Engineer---Palantir-Foundry-and-AIP-Forward-Deployed-Engineer_JR2021714?utm_source=freehire.me",
+      "title": "Senior AI Engineer – Palantir Foundry and AIP Forward Deployed Engineer"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "CN",
-  "max_candidate_seq": 3343,
-  "min_candidate_seq": 3337,
+  "max_candidate_seq": 3377,
+  "min_candidate_seq": 3339,
   "shard_index": 6,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

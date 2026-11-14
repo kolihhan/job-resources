@@ -6,29 +6,33 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1452,
-      "company": "Assurity Trusted Solutions",
+      "candidate_seq": 1458,
+      "company": "PALO IT SINGAPORE PTE. LTD.",
       "employment_type": null,
-      "external_id": "assurity-trusted-solutions:AC5C7A8536",
-      "flags": [],
+      "external_id": "6290:94751268",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-07-30T00:00:00Z",
-      "public_slug": "ai-engineer-transcribe-assurity-trusted-solutions-jctfyqbn",
-      "role_key": "freehire:ai-engineer-transcribe-assurity-trusted-solutions-jctfyqbn",
-      "source": "workable",
-      "source_url": "https://apply.workable.com/j/AC5C7A8536?utm_source=freehire.me",
-      "title": "AI Engineer (Transcribe)"
+      "posted_at": "2026-07-21T23:56:24Z",
+      "public_slug": "senior-ai-native-engineer-software-engineering-palo-it-singapore-pte-ltd-akz76mio",
+      "role_key": "freehire:senior-ai-native-engineer-software-engineering-palo-it-singapore-pte-ltd-akz76mio",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/94751268?utm_source=freehire.me",
+      "title": "Senior AI-Native Engineer (Software Engineering)"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1452,
-  "min_candidate_seq": 1452,
+  "max_candidate_seq": 1458,
+  "min_candidate_seq": 1458,
   "shard_index": 25,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

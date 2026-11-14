@@ -157,32 +157,31 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 3292,
-      "company": "CFGI",
-      "employment_type": "full_time",
-      "external_id": "cfgi:f075ea0a-0dee-4265-93a9-753168fa34bf",
+      "candidate_seq": 3344,
+      "company": "CGI IT Consulting Sdn Bhd",
+      "employment_type": null,
+      "external_id": "java developer:27031400",
       "flags": [
-        "experience_5_plus_hint",
-        "visa_hint"
+        "agency_or_outstaff_hint"
       ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Kuala Lumpur",
+      "location": "Kuala Lumpur, Malaysia",
       "market": "MY",
-      "posted_at": "2026-08-19T02:39:43Z",
-      "public_slug": "data-ai-data-engineer-cfgi-wfzz3xrr",
-      "role_key": "freehire:data-ai-data-engineer-cfgi-wfzz3xrr",
-      "source": "lever",
-      "source_url": "https://jobs.lever.co/cfgi/f075ea0a-0dee-4265-93a9-753168fa34bf?utm_source=freehire.me",
-      "title": "Data & AI - Data Engineer"
+      "posted_at": "2026-11-12T10:06:54Z",
+      "public_slug": "junior-java-developer-card-payments-ai-skills-cgi-it-consulting-sdn-bhd-kcgm75hn",
+      "role_key": "freehire:junior-java-developer-card-payments-ai-skills-cgi-it-consulting-sdn-bhd-kcgm75hn",
+      "source": "whatjobs-my",
+      "source_url": "https://en-my.whatjobs.com/pub_api__cpl__27031400__7112?utm_campaign=publisher&utm_medium=api&geoID=4&utm_source=freehire.me",
+      "title": "Junior Java Developer – Card Payments & AI Skills"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "MY",
-  "max_candidate_seq": 3292,
+  "max_candidate_seq": 3344,
   "min_candidate_seq": 3285,
   "shard_index": 6,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

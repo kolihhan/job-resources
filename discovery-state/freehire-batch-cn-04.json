@@ -2,54 +2,6 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:ai",
-        "title:agent",
-        "jd:agent"
-      ],
-      "candidate_seq": 3195,
-      "company": "Advanced Micro Devices, Inc",
-      "employment_type": null,
-      "external_id": "amd.jibeapply.com:97180",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "CN,Beijing WFOE",
-      "market": "CN",
-      "posted_at": "2026-11-10T01:49:00Z",
-      "public_slug": "senior-agentic-ai-engineer-advanced-micro-devices-inc-comjjrpj",
-      "role_key": "freehire:senior-agentic-ai-engineer-advanced-micro-devices-inc-comjjrpj",
-      "source": "jibe",
-      "source_url": "https://careers.amd.com/jobs/97180?lang=en-us&utm_source=freehire.me",
-      "title": "Senior Agentic AI Engineer"
-    },
-    {
-      "ai_score": 5,
-      "ai_signals": [
-        "title:ai",
-        "jd:machine_learning"
-      ],
-      "candidate_seq": 3197,
-      "company": "ARM",
-      "employment_type": null,
-      "external_id": "careers.arm.com:100996071312",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Shanghai, China",
-      "market": "CN",
-      "posted_at": "2026-11-10T00:00:00Z",
-      "public_slug": "senior-developer-relations-engineer-ai-arm-mavlnyry",
-      "role_key": "freehire:senior-developer-relations-engineer-ai-arm-mavlnyry",
-      "source": "radancy",
-      "source_url": "https://careers.arm.com/job/shanghai/ai-software-engineer-ai-software-solution/33099/100996071312?utm_source=freehire.me",
-      "title": "AI Software Engineer (AI software solution)"
-    },
-    {
       "ai_score": 4,
       "ai_signals": [
         "title:ai"
@@ -178,14 +130,67 @@
       "source": "eightfold",
       "source_url": "https://careers.qualcomm.com/careers/job/446718840435?utm_source=freehire.me",
       "title": "AI Infrastructure Software Engineer"
+    },
+    {
+      "ai_score": 12,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "jd:machine_learning",
+        "jd:deep_learning",
+        "jd:nlp",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 3249,
+      "company": "Apple",
+      "employment_type": null,
+      "external_id": ":200693809",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing",
+      "market": "CN",
+      "posted_at": "2026-11-09T16:34:45Z",
+      "public_slug": "machine-learning-engineer-ai-search-knowledge-platform-apple-4y6krgvn",
+      "role_key": "freehire:machine-learning-engineer-ai-search-knowledge-platform-apple-4y6krgvn",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/details/200693809/machine-learning-engineer-ai-search-knowledge-platform?utm_source=freehire.me",
+      "title": "Machine Learning Engineer - AI, Search & Knowledge Platform"
+    },
+    {
+      "ai_score": 9,
+      "ai_signals": [
+        "title:ai",
+        "title:ml",
+        "jd:agent"
+      ],
+      "candidate_seq": 3250,
+      "company": "State Street",
+      "employment_type": "full_time",
+      "external_id": "statestreet.wd1.myworkdayjobs.com/equest:/job/Hangzhou-China/Artificial-Intelligence---Machine-Learning--AVP_R-801016",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou, China",
+      "market": "CN",
+      "posted_at": "2026-11-11T00:00:00Z",
+      "public_slug": "artificial-intelligence-machine-learning-avp-state-street-ggw52pno",
+      "role_key": "freehire:artificial-intelligence-machine-learning-avp-state-street-ggw52pno",
+      "source": "workday",
+      "source_url": "https://statestreet.wd1.myworkdayjobs.com/eQuest/job/Hangzhou-China/Artificial-Intelligence---Machine-Learning--AVP_R-801016?utm_source=freehire.me",
+      "title": "Artificial Intelligence & Machine Learning, AVP"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "CN",
-  "max_candidate_seq": 3203,
-  "min_candidate_seq": 3195,
+  "max_candidate_seq": 3250,
+  "min_candidate_seq": 3198,
   "shard_index": 4,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -4,50 +4,6 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1109,
-      "company": "SINGAPORE FIRST AID TRAINING CENTRE PTE. LTD.",
-      "employment_type": null,
-      "external_id": ":bb8b90db38012bc7b1b80c55da8c95fb",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-19T00:00:00Z",
-      "public_slug": "junior-ai-developer-singapore-first-aid-training-centre-pte-ltd-bujlxcyd",
-      "role_key": "freehire:junior-ai-developer-singapore-first-aid-training-centre-pte-ltd-bujlxcyd",
-      "source": "mycareersfuture",
-      "source_url": "https://www.mycareersfuture.gov.sg/job/bb8b90db38012bc7b1b80c55da8c95fb?utm_source=freehire.me",
-      "title": "Junior AI Developer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1114,
-      "company": "Devxlabs",
-      "employment_type": null,
-      "external_id": "full stack developer:93582939",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-18T13:47:41Z",
-      "public_slug": "ai-powered-fullstack-engineer-hybrid-ownership-focus-devxlabs-6pki4kby",
-      "role_key": "freehire:ai-powered-fullstack-engineer-hybrid-ownership-focus-devxlabs-6pki4kby",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93582939__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "AI-Powered Fullstack Engineer - Hybrid & Ownership Focus"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
         "title:ml"
       ],
       "candidate_seq": 1117,
@@ -182,14 +138,59 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93531311__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Data Business Analyst & AI Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1125,
+      "company": "PathGen",
+      "employment_type": null,
+      "external_id": "data engineer:93534189",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:43Z",
+      "public_slug": "hybrid-platform-data-engineer-for-genomics-ai-pathgen-bk6k7fiv",
+      "role_key": "freehire:hybrid-platform-data-engineer-for-genomics-ai-pathgen-bk6k7fiv",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93534189__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Hybrid Platform Data Engineer for Genomics AI"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1126,
+      "company": "TIKTOK PTE. LTD.",
+      "employment_type": null,
+      "external_id": "data engineer:93532022",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-16T13:04:40Z",
+      "public_slug": "senior-big-data-engineer-large-scale-analytics-ml-tiktok-pte-ltd-2ultnmwa",
+      "role_key": "freehire:senior-big-data-engineer-large-scale-analytics-ml-tiktok-pte-ltd-2ultnmwa",
+      "source": "whatjobs-sg",
+      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93532022__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
+      "title": "Senior Big Data Engineer - Large-Scale Analytics & ML"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1122,
-  "min_candidate_seq": 1109,
+  "max_candidate_seq": 1126,
+  "min_candidate_seq": 1117,
   "shard_index": 2,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -1,98 +1,6 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 9,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1205,
-      "company": "ScienTec Consulting Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "backend developer:93113359",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-10T11:18:41Z",
-      "public_slug": "backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
-      "role_key": "freehire:backend-engineer-ai-powered-apis-data-pipelines-hybrid-scientec-consulting-pte-ltd-scsylb57",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93113359__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Backend Engineer - AI-Powered APIs & Data Pipelines (Hybrid)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1206,
-      "company": "Capgemini",
-      "employment_type": null,
-      "external_id": "careers.capgemini.com:1445530833",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-10T00:00:00Z",
-      "public_slug": "full-stack-engineer-data-ai-capgemini-euwhnxj5",
-      "role_key": "freehire:full-stack-engineer-data-ai-capgemini-euwhnxj5",
-      "source": "successfactors",
-      "source_url": "https://careers.capgemini.com/job/Singapore-Full-Stack-Engineer-%28Data-&-AI%29/1445530833/?utm_source=freehire.me",
-      "title": "Full Stack Engineer (Data & AI)"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1207,
-      "company": "Capgemini",
-      "employment_type": null,
-      "external_id": "careers.capgemini.com:1392728033",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "",
-      "market": "SG",
-      "posted_at": "2026-10-10T00:00:00Z",
-      "public_slug": "sitecore-ai-engineer-capgemini-wa5ioy3j",
-      "role_key": "freehire:sitecore-ai-engineer-capgemini-wa5ioy3j",
-      "source": "successfactors",
-      "source_url": "https://careers.capgemini.com/job/Singapore-Sitecore-AI-Engineer/1392728033/?utm_source=freehire.me",
-      "title": "Sitecore AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1208,
-      "company": "ScienTec Consulting Pte. Ltd.",
-      "employment_type": null,
-      "external_id": "data engineer:93108321",
-      "flags": [
-        "agency_or_outstaff_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Punggol, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-09T19:19:23Z",
-      "public_slug": "ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
-      "role_key": "freehire:ai-data-engineer-hybrid-cybersecurity-cloud-scientec-consulting-pte-ltd-pxhjrqv5",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93108321__7119?utm_campaign=publisher&utm_medium=api&geoID=596&utm_source=freehire.me",
-      "title": "AI Data Engineer - Hybrid (Cybersecurity & Cloud)"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -176,14 +84,122 @@
       "source": "whatjobs-sg",
       "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__91517079__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
       "title": "Software Engineer - ERP & AI/Automation (Python)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1217,
+      "company": "ncs3",
+      "employment_type": null,
+      "external_id": "ncs3:6000000001474382",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-10-09T01:44:40Z",
+      "public_slug": "eg-full-stack-developer-ai-enabled-ncs3-fgwu4psy",
+      "role_key": "freehire:eg-full-stack-developer-ai-enabled-ncs3-fgwu4psy",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001474382--eg-full-stack-developer-ai-enabled-?utm_source=freehire.me",
+      "title": "#EG Full Stack Developer (AI-Enabled)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1218,
+      "company": "NCS Group",
+      "employment_type": null,
+      "external_id": "6287:95177482",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-09T01:44:40Z",
+      "public_slug": "eg-full-stack-developer-ai-enabled-ncs-group-sk6y2a5w",
+      "role_key": "freehire:eg-full-stack-developer-ai-enabled-ncs-group-sk6y2a5w",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95177482?utm_source=freehire.me",
+      "title": "#EG Full Stack Developer (AI-Enabled)"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ml"
+      ],
+      "candidate_seq": 1220,
+      "company": "Airwallex",
+      "employment_type": null,
+      "external_id": "airwallex:89fccb81-c8cc-4769-be0c-9ed078e1a03b",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "SG - Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-08T06:45:55Z",
+      "public_slug": "senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
+      "role_key": "freehire:senior-software-engineer-machine-learning-platform-airwallex-nvicksrv",
+      "source": "ashby",
+      "source_url": "https://jobs.ashbyhq.com/airwallex/89fccb81-c8cc-4769-be0c-9ed078e1a03b?utm_source=freehire.me",
+      "title": "Senior Software Engineer, Machine Learning Platform"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1225,
+      "company": "ncs3",
+      "employment_type": null,
+      "external_id": "ncs3:6000000001469268",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore, sg",
+      "market": "SG",
+      "posted_at": "2026-10-07T06:50:39Z",
+      "public_slug": "eg-ai-product-engineer-ncs3-rz2achs2",
+      "role_key": "freehire:eg-ai-product-engineer-ncs3-rz2achs2",
+      "source": "smartrecruiters",
+      "source_url": "https://jobs.smartrecruiters.com/NCS3/6000000001469268--eg-ai-product-engineer?utm_source=freehire.me",
+      "title": "#EG AI Product Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1226,
+      "company": "NCS Group",
+      "employment_type": null,
+      "external_id": "6290:95119441",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-10-07T06:50:39Z",
+      "public_slug": "eg-ai-product-engineer-ncs-group-htbjlbj3",
+      "role_key": "freehire:eg-ai-product-engineer-ncs-group-htbjlbj3",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95119441?utm_source=freehire.me",
+      "title": "#EG AI Product Engineer"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1215,
-  "min_candidate_seq": 1205,
+  "max_candidate_seq": 1226,
+  "min_candidate_seq": 1209,
   "shard_index": 9,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

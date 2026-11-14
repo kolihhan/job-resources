@@ -1,0 +1,82 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:rag",
+        "jd:transformer",
+        "jd:vector_db"
+      ],
+      "candidate_seq": 3378,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100056080004",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-13T11:07:35Z",
+      "public_slug": "a-li-guo-ji-zhan-yi-dong-duan-agentyan-fa-gong-cheng-shi-zhuan-jia-accio-alibaba-group-plahg7q5",
+      "role_key": "freehire:a-li-guo-ji-zhan-yi-dong-duan-agentyan-fa-gong-cheng-shi-zhuan-jia-accio-alibaba-group-plahg7q5",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100056080004&utm_source=freehire.me",
+      "title": "阿里国际站-移动端Agent研发工程师//专家-Accio"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 3379,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100056100004",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Beijing; Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-13T02:09:39Z",
+      "public_slug": "a-li-b2b-tui-yan-sou-suan-fa-zhuan-jia-bei-jing-hang-zhou-alibaba-group-qrfrssds",
+      "role_key": "freehire:a-li-b2b-tui-yan-sou-suan-fa-zhuan-jia-bei-jing-hang-zhou-alibaba-group-qrfrssds",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100056100004&utm_source=freehire.me",
+      "title": "阿里B2B-推广搜算法专家-北京/杭州"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 3380,
+      "company": "ocbc",
+      "employment_type": "full_time",
+      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-China-Shenzhen/AI-Full-Stack-Developer--Python-_JR00012595",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "OCBC China, Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-11-13T00:00:00Z",
+      "public_slug": "ai-full-stack-developer-python-ocbc-c6ovuuev",
+      "role_key": "freehire:ai-full-stack-developer-python-ocbc-c6ovuuev",
+      "source": "workday",
+      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-China-Shenzhen/AI-Full-Stack-Developer--Python-_JR00012595?utm_source=freehire.me",
+      "title": "AI Full Stack Developer (Python)"
+    }
+  ],
+  "generated_at": "2026-11-14T07:05:25.269777Z",
+  "market": "CN",
+  "max_candidate_seq": 3380,
+  "min_candidate_seq": 3378,
+  "shard_index": 7,
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
+  "transport": "compact_metadata_byte_bounded_v1",
+  "version": 3
+}

@@ -1,79 +1,6 @@
 {
-  "candidate_count": 8,
+  "candidate_count": 7,
   "candidates": [
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1426,
-      "company": "Bitdeer Technologies Group",
-      "employment_type": null,
-      "external_id": "data engineer:88808686",
-      "flags": [
-        "senior_title_hint",
-        "experience_5_plus_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-13T04:39:04Z",
-      "public_slug": "senior-network-security-engineer-ai-cloud-data-centers-bitdeer-group-o3fqqdaz",
-      "role_key": "freehire:senior-network-security-engineer-ai-cloud-data-centers-bitdeer-group-o3fqqdaz",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__88808686__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Network Security Engineer — AI Cloud & Data Centers"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1427,
-      "company": "ocbc",
-      "employment_type": null,
-      "external_id": "ocbc.wd102.myworkdayjobs.com/external:/job/OCBC-Singapore/AI-Software-Engineer---VP-ED_JR00009944",
-      "flags": [
-        "experience_5_plus_hint",
-        "seniority_hint",
-        "visa_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "OCBC Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-13T00:00:00Z",
-      "public_slug": "ai-software-engineer-vp-ed-ocbc-wbr6sp3z",
-      "role_key": "freehire:ai-software-engineer-vp-ed-ocbc-wbr6sp3z",
-      "source": "workday",
-      "source_url": "https://ocbc.wd102.myworkdayjobs.com/External/job/OCBC-Singapore/AI-Software-Engineer---VP-ED_JR00009944?utm_source=freehire.me",
-      "title": "AI Software Engineer - VP/ED"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
-      "candidate_seq": 1430,
-      "company": "rakuten",
-      "employment_type": null,
-      "external_id": "rakuten.wd1.myworkdayjobs.com/rakutenasia:/job/Singapore/Backend-Engineer--Agent-Development--EC-AI-_1036478",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore",
-      "market": "SG",
-      "posted_at": "2026-08-11T00:00:00Z",
-      "public_slug": "backend-engineer-agent-development-ec-ai-rakuten-kzdmpyuu",
-      "role_key": "freehire:backend-engineer-agent-development-ec-ai-rakuten-kzdmpyuu",
-      "source": "workday",
-      "source_url": "https://rakuten.wd1.myworkdayjobs.com/RakutenAsia/job/Singapore/Backend-Engineer--Agent-Development--EC-AI-_1036478?utm_source=freehire.me",
-      "title": "Backend Engineer, Agent Development (EC AI)"
-    },
     {
       "ai_score": 4,
       "ai_signals": [
@@ -140,56 +67,108 @@
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:data_science",
-        "jd:machine_learning",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 1443,
-      "company": "Micron",
+      "candidate_seq": 1445,
+      "company": "Land Transport Authority",
       "employment_type": null,
-      "external_id": "careers.micron.com/micron.com:43709450",
-      "flags": [],
+      "external_id": "6287:93695733",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "Singapore, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-08-07T00:00:00Z",
-      "public_slug": "data-scientist-micron-dkee4wee",
-      "role_key": "freehire:data-scientist-micron-dkee4wee",
-      "source": "eightfold",
-      "source_url": "https://careers.micron.com/careers/job/43709450?utm_source=freehire.me",
-      "title": "Data Scientist"
+      "posted_at": "2026-07-31T11:00:00Z",
+      "public_slug": "lta-tro-senior-executive-ai-software-developer-transport-ai-programme-land-transport-authority-egfhi4vz",
+      "role_key": "freehire:lta-tro-senior-executive-ai-software-developer-transport-ai-programme-land-transport-authority-egfhi4vz",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/93695733?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ AI SOFTWARE DEVELOPER - TRANSPORT AI PROGRAMME"
     },
     {
       "ai_score": 4,
       "ai_signals": [
-        "title:data_science",
-        "jd:machine_learning",
-        "jd:agent"
+        "title:ai"
       ],
-      "candidate_seq": 1444,
-      "company": "Micron Technology",
+      "candidate_seq": 1446,
+      "company": "Land Transport Authority",
       "employment_type": null,
-      "external_id": "micron.wd1.myworkdayjobs.com/External:/job/MSB-Singapore/Data-Scientist_JR106408",
-      "flags": [],
+      "external_id": "6293:93695735",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint"
+      ],
       "known_match_basis": null,
       "known_status": "unseen",
-      "location": "MSB, Singapore",
+      "location": "Singapore",
       "market": "SG",
-      "posted_at": "2026-08-07T00:00:00Z",
-      "public_slug": "data-scientist-micron-technology-vfxhdzc6",
-      "role_key": "freehire:data-scientist-micron-technology-vfxhdzc6",
+      "posted_at": "2026-07-31T11:00:00Z",
+      "public_slug": "lta-tro-senior-executive-infrastructure-engineer-transport-ai-programme-land-transport-authority-tpvzul54",
+      "role_key": "freehire:lta-tro-senior-executive-infrastructure-engineer-transport-ai-programme-land-transport-authority-tpvzul54",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/93695735?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ INFRASTRUCTURE ENGINEER - TRANSPORT AI PROGRAMME"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1447,
+      "company": "sggovterp",
+      "employment_type": null,
+      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--AI-SOFTWARE-DEVELOPER---TRANSPORT-AI-PROGRAMME_JR-10000053932",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-31T00:00:00Z",
+      "public_slug": "lta-tro-senior-executive-ai-software-developer-transport-ai-programme-sggovterp-vn7klegc",
+      "role_key": "freehire:lta-tro-senior-executive-ai-software-developer-transport-ai-programme-sggovterp-vn7klegc",
       "source": "workday",
-      "source_url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Data-Scientist_JR106408?utm_source=freehire.me",
-      "title": "Data Scientist"
+      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--AI-SOFTWARE-DEVELOPER---TRANSPORT-AI-PROGRAMME_JR-10000053932?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ AI SOFTWARE DEVELOPER - TRANSPORT AI PROGRAMME"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1448,
+      "company": "sggovterp",
+      "employment_type": null,
+      "external_id": "sggovterp.wd102.myworkdayjobs.com/publicservicecareers:/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--DATA-ENGINEER---TRANSPORT-AI-PROGRAMME_JR-10000053936",
+      "flags": [
+        "senior_title_hint",
+        "seniority_hint",
+        "visa_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Singapore",
+      "market": "SG",
+      "posted_at": "2026-07-31T00:00:00Z",
+      "public_slug": "lta-tro-senior-executive-data-engineer-transport-ai-programme-sggovterp-au3axq5k",
+      "role_key": "freehire:lta-tro-senior-executive-data-engineer-transport-ai-programme-sggovterp-au3axq5k",
+      "source": "workday",
+      "source_url": "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Singapore/XMLNAME--LTA-TRO--SENIOR--EXECUTIVE--DATA-ENGINEER---TRANSPORT-AI-PROGRAMME_JR-10000053936?utm_source=freehire.me",
+      "title": "[LTA-TRO] SENIOR/ EXECUTIVE/ DATA ENGINEER - TRANSPORT AI PROGRAMME"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1444,
-  "min_candidate_seq": 1426,
+  "max_candidate_seq": 1448,
+  "min_candidate_seq": 1432,
   "shard_index": 23,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

@@ -95,28 +95,6 @@
       "title": "AI & ML Engineer | Banking "
     },
     {
-      "ai_score": 8,
-      "ai_signals": [
-        "title:ai",
-        "title:agent"
-      ],
-      "candidate_seq": 2989,
-      "company": "State Street",
-      "employment_type": null,
-      "external_id": "statestreet.wd1.myworkdayjobs.com/Global:/job/Hangzhou-China/Software-Developer--AI---Agentic-Engineering---SrAssc_R-795530",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou, China",
-      "market": "CN",
-      "posted_at": "2026-08-14T00:00:00Z",
-      "public_slug": "software-developer-ai-agentic-engineering-srassc-state-street-n55ydwqs",
-      "role_key": "freehire:software-developer-ai-agentic-engineering-srassc-state-street-n55ydwqs",
-      "source": "workday",
-      "source_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Hangzhou-China/Software-Developer--AI---Agentic-Engineering---SrAssc_R-795530?utm_source=freehire.me",
-      "title": "Software Developer (AI & Agentic Engineering), SrAssc"
-    },
-    {
       "ai_score": 6,
       "ai_signals": [
         "title:ai",
@@ -187,14 +165,43 @@
       "source": "workday",
       "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/CHN---SHANGHAI/AI-engineer_51589744?utm_source=freehire.me",
       "title": "AI engineer"
+    },
+    {
+      "ai_score": 8,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:agent",
+        "jd:multimodal",
+        "jd:model_training"
+      ],
+      "candidate_seq": 3045,
+      "company": "NVIDIA",
+      "employment_type": "full_time",
+      "external_id": "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite:/job/China-Shanghai/Senior-Physical-AI-Data-Engineer_JR2028588",
+      "flags": [
+        "senior_title_hint",
+        "experience_5_plus_hint",
+        "seniority_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "China, Shanghai",
+      "market": "CN",
+      "posted_at": "2026-11-07T00:00:00Z",
+      "public_slug": "senior-physical-ai-data-engineer-nvidia-fmpe5ewo",
+      "role_key": "freehire:senior-physical-ai-data-engineer-nvidia-fmpe5ewo",
+      "source": "workday",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Physical-AI-Data-Engineer_JR2028588?utm_source=freehire.me",
+      "title": "Senior Physical AI Data Engineer"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "CN",
-  "max_candidate_seq": 2992,
+  "max_candidate_seq": 3045,
   "min_candidate_seq": 2940,
   "shard_index": 2,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

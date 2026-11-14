@@ -6,51 +6,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "candidate_seq": 1125,
-      "company": "PathGen",
-      "employment_type": null,
-      "external_id": "data engineer:93534189",
-      "flags": [],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:43Z",
-      "public_slug": "hybrid-platform-data-engineer-for-genomics-ai-pathgen-bk6k7fiv",
-      "role_key": "freehire:hybrid-platform-data-engineer-for-genomics-ai-pathgen-bk6k7fiv",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93534189__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Hybrid Platform Data Engineer for Genomics AI"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ml"
-      ],
-      "candidate_seq": 1126,
-      "company": "TIKTOK PTE. LTD.",
-      "employment_type": null,
-      "external_id": "data engineer:93532022",
-      "flags": [
-        "senior_title_hint",
-        "seniority_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Singapore, Singapore",
-      "market": "SG",
-      "posted_at": "2026-10-16T13:04:40Z",
-      "public_slug": "senior-big-data-engineer-large-scale-analytics-ml-tiktok-pte-ltd-2ultnmwa",
-      "role_key": "freehire:senior-big-data-engineer-large-scale-analytics-ml-tiktok-pte-ltd-2ultnmwa",
-      "source": "whatjobs-sg",
-      "source_url": "https://en-sg.whatjobs.com/pub_api__cpl__93532022__7119?utm_campaign=publisher&utm_medium=api&geoID=1&utm_source=freehire.me",
-      "title": "Senior Big Data Engineer - Large-Scale Analytics & ML"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "candidate_seq": 1129,
       "company": "JASS TECH PTE. LTD.",
       "employment_type": null,
@@ -198,14 +153,60 @@
       "source": "jobstreet",
       "source_url": "https://sg.jobstreet.com/job/95319442?utm_source=freehire.me",
       "title": "Senior Business Intelligence Analyst (AI) – Credit, Business Intelligence"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1137,
+      "company": "Energy Market Authority",
+      "employment_type": null,
+      "external_id": "6290:95316938",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "West Region",
+      "market": "SG",
+      "posted_at": "2026-10-16T07:40:40Z",
+      "public_slug": "ai-solutions-engineer-energy-market-authority-gucoxzjd",
+      "role_key": "freehire:ai-solutions-engineer-energy-market-authority-gucoxzjd",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95316938?utm_source=freehire.me",
+      "title": "AI Solutions Engineer"
+    },
+    {
+      "ai_score": 4,
+      "ai_signals": [
+        "title:ai"
+      ],
+      "candidate_seq": 1138,
+      "company": "F5 Networks",
+      "employment_type": null,
+      "external_id": "6296:95323569",
+      "flags": [
+        "experience_5_plus_hint"
+      ],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Central Region",
+      "market": "SG",
+      "posted_at": "2026-10-16T06:33:58Z",
+      "public_slug": "forward-deployed-engineer-ai-security-f5-networks-kpldvo6l",
+      "role_key": "freehire:forward-deployed-engineer-ai-security-f5-networks-kpldvo6l",
+      "source": "jobstreet",
+      "source_url": "https://sg.jobstreet.com/job/95323569?utm_source=freehire.me",
+      "title": "Forward Deployed Engineer-AI Security"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "SG",
-  "max_candidate_seq": 1136,
-  "min_candidate_seq": 1125,
+  "max_candidate_seq": 1138,
+  "min_candidate_seq": 1129,
   "shard_index": 3,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }

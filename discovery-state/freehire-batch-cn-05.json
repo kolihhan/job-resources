@@ -2,59 +2,6 @@
   "candidate_count": 8,
   "candidates": [
     {
-      "ai_score": 12,
-      "ai_signals": [
-        "title:ai",
-        "title:ml",
-        "jd:machine_learning",
-        "jd:deep_learning",
-        "jd:nlp",
-        "jd:vector_db"
-      ],
-      "candidate_seq": 3249,
-      "company": "Apple",
-      "employment_type": null,
-      "external_id": ":200693809",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Beijing",
-      "market": "CN",
-      "posted_at": "2026-11-09T16:34:45Z",
-      "public_slug": "machine-learning-engineer-ai-search-knowledge-platform-apple-4y6krgvn",
-      "role_key": "freehire:machine-learning-engineer-ai-search-knowledge-platform-apple-4y6krgvn",
-      "source": "apple",
-      "source_url": "https://jobs.apple.com/en-us/details/200693809/machine-learning-engineer-ai-search-knowledge-platform?utm_source=freehire.me",
-      "title": "Machine Learning Engineer - AI, Search & Knowledge Platform"
-    },
-    {
-      "ai_score": 9,
-      "ai_signals": [
-        "title:ai",
-        "title:ml",
-        "jd:agent"
-      ],
-      "candidate_seq": 3250,
-      "company": "State Street",
-      "employment_type": "full_time",
-      "external_id": "statestreet.wd1.myworkdayjobs.com/equest:/job/Hangzhou-China/Artificial-Intelligence---Machine-Learning--AVP_R-801016",
-      "flags": [
-        "experience_5_plus_hint"
-      ],
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Hangzhou, China",
-      "market": "CN",
-      "posted_at": "2026-11-11T00:00:00Z",
-      "public_slug": "artificial-intelligence-machine-learning-avp-state-street-ggw52pno",
-      "role_key": "freehire:artificial-intelligence-machine-learning-avp-state-street-ggw52pno",
-      "source": "workday",
-      "source_url": "https://statestreet.wd1.myworkdayjobs.com/eQuest/job/Hangzhou-China/Artificial-Intelligence---Machine-Learning--AVP_R-801016?utm_source=freehire.me",
-      "title": "Artificial Intelligence & Machine Learning, AVP"
-    },
-    {
       "ai_score": 6,
       "ai_signals": [
         "title:ai",
@@ -195,14 +142,63 @@
       "source": "alibaba",
       "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100052120006&utm_source=freehire.me",
       "title": "供应链产品技术部-高级经营决策算法专家-急招"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "jd:llm",
+        "jd:agent",
+        "jd:rag",
+        "jd:pytorch",
+        "jd:tensorflow",
+        "jd:fine_tuning"
+      ],
+      "candidate_seq": 3337,
+      "company": "Alibaba Group",
+      "employment_type": null,
+      "external_id": ":100055960004",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Hangzhou",
+      "market": "CN",
+      "posted_at": "2026-11-12T02:47:04Z",
+      "public_slug": "gong-ying-lian-chan-pin-ji-zhu-bu-jing-ying-jue-ce-suan-fa-zhuan-jia-hang-zhou-alibaba-group-wwaahsle",
+      "role_key": "freehire:gong-ying-lian-chan-pin-ji-zhu-bu-jing-ying-jue-ce-suan-fa-zhuan-jia-hang-zhou-alibaba-group-wwaahsle",
+      "source": "alibaba",
+      "source_url": "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100055960004&utm_source=freehire.me",
+      "title": "供应链产品技术部-经营决策算法专家-杭州"
+    },
+    {
+      "ai_score": 6,
+      "ai_signals": [
+        "title:ai",
+        "jd:llm",
+        "jd:rag"
+      ],
+      "candidate_seq": 3338,
+      "company": "Trip.com Group",
+      "employment_type": null,
+      "external_id": "trip/70415:b3b347be-6fc1-43d2-a3d4-c21080d1c2f6",
+      "flags": [],
+      "known_match_basis": null,
+      "known_status": "unseen",
+      "location": "Shenzhen",
+      "market": "CN",
+      "posted_at": "2026-11-12T02:00:12Z",
+      "public_slug": "da-qian-duan-kai-fa-gong-cheng-shi-web-react-native-ai-quan-zhan-fang-xiang-trip-com-group-dpjdhsua",
+      "role_key": "freehire:da-qian-duan-kai-fa-gong-cheng-shi-web-react-native-ai-quan-zhan-fang-xiang-trip-com-group-dpjdhsua",
+      "source": "mokahr",
+      "source_url": "https://app.mokahr.com/social-recruitment/trip/70415?utm_source=freehire.me#/job/b3b347be-6fc1-43d2-a3d4-c21080d1c2f6",
+      "title": "大前端开发工程师（Web / React Native / AI 全栈方向）"
     }
   ],
-  "generated_at": "2026-11-13T23:56:13.342570Z",
+  "generated_at": "2026-11-14T07:05:25.269777Z",
   "market": "CN",
-  "max_candidate_seq": 3336,
-  "min_candidate_seq": 3249,
+  "max_candidate_seq": 3338,
+  "min_candidate_seq": 3251,
   "shard_index": 5,
-  "source_generated_at": "2026-11-12T23:50:44.844150Z",
+  "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "transport": "compact_metadata_byte_bounded_v1",
   "version": 3
 }
