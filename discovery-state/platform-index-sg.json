@@ -715,7 +715,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-10T17:45:14.843400Z",
       "key": "sg:675cc8f0e0f3dfd03198",
-      "last_error": null,
+      "last_error": "Micron AI Engineer (People Technology) JobStreet 95468494: third-party full text describes enterprise HR agents, but no employer-owned exact Micron JR requisition and currently usable Workday application route is established. Both Gmail accounts show other Micron AI Engineer/SMAI submissions (including 2026-11-13) and existing WAIT/DUPLICATE Issues; no safe exact identity mapping. Need Micron official People Technology JR ID + live route before independent application decision.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -728,7 +728,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95468494"
+      "url": "https://sg.jobstreet.com/job/95468494",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T20:03:56+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Micron AI Engineer (People Technology) JobStreet 95468494: third-party full text describes enterprise HR agents, but no employer-owned exact Micron JR requisition and currently usable Workday application route is established. Both Gmail accounts show other Micron AI Engineer/SMAI submissions (including 2026-11-13) and existing WAIT/DUPLICATE Issues; no safe exact identity mapping. Need Micron official People Technology JR ID + live route before independent application decision.",
+        "status": "RETRY"
+      }
     },
     {
       "api_source_context": {
