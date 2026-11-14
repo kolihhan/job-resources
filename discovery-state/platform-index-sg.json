@@ -1485,16 +1485,16 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-12T18:15:52.405699Z",
       "key": "sg:15b3f6dcfa4a4a9a322b",
-      "last_error": "Exact Clera Ashby a51984da-7278-46bd-a0c5-939d2ac72999 employer application page/accepting status remains inaccessible. Indexed employer pages for same-title Benchmarks use different UUIDs (58f6f9be-99f0-469d-9334-088f40836f9e, ed8a86b0-09ce-4bf9-bdac-e0ef2819e1ed); cannot transfer liveness or identify with CLOSED #277. Need exact UUID live apply route or authoritative employer alias mapping.",
+      "last_error": "Authoritative mapping of source Clera Ashby UUID a51984da-7278-46bd-a0c5-939d2ac72999 to currently open employer requisition; same-title prior closed #277 and multiple alternative Clera Ashby UUIDs make a new APPLY unsafe.",
       "market": "SG",
       "platform": "ashby official ATS",
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
         "ack": false,
-        "checked_at": "2026-11-13T18:56:47+08:00",
+        "checked_at": "2026-11-14T11:55:32+08:00",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact Clera Ashby a51984da-7278-46bd-a0c5-939d2ac72999 employer application page/accepting status remains inaccessible. Indexed employer pages for same-title Benchmarks use different UUIDs (58f6f9be-99f0-469d-9334-088f40836f9e, ed8a86b0-09ce-4bf9-bdac-e0ef2819e1ed); cannot transfer liveness or identify with CLOSED #277. Need exact UUID live apply route or authoritative employer alias mapping.",
+        "missing_evidence": "Authoritative mapping of source Clera Ashby UUID a51984da-7278-46bd-a0c5-939d2ac72999 to currently open employer requisition; same-title prior closed #277 and multiple alternative Clera Ashby UUIDs make a new APPLY unsafe.",
         "status": "RETRY"
       },
       "seq": 136,
@@ -1652,7 +1652,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T23:30:21.406474Z",
       "key": "sg:009af7ef7a56f08cdc3c",
-      "last_error": null,
+      "last_error": "Employer-owned requisition and active direct application route for Monee Machine Learning Engineer LLM/VLM corresponding to JobStreet 95887225; indexed listing is not an employer ATS route.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -1665,7 +1665,14 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "Machine Learning Engineer, LLM/VLM - Monee",
-      "url": "https://sg.jobstreet.com/job/95887225"
+      "url": "https://sg.jobstreet.com/job/95887225",
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T11:55:32+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Employer-owned requisition and active direct application route for Monee Machine Learning Engineer LLM/VLM corresponding to JobStreet 95887225; indexed listing is not an employer ATS route.",
+        "status": "RETRY"
+      }
     }
   ],
   "terminal": [
