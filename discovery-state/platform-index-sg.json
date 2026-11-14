@@ -18,10 +18,8 @@
     {
       "company": "Binance",
       "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
+        "checked_at": "2026-11-14T19:57:44.994066Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
-        "possible_prior_issue": 861,
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "first_seen_at": "2026-11-07T08:31:24.434392Z",
@@ -107,7 +105,7 @@
     {
       "company": "OpenAI",
       "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "checked_at": "2026-11-14T19:57:44.994066Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -178,7 +176,7 @@
       "ats_key": "bjakcareer|ashby|56f522c4-b903-45ea-bb08-952b74641b56",
       "company": "BJAK",
       "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "checked_at": "2026-11-14T19:57:44.994066Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1238,7 +1236,7 @@
       "ats_key": "freehire|llm-agent-algorithm-expert-tiktok-search-tiktok-n57eapua",
       "company": "TikTok",
       "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "checked_at": "2026-11-14T19:57:44.994066Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1279,7 +1277,7 @@
       "ats_key": "freehire|ai-research-engineer-lenovo-ln65xjyt",
       "company": "Lenovo",
       "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "checked_at": "2026-11-14T19:57:44.994066Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1320,7 +1318,7 @@
       "ats_key": "freehire|ai-engineer-uic-asian-computer-services-pte-ltd-5uce3s57",
       "company": "UIC Asian Computer Services Pte Ltd",
       "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "checked_at": "2026-11-14T19:57:44.994066Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1353,7 +1351,7 @@
       "ats_key": "freehire|large-language-model-llm-evaluation-engineer-umelife-n4vnlcek",
       "company": "Umelife",
       "consumer_review": {
-        "checked_at": "2026-11-12T11:25:12.823883Z",
+        "checked_at": "2026-11-14T19:57:44.994066Z",
         "note": "A third-party source URL cannot prove exact employer requisition or open status.",
         "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
@@ -1459,20 +1457,9 @@
       "ats_key": "clera|ashby|a51984da-7278-46bd-a0c5-939d2ac72999",
       "company": "Clera",
       "consumer_review": {
-        "checked_at": "2026-11-12T17:43:27+00:00",
-        "full_jd_complete": true,
-        "full_jd_text": "ABOUT THE ROLE Join a small, technical AI evaluation team building rigorous benchmarks for frontier AI agents. You will own the design and implementation of domain-specific evaluations that help research teams and customers understand how agents perform on realistic workflows. WHAT YOU'LL DO - Design, implement, and maintain internal benchmarks for evaluating frontier agents on domain-specific tasks. - Partner with subject-matter experts to translate real-world workflows into benchmark tasks and evaluation criteria. - Build reliable infrastructure to run models and agents against benchmark tasks at scale. - Develop metrics and analyses to assess benchmark difficulty, reliability, and failure modes. - Validate whether benchmark results align with real-world evaluations and user needs. - Write clear technical documentation and reports explaining benchmark methods and results. WHAT WE'RE LOOKING FOR - Two to four years of experience in software engineering, machine learning engineering, or research engineering, including at least two years building AI benchmarks, evaluation infrastructure, or agent environments. - Technical education or strong fundamentals in a technical field. - Proficiency with Python, Docker, and Linux for research or production infrastructure. - Hands-on experience designing and operating evaluations or environments for AI agents or large language models. - Experience building reliable model or agent execution infrastructure, developing evaluation metrics or statistical analyses, and validating benchmark performance. - Ability to work with subject-matter experts and understand workflows across technical or business domains. - Strong technical writing, attention to detail, independent problem-solving, and comfort in an early-stage environment. - Published research or technical writing on AI benchmarks, evaluation methods, or model failure modes is valued. Reinforcement learning pipelines, data generation, and agent evaluation experience are also relevant. COMPENSATION & BENEFITS Base salary: $100,000 to $170,000 USD annually. Visa sponsorship is available. LOCATION On-site in Singapore, Singapore.",
-        "history_hint": "Same title/likely employer in prior GitHub Issue; different URL. CHECK exact requisition, location, work contents and Gmail before any ACK/APPLY.",
-        "jd_chars": 2151,
-        "jd_sha256": "8a6a5a3df9873abf4ae2059be6ffd87ca4add2b8e3b7987feddc899870d195b8",
-        "note": "Upstream employer-listed full JD; exact role route and applicant eligibility require Scout verification.",
-        "possible_prior_issue": 277,
-        "review_flags": [
-          "CHECK_CANDIDATE_FIT_ROUTE_AND_GMAIL_HISTORY"
-        ],
-        "source_kind": "freehirefetch public first-party ATS batch",
-        "source_verified_can_apply": false,
-        "stage": "FIRST_PARTY_JD_VERIFIED_NEEDS_FIT_REVIEW"
+        "checked_at": "2026-11-14T19:57:44.994066Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
       },
       "description_excerpt": "ABOUT THE ROLE Join a small, technical AI evaluation team building rigorous benchmarks for frontier AI agents. You will own the design and implementation of domain-specific evaluations that help research teams and customers understand how a",
       "discovery_access": "OFFICIAL_ATS_SOURCE",
@@ -1681,6 +1668,11 @@
       },
       "ats_key": "freehire|robotics-ai-engineer-menlo-yrpfvbir",
       "company": "Menlo",
+      "consumer_review": {
+        "checked_at": "2026-11-14T19:57:44.994066Z",
+        "note": "A third-party source URL cannot prove exact employer requisition or open status.",
+        "stage": "NEEDS_EMPLOYER_CANONICAL_ROUTE"
+      },
       "description_excerpt": "<p><strong>About Menlo</strong><br/>Menlo Research is an Applied R&amp;D lab building Asimov, an open-source humanoid robot platform, and the full software stack that powers it. Our mission is to make humanoid labor economically viable, tur",
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-14T16:35:50.963689Z",
