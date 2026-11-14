@@ -28791,31 +28791,6 @@
       "ai_signals": [
         "title:ai"
       ],
-      "company": "Allinton Engineering & Trading Pte. Ltd.",
-      "created_at": "2026-10-29T11:20:33Z",
-      "description_excerpt": "<p>Salary: $5,000 – $7,000 per month</p><p><strong>Job Description &amp; Requirements</strong></p><p>We are looking for a motivated and technically skilled AI Engineer to join our team and support the development of AI-driven business solutions, workflow automation and enterprise system integration.</p><p>The successful candidate will be responsible for designing, developing, implementing and maintaining AI-powered applications that enhance operational efficiency across departments</p><p>The role will also support the implementation, migration and optimisation of internal software, ensuring se",
-      "employment_type": null,
-      "event_kind": null,
-      "event_seq": null,
-      "external_id": "6287:95584055",
-      "flags": [],
-      "freehire_url": "https://freehire.me/jobs/ai-engineer-allinton-engineering-trading-pte-ltd-5kiadube",
-      "identity": "ai-engineer-allinton-engineering-trading-pte-ltd-5kiadube",
-      "known_match_basis": null,
-      "known_status": "unseen",
-      "location": "Central Region",
-      "market": "SG",
-      "posted_at": "2026-10-29T10:54:43Z",
-      "public_slug": "ai-engineer-allinton-engineering-trading-pte-ltd-5kiadube",
-      "source": "jobstreet",
-      "source_url": "https://sg.jobstreet.com/job/95584055?utm_source=freehire.me",
-      "title": "AI Engineer"
-    },
-    {
-      "ai_score": 4,
-      "ai_signals": [
-        "title:ai"
-      ],
       "company": "OCBC Bank",
       "created_at": "2026-10-29T19:20:15Z",
       "description_excerpt": "<div><div> <strong><b>WHO WE ARE:</b></strong><br> <p>As Singapore’s longest established bank, we have been dedicated to enabling individuals and businesses to achieve their aspirations since 1932. How? By taking the time to truly understand people. From there, we provide support, services, solutions, and career paths that meet their individual needs and desires.</p> <p> Today, we’re on a journey of transformation. Leveraging technology and creativity to become a future-ready learning organisation. But for all that change, our strategic ambition is consistently clear and bold, which is to be A",
@@ -67657,8 +67632,8 @@
       "title": "AI Engineer"
     }
   ],
-  "generated_at": "2026-11-14T07:05:24.879304Z",
-  "known_exact_count": 39,
+  "generated_at": "2026-11-14T14:33:36.223158Z",
+  "known_exact_count": 40,
   "machine_candidate_counts": {
     "CN": 759,
     "MY": 315,
@@ -67683,10 +67658,10 @@
       "unseen": 296
     },
     "SG": {
-      "known_exact": 20,
+      "known_exact": 21,
       "source": 1439,
       "suspected_known": 24,
-      "unseen": 1395
+      "unseen": 1394
     }
   },
   "raw_counts": {
@@ -67694,7 +67669,7 @@
     "MY": 4892,
     "SG": 13905
   },
-  "review_count": 2474,
+  "review_count": 2473,
   "source_count": 2513,
   "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "suspected_known_count": 49,
@@ -67703,6 +67678,6 @@
     "MY": 701,
     "SG": 2354
   },
-  "unseen_count": 2425,
+  "unseen_count": 2424,
   "version": 1
 }

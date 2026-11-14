@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T07:05:24.879304Z",
-  "known_exact_count": 39,
+  "generated_at": "2026-11-14T14:33:36.223158Z",
+  "known_exact_count": 40,
   "machine_candidate_counts": {
     "CN": 759,
     "MY": 315,
@@ -25,10 +25,10 @@
       "unseen": 296
     },
     "SG": {
-      "known_exact": 20,
+      "known_exact": 21,
       "source": 1439,
       "suspected_known": 24,
-      "unseen": 1395
+      "unseen": 1394
     }
   },
   "raw_counts": {
@@ -36,7 +36,7 @@
     "MY": 4892,
     "SG": 13905
   },
-  "review_count": 2474,
+  "review_count": 2473,
   "source_count": 2513,
   "source_generated_at": "2026-11-13T23:50:29.036863Z",
   "suspected_known_count": 49,
@@ -45,6 +45,6 @@
     "MY": 701,
     "SG": 2354
   },
-  "unseen_count": 2425,
+  "unseen_count": 2424,
   "version": 1
 }
