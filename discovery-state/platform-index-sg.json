@@ -1685,7 +1685,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-14T16:35:50.963689Z",
       "key": "sg:d3f45dbb2240abbce4d4",
-      "last_error": null,
+      "last_error": "Menlo Robotics AI Engineer Ashby da98653d-8d51-4aaa-8500-6af9927f9716: third-party full-text JD specifies hands-on real-robot RL/imitation-learning policy training and physical robot deployment; candidate's established LLM/NLP/Agent work does not establish those mandatory robotics capabilities. Official Ashby URL returned JavaScript-only shell; employer-authored full JD/current application action not independently readable. GitHub all-state Menlo search and both Gmail accounts found no matching application. Missing exactly: independently readable current employer-authored JD confirming mandatory real-robot RL experience. Preserve Pending; no eligibility inference or ACK.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
@@ -1698,7 +1698,14 @@
       "source_platform": "Employer ATS / other",
       "state": "UNVERIFIED_INDEX",
       "title": "Robotics AI Engineer",
-      "url": "https://jobs.ashbyhq.com/menlo/da98653d-8d51-4aaa-8500-6af9927f9716"
+      "url": "https://jobs.ashbyhq.com/menlo/da98653d-8d51-4aaa-8500-6af9927f9716",
+      "scout_review": {
+        "status": "RETRY",
+        "decision": "PRESERVE_PENDING",
+        "ack": false,
+        "checked_at": "2026-11-15T02:00:00+08:00",
+        "missing_evidence": "Menlo Robotics AI Engineer Ashby da98653d-8d51-4aaa-8500-6af9927f9716: third-party full-text JD specifies hands-on real-robot RL/imitation-learning policy training and physical robot deployment; candidate's established LLM/NLP/Agent work does not establish those mandatory robotics capabilities. Official Ashby URL returned JavaScript-only shell; employer-authored full JD/current application action not independently readable. GitHub all-state Menlo search and both Gmail accounts found no matching application. Missing exactly: independently readable current employer-authored JD confirming mandatory real-robot RL experience. Preserve Pending; no eligibility inference or ACK."
+      }
     }
   ],
   "terminal": [
