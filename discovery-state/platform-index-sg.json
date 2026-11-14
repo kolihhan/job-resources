@@ -1,18 +1,18 @@
 {
   "last_ingestion": {
-    "at": "2026-11-14T09:23:51.788877Z",
-    "source": "devglobal:public-api:SG",
+    "at": "2026-11-14T16:35:50.963729Z",
+    "source": "freehirefetch:official-ats:SG",
     "stats": {
-      "already_seen": 8,
+      "already_seen": 0,
       "exact_history": 0,
       "invalid_url": 0,
       "market_mismatch": 0,
-      "new_pending": 0,
-      "observed": 8
+      "new_pending": 2,
+      "observed": 2
     }
   },
   "market": "SG",
-  "next_seq": 144,
+  "next_seq": 146,
   "next_unacknowledged_seq": 6,
   "pending": [
     {
@@ -160,11 +160,11 @@
       "query": "Hong Kong; Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T20:56:00+08:00",
-        "missing_evidence": "Binance exact Greenhouse 5002575101 still inaccessible (2026-11-14). Gmail account 1 confirms same-title Pioneer Talent Program - Applied Data Scientist application on 2026-11-10 and another same-title Binance follow-up on 2026-11-13, neither identifying requisition. Existing WAIT #879 is 5002729101. Missing exactly: employer receipt/candidate-portal requisition mapping for 5002575101 versus 5002729101. Preserve Pending; no new APPLY."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Binance exact Greenhouse 5002575101 still inaccessible (2026-11-14). Gmail account 1 confirms same-title Pioneer Talent Program - Applied Data Scientist application on 2026-11-10 and another same-title Binance follow-up on 2026-11-13, neither identifying requisition. Existing WAIT #879 is 5002729101. Missing exactly: employer receipt/candidate-portal requisition mapping for 5002575101 versus 5002729101. Preserve Pending; no new APPLY.",
+        "status": "RETRY"
       },
       "seq": 38,
       "source": "freehirefetch:official-ats:SG",
@@ -508,11 +508,11 @@
       "query": "NTU Novena Campus, Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-15T00:01:58+08:00",
-        "missing_evidence": "NTU LKCMedicine Research Assistant/Associate Neuroscience and AI R00026296-1: stored complete first-party JD reviewed; employer Workday exact page inaccessible 2026-11-15. GitHub exact requisition no Issue; historical same-role #748 requires alias assessment. Both Gmail accounts targeted NTU neuroscience search found no application receipt. Missing exactly: current live Workday application route for R00026296-1; retain Pending rather than infer open status."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "NTU LKCMedicine Research Assistant/Associate Neuroscience and AI R00026296-1: stored complete first-party JD reviewed; employer Workday exact page inaccessible 2026-11-15. GitHub exact requisition no Issue; historical same-role #748 requires alias assessment. Both Gmail accounts targeted NTU neuroscience search found no application receipt. Missing exactly: current live Workday application route for R00026296-1; retain Pending rather than infer open status.",
+        "status": "RETRY"
       },
       "seq": 91,
       "source": "freehirefetch:official-ats:SG",
@@ -720,6 +720,13 @@
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
       "retries": 0,
+      "scout_review": {
+        "ack": false,
+        "checked_at": "2026-11-14T20:03:56+08:00",
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Micron AI Engineer (People Technology) JobStreet 95468494: third-party full text describes enterprise HR agents, but no employer-owned exact Micron JR requisition and currently usable Workday application route is established. Both Gmail accounts show other Micron AI Engineer/SMAI submissions (including 2026-11-13) and existing WAIT/DUPLICATE Issues; no safe exact identity mapping. Need Micron official People Technology JR ID + live route before independent application decision.",
+        "status": "RETRY"
+      },
       "seq": 105,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -728,14 +735,7 @@
       "source_platform": "JobStreet",
       "state": "UNVERIFIED_INDEX",
       "title": "AI Engineer",
-      "url": "https://sg.jobstreet.com/job/95468494",
-      "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-14T20:03:56+08:00",
-        "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Micron AI Engineer (People Technology) JobStreet 95468494: third-party full text describes enterprise HR agents, but no employer-owned exact Micron JR requisition and currently usable Workday application route is established. Both Gmail accounts show other Micron AI Engineer/SMAI submissions (including 2026-11-13) and existing WAIT/DUPLICATE Issues; no safe exact identity mapping. Need Micron official People Technology JR ID + live route before independent application decision.",
-        "status": "RETRY"
-      }
+      "url": "https://sg.jobstreet.com/job/95468494"
     },
     {
       "api_source_context": {
@@ -1004,11 +1004,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-15T00:01:58+08:00",
-        "missing_evidence": "Surbana Jurong AI Engineer JR119182: exact Workday URL inaccessible on 2026-11-15. Separate employer AI Full Stack Engineer JR117992 has full official JD but is already WAIT #128, not interchangeable. Both Gmail accounts exact AI Engineer search found no application receipts (account 2 only generic JobStreet alert). Missing exactly: current complete employer JD and live apply route for JR119182, not JR117992."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Surbana Jurong AI Engineer JR119182: exact Workday URL inaccessible on 2026-11-15. Separate employer AI Full Stack Engineer JR117992 has full official JD but is already WAIT #128, not interchangeable. Both Gmail accounts exact AI Engineer search found no application receipts (account 2 only generic JobStreet alert). Missing exactly: current complete employer JD and live apply route for JR119182, not JR117992.",
+        "status": "RETRY"
       },
       "seq": 122,
       "source": "freehire:public-api:SG",
@@ -1083,11 +1083,11 @@
       "query": "Anywhere",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-15T00:01:58+08:00",
-        "missing_evidence": "Gradient AI Research Engineer: employer Ashby exact UUID e5f78b42-1118-4dc9-aca7-d363a0a8c910 returned inaccessible via direct fetch 2026-11-15. GitHub all-state exact employer/title no matches; both Gmail accounts exact employer/title no receipts. Missing exactly: current employer-authored complete JD with usable live exact Ashby application route; do not infer vacancy from indexed title."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Gradient AI Research Engineer: employer Ashby exact UUID e5f78b42-1118-4dc9-aca7-d363a0a8c910 returned inaccessible via direct fetch 2026-11-15. GitHub all-state exact employer/title no matches; both Gmail accounts exact employer/title no receipts. Missing exactly: current employer-authored complete JD with usable live exact Ashby application route; do not infer vacancy from indexed title.",
+        "status": "RETRY"
       },
       "seq": 125,
       "source": "freehire:public-api:SG",
@@ -1212,11 +1212,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T20:56:00+08:00",
-        "missing_evidence": "Clera exact Ashby 0890b84c-3391-457c-b762-4d42e558acc9 inaccessible (2026-11-14). CLOSED #967 records same-title QC Automation family with different UUID 53fc40b6-f5d1-4485-8ec5-c19c12482432, 404 and LinkedIn no longer accepting. Other indexed same-title Ashby UUIDs do not establish distinct open vacancy. Both Gmail accounts show no QC Automation application receipt (account 2 only job-alert digests). Missing exactly: live employer-confirmed application action for 0890b84c or authoritative current alias. Preserve Pending; no duplicate ISSUE or ACK."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Clera exact Ashby 0890b84c-3391-457c-b762-4d42e558acc9 inaccessible (2026-11-14). CLOSED #967 records same-title QC Automation family with different UUID 53fc40b6-f5d1-4485-8ec5-c19c12482432, 404 and LinkedIn no longer accepting. Other indexed same-title Ashby UUIDs do not establish distinct open vacancy. Both Gmail accounts show no QC Automation application receipt (account 2 only job-alert digests). Missing exactly: live employer-confirmed application action for 0890b84c or authoritative current alias. Preserve Pending; no duplicate ISSUE or ACK.",
+        "status": "RETRY"
       },
       "seq": 128,
       "source": "freehirefetch:official-ats:SG",
@@ -1484,11 +1484,11 @@
       "query": "Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T22:56:49+08:00",
-        "missing_evidence": "Clera Research Engineer Benchmarks source Ashby a51984da-7278-46bd-a0c5-939d2ac72999: indexed employer JD appears under other Singapore UUIDs (58f6f9be..., ed8a86b0..., 160498c1...), but attempted 58f6f9be exact page returns 404 and historical closed Issue #277 documents same-title no-longer-accepting. Distinct UUIDs are not proof of a new live requisition. Missing exactly: live employer application action for source UUID a51984da or authoritative current alias. Preserve Pending."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "Clera Research Engineer Benchmarks source Ashby a51984da-7278-46bd-a0c5-939d2ac72999: indexed employer JD appears under other Singapore UUIDs (58f6f9be..., ed8a86b0..., 160498c1...), but attempted 58f6f9be exact page returns 404 and historical closed Issue #277 documents same-title no-longer-accepting. Distinct UUIDs are not proof of a new live requisition. Missing exactly: live employer application action for source UUID a51984da or authoritative current alias. Preserve Pending.",
+        "status": "RETRY"
       },
       "seq": 136,
       "source": "freehirefetch:official-ats:SG",
@@ -1564,11 +1564,11 @@
       "query": "Paya Lebar, East Region",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T21:55:24+08:00",
-        "missing_evidence": "2026-11-14: Gmail secondary confirms 2026-10-11 AZTECH AI Engineer (Computer Vision) application and 2026-10-26 closure for that prior listing. Current JobStreet indexed employer listing is a newer Paya Lebar AI Engineer (Computer Vision), $4,800–7,000, with separate computer-vision video analytics JD; identical title does not prove same requisition. Missing exactly: JobStreet listing ID / employer requisition mapping between the October applied-and-closed job and the current source listing. Preserve Pending; no new APPLY or duplicate ACK."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "2026-11-14: Gmail secondary confirms 2026-10-11 AZTECH AI Engineer (Computer Vision) application and 2026-10-26 closure for that prior listing. Current JobStreet indexed employer listing is a newer Paya Lebar AI Engineer (Computer Vision), $4,800–7,000, with separate computer-vision video analytics JD; identical title does not prove same requisition. Missing exactly: JobStreet listing ID / employer requisition mapping between the October applied-and-closed job and the current source listing. Preserve Pending; no new APPLY or duplicate ACK.",
+        "status": "RETRY"
       },
       "seq": 139,
       "source": "freehire:public-api:SG",
@@ -1616,11 +1616,11 @@
       "query": "NTU Main Campus, Singapore",
       "retries": 0,
       "scout_review": {
-        "status": "RETRY",
-        "decision": "PRESERVE_PENDING",
         "ack": false,
         "checked_at": "2026-11-14T22:56:49+08:00",
-        "missing_evidence": "NTU R00024943: official employer Workday JD independently indexed and visible (web crawl 2026-11-14); MSc eligible but duties primarily embodied AI safety/robot operation, weaker NLP/agent fit. Exact employer page opens with no readable live apply form, so current application action remains unverified. GitHub exact ID/title search and BOTH Gmail accounts show no application receipt. Missing exactly: live employer-controlled application form for R00024943. Preserve Pending."
+        "decision": "PRESERVE_PENDING",
+        "missing_evidence": "NTU R00024943: official employer Workday JD independently indexed and visible (web crawl 2026-11-14); MSc eligible but duties primarily embodied AI safety/robot operation, weaker NLP/agent fit. Exact employer page opens with no readable live apply form, so current application action remains unverified. GitHub exact ID/title search and BOTH Gmail accounts show no application receipt. Missing exactly: live employer-controlled application form for R00024943. Preserve Pending.",
+        "status": "RETRY"
       },
       "seq": 140,
       "source": "freehire:public-api:SG",
@@ -1671,6 +1671,63 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Machine Learning Engineer, LLM/VLM - Monee",
       "url": "https://sg.jobstreet.com/job/95887225"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p><strong>About Menlo</strong><br/>Menlo Research is an Applied R&amp;D lab building Asimov, an open-source humanoid robot platform, and the full software stack that powers it. Our mission is to make humanoid labor economically viable, turning software into physical labor at scale. We build across the full stack: hardware architecture, locomotion, autonomy, simulation, and infrastructure. We move fast, ship to real robots, and open-source everything we can. If you want your work to matter beyond a paper or a demo, this is the place.<br/><br/><strong>The Role</strong><br/>As a Robotics AI Engineer, you will work at the intersection of learning and hardware, training and deploying policies that run on Asimov in the real world. This is not a research role in the traditional sense. You will be expected to get results on physical robots, not just in simulation, and to iterate fast when things break. You will work closely with the hardware, firmware, and infrastructure teams to close the loop between training and deployment.<br/><br/><strong>What You Will Do</strong></p><ul><li><p>Design and train RL and imitation learning policies for locomotion, manipulation, or whole-body control</p></li><li><p>Run experiments on physical hardware and close the sim-to-real gap through systematic debugging and domain adaptation</p></li><li><p>Build and maintain simulation environments and data pipelines that support fast policy iteration</p></li><li><p>Instrument robot deployments and analyze failure modes to feed improvements back into training</p></li><li><p>Collaborate with hardware and firmware engineers to understand physical constraints and improve policy robustness</p></li></ul><p><br/><strong>What We Are Looking For</strong></p><ul><li><p>Strong foundations in reinforcement learning or imitation learning, with hands-on experience training policies that run on real systems</p></li><li><p>Comfort working directly with robots, not just simulators</p></li><li><p>Proficiency in Python and familiarity with standard RL/ML frameworks (JAX, PyTorch, IsaacGym/IsaacLab, MuJoCo, or similar)</p></li><li><p>An empirical, debugging-first mindset, you care about what actually works on hardware</p></li><li><p>Ability to move fast and context-switch between research problems and engineering tasks</p></li></ul><p><br/><strong>Nice to Have</strong></p><ul><li><p>Prior work on humanoid or legged robot platforms</p></li><li><p>Experience with sim-to-real transfer techniques (domain randomization, system identification, noise injection)</p></li><li><p>Contributions to open-source robotics projects</p></li><li><p>Background in control theory, trajectory optimization, or dynamics</p></li></ul><p><br/><strong>Why Join Menlo</strong><br/>The policies you train do not sit in a notebook. They run on a real humanoid, in the real world, on short feedback loops. You will see your work move physical hardware within days, not quarters. You will collaborate directly with the hardware, firmware, and infrastructure teams, with high visibility and real stakes, and everything you can open-source, you will. If you want to build the systems that turn software into physical labor, this is where it happens.</p><p><strong>A Note on AI</strong></p><p>You don't need deep AI expertise for every role, but we do expect everyone at Menlo to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement. When that's the case, we'll say so explicitly in the qualifications. People who thrive here don't treat AI as a novelty. They use it to think better, and make their work easier for others to build on.</p><p><strong>Equal Opportunity and Accommodations</strong></p><p>We hire talented people from a wide range of backgrounds. If you're excited about a role but don't meet every bullet, we still encourage you to apply. Menlo Research is an equal opportunity employer and does not discriminate on the basis of any legally protected characteristic. Menlo provides reasonable accommodations during the application process. If you need one, please let your recruiter know.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|robotics-ai-engineer-menlo-yrpfvbir",
+      "company": "Menlo",
+      "description_excerpt": "<p><strong>About Menlo</strong><br/>Menlo Research is an Applied R&amp;D lab building Asimov, an open-source humanoid robot platform, and the full software stack that powers it. Our mission is to make humanoid labor economically viable, tur",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-14T16:35:50.963689Z",
+      "key": "sg:d3f45dbb2240abbce4d4",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "Singapore",
+      "retries": 0,
+      "seq": 144,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "robotics-ai-engineer-menlo-yrpfvbir",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "Robotics AI Engineer",
+      "url": "https://jobs.ashbyhq.com/menlo/da98653d-8d51-4aaa-8500-6af9927f9716"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NRF, Ministry of Digital Development and Information (MDDI), Infocomm Media Development Authority (IMDA), Economic Development Board (EDB) and Enterprise Singapore (ESG). We bring together research institutions and the vibrant ecosystem of AI start-ups and companies to support impactful research, develop talent, and power Singapore&#39;s AI efforts.</p><p></p><p>The AI Products Pillar of AI Singapore develops AI-powered products and solutions that benefit Singapore and the region. We are looking for an AI Engineer to contribute to the development, training, evaluation and engineering of state-of-the-art multilingual, multicultural and multimodal foundation Large Language Models (LLMs), with a focus on underrepresented languages and cultures and real-world AI applications. The role involves working at the intersection of frontier LLM research, large-scale data engineering, distributed model training, evaluation, and productisation.</p><p></p><p>This position will be hosted at the Nanyang Technological University (NTU) under VP (Artificial Intelligence &amp; Digital Economy)’s office and we welcome you to join our community.</p><p></p><p><u><b>Key Responsibilities:</b></u></p><ul><li><p>Develop, train, fine-tune and evaluate multilingual, multicultural and multimodal foundation LLMs and related technologies, including continued pre-training, supervised fine-tuning, instruction tuning, preference optimisation and model adaptation.</p></li><li><p>Build and maintain scalable data pipelines for multilingual text ingestion, cleaning, filtering, deduplication, tokenisation, contamination detection and dataset mixture creation.</p></li><li><p>Support large-scale distributed model training workflows, including experiment tracking, checkpointing, training monitoring, debugging, profiling and compute optimisation.</p></li><li><p>Review frontier AI and LLM research papers, reproduce relevant methods, and translate research findings into practical improvements in model training, evaluation and deployment workflows.</p></li><li><p>Contribute to reusable engineering assets such as training scripts, evaluation tools, model artefacts, APIs, documentation and deployment-ready components.</p></li><li><p>Collaborate with internal teams, external research labs, academic institutions, industry partners and ecosystem stakeholders on LLM research, development and knowledge-sharing activities.</p></li><li><p>Support AI Singapore’s community-building efforts through technical sharing, seminars, workshops, publications or other outreach activities where relevant.</p></li></ul><p></p><p><u><b>Requirements:</b></u></p><p>We welcome applicants from all disciplines and qualification pathways, including NITEC, Diploma, Bachelor’s, Master’s or PhD holders, as well as candidates with equivalent practical experience. A formal qualification in Computer Science, Artificial Intelligence, Machine Learning, Data Science, Engineering, Mathematics, Computational Linguistics or a related field would be advantageous but is not mandatory.</p><p></p><p>Candidates should be able to demonstrate the following skills and experience:</p><ul><li><p><b>Strong AI/ML engineering capability:</b> Proficient in Python with strong software engineering practices, including clean and modular code, Git, testing, documentation and code review. Hands-on experience with PyTorch and modern NLP/LLM frameworks, especially the Hugging Face ecosystem such as Transformers, Datasets, Tokenizers, Accelerate and TRL.</p></li><li><p><b>LLM development and multilingual NLP expertise:</b> Experience or strong working knowledge in LLM pre-training, continued pre-training, fine-tuning, instruction tuning, preference optimisation, evaluation and model adaptation. Familiarity with multilingual NLP challenges such as low-resource languages, code-switching, language imbalance, script diversity, tokenisation issues and multilingual benchmark design.</p></li><li><p><b>Large-scale data and training pipeline development:</b> Ability to build scalable pipelines for text processing, dataset preparation and model training. Familiarity with distributed training concepts, GPU-based training, checkpointing, experiment tracking, training stability and compute optimisation.</p></li><li><p><b>MLOps, infrastructure and deployment:</b> Familiarity with Linux environments, Docker, CI/CD concepts, cloud platforms or GPU/HPC clusters. Experience with reproducible model development workflows, model versioning, evaluation automation and deployment through APIs or serving frameworks such as vLLM, SGLang, TGI or equivalent tools would be advantageous.</p></li><li><p><b>Research, problem-solving and communication:</b> Able to read and evaluate research papers, design experiments, conduct ablation studies, analyse results and translate findings into practical model or system improvements. Able to communicate technical concepts, trade-offs and evaluation outcomes clearly to both technical and non-technical stakeholders.</p></li><li><p><b>Personal attributes:</b> Self-directed learner with strong curiosity, high ownership and resilience. Collaborative, rigorous and engineering-minded, with a commitment to reproducibility, reliability, documentation and responsible AI development.</p></li></ul><p></p><p><span><span><span><span>We regret that only shortlisted candidates will be notified.</span></span></span></span></p><p></p><p></p><p></p>Hiring Institution: NTU<p></p><p></p><p></p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-ai-products-ntu-z657hcsf",
+      "company": "Ntu",
+      "description_excerpt": "<p>AI Singapore (AISG) is a national AI programme launched by the National Research Foundation (NRF), Singapore, to build and anchor deep national capabilities in AI.  AISG is supported through a government-wide partnership including the NR",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-14T16:35:50.963720Z",
+      "key": "sg:4b0434c85142d16e14f2",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "prior_wait_employer_hint": true,
+      "query": "NTU Main Campus, Singapore",
+      "retries": 0,
+      "seq": 145,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-ai-products-ntu-z657hcsf",
+      "source_listing_url": "",
+      "source_platform": "Employer ATS / other",
+      "state": "UNVERIFIED_INDEX",
+      "title": "AI Engineer (AI Products)",
+      "url": "https://ntu.wd3.myworkdayjobs.com/Careers/job/NTU-Main-Campus-Singapore/AI-Engineer--AI-Products-_R00024969"
     }
   ],
   "terminal": [
@@ -5379,13 +5436,24 @@
       },
       "description_excerpt": "<p><strong>Investment Company of the People’s Republic of China (Singapore) Pte Ltd</strong> is a fully owned subsidiary of the People’s Bank of China. The company manages a part of foreign exchange reserve within the scope authorized by th",
       "discovery_access": "API_PROXY_ONLY",
+      "evidence_url": "https://sg.jobstreet.com/job/95439617",
       "first_seen_at": "2026-11-10T17:44:46.022893Z",
       "key": "sg:758fb97bd538822f8aa9",
       "last_error": null,
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Singapore",
+      "reason": "Exact employer-authored JobStreet listing 95439617 and role AI Engineer match already-applied WAIT #977; Issue records direct-email application 2026-11-14, corroborated by sent Gmail 'Application — AI Engineer — Ko Lih Han'. Do not reapply.",
       "retries": 0,
+      "reviewed_at": "2026-11-14T10:55:46Z",
+      "scout_review": {
+        "ack": true,
+        "checked_at": "2026-11-14T18:55:46+08:00",
+        "decision": "PRIOR_WAIT",
+        "evidence": "Exact employer + title + JobStreet 95439617; WAIT #977 and sent Gmail confirmed",
+        "issue_url": "https://github.com/kolihhan/job-resources/issues/977",
+        "status": "DUPLICATE_CONFIRMED"
+      },
       "seq": 93,
       "source": "freehire:public-api:SG",
       "source_evidence": "listing_only",
@@ -5394,18 +5462,7 @@
       "source_platform": "JobStreet",
       "state": "DUPLICATE_CONFIRMED",
       "title": "AI ENGINEER",
-      "url": "https://sg.jobstreet.com/job/95439617",
-      "reason": "Exact employer-authored JobStreet listing 95439617 and role AI Engineer match already-applied WAIT #977; Issue records direct-email application 2026-11-14, corroborated by sent Gmail 'Application — AI Engineer — Ko Lih Han'. Do not reapply.",
-      "evidence_url": "https://sg.jobstreet.com/job/95439617",
-      "reviewed_at": "2026-11-14T10:55:46Z",
-      "scout_review": {
-        "ack": true,
-        "status": "DUPLICATE_CONFIRMED",
-        "decision": "PRIOR_WAIT",
-        "checked_at": "2026-11-14T18:55:46+08:00",
-        "issue_url": "https://github.com/kolihhan/job-resources/issues/977",
-        "evidence": "Exact employer + title + JobStreet 95439617; WAIT #977 and sent Gmail confirmed"
-      }
+      "url": "https://sg.jobstreet.com/job/95439617"
     }
   ],
   "version": 1
