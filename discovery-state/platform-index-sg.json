@@ -1692,34 +1692,6 @@
       "state": "UNVERIFIED_INDEX",
       "title": "Machine Learning Engineer, LLM/VLM - Monee",
       "url": "https://sg.jobstreet.com/job/95887225"
-    },
-    {
-      "api_source_context": {
-        "employer_verified": false,
-        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
-        "text": "<p>Salary: $3,000 – $3,500 per month</p><h2><strong>AI Engineer – Associate</strong></h2><p><strong>Location:</strong> Singapore(on-site)</p><p><strong>Experience:</strong> Minimum 2 Years</p><p><strong>Open positions: </strong>2</p><p><strong>Preferred Singapore citizens or Permanent Resident.</strong></p><h2><strong>Key Responsibilities</strong></h2><p>·       Develop and implement AI/ML models for business requirements.</p><p>·       Support data preparation, cleaning, and feature engineering.</p><p>·       Test and validate model performance and accuracy.</p><p>·       Assist in integrating AI/ML models into applications.</p><p>·       Troubleshoot model issues and support performance improvements.</p><h2><strong>Required Skillset</strong></h2><p>·       Proficiency in <strong>Python</strong> programming.</p><p>·       Basic hands-on experience with <strong>Machine Learning frameworks</strong> such as Scikit-learn, TensorFlow, or PyTorch.</p><p>·       Knowledge of data processing, feature engineering, and model validation.</p><p>·       Working knowledge of <strong>SQL and Git</strong>.</p><p>·       Basic understanding of cloud AI services such as AWS, Azure, or Google Cloud.</p><h2><strong>Qualification Needed</strong></h2><p>·       Degree or Diploma in Computer Science, Data Science, Artificial Intelligence, or a related field.</p><p>·       Minimum <strong>2 years of relevant experience</strong> in AI/ML model development and implementation.</p>",
-        "truncated": false
-      },
-      "ats_key": "freehire|ai-engineer-associate-paves-technologies-nfwl6ly5",
-      "company": "Paves Technologies",
-      "description_excerpt": "<p>Salary: $3,000 – $3,500 per month</p><h2><strong>AI Engineer – Associate</strong></h2><p><strong>Location:</strong> Singapore(on-site)</p><p><strong>Experience:</strong> Minimum 2 Years</p><p><strong>Open positions: </strong>2</p><p><str",
-      "discovery_access": "API_PROXY_ONLY",
-      "first_seen_at": "2026-11-14T08:56:09.822418Z",
-      "key": "sg:e65caaa9a14491430759",
-      "last_error": null,
-      "market": "SG",
-      "platform": "public jobs API (unverified)",
-      "query": "East Region",
-      "retries": 0,
-      "seq": 143,
-      "source": "freehire:public-api:SG",
-      "source_evidence": "listing_only",
-      "source_job_id": "ai-engineer-associate-paves-technologies-nfwl6ly5",
-      "source_listing_url": "",
-      "source_platform": "JobStreet",
-      "state": "UNVERIFIED_INDEX",
-      "title": "AI Engineer – Associate",
-      "url": "https://sg.jobstreet.com/job/95294829"
     }
   ],
   "terminal": [
@@ -5374,6 +5346,43 @@
       "state": "HARD_REJECTED",
       "title": "Senior Localization Engineer / Research Engineer, Robotics AI (Visual Navigation)",
       "url": "https://jobs.smartrecruiters.com/Grab/744000148945093"
+    },
+    {
+      "api_source_context": {
+        "employer_verified": false,
+        "provenance": "UNVERIFIED_THIRD_PARTY_API_FULL_TEXT",
+        "text": "<p>Salary: $3,000 – $3,500 per month</p><h2><strong>AI Engineer – Associate</strong></h2><p><strong>Location:</strong> Singapore(on-site)</p><p><strong>Experience:</strong> Minimum 2 Years</p><p><strong>Open positions: </strong>2</p><p><strong>Preferred Singapore citizens or Permanent Resident.</strong></p><h2><strong>Key Responsibilities</strong></h2><p>·       Develop and implement AI/ML models for business requirements.</p><p>·       Support data preparation, cleaning, and feature engineering.</p><p>·       Test and validate model performance and accuracy.</p><p>·       Assist in integrating AI/ML models into applications.</p><p>·       Troubleshoot model issues and support performance improvements.</p><h2><strong>Required Skillset</strong></h2><p>·       Proficiency in <strong>Python</strong> programming.</p><p>·       Basic hands-on experience with <strong>Machine Learning frameworks</strong> such as Scikit-learn, TensorFlow, or PyTorch.</p><p>·       Knowledge of data processing, feature engineering, and model validation.</p><p>·       Working knowledge of <strong>SQL and Git</strong>.</p><p>·       Basic understanding of cloud AI services such as AWS, Azure, or Google Cloud.</p><h2><strong>Qualification Needed</strong></h2><p>·       Degree or Diploma in Computer Science, Data Science, Artificial Intelligence, or a related field.</p><p>·       Minimum <strong>2 years of relevant experience</strong> in AI/ML model development and implementation.</p>",
+        "truncated": false
+      },
+      "ats_key": "freehire|ai-engineer-associate-paves-technologies-nfwl6ly5",
+      "company": "Paves Technologies",
+      "description_excerpt": "<p>Salary: $3,000 – $3,500 per month</p><h2><strong>AI Engineer – Associate</strong></h2><p><strong>Location:</strong> Singapore(on-site)</p><p><strong>Experience:</strong> Minimum 2 Years</p><p><strong>Open positions: </strong>2</p><p><str",
+      "discovery_access": "API_PROXY_ONLY",
+      "first_seen_at": "2026-11-14T08:56:09.822418Z",
+      "key": "sg:e65caaa9a14491430759",
+      "last_error": null,
+      "market": "SG",
+      "platform": "public jobs API (unverified)",
+      "query": "East Region",
+      "retries": 0,
+      "seq": 143,
+      "source": "freehire:public-api:SG",
+      "source_evidence": "listing_only",
+      "source_job_id": "ai-engineer-associate-paves-technologies-nfwl6ly5",
+      "source_listing_url": "",
+      "source_platform": "JobStreet",
+      "state": "HARD_REJECTED",
+      "title": "AI Engineer – Associate",
+      "url": "https://sg.jobstreet.com/job/95294829",
+      "reason": "Employer-authored JobStreet exact job 95294829 is explicitly Contract/Temp and general AI/ML data preparation, feature engineering and model integration, not substantive LLM/Agent/RAG research or engineering. Non-research contract fails RULES §4 permanent-employment gate; preferred Singapore citizen/PR adds work-pass friction but is not the rejection reason.",
+      "reviewed_at": "2026-11-14T08:57:30Z",
+      "evidence_url": "https://sg.jobstreet.com/job/95294829",
+      "scout_review": {
+        "status": "HARD_REJECTED",
+        "ack": true,
+        "checked_at": "2026-11-14T08:57:30Z",
+        "evidence": "Employer-authored full JobStreet 95294829, Contract/Temp, generic AI/ML duties; GitHub all-state Paves/95294829 no match; both Gmail Paves queries show no application receipt (second account has job alerts only)."
+      }
     }
   ],
   "version": 1
