@@ -502,17 +502,17 @@
       "discovery_access": "OFFICIAL_ATS_SOURCE",
       "first_seen_at": "2026-11-10T12:45:59.689068Z",
       "key": "sg:7a417064eeb00fd21d6a",
-      "last_error": "Exact NTU Workday R00026296-1 application page inaccessible (2026-11-12 23:xx MYT); stored employer JD remains available for fit only. Both Gmail accounts searched by neuroscience/AI title; no authoritative exact requisition receipt. Missing exactly: current first-party Workday apply form for R00026296-1.",
+      "last_error": "Exact NTU Workday requisition R00026296-1 live apply form inaccessible on 2026-11-14; stored first-party JD is available and primarily neuroscience/behavioral research. GitHub same-role #748 SKIP is a historical related role, not proven exact ID duplicate; both Gmail accounts searched exact title/ID without direct receipt. Missing exactly: current employer-controlled Workday application form for R00026296-1.",
       "market": "SG",
       "platform": "workday official ATS",
       "query": "NTU Novena Campus, Singapore",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-12T23:04:27+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "Exact NTU Workday R00026296-1 application page inaccessible (2026-11-12 23:xx MYT); stored employer JD remains available for fit only. Both Gmail accounts searched by neuroscience/AI title; no authoritative exact requisition receipt. Missing exactly: current first-party Workday apply form for R00026296-1.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-14T11:00:27+08:00",
+        "missing_evidence": "Exact NTU Workday requisition R00026296-1 live apply form inaccessible on 2026-11-14; stored first-party JD is available and primarily neuroscience/behavioral research. GitHub same-role #748 SKIP is a historical related role, not proven exact ID duplicate; both Gmail accounts searched exact title/ID without direct receipt. Missing exactly: current employer-controlled Workday application form for R00026296-1."
       },
       "seq": 91,
       "source": "freehirefetch:official-ats:SG",
@@ -1616,7 +1616,7 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T14:30:55.790104Z",
       "key": "sg:31ab971bbe7bf99bee07",
-      "last_error": "Exact NTU Workday R00024943 Embodied AI Safety page inaccessible on 2026-11-14. GitHub title/ID searches and both Gmail exact title searches show no matching application receipt, but this is not proof of non-application. Missing: live employer apply form for R00024943.",
+      "last_error": "Exact NTU Workday requisition R00024943 live apply form inaccessible on 2026-11-14; stored first-party JD is available and shows MSc + Python with embodied AI safety/robotics focus. GitHub all-state exact ID/title and both Gmail title/ID searches returned no direct application evidence; no proof of unsubmitted. Missing exactly: current employer-controlled Workday application form for R00024943.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "prior_wait_employer_hint": true,
@@ -1626,8 +1626,8 @@
         "status": "RETRY",
         "decision": "PRESERVE_PENDING",
         "ack": false,
-        "checked_at": "2026-11-14T00:15:00Z",
-        "missing_evidence": "Exact NTU Workday R00024943 Embodied AI Safety page inaccessible on 2026-11-14. GitHub title/ID searches and both Gmail exact title searches show no matching application receipt, but this is not proof of non-application. Missing: live employer apply form for R00024943."
+        "checked_at": "2026-11-14T11:00:27+08:00",
+        "missing_evidence": "Exact NTU Workday requisition R00024943 live apply form inaccessible on 2026-11-14; stored first-party JD is available and shows MSc + Python with embodied AI safety/robotics focus. GitHub all-state exact ID/title and both Gmail title/ID searches returned no direct application evidence; no proof of unsubmitted. Missing exactly: current employer-controlled Workday application form for R00024943."
       },
       "seq": 140,
       "source": "freehire:public-api:SG",
