@@ -1558,17 +1558,17 @@
       "discovery_access": "API_PROXY_ONLY",
       "first_seen_at": "2026-11-13T14:30:55.790049Z",
       "key": "sg:feeb32248553e772f4ca",
-      "last_error": "JobStreet email confirms an AZTECH AI Engineer (Computer Vision) application submitted 2026-10-11 and closure notice 2026-10-26, but pending is newer JobStreet 95871661. Missing exact employer/JobStreet requisition mapping establishing whether 95871661 is a new vacancy or the previously applied role. Do not reapply.",
+      "last_error": "2026-11-14: Gmail secondary confirms 2026-10-11 AZTECH AI Engineer (Computer Vision) application and 2026-10-26 closure for that prior listing. Current JobStreet indexed employer listing is a newer Paya Lebar AI Engineer (Computer Vision), $4,800–7,000, with separate computer-vision video analytics JD; identical title does not prove same requisition. Missing exactly: JobStreet listing ID / employer requisition mapping between the October applied-and-closed job and the current source listing. Preserve Pending; no new APPLY or duplicate ACK.",
       "market": "SG",
       "platform": "public jobs API (unverified)",
       "query": "Paya Lebar, East Region",
       "retries": 0,
       "scout_review": {
-        "ack": false,
-        "checked_at": "2026-11-13T23:57:26+08:00",
+        "status": "RETRY",
         "decision": "PRESERVE_PENDING",
-        "missing_evidence": "JobStreet email confirms an AZTECH AI Engineer (Computer Vision) application submitted 2026-10-11 and closure notice 2026-10-26, but pending is newer JobStreet 95871661. Missing exact employer/JobStreet requisition mapping establishing whether 95871661 is a new vacancy or the previously applied role. Do not reapply.",
-        "status": "RETRY"
+        "ack": false,
+        "checked_at": "2026-11-14T21:55:24+08:00",
+        "missing_evidence": "2026-11-14: Gmail secondary confirms 2026-10-11 AZTECH AI Engineer (Computer Vision) application and 2026-10-26 closure for that prior listing. Current JobStreet indexed employer listing is a newer Paya Lebar AI Engineer (Computer Vision), $4,800–7,000, with separate computer-vision video analytics JD; identical title does not prove same requisition. Missing exactly: JobStreet listing ID / employer requisition mapping between the October applied-and-closed job and the current source listing. Preserve Pending; no new APPLY or duplicate ACK."
       },
       "seq": 139,
       "source": "freehire:public-api:SG",
